@@ -13,170 +13,170 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.String[] optionalDoubleSidedShaderKeywords
 		/// </summary>
-		protected RFieldArray<RSystem.RString> r_optionalDoubleSidedShaderKeywords;
-		public virtual RFieldArray<RSystem.RString> RoptionalDoubleSidedShaderKeywords
+		protected RFieldArray<RSystem.RString> r_FoptionalDoubleSidedShaderKeywords;
+		public virtual RFieldArray<RSystem.RString> RFoptionalDoubleSidedShaderKeywords
 		{
 			get
 			{
-				if(r_optionalDoubleSidedShaderKeywords == null)
+				if(r_FoptionalDoubleSidedShaderKeywords == null)
 				{
-					r_optionalDoubleSidedShaderKeywords = new(this, "optionalDoubleSidedShaderKeywords");
-					r_optionalDoubleSidedShaderKeywords.SetBelong(this.instance);
+					r_FoptionalDoubleSidedShaderKeywords = new(this, "optionalDoubleSidedShaderKeywords");
+					r_FoptionalDoubleSidedShaderKeywords.SetBelong(this.instance);
 				}
-				return r_optionalDoubleSidedShaderKeywords;
+				return r_FoptionalDoubleSidedShaderKeywords;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean frontTriangleCounterClockwise
 		/// </summary>
-		protected RSystem.RBoolean r_frontTriangleCounterClockwise;
-		public virtual RSystem.RBoolean RfrontTriangleCounterClockwise
+		protected RSystem.RBoolean r_FfrontTriangleCounterClockwise;
+		public virtual RSystem.RBoolean RFfrontTriangleCounterClockwise
 		{
 			get
 			{
-				if(r_frontTriangleCounterClockwise == null)
+				if(r_FfrontTriangleCounterClockwise == null)
 				{
-					r_frontTriangleCounterClockwise = new(this, "frontTriangleCounterClockwise");
-					r_frontTriangleCounterClockwise.SetBelong(this.instance);
+					r_FfrontTriangleCounterClockwise = new(this, "frontTriangleCounterClockwise");
+					r_FfrontTriangleCounterClockwise.SetBelong(this.instance);
 				}
-				return r_frontTriangleCounterClockwise;
+				return r_FfrontTriangleCounterClockwise;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean checkDoubleSidedGIMaterial
 		/// </summary>
-		protected RSystem.RBoolean r_checkDoubleSidedGIMaterial;
-		public virtual RSystem.RBoolean RcheckDoubleSidedGIMaterial
+		protected RSystem.RBoolean r_FcheckDoubleSidedGIMaterial;
+		public virtual RSystem.RBoolean RFcheckDoubleSidedGIMaterial
 		{
 			get
 			{
-				if(r_checkDoubleSidedGIMaterial == null)
+				if(r_FcheckDoubleSidedGIMaterial == null)
 				{
-					r_checkDoubleSidedGIMaterial = new(this, "checkDoubleSidedGIMaterial");
-					r_checkDoubleSidedGIMaterial.SetBelong(this.instance);
+					r_FcheckDoubleSidedGIMaterial = new(this, "checkDoubleSidedGIMaterial");
+					r_FcheckDoubleSidedGIMaterial.SetBelong(this.instance);
 				}
-				return r_checkDoubleSidedGIMaterial;
+				return r_FcheckDoubleSidedGIMaterial;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean forceDoubleSided
 		/// </summary>
-		protected RSystem.RBoolean r_forceDoubleSided;
-		public virtual RSystem.RBoolean RforceDoubleSided
+		protected RSystem.RBoolean r_FforceDoubleSided;
+		public virtual RSystem.RBoolean RFforceDoubleSided
 		{
 			get
 			{
-				if(r_forceDoubleSided == null)
+				if(r_FforceDoubleSided == null)
 				{
-					r_forceDoubleSided = new(this, "forceDoubleSided");
-					r_forceDoubleSided.SetBelong(this.instance);
+					r_FforceDoubleSided = new(this, "forceDoubleSided");
+					r_FforceDoubleSided.SetBelong(this.instance);
 				}
-				return r_forceDoubleSided;
+				return r_FforceDoubleSided;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -203,7 +203,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -214,7 +214,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -225,7 +225,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -236,7 +236,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -247,7 +247,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -258,7 +258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

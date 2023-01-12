@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RBuffers
 		/// <summary>
 		/// System.Buffers.MemoryHandle Pin(Int32)
 		/// </summary>
-		protected RMethod r_Pin_Int32;
-		public virtual RMethod RPin_Int32
+		protected RMethod r_MPin_Int32;
+		public virtual RMethod RMPin_Int32
 		{
 			get
 			{
-				if(r_Pin_Int32 == null)
+				if(r_MPin_Int32 == null)
 				{
-					r_Pin_Int32 = new(this, "Pin", 0, typeof(System.Int32));
-					r_Pin_Int32.SetBelong(this.instance);
+					r_MPin_Int32 = new(this, "Pin", 0, typeof(System.Int32));
+					r_MPin_Int32.SetBelong(this.instance);
 				}
-				return r_Pin_Int32;
+				return r_MPin_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Unpin()
 		/// </summary>
-		protected RMethod r_Unpin;
-		public virtual RMethod RUnpin
+		protected RMethod r_MUnpin;
+		public virtual RMethod RMUnpin
 		{
 			get
 			{
-				if(r_Unpin == null)
+				if(r_MUnpin == null)
 				{
-					r_Unpin = new(this, "Unpin", 0);
-					r_Unpin.SetBelong(this.instance);
+					r_MUnpin = new(this, "Unpin", 0);
+					r_MUnpin.SetBelong(this.instance);
 				}
-				return r_Unpin;
+				return r_MUnpin;
 			}
 		}
 
@@ -67,7 +67,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RBuffers
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@elementIndex};
-            var ___result = RPin_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMPin_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Buffers.MemoryHandle)___result;
         }
@@ -78,7 +78,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RBuffers
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUnpin.Invoke(___genericsType, ___parameters);
+            var ___result = RMUnpin.Invoke(___genericsType, ___parameters);
 
             
         }

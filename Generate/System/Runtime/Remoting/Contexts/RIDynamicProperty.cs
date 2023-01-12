@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RSystem.RString r_Name;
-		public virtual RSystem.RString RName
+		protected RSystem.RString r_PName;
+		public virtual RSystem.RString RPName
 		{
 			get
 			{
-				if(r_Name == null)
+				if(r_PName == null)
 				{
-					r_Name = new(this, "Name", -1);
-					r_Name.SetBelong(this.instance);
+					r_PName = new(this, "Name", -1);
+					r_PName.SetBelong(this.instance);
 				}
-				return r_Name;
+				return r_PName;
 			}
 		}
 

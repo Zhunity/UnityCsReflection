@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Boolean Equals(T, T)
 		/// </summary>
-		protected RMethod r_Equals_T_T;
-		public virtual RMethod REquals_T_T
+		protected RMethod r_MEquals_T_T;
+		public virtual RMethod RMEquals_T_T
 		{
 			get
 			{
-				if(r_Equals_T_T == null)
+				if(r_MEquals_T_T == null)
 				{
-					r_Equals_T_T = new(this, "Equals", 0, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(0));
-					r_Equals_T_T.SetBelong(this.instance);
+					r_MEquals_T_T = new(this, "Equals", 0, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(0));
+					r_MEquals_T_T.SetBelong(this.instance);
 				}
-				return r_Equals_T_T;
+				return r_MEquals_T_T;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode(T)
 		/// </summary>
-		protected RMethod r_GetHashCode_T;
-		public virtual RMethod RGetHashCode_T
+		protected RMethod r_MGetHashCode_T;
+		public virtual RMethod RMGetHashCode_T
 		{
 			get
 			{
-				if(r_GetHashCode_T == null)
+				if(r_MGetHashCode_T == null)
 				{
-					r_GetHashCode_T = new(this, "GetHashCode", 0, Type.MakeGenericMethodParameter(0));
-					r_GetHashCode_T.SetBelong(this.instance);
+					r_MGetHashCode_T = new(this, "GetHashCode", 0, Type.MakeGenericMethodParameter(0));
+					r_MGetHashCode_T.SetBelong(this.instance);
 				}
-				return r_GetHashCode_T;
+				return r_MGetHashCode_T;
 			}
 		}
 
@@ -67,7 +67,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@x, @y};
-            var ___result = REquals_T_T.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_T_T.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -78,7 +78,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = RGetHashCode_T.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode_T.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }

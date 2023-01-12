@@ -13,153 +13,153 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 		/// <summary>
 		/// System.Runtime.Remoting.ObjectHandle CreateInstance(System.ActivationContext)
 		/// </summary>
-		protected RMethod r_CreateInstance_ActivationContext;
-		public virtual RMethod RCreateInstance_ActivationContext
+		protected RMethod r_MCreateInstance_ActivationContext;
+		public virtual RMethod RMCreateInstance_ActivationContext
 		{
 			get
 			{
-				if(r_CreateInstance_ActivationContext == null)
+				if(r_MCreateInstance_ActivationContext == null)
 				{
-					r_CreateInstance_ActivationContext = new(this, "CreateInstance", 0, typeof(System.ActivationContext));
-					r_CreateInstance_ActivationContext.SetBelong(this.instance);
+					r_MCreateInstance_ActivationContext = new(this, "CreateInstance", 0, typeof(System.ActivationContext));
+					r_MCreateInstance_ActivationContext.SetBelong(this.instance);
 				}
-				return r_CreateInstance_ActivationContext;
+				return r_MCreateInstance_ActivationContext;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.ObjectHandle CreateInstance(System.ActivationContext, System.String[])
 		/// </summary>
-		protected RMethod r_CreateInstance_ActivationContext_StringArray;
-		public virtual RMethod RCreateInstance_ActivationContext_StringArray
+		protected RMethod r_MCreateInstance_ActivationContext_StringArray;
+		public virtual RMethod RMCreateInstance_ActivationContext_StringArray
 		{
 			get
 			{
-				if(r_CreateInstance_ActivationContext_StringArray == null)
+				if(r_MCreateInstance_ActivationContext_StringArray == null)
 				{
-					r_CreateInstance_ActivationContext_StringArray = new(this, "CreateInstance", 0, typeof(System.ActivationContext), typeof(System.String).MakeArrayType());
-					r_CreateInstance_ActivationContext_StringArray.SetBelong(this.instance);
+					r_MCreateInstance_ActivationContext_StringArray = new(this, "CreateInstance", 0, typeof(System.ActivationContext), typeof(System.String).MakeArrayType());
+					r_MCreateInstance_ActivationContext_StringArray.SetBelong(this.instance);
 				}
-				return r_CreateInstance_ActivationContext_StringArray;
+				return r_MCreateInstance_ActivationContext_StringArray;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.ObjectHandle CreateInstanceHelper(System.AppDomainSetup)
 		/// </summary>
-		protected static RMethod r_CreateInstanceHelper_AppDomainSetup;
-		public static RMethod RCreateInstanceHelper_AppDomainSetup
+		protected static RMethod r_MCreateInstanceHelper_AppDomainSetup;
+		public static RMethod RMCreateInstanceHelper_AppDomainSetup
 		{
 			get
 			{
-				if(r_CreateInstanceHelper_AppDomainSetup == null)
+				if(r_MCreateInstanceHelper_AppDomainSetup == null)
 				{
-					r_CreateInstanceHelper_AppDomainSetup = new(typeof(System.Runtime.Hosting.ApplicationActivator), "CreateInstanceHelper", 0, typeof(System.AppDomainSetup));
-					r_CreateInstanceHelper_AppDomainSetup.SetBelong(null);
+					r_MCreateInstanceHelper_AppDomainSetup = new(typeof(System.Runtime.Hosting.ApplicationActivator), "CreateInstanceHelper", 0, typeof(System.AppDomainSetup));
+					r_MCreateInstanceHelper_AppDomainSetup.SetBelong(null);
 				}
-				return r_CreateInstanceHelper_AppDomainSetup;
+				return r_MCreateInstanceHelper_AppDomainSetup;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -186,7 +186,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@activationContext};
-            var ___result = RCreateInstance_ActivationContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateInstance_ActivationContext.Invoke(___genericsType, ___parameters);
 
             return (System.Runtime.Remoting.ObjectHandle)___result;
         }
@@ -197,7 +197,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@activationContext, @activationCustomData};
-            var ___result = RCreateInstance_ActivationContext_StringArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateInstance_ActivationContext_StringArray.Invoke(___genericsType, ___parameters);
 
             return (System.Runtime.Remoting.ObjectHandle)___result;
         }
@@ -208,7 +208,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@adSetup};
-            var ___result = RCreateInstanceHelper_AppDomainSetup.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateInstanceHelper_AppDomainSetup.Invoke(___genericsType, ___parameters);
 
             return (System.Runtime.Remoting.ObjectHandle)___result;
         }
@@ -219,7 +219,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -230,7 +230,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -241,7 +241,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -252,7 +252,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -263,7 +263,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -274,7 +274,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

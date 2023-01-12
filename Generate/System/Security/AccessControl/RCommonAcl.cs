@@ -13,918 +13,918 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 default_capacity
 		/// </summary>
-		protected static RSystem.RInt32 r_default_capacity;
-		public static RSystem.RInt32 Rdefault_capacity
+		protected static RSystem.RInt32 r_Fdefault_capacity;
+		public static RSystem.RInt32 RFdefault_capacity
 		{
 			get
 			{
-				if(r_default_capacity == null)
+				if(r_Fdefault_capacity == null)
 				{
-					r_default_capacity = new(typeof(System.Security.AccessControl.CommonAcl), "default_capacity");
-					r_default_capacity.SetBelong(null);
+					r_Fdefault_capacity = new(typeof(System.Security.AccessControl.CommonAcl), "default_capacity");
+					r_Fdefault_capacity.SetBelong(null);
 				}
-				return r_default_capacity;
+				return r_Fdefault_capacity;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean is_aefa
 		/// </summary>
-		protected RSystem.RBoolean r_is_aefa;
-		public virtual RSystem.RBoolean Ris_aefa
+		protected RSystem.RBoolean r_Fis_aefa;
+		public virtual RSystem.RBoolean RFis_aefa
 		{
 			get
 			{
-				if(r_is_aefa == null)
+				if(r_Fis_aefa == null)
 				{
-					r_is_aefa = new(this, "is_aefa");
-					r_is_aefa.SetBelong(this.instance);
+					r_Fis_aefa = new(this, "is_aefa");
+					r_Fis_aefa.SetBelong(this.instance);
 				}
-				return r_is_aefa;
+				return r_Fis_aefa;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean is_canonical
 		/// </summary>
-		protected RSystem.RBoolean r_is_canonical;
-		public virtual RSystem.RBoolean Ris_canonical
+		protected RSystem.RBoolean r_Fis_canonical;
+		public virtual RSystem.RBoolean RFis_canonical
 		{
 			get
 			{
-				if(r_is_canonical == null)
+				if(r_Fis_canonical == null)
 				{
-					r_is_canonical = new(this, "is_canonical");
-					r_is_canonical.SetBelong(this.instance);
+					r_Fis_canonical = new(this, "is_canonical");
+					r_Fis_canonical.SetBelong(this.instance);
 				}
-				return r_is_canonical;
+				return r_Fis_canonical;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean is_container
 		/// </summary>
-		protected RSystem.RBoolean r_is_container;
-		public virtual RSystem.RBoolean Ris_container
+		protected RSystem.RBoolean r_Fis_container;
+		public virtual RSystem.RBoolean RFis_container
 		{
 			get
 			{
-				if(r_is_container == null)
+				if(r_Fis_container == null)
 				{
-					r_is_container = new(this, "is_container");
-					r_is_container.SetBelong(this.instance);
+					r_Fis_container = new(this, "is_container");
+					r_Fis_container.SetBelong(this.instance);
 				}
-				return r_is_container;
+				return r_Fis_container;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean is_ds
 		/// </summary>
-		protected RSystem.RBoolean r_is_ds;
-		public virtual RSystem.RBoolean Ris_ds
+		protected RSystem.RBoolean r_Fis_ds;
+		public virtual RSystem.RBoolean RFis_ds
 		{
 			get
 			{
-				if(r_is_ds == null)
+				if(r_Fis_ds == null)
 				{
-					r_is_ds = new(this, "is_ds");
-					r_is_ds.SetBelong(this.instance);
+					r_Fis_ds = new(this, "is_ds");
+					r_Fis_ds.SetBelong(this.instance);
 				}
-				return r_is_ds;
+				return r_Fis_ds;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.RawAcl raw_acl
 		/// </summary>
-		protected RSystem.RSecurity.RAccessControl.RRawAcl r_raw_acl;
-		public virtual RSystem.RSecurity.RAccessControl.RRawAcl Rraw_acl
+		protected RSystem.RSecurity.RAccessControl.RRawAcl r_Fraw_acl;
+		public virtual RSystem.RSecurity.RAccessControl.RRawAcl RFraw_acl
 		{
 			get
 			{
-				if(r_raw_acl == null)
+				if(r_Fraw_acl == null)
 				{
-					r_raw_acl = new(this, "raw_acl");
-					r_raw_acl.SetBelong(this.instance);
+					r_Fraw_acl = new(this, "raw_acl");
+					r_Fraw_acl.SetBelong(this.instance);
 				}
-				return r_raw_acl;
+				return r_Fraw_acl;
 			}
 		}
 
 		/// <summary>
 		/// Int32 BinaryLength
 		/// </summary>
-		protected RSystem.RInt32 r_BinaryLength;
-		public virtual RSystem.RInt32 RBinaryLength
+		protected RSystem.RInt32 r_PBinaryLength;
+		public virtual RSystem.RInt32 RPBinaryLength
 		{
 			get
 			{
-				if(r_BinaryLength == null)
+				if(r_PBinaryLength == null)
 				{
-					r_BinaryLength = new(this, "BinaryLength", -1);
-					r_BinaryLength.SetBelong(this.instance);
+					r_PBinaryLength = new(this, "BinaryLength", -1);
+					r_PBinaryLength.SetBelong(this.instance);
 				}
-				return r_BinaryLength;
+				return r_PBinaryLength;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RSystem.RInt32 r_Count;
-		public virtual RSystem.RInt32 RCount
+		protected RSystem.RInt32 r_PCount;
+		public virtual RSystem.RInt32 RPCount
 		{
 			get
 			{
-				if(r_Count == null)
+				if(r_PCount == null)
 				{
-					r_Count = new(this, "Count", -1);
-					r_Count.SetBelong(this.instance);
+					r_PCount = new(this, "Count", -1);
+					r_PCount.SetBelong(this.instance);
 				}
-				return r_Count;
+				return r_PCount;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsCanonical
 		/// </summary>
-		protected RSystem.RBoolean r_IsCanonical;
-		public virtual RSystem.RBoolean RIsCanonical
+		protected RSystem.RBoolean r_PIsCanonical;
+		public virtual RSystem.RBoolean RPIsCanonical
 		{
 			get
 			{
-				if(r_IsCanonical == null)
+				if(r_PIsCanonical == null)
 				{
-					r_IsCanonical = new(this, "IsCanonical", -1);
-					r_IsCanonical.SetBelong(this.instance);
+					r_PIsCanonical = new(this, "IsCanonical", -1);
+					r_PIsCanonical.SetBelong(this.instance);
 				}
-				return r_IsCanonical;
+				return r_PIsCanonical;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsContainer
 		/// </summary>
-		protected RSystem.RBoolean r_IsContainer;
-		public virtual RSystem.RBoolean RIsContainer
+		protected RSystem.RBoolean r_PIsContainer;
+		public virtual RSystem.RBoolean RPIsContainer
 		{
 			get
 			{
-				if(r_IsContainer == null)
+				if(r_PIsContainer == null)
 				{
-					r_IsContainer = new(this, "IsContainer", -1);
-					r_IsContainer.SetBelong(this.instance);
+					r_PIsContainer = new(this, "IsContainer", -1);
+					r_PIsContainer.SetBelong(this.instance);
 				}
-				return r_IsContainer;
+				return r_PIsContainer;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsDS
 		/// </summary>
-		protected RSystem.RBoolean r_IsDS;
-		public virtual RSystem.RBoolean RIsDS
+		protected RSystem.RBoolean r_PIsDS;
+		public virtual RSystem.RBoolean RPIsDS
 		{
 			get
 			{
-				if(r_IsDS == null)
+				if(r_PIsDS == null)
 				{
-					r_IsDS = new(this, "IsDS", -1);
-					r_IsDS.SetBelong(this.instance);
+					r_PIsDS = new(this, "IsDS", -1);
+					r_PIsDS.SetBelong(this.instance);
 				}
-				return r_IsDS;
+				return r_PIsDS;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsAefa
 		/// </summary>
-		protected RSystem.RBoolean r_IsAefa;
-		public virtual RSystem.RBoolean RIsAefa
+		protected RSystem.RBoolean r_PIsAefa;
+		public virtual RSystem.RBoolean RPIsAefa
 		{
 			get
 			{
-				if(r_IsAefa == null)
+				if(r_PIsAefa == null)
 				{
-					r_IsAefa = new(this, "IsAefa", -1);
-					r_IsAefa.SetBelong(this.instance);
+					r_PIsAefa = new(this, "IsAefa", -1);
+					r_PIsAefa.SetBelong(this.instance);
 				}
-				return r_IsAefa;
+				return r_PIsAefa;
 			}
 		}
 
 		/// <summary>
 		/// Byte Revision
 		/// </summary>
-		protected RSystem.RByte r_Revision;
-		public virtual RSystem.RByte RRevision
+		protected RSystem.RByte r_PRevision;
+		public virtual RSystem.RByte RPRevision
 		{
 			get
 			{
-				if(r_Revision == null)
+				if(r_PRevision == null)
 				{
-					r_Revision = new(this, "Revision", -1);
-					r_Revision.SetBelong(this.instance);
+					r_PRevision = new(this, "Revision", -1);
+					r_PRevision.SetBelong(this.instance);
 				}
-				return r_Revision;
+				return r_PRevision;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.GenericAce Item [Int32]
 		/// </summary>
-		protected RSystem.RSecurity.RAccessControl.RGenericAce r_Item_Int32;
-		public virtual RSystem.RSecurity.RAccessControl.RGenericAce RItem_Int32
+		protected RSystem.RSecurity.RAccessControl.RGenericAce r_PItem_Int32;
+		public virtual RSystem.RSecurity.RAccessControl.RGenericAce RPItem_Int32
 		{
 			get
 			{
-				if(r_Item_Int32 == null)
+				if(r_PItem_Int32 == null)
 				{
-					r_Item_Int32 = new(this, "Item", -1, typeof(System.Int32));
-					r_Item_Int32.SetBelong(this.instance);
+					r_PItem_Int32 = new(this, "Item", -1, typeof(System.Int32));
+					r_PItem_Int32.SetBelong(this.instance);
 				}
-				return r_Item_Int32;
+				return r_PItem_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsSynchronized
 		/// </summary>
-		protected RSystem.RBoolean r_IsSynchronized;
-		public virtual RSystem.RBoolean RIsSynchronized
+		protected RSystem.RBoolean r_PIsSynchronized;
+		public virtual RSystem.RBoolean RPIsSynchronized
 		{
 			get
 			{
-				if(r_IsSynchronized == null)
+				if(r_PIsSynchronized == null)
 				{
-					r_IsSynchronized = new(this, "IsSynchronized", -1);
-					r_IsSynchronized.SetBelong(this.instance);
+					r_PIsSynchronized = new(this, "IsSynchronized", -1);
+					r_PIsSynchronized.SetBelong(this.instance);
 				}
-				return r_IsSynchronized;
+				return r_PIsSynchronized;
 			}
 		}
 
 		/// <summary>
 		/// System.Object SyncRoot
 		/// </summary>
-		protected RSystem.RObject r_SyncRoot;
-		public virtual RSystem.RObject RSyncRoot
+		protected RSystem.RObject r_PSyncRoot;
+		public virtual RSystem.RObject RPSyncRoot
 		{
 			get
 			{
-				if(r_SyncRoot == null)
+				if(r_PSyncRoot == null)
 				{
-					r_SyncRoot = new(this, "SyncRoot", -1);
-					r_SyncRoot.SetBelong(this.instance);
+					r_PSyncRoot = new(this, "SyncRoot", -1);
+					r_PSyncRoot.SetBelong(this.instance);
 				}
-				return r_SyncRoot;
+				return r_PSyncRoot;
 			}
 		}
 
 		/// <summary>
 		/// Void Init(Boolean, Boolean, System.Security.AccessControl.RawAcl)
 		/// </summary>
-		protected RMethod r_Init_Boolean_Boolean_RawAcl;
-		public virtual RMethod RInit_Boolean_Boolean_RawAcl
+		protected RMethod r_MInit_Boolean_Boolean_RawAcl;
+		public virtual RMethod RMInit_Boolean_Boolean_RawAcl
 		{
 			get
 			{
-				if(r_Init_Boolean_Boolean_RawAcl == null)
+				if(r_MInit_Boolean_Boolean_RawAcl == null)
 				{
-					r_Init_Boolean_Boolean_RawAcl = new(this, "Init", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Security.AccessControl.RawAcl));
-					r_Init_Boolean_Boolean_RawAcl.SetBelong(this.instance);
+					r_MInit_Boolean_Boolean_RawAcl = new(this, "Init", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Security.AccessControl.RawAcl));
+					r_MInit_Boolean_Boolean_RawAcl.SetBelong(this.instance);
 				}
-				return r_Init_Boolean_Boolean_RawAcl;
+				return r_MInit_Boolean_Boolean_RawAcl;
 			}
 		}
 
 		/// <summary>
 		/// Void GetBinaryForm(Byte[], Int32)
 		/// </summary>
-		protected RMethod r_GetBinaryForm_ByteArray_Int32;
-		public virtual RMethod RGetBinaryForm_ByteArray_Int32
+		protected RMethod r_MGetBinaryForm_ByteArray_Int32;
+		public virtual RMethod RMGetBinaryForm_ByteArray_Int32
 		{
 			get
 			{
-				if(r_GetBinaryForm_ByteArray_Int32 == null)
+				if(r_MGetBinaryForm_ByteArray_Int32 == null)
 				{
-					r_GetBinaryForm_ByteArray_Int32 = new(this, "GetBinaryForm", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
-					r_GetBinaryForm_ByteArray_Int32.SetBelong(this.instance);
+					r_MGetBinaryForm_ByteArray_Int32 = new(this, "GetBinaryForm", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_MGetBinaryForm_ByteArray_Int32.SetBelong(this.instance);
 				}
-				return r_GetBinaryForm_ByteArray_Int32;
+				return r_MGetBinaryForm_ByteArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Purge(System.Security.Principal.SecurityIdentifier)
 		/// </summary>
-		protected RMethod r_Purge_SecurityIdentifier;
-		public virtual RMethod RPurge_SecurityIdentifier
+		protected RMethod r_MPurge_SecurityIdentifier;
+		public virtual RMethod RMPurge_SecurityIdentifier
 		{
 			get
 			{
-				if(r_Purge_SecurityIdentifier == null)
+				if(r_MPurge_SecurityIdentifier == null)
 				{
-					r_Purge_SecurityIdentifier = new(this, "Purge", 0, typeof(System.Security.Principal.SecurityIdentifier));
-					r_Purge_SecurityIdentifier.SetBelong(this.instance);
+					r_MPurge_SecurityIdentifier = new(this, "Purge", 0, typeof(System.Security.Principal.SecurityIdentifier));
+					r_MPurge_SecurityIdentifier.SetBelong(this.instance);
 				}
-				return r_Purge_SecurityIdentifier;
+				return r_MPurge_SecurityIdentifier;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveInheritedAces()
 		/// </summary>
-		protected RMethod r_RemoveInheritedAces;
-		public virtual RMethod RRemoveInheritedAces
+		protected RMethod r_MRemoveInheritedAces;
+		public virtual RMethod RMRemoveInheritedAces
 		{
 			get
 			{
-				if(r_RemoveInheritedAces == null)
+				if(r_MRemoveInheritedAces == null)
 				{
-					r_RemoveInheritedAces = new(this, "RemoveInheritedAces", 0);
-					r_RemoveInheritedAces.SetBelong(this.instance);
+					r_MRemoveInheritedAces = new(this, "RemoveInheritedAces", 0);
+					r_MRemoveInheritedAces.SetBelong(this.instance);
 				}
-				return r_RemoveInheritedAces;
+				return r_MRemoveInheritedAces;
 			}
 		}
 
 		/// <summary>
 		/// Void RequireCanonicity()
 		/// </summary>
-		protected RMethod r_RequireCanonicity;
-		public virtual RMethod RRequireCanonicity
+		protected RMethod r_MRequireCanonicity;
+		public virtual RMethod RMRequireCanonicity
 		{
 			get
 			{
-				if(r_RequireCanonicity == null)
+				if(r_MRequireCanonicity == null)
 				{
-					r_RequireCanonicity = new(this, "RequireCanonicity", 0);
-					r_RequireCanonicity.SetBelong(this.instance);
+					r_MRequireCanonicity = new(this, "RequireCanonicity", 0);
+					r_MRequireCanonicity.SetBelong(this.instance);
 				}
-				return r_RequireCanonicity;
+				return r_MRequireCanonicity;
 			}
 		}
 
 		/// <summary>
 		/// Void CanonicalizeAndClearAefa()
 		/// </summary>
-		protected RMethod r_CanonicalizeAndClearAefa;
-		public virtual RMethod RCanonicalizeAndClearAefa
+		protected RMethod r_MCanonicalizeAndClearAefa;
+		public virtual RMethod RMCanonicalizeAndClearAefa
 		{
 			get
 			{
-				if(r_CanonicalizeAndClearAefa == null)
+				if(r_MCanonicalizeAndClearAefa == null)
 				{
-					r_CanonicalizeAndClearAefa = new(this, "CanonicalizeAndClearAefa", 0);
-					r_CanonicalizeAndClearAefa.SetBelong(this.instance);
+					r_MCanonicalizeAndClearAefa = new(this, "CanonicalizeAndClearAefa", 0);
+					r_MCanonicalizeAndClearAefa.SetBelong(this.instance);
 				}
-				return r_CanonicalizeAndClearAefa;
+				return r_MCanonicalizeAndClearAefa;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsAceMeaningless(System.Security.AccessControl.GenericAce)
 		/// </summary>
-		protected RMethod r_IsAceMeaningless_GenericAce;
-		public virtual RMethod RIsAceMeaningless_GenericAce
+		protected RMethod r_MIsAceMeaningless_GenericAce;
+		public virtual RMethod RMIsAceMeaningless_GenericAce
 		{
 			get
 			{
-				if(r_IsAceMeaningless_GenericAce == null)
+				if(r_MIsAceMeaningless_GenericAce == null)
 				{
-					r_IsAceMeaningless_GenericAce = new(this, "IsAceMeaningless", 0, typeof(System.Security.AccessControl.GenericAce));
-					r_IsAceMeaningless_GenericAce.SetBelong(this.instance);
+					r_MIsAceMeaningless_GenericAce = new(this, "IsAceMeaningless", 0, typeof(System.Security.AccessControl.GenericAce));
+					r_MIsAceMeaningless_GenericAce.SetBelong(this.instance);
 				}
-				return r_IsAceMeaningless_GenericAce;
+				return r_MIsAceMeaningless_GenericAce;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TestCanonicity()
 		/// </summary>
-		protected RMethod r_TestCanonicity;
-		public virtual RMethod RTestCanonicity
+		protected RMethod r_MTestCanonicity;
+		public virtual RMethod RMTestCanonicity
 		{
 			get
 			{
-				if(r_TestCanonicity == null)
+				if(r_MTestCanonicity == null)
 				{
-					r_TestCanonicity = new(this, "TestCanonicity", 0);
-					r_TestCanonicity.SetBelong(this.instance);
+					r_MTestCanonicity = new(this, "TestCanonicity", 0);
+					r_MTestCanonicity.SetBelong(this.instance);
 				}
-				return r_TestCanonicity;
+				return r_MTestCanonicity;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetCanonicalExplicitDenyAceCount()
 		/// </summary>
-		protected RMethod r_GetCanonicalExplicitDenyAceCount;
-		public virtual RMethod RGetCanonicalExplicitDenyAceCount
+		protected RMethod r_MGetCanonicalExplicitDenyAceCount;
+		public virtual RMethod RMGetCanonicalExplicitDenyAceCount
 		{
 			get
 			{
-				if(r_GetCanonicalExplicitDenyAceCount == null)
+				if(r_MGetCanonicalExplicitDenyAceCount == null)
 				{
-					r_GetCanonicalExplicitDenyAceCount = new(this, "GetCanonicalExplicitDenyAceCount", 0);
-					r_GetCanonicalExplicitDenyAceCount.SetBelong(this.instance);
+					r_MGetCanonicalExplicitDenyAceCount = new(this, "GetCanonicalExplicitDenyAceCount", 0);
+					r_MGetCanonicalExplicitDenyAceCount.SetBelong(this.instance);
 				}
-				return r_GetCanonicalExplicitDenyAceCount;
+				return r_MGetCanonicalExplicitDenyAceCount;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetCanonicalExplicitAceCount()
 		/// </summary>
-		protected RMethod r_GetCanonicalExplicitAceCount;
-		public virtual RMethod RGetCanonicalExplicitAceCount
+		protected RMethod r_MGetCanonicalExplicitAceCount;
+		public virtual RMethod RMGetCanonicalExplicitAceCount
 		{
 			get
 			{
-				if(r_GetCanonicalExplicitAceCount == null)
+				if(r_MGetCanonicalExplicitAceCount == null)
 				{
-					r_GetCanonicalExplicitAceCount = new(this, "GetCanonicalExplicitAceCount", 0);
-					r_GetCanonicalExplicitAceCount.SetBelong(this.instance);
+					r_MGetCanonicalExplicitAceCount = new(this, "GetCanonicalExplicitAceCount", 0);
+					r_MGetCanonicalExplicitAceCount.SetBelong(this.instance);
 				}
-				return r_GetCanonicalExplicitAceCount;
+				return r_MGetCanonicalExplicitAceCount;
 			}
 		}
 
 		/// <summary>
 		/// Void MergeExplicitAces()
 		/// </summary>
-		protected RMethod r_MergeExplicitAces;
-		public virtual RMethod RMergeExplicitAces
+		protected RMethod r_MMergeExplicitAces;
+		public virtual RMethod RMMergeExplicitAces
 		{
 			get
 			{
-				if(r_MergeExplicitAces == null)
+				if(r_MMergeExplicitAces == null)
 				{
-					r_MergeExplicitAces = new(this, "MergeExplicitAces", 0);
-					r_MergeExplicitAces.SetBelong(this.instance);
+					r_MMergeExplicitAces = new(this, "MergeExplicitAces", 0);
+					r_MMergeExplicitAces.SetBelong(this.instance);
 				}
-				return r_MergeExplicitAces;
+				return r_MMergeExplicitAces;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.GenericAce MergeExplicitAcePair(System.Security.AccessControl.GenericAce, System.Security.AccessControl.GenericAce)
 		/// </summary>
-		protected RMethod r_MergeExplicitAcePair_GenericAce_GenericAce;
-		public virtual RMethod RMergeExplicitAcePair_GenericAce_GenericAce
+		protected RMethod r_MMergeExplicitAcePair_GenericAce_GenericAce;
+		public virtual RMethod RMMergeExplicitAcePair_GenericAce_GenericAce
 		{
 			get
 			{
-				if(r_MergeExplicitAcePair_GenericAce_GenericAce == null)
+				if(r_MMergeExplicitAcePair_GenericAce_GenericAce == null)
 				{
-					r_MergeExplicitAcePair_GenericAce_GenericAce = new(this, "MergeExplicitAcePair", 0, typeof(System.Security.AccessControl.GenericAce), typeof(System.Security.AccessControl.GenericAce));
-					r_MergeExplicitAcePair_GenericAce_GenericAce.SetBelong(this.instance);
+					r_MMergeExplicitAcePair_GenericAce_GenericAce = new(this, "MergeExplicitAcePair", 0, typeof(System.Security.AccessControl.GenericAce), typeof(System.Security.AccessControl.GenericAce));
+					r_MMergeExplicitAcePair_GenericAce_GenericAce.SetBelong(this.instance);
 				}
-				return r_MergeExplicitAcePair_GenericAce_GenericAce;
+				return r_MMergeExplicitAcePair_GenericAce_GenericAce;
 			}
 		}
 
 		/// <summary>
 		/// Void GetObjectAceTypeGuids(System.Security.AccessControl.ObjectAce, System.Guid ByRef, System.Guid ByRef)
 		/// </summary>
-		protected static RMethod r_GetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid;
-		public static RMethod RGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid
+		protected static RMethod r_MGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid;
+		public static RMethod RMGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid
 		{
 			get
 			{
-				if(r_GetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid == null)
+				if(r_MGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid == null)
 				{
-					r_GetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid = new(typeof(System.Security.AccessControl.CommonAcl), "GetObjectAceTypeGuids", 0, typeof(System.Security.AccessControl.ObjectAce), typeof(System.Guid).MakeByRefType(), typeof(System.Guid).MakeByRefType());
-					r_GetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid.SetBelong(null);
+					r_MGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid = new(typeof(System.Security.AccessControl.CommonAcl), "GetObjectAceTypeGuids", 0, typeof(System.Security.AccessControl.ObjectAce), typeof(System.Guid).MakeByRefType(), typeof(System.Guid).MakeByRefType());
+					r_MGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid.SetBelong(null);
 				}
-				return r_GetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid;
+				return r_MGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyCanonicalSortToExplicitAces()
 		/// </summary>
-		protected RMethod r_ApplyCanonicalSortToExplicitAces;
-		public virtual RMethod RApplyCanonicalSortToExplicitAces
+		protected RMethod r_MApplyCanonicalSortToExplicitAces;
+		public virtual RMethod RMApplyCanonicalSortToExplicitAces
 		{
 			get
 			{
-				if(r_ApplyCanonicalSortToExplicitAces == null)
+				if(r_MApplyCanonicalSortToExplicitAces == null)
 				{
-					r_ApplyCanonicalSortToExplicitAces = new(this, "ApplyCanonicalSortToExplicitAces", 0);
-					r_ApplyCanonicalSortToExplicitAces.SetBelong(this.instance);
+					r_MApplyCanonicalSortToExplicitAces = new(this, "ApplyCanonicalSortToExplicitAces", 0);
+					r_MApplyCanonicalSortToExplicitAces.SetBelong(this.instance);
 				}
-				return r_ApplyCanonicalSortToExplicitAces;
+				return r_MApplyCanonicalSortToExplicitAces;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyCanonicalSortToExplicitAces(Int32, Int32)
 		/// </summary>
-		protected RMethod r_ApplyCanonicalSortToExplicitAces_Int32_Int32;
-		public virtual RMethod RApplyCanonicalSortToExplicitAces_Int32_Int32
+		protected RMethod r_MApplyCanonicalSortToExplicitAces_Int32_Int32;
+		public virtual RMethod RMApplyCanonicalSortToExplicitAces_Int32_Int32
 		{
 			get
 			{
-				if(r_ApplyCanonicalSortToExplicitAces_Int32_Int32 == null)
+				if(r_MApplyCanonicalSortToExplicitAces_Int32_Int32 == null)
 				{
-					r_ApplyCanonicalSortToExplicitAces_Int32_Int32 = new(this, "ApplyCanonicalSortToExplicitAces", 0, typeof(System.Int32), typeof(System.Int32));
-					r_ApplyCanonicalSortToExplicitAces_Int32_Int32.SetBelong(this.instance);
+					r_MApplyCanonicalSortToExplicitAces_Int32_Int32 = new(this, "ApplyCanonicalSortToExplicitAces", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MApplyCanonicalSortToExplicitAces_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_ApplyCanonicalSortToExplicitAces_Int32_Int32;
+				return r_MApplyCanonicalSortToExplicitAces_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetSddlForm(System.Security.AccessControl.ControlFlags, Boolean)
 		/// </summary>
-		protected RMethod r_GetSddlForm_ControlFlags_Boolean;
-		public virtual RMethod RGetSddlForm_ControlFlags_Boolean
+		protected RMethod r_MGetSddlForm_ControlFlags_Boolean;
+		public virtual RMethod RMGetSddlForm_ControlFlags_Boolean
 		{
 			get
 			{
-				if(r_GetSddlForm_ControlFlags_Boolean == null)
+				if(r_MGetSddlForm_ControlFlags_Boolean == null)
 				{
-					r_GetSddlForm_ControlFlags_Boolean = new(this, "GetSddlForm", 0, typeof(System.Security.AccessControl.ControlFlags), typeof(System.Boolean));
-					r_GetSddlForm_ControlFlags_Boolean.SetBelong(this.instance);
+					r_MGetSddlForm_ControlFlags_Boolean = new(this, "GetSddlForm", 0, typeof(System.Security.AccessControl.ControlFlags), typeof(System.Boolean));
+					r_MGetSddlForm_ControlFlags_Boolean.SetBelong(this.instance);
 				}
-				return r_GetSddlForm_ControlFlags_Boolean;
+				return r_MGetSddlForm_ControlFlags_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAces[T](RemoveAcesCallback`1)
 		/// </summary>
-		protected RMethod r_RemoveAces_GT_RemoveAcesCallback_d_T_p_;
-		public virtual RMethod RRemoveAces_GT_RemoveAcesCallback_d_T_p_
+		protected RMethod r_MRemoveAces_GT_RemoveAcesCallback_d_T_p_;
+		public virtual RMethod RMRemoveAces_GT_RemoveAcesCallback_d_T_p_
 		{
 			get
 			{
-				if(r_RemoveAces_GT_RemoveAcesCallback_d_T_p_ == null)
+				if(r_MRemoveAces_GT_RemoveAcesCallback_d_T_p_ == null)
 				{
-					r_RemoveAces_GT_RemoveAcesCallback_d_T_p_ = new(this, "RemoveAces", 1,  ReflectionUtils.GetType("System.Security.AccessControl.CommonAcl+RemoveAcesCallback`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_RemoveAces_GT_RemoveAcesCallback_d_T_p_.SetBelong(this.instance);
+					r_MRemoveAces_GT_RemoveAcesCallback_d_T_p_ = new(this, "RemoveAces", 1,  ReflectionUtils.GetType("System.Security.AccessControl.CommonAcl+RemoveAcesCallback`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MRemoveAces_GT_RemoveAcesCallback_d_T_p_.SetBelong(this.instance);
 				}
-				return r_RemoveAces_GT_RemoveAcesCallback_d_T_p_;
+				return r_MRemoveAces_GT_RemoveAcesCallback_d_T_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void AddAce(System.Security.AccessControl.AceQualifier, System.Security.Principal.SecurityIdentifier, Int32, System.Security.AccessControl.InheritanceFlags, System.Security.AccessControl.PropagationFlags, System.Security.AccessControl.AuditFlags)
 		/// </summary>
-		protected RMethod r_AddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
-		public virtual RMethod RAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags
+		protected RMethod r_MAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
+		public virtual RMethod RMAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags
 		{
 			get
 			{
-				if(r_AddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags == null)
+				if(r_MAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags == null)
 				{
-					r_AddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags = new(this, "AddAce", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags));
-					r_AddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.SetBelong(this.instance);
+					r_MAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags = new(this, "AddAce", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags));
+					r_MAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.SetBelong(this.instance);
 				}
-				return r_AddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
+				return r_MAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void AddAce(System.Security.AccessControl.AceQualifier, System.Security.Principal.SecurityIdentifier, Int32, System.Security.AccessControl.InheritanceFlags, System.Security.AccessControl.PropagationFlags, System.Security.AccessControl.AuditFlags, System.Security.AccessControl.ObjectAceFlags, System.Guid, System.Guid)
 		/// </summary>
-		protected RMethod r_AddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
-		public virtual RMethod RAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid
+		protected RMethod r_MAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
+		public virtual RMethod RMAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid
 		{
 			get
 			{
-				if(r_AddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid == null)
+				if(r_MAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid == null)
 				{
-					r_AddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid = new(this, "AddAce", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags), typeof(System.Security.AccessControl.ObjectAceFlags), typeof(System.Guid), typeof(System.Guid));
-					r_AddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.SetBelong(this.instance);
+					r_MAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid = new(this, "AddAce", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags), typeof(System.Security.AccessControl.ObjectAceFlags), typeof(System.Guid), typeof(System.Guid));
+					r_MAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.SetBelong(this.instance);
 				}
-				return r_AddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
+				return r_MAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.QualifiedAce AddAceGetQualifiedAce(System.Security.AccessControl.AceQualifier, System.Security.Principal.SecurityIdentifier, Int32, System.Security.AccessControl.InheritanceFlags, System.Security.AccessControl.PropagationFlags, System.Security.AccessControl.AuditFlags, System.Security.AccessControl.ObjectAceFlags, System.Guid, System.Guid)
 		/// </summary>
-		protected RMethod r_AddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
-		public virtual RMethod RAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid
+		protected RMethod r_MAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
+		public virtual RMethod RMAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid
 		{
 			get
 			{
-				if(r_AddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid == null)
+				if(r_MAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid == null)
 				{
-					r_AddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid = new(this, "AddAceGetQualifiedAce", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags), typeof(System.Security.AccessControl.ObjectAceFlags), typeof(System.Guid), typeof(System.Guid));
-					r_AddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.SetBelong(this.instance);
+					r_MAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid = new(this, "AddAceGetQualifiedAce", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags), typeof(System.Security.AccessControl.ObjectAceFlags), typeof(System.Guid), typeof(System.Guid));
+					r_MAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.SetBelong(this.instance);
 				}
-				return r_AddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
+				return r_MAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.QualifiedAce AddAceGetQualifiedAce(System.Security.AccessControl.AceQualifier, System.Security.Principal.SecurityIdentifier, Int32, System.Security.AccessControl.InheritanceFlags, System.Security.AccessControl.PropagationFlags, System.Security.AccessControl.AuditFlags)
 		/// </summary>
-		protected RMethod r_AddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
-		public virtual RMethod RAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags
+		protected RMethod r_MAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
+		public virtual RMethod RMAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags
 		{
 			get
 			{
-				if(r_AddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags == null)
+				if(r_MAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags == null)
 				{
-					r_AddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags = new(this, "AddAceGetQualifiedAce", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags));
-					r_AddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.SetBelong(this.instance);
+					r_MAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags = new(this, "AddAceGetQualifiedAce", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags));
+					r_MAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.SetBelong(this.instance);
 				}
-				return r_AddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
+				return r_MAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void AddAce(System.Security.AccessControl.QualifiedAce)
 		/// </summary>
-		protected RMethod r_AddAce_QualifiedAce;
-		public virtual RMethod RAddAce_QualifiedAce
+		protected RMethod r_MAddAce_QualifiedAce;
+		public virtual RMethod RMAddAce_QualifiedAce
 		{
 			get
 			{
-				if(r_AddAce_QualifiedAce == null)
+				if(r_MAddAce_QualifiedAce == null)
 				{
-					r_AddAce_QualifiedAce = new(this, "AddAce", 0, typeof(System.Security.AccessControl.QualifiedAce));
-					r_AddAce_QualifiedAce.SetBelong(this.instance);
+					r_MAddAce_QualifiedAce = new(this, "AddAce", 0, typeof(System.Security.AccessControl.QualifiedAce));
+					r_MAddAce_QualifiedAce.SetBelong(this.instance);
 				}
-				return r_AddAce_QualifiedAce;
+				return r_MAddAce_QualifiedAce;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.GenericAce CopyAce(System.Security.AccessControl.GenericAce)
 		/// </summary>
-		protected static RMethod r_CopyAce_GenericAce;
-		public static RMethod RCopyAce_GenericAce
+		protected static RMethod r_MCopyAce_GenericAce;
+		public static RMethod RMCopyAce_GenericAce
 		{
 			get
 			{
-				if(r_CopyAce_GenericAce == null)
+				if(r_MCopyAce_GenericAce == null)
 				{
-					r_CopyAce_GenericAce = new(typeof(System.Security.AccessControl.CommonAcl), "CopyAce", 0, typeof(System.Security.AccessControl.GenericAce));
-					r_CopyAce_GenericAce.SetBelong(null);
+					r_MCopyAce_GenericAce = new(typeof(System.Security.AccessControl.CommonAcl), "CopyAce", 0, typeof(System.Security.AccessControl.GenericAce));
+					r_MCopyAce_GenericAce.SetBelong(null);
 				}
-				return r_CopyAce_GenericAce;
+				return r_MCopyAce_GenericAce;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetAceInsertPosition(System.Security.AccessControl.AceQualifier)
 		/// </summary>
-		protected RMethod r_GetAceInsertPosition_AceQualifier;
-		public virtual RMethod RGetAceInsertPosition_AceQualifier
+		protected RMethod r_MGetAceInsertPosition_AceQualifier;
+		public virtual RMethod RMGetAceInsertPosition_AceQualifier
 		{
 			get
 			{
-				if(r_GetAceInsertPosition_AceQualifier == null)
+				if(r_MGetAceInsertPosition_AceQualifier == null)
 				{
-					r_GetAceInsertPosition_AceQualifier = new(this, "GetAceInsertPosition", 0, typeof(System.Security.AccessControl.AceQualifier));
-					r_GetAceInsertPosition_AceQualifier.SetBelong(this.instance);
+					r_MGetAceInsertPosition_AceQualifier = new(this, "GetAceInsertPosition", 0, typeof(System.Security.AccessControl.AceQualifier));
+					r_MGetAceInsertPosition_AceQualifier.SetBelong(this.instance);
 				}
-				return r_GetAceInsertPosition_AceQualifier;
+				return r_MGetAceInsertPosition_AceQualifier;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags GetAceFlags(System.Security.AccessControl.InheritanceFlags, System.Security.AccessControl.PropagationFlags, System.Security.AccessControl.AuditFlags)
 		/// </summary>
-		protected RMethod r_GetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags;
-		public virtual RMethod RGetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags
+		protected RMethod r_MGetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags;
+		public virtual RMethod RMGetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags
 		{
 			get
 			{
-				if(r_GetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags == null)
+				if(r_MGetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags == null)
 				{
-					r_GetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags = new(this, "GetAceFlags", 0, typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags));
-					r_GetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags.SetBelong(this.instance);
+					r_MGetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags = new(this, "GetAceFlags", 0, typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags));
+					r_MGetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags.SetBelong(this.instance);
 				}
-				return r_GetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags;
+				return r_MGetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAceSpecific(System.Security.AccessControl.AceQualifier, System.Security.Principal.SecurityIdentifier, Int32, System.Security.AccessControl.InheritanceFlags, System.Security.AccessControl.PropagationFlags, System.Security.AccessControl.AuditFlags)
 		/// </summary>
-		protected RMethod r_RemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
-		public virtual RMethod RRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags
+		protected RMethod r_MRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
+		public virtual RMethod RMRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags
 		{
 			get
 			{
-				if(r_RemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags == null)
+				if(r_MRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags == null)
 				{
-					r_RemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags = new(this, "RemoveAceSpecific", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags));
-					r_RemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.SetBelong(this.instance);
+					r_MRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags = new(this, "RemoveAceSpecific", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags));
+					r_MRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.SetBelong(this.instance);
 				}
-				return r_RemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
+				return r_MRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAceSpecific(System.Security.AccessControl.AceQualifier, System.Security.Principal.SecurityIdentifier, Int32, System.Security.AccessControl.InheritanceFlags, System.Security.AccessControl.PropagationFlags, System.Security.AccessControl.AuditFlags, System.Security.AccessControl.ObjectAceFlags, System.Guid, System.Guid)
 		/// </summary>
-		protected RMethod r_RemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
-		public virtual RMethod RRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid
+		protected RMethod r_MRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
+		public virtual RMethod RMRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid
 		{
 			get
 			{
-				if(r_RemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid == null)
+				if(r_MRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid == null)
 				{
-					r_RemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid = new(this, "RemoveAceSpecific", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags), typeof(System.Security.AccessControl.ObjectAceFlags), typeof(System.Guid), typeof(System.Guid));
-					r_RemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.SetBelong(this.instance);
+					r_MRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid = new(this, "RemoveAceSpecific", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags), typeof(System.Security.AccessControl.ObjectAceFlags), typeof(System.Guid), typeof(System.Guid));
+					r_MRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.SetBelong(this.instance);
 				}
-				return r_RemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
+				return r_MRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAce(System.Security.AccessControl.AceQualifier, System.Security.Principal.SecurityIdentifier, Int32, System.Security.AccessControl.InheritanceFlags, System.Security.AccessControl.PropagationFlags, System.Security.AccessControl.AuditFlags)
 		/// </summary>
-		protected RMethod r_SetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
-		public virtual RMethod RSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags
+		protected RMethod r_MSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
+		public virtual RMethod RMSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags
 		{
 			get
 			{
-				if(r_SetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags == null)
+				if(r_MSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags == null)
 				{
-					r_SetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags = new(this, "SetAce", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags));
-					r_SetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.SetBelong(this.instance);
+					r_MSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags = new(this, "SetAce", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags));
+					r_MSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.SetBelong(this.instance);
 				}
-				return r_SetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
+				return r_MSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAce(System.Security.AccessControl.AceQualifier, System.Security.Principal.SecurityIdentifier, Int32, System.Security.AccessControl.InheritanceFlags, System.Security.AccessControl.PropagationFlags, System.Security.AccessControl.AuditFlags, System.Security.AccessControl.ObjectAceFlags, System.Guid, System.Guid)
 		/// </summary>
-		protected RMethod r_SetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
-		public virtual RMethod RSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid
+		protected RMethod r_MSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
+		public virtual RMethod RMSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid
 		{
 			get
 			{
-				if(r_SetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid == null)
+				if(r_MSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid == null)
 				{
-					r_SetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid = new(this, "SetAce", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags), typeof(System.Security.AccessControl.ObjectAceFlags), typeof(System.Guid), typeof(System.Guid));
-					r_SetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.SetBelong(this.instance);
+					r_MSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid = new(this, "SetAce", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Int32), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags), typeof(System.Security.AccessControl.ObjectAceFlags), typeof(System.Guid), typeof(System.Guid));
+					r_MSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.SetBelong(this.instance);
 				}
-				return r_SetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
+				return r_MSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAce(System.Security.AccessControl.QualifiedAce)
 		/// </summary>
-		protected RMethod r_SetAce_QualifiedAce;
-		public virtual RMethod RSetAce_QualifiedAce
+		protected RMethod r_MSetAce_QualifiedAce;
+		public virtual RMethod RMSetAce_QualifiedAce
 		{
 			get
 			{
-				if(r_SetAce_QualifiedAce == null)
+				if(r_MSetAce_QualifiedAce == null)
 				{
-					r_SetAce_QualifiedAce = new(this, "SetAce", 0, typeof(System.Security.AccessControl.QualifiedAce));
-					r_SetAce_QualifiedAce.SetBelong(this.instance);
+					r_MSetAce_QualifiedAce = new(this, "SetAce", 0, typeof(System.Security.AccessControl.QualifiedAce));
+					r_MSetAce_QualifiedAce.SetBelong(this.instance);
 				}
-				return r_SetAce_QualifiedAce;
+				return r_MSetAce_QualifiedAce;
 			}
 		}
 
 		/// <summary>
 		/// Void CopyTo(System.Security.AccessControl.GenericAce[], Int32)
 		/// </summary>
-		protected RMethod r_CopyTo_GenericAceArray_Int32;
-		public virtual RMethod RCopyTo_GenericAceArray_Int32
+		protected RMethod r_MCopyTo_GenericAceArray_Int32;
+		public virtual RMethod RMCopyTo_GenericAceArray_Int32
 		{
 			get
 			{
-				if(r_CopyTo_GenericAceArray_Int32 == null)
+				if(r_MCopyTo_GenericAceArray_Int32 == null)
 				{
-					r_CopyTo_GenericAceArray_Int32 = new(this, "CopyTo", 0, typeof(System.Security.AccessControl.GenericAce).MakeArrayType(), typeof(System.Int32));
-					r_CopyTo_GenericAceArray_Int32.SetBelong(this.instance);
+					r_MCopyTo_GenericAceArray_Int32 = new(this, "CopyTo", 0, typeof(System.Security.AccessControl.GenericAce).MakeArrayType(), typeof(System.Int32));
+					r_MCopyTo_GenericAceArray_Int32.SetBelong(this.instance);
 				}
-				return r_CopyTo_GenericAceArray_Int32;
+				return r_MCopyTo_GenericAceArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AceEnumerator GetEnumerator()
 		/// </summary>
-		protected RMethod r_GetEnumerator;
-		public virtual RMethod RGetEnumerator
+		protected RMethod r_MGetEnumerator;
+		public virtual RMethod RMGetEnumerator
 		{
 			get
 			{
-				if(r_GetEnumerator == null)
+				if(r_MGetEnumerator == null)
 				{
-					r_GetEnumerator = new(this, "GetEnumerator", 0);
-					r_GetEnumerator.SetBelong(this.instance);
+					r_MGetEnumerator = new(this, "GetEnumerator", 0);
+					r_MGetEnumerator.SetBelong(this.instance);
 				}
-				return r_GetEnumerator;
+				return r_MGetEnumerator;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -951,7 +951,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@isContainer, @isDS, @rawAcl};
-            var ___result = RInit_Boolean_Boolean_RawAcl.Invoke(___genericsType, ___parameters);
+            var ___result = RMInit_Boolean_Boolean_RawAcl.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -962,7 +962,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@binaryForm, @offset};
-            var ___result = RGetBinaryForm_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetBinaryForm_ByteArray_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -973,7 +973,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sid};
-            var ___result = RPurge_SecurityIdentifier.Invoke(___genericsType, ___parameters);
+            var ___result = RMPurge_SecurityIdentifier.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -984,7 +984,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RRemoveInheritedAces.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveInheritedAces.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -995,7 +995,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RRequireCanonicity.Invoke(___genericsType, ___parameters);
+            var ___result = RMRequireCanonicity.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1006,7 +1006,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCanonicalizeAndClearAefa.Invoke(___genericsType, ___parameters);
+            var ___result = RMCanonicalizeAndClearAefa.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1017,7 +1017,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ace};
-            var ___result = RIsAceMeaningless_GenericAce.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsAceMeaningless_GenericAce.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1028,7 +1028,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RTestCanonicity.Invoke(___genericsType, ___parameters);
+            var ___result = RMTestCanonicity.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1039,7 +1039,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetCanonicalExplicitDenyAceCount.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCanonicalExplicitDenyAceCount.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1050,7 +1050,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetCanonicalExplicitAceCount.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCanonicalExplicitAceCount.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1061,7 +1061,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMergeExplicitAces.Invoke(___genericsType, ___parameters);
+            var ___result = RMMergeExplicitAces.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1072,7 +1072,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ace1, @ace2};
-            var ___result = RMergeExplicitAcePair_GenericAce_GenericAce.Invoke(___genericsType, ___parameters);
+            var ___result = RMMergeExplicitAcePair_GenericAce_GenericAce.Invoke(___genericsType, ___parameters);
 
             return (System.Security.AccessControl.GenericAce)___result;
         }
@@ -1085,7 +1085,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ace, @type, @inheritedType};
-            var ___result = RGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid.Invoke(___genericsType, ___parameters);
 			@type = (System.Guid)___parameters[1];
 			@inheritedType = (System.Guid)___parameters[2];
 
@@ -1098,7 +1098,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RApplyCanonicalSortToExplicitAces.Invoke(___genericsType, ___parameters);
+            var ___result = RMApplyCanonicalSortToExplicitAces.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1109,7 +1109,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@start, @count};
-            var ___result = RApplyCanonicalSortToExplicitAces_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMApplyCanonicalSortToExplicitAces_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1120,7 +1120,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sdFlags, @isDacl};
-            var ___result = RGetSddlForm_ControlFlags_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetSddlForm_ControlFlags_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -1131,7 +1131,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@callback.Value};
-            var ___result = RRemoveAces_GT_RemoveAcesCallback_d_T_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveAces_GT_RemoveAcesCallback_d_T_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1142,7 +1142,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags};
-            var ___result = RAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1153,7 +1153,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags, @objectFlags, @objectType, @inheritedObjectType};
-            var ___result = RAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1164,7 +1164,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags, @objectFlags, @objectType, @inheritedObjectType};
-            var ___result = RAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
 
             return (System.Security.AccessControl.QualifiedAce)___result;
         }
@@ -1175,7 +1175,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags};
-            var ___result = RAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
 
             return (System.Security.AccessControl.QualifiedAce)___result;
         }
@@ -1186,7 +1186,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newAce};
-            var ___result = RAddAce_QualifiedAce.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddAce_QualifiedAce.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1197,7 +1197,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ace};
-            var ___result = RCopyAce_GenericAce.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyAce_GenericAce.Invoke(___genericsType, ___parameters);
 
             return (System.Security.AccessControl.GenericAce)___result;
         }
@@ -1208,7 +1208,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@aceQualifier};
-            var ___result = RGetAceInsertPosition_AceQualifier.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetAceInsertPosition_AceQualifier.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1219,7 +1219,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@inheritanceFlags, @propagationFlags, @auditFlags};
-            var ___result = RGetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
 
             return (System.Security.AccessControl.AceFlags)___result;
         }
@@ -1230,7 +1230,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags};
-            var ___result = RRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1241,7 +1241,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags, @objectFlags, @objectType, @inheritedObjectType};
-            var ___result = RRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveAceSpecific_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1252,7 +1252,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags};
-            var ___result = RSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1263,7 +1263,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags, @objectFlags, @objectType, @inheritedObjectType};
-            var ___result = RSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1274,7 +1274,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newAce};
-            var ___result = RSetAce_QualifiedAce.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetAce_QualifiedAce.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1285,7 +1285,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@array, @index};
-            var ___result = RCopyTo_GenericAceArray_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyTo_GenericAceArray_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1296,7 +1296,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetEnumerator.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
             return (System.Security.AccessControl.AceEnumerator)___result;
         }
@@ -1307,7 +1307,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1318,7 +1318,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1329,7 +1329,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1340,7 +1340,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -1351,7 +1351,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -1362,7 +1362,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

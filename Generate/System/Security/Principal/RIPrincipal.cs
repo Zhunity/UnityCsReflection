@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.IIdentity Identity
 		/// </summary>
-		protected RSystem.RSecurity.RPrincipal.RIIdentity r_Identity;
-		public virtual RSystem.RSecurity.RPrincipal.RIIdentity RIdentity
+		protected RSystem.RSecurity.RPrincipal.RIIdentity r_PIdentity;
+		public virtual RSystem.RSecurity.RPrincipal.RIIdentity RPIdentity
 		{
 			get
 			{
-				if(r_Identity == null)
+				if(r_PIdentity == null)
 				{
-					r_Identity = new(this, "Identity", -1);
-					r_Identity.SetBelong(this.instance);
+					r_PIdentity = new(this, "Identity", -1);
+					r_PIdentity.SetBelong(this.instance);
 				}
-				return r_Identity;
+				return r_PIdentity;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsInRole(System.String)
 		/// </summary>
-		protected RMethod r_IsInRole_String;
-		public virtual RMethod RIsInRole_String
+		protected RMethod r_MIsInRole_String;
+		public virtual RMethod RMIsInRole_String
 		{
 			get
 			{
-				if(r_IsInRole_String == null)
+				if(r_MIsInRole_String == null)
 				{
-					r_IsInRole_String = new(this, "IsInRole", 0, typeof(System.String));
-					r_IsInRole_String.SetBelong(this.instance);
+					r_MIsInRole_String = new(this, "IsInRole", 0, typeof(System.String));
+					r_MIsInRole_String.SetBelong(this.instance);
 				}
-				return r_IsInRole_String;
+				return r_MIsInRole_String;
 			}
 		}
 
@@ -67,7 +67,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@role};
-            var ___result = RIsInRole_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsInRole_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }

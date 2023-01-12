@@ -13,51 +13,51 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Object Key
 		/// </summary>
-		protected RSystem.RObject r_Key;
-		public virtual RSystem.RObject RKey
+		protected RSystem.RObject r_PKey;
+		public virtual RSystem.RObject RPKey
 		{
 			get
 			{
-				if(r_Key == null)
+				if(r_PKey == null)
 				{
-					r_Key = new(this, "Key", -1);
-					r_Key.SetBelong(this.instance);
+					r_PKey = new(this, "Key", -1);
+					r_PKey.SetBelong(this.instance);
 				}
-				return r_Key;
+				return r_PKey;
 			}
 		}
 
 		/// <summary>
 		/// System.Object Value
 		/// </summary>
-		protected RSystem.RObject r_Value;
-		public virtual RSystem.RObject RValue
+		protected RSystem.RObject r_PValue;
+		public virtual RSystem.RObject RPValue
 		{
 			get
 			{
-				if(r_Value == null)
+				if(r_PValue == null)
 				{
-					r_Value = new(this, "Value", -1);
-					r_Value.SetBelong(this.instance);
+					r_PValue = new(this, "Value", -1);
+					r_PValue.SetBelong(this.instance);
 				}
-				return r_Value;
+				return r_PValue;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.DictionaryEntry Entry
 		/// </summary>
-		protected RSystem.RCollections.RDictionaryEntry r_Entry;
-		public virtual RSystem.RCollections.RDictionaryEntry REntry
+		protected RSystem.RCollections.RDictionaryEntry r_PEntry;
+		public virtual RSystem.RCollections.RDictionaryEntry RPEntry
 		{
 			get
 			{
-				if(r_Entry == null)
+				if(r_PEntry == null)
 				{
-					r_Entry = new(this, "Entry", -1);
-					r_Entry.SetBelong(this.instance);
+					r_PEntry = new(this, "Entry", -1);
+					r_PEntry.SetBelong(this.instance);
 				}
-				return r_Entry;
+				return r_PEntry;
 			}
 		}
 

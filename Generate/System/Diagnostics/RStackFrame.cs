@@ -13,459 +13,459 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int32 OFFSET_UNKNOWN
 		/// </summary>
-		protected static RSystem.RInt32 r_OFFSET_UNKNOWN;
-		public static RSystem.RInt32 ROFFSET_UNKNOWN
+		protected static RSystem.RInt32 r_FOFFSET_UNKNOWN;
+		public static RSystem.RInt32 RFOFFSET_UNKNOWN
 		{
 			get
 			{
-				if(r_OFFSET_UNKNOWN == null)
+				if(r_FOFFSET_UNKNOWN == null)
 				{
-					r_OFFSET_UNKNOWN = new(typeof(System.Diagnostics.StackFrame), "OFFSET_UNKNOWN");
-					r_OFFSET_UNKNOWN.SetBelong(null);
+					r_FOFFSET_UNKNOWN = new(typeof(System.Diagnostics.StackFrame), "OFFSET_UNKNOWN");
+					r_FOFFSET_UNKNOWN.SetBelong(null);
 				}
-				return r_OFFSET_UNKNOWN;
+				return r_FOFFSET_UNKNOWN;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 ilOffset
 		/// </summary>
-		protected RSystem.RInt32 r_ilOffset;
-		public virtual RSystem.RInt32 RilOffset
+		protected RSystem.RInt32 r_FilOffset;
+		public virtual RSystem.RInt32 RFilOffset
 		{
 			get
 			{
-				if(r_ilOffset == null)
+				if(r_FilOffset == null)
 				{
-					r_ilOffset = new(this, "ilOffset");
-					r_ilOffset.SetBelong(this.instance);
+					r_FilOffset = new(this, "ilOffset");
+					r_FilOffset.SetBelong(this.instance);
 				}
-				return r_ilOffset;
+				return r_FilOffset;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 nativeOffset
 		/// </summary>
-		protected RSystem.RInt32 r_nativeOffset;
-		public virtual RSystem.RInt32 RnativeOffset
+		protected RSystem.RInt32 r_FnativeOffset;
+		public virtual RSystem.RInt32 RFnativeOffset
 		{
 			get
 			{
-				if(r_nativeOffset == null)
+				if(r_FnativeOffset == null)
 				{
-					r_nativeOffset = new(this, "nativeOffset");
-					r_nativeOffset.SetBelong(this.instance);
+					r_FnativeOffset = new(this, "nativeOffset");
+					r_FnativeOffset.SetBelong(this.instance);
 				}
-				return r_nativeOffset;
+				return r_FnativeOffset;
 			}
 		}
 
 		/// <summary>
 		/// System.Int64 methodAddress
 		/// </summary>
-		protected RSystem.RInt64 r_methodAddress;
-		public virtual RSystem.RInt64 RmethodAddress
+		protected RSystem.RInt64 r_FmethodAddress;
+		public virtual RSystem.RInt64 RFmethodAddress
 		{
 			get
 			{
-				if(r_methodAddress == null)
+				if(r_FmethodAddress == null)
 				{
-					r_methodAddress = new(this, "methodAddress");
-					r_methodAddress.SetBelong(this.instance);
+					r_FmethodAddress = new(this, "methodAddress");
+					r_FmethodAddress.SetBelong(this.instance);
 				}
-				return r_methodAddress;
+				return r_FmethodAddress;
 			}
 		}
 
 		/// <summary>
 		/// System.UInt32 methodIndex
 		/// </summary>
-		protected RSystem.RUInt32 r_methodIndex;
-		public virtual RSystem.RUInt32 RmethodIndex
+		protected RSystem.RUInt32 r_FmethodIndex;
+		public virtual RSystem.RUInt32 RFmethodIndex
 		{
 			get
 			{
-				if(r_methodIndex == null)
+				if(r_FmethodIndex == null)
 				{
-					r_methodIndex = new(this, "methodIndex");
-					r_methodIndex.SetBelong(this.instance);
+					r_FmethodIndex = new(this, "methodIndex");
+					r_FmethodIndex.SetBelong(this.instance);
 				}
-				return r_methodIndex;
+				return r_FmethodIndex;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.MethodBase methodBase
 		/// </summary>
-		protected RSystem.RReflection.RMethodBase r_methodBase;
-		public virtual RSystem.RReflection.RMethodBase RmethodBase
+		protected RSystem.RReflection.RMethodBase r_FmethodBase;
+		public virtual RSystem.RReflection.RMethodBase RFmethodBase
 		{
 			get
 			{
-				if(r_methodBase == null)
+				if(r_FmethodBase == null)
 				{
-					r_methodBase = new(this, "methodBase");
-					r_methodBase.SetBelong(this.instance);
+					r_FmethodBase = new(this, "methodBase");
+					r_FmethodBase.SetBelong(this.instance);
 				}
-				return r_methodBase;
+				return r_FmethodBase;
 			}
 		}
 
 		/// <summary>
 		/// System.String fileName
 		/// </summary>
-		protected RSystem.RString r_fileName;
-		public virtual RSystem.RString RfileName
+		protected RSystem.RString r_FfileName;
+		public virtual RSystem.RString RFfileName
 		{
 			get
 			{
-				if(r_fileName == null)
+				if(r_FfileName == null)
 				{
-					r_fileName = new(this, "fileName");
-					r_fileName.SetBelong(this.instance);
+					r_FfileName = new(this, "fileName");
+					r_FfileName.SetBelong(this.instance);
 				}
-				return r_fileName;
+				return r_FfileName;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 lineNumber
 		/// </summary>
-		protected RSystem.RInt32 r_lineNumber;
-		public virtual RSystem.RInt32 RlineNumber
+		protected RSystem.RInt32 r_FlineNumber;
+		public virtual RSystem.RInt32 RFlineNumber
 		{
 			get
 			{
-				if(r_lineNumber == null)
+				if(r_FlineNumber == null)
 				{
-					r_lineNumber = new(this, "lineNumber");
-					r_lineNumber.SetBelong(this.instance);
+					r_FlineNumber = new(this, "lineNumber");
+					r_FlineNumber.SetBelong(this.instance);
 				}
-				return r_lineNumber;
+				return r_FlineNumber;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 columnNumber
 		/// </summary>
-		protected RSystem.RInt32 r_columnNumber;
-		public virtual RSystem.RInt32 RcolumnNumber
+		protected RSystem.RInt32 r_FcolumnNumber;
+		public virtual RSystem.RInt32 RFcolumnNumber
 		{
 			get
 			{
-				if(r_columnNumber == null)
+				if(r_FcolumnNumber == null)
 				{
-					r_columnNumber = new(this, "columnNumber");
-					r_columnNumber.SetBelong(this.instance);
+					r_FcolumnNumber = new(this, "columnNumber");
+					r_FcolumnNumber.SetBelong(this.instance);
 				}
-				return r_columnNumber;
+				return r_FcolumnNumber;
 			}
 		}
 
 		/// <summary>
 		/// System.String internalMethodName
 		/// </summary>
-		protected RSystem.RString r_internalMethodName;
-		public virtual RSystem.RString RinternalMethodName
+		protected RSystem.RString r_FinternalMethodName;
+		public virtual RSystem.RString RFinternalMethodName
 		{
 			get
 			{
-				if(r_internalMethodName == null)
+				if(r_FinternalMethodName == null)
 				{
-					r_internalMethodName = new(this, "internalMethodName");
-					r_internalMethodName.SetBelong(this.instance);
+					r_FinternalMethodName = new(this, "internalMethodName");
+					r_FinternalMethodName.SetBelong(this.instance);
 				}
-				return r_internalMethodName;
+				return r_FinternalMethodName;
 			}
 		}
 
 		/// <summary>
 		/// Boolean get_frame_info(Int32, Boolean, System.Reflection.MethodBase ByRef, Int32 ByRef, Int32 ByRef, System.String ByRef, Int32 ByRef, Int32 ByRef)
 		/// </summary>
-		protected static RMethod r_get_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32;
-		public static RMethod Rget_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32
+		protected static RMethod r_Mget_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32;
+		public static RMethod RMget_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32
 		{
 			get
 			{
-				if(r_get_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32 == null)
+				if(r_Mget_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32 == null)
 				{
-					r_get_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32 = new(typeof(System.Diagnostics.StackFrame), "get_frame_info", 0, typeof(System.Int32), typeof(System.Boolean), typeof(System.Reflection.MethodBase).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.String).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType());
-					r_get_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32.SetBelong(null);
+					r_Mget_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32 = new(typeof(System.Diagnostics.StackFrame), "get_frame_info", 0, typeof(System.Int32), typeof(System.Boolean), typeof(System.Reflection.MethodBase).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.String).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType());
+					r_Mget_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32.SetBelong(null);
 				}
-				return r_get_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32;
+				return r_Mget_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetFileLineNumber()
 		/// </summary>
-		protected RMethod r_GetFileLineNumber;
-		public virtual RMethod RGetFileLineNumber
+		protected RMethod r_MGetFileLineNumber;
+		public virtual RMethod RMGetFileLineNumber
 		{
 			get
 			{
-				if(r_GetFileLineNumber == null)
+				if(r_MGetFileLineNumber == null)
 				{
-					r_GetFileLineNumber = new(this, "GetFileLineNumber", 0);
-					r_GetFileLineNumber.SetBelong(this.instance);
+					r_MGetFileLineNumber = new(this, "GetFileLineNumber", 0);
+					r_MGetFileLineNumber.SetBelong(this.instance);
 				}
-				return r_GetFileLineNumber;
+				return r_MGetFileLineNumber;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetFileColumnNumber()
 		/// </summary>
-		protected RMethod r_GetFileColumnNumber;
-		public virtual RMethod RGetFileColumnNumber
+		protected RMethod r_MGetFileColumnNumber;
+		public virtual RMethod RMGetFileColumnNumber
 		{
 			get
 			{
-				if(r_GetFileColumnNumber == null)
+				if(r_MGetFileColumnNumber == null)
 				{
-					r_GetFileColumnNumber = new(this, "GetFileColumnNumber", 0);
-					r_GetFileColumnNumber.SetBelong(this.instance);
+					r_MGetFileColumnNumber = new(this, "GetFileColumnNumber", 0);
+					r_MGetFileColumnNumber.SetBelong(this.instance);
 				}
-				return r_GetFileColumnNumber;
+				return r_MGetFileColumnNumber;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetFileName()
 		/// </summary>
-		protected RMethod r_GetFileName;
-		public virtual RMethod RGetFileName
+		protected RMethod r_MGetFileName;
+		public virtual RMethod RMGetFileName
 		{
 			get
 			{
-				if(r_GetFileName == null)
+				if(r_MGetFileName == null)
 				{
-					r_GetFileName = new(this, "GetFileName", 0);
-					r_GetFileName.SetBelong(this.instance);
+					r_MGetFileName = new(this, "GetFileName", 0);
+					r_MGetFileName.SetBelong(this.instance);
 				}
-				return r_GetFileName;
+				return r_MGetFileName;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetSecureFileName()
 		/// </summary>
-		protected RMethod r_GetSecureFileName;
-		public virtual RMethod RGetSecureFileName
+		protected RMethod r_MGetSecureFileName;
+		public virtual RMethod RMGetSecureFileName
 		{
 			get
 			{
-				if(r_GetSecureFileName == null)
+				if(r_MGetSecureFileName == null)
 				{
-					r_GetSecureFileName = new(this, "GetSecureFileName", 0);
-					r_GetSecureFileName.SetBelong(this.instance);
+					r_MGetSecureFileName = new(this, "GetSecureFileName", 0);
+					r_MGetSecureFileName.SetBelong(this.instance);
 				}
-				return r_GetSecureFileName;
+				return r_MGetSecureFileName;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetILOffset()
 		/// </summary>
-		protected RMethod r_GetILOffset;
-		public virtual RMethod RGetILOffset
+		protected RMethod r_MGetILOffset;
+		public virtual RMethod RMGetILOffset
 		{
 			get
 			{
-				if(r_GetILOffset == null)
+				if(r_MGetILOffset == null)
 				{
-					r_GetILOffset = new(this, "GetILOffset", 0);
-					r_GetILOffset.SetBelong(this.instance);
+					r_MGetILOffset = new(this, "GetILOffset", 0);
+					r_MGetILOffset.SetBelong(this.instance);
 				}
-				return r_GetILOffset;
+				return r_MGetILOffset;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.MethodBase GetMethod()
 		/// </summary>
-		protected RMethod r_GetMethod;
-		public virtual RMethod RGetMethod
+		protected RMethod r_MGetMethod;
+		public virtual RMethod RMGetMethod
 		{
 			get
 			{
-				if(r_GetMethod == null)
+				if(r_MGetMethod == null)
 				{
-					r_GetMethod = new(this, "GetMethod", 0);
-					r_GetMethod.SetBelong(this.instance);
+					r_MGetMethod = new(this, "GetMethod", 0);
+					r_MGetMethod.SetBelong(this.instance);
 				}
-				return r_GetMethod;
+				return r_MGetMethod;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetNativeOffset()
 		/// </summary>
-		protected RMethod r_GetNativeOffset;
-		public virtual RMethod RGetNativeOffset
+		protected RMethod r_MGetNativeOffset;
+		public virtual RMethod RMGetNativeOffset
 		{
 			get
 			{
-				if(r_GetNativeOffset == null)
+				if(r_MGetNativeOffset == null)
 				{
-					r_GetNativeOffset = new(this, "GetNativeOffset", 0);
-					r_GetNativeOffset.SetBelong(this.instance);
+					r_MGetNativeOffset = new(this, "GetNativeOffset", 0);
+					r_MGetNativeOffset.SetBelong(this.instance);
 				}
-				return r_GetNativeOffset;
+				return r_MGetNativeOffset;
 			}
 		}
 
 		/// <summary>
 		/// Int64 GetMethodAddress()
 		/// </summary>
-		protected RMethod r_GetMethodAddress;
-		public virtual RMethod RGetMethodAddress
+		protected RMethod r_MGetMethodAddress;
+		public virtual RMethod RMGetMethodAddress
 		{
 			get
 			{
-				if(r_GetMethodAddress == null)
+				if(r_MGetMethodAddress == null)
 				{
-					r_GetMethodAddress = new(this, "GetMethodAddress", 0);
-					r_GetMethodAddress.SetBelong(this.instance);
+					r_MGetMethodAddress = new(this, "GetMethodAddress", 0);
+					r_MGetMethodAddress.SetBelong(this.instance);
 				}
-				return r_GetMethodAddress;
+				return r_MGetMethodAddress;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetMethodIndex()
 		/// </summary>
-		protected RMethod r_GetMethodIndex;
-		public virtual RMethod RGetMethodIndex
+		protected RMethod r_MGetMethodIndex;
+		public virtual RMethod RMGetMethodIndex
 		{
 			get
 			{
-				if(r_GetMethodIndex == null)
+				if(r_MGetMethodIndex == null)
 				{
-					r_GetMethodIndex = new(this, "GetMethodIndex", 0);
-					r_GetMethodIndex.SetBelong(this.instance);
+					r_MGetMethodIndex = new(this, "GetMethodIndex", 0);
+					r_MGetMethodIndex.SetBelong(this.instance);
 				}
-				return r_GetMethodIndex;
+				return r_MGetMethodIndex;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetInternalMethodName()
 		/// </summary>
-		protected RMethod r_GetInternalMethodName;
-		public virtual RMethod RGetInternalMethodName
+		protected RMethod r_MGetInternalMethodName;
+		public virtual RMethod RMGetInternalMethodName
 		{
 			get
 			{
-				if(r_GetInternalMethodName == null)
+				if(r_MGetInternalMethodName == null)
 				{
-					r_GetInternalMethodName = new(this, "GetInternalMethodName", 0);
-					r_GetInternalMethodName.SetBelong(this.instance);
+					r_MGetInternalMethodName = new(this, "GetInternalMethodName", 0);
+					r_MGetInternalMethodName.SetBelong(this.instance);
 				}
-				return r_GetInternalMethodName;
+				return r_MGetInternalMethodName;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -498,7 +498,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@skip, @needFileInfo, @method, @iloffset, @native_offset, @file, @line, @column};
-            var ___result = Rget_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
 			@method = (System.Reflection.MethodBase)___parameters[2];
 			@iloffset = (System.Int32)___parameters[3];
 			@native_offset = (System.Int32)___parameters[4];
@@ -515,7 +515,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetFileLineNumber.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetFileLineNumber.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -526,7 +526,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetFileColumnNumber.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetFileColumnNumber.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -537,7 +537,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetFileName.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetFileName.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -548,7 +548,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetSecureFileName.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetSecureFileName.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -559,7 +559,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetILOffset.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetILOffset.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -570,7 +570,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetMethod.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetMethod.Invoke(___genericsType, ___parameters);
 
             return (System.Reflection.MethodBase)___result;
         }
@@ -581,7 +581,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetNativeOffset.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetNativeOffset.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -592,7 +592,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetMethodAddress.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetMethodAddress.Invoke(___genericsType, ___parameters);
 
             return (System.Int64)___result;
         }
@@ -603,7 +603,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetMethodIndex.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetMethodIndex.Invoke(___genericsType, ___parameters);
 
             return (System.UInt32)___result;
         }
@@ -614,7 +614,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetInternalMethodName.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetInternalMethodName.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -625,7 +625,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -636,7 +636,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -647,7 +647,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -658,7 +658,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -669,7 +669,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -680,7 +680,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

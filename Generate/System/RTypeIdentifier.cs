@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String InternalName
 		/// </summary>
-		protected RSystem.RString r_InternalName;
-		public virtual RSystem.RString RInternalName
+		protected RSystem.RString r_PInternalName;
+		public virtual RSystem.RString RPInternalName
 		{
 			get
 			{
-				if(r_InternalName == null)
+				if(r_PInternalName == null)
 				{
-					r_InternalName = new(this, "InternalName", -1);
-					r_InternalName.SetBelong(this.instance);
+					r_PInternalName = new(this, "InternalName", -1);
+					r_PInternalName.SetBelong(this.instance);
 				}
-				return r_InternalName;
+				return r_PInternalName;
 			}
 		}
 

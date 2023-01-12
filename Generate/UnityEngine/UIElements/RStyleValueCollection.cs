@@ -13,306 +13,306 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSheets.StyleValue] m_Values
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheets.RStyleValue> r_m_Values;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheets.RStyleValue> Rm_Values
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheets.RStyleValue> r_Fm_Values;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheets.RStyleValue> RFm_Values
 		{
 			get
 			{
-				if(r_m_Values == null)
+				if(r_Fm_Values == null)
 				{
-					r_m_Values = new(this, "m_Values");
-					r_m_Values.SetBelong(this.instance);
+					r_Fm_Values = new(this, "m_Values");
+					r_Fm_Values.SetBelong(this.instance);
 				}
-				return r_m_Values;
+				return r_Fm_Values;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength GetStyleLength(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_GetStyleLength_StylePropertyId;
-		public virtual RMethod RGetStyleLength_StylePropertyId
+		protected RMethod r_MGetStyleLength_StylePropertyId;
+		public virtual RMethod RMGetStyleLength_StylePropertyId
 		{
 			get
 			{
-				if(r_GetStyleLength_StylePropertyId == null)
+				if(r_MGetStyleLength_StylePropertyId == null)
 				{
-					r_GetStyleLength_StylePropertyId = new(this, "GetStyleLength", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_GetStyleLength_StylePropertyId.SetBelong(this.instance);
+					r_MGetStyleLength_StylePropertyId = new(this, "GetStyleLength", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_MGetStyleLength_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_GetStyleLength_StylePropertyId;
+				return r_MGetStyleLength_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat GetStyleFloat(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_GetStyleFloat_StylePropertyId;
-		public virtual RMethod RGetStyleFloat_StylePropertyId
+		protected RMethod r_MGetStyleFloat_StylePropertyId;
+		public virtual RMethod RMGetStyleFloat_StylePropertyId
 		{
 			get
 			{
-				if(r_GetStyleFloat_StylePropertyId == null)
+				if(r_MGetStyleFloat_StylePropertyId == null)
 				{
-					r_GetStyleFloat_StylePropertyId = new(this, "GetStyleFloat", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_GetStyleFloat_StylePropertyId.SetBelong(this.instance);
+					r_MGetStyleFloat_StylePropertyId = new(this, "GetStyleFloat", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_MGetStyleFloat_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_GetStyleFloat_StylePropertyId;
+				return r_MGetStyleFloat_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleInt GetStyleInt(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_GetStyleInt_StylePropertyId;
-		public virtual RMethod RGetStyleInt_StylePropertyId
+		protected RMethod r_MGetStyleInt_StylePropertyId;
+		public virtual RMethod RMGetStyleInt_StylePropertyId
 		{
 			get
 			{
-				if(r_GetStyleInt_StylePropertyId == null)
+				if(r_MGetStyleInt_StylePropertyId == null)
 				{
-					r_GetStyleInt_StylePropertyId = new(this, "GetStyleInt", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_GetStyleInt_StylePropertyId.SetBelong(this.instance);
+					r_MGetStyleInt_StylePropertyId = new(this, "GetStyleInt", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_MGetStyleInt_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_GetStyleInt_StylePropertyId;
+				return r_MGetStyleInt_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor GetStyleColor(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_GetStyleColor_StylePropertyId;
-		public virtual RMethod RGetStyleColor_StylePropertyId
+		protected RMethod r_MGetStyleColor_StylePropertyId;
+		public virtual RMethod RMGetStyleColor_StylePropertyId
 		{
 			get
 			{
-				if(r_GetStyleColor_StylePropertyId == null)
+				if(r_MGetStyleColor_StylePropertyId == null)
 				{
-					r_GetStyleColor_StylePropertyId = new(this, "GetStyleColor", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_GetStyleColor_StylePropertyId.SetBelong(this.instance);
+					r_MGetStyleColor_StylePropertyId = new(this, "GetStyleColor", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_MGetStyleColor_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_GetStyleColor_StylePropertyId;
+				return r_MGetStyleColor_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackground GetStyleBackground(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_GetStyleBackground_StylePropertyId;
-		public virtual RMethod RGetStyleBackground_StylePropertyId
+		protected RMethod r_MGetStyleBackground_StylePropertyId;
+		public virtual RMethod RMGetStyleBackground_StylePropertyId
 		{
 			get
 			{
-				if(r_GetStyleBackground_StylePropertyId == null)
+				if(r_MGetStyleBackground_StylePropertyId == null)
 				{
-					r_GetStyleBackground_StylePropertyId = new(this, "GetStyleBackground", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_GetStyleBackground_StylePropertyId.SetBelong(this.instance);
+					r_MGetStyleBackground_StylePropertyId = new(this, "GetStyleBackground", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_MGetStyleBackground_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_GetStyleBackground_StylePropertyId;
+				return r_MGetStyleBackground_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_GetStyleBackgroundPosition_StylePropertyId;
-		public virtual RMethod RGetStyleBackgroundPosition_StylePropertyId
+		protected RMethod r_MGetStyleBackgroundPosition_StylePropertyId;
+		public virtual RMethod RMGetStyleBackgroundPosition_StylePropertyId
 		{
 			get
 			{
-				if(r_GetStyleBackgroundPosition_StylePropertyId == null)
+				if(r_MGetStyleBackgroundPosition_StylePropertyId == null)
 				{
-					r_GetStyleBackgroundPosition_StylePropertyId = new(this, "GetStyleBackgroundPosition", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_GetStyleBackgroundPosition_StylePropertyId.SetBelong(this.instance);
+					r_MGetStyleBackgroundPosition_StylePropertyId = new(this, "GetStyleBackgroundPosition", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_MGetStyleBackgroundPosition_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_GetStyleBackgroundPosition_StylePropertyId;
+				return r_MGetStyleBackgroundPosition_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_GetStyleBackgroundRepeat_StylePropertyId;
-		public virtual RMethod RGetStyleBackgroundRepeat_StylePropertyId
+		protected RMethod r_MGetStyleBackgroundRepeat_StylePropertyId;
+		public virtual RMethod RMGetStyleBackgroundRepeat_StylePropertyId
 		{
 			get
 			{
-				if(r_GetStyleBackgroundRepeat_StylePropertyId == null)
+				if(r_MGetStyleBackgroundRepeat_StylePropertyId == null)
 				{
-					r_GetStyleBackgroundRepeat_StylePropertyId = new(this, "GetStyleBackgroundRepeat", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_GetStyleBackgroundRepeat_StylePropertyId.SetBelong(this.instance);
+					r_MGetStyleBackgroundRepeat_StylePropertyId = new(this, "GetStyleBackgroundRepeat", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_MGetStyleBackgroundRepeat_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_GetStyleBackgroundRepeat_StylePropertyId;
+				return r_MGetStyleBackgroundRepeat_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFont GetStyleFont(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_GetStyleFont_StylePropertyId;
-		public virtual RMethod RGetStyleFont_StylePropertyId
+		protected RMethod r_MGetStyleFont_StylePropertyId;
+		public virtual RMethod RMGetStyleFont_StylePropertyId
 		{
 			get
 			{
-				if(r_GetStyleFont_StylePropertyId == null)
+				if(r_MGetStyleFont_StylePropertyId == null)
 				{
-					r_GetStyleFont_StylePropertyId = new(this, "GetStyleFont", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_GetStyleFont_StylePropertyId.SetBelong(this.instance);
+					r_MGetStyleFont_StylePropertyId = new(this, "GetStyleFont", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_MGetStyleFont_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_GetStyleFont_StylePropertyId;
+				return r_MGetStyleFont_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFontDefinition GetStyleFontDefinition(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_GetStyleFontDefinition_StylePropertyId;
-		public virtual RMethod RGetStyleFontDefinition_StylePropertyId
+		protected RMethod r_MGetStyleFontDefinition_StylePropertyId;
+		public virtual RMethod RMGetStyleFontDefinition_StylePropertyId
 		{
 			get
 			{
-				if(r_GetStyleFontDefinition_StylePropertyId == null)
+				if(r_MGetStyleFontDefinition_StylePropertyId == null)
 				{
-					r_GetStyleFontDefinition_StylePropertyId = new(this, "GetStyleFontDefinition", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_GetStyleFontDefinition_StylePropertyId.SetBelong(this.instance);
+					r_MGetStyleFontDefinition_StylePropertyId = new(this, "GetStyleFontDefinition", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_MGetStyleFontDefinition_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_GetStyleFontDefinition_StylePropertyId;
+				return r_MGetStyleFontDefinition_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetStyleValue(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleSheets.StyleValue ByRef)
 		/// </summary>
-		protected RMethod r_TryGetStyleValue_StylePropertyId_Ref_StyleValue;
-		public virtual RMethod RTryGetStyleValue_StylePropertyId_Ref_StyleValue
+		protected RMethod r_MTryGetStyleValue_StylePropertyId_Ref_StyleValue;
+		public virtual RMethod RMTryGetStyleValue_StylePropertyId_Ref_StyleValue
 		{
 			get
 			{
-				if(r_TryGetStyleValue_StylePropertyId_Ref_StyleValue == null)
+				if(r_MTryGetStyleValue_StylePropertyId_Ref_StyleValue == null)
 				{
-					r_TryGetStyleValue_StylePropertyId_Ref_StyleValue = new(this, "TryGetStyleValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue").MakeByRefType());
-					r_TryGetStyleValue_StylePropertyId_Ref_StyleValue.SetBelong(this.instance);
+					r_MTryGetStyleValue_StylePropertyId_Ref_StyleValue = new(this, "TryGetStyleValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue").MakeByRefType());
+					r_MTryGetStyleValue_StylePropertyId_Ref_StyleValue.SetBelong(this.instance);
 				}
-				return r_TryGetStyleValue_StylePropertyId_Ref_StyleValue;
+				return r_MTryGetStyleValue_StylePropertyId_Ref_StyleValue;
 			}
 		}
 
 		/// <summary>
 		/// Void SetStyleValue(UnityEngine.UIElements.StyleSheets.StyleValue)
 		/// </summary>
-		protected RMethod r_SetStyleValue_StyleValue;
-		public virtual RMethod RSetStyleValue_StyleValue
+		protected RMethod r_MSetStyleValue_StyleValue;
+		public virtual RMethod RMSetStyleValue_StyleValue
 		{
 			get
 			{
-				if(r_SetStyleValue_StyleValue == null)
+				if(r_MSetStyleValue_StyleValue == null)
 				{
-					r_SetStyleValue_StyleValue = new(this, "SetStyleValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"));
-					r_SetStyleValue_StyleValue.SetBelong(this.instance);
+					r_MSetStyleValue_StyleValue = new(this, "SetStyleValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"));
+					r_MSetStyleValue_StyleValue.SetBelong(this.instance);
 				}
-				return r_SetStyleValue_StyleValue;
+				return r_MSetStyleValue_StyleValue;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -334,111 +334,111 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual UnityEngine.UIElements.StyleLength GetStyleLength(RType @id)
+        public virtual UnityEngine.UIElements.StyleLength GetStyleLength(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value};
-            var ___result = RGetStyleLength_StylePropertyId.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStyleLength_StylePropertyId.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.StyleLength)___result;
         }
 
 
-        public virtual UnityEngine.UIElements.StyleFloat GetStyleFloat(RType @id)
+        public virtual UnityEngine.UIElements.StyleFloat GetStyleFloat(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value};
-            var ___result = RGetStyleFloat_StylePropertyId.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStyleFloat_StylePropertyId.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.StyleFloat)___result;
         }
 
 
-        public virtual UnityEngine.UIElements.StyleInt GetStyleInt(RType @id)
+        public virtual UnityEngine.UIElements.StyleInt GetStyleInt(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value};
-            var ___result = RGetStyleInt_StylePropertyId.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStyleInt_StylePropertyId.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.StyleInt)___result;
         }
 
 
-        public virtual UnityEngine.UIElements.StyleColor GetStyleColor(RType @id)
+        public virtual UnityEngine.UIElements.StyleColor GetStyleColor(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value};
-            var ___result = RGetStyleColor_StylePropertyId.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStyleColor_StylePropertyId.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.StyleColor)___result;
         }
 
 
-        public virtual UnityEngine.UIElements.StyleBackground GetStyleBackground(RType @id)
+        public virtual UnityEngine.UIElements.StyleBackground GetStyleBackground(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value};
-            var ___result = RGetStyleBackground_StylePropertyId.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStyleBackground_StylePropertyId.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.StyleBackground)___result;
         }
 
 
-        public virtual UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(RType @id)
+        public virtual UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value};
-            var ___result = RGetStyleBackgroundPosition_StylePropertyId.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStyleBackgroundPosition_StylePropertyId.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.StyleBackgroundPosition)___result;
         }
 
 
-        public virtual UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(RType @id)
+        public virtual UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value};
-            var ___result = RGetStyleBackgroundRepeat_StylePropertyId.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStyleBackgroundRepeat_StylePropertyId.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.StyleBackgroundRepeat)___result;
         }
 
 
-        public virtual UnityEngine.UIElements.StyleFont GetStyleFont(RType @id)
+        public virtual UnityEngine.UIElements.StyleFont GetStyleFont(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value};
-            var ___result = RGetStyleFont_StylePropertyId.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStyleFont_StylePropertyId.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.StyleFont)___result;
         }
 
 
-        public virtual UnityEngine.UIElements.StyleFontDefinition GetStyleFontDefinition(RType @id)
+        public virtual UnityEngine.UIElements.StyleFontDefinition GetStyleFontDefinition(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value};
-            var ___result = RGetStyleFontDefinition_StylePropertyId.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStyleFontDefinition_StylePropertyId.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.StyleFontDefinition)___result;
         }
 
 
-        public virtual System.Boolean TryGetStyleValue(RType @id, ref RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
+        public virtual System.Boolean TryGetStyleValue(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @value.Value};
-            var ___result = RTryGetStyleValue_StylePropertyId_Ref_StyleValue.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryGetStyleValue_StylePropertyId_Ref_StyleValue.Invoke(___genericsType, ___parameters);
 			@value = new RUnityEngine.RUIElements.RStyleSheets.RStyleValue(___parameters[1]);
 
             return (System.Boolean)___result;
@@ -450,7 +450,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value.Value};
-            var ___result = RSetStyleValue_StyleValue.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetStyleValue_StyleValue.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -461,7 +461,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -472,7 +472,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -483,7 +483,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -494,7 +494,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -505,7 +505,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -516,7 +516,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

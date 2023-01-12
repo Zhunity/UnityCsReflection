@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.IEnumerator`1[T] GetEnumerator()
 		/// </summary>
-		protected RMethod r_GetEnumerator;
-		public virtual RMethod RGetEnumerator
+		protected RMethod r_MGetEnumerator;
+		public virtual RMethod RMGetEnumerator
 		{
 			get
 			{
-				if(r_GetEnumerator == null)
+				if(r_MGetEnumerator == null)
 				{
-					r_GetEnumerator = new(this, "GetEnumerator", 0);
-					r_GetEnumerator.SetBelong(this.instance);
+					r_MGetEnumerator = new(this, "GetEnumerator", 0);
+					r_MGetEnumerator.SetBelong(this.instance);
 				}
-				return r_GetEnumerator;
+				return r_MGetEnumerator;
 			}
 		}
 
@@ -50,7 +50,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetEnumerator.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
             return (System.Collections.Generic.IEnumerator<T>)___result;
         }

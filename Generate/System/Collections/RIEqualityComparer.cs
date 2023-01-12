@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Boolean Equals(System.Object, System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object_Object;
-		public virtual RMethod REquals_Object_Object
+		protected RMethod r_MEquals_Object_Object;
+		public virtual RMethod RMEquals_Object_Object
 		{
 			get
 			{
-				if(r_Equals_Object_Object == null)
+				if(r_MEquals_Object_Object == null)
 				{
-					r_Equals_Object_Object = new(this, "Equals", 0, typeof(System.Object), typeof(System.Object));
-					r_Equals_Object_Object.SetBelong(this.instance);
+					r_MEquals_Object_Object = new(this, "Equals", 0, typeof(System.Object), typeof(System.Object));
+					r_MEquals_Object_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object_Object;
+				return r_MEquals_Object_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode(System.Object)
 		/// </summary>
-		protected RMethod r_GetHashCode_Object;
-		public virtual RMethod RGetHashCode_Object
+		protected RMethod r_MGetHashCode_Object;
+		public virtual RMethod RMGetHashCode_Object
 		{
 			get
 			{
-				if(r_GetHashCode_Object == null)
+				if(r_MGetHashCode_Object == null)
 				{
-					r_GetHashCode_Object = new(this, "GetHashCode", 0, typeof(System.Object));
-					r_GetHashCode_Object.SetBelong(this.instance);
+					r_MGetHashCode_Object = new(this, "GetHashCode", 0, typeof(System.Object));
+					r_MGetHashCode_Object.SetBelong(this.instance);
 				}
-				return r_GetHashCode_Object;
+				return r_MGetHashCode_Object;
 			}
 		}
 
@@ -67,7 +67,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@x, @y};
-            var ___result = REquals_Object_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -78,7 +78,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = RGetHashCode_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }

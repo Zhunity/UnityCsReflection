@@ -80,7 +80,7 @@ namespace SMFrame.Editor.Extension
 			{
 				var classId = int.Parse(command);
 				var unityType = RUnityType.FindTypeByPersistentTypeID(classId);
-				return unityType.Rname.GetValue().ToString();
+				return unityType.RPname.GetValue().ToString();
 			}
 		}
 	}

@@ -13,85 +13,85 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// Void AddResource(System.String, System.String)
 		/// </summary>
-		protected RMethod r_AddResource_String_String;
-		public virtual RMethod RAddResource_String_String
+		protected RMethod r_MAddResource_String_String;
+		public virtual RMethod RMAddResource_String_String
 		{
 			get
 			{
-				if(r_AddResource_String_String == null)
+				if(r_MAddResource_String_String == null)
 				{
-					r_AddResource_String_String = new(this, "AddResource", 0, typeof(System.String), typeof(System.String));
-					r_AddResource_String_String.SetBelong(this.instance);
+					r_MAddResource_String_String = new(this, "AddResource", 0, typeof(System.String), typeof(System.String));
+					r_MAddResource_String_String.SetBelong(this.instance);
 				}
-				return r_AddResource_String_String;
+				return r_MAddResource_String_String;
 			}
 		}
 
 		/// <summary>
 		/// Void AddResource(System.String, System.Object)
 		/// </summary>
-		protected RMethod r_AddResource_String_Object;
-		public virtual RMethod RAddResource_String_Object
+		protected RMethod r_MAddResource_String_Object;
+		public virtual RMethod RMAddResource_String_Object
 		{
 			get
 			{
-				if(r_AddResource_String_Object == null)
+				if(r_MAddResource_String_Object == null)
 				{
-					r_AddResource_String_Object = new(this, "AddResource", 0, typeof(System.String), typeof(System.Object));
-					r_AddResource_String_Object.SetBelong(this.instance);
+					r_MAddResource_String_Object = new(this, "AddResource", 0, typeof(System.String), typeof(System.Object));
+					r_MAddResource_String_Object.SetBelong(this.instance);
 				}
-				return r_AddResource_String_Object;
+				return r_MAddResource_String_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void AddResource(System.String, Byte[])
 		/// </summary>
-		protected RMethod r_AddResource_String_ByteArray;
-		public virtual RMethod RAddResource_String_ByteArray
+		protected RMethod r_MAddResource_String_ByteArray;
+		public virtual RMethod RMAddResource_String_ByteArray
 		{
 			get
 			{
-				if(r_AddResource_String_ByteArray == null)
+				if(r_MAddResource_String_ByteArray == null)
 				{
-					r_AddResource_String_ByteArray = new(this, "AddResource", 0, typeof(System.String), typeof(System.Byte).MakeArrayType());
-					r_AddResource_String_ByteArray.SetBelong(this.instance);
+					r_MAddResource_String_ByteArray = new(this, "AddResource", 0, typeof(System.String), typeof(System.Byte).MakeArrayType());
+					r_MAddResource_String_ByteArray.SetBelong(this.instance);
 				}
-				return r_AddResource_String_ByteArray;
+				return r_MAddResource_String_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Void Close()
 		/// </summary>
-		protected RMethod r_Close;
-		public virtual RMethod RClose
+		protected RMethod r_MClose;
+		public virtual RMethod RMClose
 		{
 			get
 			{
-				if(r_Close == null)
+				if(r_MClose == null)
 				{
-					r_Close = new(this, "Close", 0);
-					r_Close.SetBelong(this.instance);
+					r_MClose = new(this, "Close", 0);
+					r_MClose.SetBelong(this.instance);
 				}
-				return r_Close;
+				return r_MClose;
 			}
 		}
 
 		/// <summary>
 		/// Void Generate()
 		/// </summary>
-		protected RMethod r_Generate;
-		public virtual RMethod RGenerate
+		protected RMethod r_MGenerate;
+		public virtual RMethod RMGenerate
 		{
 			get
 			{
-				if(r_Generate == null)
+				if(r_MGenerate == null)
 				{
-					r_Generate = new(this, "Generate", 0);
-					r_Generate.SetBelong(this.instance);
+					r_MGenerate = new(this, "Generate", 0);
+					r_MGenerate.SetBelong(this.instance);
 				}
-				return r_Generate;
+				return r_MGenerate;
 			}
 		}
 
@@ -118,7 +118,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @value};
-            var ___result = RAddResource_String_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddResource_String_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -129,7 +129,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @value};
-            var ___result = RAddResource_String_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddResource_String_Object.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -140,7 +140,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @value};
-            var ___result = RAddResource_String_ByteArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddResource_String_ByteArray.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -151,7 +151,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RClose.Invoke(___genericsType, ___parameters);
+            var ___result = RMClose.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -162,7 +162,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGenerate.Invoke(___genericsType, ___parameters);
+            var ___result = RMGenerate.Invoke(___genericsType, ___parameters);
 
             
         }

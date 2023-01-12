@@ -13,1088 +13,1088 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.UInt64 handle
 		/// </summary>
-		protected RSystem.RUInt64 r_handle;
-		public virtual RSystem.RUInt64 Rhandle
+		protected RSystem.RUInt64 r_Fhandle;
+		public virtual RSystem.RUInt64 RFhandle
 		{
 			get
 			{
-				if(r_handle == null)
+				if(r_Fhandle == null)
 				{
-					r_handle = new(this, "handle");
-					r_handle.SetBelong(this.instance);
+					r_Fhandle = new(this, "handle");
+					r_Fhandle.SetBelong(this.instance);
 				}
-				return r_handle;
+				return r_Fhandle;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderOptions SharedRecorder
 		/// </summary>
-		protected static RField r_SharedRecorder;
-		public static RField RSharedRecorder
+		protected static RUnity.RProfiling.RProfilerRecorderOptions r_FSharedRecorder;
+		public static RUnity.RProfiling.RProfilerRecorderOptions RFSharedRecorder
 		{
 			get
 			{
-				if(r_SharedRecorder == null)
+				if(r_FSharedRecorder == null)
 				{
-					r_SharedRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "SharedRecorder");
-					r_SharedRecorder.SetBelong(null);
+					r_FSharedRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "SharedRecorder");
+					r_FSharedRecorder.SetBelong(null);
 				}
-				return r_SharedRecorder;
+				return r_FSharedRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Valid
 		/// </summary>
-		protected RSystem.RBoolean r_Valid;
-		public virtual RSystem.RBoolean RValid
+		protected RSystem.RBoolean r_PValid;
+		public virtual RSystem.RBoolean RPValid
 		{
 			get
 			{
-				if(r_Valid == null)
+				if(r_PValid == null)
 				{
-					r_Valid = new(this, "Valid", -1);
-					r_Valid.SetBelong(this.instance);
+					r_PValid = new(this, "Valid", -1);
+					r_PValid.SetBelong(this.instance);
 				}
-				return r_Valid;
+				return r_PValid;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType DataType
 		/// </summary>
-		protected RProperty r_DataType;
-		public virtual RProperty RDataType
+		protected RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_PDataType;
+		public virtual RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RPDataType
 		{
 			get
 			{
-				if(r_DataType == null)
+				if(r_PDataType == null)
 				{
-					r_DataType = new(this, "DataType", -1);
-					r_DataType.SetBelong(this.instance);
+					r_PDataType = new(this, "DataType", -1);
+					r_PDataType.SetBelong(this.instance);
 				}
-				return r_DataType;
+				return r_PDataType;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarkerDataUnit UnitType
 		/// </summary>
-		protected RProperty r_UnitType;
-		public virtual RProperty RUnitType
+		protected RUnity.RProfiling.RProfilerMarkerDataUnit r_PUnitType;
+		public virtual RUnity.RProfiling.RProfilerMarkerDataUnit RPUnitType
 		{
 			get
 			{
-				if(r_UnitType == null)
+				if(r_PUnitType == null)
 				{
-					r_UnitType = new(this, "UnitType", -1);
-					r_UnitType.SetBelong(this.instance);
+					r_PUnitType = new(this, "UnitType", -1);
+					r_PUnitType.SetBelong(this.instance);
 				}
-				return r_UnitType;
+				return r_PUnitType;
 			}
 		}
 
 		/// <summary>
 		/// Int64 CurrentValue
 		/// </summary>
-		protected RSystem.RInt64 r_CurrentValue;
-		public virtual RSystem.RInt64 RCurrentValue
+		protected RSystem.RInt64 r_PCurrentValue;
+		public virtual RSystem.RInt64 RPCurrentValue
 		{
 			get
 			{
-				if(r_CurrentValue == null)
+				if(r_PCurrentValue == null)
 				{
-					r_CurrentValue = new(this, "CurrentValue", -1);
-					r_CurrentValue.SetBelong(this.instance);
+					r_PCurrentValue = new(this, "CurrentValue", -1);
+					r_PCurrentValue.SetBelong(this.instance);
 				}
-				return r_CurrentValue;
+				return r_PCurrentValue;
 			}
 		}
 
 		/// <summary>
 		/// Double CurrentValueAsDouble
 		/// </summary>
-		protected RSystem.RDouble r_CurrentValueAsDouble;
-		public virtual RSystem.RDouble RCurrentValueAsDouble
+		protected RSystem.RDouble r_PCurrentValueAsDouble;
+		public virtual RSystem.RDouble RPCurrentValueAsDouble
 		{
 			get
 			{
-				if(r_CurrentValueAsDouble == null)
+				if(r_PCurrentValueAsDouble == null)
 				{
-					r_CurrentValueAsDouble = new(this, "CurrentValueAsDouble", -1);
-					r_CurrentValueAsDouble.SetBelong(this.instance);
+					r_PCurrentValueAsDouble = new(this, "CurrentValueAsDouble", -1);
+					r_PCurrentValueAsDouble.SetBelong(this.instance);
 				}
-				return r_CurrentValueAsDouble;
+				return r_PCurrentValueAsDouble;
 			}
 		}
 
 		/// <summary>
 		/// Int64 LastValue
 		/// </summary>
-		protected RSystem.RInt64 r_LastValue;
-		public virtual RSystem.RInt64 RLastValue
+		protected RSystem.RInt64 r_PLastValue;
+		public virtual RSystem.RInt64 RPLastValue
 		{
 			get
 			{
-				if(r_LastValue == null)
+				if(r_PLastValue == null)
 				{
-					r_LastValue = new(this, "LastValue", -1);
-					r_LastValue.SetBelong(this.instance);
+					r_PLastValue = new(this, "LastValue", -1);
+					r_PLastValue.SetBelong(this.instance);
 				}
-				return r_LastValue;
+				return r_PLastValue;
 			}
 		}
 
 		/// <summary>
 		/// Double LastValueAsDouble
 		/// </summary>
-		protected RSystem.RDouble r_LastValueAsDouble;
-		public virtual RSystem.RDouble RLastValueAsDouble
+		protected RSystem.RDouble r_PLastValueAsDouble;
+		public virtual RSystem.RDouble RPLastValueAsDouble
 		{
 			get
 			{
-				if(r_LastValueAsDouble == null)
+				if(r_PLastValueAsDouble == null)
 				{
-					r_LastValueAsDouble = new(this, "LastValueAsDouble", -1);
-					r_LastValueAsDouble.SetBelong(this.instance);
+					r_PLastValueAsDouble = new(this, "LastValueAsDouble", -1);
+					r_PLastValueAsDouble.SetBelong(this.instance);
 				}
-				return r_LastValueAsDouble;
+				return r_PLastValueAsDouble;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Capacity
 		/// </summary>
-		protected RSystem.RInt32 r_Capacity;
-		public virtual RSystem.RInt32 RCapacity
+		protected RSystem.RInt32 r_PCapacity;
+		public virtual RSystem.RInt32 RPCapacity
 		{
 			get
 			{
-				if(r_Capacity == null)
+				if(r_PCapacity == null)
 				{
-					r_Capacity = new(this, "Capacity", -1);
-					r_Capacity.SetBelong(this.instance);
+					r_PCapacity = new(this, "Capacity", -1);
+					r_PCapacity.SetBelong(this.instance);
 				}
-				return r_Capacity;
+				return r_PCapacity;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RSystem.RInt32 r_Count;
-		public virtual RSystem.RInt32 RCount
+		protected RSystem.RInt32 r_PCount;
+		public virtual RSystem.RInt32 RPCount
 		{
 			get
 			{
-				if(r_Count == null)
+				if(r_PCount == null)
 				{
-					r_Count = new(this, "Count", -1);
-					r_Count.SetBelong(this.instance);
+					r_PCount = new(this, "Count", -1);
+					r_PCount.SetBelong(this.instance);
 				}
-				return r_Count;
+				return r_PCount;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsRunning
 		/// </summary>
-		protected RSystem.RBoolean r_IsRunning;
-		public virtual RSystem.RBoolean RIsRunning
+		protected RSystem.RBoolean r_PIsRunning;
+		public virtual RSystem.RBoolean RPIsRunning
 		{
 			get
 			{
-				if(r_IsRunning == null)
+				if(r_PIsRunning == null)
 				{
-					r_IsRunning = new(this, "IsRunning", -1);
-					r_IsRunning.SetBelong(this.instance);
+					r_PIsRunning = new(this, "IsRunning", -1);
+					r_PIsRunning.SetBelong(this.instance);
 				}
-				return r_IsRunning;
+				return r_PIsRunning;
 			}
 		}
 
 		/// <summary>
 		/// Boolean WrappedAround
 		/// </summary>
-		protected RSystem.RBoolean r_WrappedAround;
-		public virtual RSystem.RBoolean RWrappedAround
+		protected RSystem.RBoolean r_PWrappedAround;
+		public virtual RSystem.RBoolean RPWrappedAround
 		{
 			get
 			{
-				if(r_WrappedAround == null)
+				if(r_PWrappedAround == null)
 				{
-					r_WrappedAround = new(this, "WrappedAround", -1);
-					r_WrappedAround.SetBelong(this.instance);
+					r_PWrappedAround = new(this, "WrappedAround", -1);
+					r_PWrappedAround.SetBelong(this.instance);
 				}
-				return r_WrappedAround;
+				return r_PWrappedAround;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorder StartNew(Unity.Profiling.ProfilerCategory, System.String, Int32, Unity.Profiling.ProfilerRecorderOptions)
 		/// </summary>
-		protected static RMethod r_StartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions;
-		public static RMethod RStartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions
+		protected static RMethod r_MStartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions;
+		public static RMethod RMStartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions
 		{
 			get
 			{
-				if(r_StartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions == null)
+				if(r_MStartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions == null)
 				{
-					r_StartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "StartNew", 0, typeof(Unity.Profiling.ProfilerCategory), typeof(System.String), typeof(System.Int32), typeof(Unity.Profiling.ProfilerRecorderOptions));
-					r_StartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions.SetBelong(null);
+					r_MStartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "StartNew", 0, typeof(Unity.Profiling.ProfilerCategory), typeof(System.String), typeof(System.Int32), typeof(Unity.Profiling.ProfilerRecorderOptions));
+					r_MStartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions.SetBelong(null);
 				}
-				return r_StartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions;
+				return r_MStartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorder StartNew(Unity.Profiling.ProfilerMarker, Int32, Unity.Profiling.ProfilerRecorderOptions)
 		/// </summary>
-		protected static RMethod r_StartNew_ProfilerMarker_Int32_ProfilerRecorderOptions;
-		public static RMethod RStartNew_ProfilerMarker_Int32_ProfilerRecorderOptions
+		protected static RMethod r_MStartNew_ProfilerMarker_Int32_ProfilerRecorderOptions;
+		public static RMethod RMStartNew_ProfilerMarker_Int32_ProfilerRecorderOptions
 		{
 			get
 			{
-				if(r_StartNew_ProfilerMarker_Int32_ProfilerRecorderOptions == null)
+				if(r_MStartNew_ProfilerMarker_Int32_ProfilerRecorderOptions == null)
 				{
-					r_StartNew_ProfilerMarker_Int32_ProfilerRecorderOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "StartNew", 0, typeof(Unity.Profiling.ProfilerMarker), typeof(System.Int32), typeof(Unity.Profiling.ProfilerRecorderOptions));
-					r_StartNew_ProfilerMarker_Int32_ProfilerRecorderOptions.SetBelong(null);
+					r_MStartNew_ProfilerMarker_Int32_ProfilerRecorderOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "StartNew", 0, typeof(Unity.Profiling.ProfilerMarker), typeof(System.Int32), typeof(Unity.Profiling.ProfilerRecorderOptions));
+					r_MStartNew_ProfilerMarker_Int32_ProfilerRecorderOptions.SetBelong(null);
 				}
-				return r_StartNew_ProfilerMarker_Int32_ProfilerRecorderOptions;
+				return r_MStartNew_ProfilerMarker_Int32_ProfilerRecorderOptions;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorder StartNew()
 		/// </summary>
-		protected static RMethod r_StartNew;
-		public static RMethod RStartNew
+		protected static RMethod r_MStartNew;
+		public static RMethod RMStartNew
 		{
 			get
 			{
-				if(r_StartNew == null)
+				if(r_MStartNew == null)
 				{
-					r_StartNew = new(typeof(Unity.Profiling.ProfilerRecorder), "StartNew", 0);
-					r_StartNew.SetBelong(null);
+					r_MStartNew = new(typeof(Unity.Profiling.ProfilerRecorder), "StartNew", 0);
+					r_MStartNew.SetBelong(null);
 				}
-				return r_StartNew;
+				return r_MStartNew;
 			}
 		}
 
 		/// <summary>
 		/// Void Start()
 		/// </summary>
-		protected RMethod r_Start;
-		public virtual RMethod RStart
+		protected RMethod r_MStart;
+		public virtual RMethod RMStart
 		{
 			get
 			{
-				if(r_Start == null)
+				if(r_MStart == null)
 				{
-					r_Start = new(this, "Start", 0);
-					r_Start.SetBelong(this.instance);
+					r_MStart = new(this, "Start", 0);
+					r_MStart.SetBelong(this.instance);
 				}
-				return r_Start;
+				return r_MStart;
 			}
 		}
 
 		/// <summary>
 		/// Void Stop()
 		/// </summary>
-		protected RMethod r_Stop;
-		public virtual RMethod RStop
+		protected RMethod r_MStop;
+		public virtual RMethod RMStop
 		{
 			get
 			{
-				if(r_Stop == null)
+				if(r_MStop == null)
 				{
-					r_Stop = new(this, "Stop", 0);
-					r_Stop.SetBelong(this.instance);
+					r_MStop = new(this, "Stop", 0);
+					r_MStop.SetBelong(this.instance);
 				}
-				return r_Stop;
+				return r_MStop;
 			}
 		}
 
 		/// <summary>
 		/// Void Reset()
 		/// </summary>
-		protected RMethod r_Reset;
-		public virtual RMethod RReset
+		protected RMethod r_MReset;
+		public virtual RMethod RMReset
 		{
 			get
 			{
-				if(r_Reset == null)
+				if(r_MReset == null)
 				{
-					r_Reset = new(this, "Reset", 0);
-					r_Reset.SetBelong(this.instance);
+					r_MReset = new(this, "Reset", 0);
+					r_MReset.SetBelong(this.instance);
 				}
-				return r_Reset;
+				return r_MReset;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderSample GetSample(Int32)
 		/// </summary>
-		protected RMethod r_GetSample_Int32;
-		public virtual RMethod RGetSample_Int32
+		protected RMethod r_MGetSample_Int32;
+		public virtual RMethod RMGetSample_Int32
 		{
 			get
 			{
-				if(r_GetSample_Int32 == null)
+				if(r_MGetSample_Int32 == null)
 				{
-					r_GetSample_Int32 = new(this, "GetSample", 0, typeof(System.Int32));
-					r_GetSample_Int32.SetBelong(this.instance);
+					r_MGetSample_Int32 = new(this, "GetSample", 0, typeof(System.Int32));
+					r_MGetSample_Int32.SetBelong(this.instance);
 				}
-				return r_GetSample_Int32;
+				return r_MGetSample_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void CopyTo(System.Collections.Generic.List`1[Unity.Profiling.ProfilerRecorderSample], Boolean)
 		/// </summary>
-		protected RMethod r_CopyTo_List_d_ProfilerRecorderSample_p__Boolean;
-		public virtual RMethod RCopyTo_List_d_ProfilerRecorderSample_p__Boolean
+		protected RMethod r_MCopyTo_List_d_ProfilerRecorderSample_p__Boolean;
+		public virtual RMethod RMCopyTo_List_d_ProfilerRecorderSample_p__Boolean
 		{
 			get
 			{
-				if(r_CopyTo_List_d_ProfilerRecorderSample_p__Boolean == null)
+				if(r_MCopyTo_List_d_ProfilerRecorderSample_p__Boolean == null)
 				{
-					r_CopyTo_List_d_ProfilerRecorderSample_p__Boolean = new(this, "CopyTo", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(Unity.Profiling.ProfilerRecorderSample)), typeof(System.Boolean));
-					r_CopyTo_List_d_ProfilerRecorderSample_p__Boolean.SetBelong(this.instance);
+					r_MCopyTo_List_d_ProfilerRecorderSample_p__Boolean = new(this, "CopyTo", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(Unity.Profiling.ProfilerRecorderSample)), typeof(System.Boolean));
+					r_MCopyTo_List_d_ProfilerRecorderSample_p__Boolean.SetBelong(this.instance);
 				}
-				return r_CopyTo_List_d_ProfilerRecorderSample_p__Boolean;
+				return r_MCopyTo_List_d_ProfilerRecorderSample_p__Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32 CopyTo(Unity.Profiling.ProfilerRecorderSample*, Int32, Boolean)
 		/// </summary>
-		protected RMethod r_CopyTo_ProfilerRecorderSamplePointer_Int32_Boolean;
-		public virtual RMethod RCopyTo_ProfilerRecorderSamplePointer_Int32_Boolean
+		protected RMethod r_MCopyTo_ProfilerRecorderSamplePointer_Int32_Boolean;
+		public virtual RMethod RMCopyTo_ProfilerRecorderSamplePointer_Int32_Boolean
 		{
 			get
 			{
-				if(r_CopyTo_ProfilerRecorderSamplePointer_Int32_Boolean == null)
+				if(r_MCopyTo_ProfilerRecorderSamplePointer_Int32_Boolean == null)
 				{
-					r_CopyTo_ProfilerRecorderSamplePointer_Int32_Boolean = new(this, "CopyTo", 0, typeof(Unity.Profiling.ProfilerRecorderSample).MakePointerType(), typeof(System.Int32), typeof(System.Boolean));
-					r_CopyTo_ProfilerRecorderSamplePointer_Int32_Boolean.SetBelong(this.instance);
+					r_MCopyTo_ProfilerRecorderSamplePointer_Int32_Boolean = new(this, "CopyTo", 0, typeof(Unity.Profiling.ProfilerRecorderSample).MakePointerType(), typeof(System.Int32), typeof(System.Boolean));
+					r_MCopyTo_ProfilerRecorderSamplePointer_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_CopyTo_ProfilerRecorderSamplePointer_Int32_Boolean;
+				return r_MCopyTo_ProfilerRecorderSamplePointer_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderSample[] ToArray()
 		/// </summary>
-		protected RMethod r_ToArray;
-		public virtual RMethod RToArray
+		protected RMethod r_MToArray;
+		public virtual RMethod RMToArray
 		{
 			get
 			{
-				if(r_ToArray == null)
+				if(r_MToArray == null)
 				{
-					r_ToArray = new(this, "ToArray", 0);
-					r_ToArray.SetBelong(this.instance);
+					r_MToArray = new(this, "ToArray", 0);
+					r_MToArray.SetBelong(this.instance);
 				}
-				return r_ToArray;
+				return r_MToArray;
 			}
 		}
 
 		/// <summary>
 		/// Void FilterToCurrentThread()
 		/// </summary>
-		protected RMethod r_FilterToCurrentThread;
-		public virtual RMethod RFilterToCurrentThread
+		protected RMethod r_MFilterToCurrentThread;
+		public virtual RMethod RMFilterToCurrentThread
 		{
 			get
 			{
-				if(r_FilterToCurrentThread == null)
+				if(r_MFilterToCurrentThread == null)
 				{
-					r_FilterToCurrentThread = new(this, "FilterToCurrentThread", 0);
-					r_FilterToCurrentThread.SetBelong(this.instance);
+					r_MFilterToCurrentThread = new(this, "FilterToCurrentThread", 0);
+					r_MFilterToCurrentThread.SetBelong(this.instance);
 				}
-				return r_FilterToCurrentThread;
+				return r_MFilterToCurrentThread;
 			}
 		}
 
 		/// <summary>
 		/// Void CollectFromAllThreads()
 		/// </summary>
-		protected RMethod r_CollectFromAllThreads;
-		public virtual RMethod RCollectFromAllThreads
+		protected RMethod r_MCollectFromAllThreads;
+		public virtual RMethod RMCollectFromAllThreads
 		{
 			get
 			{
-				if(r_CollectFromAllThreads == null)
+				if(r_MCollectFromAllThreads == null)
 				{
-					r_CollectFromAllThreads = new(this, "CollectFromAllThreads", 0);
-					r_CollectFromAllThreads.SetBelong(this.instance);
+					r_MCollectFromAllThreads = new(this, "CollectFromAllThreads", 0);
+					r_MCollectFromAllThreads.SetBelong(this.instance);
 				}
-				return r_CollectFromAllThreads;
+				return r_MCollectFromAllThreads;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorder Create(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle, Int32, Unity.Profiling.ProfilerRecorderOptions)
 		/// </summary>
-		protected static RMethod r_Create_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions;
-		public static RMethod RCreate_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions
+		protected static RMethod r_MCreate_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions;
+		public static RMethod RMCreate_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions
 		{
 			get
 			{
-				if(r_Create_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions == null)
+				if(r_MCreate_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions == null)
 				{
-					r_Create_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "Create", 0, typeof(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle), typeof(System.Int32), typeof(Unity.Profiling.ProfilerRecorderOptions));
-					r_Create_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions.SetBelong(null);
+					r_MCreate_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "Create", 0, typeof(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle), typeof(System.Int32), typeof(Unity.Profiling.ProfilerRecorderOptions));
+					r_MCreate_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions.SetBelong(null);
 				}
-				return r_Create_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions;
+				return r_MCreate_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions;
 			}
 		}
 
 		/// <summary>
 		/// Void Control(Unity.Profiling.ProfilerRecorder, ControlOptions)
 		/// </summary>
-		protected static RMethod r_Control_ProfilerRecorder_ControlOptions;
-		public static RMethod RControl_ProfilerRecorder_ControlOptions
+		protected static RMethod r_MControl_ProfilerRecorder_ControlOptions;
+		public static RMethod RMControl_ProfilerRecorder_ControlOptions
 		{
 			get
 			{
-				if(r_Control_ProfilerRecorder_ControlOptions == null)
+				if(r_MControl_ProfilerRecorder_ControlOptions == null)
 				{
-					r_Control_ProfilerRecorder_ControlOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "Control", 0, typeof(Unity.Profiling.ProfilerRecorder),  ReflectionUtils.GetType("Unity.Profiling.ProfilerRecorder+ControlOptions"));
-					r_Control_ProfilerRecorder_ControlOptions.SetBelong(null);
+					r_MControl_ProfilerRecorder_ControlOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "Control", 0, typeof(Unity.Profiling.ProfilerRecorder),  ReflectionUtils.GetType("Unity.Profiling.ProfilerRecorder+ControlOptions"));
+					r_MControl_ProfilerRecorder_ControlOptions.SetBelong(null);
 				}
-				return r_Control_ProfilerRecorder_ControlOptions;
+				return r_MControl_ProfilerRecorder_ControlOptions;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarkerDataUnit GetValueUnitType(Unity.Profiling.ProfilerRecorder)
 		/// </summary>
-		protected static RMethod r_GetValueUnitType_ProfilerRecorder;
-		public static RMethod RGetValueUnitType_ProfilerRecorder
+		protected static RMethod r_MGetValueUnitType_ProfilerRecorder;
+		public static RMethod RMGetValueUnitType_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetValueUnitType_ProfilerRecorder == null)
+				if(r_MGetValueUnitType_ProfilerRecorder == null)
 				{
-					r_GetValueUnitType_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetValueUnitType", 0, typeof(Unity.Profiling.ProfilerRecorder));
-					r_GetValueUnitType_ProfilerRecorder.SetBelong(null);
+					r_MGetValueUnitType_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetValueUnitType", 0, typeof(Unity.Profiling.ProfilerRecorder));
+					r_MGetValueUnitType_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetValueUnitType_ProfilerRecorder;
+				return r_MGetValueUnitType_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType GetValueDataType(Unity.Profiling.ProfilerRecorder)
 		/// </summary>
-		protected static RMethod r_GetValueDataType_ProfilerRecorder;
-		public static RMethod RGetValueDataType_ProfilerRecorder
+		protected static RMethod r_MGetValueDataType_ProfilerRecorder;
+		public static RMethod RMGetValueDataType_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetValueDataType_ProfilerRecorder == null)
+				if(r_MGetValueDataType_ProfilerRecorder == null)
 				{
-					r_GetValueDataType_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetValueDataType", 0, typeof(Unity.Profiling.ProfilerRecorder));
-					r_GetValueDataType_ProfilerRecorder.SetBelong(null);
+					r_MGetValueDataType_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetValueDataType", 0, typeof(Unity.Profiling.ProfilerRecorder));
+					r_MGetValueDataType_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetValueDataType_ProfilerRecorder;
+				return r_MGetValueDataType_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Int64 GetCurrentValue(Unity.Profiling.ProfilerRecorder)
 		/// </summary>
-		protected static RMethod r_GetCurrentValue_ProfilerRecorder;
-		public static RMethod RGetCurrentValue_ProfilerRecorder
+		protected static RMethod r_MGetCurrentValue_ProfilerRecorder;
+		public static RMethod RMGetCurrentValue_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetCurrentValue_ProfilerRecorder == null)
+				if(r_MGetCurrentValue_ProfilerRecorder == null)
 				{
-					r_GetCurrentValue_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCurrentValue", 0, typeof(Unity.Profiling.ProfilerRecorder));
-					r_GetCurrentValue_ProfilerRecorder.SetBelong(null);
+					r_MGetCurrentValue_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCurrentValue", 0, typeof(Unity.Profiling.ProfilerRecorder));
+					r_MGetCurrentValue_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetCurrentValue_ProfilerRecorder;
+				return r_MGetCurrentValue_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Double GetCurrentValueAsDouble(Unity.Profiling.ProfilerRecorder)
 		/// </summary>
-		protected static RMethod r_GetCurrentValueAsDouble_ProfilerRecorder;
-		public static RMethod RGetCurrentValueAsDouble_ProfilerRecorder
+		protected static RMethod r_MGetCurrentValueAsDouble_ProfilerRecorder;
+		public static RMethod RMGetCurrentValueAsDouble_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetCurrentValueAsDouble_ProfilerRecorder == null)
+				if(r_MGetCurrentValueAsDouble_ProfilerRecorder == null)
 				{
-					r_GetCurrentValueAsDouble_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCurrentValueAsDouble", 0, typeof(Unity.Profiling.ProfilerRecorder));
-					r_GetCurrentValueAsDouble_ProfilerRecorder.SetBelong(null);
+					r_MGetCurrentValueAsDouble_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCurrentValueAsDouble", 0, typeof(Unity.Profiling.ProfilerRecorder));
+					r_MGetCurrentValueAsDouble_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetCurrentValueAsDouble_ProfilerRecorder;
+				return r_MGetCurrentValueAsDouble_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Int64 GetLastValue(Unity.Profiling.ProfilerRecorder)
 		/// </summary>
-		protected static RMethod r_GetLastValue_ProfilerRecorder;
-		public static RMethod RGetLastValue_ProfilerRecorder
+		protected static RMethod r_MGetLastValue_ProfilerRecorder;
+		public static RMethod RMGetLastValue_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetLastValue_ProfilerRecorder == null)
+				if(r_MGetLastValue_ProfilerRecorder == null)
 				{
-					r_GetLastValue_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetLastValue", 0, typeof(Unity.Profiling.ProfilerRecorder));
-					r_GetLastValue_ProfilerRecorder.SetBelong(null);
+					r_MGetLastValue_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetLastValue", 0, typeof(Unity.Profiling.ProfilerRecorder));
+					r_MGetLastValue_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetLastValue_ProfilerRecorder;
+				return r_MGetLastValue_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Double GetLastValueAsDouble(Unity.Profiling.ProfilerRecorder)
 		/// </summary>
-		protected static RMethod r_GetLastValueAsDouble_ProfilerRecorder;
-		public static RMethod RGetLastValueAsDouble_ProfilerRecorder
+		protected static RMethod r_MGetLastValueAsDouble_ProfilerRecorder;
+		public static RMethod RMGetLastValueAsDouble_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetLastValueAsDouble_ProfilerRecorder == null)
+				if(r_MGetLastValueAsDouble_ProfilerRecorder == null)
 				{
-					r_GetLastValueAsDouble_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetLastValueAsDouble", 0, typeof(Unity.Profiling.ProfilerRecorder));
-					r_GetLastValueAsDouble_ProfilerRecorder.SetBelong(null);
+					r_MGetLastValueAsDouble_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetLastValueAsDouble", 0, typeof(Unity.Profiling.ProfilerRecorder));
+					r_MGetLastValueAsDouble_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetLastValueAsDouble_ProfilerRecorder;
+				return r_MGetLastValueAsDouble_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetCount(Unity.Profiling.ProfilerRecorder, CountOptions)
 		/// </summary>
-		protected static RMethod r_GetCount_ProfilerRecorder_CountOptions;
-		public static RMethod RGetCount_ProfilerRecorder_CountOptions
+		protected static RMethod r_MGetCount_ProfilerRecorder_CountOptions;
+		public static RMethod RMGetCount_ProfilerRecorder_CountOptions
 		{
 			get
 			{
-				if(r_GetCount_ProfilerRecorder_CountOptions == null)
+				if(r_MGetCount_ProfilerRecorder_CountOptions == null)
 				{
-					r_GetCount_ProfilerRecorder_CountOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCount", 0, typeof(Unity.Profiling.ProfilerRecorder),  ReflectionUtils.GetType("Unity.Profiling.ProfilerRecorder+CountOptions"));
-					r_GetCount_ProfilerRecorder_CountOptions.SetBelong(null);
+					r_MGetCount_ProfilerRecorder_CountOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCount", 0, typeof(Unity.Profiling.ProfilerRecorder),  ReflectionUtils.GetType("Unity.Profiling.ProfilerRecorder+CountOptions"));
+					r_MGetCount_ProfilerRecorder_CountOptions.SetBelong(null);
 				}
-				return r_GetCount_ProfilerRecorder_CountOptions;
+				return r_MGetCount_ProfilerRecorder_CountOptions;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetValid(Unity.Profiling.ProfilerRecorder)
 		/// </summary>
-		protected static RMethod r_GetValid_ProfilerRecorder;
-		public static RMethod RGetValid_ProfilerRecorder
+		protected static RMethod r_MGetValid_ProfilerRecorder;
+		public static RMethod RMGetValid_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetValid_ProfilerRecorder == null)
+				if(r_MGetValid_ProfilerRecorder == null)
 				{
-					r_GetValid_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetValid", 0, typeof(Unity.Profiling.ProfilerRecorder));
-					r_GetValid_ProfilerRecorder.SetBelong(null);
+					r_MGetValid_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetValid", 0, typeof(Unity.Profiling.ProfilerRecorder));
+					r_MGetValid_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetValid_ProfilerRecorder;
+				return r_MGetValid_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetWrapped(Unity.Profiling.ProfilerRecorder)
 		/// </summary>
-		protected static RMethod r_GetWrapped_ProfilerRecorder;
-		public static RMethod RGetWrapped_ProfilerRecorder
+		protected static RMethod r_MGetWrapped_ProfilerRecorder;
+		public static RMethod RMGetWrapped_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetWrapped_ProfilerRecorder == null)
+				if(r_MGetWrapped_ProfilerRecorder == null)
 				{
-					r_GetWrapped_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetWrapped", 0, typeof(Unity.Profiling.ProfilerRecorder));
-					r_GetWrapped_ProfilerRecorder.SetBelong(null);
+					r_MGetWrapped_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetWrapped", 0, typeof(Unity.Profiling.ProfilerRecorder));
+					r_MGetWrapped_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetWrapped_ProfilerRecorder;
+				return r_MGetWrapped_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetRunning(Unity.Profiling.ProfilerRecorder)
 		/// </summary>
-		protected static RMethod r_GetRunning_ProfilerRecorder;
-		public static RMethod RGetRunning_ProfilerRecorder
+		protected static RMethod r_MGetRunning_ProfilerRecorder;
+		public static RMethod RMGetRunning_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetRunning_ProfilerRecorder == null)
+				if(r_MGetRunning_ProfilerRecorder == null)
 				{
-					r_GetRunning_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetRunning", 0, typeof(Unity.Profiling.ProfilerRecorder));
-					r_GetRunning_ProfilerRecorder.SetBelong(null);
+					r_MGetRunning_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetRunning", 0, typeof(Unity.Profiling.ProfilerRecorder));
+					r_MGetRunning_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetRunning_ProfilerRecorder;
+				return r_MGetRunning_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderSample GetSampleInternal(Unity.Profiling.ProfilerRecorder, Int32)
 		/// </summary>
-		protected static RMethod r_GetSampleInternal_ProfilerRecorder_Int32;
-		public static RMethod RGetSampleInternal_ProfilerRecorder_Int32
+		protected static RMethod r_MGetSampleInternal_ProfilerRecorder_Int32;
+		public static RMethod RMGetSampleInternal_ProfilerRecorder_Int32
 		{
 			get
 			{
-				if(r_GetSampleInternal_ProfilerRecorder_Int32 == null)
+				if(r_MGetSampleInternal_ProfilerRecorder_Int32 == null)
 				{
-					r_GetSampleInternal_ProfilerRecorder_Int32 = new(typeof(Unity.Profiling.ProfilerRecorder), "GetSampleInternal", 0, typeof(Unity.Profiling.ProfilerRecorder), typeof(System.Int32));
-					r_GetSampleInternal_ProfilerRecorder_Int32.SetBelong(null);
+					r_MGetSampleInternal_ProfilerRecorder_Int32 = new(typeof(Unity.Profiling.ProfilerRecorder), "GetSampleInternal", 0, typeof(Unity.Profiling.ProfilerRecorder), typeof(System.Int32));
+					r_MGetSampleInternal_ProfilerRecorder_Int32.SetBelong(null);
 				}
-				return r_GetSampleInternal_ProfilerRecorder_Int32;
+				return r_MGetSampleInternal_ProfilerRecorder_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void CopyTo_List(Unity.Profiling.ProfilerRecorder, System.Collections.Generic.List`1[Unity.Profiling.ProfilerRecorderSample], Boolean)
 		/// </summary>
-		protected static RMethod r_CopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean;
-		public static RMethod RCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean
+		protected static RMethod r_MCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean;
+		public static RMethod RMCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean
 		{
 			get
 			{
-				if(r_CopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean == null)
+				if(r_MCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean == null)
 				{
-					r_CopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean = new(typeof(Unity.Profiling.ProfilerRecorder), "CopyTo_List", 0, typeof(Unity.Profiling.ProfilerRecorder), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(Unity.Profiling.ProfilerRecorderSample)), typeof(System.Boolean));
-					r_CopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean.SetBelong(null);
+					r_MCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean = new(typeof(Unity.Profiling.ProfilerRecorder), "CopyTo_List", 0, typeof(Unity.Profiling.ProfilerRecorder), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(Unity.Profiling.ProfilerRecorderSample)), typeof(System.Boolean));
+					r_MCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean.SetBelong(null);
 				}
-				return r_CopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean;
+				return r_MCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32 CopyTo_Pointer(Unity.Profiling.ProfilerRecorder, Unity.Profiling.ProfilerRecorderSample*, Int32, Boolean)
 		/// </summary>
-		protected static RMethod r_CopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean;
-		public static RMethod RCopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean
+		protected static RMethod r_MCopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean;
+		public static RMethod RMCopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean
 		{
 			get
 			{
-				if(r_CopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean == null)
+				if(r_MCopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean == null)
 				{
-					r_CopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean = new(typeof(Unity.Profiling.ProfilerRecorder), "CopyTo_Pointer", 0, typeof(Unity.Profiling.ProfilerRecorder), typeof(Unity.Profiling.ProfilerRecorderSample).MakePointerType(), typeof(System.Int32), typeof(System.Boolean));
-					r_CopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.SetBelong(null);
+					r_MCopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean = new(typeof(Unity.Profiling.ProfilerRecorder), "CopyTo_Pointer", 0, typeof(Unity.Profiling.ProfilerRecorder), typeof(Unity.Profiling.ProfilerRecorderSample).MakePointerType(), typeof(System.Int32), typeof(System.Boolean));
+					r_MCopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.SetBelong(null);
 				}
-				return r_CopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean;
+				return r_MCopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose()
 		/// </summary>
-		protected RMethod r_Dispose;
-		public virtual RMethod RDispose
+		protected RMethod r_MDispose;
+		public virtual RMethod RMDispose
 		{
 			get
 			{
-				if(r_Dispose == null)
+				if(r_MDispose == null)
 				{
-					r_Dispose = new(this, "Dispose", 0);
-					r_Dispose.SetBelong(this.instance);
+					r_MDispose = new(this, "Dispose", 0);
+					r_MDispose.SetBelong(this.instance);
 				}
-				return r_Dispose;
+				return r_MDispose;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckInitializedWithParamsAndThrow(Unity.Profiling.ProfilerRecorderSample*)
 		/// </summary>
-		protected RMethod r_CheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer;
-		public virtual RMethod RCheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer
+		protected RMethod r_MCheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer;
+		public virtual RMethod RMCheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer
 		{
 			get
 			{
-				if(r_CheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer == null)
+				if(r_MCheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer == null)
 				{
-					r_CheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer = new(this, "CheckInitializedWithParamsAndThrow", 0, typeof(Unity.Profiling.ProfilerRecorderSample).MakePointerType());
-					r_CheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer.SetBelong(this.instance);
+					r_MCheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer = new(this, "CheckInitializedWithParamsAndThrow", 0, typeof(Unity.Profiling.ProfilerRecorderSample).MakePointerType());
+					r_MCheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer.SetBelong(this.instance);
 				}
-				return r_CheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer;
+				return r_MCheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckInitializedAndThrow()
 		/// </summary>
-		protected RMethod r_CheckInitializedAndThrow;
-		public virtual RMethod RCheckInitializedAndThrow
+		protected RMethod r_MCheckInitializedAndThrow;
+		public virtual RMethod RMCheckInitializedAndThrow
 		{
 			get
 			{
-				if(r_CheckInitializedAndThrow == null)
+				if(r_MCheckInitializedAndThrow == null)
 				{
-					r_CheckInitializedAndThrow = new(this, "CheckInitializedAndThrow", 0);
-					r_CheckInitializedAndThrow.SetBelong(this.instance);
+					r_MCheckInitializedAndThrow = new(this, "CheckInitializedAndThrow", 0);
+					r_MCheckInitializedAndThrow.SetBelong(this.instance);
 				}
-				return r_CheckInitializedAndThrow;
+				return r_MCheckInitializedAndThrow;
 			}
 		}
 
 		/// <summary>
 		/// Void Create_Injected(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle ByRef, Int32, Unity.Profiling.ProfilerRecorderOptions, Unity.Profiling.ProfilerRecorder ByRef)
 		/// </summary>
-		protected static RMethod r_Create_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder;
-		public static RMethod RCreate_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder
+		protected static RMethod r_MCreate_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder;
+		public static RMethod RMCreate_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder
 		{
 			get
 			{
-				if(r_Create_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder == null)
+				if(r_MCreate_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder == null)
 				{
-					r_Create_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "Create_Injected", 0, typeof(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle).MakeByRefType(), typeof(System.Int32), typeof(Unity.Profiling.ProfilerRecorderOptions), typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
-					r_Create_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder.SetBelong(null);
+					r_MCreate_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "Create_Injected", 0, typeof(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle).MakeByRefType(), typeof(System.Int32), typeof(Unity.Profiling.ProfilerRecorderOptions), typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
+					r_MCreate_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder.SetBelong(null);
 				}
-				return r_Create_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder;
+				return r_MCreate_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Void Control_Injected(Unity.Profiling.ProfilerRecorder ByRef, ControlOptions)
 		/// </summary>
-		protected static RMethod r_Control_Injected_Ref_ProfilerRecorder_ControlOptions;
-		public static RMethod RControl_Injected_Ref_ProfilerRecorder_ControlOptions
+		protected static RMethod r_MControl_Injected_Ref_ProfilerRecorder_ControlOptions;
+		public static RMethod RMControl_Injected_Ref_ProfilerRecorder_ControlOptions
 		{
 			get
 			{
-				if(r_Control_Injected_Ref_ProfilerRecorder_ControlOptions == null)
+				if(r_MControl_Injected_Ref_ProfilerRecorder_ControlOptions == null)
 				{
-					r_Control_Injected_Ref_ProfilerRecorder_ControlOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "Control_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(),  ReflectionUtils.GetType("Unity.Profiling.ProfilerRecorder+ControlOptions"));
-					r_Control_Injected_Ref_ProfilerRecorder_ControlOptions.SetBelong(null);
+					r_MControl_Injected_Ref_ProfilerRecorder_ControlOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "Control_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(),  ReflectionUtils.GetType("Unity.Profiling.ProfilerRecorder+ControlOptions"));
+					r_MControl_Injected_Ref_ProfilerRecorder_ControlOptions.SetBelong(null);
 				}
-				return r_Control_Injected_Ref_ProfilerRecorder_ControlOptions;
+				return r_MControl_Injected_Ref_ProfilerRecorder_ControlOptions;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarkerDataUnit GetValueUnitType_Injected(Unity.Profiling.ProfilerRecorder ByRef)
 		/// </summary>
-		protected static RMethod r_GetValueUnitType_Injected_Ref_ProfilerRecorder;
-		public static RMethod RGetValueUnitType_Injected_Ref_ProfilerRecorder
+		protected static RMethod r_MGetValueUnitType_Injected_Ref_ProfilerRecorder;
+		public static RMethod RMGetValueUnitType_Injected_Ref_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetValueUnitType_Injected_Ref_ProfilerRecorder == null)
+				if(r_MGetValueUnitType_Injected_Ref_ProfilerRecorder == null)
 				{
-					r_GetValueUnitType_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetValueUnitType_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
-					r_GetValueUnitType_Injected_Ref_ProfilerRecorder.SetBelong(null);
+					r_MGetValueUnitType_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetValueUnitType_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
+					r_MGetValueUnitType_Injected_Ref_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetValueUnitType_Injected_Ref_ProfilerRecorder;
+				return r_MGetValueUnitType_Injected_Ref_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType GetValueDataType_Injected(Unity.Profiling.ProfilerRecorder ByRef)
 		/// </summary>
-		protected static RMethod r_GetValueDataType_Injected_Ref_ProfilerRecorder;
-		public static RMethod RGetValueDataType_Injected_Ref_ProfilerRecorder
+		protected static RMethod r_MGetValueDataType_Injected_Ref_ProfilerRecorder;
+		public static RMethod RMGetValueDataType_Injected_Ref_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetValueDataType_Injected_Ref_ProfilerRecorder == null)
+				if(r_MGetValueDataType_Injected_Ref_ProfilerRecorder == null)
 				{
-					r_GetValueDataType_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetValueDataType_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
-					r_GetValueDataType_Injected_Ref_ProfilerRecorder.SetBelong(null);
+					r_MGetValueDataType_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetValueDataType_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
+					r_MGetValueDataType_Injected_Ref_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetValueDataType_Injected_Ref_ProfilerRecorder;
+				return r_MGetValueDataType_Injected_Ref_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Int64 GetCurrentValue_Injected(Unity.Profiling.ProfilerRecorder ByRef)
 		/// </summary>
-		protected static RMethod r_GetCurrentValue_Injected_Ref_ProfilerRecorder;
-		public static RMethod RGetCurrentValue_Injected_Ref_ProfilerRecorder
+		protected static RMethod r_MGetCurrentValue_Injected_Ref_ProfilerRecorder;
+		public static RMethod RMGetCurrentValue_Injected_Ref_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetCurrentValue_Injected_Ref_ProfilerRecorder == null)
+				if(r_MGetCurrentValue_Injected_Ref_ProfilerRecorder == null)
 				{
-					r_GetCurrentValue_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCurrentValue_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
-					r_GetCurrentValue_Injected_Ref_ProfilerRecorder.SetBelong(null);
+					r_MGetCurrentValue_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCurrentValue_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
+					r_MGetCurrentValue_Injected_Ref_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetCurrentValue_Injected_Ref_ProfilerRecorder;
+				return r_MGetCurrentValue_Injected_Ref_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Double GetCurrentValueAsDouble_Injected(Unity.Profiling.ProfilerRecorder ByRef)
 		/// </summary>
-		protected static RMethod r_GetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder;
-		public static RMethod RGetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder
+		protected static RMethod r_MGetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder;
+		public static RMethod RMGetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder == null)
+				if(r_MGetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder == null)
 				{
-					r_GetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCurrentValueAsDouble_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
-					r_GetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder.SetBelong(null);
+					r_MGetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCurrentValueAsDouble_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
+					r_MGetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder;
+				return r_MGetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Int64 GetLastValue_Injected(Unity.Profiling.ProfilerRecorder ByRef)
 		/// </summary>
-		protected static RMethod r_GetLastValue_Injected_Ref_ProfilerRecorder;
-		public static RMethod RGetLastValue_Injected_Ref_ProfilerRecorder
+		protected static RMethod r_MGetLastValue_Injected_Ref_ProfilerRecorder;
+		public static RMethod RMGetLastValue_Injected_Ref_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetLastValue_Injected_Ref_ProfilerRecorder == null)
+				if(r_MGetLastValue_Injected_Ref_ProfilerRecorder == null)
 				{
-					r_GetLastValue_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetLastValue_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
-					r_GetLastValue_Injected_Ref_ProfilerRecorder.SetBelong(null);
+					r_MGetLastValue_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetLastValue_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
+					r_MGetLastValue_Injected_Ref_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetLastValue_Injected_Ref_ProfilerRecorder;
+				return r_MGetLastValue_Injected_Ref_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Double GetLastValueAsDouble_Injected(Unity.Profiling.ProfilerRecorder ByRef)
 		/// </summary>
-		protected static RMethod r_GetLastValueAsDouble_Injected_Ref_ProfilerRecorder;
-		public static RMethod RGetLastValueAsDouble_Injected_Ref_ProfilerRecorder
+		protected static RMethod r_MGetLastValueAsDouble_Injected_Ref_ProfilerRecorder;
+		public static RMethod RMGetLastValueAsDouble_Injected_Ref_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetLastValueAsDouble_Injected_Ref_ProfilerRecorder == null)
+				if(r_MGetLastValueAsDouble_Injected_Ref_ProfilerRecorder == null)
 				{
-					r_GetLastValueAsDouble_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetLastValueAsDouble_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
-					r_GetLastValueAsDouble_Injected_Ref_ProfilerRecorder.SetBelong(null);
+					r_MGetLastValueAsDouble_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetLastValueAsDouble_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
+					r_MGetLastValueAsDouble_Injected_Ref_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetLastValueAsDouble_Injected_Ref_ProfilerRecorder;
+				return r_MGetLastValueAsDouble_Injected_Ref_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetCount_Injected(Unity.Profiling.ProfilerRecorder ByRef, CountOptions)
 		/// </summary>
-		protected static RMethod r_GetCount_Injected_Ref_ProfilerRecorder_CountOptions;
-		public static RMethod RGetCount_Injected_Ref_ProfilerRecorder_CountOptions
+		protected static RMethod r_MGetCount_Injected_Ref_ProfilerRecorder_CountOptions;
+		public static RMethod RMGetCount_Injected_Ref_ProfilerRecorder_CountOptions
 		{
 			get
 			{
-				if(r_GetCount_Injected_Ref_ProfilerRecorder_CountOptions == null)
+				if(r_MGetCount_Injected_Ref_ProfilerRecorder_CountOptions == null)
 				{
-					r_GetCount_Injected_Ref_ProfilerRecorder_CountOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCount_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(),  ReflectionUtils.GetType("Unity.Profiling.ProfilerRecorder+CountOptions"));
-					r_GetCount_Injected_Ref_ProfilerRecorder_CountOptions.SetBelong(null);
+					r_MGetCount_Injected_Ref_ProfilerRecorder_CountOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCount_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(),  ReflectionUtils.GetType("Unity.Profiling.ProfilerRecorder+CountOptions"));
+					r_MGetCount_Injected_Ref_ProfilerRecorder_CountOptions.SetBelong(null);
 				}
-				return r_GetCount_Injected_Ref_ProfilerRecorder_CountOptions;
+				return r_MGetCount_Injected_Ref_ProfilerRecorder_CountOptions;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetValid_Injected(Unity.Profiling.ProfilerRecorder ByRef)
 		/// </summary>
-		protected static RMethod r_GetValid_Injected_Ref_ProfilerRecorder;
-		public static RMethod RGetValid_Injected_Ref_ProfilerRecorder
+		protected static RMethod r_MGetValid_Injected_Ref_ProfilerRecorder;
+		public static RMethod RMGetValid_Injected_Ref_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetValid_Injected_Ref_ProfilerRecorder == null)
+				if(r_MGetValid_Injected_Ref_ProfilerRecorder == null)
 				{
-					r_GetValid_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetValid_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
-					r_GetValid_Injected_Ref_ProfilerRecorder.SetBelong(null);
+					r_MGetValid_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetValid_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
+					r_MGetValid_Injected_Ref_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetValid_Injected_Ref_ProfilerRecorder;
+				return r_MGetValid_Injected_Ref_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetWrapped_Injected(Unity.Profiling.ProfilerRecorder ByRef)
 		/// </summary>
-		protected static RMethod r_GetWrapped_Injected_Ref_ProfilerRecorder;
-		public static RMethod RGetWrapped_Injected_Ref_ProfilerRecorder
+		protected static RMethod r_MGetWrapped_Injected_Ref_ProfilerRecorder;
+		public static RMethod RMGetWrapped_Injected_Ref_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetWrapped_Injected_Ref_ProfilerRecorder == null)
+				if(r_MGetWrapped_Injected_Ref_ProfilerRecorder == null)
 				{
-					r_GetWrapped_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetWrapped_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
-					r_GetWrapped_Injected_Ref_ProfilerRecorder.SetBelong(null);
+					r_MGetWrapped_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetWrapped_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
+					r_MGetWrapped_Injected_Ref_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetWrapped_Injected_Ref_ProfilerRecorder;
+				return r_MGetWrapped_Injected_Ref_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetRunning_Injected(Unity.Profiling.ProfilerRecorder ByRef)
 		/// </summary>
-		protected static RMethod r_GetRunning_Injected_Ref_ProfilerRecorder;
-		public static RMethod RGetRunning_Injected_Ref_ProfilerRecorder
+		protected static RMethod r_MGetRunning_Injected_Ref_ProfilerRecorder;
+		public static RMethod RMGetRunning_Injected_Ref_ProfilerRecorder
 		{
 			get
 			{
-				if(r_GetRunning_Injected_Ref_ProfilerRecorder == null)
+				if(r_MGetRunning_Injected_Ref_ProfilerRecorder == null)
 				{
-					r_GetRunning_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetRunning_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
-					r_GetRunning_Injected_Ref_ProfilerRecorder.SetBelong(null);
+					r_MGetRunning_Injected_Ref_ProfilerRecorder = new(typeof(Unity.Profiling.ProfilerRecorder), "GetRunning_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType());
+					r_MGetRunning_Injected_Ref_ProfilerRecorder.SetBelong(null);
 				}
-				return r_GetRunning_Injected_Ref_ProfilerRecorder;
+				return r_MGetRunning_Injected_Ref_ProfilerRecorder;
 			}
 		}
 
 		/// <summary>
 		/// Void GetSampleInternal_Injected(Unity.Profiling.ProfilerRecorder ByRef, Int32, Unity.Profiling.ProfilerRecorderSample ByRef)
 		/// </summary>
-		protected static RMethod r_GetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample;
-		public static RMethod RGetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample
+		protected static RMethod r_MGetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample;
+		public static RMethod RMGetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample
 		{
 			get
 			{
-				if(r_GetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample == null)
+				if(r_MGetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample == null)
 				{
-					r_GetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample = new(typeof(Unity.Profiling.ProfilerRecorder), "GetSampleInternal_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(), typeof(System.Int32), typeof(Unity.Profiling.ProfilerRecorderSample).MakeByRefType());
-					r_GetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample.SetBelong(null);
+					r_MGetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample = new(typeof(Unity.Profiling.ProfilerRecorder), "GetSampleInternal_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(), typeof(System.Int32), typeof(Unity.Profiling.ProfilerRecorderSample).MakeByRefType());
+					r_MGetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample.SetBelong(null);
 				}
-				return r_GetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample;
+				return r_MGetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample;
 			}
 		}
 
 		/// <summary>
 		/// Void CopyTo_List_Injected(Unity.Profiling.ProfilerRecorder ByRef, System.Collections.Generic.List`1[Unity.Profiling.ProfilerRecorderSample], Boolean)
 		/// </summary>
-		protected static RMethod r_CopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean;
-		public static RMethod RCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean
+		protected static RMethod r_MCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean;
+		public static RMethod RMCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean
 		{
 			get
 			{
-				if(r_CopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean == null)
+				if(r_MCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean == null)
 				{
-					r_CopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean = new(typeof(Unity.Profiling.ProfilerRecorder), "CopyTo_List_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(Unity.Profiling.ProfilerRecorderSample)), typeof(System.Boolean));
-					r_CopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean.SetBelong(null);
+					r_MCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean = new(typeof(Unity.Profiling.ProfilerRecorder), "CopyTo_List_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(Unity.Profiling.ProfilerRecorderSample)), typeof(System.Boolean));
+					r_MCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean.SetBelong(null);
 				}
-				return r_CopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean;
+				return r_MCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32 CopyTo_Pointer_Injected(Unity.Profiling.ProfilerRecorder ByRef, Unity.Profiling.ProfilerRecorderSample*, Int32, Boolean)
 		/// </summary>
-		protected static RMethod r_CopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean;
-		public static RMethod RCopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean
+		protected static RMethod r_MCopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean;
+		public static RMethod RMCopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean
 		{
 			get
 			{
-				if(r_CopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean == null)
+				if(r_MCopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean == null)
 				{
-					r_CopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean = new(typeof(Unity.Profiling.ProfilerRecorder), "CopyTo_Pointer_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(), typeof(Unity.Profiling.ProfilerRecorderSample).MakePointerType(), typeof(System.Int32), typeof(System.Boolean));
-					r_CopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.SetBelong(null);
+					r_MCopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean = new(typeof(Unity.Profiling.ProfilerRecorder), "CopyTo_Pointer_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(), typeof(Unity.Profiling.ProfilerRecorderSample).MakePointerType(), typeof(System.Int32), typeof(System.Boolean));
+					r_MCopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.SetBelong(null);
 				}
-				return r_CopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean;
+				return r_MCopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -1121,7 +1121,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@category, @statName, @capacity, @options};
-            var ___result = RStartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMStartNew_ProfilerCategory_String_Int32_ProfilerRecorderOptions.Invoke(___genericsType, ___parameters);
 
             return (Unity.Profiling.ProfilerRecorder)___result;
         }
@@ -1132,7 +1132,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@marker, @capacity, @options};
-            var ___result = RStartNew_ProfilerMarker_Int32_ProfilerRecorderOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMStartNew_ProfilerMarker_Int32_ProfilerRecorderOptions.Invoke(___genericsType, ___parameters);
 
             return (Unity.Profiling.ProfilerRecorder)___result;
         }
@@ -1143,7 +1143,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RStartNew.Invoke(___genericsType, ___parameters);
+            var ___result = RMStartNew.Invoke(___genericsType, ___parameters);
 
             return (Unity.Profiling.ProfilerRecorder)___result;
         }
@@ -1154,7 +1154,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RStart.Invoke(___genericsType, ___parameters);
+            var ___result = RMStart.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1165,7 +1165,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RStop.Invoke(___genericsType, ___parameters);
+            var ___result = RMStop.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1176,7 +1176,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RReset.Invoke(___genericsType, ___parameters);
+            var ___result = RMReset.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1187,7 +1187,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
-            var ___result = RGetSample_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetSample_Int32.Invoke(___genericsType, ___parameters);
 
             return (Unity.Profiling.ProfilerRecorderSample)___result;
         }
@@ -1198,7 +1198,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@outSamples, @reset};
-            var ___result = RCopyTo_List_d_ProfilerRecorderSample_p__Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyTo_List_d_ProfilerRecorderSample_p__Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1209,7 +1209,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{Pointer.Box(@dest, typeof(Unity.Profiling.ProfilerRecorderSample)), @destSize, @reset};
-            var ___result = RCopyTo_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyTo_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1220,7 +1220,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMToArray.Invoke(___genericsType, ___parameters);
 
             return (Unity.Profiling.ProfilerRecorderSample[])___result;
         }
@@ -1231,7 +1231,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFilterToCurrentThread.Invoke(___genericsType, ___parameters);
+            var ___result = RMFilterToCurrentThread.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1242,7 +1242,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCollectFromAllThreads.Invoke(___genericsType, ___parameters);
+            var ___result = RMCollectFromAllThreads.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1253,18 +1253,18 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@statHandle, @maxSampleCount, @options};
-            var ___result = RCreate_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreate_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions.Invoke(___genericsType, ___parameters);
 
             return (Unity.Profiling.ProfilerRecorder)___result;
         }
 
 
-        public static void Control(Unity.Profiling.ProfilerRecorder @handle, RType @options)
+        public static void Control(Unity.Profiling.ProfilerRecorder @handle, RUnity.RProfiling.RProfilerRecorder.RControlOptions @options)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @options.Value};
-            var ___result = RControl_ProfilerRecorder_ControlOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMControl_ProfilerRecorder_ControlOptions.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1275,7 +1275,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetValueUnitType_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetValueUnitType_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 
             return (Unity.Profiling.ProfilerMarkerDataUnit)___result;
         }
@@ -1286,7 +1286,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetValueDataType_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetValueDataType_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 
             return (Unity.Profiling.LowLevel.ProfilerMarkerDataType)___result;
         }
@@ -1297,7 +1297,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetCurrentValue_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCurrentValue_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 
             return (System.Int64)___result;
         }
@@ -1308,7 +1308,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetCurrentValueAsDouble_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCurrentValueAsDouble_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 
             return (System.Double)___result;
         }
@@ -1319,7 +1319,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetLastValue_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetLastValue_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 
             return (System.Int64)___result;
         }
@@ -1330,18 +1330,18 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetLastValueAsDouble_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetLastValueAsDouble_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 
             return (System.Double)___result;
         }
 
 
-        public static System.Int32 GetCount(Unity.Profiling.ProfilerRecorder @handle, RType @countOptions)
+        public static System.Int32 GetCount(Unity.Profiling.ProfilerRecorder @handle, RUnity.RProfiling.RProfilerRecorder.RCountOptions @countOptions)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @countOptions.Value};
-            var ___result = RGetCount_ProfilerRecorder_CountOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCount_ProfilerRecorder_CountOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1352,7 +1352,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetValid_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetValid_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1363,7 +1363,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetWrapped_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetWrapped_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1374,7 +1374,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetRunning_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetRunning_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1385,7 +1385,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @index};
-            var ___result = RGetSampleInternal_ProfilerRecorder_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetSampleInternal_ProfilerRecorder_Int32.Invoke(___genericsType, ___parameters);
 
             return (Unity.Profiling.ProfilerRecorderSample)___result;
         }
@@ -1396,7 +1396,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @outSamples, @reset};
-            var ___result = RCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1407,7 +1407,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, Pointer.Box(@outSamples, typeof(Unity.Profiling.ProfilerRecorderSample)), @outSamplesSize, @reset};
-            var ___result = RCopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1418,7 +1418,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RDispose.Invoke(___genericsType, ___parameters);
+            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1429,7 +1429,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{Pointer.Box(@dest, typeof(Unity.Profiling.ProfilerRecorderSample))};
-            var ___result = RCheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer.Invoke(___genericsType, ___parameters);
+            var ___result = RMCheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1440,7 +1440,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCheckInitializedAndThrow.Invoke(___genericsType, ___parameters);
+            var ___result = RMCheckInitializedAndThrow.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1452,7 +1452,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@statHandle, @maxSampleCount, @options, @ret};
-            var ___result = RCreate_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreate_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@statHandle = (Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle)___parameters[0];
 			@ret = (Unity.Profiling.ProfilerRecorder)___parameters[3];
 
@@ -1460,12 +1460,12 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static void Control_Injected(ref Unity.Profiling.ProfilerRecorder @handle, RType @options)
+        public static void Control_Injected(ref Unity.Profiling.ProfilerRecorder @handle, RUnity.RProfiling.RProfilerRecorder.RControlOptions @options)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @options.Value};
-            var ___result = RControl_Injected_Ref_ProfilerRecorder_ControlOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMControl_Injected_Ref_ProfilerRecorder_ControlOptions.Invoke(___genericsType, ___parameters);
 			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
 
             
@@ -1477,7 +1477,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetValueUnitType_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetValueUnitType_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
 
             return (Unity.Profiling.ProfilerMarkerDataUnit)___result;
@@ -1489,7 +1489,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetValueDataType_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetValueDataType_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
 
             return (Unity.Profiling.LowLevel.ProfilerMarkerDataType)___result;
@@ -1501,7 +1501,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetCurrentValue_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCurrentValue_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
 
             return (System.Int64)___result;
@@ -1513,7 +1513,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
 
             return (System.Double)___result;
@@ -1525,7 +1525,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetLastValue_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetLastValue_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
 
             return (System.Int64)___result;
@@ -1537,19 +1537,19 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetLastValueAsDouble_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetLastValueAsDouble_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
 
             return (System.Double)___result;
         }
 
 
-        public static System.Int32 GetCount_Injected(ref Unity.Profiling.ProfilerRecorder @handle, RType @countOptions)
+        public static System.Int32 GetCount_Injected(ref Unity.Profiling.ProfilerRecorder @handle, RUnity.RProfiling.RProfilerRecorder.RCountOptions @countOptions)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @countOptions.Value};
-            var ___result = RGetCount_Injected_Ref_ProfilerRecorder_CountOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCount_Injected_Ref_ProfilerRecorder_CountOptions.Invoke(___genericsType, ___parameters);
 			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
 
             return (System.Int32)___result;
@@ -1561,7 +1561,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetValid_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetValid_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
 
             return (System.Boolean)___result;
@@ -1573,7 +1573,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetWrapped_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetWrapped_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
 
             return (System.Boolean)___result;
@@ -1585,7 +1585,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RGetRunning_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetRunning_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
 			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
 
             return (System.Boolean)___result;
@@ -1598,7 +1598,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @index, @ret};
-            var ___result = RGetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample.Invoke(___genericsType, ___parameters);
 			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
 			@ret = (Unity.Profiling.ProfilerRecorderSample)___parameters[2];
 
@@ -1611,7 +1611,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @outSamples, @reset};
-            var ___result = RCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean.Invoke(___genericsType, ___parameters);
 			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
 
             
@@ -1623,7 +1623,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, Pointer.Box(@outSamples, typeof(Unity.Profiling.ProfilerRecorderSample)), @outSamplesSize, @reset};
-            var ___result = RCopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
 			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
 
             return (System.Int32)___result;
@@ -1635,7 +1635,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1646,7 +1646,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1657,7 +1657,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -1668,7 +1668,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1679,7 +1679,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -1690,7 +1690,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

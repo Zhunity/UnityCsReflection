@@ -13,935 +13,935 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid Empty
 		/// </summary>
-		protected static RSystem.RGuid r_Empty;
-		public static RSystem.RGuid REmpty
+		protected static RSystem.RGuid r_FEmpty;
+		public static RSystem.RGuid RFEmpty
 		{
 			get
 			{
-				if(r_Empty == null)
+				if(r_FEmpty == null)
 				{
-					r_Empty = new(typeof(System.Guid), "Empty");
-					r_Empty.SetBelong(null);
+					r_FEmpty = new(typeof(System.Guid), "Empty");
+					r_FEmpty.SetBelong(null);
 				}
-				return r_Empty;
+				return r_FEmpty;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 _a
 		/// </summary>
-		protected RSystem.RInt32 r__a;
-		public virtual RSystem.RInt32 R_a
+		protected RSystem.RInt32 r_F_a;
+		public virtual RSystem.RInt32 RF_a
 		{
 			get
 			{
-				if(r__a == null)
+				if(r_F_a == null)
 				{
-					r__a = new(this, "_a");
-					r__a.SetBelong(this.instance);
+					r_F_a = new(this, "_a");
+					r_F_a.SetBelong(this.instance);
 				}
-				return r__a;
+				return r_F_a;
 			}
 		}
 
 		/// <summary>
 		/// System.Int16 _b
 		/// </summary>
-		protected RSystem.RInt16 r__b;
-		public virtual RSystem.RInt16 R_b
+		protected RSystem.RInt16 r_F_b;
+		public virtual RSystem.RInt16 RF_b
 		{
 			get
 			{
-				if(r__b == null)
+				if(r_F_b == null)
 				{
-					r__b = new(this, "_b");
-					r__b.SetBelong(this.instance);
+					r_F_b = new(this, "_b");
+					r_F_b.SetBelong(this.instance);
 				}
-				return r__b;
+				return r_F_b;
 			}
 		}
 
 		/// <summary>
 		/// System.Int16 _c
 		/// </summary>
-		protected RSystem.RInt16 r__c;
-		public virtual RSystem.RInt16 R_c
+		protected RSystem.RInt16 r_F_c;
+		public virtual RSystem.RInt16 RF_c
 		{
 			get
 			{
-				if(r__c == null)
+				if(r_F_c == null)
 				{
-					r__c = new(this, "_c");
-					r__c.SetBelong(this.instance);
+					r_F_c = new(this, "_c");
+					r_F_c.SetBelong(this.instance);
 				}
-				return r__c;
+				return r_F_c;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte _d
 		/// </summary>
-		protected RSystem.RByte r__d;
-		public virtual RSystem.RByte R_d
+		protected RSystem.RByte r_F_d;
+		public virtual RSystem.RByte RF_d
 		{
 			get
 			{
-				if(r__d == null)
+				if(r_F_d == null)
 				{
-					r__d = new(this, "_d");
-					r__d.SetBelong(this.instance);
+					r_F_d = new(this, "_d");
+					r_F_d.SetBelong(this.instance);
 				}
-				return r__d;
+				return r_F_d;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte _e
 		/// </summary>
-		protected RSystem.RByte r__e;
-		public virtual RSystem.RByte R_e
+		protected RSystem.RByte r_F_e;
+		public virtual RSystem.RByte RF_e
 		{
 			get
 			{
-				if(r__e == null)
+				if(r_F_e == null)
 				{
-					r__e = new(this, "_e");
-					r__e.SetBelong(this.instance);
+					r_F_e = new(this, "_e");
+					r_F_e.SetBelong(this.instance);
 				}
-				return r__e;
+				return r_F_e;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte _f
 		/// </summary>
-		protected RSystem.RByte r__f;
-		public virtual RSystem.RByte R_f
+		protected RSystem.RByte r_F_f;
+		public virtual RSystem.RByte RF_f
 		{
 			get
 			{
-				if(r__f == null)
+				if(r_F_f == null)
 				{
-					r__f = new(this, "_f");
-					r__f.SetBelong(this.instance);
+					r_F_f = new(this, "_f");
+					r_F_f.SetBelong(this.instance);
 				}
-				return r__f;
+				return r_F_f;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte _g
 		/// </summary>
-		protected RSystem.RByte r__g;
-		public virtual RSystem.RByte R_g
+		protected RSystem.RByte r_F_g;
+		public virtual RSystem.RByte RF_g
 		{
 			get
 			{
-				if(r__g == null)
+				if(r_F_g == null)
 				{
-					r__g = new(this, "_g");
-					r__g.SetBelong(this.instance);
+					r_F_g = new(this, "_g");
+					r_F_g.SetBelong(this.instance);
 				}
-				return r__g;
+				return r_F_g;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte _h
 		/// </summary>
-		protected RSystem.RByte r__h;
-		public virtual RSystem.RByte R_h
+		protected RSystem.RByte r_F_h;
+		public virtual RSystem.RByte RF_h
 		{
 			get
 			{
-				if(r__h == null)
+				if(r_F_h == null)
 				{
-					r__h = new(this, "_h");
-					r__h.SetBelong(this.instance);
+					r_F_h = new(this, "_h");
+					r_F_h.SetBelong(this.instance);
 				}
-				return r__h;
+				return r_F_h;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte _i
 		/// </summary>
-		protected RSystem.RByte r__i;
-		public virtual RSystem.RByte R_i
+		protected RSystem.RByte r_F_i;
+		public virtual RSystem.RByte RF_i
 		{
 			get
 			{
-				if(r__i == null)
+				if(r_F_i == null)
 				{
-					r__i = new(this, "_i");
-					r__i.SetBelong(this.instance);
+					r_F_i = new(this, "_i");
+					r_F_i.SetBelong(this.instance);
 				}
-				return r__i;
+				return r_F_i;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte _j
 		/// </summary>
-		protected RSystem.RByte r__j;
-		public virtual RSystem.RByte R_j
+		protected RSystem.RByte r_F_j;
+		public virtual RSystem.RByte RF_j
 		{
 			get
 			{
-				if(r__j == null)
+				if(r_F_j == null)
 				{
-					r__j = new(this, "_j");
-					r__j.SetBelong(this.instance);
+					r_F_j = new(this, "_j");
+					r_F_j.SetBelong(this.instance);
 				}
-				return r__j;
+				return r_F_j;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte _k
 		/// </summary>
-		protected RSystem.RByte r__k;
-		public virtual RSystem.RByte R_k
+		protected RSystem.RByte r_F_k;
+		public virtual RSystem.RByte RF_k
 		{
 			get
 			{
-				if(r__k == null)
+				if(r_F_k == null)
 				{
-					r__k = new(this, "_k");
-					r__k.SetBelong(this.instance);
+					r_F_k = new(this, "_k");
+					r_F_k.SetBelong(this.instance);
 				}
-				return r__k;
+				return r_F_k;
 			}
 		}
 
 		/// <summary>
 		/// System.Guid NewGuid()
 		/// </summary>
-		protected static RMethod r_NewGuid;
-		public static RMethod RNewGuid
+		protected static RMethod r_MNewGuid;
+		public static RMethod RMNewGuid
 		{
 			get
 			{
-				if(r_NewGuid == null)
+				if(r_MNewGuid == null)
 				{
-					r_NewGuid = new(typeof(System.Guid), "NewGuid", 0);
-					r_NewGuid.SetBelong(null);
+					r_MNewGuid = new(typeof(System.Guid), "NewGuid", 0);
+					r_MNewGuid.SetBelong(null);
 				}
-				return r_NewGuid;
+				return r_MNewGuid;
 			}
 		}
 
 		/// <summary>
 		/// System.Guid Parse(System.String)
 		/// </summary>
-		protected static RMethod r_Parse_String;
-		public static RMethod RParse_String
+		protected static RMethod r_MParse_String;
+		public static RMethod RMParse_String
 		{
 			get
 			{
-				if(r_Parse_String == null)
+				if(r_MParse_String == null)
 				{
-					r_Parse_String = new(typeof(System.Guid), "Parse", 0, typeof(System.String));
-					r_Parse_String.SetBelong(null);
+					r_MParse_String = new(typeof(System.Guid), "Parse", 0, typeof(System.String));
+					r_MParse_String.SetBelong(null);
 				}
-				return r_Parse_String;
+				return r_MParse_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Guid Parse(System.ReadOnlySpan`1[System.Char])
 		/// </summary>
-		protected static RMethod r_Parse_ReadOnlySpan_d_Char_p_;
-		public static RMethod RParse_ReadOnlySpan_d_Char_p_
+		protected static RMethod r_MParse_ReadOnlySpan_d_Char_p_;
+		public static RMethod RMParse_ReadOnlySpan_d_Char_p_
 		{
 			get
 			{
-				if(r_Parse_ReadOnlySpan_d_Char_p_ == null)
+				if(r_MParse_ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_Parse_ReadOnlySpan_d_Char_p_ = new(typeof(System.Guid), "Parse", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
-					r_Parse_ReadOnlySpan_d_Char_p_.SetBelong(null);
+					r_MParse_ReadOnlySpan_d_Char_p_ = new(typeof(System.Guid), "Parse", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MParse_ReadOnlySpan_d_Char_p_.SetBelong(null);
 				}
-				return r_Parse_ReadOnlySpan_d_Char_p_;
+				return r_MParse_ReadOnlySpan_d_Char_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParse(System.String, System.Guid ByRef)
 		/// </summary>
-		protected static RMethod r_TryParse_String_Out_Guid;
-		public static RMethod RTryParse_String_Out_Guid
+		protected static RMethod r_MTryParse_String_Out_Guid;
+		public static RMethod RMTryParse_String_Out_Guid
 		{
 			get
 			{
-				if(r_TryParse_String_Out_Guid == null)
+				if(r_MTryParse_String_Out_Guid == null)
 				{
-					r_TryParse_String_Out_Guid = new(typeof(System.Guid), "TryParse", 0, typeof(System.String), typeof(System.Guid).MakeByRefType());
-					r_TryParse_String_Out_Guid.SetBelong(null);
+					r_MTryParse_String_Out_Guid = new(typeof(System.Guid), "TryParse", 0, typeof(System.String), typeof(System.Guid).MakeByRefType());
+					r_MTryParse_String_Out_Guid.SetBelong(null);
 				}
-				return r_TryParse_String_Out_Guid;
+				return r_MTryParse_String_Out_Guid;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParse(System.ReadOnlySpan`1[System.Char], System.Guid ByRef)
 		/// </summary>
-		protected static RMethod r_TryParse_ReadOnlySpan_d_Char_p__Out_Guid;
-		public static RMethod RTryParse_ReadOnlySpan_d_Char_p__Out_Guid
+		protected static RMethod r_MTryParse_ReadOnlySpan_d_Char_p__Out_Guid;
+		public static RMethod RMTryParse_ReadOnlySpan_d_Char_p__Out_Guid
 		{
 			get
 			{
-				if(r_TryParse_ReadOnlySpan_d_Char_p__Out_Guid == null)
+				if(r_MTryParse_ReadOnlySpan_d_Char_p__Out_Guid == null)
 				{
-					r_TryParse_ReadOnlySpan_d_Char_p__Out_Guid = new(typeof(System.Guid), "TryParse", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Guid).MakeByRefType());
-					r_TryParse_ReadOnlySpan_d_Char_p__Out_Guid.SetBelong(null);
+					r_MTryParse_ReadOnlySpan_d_Char_p__Out_Guid = new(typeof(System.Guid), "TryParse", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Guid).MakeByRefType());
+					r_MTryParse_ReadOnlySpan_d_Char_p__Out_Guid.SetBelong(null);
 				}
-				return r_TryParse_ReadOnlySpan_d_Char_p__Out_Guid;
+				return r_MTryParse_ReadOnlySpan_d_Char_p__Out_Guid;
 			}
 		}
 
 		/// <summary>
 		/// System.Guid ParseExact(System.String, System.String)
 		/// </summary>
-		protected static RMethod r_ParseExact_String_String;
-		public static RMethod RParseExact_String_String
+		protected static RMethod r_MParseExact_String_String;
+		public static RMethod RMParseExact_String_String
 		{
 			get
 			{
-				if(r_ParseExact_String_String == null)
+				if(r_MParseExact_String_String == null)
 				{
-					r_ParseExact_String_String = new(typeof(System.Guid), "ParseExact", 0, typeof(System.String), typeof(System.String));
-					r_ParseExact_String_String.SetBelong(null);
+					r_MParseExact_String_String = new(typeof(System.Guid), "ParseExact", 0, typeof(System.String), typeof(System.String));
+					r_MParseExact_String_String.SetBelong(null);
 				}
-				return r_ParseExact_String_String;
+				return r_MParseExact_String_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Guid ParseExact(System.ReadOnlySpan`1[System.Char], System.ReadOnlySpan`1[System.Char])
 		/// </summary>
-		protected static RMethod r_ParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_;
-		public static RMethod RParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_
+		protected static RMethod r_MParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_;
+		public static RMethod RMParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_
 		{
 			get
 			{
-				if(r_ParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_ == null)
+				if(r_MParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_ParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_ = new(typeof(System.Guid), "ParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
-					r_ParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.SetBelong(null);
+					r_MParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_ = new(typeof(System.Guid), "ParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.SetBelong(null);
 				}
-				return r_ParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_;
+				return r_MParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseExact(System.String, System.String, System.Guid ByRef)
 		/// </summary>
-		protected static RMethod r_TryParseExact_String_String_Out_Guid;
-		public static RMethod RTryParseExact_String_String_Out_Guid
+		protected static RMethod r_MTryParseExact_String_String_Out_Guid;
+		public static RMethod RMTryParseExact_String_String_Out_Guid
 		{
 			get
 			{
-				if(r_TryParseExact_String_String_Out_Guid == null)
+				if(r_MTryParseExact_String_String_Out_Guid == null)
 				{
-					r_TryParseExact_String_String_Out_Guid = new(typeof(System.Guid), "TryParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.Guid).MakeByRefType());
-					r_TryParseExact_String_String_Out_Guid.SetBelong(null);
+					r_MTryParseExact_String_String_Out_Guid = new(typeof(System.Guid), "TryParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.Guid).MakeByRefType());
+					r_MTryParseExact_String_String_Out_Guid.SetBelong(null);
 				}
-				return r_TryParseExact_String_String_Out_Guid;
+				return r_MTryParseExact_String_String_Out_Guid;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseExact(System.ReadOnlySpan`1[System.Char], System.ReadOnlySpan`1[System.Char], System.Guid ByRef)
 		/// </summary>
-		protected static RMethod r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid;
-		public static RMethod RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid
+		protected static RMethod r_MTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid;
+		public static RMethod RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid
 		{
 			get
 			{
-				if(r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid == null)
+				if(r_MTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid == null)
 				{
-					r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid = new(typeof(System.Guid), "TryParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Guid).MakeByRefType());
-					r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid.SetBelong(null);
+					r_MTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid = new(typeof(System.Guid), "TryParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Guid).MakeByRefType());
+					r_MTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid.SetBelong(null);
 				}
-				return r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid;
+				return r_MTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseGuid(System.ReadOnlySpan`1[System.Char], GuidStyles, GuidResult ByRef)
 		/// </summary>
-		protected static RMethod r_TryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult;
-		public static RMethod RTryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult
+		protected static RMethod r_MTryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult;
+		public static RMethod RMTryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult
 		{
 			get
 			{
-				if(r_TryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult == null)
+				if(r_MTryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult == null)
 				{
-					r_TryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult = new(typeof(System.Guid), "TryParseGuid", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Guid+GuidStyles"),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
-					r_TryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult.SetBelong(null);
+					r_MTryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult = new(typeof(System.Guid), "TryParseGuid", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Guid+GuidStyles"),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_MTryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult.SetBelong(null);
 				}
-				return r_TryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult;
+				return r_MTryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseGuidWithHexPrefix(System.ReadOnlySpan`1[System.Char], GuidResult ByRef)
 		/// </summary>
-		protected static RMethod r_TryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult;
-		public static RMethod RTryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult
+		protected static RMethod r_MTryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult;
+		public static RMethod RMTryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult
 		{
 			get
 			{
-				if(r_TryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult == null)
+				if(r_MTryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult == null)
 				{
-					r_TryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult = new(typeof(System.Guid), "TryParseGuidWithHexPrefix", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
-					r_TryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult.SetBelong(null);
+					r_MTryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult = new(typeof(System.Guid), "TryParseGuidWithHexPrefix", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_MTryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult.SetBelong(null);
 				}
-				return r_TryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult;
+				return r_MTryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseGuidWithNoStyle(System.ReadOnlySpan`1[System.Char], GuidResult ByRef)
 		/// </summary>
-		protected static RMethod r_TryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult;
-		public static RMethod RTryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult
+		protected static RMethod r_MTryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult;
+		public static RMethod RMTryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult
 		{
 			get
 			{
-				if(r_TryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult == null)
+				if(r_MTryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult == null)
 				{
-					r_TryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult = new(typeof(System.Guid), "TryParseGuidWithNoStyle", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
-					r_TryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult.SetBelong(null);
+					r_MTryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult = new(typeof(System.Guid), "TryParseGuidWithNoStyle", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_MTryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult.SetBelong(null);
 				}
-				return r_TryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult;
+				return r_MTryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseGuidWithDashes(System.ReadOnlySpan`1[System.Char], GuidResult ByRef)
 		/// </summary>
-		protected static RMethod r_TryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult;
-		public static RMethod RTryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult
+		protected static RMethod r_MTryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult;
+		public static RMethod RMTryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult
 		{
 			get
 			{
-				if(r_TryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult == null)
+				if(r_MTryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult == null)
 				{
-					r_TryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult = new(typeof(System.Guid), "TryParseGuidWithDashes", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
-					r_TryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult.SetBelong(null);
+					r_MTryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult = new(typeof(System.Guid), "TryParseGuidWithDashes", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_MTryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult.SetBelong(null);
 				}
-				return r_TryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult;
+				return r_MTryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult;
 			}
 		}
 
 		/// <summary>
 		/// Boolean StringToShort(System.ReadOnlySpan`1[System.Char], Int32, Int32, Int16 ByRef, GuidResult ByRef)
 		/// </summary>
-		protected static RMethod r_StringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult;
-		public static RMethod RStringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult
+		protected static RMethod r_MStringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult;
+		public static RMethod RMStringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult
 		{
 			get
 			{
-				if(r_StringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult == null)
+				if(r_MStringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult == null)
 				{
-					r_StringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult = new(typeof(System.Guid), "StringToShort", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int16).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
-					r_StringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult.SetBelong(null);
+					r_MStringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult = new(typeof(System.Guid), "StringToShort", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int16).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_MStringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult.SetBelong(null);
 				}
-				return r_StringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult;
+				return r_MStringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult;
 			}
 		}
 
 		/// <summary>
 		/// Boolean StringToShort(System.ReadOnlySpan`1[System.Char], Int32 ByRef, Int32, Int32, Int16 ByRef, GuidResult ByRef)
 		/// </summary>
-		protected static RMethod r_StringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult;
-		public static RMethod RStringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult
+		protected static RMethod r_MStringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult;
+		public static RMethod RMStringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult
 		{
 			get
 			{
-				if(r_StringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult == null)
+				if(r_MStringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult == null)
 				{
-					r_StringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult = new(typeof(System.Guid), "StringToShort", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int16).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
-					r_StringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult.SetBelong(null);
+					r_MStringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult = new(typeof(System.Guid), "StringToShort", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int16).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_MStringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult.SetBelong(null);
 				}
-				return r_StringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult;
+				return r_MStringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult;
 			}
 		}
 
 		/// <summary>
 		/// Boolean StringToInt(System.ReadOnlySpan`1[System.Char], Int32, Int32, Int32 ByRef, GuidResult ByRef)
 		/// </summary>
-		protected static RMethod r_StringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult;
-		public static RMethod RStringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult
+		protected static RMethod r_MStringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult;
+		public static RMethod RMStringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult
 		{
 			get
 			{
-				if(r_StringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult == null)
+				if(r_MStringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult == null)
 				{
-					r_StringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult = new(typeof(System.Guid), "StringToInt", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
-					r_StringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult.SetBelong(null);
+					r_MStringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult = new(typeof(System.Guid), "StringToInt", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_MStringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult.SetBelong(null);
 				}
-				return r_StringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult;
+				return r_MStringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult;
 			}
 		}
 
 		/// <summary>
 		/// Boolean StringToInt(System.ReadOnlySpan`1[System.Char], Int32 ByRef, Int32, Int32, Int32 ByRef, GuidResult ByRef)
 		/// </summary>
-		protected static RMethod r_StringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult;
-		public static RMethod RStringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult
+		protected static RMethod r_MStringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult;
+		public static RMethod RMStringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult
 		{
 			get
 			{
-				if(r_StringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult == null)
+				if(r_MStringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult == null)
 				{
-					r_StringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult = new(typeof(System.Guid), "StringToInt", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
-					r_StringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult.SetBelong(null);
+					r_MStringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult = new(typeof(System.Guid), "StringToInt", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_MStringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult.SetBelong(null);
 				}
-				return r_StringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult;
+				return r_MStringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult;
 			}
 		}
 
 		/// <summary>
 		/// Boolean StringToLong(System.ReadOnlySpan`1[System.Char], Int32 ByRef, Int32, Int64 ByRef, GuidResult ByRef)
 		/// </summary>
-		protected static RMethod r_StringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult;
-		public static RMethod RStringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult
+		protected static RMethod r_MStringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult;
+		public static RMethod RMStringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult
 		{
 			get
 			{
-				if(r_StringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult == null)
+				if(r_MStringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult == null)
 				{
-					r_StringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult = new(typeof(System.Guid), "StringToLong", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.Int32), typeof(System.Int64).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
-					r_StringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult.SetBelong(null);
+					r_MStringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult = new(typeof(System.Guid), "StringToLong", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.Int32), typeof(System.Int64).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_MStringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult.SetBelong(null);
 				}
-				return r_StringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult;
+				return r_MStringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult;
 			}
 		}
 
 		/// <summary>
 		/// System.ReadOnlySpan`1[System.Char] EatAllWhitespace(System.ReadOnlySpan`1[System.Char])
 		/// </summary>
-		protected static RMethod r_EatAllWhitespace_ReadOnlySpan_d_Char_p_;
-		public static RMethod REatAllWhitespace_ReadOnlySpan_d_Char_p_
+		protected static RMethod r_MEatAllWhitespace_ReadOnlySpan_d_Char_p_;
+		public static RMethod RMEatAllWhitespace_ReadOnlySpan_d_Char_p_
 		{
 			get
 			{
-				if(r_EatAllWhitespace_ReadOnlySpan_d_Char_p_ == null)
+				if(r_MEatAllWhitespace_ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_EatAllWhitespace_ReadOnlySpan_d_Char_p_ = new(typeof(System.Guid), "EatAllWhitespace", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
-					r_EatAllWhitespace_ReadOnlySpan_d_Char_p_.SetBelong(null);
+					r_MEatAllWhitespace_ReadOnlySpan_d_Char_p_ = new(typeof(System.Guid), "EatAllWhitespace", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MEatAllWhitespace_ReadOnlySpan_d_Char_p_.SetBelong(null);
 				}
-				return r_EatAllWhitespace_ReadOnlySpan_d_Char_p_;
+				return r_MEatAllWhitespace_ReadOnlySpan_d_Char_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsHexPrefix(System.ReadOnlySpan`1[System.Char], Int32)
 		/// </summary>
-		protected static RMethod r_IsHexPrefix_ReadOnlySpan_d_Char_p__Int32;
-		public static RMethod RIsHexPrefix_ReadOnlySpan_d_Char_p__Int32
+		protected static RMethod r_MIsHexPrefix_ReadOnlySpan_d_Char_p__Int32;
+		public static RMethod RMIsHexPrefix_ReadOnlySpan_d_Char_p__Int32
 		{
 			get
 			{
-				if(r_IsHexPrefix_ReadOnlySpan_d_Char_p__Int32 == null)
+				if(r_MIsHexPrefix_ReadOnlySpan_d_Char_p__Int32 == null)
 				{
-					r_IsHexPrefix_ReadOnlySpan_d_Char_p__Int32 = new(typeof(System.Guid), "IsHexPrefix", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32));
-					r_IsHexPrefix_ReadOnlySpan_d_Char_p__Int32.SetBelong(null);
+					r_MIsHexPrefix_ReadOnlySpan_d_Char_p__Int32 = new(typeof(System.Guid), "IsHexPrefix", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32));
+					r_MIsHexPrefix_ReadOnlySpan_d_Char_p__Int32.SetBelong(null);
 				}
-				return r_IsHexPrefix_ReadOnlySpan_d_Char_p__Int32;
+				return r_MIsHexPrefix_ReadOnlySpan_d_Char_p__Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void WriteByteHelper(System.Span`1[System.Byte])
 		/// </summary>
-		protected RMethod r_WriteByteHelper_Span_d_Byte_p_;
-		public virtual RMethod RWriteByteHelper_Span_d_Byte_p_
+		protected RMethod r_MWriteByteHelper_Span_d_Byte_p_;
+		public virtual RMethod RMWriteByteHelper_Span_d_Byte_p_
 		{
 			get
 			{
-				if(r_WriteByteHelper_Span_d_Byte_p_ == null)
+				if(r_MWriteByteHelper_Span_d_Byte_p_ == null)
 				{
-					r_WriteByteHelper_Span_d_Byte_p_ = new(this, "WriteByteHelper", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)));
-					r_WriteByteHelper_Span_d_Byte_p_.SetBelong(this.instance);
+					r_MWriteByteHelper_Span_d_Byte_p_ = new(this, "WriteByteHelper", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)));
+					r_MWriteByteHelper_Span_d_Byte_p_.SetBelong(this.instance);
 				}
-				return r_WriteByteHelper_Span_d_Byte_p_;
+				return r_MWriteByteHelper_Span_d_Byte_p_;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] ToByteArray()
 		/// </summary>
-		protected RMethod r_ToByteArray;
-		public virtual RMethod RToByteArray
+		protected RMethod r_MToByteArray;
+		public virtual RMethod RMToByteArray
 		{
 			get
 			{
-				if(r_ToByteArray == null)
+				if(r_MToByteArray == null)
 				{
-					r_ToByteArray = new(this, "ToByteArray", 0);
-					r_ToByteArray.SetBelong(this.instance);
+					r_MToByteArray = new(this, "ToByteArray", 0);
+					r_MToByteArray.SetBelong(this.instance);
 				}
-				return r_ToByteArray;
+				return r_MToByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryWriteBytes(System.Span`1[System.Byte])
 		/// </summary>
-		protected RMethod r_TryWriteBytes_Span_d_Byte_p_;
-		public virtual RMethod RTryWriteBytes_Span_d_Byte_p_
+		protected RMethod r_MTryWriteBytes_Span_d_Byte_p_;
+		public virtual RMethod RMTryWriteBytes_Span_d_Byte_p_
 		{
 			get
 			{
-				if(r_TryWriteBytes_Span_d_Byte_p_ == null)
+				if(r_MTryWriteBytes_Span_d_Byte_p_ == null)
 				{
-					r_TryWriteBytes_Span_d_Byte_p_ = new(this, "TryWriteBytes", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)));
-					r_TryWriteBytes_Span_d_Byte_p_.SetBelong(this.instance);
+					r_MTryWriteBytes_Span_d_Byte_p_ = new(this, "TryWriteBytes", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)));
+					r_MTryWriteBytes_Span_d_Byte_p_.SetBelong(this.instance);
 				}
-				return r_TryWriteBytes_Span_d_Byte_p_;
+				return r_MTryWriteBytes_Span_d_Byte_p_;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Guid)
 		/// </summary>
-		protected RMethod r_Equals_Guid;
-		public virtual RMethod REquals_Guid
+		protected RMethod r_MEquals_Guid;
+		public virtual RMethod RMEquals_Guid
 		{
 			get
 			{
-				if(r_Equals_Guid == null)
+				if(r_MEquals_Guid == null)
 				{
-					r_Equals_Guid = new(this, "Equals", 0, typeof(System.Guid));
-					r_Equals_Guid.SetBelong(this.instance);
+					r_MEquals_Guid = new(this, "Equals", 0, typeof(System.Guid));
+					r_MEquals_Guid.SetBelong(this.instance);
 				}
-				return r_Equals_Guid;
+				return r_MEquals_Guid;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetResult(UInt32, UInt32)
 		/// </summary>
-		protected RMethod r_GetResult_UInt32_UInt32;
-		public virtual RMethod RGetResult_UInt32_UInt32
+		protected RMethod r_MGetResult_UInt32_UInt32;
+		public virtual RMethod RMGetResult_UInt32_UInt32
 		{
 			get
 			{
-				if(r_GetResult_UInt32_UInt32 == null)
+				if(r_MGetResult_UInt32_UInt32 == null)
 				{
-					r_GetResult_UInt32_UInt32 = new(this, "GetResult", 0, typeof(System.UInt32), typeof(System.UInt32));
-					r_GetResult_UInt32_UInt32.SetBelong(this.instance);
+					r_MGetResult_UInt32_UInt32 = new(this, "GetResult", 0, typeof(System.UInt32), typeof(System.UInt32));
+					r_MGetResult_UInt32_UInt32.SetBelong(this.instance);
 				}
-				return r_GetResult_UInt32_UInt32;
+				return r_MGetResult_UInt32_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 CompareTo(System.Object)
 		/// </summary>
-		protected RMethod r_CompareTo_Object;
-		public virtual RMethod RCompareTo_Object
+		protected RMethod r_MCompareTo_Object;
+		public virtual RMethod RMCompareTo_Object
 		{
 			get
 			{
-				if(r_CompareTo_Object == null)
+				if(r_MCompareTo_Object == null)
 				{
-					r_CompareTo_Object = new(this, "CompareTo", 0, typeof(System.Object));
-					r_CompareTo_Object.SetBelong(this.instance);
+					r_MCompareTo_Object = new(this, "CompareTo", 0, typeof(System.Object));
+					r_MCompareTo_Object.SetBelong(this.instance);
 				}
-				return r_CompareTo_Object;
+				return r_MCompareTo_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 CompareTo(System.Guid)
 		/// </summary>
-		protected RMethod r_CompareTo_Guid;
-		public virtual RMethod RCompareTo_Guid
+		protected RMethod r_MCompareTo_Guid;
+		public virtual RMethod RMCompareTo_Guid
 		{
 			get
 			{
-				if(r_CompareTo_Guid == null)
+				if(r_MCompareTo_Guid == null)
 				{
-					r_CompareTo_Guid = new(this, "CompareTo", 0, typeof(System.Guid));
-					r_CompareTo_Guid.SetBelong(this.instance);
+					r_MCompareTo_Guid = new(this, "CompareTo", 0, typeof(System.Guid));
+					r_MCompareTo_Guid.SetBelong(this.instance);
 				}
-				return r_CompareTo_Guid;
+				return r_MCompareTo_Guid;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(System.Guid, System.Guid)
 		/// </summary>
-		protected static RMethod r_op_Equality_Guid_Guid;
-		public static RMethod Rop_Equality_Guid_Guid
+		protected static RMethod r_Mop_Equality_Guid_Guid;
+		public static RMethod RMop_Equality_Guid_Guid
 		{
 			get
 			{
-				if(r_op_Equality_Guid_Guid == null)
+				if(r_Mop_Equality_Guid_Guid == null)
 				{
-					r_op_Equality_Guid_Guid = new(typeof(System.Guid), "op_Equality", 0, typeof(System.Guid), typeof(System.Guid));
-					r_op_Equality_Guid_Guid.SetBelong(null);
+					r_Mop_Equality_Guid_Guid = new(typeof(System.Guid), "op_Equality", 0, typeof(System.Guid), typeof(System.Guid));
+					r_Mop_Equality_Guid_Guid.SetBelong(null);
 				}
-				return r_op_Equality_Guid_Guid;
+				return r_Mop_Equality_Guid_Guid;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(System.Guid, System.Guid)
 		/// </summary>
-		protected static RMethod r_op_Inequality_Guid_Guid;
-		public static RMethod Rop_Inequality_Guid_Guid
+		protected static RMethod r_Mop_Inequality_Guid_Guid;
+		public static RMethod RMop_Inequality_Guid_Guid
 		{
 			get
 			{
-				if(r_op_Inequality_Guid_Guid == null)
+				if(r_Mop_Inequality_Guid_Guid == null)
 				{
-					r_op_Inequality_Guid_Guid = new(typeof(System.Guid), "op_Inequality", 0, typeof(System.Guid), typeof(System.Guid));
-					r_op_Inequality_Guid_Guid.SetBelong(null);
+					r_Mop_Inequality_Guid_Guid = new(typeof(System.Guid), "op_Inequality", 0, typeof(System.Guid), typeof(System.Guid));
+					r_Mop_Inequality_Guid_Guid.SetBelong(null);
 				}
-				return r_op_Inequality_Guid_Guid;
+				return r_Mop_Inequality_Guid_Guid;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString(System.String)
 		/// </summary>
-		protected RMethod r_ToString_String;
-		public virtual RMethod RToString_String
+		protected RMethod r_MToString_String;
+		public virtual RMethod RMToString_String
 		{
 			get
 			{
-				if(r_ToString_String == null)
+				if(r_MToString_String == null)
 				{
-					r_ToString_String = new(this, "ToString", 0, typeof(System.String));
-					r_ToString_String.SetBelong(this.instance);
+					r_MToString_String = new(this, "ToString", 0, typeof(System.String));
+					r_MToString_String.SetBelong(this.instance);
 				}
-				return r_ToString_String;
+				return r_MToString_String;
 			}
 		}
 
 		/// <summary>
 		/// Char HexToChar(Int32)
 		/// </summary>
-		protected static RMethod r_HexToChar_Int32;
-		public static RMethod RHexToChar_Int32
+		protected static RMethod r_MHexToChar_Int32;
+		public static RMethod RMHexToChar_Int32
 		{
 			get
 			{
-				if(r_HexToChar_Int32 == null)
+				if(r_MHexToChar_Int32 == null)
 				{
-					r_HexToChar_Int32 = new(typeof(System.Guid), "HexToChar", 0, typeof(System.Int32));
-					r_HexToChar_Int32.SetBelong(null);
+					r_MHexToChar_Int32 = new(typeof(System.Guid), "HexToChar", 0, typeof(System.Int32));
+					r_MHexToChar_Int32.SetBelong(null);
 				}
-				return r_HexToChar_Int32;
+				return r_MHexToChar_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 HexsToChars(Char*, Int32, Int32)
 		/// </summary>
-		protected static RMethod r_HexsToChars_CharPointer_Int32_Int32;
-		public static RMethod RHexsToChars_CharPointer_Int32_Int32
+		protected static RMethod r_MHexsToChars_CharPointer_Int32_Int32;
+		public static RMethod RMHexsToChars_CharPointer_Int32_Int32
 		{
 			get
 			{
-				if(r_HexsToChars_CharPointer_Int32_Int32 == null)
+				if(r_MHexsToChars_CharPointer_Int32_Int32 == null)
 				{
-					r_HexsToChars_CharPointer_Int32_Int32 = new(typeof(System.Guid), "HexsToChars", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Int32));
-					r_HexsToChars_CharPointer_Int32_Int32.SetBelong(null);
+					r_MHexsToChars_CharPointer_Int32_Int32 = new(typeof(System.Guid), "HexsToChars", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Int32));
+					r_MHexsToChars_CharPointer_Int32_Int32.SetBelong(null);
 				}
-				return r_HexsToChars_CharPointer_Int32_Int32;
+				return r_MHexsToChars_CharPointer_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 HexsToCharsHexOutput(Char*, Int32, Int32)
 		/// </summary>
-		protected static RMethod r_HexsToCharsHexOutput_CharPointer_Int32_Int32;
-		public static RMethod RHexsToCharsHexOutput_CharPointer_Int32_Int32
+		protected static RMethod r_MHexsToCharsHexOutput_CharPointer_Int32_Int32;
+		public static RMethod RMHexsToCharsHexOutput_CharPointer_Int32_Int32
 		{
 			get
 			{
-				if(r_HexsToCharsHexOutput_CharPointer_Int32_Int32 == null)
+				if(r_MHexsToCharsHexOutput_CharPointer_Int32_Int32 == null)
 				{
-					r_HexsToCharsHexOutput_CharPointer_Int32_Int32 = new(typeof(System.Guid), "HexsToCharsHexOutput", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Int32));
-					r_HexsToCharsHexOutput_CharPointer_Int32_Int32.SetBelong(null);
+					r_MHexsToCharsHexOutput_CharPointer_Int32_Int32 = new(typeof(System.Guid), "HexsToCharsHexOutput", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Int32));
+					r_MHexsToCharsHexOutput_CharPointer_Int32_Int32.SetBelong(null);
 				}
-				return r_HexsToCharsHexOutput_CharPointer_Int32_Int32;
+				return r_MHexsToCharsHexOutput_CharPointer_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString(System.String, System.IFormatProvider)
 		/// </summary>
-		protected RMethod r_ToString_String_IFormatProvider;
-		public virtual RMethod RToString_String_IFormatProvider
+		protected RMethod r_MToString_String_IFormatProvider;
+		public virtual RMethod RMToString_String_IFormatProvider
 		{
 			get
 			{
-				if(r_ToString_String_IFormatProvider == null)
+				if(r_MToString_String_IFormatProvider == null)
 				{
-					r_ToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
-					r_ToString_String_IFormatProvider.SetBelong(this.instance);
+					r_MToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
+					r_MToString_String_IFormatProvider.SetBelong(this.instance);
 				}
-				return r_ToString_String_IFormatProvider;
+				return r_MToString_String_IFormatProvider;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryFormat(System.Span`1[System.Char], Int32 ByRef, System.ReadOnlySpan`1[System.Char])
 		/// </summary>
-		protected RMethod r_TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_;
-		public virtual RMethod RTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_
+		protected RMethod r_MTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_;
+		public virtual RMethod RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_
 		{
 			get
 			{
-				if(r_TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_ == null)
+				if(r_MTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_ = new(this, "TryFormat", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
-					r_TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_.SetBelong(this.instance);
+					r_MTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_ = new(this, "TryFormat", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_.SetBelong(this.instance);
 				}
-				return r_TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_;
+				return r_MTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean System.ISpanFormattable.TryFormat(System.Span`1[System.Char], Int32 ByRef, System.ReadOnlySpan`1[System.Char], System.IFormatProvider)
 		/// </summary>
-		protected RMethod r_System__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider;
-		public virtual RMethod RSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider
+		protected RMethod r_MSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider;
+		public virtual RMethod RMSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider
 		{
 			get
 			{
-				if(r_System__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider == null)
+				if(r_MSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider == null)
 				{
-					r_System__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider = new(this, "System.ISpanFormattable.TryFormat", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider));
-					r_System__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.SetBelong(this.instance);
+					r_MSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider = new(this, "System.ISpanFormattable.TryFormat", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider));
+					r_MSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.SetBelong(this.instance);
 				}
-				return r_System__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider;
+				return r_MSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] FastNewGuidArray()
 		/// </summary>
-		protected static RMethod r_FastNewGuidArray;
-		public static RMethod RFastNewGuidArray
+		protected static RMethod r_MFastNewGuidArray;
+		public static RMethod RMFastNewGuidArray
 		{
 			get
 			{
-				if(r_FastNewGuidArray == null)
+				if(r_MFastNewGuidArray == null)
 				{
-					r_FastNewGuidArray = new(typeof(System.Guid), "FastNewGuidArray", 0);
-					r_FastNewGuidArray.SetBelong(null);
+					r_MFastNewGuidArray = new(typeof(System.Guid), "FastNewGuidArray", 0);
+					r_MFastNewGuidArray.SetBelong(null);
 				}
-				return r_FastNewGuidArray;
+				return r_MFastNewGuidArray;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -968,7 +968,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RNewGuid.Invoke(___genericsType, ___parameters);
+            var ___result = RMNewGuid.Invoke(___genericsType, ___parameters);
 
             return (System.Guid)___result;
         }
@@ -979,7 +979,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input};
-            var ___result = RParse_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
 
             return (System.Guid)___result;
         }
@@ -990,7 +990,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input.Value};
-            var ___result = RParse_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMParse_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
 
             return (System.Guid)___result;
         }
@@ -1002,7 +1002,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @result};
-            var ___result = RTryParse_String_Out_Guid.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryParse_String_Out_Guid.Invoke(___genericsType, ___parameters);
 			@result = (System.Guid)___parameters[1];
 
             return (System.Boolean)___result;
@@ -1015,7 +1015,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input.Value, @result};
-            var ___result = RTryParse_ReadOnlySpan_d_Char_p__Out_Guid.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Guid.Invoke(___genericsType, ___parameters);
 			@result = (System.Guid)___parameters[1];
 
             return (System.Boolean)___result;
@@ -1027,7 +1027,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @format};
-            var ___result = RParseExact_String_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMParseExact_String_String.Invoke(___genericsType, ___parameters);
 
             return (System.Guid)___result;
         }
@@ -1038,7 +1038,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input.Value, @format.Value};
-            var ___result = RParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
 
             return (System.Guid)___result;
         }
@@ -1050,7 +1050,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @format, @result};
-            var ___result = RTryParseExact_String_String_Out_Guid.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryParseExact_String_String_Out_Guid.Invoke(___genericsType, ___parameters);
 			@result = (System.Guid)___parameters[2];
 
             return (System.Boolean)___result;
@@ -1063,19 +1063,19 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input.Value, @format.Value, @result};
-            var ___result = RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid.Invoke(___genericsType, ___parameters);
 			@result = (System.Guid)___parameters[2];
 
             return (System.Boolean)___result;
         }
 
 
-        public static System.Boolean TryParseGuid(RSystem.RReadOnlySpan<RSystem.RChar> @guidString, RType @flags, ref RSystem.RGuid.RGuidResult @result)
+        public static System.Boolean TryParseGuid(RSystem.RReadOnlySpan<RSystem.RChar> @guidString, RSystem.RGuid.RGuidStyles @flags, ref RSystem.RGuid.RGuidResult @result)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@guidString.Value, @flags.Value, @result.Value};
-            var ___result = RTryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@result = new RSystem.RGuid.RGuidResult(___parameters[2]);
 
             return (System.Boolean)___result;
@@ -1087,7 +1087,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@guidString.Value, @result.Value};
-            var ___result = RTryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@result = new RSystem.RGuid.RGuidResult(___parameters[1]);
 
             return (System.Boolean)___result;
@@ -1099,7 +1099,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@guidString.Value, @result.Value};
-            var ___result = RTryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@result = new RSystem.RGuid.RGuidResult(___parameters[1]);
 
             return (System.Boolean)___result;
@@ -1111,7 +1111,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@guidString.Value, @result.Value};
-            var ___result = RTryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@result = new RSystem.RGuid.RGuidResult(___parameters[1]);
 
             return (System.Boolean)___result;
@@ -1124,7 +1124,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str.Value, @requiredLength, @flags, @result, @parseResult.Value};
-            var ___result = RStringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+            var ___result = RMStringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@result = (System.Int16)___parameters[3];
 			@parseResult = new RSystem.RGuid.RGuidResult(___parameters[4]);
 
@@ -1138,7 +1138,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str.Value, @parsePos, @requiredLength, @flags, @result, @parseResult.Value};
-            var ___result = RStringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+            var ___result = RMStringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@parsePos = (System.Int32)___parameters[1];
 			@result = (System.Int16)___parameters[4];
 			@parseResult = new RSystem.RGuid.RGuidResult(___parameters[5]);
@@ -1153,7 +1153,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str.Value, @requiredLength, @flags, @result, @parseResult.Value};
-            var ___result = RStringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+            var ___result = RMStringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@result = (System.Int32)___parameters[3];
 			@parseResult = new RSystem.RGuid.RGuidResult(___parameters[4]);
 
@@ -1167,7 +1167,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str.Value, @parsePos, @requiredLength, @flags, @result, @parseResult.Value};
-            var ___result = RStringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+            var ___result = RMStringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@parsePos = (System.Int32)___parameters[1];
 			@result = (System.Int32)___parameters[4];
 			@parseResult = new RSystem.RGuid.RGuidResult(___parameters[5]);
@@ -1182,7 +1182,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str.Value, @parsePos, @flags, @result, @parseResult.Value};
-            var ___result = RStringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+            var ___result = RMStringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult.Invoke(___genericsType, ___parameters);
 			@parsePos = (System.Int32)___parameters[1];
 			@result = (System.Int64)___parameters[3];
 			@parseResult = new RSystem.RGuid.RGuidResult(___parameters[4]);
@@ -1196,7 +1196,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str.Value};
-            var ___result = REatAllWhitespace_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMEatAllWhitespace_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
 
             return new RSystem.RReadOnlySpan<RSystem.RChar>(___result);
         }
@@ -1207,7 +1207,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str.Value, @i};
-            var ___result = RIsHexPrefix_ReadOnlySpan_d_Char_p__Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsHexPrefix_ReadOnlySpan_d_Char_p__Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1218,7 +1218,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value};
-            var ___result = RWriteByteHelper_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMWriteByteHelper_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1229,7 +1229,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToByteArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMToByteArray.Invoke(___genericsType, ___parameters);
 
             return (System.Byte[])___result;
         }
@@ -1240,7 +1240,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value};
-            var ___result = RTryWriteBytes_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryWriteBytes_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1251,7 +1251,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -1262,7 +1262,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1273,7 +1273,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@o};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1284,7 +1284,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@g};
-            var ___result = REquals_Guid.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Guid.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1295,7 +1295,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@me, @them};
-            var ___result = RGetResult_UInt32_UInt32.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetResult_UInt32_UInt32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1306,7 +1306,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = RCompareTo_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1317,7 +1317,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = RCompareTo_Guid.Invoke(___genericsType, ___parameters);
+            var ___result = RMCompareTo_Guid.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1328,7 +1328,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b};
-            var ___result = Rop_Equality_Guid_Guid.Invoke(___genericsType, ___parameters);
+            var ___result = RMop_Equality_Guid_Guid.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1339,7 +1339,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b};
-            var ___result = Rop_Inequality_Guid_Guid.Invoke(___genericsType, ___parameters);
+            var ___result = RMop_Inequality_Guid_Guid.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1350,7 +1350,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@format};
-            var ___result = RToString_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -1361,7 +1361,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a};
-            var ___result = RHexToChar_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMHexToChar_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Char)___result;
         }
@@ -1372,7 +1372,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{Pointer.Box(@guidChars, typeof(System.Char)), @a, @b};
-            var ___result = RHexsToChars_CharPointer_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMHexsToChars_CharPointer_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1383,7 +1383,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{Pointer.Box(@guidChars, typeof(System.Char)), @a, @b};
-            var ___result = RHexsToCharsHexOutput_CharPointer_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMHexsToCharsHexOutput_CharPointer_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1394,7 +1394,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@format, @provider};
-            var ___result = RToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -1406,7 +1406,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value};
-            var ___result = RTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
 			@charsWritten = (System.Int32)___parameters[1];
 
             return (System.Boolean)___result;
@@ -1419,7 +1419,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
-            var ___result = RSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
+            var ___result = RMSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
 			@charsWritten = (System.Int32)___parameters[1];
 
             return (System.Boolean)___result;
@@ -1431,7 +1431,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFastNewGuidArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMFastNewGuidArray.Invoke(___genericsType, ___parameters);
 
             return (System.Byte[])___result;
         }
@@ -1442,7 +1442,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1453,7 +1453,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -1464,7 +1464,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

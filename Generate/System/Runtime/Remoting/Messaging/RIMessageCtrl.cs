@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Void Cancel(Int32)
 		/// </summary>
-		protected RMethod r_Cancel_Int32;
-		public virtual RMethod RCancel_Int32
+		protected RMethod r_MCancel_Int32;
+		public virtual RMethod RMCancel_Int32
 		{
 			get
 			{
-				if(r_Cancel_Int32 == null)
+				if(r_MCancel_Int32 == null)
 				{
-					r_Cancel_Int32 = new(this, "Cancel", 0, typeof(System.Int32));
-					r_Cancel_Int32.SetBelong(this.instance);
+					r_MCancel_Int32 = new(this, "Cancel", 0, typeof(System.Int32));
+					r_MCancel_Int32.SetBelong(this.instance);
 				}
-				return r_Cancel_Int32;
+				return r_MCancel_Int32;
 			}
 		}
 
@@ -50,7 +50,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@msToCancel};
-            var ___result = RCancel_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMCancel_Int32.Invoke(___genericsType, ___parameters);
 
             
         }

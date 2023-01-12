@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String ToString(System.String, System.IFormatProvider)
 		/// </summary>
-		protected RMethod r_ToString_String_IFormatProvider;
-		public virtual RMethod RToString_String_IFormatProvider
+		protected RMethod r_MToString_String_IFormatProvider;
+		public virtual RMethod RMToString_String_IFormatProvider
 		{
 			get
 			{
-				if(r_ToString_String_IFormatProvider == null)
+				if(r_MToString_String_IFormatProvider == null)
 				{
-					r_ToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
-					r_ToString_String_IFormatProvider.SetBelong(this.instance);
+					r_MToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
+					r_MToString_String_IFormatProvider.SetBelong(this.instance);
 				}
-				return r_ToString_String_IFormatProvider;
+				return r_MToString_String_IFormatProvider;
 			}
 		}
 
@@ -50,7 +50,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@format, @formatProvider};
-            var ___result = RToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

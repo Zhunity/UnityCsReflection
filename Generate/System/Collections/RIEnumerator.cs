@@ -13,51 +13,51 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Object Current
 		/// </summary>
-		protected RSystem.RObject r_Current;
-		public virtual RSystem.RObject RCurrent
+		protected RSystem.RObject r_PCurrent;
+		public virtual RSystem.RObject RPCurrent
 		{
 			get
 			{
-				if(r_Current == null)
+				if(r_PCurrent == null)
 				{
-					r_Current = new(this, "Current", -1);
-					r_Current.SetBelong(this.instance);
+					r_PCurrent = new(this, "Current", -1);
+					r_PCurrent.SetBelong(this.instance);
 				}
-				return r_Current;
+				return r_PCurrent;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MoveNext()
 		/// </summary>
-		protected RMethod r_MoveNext;
-		public virtual RMethod RMoveNext
+		protected RMethod r_MMoveNext;
+		public virtual RMethod RMMoveNext
 		{
 			get
 			{
-				if(r_MoveNext == null)
+				if(r_MMoveNext == null)
 				{
-					r_MoveNext = new(this, "MoveNext", 0);
-					r_MoveNext.SetBelong(this.instance);
+					r_MMoveNext = new(this, "MoveNext", 0);
+					r_MMoveNext.SetBelong(this.instance);
 				}
-				return r_MoveNext;
+				return r_MMoveNext;
 			}
 		}
 
 		/// <summary>
 		/// Void Reset()
 		/// </summary>
-		protected RMethod r_Reset;
-		public virtual RMethod RReset
+		protected RMethod r_MReset;
+		public virtual RMethod RMReset
 		{
 			get
 			{
-				if(r_Reset == null)
+				if(r_MReset == null)
 				{
-					r_Reset = new(this, "Reset", 0);
-					r_Reset.SetBelong(this.instance);
+					r_MReset = new(this, "Reset", 0);
+					r_MReset.SetBelong(this.instance);
 				}
-				return r_Reset;
+				return r_MReset;
 			}
 		}
 
@@ -84,7 +84,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMoveNext.Invoke(___genericsType, ___parameters);
+            var ___result = RMMoveNext.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -95,7 +95,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RReset.Invoke(___genericsType, ___parameters);
+            var ___result = RMReset.Invoke(___genericsType, ___parameters);
 
             
         }

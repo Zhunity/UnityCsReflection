@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String DisplayName
 		/// </summary>
-		protected RSystem.RString r_DisplayName;
-		public virtual RSystem.RString RDisplayName
+		protected RSystem.RString r_PDisplayName;
+		public virtual RSystem.RString RPDisplayName
 		{
 			get
 			{
-				if(r_DisplayName == null)
+				if(r_PDisplayName == null)
 				{
-					r_DisplayName = new(this, "DisplayName", -1);
-					r_DisplayName.SetBelong(this.instance);
+					r_PDisplayName = new(this, "DisplayName", -1);
+					r_PDisplayName.SetBelong(this.instance);
 				}
-				return r_DisplayName;
+				return r_PDisplayName;
 			}
 		}
 
 		/// <summary>
 		/// System.TypeName NestedName(System.TypeIdentifier)
 		/// </summary>
-		protected RMethod r_NestedName_TypeIdentifier;
-		public virtual RMethod RNestedName_TypeIdentifier
+		protected RMethod r_MNestedName_TypeIdentifier;
+		public virtual RMethod RMNestedName_TypeIdentifier
 		{
 			get
 			{
-				if(r_NestedName_TypeIdentifier == null)
+				if(r_MNestedName_TypeIdentifier == null)
 				{
-					r_NestedName_TypeIdentifier = new(this, "NestedName", 0,  ReflectionUtils.GetType("System.TypeIdentifier"));
-					r_NestedName_TypeIdentifier.SetBelong(this.instance);
+					r_MNestedName_TypeIdentifier = new(this, "NestedName", 0,  ReflectionUtils.GetType("System.TypeIdentifier"));
+					r_MNestedName_TypeIdentifier.SetBelong(this.instance);
 				}
-				return r_NestedName_TypeIdentifier;
+				return r_MNestedName_TypeIdentifier;
 			}
 		}
 
@@ -67,7 +67,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@innerName.Value};
-            var ___result = RNestedName_TypeIdentifier.Invoke(___genericsType, ___parameters);
+            var ___result = RMNestedName_TypeIdentifier.Invoke(___genericsType, ___parameters);
 
             return new RSystem.RTypeName(___result);
         }

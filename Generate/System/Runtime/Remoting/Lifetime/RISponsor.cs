@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.TimeSpan Renewal(System.Runtime.Remoting.Lifetime.ILease)
 		/// </summary>
-		protected RMethod r_Renewal_ILease;
-		public virtual RMethod RRenewal_ILease
+		protected RMethod r_MRenewal_ILease;
+		public virtual RMethod RMRenewal_ILease
 		{
 			get
 			{
-				if(r_Renewal_ILease == null)
+				if(r_MRenewal_ILease == null)
 				{
-					r_Renewal_ILease = new(this, "Renewal", 0, typeof(System.Runtime.Remoting.Lifetime.ILease));
-					r_Renewal_ILease.SetBelong(this.instance);
+					r_MRenewal_ILease = new(this, "Renewal", 0, typeof(System.Runtime.Remoting.Lifetime.ILease));
+					r_MRenewal_ILease.SetBelong(this.instance);
 				}
-				return r_Renewal_ILease;
+				return r_MRenewal_ILease;
 			}
 		}
 
@@ -50,7 +50,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lease};
-            var ___result = RRenewal_ILease.Invoke(___genericsType, ___parameters);
+            var ___result = RMRenewal_ILease.Invoke(___genericsType, ___parameters);
 
             return (System.TimeSpan)___result;
         }

@@ -13,561 +13,561 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags ace_flags
 		/// </summary>
-		protected RField r_ace_flags;
-		public virtual RField Race_flags
+		protected RSystem.RSecurity.RAccessControl.RAceFlags r_Face_flags;
+		public virtual RSystem.RSecurity.RAccessControl.RAceFlags RFace_flags
 		{
 			get
 			{
-				if(r_ace_flags == null)
+				if(r_Face_flags == null)
 				{
-					r_ace_flags = new(this, "ace_flags");
-					r_ace_flags.SetBelong(this.instance);
+					r_Face_flags = new(this, "ace_flags");
+					r_Face_flags.SetBelong(this.instance);
 				}
-				return r_ace_flags;
+				return r_Face_flags;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AceType ace_type
 		/// </summary>
-		protected RField r_ace_type;
-		public virtual RField Race_type
+		protected RSystem.RSecurity.RAccessControl.RAceType r_Face_type;
+		public virtual RSystem.RSecurity.RAccessControl.RAceType RFace_type
 		{
 			get
 			{
-				if(r_ace_type == null)
+				if(r_Face_type == null)
 				{
-					r_ace_type = new(this, "ace_type");
-					r_ace_type.SetBelong(this.instance);
+					r_Face_type = new(this, "ace_type");
+					r_Face_type.SetBelong(this.instance);
 				}
-				return r_ace_type;
+				return r_Face_type;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags AceFlags
 		/// </summary>
-		protected RProperty r_AceFlags;
-		public virtual RProperty RAceFlags
+		protected RSystem.RSecurity.RAccessControl.RAceFlags r_PAceFlags;
+		public virtual RSystem.RSecurity.RAccessControl.RAceFlags RPAceFlags
 		{
 			get
 			{
-				if(r_AceFlags == null)
+				if(r_PAceFlags == null)
 				{
-					r_AceFlags = new(this, "AceFlags", -1);
-					r_AceFlags.SetBelong(this.instance);
+					r_PAceFlags = new(this, "AceFlags", -1);
+					r_PAceFlags.SetBelong(this.instance);
 				}
-				return r_AceFlags;
+				return r_PAceFlags;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AceType AceType
 		/// </summary>
-		protected RProperty r_AceType;
-		public virtual RProperty RAceType
+		protected RSystem.RSecurity.RAccessControl.RAceType r_PAceType;
+		public virtual RSystem.RSecurity.RAccessControl.RAceType RPAceType
 		{
 			get
 			{
-				if(r_AceType == null)
+				if(r_PAceType == null)
 				{
-					r_AceType = new(this, "AceType", -1);
-					r_AceType.SetBelong(this.instance);
+					r_PAceType = new(this, "AceType", -1);
+					r_PAceType.SetBelong(this.instance);
 				}
-				return r_AceType;
+				return r_PAceType;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AuditFlags AuditFlags
 		/// </summary>
-		protected RProperty r_AuditFlags;
-		public virtual RProperty RAuditFlags
+		protected RSystem.RSecurity.RAccessControl.RAuditFlags r_PAuditFlags;
+		public virtual RSystem.RSecurity.RAccessControl.RAuditFlags RPAuditFlags
 		{
 			get
 			{
-				if(r_AuditFlags == null)
+				if(r_PAuditFlags == null)
 				{
-					r_AuditFlags = new(this, "AuditFlags", -1);
-					r_AuditFlags.SetBelong(this.instance);
+					r_PAuditFlags = new(this, "AuditFlags", -1);
+					r_PAuditFlags.SetBelong(this.instance);
 				}
-				return r_AuditFlags;
+				return r_PAuditFlags;
 			}
 		}
 
 		/// <summary>
 		/// Int32 BinaryLength
 		/// </summary>
-		protected RSystem.RInt32 r_BinaryLength;
-		public virtual RSystem.RInt32 RBinaryLength
+		protected RSystem.RInt32 r_PBinaryLength;
+		public virtual RSystem.RInt32 RPBinaryLength
 		{
 			get
 			{
-				if(r_BinaryLength == null)
+				if(r_PBinaryLength == null)
 				{
-					r_BinaryLength = new(this, "BinaryLength", -1);
-					r_BinaryLength.SetBelong(this.instance);
+					r_PBinaryLength = new(this, "BinaryLength", -1);
+					r_PBinaryLength.SetBelong(this.instance);
 				}
-				return r_BinaryLength;
+				return r_PBinaryLength;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.InheritanceFlags InheritanceFlags
 		/// </summary>
-		protected RProperty r_InheritanceFlags;
-		public virtual RProperty RInheritanceFlags
+		protected RSystem.RSecurity.RAccessControl.RInheritanceFlags r_PInheritanceFlags;
+		public virtual RSystem.RSecurity.RAccessControl.RInheritanceFlags RPInheritanceFlags
 		{
 			get
 			{
-				if(r_InheritanceFlags == null)
+				if(r_PInheritanceFlags == null)
 				{
-					r_InheritanceFlags = new(this, "InheritanceFlags", -1);
-					r_InheritanceFlags.SetBelong(this.instance);
+					r_PInheritanceFlags = new(this, "InheritanceFlags", -1);
+					r_PInheritanceFlags.SetBelong(this.instance);
 				}
-				return r_InheritanceFlags;
+				return r_PInheritanceFlags;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsInherited
 		/// </summary>
-		protected RSystem.RBoolean r_IsInherited;
-		public virtual RSystem.RBoolean RIsInherited
+		protected RSystem.RBoolean r_PIsInherited;
+		public virtual RSystem.RBoolean RPIsInherited
 		{
 			get
 			{
-				if(r_IsInherited == null)
+				if(r_PIsInherited == null)
 				{
-					r_IsInherited = new(this, "IsInherited", -1);
-					r_IsInherited.SetBelong(this.instance);
+					r_PIsInherited = new(this, "IsInherited", -1);
+					r_PIsInherited.SetBelong(this.instance);
 				}
-				return r_IsInherited;
+				return r_PIsInherited;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.PropagationFlags PropagationFlags
 		/// </summary>
-		protected RProperty r_PropagationFlags;
-		public virtual RProperty RPropagationFlags
+		protected RSystem.RSecurity.RAccessControl.RPropagationFlags r_PPropagationFlags;
+		public virtual RSystem.RSecurity.RAccessControl.RPropagationFlags RPPropagationFlags
 		{
 			get
 			{
-				if(r_PropagationFlags == null)
+				if(r_PPropagationFlags == null)
 				{
-					r_PropagationFlags = new(this, "PropagationFlags", -1);
-					r_PropagationFlags.SetBelong(this.instance);
+					r_PPropagationFlags = new(this, "PropagationFlags", -1);
+					r_PPropagationFlags.SetBelong(this.instance);
 				}
-				return r_PropagationFlags;
+				return r_PPropagationFlags;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.GenericAce Copy()
 		/// </summary>
-		protected RMethod r_Copy;
-		public virtual RMethod RCopy
+		protected RMethod r_MCopy;
+		public virtual RMethod RMCopy
 		{
 			get
 			{
-				if(r_Copy == null)
+				if(r_MCopy == null)
 				{
-					r_Copy = new(this, "Copy", 0);
-					r_Copy.SetBelong(this.instance);
+					r_MCopy = new(this, "Copy", 0);
+					r_MCopy.SetBelong(this.instance);
 				}
-				return r_Copy;
+				return r_MCopy;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.GenericAce CreateFromBinaryForm(Byte[], Int32)
 		/// </summary>
-		protected static RMethod r_CreateFromBinaryForm_ByteArray_Int32;
-		public static RMethod RCreateFromBinaryForm_ByteArray_Int32
+		protected static RMethod r_MCreateFromBinaryForm_ByteArray_Int32;
+		public static RMethod RMCreateFromBinaryForm_ByteArray_Int32
 		{
 			get
 			{
-				if(r_CreateFromBinaryForm_ByteArray_Int32 == null)
+				if(r_MCreateFromBinaryForm_ByteArray_Int32 == null)
 				{
-					r_CreateFromBinaryForm_ByteArray_Int32 = new(typeof(System.Security.AccessControl.GenericAce), "CreateFromBinaryForm", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
-					r_CreateFromBinaryForm_ByteArray_Int32.SetBelong(null);
+					r_MCreateFromBinaryForm_ByteArray_Int32 = new(typeof(System.Security.AccessControl.GenericAce), "CreateFromBinaryForm", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_MCreateFromBinaryForm_ByteArray_Int32.SetBelong(null);
 				}
-				return r_CreateFromBinaryForm_ByteArray_Int32;
+				return r_MCreateFromBinaryForm_ByteArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void GetBinaryForm(Byte[], Int32)
 		/// </summary>
-		protected RMethod r_GetBinaryForm_ByteArray_Int32;
-		public virtual RMethod RGetBinaryForm_ByteArray_Int32
+		protected RMethod r_MGetBinaryForm_ByteArray_Int32;
+		public virtual RMethod RMGetBinaryForm_ByteArray_Int32
 		{
 			get
 			{
-				if(r_GetBinaryForm_ByteArray_Int32 == null)
+				if(r_MGetBinaryForm_ByteArray_Int32 == null)
 				{
-					r_GetBinaryForm_ByteArray_Int32 = new(this, "GetBinaryForm", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
-					r_GetBinaryForm_ByteArray_Int32.SetBelong(this.instance);
+					r_MGetBinaryForm_ByteArray_Int32 = new(this, "GetBinaryForm", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_MGetBinaryForm_ByteArray_Int32.SetBelong(this.instance);
 				}
-				return r_GetBinaryForm_ByteArray_Int32;
+				return r_MGetBinaryForm_ByteArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(System.Security.AccessControl.GenericAce, System.Security.AccessControl.GenericAce)
 		/// </summary>
-		protected static RMethod r_op_Equality_GenericAce_GenericAce;
-		public static RMethod Rop_Equality_GenericAce_GenericAce
+		protected static RMethod r_Mop_Equality_GenericAce_GenericAce;
+		public static RMethod RMop_Equality_GenericAce_GenericAce
 		{
 			get
 			{
-				if(r_op_Equality_GenericAce_GenericAce == null)
+				if(r_Mop_Equality_GenericAce_GenericAce == null)
 				{
-					r_op_Equality_GenericAce_GenericAce = new(typeof(System.Security.AccessControl.GenericAce), "op_Equality", 0, typeof(System.Security.AccessControl.GenericAce), typeof(System.Security.AccessControl.GenericAce));
-					r_op_Equality_GenericAce_GenericAce.SetBelong(null);
+					r_Mop_Equality_GenericAce_GenericAce = new(typeof(System.Security.AccessControl.GenericAce), "op_Equality", 0, typeof(System.Security.AccessControl.GenericAce), typeof(System.Security.AccessControl.GenericAce));
+					r_Mop_Equality_GenericAce_GenericAce.SetBelong(null);
 				}
-				return r_op_Equality_GenericAce_GenericAce;
+				return r_Mop_Equality_GenericAce_GenericAce;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(System.Security.AccessControl.GenericAce, System.Security.AccessControl.GenericAce)
 		/// </summary>
-		protected static RMethod r_op_Inequality_GenericAce_GenericAce;
-		public static RMethod Rop_Inequality_GenericAce_GenericAce
+		protected static RMethod r_Mop_Inequality_GenericAce_GenericAce;
+		public static RMethod RMop_Inequality_GenericAce_GenericAce
 		{
 			get
 			{
-				if(r_op_Inequality_GenericAce_GenericAce == null)
+				if(r_Mop_Inequality_GenericAce_GenericAce == null)
 				{
-					r_op_Inequality_GenericAce_GenericAce = new(typeof(System.Security.AccessControl.GenericAce), "op_Inequality", 0, typeof(System.Security.AccessControl.GenericAce), typeof(System.Security.AccessControl.GenericAce));
-					r_op_Inequality_GenericAce_GenericAce.SetBelong(null);
+					r_Mop_Inequality_GenericAce_GenericAce = new(typeof(System.Security.AccessControl.GenericAce), "op_Inequality", 0, typeof(System.Security.AccessControl.GenericAce), typeof(System.Security.AccessControl.GenericAce));
+					r_Mop_Inequality_GenericAce_GenericAce.SetBelong(null);
 				}
-				return r_op_Inequality_GenericAce_GenericAce;
+				return r_Mop_Inequality_GenericAce_GenericAce;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetSddlForm()
 		/// </summary>
-		protected RMethod r_GetSddlForm;
-		public virtual RMethod RGetSddlForm
+		protected RMethod r_MGetSddlForm;
+		public virtual RMethod RMGetSddlForm
 		{
 			get
 			{
-				if(r_GetSddlForm == null)
+				if(r_MGetSddlForm == null)
 				{
-					r_GetSddlForm = new(this, "GetSddlForm", 0);
-					r_GetSddlForm.SetBelong(this.instance);
+					r_MGetSddlForm = new(this, "GetSddlForm", 0);
+					r_MGetSddlForm.SetBelong(this.instance);
 				}
-				return r_GetSddlForm;
+				return r_MGetSddlForm;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.GenericAce CreateFromSddlForm(System.String, Int32 ByRef)
 		/// </summary>
-		protected static RMethod r_CreateFromSddlForm_String_Ref_Int32;
-		public static RMethod RCreateFromSddlForm_String_Ref_Int32
+		protected static RMethod r_MCreateFromSddlForm_String_Ref_Int32;
+		public static RMethod RMCreateFromSddlForm_String_Ref_Int32
 		{
 			get
 			{
-				if(r_CreateFromSddlForm_String_Ref_Int32 == null)
+				if(r_MCreateFromSddlForm_String_Ref_Int32 == null)
 				{
-					r_CreateFromSddlForm_String_Ref_Int32 = new(typeof(System.Security.AccessControl.GenericAce), "CreateFromSddlForm", 0, typeof(System.String), typeof(System.Int32).MakeByRefType());
-					r_CreateFromSddlForm_String_Ref_Int32.SetBelong(null);
+					r_MCreateFromSddlForm_String_Ref_Int32 = new(typeof(System.Security.AccessControl.GenericAce), "CreateFromSddlForm", 0, typeof(System.String), typeof(System.Int32).MakeByRefType());
+					r_MCreateFromSddlForm_String_Ref_Int32.SetBelong(null);
 				}
-				return r_CreateFromSddlForm_String_Ref_Int32;
+				return r_MCreateFromSddlForm_String_Ref_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsObjectType(System.Security.AccessControl.AceType)
 		/// </summary>
-		protected static RMethod r_IsObjectType_AceType;
-		public static RMethod RIsObjectType_AceType
+		protected static RMethod r_MIsObjectType_AceType;
+		public static RMethod RMIsObjectType_AceType
 		{
 			get
 			{
-				if(r_IsObjectType_AceType == null)
+				if(r_MIsObjectType_AceType == null)
 				{
-					r_IsObjectType_AceType = new(typeof(System.Security.AccessControl.GenericAce), "IsObjectType", 0, typeof(System.Security.AccessControl.AceType));
-					r_IsObjectType_AceType.SetBelong(null);
+					r_MIsObjectType_AceType = new(typeof(System.Security.AccessControl.GenericAce), "IsObjectType", 0, typeof(System.Security.AccessControl.AceType));
+					r_MIsObjectType_AceType.SetBelong(null);
 				}
-				return r_IsObjectType_AceType;
+				return r_MIsObjectType_AceType;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetSddlAceType(System.Security.AccessControl.AceType)
 		/// </summary>
-		protected static RMethod r_GetSddlAceType_AceType;
-		public static RMethod RGetSddlAceType_AceType
+		protected static RMethod r_MGetSddlAceType_AceType;
+		public static RMethod RMGetSddlAceType_AceType
 		{
 			get
 			{
-				if(r_GetSddlAceType_AceType == null)
+				if(r_MGetSddlAceType_AceType == null)
 				{
-					r_GetSddlAceType_AceType = new(typeof(System.Security.AccessControl.GenericAce), "GetSddlAceType", 0, typeof(System.Security.AccessControl.AceType));
-					r_GetSddlAceType_AceType.SetBelong(null);
+					r_MGetSddlAceType_AceType = new(typeof(System.Security.AccessControl.GenericAce), "GetSddlAceType", 0, typeof(System.Security.AccessControl.AceType));
+					r_MGetSddlAceType_AceType.SetBelong(null);
 				}
-				return r_GetSddlAceType_AceType;
+				return r_MGetSddlAceType_AceType;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AceType ParseSddlAceType(System.String)
 		/// </summary>
-		protected static RMethod r_ParseSddlAceType_String;
-		public static RMethod RParseSddlAceType_String
+		protected static RMethod r_MParseSddlAceType_String;
+		public static RMethod RMParseSddlAceType_String
 		{
 			get
 			{
-				if(r_ParseSddlAceType_String == null)
+				if(r_MParseSddlAceType_String == null)
 				{
-					r_ParseSddlAceType_String = new(typeof(System.Security.AccessControl.GenericAce), "ParseSddlAceType", 0, typeof(System.String));
-					r_ParseSddlAceType_String.SetBelong(null);
+					r_MParseSddlAceType_String = new(typeof(System.Security.AccessControl.GenericAce), "ParseSddlAceType", 0, typeof(System.String));
+					r_MParseSddlAceType_String.SetBelong(null);
 				}
-				return r_ParseSddlAceType_String;
+				return r_MParseSddlAceType_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetSddlAceFlags(System.Security.AccessControl.AceFlags)
 		/// </summary>
-		protected static RMethod r_GetSddlAceFlags_AceFlags;
-		public static RMethod RGetSddlAceFlags_AceFlags
+		protected static RMethod r_MGetSddlAceFlags_AceFlags;
+		public static RMethod RMGetSddlAceFlags_AceFlags
 		{
 			get
 			{
-				if(r_GetSddlAceFlags_AceFlags == null)
+				if(r_MGetSddlAceFlags_AceFlags == null)
 				{
-					r_GetSddlAceFlags_AceFlags = new(typeof(System.Security.AccessControl.GenericAce), "GetSddlAceFlags", 0, typeof(System.Security.AccessControl.AceFlags));
-					r_GetSddlAceFlags_AceFlags.SetBelong(null);
+					r_MGetSddlAceFlags_AceFlags = new(typeof(System.Security.AccessControl.GenericAce), "GetSddlAceFlags", 0, typeof(System.Security.AccessControl.AceFlags));
+					r_MGetSddlAceFlags_AceFlags.SetBelong(null);
 				}
-				return r_GetSddlAceFlags_AceFlags;
+				return r_MGetSddlAceFlags_AceFlags;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags ParseSddlAceFlags(System.String)
 		/// </summary>
-		protected static RMethod r_ParseSddlAceFlags_String;
-		public static RMethod RParseSddlAceFlags_String
+		protected static RMethod r_MParseSddlAceFlags_String;
+		public static RMethod RMParseSddlAceFlags_String
 		{
 			get
 			{
-				if(r_ParseSddlAceFlags_String == null)
+				if(r_MParseSddlAceFlags_String == null)
 				{
-					r_ParseSddlAceFlags_String = new(typeof(System.Security.AccessControl.GenericAce), "ParseSddlAceFlags", 0, typeof(System.String));
-					r_ParseSddlAceFlags_String.SetBelong(null);
+					r_MParseSddlAceFlags_String = new(typeof(System.Security.AccessControl.GenericAce), "ParseSddlAceFlags", 0, typeof(System.String));
+					r_MParseSddlAceFlags_String.SetBelong(null);
 				}
-				return r_ParseSddlAceFlags_String;
+				return r_MParseSddlAceFlags_String;
 			}
 		}
 
 		/// <summary>
 		/// Int32 ParseSddlAccessRights(System.String)
 		/// </summary>
-		protected static RMethod r_ParseSddlAccessRights_String;
-		public static RMethod RParseSddlAccessRights_String
+		protected static RMethod r_MParseSddlAccessRights_String;
+		public static RMethod RMParseSddlAccessRights_String
 		{
 			get
 			{
-				if(r_ParseSddlAccessRights_String == null)
+				if(r_MParseSddlAccessRights_String == null)
 				{
-					r_ParseSddlAccessRights_String = new(typeof(System.Security.AccessControl.GenericAce), "ParseSddlAccessRights", 0, typeof(System.String));
-					r_ParseSddlAccessRights_String.SetBelong(null);
+					r_MParseSddlAccessRights_String = new(typeof(System.Security.AccessControl.GenericAce), "ParseSddlAccessRights", 0, typeof(System.String));
+					r_MParseSddlAccessRights_String.SetBelong(null);
 				}
-				return r_ParseSddlAccessRights_String;
+				return r_MParseSddlAccessRights_String;
 			}
 		}
 
 		/// <summary>
 		/// Int32 ParseSddlAliasRights(System.String)
 		/// </summary>
-		protected static RMethod r_ParseSddlAliasRights_String;
-		public static RMethod RParseSddlAliasRights_String
+		protected static RMethod r_MParseSddlAliasRights_String;
+		public static RMethod RMParseSddlAliasRights_String
 		{
 			get
 			{
-				if(r_ParseSddlAliasRights_String == null)
+				if(r_MParseSddlAliasRights_String == null)
 				{
-					r_ParseSddlAliasRights_String = new(typeof(System.Security.AccessControl.GenericAce), "ParseSddlAliasRights", 0, typeof(System.String));
-					r_ParseSddlAliasRights_String.SetBelong(null);
+					r_MParseSddlAliasRights_String = new(typeof(System.Security.AccessControl.GenericAce), "ParseSddlAliasRights", 0, typeof(System.String));
+					r_MParseSddlAliasRights_String.SetBelong(null);
 				}
-				return r_ParseSddlAliasRights_String;
+				return r_MParseSddlAliasRights_String;
 			}
 		}
 
 		/// <summary>
 		/// UInt16 ReadUShort(Byte[], Int32)
 		/// </summary>
-		protected static RMethod r_ReadUShort_ByteArray_Int32;
-		public static RMethod RReadUShort_ByteArray_Int32
+		protected static RMethod r_MReadUShort_ByteArray_Int32;
+		public static RMethod RMReadUShort_ByteArray_Int32
 		{
 			get
 			{
-				if(r_ReadUShort_ByteArray_Int32 == null)
+				if(r_MReadUShort_ByteArray_Int32 == null)
 				{
-					r_ReadUShort_ByteArray_Int32 = new(typeof(System.Security.AccessControl.GenericAce), "ReadUShort", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
-					r_ReadUShort_ByteArray_Int32.SetBelong(null);
+					r_MReadUShort_ByteArray_Int32 = new(typeof(System.Security.AccessControl.GenericAce), "ReadUShort", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_MReadUShort_ByteArray_Int32.SetBelong(null);
 				}
-				return r_ReadUShort_ByteArray_Int32;
+				return r_MReadUShort_ByteArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 ReadInt(Byte[], Int32)
 		/// </summary>
-		protected static RMethod r_ReadInt_ByteArray_Int32;
-		public static RMethod RReadInt_ByteArray_Int32
+		protected static RMethod r_MReadInt_ByteArray_Int32;
+		public static RMethod RMReadInt_ByteArray_Int32
 		{
 			get
 			{
-				if(r_ReadInt_ByteArray_Int32 == null)
+				if(r_MReadInt_ByteArray_Int32 == null)
 				{
-					r_ReadInt_ByteArray_Int32 = new(typeof(System.Security.AccessControl.GenericAce), "ReadInt", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
-					r_ReadInt_ByteArray_Int32.SetBelong(null);
+					r_MReadInt_ByteArray_Int32 = new(typeof(System.Security.AccessControl.GenericAce), "ReadInt", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_MReadInt_ByteArray_Int32.SetBelong(null);
 				}
-				return r_ReadInt_ByteArray_Int32;
+				return r_MReadInt_ByteArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void WriteInt(Int32, Byte[], Int32)
 		/// </summary>
-		protected static RMethod r_WriteInt_Int32_ByteArray_Int32;
-		public static RMethod RWriteInt_Int32_ByteArray_Int32
+		protected static RMethod r_MWriteInt_Int32_ByteArray_Int32;
+		public static RMethod RMWriteInt_Int32_ByteArray_Int32
 		{
 			get
 			{
-				if(r_WriteInt_Int32_ByteArray_Int32 == null)
+				if(r_MWriteInt_Int32_ByteArray_Int32 == null)
 				{
-					r_WriteInt_Int32_ByteArray_Int32 = new(typeof(System.Security.AccessControl.GenericAce), "WriteInt", 0, typeof(System.Int32), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
-					r_WriteInt_Int32_ByteArray_Int32.SetBelong(null);
+					r_MWriteInt_Int32_ByteArray_Int32 = new(typeof(System.Security.AccessControl.GenericAce), "WriteInt", 0, typeof(System.Int32), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_MWriteInt_Int32_ByteArray_Int32.SetBelong(null);
 				}
-				return r_WriteInt_Int32_ByteArray_Int32;
+				return r_MWriteInt_Int32_ByteArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void WriteUShort(UInt16, Byte[], Int32)
 		/// </summary>
-		protected static RMethod r_WriteUShort_UInt16_ByteArray_Int32;
-		public static RMethod RWriteUShort_UInt16_ByteArray_Int32
+		protected static RMethod r_MWriteUShort_UInt16_ByteArray_Int32;
+		public static RMethod RMWriteUShort_UInt16_ByteArray_Int32
 		{
 			get
 			{
-				if(r_WriteUShort_UInt16_ByteArray_Int32 == null)
+				if(r_MWriteUShort_UInt16_ByteArray_Int32 == null)
 				{
-					r_WriteUShort_UInt16_ByteArray_Int32 = new(typeof(System.Security.AccessControl.GenericAce), "WriteUShort", 0, typeof(System.UInt16), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
-					r_WriteUShort_UInt16_ByteArray_Int32.SetBelong(null);
+					r_MWriteUShort_UInt16_ByteArray_Int32 = new(typeof(System.Security.AccessControl.GenericAce), "WriteUShort", 0, typeof(System.UInt16), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_MWriteUShort_UInt16_ByteArray_Int32.SetBelong(null);
 				}
-				return r_WriteUShort_UInt16_ByteArray_Int32;
+				return r_MWriteUShort_UInt16_ByteArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -594,7 +594,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCopy.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
             return (System.Security.AccessControl.GenericAce)___result;
         }
@@ -605,7 +605,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@binaryForm, @offset};
-            var ___result = RCreateFromBinaryForm_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateFromBinaryForm_ByteArray_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Security.AccessControl.GenericAce)___result;
         }
@@ -616,7 +616,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@o};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -627,7 +627,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@binaryForm, @offset};
-            var ___result = RGetBinaryForm_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetBinaryForm_ByteArray_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -638,7 +638,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -649,7 +649,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@left, @right};
-            var ___result = Rop_Equality_GenericAce_GenericAce.Invoke(___genericsType, ___parameters);
+            var ___result = RMop_Equality_GenericAce_GenericAce.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -660,7 +660,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@left, @right};
-            var ___result = Rop_Inequality_GenericAce_GenericAce.Invoke(___genericsType, ___parameters);
+            var ___result = RMop_Inequality_GenericAce_GenericAce.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -671,7 +671,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetSddlForm.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetSddlForm.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -682,7 +682,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sddlForm, @pos};
-            var ___result = RCreateFromSddlForm_String_Ref_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateFromSddlForm_String_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@pos = (System.Int32)___parameters[1];
 
             return (System.Security.AccessControl.GenericAce)___result;
@@ -694,7 +694,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type};
-            var ___result = RIsObjectType_AceType.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsObjectType_AceType.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -705,7 +705,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type};
-            var ___result = RGetSddlAceType_AceType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetSddlAceType_AceType.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -716,7 +716,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type};
-            var ___result = RParseSddlAceType_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMParseSddlAceType_String.Invoke(___genericsType, ___parameters);
 
             return (System.Security.AccessControl.AceType)___result;
         }
@@ -727,7 +727,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@flags};
-            var ___result = RGetSddlAceFlags_AceFlags.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetSddlAceFlags_AceFlags.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -738,7 +738,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@flags};
-            var ___result = RParseSddlAceFlags_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMParseSddlAceFlags_String.Invoke(___genericsType, ___parameters);
 
             return (System.Security.AccessControl.AceFlags)___result;
         }
@@ -749,7 +749,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@accessMask};
-            var ___result = RParseSddlAccessRights_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMParseSddlAccessRights_String.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -760,7 +760,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@accessMask};
-            var ___result = RParseSddlAliasRights_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMParseSddlAliasRights_String.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -771,7 +771,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer, @offset};
-            var ___result = RReadUShort_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMReadUShort_ByteArray_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.UInt16)___result;
         }
@@ -782,7 +782,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer, @offset};
-            var ___result = RReadInt_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMReadInt_ByteArray_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -793,7 +793,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@val, @buffer, @offset};
-            var ___result = RWriteInt_Int32_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMWriteInt_Int32_ByteArray_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -804,7 +804,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@val, @buffer, @offset};
-            var ___result = RWriteUShort_UInt16_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMWriteUShort_UInt16_ByteArray_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -815,7 +815,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -826,7 +826,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -837,7 +837,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -848,7 +848,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

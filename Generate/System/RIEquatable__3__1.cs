@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean Equals(T)
 		/// </summary>
-		protected RMethod r_Equals_T;
-		public virtual RMethod REquals_T
+		protected RMethod r_MEquals_T;
+		public virtual RMethod RMEquals_T
 		{
 			get
 			{
-				if(r_Equals_T == null)
+				if(r_MEquals_T == null)
 				{
-					r_Equals_T = new(this, "Equals", 0, Type.MakeGenericMethodParameter(0));
-					r_Equals_T.SetBelong(this.instance);
+					r_MEquals_T = new(this, "Equals", 0, Type.MakeGenericMethodParameter(0));
+					r_MEquals_T.SetBelong(this.instance);
 				}
-				return r_Equals_T;
+				return r_MEquals_T;
 			}
 		}
 
@@ -50,7 +50,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other};
-            var ___result = REquals_T.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_T.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }

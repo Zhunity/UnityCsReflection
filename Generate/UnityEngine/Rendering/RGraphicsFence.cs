@@ -13,289 +13,289 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected RSystem.RIntPtr r_m_Ptr;
-		public virtual RSystem.RIntPtr Rm_Ptr
+		protected RSystem.RIntPtr r_Fm_Ptr;
+		public virtual RSystem.RIntPtr RFm_Ptr
 		{
 			get
 			{
-				if(r_m_Ptr == null)
+				if(r_Fm_Ptr == null)
 				{
-					r_m_Ptr = new(this, "m_Ptr");
-					r_m_Ptr.SetBelong(this.instance);
+					r_Fm_Ptr = new(this, "m_Ptr");
+					r_Fm_Ptr.SetBelong(this.instance);
 				}
-				return r_m_Ptr;
+				return r_Fm_Ptr;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_Version
 		/// </summary>
-		protected RSystem.RInt32 r_m_Version;
-		public virtual RSystem.RInt32 Rm_Version
+		protected RSystem.RInt32 r_Fm_Version;
+		public virtual RSystem.RInt32 RFm_Version
 		{
 			get
 			{
-				if(r_m_Version == null)
+				if(r_Fm_Version == null)
 				{
-					r_m_Version = new(this, "m_Version");
-					r_m_Version.SetBelong(this.instance);
+					r_Fm_Version = new(this, "m_Version");
+					r_Fm_Version.SetBelong(this.instance);
 				}
-				return r_m_Version;
+				return r_Fm_Version;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.GraphicsFenceType m_FenceType
 		/// </summary>
-		protected RField r_m_FenceType;
-		public virtual RField Rm_FenceType
+		protected RUnityEngine.RRendering.RGraphicsFenceType r_Fm_FenceType;
+		public virtual RUnityEngine.RRendering.RGraphicsFenceType RFm_FenceType
 		{
 			get
 			{
-				if(r_m_FenceType == null)
+				if(r_Fm_FenceType == null)
 				{
-					r_m_FenceType = new(this, "m_FenceType");
-					r_m_FenceType.SetBelong(this.instance);
+					r_Fm_FenceType = new(this, "m_FenceType");
+					r_Fm_FenceType.SetBelong(this.instance);
 				}
-				return r_m_FenceType;
+				return r_Fm_FenceType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean passed
 		/// </summary>
-		protected RSystem.RBoolean r_passed;
-		public virtual RSystem.RBoolean Rpassed
+		protected RSystem.RBoolean r_Ppassed;
+		public virtual RSystem.RBoolean RPpassed
 		{
 			get
 			{
-				if(r_passed == null)
+				if(r_Ppassed == null)
 				{
-					r_passed = new(this, "passed", -1);
-					r_passed.SetBelong(this.instance);
+					r_Ppassed = new(this, "passed", -1);
+					r_Ppassed.SetBelong(this.instance);
 				}
-				return r_passed;
+				return r_Ppassed;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.SynchronisationStageFlags TranslateSynchronizationStageToFlags(UnityEngine.Rendering.SynchronisationStage)
 		/// </summary>
-		protected static RMethod r_TranslateSynchronizationStageToFlags_SynchronisationStage;
-		public static RMethod RTranslateSynchronizationStageToFlags_SynchronisationStage
+		protected static RMethod r_MTranslateSynchronizationStageToFlags_SynchronisationStage;
+		public static RMethod RMTranslateSynchronizationStageToFlags_SynchronisationStage
 		{
 			get
 			{
-				if(r_TranslateSynchronizationStageToFlags_SynchronisationStage == null)
+				if(r_MTranslateSynchronizationStageToFlags_SynchronisationStage == null)
 				{
-					r_TranslateSynchronizationStageToFlags_SynchronisationStage = new(typeof(UnityEngine.Rendering.GraphicsFence), "TranslateSynchronizationStageToFlags", 0, typeof(UnityEngine.Rendering.SynchronisationStage));
-					r_TranslateSynchronizationStageToFlags_SynchronisationStage.SetBelong(null);
+					r_MTranslateSynchronizationStageToFlags_SynchronisationStage = new(typeof(UnityEngine.Rendering.GraphicsFence), "TranslateSynchronizationStageToFlags", 0, typeof(UnityEngine.Rendering.SynchronisationStage));
+					r_MTranslateSynchronizationStageToFlags_SynchronisationStage.SetBelong(null);
 				}
-				return r_TranslateSynchronizationStageToFlags_SynchronisationStage;
+				return r_MTranslateSynchronizationStageToFlags_SynchronisationStage;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasFencePassed_Internal(IntPtr)
 		/// </summary>
-		protected static RMethod r_HasFencePassed_Internal_IntPtr;
-		public static RMethod RHasFencePassed_Internal_IntPtr
+		protected static RMethod r_MHasFencePassed_Internal_IntPtr;
+		public static RMethod RMHasFencePassed_Internal_IntPtr
 		{
 			get
 			{
-				if(r_HasFencePassed_Internal_IntPtr == null)
+				if(r_MHasFencePassed_Internal_IntPtr == null)
 				{
-					r_HasFencePassed_Internal_IntPtr = new(typeof(UnityEngine.Rendering.GraphicsFence), "HasFencePassed_Internal", 0, typeof(System.IntPtr));
-					r_HasFencePassed_Internal_IntPtr.SetBelong(null);
+					r_MHasFencePassed_Internal_IntPtr = new(typeof(UnityEngine.Rendering.GraphicsFence), "HasFencePassed_Internal", 0, typeof(System.IntPtr));
+					r_MHasFencePassed_Internal_IntPtr.SetBelong(null);
 				}
-				return r_HasFencePassed_Internal_IntPtr;
+				return r_MHasFencePassed_Internal_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Void InitPostAllocation()
 		/// </summary>
-		protected RMethod r_InitPostAllocation;
-		public virtual RMethod RInitPostAllocation
+		protected RMethod r_MInitPostAllocation;
+		public virtual RMethod RMInitPostAllocation
 		{
 			get
 			{
-				if(r_InitPostAllocation == null)
+				if(r_MInitPostAllocation == null)
 				{
-					r_InitPostAllocation = new(this, "InitPostAllocation", 0);
-					r_InitPostAllocation.SetBelong(this.instance);
+					r_MInitPostAllocation = new(this, "InitPostAllocation", 0);
+					r_MInitPostAllocation.SetBelong(this.instance);
 				}
-				return r_InitPostAllocation;
+				return r_MInitPostAllocation;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsFencePending()
 		/// </summary>
-		protected RMethod r_IsFencePending;
-		public virtual RMethod RIsFencePending
+		protected RMethod r_MIsFencePending;
+		public virtual RMethod RMIsFencePending
 		{
 			get
 			{
-				if(r_IsFencePending == null)
+				if(r_MIsFencePending == null)
 				{
-					r_IsFencePending = new(this, "IsFencePending", 0);
-					r_IsFencePending.SetBelong(this.instance);
+					r_MIsFencePending = new(this, "IsFencePending", 0);
+					r_MIsFencePending.SetBelong(this.instance);
 				}
-				return r_IsFencePending;
+				return r_MIsFencePending;
 			}
 		}
 
 		/// <summary>
 		/// Void Validate()
 		/// </summary>
-		protected RMethod r_Validate;
-		public virtual RMethod RValidate
+		protected RMethod r_MValidate;
+		public virtual RMethod RMValidate
 		{
 			get
 			{
-				if(r_Validate == null)
+				if(r_MValidate == null)
 				{
-					r_Validate = new(this, "Validate", 0);
-					r_Validate.SetBelong(this.instance);
+					r_MValidate = new(this, "Validate", 0);
+					r_MValidate.SetBelong(this.instance);
 				}
-				return r_Validate;
+				return r_MValidate;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetPlatformNotSupportedVersion()
 		/// </summary>
-		protected RMethod r_GetPlatformNotSupportedVersion;
-		public virtual RMethod RGetPlatformNotSupportedVersion
+		protected RMethod r_MGetPlatformNotSupportedVersion;
+		public virtual RMethod RMGetPlatformNotSupportedVersion
 		{
 			get
 			{
-				if(r_GetPlatformNotSupportedVersion == null)
+				if(r_MGetPlatformNotSupportedVersion == null)
 				{
-					r_GetPlatformNotSupportedVersion = new(this, "GetPlatformNotSupportedVersion", 0);
-					r_GetPlatformNotSupportedVersion.SetBelong(this.instance);
+					r_MGetPlatformNotSupportedVersion = new(this, "GetPlatformNotSupportedVersion", 0);
+					r_MGetPlatformNotSupportedVersion.SetBelong(this.instance);
 				}
-				return r_GetPlatformNotSupportedVersion;
+				return r_MGetPlatformNotSupportedVersion;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetVersionNumber(IntPtr)
 		/// </summary>
-		protected static RMethod r_GetVersionNumber_IntPtr;
-		public static RMethod RGetVersionNumber_IntPtr
+		protected static RMethod r_MGetVersionNumber_IntPtr;
+		public static RMethod RMGetVersionNumber_IntPtr
 		{
 			get
 			{
-				if(r_GetVersionNumber_IntPtr == null)
+				if(r_MGetVersionNumber_IntPtr == null)
 				{
-					r_GetVersionNumber_IntPtr = new(typeof(UnityEngine.Rendering.GraphicsFence), "GetVersionNumber", 0, typeof(System.IntPtr));
-					r_GetVersionNumber_IntPtr.SetBelong(null);
+					r_MGetVersionNumber_IntPtr = new(typeof(UnityEngine.Rendering.GraphicsFence), "GetVersionNumber", 0, typeof(System.IntPtr));
+					r_MGetVersionNumber_IntPtr.SetBelong(null);
 				}
-				return r_GetVersionNumber_IntPtr;
+				return r_MGetVersionNumber_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -322,7 +322,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s};
-            var ___result = RTranslateSynchronizationStageToFlags_SynchronisationStage.Invoke(___genericsType, ___parameters);
+            var ___result = RMTranslateSynchronizationStageToFlags_SynchronisationStage.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Rendering.SynchronisationStageFlags)___result;
         }
@@ -333,7 +333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fencePtr};
-            var ___result = RHasFencePassed_Internal_IntPtr.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasFencePassed_Internal_IntPtr.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -344,7 +344,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInitPostAllocation.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitPostAllocation.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -355,7 +355,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RIsFencePending.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsFencePending.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -366,7 +366,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RValidate.Invoke(___genericsType, ___parameters);
+            var ___result = RMValidate.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetPlatformNotSupportedVersion.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetPlatformNotSupportedVersion.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -388,7 +388,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fencePtr};
-            var ___result = RGetVersionNumber_IntPtr.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetVersionNumber_IntPtr.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -399,7 +399,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -410,7 +410,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -421,7 +421,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -432,7 +432,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -443,7 +443,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -454,7 +454,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

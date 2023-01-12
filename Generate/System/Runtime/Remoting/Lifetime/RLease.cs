@@ -13,561 +13,561 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.DateTime _leaseExpireTime
 		/// </summary>
-		protected RSystem.RDateTime r__leaseExpireTime;
-		public virtual RSystem.RDateTime R_leaseExpireTime
+		protected RSystem.RDateTime r_F_leaseExpireTime;
+		public virtual RSystem.RDateTime RF_leaseExpireTime
 		{
 			get
 			{
-				if(r__leaseExpireTime == null)
+				if(r_F_leaseExpireTime == null)
 				{
-					r__leaseExpireTime = new(this, "_leaseExpireTime");
-					r__leaseExpireTime.SetBelong(this.instance);
+					r_F_leaseExpireTime = new(this, "_leaseExpireTime");
+					r_F_leaseExpireTime.SetBelong(this.instance);
 				}
-				return r__leaseExpireTime;
+				return r_F_leaseExpireTime;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Lifetime.LeaseState _currentState
 		/// </summary>
-		protected RField r__currentState;
-		public virtual RField R_currentState
+		protected RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_F_currentState;
+		public virtual RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RF_currentState
 		{
 			get
 			{
-				if(r__currentState == null)
+				if(r_F_currentState == null)
 				{
-					r__currentState = new(this, "_currentState");
-					r__currentState.SetBelong(this.instance);
+					r_F_currentState = new(this, "_currentState");
+					r_F_currentState.SetBelong(this.instance);
 				}
-				return r__currentState;
+				return r_F_currentState;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan _initialLeaseTime
 		/// </summary>
-		protected RSystem.RTimeSpan r__initialLeaseTime;
-		public virtual RSystem.RTimeSpan R_initialLeaseTime
+		protected RSystem.RTimeSpan r_F_initialLeaseTime;
+		public virtual RSystem.RTimeSpan RF_initialLeaseTime
 		{
 			get
 			{
-				if(r__initialLeaseTime == null)
+				if(r_F_initialLeaseTime == null)
 				{
-					r__initialLeaseTime = new(this, "_initialLeaseTime");
-					r__initialLeaseTime.SetBelong(this.instance);
+					r_F_initialLeaseTime = new(this, "_initialLeaseTime");
+					r_F_initialLeaseTime.SetBelong(this.instance);
 				}
-				return r__initialLeaseTime;
+				return r_F_initialLeaseTime;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan _renewOnCallTime
 		/// </summary>
-		protected RSystem.RTimeSpan r__renewOnCallTime;
-		public virtual RSystem.RTimeSpan R_renewOnCallTime
+		protected RSystem.RTimeSpan r_F_renewOnCallTime;
+		public virtual RSystem.RTimeSpan RF_renewOnCallTime
 		{
 			get
 			{
-				if(r__renewOnCallTime == null)
+				if(r_F_renewOnCallTime == null)
 				{
-					r__renewOnCallTime = new(this, "_renewOnCallTime");
-					r__renewOnCallTime.SetBelong(this.instance);
+					r_F_renewOnCallTime = new(this, "_renewOnCallTime");
+					r_F_renewOnCallTime.SetBelong(this.instance);
 				}
-				return r__renewOnCallTime;
+				return r_F_renewOnCallTime;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan _sponsorshipTimeout
 		/// </summary>
-		protected RSystem.RTimeSpan r__sponsorshipTimeout;
-		public virtual RSystem.RTimeSpan R_sponsorshipTimeout
+		protected RSystem.RTimeSpan r_F_sponsorshipTimeout;
+		public virtual RSystem.RTimeSpan RF_sponsorshipTimeout
 		{
 			get
 			{
-				if(r__sponsorshipTimeout == null)
+				if(r_F_sponsorshipTimeout == null)
 				{
-					r__sponsorshipTimeout = new(this, "_sponsorshipTimeout");
-					r__sponsorshipTimeout.SetBelong(this.instance);
+					r_F_sponsorshipTimeout = new(this, "_sponsorshipTimeout");
+					r_F_sponsorshipTimeout.SetBelong(this.instance);
 				}
-				return r__sponsorshipTimeout;
+				return r_F_sponsorshipTimeout;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.ArrayList _sponsors
 		/// </summary>
-		protected RSystem.RCollections.RArrayList r__sponsors;
-		public virtual RSystem.RCollections.RArrayList R_sponsors
+		protected RSystem.RCollections.RArrayList r_F_sponsors;
+		public virtual RSystem.RCollections.RArrayList RF_sponsors
 		{
 			get
 			{
-				if(r__sponsors == null)
+				if(r_F_sponsors == null)
 				{
-					r__sponsors = new(this, "_sponsors");
-					r__sponsors.SetBelong(this.instance);
+					r_F_sponsors = new(this, "_sponsors");
+					r_F_sponsors.SetBelong(this.instance);
 				}
-				return r__sponsors;
+				return r_F_sponsors;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Queue _renewingSponsors
 		/// </summary>
-		protected RSystem.RCollections.RQueue r__renewingSponsors;
-		public virtual RSystem.RCollections.RQueue R_renewingSponsors
+		protected RSystem.RCollections.RQueue r_F_renewingSponsors;
+		public virtual RSystem.RCollections.RQueue RF_renewingSponsors
 		{
 			get
 			{
-				if(r__renewingSponsors == null)
+				if(r_F_renewingSponsors == null)
 				{
-					r__renewingSponsors = new(this, "_renewingSponsors");
-					r__renewingSponsors.SetBelong(this.instance);
+					r_F_renewingSponsors = new(this, "_renewingSponsors");
+					r_F_renewingSponsors.SetBelong(this.instance);
 				}
-				return r__renewingSponsors;
+				return r_F_renewingSponsors;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Lifetime.Lease+RenewalDelegate _renewalDelegate
 		/// </summary>
-		protected RSystem.RRuntime.RRemoting.RLifetime.RLease.RRenewalDelegate r__renewalDelegate;
-		public virtual RSystem.RRuntime.RRemoting.RLifetime.RLease.RRenewalDelegate R_renewalDelegate
+		protected RSystem.RRuntime.RRemoting.RLifetime.RLease.RRenewalDelegate r_F_renewalDelegate;
+		public virtual RSystem.RRuntime.RRemoting.RLifetime.RLease.RRenewalDelegate RF_renewalDelegate
 		{
 			get
 			{
-				if(r__renewalDelegate == null)
+				if(r_F_renewalDelegate == null)
 				{
-					r__renewalDelegate = new(this, "_renewalDelegate");
-					r__renewalDelegate.SetBelong(this.instance);
+					r_F_renewalDelegate = new(this, "_renewalDelegate");
+					r_F_renewalDelegate.SetBelong(this.instance);
 				}
-				return r__renewalDelegate;
+				return r_F_renewalDelegate;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan CurrentLeaseTime
 		/// </summary>
-		protected RSystem.RTimeSpan r_CurrentLeaseTime;
-		public virtual RSystem.RTimeSpan RCurrentLeaseTime
+		protected RSystem.RTimeSpan r_PCurrentLeaseTime;
+		public virtual RSystem.RTimeSpan RPCurrentLeaseTime
 		{
 			get
 			{
-				if(r_CurrentLeaseTime == null)
+				if(r_PCurrentLeaseTime == null)
 				{
-					r_CurrentLeaseTime = new(this, "CurrentLeaseTime", -1);
-					r_CurrentLeaseTime.SetBelong(this.instance);
+					r_PCurrentLeaseTime = new(this, "CurrentLeaseTime", -1);
+					r_PCurrentLeaseTime.SetBelong(this.instance);
 				}
-				return r_CurrentLeaseTime;
+				return r_PCurrentLeaseTime;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Lifetime.LeaseState CurrentState
 		/// </summary>
-		protected RProperty r_CurrentState;
-		public virtual RProperty RCurrentState
+		protected RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_PCurrentState;
+		public virtual RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RPCurrentState
 		{
 			get
 			{
-				if(r_CurrentState == null)
+				if(r_PCurrentState == null)
 				{
-					r_CurrentState = new(this, "CurrentState", -1);
-					r_CurrentState.SetBelong(this.instance);
+					r_PCurrentState = new(this, "CurrentState", -1);
+					r_PCurrentState.SetBelong(this.instance);
 				}
-				return r_CurrentState;
+				return r_PCurrentState;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan InitialLeaseTime
 		/// </summary>
-		protected RSystem.RTimeSpan r_InitialLeaseTime;
-		public virtual RSystem.RTimeSpan RInitialLeaseTime
+		protected RSystem.RTimeSpan r_PInitialLeaseTime;
+		public virtual RSystem.RTimeSpan RPInitialLeaseTime
 		{
 			get
 			{
-				if(r_InitialLeaseTime == null)
+				if(r_PInitialLeaseTime == null)
 				{
-					r_InitialLeaseTime = new(this, "InitialLeaseTime", -1);
-					r_InitialLeaseTime.SetBelong(this.instance);
+					r_PInitialLeaseTime = new(this, "InitialLeaseTime", -1);
+					r_PInitialLeaseTime.SetBelong(this.instance);
 				}
-				return r_InitialLeaseTime;
+				return r_PInitialLeaseTime;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan RenewOnCallTime
 		/// </summary>
-		protected RSystem.RTimeSpan r_RenewOnCallTime;
-		public virtual RSystem.RTimeSpan RRenewOnCallTime
+		protected RSystem.RTimeSpan r_PRenewOnCallTime;
+		public virtual RSystem.RTimeSpan RPRenewOnCallTime
 		{
 			get
 			{
-				if(r_RenewOnCallTime == null)
+				if(r_PRenewOnCallTime == null)
 				{
-					r_RenewOnCallTime = new(this, "RenewOnCallTime", -1);
-					r_RenewOnCallTime.SetBelong(this.instance);
+					r_PRenewOnCallTime = new(this, "RenewOnCallTime", -1);
+					r_PRenewOnCallTime.SetBelong(this.instance);
 				}
-				return r_RenewOnCallTime;
+				return r_PRenewOnCallTime;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan SponsorshipTimeout
 		/// </summary>
-		protected RSystem.RTimeSpan r_SponsorshipTimeout;
-		public virtual RSystem.RTimeSpan RSponsorshipTimeout
+		protected RSystem.RTimeSpan r_PSponsorshipTimeout;
+		public virtual RSystem.RTimeSpan RPSponsorshipTimeout
 		{
 			get
 			{
-				if(r_SponsorshipTimeout == null)
+				if(r_PSponsorshipTimeout == null)
 				{
-					r_SponsorshipTimeout = new(this, "SponsorshipTimeout", -1);
-					r_SponsorshipTimeout.SetBelong(this.instance);
+					r_PSponsorshipTimeout = new(this, "SponsorshipTimeout", -1);
+					r_PSponsorshipTimeout.SetBelong(this.instance);
 				}
-				return r_SponsorshipTimeout;
+				return r_PSponsorshipTimeout;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.ServerIdentity ObjectIdentity
 		/// </summary>
-		protected RSystem.RRuntime.RRemoting.RServerIdentity r_ObjectIdentity;
-		public virtual RSystem.RRuntime.RRemoting.RServerIdentity RObjectIdentity
+		protected RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
+		public virtual RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
 		{
 			get
 			{
-				if(r_ObjectIdentity == null)
+				if(r_PObjectIdentity == null)
 				{
-					r_ObjectIdentity = new(this, "ObjectIdentity", -1);
-					r_ObjectIdentity.SetBelong(this.instance);
+					r_PObjectIdentity = new(this, "ObjectIdentity", -1);
+					r_PObjectIdentity.SetBelong(this.instance);
 				}
-				return r_ObjectIdentity;
+				return r_PObjectIdentity;
 			}
 		}
 
 		/// <summary>
 		/// Void Activate()
 		/// </summary>
-		protected RMethod r_Activate;
-		public virtual RMethod RActivate
+		protected RMethod r_MActivate;
+		public virtual RMethod RMActivate
 		{
 			get
 			{
-				if(r_Activate == null)
+				if(r_MActivate == null)
 				{
-					r_Activate = new(this, "Activate", 0);
-					r_Activate.SetBelong(this.instance);
+					r_MActivate = new(this, "Activate", 0);
+					r_MActivate.SetBelong(this.instance);
 				}
-				return r_Activate;
+				return r_MActivate;
 			}
 		}
 
 		/// <summary>
 		/// Void Register(System.Runtime.Remoting.Lifetime.ISponsor)
 		/// </summary>
-		protected RMethod r_Register_ISponsor;
-		public virtual RMethod RRegister_ISponsor
+		protected RMethod r_MRegister_ISponsor;
+		public virtual RMethod RMRegister_ISponsor
 		{
 			get
 			{
-				if(r_Register_ISponsor == null)
+				if(r_MRegister_ISponsor == null)
 				{
-					r_Register_ISponsor = new(this, "Register", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor));
-					r_Register_ISponsor.SetBelong(this.instance);
+					r_MRegister_ISponsor = new(this, "Register", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor));
+					r_MRegister_ISponsor.SetBelong(this.instance);
 				}
-				return r_Register_ISponsor;
+				return r_MRegister_ISponsor;
 			}
 		}
 
 		/// <summary>
 		/// Void Register(System.Runtime.Remoting.Lifetime.ISponsor, System.TimeSpan)
 		/// </summary>
-		protected RMethod r_Register_ISponsor_TimeSpan;
-		public virtual RMethod RRegister_ISponsor_TimeSpan
+		protected RMethod r_MRegister_ISponsor_TimeSpan;
+		public virtual RMethod RMRegister_ISponsor_TimeSpan
 		{
 			get
 			{
-				if(r_Register_ISponsor_TimeSpan == null)
+				if(r_MRegister_ISponsor_TimeSpan == null)
 				{
-					r_Register_ISponsor_TimeSpan = new(this, "Register", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor), typeof(System.TimeSpan));
-					r_Register_ISponsor_TimeSpan.SetBelong(this.instance);
+					r_MRegister_ISponsor_TimeSpan = new(this, "Register", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor), typeof(System.TimeSpan));
+					r_MRegister_ISponsor_TimeSpan.SetBelong(this.instance);
 				}
-				return r_Register_ISponsor_TimeSpan;
+				return r_MRegister_ISponsor_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan Renew(System.TimeSpan)
 		/// </summary>
-		protected RMethod r_Renew_TimeSpan;
-		public virtual RMethod RRenew_TimeSpan
+		protected RMethod r_MRenew_TimeSpan;
+		public virtual RMethod RMRenew_TimeSpan
 		{
 			get
 			{
-				if(r_Renew_TimeSpan == null)
+				if(r_MRenew_TimeSpan == null)
 				{
-					r_Renew_TimeSpan = new(this, "Renew", 0, typeof(System.TimeSpan));
-					r_Renew_TimeSpan.SetBelong(this.instance);
+					r_MRenew_TimeSpan = new(this, "Renew", 0, typeof(System.TimeSpan));
+					r_MRenew_TimeSpan.SetBelong(this.instance);
 				}
-				return r_Renew_TimeSpan;
+				return r_MRenew_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Void Unregister(System.Runtime.Remoting.Lifetime.ISponsor)
 		/// </summary>
-		protected RMethod r_Unregister_ISponsor;
-		public virtual RMethod RUnregister_ISponsor
+		protected RMethod r_MUnregister_ISponsor;
+		public virtual RMethod RMUnregister_ISponsor
 		{
 			get
 			{
-				if(r_Unregister_ISponsor == null)
+				if(r_MUnregister_ISponsor == null)
 				{
-					r_Unregister_ISponsor = new(this, "Unregister", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor));
-					r_Unregister_ISponsor.SetBelong(this.instance);
+					r_MUnregister_ISponsor = new(this, "Unregister", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor));
+					r_MUnregister_ISponsor.SetBelong(this.instance);
 				}
-				return r_Unregister_ISponsor;
+				return r_MUnregister_ISponsor;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateState()
 		/// </summary>
-		protected RMethod r_UpdateState;
-		public virtual RMethod RUpdateState
+		protected RMethod r_MUpdateState;
+		public virtual RMethod RMUpdateState
 		{
 			get
 			{
-				if(r_UpdateState == null)
+				if(r_MUpdateState == null)
 				{
-					r_UpdateState = new(this, "UpdateState", 0);
-					r_UpdateState.SetBelong(this.instance);
+					r_MUpdateState = new(this, "UpdateState", 0);
+					r_MUpdateState.SetBelong(this.instance);
 				}
-				return r_UpdateState;
+				return r_MUpdateState;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckNextSponsor()
 		/// </summary>
-		protected RMethod r_CheckNextSponsor;
-		public virtual RMethod RCheckNextSponsor
+		protected RMethod r_MCheckNextSponsor;
+		public virtual RMethod RMCheckNextSponsor
 		{
 			get
 			{
-				if(r_CheckNextSponsor == null)
+				if(r_MCheckNextSponsor == null)
 				{
-					r_CheckNextSponsor = new(this, "CheckNextSponsor", 0);
-					r_CheckNextSponsor.SetBelong(this.instance);
+					r_MCheckNextSponsor = new(this, "CheckNextSponsor", 0);
+					r_MCheckNextSponsor.SetBelong(this.instance);
 				}
-				return r_CheckNextSponsor;
+				return r_MCheckNextSponsor;
 			}
 		}
 
 		/// <summary>
 		/// Void ProcessSponsorResponse(System.Object, Boolean)
 		/// </summary>
-		protected RMethod r_ProcessSponsorResponse_Object_Boolean;
-		public virtual RMethod RProcessSponsorResponse_Object_Boolean
+		protected RMethod r_MProcessSponsorResponse_Object_Boolean;
+		public virtual RMethod RMProcessSponsorResponse_Object_Boolean
 		{
 			get
 			{
-				if(r_ProcessSponsorResponse_Object_Boolean == null)
+				if(r_MProcessSponsorResponse_Object_Boolean == null)
 				{
-					r_ProcessSponsorResponse_Object_Boolean = new(this, "ProcessSponsorResponse", 0, typeof(System.Object), typeof(System.Boolean));
-					r_ProcessSponsorResponse_Object_Boolean.SetBelong(this.instance);
+					r_MProcessSponsorResponse_Object_Boolean = new(this, "ProcessSponsorResponse", 0, typeof(System.Object), typeof(System.Boolean));
+					r_MProcessSponsorResponse_Object_Boolean.SetBelong(this.instance);
 				}
-				return r_ProcessSponsorResponse_Object_Boolean;
+				return r_MProcessSponsorResponse_Object_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Identity GetObjectIdentity(System.MarshalByRefObject, Boolean ByRef)
 		/// </summary>
-		protected RMethod r_GetObjectIdentity_MarshalByRefObject_Out_Boolean;
-		public virtual RMethod RGetObjectIdentity_MarshalByRefObject_Out_Boolean
+		protected RMethod r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean;
+		public virtual RMethod RMGetObjectIdentity_MarshalByRefObject_Out_Boolean
 		{
 			get
 			{
-				if(r_GetObjectIdentity_MarshalByRefObject_Out_Boolean == null)
+				if(r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean == null)
 				{
-					r_GetObjectIdentity_MarshalByRefObject_Out_Boolean = new(this, "GetObjectIdentity", 0, typeof(System.MarshalByRefObject), typeof(System.Boolean).MakeByRefType());
-					r_GetObjectIdentity_MarshalByRefObject_Out_Boolean.SetBelong(this.instance);
+					r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean = new(this, "GetObjectIdentity", 0, typeof(System.MarshalByRefObject), typeof(System.Boolean).MakeByRefType());
+					r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean.SetBelong(this.instance);
 				}
-				return r_GetObjectIdentity_MarshalByRefObject_Out_Boolean;
+				return r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.ObjRef CreateObjRef(System.Type)
 		/// </summary>
-		protected RMethod r_CreateObjRef_Type;
-		public virtual RMethod RCreateObjRef_Type
+		protected RMethod r_MCreateObjRef_Type;
+		public virtual RMethod RMCreateObjRef_Type
 		{
 			get
 			{
-				if(r_CreateObjRef_Type == null)
+				if(r_MCreateObjRef_Type == null)
 				{
-					r_CreateObjRef_Type = new(this, "CreateObjRef", 0, typeof(System.Type));
-					r_CreateObjRef_Type.SetBelong(this.instance);
+					r_MCreateObjRef_Type = new(this, "CreateObjRef", 0, typeof(System.Type));
+					r_MCreateObjRef_Type.SetBelong(this.instance);
 				}
-				return r_CreateObjRef_Type;
+				return r_MCreateObjRef_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetLifetimeService()
 		/// </summary>
-		protected RMethod r_GetLifetimeService;
-		public virtual RMethod RGetLifetimeService
+		protected RMethod r_MGetLifetimeService;
+		public virtual RMethod RMGetLifetimeService
 		{
 			get
 			{
-				if(r_GetLifetimeService == null)
+				if(r_MGetLifetimeService == null)
 				{
-					r_GetLifetimeService = new(this, "GetLifetimeService", 0);
-					r_GetLifetimeService.SetBelong(this.instance);
+					r_MGetLifetimeService = new(this, "GetLifetimeService", 0);
+					r_MGetLifetimeService.SetBelong(this.instance);
 				}
-				return r_GetLifetimeService;
+				return r_MGetLifetimeService;
 			}
 		}
 
 		/// <summary>
 		/// System.Object InitializeLifetimeService()
 		/// </summary>
-		protected RMethod r_InitializeLifetimeService;
-		public virtual RMethod RInitializeLifetimeService
+		protected RMethod r_MInitializeLifetimeService;
+		public virtual RMethod RMInitializeLifetimeService
 		{
 			get
 			{
-				if(r_InitializeLifetimeService == null)
+				if(r_MInitializeLifetimeService == null)
 				{
-					r_InitializeLifetimeService = new(this, "InitializeLifetimeService", 0);
-					r_InitializeLifetimeService.SetBelong(this.instance);
+					r_MInitializeLifetimeService = new(this, "InitializeLifetimeService", 0);
+					r_MInitializeLifetimeService.SetBelong(this.instance);
 				}
-				return r_InitializeLifetimeService;
+				return r_MInitializeLifetimeService;
 			}
 		}
 
 		/// <summary>
 		/// System.MarshalByRefObject MemberwiseClone(Boolean)
 		/// </summary>
-		protected RMethod r_MemberwiseClone_Boolean;
-		public virtual RMethod RMemberwiseClone_Boolean
+		protected RMethod r_MMemberwiseClone_Boolean;
+		public virtual RMethod RMMemberwiseClone_Boolean
 		{
 			get
 			{
-				if(r_MemberwiseClone_Boolean == null)
+				if(r_MMemberwiseClone_Boolean == null)
 				{
-					r_MemberwiseClone_Boolean = new(this, "MemberwiseClone", 0, typeof(System.Boolean));
-					r_MemberwiseClone_Boolean.SetBelong(this.instance);
+					r_MMemberwiseClone_Boolean = new(this, "MemberwiseClone", 0, typeof(System.Boolean));
+					r_MMemberwiseClone_Boolean.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone_Boolean;
+				return r_MMemberwiseClone_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -594,7 +594,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RActivate.Invoke(___genericsType, ___parameters);
+            var ___result = RMActivate.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -605,7 +605,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = RRegister_ISponsor.Invoke(___genericsType, ___parameters);
+            var ___result = RMRegister_ISponsor.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -616,7 +616,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @renewalTime};
-            var ___result = RRegister_ISponsor_TimeSpan.Invoke(___genericsType, ___parameters);
+            var ___result = RMRegister_ISponsor_TimeSpan.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -627,7 +627,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@renewalTime};
-            var ___result = RRenew_TimeSpan.Invoke(___genericsType, ___parameters);
+            var ___result = RMRenew_TimeSpan.Invoke(___genericsType, ___parameters);
 
             return (System.TimeSpan)___result;
         }
@@ -638,7 +638,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = RUnregister_ISponsor.Invoke(___genericsType, ___parameters);
+            var ___result = RMUnregister_ISponsor.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -649,7 +649,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateState.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateState.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -660,7 +660,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCheckNextSponsor.Invoke(___genericsType, ___parameters);
+            var ___result = RMCheckNextSponsor.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -671,7 +671,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@state, @timedOut};
-            var ___result = RProcessSponsorResponse_Object_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMProcessSponsorResponse_Object_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -683,7 +683,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @IsClient};
-            var ___result = RGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
             return new RSystem.RRuntime.RRemoting.RIdentity(___result);
@@ -695,7 +695,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@requestedType};
-            var ___result = RCreateObjRef_Type.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateObjRef_Type.Invoke(___genericsType, ___parameters);
 
             return (System.Runtime.Remoting.ObjRef)___result;
         }
@@ -706,7 +706,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetLifetimeService.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetLifetimeService.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -717,7 +717,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInitializeLifetimeService.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitializeLifetimeService.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -728,7 +728,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cloneIdentity};
-            var ___result = RMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.MarshalByRefObject)___result;
         }
@@ -739,7 +739,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -750,7 +750,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -761,7 +761,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -772,7 +772,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -783,7 +783,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -794,7 +794,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

@@ -13,5151 +13,5151 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single kMinAperture
 		/// </summary>
-		protected static RSystem.RSingle r_kMinAperture;
-		public static RSystem.RSingle RkMinAperture
+		protected static RSystem.RSingle r_FkMinAperture;
+		public static RSystem.RSingle RFkMinAperture
 		{
 			get
 			{
-				if(r_kMinAperture == null)
+				if(r_FkMinAperture == null)
 				{
-					r_kMinAperture = new(typeof(UnityEngine.Camera), "kMinAperture");
-					r_kMinAperture.SetBelong(null);
+					r_FkMinAperture = new(typeof(UnityEngine.Camera), "kMinAperture");
+					r_FkMinAperture.SetBelong(null);
 				}
-				return r_kMinAperture;
+				return r_FkMinAperture;
 			}
 		}
 
 		/// <summary>
 		/// System.Single kMaxAperture
 		/// </summary>
-		protected static RSystem.RSingle r_kMaxAperture;
-		public static RSystem.RSingle RkMaxAperture
+		protected static RSystem.RSingle r_FkMaxAperture;
+		public static RSystem.RSingle RFkMaxAperture
 		{
 			get
 			{
-				if(r_kMaxAperture == null)
+				if(r_FkMaxAperture == null)
 				{
-					r_kMaxAperture = new(typeof(UnityEngine.Camera), "kMaxAperture");
-					r_kMaxAperture.SetBelong(null);
+					r_FkMaxAperture = new(typeof(UnityEngine.Camera), "kMaxAperture");
+					r_FkMaxAperture.SetBelong(null);
 				}
-				return r_kMaxAperture;
+				return r_FkMaxAperture;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 kMinBladeCount
 		/// </summary>
-		protected static RSystem.RInt32 r_kMinBladeCount;
-		public static RSystem.RInt32 RkMinBladeCount
+		protected static RSystem.RInt32 r_FkMinBladeCount;
+		public static RSystem.RInt32 RFkMinBladeCount
 		{
 			get
 			{
-				if(r_kMinBladeCount == null)
+				if(r_FkMinBladeCount == null)
 				{
-					r_kMinBladeCount = new(typeof(UnityEngine.Camera), "kMinBladeCount");
-					r_kMinBladeCount.SetBelong(null);
+					r_FkMinBladeCount = new(typeof(UnityEngine.Camera), "kMinBladeCount");
+					r_FkMinBladeCount.SetBelong(null);
 				}
-				return r_kMinBladeCount;
+				return r_FkMinBladeCount;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 kMaxBladeCount
 		/// </summary>
-		protected static RSystem.RInt32 r_kMaxBladeCount;
-		public static RSystem.RInt32 RkMaxBladeCount
+		protected static RSystem.RInt32 r_FkMaxBladeCount;
+		public static RSystem.RInt32 RFkMaxBladeCount
 		{
 			get
 			{
-				if(r_kMaxBladeCount == null)
+				if(r_FkMaxBladeCount == null)
 				{
-					r_kMaxBladeCount = new(typeof(UnityEngine.Camera), "kMaxBladeCount");
-					r_kMaxBladeCount.SetBelong(null);
+					r_FkMaxBladeCount = new(typeof(UnityEngine.Camera), "kMaxBladeCount");
+					r_FkMaxBladeCount.SetBelong(null);
 				}
-				return r_kMaxBladeCount;
+				return r_FkMaxBladeCount;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Camera+CameraCallback onPreCull
 		/// </summary>
-		protected static RUnityEngine.RCamera.RCameraCallback r_onPreCull;
-		public static RUnityEngine.RCamera.RCameraCallback RonPreCull
+		protected static RUnityEngine.RCamera.RCameraCallback r_FonPreCull;
+		public static RUnityEngine.RCamera.RCameraCallback RFonPreCull
 		{
 			get
 			{
-				if(r_onPreCull == null)
+				if(r_FonPreCull == null)
 				{
-					r_onPreCull = new(typeof(UnityEngine.Camera), "onPreCull");
-					r_onPreCull.SetBelong(null);
+					r_FonPreCull = new(typeof(UnityEngine.Camera), "onPreCull");
+					r_FonPreCull.SetBelong(null);
 				}
-				return r_onPreCull;
+				return r_FonPreCull;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Camera+CameraCallback onPreRender
 		/// </summary>
-		protected static RUnityEngine.RCamera.RCameraCallback r_onPreRender;
-		public static RUnityEngine.RCamera.RCameraCallback RonPreRender
+		protected static RUnityEngine.RCamera.RCameraCallback r_FonPreRender;
+		public static RUnityEngine.RCamera.RCameraCallback RFonPreRender
 		{
 			get
 			{
-				if(r_onPreRender == null)
+				if(r_FonPreRender == null)
 				{
-					r_onPreRender = new(typeof(UnityEngine.Camera), "onPreRender");
-					r_onPreRender.SetBelong(null);
+					r_FonPreRender = new(typeof(UnityEngine.Camera), "onPreRender");
+					r_FonPreRender.SetBelong(null);
 				}
-				return r_onPreRender;
+				return r_FonPreRender;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Camera+CameraCallback onPostRender
 		/// </summary>
-		protected static RUnityEngine.RCamera.RCameraCallback r_onPostRender;
-		public static RUnityEngine.RCamera.RCameraCallback RonPostRender
+		protected static RUnityEngine.RCamera.RCameraCallback r_FonPostRender;
+		public static RUnityEngine.RCamera.RCameraCallback RFonPostRender
 		{
 			get
 			{
-				if(r_onPostRender == null)
+				if(r_FonPostRender == null)
 				{
-					r_onPostRender = new(typeof(UnityEngine.Camera), "onPostRender");
-					r_onPostRender.SetBelong(null);
+					r_FonPostRender = new(typeof(UnityEngine.Camera), "onPostRender");
+					r_FonPostRender.SetBelong(null);
 				}
-				return r_onPostRender;
+				return r_FonPostRender;
 			}
 		}
 
 		/// <summary>
 		/// Single nearClipPlane
 		/// </summary>
-		protected RSystem.RSingle r_nearClipPlane;
-		public virtual RSystem.RSingle RnearClipPlane
+		protected RSystem.RSingle r_PnearClipPlane;
+		public virtual RSystem.RSingle RPnearClipPlane
 		{
 			get
 			{
-				if(r_nearClipPlane == null)
+				if(r_PnearClipPlane == null)
 				{
-					r_nearClipPlane = new(this, "nearClipPlane", -1);
-					r_nearClipPlane.SetBelong(this.instance);
+					r_PnearClipPlane = new(this, "nearClipPlane", -1);
+					r_PnearClipPlane.SetBelong(this.instance);
 				}
-				return r_nearClipPlane;
+				return r_PnearClipPlane;
 			}
 		}
 
 		/// <summary>
 		/// Single farClipPlane
 		/// </summary>
-		protected RSystem.RSingle r_farClipPlane;
-		public virtual RSystem.RSingle RfarClipPlane
+		protected RSystem.RSingle r_PfarClipPlane;
+		public virtual RSystem.RSingle RPfarClipPlane
 		{
 			get
 			{
-				if(r_farClipPlane == null)
+				if(r_PfarClipPlane == null)
 				{
-					r_farClipPlane = new(this, "farClipPlane", -1);
-					r_farClipPlane.SetBelong(this.instance);
+					r_PfarClipPlane = new(this, "farClipPlane", -1);
+					r_PfarClipPlane.SetBelong(this.instance);
 				}
-				return r_farClipPlane;
+				return r_PfarClipPlane;
 			}
 		}
 
 		/// <summary>
 		/// Single fieldOfView
 		/// </summary>
-		protected RSystem.RSingle r_fieldOfView;
-		public virtual RSystem.RSingle RfieldOfView
+		protected RSystem.RSingle r_PfieldOfView;
+		public virtual RSystem.RSingle RPfieldOfView
 		{
 			get
 			{
-				if(r_fieldOfView == null)
+				if(r_PfieldOfView == null)
 				{
-					r_fieldOfView = new(this, "fieldOfView", -1);
-					r_fieldOfView.SetBelong(this.instance);
+					r_PfieldOfView = new(this, "fieldOfView", -1);
+					r_PfieldOfView.SetBelong(this.instance);
 				}
-				return r_fieldOfView;
+				return r_PfieldOfView;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.RenderingPath renderingPath
 		/// </summary>
-		protected RProperty r_renderingPath;
-		public virtual RProperty RrenderingPath
+		protected RUnityEngine.RRenderingPath r_PrenderingPath;
+		public virtual RUnityEngine.RRenderingPath RPrenderingPath
 		{
 			get
 			{
-				if(r_renderingPath == null)
+				if(r_PrenderingPath == null)
 				{
-					r_renderingPath = new(this, "renderingPath", -1);
-					r_renderingPath.SetBelong(this.instance);
+					r_PrenderingPath = new(this, "renderingPath", -1);
+					r_PrenderingPath.SetBelong(this.instance);
 				}
-				return r_renderingPath;
+				return r_PrenderingPath;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.RenderingPath actualRenderingPath
 		/// </summary>
-		protected RProperty r_actualRenderingPath;
-		public virtual RProperty RactualRenderingPath
+		protected RUnityEngine.RRenderingPath r_PactualRenderingPath;
+		public virtual RUnityEngine.RRenderingPath RPactualRenderingPath
 		{
 			get
 			{
-				if(r_actualRenderingPath == null)
+				if(r_PactualRenderingPath == null)
 				{
-					r_actualRenderingPath = new(this, "actualRenderingPath", -1);
-					r_actualRenderingPath.SetBelong(this.instance);
+					r_PactualRenderingPath = new(this, "actualRenderingPath", -1);
+					r_PactualRenderingPath.SetBelong(this.instance);
 				}
-				return r_actualRenderingPath;
+				return r_PactualRenderingPath;
 			}
 		}
 
 		/// <summary>
 		/// Boolean allowHDR
 		/// </summary>
-		protected RSystem.RBoolean r_allowHDR;
-		public virtual RSystem.RBoolean RallowHDR
+		protected RSystem.RBoolean r_PallowHDR;
+		public virtual RSystem.RBoolean RPallowHDR
 		{
 			get
 			{
-				if(r_allowHDR == null)
+				if(r_PallowHDR == null)
 				{
-					r_allowHDR = new(this, "allowHDR", -1);
-					r_allowHDR.SetBelong(this.instance);
+					r_PallowHDR = new(this, "allowHDR", -1);
+					r_PallowHDR.SetBelong(this.instance);
 				}
-				return r_allowHDR;
+				return r_PallowHDR;
 			}
 		}
 
 		/// <summary>
 		/// Boolean allowMSAA
 		/// </summary>
-		protected RSystem.RBoolean r_allowMSAA;
-		public virtual RSystem.RBoolean RallowMSAA
+		protected RSystem.RBoolean r_PallowMSAA;
+		public virtual RSystem.RBoolean RPallowMSAA
 		{
 			get
 			{
-				if(r_allowMSAA == null)
+				if(r_PallowMSAA == null)
 				{
-					r_allowMSAA = new(this, "allowMSAA", -1);
-					r_allowMSAA.SetBelong(this.instance);
+					r_PallowMSAA = new(this, "allowMSAA", -1);
+					r_PallowMSAA.SetBelong(this.instance);
 				}
-				return r_allowMSAA;
+				return r_PallowMSAA;
 			}
 		}
 
 		/// <summary>
 		/// Boolean allowDynamicResolution
 		/// </summary>
-		protected RSystem.RBoolean r_allowDynamicResolution;
-		public virtual RSystem.RBoolean RallowDynamicResolution
+		protected RSystem.RBoolean r_PallowDynamicResolution;
+		public virtual RSystem.RBoolean RPallowDynamicResolution
 		{
 			get
 			{
-				if(r_allowDynamicResolution == null)
+				if(r_PallowDynamicResolution == null)
 				{
-					r_allowDynamicResolution = new(this, "allowDynamicResolution", -1);
-					r_allowDynamicResolution.SetBelong(this.instance);
+					r_PallowDynamicResolution = new(this, "allowDynamicResolution", -1);
+					r_PallowDynamicResolution.SetBelong(this.instance);
 				}
-				return r_allowDynamicResolution;
+				return r_PallowDynamicResolution;
 			}
 		}
 
 		/// <summary>
 		/// Boolean forceIntoRenderTexture
 		/// </summary>
-		protected RSystem.RBoolean r_forceIntoRenderTexture;
-		public virtual RSystem.RBoolean RforceIntoRenderTexture
+		protected RSystem.RBoolean r_PforceIntoRenderTexture;
+		public virtual RSystem.RBoolean RPforceIntoRenderTexture
 		{
 			get
 			{
-				if(r_forceIntoRenderTexture == null)
+				if(r_PforceIntoRenderTexture == null)
 				{
-					r_forceIntoRenderTexture = new(this, "forceIntoRenderTexture", -1);
-					r_forceIntoRenderTexture.SetBelong(this.instance);
+					r_PforceIntoRenderTexture = new(this, "forceIntoRenderTexture", -1);
+					r_PforceIntoRenderTexture.SetBelong(this.instance);
 				}
-				return r_forceIntoRenderTexture;
+				return r_PforceIntoRenderTexture;
 			}
 		}
 
 		/// <summary>
 		/// Single orthographicSize
 		/// </summary>
-		protected RSystem.RSingle r_orthographicSize;
-		public virtual RSystem.RSingle RorthographicSize
+		protected RSystem.RSingle r_PorthographicSize;
+		public virtual RSystem.RSingle RPorthographicSize
 		{
 			get
 			{
-				if(r_orthographicSize == null)
+				if(r_PorthographicSize == null)
 				{
-					r_orthographicSize = new(this, "orthographicSize", -1);
-					r_orthographicSize.SetBelong(this.instance);
+					r_PorthographicSize = new(this, "orthographicSize", -1);
+					r_PorthographicSize.SetBelong(this.instance);
 				}
-				return r_orthographicSize;
+				return r_PorthographicSize;
 			}
 		}
 
 		/// <summary>
 		/// Boolean orthographic
 		/// </summary>
-		protected RSystem.RBoolean r_orthographic;
-		public virtual RSystem.RBoolean Rorthographic
+		protected RSystem.RBoolean r_Porthographic;
+		public virtual RSystem.RBoolean RPorthographic
 		{
 			get
 			{
-				if(r_orthographic == null)
+				if(r_Porthographic == null)
 				{
-					r_orthographic = new(this, "orthographic", -1);
-					r_orthographic.SetBelong(this.instance);
+					r_Porthographic = new(this, "orthographic", -1);
+					r_Porthographic.SetBelong(this.instance);
 				}
-				return r_orthographic;
+				return r_Porthographic;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.OpaqueSortMode opaqueSortMode
 		/// </summary>
-		protected RProperty r_opaqueSortMode;
-		public virtual RProperty RopaqueSortMode
+		protected RUnityEngine.RRendering.ROpaqueSortMode r_PopaqueSortMode;
+		public virtual RUnityEngine.RRendering.ROpaqueSortMode RPopaqueSortMode
 		{
 			get
 			{
-				if(r_opaqueSortMode == null)
+				if(r_PopaqueSortMode == null)
 				{
-					r_opaqueSortMode = new(this, "opaqueSortMode", -1);
-					r_opaqueSortMode.SetBelong(this.instance);
+					r_PopaqueSortMode = new(this, "opaqueSortMode", -1);
+					r_PopaqueSortMode.SetBelong(this.instance);
 				}
-				return r_opaqueSortMode;
+				return r_PopaqueSortMode;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TransparencySortMode transparencySortMode
 		/// </summary>
-		protected RProperty r_transparencySortMode;
-		public virtual RProperty RtransparencySortMode
+		protected RUnityEngine.RTransparencySortMode r_PtransparencySortMode;
+		public virtual RUnityEngine.RTransparencySortMode RPtransparencySortMode
 		{
 			get
 			{
-				if(r_transparencySortMode == null)
+				if(r_PtransparencySortMode == null)
 				{
-					r_transparencySortMode = new(this, "transparencySortMode", -1);
-					r_transparencySortMode.SetBelong(this.instance);
+					r_PtransparencySortMode = new(this, "transparencySortMode", -1);
+					r_PtransparencySortMode.SetBelong(this.instance);
 				}
-				return r_transparencySortMode;
+				return r_PtransparencySortMode;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 transparencySortAxis
 		/// </summary>
-		protected RUnityEngine.RVector3 r_transparencySortAxis;
-		public virtual RUnityEngine.RVector3 RtransparencySortAxis
+		protected RUnityEngine.RVector3 r_PtransparencySortAxis;
+		public virtual RUnityEngine.RVector3 RPtransparencySortAxis
 		{
 			get
 			{
-				if(r_transparencySortAxis == null)
+				if(r_PtransparencySortAxis == null)
 				{
-					r_transparencySortAxis = new(this, "transparencySortAxis", -1);
-					r_transparencySortAxis.SetBelong(this.instance);
+					r_PtransparencySortAxis = new(this, "transparencySortAxis", -1);
+					r_PtransparencySortAxis.SetBelong(this.instance);
 				}
-				return r_transparencySortAxis;
+				return r_PtransparencySortAxis;
 			}
 		}
 
 		/// <summary>
 		/// Single depth
 		/// </summary>
-		protected RSystem.RSingle r_depth;
-		public virtual RSystem.RSingle Rdepth
+		protected RSystem.RSingle r_Pdepth;
+		public virtual RSystem.RSingle RPdepth
 		{
 			get
 			{
-				if(r_depth == null)
+				if(r_Pdepth == null)
 				{
-					r_depth = new(this, "depth", -1);
-					r_depth.SetBelong(this.instance);
+					r_Pdepth = new(this, "depth", -1);
+					r_Pdepth.SetBelong(this.instance);
 				}
-				return r_depth;
+				return r_Pdepth;
 			}
 		}
 
 		/// <summary>
 		/// Single aspect
 		/// </summary>
-		protected RSystem.RSingle r_aspect;
-		public virtual RSystem.RSingle Raspect
+		protected RSystem.RSingle r_Paspect;
+		public virtual RSystem.RSingle RPaspect
 		{
 			get
 			{
-				if(r_aspect == null)
+				if(r_Paspect == null)
 				{
-					r_aspect = new(this, "aspect", -1);
-					r_aspect.SetBelong(this.instance);
+					r_Paspect = new(this, "aspect", -1);
+					r_Paspect.SetBelong(this.instance);
 				}
-				return r_aspect;
+				return r_Paspect;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 velocity
 		/// </summary>
-		protected RUnityEngine.RVector3 r_velocity;
-		public virtual RUnityEngine.RVector3 Rvelocity
+		protected RUnityEngine.RVector3 r_Pvelocity;
+		public virtual RUnityEngine.RVector3 RPvelocity
 		{
 			get
 			{
-				if(r_velocity == null)
+				if(r_Pvelocity == null)
 				{
-					r_velocity = new(this, "velocity", -1);
-					r_velocity.SetBelong(this.instance);
+					r_Pvelocity = new(this, "velocity", -1);
+					r_Pvelocity.SetBelong(this.instance);
 				}
-				return r_velocity;
+				return r_Pvelocity;
 			}
 		}
 
 		/// <summary>
 		/// Int32 cullingMask
 		/// </summary>
-		protected RSystem.RInt32 r_cullingMask;
-		public virtual RSystem.RInt32 RcullingMask
+		protected RSystem.RInt32 r_PcullingMask;
+		public virtual RSystem.RInt32 RPcullingMask
 		{
 			get
 			{
-				if(r_cullingMask == null)
+				if(r_PcullingMask == null)
 				{
-					r_cullingMask = new(this, "cullingMask", -1);
-					r_cullingMask.SetBelong(this.instance);
+					r_PcullingMask = new(this, "cullingMask", -1);
+					r_PcullingMask.SetBelong(this.instance);
 				}
-				return r_cullingMask;
+				return r_PcullingMask;
 			}
 		}
 
 		/// <summary>
 		/// Int32 eventMask
 		/// </summary>
-		protected RSystem.RInt32 r_eventMask;
-		public virtual RSystem.RInt32 ReventMask
+		protected RSystem.RInt32 r_PeventMask;
+		public virtual RSystem.RInt32 RPeventMask
 		{
 			get
 			{
-				if(r_eventMask == null)
+				if(r_PeventMask == null)
 				{
-					r_eventMask = new(this, "eventMask", -1);
-					r_eventMask.SetBelong(this.instance);
+					r_PeventMask = new(this, "eventMask", -1);
+					r_PeventMask.SetBelong(this.instance);
 				}
-				return r_eventMask;
+				return r_PeventMask;
 			}
 		}
 
 		/// <summary>
 		/// Boolean layerCullSpherical
 		/// </summary>
-		protected RSystem.RBoolean r_layerCullSpherical;
-		public virtual RSystem.RBoolean RlayerCullSpherical
+		protected RSystem.RBoolean r_PlayerCullSpherical;
+		public virtual RSystem.RBoolean RPlayerCullSpherical
 		{
 			get
 			{
-				if(r_layerCullSpherical == null)
+				if(r_PlayerCullSpherical == null)
 				{
-					r_layerCullSpherical = new(this, "layerCullSpherical", -1);
-					r_layerCullSpherical.SetBelong(this.instance);
+					r_PlayerCullSpherical = new(this, "layerCullSpherical", -1);
+					r_PlayerCullSpherical.SetBelong(this.instance);
 				}
-				return r_layerCullSpherical;
+				return r_PlayerCullSpherical;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.CameraType cameraType
 		/// </summary>
-		protected RProperty r_cameraType;
-		public virtual RProperty RcameraType
+		protected RUnityEngine.RCameraType r_PcameraType;
+		public virtual RUnityEngine.RCameraType RPcameraType
 		{
 			get
 			{
-				if(r_cameraType == null)
+				if(r_PcameraType == null)
 				{
-					r_cameraType = new(this, "cameraType", -1);
-					r_cameraType.SetBelong(this.instance);
+					r_PcameraType = new(this, "cameraType", -1);
+					r_PcameraType.SetBelong(this.instance);
 				}
-				return r_cameraType;
+				return r_PcameraType;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Material skyboxMaterial
 		/// </summary>
-		protected RUnityEngine.RMaterial r_skyboxMaterial;
-		public virtual RUnityEngine.RMaterial RskyboxMaterial
+		protected RUnityEngine.RMaterial r_PskyboxMaterial;
+		public virtual RUnityEngine.RMaterial RPskyboxMaterial
 		{
 			get
 			{
-				if(r_skyboxMaterial == null)
+				if(r_PskyboxMaterial == null)
 				{
-					r_skyboxMaterial = new(this, "skyboxMaterial", -1);
-					r_skyboxMaterial.SetBelong(this.instance);
+					r_PskyboxMaterial = new(this, "skyboxMaterial", -1);
+					r_PskyboxMaterial.SetBelong(this.instance);
 				}
-				return r_skyboxMaterial;
+				return r_PskyboxMaterial;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 overrideSceneCullingMask
 		/// </summary>
-		protected RSystem.RUInt64 r_overrideSceneCullingMask;
-		public virtual RSystem.RUInt64 RoverrideSceneCullingMask
+		protected RSystem.RUInt64 r_PoverrideSceneCullingMask;
+		public virtual RSystem.RUInt64 RPoverrideSceneCullingMask
 		{
 			get
 			{
-				if(r_overrideSceneCullingMask == null)
+				if(r_PoverrideSceneCullingMask == null)
 				{
-					r_overrideSceneCullingMask = new(this, "overrideSceneCullingMask", -1);
-					r_overrideSceneCullingMask.SetBelong(this.instance);
+					r_PoverrideSceneCullingMask = new(this, "overrideSceneCullingMask", -1);
+					r_PoverrideSceneCullingMask.SetBelong(this.instance);
 				}
-				return r_overrideSceneCullingMask;
+				return r_PoverrideSceneCullingMask;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 sceneCullingMask
 		/// </summary>
-		protected RSystem.RUInt64 r_sceneCullingMask;
-		public virtual RSystem.RUInt64 RsceneCullingMask
+		protected RSystem.RUInt64 r_PsceneCullingMask;
+		public virtual RSystem.RUInt64 RPsceneCullingMask
 		{
 			get
 			{
-				if(r_sceneCullingMask == null)
+				if(r_PsceneCullingMask == null)
 				{
-					r_sceneCullingMask = new(this, "sceneCullingMask", -1);
-					r_sceneCullingMask.SetBelong(this.instance);
+					r_PsceneCullingMask = new(this, "sceneCullingMask", -1);
+					r_PsceneCullingMask.SetBelong(this.instance);
 				}
-				return r_sceneCullingMask;
+				return r_PsceneCullingMask;
 			}
 		}
 
 		/// <summary>
 		/// Single[] layerCullDistances
 		/// </summary>
-		protected RPropertyArray<RSystem.RSingle> r_layerCullDistances;
-		public virtual RPropertyArray<RSystem.RSingle> RlayerCullDistances
+		protected RPropertyArray<RSystem.RSingle> r_PlayerCullDistances;
+		public virtual RPropertyArray<RSystem.RSingle> RPlayerCullDistances
 		{
 			get
 			{
-				if(r_layerCullDistances == null)
+				if(r_PlayerCullDistances == null)
 				{
-					r_layerCullDistances = new(this, "layerCullDistances", -1);
-					r_layerCullDistances.SetBelong(this.instance);
+					r_PlayerCullDistances = new(this, "layerCullDistances", -1);
+					r_PlayerCullDistances.SetBelong(this.instance);
 				}
-				return r_layerCullDistances;
+				return r_PlayerCullDistances;
 			}
 		}
 
 		/// <summary>
 		/// Int32 PreviewCullingLayer
 		/// </summary>
-		protected static RSystem.RInt32 r_PreviewCullingLayer;
-		public static RSystem.RInt32 RPreviewCullingLayer
+		protected static RSystem.RInt32 r_PPreviewCullingLayer;
+		public static RSystem.RInt32 RPPreviewCullingLayer
 		{
 			get
 			{
-				if(r_PreviewCullingLayer == null)
+				if(r_PPreviewCullingLayer == null)
 				{
-					r_PreviewCullingLayer = new(typeof(UnityEngine.Camera), "PreviewCullingLayer", -1);
-					r_PreviewCullingLayer.SetBelong(null);
+					r_PPreviewCullingLayer = new(typeof(UnityEngine.Camera), "PreviewCullingLayer", -1);
+					r_PPreviewCullingLayer.SetBelong(null);
 				}
-				return r_PreviewCullingLayer;
+				return r_PPreviewCullingLayer;
 			}
 		}
 
 		/// <summary>
 		/// Boolean useOcclusionCulling
 		/// </summary>
-		protected RSystem.RBoolean r_useOcclusionCulling;
-		public virtual RSystem.RBoolean RuseOcclusionCulling
+		protected RSystem.RBoolean r_PuseOcclusionCulling;
+		public virtual RSystem.RBoolean RPuseOcclusionCulling
 		{
 			get
 			{
-				if(r_useOcclusionCulling == null)
+				if(r_PuseOcclusionCulling == null)
 				{
-					r_useOcclusionCulling = new(this, "useOcclusionCulling", -1);
-					r_useOcclusionCulling.SetBelong(this.instance);
+					r_PuseOcclusionCulling = new(this, "useOcclusionCulling", -1);
+					r_PuseOcclusionCulling.SetBelong(this.instance);
 				}
-				return r_useOcclusionCulling;
+				return r_PuseOcclusionCulling;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4 cullingMatrix
 		/// </summary>
-		protected RUnityEngine.RMatrix4x4 r_cullingMatrix;
-		public virtual RUnityEngine.RMatrix4x4 RcullingMatrix
+		protected RUnityEngine.RMatrix4x4 r_PcullingMatrix;
+		public virtual RUnityEngine.RMatrix4x4 RPcullingMatrix
 		{
 			get
 			{
-				if(r_cullingMatrix == null)
+				if(r_PcullingMatrix == null)
 				{
-					r_cullingMatrix = new(this, "cullingMatrix", -1);
-					r_cullingMatrix.SetBelong(this.instance);
+					r_PcullingMatrix = new(this, "cullingMatrix", -1);
+					r_PcullingMatrix.SetBelong(this.instance);
 				}
-				return r_cullingMatrix;
+				return r_PcullingMatrix;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Color backgroundColor
 		/// </summary>
-		protected RUnityEngine.RColor r_backgroundColor;
-		public virtual RUnityEngine.RColor RbackgroundColor
+		protected RUnityEngine.RColor r_PbackgroundColor;
+		public virtual RUnityEngine.RColor RPbackgroundColor
 		{
 			get
 			{
-				if(r_backgroundColor == null)
+				if(r_PbackgroundColor == null)
 				{
-					r_backgroundColor = new(this, "backgroundColor", -1);
-					r_backgroundColor.SetBelong(this.instance);
+					r_PbackgroundColor = new(this, "backgroundColor", -1);
+					r_PbackgroundColor.SetBelong(this.instance);
 				}
-				return r_backgroundColor;
+				return r_PbackgroundColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.CameraClearFlags clearFlags
 		/// </summary>
-		protected RProperty r_clearFlags;
-		public virtual RProperty RclearFlags
+		protected RUnityEngine.RCameraClearFlags r_PclearFlags;
+		public virtual RUnityEngine.RCameraClearFlags RPclearFlags
 		{
 			get
 			{
-				if(r_clearFlags == null)
+				if(r_PclearFlags == null)
 				{
-					r_clearFlags = new(this, "clearFlags", -1);
-					r_clearFlags.SetBelong(this.instance);
+					r_PclearFlags = new(this, "clearFlags", -1);
+					r_PclearFlags.SetBelong(this.instance);
 				}
-				return r_clearFlags;
+				return r_PclearFlags;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.DepthTextureMode depthTextureMode
 		/// </summary>
-		protected RProperty r_depthTextureMode;
-		public virtual RProperty RdepthTextureMode
+		protected RUnityEngine.RDepthTextureMode r_PdepthTextureMode;
+		public virtual RUnityEngine.RDepthTextureMode RPdepthTextureMode
 		{
 			get
 			{
-				if(r_depthTextureMode == null)
+				if(r_PdepthTextureMode == null)
 				{
-					r_depthTextureMode = new(this, "depthTextureMode", -1);
-					r_depthTextureMode.SetBelong(this.instance);
+					r_PdepthTextureMode = new(this, "depthTextureMode", -1);
+					r_PdepthTextureMode.SetBelong(this.instance);
 				}
-				return r_depthTextureMode;
+				return r_PdepthTextureMode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean clearStencilAfterLightingPass
 		/// </summary>
-		protected RSystem.RBoolean r_clearStencilAfterLightingPass;
-		public virtual RSystem.RBoolean RclearStencilAfterLightingPass
+		protected RSystem.RBoolean r_PclearStencilAfterLightingPass;
+		public virtual RSystem.RBoolean RPclearStencilAfterLightingPass
 		{
 			get
 			{
-				if(r_clearStencilAfterLightingPass == null)
+				if(r_PclearStencilAfterLightingPass == null)
 				{
-					r_clearStencilAfterLightingPass = new(this, "clearStencilAfterLightingPass", -1);
-					r_clearStencilAfterLightingPass.SetBelong(this.instance);
+					r_PclearStencilAfterLightingPass = new(this, "clearStencilAfterLightingPass", -1);
+					r_PclearStencilAfterLightingPass.SetBelong(this.instance);
 				}
-				return r_clearStencilAfterLightingPass;
+				return r_PclearStencilAfterLightingPass;
 			}
 		}
 
 		/// <summary>
 		/// ProjectionMatrixMode projectionMatrixMode
 		/// </summary>
-		protected RProperty r_projectionMatrixMode;
-		public virtual RProperty RprojectionMatrixMode
+		protected RUnityEngine.RCamera.RProjectionMatrixMode r_PprojectionMatrixMode;
+		public virtual RUnityEngine.RCamera.RProjectionMatrixMode RPprojectionMatrixMode
 		{
 			get
 			{
-				if(r_projectionMatrixMode == null)
+				if(r_PprojectionMatrixMode == null)
 				{
-					r_projectionMatrixMode = new(this, "projectionMatrixMode", -1);
-					r_projectionMatrixMode.SetBelong(this.instance);
+					r_PprojectionMatrixMode = new(this, "projectionMatrixMode", -1);
+					r_PprojectionMatrixMode.SetBelong(this.instance);
 				}
-				return r_projectionMatrixMode;
+				return r_PprojectionMatrixMode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean usePhysicalProperties
 		/// </summary>
-		protected RSystem.RBoolean r_usePhysicalProperties;
-		public virtual RSystem.RBoolean RusePhysicalProperties
+		protected RSystem.RBoolean r_PusePhysicalProperties;
+		public virtual RSystem.RBoolean RPusePhysicalProperties
 		{
 			get
 			{
-				if(r_usePhysicalProperties == null)
+				if(r_PusePhysicalProperties == null)
 				{
-					r_usePhysicalProperties = new(this, "usePhysicalProperties", -1);
-					r_usePhysicalProperties.SetBelong(this.instance);
+					r_PusePhysicalProperties = new(this, "usePhysicalProperties", -1);
+					r_PusePhysicalProperties.SetBelong(this.instance);
 				}
-				return r_usePhysicalProperties;
+				return r_PusePhysicalProperties;
 			}
 		}
 
 		/// <summary>
 		/// Int32 iso
 		/// </summary>
-		protected RSystem.RInt32 r_iso;
-		public virtual RSystem.RInt32 Riso
+		protected RSystem.RInt32 r_Piso;
+		public virtual RSystem.RInt32 RPiso
 		{
 			get
 			{
-				if(r_iso == null)
+				if(r_Piso == null)
 				{
-					r_iso = new(this, "iso", -1);
-					r_iso.SetBelong(this.instance);
+					r_Piso = new(this, "iso", -1);
+					r_Piso.SetBelong(this.instance);
 				}
-				return r_iso;
+				return r_Piso;
 			}
 		}
 
 		/// <summary>
 		/// Single shutterSpeed
 		/// </summary>
-		protected RSystem.RSingle r_shutterSpeed;
-		public virtual RSystem.RSingle RshutterSpeed
+		protected RSystem.RSingle r_PshutterSpeed;
+		public virtual RSystem.RSingle RPshutterSpeed
 		{
 			get
 			{
-				if(r_shutterSpeed == null)
+				if(r_PshutterSpeed == null)
 				{
-					r_shutterSpeed = new(this, "shutterSpeed", -1);
-					r_shutterSpeed.SetBelong(this.instance);
+					r_PshutterSpeed = new(this, "shutterSpeed", -1);
+					r_PshutterSpeed.SetBelong(this.instance);
 				}
-				return r_shutterSpeed;
+				return r_PshutterSpeed;
 			}
 		}
 
 		/// <summary>
 		/// Single aperture
 		/// </summary>
-		protected RSystem.RSingle r_aperture;
-		public virtual RSystem.RSingle Raperture
+		protected RSystem.RSingle r_Paperture;
+		public virtual RSystem.RSingle RPaperture
 		{
 			get
 			{
-				if(r_aperture == null)
+				if(r_Paperture == null)
 				{
-					r_aperture = new(this, "aperture", -1);
-					r_aperture.SetBelong(this.instance);
+					r_Paperture = new(this, "aperture", -1);
+					r_Paperture.SetBelong(this.instance);
 				}
-				return r_aperture;
+				return r_Paperture;
 			}
 		}
 
 		/// <summary>
 		/// Single focusDistance
 		/// </summary>
-		protected RSystem.RSingle r_focusDistance;
-		public virtual RSystem.RSingle RfocusDistance
+		protected RSystem.RSingle r_PfocusDistance;
+		public virtual RSystem.RSingle RPfocusDistance
 		{
 			get
 			{
-				if(r_focusDistance == null)
+				if(r_PfocusDistance == null)
 				{
-					r_focusDistance = new(this, "focusDistance", -1);
-					r_focusDistance.SetBelong(this.instance);
+					r_PfocusDistance = new(this, "focusDistance", -1);
+					r_PfocusDistance.SetBelong(this.instance);
 				}
-				return r_focusDistance;
+				return r_PfocusDistance;
 			}
 		}
 
 		/// <summary>
 		/// Single focalLength
 		/// </summary>
-		protected RSystem.RSingle r_focalLength;
-		public virtual RSystem.RSingle RfocalLength
+		protected RSystem.RSingle r_PfocalLength;
+		public virtual RSystem.RSingle RPfocalLength
 		{
 			get
 			{
-				if(r_focalLength == null)
+				if(r_PfocalLength == null)
 				{
-					r_focalLength = new(this, "focalLength", -1);
-					r_focalLength.SetBelong(this.instance);
+					r_PfocalLength = new(this, "focalLength", -1);
+					r_PfocalLength.SetBelong(this.instance);
 				}
-				return r_focalLength;
+				return r_PfocalLength;
 			}
 		}
 
 		/// <summary>
 		/// Int32 bladeCount
 		/// </summary>
-		protected RSystem.RInt32 r_bladeCount;
-		public virtual RSystem.RInt32 RbladeCount
+		protected RSystem.RInt32 r_PbladeCount;
+		public virtual RSystem.RInt32 RPbladeCount
 		{
 			get
 			{
-				if(r_bladeCount == null)
+				if(r_PbladeCount == null)
 				{
-					r_bladeCount = new(this, "bladeCount", -1);
-					r_bladeCount.SetBelong(this.instance);
+					r_PbladeCount = new(this, "bladeCount", -1);
+					r_PbladeCount.SetBelong(this.instance);
 				}
-				return r_bladeCount;
+				return r_PbladeCount;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 curvature
 		/// </summary>
-		protected RUnityEngine.RVector2 r_curvature;
-		public virtual RUnityEngine.RVector2 Rcurvature
+		protected RUnityEngine.RVector2 r_Pcurvature;
+		public virtual RUnityEngine.RVector2 RPcurvature
 		{
 			get
 			{
-				if(r_curvature == null)
+				if(r_Pcurvature == null)
 				{
-					r_curvature = new(this, "curvature", -1);
-					r_curvature.SetBelong(this.instance);
+					r_Pcurvature = new(this, "curvature", -1);
+					r_Pcurvature.SetBelong(this.instance);
 				}
-				return r_curvature;
+				return r_Pcurvature;
 			}
 		}
 
 		/// <summary>
 		/// Single barrelClipping
 		/// </summary>
-		protected RSystem.RSingle r_barrelClipping;
-		public virtual RSystem.RSingle RbarrelClipping
+		protected RSystem.RSingle r_PbarrelClipping;
+		public virtual RSystem.RSingle RPbarrelClipping
 		{
 			get
 			{
-				if(r_barrelClipping == null)
+				if(r_PbarrelClipping == null)
 				{
-					r_barrelClipping = new(this, "barrelClipping", -1);
-					r_barrelClipping.SetBelong(this.instance);
+					r_PbarrelClipping = new(this, "barrelClipping", -1);
+					r_PbarrelClipping.SetBelong(this.instance);
 				}
-				return r_barrelClipping;
+				return r_PbarrelClipping;
 			}
 		}
 
 		/// <summary>
 		/// Single anamorphism
 		/// </summary>
-		protected RSystem.RSingle r_anamorphism;
-		public virtual RSystem.RSingle Ranamorphism
+		protected RSystem.RSingle r_Panamorphism;
+		public virtual RSystem.RSingle RPanamorphism
 		{
 			get
 			{
-				if(r_anamorphism == null)
+				if(r_Panamorphism == null)
 				{
-					r_anamorphism = new(this, "anamorphism", -1);
-					r_anamorphism.SetBelong(this.instance);
+					r_Panamorphism = new(this, "anamorphism", -1);
+					r_Panamorphism.SetBelong(this.instance);
 				}
-				return r_anamorphism;
+				return r_Panamorphism;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 sensorSize
 		/// </summary>
-		protected RUnityEngine.RVector2 r_sensorSize;
-		public virtual RUnityEngine.RVector2 RsensorSize
+		protected RUnityEngine.RVector2 r_PsensorSize;
+		public virtual RUnityEngine.RVector2 RPsensorSize
 		{
 			get
 			{
-				if(r_sensorSize == null)
+				if(r_PsensorSize == null)
 				{
-					r_sensorSize = new(this, "sensorSize", -1);
-					r_sensorSize.SetBelong(this.instance);
+					r_PsensorSize = new(this, "sensorSize", -1);
+					r_PsensorSize.SetBelong(this.instance);
 				}
-				return r_sensorSize;
+				return r_PsensorSize;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 lensShift
 		/// </summary>
-		protected RUnityEngine.RVector2 r_lensShift;
-		public virtual RUnityEngine.RVector2 RlensShift
+		protected RUnityEngine.RVector2 r_PlensShift;
+		public virtual RUnityEngine.RVector2 RPlensShift
 		{
 			get
 			{
-				if(r_lensShift == null)
+				if(r_PlensShift == null)
 				{
-					r_lensShift = new(this, "lensShift", -1);
-					r_lensShift.SetBelong(this.instance);
+					r_PlensShift = new(this, "lensShift", -1);
+					r_PlensShift.SetBelong(this.instance);
 				}
-				return r_lensShift;
+				return r_PlensShift;
 			}
 		}
 
 		/// <summary>
 		/// GateFitMode gateFit
 		/// </summary>
-		protected RProperty r_gateFit;
-		public virtual RProperty RgateFit
+		protected RUnityEngine.RCamera.RGateFitMode r_PgateFit;
+		public virtual RUnityEngine.RCamera.RGateFitMode RPgateFit
 		{
 			get
 			{
-				if(r_gateFit == null)
+				if(r_PgateFit == null)
 				{
-					r_gateFit = new(this, "gateFit", -1);
-					r_gateFit.SetBelong(this.instance);
+					r_PgateFit = new(this, "gateFit", -1);
+					r_PgateFit.SetBelong(this.instance);
 				}
-				return r_gateFit;
+				return r_PgateFit;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect rect
 		/// </summary>
-		protected RUnityEngine.RRect r_rect;
-		public virtual RUnityEngine.RRect Rrect
+		protected RUnityEngine.RRect r_Prect;
+		public virtual RUnityEngine.RRect RPrect
 		{
 			get
 			{
-				if(r_rect == null)
+				if(r_Prect == null)
 				{
-					r_rect = new(this, "rect", -1);
-					r_rect.SetBelong(this.instance);
+					r_Prect = new(this, "rect", -1);
+					r_Prect.SetBelong(this.instance);
 				}
-				return r_rect;
+				return r_Prect;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect pixelRect
 		/// </summary>
-		protected RUnityEngine.RRect r_pixelRect;
-		public virtual RUnityEngine.RRect RpixelRect
+		protected RUnityEngine.RRect r_PpixelRect;
+		public virtual RUnityEngine.RRect RPpixelRect
 		{
 			get
 			{
-				if(r_pixelRect == null)
+				if(r_PpixelRect == null)
 				{
-					r_pixelRect = new(this, "pixelRect", -1);
-					r_pixelRect.SetBelong(this.instance);
+					r_PpixelRect = new(this, "pixelRect", -1);
+					r_PpixelRect.SetBelong(this.instance);
 				}
-				return r_pixelRect;
+				return r_PpixelRect;
 			}
 		}
 
 		/// <summary>
 		/// Int32 pixelWidth
 		/// </summary>
-		protected RSystem.RInt32 r_pixelWidth;
-		public virtual RSystem.RInt32 RpixelWidth
+		protected RSystem.RInt32 r_PpixelWidth;
+		public virtual RSystem.RInt32 RPpixelWidth
 		{
 			get
 			{
-				if(r_pixelWidth == null)
+				if(r_PpixelWidth == null)
 				{
-					r_pixelWidth = new(this, "pixelWidth", -1);
-					r_pixelWidth.SetBelong(this.instance);
+					r_PpixelWidth = new(this, "pixelWidth", -1);
+					r_PpixelWidth.SetBelong(this.instance);
 				}
-				return r_pixelWidth;
+				return r_PpixelWidth;
 			}
 		}
 
 		/// <summary>
 		/// Int32 pixelHeight
 		/// </summary>
-		protected RSystem.RInt32 r_pixelHeight;
-		public virtual RSystem.RInt32 RpixelHeight
+		protected RSystem.RInt32 r_PpixelHeight;
+		public virtual RSystem.RInt32 RPpixelHeight
 		{
 			get
 			{
-				if(r_pixelHeight == null)
+				if(r_PpixelHeight == null)
 				{
-					r_pixelHeight = new(this, "pixelHeight", -1);
-					r_pixelHeight.SetBelong(this.instance);
+					r_PpixelHeight = new(this, "pixelHeight", -1);
+					r_PpixelHeight.SetBelong(this.instance);
 				}
-				return r_pixelHeight;
+				return r_PpixelHeight;
 			}
 		}
 
 		/// <summary>
 		/// Int32 scaledPixelWidth
 		/// </summary>
-		protected RSystem.RInt32 r_scaledPixelWidth;
-		public virtual RSystem.RInt32 RscaledPixelWidth
+		protected RSystem.RInt32 r_PscaledPixelWidth;
+		public virtual RSystem.RInt32 RPscaledPixelWidth
 		{
 			get
 			{
-				if(r_scaledPixelWidth == null)
+				if(r_PscaledPixelWidth == null)
 				{
-					r_scaledPixelWidth = new(this, "scaledPixelWidth", -1);
-					r_scaledPixelWidth.SetBelong(this.instance);
+					r_PscaledPixelWidth = new(this, "scaledPixelWidth", -1);
+					r_PscaledPixelWidth.SetBelong(this.instance);
 				}
-				return r_scaledPixelWidth;
+				return r_PscaledPixelWidth;
 			}
 		}
 
 		/// <summary>
 		/// Int32 scaledPixelHeight
 		/// </summary>
-		protected RSystem.RInt32 r_scaledPixelHeight;
-		public virtual RSystem.RInt32 RscaledPixelHeight
+		protected RSystem.RInt32 r_PscaledPixelHeight;
+		public virtual RSystem.RInt32 RPscaledPixelHeight
 		{
 			get
 			{
-				if(r_scaledPixelHeight == null)
+				if(r_PscaledPixelHeight == null)
 				{
-					r_scaledPixelHeight = new(this, "scaledPixelHeight", -1);
-					r_scaledPixelHeight.SetBelong(this.instance);
+					r_PscaledPixelHeight = new(this, "scaledPixelHeight", -1);
+					r_PscaledPixelHeight.SetBelong(this.instance);
 				}
-				return r_scaledPixelHeight;
+				return r_PscaledPixelHeight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.RenderTexture targetTexture
 		/// </summary>
-		protected RUnityEngine.RRenderTexture r_targetTexture;
-		public virtual RUnityEngine.RRenderTexture RtargetTexture
+		protected RUnityEngine.RRenderTexture r_PtargetTexture;
+		public virtual RUnityEngine.RRenderTexture RPtargetTexture
 		{
 			get
 			{
-				if(r_targetTexture == null)
+				if(r_PtargetTexture == null)
 				{
-					r_targetTexture = new(this, "targetTexture", -1);
-					r_targetTexture.SetBelong(this.instance);
+					r_PtargetTexture = new(this, "targetTexture", -1);
+					r_PtargetTexture.SetBelong(this.instance);
 				}
-				return r_targetTexture;
+				return r_PtargetTexture;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.RenderTexture activeTexture
 		/// </summary>
-		protected RUnityEngine.RRenderTexture r_activeTexture;
-		public virtual RUnityEngine.RRenderTexture RactiveTexture
+		protected RUnityEngine.RRenderTexture r_PactiveTexture;
+		public virtual RUnityEngine.RRenderTexture RPactiveTexture
 		{
 			get
 			{
-				if(r_activeTexture == null)
+				if(r_PactiveTexture == null)
 				{
-					r_activeTexture = new(this, "activeTexture", -1);
-					r_activeTexture.SetBelong(this.instance);
+					r_PactiveTexture = new(this, "activeTexture", -1);
+					r_PactiveTexture.SetBelong(this.instance);
 				}
-				return r_activeTexture;
+				return r_PactiveTexture;
 			}
 		}
 
 		/// <summary>
 		/// Int32 targetDisplay
 		/// </summary>
-		protected RSystem.RInt32 r_targetDisplay;
-		public virtual RSystem.RInt32 RtargetDisplay
+		protected RSystem.RInt32 r_PtargetDisplay;
+		public virtual RSystem.RInt32 RPtargetDisplay
 		{
 			get
 			{
-				if(r_targetDisplay == null)
+				if(r_PtargetDisplay == null)
 				{
-					r_targetDisplay = new(this, "targetDisplay", -1);
-					r_targetDisplay.SetBelong(this.instance);
+					r_PtargetDisplay = new(this, "targetDisplay", -1);
+					r_PtargetDisplay.SetBelong(this.instance);
 				}
-				return r_targetDisplay;
+				return r_PtargetDisplay;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4 cameraToWorldMatrix
 		/// </summary>
-		protected RUnityEngine.RMatrix4x4 r_cameraToWorldMatrix;
-		public virtual RUnityEngine.RMatrix4x4 RcameraToWorldMatrix
+		protected RUnityEngine.RMatrix4x4 r_PcameraToWorldMatrix;
+		public virtual RUnityEngine.RMatrix4x4 RPcameraToWorldMatrix
 		{
 			get
 			{
-				if(r_cameraToWorldMatrix == null)
+				if(r_PcameraToWorldMatrix == null)
 				{
-					r_cameraToWorldMatrix = new(this, "cameraToWorldMatrix", -1);
-					r_cameraToWorldMatrix.SetBelong(this.instance);
+					r_PcameraToWorldMatrix = new(this, "cameraToWorldMatrix", -1);
+					r_PcameraToWorldMatrix.SetBelong(this.instance);
 				}
-				return r_cameraToWorldMatrix;
+				return r_PcameraToWorldMatrix;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4 worldToCameraMatrix
 		/// </summary>
-		protected RUnityEngine.RMatrix4x4 r_worldToCameraMatrix;
-		public virtual RUnityEngine.RMatrix4x4 RworldToCameraMatrix
+		protected RUnityEngine.RMatrix4x4 r_PworldToCameraMatrix;
+		public virtual RUnityEngine.RMatrix4x4 RPworldToCameraMatrix
 		{
 			get
 			{
-				if(r_worldToCameraMatrix == null)
+				if(r_PworldToCameraMatrix == null)
 				{
-					r_worldToCameraMatrix = new(this, "worldToCameraMatrix", -1);
-					r_worldToCameraMatrix.SetBelong(this.instance);
+					r_PworldToCameraMatrix = new(this, "worldToCameraMatrix", -1);
+					r_PworldToCameraMatrix.SetBelong(this.instance);
 				}
-				return r_worldToCameraMatrix;
+				return r_PworldToCameraMatrix;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4 projectionMatrix
 		/// </summary>
-		protected RUnityEngine.RMatrix4x4 r_projectionMatrix;
-		public virtual RUnityEngine.RMatrix4x4 RprojectionMatrix
+		protected RUnityEngine.RMatrix4x4 r_PprojectionMatrix;
+		public virtual RUnityEngine.RMatrix4x4 RPprojectionMatrix
 		{
 			get
 			{
-				if(r_projectionMatrix == null)
+				if(r_PprojectionMatrix == null)
 				{
-					r_projectionMatrix = new(this, "projectionMatrix", -1);
-					r_projectionMatrix.SetBelong(this.instance);
+					r_PprojectionMatrix = new(this, "projectionMatrix", -1);
+					r_PprojectionMatrix.SetBelong(this.instance);
 				}
-				return r_projectionMatrix;
+				return r_PprojectionMatrix;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4 nonJitteredProjectionMatrix
 		/// </summary>
-		protected RUnityEngine.RMatrix4x4 r_nonJitteredProjectionMatrix;
-		public virtual RUnityEngine.RMatrix4x4 RnonJitteredProjectionMatrix
+		protected RUnityEngine.RMatrix4x4 r_PnonJitteredProjectionMatrix;
+		public virtual RUnityEngine.RMatrix4x4 RPnonJitteredProjectionMatrix
 		{
 			get
 			{
-				if(r_nonJitteredProjectionMatrix == null)
+				if(r_PnonJitteredProjectionMatrix == null)
 				{
-					r_nonJitteredProjectionMatrix = new(this, "nonJitteredProjectionMatrix", -1);
-					r_nonJitteredProjectionMatrix.SetBelong(this.instance);
+					r_PnonJitteredProjectionMatrix = new(this, "nonJitteredProjectionMatrix", -1);
+					r_PnonJitteredProjectionMatrix.SetBelong(this.instance);
 				}
-				return r_nonJitteredProjectionMatrix;
+				return r_PnonJitteredProjectionMatrix;
 			}
 		}
 
 		/// <summary>
 		/// Boolean useJitteredProjectionMatrixForTransparentRendering
 		/// </summary>
-		protected RSystem.RBoolean r_useJitteredProjectionMatrixForTransparentRendering;
-		public virtual RSystem.RBoolean RuseJitteredProjectionMatrixForTransparentRendering
+		protected RSystem.RBoolean r_PuseJitteredProjectionMatrixForTransparentRendering;
+		public virtual RSystem.RBoolean RPuseJitteredProjectionMatrixForTransparentRendering
 		{
 			get
 			{
-				if(r_useJitteredProjectionMatrixForTransparentRendering == null)
+				if(r_PuseJitteredProjectionMatrixForTransparentRendering == null)
 				{
-					r_useJitteredProjectionMatrixForTransparentRendering = new(this, "useJitteredProjectionMatrixForTransparentRendering", -1);
-					r_useJitteredProjectionMatrixForTransparentRendering.SetBelong(this.instance);
+					r_PuseJitteredProjectionMatrixForTransparentRendering = new(this, "useJitteredProjectionMatrixForTransparentRendering", -1);
+					r_PuseJitteredProjectionMatrixForTransparentRendering.SetBelong(this.instance);
 				}
-				return r_useJitteredProjectionMatrixForTransparentRendering;
+				return r_PuseJitteredProjectionMatrixForTransparentRendering;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4 previousViewProjectionMatrix
 		/// </summary>
-		protected RUnityEngine.RMatrix4x4 r_previousViewProjectionMatrix;
-		public virtual RUnityEngine.RMatrix4x4 RpreviousViewProjectionMatrix
+		protected RUnityEngine.RMatrix4x4 r_PpreviousViewProjectionMatrix;
+		public virtual RUnityEngine.RMatrix4x4 RPpreviousViewProjectionMatrix
 		{
 			get
 			{
-				if(r_previousViewProjectionMatrix == null)
+				if(r_PpreviousViewProjectionMatrix == null)
 				{
-					r_previousViewProjectionMatrix = new(this, "previousViewProjectionMatrix", -1);
-					r_previousViewProjectionMatrix.SetBelong(this.instance);
+					r_PpreviousViewProjectionMatrix = new(this, "previousViewProjectionMatrix", -1);
+					r_PpreviousViewProjectionMatrix.SetBelong(this.instance);
 				}
-				return r_previousViewProjectionMatrix;
+				return r_PpreviousViewProjectionMatrix;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Camera main
 		/// </summary>
-		protected static RUnityEngine.RCamera r_main;
-		public static RUnityEngine.RCamera Rmain
+		protected static RUnityEngine.RCamera r_Pmain;
+		public static RUnityEngine.RCamera RPmain
 		{
 			get
 			{
-				if(r_main == null)
+				if(r_Pmain == null)
 				{
-					r_main = new(typeof(UnityEngine.Camera), "main", -1);
-					r_main.SetBelong(null);
+					r_Pmain = new(typeof(UnityEngine.Camera), "main", -1);
+					r_Pmain.SetBelong(null);
 				}
-				return r_main;
+				return r_Pmain;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Camera current
 		/// </summary>
-		protected static RUnityEngine.RCamera r_current;
-		public static RUnityEngine.RCamera Rcurrent
+		protected static RUnityEngine.RCamera r_Pcurrent;
+		public static RUnityEngine.RCamera RPcurrent
 		{
 			get
 			{
-				if(r_current == null)
+				if(r_Pcurrent == null)
 				{
-					r_current = new(typeof(UnityEngine.Camera), "current", -1);
-					r_current.SetBelong(null);
+					r_Pcurrent = new(typeof(UnityEngine.Camera), "current", -1);
+					r_Pcurrent.SetBelong(null);
 				}
-				return r_current;
+				return r_Pcurrent;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.SceneManagement.Scene scene
 		/// </summary>
-		protected RUnityEngine.RSceneManagement.RScene r_scene;
-		public virtual RUnityEngine.RSceneManagement.RScene Rscene
+		protected RUnityEngine.RSceneManagement.RScene r_Pscene;
+		public virtual RUnityEngine.RSceneManagement.RScene RPscene
 		{
 			get
 			{
-				if(r_scene == null)
+				if(r_Pscene == null)
 				{
-					r_scene = new(this, "scene", -1);
-					r_scene.SetBelong(this.instance);
+					r_Pscene = new(this, "scene", -1);
+					r_Pscene.SetBelong(this.instance);
 				}
-				return r_scene;
+				return r_Pscene;
 			}
 		}
 
 		/// <summary>
 		/// Boolean stereoEnabled
 		/// </summary>
-		protected RSystem.RBoolean r_stereoEnabled;
-		public virtual RSystem.RBoolean RstereoEnabled
+		protected RSystem.RBoolean r_PstereoEnabled;
+		public virtual RSystem.RBoolean RPstereoEnabled
 		{
 			get
 			{
-				if(r_stereoEnabled == null)
+				if(r_PstereoEnabled == null)
 				{
-					r_stereoEnabled = new(this, "stereoEnabled", -1);
-					r_stereoEnabled.SetBelong(this.instance);
+					r_PstereoEnabled = new(this, "stereoEnabled", -1);
+					r_PstereoEnabled.SetBelong(this.instance);
 				}
-				return r_stereoEnabled;
+				return r_PstereoEnabled;
 			}
 		}
 
 		/// <summary>
 		/// Single stereoSeparation
 		/// </summary>
-		protected RSystem.RSingle r_stereoSeparation;
-		public virtual RSystem.RSingle RstereoSeparation
+		protected RSystem.RSingle r_PstereoSeparation;
+		public virtual RSystem.RSingle RPstereoSeparation
 		{
 			get
 			{
-				if(r_stereoSeparation == null)
+				if(r_PstereoSeparation == null)
 				{
-					r_stereoSeparation = new(this, "stereoSeparation", -1);
-					r_stereoSeparation.SetBelong(this.instance);
+					r_PstereoSeparation = new(this, "stereoSeparation", -1);
+					r_PstereoSeparation.SetBelong(this.instance);
 				}
-				return r_stereoSeparation;
+				return r_PstereoSeparation;
 			}
 		}
 
 		/// <summary>
 		/// Single stereoConvergence
 		/// </summary>
-		protected RSystem.RSingle r_stereoConvergence;
-		public virtual RSystem.RSingle RstereoConvergence
+		protected RSystem.RSingle r_PstereoConvergence;
+		public virtual RSystem.RSingle RPstereoConvergence
 		{
 			get
 			{
-				if(r_stereoConvergence == null)
+				if(r_PstereoConvergence == null)
 				{
-					r_stereoConvergence = new(this, "stereoConvergence", -1);
-					r_stereoConvergence.SetBelong(this.instance);
+					r_PstereoConvergence = new(this, "stereoConvergence", -1);
+					r_PstereoConvergence.SetBelong(this.instance);
 				}
-				return r_stereoConvergence;
+				return r_PstereoConvergence;
 			}
 		}
 
 		/// <summary>
 		/// Boolean areVRStereoViewMatricesWithinSingleCullTolerance
 		/// </summary>
-		protected RSystem.RBoolean r_areVRStereoViewMatricesWithinSingleCullTolerance;
-		public virtual RSystem.RBoolean RareVRStereoViewMatricesWithinSingleCullTolerance
+		protected RSystem.RBoolean r_PareVRStereoViewMatricesWithinSingleCullTolerance;
+		public virtual RSystem.RBoolean RPareVRStereoViewMatricesWithinSingleCullTolerance
 		{
 			get
 			{
-				if(r_areVRStereoViewMatricesWithinSingleCullTolerance == null)
+				if(r_PareVRStereoViewMatricesWithinSingleCullTolerance == null)
 				{
-					r_areVRStereoViewMatricesWithinSingleCullTolerance = new(this, "areVRStereoViewMatricesWithinSingleCullTolerance", -1);
-					r_areVRStereoViewMatricesWithinSingleCullTolerance.SetBelong(this.instance);
+					r_PareVRStereoViewMatricesWithinSingleCullTolerance = new(this, "areVRStereoViewMatricesWithinSingleCullTolerance", -1);
+					r_PareVRStereoViewMatricesWithinSingleCullTolerance.SetBelong(this.instance);
 				}
-				return r_areVRStereoViewMatricesWithinSingleCullTolerance;
+				return r_PareVRStereoViewMatricesWithinSingleCullTolerance;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.StereoTargetEyeMask stereoTargetEye
 		/// </summary>
-		protected RProperty r_stereoTargetEye;
-		public virtual RProperty RstereoTargetEye
+		protected RUnityEngine.RStereoTargetEyeMask r_PstereoTargetEye;
+		public virtual RUnityEngine.RStereoTargetEyeMask RPstereoTargetEye
 		{
 			get
 			{
-				if(r_stereoTargetEye == null)
+				if(r_PstereoTargetEye == null)
 				{
-					r_stereoTargetEye = new(this, "stereoTargetEye", -1);
-					r_stereoTargetEye.SetBelong(this.instance);
+					r_PstereoTargetEye = new(this, "stereoTargetEye", -1);
+					r_PstereoTargetEye.SetBelong(this.instance);
 				}
-				return r_stereoTargetEye;
+				return r_PstereoTargetEye;
 			}
 		}
 
 		/// <summary>
 		/// MonoOrStereoscopicEye stereoActiveEye
 		/// </summary>
-		protected RProperty r_stereoActiveEye;
-		public virtual RProperty RstereoActiveEye
+		protected RUnityEngine.RCamera.RMonoOrStereoscopicEye r_PstereoActiveEye;
+		public virtual RUnityEngine.RCamera.RMonoOrStereoscopicEye RPstereoActiveEye
 		{
 			get
 			{
-				if(r_stereoActiveEye == null)
+				if(r_PstereoActiveEye == null)
 				{
-					r_stereoActiveEye = new(this, "stereoActiveEye", -1);
-					r_stereoActiveEye.SetBelong(this.instance);
+					r_PstereoActiveEye = new(this, "stereoActiveEye", -1);
+					r_PstereoActiveEye.SetBelong(this.instance);
 				}
-				return r_stereoActiveEye;
+				return r_PstereoActiveEye;
 			}
 		}
 
 		/// <summary>
 		/// Int32 allCamerasCount
 		/// </summary>
-		protected static RSystem.RInt32 r_allCamerasCount;
-		public static RSystem.RInt32 RallCamerasCount
+		protected static RSystem.RInt32 r_PallCamerasCount;
+		public static RSystem.RInt32 RPallCamerasCount
 		{
 			get
 			{
-				if(r_allCamerasCount == null)
+				if(r_PallCamerasCount == null)
 				{
-					r_allCamerasCount = new(typeof(UnityEngine.Camera), "allCamerasCount", -1);
-					r_allCamerasCount.SetBelong(null);
+					r_PallCamerasCount = new(typeof(UnityEngine.Camera), "allCamerasCount", -1);
+					r_PallCamerasCount.SetBelong(null);
 				}
-				return r_allCamerasCount;
+				return r_PallCamerasCount;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Camera[] allCameras
 		/// </summary>
-		protected static RPropertyArray<RUnityEngine.RCamera> r_allCameras;
-		public static RPropertyArray<RUnityEngine.RCamera> RallCameras
+		protected static RPropertyArray<RUnityEngine.RCamera> r_PallCameras;
+		public static RPropertyArray<RUnityEngine.RCamera> RPallCameras
 		{
 			get
 			{
-				if(r_allCameras == null)
+				if(r_PallCameras == null)
 				{
-					r_allCameras = new(typeof(UnityEngine.Camera), "allCameras", -1);
-					r_allCameras.SetBelong(null);
+					r_PallCameras = new(typeof(UnityEngine.Camera), "allCameras", -1);
+					r_PallCameras.SetBelong(null);
 				}
-				return r_allCameras;
+				return r_PallCameras;
 			}
 		}
 
 		/// <summary>
 		/// SceneViewFilterMode sceneViewFilterMode
 		/// </summary>
-		protected RProperty r_sceneViewFilterMode;
-		public virtual RProperty RsceneViewFilterMode
+		protected RUnityEngine.RCamera.RSceneViewFilterMode r_PsceneViewFilterMode;
+		public virtual RUnityEngine.RCamera.RSceneViewFilterMode RPsceneViewFilterMode
 		{
 			get
 			{
-				if(r_sceneViewFilterMode == null)
+				if(r_PsceneViewFilterMode == null)
 				{
-					r_sceneViewFilterMode = new(this, "sceneViewFilterMode", -1);
-					r_sceneViewFilterMode.SetBelong(this.instance);
+					r_PsceneViewFilterMode = new(this, "sceneViewFilterMode", -1);
+					r_PsceneViewFilterMode.SetBelong(this.instance);
 				}
-				return r_sceneViewFilterMode;
+				return r_PsceneViewFilterMode;
 			}
 		}
 
 		/// <summary>
 		/// Int32 commandBufferCount
 		/// </summary>
-		protected RSystem.RInt32 r_commandBufferCount;
-		public virtual RSystem.RInt32 RcommandBufferCount
+		protected RSystem.RInt32 r_PcommandBufferCount;
+		public virtual RSystem.RInt32 RPcommandBufferCount
 		{
 			get
 			{
-				if(r_commandBufferCount == null)
+				if(r_PcommandBufferCount == null)
 				{
-					r_commandBufferCount = new(this, "commandBufferCount", -1);
-					r_commandBufferCount.SetBelong(this.instance);
+					r_PcommandBufferCount = new(this, "commandBufferCount", -1);
+					r_PcommandBufferCount.SetBelong(this.instance);
 				}
-				return r_commandBufferCount;
+				return r_PcommandBufferCount;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isOrthoGraphic
 		/// </summary>
-		protected RSystem.RBoolean r_isOrthoGraphic;
-		public virtual RSystem.RBoolean RisOrthoGraphic
+		protected RSystem.RBoolean r_PisOrthoGraphic;
+		public virtual RSystem.RBoolean RPisOrthoGraphic
 		{
 			get
 			{
-				if(r_isOrthoGraphic == null)
+				if(r_PisOrthoGraphic == null)
 				{
-					r_isOrthoGraphic = new(this, "isOrthoGraphic", -1);
-					r_isOrthoGraphic.SetBelong(this.instance);
+					r_PisOrthoGraphic = new(this, "isOrthoGraphic", -1);
+					r_PisOrthoGraphic.SetBelong(this.instance);
 				}
-				return r_isOrthoGraphic;
+				return r_PisOrthoGraphic;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Camera mainCamera
 		/// </summary>
-		protected static RUnityEngine.RCamera r_mainCamera;
-		public static RUnityEngine.RCamera RmainCamera
+		protected static RUnityEngine.RCamera r_PmainCamera;
+		public static RUnityEngine.RCamera RPmainCamera
 		{
 			get
 			{
-				if(r_mainCamera == null)
+				if(r_PmainCamera == null)
 				{
-					r_mainCamera = new(typeof(UnityEngine.Camera), "mainCamera", -1);
-					r_mainCamera.SetBelong(null);
+					r_PmainCamera = new(typeof(UnityEngine.Camera), "mainCamera", -1);
+					r_PmainCamera.SetBelong(null);
 				}
-				return r_mainCamera;
+				return r_PmainCamera;
 			}
 		}
 
 		/// <summary>
 		/// Single near
 		/// </summary>
-		protected RSystem.RSingle r_near;
-		public virtual RSystem.RSingle Rnear
+		protected RSystem.RSingle r_Pnear;
+		public virtual RSystem.RSingle RPnear
 		{
 			get
 			{
-				if(r_near == null)
+				if(r_Pnear == null)
 				{
-					r_near = new(this, "near", -1);
-					r_near.SetBelong(this.instance);
+					r_Pnear = new(this, "near", -1);
+					r_Pnear.SetBelong(this.instance);
 				}
-				return r_near;
+				return r_Pnear;
 			}
 		}
 
 		/// <summary>
 		/// Single far
 		/// </summary>
-		protected RSystem.RSingle r_far;
-		public virtual RSystem.RSingle Rfar
+		protected RSystem.RSingle r_Pfar;
+		public virtual RSystem.RSingle RPfar
 		{
 			get
 			{
-				if(r_far == null)
+				if(r_Pfar == null)
 				{
-					r_far = new(this, "far", -1);
-					r_far.SetBelong(this.instance);
+					r_Pfar = new(this, "far", -1);
+					r_Pfar.SetBelong(this.instance);
 				}
-				return r_far;
+				return r_Pfar;
 			}
 		}
 
 		/// <summary>
 		/// Single fov
 		/// </summary>
-		protected RSystem.RSingle r_fov;
-		public virtual RSystem.RSingle Rfov
+		protected RSystem.RSingle r_Pfov;
+		public virtual RSystem.RSingle RPfov
 		{
 			get
 			{
-				if(r_fov == null)
+				if(r_Pfov == null)
 				{
-					r_fov = new(this, "fov", -1);
-					r_fov.SetBelong(this.instance);
+					r_Pfov = new(this, "fov", -1);
+					r_Pfov.SetBelong(this.instance);
 				}
-				return r_fov;
+				return r_Pfov;
 			}
 		}
 
 		/// <summary>
 		/// Boolean hdr
 		/// </summary>
-		protected RSystem.RBoolean r_hdr;
-		public virtual RSystem.RBoolean Rhdr
+		protected RSystem.RBoolean r_Phdr;
+		public virtual RSystem.RBoolean RPhdr
 		{
 			get
 			{
-				if(r_hdr == null)
+				if(r_Phdr == null)
 				{
-					r_hdr = new(this, "hdr", -1);
-					r_hdr.SetBelong(this.instance);
+					r_Phdr = new(this, "hdr", -1);
+					r_Phdr.SetBelong(this.instance);
 				}
-				return r_hdr;
+				return r_Phdr;
 			}
 		}
 
 		/// <summary>
 		/// Boolean stereoMirrorMode
 		/// </summary>
-		protected RSystem.RBoolean r_stereoMirrorMode;
-		public virtual RSystem.RBoolean RstereoMirrorMode
+		protected RSystem.RBoolean r_PstereoMirrorMode;
+		public virtual RSystem.RBoolean RPstereoMirrorMode
 		{
 			get
 			{
-				if(r_stereoMirrorMode == null)
+				if(r_PstereoMirrorMode == null)
 				{
-					r_stereoMirrorMode = new(this, "stereoMirrorMode", -1);
-					r_stereoMirrorMode.SetBelong(this.instance);
+					r_PstereoMirrorMode = new(this, "stereoMirrorMode", -1);
+					r_PstereoMirrorMode.SetBelong(this.instance);
 				}
-				return r_stereoMirrorMode;
+				return r_PstereoMirrorMode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected RSystem.RBoolean r_enabled;
-		public virtual RSystem.RBoolean Renabled
+		protected RSystem.RBoolean r_Penabled;
+		public virtual RSystem.RBoolean RPenabled
 		{
 			get
 			{
-				if(r_enabled == null)
+				if(r_Penabled == null)
 				{
-					r_enabled = new(this, "enabled", -1);
-					r_enabled.SetBelong(this.instance);
+					r_Penabled = new(this, "enabled", -1);
+					r_Penabled.SetBelong(this.instance);
 				}
-				return r_enabled;
+				return r_Penabled;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isActiveAndEnabled
 		/// </summary>
-		protected RSystem.RBoolean r_isActiveAndEnabled;
-		public virtual RSystem.RBoolean RisActiveAndEnabled
+		protected RSystem.RBoolean r_PisActiveAndEnabled;
+		public virtual RSystem.RBoolean RPisActiveAndEnabled
 		{
 			get
 			{
-				if(r_isActiveAndEnabled == null)
+				if(r_PisActiveAndEnabled == null)
 				{
-					r_isActiveAndEnabled = new(this, "isActiveAndEnabled", -1);
-					r_isActiveAndEnabled.SetBelong(this.instance);
+					r_PisActiveAndEnabled = new(this, "isActiveAndEnabled", -1);
+					r_PisActiveAndEnabled.SetBelong(this.instance);
 				}
-				return r_isActiveAndEnabled;
+				return r_PisActiveAndEnabled;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Transform transform
 		/// </summary>
-		protected RUnityEngine.RTransform r_transform;
-		public virtual RUnityEngine.RTransform Rtransform
+		protected RUnityEngine.RTransform r_Ptransform;
+		public virtual RUnityEngine.RTransform RPtransform
 		{
 			get
 			{
-				if(r_transform == null)
+				if(r_Ptransform == null)
 				{
-					r_transform = new(this, "transform", -1);
-					r_transform.SetBelong(this.instance);
+					r_Ptransform = new(this, "transform", -1);
+					r_Ptransform.SetBelong(this.instance);
 				}
-				return r_transform;
+				return r_Ptransform;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.GameObject gameObject
 		/// </summary>
-		protected RUnityEngine.RGameObject r_gameObject;
-		public virtual RUnityEngine.RGameObject RgameObject
+		protected RUnityEngine.RGameObject r_PgameObject;
+		public virtual RUnityEngine.RGameObject RPgameObject
 		{
 			get
 			{
-				if(r_gameObject == null)
+				if(r_PgameObject == null)
 				{
-					r_gameObject = new(this, "gameObject", -1);
-					r_gameObject.SetBelong(this.instance);
+					r_PgameObject = new(this, "gameObject", -1);
+					r_PgameObject.SetBelong(this.instance);
 				}
-				return r_gameObject;
+				return r_PgameObject;
 			}
 		}
 
 		/// <summary>
 		/// System.String tag
 		/// </summary>
-		protected RSystem.RString r_tag;
-		public virtual RSystem.RString Rtag
+		protected RSystem.RString r_Ptag;
+		public virtual RSystem.RString RPtag
 		{
 			get
 			{
-				if(r_tag == null)
+				if(r_Ptag == null)
 				{
-					r_tag = new(this, "tag", -1);
-					r_tag.SetBelong(this.instance);
+					r_Ptag = new(this, "tag", -1);
+					r_Ptag.SetBelong(this.instance);
 				}
-				return r_tag;
+				return r_Ptag;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component rigidbody
 		/// </summary>
-		protected RUnityEngine.RComponent r_rigidbody;
-		public virtual RUnityEngine.RComponent Rrigidbody
+		protected RUnityEngine.RComponent r_Prigidbody;
+		public virtual RUnityEngine.RComponent RPrigidbody
 		{
 			get
 			{
-				if(r_rigidbody == null)
+				if(r_Prigidbody == null)
 				{
-					r_rigidbody = new(this, "rigidbody", -1);
-					r_rigidbody.SetBelong(this.instance);
+					r_Prigidbody = new(this, "rigidbody", -1);
+					r_Prigidbody.SetBelong(this.instance);
 				}
-				return r_rigidbody;
+				return r_Prigidbody;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component rigidbody2D
 		/// </summary>
-		protected RUnityEngine.RComponent r_rigidbody2D;
-		public virtual RUnityEngine.RComponent Rrigidbody2D
+		protected RUnityEngine.RComponent r_Prigidbody2D;
+		public virtual RUnityEngine.RComponent RPrigidbody2D
 		{
 			get
 			{
-				if(r_rigidbody2D == null)
+				if(r_Prigidbody2D == null)
 				{
-					r_rigidbody2D = new(this, "rigidbody2D", -1);
-					r_rigidbody2D.SetBelong(this.instance);
+					r_Prigidbody2D = new(this, "rigidbody2D", -1);
+					r_Prigidbody2D.SetBelong(this.instance);
 				}
-				return r_rigidbody2D;
+				return r_Prigidbody2D;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component camera
 		/// </summary>
-		protected RUnityEngine.RComponent r_camera;
-		public virtual RUnityEngine.RComponent Rcamera
+		protected RUnityEngine.RComponent r_Pcamera;
+		public virtual RUnityEngine.RComponent RPcamera
 		{
 			get
 			{
-				if(r_camera == null)
+				if(r_Pcamera == null)
 				{
-					r_camera = new(this, "camera", -1);
-					r_camera.SetBelong(this.instance);
+					r_Pcamera = new(this, "camera", -1);
+					r_Pcamera.SetBelong(this.instance);
 				}
-				return r_camera;
+				return r_Pcamera;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component light
 		/// </summary>
-		protected RUnityEngine.RComponent r_light;
-		public virtual RUnityEngine.RComponent Rlight
+		protected RUnityEngine.RComponent r_Plight;
+		public virtual RUnityEngine.RComponent RPlight
 		{
 			get
 			{
-				if(r_light == null)
+				if(r_Plight == null)
 				{
-					r_light = new(this, "light", -1);
-					r_light.SetBelong(this.instance);
+					r_Plight = new(this, "light", -1);
+					r_Plight.SetBelong(this.instance);
 				}
-				return r_light;
+				return r_Plight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component animation
 		/// </summary>
-		protected RUnityEngine.RComponent r_animation;
-		public virtual RUnityEngine.RComponent Ranimation
+		protected RUnityEngine.RComponent r_Panimation;
+		public virtual RUnityEngine.RComponent RPanimation
 		{
 			get
 			{
-				if(r_animation == null)
+				if(r_Panimation == null)
 				{
-					r_animation = new(this, "animation", -1);
-					r_animation.SetBelong(this.instance);
+					r_Panimation = new(this, "animation", -1);
+					r_Panimation.SetBelong(this.instance);
 				}
-				return r_animation;
+				return r_Panimation;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component constantForce
 		/// </summary>
-		protected RUnityEngine.RComponent r_constantForce;
-		public virtual RUnityEngine.RComponent RconstantForce
+		protected RUnityEngine.RComponent r_PconstantForce;
+		public virtual RUnityEngine.RComponent RPconstantForce
 		{
 			get
 			{
-				if(r_constantForce == null)
+				if(r_PconstantForce == null)
 				{
-					r_constantForce = new(this, "constantForce", -1);
-					r_constantForce.SetBelong(this.instance);
+					r_PconstantForce = new(this, "constantForce", -1);
+					r_PconstantForce.SetBelong(this.instance);
 				}
-				return r_constantForce;
+				return r_PconstantForce;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component renderer
 		/// </summary>
-		protected RUnityEngine.RComponent r_renderer;
-		public virtual RUnityEngine.RComponent Rrenderer
+		protected RUnityEngine.RComponent r_Prenderer;
+		public virtual RUnityEngine.RComponent RPrenderer
 		{
 			get
 			{
-				if(r_renderer == null)
+				if(r_Prenderer == null)
 				{
-					r_renderer = new(this, "renderer", -1);
-					r_renderer.SetBelong(this.instance);
+					r_Prenderer = new(this, "renderer", -1);
+					r_Prenderer.SetBelong(this.instance);
 				}
-				return r_renderer;
+				return r_Prenderer;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component audio
 		/// </summary>
-		protected RUnityEngine.RComponent r_audio;
-		public virtual RUnityEngine.RComponent Raudio
+		protected RUnityEngine.RComponent r_Paudio;
+		public virtual RUnityEngine.RComponent RPaudio
 		{
 			get
 			{
-				if(r_audio == null)
+				if(r_Paudio == null)
 				{
-					r_audio = new(this, "audio", -1);
-					r_audio.SetBelong(this.instance);
+					r_Paudio = new(this, "audio", -1);
+					r_Paudio.SetBelong(this.instance);
 				}
-				return r_audio;
+				return r_Paudio;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component networkView
 		/// </summary>
-		protected RUnityEngine.RComponent r_networkView;
-		public virtual RUnityEngine.RComponent RnetworkView
+		protected RUnityEngine.RComponent r_PnetworkView;
+		public virtual RUnityEngine.RComponent RPnetworkView
 		{
 			get
 			{
-				if(r_networkView == null)
+				if(r_PnetworkView == null)
 				{
-					r_networkView = new(this, "networkView", -1);
-					r_networkView.SetBelong(this.instance);
+					r_PnetworkView = new(this, "networkView", -1);
+					r_PnetworkView.SetBelong(this.instance);
 				}
-				return r_networkView;
+				return r_PnetworkView;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component collider
 		/// </summary>
-		protected RUnityEngine.RComponent r_collider;
-		public virtual RUnityEngine.RComponent Rcollider
+		protected RUnityEngine.RComponent r_Pcollider;
+		public virtual RUnityEngine.RComponent RPcollider
 		{
 			get
 			{
-				if(r_collider == null)
+				if(r_Pcollider == null)
 				{
-					r_collider = new(this, "collider", -1);
-					r_collider.SetBelong(this.instance);
+					r_Pcollider = new(this, "collider", -1);
+					r_Pcollider.SetBelong(this.instance);
 				}
-				return r_collider;
+				return r_Pcollider;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component collider2D
 		/// </summary>
-		protected RUnityEngine.RComponent r_collider2D;
-		public virtual RUnityEngine.RComponent Rcollider2D
+		protected RUnityEngine.RComponent r_Pcollider2D;
+		public virtual RUnityEngine.RComponent RPcollider2D
 		{
 			get
 			{
-				if(r_collider2D == null)
+				if(r_Pcollider2D == null)
 				{
-					r_collider2D = new(this, "collider2D", -1);
-					r_collider2D.SetBelong(this.instance);
+					r_Pcollider2D = new(this, "collider2D", -1);
+					r_Pcollider2D.SetBelong(this.instance);
 				}
-				return r_collider2D;
+				return r_Pcollider2D;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component hingeJoint
 		/// </summary>
-		protected RUnityEngine.RComponent r_hingeJoint;
-		public virtual RUnityEngine.RComponent RhingeJoint
+		protected RUnityEngine.RComponent r_PhingeJoint;
+		public virtual RUnityEngine.RComponent RPhingeJoint
 		{
 			get
 			{
-				if(r_hingeJoint == null)
+				if(r_PhingeJoint == null)
 				{
-					r_hingeJoint = new(this, "hingeJoint", -1);
-					r_hingeJoint.SetBelong(this.instance);
+					r_PhingeJoint = new(this, "hingeJoint", -1);
+					r_PhingeJoint.SetBelong(this.instance);
 				}
-				return r_hingeJoint;
+				return r_PhingeJoint;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component particleSystem
 		/// </summary>
-		protected RUnityEngine.RComponent r_particleSystem;
-		public virtual RUnityEngine.RComponent RparticleSystem
+		protected RUnityEngine.RComponent r_PparticleSystem;
+		public virtual RUnityEngine.RComponent RPparticleSystem
 		{
 			get
 			{
-				if(r_particleSystem == null)
+				if(r_PparticleSystem == null)
 				{
-					r_particleSystem = new(this, "particleSystem", -1);
-					r_particleSystem.SetBelong(this.instance);
+					r_PparticleSystem = new(this, "particleSystem", -1);
+					r_PparticleSystem.SetBelong(this.instance);
 				}
-				return r_particleSystem;
+				return r_PparticleSystem;
 			}
 		}
 
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RSystem.RString r_name;
-		public virtual RSystem.RString Rname
+		protected RSystem.RString r_Pname;
+		public virtual RSystem.RString RPname
 		{
 			get
 			{
-				if(r_name == null)
+				if(r_Pname == null)
 				{
-					r_name = new(this, "name", -1);
-					r_name.SetBelong(this.instance);
+					r_Pname = new(this, "name", -1);
+					r_Pname.SetBelong(this.instance);
 				}
-				return r_name;
+				return r_Pname;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected RProperty r_hideFlags;
-		public virtual RProperty RhideFlags
+		protected RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{
-				if(r_hideFlags == null)
+				if(r_PhideFlags == null)
 				{
-					r_hideFlags = new(this, "hideFlags", -1);
-					r_hideFlags.SetBelong(this.instance);
+					r_PhideFlags = new(this, "hideFlags", -1);
+					r_PhideFlags.SetBelong(this.instance);
 				}
-				return r_hideFlags;
+				return r_PhideFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void Reset()
 		/// </summary>
-		protected RMethod r_Reset;
-		public virtual RMethod RReset
+		protected RMethod r_MReset;
+		public virtual RMethod RMReset
 		{
 			get
 			{
-				if(r_Reset == null)
+				if(r_MReset == null)
 				{
-					r_Reset = new(this, "Reset", 0);
-					r_Reset.SetBelong(this.instance);
+					r_MReset = new(this, "Reset", 0);
+					r_MReset.SetBelong(this.instance);
 				}
-				return r_Reset;
+				return r_MReset;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetTransparencySortSettings()
 		/// </summary>
-		protected RMethod r_ResetTransparencySortSettings;
-		public virtual RMethod RResetTransparencySortSettings
+		protected RMethod r_MResetTransparencySortSettings;
+		public virtual RMethod RMResetTransparencySortSettings
 		{
 			get
 			{
-				if(r_ResetTransparencySortSettings == null)
+				if(r_MResetTransparencySortSettings == null)
 				{
-					r_ResetTransparencySortSettings = new(this, "ResetTransparencySortSettings", 0);
-					r_ResetTransparencySortSettings.SetBelong(this.instance);
+					r_MResetTransparencySortSettings = new(this, "ResetTransparencySortSettings", 0);
+					r_MResetTransparencySortSettings.SetBelong(this.instance);
 				}
-				return r_ResetTransparencySortSettings;
+				return r_MResetTransparencySortSettings;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetAspect()
 		/// </summary>
-		protected RMethod r_ResetAspect;
-		public virtual RMethod RResetAspect
+		protected RMethod r_MResetAspect;
+		public virtual RMethod RMResetAspect
 		{
 			get
 			{
-				if(r_ResetAspect == null)
+				if(r_MResetAspect == null)
 				{
-					r_ResetAspect = new(this, "ResetAspect", 0);
-					r_ResetAspect.SetBelong(this.instance);
+					r_MResetAspect = new(this, "ResetAspect", 0);
+					r_MResetAspect.SetBelong(this.instance);
 				}
-				return r_ResetAspect;
+				return r_MResetAspect;
 			}
 		}
 
 		/// <summary>
 		/// Single[] GetLayerCullDistances()
 		/// </summary>
-		protected RMethod r_GetLayerCullDistances;
-		public virtual RMethod RGetLayerCullDistances
+		protected RMethod r_MGetLayerCullDistances;
+		public virtual RMethod RMGetLayerCullDistances
 		{
 			get
 			{
-				if(r_GetLayerCullDistances == null)
+				if(r_MGetLayerCullDistances == null)
 				{
-					r_GetLayerCullDistances = new(this, "GetLayerCullDistances", 0);
-					r_GetLayerCullDistances.SetBelong(this.instance);
+					r_MGetLayerCullDistances = new(this, "GetLayerCullDistances", 0);
+					r_MGetLayerCullDistances.SetBelong(this.instance);
 				}
-				return r_GetLayerCullDistances;
+				return r_MGetLayerCullDistances;
 			}
 		}
 
 		/// <summary>
 		/// Void SetLayerCullDistances(Single[])
 		/// </summary>
-		protected RMethod r_SetLayerCullDistances_SingleArray;
-		public virtual RMethod RSetLayerCullDistances_SingleArray
+		protected RMethod r_MSetLayerCullDistances_SingleArray;
+		public virtual RMethod RMSetLayerCullDistances_SingleArray
 		{
 			get
 			{
-				if(r_SetLayerCullDistances_SingleArray == null)
+				if(r_MSetLayerCullDistances_SingleArray == null)
 				{
-					r_SetLayerCullDistances_SingleArray = new(this, "SetLayerCullDistances", 0, typeof(System.Single).MakeArrayType());
-					r_SetLayerCullDistances_SingleArray.SetBelong(this.instance);
+					r_MSetLayerCullDistances_SingleArray = new(this, "SetLayerCullDistances", 0, typeof(System.Single).MakeArrayType());
+					r_MSetLayerCullDistances_SingleArray.SetBelong(this.instance);
 				}
-				return r_SetLayerCullDistances_SingleArray;
+				return r_MSetLayerCullDistances_SingleArray;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetCullingMatrix()
 		/// </summary>
-		protected RMethod r_ResetCullingMatrix;
-		public virtual RMethod RResetCullingMatrix
+		protected RMethod r_MResetCullingMatrix;
+		public virtual RMethod RMResetCullingMatrix
 		{
 			get
 			{
-				if(r_ResetCullingMatrix == null)
+				if(r_MResetCullingMatrix == null)
 				{
-					r_ResetCullingMatrix = new(this, "ResetCullingMatrix", 0);
-					r_ResetCullingMatrix.SetBelong(this.instance);
+					r_MResetCullingMatrix = new(this, "ResetCullingMatrix", 0);
+					r_MResetCullingMatrix.SetBelong(this.instance);
 				}
-				return r_ResetCullingMatrix;
+				return r_MResetCullingMatrix;
 			}
 		}
 
 		/// <summary>
 		/// Void SetReplacementShader(UnityEngine.Shader, System.String)
 		/// </summary>
-		protected RMethod r_SetReplacementShader_Shader_String;
-		public virtual RMethod RSetReplacementShader_Shader_String
+		protected RMethod r_MSetReplacementShader_Shader_String;
+		public virtual RMethod RMSetReplacementShader_Shader_String
 		{
 			get
 			{
-				if(r_SetReplacementShader_Shader_String == null)
+				if(r_MSetReplacementShader_Shader_String == null)
 				{
-					r_SetReplacementShader_Shader_String = new(this, "SetReplacementShader", 0, typeof(UnityEngine.Shader), typeof(System.String));
-					r_SetReplacementShader_Shader_String.SetBelong(this.instance);
+					r_MSetReplacementShader_Shader_String = new(this, "SetReplacementShader", 0, typeof(UnityEngine.Shader), typeof(System.String));
+					r_MSetReplacementShader_Shader_String.SetBelong(this.instance);
 				}
-				return r_SetReplacementShader_Shader_String;
+				return r_MSetReplacementShader_Shader_String;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetReplacementShader()
 		/// </summary>
-		protected RMethod r_ResetReplacementShader;
-		public virtual RMethod RResetReplacementShader
+		protected RMethod r_MResetReplacementShader;
+		public virtual RMethod RMResetReplacementShader
 		{
 			get
 			{
-				if(r_ResetReplacementShader == null)
+				if(r_MResetReplacementShader == null)
 				{
-					r_ResetReplacementShader = new(this, "ResetReplacementShader", 0);
-					r_ResetReplacementShader.SetBelong(this.instance);
+					r_MResetReplacementShader = new(this, "ResetReplacementShader", 0);
+					r_MResetReplacementShader.SetBelong(this.instance);
 				}
-				return r_ResetReplacementShader;
+				return r_MResetReplacementShader;
 			}
 		}
 
 		/// <summary>
 		/// Single GetGateFittedFieldOfView()
 		/// </summary>
-		protected RMethod r_GetGateFittedFieldOfView;
-		public virtual RMethod RGetGateFittedFieldOfView
+		protected RMethod r_MGetGateFittedFieldOfView;
+		public virtual RMethod RMGetGateFittedFieldOfView
 		{
 			get
 			{
-				if(r_GetGateFittedFieldOfView == null)
+				if(r_MGetGateFittedFieldOfView == null)
 				{
-					r_GetGateFittedFieldOfView = new(this, "GetGateFittedFieldOfView", 0);
-					r_GetGateFittedFieldOfView.SetBelong(this.instance);
+					r_MGetGateFittedFieldOfView = new(this, "GetGateFittedFieldOfView", 0);
+					r_MGetGateFittedFieldOfView.SetBelong(this.instance);
 				}
-				return r_GetGateFittedFieldOfView;
+				return r_MGetGateFittedFieldOfView;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 GetGateFittedLensShift()
 		/// </summary>
-		protected RMethod r_GetGateFittedLensShift;
-		public virtual RMethod RGetGateFittedLensShift
+		protected RMethod r_MGetGateFittedLensShift;
+		public virtual RMethod RMGetGateFittedLensShift
 		{
 			get
 			{
-				if(r_GetGateFittedLensShift == null)
+				if(r_MGetGateFittedLensShift == null)
 				{
-					r_GetGateFittedLensShift = new(this, "GetGateFittedLensShift", 0);
-					r_GetGateFittedLensShift.SetBelong(this.instance);
+					r_MGetGateFittedLensShift = new(this, "GetGateFittedLensShift", 0);
+					r_MGetGateFittedLensShift.SetBelong(this.instance);
 				}
-				return r_GetGateFittedLensShift;
+				return r_MGetGateFittedLensShift;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 GetLocalSpaceAim()
 		/// </summary>
-		protected RMethod r_GetLocalSpaceAim;
-		public virtual RMethod RGetLocalSpaceAim
+		protected RMethod r_MGetLocalSpaceAim;
+		public virtual RMethod RMGetLocalSpaceAim
 		{
 			get
 			{
-				if(r_GetLocalSpaceAim == null)
+				if(r_MGetLocalSpaceAim == null)
 				{
-					r_GetLocalSpaceAim = new(this, "GetLocalSpaceAim", 0);
-					r_GetLocalSpaceAim.SetBelong(this.instance);
+					r_MGetLocalSpaceAim = new(this, "GetLocalSpaceAim", 0);
+					r_MGetLocalSpaceAim.SetBelong(this.instance);
 				}
-				return r_GetLocalSpaceAim;
+				return r_MGetLocalSpaceAim;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTargetBuffersImpl(UnityEngine.RenderBuffer, UnityEngine.RenderBuffer)
 		/// </summary>
-		protected RMethod r_SetTargetBuffersImpl_RenderBuffer_RenderBuffer;
-		public virtual RMethod RSetTargetBuffersImpl_RenderBuffer_RenderBuffer
+		protected RMethod r_MSetTargetBuffersImpl_RenderBuffer_RenderBuffer;
+		public virtual RMethod RMSetTargetBuffersImpl_RenderBuffer_RenderBuffer
 		{
 			get
 			{
-				if(r_SetTargetBuffersImpl_RenderBuffer_RenderBuffer == null)
+				if(r_MSetTargetBuffersImpl_RenderBuffer_RenderBuffer == null)
 				{
-					r_SetTargetBuffersImpl_RenderBuffer_RenderBuffer = new(this, "SetTargetBuffersImpl", 0, typeof(UnityEngine.RenderBuffer), typeof(UnityEngine.RenderBuffer));
-					r_SetTargetBuffersImpl_RenderBuffer_RenderBuffer.SetBelong(this.instance);
+					r_MSetTargetBuffersImpl_RenderBuffer_RenderBuffer = new(this, "SetTargetBuffersImpl", 0, typeof(UnityEngine.RenderBuffer), typeof(UnityEngine.RenderBuffer));
+					r_MSetTargetBuffersImpl_RenderBuffer_RenderBuffer.SetBelong(this.instance);
 				}
-				return r_SetTargetBuffersImpl_RenderBuffer_RenderBuffer;
+				return r_MSetTargetBuffersImpl_RenderBuffer_RenderBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTargetBuffers(UnityEngine.RenderBuffer, UnityEngine.RenderBuffer)
 		/// </summary>
-		protected RMethod r_SetTargetBuffers_RenderBuffer_RenderBuffer;
-		public virtual RMethod RSetTargetBuffers_RenderBuffer_RenderBuffer
+		protected RMethod r_MSetTargetBuffers_RenderBuffer_RenderBuffer;
+		public virtual RMethod RMSetTargetBuffers_RenderBuffer_RenderBuffer
 		{
 			get
 			{
-				if(r_SetTargetBuffers_RenderBuffer_RenderBuffer == null)
+				if(r_MSetTargetBuffers_RenderBuffer_RenderBuffer == null)
 				{
-					r_SetTargetBuffers_RenderBuffer_RenderBuffer = new(this, "SetTargetBuffers", 0, typeof(UnityEngine.RenderBuffer), typeof(UnityEngine.RenderBuffer));
-					r_SetTargetBuffers_RenderBuffer_RenderBuffer.SetBelong(this.instance);
+					r_MSetTargetBuffers_RenderBuffer_RenderBuffer = new(this, "SetTargetBuffers", 0, typeof(UnityEngine.RenderBuffer), typeof(UnityEngine.RenderBuffer));
+					r_MSetTargetBuffers_RenderBuffer_RenderBuffer.SetBelong(this.instance);
 				}
-				return r_SetTargetBuffers_RenderBuffer_RenderBuffer;
+				return r_MSetTargetBuffers_RenderBuffer_RenderBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTargetBuffersMRTImpl(UnityEngine.RenderBuffer[], UnityEngine.RenderBuffer)
 		/// </summary>
-		protected RMethod r_SetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer;
-		public virtual RMethod RSetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer
+		protected RMethod r_MSetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer;
+		public virtual RMethod RMSetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer
 		{
 			get
 			{
-				if(r_SetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer == null)
+				if(r_MSetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer == null)
 				{
-					r_SetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer = new(this, "SetTargetBuffersMRTImpl", 0, typeof(UnityEngine.RenderBuffer).MakeArrayType(), typeof(UnityEngine.RenderBuffer));
-					r_SetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer.SetBelong(this.instance);
+					r_MSetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer = new(this, "SetTargetBuffersMRTImpl", 0, typeof(UnityEngine.RenderBuffer).MakeArrayType(), typeof(UnityEngine.RenderBuffer));
+					r_MSetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer.SetBelong(this.instance);
 				}
-				return r_SetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer;
+				return r_MSetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTargetBuffers(UnityEngine.RenderBuffer[], UnityEngine.RenderBuffer)
 		/// </summary>
-		protected RMethod r_SetTargetBuffers_RenderBufferArray_RenderBuffer;
-		public virtual RMethod RSetTargetBuffers_RenderBufferArray_RenderBuffer
+		protected RMethod r_MSetTargetBuffers_RenderBufferArray_RenderBuffer;
+		public virtual RMethod RMSetTargetBuffers_RenderBufferArray_RenderBuffer
 		{
 			get
 			{
-				if(r_SetTargetBuffers_RenderBufferArray_RenderBuffer == null)
+				if(r_MSetTargetBuffers_RenderBufferArray_RenderBuffer == null)
 				{
-					r_SetTargetBuffers_RenderBufferArray_RenderBuffer = new(this, "SetTargetBuffers", 0, typeof(UnityEngine.RenderBuffer).MakeArrayType(), typeof(UnityEngine.RenderBuffer));
-					r_SetTargetBuffers_RenderBufferArray_RenderBuffer.SetBelong(this.instance);
+					r_MSetTargetBuffers_RenderBufferArray_RenderBuffer = new(this, "SetTargetBuffers", 0, typeof(UnityEngine.RenderBuffer).MakeArrayType(), typeof(UnityEngine.RenderBuffer));
+					r_MSetTargetBuffers_RenderBufferArray_RenderBuffer.SetBelong(this.instance);
 				}
-				return r_SetTargetBuffers_RenderBufferArray_RenderBuffer;
+				return r_MSetTargetBuffers_RenderBufferArray_RenderBuffer;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] GetCameraBufferWarnings()
 		/// </summary>
-		protected RMethod r_GetCameraBufferWarnings;
-		public virtual RMethod RGetCameraBufferWarnings
+		protected RMethod r_MGetCameraBufferWarnings;
+		public virtual RMethod RMGetCameraBufferWarnings
 		{
 			get
 			{
-				if(r_GetCameraBufferWarnings == null)
+				if(r_MGetCameraBufferWarnings == null)
 				{
-					r_GetCameraBufferWarnings = new(this, "GetCameraBufferWarnings", 0);
-					r_GetCameraBufferWarnings.SetBelong(this.instance);
+					r_MGetCameraBufferWarnings = new(this, "GetCameraBufferWarnings", 0);
+					r_MGetCameraBufferWarnings.SetBelong(this.instance);
 				}
-				return r_GetCameraBufferWarnings;
+				return r_MGetCameraBufferWarnings;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetWorldToCameraMatrix()
 		/// </summary>
-		protected RMethod r_ResetWorldToCameraMatrix;
-		public virtual RMethod RResetWorldToCameraMatrix
+		protected RMethod r_MResetWorldToCameraMatrix;
+		public virtual RMethod RMResetWorldToCameraMatrix
 		{
 			get
 			{
-				if(r_ResetWorldToCameraMatrix == null)
+				if(r_MResetWorldToCameraMatrix == null)
 				{
-					r_ResetWorldToCameraMatrix = new(this, "ResetWorldToCameraMatrix", 0);
-					r_ResetWorldToCameraMatrix.SetBelong(this.instance);
+					r_MResetWorldToCameraMatrix = new(this, "ResetWorldToCameraMatrix", 0);
+					r_MResetWorldToCameraMatrix.SetBelong(this.instance);
 				}
-				return r_ResetWorldToCameraMatrix;
+				return r_MResetWorldToCameraMatrix;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetProjectionMatrix()
 		/// </summary>
-		protected RMethod r_ResetProjectionMatrix;
-		public virtual RMethod RResetProjectionMatrix
+		protected RMethod r_MResetProjectionMatrix;
+		public virtual RMethod RMResetProjectionMatrix
 		{
 			get
 			{
-				if(r_ResetProjectionMatrix == null)
+				if(r_MResetProjectionMatrix == null)
 				{
-					r_ResetProjectionMatrix = new(this, "ResetProjectionMatrix", 0);
-					r_ResetProjectionMatrix.SetBelong(this.instance);
+					r_MResetProjectionMatrix = new(this, "ResetProjectionMatrix", 0);
+					r_MResetProjectionMatrix.SetBelong(this.instance);
 				}
-				return r_ResetProjectionMatrix;
+				return r_MResetProjectionMatrix;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4 CalculateObliqueMatrix(UnityEngine.Vector4)
 		/// </summary>
-		protected RMethod r_CalculateObliqueMatrix_Vector4;
-		public virtual RMethod RCalculateObliqueMatrix_Vector4
+		protected RMethod r_MCalculateObliqueMatrix_Vector4;
+		public virtual RMethod RMCalculateObliqueMatrix_Vector4
 		{
 			get
 			{
-				if(r_CalculateObliqueMatrix_Vector4 == null)
+				if(r_MCalculateObliqueMatrix_Vector4 == null)
 				{
-					r_CalculateObliqueMatrix_Vector4 = new(this, "CalculateObliqueMatrix", 0, typeof(UnityEngine.Vector4));
-					r_CalculateObliqueMatrix_Vector4.SetBelong(this.instance);
+					r_MCalculateObliqueMatrix_Vector4 = new(this, "CalculateObliqueMatrix", 0, typeof(UnityEngine.Vector4));
+					r_MCalculateObliqueMatrix_Vector4.SetBelong(this.instance);
 				}
-				return r_CalculateObliqueMatrix_Vector4;
+				return r_MCalculateObliqueMatrix_Vector4;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3, MonoOrStereoscopicEye)
 		/// </summary>
-		protected RMethod r_WorldToScreenPoint_Vector3_MonoOrStereoscopicEye;
-		public virtual RMethod RWorldToScreenPoint_Vector3_MonoOrStereoscopicEye
+		protected RMethod r_MWorldToScreenPoint_Vector3_MonoOrStereoscopicEye;
+		public virtual RMethod RMWorldToScreenPoint_Vector3_MonoOrStereoscopicEye
 		{
 			get
 			{
-				if(r_WorldToScreenPoint_Vector3_MonoOrStereoscopicEye == null)
+				if(r_MWorldToScreenPoint_Vector3_MonoOrStereoscopicEye == null)
 				{
-					r_WorldToScreenPoint_Vector3_MonoOrStereoscopicEye = new(this, "WorldToScreenPoint", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
-					r_WorldToScreenPoint_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
+					r_MWorldToScreenPoint_Vector3_MonoOrStereoscopicEye = new(this, "WorldToScreenPoint", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_MWorldToScreenPoint_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
-				return r_WorldToScreenPoint_Vector3_MonoOrStereoscopicEye;
+				return r_MWorldToScreenPoint_Vector3_MonoOrStereoscopicEye;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3, MonoOrStereoscopicEye)
 		/// </summary>
-		protected RMethod r_WorldToViewportPoint_Vector3_MonoOrStereoscopicEye;
-		public virtual RMethod RWorldToViewportPoint_Vector3_MonoOrStereoscopicEye
+		protected RMethod r_MWorldToViewportPoint_Vector3_MonoOrStereoscopicEye;
+		public virtual RMethod RMWorldToViewportPoint_Vector3_MonoOrStereoscopicEye
 		{
 			get
 			{
-				if(r_WorldToViewportPoint_Vector3_MonoOrStereoscopicEye == null)
+				if(r_MWorldToViewportPoint_Vector3_MonoOrStereoscopicEye == null)
 				{
-					r_WorldToViewportPoint_Vector3_MonoOrStereoscopicEye = new(this, "WorldToViewportPoint", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
-					r_WorldToViewportPoint_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
+					r_MWorldToViewportPoint_Vector3_MonoOrStereoscopicEye = new(this, "WorldToViewportPoint", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_MWorldToViewportPoint_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
-				return r_WorldToViewportPoint_Vector3_MonoOrStereoscopicEye;
+				return r_MWorldToViewportPoint_Vector3_MonoOrStereoscopicEye;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3, MonoOrStereoscopicEye)
 		/// </summary>
-		protected RMethod r_ViewportToWorldPoint_Vector3_MonoOrStereoscopicEye;
-		public virtual RMethod RViewportToWorldPoint_Vector3_MonoOrStereoscopicEye
+		protected RMethod r_MViewportToWorldPoint_Vector3_MonoOrStereoscopicEye;
+		public virtual RMethod RMViewportToWorldPoint_Vector3_MonoOrStereoscopicEye
 		{
 			get
 			{
-				if(r_ViewportToWorldPoint_Vector3_MonoOrStereoscopicEye == null)
+				if(r_MViewportToWorldPoint_Vector3_MonoOrStereoscopicEye == null)
 				{
-					r_ViewportToWorldPoint_Vector3_MonoOrStereoscopicEye = new(this, "ViewportToWorldPoint", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
-					r_ViewportToWorldPoint_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
+					r_MViewportToWorldPoint_Vector3_MonoOrStereoscopicEye = new(this, "ViewportToWorldPoint", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_MViewportToWorldPoint_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
-				return r_ViewportToWorldPoint_Vector3_MonoOrStereoscopicEye;
+				return r_MViewportToWorldPoint_Vector3_MonoOrStereoscopicEye;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 ScreenToWorldPoint(UnityEngine.Vector3, MonoOrStereoscopicEye)
 		/// </summary>
-		protected RMethod r_ScreenToWorldPoint_Vector3_MonoOrStereoscopicEye;
-		public virtual RMethod RScreenToWorldPoint_Vector3_MonoOrStereoscopicEye
+		protected RMethod r_MScreenToWorldPoint_Vector3_MonoOrStereoscopicEye;
+		public virtual RMethod RMScreenToWorldPoint_Vector3_MonoOrStereoscopicEye
 		{
 			get
 			{
-				if(r_ScreenToWorldPoint_Vector3_MonoOrStereoscopicEye == null)
+				if(r_MScreenToWorldPoint_Vector3_MonoOrStereoscopicEye == null)
 				{
-					r_ScreenToWorldPoint_Vector3_MonoOrStereoscopicEye = new(this, "ScreenToWorldPoint", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
-					r_ScreenToWorldPoint_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
+					r_MScreenToWorldPoint_Vector3_MonoOrStereoscopicEye = new(this, "ScreenToWorldPoint", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_MScreenToWorldPoint_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
-				return r_ScreenToWorldPoint_Vector3_MonoOrStereoscopicEye;
+				return r_MScreenToWorldPoint_Vector3_MonoOrStereoscopicEye;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_WorldToScreenPoint_Vector3;
-		public virtual RMethod RWorldToScreenPoint_Vector3
+		protected RMethod r_MWorldToScreenPoint_Vector3;
+		public virtual RMethod RMWorldToScreenPoint_Vector3
 		{
 			get
 			{
-				if(r_WorldToScreenPoint_Vector3 == null)
+				if(r_MWorldToScreenPoint_Vector3 == null)
 				{
-					r_WorldToScreenPoint_Vector3 = new(this, "WorldToScreenPoint", 0, typeof(UnityEngine.Vector3));
-					r_WorldToScreenPoint_Vector3.SetBelong(this.instance);
+					r_MWorldToScreenPoint_Vector3 = new(this, "WorldToScreenPoint", 0, typeof(UnityEngine.Vector3));
+					r_MWorldToScreenPoint_Vector3.SetBelong(this.instance);
 				}
-				return r_WorldToScreenPoint_Vector3;
+				return r_MWorldToScreenPoint_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_WorldToViewportPoint_Vector3;
-		public virtual RMethod RWorldToViewportPoint_Vector3
+		protected RMethod r_MWorldToViewportPoint_Vector3;
+		public virtual RMethod RMWorldToViewportPoint_Vector3
 		{
 			get
 			{
-				if(r_WorldToViewportPoint_Vector3 == null)
+				if(r_MWorldToViewportPoint_Vector3 == null)
 				{
-					r_WorldToViewportPoint_Vector3 = new(this, "WorldToViewportPoint", 0, typeof(UnityEngine.Vector3));
-					r_WorldToViewportPoint_Vector3.SetBelong(this.instance);
+					r_MWorldToViewportPoint_Vector3 = new(this, "WorldToViewportPoint", 0, typeof(UnityEngine.Vector3));
+					r_MWorldToViewportPoint_Vector3.SetBelong(this.instance);
 				}
-				return r_WorldToViewportPoint_Vector3;
+				return r_MWorldToViewportPoint_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_ViewportToWorldPoint_Vector3;
-		public virtual RMethod RViewportToWorldPoint_Vector3
+		protected RMethod r_MViewportToWorldPoint_Vector3;
+		public virtual RMethod RMViewportToWorldPoint_Vector3
 		{
 			get
 			{
-				if(r_ViewportToWorldPoint_Vector3 == null)
+				if(r_MViewportToWorldPoint_Vector3 == null)
 				{
-					r_ViewportToWorldPoint_Vector3 = new(this, "ViewportToWorldPoint", 0, typeof(UnityEngine.Vector3));
-					r_ViewportToWorldPoint_Vector3.SetBelong(this.instance);
+					r_MViewportToWorldPoint_Vector3 = new(this, "ViewportToWorldPoint", 0, typeof(UnityEngine.Vector3));
+					r_MViewportToWorldPoint_Vector3.SetBelong(this.instance);
 				}
-				return r_ViewportToWorldPoint_Vector3;
+				return r_MViewportToWorldPoint_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 ScreenToWorldPoint(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_ScreenToWorldPoint_Vector3;
-		public virtual RMethod RScreenToWorldPoint_Vector3
+		protected RMethod r_MScreenToWorldPoint_Vector3;
+		public virtual RMethod RMScreenToWorldPoint_Vector3
 		{
 			get
 			{
-				if(r_ScreenToWorldPoint_Vector3 == null)
+				if(r_MScreenToWorldPoint_Vector3 == null)
 				{
-					r_ScreenToWorldPoint_Vector3 = new(this, "ScreenToWorldPoint", 0, typeof(UnityEngine.Vector3));
-					r_ScreenToWorldPoint_Vector3.SetBelong(this.instance);
+					r_MScreenToWorldPoint_Vector3 = new(this, "ScreenToWorldPoint", 0, typeof(UnityEngine.Vector3));
+					r_MScreenToWorldPoint_Vector3.SetBelong(this.instance);
 				}
-				return r_ScreenToWorldPoint_Vector3;
+				return r_MScreenToWorldPoint_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 ScreenToViewportPoint(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_ScreenToViewportPoint_Vector3;
-		public virtual RMethod RScreenToViewportPoint_Vector3
+		protected RMethod r_MScreenToViewportPoint_Vector3;
+		public virtual RMethod RMScreenToViewportPoint_Vector3
 		{
 			get
 			{
-				if(r_ScreenToViewportPoint_Vector3 == null)
+				if(r_MScreenToViewportPoint_Vector3 == null)
 				{
-					r_ScreenToViewportPoint_Vector3 = new(this, "ScreenToViewportPoint", 0, typeof(UnityEngine.Vector3));
-					r_ScreenToViewportPoint_Vector3.SetBelong(this.instance);
+					r_MScreenToViewportPoint_Vector3 = new(this, "ScreenToViewportPoint", 0, typeof(UnityEngine.Vector3));
+					r_MScreenToViewportPoint_Vector3.SetBelong(this.instance);
 				}
-				return r_ScreenToViewportPoint_Vector3;
+				return r_MScreenToViewportPoint_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 ViewportToScreenPoint(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_ViewportToScreenPoint_Vector3;
-		public virtual RMethod RViewportToScreenPoint_Vector3
+		protected RMethod r_MViewportToScreenPoint_Vector3;
+		public virtual RMethod RMViewportToScreenPoint_Vector3
 		{
 			get
 			{
-				if(r_ViewportToScreenPoint_Vector3 == null)
+				if(r_MViewportToScreenPoint_Vector3 == null)
 				{
-					r_ViewportToScreenPoint_Vector3 = new(this, "ViewportToScreenPoint", 0, typeof(UnityEngine.Vector3));
-					r_ViewportToScreenPoint_Vector3.SetBelong(this.instance);
+					r_MViewportToScreenPoint_Vector3 = new(this, "ViewportToScreenPoint", 0, typeof(UnityEngine.Vector3));
+					r_MViewportToScreenPoint_Vector3.SetBelong(this.instance);
 				}
-				return r_ViewportToScreenPoint_Vector3;
+				return r_MViewportToScreenPoint_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 GetFrustumPlaneSizeAt(Single)
 		/// </summary>
-		protected RMethod r_GetFrustumPlaneSizeAt_Single;
-		public virtual RMethod RGetFrustumPlaneSizeAt_Single
+		protected RMethod r_MGetFrustumPlaneSizeAt_Single;
+		public virtual RMethod RMGetFrustumPlaneSizeAt_Single
 		{
 			get
 			{
-				if(r_GetFrustumPlaneSizeAt_Single == null)
+				if(r_MGetFrustumPlaneSizeAt_Single == null)
 				{
-					r_GetFrustumPlaneSizeAt_Single = new(this, "GetFrustumPlaneSizeAt", 0, typeof(System.Single));
-					r_GetFrustumPlaneSizeAt_Single.SetBelong(this.instance);
+					r_MGetFrustumPlaneSizeAt_Single = new(this, "GetFrustumPlaneSizeAt", 0, typeof(System.Single));
+					r_MGetFrustumPlaneSizeAt_Single.SetBelong(this.instance);
 				}
-				return r_GetFrustumPlaneSizeAt_Single;
+				return r_MGetFrustumPlaneSizeAt_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector2, MonoOrStereoscopicEye)
 		/// </summary>
-		protected RMethod r_ViewportPointToRay_Vector2_MonoOrStereoscopicEye;
-		public virtual RMethod RViewportPointToRay_Vector2_MonoOrStereoscopicEye
+		protected RMethod r_MViewportPointToRay_Vector2_MonoOrStereoscopicEye;
+		public virtual RMethod RMViewportPointToRay_Vector2_MonoOrStereoscopicEye
 		{
 			get
 			{
-				if(r_ViewportPointToRay_Vector2_MonoOrStereoscopicEye == null)
+				if(r_MViewportPointToRay_Vector2_MonoOrStereoscopicEye == null)
 				{
-					r_ViewportPointToRay_Vector2_MonoOrStereoscopicEye = new(this, "ViewportPointToRay", 0, typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
-					r_ViewportPointToRay_Vector2_MonoOrStereoscopicEye.SetBelong(this.instance);
+					r_MViewportPointToRay_Vector2_MonoOrStereoscopicEye = new(this, "ViewportPointToRay", 0, typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_MViewportPointToRay_Vector2_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
-				return r_ViewportPointToRay_Vector2_MonoOrStereoscopicEye;
+				return r_MViewportPointToRay_Vector2_MonoOrStereoscopicEye;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector3, MonoOrStereoscopicEye)
 		/// </summary>
-		protected RMethod r_ViewportPointToRay_Vector3_MonoOrStereoscopicEye;
-		public virtual RMethod RViewportPointToRay_Vector3_MonoOrStereoscopicEye
+		protected RMethod r_MViewportPointToRay_Vector3_MonoOrStereoscopicEye;
+		public virtual RMethod RMViewportPointToRay_Vector3_MonoOrStereoscopicEye
 		{
 			get
 			{
-				if(r_ViewportPointToRay_Vector3_MonoOrStereoscopicEye == null)
+				if(r_MViewportPointToRay_Vector3_MonoOrStereoscopicEye == null)
 				{
-					r_ViewportPointToRay_Vector3_MonoOrStereoscopicEye = new(this, "ViewportPointToRay", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
-					r_ViewportPointToRay_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
+					r_MViewportPointToRay_Vector3_MonoOrStereoscopicEye = new(this, "ViewportPointToRay", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_MViewportPointToRay_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
-				return r_ViewportPointToRay_Vector3_MonoOrStereoscopicEye;
+				return r_MViewportPointToRay_Vector3_MonoOrStereoscopicEye;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_ViewportPointToRay_Vector3;
-		public virtual RMethod RViewportPointToRay_Vector3
+		protected RMethod r_MViewportPointToRay_Vector3;
+		public virtual RMethod RMViewportPointToRay_Vector3
 		{
 			get
 			{
-				if(r_ViewportPointToRay_Vector3 == null)
+				if(r_MViewportPointToRay_Vector3 == null)
 				{
-					r_ViewportPointToRay_Vector3 = new(this, "ViewportPointToRay", 0, typeof(UnityEngine.Vector3));
-					r_ViewportPointToRay_Vector3.SetBelong(this.instance);
+					r_MViewportPointToRay_Vector3 = new(this, "ViewportPointToRay", 0, typeof(UnityEngine.Vector3));
+					r_MViewportPointToRay_Vector3.SetBelong(this.instance);
 				}
-				return r_ViewportPointToRay_Vector3;
+				return r_MViewportPointToRay_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector2, MonoOrStereoscopicEye)
 		/// </summary>
-		protected RMethod r_ScreenPointToRay_Vector2_MonoOrStereoscopicEye;
-		public virtual RMethod RScreenPointToRay_Vector2_MonoOrStereoscopicEye
+		protected RMethod r_MScreenPointToRay_Vector2_MonoOrStereoscopicEye;
+		public virtual RMethod RMScreenPointToRay_Vector2_MonoOrStereoscopicEye
 		{
 			get
 			{
-				if(r_ScreenPointToRay_Vector2_MonoOrStereoscopicEye == null)
+				if(r_MScreenPointToRay_Vector2_MonoOrStereoscopicEye == null)
 				{
-					r_ScreenPointToRay_Vector2_MonoOrStereoscopicEye = new(this, "ScreenPointToRay", 0, typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
-					r_ScreenPointToRay_Vector2_MonoOrStereoscopicEye.SetBelong(this.instance);
+					r_MScreenPointToRay_Vector2_MonoOrStereoscopicEye = new(this, "ScreenPointToRay", 0, typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_MScreenPointToRay_Vector2_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
-				return r_ScreenPointToRay_Vector2_MonoOrStereoscopicEye;
+				return r_MScreenPointToRay_Vector2_MonoOrStereoscopicEye;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3, MonoOrStereoscopicEye)
 		/// </summary>
-		protected RMethod r_ScreenPointToRay_Vector3_MonoOrStereoscopicEye;
-		public virtual RMethod RScreenPointToRay_Vector3_MonoOrStereoscopicEye
+		protected RMethod r_MScreenPointToRay_Vector3_MonoOrStereoscopicEye;
+		public virtual RMethod RMScreenPointToRay_Vector3_MonoOrStereoscopicEye
 		{
 			get
 			{
-				if(r_ScreenPointToRay_Vector3_MonoOrStereoscopicEye == null)
+				if(r_MScreenPointToRay_Vector3_MonoOrStereoscopicEye == null)
 				{
-					r_ScreenPointToRay_Vector3_MonoOrStereoscopicEye = new(this, "ScreenPointToRay", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
-					r_ScreenPointToRay_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
+					r_MScreenPointToRay_Vector3_MonoOrStereoscopicEye = new(this, "ScreenPointToRay", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_MScreenPointToRay_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
-				return r_ScreenPointToRay_Vector3_MonoOrStereoscopicEye;
+				return r_MScreenPointToRay_Vector3_MonoOrStereoscopicEye;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_ScreenPointToRay_Vector3;
-		public virtual RMethod RScreenPointToRay_Vector3
+		protected RMethod r_MScreenPointToRay_Vector3;
+		public virtual RMethod RMScreenPointToRay_Vector3
 		{
 			get
 			{
-				if(r_ScreenPointToRay_Vector3 == null)
+				if(r_MScreenPointToRay_Vector3 == null)
 				{
-					r_ScreenPointToRay_Vector3 = new(this, "ScreenPointToRay", 0, typeof(UnityEngine.Vector3));
-					r_ScreenPointToRay_Vector3.SetBelong(this.instance);
+					r_MScreenPointToRay_Vector3 = new(this, "ScreenPointToRay", 0, typeof(UnityEngine.Vector3));
+					r_MScreenPointToRay_Vector3.SetBelong(this.instance);
 				}
-				return r_ScreenPointToRay_Vector3;
+				return r_MScreenPointToRay_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void CalculateFrustumCornersInternal(UnityEngine.Rect, Single, MonoOrStereoscopicEye, UnityEngine.Vector3[])
 		/// </summary>
-		protected RMethod r_CalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
-		public virtual RMethod RCalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array
+		protected RMethod r_MCalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
+		public virtual RMethod RMCalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array
 		{
 			get
 			{
-				if(r_CalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array == null)
+				if(r_MCalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array == null)
 				{
-					r_CalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array = new(this, "CalculateFrustumCornersInternal", 0, typeof(UnityEngine.Rect), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeArrayType());
-					r_CalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array.SetBelong(this.instance);
+					r_MCalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array = new(this, "CalculateFrustumCornersInternal", 0, typeof(UnityEngine.Rect), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeArrayType());
+					r_MCalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array.SetBelong(this.instance);
 				}
-				return r_CalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
+				return r_MCalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
 			}
 		}
 
 		/// <summary>
 		/// Void CalculateFrustumCorners(UnityEngine.Rect, Single, MonoOrStereoscopicEye, UnityEngine.Vector3[])
 		/// </summary>
-		protected RMethod r_CalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
-		public virtual RMethod RCalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array
+		protected RMethod r_MCalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
+		public virtual RMethod RMCalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array
 		{
 			get
 			{
-				if(r_CalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array == null)
+				if(r_MCalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array == null)
 				{
-					r_CalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array = new(this, "CalculateFrustumCorners", 0, typeof(UnityEngine.Rect), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeArrayType());
-					r_CalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array.SetBelong(this.instance);
+					r_MCalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array = new(this, "CalculateFrustumCorners", 0, typeof(UnityEngine.Rect), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeArrayType());
+					r_MCalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array.SetBelong(this.instance);
 				}
-				return r_CalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
+				return r_MCalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
 			}
 		}
 
 		/// <summary>
 		/// Void CalculateProjectionMatrixFromPhysicalPropertiesInternal(UnityEngine.Matrix4x4 ByRef, Single, UnityEngine.Vector2, UnityEngine.Vector2, Single, Single, Single, GateFitMode)
 		/// </summary>
-		protected static RMethod r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode;
-		public static RMethod RCalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode
+		protected static RMethod r_MCalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode;
+		public static RMethod RMCalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode
 		{
 			get
 			{
-				if(r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode == null)
+				if(r_MCalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode == null)
 				{
-					r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode = new(typeof(UnityEngine.Camera), "CalculateProjectionMatrixFromPhysicalPropertiesInternal", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.Single), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+GateFitMode"));
-					r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode.SetBelong(null);
+					r_MCalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode = new(typeof(UnityEngine.Camera), "CalculateProjectionMatrixFromPhysicalPropertiesInternal", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.Single), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+GateFitMode"));
+					r_MCalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode.SetBelong(null);
 				}
-				return r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode;
+				return r_MCalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode;
 			}
 		}
 
 		/// <summary>
 		/// Void CalculateProjectionMatrixFromPhysicalProperties(UnityEngine.Matrix4x4 ByRef, Single, UnityEngine.Vector2, UnityEngine.Vector2, Single, Single, GateFitParameters)
 		/// </summary>
-		protected static RMethod r_CalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters;
-		public static RMethod RCalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters
+		protected static RMethod r_MCalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters;
+		public static RMethod RMCalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters
 		{
 			get
 			{
-				if(r_CalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters == null)
+				if(r_MCalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters == null)
 				{
-					r_CalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters = new(typeof(UnityEngine.Camera), "CalculateProjectionMatrixFromPhysicalProperties", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+GateFitParameters"));
-					r_CalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters.SetBelong(null);
+					r_MCalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters = new(typeof(UnityEngine.Camera), "CalculateProjectionMatrixFromPhysicalProperties", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+GateFitParameters"));
+					r_MCalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters.SetBelong(null);
 				}
-				return r_CalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters;
+				return r_MCalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters;
 			}
 		}
 
 		/// <summary>
 		/// Single FocalLengthToFieldOfView(Single, Single)
 		/// </summary>
-		protected static RMethod r_FocalLengthToFieldOfView_Single_Single;
-		public static RMethod RFocalLengthToFieldOfView_Single_Single
+		protected static RMethod r_MFocalLengthToFieldOfView_Single_Single;
+		public static RMethod RMFocalLengthToFieldOfView_Single_Single
 		{
 			get
 			{
-				if(r_FocalLengthToFieldOfView_Single_Single == null)
+				if(r_MFocalLengthToFieldOfView_Single_Single == null)
 				{
-					r_FocalLengthToFieldOfView_Single_Single = new(typeof(UnityEngine.Camera), "FocalLengthToFieldOfView", 0, typeof(System.Single), typeof(System.Single));
-					r_FocalLengthToFieldOfView_Single_Single.SetBelong(null);
+					r_MFocalLengthToFieldOfView_Single_Single = new(typeof(UnityEngine.Camera), "FocalLengthToFieldOfView", 0, typeof(System.Single), typeof(System.Single));
+					r_MFocalLengthToFieldOfView_Single_Single.SetBelong(null);
 				}
-				return r_FocalLengthToFieldOfView_Single_Single;
+				return r_MFocalLengthToFieldOfView_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// Single FieldOfViewToFocalLength(Single, Single)
 		/// </summary>
-		protected static RMethod r_FieldOfViewToFocalLength_Single_Single;
-		public static RMethod RFieldOfViewToFocalLength_Single_Single
+		protected static RMethod r_MFieldOfViewToFocalLength_Single_Single;
+		public static RMethod RMFieldOfViewToFocalLength_Single_Single
 		{
 			get
 			{
-				if(r_FieldOfViewToFocalLength_Single_Single == null)
+				if(r_MFieldOfViewToFocalLength_Single_Single == null)
 				{
-					r_FieldOfViewToFocalLength_Single_Single = new(typeof(UnityEngine.Camera), "FieldOfViewToFocalLength", 0, typeof(System.Single), typeof(System.Single));
-					r_FieldOfViewToFocalLength_Single_Single.SetBelong(null);
+					r_MFieldOfViewToFocalLength_Single_Single = new(typeof(UnityEngine.Camera), "FieldOfViewToFocalLength", 0, typeof(System.Single), typeof(System.Single));
+					r_MFieldOfViewToFocalLength_Single_Single.SetBelong(null);
 				}
-				return r_FieldOfViewToFocalLength_Single_Single;
+				return r_MFieldOfViewToFocalLength_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// Single HorizontalToVerticalFieldOfView(Single, Single)
 		/// </summary>
-		protected static RMethod r_HorizontalToVerticalFieldOfView_Single_Single;
-		public static RMethod RHorizontalToVerticalFieldOfView_Single_Single
+		protected static RMethod r_MHorizontalToVerticalFieldOfView_Single_Single;
+		public static RMethod RMHorizontalToVerticalFieldOfView_Single_Single
 		{
 			get
 			{
-				if(r_HorizontalToVerticalFieldOfView_Single_Single == null)
+				if(r_MHorizontalToVerticalFieldOfView_Single_Single == null)
 				{
-					r_HorizontalToVerticalFieldOfView_Single_Single = new(typeof(UnityEngine.Camera), "HorizontalToVerticalFieldOfView", 0, typeof(System.Single), typeof(System.Single));
-					r_HorizontalToVerticalFieldOfView_Single_Single.SetBelong(null);
+					r_MHorizontalToVerticalFieldOfView_Single_Single = new(typeof(UnityEngine.Camera), "HorizontalToVerticalFieldOfView", 0, typeof(System.Single), typeof(System.Single));
+					r_MHorizontalToVerticalFieldOfView_Single_Single.SetBelong(null);
 				}
-				return r_HorizontalToVerticalFieldOfView_Single_Single;
+				return r_MHorizontalToVerticalFieldOfView_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// Single VerticalToHorizontalFieldOfView(Single, Single)
 		/// </summary>
-		protected static RMethod r_VerticalToHorizontalFieldOfView_Single_Single;
-		public static RMethod RVerticalToHorizontalFieldOfView_Single_Single
+		protected static RMethod r_MVerticalToHorizontalFieldOfView_Single_Single;
+		public static RMethod RMVerticalToHorizontalFieldOfView_Single_Single
 		{
 			get
 			{
-				if(r_VerticalToHorizontalFieldOfView_Single_Single == null)
+				if(r_MVerticalToHorizontalFieldOfView_Single_Single == null)
 				{
-					r_VerticalToHorizontalFieldOfView_Single_Single = new(typeof(UnityEngine.Camera), "VerticalToHorizontalFieldOfView", 0, typeof(System.Single), typeof(System.Single));
-					r_VerticalToHorizontalFieldOfView_Single_Single.SetBelong(null);
+					r_MVerticalToHorizontalFieldOfView_Single_Single = new(typeof(UnityEngine.Camera), "VerticalToHorizontalFieldOfView", 0, typeof(System.Single), typeof(System.Single));
+					r_MVerticalToHorizontalFieldOfView_Single_Single.SetBelong(null);
 				}
-				return r_VerticalToHorizontalFieldOfView_Single_Single;
+				return r_MVerticalToHorizontalFieldOfView_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4 GetStereoNonJitteredProjectionMatrix(StereoscopicEye)
 		/// </summary>
-		protected RMethod r_GetStereoNonJitteredProjectionMatrix_StereoscopicEye;
-		public virtual RMethod RGetStereoNonJitteredProjectionMatrix_StereoscopicEye
+		protected RMethod r_MGetStereoNonJitteredProjectionMatrix_StereoscopicEye;
+		public virtual RMethod RMGetStereoNonJitteredProjectionMatrix_StereoscopicEye
 		{
 			get
 			{
-				if(r_GetStereoNonJitteredProjectionMatrix_StereoscopicEye == null)
+				if(r_MGetStereoNonJitteredProjectionMatrix_StereoscopicEye == null)
 				{
-					r_GetStereoNonJitteredProjectionMatrix_StereoscopicEye = new(this, "GetStereoNonJitteredProjectionMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
-					r_GetStereoNonJitteredProjectionMatrix_StereoscopicEye.SetBelong(this.instance);
+					r_MGetStereoNonJitteredProjectionMatrix_StereoscopicEye = new(this, "GetStereoNonJitteredProjectionMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
+					r_MGetStereoNonJitteredProjectionMatrix_StereoscopicEye.SetBelong(this.instance);
 				}
-				return r_GetStereoNonJitteredProjectionMatrix_StereoscopicEye;
+				return r_MGetStereoNonJitteredProjectionMatrix_StereoscopicEye;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4 GetStereoViewMatrix(StereoscopicEye)
 		/// </summary>
-		protected RMethod r_GetStereoViewMatrix_StereoscopicEye;
-		public virtual RMethod RGetStereoViewMatrix_StereoscopicEye
+		protected RMethod r_MGetStereoViewMatrix_StereoscopicEye;
+		public virtual RMethod RMGetStereoViewMatrix_StereoscopicEye
 		{
 			get
 			{
-				if(r_GetStereoViewMatrix_StereoscopicEye == null)
+				if(r_MGetStereoViewMatrix_StereoscopicEye == null)
 				{
-					r_GetStereoViewMatrix_StereoscopicEye = new(this, "GetStereoViewMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
-					r_GetStereoViewMatrix_StereoscopicEye.SetBelong(this.instance);
+					r_MGetStereoViewMatrix_StereoscopicEye = new(this, "GetStereoViewMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
+					r_MGetStereoViewMatrix_StereoscopicEye.SetBelong(this.instance);
 				}
-				return r_GetStereoViewMatrix_StereoscopicEye;
+				return r_MGetStereoViewMatrix_StereoscopicEye;
 			}
 		}
 
 		/// <summary>
 		/// Void CopyStereoDeviceProjectionMatrixToNonJittered(StereoscopicEye)
 		/// </summary>
-		protected RMethod r_CopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye;
-		public virtual RMethod RCopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye
+		protected RMethod r_MCopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye;
+		public virtual RMethod RMCopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye
 		{
 			get
 			{
-				if(r_CopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye == null)
+				if(r_MCopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye == null)
 				{
-					r_CopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye = new(this, "CopyStereoDeviceProjectionMatrixToNonJittered", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
-					r_CopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye.SetBelong(this.instance);
+					r_MCopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye = new(this, "CopyStereoDeviceProjectionMatrixToNonJittered", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
+					r_MCopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye.SetBelong(this.instance);
 				}
-				return r_CopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye;
+				return r_MCopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4 GetStereoProjectionMatrix(StereoscopicEye)
 		/// </summary>
-		protected RMethod r_GetStereoProjectionMatrix_StereoscopicEye;
-		public virtual RMethod RGetStereoProjectionMatrix_StereoscopicEye
+		protected RMethod r_MGetStereoProjectionMatrix_StereoscopicEye;
+		public virtual RMethod RMGetStereoProjectionMatrix_StereoscopicEye
 		{
 			get
 			{
-				if(r_GetStereoProjectionMatrix_StereoscopicEye == null)
+				if(r_MGetStereoProjectionMatrix_StereoscopicEye == null)
 				{
-					r_GetStereoProjectionMatrix_StereoscopicEye = new(this, "GetStereoProjectionMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
-					r_GetStereoProjectionMatrix_StereoscopicEye.SetBelong(this.instance);
+					r_MGetStereoProjectionMatrix_StereoscopicEye = new(this, "GetStereoProjectionMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
+					r_MGetStereoProjectionMatrix_StereoscopicEye.SetBelong(this.instance);
 				}
-				return r_GetStereoProjectionMatrix_StereoscopicEye;
+				return r_MGetStereoProjectionMatrix_StereoscopicEye;
 			}
 		}
 
 		/// <summary>
 		/// Void SetStereoProjectionMatrix(StereoscopicEye, UnityEngine.Matrix4x4)
 		/// </summary>
-		protected RMethod r_SetStereoProjectionMatrix_StereoscopicEye_Matrix4x4;
-		public virtual RMethod RSetStereoProjectionMatrix_StereoscopicEye_Matrix4x4
+		protected RMethod r_MSetStereoProjectionMatrix_StereoscopicEye_Matrix4x4;
+		public virtual RMethod RMSetStereoProjectionMatrix_StereoscopicEye_Matrix4x4
 		{
 			get
 			{
-				if(r_SetStereoProjectionMatrix_StereoscopicEye_Matrix4x4 == null)
+				if(r_MSetStereoProjectionMatrix_StereoscopicEye_Matrix4x4 == null)
 				{
-					r_SetStereoProjectionMatrix_StereoscopicEye_Matrix4x4 = new(this, "SetStereoProjectionMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4));
-					r_SetStereoProjectionMatrix_StereoscopicEye_Matrix4x4.SetBelong(this.instance);
+					r_MSetStereoProjectionMatrix_StereoscopicEye_Matrix4x4 = new(this, "SetStereoProjectionMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4));
+					r_MSetStereoProjectionMatrix_StereoscopicEye_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_SetStereoProjectionMatrix_StereoscopicEye_Matrix4x4;
+				return r_MSetStereoProjectionMatrix_StereoscopicEye_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetStereoProjectionMatrices()
 		/// </summary>
-		protected RMethod r_ResetStereoProjectionMatrices;
-		public virtual RMethod RResetStereoProjectionMatrices
+		protected RMethod r_MResetStereoProjectionMatrices;
+		public virtual RMethod RMResetStereoProjectionMatrices
 		{
 			get
 			{
-				if(r_ResetStereoProjectionMatrices == null)
+				if(r_MResetStereoProjectionMatrices == null)
 				{
-					r_ResetStereoProjectionMatrices = new(this, "ResetStereoProjectionMatrices", 0);
-					r_ResetStereoProjectionMatrices.SetBelong(this.instance);
+					r_MResetStereoProjectionMatrices = new(this, "ResetStereoProjectionMatrices", 0);
+					r_MResetStereoProjectionMatrices.SetBelong(this.instance);
 				}
-				return r_ResetStereoProjectionMatrices;
+				return r_MResetStereoProjectionMatrices;
 			}
 		}
 
 		/// <summary>
 		/// Void SetStereoViewMatrix(StereoscopicEye, UnityEngine.Matrix4x4)
 		/// </summary>
-		protected RMethod r_SetStereoViewMatrix_StereoscopicEye_Matrix4x4;
-		public virtual RMethod RSetStereoViewMatrix_StereoscopicEye_Matrix4x4
+		protected RMethod r_MSetStereoViewMatrix_StereoscopicEye_Matrix4x4;
+		public virtual RMethod RMSetStereoViewMatrix_StereoscopicEye_Matrix4x4
 		{
 			get
 			{
-				if(r_SetStereoViewMatrix_StereoscopicEye_Matrix4x4 == null)
+				if(r_MSetStereoViewMatrix_StereoscopicEye_Matrix4x4 == null)
 				{
-					r_SetStereoViewMatrix_StereoscopicEye_Matrix4x4 = new(this, "SetStereoViewMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4));
-					r_SetStereoViewMatrix_StereoscopicEye_Matrix4x4.SetBelong(this.instance);
+					r_MSetStereoViewMatrix_StereoscopicEye_Matrix4x4 = new(this, "SetStereoViewMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4));
+					r_MSetStereoViewMatrix_StereoscopicEye_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_SetStereoViewMatrix_StereoscopicEye_Matrix4x4;
+				return r_MSetStereoViewMatrix_StereoscopicEye_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetStereoViewMatrices()
 		/// </summary>
-		protected RMethod r_ResetStereoViewMatrices;
-		public virtual RMethod RResetStereoViewMatrices
+		protected RMethod r_MResetStereoViewMatrices;
+		public virtual RMethod RMResetStereoViewMatrices
 		{
 			get
 			{
-				if(r_ResetStereoViewMatrices == null)
+				if(r_MResetStereoViewMatrices == null)
 				{
-					r_ResetStereoViewMatrices = new(this, "ResetStereoViewMatrices", 0);
-					r_ResetStereoViewMatrices.SetBelong(this.instance);
+					r_MResetStereoViewMatrices = new(this, "ResetStereoViewMatrices", 0);
+					r_MResetStereoViewMatrices.SetBelong(this.instance);
 				}
-				return r_ResetStereoViewMatrices;
+				return r_MResetStereoViewMatrices;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetAllCamerasCount()
 		/// </summary>
-		protected static RMethod r_GetAllCamerasCount;
-		public static RMethod RGetAllCamerasCount
+		protected static RMethod r_MGetAllCamerasCount;
+		public static RMethod RMGetAllCamerasCount
 		{
 			get
 			{
-				if(r_GetAllCamerasCount == null)
+				if(r_MGetAllCamerasCount == null)
 				{
-					r_GetAllCamerasCount = new(typeof(UnityEngine.Camera), "GetAllCamerasCount", 0);
-					r_GetAllCamerasCount.SetBelong(null);
+					r_MGetAllCamerasCount = new(typeof(UnityEngine.Camera), "GetAllCamerasCount", 0);
+					r_MGetAllCamerasCount.SetBelong(null);
 				}
-				return r_GetAllCamerasCount;
+				return r_MGetAllCamerasCount;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetAllCamerasImpl(UnityEngine.Camera[])
 		/// </summary>
-		protected static RMethod r_GetAllCamerasImpl_CameraArray;
-		public static RMethod RGetAllCamerasImpl_CameraArray
+		protected static RMethod r_MGetAllCamerasImpl_CameraArray;
+		public static RMethod RMGetAllCamerasImpl_CameraArray
 		{
 			get
 			{
-				if(r_GetAllCamerasImpl_CameraArray == null)
+				if(r_MGetAllCamerasImpl_CameraArray == null)
 				{
-					r_GetAllCamerasImpl_CameraArray = new(typeof(UnityEngine.Camera), "GetAllCamerasImpl", 0, typeof(UnityEngine.Camera).MakeArrayType());
-					r_GetAllCamerasImpl_CameraArray.SetBelong(null);
+					r_MGetAllCamerasImpl_CameraArray = new(typeof(UnityEngine.Camera), "GetAllCamerasImpl", 0, typeof(UnityEngine.Camera).MakeArrayType());
+					r_MGetAllCamerasImpl_CameraArray.SetBelong(null);
 				}
-				return r_GetAllCamerasImpl_CameraArray;
+				return r_MGetAllCamerasImpl_CameraArray;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetAllCameras(UnityEngine.Camera[])
 		/// </summary>
-		protected static RMethod r_GetAllCameras_CameraArray;
-		public static RMethod RGetAllCameras_CameraArray
+		protected static RMethod r_MGetAllCameras_CameraArray;
+		public static RMethod RMGetAllCameras_CameraArray
 		{
 			get
 			{
-				if(r_GetAllCameras_CameraArray == null)
+				if(r_MGetAllCameras_CameraArray == null)
 				{
-					r_GetAllCameras_CameraArray = new(typeof(UnityEngine.Camera), "GetAllCameras", 0, typeof(UnityEngine.Camera).MakeArrayType());
-					r_GetAllCameras_CameraArray.SetBelong(null);
+					r_MGetAllCameras_CameraArray = new(typeof(UnityEngine.Camera), "GetAllCameras", 0, typeof(UnityEngine.Camera).MakeArrayType());
+					r_MGetAllCameras_CameraArray.SetBelong(null);
 				}
-				return r_GetAllCameras_CameraArray;
+				return r_MGetAllCameras_CameraArray;
 			}
 		}
 
 		/// <summary>
 		/// Boolean RenderToCubemapImpl(UnityEngine.Texture, Int32)
 		/// </summary>
-		protected RMethod r_RenderToCubemapImpl_Texture_Int32;
-		public virtual RMethod RRenderToCubemapImpl_Texture_Int32
+		protected RMethod r_MRenderToCubemapImpl_Texture_Int32;
+		public virtual RMethod RMRenderToCubemapImpl_Texture_Int32
 		{
 			get
 			{
-				if(r_RenderToCubemapImpl_Texture_Int32 == null)
+				if(r_MRenderToCubemapImpl_Texture_Int32 == null)
 				{
-					r_RenderToCubemapImpl_Texture_Int32 = new(this, "RenderToCubemapImpl", 0, typeof(UnityEngine.Texture), typeof(System.Int32));
-					r_RenderToCubemapImpl_Texture_Int32.SetBelong(this.instance);
+					r_MRenderToCubemapImpl_Texture_Int32 = new(this, "RenderToCubemapImpl", 0, typeof(UnityEngine.Texture), typeof(System.Int32));
+					r_MRenderToCubemapImpl_Texture_Int32.SetBelong(this.instance);
 				}
-				return r_RenderToCubemapImpl_Texture_Int32;
+				return r_MRenderToCubemapImpl_Texture_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean RenderToCubemap(UnityEngine.Cubemap, Int32)
 		/// </summary>
-		protected RMethod r_RenderToCubemap_Cubemap_Int32;
-		public virtual RMethod RRenderToCubemap_Cubemap_Int32
+		protected RMethod r_MRenderToCubemap_Cubemap_Int32;
+		public virtual RMethod RMRenderToCubemap_Cubemap_Int32
 		{
 			get
 			{
-				if(r_RenderToCubemap_Cubemap_Int32 == null)
+				if(r_MRenderToCubemap_Cubemap_Int32 == null)
 				{
-					r_RenderToCubemap_Cubemap_Int32 = new(this, "RenderToCubemap", 0, typeof(UnityEngine.Cubemap), typeof(System.Int32));
-					r_RenderToCubemap_Cubemap_Int32.SetBelong(this.instance);
+					r_MRenderToCubemap_Cubemap_Int32 = new(this, "RenderToCubemap", 0, typeof(UnityEngine.Cubemap), typeof(System.Int32));
+					r_MRenderToCubemap_Cubemap_Int32.SetBelong(this.instance);
 				}
-				return r_RenderToCubemap_Cubemap_Int32;
+				return r_MRenderToCubemap_Cubemap_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean RenderToCubemap(UnityEngine.Cubemap)
 		/// </summary>
-		protected RMethod r_RenderToCubemap_Cubemap;
-		public virtual RMethod RRenderToCubemap_Cubemap
+		protected RMethod r_MRenderToCubemap_Cubemap;
+		public virtual RMethod RMRenderToCubemap_Cubemap
 		{
 			get
 			{
-				if(r_RenderToCubemap_Cubemap == null)
+				if(r_MRenderToCubemap_Cubemap == null)
 				{
-					r_RenderToCubemap_Cubemap = new(this, "RenderToCubemap", 0, typeof(UnityEngine.Cubemap));
-					r_RenderToCubemap_Cubemap.SetBelong(this.instance);
+					r_MRenderToCubemap_Cubemap = new(this, "RenderToCubemap", 0, typeof(UnityEngine.Cubemap));
+					r_MRenderToCubemap_Cubemap.SetBelong(this.instance);
 				}
-				return r_RenderToCubemap_Cubemap;
+				return r_MRenderToCubemap_Cubemap;
 			}
 		}
 
 		/// <summary>
 		/// Boolean RenderToCubemap(UnityEngine.RenderTexture, Int32)
 		/// </summary>
-		protected RMethod r_RenderToCubemap_RenderTexture_Int32;
-		public virtual RMethod RRenderToCubemap_RenderTexture_Int32
+		protected RMethod r_MRenderToCubemap_RenderTexture_Int32;
+		public virtual RMethod RMRenderToCubemap_RenderTexture_Int32
 		{
 			get
 			{
-				if(r_RenderToCubemap_RenderTexture_Int32 == null)
+				if(r_MRenderToCubemap_RenderTexture_Int32 == null)
 				{
-					r_RenderToCubemap_RenderTexture_Int32 = new(this, "RenderToCubemap", 0, typeof(UnityEngine.RenderTexture), typeof(System.Int32));
-					r_RenderToCubemap_RenderTexture_Int32.SetBelong(this.instance);
+					r_MRenderToCubemap_RenderTexture_Int32 = new(this, "RenderToCubemap", 0, typeof(UnityEngine.RenderTexture), typeof(System.Int32));
+					r_MRenderToCubemap_RenderTexture_Int32.SetBelong(this.instance);
 				}
-				return r_RenderToCubemap_RenderTexture_Int32;
+				return r_MRenderToCubemap_RenderTexture_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean RenderToCubemap(UnityEngine.RenderTexture)
 		/// </summary>
-		protected RMethod r_RenderToCubemap_RenderTexture;
-		public virtual RMethod RRenderToCubemap_RenderTexture
+		protected RMethod r_MRenderToCubemap_RenderTexture;
+		public virtual RMethod RMRenderToCubemap_RenderTexture
 		{
 			get
 			{
-				if(r_RenderToCubemap_RenderTexture == null)
+				if(r_MRenderToCubemap_RenderTexture == null)
 				{
-					r_RenderToCubemap_RenderTexture = new(this, "RenderToCubemap", 0, typeof(UnityEngine.RenderTexture));
-					r_RenderToCubemap_RenderTexture.SetBelong(this.instance);
+					r_MRenderToCubemap_RenderTexture = new(this, "RenderToCubemap", 0, typeof(UnityEngine.RenderTexture));
+					r_MRenderToCubemap_RenderTexture.SetBelong(this.instance);
 				}
-				return r_RenderToCubemap_RenderTexture;
+				return r_MRenderToCubemap_RenderTexture;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetFilterMode()
 		/// </summary>
-		protected RMethod r_GetFilterMode;
-		public virtual RMethod RGetFilterMode
+		protected RMethod r_MGetFilterMode;
+		public virtual RMethod RMGetFilterMode
 		{
 			get
 			{
-				if(r_GetFilterMode == null)
+				if(r_MGetFilterMode == null)
 				{
-					r_GetFilterMode = new(this, "GetFilterMode", 0);
-					r_GetFilterMode.SetBelong(this.instance);
+					r_MGetFilterMode = new(this, "GetFilterMode", 0);
+					r_MGetFilterMode.SetBelong(this.instance);
 				}
-				return r_GetFilterMode;
+				return r_MGetFilterMode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean RenderToCubemapEyeImpl(UnityEngine.RenderTexture, Int32, MonoOrStereoscopicEye)
 		/// </summary>
-		protected RMethod r_RenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye;
-		public virtual RMethod RRenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye
+		protected RMethod r_MRenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye;
+		public virtual RMethod RMRenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye
 		{
 			get
 			{
-				if(r_RenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye == null)
+				if(r_MRenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye == null)
 				{
-					r_RenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye = new(this, "RenderToCubemapEyeImpl", 0, typeof(UnityEngine.RenderTexture), typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
-					r_RenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye.SetBelong(this.instance);
+					r_MRenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye = new(this, "RenderToCubemapEyeImpl", 0, typeof(UnityEngine.RenderTexture), typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_MRenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
-				return r_RenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye;
+				return r_MRenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye;
 			}
 		}
 
 		/// <summary>
 		/// Boolean RenderToCubemap(UnityEngine.RenderTexture, Int32, MonoOrStereoscopicEye)
 		/// </summary>
-		protected RMethod r_RenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye;
-		public virtual RMethod RRenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye
+		protected RMethod r_MRenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye;
+		public virtual RMethod RMRenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye
 		{
 			get
 			{
-				if(r_RenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye == null)
+				if(r_MRenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye == null)
 				{
-					r_RenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye = new(this, "RenderToCubemap", 0, typeof(UnityEngine.RenderTexture), typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
-					r_RenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye.SetBelong(this.instance);
+					r_MRenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye = new(this, "RenderToCubemap", 0, typeof(UnityEngine.RenderTexture), typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_MRenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
-				return r_RenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye;
+				return r_MRenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye;
 			}
 		}
 
 		/// <summary>
 		/// Void Render()
 		/// </summary>
-		protected RMethod r_Render;
-		public virtual RMethod RRender
+		protected RMethod r_MRender;
+		public virtual RMethod RMRender
 		{
 			get
 			{
-				if(r_Render == null)
+				if(r_MRender == null)
 				{
-					r_Render = new(this, "Render", 0);
-					r_Render.SetBelong(this.instance);
+					r_MRender = new(this, "Render", 0);
+					r_MRender.SetBelong(this.instance);
 				}
-				return r_Render;
+				return r_MRender;
 			}
 		}
 
 		/// <summary>
 		/// Void RenderWithShader(UnityEngine.Shader, System.String)
 		/// </summary>
-		protected RMethod r_RenderWithShader_Shader_String;
-		public virtual RMethod RRenderWithShader_Shader_String
+		protected RMethod r_MRenderWithShader_Shader_String;
+		public virtual RMethod RMRenderWithShader_Shader_String
 		{
 			get
 			{
-				if(r_RenderWithShader_Shader_String == null)
+				if(r_MRenderWithShader_Shader_String == null)
 				{
-					r_RenderWithShader_Shader_String = new(this, "RenderWithShader", 0, typeof(UnityEngine.Shader), typeof(System.String));
-					r_RenderWithShader_Shader_String.SetBelong(this.instance);
+					r_MRenderWithShader_Shader_String = new(this, "RenderWithShader", 0, typeof(UnityEngine.Shader), typeof(System.String));
+					r_MRenderWithShader_Shader_String.SetBelong(this.instance);
 				}
-				return r_RenderWithShader_Shader_String;
+				return r_MRenderWithShader_Shader_String;
 			}
 		}
 
 		/// <summary>
 		/// Void RenderDontRestore()
 		/// </summary>
-		protected RMethod r_RenderDontRestore;
-		public virtual RMethod RRenderDontRestore
+		protected RMethod r_MRenderDontRestore;
+		public virtual RMethod RMRenderDontRestore
 		{
 			get
 			{
-				if(r_RenderDontRestore == null)
+				if(r_MRenderDontRestore == null)
 				{
-					r_RenderDontRestore = new(this, "RenderDontRestore", 0);
-					r_RenderDontRestore.SetBelong(this.instance);
+					r_MRenderDontRestore = new(this, "RenderDontRestore", 0);
+					r_MRenderDontRestore.SetBelong(this.instance);
 				}
-				return r_RenderDontRestore;
+				return r_MRenderDontRestore;
 			}
 		}
 
 		/// <summary>
 		/// Void SubmitRenderRequests(System.Collections.Generic.List`1[UnityEngine.Camera+RenderRequest])
 		/// </summary>
-		protected RMethod r_SubmitRenderRequests_List_d_RenderRequest_p_;
-		public virtual RMethod RSubmitRenderRequests_List_d_RenderRequest_p_
+		protected RMethod r_MSubmitRenderRequests_List_d_RenderRequest_p_;
+		public virtual RMethod RMSubmitRenderRequests_List_d_RenderRequest_p_
 		{
 			get
 			{
-				if(r_SubmitRenderRequests_List_d_RenderRequest_p_ == null)
+				if(r_MSubmitRenderRequests_List_d_RenderRequest_p_ == null)
 				{
-					r_SubmitRenderRequests_List_d_RenderRequest_p_ = new(this, "SubmitRenderRequests", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.Camera+RenderRequest")));
-					r_SubmitRenderRequests_List_d_RenderRequest_p_.SetBelong(this.instance);
+					r_MSubmitRenderRequests_List_d_RenderRequest_p_ = new(this, "SubmitRenderRequests", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.Camera+RenderRequest")));
+					r_MSubmitRenderRequests_List_d_RenderRequest_p_.SetBelong(this.instance);
 				}
-				return r_SubmitRenderRequests_List_d_RenderRequest_p_;
+				return r_MSubmitRenderRequests_List_d_RenderRequest_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SubmitRenderRequest[RequestData](RequestData)
 		/// </summary>
-		protected RMethod r_SubmitRenderRequest_GRequestData_RequestData;
-		public virtual RMethod RSubmitRenderRequest_GRequestData_RequestData
+		protected RMethod r_MSubmitRenderRequest_GRequestData_RequestData;
+		public virtual RMethod RMSubmitRenderRequest_GRequestData_RequestData
 		{
 			get
 			{
-				if(r_SubmitRenderRequest_GRequestData_RequestData == null)
+				if(r_MSubmitRenderRequest_GRequestData_RequestData == null)
 				{
-					r_SubmitRenderRequest_GRequestData_RequestData = new(this, "SubmitRenderRequest", 1, Type.MakeGenericMethodParameter(0));
-					r_SubmitRenderRequest_GRequestData_RequestData.SetBelong(this.instance);
+					r_MSubmitRenderRequest_GRequestData_RequestData = new(this, "SubmitRenderRequest", 1, Type.MakeGenericMethodParameter(0));
+					r_MSubmitRenderRequest_GRequestData_RequestData.SetBelong(this.instance);
 				}
-				return r_SubmitRenderRequest_GRequestData_RequestData;
+				return r_MSubmitRenderRequest_GRequestData_RequestData;
 			}
 		}
 
 		/// <summary>
 		/// Void SubmitRenderRequestsInternal(System.Object)
 		/// </summary>
-		protected RMethod r_SubmitRenderRequestsInternal_Object;
-		public virtual RMethod RSubmitRenderRequestsInternal_Object
+		protected RMethod r_MSubmitRenderRequestsInternal_Object;
+		public virtual RMethod RMSubmitRenderRequestsInternal_Object
 		{
 			get
 			{
-				if(r_SubmitRenderRequestsInternal_Object == null)
+				if(r_MSubmitRenderRequestsInternal_Object == null)
 				{
-					r_SubmitRenderRequestsInternal_Object = new(this, "SubmitRenderRequestsInternal", 0, typeof(System.Object));
-					r_SubmitRenderRequestsInternal_Object.SetBelong(this.instance);
+					r_MSubmitRenderRequestsInternal_Object = new(this, "SubmitRenderRequestsInternal", 0, typeof(System.Object));
+					r_MSubmitRenderRequestsInternal_Object.SetBelong(this.instance);
 				}
-				return r_SubmitRenderRequestsInternal_Object;
+				return r_MSubmitRenderRequestsInternal_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void SetupCurrent(UnityEngine.Camera)
 		/// </summary>
-		protected static RMethod r_SetupCurrent_Camera;
-		public static RMethod RSetupCurrent_Camera
+		protected static RMethod r_MSetupCurrent_Camera;
+		public static RMethod RMSetupCurrent_Camera
 		{
 			get
 			{
-				if(r_SetupCurrent_Camera == null)
+				if(r_MSetupCurrent_Camera == null)
 				{
-					r_SetupCurrent_Camera = new(typeof(UnityEngine.Camera), "SetupCurrent", 0, typeof(UnityEngine.Camera));
-					r_SetupCurrent_Camera.SetBelong(null);
+					r_MSetupCurrent_Camera = new(typeof(UnityEngine.Camera), "SetupCurrent", 0, typeof(UnityEngine.Camera));
+					r_MSetupCurrent_Camera.SetBelong(null);
 				}
-				return r_SetupCurrent_Camera;
+				return r_MSetupCurrent_Camera;
 			}
 		}
 
 		/// <summary>
 		/// Void CopyFrom(UnityEngine.Camera)
 		/// </summary>
-		protected RMethod r_CopyFrom_Camera;
-		public virtual RMethod RCopyFrom_Camera
+		protected RMethod r_MCopyFrom_Camera;
+		public virtual RMethod RMCopyFrom_Camera
 		{
 			get
 			{
-				if(r_CopyFrom_Camera == null)
+				if(r_MCopyFrom_Camera == null)
 				{
-					r_CopyFrom_Camera = new(this, "CopyFrom", 0, typeof(UnityEngine.Camera));
-					r_CopyFrom_Camera.SetBelong(this.instance);
+					r_MCopyFrom_Camera = new(this, "CopyFrom", 0, typeof(UnityEngine.Camera));
+					r_MCopyFrom_Camera.SetBelong(this.instance);
 				}
-				return r_CopyFrom_Camera;
+				return r_MCopyFrom_Camera;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveCommandBuffers(UnityEngine.Rendering.CameraEvent)
 		/// </summary>
-		protected RMethod r_RemoveCommandBuffers_CameraEvent;
-		public virtual RMethod RRemoveCommandBuffers_CameraEvent
+		protected RMethod r_MRemoveCommandBuffers_CameraEvent;
+		public virtual RMethod RMRemoveCommandBuffers_CameraEvent
 		{
 			get
 			{
-				if(r_RemoveCommandBuffers_CameraEvent == null)
+				if(r_MRemoveCommandBuffers_CameraEvent == null)
 				{
-					r_RemoveCommandBuffers_CameraEvent = new(this, "RemoveCommandBuffers", 0, typeof(UnityEngine.Rendering.CameraEvent));
-					r_RemoveCommandBuffers_CameraEvent.SetBelong(this.instance);
+					r_MRemoveCommandBuffers_CameraEvent = new(this, "RemoveCommandBuffers", 0, typeof(UnityEngine.Rendering.CameraEvent));
+					r_MRemoveCommandBuffers_CameraEvent.SetBelong(this.instance);
 				}
-				return r_RemoveCommandBuffers_CameraEvent;
+				return r_MRemoveCommandBuffers_CameraEvent;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAllCommandBuffers()
 		/// </summary>
-		protected RMethod r_RemoveAllCommandBuffers;
-		public virtual RMethod RRemoveAllCommandBuffers
+		protected RMethod r_MRemoveAllCommandBuffers;
+		public virtual RMethod RMRemoveAllCommandBuffers
 		{
 			get
 			{
-				if(r_RemoveAllCommandBuffers == null)
+				if(r_MRemoveAllCommandBuffers == null)
 				{
-					r_RemoveAllCommandBuffers = new(this, "RemoveAllCommandBuffers", 0);
-					r_RemoveAllCommandBuffers.SetBelong(this.instance);
+					r_MRemoveAllCommandBuffers = new(this, "RemoveAllCommandBuffers", 0);
+					r_MRemoveAllCommandBuffers.SetBelong(this.instance);
 				}
-				return r_RemoveAllCommandBuffers;
+				return r_MRemoveAllCommandBuffers;
 			}
 		}
 
 		/// <summary>
 		/// Void AddCommandBufferImpl(UnityEngine.Rendering.CameraEvent, UnityEngine.Rendering.CommandBuffer)
 		/// </summary>
-		protected RMethod r_AddCommandBufferImpl_CameraEvent_CommandBuffer;
-		public virtual RMethod RAddCommandBufferImpl_CameraEvent_CommandBuffer
+		protected RMethod r_MAddCommandBufferImpl_CameraEvent_CommandBuffer;
+		public virtual RMethod RMAddCommandBufferImpl_CameraEvent_CommandBuffer
 		{
 			get
 			{
-				if(r_AddCommandBufferImpl_CameraEvent_CommandBuffer == null)
+				if(r_MAddCommandBufferImpl_CameraEvent_CommandBuffer == null)
 				{
-					r_AddCommandBufferImpl_CameraEvent_CommandBuffer = new(this, "AddCommandBufferImpl", 0, typeof(UnityEngine.Rendering.CameraEvent), typeof(UnityEngine.Rendering.CommandBuffer));
-					r_AddCommandBufferImpl_CameraEvent_CommandBuffer.SetBelong(this.instance);
+					r_MAddCommandBufferImpl_CameraEvent_CommandBuffer = new(this, "AddCommandBufferImpl", 0, typeof(UnityEngine.Rendering.CameraEvent), typeof(UnityEngine.Rendering.CommandBuffer));
+					r_MAddCommandBufferImpl_CameraEvent_CommandBuffer.SetBelong(this.instance);
 				}
-				return r_AddCommandBufferImpl_CameraEvent_CommandBuffer;
+				return r_MAddCommandBufferImpl_CameraEvent_CommandBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void AddCommandBufferAsyncImpl(UnityEngine.Rendering.CameraEvent, UnityEngine.Rendering.CommandBuffer, UnityEngine.Rendering.ComputeQueueType)
 		/// </summary>
-		protected RMethod r_AddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType;
-		public virtual RMethod RAddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType
+		protected RMethod r_MAddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType;
+		public virtual RMethod RMAddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType
 		{
 			get
 			{
-				if(r_AddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType == null)
+				if(r_MAddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType == null)
 				{
-					r_AddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType = new(this, "AddCommandBufferAsyncImpl", 0, typeof(UnityEngine.Rendering.CameraEvent), typeof(UnityEngine.Rendering.CommandBuffer), typeof(UnityEngine.Rendering.ComputeQueueType));
-					r_AddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType.SetBelong(this.instance);
+					r_MAddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType = new(this, "AddCommandBufferAsyncImpl", 0, typeof(UnityEngine.Rendering.CameraEvent), typeof(UnityEngine.Rendering.CommandBuffer), typeof(UnityEngine.Rendering.ComputeQueueType));
+					r_MAddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType.SetBelong(this.instance);
 				}
-				return r_AddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType;
+				return r_MAddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveCommandBufferImpl(UnityEngine.Rendering.CameraEvent, UnityEngine.Rendering.CommandBuffer)
 		/// </summary>
-		protected RMethod r_RemoveCommandBufferImpl_CameraEvent_CommandBuffer;
-		public virtual RMethod RRemoveCommandBufferImpl_CameraEvent_CommandBuffer
+		protected RMethod r_MRemoveCommandBufferImpl_CameraEvent_CommandBuffer;
+		public virtual RMethod RMRemoveCommandBufferImpl_CameraEvent_CommandBuffer
 		{
 			get
 			{
-				if(r_RemoveCommandBufferImpl_CameraEvent_CommandBuffer == null)
+				if(r_MRemoveCommandBufferImpl_CameraEvent_CommandBuffer == null)
 				{
-					r_RemoveCommandBufferImpl_CameraEvent_CommandBuffer = new(this, "RemoveCommandBufferImpl", 0, typeof(UnityEngine.Rendering.CameraEvent), typeof(UnityEngine.Rendering.CommandBuffer));
-					r_RemoveCommandBufferImpl_CameraEvent_CommandBuffer.SetBelong(this.instance);
+					r_MRemoveCommandBufferImpl_CameraEvent_CommandBuffer = new(this, "RemoveCommandBufferImpl", 0, typeof(UnityEngine.Rendering.CameraEvent), typeof(UnityEngine.Rendering.CommandBuffer));
+					r_MRemoveCommandBufferImpl_CameraEvent_CommandBuffer.SetBelong(this.instance);
 				}
-				return r_RemoveCommandBufferImpl_CameraEvent_CommandBuffer;
+				return r_MRemoveCommandBufferImpl_CameraEvent_CommandBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void AddCommandBuffer(UnityEngine.Rendering.CameraEvent, UnityEngine.Rendering.CommandBuffer)
 		/// </summary>
-		protected RMethod r_AddCommandBuffer_CameraEvent_CommandBuffer;
-		public virtual RMethod RAddCommandBuffer_CameraEvent_CommandBuffer
+		protected RMethod r_MAddCommandBuffer_CameraEvent_CommandBuffer;
+		public virtual RMethod RMAddCommandBuffer_CameraEvent_CommandBuffer
 		{
 			get
 			{
-				if(r_AddCommandBuffer_CameraEvent_CommandBuffer == null)
+				if(r_MAddCommandBuffer_CameraEvent_CommandBuffer == null)
 				{
-					r_AddCommandBuffer_CameraEvent_CommandBuffer = new(this, "AddCommandBuffer", 0, typeof(UnityEngine.Rendering.CameraEvent), typeof(UnityEngine.Rendering.CommandBuffer));
-					r_AddCommandBuffer_CameraEvent_CommandBuffer.SetBelong(this.instance);
+					r_MAddCommandBuffer_CameraEvent_CommandBuffer = new(this, "AddCommandBuffer", 0, typeof(UnityEngine.Rendering.CameraEvent), typeof(UnityEngine.Rendering.CommandBuffer));
+					r_MAddCommandBuffer_CameraEvent_CommandBuffer.SetBelong(this.instance);
 				}
-				return r_AddCommandBuffer_CameraEvent_CommandBuffer;
+				return r_MAddCommandBuffer_CameraEvent_CommandBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void AddCommandBufferAsync(UnityEngine.Rendering.CameraEvent, UnityEngine.Rendering.CommandBuffer, UnityEngine.Rendering.ComputeQueueType)
 		/// </summary>
-		protected RMethod r_AddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType;
-		public virtual RMethod RAddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType
+		protected RMethod r_MAddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType;
+		public virtual RMethod RMAddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType
 		{
 			get
 			{
-				if(r_AddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType == null)
+				if(r_MAddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType == null)
 				{
-					r_AddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType = new(this, "AddCommandBufferAsync", 0, typeof(UnityEngine.Rendering.CameraEvent), typeof(UnityEngine.Rendering.CommandBuffer), typeof(UnityEngine.Rendering.ComputeQueueType));
-					r_AddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType.SetBelong(this.instance);
+					r_MAddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType = new(this, "AddCommandBufferAsync", 0, typeof(UnityEngine.Rendering.CameraEvent), typeof(UnityEngine.Rendering.CommandBuffer), typeof(UnityEngine.Rendering.ComputeQueueType));
+					r_MAddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType.SetBelong(this.instance);
 				}
-				return r_AddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType;
+				return r_MAddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveCommandBuffer(UnityEngine.Rendering.CameraEvent, UnityEngine.Rendering.CommandBuffer)
 		/// </summary>
-		protected RMethod r_RemoveCommandBuffer_CameraEvent_CommandBuffer;
-		public virtual RMethod RRemoveCommandBuffer_CameraEvent_CommandBuffer
+		protected RMethod r_MRemoveCommandBuffer_CameraEvent_CommandBuffer;
+		public virtual RMethod RMRemoveCommandBuffer_CameraEvent_CommandBuffer
 		{
 			get
 			{
-				if(r_RemoveCommandBuffer_CameraEvent_CommandBuffer == null)
+				if(r_MRemoveCommandBuffer_CameraEvent_CommandBuffer == null)
 				{
-					r_RemoveCommandBuffer_CameraEvent_CommandBuffer = new(this, "RemoveCommandBuffer", 0, typeof(UnityEngine.Rendering.CameraEvent), typeof(UnityEngine.Rendering.CommandBuffer));
-					r_RemoveCommandBuffer_CameraEvent_CommandBuffer.SetBelong(this.instance);
+					r_MRemoveCommandBuffer_CameraEvent_CommandBuffer = new(this, "RemoveCommandBuffer", 0, typeof(UnityEngine.Rendering.CameraEvent), typeof(UnityEngine.Rendering.CommandBuffer));
+					r_MRemoveCommandBuffer_CameraEvent_CommandBuffer.SetBelong(this.instance);
 				}
-				return r_RemoveCommandBuffer_CameraEvent_CommandBuffer;
+				return r_MRemoveCommandBuffer_CameraEvent_CommandBuffer;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.CommandBuffer[] GetCommandBuffers(UnityEngine.Rendering.CameraEvent)
 		/// </summary>
-		protected RMethod r_GetCommandBuffers_CameraEvent;
-		public virtual RMethod RGetCommandBuffers_CameraEvent
+		protected RMethod r_MGetCommandBuffers_CameraEvent;
+		public virtual RMethod RMGetCommandBuffers_CameraEvent
 		{
 			get
 			{
-				if(r_GetCommandBuffers_CameraEvent == null)
+				if(r_MGetCommandBuffers_CameraEvent == null)
 				{
-					r_GetCommandBuffers_CameraEvent = new(this, "GetCommandBuffers", 0, typeof(UnityEngine.Rendering.CameraEvent));
-					r_GetCommandBuffers_CameraEvent.SetBelong(this.instance);
+					r_MGetCommandBuffers_CameraEvent = new(this, "GetCommandBuffers", 0, typeof(UnityEngine.Rendering.CameraEvent));
+					r_MGetCommandBuffers_CameraEvent.SetBelong(this.instance);
 				}
-				return r_GetCommandBuffers_CameraEvent;
+				return r_MGetCommandBuffers_CameraEvent;
 			}
 		}
 
 		/// <summary>
 		/// Void FireOnPreCull(UnityEngine.Camera)
 		/// </summary>
-		protected static RMethod r_FireOnPreCull_Camera;
-		public static RMethod RFireOnPreCull_Camera
+		protected static RMethod r_MFireOnPreCull_Camera;
+		public static RMethod RMFireOnPreCull_Camera
 		{
 			get
 			{
-				if(r_FireOnPreCull_Camera == null)
+				if(r_MFireOnPreCull_Camera == null)
 				{
-					r_FireOnPreCull_Camera = new(typeof(UnityEngine.Camera), "FireOnPreCull", 0, typeof(UnityEngine.Camera));
-					r_FireOnPreCull_Camera.SetBelong(null);
+					r_MFireOnPreCull_Camera = new(typeof(UnityEngine.Camera), "FireOnPreCull", 0, typeof(UnityEngine.Camera));
+					r_MFireOnPreCull_Camera.SetBelong(null);
 				}
-				return r_FireOnPreCull_Camera;
+				return r_MFireOnPreCull_Camera;
 			}
 		}
 
 		/// <summary>
 		/// Void FireOnPreRender(UnityEngine.Camera)
 		/// </summary>
-		protected static RMethod r_FireOnPreRender_Camera;
-		public static RMethod RFireOnPreRender_Camera
+		protected static RMethod r_MFireOnPreRender_Camera;
+		public static RMethod RMFireOnPreRender_Camera
 		{
 			get
 			{
-				if(r_FireOnPreRender_Camera == null)
+				if(r_MFireOnPreRender_Camera == null)
 				{
-					r_FireOnPreRender_Camera = new(typeof(UnityEngine.Camera), "FireOnPreRender", 0, typeof(UnityEngine.Camera));
-					r_FireOnPreRender_Camera.SetBelong(null);
+					r_MFireOnPreRender_Camera = new(typeof(UnityEngine.Camera), "FireOnPreRender", 0, typeof(UnityEngine.Camera));
+					r_MFireOnPreRender_Camera.SetBelong(null);
 				}
-				return r_FireOnPreRender_Camera;
+				return r_MFireOnPreRender_Camera;
 			}
 		}
 
 		/// <summary>
 		/// Void FireOnPostRender(UnityEngine.Camera)
 		/// </summary>
-		protected static RMethod r_FireOnPostRender_Camera;
-		public static RMethod RFireOnPostRender_Camera
+		protected static RMethod r_MFireOnPostRender_Camera;
+		public static RMethod RMFireOnPostRender_Camera
 		{
 			get
 			{
-				if(r_FireOnPostRender_Camera == null)
+				if(r_MFireOnPostRender_Camera == null)
 				{
-					r_FireOnPostRender_Camera = new(typeof(UnityEngine.Camera), "FireOnPostRender", 0, typeof(UnityEngine.Camera));
-					r_FireOnPostRender_Camera.SetBelong(null);
+					r_MFireOnPostRender_Camera = new(typeof(UnityEngine.Camera), "FireOnPostRender", 0, typeof(UnityEngine.Camera));
+					r_MFireOnPostRender_Camera.SetBelong(null);
 				}
-				return r_FireOnPostRender_Camera;
+				return r_MFireOnPostRender_Camera;
 			}
 		}
 
 		/// <summary>
 		/// Void OnlyUsedForTesting1()
 		/// </summary>
-		protected RMethod r_OnlyUsedForTesting1;
-		public virtual RMethod ROnlyUsedForTesting1
+		protected RMethod r_MOnlyUsedForTesting1;
+		public virtual RMethod RMOnlyUsedForTesting1
 		{
 			get
 			{
-				if(r_OnlyUsedForTesting1 == null)
+				if(r_MOnlyUsedForTesting1 == null)
 				{
-					r_OnlyUsedForTesting1 = new(this, "OnlyUsedForTesting1", 0);
-					r_OnlyUsedForTesting1.SetBelong(this.instance);
+					r_MOnlyUsedForTesting1 = new(this, "OnlyUsedForTesting1", 0);
+					r_MOnlyUsedForTesting1.SetBelong(this.instance);
 				}
-				return r_OnlyUsedForTesting1;
+				return r_MOnlyUsedForTesting1;
 			}
 		}
 
 		/// <summary>
 		/// Void OnlyUsedForTesting2()
 		/// </summary>
-		protected RMethod r_OnlyUsedForTesting2;
-		public virtual RMethod ROnlyUsedForTesting2
+		protected RMethod r_MOnlyUsedForTesting2;
+		public virtual RMethod RMOnlyUsedForTesting2
 		{
 			get
 			{
-				if(r_OnlyUsedForTesting2 == null)
+				if(r_MOnlyUsedForTesting2 == null)
 				{
-					r_OnlyUsedForTesting2 = new(this, "OnlyUsedForTesting2", 0);
-					r_OnlyUsedForTesting2.SetBelong(this.instance);
+					r_MOnlyUsedForTesting2 = new(this, "OnlyUsedForTesting2", 0);
+					r_MOnlyUsedForTesting2.SetBelong(this.instance);
 				}
-				return r_OnlyUsedForTesting2;
+				return r_MOnlyUsedForTesting2;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetCullingParameters(UnityEngine.Rendering.ScriptableCullingParameters ByRef)
 		/// </summary>
-		protected RMethod r_TryGetCullingParameters_Out_ScriptableCullingParameters;
-		public virtual RMethod RTryGetCullingParameters_Out_ScriptableCullingParameters
+		protected RMethod r_MTryGetCullingParameters_Out_ScriptableCullingParameters;
+		public virtual RMethod RMTryGetCullingParameters_Out_ScriptableCullingParameters
 		{
 			get
 			{
-				if(r_TryGetCullingParameters_Out_ScriptableCullingParameters == null)
+				if(r_MTryGetCullingParameters_Out_ScriptableCullingParameters == null)
 				{
-					r_TryGetCullingParameters_Out_ScriptableCullingParameters = new(this, "TryGetCullingParameters", 0, typeof(UnityEngine.Rendering.ScriptableCullingParameters).MakeByRefType());
-					r_TryGetCullingParameters_Out_ScriptableCullingParameters.SetBelong(this.instance);
+					r_MTryGetCullingParameters_Out_ScriptableCullingParameters = new(this, "TryGetCullingParameters", 0, typeof(UnityEngine.Rendering.ScriptableCullingParameters).MakeByRefType());
+					r_MTryGetCullingParameters_Out_ScriptableCullingParameters.SetBelong(this.instance);
 				}
-				return r_TryGetCullingParameters_Out_ScriptableCullingParameters;
+				return r_MTryGetCullingParameters_Out_ScriptableCullingParameters;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetCullingParameters(Boolean, UnityEngine.Rendering.ScriptableCullingParameters ByRef)
 		/// </summary>
-		protected RMethod r_TryGetCullingParameters_Boolean_Out_ScriptableCullingParameters;
-		public virtual RMethod RTryGetCullingParameters_Boolean_Out_ScriptableCullingParameters
+		protected RMethod r_MTryGetCullingParameters_Boolean_Out_ScriptableCullingParameters;
+		public virtual RMethod RMTryGetCullingParameters_Boolean_Out_ScriptableCullingParameters
 		{
 			get
 			{
-				if(r_TryGetCullingParameters_Boolean_Out_ScriptableCullingParameters == null)
+				if(r_MTryGetCullingParameters_Boolean_Out_ScriptableCullingParameters == null)
 				{
-					r_TryGetCullingParameters_Boolean_Out_ScriptableCullingParameters = new(this, "TryGetCullingParameters", 0, typeof(System.Boolean), typeof(UnityEngine.Rendering.ScriptableCullingParameters).MakeByRefType());
-					r_TryGetCullingParameters_Boolean_Out_ScriptableCullingParameters.SetBelong(this.instance);
+					r_MTryGetCullingParameters_Boolean_Out_ScriptableCullingParameters = new(this, "TryGetCullingParameters", 0, typeof(System.Boolean), typeof(UnityEngine.Rendering.ScriptableCullingParameters).MakeByRefType());
+					r_MTryGetCullingParameters_Boolean_Out_ScriptableCullingParameters.SetBelong(this.instance);
 				}
-				return r_TryGetCullingParameters_Boolean_Out_ScriptableCullingParameters;
+				return r_MTryGetCullingParameters_Boolean_Out_ScriptableCullingParameters;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetCullingParameters_Internal(UnityEngine.Camera, Boolean, UnityEngine.Rendering.ScriptableCullingParameters ByRef, Int32)
 		/// </summary>
-		protected static RMethod r_GetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32;
-		public static RMethod RGetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32
+		protected static RMethod r_MGetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32;
+		public static RMethod RMGetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32
 		{
 			get
 			{
-				if(r_GetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32 == null)
+				if(r_MGetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32 == null)
 				{
-					r_GetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32 = new(typeof(UnityEngine.Camera), "GetCullingParameters_Internal", 0, typeof(UnityEngine.Camera), typeof(System.Boolean), typeof(UnityEngine.Rendering.ScriptableCullingParameters).MakeByRefType(), typeof(System.Int32));
-					r_GetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32.SetBelong(null);
+					r_MGetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32 = new(typeof(UnityEngine.Camera), "GetCullingParameters_Internal", 0, typeof(UnityEngine.Camera), typeof(System.Boolean), typeof(UnityEngine.Rendering.ScriptableCullingParameters).MakeByRefType(), typeof(System.Int32));
+					r_MGetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32.SetBelong(null);
 				}
-				return r_GetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32;
+				return r_MGetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Single GetScreenWidth()
 		/// </summary>
-		protected RMethod r_GetScreenWidth;
-		public virtual RMethod RGetScreenWidth
+		protected RMethod r_MGetScreenWidth;
+		public virtual RMethod RMGetScreenWidth
 		{
 			get
 			{
-				if(r_GetScreenWidth == null)
+				if(r_MGetScreenWidth == null)
 				{
-					r_GetScreenWidth = new(this, "GetScreenWidth", 0);
-					r_GetScreenWidth.SetBelong(this.instance);
+					r_MGetScreenWidth = new(this, "GetScreenWidth", 0);
+					r_MGetScreenWidth.SetBelong(this.instance);
 				}
-				return r_GetScreenWidth;
+				return r_MGetScreenWidth;
 			}
 		}
 
 		/// <summary>
 		/// Single GetScreenHeight()
 		/// </summary>
-		protected RMethod r_GetScreenHeight;
-		public virtual RMethod RGetScreenHeight
+		protected RMethod r_MGetScreenHeight;
+		public virtual RMethod RMGetScreenHeight
 		{
 			get
 			{
-				if(r_GetScreenHeight == null)
+				if(r_MGetScreenHeight == null)
 				{
-					r_GetScreenHeight = new(this, "GetScreenHeight", 0);
-					r_GetScreenHeight.SetBelong(this.instance);
+					r_MGetScreenHeight = new(this, "GetScreenHeight", 0);
+					r_MGetScreenHeight.SetBelong(this.instance);
 				}
-				return r_GetScreenHeight;
+				return r_MGetScreenHeight;
 			}
 		}
 
 		/// <summary>
 		/// Void DoClear()
 		/// </summary>
-		protected RMethod r_DoClear;
-		public virtual RMethod RDoClear
+		protected RMethod r_MDoClear;
+		public virtual RMethod RMDoClear
 		{
 			get
 			{
-				if(r_DoClear == null)
+				if(r_MDoClear == null)
 				{
-					r_DoClear = new(this, "DoClear", 0);
-					r_DoClear.SetBelong(this.instance);
+					r_MDoClear = new(this, "DoClear", 0);
+					r_MDoClear.SetBelong(this.instance);
 				}
-				return r_DoClear;
+				return r_MDoClear;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetFieldOfView()
 		/// </summary>
-		protected RMethod r_ResetFieldOfView;
-		public virtual RMethod RResetFieldOfView
+		protected RMethod r_MResetFieldOfView;
+		public virtual RMethod RMResetFieldOfView
 		{
 			get
 			{
-				if(r_ResetFieldOfView == null)
+				if(r_MResetFieldOfView == null)
 				{
-					r_ResetFieldOfView = new(this, "ResetFieldOfView", 0);
-					r_ResetFieldOfView.SetBelong(this.instance);
+					r_MResetFieldOfView = new(this, "ResetFieldOfView", 0);
+					r_MResetFieldOfView.SetBelong(this.instance);
 				}
-				return r_ResetFieldOfView;
+				return r_MResetFieldOfView;
 			}
 		}
 
 		/// <summary>
 		/// Void SetStereoViewMatrices(UnityEngine.Matrix4x4, UnityEngine.Matrix4x4)
 		/// </summary>
-		protected RMethod r_SetStereoViewMatrices_Matrix4x4_Matrix4x4;
-		public virtual RMethod RSetStereoViewMatrices_Matrix4x4_Matrix4x4
+		protected RMethod r_MSetStereoViewMatrices_Matrix4x4_Matrix4x4;
+		public virtual RMethod RMSetStereoViewMatrices_Matrix4x4_Matrix4x4
 		{
 			get
 			{
-				if(r_SetStereoViewMatrices_Matrix4x4_Matrix4x4 == null)
+				if(r_MSetStereoViewMatrices_Matrix4x4_Matrix4x4 == null)
 				{
-					r_SetStereoViewMatrices_Matrix4x4_Matrix4x4 = new(this, "SetStereoViewMatrices", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Matrix4x4));
-					r_SetStereoViewMatrices_Matrix4x4_Matrix4x4.SetBelong(this.instance);
+					r_MSetStereoViewMatrices_Matrix4x4_Matrix4x4 = new(this, "SetStereoViewMatrices", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Matrix4x4));
+					r_MSetStereoViewMatrices_Matrix4x4_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_SetStereoViewMatrices_Matrix4x4_Matrix4x4;
+				return r_MSetStereoViewMatrices_Matrix4x4_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void SetStereoProjectionMatrices(UnityEngine.Matrix4x4, UnityEngine.Matrix4x4)
 		/// </summary>
-		protected RMethod r_SetStereoProjectionMatrices_Matrix4x4_Matrix4x4;
-		public virtual RMethod RSetStereoProjectionMatrices_Matrix4x4_Matrix4x4
+		protected RMethod r_MSetStereoProjectionMatrices_Matrix4x4_Matrix4x4;
+		public virtual RMethod RMSetStereoProjectionMatrices_Matrix4x4_Matrix4x4
 		{
 			get
 			{
-				if(r_SetStereoProjectionMatrices_Matrix4x4_Matrix4x4 == null)
+				if(r_MSetStereoProjectionMatrices_Matrix4x4_Matrix4x4 == null)
 				{
-					r_SetStereoProjectionMatrices_Matrix4x4_Matrix4x4 = new(this, "SetStereoProjectionMatrices", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Matrix4x4));
-					r_SetStereoProjectionMatrices_Matrix4x4_Matrix4x4.SetBelong(this.instance);
+					r_MSetStereoProjectionMatrices_Matrix4x4_Matrix4x4 = new(this, "SetStereoProjectionMatrices", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Matrix4x4));
+					r_MSetStereoProjectionMatrices_Matrix4x4_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_SetStereoProjectionMatrices_Matrix4x4_Matrix4x4;
+				return r_MSetStereoProjectionMatrices_Matrix4x4_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4[] GetStereoViewMatrices()
 		/// </summary>
-		protected RMethod r_GetStereoViewMatrices;
-		public virtual RMethod RGetStereoViewMatrices
+		protected RMethod r_MGetStereoViewMatrices;
+		public virtual RMethod RMGetStereoViewMatrices
 		{
 			get
 			{
-				if(r_GetStereoViewMatrices == null)
+				if(r_MGetStereoViewMatrices == null)
 				{
-					r_GetStereoViewMatrices = new(this, "GetStereoViewMatrices", 0);
-					r_GetStereoViewMatrices.SetBelong(this.instance);
+					r_MGetStereoViewMatrices = new(this, "GetStereoViewMatrices", 0);
+					r_MGetStereoViewMatrices.SetBelong(this.instance);
 				}
-				return r_GetStereoViewMatrices;
+				return r_MGetStereoViewMatrices;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4[] GetStereoProjectionMatrices()
 		/// </summary>
-		protected RMethod r_GetStereoProjectionMatrices;
-		public virtual RMethod RGetStereoProjectionMatrices
+		protected RMethod r_MGetStereoProjectionMatrices;
+		public virtual RMethod RMGetStereoProjectionMatrices
 		{
 			get
 			{
-				if(r_GetStereoProjectionMatrices == null)
+				if(r_MGetStereoProjectionMatrices == null)
 				{
-					r_GetStereoProjectionMatrices = new(this, "GetStereoProjectionMatrices", 0);
-					r_GetStereoProjectionMatrices.SetBelong(this.instance);
+					r_MGetStereoProjectionMatrices = new(this, "GetStereoProjectionMatrices", 0);
+					r_MGetStereoProjectionMatrices.SetBelong(this.instance);
 				}
-				return r_GetStereoProjectionMatrices;
+				return r_MGetStereoProjectionMatrices;
 			}
 		}
 
 		/// <summary>
 		/// Void get_transparencySortAxis_Injected(UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected RMethod r_get_transparencySortAxis_Injected_Out_Vector3;
-		public virtual RMethod Rget_transparencySortAxis_Injected_Out_Vector3
+		protected RMethod r_Mget_transparencySortAxis_Injected_Out_Vector3;
+		public virtual RMethod RMget_transparencySortAxis_Injected_Out_Vector3
 		{
 			get
 			{
-				if(r_get_transparencySortAxis_Injected_Out_Vector3 == null)
+				if(r_Mget_transparencySortAxis_Injected_Out_Vector3 == null)
 				{
-					r_get_transparencySortAxis_Injected_Out_Vector3 = new(this, "get_transparencySortAxis_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
-					r_get_transparencySortAxis_Injected_Out_Vector3.SetBelong(this.instance);
+					r_Mget_transparencySortAxis_Injected_Out_Vector3 = new(this, "get_transparencySortAxis_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
+					r_Mget_transparencySortAxis_Injected_Out_Vector3.SetBelong(this.instance);
 				}
-				return r_get_transparencySortAxis_Injected_Out_Vector3;
+				return r_Mget_transparencySortAxis_Injected_Out_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void set_transparencySortAxis_Injected(UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected RMethod r_set_transparencySortAxis_Injected_Ref_Vector3;
-		public virtual RMethod Rset_transparencySortAxis_Injected_Ref_Vector3
+		protected RMethod r_Mset_transparencySortAxis_Injected_Ref_Vector3;
+		public virtual RMethod RMset_transparencySortAxis_Injected_Ref_Vector3
 		{
 			get
 			{
-				if(r_set_transparencySortAxis_Injected_Ref_Vector3 == null)
+				if(r_Mset_transparencySortAxis_Injected_Ref_Vector3 == null)
 				{
-					r_set_transparencySortAxis_Injected_Ref_Vector3 = new(this, "set_transparencySortAxis_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
-					r_set_transparencySortAxis_Injected_Ref_Vector3.SetBelong(this.instance);
+					r_Mset_transparencySortAxis_Injected_Ref_Vector3 = new(this, "set_transparencySortAxis_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
+					r_Mset_transparencySortAxis_Injected_Ref_Vector3.SetBelong(this.instance);
 				}
-				return r_set_transparencySortAxis_Injected_Ref_Vector3;
+				return r_Mset_transparencySortAxis_Injected_Ref_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void get_velocity_Injected(UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected RMethod r_get_velocity_Injected_Out_Vector3;
-		public virtual RMethod Rget_velocity_Injected_Out_Vector3
+		protected RMethod r_Mget_velocity_Injected_Out_Vector3;
+		public virtual RMethod RMget_velocity_Injected_Out_Vector3
 		{
 			get
 			{
-				if(r_get_velocity_Injected_Out_Vector3 == null)
+				if(r_Mget_velocity_Injected_Out_Vector3 == null)
 				{
-					r_get_velocity_Injected_Out_Vector3 = new(this, "get_velocity_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
-					r_get_velocity_Injected_Out_Vector3.SetBelong(this.instance);
+					r_Mget_velocity_Injected_Out_Vector3 = new(this, "get_velocity_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
+					r_Mget_velocity_Injected_Out_Vector3.SetBelong(this.instance);
 				}
-				return r_get_velocity_Injected_Out_Vector3;
+				return r_Mget_velocity_Injected_Out_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void get_cullingMatrix_Injected(UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_get_cullingMatrix_Injected_Out_Matrix4x4;
-		public virtual RMethod Rget_cullingMatrix_Injected_Out_Matrix4x4
+		protected RMethod r_Mget_cullingMatrix_Injected_Out_Matrix4x4;
+		public virtual RMethod RMget_cullingMatrix_Injected_Out_Matrix4x4
 		{
 			get
 			{
-				if(r_get_cullingMatrix_Injected_Out_Matrix4x4 == null)
+				if(r_Mget_cullingMatrix_Injected_Out_Matrix4x4 == null)
 				{
-					r_get_cullingMatrix_Injected_Out_Matrix4x4 = new(this, "get_cullingMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_get_cullingMatrix_Injected_Out_Matrix4x4.SetBelong(this.instance);
+					r_Mget_cullingMatrix_Injected_Out_Matrix4x4 = new(this, "get_cullingMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_Mget_cullingMatrix_Injected_Out_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_get_cullingMatrix_Injected_Out_Matrix4x4;
+				return r_Mget_cullingMatrix_Injected_Out_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void set_cullingMatrix_Injected(UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_set_cullingMatrix_Injected_Ref_Matrix4x4;
-		public virtual RMethod Rset_cullingMatrix_Injected_Ref_Matrix4x4
+		protected RMethod r_Mset_cullingMatrix_Injected_Ref_Matrix4x4;
+		public virtual RMethod RMset_cullingMatrix_Injected_Ref_Matrix4x4
 		{
 			get
 			{
-				if(r_set_cullingMatrix_Injected_Ref_Matrix4x4 == null)
+				if(r_Mset_cullingMatrix_Injected_Ref_Matrix4x4 == null)
 				{
-					r_set_cullingMatrix_Injected_Ref_Matrix4x4 = new(this, "set_cullingMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_set_cullingMatrix_Injected_Ref_Matrix4x4.SetBelong(this.instance);
+					r_Mset_cullingMatrix_Injected_Ref_Matrix4x4 = new(this, "set_cullingMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_Mset_cullingMatrix_Injected_Ref_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_set_cullingMatrix_Injected_Ref_Matrix4x4;
+				return r_Mset_cullingMatrix_Injected_Ref_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void get_backgroundColor_Injected(UnityEngine.Color ByRef)
 		/// </summary>
-		protected RMethod r_get_backgroundColor_Injected_Out_Color;
-		public virtual RMethod Rget_backgroundColor_Injected_Out_Color
+		protected RMethod r_Mget_backgroundColor_Injected_Out_Color;
+		public virtual RMethod RMget_backgroundColor_Injected_Out_Color
 		{
 			get
 			{
-				if(r_get_backgroundColor_Injected_Out_Color == null)
+				if(r_Mget_backgroundColor_Injected_Out_Color == null)
 				{
-					r_get_backgroundColor_Injected_Out_Color = new(this, "get_backgroundColor_Injected", 0, typeof(UnityEngine.Color).MakeByRefType());
-					r_get_backgroundColor_Injected_Out_Color.SetBelong(this.instance);
+					r_Mget_backgroundColor_Injected_Out_Color = new(this, "get_backgroundColor_Injected", 0, typeof(UnityEngine.Color).MakeByRefType());
+					r_Mget_backgroundColor_Injected_Out_Color.SetBelong(this.instance);
 				}
-				return r_get_backgroundColor_Injected_Out_Color;
+				return r_Mget_backgroundColor_Injected_Out_Color;
 			}
 		}
 
 		/// <summary>
 		/// Void set_backgroundColor_Injected(UnityEngine.Color ByRef)
 		/// </summary>
-		protected RMethod r_set_backgroundColor_Injected_Ref_Color;
-		public virtual RMethod Rset_backgroundColor_Injected_Ref_Color
+		protected RMethod r_Mset_backgroundColor_Injected_Ref_Color;
+		public virtual RMethod RMset_backgroundColor_Injected_Ref_Color
 		{
 			get
 			{
-				if(r_set_backgroundColor_Injected_Ref_Color == null)
+				if(r_Mset_backgroundColor_Injected_Ref_Color == null)
 				{
-					r_set_backgroundColor_Injected_Ref_Color = new(this, "set_backgroundColor_Injected", 0, typeof(UnityEngine.Color).MakeByRefType());
-					r_set_backgroundColor_Injected_Ref_Color.SetBelong(this.instance);
+					r_Mset_backgroundColor_Injected_Ref_Color = new(this, "set_backgroundColor_Injected", 0, typeof(UnityEngine.Color).MakeByRefType());
+					r_Mset_backgroundColor_Injected_Ref_Color.SetBelong(this.instance);
 				}
-				return r_set_backgroundColor_Injected_Ref_Color;
+				return r_Mset_backgroundColor_Injected_Ref_Color;
 			}
 		}
 
 		/// <summary>
 		/// Void get_curvature_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_get_curvature_Injected_Out_Vector2;
-		public virtual RMethod Rget_curvature_Injected_Out_Vector2
+		protected RMethod r_Mget_curvature_Injected_Out_Vector2;
+		public virtual RMethod RMget_curvature_Injected_Out_Vector2
 		{
 			get
 			{
-				if(r_get_curvature_Injected_Out_Vector2 == null)
+				if(r_Mget_curvature_Injected_Out_Vector2 == null)
 				{
-					r_get_curvature_Injected_Out_Vector2 = new(this, "get_curvature_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_get_curvature_Injected_Out_Vector2.SetBelong(this.instance);
+					r_Mget_curvature_Injected_Out_Vector2 = new(this, "get_curvature_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_Mget_curvature_Injected_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_get_curvature_Injected_Out_Vector2;
+				return r_Mget_curvature_Injected_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void set_curvature_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_set_curvature_Injected_Ref_Vector2;
-		public virtual RMethod Rset_curvature_Injected_Ref_Vector2
+		protected RMethod r_Mset_curvature_Injected_Ref_Vector2;
+		public virtual RMethod RMset_curvature_Injected_Ref_Vector2
 		{
 			get
 			{
-				if(r_set_curvature_Injected_Ref_Vector2 == null)
+				if(r_Mset_curvature_Injected_Ref_Vector2 == null)
 				{
-					r_set_curvature_Injected_Ref_Vector2 = new(this, "set_curvature_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_set_curvature_Injected_Ref_Vector2.SetBelong(this.instance);
+					r_Mset_curvature_Injected_Ref_Vector2 = new(this, "set_curvature_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_Mset_curvature_Injected_Ref_Vector2.SetBelong(this.instance);
 				}
-				return r_set_curvature_Injected_Ref_Vector2;
+				return r_Mset_curvature_Injected_Ref_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void get_sensorSize_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_get_sensorSize_Injected_Out_Vector2;
-		public virtual RMethod Rget_sensorSize_Injected_Out_Vector2
+		protected RMethod r_Mget_sensorSize_Injected_Out_Vector2;
+		public virtual RMethod RMget_sensorSize_Injected_Out_Vector2
 		{
 			get
 			{
-				if(r_get_sensorSize_Injected_Out_Vector2 == null)
+				if(r_Mget_sensorSize_Injected_Out_Vector2 == null)
 				{
-					r_get_sensorSize_Injected_Out_Vector2 = new(this, "get_sensorSize_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_get_sensorSize_Injected_Out_Vector2.SetBelong(this.instance);
+					r_Mget_sensorSize_Injected_Out_Vector2 = new(this, "get_sensorSize_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_Mget_sensorSize_Injected_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_get_sensorSize_Injected_Out_Vector2;
+				return r_Mget_sensorSize_Injected_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void set_sensorSize_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_set_sensorSize_Injected_Ref_Vector2;
-		public virtual RMethod Rset_sensorSize_Injected_Ref_Vector2
+		protected RMethod r_Mset_sensorSize_Injected_Ref_Vector2;
+		public virtual RMethod RMset_sensorSize_Injected_Ref_Vector2
 		{
 			get
 			{
-				if(r_set_sensorSize_Injected_Ref_Vector2 == null)
+				if(r_Mset_sensorSize_Injected_Ref_Vector2 == null)
 				{
-					r_set_sensorSize_Injected_Ref_Vector2 = new(this, "set_sensorSize_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_set_sensorSize_Injected_Ref_Vector2.SetBelong(this.instance);
+					r_Mset_sensorSize_Injected_Ref_Vector2 = new(this, "set_sensorSize_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_Mset_sensorSize_Injected_Ref_Vector2.SetBelong(this.instance);
 				}
-				return r_set_sensorSize_Injected_Ref_Vector2;
+				return r_Mset_sensorSize_Injected_Ref_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void get_lensShift_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_get_lensShift_Injected_Out_Vector2;
-		public virtual RMethod Rget_lensShift_Injected_Out_Vector2
+		protected RMethod r_Mget_lensShift_Injected_Out_Vector2;
+		public virtual RMethod RMget_lensShift_Injected_Out_Vector2
 		{
 			get
 			{
-				if(r_get_lensShift_Injected_Out_Vector2 == null)
+				if(r_Mget_lensShift_Injected_Out_Vector2 == null)
 				{
-					r_get_lensShift_Injected_Out_Vector2 = new(this, "get_lensShift_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_get_lensShift_Injected_Out_Vector2.SetBelong(this.instance);
+					r_Mget_lensShift_Injected_Out_Vector2 = new(this, "get_lensShift_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_Mget_lensShift_Injected_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_get_lensShift_Injected_Out_Vector2;
+				return r_Mget_lensShift_Injected_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void set_lensShift_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_set_lensShift_Injected_Ref_Vector2;
-		public virtual RMethod Rset_lensShift_Injected_Ref_Vector2
+		protected RMethod r_Mset_lensShift_Injected_Ref_Vector2;
+		public virtual RMethod RMset_lensShift_Injected_Ref_Vector2
 		{
 			get
 			{
-				if(r_set_lensShift_Injected_Ref_Vector2 == null)
+				if(r_Mset_lensShift_Injected_Ref_Vector2 == null)
 				{
-					r_set_lensShift_Injected_Ref_Vector2 = new(this, "set_lensShift_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_set_lensShift_Injected_Ref_Vector2.SetBelong(this.instance);
+					r_Mset_lensShift_Injected_Ref_Vector2 = new(this, "set_lensShift_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_Mset_lensShift_Injected_Ref_Vector2.SetBelong(this.instance);
 				}
-				return r_set_lensShift_Injected_Ref_Vector2;
+				return r_Mset_lensShift_Injected_Ref_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void GetGateFittedLensShift_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_GetGateFittedLensShift_Injected_Out_Vector2;
-		public virtual RMethod RGetGateFittedLensShift_Injected_Out_Vector2
+		protected RMethod r_MGetGateFittedLensShift_Injected_Out_Vector2;
+		public virtual RMethod RMGetGateFittedLensShift_Injected_Out_Vector2
 		{
 			get
 			{
-				if(r_GetGateFittedLensShift_Injected_Out_Vector2 == null)
+				if(r_MGetGateFittedLensShift_Injected_Out_Vector2 == null)
 				{
-					r_GetGateFittedLensShift_Injected_Out_Vector2 = new(this, "GetGateFittedLensShift_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_GetGateFittedLensShift_Injected_Out_Vector2.SetBelong(this.instance);
+					r_MGetGateFittedLensShift_Injected_Out_Vector2 = new(this, "GetGateFittedLensShift_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_MGetGateFittedLensShift_Injected_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_GetGateFittedLensShift_Injected_Out_Vector2;
+				return r_MGetGateFittedLensShift_Injected_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void GetLocalSpaceAim_Injected(UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected RMethod r_GetLocalSpaceAim_Injected_Out_Vector3;
-		public virtual RMethod RGetLocalSpaceAim_Injected_Out_Vector3
+		protected RMethod r_MGetLocalSpaceAim_Injected_Out_Vector3;
+		public virtual RMethod RMGetLocalSpaceAim_Injected_Out_Vector3
 		{
 			get
 			{
-				if(r_GetLocalSpaceAim_Injected_Out_Vector3 == null)
+				if(r_MGetLocalSpaceAim_Injected_Out_Vector3 == null)
 				{
-					r_GetLocalSpaceAim_Injected_Out_Vector3 = new(this, "GetLocalSpaceAim_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
-					r_GetLocalSpaceAim_Injected_Out_Vector3.SetBelong(this.instance);
+					r_MGetLocalSpaceAim_Injected_Out_Vector3 = new(this, "GetLocalSpaceAim_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
+					r_MGetLocalSpaceAim_Injected_Out_Vector3.SetBelong(this.instance);
 				}
-				return r_GetLocalSpaceAim_Injected_Out_Vector3;
+				return r_MGetLocalSpaceAim_Injected_Out_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void get_rect_Injected(UnityEngine.Rect ByRef)
 		/// </summary>
-		protected RMethod r_get_rect_Injected_Out_Rect;
-		public virtual RMethod Rget_rect_Injected_Out_Rect
+		protected RMethod r_Mget_rect_Injected_Out_Rect;
+		public virtual RMethod RMget_rect_Injected_Out_Rect
 		{
 			get
 			{
-				if(r_get_rect_Injected_Out_Rect == null)
+				if(r_Mget_rect_Injected_Out_Rect == null)
 				{
-					r_get_rect_Injected_Out_Rect = new(this, "get_rect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
-					r_get_rect_Injected_Out_Rect.SetBelong(this.instance);
+					r_Mget_rect_Injected_Out_Rect = new(this, "get_rect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
+					r_Mget_rect_Injected_Out_Rect.SetBelong(this.instance);
 				}
-				return r_get_rect_Injected_Out_Rect;
+				return r_Mget_rect_Injected_Out_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void set_rect_Injected(UnityEngine.Rect ByRef)
 		/// </summary>
-		protected RMethod r_set_rect_Injected_Ref_Rect;
-		public virtual RMethod Rset_rect_Injected_Ref_Rect
+		protected RMethod r_Mset_rect_Injected_Ref_Rect;
+		public virtual RMethod RMset_rect_Injected_Ref_Rect
 		{
 			get
 			{
-				if(r_set_rect_Injected_Ref_Rect == null)
+				if(r_Mset_rect_Injected_Ref_Rect == null)
 				{
-					r_set_rect_Injected_Ref_Rect = new(this, "set_rect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
-					r_set_rect_Injected_Ref_Rect.SetBelong(this.instance);
+					r_Mset_rect_Injected_Ref_Rect = new(this, "set_rect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
+					r_Mset_rect_Injected_Ref_Rect.SetBelong(this.instance);
 				}
-				return r_set_rect_Injected_Ref_Rect;
+				return r_Mset_rect_Injected_Ref_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void get_pixelRect_Injected(UnityEngine.Rect ByRef)
 		/// </summary>
-		protected RMethod r_get_pixelRect_Injected_Out_Rect;
-		public virtual RMethod Rget_pixelRect_Injected_Out_Rect
+		protected RMethod r_Mget_pixelRect_Injected_Out_Rect;
+		public virtual RMethod RMget_pixelRect_Injected_Out_Rect
 		{
 			get
 			{
-				if(r_get_pixelRect_Injected_Out_Rect == null)
+				if(r_Mget_pixelRect_Injected_Out_Rect == null)
 				{
-					r_get_pixelRect_Injected_Out_Rect = new(this, "get_pixelRect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
-					r_get_pixelRect_Injected_Out_Rect.SetBelong(this.instance);
+					r_Mget_pixelRect_Injected_Out_Rect = new(this, "get_pixelRect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
+					r_Mget_pixelRect_Injected_Out_Rect.SetBelong(this.instance);
 				}
-				return r_get_pixelRect_Injected_Out_Rect;
+				return r_Mget_pixelRect_Injected_Out_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void set_pixelRect_Injected(UnityEngine.Rect ByRef)
 		/// </summary>
-		protected RMethod r_set_pixelRect_Injected_Ref_Rect;
-		public virtual RMethod Rset_pixelRect_Injected_Ref_Rect
+		protected RMethod r_Mset_pixelRect_Injected_Ref_Rect;
+		public virtual RMethod RMset_pixelRect_Injected_Ref_Rect
 		{
 			get
 			{
-				if(r_set_pixelRect_Injected_Ref_Rect == null)
+				if(r_Mset_pixelRect_Injected_Ref_Rect == null)
 				{
-					r_set_pixelRect_Injected_Ref_Rect = new(this, "set_pixelRect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
-					r_set_pixelRect_Injected_Ref_Rect.SetBelong(this.instance);
+					r_Mset_pixelRect_Injected_Ref_Rect = new(this, "set_pixelRect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
+					r_Mset_pixelRect_Injected_Ref_Rect.SetBelong(this.instance);
 				}
-				return r_set_pixelRect_Injected_Ref_Rect;
+				return r_Mset_pixelRect_Injected_Ref_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTargetBuffersImpl_Injected(UnityEngine.RenderBuffer ByRef, UnityEngine.RenderBuffer ByRef)
 		/// </summary>
-		protected RMethod r_SetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer;
-		public virtual RMethod RSetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer
+		protected RMethod r_MSetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer;
+		public virtual RMethod RMSetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer
 		{
 			get
 			{
-				if(r_SetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer == null)
+				if(r_MSetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer == null)
 				{
-					r_SetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer = new(this, "SetTargetBuffersImpl_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType(), typeof(UnityEngine.RenderBuffer).MakeByRefType());
-					r_SetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer.SetBelong(this.instance);
+					r_MSetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer = new(this, "SetTargetBuffersImpl_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType(), typeof(UnityEngine.RenderBuffer).MakeByRefType());
+					r_MSetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer.SetBelong(this.instance);
 				}
-				return r_SetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer;
+				return r_MSetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTargetBuffersMRTImpl_Injected(UnityEngine.RenderBuffer[], UnityEngine.RenderBuffer ByRef)
 		/// </summary>
-		protected RMethod r_SetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer;
-		public virtual RMethod RSetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer
+		protected RMethod r_MSetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer;
+		public virtual RMethod RMSetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer
 		{
 			get
 			{
-				if(r_SetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer == null)
+				if(r_MSetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer == null)
 				{
-					r_SetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer = new(this, "SetTargetBuffersMRTImpl_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeArrayType(), typeof(UnityEngine.RenderBuffer).MakeByRefType());
-					r_SetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer.SetBelong(this.instance);
+					r_MSetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer = new(this, "SetTargetBuffersMRTImpl_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeArrayType(), typeof(UnityEngine.RenderBuffer).MakeByRefType());
+					r_MSetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer.SetBelong(this.instance);
 				}
-				return r_SetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer;
+				return r_MSetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void get_cameraToWorldMatrix_Injected(UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_get_cameraToWorldMatrix_Injected_Out_Matrix4x4;
-		public virtual RMethod Rget_cameraToWorldMatrix_Injected_Out_Matrix4x4
+		protected RMethod r_Mget_cameraToWorldMatrix_Injected_Out_Matrix4x4;
+		public virtual RMethod RMget_cameraToWorldMatrix_Injected_Out_Matrix4x4
 		{
 			get
 			{
-				if(r_get_cameraToWorldMatrix_Injected_Out_Matrix4x4 == null)
+				if(r_Mget_cameraToWorldMatrix_Injected_Out_Matrix4x4 == null)
 				{
-					r_get_cameraToWorldMatrix_Injected_Out_Matrix4x4 = new(this, "get_cameraToWorldMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_get_cameraToWorldMatrix_Injected_Out_Matrix4x4.SetBelong(this.instance);
+					r_Mget_cameraToWorldMatrix_Injected_Out_Matrix4x4 = new(this, "get_cameraToWorldMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_Mget_cameraToWorldMatrix_Injected_Out_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_get_cameraToWorldMatrix_Injected_Out_Matrix4x4;
+				return r_Mget_cameraToWorldMatrix_Injected_Out_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void get_worldToCameraMatrix_Injected(UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_get_worldToCameraMatrix_Injected_Out_Matrix4x4;
-		public virtual RMethod Rget_worldToCameraMatrix_Injected_Out_Matrix4x4
+		protected RMethod r_Mget_worldToCameraMatrix_Injected_Out_Matrix4x4;
+		public virtual RMethod RMget_worldToCameraMatrix_Injected_Out_Matrix4x4
 		{
 			get
 			{
-				if(r_get_worldToCameraMatrix_Injected_Out_Matrix4x4 == null)
+				if(r_Mget_worldToCameraMatrix_Injected_Out_Matrix4x4 == null)
 				{
-					r_get_worldToCameraMatrix_Injected_Out_Matrix4x4 = new(this, "get_worldToCameraMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_get_worldToCameraMatrix_Injected_Out_Matrix4x4.SetBelong(this.instance);
+					r_Mget_worldToCameraMatrix_Injected_Out_Matrix4x4 = new(this, "get_worldToCameraMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_Mget_worldToCameraMatrix_Injected_Out_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_get_worldToCameraMatrix_Injected_Out_Matrix4x4;
+				return r_Mget_worldToCameraMatrix_Injected_Out_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void set_worldToCameraMatrix_Injected(UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_set_worldToCameraMatrix_Injected_Ref_Matrix4x4;
-		public virtual RMethod Rset_worldToCameraMatrix_Injected_Ref_Matrix4x4
+		protected RMethod r_Mset_worldToCameraMatrix_Injected_Ref_Matrix4x4;
+		public virtual RMethod RMset_worldToCameraMatrix_Injected_Ref_Matrix4x4
 		{
 			get
 			{
-				if(r_set_worldToCameraMatrix_Injected_Ref_Matrix4x4 == null)
+				if(r_Mset_worldToCameraMatrix_Injected_Ref_Matrix4x4 == null)
 				{
-					r_set_worldToCameraMatrix_Injected_Ref_Matrix4x4 = new(this, "set_worldToCameraMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_set_worldToCameraMatrix_Injected_Ref_Matrix4x4.SetBelong(this.instance);
+					r_Mset_worldToCameraMatrix_Injected_Ref_Matrix4x4 = new(this, "set_worldToCameraMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_Mset_worldToCameraMatrix_Injected_Ref_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_set_worldToCameraMatrix_Injected_Ref_Matrix4x4;
+				return r_Mset_worldToCameraMatrix_Injected_Ref_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void get_projectionMatrix_Injected(UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_get_projectionMatrix_Injected_Out_Matrix4x4;
-		public virtual RMethod Rget_projectionMatrix_Injected_Out_Matrix4x4
+		protected RMethod r_Mget_projectionMatrix_Injected_Out_Matrix4x4;
+		public virtual RMethod RMget_projectionMatrix_Injected_Out_Matrix4x4
 		{
 			get
 			{
-				if(r_get_projectionMatrix_Injected_Out_Matrix4x4 == null)
+				if(r_Mget_projectionMatrix_Injected_Out_Matrix4x4 == null)
 				{
-					r_get_projectionMatrix_Injected_Out_Matrix4x4 = new(this, "get_projectionMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_get_projectionMatrix_Injected_Out_Matrix4x4.SetBelong(this.instance);
+					r_Mget_projectionMatrix_Injected_Out_Matrix4x4 = new(this, "get_projectionMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_Mget_projectionMatrix_Injected_Out_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_get_projectionMatrix_Injected_Out_Matrix4x4;
+				return r_Mget_projectionMatrix_Injected_Out_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void set_projectionMatrix_Injected(UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_set_projectionMatrix_Injected_Ref_Matrix4x4;
-		public virtual RMethod Rset_projectionMatrix_Injected_Ref_Matrix4x4
+		protected RMethod r_Mset_projectionMatrix_Injected_Ref_Matrix4x4;
+		public virtual RMethod RMset_projectionMatrix_Injected_Ref_Matrix4x4
 		{
 			get
 			{
-				if(r_set_projectionMatrix_Injected_Ref_Matrix4x4 == null)
+				if(r_Mset_projectionMatrix_Injected_Ref_Matrix4x4 == null)
 				{
-					r_set_projectionMatrix_Injected_Ref_Matrix4x4 = new(this, "set_projectionMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_set_projectionMatrix_Injected_Ref_Matrix4x4.SetBelong(this.instance);
+					r_Mset_projectionMatrix_Injected_Ref_Matrix4x4 = new(this, "set_projectionMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_Mset_projectionMatrix_Injected_Ref_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_set_projectionMatrix_Injected_Ref_Matrix4x4;
+				return r_Mset_projectionMatrix_Injected_Ref_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void get_nonJitteredProjectionMatrix_Injected(UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_get_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4;
-		public virtual RMethod Rget_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4
+		protected RMethod r_Mget_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4;
+		public virtual RMethod RMget_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4
 		{
 			get
 			{
-				if(r_get_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4 == null)
+				if(r_Mget_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4 == null)
 				{
-					r_get_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4 = new(this, "get_nonJitteredProjectionMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_get_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4.SetBelong(this.instance);
+					r_Mget_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4 = new(this, "get_nonJitteredProjectionMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_Mget_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_get_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4;
+				return r_Mget_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void set_nonJitteredProjectionMatrix_Injected(UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_set_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4;
-		public virtual RMethod Rset_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4
+		protected RMethod r_Mset_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4;
+		public virtual RMethod RMset_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4
 		{
 			get
 			{
-				if(r_set_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4 == null)
+				if(r_Mset_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4 == null)
 				{
-					r_set_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4 = new(this, "set_nonJitteredProjectionMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_set_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4.SetBelong(this.instance);
+					r_Mset_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4 = new(this, "set_nonJitteredProjectionMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_Mset_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_set_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4;
+				return r_Mset_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void get_previousViewProjectionMatrix_Injected(UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_get_previousViewProjectionMatrix_Injected_Out_Matrix4x4;
-		public virtual RMethod Rget_previousViewProjectionMatrix_Injected_Out_Matrix4x4
+		protected RMethod r_Mget_previousViewProjectionMatrix_Injected_Out_Matrix4x4;
+		public virtual RMethod RMget_previousViewProjectionMatrix_Injected_Out_Matrix4x4
 		{
 			get
 			{
-				if(r_get_previousViewProjectionMatrix_Injected_Out_Matrix4x4 == null)
+				if(r_Mget_previousViewProjectionMatrix_Injected_Out_Matrix4x4 == null)
 				{
-					r_get_previousViewProjectionMatrix_Injected_Out_Matrix4x4 = new(this, "get_previousViewProjectionMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_get_previousViewProjectionMatrix_Injected_Out_Matrix4x4.SetBelong(this.instance);
+					r_Mget_previousViewProjectionMatrix_Injected_Out_Matrix4x4 = new(this, "get_previousViewProjectionMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_Mget_previousViewProjectionMatrix_Injected_Out_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_get_previousViewProjectionMatrix_Injected_Out_Matrix4x4;
+				return r_Mget_previousViewProjectionMatrix_Injected_Out_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void CalculateObliqueMatrix_Injected(UnityEngine.Vector4 ByRef, UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_CalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4;
-		public virtual RMethod RCalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4
+		protected RMethod r_MCalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4;
+		public virtual RMethod RMCalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4
 		{
 			get
 			{
-				if(r_CalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4 == null)
+				if(r_MCalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4 == null)
 				{
-					r_CalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4 = new(this, "CalculateObliqueMatrix_Injected", 0, typeof(UnityEngine.Vector4).MakeByRefType(), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_CalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4.SetBelong(this.instance);
+					r_MCalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4 = new(this, "CalculateObliqueMatrix_Injected", 0, typeof(UnityEngine.Vector4).MakeByRefType(), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_MCalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_CalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4;
+				return r_MCalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void WorldToScreenPoint_Injected(UnityEngine.Vector3 ByRef, MonoOrStereoscopicEye, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected RMethod r_WorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
-		public virtual RMethod RWorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3
+		protected RMethod r_MWorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
+		public virtual RMethod RMWorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3
 		{
 			get
 			{
-				if(r_WorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 == null)
+				if(r_MWorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 == null)
 				{
-					r_WorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "WorldToScreenPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_WorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.SetBelong(this.instance);
+					r_MWorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "WorldToScreenPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_MWorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.SetBelong(this.instance);
 				}
-				return r_WorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
+				return r_MWorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void WorldToViewportPoint_Injected(UnityEngine.Vector3 ByRef, MonoOrStereoscopicEye, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected RMethod r_WorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
-		public virtual RMethod RWorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3
+		protected RMethod r_MWorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
+		public virtual RMethod RMWorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3
 		{
 			get
 			{
-				if(r_WorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 == null)
+				if(r_MWorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 == null)
 				{
-					r_WorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "WorldToViewportPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_WorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.SetBelong(this.instance);
+					r_MWorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "WorldToViewportPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_MWorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.SetBelong(this.instance);
 				}
-				return r_WorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
+				return r_MWorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void ViewportToWorldPoint_Injected(UnityEngine.Vector3 ByRef, MonoOrStereoscopicEye, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected RMethod r_ViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
-		public virtual RMethod RViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3
+		protected RMethod r_MViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
+		public virtual RMethod RMViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3
 		{
 			get
 			{
-				if(r_ViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 == null)
+				if(r_MViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 == null)
 				{
-					r_ViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "ViewportToWorldPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_ViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.SetBelong(this.instance);
+					r_MViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "ViewportToWorldPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_MViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.SetBelong(this.instance);
 				}
-				return r_ViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
+				return r_MViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void ScreenToWorldPoint_Injected(UnityEngine.Vector3 ByRef, MonoOrStereoscopicEye, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected RMethod r_ScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
-		public virtual RMethod RScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3
+		protected RMethod r_MScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
+		public virtual RMethod RMScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3
 		{
 			get
 			{
-				if(r_ScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 == null)
+				if(r_MScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 == null)
 				{
-					r_ScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "ScreenToWorldPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_ScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.SetBelong(this.instance);
+					r_MScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "ScreenToWorldPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_MScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.SetBelong(this.instance);
 				}
-				return r_ScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
+				return r_MScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void ScreenToViewportPoint_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected RMethod r_ScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3;
-		public virtual RMethod RScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3
+		protected RMethod r_MScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3;
+		public virtual RMethod RMScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3
 		{
 			get
 			{
-				if(r_ScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3 == null)
+				if(r_MScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3 == null)
 				{
-					r_ScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3 = new(this, "ScreenToViewportPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_ScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3.SetBelong(this.instance);
+					r_MScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3 = new(this, "ScreenToViewportPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_MScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3.SetBelong(this.instance);
 				}
-				return r_ScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3;
+				return r_MScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void ViewportToScreenPoint_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected RMethod r_ViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3;
-		public virtual RMethod RViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3
+		protected RMethod r_MViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3;
+		public virtual RMethod RMViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3
 		{
 			get
 			{
-				if(r_ViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3 == null)
+				if(r_MViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3 == null)
 				{
-					r_ViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3 = new(this, "ViewportToScreenPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_ViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3.SetBelong(this.instance);
+					r_MViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3 = new(this, "ViewportToScreenPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_MViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3.SetBelong(this.instance);
 				}
-				return r_ViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3;
+				return r_MViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void GetFrustumPlaneSizeAt_Injected(Single, UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_GetFrustumPlaneSizeAt_Injected_Single_Out_Vector2;
-		public virtual RMethod RGetFrustumPlaneSizeAt_Injected_Single_Out_Vector2
+		protected RMethod r_MGetFrustumPlaneSizeAt_Injected_Single_Out_Vector2;
+		public virtual RMethod RMGetFrustumPlaneSizeAt_Injected_Single_Out_Vector2
 		{
 			get
 			{
-				if(r_GetFrustumPlaneSizeAt_Injected_Single_Out_Vector2 == null)
+				if(r_MGetFrustumPlaneSizeAt_Injected_Single_Out_Vector2 == null)
 				{
-					r_GetFrustumPlaneSizeAt_Injected_Single_Out_Vector2 = new(this, "GetFrustumPlaneSizeAt_Injected", 0, typeof(System.Single), typeof(UnityEngine.Vector2).MakeByRefType());
-					r_GetFrustumPlaneSizeAt_Injected_Single_Out_Vector2.SetBelong(this.instance);
+					r_MGetFrustumPlaneSizeAt_Injected_Single_Out_Vector2 = new(this, "GetFrustumPlaneSizeAt_Injected", 0, typeof(System.Single), typeof(UnityEngine.Vector2).MakeByRefType());
+					r_MGetFrustumPlaneSizeAt_Injected_Single_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_GetFrustumPlaneSizeAt_Injected_Single_Out_Vector2;
+				return r_MGetFrustumPlaneSizeAt_Injected_Single_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void ViewportPointToRay_Injected(UnityEngine.Vector2 ByRef, MonoOrStereoscopicEye, UnityEngine.Ray ByRef)
 		/// </summary>
-		protected RMethod r_ViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray;
-		public virtual RMethod RViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray
+		protected RMethod r_MViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray;
+		public virtual RMethod RMViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray
 		{
 			get
 			{
-				if(r_ViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray == null)
+				if(r_MViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray == null)
 				{
-					r_ViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray = new(this, "ViewportPointToRay_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Ray).MakeByRefType());
-					r_ViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.SetBelong(this.instance);
+					r_MViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray = new(this, "ViewportPointToRay_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Ray).MakeByRefType());
+					r_MViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.SetBelong(this.instance);
 				}
-				return r_ViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray;
+				return r_MViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray;
 			}
 		}
 
 		/// <summary>
 		/// Void ScreenPointToRay_Injected(UnityEngine.Vector2 ByRef, MonoOrStereoscopicEye, UnityEngine.Ray ByRef)
 		/// </summary>
-		protected RMethod r_ScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray;
-		public virtual RMethod RScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray
+		protected RMethod r_MScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray;
+		public virtual RMethod RMScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray
 		{
 			get
 			{
-				if(r_ScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray == null)
+				if(r_MScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray == null)
 				{
-					r_ScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray = new(this, "ScreenPointToRay_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Ray).MakeByRefType());
-					r_ScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.SetBelong(this.instance);
+					r_MScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray = new(this, "ScreenPointToRay_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Ray).MakeByRefType());
+					r_MScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.SetBelong(this.instance);
 				}
-				return r_ScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray;
+				return r_MScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray;
 			}
 		}
 
 		/// <summary>
 		/// Void CalculateFrustumCornersInternal_Injected(UnityEngine.Rect ByRef, Single, MonoOrStereoscopicEye, UnityEngine.Vector3[])
 		/// </summary>
-		protected RMethod r_CalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
-		public virtual RMethod RCalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array
+		protected RMethod r_MCalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
+		public virtual RMethod RMCalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array
 		{
 			get
 			{
-				if(r_CalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array == null)
+				if(r_MCalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array == null)
 				{
-					r_CalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array = new(this, "CalculateFrustumCornersInternal_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeArrayType());
-					r_CalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array.SetBelong(this.instance);
+					r_MCalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array = new(this, "CalculateFrustumCornersInternal_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeArrayType());
+					r_MCalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array.SetBelong(this.instance);
 				}
-				return r_CalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
+				return r_MCalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
 			}
 		}
 
 		/// <summary>
 		/// Void CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected(UnityEngine.Matrix4x4 ByRef, Single, UnityEngine.Vector2 ByRef, UnityEngine.Vector2 ByRef, Single, Single, Single, GateFitMode)
 		/// </summary>
-		protected static RMethod r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode;
-		public static RMethod RCalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode
+		protected static RMethod r_MCalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode;
+		public static RMethod RMCalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode
 		{
 			get
 			{
-				if(r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode == null)
+				if(r_MCalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode == null)
 				{
-					r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode = new(typeof(UnityEngine.Camera), "CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Single), typeof(System.Single), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+GateFitMode"));
-					r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode.SetBelong(null);
+					r_MCalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode = new(typeof(UnityEngine.Camera), "CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Single), typeof(System.Single), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+GateFitMode"));
+					r_MCalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode.SetBelong(null);
 				}
-				return r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode;
+				return r_MCalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode;
 			}
 		}
 
 		/// <summary>
 		/// Void get_scene_Injected(UnityEngine.SceneManagement.Scene ByRef)
 		/// </summary>
-		protected RMethod r_get_scene_Injected_Out_Scene;
-		public virtual RMethod Rget_scene_Injected_Out_Scene
+		protected RMethod r_Mget_scene_Injected_Out_Scene;
+		public virtual RMethod RMget_scene_Injected_Out_Scene
 		{
 			get
 			{
-				if(r_get_scene_Injected_Out_Scene == null)
+				if(r_Mget_scene_Injected_Out_Scene == null)
 				{
-					r_get_scene_Injected_Out_Scene = new(this, "get_scene_Injected", 0, typeof(UnityEngine.SceneManagement.Scene).MakeByRefType());
-					r_get_scene_Injected_Out_Scene.SetBelong(this.instance);
+					r_Mget_scene_Injected_Out_Scene = new(this, "get_scene_Injected", 0, typeof(UnityEngine.SceneManagement.Scene).MakeByRefType());
+					r_Mget_scene_Injected_Out_Scene.SetBelong(this.instance);
 				}
-				return r_get_scene_Injected_Out_Scene;
+				return r_Mget_scene_Injected_Out_Scene;
 			}
 		}
 
 		/// <summary>
 		/// Void set_scene_Injected(UnityEngine.SceneManagement.Scene ByRef)
 		/// </summary>
-		protected RMethod r_set_scene_Injected_Ref_Scene;
-		public virtual RMethod Rset_scene_Injected_Ref_Scene
+		protected RMethod r_Mset_scene_Injected_Ref_Scene;
+		public virtual RMethod RMset_scene_Injected_Ref_Scene
 		{
 			get
 			{
-				if(r_set_scene_Injected_Ref_Scene == null)
+				if(r_Mset_scene_Injected_Ref_Scene == null)
 				{
-					r_set_scene_Injected_Ref_Scene = new(this, "set_scene_Injected", 0, typeof(UnityEngine.SceneManagement.Scene).MakeByRefType());
-					r_set_scene_Injected_Ref_Scene.SetBelong(this.instance);
+					r_Mset_scene_Injected_Ref_Scene = new(this, "set_scene_Injected", 0, typeof(UnityEngine.SceneManagement.Scene).MakeByRefType());
+					r_Mset_scene_Injected_Ref_Scene.SetBelong(this.instance);
 				}
-				return r_set_scene_Injected_Ref_Scene;
+				return r_Mset_scene_Injected_Ref_Scene;
 			}
 		}
 
 		/// <summary>
 		/// Void GetStereoNonJitteredProjectionMatrix_Injected(StereoscopicEye, UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_GetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
-		public virtual RMethod RGetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4
+		protected RMethod r_MGetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
+		public virtual RMethod RMGetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4
 		{
 			get
 			{
-				if(r_GetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4 == null)
+				if(r_MGetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4 == null)
 				{
-					r_GetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4 = new(this, "GetStereoNonJitteredProjectionMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_GetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.SetBelong(this.instance);
+					r_MGetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4 = new(this, "GetStereoNonJitteredProjectionMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_MGetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_GetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
+				return r_MGetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void GetStereoViewMatrix_Injected(StereoscopicEye, UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_GetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
-		public virtual RMethod RGetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4
+		protected RMethod r_MGetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
+		public virtual RMethod RMGetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4
 		{
 			get
 			{
-				if(r_GetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4 == null)
+				if(r_MGetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4 == null)
 				{
-					r_GetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4 = new(this, "GetStereoViewMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_GetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4.SetBelong(this.instance);
+					r_MGetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4 = new(this, "GetStereoViewMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_MGetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_GetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
+				return r_MGetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void GetStereoProjectionMatrix_Injected(StereoscopicEye, UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_GetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
-		public virtual RMethod RGetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4
+		protected RMethod r_MGetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
+		public virtual RMethod RMGetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4
 		{
 			get
 			{
-				if(r_GetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4 == null)
+				if(r_MGetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4 == null)
 				{
-					r_GetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4 = new(this, "GetStereoProjectionMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_GetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.SetBelong(this.instance);
+					r_MGetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4 = new(this, "GetStereoProjectionMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_MGetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_GetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
+				return r_MGetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void SetStereoProjectionMatrix_Injected(StereoscopicEye, UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_SetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4;
-		public virtual RMethod RSetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4
+		protected RMethod r_MSetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4;
+		public virtual RMethod RMSetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4
 		{
 			get
 			{
-				if(r_SetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4 == null)
+				if(r_MSetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4 == null)
 				{
-					r_SetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4 = new(this, "SetStereoProjectionMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_SetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.SetBelong(this.instance);
+					r_MSetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4 = new(this, "SetStereoProjectionMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_MSetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_SetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4;
+				return r_MSetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void SetStereoViewMatrix_Injected(StereoscopicEye, UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_SetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4;
-		public virtual RMethod RSetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4
+		protected RMethod r_MSetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4;
+		public virtual RMethod RMSetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4
 		{
 			get
 			{
-				if(r_SetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4 == null)
+				if(r_MSetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4 == null)
 				{
-					r_SetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4 = new(this, "SetStereoViewMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_SetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.SetBelong(this.instance);
+					r_MSetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4 = new(this, "SetStereoViewMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_MSetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_SetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4;
+				return r_MSetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component GetComponent(System.Type)
 		/// </summary>
-		protected RMethod r_GetComponent_Type;
-		public virtual RMethod RGetComponent_Type
+		protected RMethod r_MGetComponent_Type;
+		public virtual RMethod RMGetComponent_Type
 		{
 			get
 			{
-				if(r_GetComponent_Type == null)
+				if(r_MGetComponent_Type == null)
 				{
-					r_GetComponent_Type = new(this, "GetComponent", 0, typeof(System.Type));
-					r_GetComponent_Type.SetBelong(this.instance);
+					r_MGetComponent_Type = new(this, "GetComponent", 0, typeof(System.Type));
+					r_MGetComponent_Type.SetBelong(this.instance);
 				}
-				return r_GetComponent_Type;
+				return r_MGetComponent_Type;
 			}
 		}
 
 		/// <summary>
 		/// Void GetComponentFastPath(System.Type, IntPtr)
 		/// </summary>
-		protected RMethod r_GetComponentFastPath_Type_IntPtr;
-		public virtual RMethod RGetComponentFastPath_Type_IntPtr
+		protected RMethod r_MGetComponentFastPath_Type_IntPtr;
+		public virtual RMethod RMGetComponentFastPath_Type_IntPtr
 		{
 			get
 			{
-				if(r_GetComponentFastPath_Type_IntPtr == null)
+				if(r_MGetComponentFastPath_Type_IntPtr == null)
 				{
-					r_GetComponentFastPath_Type_IntPtr = new(this, "GetComponentFastPath", 0, typeof(System.Type), typeof(System.IntPtr));
-					r_GetComponentFastPath_Type_IntPtr.SetBelong(this.instance);
+					r_MGetComponentFastPath_Type_IntPtr = new(this, "GetComponentFastPath", 0, typeof(System.Type), typeof(System.IntPtr));
+					r_MGetComponentFastPath_Type_IntPtr.SetBelong(this.instance);
 				}
-				return r_GetComponentFastPath_Type_IntPtr;
+				return r_MGetComponentFastPath_Type_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// T GetComponent[T]()
 		/// </summary>
-		protected RMethod r_GetComponent_GT;
-		public virtual RMethod RGetComponent_GT
+		protected RMethod r_MGetComponent_GT;
+		public virtual RMethod RMGetComponent_GT
 		{
 			get
 			{
-				if(r_GetComponent_GT == null)
+				if(r_MGetComponent_GT == null)
 				{
-					r_GetComponent_GT = new(this, "GetComponent", 1);
-					r_GetComponent_GT.SetBelong(this.instance);
+					r_MGetComponent_GT = new(this, "GetComponent", 1);
+					r_MGetComponent_GT.SetBelong(this.instance);
 				}
-				return r_GetComponent_GT;
+				return r_MGetComponent_GT;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetComponent(System.Type, UnityEngine.Component ByRef)
 		/// </summary>
-		protected RMethod r_TryGetComponent_Type_Out_Component;
-		public virtual RMethod RTryGetComponent_Type_Out_Component
+		protected RMethod r_MTryGetComponent_Type_Out_Component;
+		public virtual RMethod RMTryGetComponent_Type_Out_Component
 		{
 			get
 			{
-				if(r_TryGetComponent_Type_Out_Component == null)
+				if(r_MTryGetComponent_Type_Out_Component == null)
 				{
-					r_TryGetComponent_Type_Out_Component = new(this, "TryGetComponent", 0, typeof(System.Type), typeof(UnityEngine.Component).MakeByRefType());
-					r_TryGetComponent_Type_Out_Component.SetBelong(this.instance);
+					r_MTryGetComponent_Type_Out_Component = new(this, "TryGetComponent", 0, typeof(System.Type), typeof(UnityEngine.Component).MakeByRefType());
+					r_MTryGetComponent_Type_Out_Component.SetBelong(this.instance);
 				}
-				return r_TryGetComponent_Type_Out_Component;
+				return r_MTryGetComponent_Type_Out_Component;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetComponent[T](T ByRef)
 		/// </summary>
-		protected RMethod r_TryGetComponent_GT_Out_T;
-		public virtual RMethod RTryGetComponent_GT_Out_T
+		protected RMethod r_MTryGetComponent_GT_Out_T;
+		public virtual RMethod RMTryGetComponent_GT_Out_T
 		{
 			get
 			{
-				if(r_TryGetComponent_GT_Out_T == null)
+				if(r_MTryGetComponent_GT_Out_T == null)
 				{
-					r_TryGetComponent_GT_Out_T = new(this, "TryGetComponent", 1, Type.MakeGenericMethodParameter(0).MakeByRefType());
-					r_TryGetComponent_GT_Out_T.SetBelong(this.instance);
+					r_MTryGetComponent_GT_Out_T = new(this, "TryGetComponent", 1, Type.MakeGenericMethodParameter(0).MakeByRefType());
+					r_MTryGetComponent_GT_Out_T.SetBelong(this.instance);
 				}
-				return r_TryGetComponent_GT_Out_T;
+				return r_MTryGetComponent_GT_Out_T;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component GetComponent(System.String)
 		/// </summary>
-		protected RMethod r_GetComponent_String;
-		public virtual RMethod RGetComponent_String
+		protected RMethod r_MGetComponent_String;
+		public virtual RMethod RMGetComponent_String
 		{
 			get
 			{
-				if(r_GetComponent_String == null)
+				if(r_MGetComponent_String == null)
 				{
-					r_GetComponent_String = new(this, "GetComponent", 0, typeof(System.String));
-					r_GetComponent_String.SetBelong(this.instance);
+					r_MGetComponent_String = new(this, "GetComponent", 0, typeof(System.String));
+					r_MGetComponent_String.SetBelong(this.instance);
 				}
-				return r_GetComponent_String;
+				return r_MGetComponent_String;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component GetComponentInChildren(System.Type, Boolean)
 		/// </summary>
-		protected RMethod r_GetComponentInChildren_Type_Boolean;
-		public virtual RMethod RGetComponentInChildren_Type_Boolean
+		protected RMethod r_MGetComponentInChildren_Type_Boolean;
+		public virtual RMethod RMGetComponentInChildren_Type_Boolean
 		{
 			get
 			{
-				if(r_GetComponentInChildren_Type_Boolean == null)
+				if(r_MGetComponentInChildren_Type_Boolean == null)
 				{
-					r_GetComponentInChildren_Type_Boolean = new(this, "GetComponentInChildren", 0, typeof(System.Type), typeof(System.Boolean));
-					r_GetComponentInChildren_Type_Boolean.SetBelong(this.instance);
+					r_MGetComponentInChildren_Type_Boolean = new(this, "GetComponentInChildren", 0, typeof(System.Type), typeof(System.Boolean));
+					r_MGetComponentInChildren_Type_Boolean.SetBelong(this.instance);
 				}
-				return r_GetComponentInChildren_Type_Boolean;
+				return r_MGetComponentInChildren_Type_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component GetComponentInChildren(System.Type)
 		/// </summary>
-		protected RMethod r_GetComponentInChildren_Type;
-		public virtual RMethod RGetComponentInChildren_Type
+		protected RMethod r_MGetComponentInChildren_Type;
+		public virtual RMethod RMGetComponentInChildren_Type
 		{
 			get
 			{
-				if(r_GetComponentInChildren_Type == null)
+				if(r_MGetComponentInChildren_Type == null)
 				{
-					r_GetComponentInChildren_Type = new(this, "GetComponentInChildren", 0, typeof(System.Type));
-					r_GetComponentInChildren_Type.SetBelong(this.instance);
+					r_MGetComponentInChildren_Type = new(this, "GetComponentInChildren", 0, typeof(System.Type));
+					r_MGetComponentInChildren_Type.SetBelong(this.instance);
 				}
-				return r_GetComponentInChildren_Type;
+				return r_MGetComponentInChildren_Type;
 			}
 		}
 
 		/// <summary>
 		/// T GetComponentInChildren[T](Boolean)
 		/// </summary>
-		protected RMethod r_GetComponentInChildren_GT_Boolean;
-		public virtual RMethod RGetComponentInChildren_GT_Boolean
+		protected RMethod r_MGetComponentInChildren_GT_Boolean;
+		public virtual RMethod RMGetComponentInChildren_GT_Boolean
 		{
 			get
 			{
-				if(r_GetComponentInChildren_GT_Boolean == null)
+				if(r_MGetComponentInChildren_GT_Boolean == null)
 				{
-					r_GetComponentInChildren_GT_Boolean = new(this, "GetComponentInChildren", 1, typeof(System.Boolean));
-					r_GetComponentInChildren_GT_Boolean.SetBelong(this.instance);
+					r_MGetComponentInChildren_GT_Boolean = new(this, "GetComponentInChildren", 1, typeof(System.Boolean));
+					r_MGetComponentInChildren_GT_Boolean.SetBelong(this.instance);
 				}
-				return r_GetComponentInChildren_GT_Boolean;
+				return r_MGetComponentInChildren_GT_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// T GetComponentInChildren[T]()
 		/// </summary>
-		protected RMethod r_GetComponentInChildren_GT;
-		public virtual RMethod RGetComponentInChildren_GT
+		protected RMethod r_MGetComponentInChildren_GT;
+		public virtual RMethod RMGetComponentInChildren_GT
 		{
 			get
 			{
-				if(r_GetComponentInChildren_GT == null)
+				if(r_MGetComponentInChildren_GT == null)
 				{
-					r_GetComponentInChildren_GT = new(this, "GetComponentInChildren", 1);
-					r_GetComponentInChildren_GT.SetBelong(this.instance);
+					r_MGetComponentInChildren_GT = new(this, "GetComponentInChildren", 1);
+					r_MGetComponentInChildren_GT.SetBelong(this.instance);
 				}
-				return r_GetComponentInChildren_GT;
+				return r_MGetComponentInChildren_GT;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component[] GetComponentsInChildren(System.Type, Boolean)
 		/// </summary>
-		protected RMethod r_GetComponentsInChildren_Type_Boolean;
-		public virtual RMethod RGetComponentsInChildren_Type_Boolean
+		protected RMethod r_MGetComponentsInChildren_Type_Boolean;
+		public virtual RMethod RMGetComponentsInChildren_Type_Boolean
 		{
 			get
 			{
-				if(r_GetComponentsInChildren_Type_Boolean == null)
+				if(r_MGetComponentsInChildren_Type_Boolean == null)
 				{
-					r_GetComponentsInChildren_Type_Boolean = new(this, "GetComponentsInChildren", 0, typeof(System.Type), typeof(System.Boolean));
-					r_GetComponentsInChildren_Type_Boolean.SetBelong(this.instance);
+					r_MGetComponentsInChildren_Type_Boolean = new(this, "GetComponentsInChildren", 0, typeof(System.Type), typeof(System.Boolean));
+					r_MGetComponentsInChildren_Type_Boolean.SetBelong(this.instance);
 				}
-				return r_GetComponentsInChildren_Type_Boolean;
+				return r_MGetComponentsInChildren_Type_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component[] GetComponentsInChildren(System.Type)
 		/// </summary>
-		protected RMethod r_GetComponentsInChildren_Type;
-		public virtual RMethod RGetComponentsInChildren_Type
+		protected RMethod r_MGetComponentsInChildren_Type;
+		public virtual RMethod RMGetComponentsInChildren_Type
 		{
 			get
 			{
-				if(r_GetComponentsInChildren_Type == null)
+				if(r_MGetComponentsInChildren_Type == null)
 				{
-					r_GetComponentsInChildren_Type = new(this, "GetComponentsInChildren", 0, typeof(System.Type));
-					r_GetComponentsInChildren_Type.SetBelong(this.instance);
+					r_MGetComponentsInChildren_Type = new(this, "GetComponentsInChildren", 0, typeof(System.Type));
+					r_MGetComponentsInChildren_Type.SetBelong(this.instance);
 				}
-				return r_GetComponentsInChildren_Type;
+				return r_MGetComponentsInChildren_Type;
 			}
 		}
 
 		/// <summary>
 		/// T[] GetComponentsInChildren[T](Boolean)
 		/// </summary>
-		protected RMethod r_GetComponentsInChildren_GT_Boolean;
-		public virtual RMethod RGetComponentsInChildren_GT_Boolean
+		protected RMethod r_MGetComponentsInChildren_GT_Boolean;
+		public virtual RMethod RMGetComponentsInChildren_GT_Boolean
 		{
 			get
 			{
-				if(r_GetComponentsInChildren_GT_Boolean == null)
+				if(r_MGetComponentsInChildren_GT_Boolean == null)
 				{
-					r_GetComponentsInChildren_GT_Boolean = new(this, "GetComponentsInChildren", 1, typeof(System.Boolean));
-					r_GetComponentsInChildren_GT_Boolean.SetBelong(this.instance);
+					r_MGetComponentsInChildren_GT_Boolean = new(this, "GetComponentsInChildren", 1, typeof(System.Boolean));
+					r_MGetComponentsInChildren_GT_Boolean.SetBelong(this.instance);
 				}
-				return r_GetComponentsInChildren_GT_Boolean;
+				return r_MGetComponentsInChildren_GT_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void GetComponentsInChildren[T](Boolean, System.Collections.Generic.List`1[T])
 		/// </summary>
-		protected RMethod r_GetComponentsInChildren_GT_Boolean_List_d_T_p_;
-		public virtual RMethod RGetComponentsInChildren_GT_Boolean_List_d_T_p_
+		protected RMethod r_MGetComponentsInChildren_GT_Boolean_List_d_T_p_;
+		public virtual RMethod RMGetComponentsInChildren_GT_Boolean_List_d_T_p_
 		{
 			get
 			{
-				if(r_GetComponentsInChildren_GT_Boolean_List_d_T_p_ == null)
+				if(r_MGetComponentsInChildren_GT_Boolean_List_d_T_p_ == null)
 				{
-					r_GetComponentsInChildren_GT_Boolean_List_d_T_p_ = new(this, "GetComponentsInChildren", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_GetComponentsInChildren_GT_Boolean_List_d_T_p_.SetBelong(this.instance);
+					r_MGetComponentsInChildren_GT_Boolean_List_d_T_p_ = new(this, "GetComponentsInChildren", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MGetComponentsInChildren_GT_Boolean_List_d_T_p_.SetBelong(this.instance);
 				}
-				return r_GetComponentsInChildren_GT_Boolean_List_d_T_p_;
+				return r_MGetComponentsInChildren_GT_Boolean_List_d_T_p_;
 			}
 		}
 
 		/// <summary>
 		/// T[] GetComponentsInChildren[T]()
 		/// </summary>
-		protected RMethod r_GetComponentsInChildren_GT;
-		public virtual RMethod RGetComponentsInChildren_GT
+		protected RMethod r_MGetComponentsInChildren_GT;
+		public virtual RMethod RMGetComponentsInChildren_GT
 		{
 			get
 			{
-				if(r_GetComponentsInChildren_GT == null)
+				if(r_MGetComponentsInChildren_GT == null)
 				{
-					r_GetComponentsInChildren_GT = new(this, "GetComponentsInChildren", 1);
-					r_GetComponentsInChildren_GT.SetBelong(this.instance);
+					r_MGetComponentsInChildren_GT = new(this, "GetComponentsInChildren", 1);
+					r_MGetComponentsInChildren_GT.SetBelong(this.instance);
 				}
-				return r_GetComponentsInChildren_GT;
+				return r_MGetComponentsInChildren_GT;
 			}
 		}
 
 		/// <summary>
 		/// Void GetComponentsInChildren[T](System.Collections.Generic.List`1[T])
 		/// </summary>
-		protected RMethod r_GetComponentsInChildren_GT_List_d_T_p_;
-		public virtual RMethod RGetComponentsInChildren_GT_List_d_T_p_
+		protected RMethod r_MGetComponentsInChildren_GT_List_d_T_p_;
+		public virtual RMethod RMGetComponentsInChildren_GT_List_d_T_p_
 		{
 			get
 			{
-				if(r_GetComponentsInChildren_GT_List_d_T_p_ == null)
+				if(r_MGetComponentsInChildren_GT_List_d_T_p_ == null)
 				{
-					r_GetComponentsInChildren_GT_List_d_T_p_ = new(this, "GetComponentsInChildren", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_GetComponentsInChildren_GT_List_d_T_p_.SetBelong(this.instance);
+					r_MGetComponentsInChildren_GT_List_d_T_p_ = new(this, "GetComponentsInChildren", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MGetComponentsInChildren_GT_List_d_T_p_.SetBelong(this.instance);
 				}
-				return r_GetComponentsInChildren_GT_List_d_T_p_;
+				return r_MGetComponentsInChildren_GT_List_d_T_p_;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component GetComponentInParent(System.Type, Boolean)
 		/// </summary>
-		protected RMethod r_GetComponentInParent_Type_Boolean;
-		public virtual RMethod RGetComponentInParent_Type_Boolean
+		protected RMethod r_MGetComponentInParent_Type_Boolean;
+		public virtual RMethod RMGetComponentInParent_Type_Boolean
 		{
 			get
 			{
-				if(r_GetComponentInParent_Type_Boolean == null)
+				if(r_MGetComponentInParent_Type_Boolean == null)
 				{
-					r_GetComponentInParent_Type_Boolean = new(this, "GetComponentInParent", 0, typeof(System.Type), typeof(System.Boolean));
-					r_GetComponentInParent_Type_Boolean.SetBelong(this.instance);
+					r_MGetComponentInParent_Type_Boolean = new(this, "GetComponentInParent", 0, typeof(System.Type), typeof(System.Boolean));
+					r_MGetComponentInParent_Type_Boolean.SetBelong(this.instance);
 				}
-				return r_GetComponentInParent_Type_Boolean;
+				return r_MGetComponentInParent_Type_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component GetComponentInParent(System.Type)
 		/// </summary>
-		protected RMethod r_GetComponentInParent_Type;
-		public virtual RMethod RGetComponentInParent_Type
+		protected RMethod r_MGetComponentInParent_Type;
+		public virtual RMethod RMGetComponentInParent_Type
 		{
 			get
 			{
-				if(r_GetComponentInParent_Type == null)
+				if(r_MGetComponentInParent_Type == null)
 				{
-					r_GetComponentInParent_Type = new(this, "GetComponentInParent", 0, typeof(System.Type));
-					r_GetComponentInParent_Type.SetBelong(this.instance);
+					r_MGetComponentInParent_Type = new(this, "GetComponentInParent", 0, typeof(System.Type));
+					r_MGetComponentInParent_Type.SetBelong(this.instance);
 				}
-				return r_GetComponentInParent_Type;
+				return r_MGetComponentInParent_Type;
 			}
 		}
 
 		/// <summary>
 		/// T GetComponentInParent[T](Boolean)
 		/// </summary>
-		protected RMethod r_GetComponentInParent_GT_Boolean;
-		public virtual RMethod RGetComponentInParent_GT_Boolean
+		protected RMethod r_MGetComponentInParent_GT_Boolean;
+		public virtual RMethod RMGetComponentInParent_GT_Boolean
 		{
 			get
 			{
-				if(r_GetComponentInParent_GT_Boolean == null)
+				if(r_MGetComponentInParent_GT_Boolean == null)
 				{
-					r_GetComponentInParent_GT_Boolean = new(this, "GetComponentInParent", 1, typeof(System.Boolean));
-					r_GetComponentInParent_GT_Boolean.SetBelong(this.instance);
+					r_MGetComponentInParent_GT_Boolean = new(this, "GetComponentInParent", 1, typeof(System.Boolean));
+					r_MGetComponentInParent_GT_Boolean.SetBelong(this.instance);
 				}
-				return r_GetComponentInParent_GT_Boolean;
+				return r_MGetComponentInParent_GT_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// T GetComponentInParent[T]()
 		/// </summary>
-		protected RMethod r_GetComponentInParent_GT;
-		public virtual RMethod RGetComponentInParent_GT
+		protected RMethod r_MGetComponentInParent_GT;
+		public virtual RMethod RMGetComponentInParent_GT
 		{
 			get
 			{
-				if(r_GetComponentInParent_GT == null)
+				if(r_MGetComponentInParent_GT == null)
 				{
-					r_GetComponentInParent_GT = new(this, "GetComponentInParent", 1);
-					r_GetComponentInParent_GT.SetBelong(this.instance);
+					r_MGetComponentInParent_GT = new(this, "GetComponentInParent", 1);
+					r_MGetComponentInParent_GT.SetBelong(this.instance);
 				}
-				return r_GetComponentInParent_GT;
+				return r_MGetComponentInParent_GT;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component[] GetComponentsInParent(System.Type, Boolean)
 		/// </summary>
-		protected RMethod r_GetComponentsInParent_Type_Boolean;
-		public virtual RMethod RGetComponentsInParent_Type_Boolean
+		protected RMethod r_MGetComponentsInParent_Type_Boolean;
+		public virtual RMethod RMGetComponentsInParent_Type_Boolean
 		{
 			get
 			{
-				if(r_GetComponentsInParent_Type_Boolean == null)
+				if(r_MGetComponentsInParent_Type_Boolean == null)
 				{
-					r_GetComponentsInParent_Type_Boolean = new(this, "GetComponentsInParent", 0, typeof(System.Type), typeof(System.Boolean));
-					r_GetComponentsInParent_Type_Boolean.SetBelong(this.instance);
+					r_MGetComponentsInParent_Type_Boolean = new(this, "GetComponentsInParent", 0, typeof(System.Type), typeof(System.Boolean));
+					r_MGetComponentsInParent_Type_Boolean.SetBelong(this.instance);
 				}
-				return r_GetComponentsInParent_Type_Boolean;
+				return r_MGetComponentsInParent_Type_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component[] GetComponentsInParent(System.Type)
 		/// </summary>
-		protected RMethod r_GetComponentsInParent_Type;
-		public virtual RMethod RGetComponentsInParent_Type
+		protected RMethod r_MGetComponentsInParent_Type;
+		public virtual RMethod RMGetComponentsInParent_Type
 		{
 			get
 			{
-				if(r_GetComponentsInParent_Type == null)
+				if(r_MGetComponentsInParent_Type == null)
 				{
-					r_GetComponentsInParent_Type = new(this, "GetComponentsInParent", 0, typeof(System.Type));
-					r_GetComponentsInParent_Type.SetBelong(this.instance);
+					r_MGetComponentsInParent_Type = new(this, "GetComponentsInParent", 0, typeof(System.Type));
+					r_MGetComponentsInParent_Type.SetBelong(this.instance);
 				}
-				return r_GetComponentsInParent_Type;
+				return r_MGetComponentsInParent_Type;
 			}
 		}
 
 		/// <summary>
 		/// T[] GetComponentsInParent[T](Boolean)
 		/// </summary>
-		protected RMethod r_GetComponentsInParent_GT_Boolean;
-		public virtual RMethod RGetComponentsInParent_GT_Boolean
+		protected RMethod r_MGetComponentsInParent_GT_Boolean;
+		public virtual RMethod RMGetComponentsInParent_GT_Boolean
 		{
 			get
 			{
-				if(r_GetComponentsInParent_GT_Boolean == null)
+				if(r_MGetComponentsInParent_GT_Boolean == null)
 				{
-					r_GetComponentsInParent_GT_Boolean = new(this, "GetComponentsInParent", 1, typeof(System.Boolean));
-					r_GetComponentsInParent_GT_Boolean.SetBelong(this.instance);
+					r_MGetComponentsInParent_GT_Boolean = new(this, "GetComponentsInParent", 1, typeof(System.Boolean));
+					r_MGetComponentsInParent_GT_Boolean.SetBelong(this.instance);
 				}
-				return r_GetComponentsInParent_GT_Boolean;
+				return r_MGetComponentsInParent_GT_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void GetComponentsInParent[T](Boolean, System.Collections.Generic.List`1[T])
 		/// </summary>
-		protected RMethod r_GetComponentsInParent_GT_Boolean_List_d_T_p_;
-		public virtual RMethod RGetComponentsInParent_GT_Boolean_List_d_T_p_
+		protected RMethod r_MGetComponentsInParent_GT_Boolean_List_d_T_p_;
+		public virtual RMethod RMGetComponentsInParent_GT_Boolean_List_d_T_p_
 		{
 			get
 			{
-				if(r_GetComponentsInParent_GT_Boolean_List_d_T_p_ == null)
+				if(r_MGetComponentsInParent_GT_Boolean_List_d_T_p_ == null)
 				{
-					r_GetComponentsInParent_GT_Boolean_List_d_T_p_ = new(this, "GetComponentsInParent", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_GetComponentsInParent_GT_Boolean_List_d_T_p_.SetBelong(this.instance);
+					r_MGetComponentsInParent_GT_Boolean_List_d_T_p_ = new(this, "GetComponentsInParent", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MGetComponentsInParent_GT_Boolean_List_d_T_p_.SetBelong(this.instance);
 				}
-				return r_GetComponentsInParent_GT_Boolean_List_d_T_p_;
+				return r_MGetComponentsInParent_GT_Boolean_List_d_T_p_;
 			}
 		}
 
 		/// <summary>
 		/// T[] GetComponentsInParent[T]()
 		/// </summary>
-		protected RMethod r_GetComponentsInParent_GT;
-		public virtual RMethod RGetComponentsInParent_GT
+		protected RMethod r_MGetComponentsInParent_GT;
+		public virtual RMethod RMGetComponentsInParent_GT
 		{
 			get
 			{
-				if(r_GetComponentsInParent_GT == null)
+				if(r_MGetComponentsInParent_GT == null)
 				{
-					r_GetComponentsInParent_GT = new(this, "GetComponentsInParent", 1);
-					r_GetComponentsInParent_GT.SetBelong(this.instance);
+					r_MGetComponentsInParent_GT = new(this, "GetComponentsInParent", 1);
+					r_MGetComponentsInParent_GT.SetBelong(this.instance);
 				}
-				return r_GetComponentsInParent_GT;
+				return r_MGetComponentsInParent_GT;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component[] GetComponents(System.Type)
 		/// </summary>
-		protected RMethod r_GetComponents_Type;
-		public virtual RMethod RGetComponents_Type
+		protected RMethod r_MGetComponents_Type;
+		public virtual RMethod RMGetComponents_Type
 		{
 			get
 			{
-				if(r_GetComponents_Type == null)
+				if(r_MGetComponents_Type == null)
 				{
-					r_GetComponents_Type = new(this, "GetComponents", 0, typeof(System.Type));
-					r_GetComponents_Type.SetBelong(this.instance);
+					r_MGetComponents_Type = new(this, "GetComponents", 0, typeof(System.Type));
+					r_MGetComponents_Type.SetBelong(this.instance);
 				}
-				return r_GetComponents_Type;
+				return r_MGetComponents_Type;
 			}
 		}
 
 		/// <summary>
 		/// Void GetComponents(System.Type, System.Collections.Generic.List`1[UnityEngine.Component])
 		/// </summary>
-		protected RMethod r_GetComponents_Type_List_d_Component_p_;
-		public virtual RMethod RGetComponents_Type_List_d_Component_p_
+		protected RMethod r_MGetComponents_Type_List_d_Component_p_;
+		public virtual RMethod RMGetComponents_Type_List_d_Component_p_
 		{
 			get
 			{
-				if(r_GetComponents_Type_List_d_Component_p_ == null)
+				if(r_MGetComponents_Type_List_d_Component_p_ == null)
 				{
-					r_GetComponents_Type_List_d_Component_p_ = new(this, "GetComponents", 0, typeof(System.Type), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Component)));
-					r_GetComponents_Type_List_d_Component_p_.SetBelong(this.instance);
+					r_MGetComponents_Type_List_d_Component_p_ = new(this, "GetComponents", 0, typeof(System.Type), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Component)));
+					r_MGetComponents_Type_List_d_Component_p_.SetBelong(this.instance);
 				}
-				return r_GetComponents_Type_List_d_Component_p_;
+				return r_MGetComponents_Type_List_d_Component_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void GetComponents[T](System.Collections.Generic.List`1[T])
 		/// </summary>
-		protected RMethod r_GetComponents_GT_List_d_T_p_;
-		public virtual RMethod RGetComponents_GT_List_d_T_p_
+		protected RMethod r_MGetComponents_GT_List_d_T_p_;
+		public virtual RMethod RMGetComponents_GT_List_d_T_p_
 		{
 			get
 			{
-				if(r_GetComponents_GT_List_d_T_p_ == null)
+				if(r_MGetComponents_GT_List_d_T_p_ == null)
 				{
-					r_GetComponents_GT_List_d_T_p_ = new(this, "GetComponents", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_GetComponents_GT_List_d_T_p_.SetBelong(this.instance);
+					r_MGetComponents_GT_List_d_T_p_ = new(this, "GetComponents", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MGetComponents_GT_List_d_T_p_.SetBelong(this.instance);
 				}
-				return r_GetComponents_GT_List_d_T_p_;
+				return r_MGetComponents_GT_List_d_T_p_;
 			}
 		}
 
 		/// <summary>
 		/// T[] GetComponents[T]()
 		/// </summary>
-		protected RMethod r_GetComponents_GT;
-		public virtual RMethod RGetComponents_GT
+		protected RMethod r_MGetComponents_GT;
+		public virtual RMethod RMGetComponents_GT
 		{
 			get
 			{
-				if(r_GetComponents_GT == null)
+				if(r_MGetComponents_GT == null)
 				{
-					r_GetComponents_GT = new(this, "GetComponents", 1);
-					r_GetComponents_GT.SetBelong(this.instance);
+					r_MGetComponents_GT = new(this, "GetComponents", 1);
+					r_MGetComponents_GT.SetBelong(this.instance);
 				}
-				return r_GetComponents_GT;
+				return r_MGetComponents_GT;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CompareTag(System.String)
 		/// </summary>
-		protected RMethod r_CompareTag_String;
-		public virtual RMethod RCompareTag_String
+		protected RMethod r_MCompareTag_String;
+		public virtual RMethod RMCompareTag_String
 		{
 			get
 			{
-				if(r_CompareTag_String == null)
+				if(r_MCompareTag_String == null)
 				{
-					r_CompareTag_String = new(this, "CompareTag", 0, typeof(System.String));
-					r_CompareTag_String.SetBelong(this.instance);
+					r_MCompareTag_String = new(this, "CompareTag", 0, typeof(System.String));
+					r_MCompareTag_String.SetBelong(this.instance);
 				}
-				return r_CompareTag_String;
+				return r_MCompareTag_String;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Component GetCoupledComponent()
 		/// </summary>
-		protected RMethod r_GetCoupledComponent;
-		public virtual RMethod RGetCoupledComponent
+		protected RMethod r_MGetCoupledComponent;
+		public virtual RMethod RMGetCoupledComponent
 		{
 			get
 			{
-				if(r_GetCoupledComponent == null)
+				if(r_MGetCoupledComponent == null)
 				{
-					r_GetCoupledComponent = new(this, "GetCoupledComponent", 0);
-					r_GetCoupledComponent.SetBelong(this.instance);
+					r_MGetCoupledComponent = new(this, "GetCoupledComponent", 0);
+					r_MGetCoupledComponent.SetBelong(this.instance);
 				}
-				return r_GetCoupledComponent;
+				return r_MGetCoupledComponent;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsCoupledComponent()
 		/// </summary>
-		protected RMethod r_IsCoupledComponent;
-		public virtual RMethod RIsCoupledComponent
+		protected RMethod r_MIsCoupledComponent;
+		public virtual RMethod RMIsCoupledComponent
 		{
 			get
 			{
-				if(r_IsCoupledComponent == null)
+				if(r_MIsCoupledComponent == null)
 				{
-					r_IsCoupledComponent = new(this, "IsCoupledComponent", 0);
-					r_IsCoupledComponent.SetBelong(this.instance);
+					r_MIsCoupledComponent = new(this, "IsCoupledComponent", 0);
+					r_MIsCoupledComponent.SetBelong(this.instance);
 				}
-				return r_IsCoupledComponent;
+				return r_MIsCoupledComponent;
 			}
 		}
 
 		/// <summary>
 		/// Void SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)
 		/// </summary>
-		protected RMethod r_SendMessageUpwards_String_Object_SendMessageOptions;
-		public virtual RMethod RSendMessageUpwards_String_Object_SendMessageOptions
+		protected RMethod r_MSendMessageUpwards_String_Object_SendMessageOptions;
+		public virtual RMethod RMSendMessageUpwards_String_Object_SendMessageOptions
 		{
 			get
 			{
-				if(r_SendMessageUpwards_String_Object_SendMessageOptions == null)
+				if(r_MSendMessageUpwards_String_Object_SendMessageOptions == null)
 				{
-					r_SendMessageUpwards_String_Object_SendMessageOptions = new(this, "SendMessageUpwards", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
-					r_SendMessageUpwards_String_Object_SendMessageOptions.SetBelong(this.instance);
+					r_MSendMessageUpwards_String_Object_SendMessageOptions = new(this, "SendMessageUpwards", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
+					r_MSendMessageUpwards_String_Object_SendMessageOptions.SetBelong(this.instance);
 				}
-				return r_SendMessageUpwards_String_Object_SendMessageOptions;
+				return r_MSendMessageUpwards_String_Object_SendMessageOptions;
 			}
 		}
 
 		/// <summary>
 		/// Void SendMessageUpwards(System.String, System.Object)
 		/// </summary>
-		protected RMethod r_SendMessageUpwards_String_Object;
-		public virtual RMethod RSendMessageUpwards_String_Object
+		protected RMethod r_MSendMessageUpwards_String_Object;
+		public virtual RMethod RMSendMessageUpwards_String_Object
 		{
 			get
 			{
-				if(r_SendMessageUpwards_String_Object == null)
+				if(r_MSendMessageUpwards_String_Object == null)
 				{
-					r_SendMessageUpwards_String_Object = new(this, "SendMessageUpwards", 0, typeof(System.String), typeof(System.Object));
-					r_SendMessageUpwards_String_Object.SetBelong(this.instance);
+					r_MSendMessageUpwards_String_Object = new(this, "SendMessageUpwards", 0, typeof(System.String), typeof(System.Object));
+					r_MSendMessageUpwards_String_Object.SetBelong(this.instance);
 				}
-				return r_SendMessageUpwards_String_Object;
+				return r_MSendMessageUpwards_String_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void SendMessageUpwards(System.String)
 		/// </summary>
-		protected RMethod r_SendMessageUpwards_String;
-		public virtual RMethod RSendMessageUpwards_String
+		protected RMethod r_MSendMessageUpwards_String;
+		public virtual RMethod RMSendMessageUpwards_String
 		{
 			get
 			{
-				if(r_SendMessageUpwards_String == null)
+				if(r_MSendMessageUpwards_String == null)
 				{
-					r_SendMessageUpwards_String = new(this, "SendMessageUpwards", 0, typeof(System.String));
-					r_SendMessageUpwards_String.SetBelong(this.instance);
+					r_MSendMessageUpwards_String = new(this, "SendMessageUpwards", 0, typeof(System.String));
+					r_MSendMessageUpwards_String.SetBelong(this.instance);
 				}
-				return r_SendMessageUpwards_String;
+				return r_MSendMessageUpwards_String;
 			}
 		}
 
 		/// <summary>
 		/// Void SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)
 		/// </summary>
-		protected RMethod r_SendMessageUpwards_String_SendMessageOptions;
-		public virtual RMethod RSendMessageUpwards_String_SendMessageOptions
+		protected RMethod r_MSendMessageUpwards_String_SendMessageOptions;
+		public virtual RMethod RMSendMessageUpwards_String_SendMessageOptions
 		{
 			get
 			{
-				if(r_SendMessageUpwards_String_SendMessageOptions == null)
+				if(r_MSendMessageUpwards_String_SendMessageOptions == null)
 				{
-					r_SendMessageUpwards_String_SendMessageOptions = new(this, "SendMessageUpwards", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
-					r_SendMessageUpwards_String_SendMessageOptions.SetBelong(this.instance);
+					r_MSendMessageUpwards_String_SendMessageOptions = new(this, "SendMessageUpwards", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
+					r_MSendMessageUpwards_String_SendMessageOptions.SetBelong(this.instance);
 				}
-				return r_SendMessageUpwards_String_SendMessageOptions;
+				return r_MSendMessageUpwards_String_SendMessageOptions;
 			}
 		}
 
 		/// <summary>
 		/// Void SendMessage(System.String, System.Object)
 		/// </summary>
-		protected RMethod r_SendMessage_String_Object;
-		public virtual RMethod RSendMessage_String_Object
+		protected RMethod r_MSendMessage_String_Object;
+		public virtual RMethod RMSendMessage_String_Object
 		{
 			get
 			{
-				if(r_SendMessage_String_Object == null)
+				if(r_MSendMessage_String_Object == null)
 				{
-					r_SendMessage_String_Object = new(this, "SendMessage", 0, typeof(System.String), typeof(System.Object));
-					r_SendMessage_String_Object.SetBelong(this.instance);
+					r_MSendMessage_String_Object = new(this, "SendMessage", 0, typeof(System.String), typeof(System.Object));
+					r_MSendMessage_String_Object.SetBelong(this.instance);
 				}
-				return r_SendMessage_String_Object;
+				return r_MSendMessage_String_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void SendMessage(System.String)
 		/// </summary>
-		protected RMethod r_SendMessage_String;
-		public virtual RMethod RSendMessage_String
+		protected RMethod r_MSendMessage_String;
+		public virtual RMethod RMSendMessage_String
 		{
 			get
 			{
-				if(r_SendMessage_String == null)
+				if(r_MSendMessage_String == null)
 				{
-					r_SendMessage_String = new(this, "SendMessage", 0, typeof(System.String));
-					r_SendMessage_String.SetBelong(this.instance);
+					r_MSendMessage_String = new(this, "SendMessage", 0, typeof(System.String));
+					r_MSendMessage_String.SetBelong(this.instance);
 				}
-				return r_SendMessage_String;
+				return r_MSendMessage_String;
 			}
 		}
 
 		/// <summary>
 		/// Void SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)
 		/// </summary>
-		protected RMethod r_SendMessage_String_Object_SendMessageOptions;
-		public virtual RMethod RSendMessage_String_Object_SendMessageOptions
+		protected RMethod r_MSendMessage_String_Object_SendMessageOptions;
+		public virtual RMethod RMSendMessage_String_Object_SendMessageOptions
 		{
 			get
 			{
-				if(r_SendMessage_String_Object_SendMessageOptions == null)
+				if(r_MSendMessage_String_Object_SendMessageOptions == null)
 				{
-					r_SendMessage_String_Object_SendMessageOptions = new(this, "SendMessage", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
-					r_SendMessage_String_Object_SendMessageOptions.SetBelong(this.instance);
+					r_MSendMessage_String_Object_SendMessageOptions = new(this, "SendMessage", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
+					r_MSendMessage_String_Object_SendMessageOptions.SetBelong(this.instance);
 				}
-				return r_SendMessage_String_Object_SendMessageOptions;
+				return r_MSendMessage_String_Object_SendMessageOptions;
 			}
 		}
 
 		/// <summary>
 		/// Void SendMessage(System.String, UnityEngine.SendMessageOptions)
 		/// </summary>
-		protected RMethod r_SendMessage_String_SendMessageOptions;
-		public virtual RMethod RSendMessage_String_SendMessageOptions
+		protected RMethod r_MSendMessage_String_SendMessageOptions;
+		public virtual RMethod RMSendMessage_String_SendMessageOptions
 		{
 			get
 			{
-				if(r_SendMessage_String_SendMessageOptions == null)
+				if(r_MSendMessage_String_SendMessageOptions == null)
 				{
-					r_SendMessage_String_SendMessageOptions = new(this, "SendMessage", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
-					r_SendMessage_String_SendMessageOptions.SetBelong(this.instance);
+					r_MSendMessage_String_SendMessageOptions = new(this, "SendMessage", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
+					r_MSendMessage_String_SendMessageOptions.SetBelong(this.instance);
 				}
-				return r_SendMessage_String_SendMessageOptions;
+				return r_MSendMessage_String_SendMessageOptions;
 			}
 		}
 
 		/// <summary>
 		/// Void BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)
 		/// </summary>
-		protected RMethod r_BroadcastMessage_String_Object_SendMessageOptions;
-		public virtual RMethod RBroadcastMessage_String_Object_SendMessageOptions
+		protected RMethod r_MBroadcastMessage_String_Object_SendMessageOptions;
+		public virtual RMethod RMBroadcastMessage_String_Object_SendMessageOptions
 		{
 			get
 			{
-				if(r_BroadcastMessage_String_Object_SendMessageOptions == null)
+				if(r_MBroadcastMessage_String_Object_SendMessageOptions == null)
 				{
-					r_BroadcastMessage_String_Object_SendMessageOptions = new(this, "BroadcastMessage", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
-					r_BroadcastMessage_String_Object_SendMessageOptions.SetBelong(this.instance);
+					r_MBroadcastMessage_String_Object_SendMessageOptions = new(this, "BroadcastMessage", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
+					r_MBroadcastMessage_String_Object_SendMessageOptions.SetBelong(this.instance);
 				}
-				return r_BroadcastMessage_String_Object_SendMessageOptions;
+				return r_MBroadcastMessage_String_Object_SendMessageOptions;
 			}
 		}
 
 		/// <summary>
 		/// Void BroadcastMessage(System.String, System.Object)
 		/// </summary>
-		protected RMethod r_BroadcastMessage_String_Object;
-		public virtual RMethod RBroadcastMessage_String_Object
+		protected RMethod r_MBroadcastMessage_String_Object;
+		public virtual RMethod RMBroadcastMessage_String_Object
 		{
 			get
 			{
-				if(r_BroadcastMessage_String_Object == null)
+				if(r_MBroadcastMessage_String_Object == null)
 				{
-					r_BroadcastMessage_String_Object = new(this, "BroadcastMessage", 0, typeof(System.String), typeof(System.Object));
-					r_BroadcastMessage_String_Object.SetBelong(this.instance);
+					r_MBroadcastMessage_String_Object = new(this, "BroadcastMessage", 0, typeof(System.String), typeof(System.Object));
+					r_MBroadcastMessage_String_Object.SetBelong(this.instance);
 				}
-				return r_BroadcastMessage_String_Object;
+				return r_MBroadcastMessage_String_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void BroadcastMessage(System.String)
 		/// </summary>
-		protected RMethod r_BroadcastMessage_String;
-		public virtual RMethod RBroadcastMessage_String
+		protected RMethod r_MBroadcastMessage_String;
+		public virtual RMethod RMBroadcastMessage_String
 		{
 			get
 			{
-				if(r_BroadcastMessage_String == null)
+				if(r_MBroadcastMessage_String == null)
 				{
-					r_BroadcastMessage_String = new(this, "BroadcastMessage", 0, typeof(System.String));
-					r_BroadcastMessage_String.SetBelong(this.instance);
+					r_MBroadcastMessage_String = new(this, "BroadcastMessage", 0, typeof(System.String));
+					r_MBroadcastMessage_String.SetBelong(this.instance);
 				}
-				return r_BroadcastMessage_String;
+				return r_MBroadcastMessage_String;
 			}
 		}
 
 		/// <summary>
 		/// Void BroadcastMessage(System.String, UnityEngine.SendMessageOptions)
 		/// </summary>
-		protected RMethod r_BroadcastMessage_String_SendMessageOptions;
-		public virtual RMethod RBroadcastMessage_String_SendMessageOptions
+		protected RMethod r_MBroadcastMessage_String_SendMessageOptions;
+		public virtual RMethod RMBroadcastMessage_String_SendMessageOptions
 		{
 			get
 			{
-				if(r_BroadcastMessage_String_SendMessageOptions == null)
+				if(r_MBroadcastMessage_String_SendMessageOptions == null)
 				{
-					r_BroadcastMessage_String_SendMessageOptions = new(this, "BroadcastMessage", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
-					r_BroadcastMessage_String_SendMessageOptions.SetBelong(this.instance);
+					r_MBroadcastMessage_String_SendMessageOptions = new(this, "BroadcastMessage", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
+					r_MBroadcastMessage_String_SendMessageOptions.SetBelong(this.instance);
 				}
-				return r_BroadcastMessage_String_SendMessageOptions;
+				return r_MBroadcastMessage_String_SendMessageOptions;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetInstanceID()
 		/// </summary>
-		protected RMethod r_GetInstanceID;
-		public virtual RMethod RGetInstanceID
+		protected RMethod r_MGetInstanceID;
+		public virtual RMethod RMGetInstanceID
 		{
 			get
 			{
-				if(r_GetInstanceID == null)
+				if(r_MGetInstanceID == null)
 				{
-					r_GetInstanceID = new(this, "GetInstanceID", 0);
-					r_GetInstanceID.SetBelong(this.instance);
+					r_MGetInstanceID = new(this, "GetInstanceID", 0);
+					r_MGetInstanceID.SetBelong(this.instance);
 				}
-				return r_GetInstanceID;
+				return r_MGetInstanceID;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -5184,7 +5184,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RReset.Invoke(___genericsType, ___parameters);
+            var ___result = RMReset.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5195,7 +5195,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RResetTransparencySortSettings.Invoke(___genericsType, ___parameters);
+            var ___result = RMResetTransparencySortSettings.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5206,7 +5206,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RResetAspect.Invoke(___genericsType, ___parameters);
+            var ___result = RMResetAspect.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5217,7 +5217,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetLayerCullDistances.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetLayerCullDistances.Invoke(___genericsType, ___parameters);
 
             return (System.Single[])___result;
         }
@@ -5228,7 +5228,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d};
-            var ___result = RSetLayerCullDistances_SingleArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetLayerCullDistances_SingleArray.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5239,7 +5239,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RResetCullingMatrix.Invoke(___genericsType, ___parameters);
+            var ___result = RMResetCullingMatrix.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5250,7 +5250,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@shader, @replacementTag};
-            var ___result = RSetReplacementShader_Shader_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetReplacementShader_Shader_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5261,7 +5261,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RResetReplacementShader.Invoke(___genericsType, ___parameters);
+            var ___result = RMResetReplacementShader.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5272,7 +5272,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetGateFittedFieldOfView.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetGateFittedFieldOfView.Invoke(___genericsType, ___parameters);
 
             return (System.Single)___result;
         }
@@ -5283,7 +5283,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetGateFittedLensShift.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetGateFittedLensShift.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector2)___result;
         }
@@ -5294,7 +5294,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetLocalSpaceAim.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetLocalSpaceAim.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector3)___result;
         }
@@ -5305,7 +5305,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@color, @depth};
-            var ___result = RSetTargetBuffersImpl_RenderBuffer_RenderBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetTargetBuffersImpl_RenderBuffer_RenderBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5316,7 +5316,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@colorBuffer, @depthBuffer};
-            var ___result = RSetTargetBuffers_RenderBuffer_RenderBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetTargetBuffers_RenderBuffer_RenderBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5327,7 +5327,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@color, @depth};
-            var ___result = RSetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetTargetBuffersMRTImpl_RenderBufferArray_RenderBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5338,7 +5338,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@colorBuffer, @depthBuffer};
-            var ___result = RSetTargetBuffers_RenderBufferArray_RenderBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetTargetBuffers_RenderBufferArray_RenderBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5349,7 +5349,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetCameraBufferWarnings.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCameraBufferWarnings.Invoke(___genericsType, ___parameters);
 
             return (System.String[])___result;
         }
@@ -5360,7 +5360,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RResetWorldToCameraMatrix.Invoke(___genericsType, ___parameters);
+            var ___result = RMResetWorldToCameraMatrix.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5371,7 +5371,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RResetProjectionMatrix.Invoke(___genericsType, ___parameters);
+            var ___result = RMResetProjectionMatrix.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5382,51 +5382,51 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@clipPlane};
-            var ___result = RCalculateObliqueMatrix_Vector4.Invoke(___genericsType, ___parameters);
+            var ___result = RMCalculateObliqueMatrix_Vector4.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Matrix4x4)___result;
         }
 
 
-        public virtual UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3 @position, RType @eye)
+        public virtual UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3 @position, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @eye.Value};
-            var ___result = RWorldToScreenPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+            var ___result = RMWorldToScreenPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector3)___result;
         }
 
 
-        public virtual UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3 @position, RType @eye)
+        public virtual UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3 @position, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @eye.Value};
-            var ___result = RWorldToViewportPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+            var ___result = RMWorldToViewportPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector3)___result;
         }
 
 
-        public virtual UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3 @position, RType @eye)
+        public virtual UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3 @position, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @eye.Value};
-            var ___result = RViewportToWorldPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+            var ___result = RMViewportToWorldPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector3)___result;
         }
 
 
-        public virtual UnityEngine.Vector3 ScreenToWorldPoint(UnityEngine.Vector3 @position, RType @eye)
+        public virtual UnityEngine.Vector3 ScreenToWorldPoint(UnityEngine.Vector3 @position, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @eye.Value};
-            var ___result = RScreenToWorldPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+            var ___result = RMScreenToWorldPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector3)___result;
         }
@@ -5437,7 +5437,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position};
-            var ___result = RWorldToScreenPoint_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMWorldToScreenPoint_Vector3.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector3)___result;
         }
@@ -5448,7 +5448,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position};
-            var ___result = RWorldToViewportPoint_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMWorldToViewportPoint_Vector3.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector3)___result;
         }
@@ -5459,7 +5459,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position};
-            var ___result = RViewportToWorldPoint_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMViewportToWorldPoint_Vector3.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector3)___result;
         }
@@ -5470,7 +5470,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position};
-            var ___result = RScreenToWorldPoint_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMScreenToWorldPoint_Vector3.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector3)___result;
         }
@@ -5481,7 +5481,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position};
-            var ___result = RScreenToViewportPoint_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMScreenToViewportPoint_Vector3.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector3)___result;
         }
@@ -5492,7 +5492,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position};
-            var ___result = RViewportToScreenPoint_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMViewportToScreenPoint_Vector3.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector3)___result;
         }
@@ -5503,29 +5503,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@distance};
-            var ___result = RGetFrustumPlaneSizeAt_Single.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetFrustumPlaneSizeAt_Single.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector2)___result;
         }
 
 
-        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector2 @pos, RType @eye)
+        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector2 @pos, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pos, @eye.Value};
-            var ___result = RViewportPointToRay_Vector2_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+            var ___result = RMViewportPointToRay_Vector2_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Ray)___result;
         }
 
 
-        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector3 @pos, RType @eye)
+        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector3 @pos, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pos, @eye.Value};
-            var ___result = RViewportPointToRay_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+            var ___result = RMViewportPointToRay_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Ray)___result;
         }
@@ -5536,29 +5536,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pos};
-            var ___result = RViewportPointToRay_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMViewportPointToRay_Vector3.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Ray)___result;
         }
 
 
-        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector2 @pos, RType @eye)
+        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector2 @pos, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pos, @eye.Value};
-            var ___result = RScreenPointToRay_Vector2_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+            var ___result = RMScreenPointToRay_Vector2_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Ray)___result;
         }
 
 
-        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3 @pos, RType @eye)
+        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3 @pos, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pos, @eye.Value};
-            var ___result = RScreenPointToRay_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+            var ___result = RMScreenPointToRay_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Ray)___result;
         }
@@ -5569,41 +5569,41 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pos};
-            var ___result = RScreenPointToRay_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMScreenPointToRay_Vector3.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Ray)___result;
         }
 
 
-        public virtual void CalculateFrustumCornersInternal(UnityEngine.Rect @viewport, System.Single @z, RType @eye, UnityEngine.Vector3[] @outCorners)
+        public virtual void CalculateFrustumCornersInternal(UnityEngine.Rect @viewport, System.Single @z, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, UnityEngine.Vector3[] @outCorners)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@viewport, @z, @eye.Value, @outCorners};
-            var ___result = RCalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
+            var ___result = RMCalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void CalculateFrustumCorners(UnityEngine.Rect @viewport, System.Single @z, RType @eye, UnityEngine.Vector3[] @outCorners)
+        public virtual void CalculateFrustumCorners(UnityEngine.Rect @viewport, System.Single @z, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, UnityEngine.Vector3[] @outCorners)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@viewport, @z, @eye.Value, @outCorners};
-            var ___result = RCalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
+            var ___result = RMCalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal(out UnityEngine.Matrix4x4 @output, System.Single @focalLength, UnityEngine.Vector2 @sensorSize, UnityEngine.Vector2 @lensShift, System.Single @nearClip, System.Single @farClip, System.Single @gateAspect, RType @gateFitMode)
+        public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal(out UnityEngine.Matrix4x4 @output, System.Single @focalLength, UnityEngine.Vector2 @sensorSize, UnityEngine.Vector2 @lensShift, System.Single @nearClip, System.Single @farClip, System.Single @gateAspect, RUnityEngine.RCamera.RGateFitMode @gateFitMode)
         {
 			@output = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateAspect, @gateFitMode.Value};
-            var ___result = RCalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode.Invoke(___genericsType, ___parameters);
+            var ___result = RMCalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode.Invoke(___genericsType, ___parameters);
 			@output = (UnityEngine.Matrix4x4)___parameters[0];
 
             
@@ -5616,7 +5616,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateFitParameters.Value};
-            var ___result = RCalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters.Invoke(___genericsType, ___parameters);
+            var ___result = RMCalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters.Invoke(___genericsType, ___parameters);
 			@output = (UnityEngine.Matrix4x4)___parameters[0];
 
             
@@ -5628,7 +5628,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@focalLength, @sensorSize};
-            var ___result = RFocalLengthToFieldOfView_Single_Single.Invoke(___genericsType, ___parameters);
+            var ___result = RMFocalLengthToFieldOfView_Single_Single.Invoke(___genericsType, ___parameters);
 
             return (System.Single)___result;
         }
@@ -5639,7 +5639,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fieldOfView, @sensorSize};
-            var ___result = RFieldOfViewToFocalLength_Single_Single.Invoke(___genericsType, ___parameters);
+            var ___result = RMFieldOfViewToFocalLength_Single_Single.Invoke(___genericsType, ___parameters);
 
             return (System.Single)___result;
         }
@@ -5650,7 +5650,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@horizontalFieldOfView, @aspectRatio};
-            var ___result = RHorizontalToVerticalFieldOfView_Single_Single.Invoke(___genericsType, ___parameters);
+            var ___result = RMHorizontalToVerticalFieldOfView_Single_Single.Invoke(___genericsType, ___parameters);
 
             return (System.Single)___result;
         }
@@ -5661,62 +5661,62 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@verticalFieldOfView, @aspectRatio};
-            var ___result = RVerticalToHorizontalFieldOfView_Single_Single.Invoke(___genericsType, ___parameters);
+            var ___result = RMVerticalToHorizontalFieldOfView_Single_Single.Invoke(___genericsType, ___parameters);
 
             return (System.Single)___result;
         }
 
 
-        public virtual UnityEngine.Matrix4x4 GetStereoNonJitteredProjectionMatrix(RType @eye)
+        public virtual UnityEngine.Matrix4x4 GetStereoNonJitteredProjectionMatrix(RUnityEngine.RCamera.RStereoscopicEye @eye)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value};
-            var ___result = RGetStereoNonJitteredProjectionMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStereoNonJitteredProjectionMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Matrix4x4)___result;
         }
 
 
-        public virtual UnityEngine.Matrix4x4 GetStereoViewMatrix(RType @eye)
+        public virtual UnityEngine.Matrix4x4 GetStereoViewMatrix(RUnityEngine.RCamera.RStereoscopicEye @eye)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value};
-            var ___result = RGetStereoViewMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStereoViewMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Matrix4x4)___result;
         }
 
 
-        public virtual void CopyStereoDeviceProjectionMatrixToNonJittered(RType @eye)
+        public virtual void CopyStereoDeviceProjectionMatrixToNonJittered(RUnityEngine.RCamera.RStereoscopicEye @eye)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value};
-            var ___result = RCopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual UnityEngine.Matrix4x4 GetStereoProjectionMatrix(RType @eye)
+        public virtual UnityEngine.Matrix4x4 GetStereoProjectionMatrix(RUnityEngine.RCamera.RStereoscopicEye @eye)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value};
-            var ___result = RGetStereoProjectionMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStereoProjectionMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Matrix4x4)___result;
         }
 
 
-        public virtual void SetStereoProjectionMatrix(RType @eye, UnityEngine.Matrix4x4 @matrix)
+        public virtual void SetStereoProjectionMatrix(RUnityEngine.RCamera.RStereoscopicEye @eye, UnityEngine.Matrix4x4 @matrix)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value, @matrix};
-            var ___result = RSetStereoProjectionMatrix_StereoscopicEye_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetStereoProjectionMatrix_StereoscopicEye_Matrix4x4.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5727,18 +5727,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RResetStereoProjectionMatrices.Invoke(___genericsType, ___parameters);
+            var ___result = RMResetStereoProjectionMatrices.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void SetStereoViewMatrix(RType @eye, UnityEngine.Matrix4x4 @matrix)
+        public virtual void SetStereoViewMatrix(RUnityEngine.RCamera.RStereoscopicEye @eye, UnityEngine.Matrix4x4 @matrix)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value, @matrix};
-            var ___result = RSetStereoViewMatrix_StereoscopicEye_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetStereoViewMatrix_StereoscopicEye_Matrix4x4.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5749,7 +5749,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RResetStereoViewMatrices.Invoke(___genericsType, ___parameters);
+            var ___result = RMResetStereoViewMatrices.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5760,7 +5760,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetAllCamerasCount.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetAllCamerasCount.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -5771,7 +5771,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cam};
-            var ___result = RGetAllCamerasImpl_CameraArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetAllCamerasImpl_CameraArray.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -5782,7 +5782,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cameras};
-            var ___result = RGetAllCameras_CameraArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetAllCameras_CameraArray.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -5793,7 +5793,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tex, @faceMask};
-            var ___result = RRenderToCubemapImpl_Texture_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMRenderToCubemapImpl_Texture_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -5804,7 +5804,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cubemap, @faceMask};
-            var ___result = RRenderToCubemap_Cubemap_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMRenderToCubemap_Cubemap_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -5815,7 +5815,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cubemap};
-            var ___result = RRenderToCubemap_Cubemap.Invoke(___genericsType, ___parameters);
+            var ___result = RMRenderToCubemap_Cubemap.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -5826,7 +5826,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cubemap, @faceMask};
-            var ___result = RRenderToCubemap_RenderTexture_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMRenderToCubemap_RenderTexture_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -5837,7 +5837,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cubemap};
-            var ___result = RRenderToCubemap_RenderTexture.Invoke(___genericsType, ___parameters);
+            var ___result = RMRenderToCubemap_RenderTexture.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -5848,29 +5848,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetFilterMode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetFilterMode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
 
 
-        public virtual System.Boolean RenderToCubemapEyeImpl(UnityEngine.RenderTexture @cubemap, System.Int32 @faceMask, RType @stereoEye)
+        public virtual System.Boolean RenderToCubemapEyeImpl(UnityEngine.RenderTexture @cubemap, System.Int32 @faceMask, RUnityEngine.RCamera.RMonoOrStereoscopicEye @stereoEye)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cubemap, @faceMask, @stereoEye.Value};
-            var ___result = RRenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+            var ___result = RMRenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture @cubemap, System.Int32 @faceMask, RType @stereoEye)
+        public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture @cubemap, System.Int32 @faceMask, RUnityEngine.RCamera.RMonoOrStereoscopicEye @stereoEye)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cubemap, @faceMask, @stereoEye.Value};
-            var ___result = RRenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+            var ___result = RMRenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -5881,7 +5881,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RRender.Invoke(___genericsType, ___parameters);
+            var ___result = RMRender.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5892,7 +5892,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@shader, @replacementTag};
-            var ___result = RRenderWithShader_Shader_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMRenderWithShader_Shader_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5903,7 +5903,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RRenderDontRestore.Invoke(___genericsType, ___parameters);
+            var ___result = RMRenderDontRestore.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5914,7 +5914,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@renderRequests.Value};
-            var ___result = RSubmitRenderRequests_List_d_RenderRequest_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMSubmitRenderRequests_List_d_RenderRequest_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5925,7 +5925,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(RequestData)};
             var ___parameters = new object[]{@renderRequest};
-            var ___result = RSubmitRenderRequest_GRequestData_RequestData.Invoke(___genericsType, ___parameters);
+            var ___result = RMSubmitRenderRequest_GRequestData_RequestData.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5936,7 +5936,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@requests};
-            var ___result = RSubmitRenderRequestsInternal_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMSubmitRenderRequestsInternal_Object.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5947,7 +5947,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cur};
-            var ___result = RSetupCurrent_Camera.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetupCurrent_Camera.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5958,7 +5958,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other};
-            var ___result = RCopyFrom_Camera.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyFrom_Camera.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5969,7 +5969,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = RRemoveCommandBuffers_CameraEvent.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveCommandBuffers_CameraEvent.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5980,7 +5980,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RRemoveAllCommandBuffers.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveAllCommandBuffers.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5991,7 +5991,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt, @buffer};
-            var ___result = RAddCommandBufferImpl_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddCommandBufferImpl_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6002,7 +6002,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt, @buffer, @queueType};
-            var ___result = RAddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddCommandBufferAsyncImpl_CameraEvent_CommandBuffer_ComputeQueueType.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6013,7 +6013,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt, @buffer};
-            var ___result = RRemoveCommandBufferImpl_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveCommandBufferImpl_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6024,7 +6024,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt, @buffer};
-            var ___result = RAddCommandBuffer_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddCommandBuffer_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6035,7 +6035,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt, @buffer, @queueType};
-            var ___result = RAddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddCommandBufferAsync_CameraEvent_CommandBuffer_ComputeQueueType.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6046,7 +6046,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt, @buffer};
-            var ___result = RRemoveCommandBuffer_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveCommandBuffer_CameraEvent_CommandBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6057,7 +6057,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = RGetCommandBuffers_CameraEvent.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCommandBuffers_CameraEvent.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Rendering.CommandBuffer[])___result;
         }
@@ -6068,7 +6068,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cam};
-            var ___result = RFireOnPreCull_Camera.Invoke(___genericsType, ___parameters);
+            var ___result = RMFireOnPreCull_Camera.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6079,7 +6079,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cam};
-            var ___result = RFireOnPreRender_Camera.Invoke(___genericsType, ___parameters);
+            var ___result = RMFireOnPreRender_Camera.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6090,7 +6090,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cam};
-            var ___result = RFireOnPostRender_Camera.Invoke(___genericsType, ___parameters);
+            var ___result = RMFireOnPostRender_Camera.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6101,7 +6101,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = ROnlyUsedForTesting1.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnlyUsedForTesting1.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6112,7 +6112,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = ROnlyUsedForTesting2.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnlyUsedForTesting2.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6124,7 +6124,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cullingParameters};
-            var ___result = RTryGetCullingParameters_Out_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryGetCullingParameters_Out_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
 			@cullingParameters = (UnityEngine.Rendering.ScriptableCullingParameters)___parameters[0];
 
             return (System.Boolean)___result;
@@ -6137,7 +6137,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@stereoAware, @cullingParameters};
-            var ___result = RTryGetCullingParameters_Boolean_Out_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryGetCullingParameters_Boolean_Out_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
 			@cullingParameters = (UnityEngine.Rendering.ScriptableCullingParameters)___parameters[1];
 
             return (System.Boolean)___result;
@@ -6150,7 +6150,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@camera, @stereoAware, @cullingParameters, @managedCullingParametersSize};
-            var ___result = RGetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32.Invoke(___genericsType, ___parameters);
 			@cullingParameters = (UnityEngine.Rendering.ScriptableCullingParameters)___parameters[2];
 
             return (System.Boolean)___result;
@@ -6162,7 +6162,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetScreenWidth.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetScreenWidth.Invoke(___genericsType, ___parameters);
 
             return (System.Single)___result;
         }
@@ -6173,7 +6173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetScreenHeight.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetScreenHeight.Invoke(___genericsType, ___parameters);
 
             return (System.Single)___result;
         }
@@ -6184,7 +6184,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RDoClear.Invoke(___genericsType, ___parameters);
+            var ___result = RMDoClear.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6195,7 +6195,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RResetFieldOfView.Invoke(___genericsType, ___parameters);
+            var ___result = RMResetFieldOfView.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6206,7 +6206,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@leftMatrix, @rightMatrix};
-            var ___result = RSetStereoViewMatrices_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetStereoViewMatrices_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6217,7 +6217,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@leftMatrix, @rightMatrix};
-            var ___result = RSetStereoProjectionMatrices_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetStereoProjectionMatrices_Matrix4x4_Matrix4x4.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6228,7 +6228,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetStereoViewMatrices.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStereoViewMatrices.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Matrix4x4[])___result;
         }
@@ -6239,7 +6239,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetStereoProjectionMatrices.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStereoProjectionMatrices.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Matrix4x4[])___result;
         }
@@ -6251,7 +6251,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_transparencySortAxis_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_transparencySortAxis_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Vector3)___parameters[0];
 
             
@@ -6263,7 +6263,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = Rset_transparencySortAxis_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMset_transparencySortAxis_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
 			@value = (UnityEngine.Vector3)___parameters[0];
 
             
@@ -6276,7 +6276,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_velocity_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_velocity_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Vector3)___parameters[0];
 
             
@@ -6289,7 +6289,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_cullingMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_cullingMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Matrix4x4)___parameters[0];
 
             
@@ -6301,7 +6301,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = Rset_cullingMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMset_cullingMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@value = (UnityEngine.Matrix4x4)___parameters[0];
 
             
@@ -6314,7 +6314,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_backgroundColor_Injected_Out_Color.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_backgroundColor_Injected_Out_Color.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Color)___parameters[0];
 
             
@@ -6326,7 +6326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = Rset_backgroundColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
+            var ___result = RMset_backgroundColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
 			@value = (UnityEngine.Color)___parameters[0];
 
             
@@ -6339,7 +6339,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_curvature_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_curvature_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
@@ -6351,7 +6351,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = Rset_curvature_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMset_curvature_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
 			@value = (UnityEngine.Vector2)___parameters[0];
 
             
@@ -6364,7 +6364,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_sensorSize_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_sensorSize_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
@@ -6376,7 +6376,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = Rset_sensorSize_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMset_sensorSize_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
 			@value = (UnityEngine.Vector2)___parameters[0];
 
             
@@ -6389,7 +6389,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_lensShift_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_lensShift_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
@@ -6401,7 +6401,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = Rset_lensShift_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMset_lensShift_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
 			@value = (UnityEngine.Vector2)___parameters[0];
 
             
@@ -6414,7 +6414,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = RGetGateFittedLensShift_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetGateFittedLensShift_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
@@ -6427,7 +6427,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = RGetLocalSpaceAim_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetLocalSpaceAim_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Vector3)___parameters[0];
 
             
@@ -6440,7 +6440,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_rect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_rect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Rect)___parameters[0];
 
             
@@ -6452,7 +6452,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = Rset_rect_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
+            var ___result = RMset_rect_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
 			@value = (UnityEngine.Rect)___parameters[0];
 
             
@@ -6465,7 +6465,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_pixelRect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_pixelRect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Rect)___parameters[0];
 
             
@@ -6477,7 +6477,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = Rset_pixelRect_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
+            var ___result = RMset_pixelRect_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
 			@value = (UnityEngine.Rect)___parameters[0];
 
             
@@ -6489,7 +6489,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@color, @depth};
-            var ___result = RSetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
 			@color = (UnityEngine.RenderBuffer)___parameters[0];
 			@depth = (UnityEngine.RenderBuffer)___parameters[1];
 
@@ -6502,7 +6502,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@color, @depth};
-            var ___result = RSetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
 			@depth = (UnityEngine.RenderBuffer)___parameters[1];
 
             
@@ -6515,7 +6515,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_cameraToWorldMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_cameraToWorldMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Matrix4x4)___parameters[0];
 
             
@@ -6528,7 +6528,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_worldToCameraMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_worldToCameraMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Matrix4x4)___parameters[0];
 
             
@@ -6540,7 +6540,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = Rset_worldToCameraMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMset_worldToCameraMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@value = (UnityEngine.Matrix4x4)___parameters[0];
 
             
@@ -6553,7 +6553,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_projectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_projectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Matrix4x4)___parameters[0];
 
             
@@ -6565,7 +6565,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = Rset_projectionMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMset_projectionMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@value = (UnityEngine.Matrix4x4)___parameters[0];
 
             
@@ -6578,7 +6578,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Matrix4x4)___parameters[0];
 
             
@@ -6590,7 +6590,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = Rset_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMset_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@value = (UnityEngine.Matrix4x4)___parameters[0];
 
             
@@ -6603,7 +6603,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_previousViewProjectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_previousViewProjectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Matrix4x4)___parameters[0];
 
             
@@ -6616,7 +6616,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@clipPlane, @ret};
-            var ___result = RCalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMCalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@clipPlane = (UnityEngine.Vector4)___parameters[0];
 			@ret = (UnityEngine.Matrix4x4)___parameters[1];
 
@@ -6624,13 +6624,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void WorldToScreenPoint_Injected(ref UnityEngine.Vector3 @position, RType @eye, out UnityEngine.Vector3 @ret)
+        public virtual void WorldToScreenPoint_Injected(ref UnityEngine.Vector3 @position, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @eye.Value, @ret};
-            var ___result = RWorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMWorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@position = (UnityEngine.Vector3)___parameters[0];
 			@ret = (UnityEngine.Vector3)___parameters[2];
 
@@ -6638,13 +6638,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void WorldToViewportPoint_Injected(ref UnityEngine.Vector3 @position, RType @eye, out UnityEngine.Vector3 @ret)
+        public virtual void WorldToViewportPoint_Injected(ref UnityEngine.Vector3 @position, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @eye.Value, @ret};
-            var ___result = RWorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMWorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@position = (UnityEngine.Vector3)___parameters[0];
 			@ret = (UnityEngine.Vector3)___parameters[2];
 
@@ -6652,13 +6652,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ViewportToWorldPoint_Injected(ref UnityEngine.Vector3 @position, RType @eye, out UnityEngine.Vector3 @ret)
+        public virtual void ViewportToWorldPoint_Injected(ref UnityEngine.Vector3 @position, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @eye.Value, @ret};
-            var ___result = RViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@position = (UnityEngine.Vector3)___parameters[0];
 			@ret = (UnityEngine.Vector3)___parameters[2];
 
@@ -6666,13 +6666,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ScreenToWorldPoint_Injected(ref UnityEngine.Vector3 @position, RType @eye, out UnityEngine.Vector3 @ret)
+        public virtual void ScreenToWorldPoint_Injected(ref UnityEngine.Vector3 @position, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @eye.Value, @ret};
-            var ___result = RScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@position = (UnityEngine.Vector3)___parameters[0];
 			@ret = (UnityEngine.Vector3)___parameters[2];
 
@@ -6686,7 +6686,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @ret};
-            var ___result = RScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@position = (UnityEngine.Vector3)___parameters[0];
 			@ret = (UnityEngine.Vector3)___parameters[1];
 
@@ -6700,7 +6700,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @ret};
-            var ___result = RViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3.Invoke(___genericsType, ___parameters);
+            var ___result = RMViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3.Invoke(___genericsType, ___parameters);
 			@position = (UnityEngine.Vector3)___parameters[0];
 			@ret = (UnityEngine.Vector3)___parameters[1];
 
@@ -6714,20 +6714,20 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@distance, @ret};
-            var ___result = RGetFrustumPlaneSizeAt_Injected_Single_Out_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetFrustumPlaneSizeAt_Injected_Single_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Vector2)___parameters[1];
 
             
         }
 
 
-        public virtual void ViewportPointToRay_Injected(ref UnityEngine.Vector2 @pos, RType @eye, out UnityEngine.Ray @ret)
+        public virtual void ViewportPointToRay_Injected(ref UnityEngine.Vector2 @pos, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Ray @ret)
         {
 			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pos, @eye.Value, @ret};
-            var ___result = RViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.Invoke(___genericsType, ___parameters);
+            var ___result = RMViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.Invoke(___genericsType, ___parameters);
 			@pos = (UnityEngine.Vector2)___parameters[0];
 			@ret = (UnityEngine.Ray)___parameters[2];
 
@@ -6735,13 +6735,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ScreenPointToRay_Injected(ref UnityEngine.Vector2 @pos, RType @eye, out UnityEngine.Ray @ret)
+        public virtual void ScreenPointToRay_Injected(ref UnityEngine.Vector2 @pos, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, out UnityEngine.Ray @ret)
         {
 			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pos, @eye.Value, @ret};
-            var ___result = RScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.Invoke(___genericsType, ___parameters);
+            var ___result = RMScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.Invoke(___genericsType, ___parameters);
 			@pos = (UnityEngine.Vector2)___parameters[0];
 			@ret = (UnityEngine.Ray)___parameters[2];
 
@@ -6749,25 +6749,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CalculateFrustumCornersInternal_Injected(ref UnityEngine.Rect @viewport, System.Single @z, RType @eye, UnityEngine.Vector3[] @outCorners)
+        public virtual void CalculateFrustumCornersInternal_Injected(ref UnityEngine.Rect @viewport, System.Single @z, RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye, UnityEngine.Vector3[] @outCorners)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@viewport, @z, @eye.Value, @outCorners};
-            var ___result = RCalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
+            var ___result = RMCalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
 			@viewport = (UnityEngine.Rect)___parameters[0];
 
             
         }
 
 
-        public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected(out UnityEngine.Matrix4x4 @output, System.Single @focalLength, ref UnityEngine.Vector2 @sensorSize, ref UnityEngine.Vector2 @lensShift, System.Single @nearClip, System.Single @farClip, System.Single @gateAspect, RType @gateFitMode)
+        public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected(out UnityEngine.Matrix4x4 @output, System.Single @focalLength, ref UnityEngine.Vector2 @sensorSize, ref UnityEngine.Vector2 @lensShift, System.Single @nearClip, System.Single @farClip, System.Single @gateAspect, RUnityEngine.RCamera.RGateFitMode @gateFitMode)
         {
 			@output = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateAspect, @gateFitMode.Value};
-            var ___result = RCalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode.Invoke(___genericsType, ___parameters);
+            var ___result = RMCalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode.Invoke(___genericsType, ___parameters);
 			@output = (UnityEngine.Matrix4x4)___parameters[0];
 			@sensorSize = (UnityEngine.Vector2)___parameters[2];
 			@lensShift = (UnityEngine.Vector2)___parameters[3];
@@ -6782,7 +6782,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_scene_Injected_Out_Scene.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_scene_Injected_Out_Scene.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.SceneManagement.Scene)___parameters[0];
 
             
@@ -6794,70 +6794,70 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = Rset_scene_Injected_Ref_Scene.Invoke(___genericsType, ___parameters);
+            var ___result = RMset_scene_Injected_Ref_Scene.Invoke(___genericsType, ___parameters);
 			@value = (UnityEngine.SceneManagement.Scene)___parameters[0];
 
             
         }
 
 
-        public virtual void GetStereoNonJitteredProjectionMatrix_Injected(RType @eye, out UnityEngine.Matrix4x4 @ret)
+        public virtual void GetStereoNonJitteredProjectionMatrix_Injected(RUnityEngine.RCamera.RStereoscopicEye @eye, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value, @ret};
-            var ___result = RGetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
 
 
-        public virtual void GetStereoViewMatrix_Injected(RType @eye, out UnityEngine.Matrix4x4 @ret)
+        public virtual void GetStereoViewMatrix_Injected(RUnityEngine.RCamera.RStereoscopicEye @eye, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value, @ret};
-            var ___result = RGetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
 
 
-        public virtual void GetStereoProjectionMatrix_Injected(RType @eye, out UnityEngine.Matrix4x4 @ret)
+        public virtual void GetStereoProjectionMatrix_Injected(RUnityEngine.RCamera.RStereoscopicEye @eye, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value, @ret};
-            var ___result = RGetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
 
 
-        public virtual void SetStereoProjectionMatrix_Injected(RType @eye, ref UnityEngine.Matrix4x4 @matrix)
+        public virtual void SetStereoProjectionMatrix_Injected(RUnityEngine.RCamera.RStereoscopicEye @eye, ref UnityEngine.Matrix4x4 @matrix)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value, @matrix};
-            var ___result = RSetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@matrix = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
 
 
-        public virtual void SetStereoViewMatrix_Injected(RType @eye, ref UnityEngine.Matrix4x4 @matrix)
+        public virtual void SetStereoViewMatrix_Injected(RUnityEngine.RCamera.RStereoscopicEye @eye, ref UnityEngine.Matrix4x4 @matrix)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value, @matrix};
-            var ___result = RSetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@matrix = (UnityEngine.Matrix4x4)___parameters[1];
 
             
@@ -6869,7 +6869,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type};
-            var ___result = RGetComponent_Type.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponent_Type.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Component)___result;
         }
@@ -6880,7 +6880,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type, @oneFurtherThanResultValue};
-            var ___result = RGetComponentFastPath_Type_IntPtr.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentFastPath_Type_IntPtr.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6891,7 +6891,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{};
-            var ___result = RGetComponent_GT.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponent_GT.Invoke(___genericsType, ___parameters);
 
             return (T)___result;
         }
@@ -6903,7 +6903,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type, @component};
-            var ___result = RTryGetComponent_Type_Out_Component.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryGetComponent_Type_Out_Component.Invoke(___genericsType, ___parameters);
 			@component = (UnityEngine.Component)___parameters[1];
 
             return (System.Boolean)___result;
@@ -6916,7 +6916,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@component};
-            var ___result = RTryGetComponent_GT_Out_T.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryGetComponent_GT_Out_T.Invoke(___genericsType, ___parameters);
 			@component = (T)___parameters[0];
 
             return (System.Boolean)___result;
@@ -6928,7 +6928,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type};
-            var ___result = RGetComponent_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponent_String.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Component)___result;
         }
@@ -6939,7 +6939,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t, @includeInactive};
-            var ___result = RGetComponentInChildren_Type_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentInChildren_Type_Boolean.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Component)___result;
         }
@@ -6950,7 +6950,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t};
-            var ___result = RGetComponentInChildren_Type.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentInChildren_Type.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Component)___result;
         }
@@ -6961,7 +6961,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@includeInactive};
-            var ___result = RGetComponentInChildren_GT_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentInChildren_GT_Boolean.Invoke(___genericsType, ___parameters);
 
             return (T)___result;
         }
@@ -6972,7 +6972,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{};
-            var ___result = RGetComponentInChildren_GT.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentInChildren_GT.Invoke(___genericsType, ___parameters);
 
             return (T)___result;
         }
@@ -6983,7 +6983,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t, @includeInactive};
-            var ___result = RGetComponentsInChildren_Type_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentsInChildren_Type_Boolean.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Component[])___result;
         }
@@ -6994,7 +6994,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t};
-            var ___result = RGetComponentsInChildren_Type.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentsInChildren_Type.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Component[])___result;
         }
@@ -7005,7 +7005,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@includeInactive};
-            var ___result = RGetComponentsInChildren_GT_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentsInChildren_GT_Boolean.Invoke(___genericsType, ___parameters);
 
             return (T[])___result;
         }
@@ -7016,7 +7016,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@includeInactive, @result};
-            var ___result = RGetComponentsInChildren_GT_Boolean_List_d_T_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentsInChildren_GT_Boolean_List_d_T_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7027,7 +7027,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{};
-            var ___result = RGetComponentsInChildren_GT.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentsInChildren_GT.Invoke(___genericsType, ___parameters);
 
             return (T[])___result;
         }
@@ -7038,7 +7038,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@results};
-            var ___result = RGetComponentsInChildren_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentsInChildren_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7049,7 +7049,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t, @includeInactive};
-            var ___result = RGetComponentInParent_Type_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentInParent_Type_Boolean.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Component)___result;
         }
@@ -7060,7 +7060,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t};
-            var ___result = RGetComponentInParent_Type.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentInParent_Type.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Component)___result;
         }
@@ -7071,7 +7071,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@includeInactive};
-            var ___result = RGetComponentInParent_GT_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentInParent_GT_Boolean.Invoke(___genericsType, ___parameters);
 
             return (T)___result;
         }
@@ -7082,7 +7082,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{};
-            var ___result = RGetComponentInParent_GT.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentInParent_GT.Invoke(___genericsType, ___parameters);
 
             return (T)___result;
         }
@@ -7093,7 +7093,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t, @includeInactive};
-            var ___result = RGetComponentsInParent_Type_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentsInParent_Type_Boolean.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Component[])___result;
         }
@@ -7104,7 +7104,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t};
-            var ___result = RGetComponentsInParent_Type.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentsInParent_Type.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Component[])___result;
         }
@@ -7115,7 +7115,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@includeInactive};
-            var ___result = RGetComponentsInParent_GT_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentsInParent_GT_Boolean.Invoke(___genericsType, ___parameters);
 
             return (T[])___result;
         }
@@ -7126,7 +7126,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@includeInactive, @results};
-            var ___result = RGetComponentsInParent_GT_Boolean_List_d_T_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentsInParent_GT_Boolean_List_d_T_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7137,7 +7137,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{};
-            var ___result = RGetComponentsInParent_GT.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponentsInParent_GT.Invoke(___genericsType, ___parameters);
 
             return (T[])___result;
         }
@@ -7148,7 +7148,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type};
-            var ___result = RGetComponents_Type.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponents_Type.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Component[])___result;
         }
@@ -7159,7 +7159,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type, @results};
-            var ___result = RGetComponents_Type_List_d_Component_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponents_Type_List_d_Component_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7170,7 +7170,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@results};
-            var ___result = RGetComponents_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponents_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7181,7 +7181,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{};
-            var ___result = RGetComponents_GT.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetComponents_GT.Invoke(___genericsType, ___parameters);
 
             return (T[])___result;
         }
@@ -7192,7 +7192,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tag};
-            var ___result = RCompareTag_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMCompareTag_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -7203,7 +7203,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetCoupledComponent.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCoupledComponent.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Component)___result;
         }
@@ -7214,7 +7214,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RIsCoupledComponent.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsCoupledComponent.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -7225,7 +7225,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@methodName, @value, @options};
-            var ___result = RSendMessageUpwards_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMSendMessageUpwards_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7236,7 +7236,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@methodName, @value};
-            var ___result = RSendMessageUpwards_String_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMSendMessageUpwards_String_Object.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7247,7 +7247,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@methodName};
-            var ___result = RSendMessageUpwards_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMSendMessageUpwards_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7258,7 +7258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@methodName, @options};
-            var ___result = RSendMessageUpwards_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMSendMessageUpwards_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7269,7 +7269,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@methodName, @value};
-            var ___result = RSendMessage_String_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMSendMessage_String_Object.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7280,7 +7280,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@methodName};
-            var ___result = RSendMessage_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMSendMessage_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7291,7 +7291,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@methodName, @value, @options};
-            var ___result = RSendMessage_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMSendMessage_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7302,7 +7302,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@methodName, @options};
-            var ___result = RSendMessage_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMSendMessage_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7313,7 +7313,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@methodName, @parameter, @options};
-            var ___result = RBroadcastMessage_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMBroadcastMessage_String_Object_SendMessageOptions.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7324,7 +7324,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@methodName, @parameter};
-            var ___result = RBroadcastMessage_String_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMBroadcastMessage_String_Object.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7335,7 +7335,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@methodName};
-            var ___result = RBroadcastMessage_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMBroadcastMessage_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7346,7 +7346,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@methodName, @options};
-            var ___result = RBroadcastMessage_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMBroadcastMessage_String_SendMessageOptions.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7357,7 +7357,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetInstanceID.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -7368,7 +7368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -7379,7 +7379,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -7390,7 +7390,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -7401,7 +7401,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -7412,7 +7412,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -7423,7 +7423,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

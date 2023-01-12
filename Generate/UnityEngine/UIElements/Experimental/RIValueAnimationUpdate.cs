@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Void Tick(Int64)
 		/// </summary>
-		protected RMethod r_Tick_Int64;
-		public virtual RMethod RTick_Int64
+		protected RMethod r_MTick_Int64;
+		public virtual RMethod RMTick_Int64
 		{
 			get
 			{
-				if(r_Tick_Int64 == null)
+				if(r_MTick_Int64 == null)
 				{
-					r_Tick_Int64 = new(this, "Tick", 0, typeof(System.Int64));
-					r_Tick_Int64.SetBelong(this.instance);
+					r_MTick_Int64 = new(this, "Tick", 0, typeof(System.Int64));
+					r_MTick_Int64.SetBelong(this.instance);
 				}
-				return r_Tick_Int64;
+				return r_MTick_Int64;
 			}
 		}
 
@@ -50,7 +50,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@currentTimeMs};
-            var ___result = RTick_Int64.Invoke(___genericsType, ___parameters);
+            var ___result = RMTick_Int64.Invoke(___genericsType, ___parameters);
 
             
         }

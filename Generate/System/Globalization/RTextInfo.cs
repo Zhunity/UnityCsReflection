@@ -13,1122 +13,1122 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_listSeparator
 		/// </summary>
-		protected RSystem.RString r_m_listSeparator;
-		public virtual RSystem.RString Rm_listSeparator
+		protected RSystem.RString r_Fm_listSeparator;
+		public virtual RSystem.RString RFm_listSeparator
 		{
 			get
 			{
-				if(r_m_listSeparator == null)
+				if(r_Fm_listSeparator == null)
 				{
-					r_m_listSeparator = new(this, "m_listSeparator");
-					r_m_listSeparator.SetBelong(this.instance);
+					r_Fm_listSeparator = new(this, "m_listSeparator");
+					r_Fm_listSeparator.SetBelong(this.instance);
 				}
-				return r_m_listSeparator;
+				return r_Fm_listSeparator;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_isReadOnly
 		/// </summary>
-		protected RSystem.RBoolean r_m_isReadOnly;
-		public virtual RSystem.RBoolean Rm_isReadOnly
+		protected RSystem.RBoolean r_Fm_isReadOnly;
+		public virtual RSystem.RBoolean RFm_isReadOnly
 		{
 			get
 			{
-				if(r_m_isReadOnly == null)
+				if(r_Fm_isReadOnly == null)
 				{
-					r_m_isReadOnly = new(this, "m_isReadOnly");
-					r_m_isReadOnly.SetBelong(this.instance);
+					r_Fm_isReadOnly = new(this, "m_isReadOnly");
+					r_Fm_isReadOnly.SetBelong(this.instance);
 				}
-				return r_m_isReadOnly;
+				return r_Fm_isReadOnly;
 			}
 		}
 
 		/// <summary>
 		/// System.String m_cultureName
 		/// </summary>
-		protected RSystem.RString r_m_cultureName;
-		public virtual RSystem.RString Rm_cultureName
+		protected RSystem.RString r_Fm_cultureName;
+		public virtual RSystem.RString RFm_cultureName
 		{
 			get
 			{
-				if(r_m_cultureName == null)
+				if(r_Fm_cultureName == null)
 				{
-					r_m_cultureName = new(this, "m_cultureName");
-					r_m_cultureName.SetBelong(this.instance);
+					r_Fm_cultureName = new(this, "m_cultureName");
+					r_Fm_cultureName.SetBelong(this.instance);
 				}
-				return r_m_cultureName;
+				return r_Fm_cultureName;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureData m_cultureData
 		/// </summary>
-		protected RSystem.RGlobalization.RCultureData r_m_cultureData;
-		public virtual RSystem.RGlobalization.RCultureData Rm_cultureData
+		protected RSystem.RGlobalization.RCultureData r_Fm_cultureData;
+		public virtual RSystem.RGlobalization.RCultureData RFm_cultureData
 		{
 			get
 			{
-				if(r_m_cultureData == null)
+				if(r_Fm_cultureData == null)
 				{
-					r_m_cultureData = new(this, "m_cultureData");
-					r_m_cultureData.SetBelong(this.instance);
+					r_Fm_cultureData = new(this, "m_cultureData");
+					r_Fm_cultureData.SetBelong(this.instance);
 				}
-				return r_m_cultureData;
+				return r_Fm_cultureData;
 			}
 		}
 
 		/// <summary>
 		/// System.String m_textInfoName
 		/// </summary>
-		protected RSystem.RString r_m_textInfoName;
-		public virtual RSystem.RString Rm_textInfoName
+		protected RSystem.RString r_Fm_textInfoName;
+		public virtual RSystem.RString RFm_textInfoName
 		{
 			get
 			{
-				if(r_m_textInfoName == null)
+				if(r_Fm_textInfoName == null)
 				{
-					r_m_textInfoName = new(this, "m_textInfoName");
-					r_m_textInfoName.SetBelong(this.instance);
+					r_Fm_textInfoName = new(this, "m_textInfoName");
+					r_Fm_textInfoName.SetBelong(this.instance);
 				}
-				return r_m_textInfoName;
+				return r_Fm_textInfoName;
 			}
 		}
 
 		/// <summary>
 		/// System.Nullable`1[System.Boolean] m_IsAsciiCasingSameAsInvariant
 		/// </summary>
-		protected RSystem.RNullable<RSystem.RBoolean> r_m_IsAsciiCasingSameAsInvariant;
-		public virtual RSystem.RNullable<RSystem.RBoolean> Rm_IsAsciiCasingSameAsInvariant
+		protected RSystem.RNullable<RSystem.RBoolean> r_Fm_IsAsciiCasingSameAsInvariant;
+		public virtual RSystem.RNullable<RSystem.RBoolean> RFm_IsAsciiCasingSameAsInvariant
 		{
 			get
 			{
-				if(r_m_IsAsciiCasingSameAsInvariant == null)
+				if(r_Fm_IsAsciiCasingSameAsInvariant == null)
 				{
-					r_m_IsAsciiCasingSameAsInvariant = new(this, "m_IsAsciiCasingSameAsInvariant");
-					r_m_IsAsciiCasingSameAsInvariant.SetBelong(this.instance);
+					r_Fm_IsAsciiCasingSameAsInvariant = new(this, "m_IsAsciiCasingSameAsInvariant");
+					r_Fm_IsAsciiCasingSameAsInvariant.SetBelong(this.instance);
 				}
-				return r_m_IsAsciiCasingSameAsInvariant;
+				return r_Fm_IsAsciiCasingSameAsInvariant;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.TextInfo s_Invariant
 		/// </summary>
-		protected static RSystem.RGlobalization.RTextInfo r_s_Invariant;
-		public static RSystem.RGlobalization.RTextInfo Rs_Invariant
+		protected static RSystem.RGlobalization.RTextInfo r_Fs_Invariant;
+		public static RSystem.RGlobalization.RTextInfo RFs_Invariant
 		{
 			get
 			{
-				if(r_s_Invariant == null)
+				if(r_Fs_Invariant == null)
 				{
-					r_s_Invariant = new(typeof(System.Globalization.TextInfo), "s_Invariant");
-					r_s_Invariant.SetBelong(null);
+					r_Fs_Invariant = new(typeof(System.Globalization.TextInfo), "s_Invariant");
+					r_Fs_Invariant.SetBelong(null);
 				}
-				return r_s_Invariant;
+				return r_Fs_Invariant;
 			}
 		}
 
 		/// <summary>
 		/// System.String customCultureName
 		/// </summary>
-		protected RSystem.RString r_customCultureName;
-		public virtual RSystem.RString RcustomCultureName
+		protected RSystem.RString r_FcustomCultureName;
+		public virtual RSystem.RString RFcustomCultureName
 		{
 			get
 			{
-				if(r_customCultureName == null)
+				if(r_FcustomCultureName == null)
 				{
-					r_customCultureName = new(this, "customCultureName");
-					r_customCultureName.SetBelong(this.instance);
+					r_FcustomCultureName = new(this, "customCultureName");
+					r_FcustomCultureName.SetBelong(this.instance);
 				}
-				return r_customCultureName;
+				return r_FcustomCultureName;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_nDataItem
 		/// </summary>
-		protected RSystem.RInt32 r_m_nDataItem;
-		public virtual RSystem.RInt32 Rm_nDataItem
+		protected RSystem.RInt32 r_Fm_nDataItem;
+		public virtual RSystem.RInt32 RFm_nDataItem
 		{
 			get
 			{
-				if(r_m_nDataItem == null)
+				if(r_Fm_nDataItem == null)
 				{
-					r_m_nDataItem = new(this, "m_nDataItem");
-					r_m_nDataItem.SetBelong(this.instance);
+					r_Fm_nDataItem = new(this, "m_nDataItem");
+					r_Fm_nDataItem.SetBelong(this.instance);
 				}
-				return r_m_nDataItem;
+				return r_Fm_nDataItem;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_useUserOverride
 		/// </summary>
-		protected RSystem.RBoolean r_m_useUserOverride;
-		public virtual RSystem.RBoolean Rm_useUserOverride
+		protected RSystem.RBoolean r_Fm_useUserOverride;
+		public virtual RSystem.RBoolean RFm_useUserOverride
 		{
 			get
 			{
-				if(r_m_useUserOverride == null)
+				if(r_Fm_useUserOverride == null)
 				{
-					r_m_useUserOverride = new(this, "m_useUserOverride");
-					r_m_useUserOverride.SetBelong(this.instance);
+					r_Fm_useUserOverride = new(this, "m_useUserOverride");
+					r_Fm_useUserOverride.SetBelong(this.instance);
 				}
-				return r_m_useUserOverride;
+				return r_Fm_useUserOverride;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_win32LangID
 		/// </summary>
-		protected RSystem.RInt32 r_m_win32LangID;
-		public virtual RSystem.RInt32 Rm_win32LangID
+		protected RSystem.RInt32 r_Fm_win32LangID;
+		public virtual RSystem.RInt32 RFm_win32LangID
 		{
 			get
 			{
-				if(r_m_win32LangID == null)
+				if(r_Fm_win32LangID == null)
 				{
-					r_m_win32LangID = new(this, "m_win32LangID");
-					r_m_win32LangID.SetBelong(this.instance);
+					r_Fm_win32LangID = new(this, "m_win32LangID");
+					r_Fm_win32LangID.SetBelong(this.instance);
 				}
-				return r_m_win32LangID;
+				return r_Fm_win32LangID;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 wordSeparatorMask
 		/// </summary>
-		protected static RSystem.RInt32 r_wordSeparatorMask;
-		public static RSystem.RInt32 RwordSeparatorMask
+		protected static RSystem.RInt32 r_FwordSeparatorMask;
+		public static RSystem.RInt32 RFwordSeparatorMask
 		{
 			get
 			{
-				if(r_wordSeparatorMask == null)
+				if(r_FwordSeparatorMask == null)
 				{
-					r_wordSeparatorMask = new(typeof(System.Globalization.TextInfo), "wordSeparatorMask");
-					r_wordSeparatorMask.SetBelong(null);
+					r_FwordSeparatorMask = new(typeof(System.Globalization.TextInfo), "wordSeparatorMask");
+					r_FwordSeparatorMask.SetBelong(null);
 				}
-				return r_wordSeparatorMask;
+				return r_FwordSeparatorMask;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.TextInfo Invariant
 		/// </summary>
-		protected static RSystem.RGlobalization.RTextInfo r_Invariant;
-		public static RSystem.RGlobalization.RTextInfo RInvariant
+		protected static RSystem.RGlobalization.RTextInfo r_PInvariant;
+		public static RSystem.RGlobalization.RTextInfo RPInvariant
 		{
 			get
 			{
-				if(r_Invariant == null)
+				if(r_PInvariant == null)
 				{
-					r_Invariant = new(typeof(System.Globalization.TextInfo), "Invariant", -1);
-					r_Invariant.SetBelong(null);
+					r_PInvariant = new(typeof(System.Globalization.TextInfo), "Invariant", -1);
+					r_PInvariant.SetBelong(null);
 				}
-				return r_Invariant;
+				return r_PInvariant;
 			}
 		}
 
 		/// <summary>
 		/// Int32 ANSICodePage
 		/// </summary>
-		protected RSystem.RInt32 r_ANSICodePage;
-		public virtual RSystem.RInt32 RANSICodePage
+		protected RSystem.RInt32 r_PANSICodePage;
+		public virtual RSystem.RInt32 RPANSICodePage
 		{
 			get
 			{
-				if(r_ANSICodePage == null)
+				if(r_PANSICodePage == null)
 				{
-					r_ANSICodePage = new(this, "ANSICodePage", -1);
-					r_ANSICodePage.SetBelong(this.instance);
+					r_PANSICodePage = new(this, "ANSICodePage", -1);
+					r_PANSICodePage.SetBelong(this.instance);
 				}
-				return r_ANSICodePage;
+				return r_PANSICodePage;
 			}
 		}
 
 		/// <summary>
 		/// Int32 OEMCodePage
 		/// </summary>
-		protected RSystem.RInt32 r_OEMCodePage;
-		public virtual RSystem.RInt32 ROEMCodePage
+		protected RSystem.RInt32 r_POEMCodePage;
+		public virtual RSystem.RInt32 RPOEMCodePage
 		{
 			get
 			{
-				if(r_OEMCodePage == null)
+				if(r_POEMCodePage == null)
 				{
-					r_OEMCodePage = new(this, "OEMCodePage", -1);
-					r_OEMCodePage.SetBelong(this.instance);
+					r_POEMCodePage = new(this, "OEMCodePage", -1);
+					r_POEMCodePage.SetBelong(this.instance);
 				}
-				return r_OEMCodePage;
+				return r_POEMCodePage;
 			}
 		}
 
 		/// <summary>
 		/// Int32 MacCodePage
 		/// </summary>
-		protected RSystem.RInt32 r_MacCodePage;
-		public virtual RSystem.RInt32 RMacCodePage
+		protected RSystem.RInt32 r_PMacCodePage;
+		public virtual RSystem.RInt32 RPMacCodePage
 		{
 			get
 			{
-				if(r_MacCodePage == null)
+				if(r_PMacCodePage == null)
 				{
-					r_MacCodePage = new(this, "MacCodePage", -1);
-					r_MacCodePage.SetBelong(this.instance);
+					r_PMacCodePage = new(this, "MacCodePage", -1);
+					r_PMacCodePage.SetBelong(this.instance);
 				}
-				return r_MacCodePage;
+				return r_PMacCodePage;
 			}
 		}
 
 		/// <summary>
 		/// Int32 EBCDICCodePage
 		/// </summary>
-		protected RSystem.RInt32 r_EBCDICCodePage;
-		public virtual RSystem.RInt32 REBCDICCodePage
+		protected RSystem.RInt32 r_PEBCDICCodePage;
+		public virtual RSystem.RInt32 RPEBCDICCodePage
 		{
 			get
 			{
-				if(r_EBCDICCodePage == null)
+				if(r_PEBCDICCodePage == null)
 				{
-					r_EBCDICCodePage = new(this, "EBCDICCodePage", -1);
-					r_EBCDICCodePage.SetBelong(this.instance);
+					r_PEBCDICCodePage = new(this, "EBCDICCodePage", -1);
+					r_PEBCDICCodePage.SetBelong(this.instance);
 				}
-				return r_EBCDICCodePage;
+				return r_PEBCDICCodePage;
 			}
 		}
 
 		/// <summary>
 		/// Int32 LCID
 		/// </summary>
-		protected RSystem.RInt32 r_LCID;
-		public virtual RSystem.RInt32 RLCID
+		protected RSystem.RInt32 r_PLCID;
+		public virtual RSystem.RInt32 RPLCID
 		{
 			get
 			{
-				if(r_LCID == null)
+				if(r_PLCID == null)
 				{
-					r_LCID = new(this, "LCID", -1);
-					r_LCID.SetBelong(this.instance);
+					r_PLCID = new(this, "LCID", -1);
+					r_PLCID.SetBelong(this.instance);
 				}
-				return r_LCID;
+				return r_PLCID;
 			}
 		}
 
 		/// <summary>
 		/// System.String CultureName
 		/// </summary>
-		protected RSystem.RString r_CultureName;
-		public virtual RSystem.RString RCultureName
+		protected RSystem.RString r_PCultureName;
+		public virtual RSystem.RString RPCultureName
 		{
 			get
 			{
-				if(r_CultureName == null)
+				if(r_PCultureName == null)
 				{
-					r_CultureName = new(this, "CultureName", -1);
-					r_CultureName.SetBelong(this.instance);
+					r_PCultureName = new(this, "CultureName", -1);
+					r_PCultureName.SetBelong(this.instance);
 				}
-				return r_CultureName;
+				return r_PCultureName;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RSystem.RBoolean r_IsReadOnly;
-		public virtual RSystem.RBoolean RIsReadOnly
+		protected RSystem.RBoolean r_PIsReadOnly;
+		public virtual RSystem.RBoolean RPIsReadOnly
 		{
 			get
 			{
-				if(r_IsReadOnly == null)
+				if(r_PIsReadOnly == null)
 				{
-					r_IsReadOnly = new(this, "IsReadOnly", -1);
-					r_IsReadOnly.SetBelong(this.instance);
+					r_PIsReadOnly = new(this, "IsReadOnly", -1);
+					r_PIsReadOnly.SetBelong(this.instance);
 				}
-				return r_IsReadOnly;
+				return r_PIsReadOnly;
 			}
 		}
 
 		/// <summary>
 		/// System.String ListSeparator
 		/// </summary>
-		protected RSystem.RString r_ListSeparator;
-		public virtual RSystem.RString RListSeparator
+		protected RSystem.RString r_PListSeparator;
+		public virtual RSystem.RString RPListSeparator
 		{
 			get
 			{
-				if(r_ListSeparator == null)
+				if(r_PListSeparator == null)
 				{
-					r_ListSeparator = new(this, "ListSeparator", -1);
-					r_ListSeparator.SetBelong(this.instance);
+					r_PListSeparator = new(this, "ListSeparator", -1);
+					r_PListSeparator.SetBelong(this.instance);
 				}
-				return r_ListSeparator;
+				return r_PListSeparator;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsAsciiCasingSameAsInvariant
 		/// </summary>
-		protected RSystem.RBoolean r_IsAsciiCasingSameAsInvariant;
-		public virtual RSystem.RBoolean RIsAsciiCasingSameAsInvariant
+		protected RSystem.RBoolean r_PIsAsciiCasingSameAsInvariant;
+		public virtual RSystem.RBoolean RPIsAsciiCasingSameAsInvariant
 		{
 			get
 			{
-				if(r_IsAsciiCasingSameAsInvariant == null)
+				if(r_PIsAsciiCasingSameAsInvariant == null)
 				{
-					r_IsAsciiCasingSameAsInvariant = new(this, "IsAsciiCasingSameAsInvariant", -1);
-					r_IsAsciiCasingSameAsInvariant.SetBelong(this.instance);
+					r_PIsAsciiCasingSameAsInvariant = new(this, "IsAsciiCasingSameAsInvariant", -1);
+					r_PIsAsciiCasingSameAsInvariant.SetBelong(this.instance);
 				}
-				return r_IsAsciiCasingSameAsInvariant;
+				return r_PIsAsciiCasingSameAsInvariant;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsRightToLeft
 		/// </summary>
-		protected RSystem.RBoolean r_IsRightToLeft;
-		public virtual RSystem.RBoolean RIsRightToLeft
+		protected RSystem.RBoolean r_PIsRightToLeft;
+		public virtual RSystem.RBoolean RPIsRightToLeft
 		{
 			get
 			{
-				if(r_IsRightToLeft == null)
+				if(r_PIsRightToLeft == null)
 				{
-					r_IsRightToLeft = new(this, "IsRightToLeft", -1);
-					r_IsRightToLeft.SetBelong(this.instance);
+					r_PIsRightToLeft = new(this, "IsRightToLeft", -1);
+					r_PIsRightToLeft.SetBelong(this.instance);
 				}
-				return r_IsRightToLeft;
+				return r_PIsRightToLeft;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDeserializing(System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_OnDeserializing_StreamingContext;
-		public virtual RMethod ROnDeserializing_StreamingContext
+		protected RMethod r_MOnDeserializing_StreamingContext;
+		public virtual RMethod RMOnDeserializing_StreamingContext
 		{
 			get
 			{
-				if(r_OnDeserializing_StreamingContext == null)
+				if(r_MOnDeserializing_StreamingContext == null)
 				{
-					r_OnDeserializing_StreamingContext = new(this, "OnDeserializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_OnDeserializing_StreamingContext.SetBelong(this.instance);
+					r_MOnDeserializing_StreamingContext = new(this, "OnDeserializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
+					r_MOnDeserializing_StreamingContext.SetBelong(this.instance);
 				}
-				return r_OnDeserializing_StreamingContext;
+				return r_MOnDeserializing_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDeserialized()
 		/// </summary>
-		protected RMethod r_OnDeserialized;
-		public virtual RMethod ROnDeserialized
+		protected RMethod r_MOnDeserialized;
+		public virtual RMethod RMOnDeserialized
 		{
 			get
 			{
-				if(r_OnDeserialized == null)
+				if(r_MOnDeserialized == null)
 				{
-					r_OnDeserialized = new(this, "OnDeserialized", 0);
-					r_OnDeserialized.SetBelong(this.instance);
+					r_MOnDeserialized = new(this, "OnDeserialized", 0);
+					r_MOnDeserialized.SetBelong(this.instance);
 				}
-				return r_OnDeserialized;
+				return r_MOnDeserialized;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDeserialized(System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_OnDeserialized_StreamingContext;
-		public virtual RMethod ROnDeserialized_StreamingContext
+		protected RMethod r_MOnDeserialized_StreamingContext;
+		public virtual RMethod RMOnDeserialized_StreamingContext
 		{
 			get
 			{
-				if(r_OnDeserialized_StreamingContext == null)
+				if(r_MOnDeserialized_StreamingContext == null)
 				{
-					r_OnDeserialized_StreamingContext = new(this, "OnDeserialized", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_OnDeserialized_StreamingContext.SetBelong(this.instance);
+					r_MOnDeserialized_StreamingContext = new(this, "OnDeserialized", 0, typeof(System.Runtime.Serialization.StreamingContext));
+					r_MOnDeserialized_StreamingContext.SetBelong(this.instance);
 				}
-				return r_OnDeserialized_StreamingContext;
+				return r_MOnDeserialized_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Void OnSerializing(System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_OnSerializing_StreamingContext;
-		public virtual RMethod ROnSerializing_StreamingContext
+		protected RMethod r_MOnSerializing_StreamingContext;
+		public virtual RMethod RMOnSerializing_StreamingContext
 		{
 			get
 			{
-				if(r_OnSerializing_StreamingContext == null)
+				if(r_MOnSerializing_StreamingContext == null)
 				{
-					r_OnSerializing_StreamingContext = new(this, "OnSerializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_OnSerializing_StreamingContext.SetBelong(this.instance);
+					r_MOnSerializing_StreamingContext = new(this, "OnSerializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
+					r_MOnSerializing_StreamingContext.SetBelong(this.instance);
 				}
-				return r_OnSerializing_StreamingContext;
+				return r_MOnSerializing_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCodeOrdinalIgnoreCase(System.String)
 		/// </summary>
-		protected static RMethod r_GetHashCodeOrdinalIgnoreCase_String;
-		public static RMethod RGetHashCodeOrdinalIgnoreCase_String
+		protected static RMethod r_MGetHashCodeOrdinalIgnoreCase_String;
+		public static RMethod RMGetHashCodeOrdinalIgnoreCase_String
 		{
 			get
 			{
-				if(r_GetHashCodeOrdinalIgnoreCase_String == null)
+				if(r_MGetHashCodeOrdinalIgnoreCase_String == null)
 				{
-					r_GetHashCodeOrdinalIgnoreCase_String = new(typeof(System.Globalization.TextInfo), "GetHashCodeOrdinalIgnoreCase", 0, typeof(System.String));
-					r_GetHashCodeOrdinalIgnoreCase_String.SetBelong(null);
+					r_MGetHashCodeOrdinalIgnoreCase_String = new(typeof(System.Globalization.TextInfo), "GetHashCodeOrdinalIgnoreCase", 0, typeof(System.String));
+					r_MGetHashCodeOrdinalIgnoreCase_String.SetBelong(null);
 				}
-				return r_GetHashCodeOrdinalIgnoreCase_String;
+				return r_MGetHashCodeOrdinalIgnoreCase_String;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCodeOrdinalIgnoreCase(System.String, Boolean, Int64)
 		/// </summary>
-		protected static RMethod r_GetHashCodeOrdinalIgnoreCase_String_Boolean_Int64;
-		public static RMethod RGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64
+		protected static RMethod r_MGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64;
+		public static RMethod RMGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64
 		{
 			get
 			{
-				if(r_GetHashCodeOrdinalIgnoreCase_String_Boolean_Int64 == null)
+				if(r_MGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64 == null)
 				{
-					r_GetHashCodeOrdinalIgnoreCase_String_Boolean_Int64 = new(typeof(System.Globalization.TextInfo), "GetHashCodeOrdinalIgnoreCase", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Int64));
-					r_GetHashCodeOrdinalIgnoreCase_String_Boolean_Int64.SetBelong(null);
+					r_MGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64 = new(typeof(System.Globalization.TextInfo), "GetHashCodeOrdinalIgnoreCase", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Int64));
+					r_MGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64.SetBelong(null);
 				}
-				return r_GetHashCodeOrdinalIgnoreCase_String_Boolean_Int64;
+				return r_MGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64;
 			}
 		}
 
 		/// <summary>
 		/// Int32 CompareOrdinalIgnoreCaseEx(System.String, Int32, System.String, Int32, Int32, Int32)
 		/// </summary>
-		protected static RMethod r_CompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32;
-		public static RMethod RCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32
+		protected static RMethod r_MCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32;
+		public static RMethod RMCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_CompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32 == null)
+				if(r_MCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32 == null)
 				{
-					r_CompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "CompareOrdinalIgnoreCaseEx", 0, typeof(System.String), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_CompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32.SetBelong(null);
+					r_MCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "CompareOrdinalIgnoreCaseEx", 0, typeof(System.String), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32.SetBelong(null);
 				}
-				return r_CompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32;
+				return r_MCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 IndexOfStringOrdinalIgnoreCase(System.String, System.String, Int32, Int32)
 		/// </summary>
-		protected static RMethod r_IndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32;
-		public static RMethod RIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32
+		protected static RMethod r_MIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32;
+		public static RMethod RMIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32
 		{
 			get
 			{
-				if(r_IndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32 == null)
+				if(r_MIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32 == null)
 				{
-					r_IndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "IndexOfStringOrdinalIgnoreCase", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
-					r_IndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32.SetBelong(null);
+					r_MIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "IndexOfStringOrdinalIgnoreCase", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
+					r_MIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32.SetBelong(null);
 				}
-				return r_IndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32;
+				return r_MIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 LastIndexOfStringOrdinalIgnoreCase(System.String, System.String, Int32, Int32)
 		/// </summary>
-		protected static RMethod r_LastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32;
-		public static RMethod RLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32
+		protected static RMethod r_MLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32;
+		public static RMethod RMLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32
 		{
 			get
 			{
-				if(r_LastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32 == null)
+				if(r_MLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32 == null)
 				{
-					r_LastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "LastIndexOfStringOrdinalIgnoreCase", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
-					r_LastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32.SetBelong(null);
+					r_MLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "LastIndexOfStringOrdinalIgnoreCase", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
+					r_MLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32.SetBelong(null);
 				}
-				return r_LastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32;
+				return r_MLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Object Clone()
 		/// </summary>
-		protected RMethod r_Clone;
-		public virtual RMethod RClone
+		protected RMethod r_MClone;
+		public virtual RMethod RMClone
 		{
 			get
 			{
-				if(r_Clone == null)
+				if(r_MClone == null)
 				{
-					r_Clone = new(this, "Clone", 0);
-					r_Clone.SetBelong(this.instance);
+					r_MClone = new(this, "Clone", 0);
+					r_MClone.SetBelong(this.instance);
 				}
-				return r_Clone;
+				return r_MClone;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.TextInfo ReadOnly(System.Globalization.TextInfo)
 		/// </summary>
-		protected static RMethod r_ReadOnly_TextInfo;
-		public static RMethod RReadOnly_TextInfo
+		protected static RMethod r_MReadOnly_TextInfo;
+		public static RMethod RMReadOnly_TextInfo
 		{
 			get
 			{
-				if(r_ReadOnly_TextInfo == null)
+				if(r_MReadOnly_TextInfo == null)
 				{
-					r_ReadOnly_TextInfo = new(typeof(System.Globalization.TextInfo), "ReadOnly", 0, typeof(System.Globalization.TextInfo));
-					r_ReadOnly_TextInfo.SetBelong(null);
+					r_MReadOnly_TextInfo = new(typeof(System.Globalization.TextInfo), "ReadOnly", 0, typeof(System.Globalization.TextInfo));
+					r_MReadOnly_TextInfo.SetBelong(null);
 				}
-				return r_ReadOnly_TextInfo;
+				return r_MReadOnly_TextInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void VerifyWritable()
 		/// </summary>
-		protected RMethod r_VerifyWritable;
-		public virtual RMethod RVerifyWritable
+		protected RMethod r_MVerifyWritable;
+		public virtual RMethod RMVerifyWritable
 		{
 			get
 			{
-				if(r_VerifyWritable == null)
+				if(r_MVerifyWritable == null)
 				{
-					r_VerifyWritable = new(this, "VerifyWritable", 0);
-					r_VerifyWritable.SetBelong(this.instance);
+					r_MVerifyWritable = new(this, "VerifyWritable", 0);
+					r_MVerifyWritable.SetBelong(this.instance);
 				}
-				return r_VerifyWritable;
+				return r_MVerifyWritable;
 			}
 		}
 
 		/// <summary>
 		/// Void SetReadOnlyState(Boolean)
 		/// </summary>
-		protected RMethod r_SetReadOnlyState_Boolean;
-		public virtual RMethod RSetReadOnlyState_Boolean
+		protected RMethod r_MSetReadOnlyState_Boolean;
+		public virtual RMethod RMSetReadOnlyState_Boolean
 		{
 			get
 			{
-				if(r_SetReadOnlyState_Boolean == null)
+				if(r_MSetReadOnlyState_Boolean == null)
 				{
-					r_SetReadOnlyState_Boolean = new(this, "SetReadOnlyState", 0, typeof(System.Boolean));
-					r_SetReadOnlyState_Boolean.SetBelong(this.instance);
+					r_MSetReadOnlyState_Boolean = new(this, "SetReadOnlyState", 0, typeof(System.Boolean));
+					r_MSetReadOnlyState_Boolean.SetBelong(this.instance);
 				}
-				return r_SetReadOnlyState_Boolean;
+				return r_MSetReadOnlyState_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Char ToLower(Char)
 		/// </summary>
-		protected RMethod r_ToLower_Char;
-		public virtual RMethod RToLower_Char
+		protected RMethod r_MToLower_Char;
+		public virtual RMethod RMToLower_Char
 		{
 			get
 			{
-				if(r_ToLower_Char == null)
+				if(r_MToLower_Char == null)
 				{
-					r_ToLower_Char = new(this, "ToLower", 0, typeof(System.Char));
-					r_ToLower_Char.SetBelong(this.instance);
+					r_MToLower_Char = new(this, "ToLower", 0, typeof(System.Char));
+					r_MToLower_Char.SetBelong(this.instance);
 				}
-				return r_ToLower_Char;
+				return r_MToLower_Char;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToLower(System.String)
 		/// </summary>
-		protected RMethod r_ToLower_String;
-		public virtual RMethod RToLower_String
+		protected RMethod r_MToLower_String;
+		public virtual RMethod RMToLower_String
 		{
 			get
 			{
-				if(r_ToLower_String == null)
+				if(r_MToLower_String == null)
 				{
-					r_ToLower_String = new(this, "ToLower", 0, typeof(System.String));
-					r_ToLower_String.SetBelong(this.instance);
+					r_MToLower_String = new(this, "ToLower", 0, typeof(System.String));
+					r_MToLower_String.SetBelong(this.instance);
 				}
-				return r_ToLower_String;
+				return r_MToLower_String;
 			}
 		}
 
 		/// <summary>
 		/// Char ToLowerAsciiInvariant(Char)
 		/// </summary>
-		protected static RMethod r_ToLowerAsciiInvariant_Char;
-		public static RMethod RToLowerAsciiInvariant_Char
+		protected static RMethod r_MToLowerAsciiInvariant_Char;
+		public static RMethod RMToLowerAsciiInvariant_Char
 		{
 			get
 			{
-				if(r_ToLowerAsciiInvariant_Char == null)
+				if(r_MToLowerAsciiInvariant_Char == null)
 				{
-					r_ToLowerAsciiInvariant_Char = new(typeof(System.Globalization.TextInfo), "ToLowerAsciiInvariant", 0, typeof(System.Char));
-					r_ToLowerAsciiInvariant_Char.SetBelong(null);
+					r_MToLowerAsciiInvariant_Char = new(typeof(System.Globalization.TextInfo), "ToLowerAsciiInvariant", 0, typeof(System.Char));
+					r_MToLowerAsciiInvariant_Char.SetBelong(null);
 				}
-				return r_ToLowerAsciiInvariant_Char;
+				return r_MToLowerAsciiInvariant_Char;
 			}
 		}
 
 		/// <summary>
 		/// Char ToUpper(Char)
 		/// </summary>
-		protected RMethod r_ToUpper_Char;
-		public virtual RMethod RToUpper_Char
+		protected RMethod r_MToUpper_Char;
+		public virtual RMethod RMToUpper_Char
 		{
 			get
 			{
-				if(r_ToUpper_Char == null)
+				if(r_MToUpper_Char == null)
 				{
-					r_ToUpper_Char = new(this, "ToUpper", 0, typeof(System.Char));
-					r_ToUpper_Char.SetBelong(this.instance);
+					r_MToUpper_Char = new(this, "ToUpper", 0, typeof(System.Char));
+					r_MToUpper_Char.SetBelong(this.instance);
 				}
-				return r_ToUpper_Char;
+				return r_MToUpper_Char;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToUpper(System.String)
 		/// </summary>
-		protected RMethod r_ToUpper_String;
-		public virtual RMethod RToUpper_String
+		protected RMethod r_MToUpper_String;
+		public virtual RMethod RMToUpper_String
 		{
 			get
 			{
-				if(r_ToUpper_String == null)
+				if(r_MToUpper_String == null)
 				{
-					r_ToUpper_String = new(this, "ToUpper", 0, typeof(System.String));
-					r_ToUpper_String.SetBelong(this.instance);
+					r_MToUpper_String = new(this, "ToUpper", 0, typeof(System.String));
+					r_MToUpper_String.SetBelong(this.instance);
 				}
-				return r_ToUpper_String;
+				return r_MToUpper_String;
 			}
 		}
 
 		/// <summary>
 		/// Char ToUpperAsciiInvariant(Char)
 		/// </summary>
-		protected static RMethod r_ToUpperAsciiInvariant_Char;
-		public static RMethod RToUpperAsciiInvariant_Char
+		protected static RMethod r_MToUpperAsciiInvariant_Char;
+		public static RMethod RMToUpperAsciiInvariant_Char
 		{
 			get
 			{
-				if(r_ToUpperAsciiInvariant_Char == null)
+				if(r_MToUpperAsciiInvariant_Char == null)
 				{
-					r_ToUpperAsciiInvariant_Char = new(typeof(System.Globalization.TextInfo), "ToUpperAsciiInvariant", 0, typeof(System.Char));
-					r_ToUpperAsciiInvariant_Char.SetBelong(null);
+					r_MToUpperAsciiInvariant_Char = new(typeof(System.Globalization.TextInfo), "ToUpperAsciiInvariant", 0, typeof(System.Char));
+					r_MToUpperAsciiInvariant_Char.SetBelong(null);
 				}
-				return r_ToUpperAsciiInvariant_Char;
+				return r_MToUpperAsciiInvariant_Char;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsAscii(Char)
 		/// </summary>
-		protected static RMethod r_IsAscii_Char;
-		public static RMethod RIsAscii_Char
+		protected static RMethod r_MIsAscii_Char;
+		public static RMethod RMIsAscii_Char
 		{
 			get
 			{
-				if(r_IsAscii_Char == null)
+				if(r_MIsAscii_Char == null)
 				{
-					r_IsAscii_Char = new(typeof(System.Globalization.TextInfo), "IsAscii", 0, typeof(System.Char));
-					r_IsAscii_Char.SetBelong(null);
+					r_MIsAscii_Char = new(typeof(System.Globalization.TextInfo), "IsAscii", 0, typeof(System.Char));
+					r_MIsAscii_Char.SetBelong(null);
 				}
-				return r_IsAscii_Char;
+				return r_MIsAscii_Char;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToTitleCase(System.String)
 		/// </summary>
-		protected RMethod r_ToTitleCase_String;
-		public virtual RMethod RToTitleCase_String
+		protected RMethod r_MToTitleCase_String;
+		public virtual RMethod RMToTitleCase_String
 		{
 			get
 			{
-				if(r_ToTitleCase_String == null)
+				if(r_MToTitleCase_String == null)
 				{
-					r_ToTitleCase_String = new(this, "ToTitleCase", 0, typeof(System.String));
-					r_ToTitleCase_String.SetBelong(this.instance);
+					r_MToTitleCase_String = new(this, "ToTitleCase", 0, typeof(System.String));
+					r_MToTitleCase_String.SetBelong(this.instance);
 				}
-				return r_ToTitleCase_String;
+				return r_MToTitleCase_String;
 			}
 		}
 
 		/// <summary>
 		/// Int32 AddNonLetter(System.Text.StringBuilder ByRef, System.String ByRef, Int32, Int32)
 		/// </summary>
-		protected static RMethod r_AddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32;
-		public static RMethod RAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32
+		protected static RMethod r_MAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32;
+		public static RMethod RMAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32
 		{
 			get
 			{
-				if(r_AddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32 == null)
+				if(r_MAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32 == null)
 				{
-					r_AddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "AddNonLetter", 0, typeof(System.Text.StringBuilder).MakeByRefType(), typeof(System.String).MakeByRefType(), typeof(System.Int32), typeof(System.Int32));
-					r_AddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32.SetBelong(null);
+					r_MAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "AddNonLetter", 0, typeof(System.Text.StringBuilder).MakeByRefType(), typeof(System.String).MakeByRefType(), typeof(System.Int32), typeof(System.Int32));
+					r_MAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32.SetBelong(null);
 				}
-				return r_AddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32;
+				return r_MAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 AddTitlecaseLetter(System.Text.StringBuilder ByRef, System.String ByRef, Int32, Int32)
 		/// </summary>
-		protected RMethod r_AddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32;
-		public virtual RMethod RAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32
+		protected RMethod r_MAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32;
+		public virtual RMethod RMAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32
 		{
 			get
 			{
-				if(r_AddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32 == null)
+				if(r_MAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32 == null)
 				{
-					r_AddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32 = new(this, "AddTitlecaseLetter", 0, typeof(System.Text.StringBuilder).MakeByRefType(), typeof(System.String).MakeByRefType(), typeof(System.Int32), typeof(System.Int32));
-					r_AddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32.SetBelong(this.instance);
+					r_MAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32 = new(this, "AddTitlecaseLetter", 0, typeof(System.Text.StringBuilder).MakeByRefType(), typeof(System.String).MakeByRefType(), typeof(System.Int32), typeof(System.Int32));
+					r_MAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_AddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32;
+				return r_MAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsWordSeparator(System.Globalization.UnicodeCategory)
 		/// </summary>
-		protected static RMethod r_IsWordSeparator_UnicodeCategory;
-		public static RMethod RIsWordSeparator_UnicodeCategory
+		protected static RMethod r_MIsWordSeparator_UnicodeCategory;
+		public static RMethod RMIsWordSeparator_UnicodeCategory
 		{
 			get
 			{
-				if(r_IsWordSeparator_UnicodeCategory == null)
+				if(r_MIsWordSeparator_UnicodeCategory == null)
 				{
-					r_IsWordSeparator_UnicodeCategory = new(typeof(System.Globalization.TextInfo), "IsWordSeparator", 0, typeof(System.Globalization.UnicodeCategory));
-					r_IsWordSeparator_UnicodeCategory.SetBelong(null);
+					r_MIsWordSeparator_UnicodeCategory = new(typeof(System.Globalization.TextInfo), "IsWordSeparator", 0, typeof(System.Globalization.UnicodeCategory));
+					r_MIsWordSeparator_UnicodeCategory.SetBelong(null);
 				}
-				return r_IsWordSeparator_UnicodeCategory;
+				return r_MIsWordSeparator_UnicodeCategory;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsLetterCategory(System.Globalization.UnicodeCategory)
 		/// </summary>
-		protected static RMethod r_IsLetterCategory_UnicodeCategory;
-		public static RMethod RIsLetterCategory_UnicodeCategory
+		protected static RMethod r_MIsLetterCategory_UnicodeCategory;
+		public static RMethod RMIsLetterCategory_UnicodeCategory
 		{
 			get
 			{
-				if(r_IsLetterCategory_UnicodeCategory == null)
+				if(r_MIsLetterCategory_UnicodeCategory == null)
 				{
-					r_IsLetterCategory_UnicodeCategory = new(typeof(System.Globalization.TextInfo), "IsLetterCategory", 0, typeof(System.Globalization.UnicodeCategory));
-					r_IsLetterCategory_UnicodeCategory.SetBelong(null);
+					r_MIsLetterCategory_UnicodeCategory = new(typeof(System.Globalization.TextInfo), "IsLetterCategory", 0, typeof(System.Globalization.UnicodeCategory));
+					r_MIsLetterCategory_UnicodeCategory.SetBelong(null);
 				}
-				return r_IsLetterCategory_UnicodeCategory;
+				return r_MIsLetterCategory_UnicodeCategory;
 			}
 		}
 
 		/// <summary>
 		/// Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
 		/// </summary>
-		protected RMethod r_System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object;
-		public virtual RMethod RSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object
+		protected RMethod r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object;
+		public virtual RMethod RMSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object
 		{
 			get
 			{
-				if(r_System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object == null)
+				if(r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object == null)
 				{
-					r_System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object = new(this, "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", 0, typeof(System.Object));
-					r_System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.SetBelong(this.instance);
+					r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object = new(this, "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", 0, typeof(System.Object));
+					r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.SetBelong(this.instance);
 				}
-				return r_System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object;
+				return r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetCaseInsensitiveHashCode(System.String)
 		/// </summary>
-		protected RMethod r_GetCaseInsensitiveHashCode_String;
-		public virtual RMethod RGetCaseInsensitiveHashCode_String
+		protected RMethod r_MGetCaseInsensitiveHashCode_String;
+		public virtual RMethod RMGetCaseInsensitiveHashCode_String
 		{
 			get
 			{
-				if(r_GetCaseInsensitiveHashCode_String == null)
+				if(r_MGetCaseInsensitiveHashCode_String == null)
 				{
-					r_GetCaseInsensitiveHashCode_String = new(this, "GetCaseInsensitiveHashCode", 0, typeof(System.String));
-					r_GetCaseInsensitiveHashCode_String.SetBelong(this.instance);
+					r_MGetCaseInsensitiveHashCode_String = new(this, "GetCaseInsensitiveHashCode", 0, typeof(System.String));
+					r_MGetCaseInsensitiveHashCode_String.SetBelong(this.instance);
 				}
-				return r_GetCaseInsensitiveHashCode_String;
+				return r_MGetCaseInsensitiveHashCode_String;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetCaseInsensitiveHashCode(System.String, Boolean, Int64)
 		/// </summary>
-		protected RMethod r_GetCaseInsensitiveHashCode_String_Boolean_Int64;
-		public virtual RMethod RGetCaseInsensitiveHashCode_String_Boolean_Int64
+		protected RMethod r_MGetCaseInsensitiveHashCode_String_Boolean_Int64;
+		public virtual RMethod RMGetCaseInsensitiveHashCode_String_Boolean_Int64
 		{
 			get
 			{
-				if(r_GetCaseInsensitiveHashCode_String_Boolean_Int64 == null)
+				if(r_MGetCaseInsensitiveHashCode_String_Boolean_Int64 == null)
 				{
-					r_GetCaseInsensitiveHashCode_String_Boolean_Int64 = new(this, "GetCaseInsensitiveHashCode", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Int64));
-					r_GetCaseInsensitiveHashCode_String_Boolean_Int64.SetBelong(this.instance);
+					r_MGetCaseInsensitiveHashCode_String_Boolean_Int64 = new(this, "GetCaseInsensitiveHashCode", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Int64));
+					r_MGetCaseInsensitiveHashCode_String_Boolean_Int64.SetBelong(this.instance);
 				}
-				return r_GetCaseInsensitiveHashCode_String_Boolean_Int64;
+				return r_MGetCaseInsensitiveHashCode_String_Boolean_Int64;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetInvariantCaseInsensitiveHashCode(System.String)
 		/// </summary>
-		protected RMethod r_GetInvariantCaseInsensitiveHashCode_String;
-		public virtual RMethod RGetInvariantCaseInsensitiveHashCode_String
+		protected RMethod r_MGetInvariantCaseInsensitiveHashCode_String;
+		public virtual RMethod RMGetInvariantCaseInsensitiveHashCode_String
 		{
 			get
 			{
-				if(r_GetInvariantCaseInsensitiveHashCode_String == null)
+				if(r_MGetInvariantCaseInsensitiveHashCode_String == null)
 				{
-					r_GetInvariantCaseInsensitiveHashCode_String = new(this, "GetInvariantCaseInsensitiveHashCode", 0, typeof(System.String));
-					r_GetInvariantCaseInsensitiveHashCode_String.SetBelong(this.instance);
+					r_MGetInvariantCaseInsensitiveHashCode_String = new(this, "GetInvariantCaseInsensitiveHashCode", 0, typeof(System.String));
+					r_MGetInvariantCaseInsensitiveHashCode_String.SetBelong(this.instance);
 				}
-				return r_GetInvariantCaseInsensitiveHashCode_String;
+				return r_MGetInvariantCaseInsensitiveHashCode_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToUpperInternal(System.String)
 		/// </summary>
-		protected RMethod r_ToUpperInternal_String;
-		public virtual RMethod RToUpperInternal_String
+		protected RMethod r_MToUpperInternal_String;
+		public virtual RMethod RMToUpperInternal_String
 		{
 			get
 			{
-				if(r_ToUpperInternal_String == null)
+				if(r_MToUpperInternal_String == null)
 				{
-					r_ToUpperInternal_String = new(this, "ToUpperInternal", 0, typeof(System.String));
-					r_ToUpperInternal_String.SetBelong(this.instance);
+					r_MToUpperInternal_String = new(this, "ToUpperInternal", 0, typeof(System.String));
+					r_MToUpperInternal_String.SetBelong(this.instance);
 				}
-				return r_ToUpperInternal_String;
+				return r_MToUpperInternal_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToLowerInternal(System.String)
 		/// </summary>
-		protected RMethod r_ToLowerInternal_String;
-		public virtual RMethod RToLowerInternal_String
+		protected RMethod r_MToLowerInternal_String;
+		public virtual RMethod RMToLowerInternal_String
 		{
 			get
 			{
-				if(r_ToLowerInternal_String == null)
+				if(r_MToLowerInternal_String == null)
 				{
-					r_ToLowerInternal_String = new(this, "ToLowerInternal", 0, typeof(System.String));
-					r_ToLowerInternal_String.SetBelong(this.instance);
+					r_MToLowerInternal_String = new(this, "ToLowerInternal", 0, typeof(System.String));
+					r_MToLowerInternal_String.SetBelong(this.instance);
 				}
-				return r_ToLowerInternal_String;
+				return r_MToLowerInternal_String;
 			}
 		}
 
 		/// <summary>
 		/// Char ToUpperInternal(Char)
 		/// </summary>
-		protected RMethod r_ToUpperInternal_Char;
-		public virtual RMethod RToUpperInternal_Char
+		protected RMethod r_MToUpperInternal_Char;
+		public virtual RMethod RMToUpperInternal_Char
 		{
 			get
 			{
-				if(r_ToUpperInternal_Char == null)
+				if(r_MToUpperInternal_Char == null)
 				{
-					r_ToUpperInternal_Char = new(this, "ToUpperInternal", 0, typeof(System.Char));
-					r_ToUpperInternal_Char.SetBelong(this.instance);
+					r_MToUpperInternal_Char = new(this, "ToUpperInternal", 0, typeof(System.Char));
+					r_MToUpperInternal_Char.SetBelong(this.instance);
 				}
-				return r_ToUpperInternal_Char;
+				return r_MToUpperInternal_Char;
 			}
 		}
 
 		/// <summary>
 		/// Char ToLowerInternal(Char)
 		/// </summary>
-		protected RMethod r_ToLowerInternal_Char;
-		public virtual RMethod RToLowerInternal_Char
+		protected RMethod r_MToLowerInternal_Char;
+		public virtual RMethod RMToLowerInternal_Char
 		{
 			get
 			{
-				if(r_ToLowerInternal_Char == null)
+				if(r_MToLowerInternal_Char == null)
 				{
-					r_ToLowerInternal_Char = new(this, "ToLowerInternal", 0, typeof(System.Char));
-					r_ToLowerInternal_Char.SetBelong(this.instance);
+					r_MToLowerInternal_Char = new(this, "ToLowerInternal", 0, typeof(System.Char));
+					r_MToLowerInternal_Char.SetBelong(this.instance);
 				}
-				return r_ToLowerInternal_Char;
+				return r_MToLowerInternal_Char;
 			}
 		}
 
 		/// <summary>
 		/// Int32 InternalCompareStringOrdinalIgnoreCase(System.String, Int32, System.String, Int32, Int32, Int32)
 		/// </summary>
-		protected static RMethod r_InternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32;
-		public static RMethod RInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32
+		protected static RMethod r_MInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32;
+		public static RMethod RMInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_InternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32 == null)
+				if(r_MInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32 == null)
 				{
-					r_InternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "InternalCompareStringOrdinalIgnoreCase", 0, typeof(System.String), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_InternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32.SetBelong(null);
+					r_MInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "InternalCompareStringOrdinalIgnoreCase", 0, typeof(System.String), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32.SetBelong(null);
 				}
-				return r_InternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32;
+				return r_MInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void ToLowerAsciiInvariant(System.ReadOnlySpan`1[System.Char], System.Span`1[System.Char])
 		/// </summary>
-		protected RMethod r_ToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_;
-		public virtual RMethod RToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_
+		protected RMethod r_MToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_;
+		public virtual RMethod RMToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_
 		{
 			get
 			{
-				if(r_ToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_ == null)
+				if(r_MToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_ == null)
 				{
-					r_ToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_ = new(this, "ToLowerAsciiInvariant", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Span<>).MakeGenericType(typeof(System.Char)));
-					r_ToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.SetBelong(this.instance);
+					r_MToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_ = new(this, "ToLowerAsciiInvariant", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Span<>).MakeGenericType(typeof(System.Char)));
+					r_MToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.SetBelong(this.instance);
 				}
-				return r_ToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_;
+				return r_MToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void ToUpperAsciiInvariant(System.ReadOnlySpan`1[System.Char], System.Span`1[System.Char])
 		/// </summary>
-		protected RMethod r_ToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_;
-		public virtual RMethod RToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_
+		protected RMethod r_MToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_;
+		public virtual RMethod RMToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_
 		{
 			get
 			{
-				if(r_ToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_ == null)
+				if(r_MToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_ == null)
 				{
-					r_ToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_ = new(this, "ToUpperAsciiInvariant", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Span<>).MakeGenericType(typeof(System.Char)));
-					r_ToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.SetBelong(this.instance);
+					r_MToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_ = new(this, "ToUpperAsciiInvariant", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Span<>).MakeGenericType(typeof(System.Char)));
+					r_MToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.SetBelong(this.instance);
 				}
-				return r_ToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_;
+				return r_MToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void ChangeCase(System.ReadOnlySpan`1[System.Char], System.Span`1[System.Char], Boolean)
 		/// </summary>
-		protected RMethod r_ChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean;
-		public virtual RMethod RChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean
+		protected RMethod r_MChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean;
+		public virtual RMethod RMChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean
 		{
 			get
 			{
-				if(r_ChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean == null)
+				if(r_MChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean == null)
 				{
-					r_ChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean = new(this, "ChangeCase", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Span<>).MakeGenericType(typeof(System.Char)), typeof(System.Boolean));
-					r_ChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean.SetBelong(this.instance);
+					r_MChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean = new(this, "ChangeCase", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Span<>).MakeGenericType(typeof(System.Char)), typeof(System.Boolean));
+					r_MChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean.SetBelong(this.instance);
 				}
-				return r_ChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean;
+				return r_MChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -1155,7 +1155,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ctx};
-            var ___result = ROnDeserializing_StreamingContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnDeserializing_StreamingContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1166,7 +1166,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = ROnDeserialized.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnDeserialized.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1177,7 +1177,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ctx};
-            var ___result = ROnDeserialized_StreamingContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnDeserialized_StreamingContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1188,7 +1188,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ctx};
-            var ___result = ROnSerializing_StreamingContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnSerializing_StreamingContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1199,7 +1199,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s};
-            var ___result = RGetHashCodeOrdinalIgnoreCase_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCodeOrdinalIgnoreCase_String.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1210,7 +1210,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @forceRandomizedHashing, @additionalEntropy};
-            var ___result = RGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1221,7 +1221,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @lengthA, @lengthB};
-            var ___result = RCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1232,7 +1232,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source, @value, @startIndex, @count};
-            var ___result = RIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1243,7 +1243,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source, @value, @startIndex, @count};
-            var ___result = RLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1254,7 +1254,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -1265,7 +1265,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@textInfo};
-            var ___result = RReadOnly_TextInfo.Invoke(___genericsType, ___parameters);
+            var ___result = RMReadOnly_TextInfo.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.TextInfo)___result;
         }
@@ -1276,7 +1276,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RVerifyWritable.Invoke(___genericsType, ___parameters);
+            var ___result = RMVerifyWritable.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1287,7 +1287,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@readOnly};
-            var ___result = RSetReadOnlyState_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetReadOnlyState_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1298,7 +1298,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@c};
-            var ___result = RToLower_Char.Invoke(___genericsType, ___parameters);
+            var ___result = RMToLower_Char.Invoke(___genericsType, ___parameters);
 
             return (System.Char)___result;
         }
@@ -1309,7 +1309,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str};
-            var ___result = RToLower_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMToLower_String.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -1320,7 +1320,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@c};
-            var ___result = RToLowerAsciiInvariant_Char.Invoke(___genericsType, ___parameters);
+            var ___result = RMToLowerAsciiInvariant_Char.Invoke(___genericsType, ___parameters);
 
             return (System.Char)___result;
         }
@@ -1331,7 +1331,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@c};
-            var ___result = RToUpper_Char.Invoke(___genericsType, ___parameters);
+            var ___result = RMToUpper_Char.Invoke(___genericsType, ___parameters);
 
             return (System.Char)___result;
         }
@@ -1342,7 +1342,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str};
-            var ___result = RToUpper_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMToUpper_String.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -1353,7 +1353,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@c};
-            var ___result = RToUpperAsciiInvariant_Char.Invoke(___genericsType, ___parameters);
+            var ___result = RMToUpperAsciiInvariant_Char.Invoke(___genericsType, ___parameters);
 
             return (System.Char)___result;
         }
@@ -1364,7 +1364,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@c};
-            var ___result = RIsAscii_Char.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsAscii_Char.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1375,7 +1375,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1386,7 +1386,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1397,7 +1397,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -1408,7 +1408,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str};
-            var ___result = RToTitleCase_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMToTitleCase_String.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -1419,7 +1419,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result, @input, @inputIndex, @charLen};
-            var ___result = RAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32.Invoke(___genericsType, ___parameters);
 			@result = (System.Text.StringBuilder)___parameters[0];
 			@input = (System.String)___parameters[1];
 
@@ -1432,7 +1432,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result, @input, @inputIndex, @charLen};
-            var ___result = RAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32.Invoke(___genericsType, ___parameters);
 			@result = (System.Text.StringBuilder)___parameters[0];
 			@input = (System.String)___parameters[1];
 
@@ -1445,7 +1445,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@category};
-            var ___result = RIsWordSeparator_UnicodeCategory.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsWordSeparator_UnicodeCategory.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1456,7 +1456,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@uc};
-            var ___result = RIsLetterCategory_UnicodeCategory.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsLetterCategory_UnicodeCategory.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1467,7 +1467,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sender};
-            var ___result = RSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1478,7 +1478,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str};
-            var ___result = RGetCaseInsensitiveHashCode_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCaseInsensitiveHashCode_String.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1489,7 +1489,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str, @forceRandomizedHashing, @additionalEntropy};
-            var ___result = RGetCaseInsensitiveHashCode_String_Boolean_Int64.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCaseInsensitiveHashCode_String_Boolean_Int64.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1500,7 +1500,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str};
-            var ___result = RGetInvariantCaseInsensitiveHashCode_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetInvariantCaseInsensitiveHashCode_String.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1511,7 +1511,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str};
-            var ___result = RToUpperInternal_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMToUpperInternal_String.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -1522,7 +1522,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str};
-            var ___result = RToLowerInternal_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMToLowerInternal_String.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -1533,7 +1533,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@c};
-            var ___result = RToUpperInternal_Char.Invoke(___genericsType, ___parameters);
+            var ___result = RMToUpperInternal_Char.Invoke(___genericsType, ___parameters);
 
             return (System.Char)___result;
         }
@@ -1544,7 +1544,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@c};
-            var ___result = RToLowerInternal_Char.Invoke(___genericsType, ___parameters);
+            var ___result = RMToLowerInternal_Char.Invoke(___genericsType, ___parameters);
 
             return (System.Char)___result;
         }
@@ -1555,7 +1555,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@strA, @indexA, @strB, @indexB, @lenA, @lenB};
-            var ___result = RInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1566,7 +1566,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source.Value, @destination.Value};
-            var ___result = RToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1577,7 +1577,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source.Value, @destination.Value};
-            var ___result = RToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1588,7 +1588,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source.Value, @destination.Value, @toUpper};
-            var ___result = RChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1599,7 +1599,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1610,7 +1610,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -1621,7 +1621,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

@@ -38,8 +38,8 @@ namespace SMFrame.Editor.Extension
 
 		public void Init()
 		{
-			closedDelegate = CreateDelegate(addComponentWindow.RwindowClosed.type, "WindowClosed");
-			selectDelegate = CreateDelegate(addComponentWindow.RselectionChanged.type, "ItemSelect");
+			closedDelegate = CreateDelegate(addComponentWindow.REwindowClosed.type, "WindowClosed");
+			selectDelegate = CreateDelegate(addComponentWindow.REselectionChanged.type, "ItemSelect");
 		}
 
 

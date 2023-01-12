@@ -13,204 +13,204 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.UInt32 instanceMask
 		/// </summary>
-		protected RSystem.RUInt32 r_instanceMask;
-		public virtual RSystem.RUInt32 RinstanceMask
+		protected RSystem.RUInt32 r_FinstanceMask;
+		public virtual RSystem.RUInt32 RFinstanceMask
 		{
 			get
 			{
-				if(r_instanceMask == null)
+				if(r_FinstanceMask == null)
 				{
-					r_instanceMask = new(this, "instanceMask");
-					r_instanceMask.SetBelong(this.instance);
+					r_FinstanceMask = new(this, "instanceMask");
+					r_FinstanceMask.SetBelong(this.instance);
 				}
-				return r_instanceMask;
+				return r_FinstanceMask;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 layerMask
 		/// </summary>
-		protected RSystem.RInt32 r_layerMask;
-		public virtual RSystem.RInt32 RlayerMask
+		protected RSystem.RInt32 r_FlayerMask;
+		public virtual RSystem.RInt32 RFlayerMask
 		{
 			get
 			{
-				if(r_layerMask == null)
+				if(r_FlayerMask == null)
 				{
-					r_layerMask = new(this, "layerMask");
-					r_layerMask.SetBelong(this.instance);
+					r_FlayerMask = new(this, "layerMask");
+					r_FlayerMask.SetBelong(this.instance);
 				}
-				return r_layerMask;
+				return r_FlayerMask;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 shadowCastingModeMask
 		/// </summary>
-		protected RSystem.RInt32 r_shadowCastingModeMask;
-		public virtual RSystem.RInt32 RshadowCastingModeMask
+		protected RSystem.RInt32 r_FshadowCastingModeMask;
+		public virtual RSystem.RInt32 RFshadowCastingModeMask
 		{
 			get
 			{
-				if(r_shadowCastingModeMask == null)
+				if(r_FshadowCastingModeMask == null)
 				{
-					r_shadowCastingModeMask = new(this, "shadowCastingModeMask");
-					r_shadowCastingModeMask.SetBelong(this.instance);
+					r_FshadowCastingModeMask = new(this, "shadowCastingModeMask");
+					r_FshadowCastingModeMask.SetBelong(this.instance);
 				}
-				return r_shadowCastingModeMask;
+				return r_FshadowCastingModeMask;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean allowOpaqueMaterials
 		/// </summary>
-		protected RSystem.RBoolean r_allowOpaqueMaterials;
-		public virtual RSystem.RBoolean RallowOpaqueMaterials
+		protected RSystem.RBoolean r_FallowOpaqueMaterials;
+		public virtual RSystem.RBoolean RFallowOpaqueMaterials
 		{
 			get
 			{
-				if(r_allowOpaqueMaterials == null)
+				if(r_FallowOpaqueMaterials == null)
 				{
-					r_allowOpaqueMaterials = new(this, "allowOpaqueMaterials");
-					r_allowOpaqueMaterials.SetBelong(this.instance);
+					r_FallowOpaqueMaterials = new(this, "allowOpaqueMaterials");
+					r_FallowOpaqueMaterials.SetBelong(this.instance);
 				}
-				return r_allowOpaqueMaterials;
+				return r_FallowOpaqueMaterials;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean allowTransparentMaterials
 		/// </summary>
-		protected RSystem.RBoolean r_allowTransparentMaterials;
-		public virtual RSystem.RBoolean RallowTransparentMaterials
+		protected RSystem.RBoolean r_FallowTransparentMaterials;
+		public virtual RSystem.RBoolean RFallowTransparentMaterials
 		{
 			get
 			{
-				if(r_allowTransparentMaterials == null)
+				if(r_FallowTransparentMaterials == null)
 				{
-					r_allowTransparentMaterials = new(this, "allowTransparentMaterials");
-					r_allowTransparentMaterials.SetBelong(this.instance);
+					r_FallowTransparentMaterials = new(this, "allowTransparentMaterials");
+					r_FallowTransparentMaterials.SetBelong(this.instance);
 				}
-				return r_allowTransparentMaterials;
+				return r_FallowTransparentMaterials;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean allowAlphaTestedMaterials
 		/// </summary>
-		protected RSystem.RBoolean r_allowAlphaTestedMaterials;
-		public virtual RSystem.RBoolean RallowAlphaTestedMaterials
+		protected RSystem.RBoolean r_FallowAlphaTestedMaterials;
+		public virtual RSystem.RBoolean RFallowAlphaTestedMaterials
 		{
 			get
 			{
-				if(r_allowAlphaTestedMaterials == null)
+				if(r_FallowAlphaTestedMaterials == null)
 				{
-					r_allowAlphaTestedMaterials = new(this, "allowAlphaTestedMaterials");
-					r_allowAlphaTestedMaterials.SetBelong(this.instance);
+					r_FallowAlphaTestedMaterials = new(this, "allowAlphaTestedMaterials");
+					r_FallowAlphaTestedMaterials.SetBelong(this.instance);
 				}
-				return r_allowAlphaTestedMaterials;
+				return r_FallowAlphaTestedMaterials;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -237,7 +237,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -248,7 +248,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -259,7 +259,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -270,7 +270,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -281,7 +281,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

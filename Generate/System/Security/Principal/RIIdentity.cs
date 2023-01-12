@@ -13,51 +13,51 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RSystem.RString r_Name;
-		public virtual RSystem.RString RName
+		protected RSystem.RString r_PName;
+		public virtual RSystem.RString RPName
 		{
 			get
 			{
-				if(r_Name == null)
+				if(r_PName == null)
 				{
-					r_Name = new(this, "Name", -1);
-					r_Name.SetBelong(this.instance);
+					r_PName = new(this, "Name", -1);
+					r_PName.SetBelong(this.instance);
 				}
-				return r_Name;
+				return r_PName;
 			}
 		}
 
 		/// <summary>
 		/// System.String AuthenticationType
 		/// </summary>
-		protected RSystem.RString r_AuthenticationType;
-		public virtual RSystem.RString RAuthenticationType
+		protected RSystem.RString r_PAuthenticationType;
+		public virtual RSystem.RString RPAuthenticationType
 		{
 			get
 			{
-				if(r_AuthenticationType == null)
+				if(r_PAuthenticationType == null)
 				{
-					r_AuthenticationType = new(this, "AuthenticationType", -1);
-					r_AuthenticationType.SetBelong(this.instance);
+					r_PAuthenticationType = new(this, "AuthenticationType", -1);
+					r_PAuthenticationType.SetBelong(this.instance);
 				}
-				return r_AuthenticationType;
+				return r_PAuthenticationType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsAuthenticated
 		/// </summary>
-		protected RSystem.RBoolean r_IsAuthenticated;
-		public virtual RSystem.RBoolean RIsAuthenticated
+		protected RSystem.RBoolean r_PIsAuthenticated;
+		public virtual RSystem.RBoolean RPIsAuthenticated
 		{
 			get
 			{
-				if(r_IsAuthenticated == null)
+				if(r_PIsAuthenticated == null)
 				{
-					r_IsAuthenticated = new(this, "IsAuthenticated", -1);
-					r_IsAuthenticated.SetBelong(this.instance);
+					r_PIsAuthenticated = new(this, "IsAuthenticated", -1);
+					r_PIsAuthenticated.SetBelong(this.instance);
 				}
-				return r_IsAuthenticated;
+				return r_PIsAuthenticated;
 			}
 		}
 

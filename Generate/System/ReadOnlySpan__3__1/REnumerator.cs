@@ -15,170 +15,170 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ReadOnlySpan`1[T] _span
 		/// </summary>
-		protected RSystem.RReadOnlySpan<RField> r__span;
-		public virtual RSystem.RReadOnlySpan<RField> R_span
+		protected RSystem.RReadOnlySpan<RField> r_F_span;
+		public virtual RSystem.RReadOnlySpan<RField> RF_span
 		{
 			get
 			{
-				if(r__span == null)
+				if(r_F_span == null)
 				{
-					r__span = new(this, "_span");
-					r__span.SetBelong(this.instance);
+					r_F_span = new(this, "_span");
+					r_F_span.SetBelong(this.instance);
 				}
-				return r__span;
+				return r_F_span;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 _index
 		/// </summary>
-		protected RSystem.RInt32 r__index;
-		public virtual RSystem.RInt32 R_index
+		protected RSystem.RInt32 r_F_index;
+		public virtual RSystem.RInt32 RF_index
 		{
 			get
 			{
-				if(r__index == null)
+				if(r_F_index == null)
 				{
-					r__index = new(this, "_index");
-					r__index.SetBelong(this.instance);
+					r_F_index = new(this, "_index");
+					r_F_index.SetBelong(this.instance);
 				}
-				return r__index;
+				return r_F_index;
 			}
 		}
 
 		/// <summary>
 		/// T& Current
 		/// </summary>
-		protected RProperty r_Current;
-		public virtual RProperty RCurrent
+		protected RProperty r_PCurrent;
+		public virtual RProperty RPCurrent
 		{
 			get
 			{
-				if(r_Current == null)
+				if(r_PCurrent == null)
 				{
-					r_Current = new(this, "Current", -1);
-					r_Current.SetBelong(this.instance);
+					r_PCurrent = new(this, "Current", -1);
+					r_PCurrent.SetBelong(this.instance);
 				}
-				return r_Current;
+				return r_PCurrent;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MoveNext()
 		/// </summary>
-		protected RMethod r_MoveNext;
-		public virtual RMethod RMoveNext
+		protected RMethod r_MMoveNext;
+		public virtual RMethod RMMoveNext
 		{
 			get
 			{
-				if(r_MoveNext == null)
+				if(r_MMoveNext == null)
 				{
-					r_MoveNext = new(this, "MoveNext", 0);
-					r_MoveNext.SetBelong(this.instance);
+					r_MMoveNext = new(this, "MoveNext", 0);
+					r_MMoveNext.SetBelong(this.instance);
 				}
-				return r_MoveNext;
+				return r_MMoveNext;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -205,7 +205,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMoveNext.Invoke(___genericsType, ___parameters);
+            var ___result = RMMoveNext.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -216,7 +216,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -227,7 +227,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -238,7 +238,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -249,7 +249,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -271,7 +271,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

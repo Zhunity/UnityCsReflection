@@ -13,357 +13,357 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Group s_emptyGroup
 		/// </summary>
-		protected static RSystem.RText.RRegularExpressions.RGroup r_s_emptyGroup;
-		public static RSystem.RText.RRegularExpressions.RGroup Rs_emptyGroup
+		protected static RSystem.RText.RRegularExpressions.RGroup r_Fs_emptyGroup;
+		public static RSystem.RText.RRegularExpressions.RGroup RFs_emptyGroup
 		{
 			get
 			{
-				if(r_s_emptyGroup == null)
+				if(r_Fs_emptyGroup == null)
 				{
-					r_s_emptyGroup = new(typeof(System.Text.RegularExpressions.Group), "s_emptyGroup");
-					r_s_emptyGroup.SetBelong(null);
+					r_Fs_emptyGroup = new(typeof(System.Text.RegularExpressions.Group), "s_emptyGroup");
+					r_Fs_emptyGroup.SetBelong(null);
 				}
-				return r_s_emptyGroup;
+				return r_Fs_emptyGroup;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32[] _caps
 		/// </summary>
-		protected RFieldArray<RSystem.RInt32> r__caps;
-		public virtual RFieldArray<RSystem.RInt32> R_caps
+		protected RFieldArray<RSystem.RInt32> r_F_caps;
+		public virtual RFieldArray<RSystem.RInt32> RF_caps
 		{
 			get
 			{
-				if(r__caps == null)
+				if(r_F_caps == null)
 				{
-					r__caps = new(this, "_caps");
-					r__caps.SetBelong(this.instance);
+					r_F_caps = new(this, "_caps");
+					r_F_caps.SetBelong(this.instance);
 				}
-				return r__caps;
+				return r_F_caps;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 _capcount
 		/// </summary>
-		protected RSystem.RInt32 r__capcount;
-		public virtual RSystem.RInt32 R_capcount
+		protected RSystem.RInt32 r_F_capcount;
+		public virtual RSystem.RInt32 RF_capcount
 		{
 			get
 			{
-				if(r__capcount == null)
+				if(r_F_capcount == null)
 				{
-					r__capcount = new(this, "_capcount");
-					r__capcount.SetBelong(this.instance);
+					r_F_capcount = new(this, "_capcount");
+					r_F_capcount.SetBelong(this.instance);
 				}
-				return r__capcount;
+				return r_F_capcount;
 			}
 		}
 
 		/// <summary>
 		/// System.Text.RegularExpressions.CaptureCollection _capcoll
 		/// </summary>
-		protected RSystem.RText.RRegularExpressions.RCaptureCollection r__capcoll;
-		public virtual RSystem.RText.RRegularExpressions.RCaptureCollection R_capcoll
+		protected RSystem.RText.RRegularExpressions.RCaptureCollection r_F_capcoll;
+		public virtual RSystem.RText.RRegularExpressions.RCaptureCollection RF_capcoll
 		{
 			get
 			{
-				if(r__capcoll == null)
+				if(r_F_capcoll == null)
 				{
-					r__capcoll = new(this, "_capcoll");
-					r__capcoll.SetBelong(this.instance);
+					r_F_capcoll = new(this, "_capcoll");
+					r_F_capcoll.SetBelong(this.instance);
 				}
-				return r__capcoll;
+				return r_F_capcoll;
 			}
 		}
 
 		/// <summary>
 		/// System.String <Name>k__BackingField
 		/// </summary>
-		protected RSystem.RString r___0__Name__1__k__BackingField;
-		public virtual RSystem.RString R__0__Name__1__k__BackingField
+		protected RSystem.RString r_F__0__Name__1__k__BackingField;
+		public virtual RSystem.RString RF__0__Name__1__k__BackingField
 		{
 			get
 			{
-				if(r___0__Name__1__k__BackingField == null)
+				if(r_F__0__Name__1__k__BackingField == null)
 				{
-					r___0__Name__1__k__BackingField = new(this, "<Name>k__BackingField");
-					r___0__Name__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__Name__1__k__BackingField = new(this, "<Name>k__BackingField");
+					r_F__0__Name__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___0__Name__1__k__BackingField;
+				return r_F__0__Name__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Success
 		/// </summary>
-		protected RSystem.RBoolean r_Success;
-		public virtual RSystem.RBoolean RSuccess
+		protected RSystem.RBoolean r_PSuccess;
+		public virtual RSystem.RBoolean RPSuccess
 		{
 			get
 			{
-				if(r_Success == null)
+				if(r_PSuccess == null)
 				{
-					r_Success = new(this, "Success", -1);
-					r_Success.SetBelong(this.instance);
+					r_PSuccess = new(this, "Success", -1);
+					r_PSuccess.SetBelong(this.instance);
 				}
-				return r_Success;
+				return r_PSuccess;
 			}
 		}
 
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RSystem.RString r_Name;
-		public virtual RSystem.RString RName
+		protected RSystem.RString r_PName;
+		public virtual RSystem.RString RPName
 		{
 			get
 			{
-				if(r_Name == null)
+				if(r_PName == null)
 				{
-					r_Name = new(this, "Name", -1);
-					r_Name.SetBelong(this.instance);
+					r_PName = new(this, "Name", -1);
+					r_PName.SetBelong(this.instance);
 				}
-				return r_Name;
+				return r_PName;
 			}
 		}
 
 		/// <summary>
 		/// System.Text.RegularExpressions.CaptureCollection Captures
 		/// </summary>
-		protected RSystem.RText.RRegularExpressions.RCaptureCollection r_Captures;
-		public virtual RSystem.RText.RRegularExpressions.RCaptureCollection RCaptures
+		protected RSystem.RText.RRegularExpressions.RCaptureCollection r_PCaptures;
+		public virtual RSystem.RText.RRegularExpressions.RCaptureCollection RPCaptures
 		{
 			get
 			{
-				if(r_Captures == null)
+				if(r_PCaptures == null)
 				{
-					r_Captures = new(this, "Captures", -1);
-					r_Captures.SetBelong(this.instance);
+					r_PCaptures = new(this, "Captures", -1);
+					r_PCaptures.SetBelong(this.instance);
 				}
-				return r_Captures;
+				return r_PCaptures;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Index
 		/// </summary>
-		protected RSystem.RInt32 r_Index;
-		public virtual RSystem.RInt32 RIndex
+		protected RSystem.RInt32 r_PIndex;
+		public virtual RSystem.RInt32 RPIndex
 		{
 			get
 			{
-				if(r_Index == null)
+				if(r_PIndex == null)
 				{
-					r_Index = new(this, "Index", -1);
-					r_Index.SetBelong(this.instance);
+					r_PIndex = new(this, "Index", -1);
+					r_PIndex.SetBelong(this.instance);
 				}
-				return r_Index;
+				return r_PIndex;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected RSystem.RInt32 r_Length;
-		public virtual RSystem.RInt32 RLength
+		protected RSystem.RInt32 r_PLength;
+		public virtual RSystem.RInt32 RPLength
 		{
 			get
 			{
-				if(r_Length == null)
+				if(r_PLength == null)
 				{
-					r_Length = new(this, "Length", -1);
-					r_Length.SetBelong(this.instance);
+					r_PLength = new(this, "Length", -1);
+					r_PLength.SetBelong(this.instance);
 				}
-				return r_Length;
+				return r_PLength;
 			}
 		}
 
 		/// <summary>
 		/// System.String Text
 		/// </summary>
-		protected RSystem.RString r_Text;
-		public virtual RSystem.RString RText
+		protected RSystem.RString r_PText;
+		public virtual RSystem.RString RPText
 		{
 			get
 			{
-				if(r_Text == null)
+				if(r_PText == null)
 				{
-					r_Text = new(this, "Text", -1);
-					r_Text.SetBelong(this.instance);
+					r_PText = new(this, "Text", -1);
+					r_PText.SetBelong(this.instance);
 				}
-				return r_Text;
+				return r_PText;
 			}
 		}
 
 		/// <summary>
 		/// System.String Value
 		/// </summary>
-		protected RSystem.RString r_Value;
-		public virtual RSystem.RString RValue
+		protected RSystem.RString r_PValue;
+		public virtual RSystem.RString RPValue
 		{
 			get
 			{
-				if(r_Value == null)
+				if(r_PValue == null)
 				{
-					r_Value = new(this, "Value", -1);
-					r_Value.SetBelong(this.instance);
+					r_PValue = new(this, "Value", -1);
+					r_PValue.SetBelong(this.instance);
 				}
-				return r_Value;
+				return r_PValue;
 			}
 		}
 
 		/// <summary>
 		/// System.Text.RegularExpressions.Group Synchronized(System.Text.RegularExpressions.Group)
 		/// </summary>
-		protected static RMethod r_Synchronized_Group;
-		public static RMethod RSynchronized_Group
+		protected static RMethod r_MSynchronized_Group;
+		public static RMethod RMSynchronized_Group
 		{
 			get
 			{
-				if(r_Synchronized_Group == null)
+				if(r_MSynchronized_Group == null)
 				{
-					r_Synchronized_Group = new(typeof(System.Text.RegularExpressions.Group), "Synchronized", 0, typeof(System.Text.RegularExpressions.Group));
-					r_Synchronized_Group.SetBelong(null);
+					r_MSynchronized_Group = new(typeof(System.Text.RegularExpressions.Group), "Synchronized", 0, typeof(System.Text.RegularExpressions.Group));
+					r_MSynchronized_Group.SetBelong(null);
 				}
-				return r_Synchronized_Group;
+				return r_MSynchronized_Group;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// System.ReadOnlySpan`1[System.Char] GetLeftSubstring()
 		/// </summary>
-		protected RMethod r_GetLeftSubstring;
-		public virtual RMethod RGetLeftSubstring
+		protected RMethod r_MGetLeftSubstring;
+		public virtual RMethod RMGetLeftSubstring
 		{
 			get
 			{
-				if(r_GetLeftSubstring == null)
+				if(r_MGetLeftSubstring == null)
 				{
-					r_GetLeftSubstring = new(this, "GetLeftSubstring", 0);
-					r_GetLeftSubstring.SetBelong(this.instance);
+					r_MGetLeftSubstring = new(this, "GetLeftSubstring", 0);
+					r_MGetLeftSubstring.SetBelong(this.instance);
 				}
-				return r_GetLeftSubstring;
+				return r_MGetLeftSubstring;
 			}
 		}
 
 		/// <summary>
 		/// System.ReadOnlySpan`1[System.Char] GetRightSubstring()
 		/// </summary>
-		protected RMethod r_GetRightSubstring;
-		public virtual RMethod RGetRightSubstring
+		protected RMethod r_MGetRightSubstring;
+		public virtual RMethod RMGetRightSubstring
 		{
 			get
 			{
-				if(r_GetRightSubstring == null)
+				if(r_MGetRightSubstring == null)
 				{
-					r_GetRightSubstring = new(this, "GetRightSubstring", 0);
-					r_GetRightSubstring.SetBelong(this.instance);
+					r_MGetRightSubstring = new(this, "GetRightSubstring", 0);
+					r_MGetRightSubstring.SetBelong(this.instance);
 				}
-				return r_GetRightSubstring;
+				return r_MGetRightSubstring;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -390,7 +390,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@inner};
-            var ___result = RSynchronized_Group.Invoke(___genericsType, ___parameters);
+            var ___result = RMSynchronized_Group.Invoke(___genericsType, ___parameters);
 
             return (System.Text.RegularExpressions.Group)___result;
         }
@@ -401,7 +401,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -412,7 +412,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetLeftSubstring.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetLeftSubstring.Invoke(___genericsType, ___parameters);
 
             return new RSystem.RReadOnlySpan<RSystem.RChar>(___result);
         }
@@ -423,7 +423,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetRightSubstring.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetRightSubstring.Invoke(___genericsType, ___parameters);
 
             return new RSystem.RReadOnlySpan<RSystem.RChar>(___result);
         }
@@ -434,7 +434,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -456,7 +456,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -467,7 +467,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -478,7 +478,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

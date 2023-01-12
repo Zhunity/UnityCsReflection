@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Void OnValueChanged(System.Object, System.Object, Boolean)
 		/// </summary>
-		protected RMethod r_OnValueChanged_Object_Object_Boolean;
-		public virtual RMethod ROnValueChanged_Object_Object_Boolean
+		protected RMethod r_MOnValueChanged_Object_Object_Boolean;
+		public virtual RMethod RMOnValueChanged_Object_Object_Boolean
 		{
 			get
 			{
-				if(r_OnValueChanged_Object_Object_Boolean == null)
+				if(r_MOnValueChanged_Object_Object_Boolean == null)
 				{
-					r_OnValueChanged_Object_Object_Boolean = new(this, "OnValueChanged", 0, typeof(System.Object), typeof(System.Object), typeof(System.Boolean));
-					r_OnValueChanged_Object_Object_Boolean.SetBelong(this.instance);
+					r_MOnValueChanged_Object_Object_Boolean = new(this, "OnValueChanged", 0, typeof(System.Object), typeof(System.Object), typeof(System.Boolean));
+					r_MOnValueChanged_Object_Object_Boolean.SetBelong(this.instance);
 				}
-				return r_OnValueChanged_Object_Object_Boolean;
+				return r_MOnValueChanged_Object_Object_Boolean;
 			}
 		}
 
@@ -50,7 +50,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@previousValue, @currentValue, @contextChanged};
-            var ___result = ROnValueChanged_Object_Object_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnValueChanged_Object_Object_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }

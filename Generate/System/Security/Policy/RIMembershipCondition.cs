@@ -13,68 +13,68 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean Check(System.Security.Policy.Evidence)
 		/// </summary>
-		protected RMethod r_Check_Evidence;
-		public virtual RMethod RCheck_Evidence
+		protected RMethod r_MCheck_Evidence;
+		public virtual RMethod RMCheck_Evidence
 		{
 			get
 			{
-				if(r_Check_Evidence == null)
+				if(r_MCheck_Evidence == null)
 				{
-					r_Check_Evidence = new(this, "Check", 0, typeof(System.Security.Policy.Evidence));
-					r_Check_Evidence.SetBelong(this.instance);
+					r_MCheck_Evidence = new(this, "Check", 0, typeof(System.Security.Policy.Evidence));
+					r_MCheck_Evidence.SetBelong(this.instance);
 				}
-				return r_Check_Evidence;
+				return r_MCheck_Evidence;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.IMembershipCondition Copy()
 		/// </summary>
-		protected RMethod r_Copy;
-		public virtual RMethod RCopy
+		protected RMethod r_MCopy;
+		public virtual RMethod RMCopy
 		{
 			get
 			{
-				if(r_Copy == null)
+				if(r_MCopy == null)
 				{
-					r_Copy = new(this, "Copy", 0);
-					r_Copy.SetBelong(this.instance);
+					r_MCopy = new(this, "Copy", 0);
+					r_MCopy.SetBelong(this.instance);
 				}
-				return r_Copy;
+				return r_MCopy;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -101,7 +101,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evidence};
-            var ___result = RCheck_Evidence.Invoke(___genericsType, ___parameters);
+            var ___result = RMCheck_Evidence.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -112,7 +112,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCopy.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
             return (System.Security.Policy.IMembershipCondition)___result;
         }
@@ -123,7 +123,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -134,7 +134,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Void SetSelected(Boolean)
 		/// </summary>
-		protected RMethod r_SetSelected_Boolean;
-		public virtual RMethod RSetSelected_Boolean
+		protected RMethod r_MSetSelected_Boolean;
+		public virtual RMethod RMSetSelected_Boolean
 		{
 			get
 			{
-				if(r_SetSelected_Boolean == null)
+				if(r_MSetSelected_Boolean == null)
 				{
-					r_SetSelected_Boolean = new(this, "SetSelected", 0, typeof(System.Boolean));
-					r_SetSelected_Boolean.SetBelong(this.instance);
+					r_MSetSelected_Boolean = new(this, "SetSelected", 0, typeof(System.Boolean));
+					r_MSetSelected_Boolean.SetBelong(this.instance);
 				}
-				return r_SetSelected_Boolean;
+				return r_MSetSelected_Boolean;
 			}
 		}
 
@@ -50,7 +50,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@selected};
-            var ___result = RSetSelected_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetSelected_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }

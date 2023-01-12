@@ -13,1394 +13,1394 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Align] alignContent
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_alignContent;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RalignContent
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RAlign> r_PalignContent;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RAlign> RPalignContent
 		{
 			get
 			{
-				if(r_alignContent == null)
+				if(r_PalignContent == null)
 				{
-					r_alignContent = new(this, "alignContent", -1);
-					r_alignContent.SetBelong(this.instance);
+					r_PalignContent = new(this, "alignContent", -1);
+					r_PalignContent.SetBelong(this.instance);
 				}
-				return r_alignContent;
+				return r_PalignContent;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Align] alignItems
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_alignItems;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RalignItems
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RAlign> r_PalignItems;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RAlign> RPalignItems
 		{
 			get
 			{
-				if(r_alignItems == null)
+				if(r_PalignItems == null)
 				{
-					r_alignItems = new(this, "alignItems", -1);
-					r_alignItems.SetBelong(this.instance);
+					r_PalignItems = new(this, "alignItems", -1);
+					r_PalignItems.SetBelong(this.instance);
 				}
-				return r_alignItems;
+				return r_PalignItems;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Align] alignSelf
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_alignSelf;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RalignSelf
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RAlign> r_PalignSelf;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RAlign> RPalignSelf
 		{
 			get
 			{
-				if(r_alignSelf == null)
+				if(r_PalignSelf == null)
 				{
-					r_alignSelf = new(this, "alignSelf", -1);
-					r_alignSelf.SetBelong(this.instance);
+					r_PalignSelf = new(this, "alignSelf", -1);
+					r_PalignSelf.SetBelong(this.instance);
 				}
-				return r_alignSelf;
+				return r_PalignSelf;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor backgroundColor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_backgroundColor;
-		public virtual RUnityEngine.RUIElements.RStyleColor RbackgroundColor
+		protected RUnityEngine.RUIElements.RStyleColor r_PbackgroundColor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RPbackgroundColor
 		{
 			get
 			{
-				if(r_backgroundColor == null)
+				if(r_PbackgroundColor == null)
 				{
-					r_backgroundColor = new(this, "backgroundColor", -1);
-					r_backgroundColor.SetBelong(this.instance);
+					r_PbackgroundColor = new(this, "backgroundColor", -1);
+					r_PbackgroundColor.SetBelong(this.instance);
 				}
-				return r_backgroundColor;
+				return r_PbackgroundColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackground backgroundImage
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleBackground r_backgroundImage;
-		public virtual RUnityEngine.RUIElements.RStyleBackground RbackgroundImage
+		protected RUnityEngine.RUIElements.RStyleBackground r_PbackgroundImage;
+		public virtual RUnityEngine.RUIElements.RStyleBackground RPbackgroundImage
 		{
 			get
 			{
-				if(r_backgroundImage == null)
+				if(r_PbackgroundImage == null)
 				{
-					r_backgroundImage = new(this, "backgroundImage", -1);
-					r_backgroundImage.SetBelong(this.instance);
+					r_PbackgroundImage = new(this, "backgroundImage", -1);
+					r_PbackgroundImage.SetBelong(this.instance);
 				}
-				return r_backgroundImage;
+				return r_PbackgroundImage;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundPosition backgroundPositionX
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleBackgroundPosition r_backgroundPositionX;
-		public virtual RUnityEngine.RUIElements.RStyleBackgroundPosition RbackgroundPositionX
+		protected RUnityEngine.RUIElements.RStyleBackgroundPosition r_PbackgroundPositionX;
+		public virtual RUnityEngine.RUIElements.RStyleBackgroundPosition RPbackgroundPositionX
 		{
 			get
 			{
-				if(r_backgroundPositionX == null)
+				if(r_PbackgroundPositionX == null)
 				{
-					r_backgroundPositionX = new(this, "backgroundPositionX", -1);
-					r_backgroundPositionX.SetBelong(this.instance);
+					r_PbackgroundPositionX = new(this, "backgroundPositionX", -1);
+					r_PbackgroundPositionX.SetBelong(this.instance);
 				}
-				return r_backgroundPositionX;
+				return r_PbackgroundPositionX;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundPosition backgroundPositionY
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleBackgroundPosition r_backgroundPositionY;
-		public virtual RUnityEngine.RUIElements.RStyleBackgroundPosition RbackgroundPositionY
+		protected RUnityEngine.RUIElements.RStyleBackgroundPosition r_PbackgroundPositionY;
+		public virtual RUnityEngine.RUIElements.RStyleBackgroundPosition RPbackgroundPositionY
 		{
 			get
 			{
-				if(r_backgroundPositionY == null)
+				if(r_PbackgroundPositionY == null)
 				{
-					r_backgroundPositionY = new(this, "backgroundPositionY", -1);
-					r_backgroundPositionY.SetBelong(this.instance);
+					r_PbackgroundPositionY = new(this, "backgroundPositionY", -1);
+					r_PbackgroundPositionY.SetBelong(this.instance);
 				}
-				return r_backgroundPositionY;
+				return r_PbackgroundPositionY;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundRepeat backgroundRepeat
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleBackgroundRepeat r_backgroundRepeat;
-		public virtual RUnityEngine.RUIElements.RStyleBackgroundRepeat RbackgroundRepeat
+		protected RUnityEngine.RUIElements.RStyleBackgroundRepeat r_PbackgroundRepeat;
+		public virtual RUnityEngine.RUIElements.RStyleBackgroundRepeat RPbackgroundRepeat
 		{
 			get
 			{
-				if(r_backgroundRepeat == null)
+				if(r_PbackgroundRepeat == null)
 				{
-					r_backgroundRepeat = new(this, "backgroundRepeat", -1);
-					r_backgroundRepeat.SetBelong(this.instance);
+					r_PbackgroundRepeat = new(this, "backgroundRepeat", -1);
+					r_PbackgroundRepeat.SetBelong(this.instance);
 				}
-				return r_backgroundRepeat;
+				return r_PbackgroundRepeat;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundSize backgroundSize
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleBackgroundSize r_backgroundSize;
-		public virtual RUnityEngine.RUIElements.RStyleBackgroundSize RbackgroundSize
+		protected RUnityEngine.RUIElements.RStyleBackgroundSize r_PbackgroundSize;
+		public virtual RUnityEngine.RUIElements.RStyleBackgroundSize RPbackgroundSize
 		{
 			get
 			{
-				if(r_backgroundSize == null)
+				if(r_PbackgroundSize == null)
 				{
-					r_backgroundSize = new(this, "backgroundSize", -1);
-					r_backgroundSize.SetBelong(this.instance);
+					r_PbackgroundSize = new(this, "backgroundSize", -1);
+					r_PbackgroundSize.SetBelong(this.instance);
 				}
-				return r_backgroundSize;
+				return r_PbackgroundSize;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor borderBottomColor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_borderBottomColor;
-		public virtual RUnityEngine.RUIElements.RStyleColor RborderBottomColor
+		protected RUnityEngine.RUIElements.RStyleColor r_PborderBottomColor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RPborderBottomColor
 		{
 			get
 			{
-				if(r_borderBottomColor == null)
+				if(r_PborderBottomColor == null)
 				{
-					r_borderBottomColor = new(this, "borderBottomColor", -1);
-					r_borderBottomColor.SetBelong(this.instance);
+					r_PborderBottomColor = new(this, "borderBottomColor", -1);
+					r_PborderBottomColor.SetBelong(this.instance);
 				}
-				return r_borderBottomColor;
+				return r_PborderBottomColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength borderBottomLeftRadius
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_borderBottomLeftRadius;
-		public virtual RUnityEngine.RUIElements.RStyleLength RborderBottomLeftRadius
+		protected RUnityEngine.RUIElements.RStyleLength r_PborderBottomLeftRadius;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPborderBottomLeftRadius
 		{
 			get
 			{
-				if(r_borderBottomLeftRadius == null)
+				if(r_PborderBottomLeftRadius == null)
 				{
-					r_borderBottomLeftRadius = new(this, "borderBottomLeftRadius", -1);
-					r_borderBottomLeftRadius.SetBelong(this.instance);
+					r_PborderBottomLeftRadius = new(this, "borderBottomLeftRadius", -1);
+					r_PborderBottomLeftRadius.SetBelong(this.instance);
 				}
-				return r_borderBottomLeftRadius;
+				return r_PborderBottomLeftRadius;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength borderBottomRightRadius
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_borderBottomRightRadius;
-		public virtual RUnityEngine.RUIElements.RStyleLength RborderBottomRightRadius
+		protected RUnityEngine.RUIElements.RStyleLength r_PborderBottomRightRadius;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPborderBottomRightRadius
 		{
 			get
 			{
-				if(r_borderBottomRightRadius == null)
+				if(r_PborderBottomRightRadius == null)
 				{
-					r_borderBottomRightRadius = new(this, "borderBottomRightRadius", -1);
-					r_borderBottomRightRadius.SetBelong(this.instance);
+					r_PborderBottomRightRadius = new(this, "borderBottomRightRadius", -1);
+					r_PborderBottomRightRadius.SetBelong(this.instance);
 				}
-				return r_borderBottomRightRadius;
+				return r_PborderBottomRightRadius;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat borderBottomWidth
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_borderBottomWidth;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RborderBottomWidth
+		protected RUnityEngine.RUIElements.RStyleFloat r_PborderBottomWidth;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RPborderBottomWidth
 		{
 			get
 			{
-				if(r_borderBottomWidth == null)
+				if(r_PborderBottomWidth == null)
 				{
-					r_borderBottomWidth = new(this, "borderBottomWidth", -1);
-					r_borderBottomWidth.SetBelong(this.instance);
+					r_PborderBottomWidth = new(this, "borderBottomWidth", -1);
+					r_PborderBottomWidth.SetBelong(this.instance);
 				}
-				return r_borderBottomWidth;
+				return r_PborderBottomWidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor borderLeftColor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_borderLeftColor;
-		public virtual RUnityEngine.RUIElements.RStyleColor RborderLeftColor
+		protected RUnityEngine.RUIElements.RStyleColor r_PborderLeftColor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RPborderLeftColor
 		{
 			get
 			{
-				if(r_borderLeftColor == null)
+				if(r_PborderLeftColor == null)
 				{
-					r_borderLeftColor = new(this, "borderLeftColor", -1);
-					r_borderLeftColor.SetBelong(this.instance);
+					r_PborderLeftColor = new(this, "borderLeftColor", -1);
+					r_PborderLeftColor.SetBelong(this.instance);
 				}
-				return r_borderLeftColor;
+				return r_PborderLeftColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat borderLeftWidth
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_borderLeftWidth;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RborderLeftWidth
+		protected RUnityEngine.RUIElements.RStyleFloat r_PborderLeftWidth;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RPborderLeftWidth
 		{
 			get
 			{
-				if(r_borderLeftWidth == null)
+				if(r_PborderLeftWidth == null)
 				{
-					r_borderLeftWidth = new(this, "borderLeftWidth", -1);
-					r_borderLeftWidth.SetBelong(this.instance);
+					r_PborderLeftWidth = new(this, "borderLeftWidth", -1);
+					r_PborderLeftWidth.SetBelong(this.instance);
 				}
-				return r_borderLeftWidth;
+				return r_PborderLeftWidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor borderRightColor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_borderRightColor;
-		public virtual RUnityEngine.RUIElements.RStyleColor RborderRightColor
+		protected RUnityEngine.RUIElements.RStyleColor r_PborderRightColor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RPborderRightColor
 		{
 			get
 			{
-				if(r_borderRightColor == null)
+				if(r_PborderRightColor == null)
 				{
-					r_borderRightColor = new(this, "borderRightColor", -1);
-					r_borderRightColor.SetBelong(this.instance);
+					r_PborderRightColor = new(this, "borderRightColor", -1);
+					r_PborderRightColor.SetBelong(this.instance);
 				}
-				return r_borderRightColor;
+				return r_PborderRightColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat borderRightWidth
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_borderRightWidth;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RborderRightWidth
+		protected RUnityEngine.RUIElements.RStyleFloat r_PborderRightWidth;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RPborderRightWidth
 		{
 			get
 			{
-				if(r_borderRightWidth == null)
+				if(r_PborderRightWidth == null)
 				{
-					r_borderRightWidth = new(this, "borderRightWidth", -1);
-					r_borderRightWidth.SetBelong(this.instance);
+					r_PborderRightWidth = new(this, "borderRightWidth", -1);
+					r_PborderRightWidth.SetBelong(this.instance);
 				}
-				return r_borderRightWidth;
+				return r_PborderRightWidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor borderTopColor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_borderTopColor;
-		public virtual RUnityEngine.RUIElements.RStyleColor RborderTopColor
+		protected RUnityEngine.RUIElements.RStyleColor r_PborderTopColor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RPborderTopColor
 		{
 			get
 			{
-				if(r_borderTopColor == null)
+				if(r_PborderTopColor == null)
 				{
-					r_borderTopColor = new(this, "borderTopColor", -1);
-					r_borderTopColor.SetBelong(this.instance);
+					r_PborderTopColor = new(this, "borderTopColor", -1);
+					r_PborderTopColor.SetBelong(this.instance);
 				}
-				return r_borderTopColor;
+				return r_PborderTopColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength borderTopLeftRadius
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_borderTopLeftRadius;
-		public virtual RUnityEngine.RUIElements.RStyleLength RborderTopLeftRadius
+		protected RUnityEngine.RUIElements.RStyleLength r_PborderTopLeftRadius;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPborderTopLeftRadius
 		{
 			get
 			{
-				if(r_borderTopLeftRadius == null)
+				if(r_PborderTopLeftRadius == null)
 				{
-					r_borderTopLeftRadius = new(this, "borderTopLeftRadius", -1);
-					r_borderTopLeftRadius.SetBelong(this.instance);
+					r_PborderTopLeftRadius = new(this, "borderTopLeftRadius", -1);
+					r_PborderTopLeftRadius.SetBelong(this.instance);
 				}
-				return r_borderTopLeftRadius;
+				return r_PborderTopLeftRadius;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength borderTopRightRadius
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_borderTopRightRadius;
-		public virtual RUnityEngine.RUIElements.RStyleLength RborderTopRightRadius
+		protected RUnityEngine.RUIElements.RStyleLength r_PborderTopRightRadius;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPborderTopRightRadius
 		{
 			get
 			{
-				if(r_borderTopRightRadius == null)
+				if(r_PborderTopRightRadius == null)
 				{
-					r_borderTopRightRadius = new(this, "borderTopRightRadius", -1);
-					r_borderTopRightRadius.SetBelong(this.instance);
+					r_PborderTopRightRadius = new(this, "borderTopRightRadius", -1);
+					r_PborderTopRightRadius.SetBelong(this.instance);
 				}
-				return r_borderTopRightRadius;
+				return r_PborderTopRightRadius;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat borderTopWidth
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_borderTopWidth;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RborderTopWidth
+		protected RUnityEngine.RUIElements.RStyleFloat r_PborderTopWidth;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RPborderTopWidth
 		{
 			get
 			{
-				if(r_borderTopWidth == null)
+				if(r_PborderTopWidth == null)
 				{
-					r_borderTopWidth = new(this, "borderTopWidth", -1);
-					r_borderTopWidth.SetBelong(this.instance);
+					r_PborderTopWidth = new(this, "borderTopWidth", -1);
+					r_PborderTopWidth.SetBelong(this.instance);
 				}
-				return r_borderTopWidth;
+				return r_PborderTopWidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength bottom
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_bottom;
-		public virtual RUnityEngine.RUIElements.RStyleLength Rbottom
+		protected RUnityEngine.RUIElements.RStyleLength r_Pbottom;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPbottom
 		{
 			get
 			{
-				if(r_bottom == null)
+				if(r_Pbottom == null)
 				{
-					r_bottom = new(this, "bottom", -1);
-					r_bottom.SetBelong(this.instance);
+					r_Pbottom = new(this, "bottom", -1);
+					r_Pbottom.SetBelong(this.instance);
 				}
-				return r_bottom;
+				return r_Pbottom;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor color
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_color;
-		public virtual RUnityEngine.RUIElements.RStyleColor Rcolor
+		protected RUnityEngine.RUIElements.RStyleColor r_Pcolor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RPcolor
 		{
 			get
 			{
-				if(r_color == null)
+				if(r_Pcolor == null)
 				{
-					r_color = new(this, "color", -1);
-					r_color.SetBelong(this.instance);
+					r_Pcolor = new(this, "color", -1);
+					r_Pcolor.SetBelong(this.instance);
 				}
-				return r_color;
+				return r_Pcolor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleCursor cursor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleCursor r_cursor;
-		public virtual RUnityEngine.RUIElements.RStyleCursor Rcursor
+		protected RUnityEngine.RUIElements.RStyleCursor r_Pcursor;
+		public virtual RUnityEngine.RUIElements.RStyleCursor RPcursor
 		{
 			get
 			{
-				if(r_cursor == null)
+				if(r_Pcursor == null)
 				{
-					r_cursor = new(this, "cursor", -1);
-					r_cursor.SetBelong(this.instance);
+					r_Pcursor = new(this, "cursor", -1);
+					r_Pcursor.SetBelong(this.instance);
 				}
-				return r_cursor;
+				return r_Pcursor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.DisplayStyle] display
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_display;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> Rdisplay
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RDisplayStyle> r_Pdisplay;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RDisplayStyle> RPdisplay
 		{
 			get
 			{
-				if(r_display == null)
+				if(r_Pdisplay == null)
 				{
-					r_display = new(this, "display", -1);
-					r_display.SetBelong(this.instance);
+					r_Pdisplay = new(this, "display", -1);
+					r_Pdisplay.SetBelong(this.instance);
 				}
-				return r_display;
+				return r_Pdisplay;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength flexBasis
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_flexBasis;
-		public virtual RUnityEngine.RUIElements.RStyleLength RflexBasis
+		protected RUnityEngine.RUIElements.RStyleLength r_PflexBasis;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPflexBasis
 		{
 			get
 			{
-				if(r_flexBasis == null)
+				if(r_PflexBasis == null)
 				{
-					r_flexBasis = new(this, "flexBasis", -1);
-					r_flexBasis.SetBelong(this.instance);
+					r_PflexBasis = new(this, "flexBasis", -1);
+					r_PflexBasis.SetBelong(this.instance);
 				}
-				return r_flexBasis;
+				return r_PflexBasis;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.FlexDirection] flexDirection
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_flexDirection;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RflexDirection
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RFlexDirection> r_PflexDirection;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RFlexDirection> RPflexDirection
 		{
 			get
 			{
-				if(r_flexDirection == null)
+				if(r_PflexDirection == null)
 				{
-					r_flexDirection = new(this, "flexDirection", -1);
-					r_flexDirection.SetBelong(this.instance);
+					r_PflexDirection = new(this, "flexDirection", -1);
+					r_PflexDirection.SetBelong(this.instance);
 				}
-				return r_flexDirection;
+				return r_PflexDirection;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat flexGrow
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_flexGrow;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RflexGrow
+		protected RUnityEngine.RUIElements.RStyleFloat r_PflexGrow;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RPflexGrow
 		{
 			get
 			{
-				if(r_flexGrow == null)
+				if(r_PflexGrow == null)
 				{
-					r_flexGrow = new(this, "flexGrow", -1);
-					r_flexGrow.SetBelong(this.instance);
+					r_PflexGrow = new(this, "flexGrow", -1);
+					r_PflexGrow.SetBelong(this.instance);
 				}
-				return r_flexGrow;
+				return r_PflexGrow;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat flexShrink
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_flexShrink;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RflexShrink
+		protected RUnityEngine.RUIElements.RStyleFloat r_PflexShrink;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RPflexShrink
 		{
 			get
 			{
-				if(r_flexShrink == null)
+				if(r_PflexShrink == null)
 				{
-					r_flexShrink = new(this, "flexShrink", -1);
-					r_flexShrink.SetBelong(this.instance);
+					r_PflexShrink = new(this, "flexShrink", -1);
+					r_PflexShrink.SetBelong(this.instance);
 				}
-				return r_flexShrink;
+				return r_PflexShrink;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Wrap] flexWrap
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_flexWrap;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RflexWrap
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RWrap> r_PflexWrap;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RWrap> RPflexWrap
 		{
 			get
 			{
-				if(r_flexWrap == null)
+				if(r_PflexWrap == null)
 				{
-					r_flexWrap = new(this, "flexWrap", -1);
-					r_flexWrap.SetBelong(this.instance);
+					r_PflexWrap = new(this, "flexWrap", -1);
+					r_PflexWrap.SetBelong(this.instance);
 				}
-				return r_flexWrap;
+				return r_PflexWrap;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength fontSize
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_fontSize;
-		public virtual RUnityEngine.RUIElements.RStyleLength RfontSize
+		protected RUnityEngine.RUIElements.RStyleLength r_PfontSize;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPfontSize
 		{
 			get
 			{
-				if(r_fontSize == null)
+				if(r_PfontSize == null)
 				{
-					r_fontSize = new(this, "fontSize", -1);
-					r_fontSize.SetBelong(this.instance);
+					r_PfontSize = new(this, "fontSize", -1);
+					r_PfontSize.SetBelong(this.instance);
 				}
-				return r_fontSize;
+				return r_PfontSize;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength height
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_height;
-		public virtual RUnityEngine.RUIElements.RStyleLength Rheight
+		protected RUnityEngine.RUIElements.RStyleLength r_Pheight;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPheight
 		{
 			get
 			{
-				if(r_height == null)
+				if(r_Pheight == null)
 				{
-					r_height = new(this, "height", -1);
-					r_height.SetBelong(this.instance);
+					r_Pheight = new(this, "height", -1);
+					r_Pheight.SetBelong(this.instance);
 				}
-				return r_height;
+				return r_Pheight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Justify] justifyContent
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_justifyContent;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RjustifyContent
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RJustify> r_PjustifyContent;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RJustify> RPjustifyContent
 		{
 			get
 			{
-				if(r_justifyContent == null)
+				if(r_PjustifyContent == null)
 				{
-					r_justifyContent = new(this, "justifyContent", -1);
-					r_justifyContent.SetBelong(this.instance);
+					r_PjustifyContent = new(this, "justifyContent", -1);
+					r_PjustifyContent.SetBelong(this.instance);
 				}
-				return r_justifyContent;
+				return r_PjustifyContent;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength left
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_left;
-		public virtual RUnityEngine.RUIElements.RStyleLength Rleft
+		protected RUnityEngine.RUIElements.RStyleLength r_Pleft;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPleft
 		{
 			get
 			{
-				if(r_left == null)
+				if(r_Pleft == null)
 				{
-					r_left = new(this, "left", -1);
-					r_left.SetBelong(this.instance);
+					r_Pleft = new(this, "left", -1);
+					r_Pleft.SetBelong(this.instance);
 				}
-				return r_left;
+				return r_Pleft;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength letterSpacing
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_letterSpacing;
-		public virtual RUnityEngine.RUIElements.RStyleLength RletterSpacing
+		protected RUnityEngine.RUIElements.RStyleLength r_PletterSpacing;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPletterSpacing
 		{
 			get
 			{
-				if(r_letterSpacing == null)
+				if(r_PletterSpacing == null)
 				{
-					r_letterSpacing = new(this, "letterSpacing", -1);
-					r_letterSpacing.SetBelong(this.instance);
+					r_PletterSpacing = new(this, "letterSpacing", -1);
+					r_PletterSpacing.SetBelong(this.instance);
 				}
-				return r_letterSpacing;
+				return r_PletterSpacing;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength marginBottom
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_marginBottom;
-		public virtual RUnityEngine.RUIElements.RStyleLength RmarginBottom
+		protected RUnityEngine.RUIElements.RStyleLength r_PmarginBottom;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPmarginBottom
 		{
 			get
 			{
-				if(r_marginBottom == null)
+				if(r_PmarginBottom == null)
 				{
-					r_marginBottom = new(this, "marginBottom", -1);
-					r_marginBottom.SetBelong(this.instance);
+					r_PmarginBottom = new(this, "marginBottom", -1);
+					r_PmarginBottom.SetBelong(this.instance);
 				}
-				return r_marginBottom;
+				return r_PmarginBottom;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength marginLeft
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_marginLeft;
-		public virtual RUnityEngine.RUIElements.RStyleLength RmarginLeft
+		protected RUnityEngine.RUIElements.RStyleLength r_PmarginLeft;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPmarginLeft
 		{
 			get
 			{
-				if(r_marginLeft == null)
+				if(r_PmarginLeft == null)
 				{
-					r_marginLeft = new(this, "marginLeft", -1);
-					r_marginLeft.SetBelong(this.instance);
+					r_PmarginLeft = new(this, "marginLeft", -1);
+					r_PmarginLeft.SetBelong(this.instance);
 				}
-				return r_marginLeft;
+				return r_PmarginLeft;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength marginRight
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_marginRight;
-		public virtual RUnityEngine.RUIElements.RStyleLength RmarginRight
+		protected RUnityEngine.RUIElements.RStyleLength r_PmarginRight;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPmarginRight
 		{
 			get
 			{
-				if(r_marginRight == null)
+				if(r_PmarginRight == null)
 				{
-					r_marginRight = new(this, "marginRight", -1);
-					r_marginRight.SetBelong(this.instance);
+					r_PmarginRight = new(this, "marginRight", -1);
+					r_PmarginRight.SetBelong(this.instance);
 				}
-				return r_marginRight;
+				return r_PmarginRight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength marginTop
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_marginTop;
-		public virtual RUnityEngine.RUIElements.RStyleLength RmarginTop
+		protected RUnityEngine.RUIElements.RStyleLength r_PmarginTop;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPmarginTop
 		{
 			get
 			{
-				if(r_marginTop == null)
+				if(r_PmarginTop == null)
 				{
-					r_marginTop = new(this, "marginTop", -1);
-					r_marginTop.SetBelong(this.instance);
+					r_PmarginTop = new(this, "marginTop", -1);
+					r_PmarginTop.SetBelong(this.instance);
 				}
-				return r_marginTop;
+				return r_PmarginTop;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength maxHeight
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_maxHeight;
-		public virtual RUnityEngine.RUIElements.RStyleLength RmaxHeight
+		protected RUnityEngine.RUIElements.RStyleLength r_PmaxHeight;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPmaxHeight
 		{
 			get
 			{
-				if(r_maxHeight == null)
+				if(r_PmaxHeight == null)
 				{
-					r_maxHeight = new(this, "maxHeight", -1);
-					r_maxHeight.SetBelong(this.instance);
+					r_PmaxHeight = new(this, "maxHeight", -1);
+					r_PmaxHeight.SetBelong(this.instance);
 				}
-				return r_maxHeight;
+				return r_PmaxHeight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength maxWidth
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_maxWidth;
-		public virtual RUnityEngine.RUIElements.RStyleLength RmaxWidth
+		protected RUnityEngine.RUIElements.RStyleLength r_PmaxWidth;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPmaxWidth
 		{
 			get
 			{
-				if(r_maxWidth == null)
+				if(r_PmaxWidth == null)
 				{
-					r_maxWidth = new(this, "maxWidth", -1);
-					r_maxWidth.SetBelong(this.instance);
+					r_PmaxWidth = new(this, "maxWidth", -1);
+					r_PmaxWidth.SetBelong(this.instance);
 				}
-				return r_maxWidth;
+				return r_PmaxWidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength minHeight
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_minHeight;
-		public virtual RUnityEngine.RUIElements.RStyleLength RminHeight
+		protected RUnityEngine.RUIElements.RStyleLength r_PminHeight;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPminHeight
 		{
 			get
 			{
-				if(r_minHeight == null)
+				if(r_PminHeight == null)
 				{
-					r_minHeight = new(this, "minHeight", -1);
-					r_minHeight.SetBelong(this.instance);
+					r_PminHeight = new(this, "minHeight", -1);
+					r_PminHeight.SetBelong(this.instance);
 				}
-				return r_minHeight;
+				return r_PminHeight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength minWidth
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_minWidth;
-		public virtual RUnityEngine.RUIElements.RStyleLength RminWidth
+		protected RUnityEngine.RUIElements.RStyleLength r_PminWidth;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPminWidth
 		{
 			get
 			{
-				if(r_minWidth == null)
+				if(r_PminWidth == null)
 				{
-					r_minWidth = new(this, "minWidth", -1);
-					r_minWidth.SetBelong(this.instance);
+					r_PminWidth = new(this, "minWidth", -1);
+					r_PminWidth.SetBelong(this.instance);
 				}
-				return r_minWidth;
+				return r_PminWidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat opacity
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_opacity;
-		public virtual RUnityEngine.RUIElements.RStyleFloat Ropacity
+		protected RUnityEngine.RUIElements.RStyleFloat r_Popacity;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RPopacity
 		{
 			get
 			{
-				if(r_opacity == null)
+				if(r_Popacity == null)
 				{
-					r_opacity = new(this, "opacity", -1);
-					r_opacity.SetBelong(this.instance);
+					r_Popacity = new(this, "opacity", -1);
+					r_Popacity.SetBelong(this.instance);
 				}
-				return r_opacity;
+				return r_Popacity;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Overflow] overflow
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_overflow;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> Roverflow
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.ROverflow> r_Poverflow;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.ROverflow> RPoverflow
 		{
 			get
 			{
-				if(r_overflow == null)
+				if(r_Poverflow == null)
 				{
-					r_overflow = new(this, "overflow", -1);
-					r_overflow.SetBelong(this.instance);
+					r_Poverflow = new(this, "overflow", -1);
+					r_Poverflow.SetBelong(this.instance);
 				}
-				return r_overflow;
+				return r_Poverflow;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength paddingBottom
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_paddingBottom;
-		public virtual RUnityEngine.RUIElements.RStyleLength RpaddingBottom
+		protected RUnityEngine.RUIElements.RStyleLength r_PpaddingBottom;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPpaddingBottom
 		{
 			get
 			{
-				if(r_paddingBottom == null)
+				if(r_PpaddingBottom == null)
 				{
-					r_paddingBottom = new(this, "paddingBottom", -1);
-					r_paddingBottom.SetBelong(this.instance);
+					r_PpaddingBottom = new(this, "paddingBottom", -1);
+					r_PpaddingBottom.SetBelong(this.instance);
 				}
-				return r_paddingBottom;
+				return r_PpaddingBottom;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength paddingLeft
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_paddingLeft;
-		public virtual RUnityEngine.RUIElements.RStyleLength RpaddingLeft
+		protected RUnityEngine.RUIElements.RStyleLength r_PpaddingLeft;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPpaddingLeft
 		{
 			get
 			{
-				if(r_paddingLeft == null)
+				if(r_PpaddingLeft == null)
 				{
-					r_paddingLeft = new(this, "paddingLeft", -1);
-					r_paddingLeft.SetBelong(this.instance);
+					r_PpaddingLeft = new(this, "paddingLeft", -1);
+					r_PpaddingLeft.SetBelong(this.instance);
 				}
-				return r_paddingLeft;
+				return r_PpaddingLeft;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength paddingRight
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_paddingRight;
-		public virtual RUnityEngine.RUIElements.RStyleLength RpaddingRight
+		protected RUnityEngine.RUIElements.RStyleLength r_PpaddingRight;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPpaddingRight
 		{
 			get
 			{
-				if(r_paddingRight == null)
+				if(r_PpaddingRight == null)
 				{
-					r_paddingRight = new(this, "paddingRight", -1);
-					r_paddingRight.SetBelong(this.instance);
+					r_PpaddingRight = new(this, "paddingRight", -1);
+					r_PpaddingRight.SetBelong(this.instance);
 				}
-				return r_paddingRight;
+				return r_PpaddingRight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength paddingTop
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_paddingTop;
-		public virtual RUnityEngine.RUIElements.RStyleLength RpaddingTop
+		protected RUnityEngine.RUIElements.RStyleLength r_PpaddingTop;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPpaddingTop
 		{
 			get
 			{
-				if(r_paddingTop == null)
+				if(r_PpaddingTop == null)
 				{
-					r_paddingTop = new(this, "paddingTop", -1);
-					r_paddingTop.SetBelong(this.instance);
+					r_PpaddingTop = new(this, "paddingTop", -1);
+					r_PpaddingTop.SetBelong(this.instance);
 				}
-				return r_paddingTop;
+				return r_PpaddingTop;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Position] position
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_position;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> Rposition
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RPosition> r_Pposition;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RPosition> RPposition
 		{
 			get
 			{
-				if(r_position == null)
+				if(r_Pposition == null)
 				{
-					r_position = new(this, "position", -1);
-					r_position.SetBelong(this.instance);
+					r_Pposition = new(this, "position", -1);
+					r_Pposition.SetBelong(this.instance);
 				}
-				return r_position;
+				return r_Pposition;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength right
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_right;
-		public virtual RUnityEngine.RUIElements.RStyleLength Rright
+		protected RUnityEngine.RUIElements.RStyleLength r_Pright;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPright
 		{
 			get
 			{
-				if(r_right == null)
+				if(r_Pright == null)
 				{
-					r_right = new(this, "right", -1);
-					r_right.SetBelong(this.instance);
+					r_Pright = new(this, "right", -1);
+					r_Pright.SetBelong(this.instance);
 				}
-				return r_right;
+				return r_Pright;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleRotate rotate
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleRotate r_rotate;
-		public virtual RUnityEngine.RUIElements.RStyleRotate Rrotate
+		protected RUnityEngine.RUIElements.RStyleRotate r_Protate;
+		public virtual RUnityEngine.RUIElements.RStyleRotate RProtate
 		{
 			get
 			{
-				if(r_rotate == null)
+				if(r_Protate == null)
 				{
-					r_rotate = new(this, "rotate", -1);
-					r_rotate.SetBelong(this.instance);
+					r_Protate = new(this, "rotate", -1);
+					r_Protate.SetBelong(this.instance);
 				}
-				return r_rotate;
+				return r_Protate;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleScale scale
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleScale r_scale;
-		public virtual RUnityEngine.RUIElements.RStyleScale Rscale
+		protected RUnityEngine.RUIElements.RStyleScale r_Pscale;
+		public virtual RUnityEngine.RUIElements.RStyleScale RPscale
 		{
 			get
 			{
-				if(r_scale == null)
+				if(r_Pscale == null)
 				{
-					r_scale = new(this, "scale", -1);
-					r_scale.SetBelong(this.instance);
+					r_Pscale = new(this, "scale", -1);
+					r_Pscale.SetBelong(this.instance);
 				}
-				return r_scale;
+				return r_Pscale;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.TextOverflow] textOverflow
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_textOverflow;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RtextOverflow
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RTextOverflow> r_PtextOverflow;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RTextOverflow> RPtextOverflow
 		{
 			get
 			{
-				if(r_textOverflow == null)
+				if(r_PtextOverflow == null)
 				{
-					r_textOverflow = new(this, "textOverflow", -1);
-					r_textOverflow.SetBelong(this.instance);
+					r_PtextOverflow = new(this, "textOverflow", -1);
+					r_PtextOverflow.SetBelong(this.instance);
 				}
-				return r_textOverflow;
+				return r_PtextOverflow;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleTextShadow textShadow
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleTextShadow r_textShadow;
-		public virtual RUnityEngine.RUIElements.RStyleTextShadow RtextShadow
+		protected RUnityEngine.RUIElements.RStyleTextShadow r_PtextShadow;
+		public virtual RUnityEngine.RUIElements.RStyleTextShadow RPtextShadow
 		{
 			get
 			{
-				if(r_textShadow == null)
+				if(r_PtextShadow == null)
 				{
-					r_textShadow = new(this, "textShadow", -1);
-					r_textShadow.SetBelong(this.instance);
+					r_PtextShadow = new(this, "textShadow", -1);
+					r_PtextShadow.SetBelong(this.instance);
 				}
-				return r_textShadow;
+				return r_PtextShadow;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength top
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_top;
-		public virtual RUnityEngine.RUIElements.RStyleLength Rtop
+		protected RUnityEngine.RUIElements.RStyleLength r_Ptop;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPtop
 		{
 			get
 			{
-				if(r_top == null)
+				if(r_Ptop == null)
 				{
-					r_top = new(this, "top", -1);
-					r_top.SetBelong(this.instance);
+					r_Ptop = new(this, "top", -1);
+					r_Ptop.SetBelong(this.instance);
 				}
-				return r_top;
+				return r_Ptop;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleTransformOrigin transformOrigin
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleTransformOrigin r_transformOrigin;
-		public virtual RUnityEngine.RUIElements.RStyleTransformOrigin RtransformOrigin
+		protected RUnityEngine.RUIElements.RStyleTransformOrigin r_PtransformOrigin;
+		public virtual RUnityEngine.RUIElements.RStyleTransformOrigin RPtransformOrigin
 		{
 			get
 			{
-				if(r_transformOrigin == null)
+				if(r_PtransformOrigin == null)
 				{
-					r_transformOrigin = new(this, "transformOrigin", -1);
-					r_transformOrigin.SetBelong(this.instance);
+					r_PtransformOrigin = new(this, "transformOrigin", -1);
+					r_PtransformOrigin.SetBelong(this.instance);
 				}
-				return r_transformOrigin;
+				return r_PtransformOrigin;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleList`1[UnityEngine.UIElements.TimeValue] transitionDelay
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> r_transitionDelay;
-		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> RtransitionDelay
+		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> r_PtransitionDelay;
+		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> RPtransitionDelay
 		{
 			get
 			{
-				if(r_transitionDelay == null)
+				if(r_PtransitionDelay == null)
 				{
-					r_transitionDelay = new(this, "transitionDelay", -1);
-					r_transitionDelay.SetBelong(this.instance);
+					r_PtransitionDelay = new(this, "transitionDelay", -1);
+					r_PtransitionDelay.SetBelong(this.instance);
 				}
-				return r_transitionDelay;
+				return r_PtransitionDelay;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleList`1[UnityEngine.UIElements.TimeValue] transitionDuration
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> r_transitionDuration;
-		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> RtransitionDuration
+		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> r_PtransitionDuration;
+		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> RPtransitionDuration
 		{
 			get
 			{
-				if(r_transitionDuration == null)
+				if(r_PtransitionDuration == null)
 				{
-					r_transitionDuration = new(this, "transitionDuration", -1);
-					r_transitionDuration.SetBelong(this.instance);
+					r_PtransitionDuration = new(this, "transitionDuration", -1);
+					r_PtransitionDuration.SetBelong(this.instance);
 				}
-				return r_transitionDuration;
+				return r_PtransitionDuration;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleList`1[UnityEngine.UIElements.StylePropertyName] transitionProperty
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RStylePropertyName> r_transitionProperty;
-		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RStylePropertyName> RtransitionProperty
+		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RStylePropertyName> r_PtransitionProperty;
+		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RStylePropertyName> RPtransitionProperty
 		{
 			get
 			{
-				if(r_transitionProperty == null)
+				if(r_PtransitionProperty == null)
 				{
-					r_transitionProperty = new(this, "transitionProperty", -1);
-					r_transitionProperty.SetBelong(this.instance);
+					r_PtransitionProperty = new(this, "transitionProperty", -1);
+					r_PtransitionProperty.SetBelong(this.instance);
 				}
-				return r_transitionProperty;
+				return r_PtransitionProperty;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleList`1[UnityEngine.UIElements.EasingFunction] transitionTimingFunction
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.REasingFunction> r_transitionTimingFunction;
-		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.REasingFunction> RtransitionTimingFunction
+		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.REasingFunction> r_PtransitionTimingFunction;
+		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.REasingFunction> RPtransitionTimingFunction
 		{
 			get
 			{
-				if(r_transitionTimingFunction == null)
+				if(r_PtransitionTimingFunction == null)
 				{
-					r_transitionTimingFunction = new(this, "transitionTimingFunction", -1);
-					r_transitionTimingFunction.SetBelong(this.instance);
+					r_PtransitionTimingFunction = new(this, "transitionTimingFunction", -1);
+					r_PtransitionTimingFunction.SetBelong(this.instance);
 				}
-				return r_transitionTimingFunction;
+				return r_PtransitionTimingFunction;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleTranslate translate
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleTranslate r_translate;
-		public virtual RUnityEngine.RUIElements.RStyleTranslate Rtranslate
+		protected RUnityEngine.RUIElements.RStyleTranslate r_Ptranslate;
+		public virtual RUnityEngine.RUIElements.RStyleTranslate RPtranslate
 		{
 			get
 			{
-				if(r_translate == null)
+				if(r_Ptranslate == null)
 				{
-					r_translate = new(this, "translate", -1);
-					r_translate.SetBelong(this.instance);
+					r_Ptranslate = new(this, "translate", -1);
+					r_Ptranslate.SetBelong(this.instance);
 				}
-				return r_translate;
+				return r_Ptranslate;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor unityBackgroundImageTintColor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_unityBackgroundImageTintColor;
-		public virtual RUnityEngine.RUIElements.RStyleColor RunityBackgroundImageTintColor
+		protected RUnityEngine.RUIElements.RStyleColor r_PunityBackgroundImageTintColor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RPunityBackgroundImageTintColor
 		{
 			get
 			{
-				if(r_unityBackgroundImageTintColor == null)
+				if(r_PunityBackgroundImageTintColor == null)
 				{
-					r_unityBackgroundImageTintColor = new(this, "unityBackgroundImageTintColor", -1);
-					r_unityBackgroundImageTintColor.SetBelong(this.instance);
+					r_PunityBackgroundImageTintColor = new(this, "unityBackgroundImageTintColor", -1);
+					r_PunityBackgroundImageTintColor.SetBelong(this.instance);
 				}
-				return r_unityBackgroundImageTintColor;
+				return r_PunityBackgroundImageTintColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFont unityFont
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFont r_unityFont;
-		public virtual RUnityEngine.RUIElements.RStyleFont RunityFont
+		protected RUnityEngine.RUIElements.RStyleFont r_PunityFont;
+		public virtual RUnityEngine.RUIElements.RStyleFont RPunityFont
 		{
 			get
 			{
-				if(r_unityFont == null)
+				if(r_PunityFont == null)
 				{
-					r_unityFont = new(this, "unityFont", -1);
-					r_unityFont.SetBelong(this.instance);
+					r_PunityFont = new(this, "unityFont", -1);
+					r_PunityFont.SetBelong(this.instance);
 				}
-				return r_unityFont;
+				return r_PunityFont;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFontDefinition unityFontDefinition
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFontDefinition r_unityFontDefinition;
-		public virtual RUnityEngine.RUIElements.RStyleFontDefinition RunityFontDefinition
+		protected RUnityEngine.RUIElements.RStyleFontDefinition r_PunityFontDefinition;
+		public virtual RUnityEngine.RUIElements.RStyleFontDefinition RPunityFontDefinition
 		{
 			get
 			{
-				if(r_unityFontDefinition == null)
+				if(r_PunityFontDefinition == null)
 				{
-					r_unityFontDefinition = new(this, "unityFontDefinition", -1);
-					r_unityFontDefinition.SetBelong(this.instance);
+					r_PunityFontDefinition = new(this, "unityFontDefinition", -1);
+					r_PunityFontDefinition.SetBelong(this.instance);
 				}
-				return r_unityFontDefinition;
+				return r_PunityFontDefinition;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.FontStyle] unityFontStyleAndWeight
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_unityFontStyleAndWeight;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RunityFontStyleAndWeight
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RFontStyle> r_PunityFontStyleAndWeight;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RFontStyle> RPunityFontStyleAndWeight
 		{
 			get
 			{
-				if(r_unityFontStyleAndWeight == null)
+				if(r_PunityFontStyleAndWeight == null)
 				{
-					r_unityFontStyleAndWeight = new(this, "unityFontStyleAndWeight", -1);
-					r_unityFontStyleAndWeight.SetBelong(this.instance);
+					r_PunityFontStyleAndWeight = new(this, "unityFontStyleAndWeight", -1);
+					r_PunityFontStyleAndWeight.SetBelong(this.instance);
 				}
-				return r_unityFontStyleAndWeight;
+				return r_PunityFontStyleAndWeight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.OverflowClipBox] unityOverflowClipBox
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_unityOverflowClipBox;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RunityOverflowClipBox
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.ROverflowClipBox> r_PunityOverflowClipBox;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.ROverflowClipBox> RPunityOverflowClipBox
 		{
 			get
 			{
-				if(r_unityOverflowClipBox == null)
+				if(r_PunityOverflowClipBox == null)
 				{
-					r_unityOverflowClipBox = new(this, "unityOverflowClipBox", -1);
-					r_unityOverflowClipBox.SetBelong(this.instance);
+					r_PunityOverflowClipBox = new(this, "unityOverflowClipBox", -1);
+					r_PunityOverflowClipBox.SetBelong(this.instance);
 				}
-				return r_unityOverflowClipBox;
+				return r_PunityOverflowClipBox;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength unityParagraphSpacing
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_unityParagraphSpacing;
-		public virtual RUnityEngine.RUIElements.RStyleLength RunityParagraphSpacing
+		protected RUnityEngine.RUIElements.RStyleLength r_PunityParagraphSpacing;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPunityParagraphSpacing
 		{
 			get
 			{
-				if(r_unityParagraphSpacing == null)
+				if(r_PunityParagraphSpacing == null)
 				{
-					r_unityParagraphSpacing = new(this, "unityParagraphSpacing", -1);
-					r_unityParagraphSpacing.SetBelong(this.instance);
+					r_PunityParagraphSpacing = new(this, "unityParagraphSpacing", -1);
+					r_PunityParagraphSpacing.SetBelong(this.instance);
 				}
-				return r_unityParagraphSpacing;
+				return r_PunityParagraphSpacing;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleInt unitySliceBottom
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleInt r_unitySliceBottom;
-		public virtual RUnityEngine.RUIElements.RStyleInt RunitySliceBottom
+		protected RUnityEngine.RUIElements.RStyleInt r_PunitySliceBottom;
+		public virtual RUnityEngine.RUIElements.RStyleInt RPunitySliceBottom
 		{
 			get
 			{
-				if(r_unitySliceBottom == null)
+				if(r_PunitySliceBottom == null)
 				{
-					r_unitySliceBottom = new(this, "unitySliceBottom", -1);
-					r_unitySliceBottom.SetBelong(this.instance);
+					r_PunitySliceBottom = new(this, "unitySliceBottom", -1);
+					r_PunitySliceBottom.SetBelong(this.instance);
 				}
-				return r_unitySliceBottom;
+				return r_PunitySliceBottom;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleInt unitySliceLeft
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleInt r_unitySliceLeft;
-		public virtual RUnityEngine.RUIElements.RStyleInt RunitySliceLeft
+		protected RUnityEngine.RUIElements.RStyleInt r_PunitySliceLeft;
+		public virtual RUnityEngine.RUIElements.RStyleInt RPunitySliceLeft
 		{
 			get
 			{
-				if(r_unitySliceLeft == null)
+				if(r_PunitySliceLeft == null)
 				{
-					r_unitySliceLeft = new(this, "unitySliceLeft", -1);
-					r_unitySliceLeft.SetBelong(this.instance);
+					r_PunitySliceLeft = new(this, "unitySliceLeft", -1);
+					r_PunitySliceLeft.SetBelong(this.instance);
 				}
-				return r_unitySliceLeft;
+				return r_PunitySliceLeft;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleInt unitySliceRight
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleInt r_unitySliceRight;
-		public virtual RUnityEngine.RUIElements.RStyleInt RunitySliceRight
+		protected RUnityEngine.RUIElements.RStyleInt r_PunitySliceRight;
+		public virtual RUnityEngine.RUIElements.RStyleInt RPunitySliceRight
 		{
 			get
 			{
-				if(r_unitySliceRight == null)
+				if(r_PunitySliceRight == null)
 				{
-					r_unitySliceRight = new(this, "unitySliceRight", -1);
-					r_unitySliceRight.SetBelong(this.instance);
+					r_PunitySliceRight = new(this, "unitySliceRight", -1);
+					r_PunitySliceRight.SetBelong(this.instance);
 				}
-				return r_unitySliceRight;
+				return r_PunitySliceRight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat unitySliceScale
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_unitySliceScale;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RunitySliceScale
+		protected RUnityEngine.RUIElements.RStyleFloat r_PunitySliceScale;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RPunitySliceScale
 		{
 			get
 			{
-				if(r_unitySliceScale == null)
+				if(r_PunitySliceScale == null)
 				{
-					r_unitySliceScale = new(this, "unitySliceScale", -1);
-					r_unitySliceScale.SetBelong(this.instance);
+					r_PunitySliceScale = new(this, "unitySliceScale", -1);
+					r_PunitySliceScale.SetBelong(this.instance);
 				}
-				return r_unitySliceScale;
+				return r_PunitySliceScale;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleInt unitySliceTop
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleInt r_unitySliceTop;
-		public virtual RUnityEngine.RUIElements.RStyleInt RunitySliceTop
+		protected RUnityEngine.RUIElements.RStyleInt r_PunitySliceTop;
+		public virtual RUnityEngine.RUIElements.RStyleInt RPunitySliceTop
 		{
 			get
 			{
-				if(r_unitySliceTop == null)
+				if(r_PunitySliceTop == null)
 				{
-					r_unitySliceTop = new(this, "unitySliceTop", -1);
-					r_unitySliceTop.SetBelong(this.instance);
+					r_PunitySliceTop = new(this, "unitySliceTop", -1);
+					r_PunitySliceTop.SetBelong(this.instance);
 				}
-				return r_unitySliceTop;
+				return r_PunitySliceTop;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.TextAnchor] unityTextAlign
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_unityTextAlign;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RunityTextAlign
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RTextAnchor> r_PunityTextAlign;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RTextAnchor> RPunityTextAlign
 		{
 			get
 			{
-				if(r_unityTextAlign == null)
+				if(r_PunityTextAlign == null)
 				{
-					r_unityTextAlign = new(this, "unityTextAlign", -1);
-					r_unityTextAlign.SetBelong(this.instance);
+					r_PunityTextAlign = new(this, "unityTextAlign", -1);
+					r_PunityTextAlign.SetBelong(this.instance);
 				}
-				return r_unityTextAlign;
+				return r_PunityTextAlign;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor unityTextOutlineColor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_unityTextOutlineColor;
-		public virtual RUnityEngine.RUIElements.RStyleColor RunityTextOutlineColor
+		protected RUnityEngine.RUIElements.RStyleColor r_PunityTextOutlineColor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RPunityTextOutlineColor
 		{
 			get
 			{
-				if(r_unityTextOutlineColor == null)
+				if(r_PunityTextOutlineColor == null)
 				{
-					r_unityTextOutlineColor = new(this, "unityTextOutlineColor", -1);
-					r_unityTextOutlineColor.SetBelong(this.instance);
+					r_PunityTextOutlineColor = new(this, "unityTextOutlineColor", -1);
+					r_PunityTextOutlineColor.SetBelong(this.instance);
 				}
-				return r_unityTextOutlineColor;
+				return r_PunityTextOutlineColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat unityTextOutlineWidth
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_unityTextOutlineWidth;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RunityTextOutlineWidth
+		protected RUnityEngine.RUIElements.RStyleFloat r_PunityTextOutlineWidth;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RPunityTextOutlineWidth
 		{
 			get
 			{
-				if(r_unityTextOutlineWidth == null)
+				if(r_PunityTextOutlineWidth == null)
 				{
-					r_unityTextOutlineWidth = new(this, "unityTextOutlineWidth", -1);
-					r_unityTextOutlineWidth.SetBelong(this.instance);
+					r_PunityTextOutlineWidth = new(this, "unityTextOutlineWidth", -1);
+					r_PunityTextOutlineWidth.SetBelong(this.instance);
 				}
-				return r_unityTextOutlineWidth;
+				return r_PunityTextOutlineWidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.TextOverflowPosition] unityTextOverflowPosition
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_unityTextOverflowPosition;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RunityTextOverflowPosition
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RTextOverflowPosition> r_PunityTextOverflowPosition;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RTextOverflowPosition> RPunityTextOverflowPosition
 		{
 			get
 			{
-				if(r_unityTextOverflowPosition == null)
+				if(r_PunityTextOverflowPosition == null)
 				{
-					r_unityTextOverflowPosition = new(this, "unityTextOverflowPosition", -1);
-					r_unityTextOverflowPosition.SetBelong(this.instance);
+					r_PunityTextOverflowPosition = new(this, "unityTextOverflowPosition", -1);
+					r_PunityTextOverflowPosition.SetBelong(this.instance);
 				}
-				return r_unityTextOverflowPosition;
+				return r_PunityTextOverflowPosition;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Visibility] visibility
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_visibility;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> Rvisibility
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RVisibility> r_Pvisibility;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RVisibility> RPvisibility
 		{
 			get
 			{
-				if(r_visibility == null)
+				if(r_Pvisibility == null)
 				{
-					r_visibility = new(this, "visibility", -1);
-					r_visibility.SetBelong(this.instance);
+					r_Pvisibility = new(this, "visibility", -1);
+					r_Pvisibility.SetBelong(this.instance);
 				}
-				return r_visibility;
+				return r_Pvisibility;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.WhiteSpace] whiteSpace
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_whiteSpace;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RwhiteSpace
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RWhiteSpace> r_PwhiteSpace;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RUIElements.RWhiteSpace> RPwhiteSpace
 		{
 			get
 			{
-				if(r_whiteSpace == null)
+				if(r_PwhiteSpace == null)
 				{
-					r_whiteSpace = new(this, "whiteSpace", -1);
-					r_whiteSpace.SetBelong(this.instance);
+					r_PwhiteSpace = new(this, "whiteSpace", -1);
+					r_PwhiteSpace.SetBelong(this.instance);
 				}
-				return r_whiteSpace;
+				return r_PwhiteSpace;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength width
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_width;
-		public virtual RUnityEngine.RUIElements.RStyleLength Rwidth
+		protected RUnityEngine.RUIElements.RStyleLength r_Pwidth;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPwidth
 		{
 			get
 			{
-				if(r_width == null)
+				if(r_Pwidth == null)
 				{
-					r_width = new(this, "width", -1);
-					r_width.SetBelong(this.instance);
+					r_Pwidth = new(this, "width", -1);
+					r_Pwidth.SetBelong(this.instance);
 				}
-				return r_width;
+				return r_Pwidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength wordSpacing
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_wordSpacing;
-		public virtual RUnityEngine.RUIElements.RStyleLength RwordSpacing
+		protected RUnityEngine.RUIElements.RStyleLength r_PwordSpacing;
+		public virtual RUnityEngine.RUIElements.RStyleLength RPwordSpacing
 		{
 			get
 			{
-				if(r_wordSpacing == null)
+				if(r_PwordSpacing == null)
 				{
-					r_wordSpacing = new(this, "wordSpacing", -1);
-					r_wordSpacing.SetBelong(this.instance);
+					r_PwordSpacing = new(this, "wordSpacing", -1);
+					r_PwordSpacing.SetBelong(this.instance);
 				}
-				return r_wordSpacing;
+				return r_PwordSpacing;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.ScaleMode] unityBackgroundScaleMode
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_unityBackgroundScaleMode;
-		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RunityBackgroundScaleMode
+		protected RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RScaleMode> r_PunityBackgroundScaleMode;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RUnityEngine.RScaleMode> RPunityBackgroundScaleMode
 		{
 			get
 			{
-				if(r_unityBackgroundScaleMode == null)
+				if(r_PunityBackgroundScaleMode == null)
 				{
-					r_unityBackgroundScaleMode = new(this, "unityBackgroundScaleMode", -1);
-					r_unityBackgroundScaleMode.SetBelong(this.instance);
+					r_PunityBackgroundScaleMode = new(this, "unityBackgroundScaleMode", -1);
+					r_PunityBackgroundScaleMode.SetBelong(this.instance);
 				}
-				return r_unityBackgroundScaleMode;
+				return r_PunityBackgroundScaleMode;
 			}
 		}
 

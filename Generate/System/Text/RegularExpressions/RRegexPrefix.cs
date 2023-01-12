@@ -13,204 +13,204 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean <CaseInsensitive>k__BackingField
 		/// </summary>
-		protected RSystem.RBoolean r___0__CaseInsensitive__1__k__BackingField;
-		public virtual RSystem.RBoolean R__0__CaseInsensitive__1__k__BackingField
+		protected RSystem.RBoolean r_F__0__CaseInsensitive__1__k__BackingField;
+		public virtual RSystem.RBoolean RF__0__CaseInsensitive__1__k__BackingField
 		{
 			get
 			{
-				if(r___0__CaseInsensitive__1__k__BackingField == null)
+				if(r_F__0__CaseInsensitive__1__k__BackingField == null)
 				{
-					r___0__CaseInsensitive__1__k__BackingField = new(this, "<CaseInsensitive>k__BackingField");
-					r___0__CaseInsensitive__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__CaseInsensitive__1__k__BackingField = new(this, "<CaseInsensitive>k__BackingField");
+					r_F__0__CaseInsensitive__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___0__CaseInsensitive__1__k__BackingField;
+				return r_F__0__CaseInsensitive__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexPrefix <Empty>k__BackingField
 		/// </summary>
-		protected static RSystem.RText.RRegularExpressions.RRegexPrefix r___0__Empty__1__k__BackingField;
-		public static RSystem.RText.RRegularExpressions.RRegexPrefix R__0__Empty__1__k__BackingField
+		protected static RSystem.RText.RRegularExpressions.RRegexPrefix r_F__0__Empty__1__k__BackingField;
+		public static RSystem.RText.RRegularExpressions.RRegexPrefix RF__0__Empty__1__k__BackingField
 		{
 			get
 			{
-				if(r___0__Empty__1__k__BackingField == null)
+				if(r_F__0__Empty__1__k__BackingField == null)
 				{
-					r___0__Empty__1__k__BackingField = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexPrefix"), "<Empty>k__BackingField");
-					r___0__Empty__1__k__BackingField.SetBelong(null);
+					r_F__0__Empty__1__k__BackingField = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexPrefix"), "<Empty>k__BackingField");
+					r_F__0__Empty__1__k__BackingField.SetBelong(null);
 				}
-				return r___0__Empty__1__k__BackingField;
+				return r_F__0__Empty__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// System.String <Prefix>k__BackingField
 		/// </summary>
-		protected RSystem.RString r___0__Prefix__1__k__BackingField;
-		public virtual RSystem.RString R__0__Prefix__1__k__BackingField
+		protected RSystem.RString r_F__0__Prefix__1__k__BackingField;
+		public virtual RSystem.RString RF__0__Prefix__1__k__BackingField
 		{
 			get
 			{
-				if(r___0__Prefix__1__k__BackingField == null)
+				if(r_F__0__Prefix__1__k__BackingField == null)
 				{
-					r___0__Prefix__1__k__BackingField = new(this, "<Prefix>k__BackingField");
-					r___0__Prefix__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__Prefix__1__k__BackingField = new(this, "<Prefix>k__BackingField");
+					r_F__0__Prefix__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___0__Prefix__1__k__BackingField;
+				return r_F__0__Prefix__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CaseInsensitive
 		/// </summary>
-		protected RSystem.RBoolean r_CaseInsensitive;
-		public virtual RSystem.RBoolean RCaseInsensitive
+		protected RSystem.RBoolean r_PCaseInsensitive;
+		public virtual RSystem.RBoolean RPCaseInsensitive
 		{
 			get
 			{
-				if(r_CaseInsensitive == null)
+				if(r_PCaseInsensitive == null)
 				{
-					r_CaseInsensitive = new(this, "CaseInsensitive", -1);
-					r_CaseInsensitive.SetBelong(this.instance);
+					r_PCaseInsensitive = new(this, "CaseInsensitive", -1);
+					r_PCaseInsensitive.SetBelong(this.instance);
 				}
-				return r_CaseInsensitive;
+				return r_PCaseInsensitive;
 			}
 		}
 
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexPrefix Empty
 		/// </summary>
-		protected static RSystem.RText.RRegularExpressions.RRegexPrefix r_Empty;
-		public static RSystem.RText.RRegularExpressions.RRegexPrefix REmpty
+		protected static RSystem.RText.RRegularExpressions.RRegexPrefix r_PEmpty;
+		public static RSystem.RText.RRegularExpressions.RRegexPrefix RPEmpty
 		{
 			get
 			{
-				if(r_Empty == null)
+				if(r_PEmpty == null)
 				{
-					r_Empty = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexPrefix"), "Empty", -1);
-					r_Empty.SetBelong(null);
+					r_PEmpty = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexPrefix"), "Empty", -1);
+					r_PEmpty.SetBelong(null);
 				}
-				return r_Empty;
+				return r_PEmpty;
 			}
 		}
 
 		/// <summary>
 		/// System.String Prefix
 		/// </summary>
-		protected RSystem.RString r_Prefix;
-		public virtual RSystem.RString RPrefix
+		protected RSystem.RString r_PPrefix;
+		public virtual RSystem.RString RPPrefix
 		{
 			get
 			{
-				if(r_Prefix == null)
+				if(r_PPrefix == null)
 				{
-					r_Prefix = new(this, "Prefix", -1);
-					r_Prefix.SetBelong(this.instance);
+					r_PPrefix = new(this, "Prefix", -1);
+					r_PPrefix.SetBelong(this.instance);
 				}
-				return r_Prefix;
+				return r_PPrefix;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -237,7 +237,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -248,7 +248,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -259,7 +259,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -270,7 +270,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -281,7 +281,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

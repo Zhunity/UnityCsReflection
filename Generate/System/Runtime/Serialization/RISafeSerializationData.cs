@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// Void CompleteDeserialization(System.Object)
 		/// </summary>
-		protected RMethod r_CompleteDeserialization_Object;
-		public virtual RMethod RCompleteDeserialization_Object
+		protected RMethod r_MCompleteDeserialization_Object;
+		public virtual RMethod RMCompleteDeserialization_Object
 		{
 			get
 			{
-				if(r_CompleteDeserialization_Object == null)
+				if(r_MCompleteDeserialization_Object == null)
 				{
-					r_CompleteDeserialization_Object = new(this, "CompleteDeserialization", 0, typeof(System.Object));
-					r_CompleteDeserialization_Object.SetBelong(this.instance);
+					r_MCompleteDeserialization_Object = new(this, "CompleteDeserialization", 0, typeof(System.Object));
+					r_MCompleteDeserialization_Object.SetBelong(this.instance);
 				}
-				return r_CompleteDeserialization_Object;
+				return r_MCompleteDeserialization_Object;
 			}
 		}
 
@@ -50,7 +50,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@deserialized};
-            var ___result = RCompleteDeserialization_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMCompleteDeserialization_Object.Invoke(___genericsType, ___parameters);
 
             
         }

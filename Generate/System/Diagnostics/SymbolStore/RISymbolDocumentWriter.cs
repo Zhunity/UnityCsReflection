@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// Void SetCheckSum(System.Guid, Byte[])
 		/// </summary>
-		protected RMethod r_SetCheckSum_Guid_ByteArray;
-		public virtual RMethod RSetCheckSum_Guid_ByteArray
+		protected RMethod r_MSetCheckSum_Guid_ByteArray;
+		public virtual RMethod RMSetCheckSum_Guid_ByteArray
 		{
 			get
 			{
-				if(r_SetCheckSum_Guid_ByteArray == null)
+				if(r_MSetCheckSum_Guid_ByteArray == null)
 				{
-					r_SetCheckSum_Guid_ByteArray = new(this, "SetCheckSum", 0, typeof(System.Guid), typeof(System.Byte).MakeArrayType());
-					r_SetCheckSum_Guid_ByteArray.SetBelong(this.instance);
+					r_MSetCheckSum_Guid_ByteArray = new(this, "SetCheckSum", 0, typeof(System.Guid), typeof(System.Byte).MakeArrayType());
+					r_MSetCheckSum_Guid_ByteArray.SetBelong(this.instance);
 				}
-				return r_SetCheckSum_Guid_ByteArray;
+				return r_MSetCheckSum_Guid_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSource(Byte[])
 		/// </summary>
-		protected RMethod r_SetSource_ByteArray;
-		public virtual RMethod RSetSource_ByteArray
+		protected RMethod r_MSetSource_ByteArray;
+		public virtual RMethod RMSetSource_ByteArray
 		{
 			get
 			{
-				if(r_SetSource_ByteArray == null)
+				if(r_MSetSource_ByteArray == null)
 				{
-					r_SetSource_ByteArray = new(this, "SetSource", 0, typeof(System.Byte).MakeArrayType());
-					r_SetSource_ByteArray.SetBelong(this.instance);
+					r_MSetSource_ByteArray = new(this, "SetSource", 0, typeof(System.Byte).MakeArrayType());
+					r_MSetSource_ByteArray.SetBelong(this.instance);
 				}
-				return r_SetSource_ByteArray;
+				return r_MSetSource_ByteArray;
 			}
 		}
 
@@ -67,7 +67,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@algorithmId, @checkSum};
-            var ___result = RSetCheckSum_Guid_ByteArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetCheckSum_Guid_ByteArray.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -78,7 +78,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source};
-            var ___result = RSetSource_ByteArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetSource_ByteArray.Invoke(___genericsType, ___parameters);
 
             
         }

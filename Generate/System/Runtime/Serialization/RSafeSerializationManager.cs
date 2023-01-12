@@ -13,306 +13,323 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.EventHandler`1[System.Runtime.Serialization.SafeSerializationEventArgs] SerializeObjectState
 		/// </summary>
-		protected REvent r_SerializeObjectState;
-		public virtual REvent RSerializeObjectState
+		protected REvent r_ESerializeObjectState;
+		public virtual REvent RESerializeObjectState
 		{
 			get
 			{
-				if(r_SerializeObjectState == null)
+				if(r_ESerializeObjectState == null)
 				{
-					r_SerializeObjectState = new(this, "SerializeObjectState");
-					r_SerializeObjectState.SetBelong(this.instance);
+					r_ESerializeObjectState = new(this, "SerializeObjectState");
+					r_ESerializeObjectState.SetBelong(this.instance);
 				}
-				return r_SerializeObjectState;
+				return r_ESerializeObjectState;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.IList`1[System.Object] m_serializedStates
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RIList<RSystem.RObject> r_m_serializedStates;
-		public virtual RSystem.RCollections.RGeneric.RIList<RSystem.RObject> Rm_serializedStates
+		protected RSystem.RCollections.RGeneric.RIList<RSystem.RObject> r_Fm_serializedStates;
+		public virtual RSystem.RCollections.RGeneric.RIList<RSystem.RObject> RFm_serializedStates
 		{
 			get
 			{
-				if(r_m_serializedStates == null)
+				if(r_Fm_serializedStates == null)
 				{
-					r_m_serializedStates = new(this, "m_serializedStates");
-					r_m_serializedStates.SetBelong(this.instance);
+					r_Fm_serializedStates = new(this, "m_serializedStates");
+					r_Fm_serializedStates.SetBelong(this.instance);
 				}
-				return r_m_serializedStates;
+				return r_Fm_serializedStates;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Serialization.SerializationInfo m_savedSerializationInfo
 		/// </summary>
-		protected RSystem.RRuntime.RSerialization.RSerializationInfo r_m_savedSerializationInfo;
-		public virtual RSystem.RRuntime.RSerialization.RSerializationInfo Rm_savedSerializationInfo
+		protected RSystem.RRuntime.RSerialization.RSerializationInfo r_Fm_savedSerializationInfo;
+		public virtual RSystem.RRuntime.RSerialization.RSerializationInfo RFm_savedSerializationInfo
 		{
 			get
 			{
-				if(r_m_savedSerializationInfo == null)
+				if(r_Fm_savedSerializationInfo == null)
 				{
-					r_m_savedSerializationInfo = new(this, "m_savedSerializationInfo");
-					r_m_savedSerializationInfo.SetBelong(this.instance);
+					r_Fm_savedSerializationInfo = new(this, "m_savedSerializationInfo");
+					r_Fm_savedSerializationInfo.SetBelong(this.instance);
 				}
-				return r_m_savedSerializationInfo;
+				return r_Fm_savedSerializationInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.Object m_realObject
 		/// </summary>
-		protected RSystem.RObject r_m_realObject;
-		public virtual RSystem.RObject Rm_realObject
+		protected RSystem.RObject r_Fm_realObject;
+		public virtual RSystem.RObject RFm_realObject
 		{
 			get
 			{
-				if(r_m_realObject == null)
+				if(r_Fm_realObject == null)
 				{
-					r_m_realObject = new(this, "m_realObject");
-					r_m_realObject.SetBelong(this.instance);
+					r_Fm_realObject = new(this, "m_realObject");
+					r_Fm_realObject.SetBelong(this.instance);
 				}
-				return r_m_realObject;
+				return r_Fm_realObject;
 			}
 		}
 
 		/// <summary>
 		/// System.RuntimeType m_realType
 		/// </summary>
-		protected RSystem.RRuntimeType r_m_realType;
-		public virtual RSystem.RRuntimeType Rm_realType
+		protected RSystem.RRuntimeType r_Fm_realType;
+		public virtual RSystem.RRuntimeType RFm_realType
 		{
 			get
 			{
-				if(r_m_realType == null)
+				if(r_Fm_realType == null)
 				{
-					r_m_realType = new(this, "m_realType");
-					r_m_realType.SetBelong(this.instance);
+					r_Fm_realType = new(this, "m_realType");
+					r_Fm_realType.SetBelong(this.instance);
 				}
-				return r_m_realType;
+				return r_Fm_realType;
+			}
+		}
+
+		/// <summary>
+		/// System.EventHandler`1[System.Runtime.Serialization.SafeSerializationEventArgs] SerializeObjectState
+		/// </summary>
+		protected RSystem.REventHandler<RSystem.RRuntime.RSerialization.RSafeSerializationEventArgs> r_FSerializeObjectState;
+		public virtual RSystem.REventHandler<RSystem.RRuntime.RSerialization.RSafeSerializationEventArgs> RFSerializeObjectState
+		{
+			get
+			{
+				if(r_FSerializeObjectState == null)
+				{
+					r_FSerializeObjectState = new(this, "SerializeObjectState");
+					r_FSerializeObjectState.SetBelong(this.instance);
+				}
+				return r_FSerializeObjectState;
 			}
 		}
 
 		/// <summary>
 		/// System.String RealTypeSerializationName
 		/// </summary>
-		protected static RSystem.RString r_RealTypeSerializationName;
-		public static RSystem.RString RRealTypeSerializationName
+		protected static RSystem.RString r_FRealTypeSerializationName;
+		public static RSystem.RString RFRealTypeSerializationName
 		{
 			get
 			{
-				if(r_RealTypeSerializationName == null)
+				if(r_FRealTypeSerializationName == null)
 				{
-					r_RealTypeSerializationName = new( ReflectionUtils.GetType("System.Runtime.Serialization.SafeSerializationManager"), "RealTypeSerializationName");
-					r_RealTypeSerializationName.SetBelong(null);
+					r_FRealTypeSerializationName = new( ReflectionUtils.GetType("System.Runtime.Serialization.SafeSerializationManager"), "RealTypeSerializationName");
+					r_FRealTypeSerializationName.SetBelong(null);
 				}
-				return r_RealTypeSerializationName;
+				return r_FRealTypeSerializationName;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsActive
 		/// </summary>
-		protected RSystem.RBoolean r_IsActive;
-		public virtual RSystem.RBoolean RIsActive
+		protected RSystem.RBoolean r_PIsActive;
+		public virtual RSystem.RBoolean RPIsActive
 		{
 			get
 			{
-				if(r_IsActive == null)
+				if(r_PIsActive == null)
 				{
-					r_IsActive = new(this, "IsActive", -1);
-					r_IsActive.SetBelong(this.instance);
+					r_PIsActive = new(this, "IsActive", -1);
+					r_PIsActive.SetBelong(this.instance);
 				}
-				return r_IsActive;
+				return r_PIsActive;
 			}
 		}
 
 		/// <summary>
 		/// Void CompleteSerialization(System.Object, System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_CompleteSerialization_Object_SerializationInfo_StreamingContext;
-		public virtual RMethod RCompleteSerialization_Object_SerializationInfo_StreamingContext
+		protected RMethod r_MCompleteSerialization_Object_SerializationInfo_StreamingContext;
+		public virtual RMethod RMCompleteSerialization_Object_SerializationInfo_StreamingContext
 		{
 			get
 			{
-				if(r_CompleteSerialization_Object_SerializationInfo_StreamingContext == null)
+				if(r_MCompleteSerialization_Object_SerializationInfo_StreamingContext == null)
 				{
-					r_CompleteSerialization_Object_SerializationInfo_StreamingContext = new(this, "CompleteSerialization", 0, typeof(System.Object), typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_CompleteSerialization_Object_SerializationInfo_StreamingContext.SetBelong(this.instance);
+					r_MCompleteSerialization_Object_SerializationInfo_StreamingContext = new(this, "CompleteSerialization", 0, typeof(System.Object), typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
+					r_MCompleteSerialization_Object_SerializationInfo_StreamingContext.SetBelong(this.instance);
 				}
-				return r_CompleteSerialization_Object_SerializationInfo_StreamingContext;
+				return r_MCompleteSerialization_Object_SerializationInfo_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Void CompleteDeserialization(System.Object)
 		/// </summary>
-		protected RMethod r_CompleteDeserialization_Object;
-		public virtual RMethod RCompleteDeserialization_Object
+		protected RMethod r_MCompleteDeserialization_Object;
+		public virtual RMethod RMCompleteDeserialization_Object
 		{
 			get
 			{
-				if(r_CompleteDeserialization_Object == null)
+				if(r_MCompleteDeserialization_Object == null)
 				{
-					r_CompleteDeserialization_Object = new(this, "CompleteDeserialization", 0, typeof(System.Object));
-					r_CompleteDeserialization_Object.SetBelong(this.instance);
+					r_MCompleteDeserialization_Object = new(this, "CompleteDeserialization", 0, typeof(System.Object));
+					r_MCompleteDeserialization_Object.SetBelong(this.instance);
 				}
-				return r_CompleteDeserialization_Object;
+				return r_MCompleteDeserialization_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext;
-		public virtual RMethod RSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext
+		protected RMethod r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext;
+		public virtual RMethod RMSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext
 		{
 			get
 			{
-				if(r_System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext == null)
+				if(r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext == null)
 				{
-					r_System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext = new(this, "System.Runtime.Serialization.ISerializable.GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
+					r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext = new(this, "System.Runtime.Serialization.ISerializable.GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
+					r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
 				}
-				return r_System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext;
+				return r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// System.Object System.Runtime.Serialization.IObjectReference.GetRealObject(System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_System__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext;
-		public virtual RMethod RSystem__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext
+		protected RMethod r_MSystem__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext;
+		public virtual RMethod RMSystem__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext
 		{
 			get
 			{
-				if(r_System__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext == null)
+				if(r_MSystem__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext == null)
 				{
-					r_System__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext = new(this, "System.Runtime.Serialization.IObjectReference.GetRealObject", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_System__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext.SetBelong(this.instance);
+					r_MSystem__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext = new(this, "System.Runtime.Serialization.IObjectReference.GetRealObject", 0, typeof(System.Runtime.Serialization.StreamingContext));
+					r_MSystem__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext.SetBelong(this.instance);
 				}
-				return r_System__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext;
+				return r_MSystem__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDeserialized(System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_OnDeserialized_StreamingContext;
-		public virtual RMethod ROnDeserialized_StreamingContext
+		protected RMethod r_MOnDeserialized_StreamingContext;
+		public virtual RMethod RMOnDeserialized_StreamingContext
 		{
 			get
 			{
-				if(r_OnDeserialized_StreamingContext == null)
+				if(r_MOnDeserialized_StreamingContext == null)
 				{
-					r_OnDeserialized_StreamingContext = new(this, "OnDeserialized", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_OnDeserialized_StreamingContext.SetBelong(this.instance);
+					r_MOnDeserialized_StreamingContext = new(this, "OnDeserialized", 0, typeof(System.Runtime.Serialization.StreamingContext));
+					r_MOnDeserialized_StreamingContext.SetBelong(this.instance);
 				}
-				return r_OnDeserialized_StreamingContext;
+				return r_MOnDeserialized_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -339,7 +356,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@serializedObject, @info, @context};
-            var ___result = RCompleteSerialization_Object_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMCompleteSerialization_Object_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -350,7 +367,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@deserializedObject};
-            var ___result = RCompleteDeserialization_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMCompleteDeserialization_Object.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -361,7 +378,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@info, @context};
-            var ___result = RSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -372,7 +389,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@context};
-            var ___result = RSystem__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMSystem__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -383,7 +400,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@context};
-            var ___result = ROnDeserialized_StreamingContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnDeserialized_StreamingContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -394,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -405,7 +422,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -416,7 +433,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -427,7 +444,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -438,7 +455,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -449,7 +466,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

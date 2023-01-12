@@ -13,1666 +13,1666 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 DefaultBufferSize
 		/// </summary>
-		protected static RSystem.RInt32 r_DefaultBufferSize;
-		public static RSystem.RInt32 RDefaultBufferSize
+		protected static RSystem.RInt32 r_FDefaultBufferSize;
+		public static RSystem.RInt32 RFDefaultBufferSize
 		{
 			get
 			{
-				if(r_DefaultBufferSize == null)
+				if(r_FDefaultBufferSize == null)
 				{
-					r_DefaultBufferSize = new(typeof(System.IO.FileStream), "DefaultBufferSize");
-					r_DefaultBufferSize.SetBelong(null);
+					r_FDefaultBufferSize = new(typeof(System.IO.FileStream), "DefaultBufferSize");
+					r_FDefaultBufferSize.SetBelong(null);
 				}
-				return r_DefaultBufferSize;
+				return r_FDefaultBufferSize;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte[] buf_recycle
 		/// </summary>
-		protected static RFieldArray<RSystem.RByte> r_buf_recycle;
-		public static RFieldArray<RSystem.RByte> Rbuf_recycle
+		protected static RFieldArray<RSystem.RByte> r_Fbuf_recycle;
+		public static RFieldArray<RSystem.RByte> RFbuf_recycle
 		{
 			get
 			{
-				if(r_buf_recycle == null)
+				if(r_Fbuf_recycle == null)
 				{
-					r_buf_recycle = new(typeof(System.IO.FileStream), "buf_recycle");
-					r_buf_recycle.SetBelong(null);
+					r_Fbuf_recycle = new(typeof(System.IO.FileStream), "buf_recycle");
+					r_Fbuf_recycle.SetBelong(null);
 				}
-				return r_buf_recycle;
+				return r_Fbuf_recycle;
 			}
 		}
 
 		/// <summary>
 		/// System.Object buf_recycle_lock
 		/// </summary>
-		protected static RSystem.RObject r_buf_recycle_lock;
-		public static RSystem.RObject Rbuf_recycle_lock
+		protected static RSystem.RObject r_Fbuf_recycle_lock;
+		public static RSystem.RObject RFbuf_recycle_lock
 		{
 			get
 			{
-				if(r_buf_recycle_lock == null)
+				if(r_Fbuf_recycle_lock == null)
 				{
-					r_buf_recycle_lock = new(typeof(System.IO.FileStream), "buf_recycle_lock");
-					r_buf_recycle_lock.SetBelong(null);
+					r_Fbuf_recycle_lock = new(typeof(System.IO.FileStream), "buf_recycle_lock");
+					r_Fbuf_recycle_lock.SetBelong(null);
 				}
-				return r_buf_recycle_lock;
+				return r_Fbuf_recycle_lock;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte[] buf
 		/// </summary>
-		protected RFieldArray<RSystem.RByte> r_buf;
-		public virtual RFieldArray<RSystem.RByte> Rbuf
+		protected RFieldArray<RSystem.RByte> r_Fbuf;
+		public virtual RFieldArray<RSystem.RByte> RFbuf
 		{
 			get
 			{
-				if(r_buf == null)
+				if(r_Fbuf == null)
 				{
-					r_buf = new(this, "buf");
-					r_buf.SetBelong(this.instance);
+					r_Fbuf = new(this, "buf");
+					r_Fbuf.SetBelong(this.instance);
 				}
-				return r_buf;
+				return r_Fbuf;
 			}
 		}
 
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RSystem.RString r_name;
-		public virtual RSystem.RString Rname
+		protected RSystem.RString r_Fname;
+		public virtual RSystem.RString RFname
 		{
 			get
 			{
-				if(r_name == null)
+				if(r_Fname == null)
 				{
-					r_name = new(this, "name");
-					r_name.SetBelong(this.instance);
+					r_Fname = new(this, "name");
+					r_Fname.SetBelong(this.instance);
 				}
-				return r_name;
+				return r_Fname;
 			}
 		}
 
 		/// <summary>
 		/// Microsoft.Win32.SafeHandles.SafeFileHandle safeHandle
 		/// </summary>
-		protected RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle r_safeHandle;
-		public virtual RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle RsafeHandle
+		protected RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle r_FsafeHandle;
+		public virtual RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle RFsafeHandle
 		{
 			get
 			{
-				if(r_safeHandle == null)
+				if(r_FsafeHandle == null)
 				{
-					r_safeHandle = new(this, "safeHandle");
-					r_safeHandle.SetBelong(this.instance);
+					r_FsafeHandle = new(this, "safeHandle");
+					r_FsafeHandle.SetBelong(this.instance);
 				}
-				return r_safeHandle;
+				return r_FsafeHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean isExposed
 		/// </summary>
-		protected RSystem.RBoolean r_isExposed;
-		public virtual RSystem.RBoolean RisExposed
+		protected RSystem.RBoolean r_FisExposed;
+		public virtual RSystem.RBoolean RFisExposed
 		{
 			get
 			{
-				if(r_isExposed == null)
+				if(r_FisExposed == null)
 				{
-					r_isExposed = new(this, "isExposed");
-					r_isExposed.SetBelong(this.instance);
+					r_FisExposed = new(this, "isExposed");
+					r_FisExposed.SetBelong(this.instance);
 				}
-				return r_isExposed;
+				return r_FisExposed;
 			}
 		}
 
 		/// <summary>
 		/// System.Int64 append_startpos
 		/// </summary>
-		protected RSystem.RInt64 r_append_startpos;
-		public virtual RSystem.RInt64 Rappend_startpos
+		protected RSystem.RInt64 r_Fappend_startpos;
+		public virtual RSystem.RInt64 RFappend_startpos
 		{
 			get
 			{
-				if(r_append_startpos == null)
+				if(r_Fappend_startpos == null)
 				{
-					r_append_startpos = new(this, "append_startpos");
-					r_append_startpos.SetBelong(this.instance);
+					r_Fappend_startpos = new(this, "append_startpos");
+					r_Fappend_startpos.SetBelong(this.instance);
 				}
-				return r_append_startpos;
+				return r_Fappend_startpos;
 			}
 		}
 
 		/// <summary>
 		/// System.IO.FileAccess access
 		/// </summary>
-		protected RField r_access;
-		public virtual RField Raccess
+		protected RSystem.RIO.RFileAccess r_Faccess;
+		public virtual RSystem.RIO.RFileAccess RFaccess
 		{
 			get
 			{
-				if(r_access == null)
+				if(r_Faccess == null)
 				{
-					r_access = new(this, "access");
-					r_access.SetBelong(this.instance);
+					r_Faccess = new(this, "access");
+					r_Faccess.SetBelong(this.instance);
 				}
-				return r_access;
+				return r_Faccess;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean owner
 		/// </summary>
-		protected RSystem.RBoolean r_owner;
-		public virtual RSystem.RBoolean Rowner
+		protected RSystem.RBoolean r_Fowner;
+		public virtual RSystem.RBoolean RFowner
 		{
 			get
 			{
-				if(r_owner == null)
+				if(r_Fowner == null)
 				{
-					r_owner = new(this, "owner");
-					r_owner.SetBelong(this.instance);
+					r_Fowner = new(this, "owner");
+					r_Fowner.SetBelong(this.instance);
 				}
-				return r_owner;
+				return r_Fowner;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean async
 		/// </summary>
-		protected RSystem.RBoolean r_async;
-		public virtual RSystem.RBoolean Rasync
+		protected RSystem.RBoolean r_Fasync;
+		public virtual RSystem.RBoolean RFasync
 		{
 			get
 			{
-				if(r_async == null)
+				if(r_Fasync == null)
 				{
-					r_async = new(this, "async");
-					r_async.SetBelong(this.instance);
+					r_Fasync = new(this, "async");
+					r_Fasync.SetBelong(this.instance);
 				}
-				return r_async;
+				return r_Fasync;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean canseek
 		/// </summary>
-		protected RSystem.RBoolean r_canseek;
-		public virtual RSystem.RBoolean Rcanseek
+		protected RSystem.RBoolean r_Fcanseek;
+		public virtual RSystem.RBoolean RFcanseek
 		{
 			get
 			{
-				if(r_canseek == null)
+				if(r_Fcanseek == null)
 				{
-					r_canseek = new(this, "canseek");
-					r_canseek.SetBelong(this.instance);
+					r_Fcanseek = new(this, "canseek");
+					r_Fcanseek.SetBelong(this.instance);
 				}
-				return r_canseek;
+				return r_Fcanseek;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean anonymous
 		/// </summary>
-		protected RSystem.RBoolean r_anonymous;
-		public virtual RSystem.RBoolean Ranonymous
+		protected RSystem.RBoolean r_Fanonymous;
+		public virtual RSystem.RBoolean RFanonymous
 		{
 			get
 			{
-				if(r_anonymous == null)
+				if(r_Fanonymous == null)
 				{
-					r_anonymous = new(this, "anonymous");
-					r_anonymous.SetBelong(this.instance);
+					r_Fanonymous = new(this, "anonymous");
+					r_Fanonymous.SetBelong(this.instance);
 				}
-				return r_anonymous;
+				return r_Fanonymous;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean buf_dirty
 		/// </summary>
-		protected RSystem.RBoolean r_buf_dirty;
-		public virtual RSystem.RBoolean Rbuf_dirty
+		protected RSystem.RBoolean r_Fbuf_dirty;
+		public virtual RSystem.RBoolean RFbuf_dirty
 		{
 			get
 			{
-				if(r_buf_dirty == null)
+				if(r_Fbuf_dirty == null)
 				{
-					r_buf_dirty = new(this, "buf_dirty");
-					r_buf_dirty.SetBelong(this.instance);
+					r_Fbuf_dirty = new(this, "buf_dirty");
+					r_Fbuf_dirty.SetBelong(this.instance);
 				}
-				return r_buf_dirty;
+				return r_Fbuf_dirty;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 buf_size
 		/// </summary>
-		protected RSystem.RInt32 r_buf_size;
-		public virtual RSystem.RInt32 Rbuf_size
+		protected RSystem.RInt32 r_Fbuf_size;
+		public virtual RSystem.RInt32 RFbuf_size
 		{
 			get
 			{
-				if(r_buf_size == null)
+				if(r_Fbuf_size == null)
 				{
-					r_buf_size = new(this, "buf_size");
-					r_buf_size.SetBelong(this.instance);
+					r_Fbuf_size = new(this, "buf_size");
+					r_Fbuf_size.SetBelong(this.instance);
 				}
-				return r_buf_size;
+				return r_Fbuf_size;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 buf_length
 		/// </summary>
-		protected RSystem.RInt32 r_buf_length;
-		public virtual RSystem.RInt32 Rbuf_length
+		protected RSystem.RInt32 r_Fbuf_length;
+		public virtual RSystem.RInt32 RFbuf_length
 		{
 			get
 			{
-				if(r_buf_length == null)
+				if(r_Fbuf_length == null)
 				{
-					r_buf_length = new(this, "buf_length");
-					r_buf_length.SetBelong(this.instance);
+					r_Fbuf_length = new(this, "buf_length");
+					r_Fbuf_length.SetBelong(this.instance);
 				}
-				return r_buf_length;
+				return r_Fbuf_length;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 buf_offset
 		/// </summary>
-		protected RSystem.RInt32 r_buf_offset;
-		public virtual RSystem.RInt32 Rbuf_offset
+		protected RSystem.RInt32 r_Fbuf_offset;
+		public virtual RSystem.RInt32 RFbuf_offset
 		{
 			get
 			{
-				if(r_buf_offset == null)
+				if(r_Fbuf_offset == null)
 				{
-					r_buf_offset = new(this, "buf_offset");
-					r_buf_offset.SetBelong(this.instance);
+					r_Fbuf_offset = new(this, "buf_offset");
+					r_Fbuf_offset.SetBelong(this.instance);
 				}
-				return r_buf_offset;
+				return r_Fbuf_offset;
 			}
 		}
 
 		/// <summary>
 		/// System.Int64 buf_start
 		/// </summary>
-		protected RSystem.RInt64 r_buf_start;
-		public virtual RSystem.RInt64 Rbuf_start
+		protected RSystem.RInt64 r_Fbuf_start;
+		public virtual RSystem.RInt64 RFbuf_start
 		{
 			get
 			{
-				if(r_buf_start == null)
+				if(r_Fbuf_start == null)
 				{
-					r_buf_start = new(this, "buf_start");
-					r_buf_start.SetBelong(this.instance);
+					r_Fbuf_start = new(this, "buf_start");
+					r_Fbuf_start.SetBelong(this.instance);
 				}
-				return r_buf_start;
+				return r_Fbuf_start;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CanRead
 		/// </summary>
-		protected RSystem.RBoolean r_CanRead;
-		public virtual RSystem.RBoolean RCanRead
+		protected RSystem.RBoolean r_PCanRead;
+		public virtual RSystem.RBoolean RPCanRead
 		{
 			get
 			{
-				if(r_CanRead == null)
+				if(r_PCanRead == null)
 				{
-					r_CanRead = new(this, "CanRead", -1);
-					r_CanRead.SetBelong(this.instance);
+					r_PCanRead = new(this, "CanRead", -1);
+					r_PCanRead.SetBelong(this.instance);
 				}
-				return r_CanRead;
+				return r_PCanRead;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CanWrite
 		/// </summary>
-		protected RSystem.RBoolean r_CanWrite;
-		public virtual RSystem.RBoolean RCanWrite
+		protected RSystem.RBoolean r_PCanWrite;
+		public virtual RSystem.RBoolean RPCanWrite
 		{
 			get
 			{
-				if(r_CanWrite == null)
+				if(r_PCanWrite == null)
 				{
-					r_CanWrite = new(this, "CanWrite", -1);
-					r_CanWrite.SetBelong(this.instance);
+					r_PCanWrite = new(this, "CanWrite", -1);
+					r_PCanWrite.SetBelong(this.instance);
 				}
-				return r_CanWrite;
+				return r_PCanWrite;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CanSeek
 		/// </summary>
-		protected RSystem.RBoolean r_CanSeek;
-		public virtual RSystem.RBoolean RCanSeek
+		protected RSystem.RBoolean r_PCanSeek;
+		public virtual RSystem.RBoolean RPCanSeek
 		{
 			get
 			{
-				if(r_CanSeek == null)
+				if(r_PCanSeek == null)
 				{
-					r_CanSeek = new(this, "CanSeek", -1);
-					r_CanSeek.SetBelong(this.instance);
+					r_PCanSeek = new(this, "CanSeek", -1);
+					r_PCanSeek.SetBelong(this.instance);
 				}
-				return r_CanSeek;
+				return r_PCanSeek;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsAsync
 		/// </summary>
-		protected RSystem.RBoolean r_IsAsync;
-		public virtual RSystem.RBoolean RIsAsync
+		protected RSystem.RBoolean r_PIsAsync;
+		public virtual RSystem.RBoolean RPIsAsync
 		{
 			get
 			{
-				if(r_IsAsync == null)
+				if(r_PIsAsync == null)
 				{
-					r_IsAsync = new(this, "IsAsync", -1);
-					r_IsAsync.SetBelong(this.instance);
+					r_PIsAsync = new(this, "IsAsync", -1);
+					r_PIsAsync.SetBelong(this.instance);
 				}
-				return r_IsAsync;
+				return r_PIsAsync;
 			}
 		}
 
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RSystem.RString r_Name;
-		public virtual RSystem.RString RName
+		protected RSystem.RString r_PName;
+		public virtual RSystem.RString RPName
 		{
 			get
 			{
-				if(r_Name == null)
+				if(r_PName == null)
 				{
-					r_Name = new(this, "Name", -1);
-					r_Name.SetBelong(this.instance);
+					r_PName = new(this, "Name", -1);
+					r_PName.SetBelong(this.instance);
 				}
-				return r_Name;
+				return r_PName;
 			}
 		}
 
 		/// <summary>
 		/// Int64 Length
 		/// </summary>
-		protected RSystem.RInt64 r_Length;
-		public virtual RSystem.RInt64 RLength
+		protected RSystem.RInt64 r_PLength;
+		public virtual RSystem.RInt64 RPLength
 		{
 			get
 			{
-				if(r_Length == null)
+				if(r_PLength == null)
 				{
-					r_Length = new(this, "Length", -1);
-					r_Length.SetBelong(this.instance);
+					r_PLength = new(this, "Length", -1);
+					r_PLength.SetBelong(this.instance);
 				}
-				return r_Length;
+				return r_PLength;
 			}
 		}
 
 		/// <summary>
 		/// Int64 Position
 		/// </summary>
-		protected RSystem.RInt64 r_Position;
-		public virtual RSystem.RInt64 RPosition
+		protected RSystem.RInt64 r_PPosition;
+		public virtual RSystem.RInt64 RPPosition
 		{
 			get
 			{
-				if(r_Position == null)
+				if(r_PPosition == null)
 				{
-					r_Position = new(this, "Position", -1);
-					r_Position.SetBelong(this.instance);
+					r_PPosition = new(this, "Position", -1);
+					r_PPosition.SetBelong(this.instance);
 				}
-				return r_Position;
+				return r_PPosition;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr Handle
 		/// </summary>
-		protected RSystem.RIntPtr r_Handle;
-		public virtual RSystem.RIntPtr RHandle
+		protected RSystem.RIntPtr r_PHandle;
+		public virtual RSystem.RIntPtr RPHandle
 		{
 			get
 			{
-				if(r_Handle == null)
+				if(r_PHandle == null)
 				{
-					r_Handle = new(this, "Handle", -1);
-					r_Handle.SetBelong(this.instance);
+					r_PHandle = new(this, "Handle", -1);
+					r_PHandle.SetBelong(this.instance);
 				}
-				return r_Handle;
+				return r_PHandle;
 			}
 		}
 
 		/// <summary>
 		/// Microsoft.Win32.SafeHandles.SafeFileHandle SafeFileHandle
 		/// </summary>
-		protected RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle r_SafeFileHandle;
-		public virtual RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle RSafeFileHandle
+		protected RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle r_PSafeFileHandle;
+		public virtual RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle RPSafeFileHandle
 		{
 			get
 			{
-				if(r_SafeFileHandle == null)
+				if(r_PSafeFileHandle == null)
 				{
-					r_SafeFileHandle = new(this, "SafeFileHandle", -1);
-					r_SafeFileHandle.SetBelong(this.instance);
+					r_PSafeFileHandle = new(this, "SafeFileHandle", -1);
+					r_PSafeFileHandle.SetBelong(this.instance);
 				}
-				return r_SafeFileHandle;
+				return r_PSafeFileHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CanTimeout
 		/// </summary>
-		protected RSystem.RBoolean r_CanTimeout;
-		public virtual RSystem.RBoolean RCanTimeout
+		protected RSystem.RBoolean r_PCanTimeout;
+		public virtual RSystem.RBoolean RPCanTimeout
 		{
 			get
 			{
-				if(r_CanTimeout == null)
+				if(r_PCanTimeout == null)
 				{
-					r_CanTimeout = new(this, "CanTimeout", -1);
-					r_CanTimeout.SetBelong(this.instance);
+					r_PCanTimeout = new(this, "CanTimeout", -1);
+					r_PCanTimeout.SetBelong(this.instance);
 				}
-				return r_CanTimeout;
+				return r_PCanTimeout;
 			}
 		}
 
 		/// <summary>
 		/// Int32 ReadTimeout
 		/// </summary>
-		protected RSystem.RInt32 r_ReadTimeout;
-		public virtual RSystem.RInt32 RReadTimeout
+		protected RSystem.RInt32 r_PReadTimeout;
+		public virtual RSystem.RInt32 RPReadTimeout
 		{
 			get
 			{
-				if(r_ReadTimeout == null)
+				if(r_PReadTimeout == null)
 				{
-					r_ReadTimeout = new(this, "ReadTimeout", -1);
-					r_ReadTimeout.SetBelong(this.instance);
+					r_PReadTimeout = new(this, "ReadTimeout", -1);
+					r_PReadTimeout.SetBelong(this.instance);
 				}
-				return r_ReadTimeout;
+				return r_PReadTimeout;
 			}
 		}
 
 		/// <summary>
 		/// Int32 WriteTimeout
 		/// </summary>
-		protected RSystem.RInt32 r_WriteTimeout;
-		public virtual RSystem.RInt32 RWriteTimeout
+		protected RSystem.RInt32 r_PWriteTimeout;
+		public virtual RSystem.RInt32 RPWriteTimeout
 		{
 			get
 			{
-				if(r_WriteTimeout == null)
+				if(r_PWriteTimeout == null)
 				{
-					r_WriteTimeout = new(this, "WriteTimeout", -1);
-					r_WriteTimeout.SetBelong(this.instance);
+					r_PWriteTimeout = new(this, "WriteTimeout", -1);
+					r_PWriteTimeout.SetBelong(this.instance);
 				}
-				return r_WriteTimeout;
+				return r_PWriteTimeout;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.ServerIdentity ObjectIdentity
 		/// </summary>
-		protected RSystem.RRuntime.RRemoting.RServerIdentity r_ObjectIdentity;
-		public virtual RSystem.RRuntime.RRemoting.RServerIdentity RObjectIdentity
+		protected RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
+		public virtual RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
 		{
 			get
 			{
-				if(r_ObjectIdentity == null)
+				if(r_PObjectIdentity == null)
 				{
-					r_ObjectIdentity = new(this, "ObjectIdentity", -1);
-					r_ObjectIdentity.SetBelong(this.instance);
+					r_PObjectIdentity = new(this, "ObjectIdentity", -1);
+					r_PObjectIdentity.SetBelong(this.instance);
 				}
-				return r_ObjectIdentity;
+				return r_PObjectIdentity;
 			}
 		}
 
 		/// <summary>
 		/// Void Init(Microsoft.Win32.SafeHandles.SafeFileHandle, System.IO.FileAccess, Boolean, Int32, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_Init_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean;
-		public virtual RMethod RInit_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean
+		protected RMethod r_MInit_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean;
+		public virtual RMethod RMInit_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean
 		{
 			get
 			{
-				if(r_Init_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean == null)
+				if(r_MInit_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean == null)
 				{
-					r_Init_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean = new(this, "Init", 0, typeof(Microsoft.Win32.SafeHandles.SafeFileHandle), typeof(System.IO.FileAccess), typeof(System.Boolean), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean));
-					r_Init_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean.SetBelong(this.instance);
+					r_MInit_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean = new(this, "Init", 0, typeof(Microsoft.Win32.SafeHandles.SafeFileHandle), typeof(System.IO.FileAccess), typeof(System.Boolean), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean));
+					r_MInit_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_Init_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean;
+				return r_MInit_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void ExposeHandle()
 		/// </summary>
-		protected RMethod r_ExposeHandle;
-		public virtual RMethod RExposeHandle
+		protected RMethod r_MExposeHandle;
+		public virtual RMethod RMExposeHandle
 		{
 			get
 			{
-				if(r_ExposeHandle == null)
+				if(r_MExposeHandle == null)
 				{
-					r_ExposeHandle = new(this, "ExposeHandle", 0);
-					r_ExposeHandle.SetBelong(this.instance);
+					r_MExposeHandle = new(this, "ExposeHandle", 0);
+					r_MExposeHandle.SetBelong(this.instance);
 				}
-				return r_ExposeHandle;
+				return r_MExposeHandle;
 			}
 		}
 
 		/// <summary>
 		/// Int32 ReadByte()
 		/// </summary>
-		protected RMethod r_ReadByte;
-		public virtual RMethod RReadByte
+		protected RMethod r_MReadByte;
+		public virtual RMethod RMReadByte
 		{
 			get
 			{
-				if(r_ReadByte == null)
+				if(r_MReadByte == null)
 				{
-					r_ReadByte = new(this, "ReadByte", 0);
-					r_ReadByte.SetBelong(this.instance);
+					r_MReadByte = new(this, "ReadByte", 0);
+					r_MReadByte.SetBelong(this.instance);
 				}
-				return r_ReadByte;
+				return r_MReadByte;
 			}
 		}
 
 		/// <summary>
 		/// Void WriteByte(Byte)
 		/// </summary>
-		protected RMethod r_WriteByte_Byte;
-		public virtual RMethod RWriteByte_Byte
+		protected RMethod r_MWriteByte_Byte;
+		public virtual RMethod RMWriteByte_Byte
 		{
 			get
 			{
-				if(r_WriteByte_Byte == null)
+				if(r_MWriteByte_Byte == null)
 				{
-					r_WriteByte_Byte = new(this, "WriteByte", 0, typeof(System.Byte));
-					r_WriteByte_Byte.SetBelong(this.instance);
+					r_MWriteByte_Byte = new(this, "WriteByte", 0, typeof(System.Byte));
+					r_MWriteByte_Byte.SetBelong(this.instance);
 				}
-				return r_WriteByte_Byte;
+				return r_MWriteByte_Byte;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Read(Byte[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_Read_ByteArray_Int32_Int32;
-		public virtual RMethod RRead_ByteArray_Int32_Int32
+		protected RMethod r_MRead_ByteArray_Int32_Int32;
+		public virtual RMethod RMRead_ByteArray_Int32_Int32
 		{
 			get
 			{
-				if(r_Read_ByteArray_Int32_Int32 == null)
+				if(r_MRead_ByteArray_Int32_Int32 == null)
 				{
-					r_Read_ByteArray_Int32_Int32 = new(this, "Read", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_Read_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_MRead_ByteArray_Int32_Int32 = new(this, "Read", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MRead_ByteArray_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_Read_ByteArray_Int32_Int32;
+				return r_MRead_ByteArray_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 ReadInternal(Byte[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_ReadInternal_ByteArray_Int32_Int32;
-		public virtual RMethod RReadInternal_ByteArray_Int32_Int32
+		protected RMethod r_MReadInternal_ByteArray_Int32_Int32;
+		public virtual RMethod RMReadInternal_ByteArray_Int32_Int32
 		{
 			get
 			{
-				if(r_ReadInternal_ByteArray_Int32_Int32 == null)
+				if(r_MReadInternal_ByteArray_Int32_Int32 == null)
 				{
-					r_ReadInternal_ByteArray_Int32_Int32 = new(this, "ReadInternal", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_ReadInternal_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_MReadInternal_ByteArray_Int32_Int32 = new(this, "ReadInternal", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MReadInternal_ByteArray_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_ReadInternal_ByteArray_Int32_Int32;
+				return r_MReadInternal_ByteArray_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.IAsyncResult BeginRead(Byte[], Int32, Int32, System.AsyncCallback, System.Object)
 		/// </summary>
-		protected RMethod r_BeginRead_ByteArray_Int32_Int32_AsyncCallback_Object;
-		public virtual RMethod RBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object
+		protected RMethod r_MBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object;
+		public virtual RMethod RMBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object
 		{
 			get
 			{
-				if(r_BeginRead_ByteArray_Int32_Int32_AsyncCallback_Object == null)
+				if(r_MBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object == null)
 				{
-					r_BeginRead_ByteArray_Int32_Int32_AsyncCallback_Object = new(this, "BeginRead", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.AsyncCallback), typeof(System.Object));
-					r_BeginRead_ByteArray_Int32_Int32_AsyncCallback_Object.SetBelong(this.instance);
+					r_MBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object = new(this, "BeginRead", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.AsyncCallback), typeof(System.Object));
+					r_MBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object.SetBelong(this.instance);
 				}
-				return r_BeginRead_ByteArray_Int32_Int32_AsyncCallback_Object;
+				return r_MBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 EndRead(System.IAsyncResult)
 		/// </summary>
-		protected RMethod r_EndRead_IAsyncResult;
-		public virtual RMethod REndRead_IAsyncResult
+		protected RMethod r_MEndRead_IAsyncResult;
+		public virtual RMethod RMEndRead_IAsyncResult
 		{
 			get
 			{
-				if(r_EndRead_IAsyncResult == null)
+				if(r_MEndRead_IAsyncResult == null)
 				{
-					r_EndRead_IAsyncResult = new(this, "EndRead", 0, typeof(System.IAsyncResult));
-					r_EndRead_IAsyncResult.SetBelong(this.instance);
+					r_MEndRead_IAsyncResult = new(this, "EndRead", 0, typeof(System.IAsyncResult));
+					r_MEndRead_IAsyncResult.SetBelong(this.instance);
 				}
-				return r_EndRead_IAsyncResult;
+				return r_MEndRead_IAsyncResult;
 			}
 		}
 
 		/// <summary>
 		/// Void Write(Byte[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_Write_ByteArray_Int32_Int32;
-		public virtual RMethod RWrite_ByteArray_Int32_Int32
+		protected RMethod r_MWrite_ByteArray_Int32_Int32;
+		public virtual RMethod RMWrite_ByteArray_Int32_Int32
 		{
 			get
 			{
-				if(r_Write_ByteArray_Int32_Int32 == null)
+				if(r_MWrite_ByteArray_Int32_Int32 == null)
 				{
-					r_Write_ByteArray_Int32_Int32 = new(this, "Write", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_Write_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_MWrite_ByteArray_Int32_Int32 = new(this, "Write", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MWrite_ByteArray_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_Write_ByteArray_Int32_Int32;
+				return r_MWrite_ByteArray_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void WriteInternal(Byte[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_WriteInternal_ByteArray_Int32_Int32;
-		public virtual RMethod RWriteInternal_ByteArray_Int32_Int32
+		protected RMethod r_MWriteInternal_ByteArray_Int32_Int32;
+		public virtual RMethod RMWriteInternal_ByteArray_Int32_Int32
 		{
 			get
 			{
-				if(r_WriteInternal_ByteArray_Int32_Int32 == null)
+				if(r_MWriteInternal_ByteArray_Int32_Int32 == null)
 				{
-					r_WriteInternal_ByteArray_Int32_Int32 = new(this, "WriteInternal", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_WriteInternal_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_MWriteInternal_ByteArray_Int32_Int32 = new(this, "WriteInternal", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MWriteInternal_ByteArray_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_WriteInternal_ByteArray_Int32_Int32;
+				return r_MWriteInternal_ByteArray_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.IAsyncResult BeginWrite(Byte[], Int32, Int32, System.AsyncCallback, System.Object)
 		/// </summary>
-		protected RMethod r_BeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object;
-		public virtual RMethod RBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object
+		protected RMethod r_MBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object;
+		public virtual RMethod RMBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object
 		{
 			get
 			{
-				if(r_BeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object == null)
+				if(r_MBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object == null)
 				{
-					r_BeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object = new(this, "BeginWrite", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.AsyncCallback), typeof(System.Object));
-					r_BeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object.SetBelong(this.instance);
+					r_MBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object = new(this, "BeginWrite", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.AsyncCallback), typeof(System.Object));
+					r_MBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object.SetBelong(this.instance);
 				}
-				return r_BeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object;
+				return r_MBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void EndWrite(System.IAsyncResult)
 		/// </summary>
-		protected RMethod r_EndWrite_IAsyncResult;
-		public virtual RMethod REndWrite_IAsyncResult
+		protected RMethod r_MEndWrite_IAsyncResult;
+		public virtual RMethod RMEndWrite_IAsyncResult
 		{
 			get
 			{
-				if(r_EndWrite_IAsyncResult == null)
+				if(r_MEndWrite_IAsyncResult == null)
 				{
-					r_EndWrite_IAsyncResult = new(this, "EndWrite", 0, typeof(System.IAsyncResult));
-					r_EndWrite_IAsyncResult.SetBelong(this.instance);
+					r_MEndWrite_IAsyncResult = new(this, "EndWrite", 0, typeof(System.IAsyncResult));
+					r_MEndWrite_IAsyncResult.SetBelong(this.instance);
 				}
-				return r_EndWrite_IAsyncResult;
+				return r_MEndWrite_IAsyncResult;
 			}
 		}
 
 		/// <summary>
 		/// Int64 Seek(Int64, System.IO.SeekOrigin)
 		/// </summary>
-		protected RMethod r_Seek_Int64_SeekOrigin;
-		public virtual RMethod RSeek_Int64_SeekOrigin
+		protected RMethod r_MSeek_Int64_SeekOrigin;
+		public virtual RMethod RMSeek_Int64_SeekOrigin
 		{
 			get
 			{
-				if(r_Seek_Int64_SeekOrigin == null)
+				if(r_MSeek_Int64_SeekOrigin == null)
 				{
-					r_Seek_Int64_SeekOrigin = new(this, "Seek", 0, typeof(System.Int64), typeof(System.IO.SeekOrigin));
-					r_Seek_Int64_SeekOrigin.SetBelong(this.instance);
+					r_MSeek_Int64_SeekOrigin = new(this, "Seek", 0, typeof(System.Int64), typeof(System.IO.SeekOrigin));
+					r_MSeek_Int64_SeekOrigin.SetBelong(this.instance);
 				}
-				return r_Seek_Int64_SeekOrigin;
+				return r_MSeek_Int64_SeekOrigin;
 			}
 		}
 
 		/// <summary>
 		/// Void SetLength(Int64)
 		/// </summary>
-		protected RMethod r_SetLength_Int64;
-		public virtual RMethod RSetLength_Int64
+		protected RMethod r_MSetLength_Int64;
+		public virtual RMethod RMSetLength_Int64
 		{
 			get
 			{
-				if(r_SetLength_Int64 == null)
+				if(r_MSetLength_Int64 == null)
 				{
-					r_SetLength_Int64 = new(this, "SetLength", 0, typeof(System.Int64));
-					r_SetLength_Int64.SetBelong(this.instance);
+					r_MSetLength_Int64 = new(this, "SetLength", 0, typeof(System.Int64));
+					r_MSetLength_Int64.SetBelong(this.instance);
 				}
-				return r_SetLength_Int64;
+				return r_MSetLength_Int64;
 			}
 		}
 
 		/// <summary>
 		/// Void Flush()
 		/// </summary>
-		protected RMethod r_Flush;
-		public virtual RMethod RFlush
+		protected RMethod r_MFlush;
+		public virtual RMethod RMFlush
 		{
 			get
 			{
-				if(r_Flush == null)
+				if(r_MFlush == null)
 				{
-					r_Flush = new(this, "Flush", 0);
-					r_Flush.SetBelong(this.instance);
+					r_MFlush = new(this, "Flush", 0);
+					r_MFlush.SetBelong(this.instance);
 				}
-				return r_Flush;
+				return r_MFlush;
 			}
 		}
 
 		/// <summary>
 		/// Void Flush(Boolean)
 		/// </summary>
-		protected RMethod r_Flush_Boolean;
-		public virtual RMethod RFlush_Boolean
+		protected RMethod r_MFlush_Boolean;
+		public virtual RMethod RMFlush_Boolean
 		{
 			get
 			{
-				if(r_Flush_Boolean == null)
+				if(r_MFlush_Boolean == null)
 				{
-					r_Flush_Boolean = new(this, "Flush", 0, typeof(System.Boolean));
-					r_Flush_Boolean.SetBelong(this.instance);
+					r_MFlush_Boolean = new(this, "Flush", 0, typeof(System.Boolean));
+					r_MFlush_Boolean.SetBelong(this.instance);
 				}
-				return r_Flush_Boolean;
+				return r_MFlush_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Lock(Int64, Int64)
 		/// </summary>
-		protected RMethod r_Lock_Int64_Int64;
-		public virtual RMethod RLock_Int64_Int64
+		protected RMethod r_MLock_Int64_Int64;
+		public virtual RMethod RMLock_Int64_Int64
 		{
 			get
 			{
-				if(r_Lock_Int64_Int64 == null)
+				if(r_MLock_Int64_Int64 == null)
 				{
-					r_Lock_Int64_Int64 = new(this, "Lock", 0, typeof(System.Int64), typeof(System.Int64));
-					r_Lock_Int64_Int64.SetBelong(this.instance);
+					r_MLock_Int64_Int64 = new(this, "Lock", 0, typeof(System.Int64), typeof(System.Int64));
+					r_MLock_Int64_Int64.SetBelong(this.instance);
 				}
-				return r_Lock_Int64_Int64;
+				return r_MLock_Int64_Int64;
 			}
 		}
 
 		/// <summary>
 		/// Void Unlock(Int64, Int64)
 		/// </summary>
-		protected RMethod r_Unlock_Int64_Int64;
-		public virtual RMethod RUnlock_Int64_Int64
+		protected RMethod r_MUnlock_Int64_Int64;
+		public virtual RMethod RMUnlock_Int64_Int64
 		{
 			get
 			{
-				if(r_Unlock_Int64_Int64 == null)
+				if(r_MUnlock_Int64_Int64 == null)
 				{
-					r_Unlock_Int64_Int64 = new(this, "Unlock", 0, typeof(System.Int64), typeof(System.Int64));
-					r_Unlock_Int64_Int64.SetBelong(this.instance);
+					r_MUnlock_Int64_Int64 = new(this, "Unlock", 0, typeof(System.Int64), typeof(System.Int64));
+					r_MUnlock_Int64_Int64.SetBelong(this.instance);
 				}
-				return r_Unlock_Int64_Int64;
+				return r_MUnlock_Int64_Int64;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose(Boolean)
 		/// </summary>
-		protected RMethod r_Dispose_Boolean;
-		public virtual RMethod RDispose_Boolean
+		protected RMethod r_MDispose_Boolean;
+		public virtual RMethod RMDispose_Boolean
 		{
 			get
 			{
-				if(r_Dispose_Boolean == null)
+				if(r_MDispose_Boolean == null)
 				{
-					r_Dispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_Dispose_Boolean.SetBelong(this.instance);
+					r_MDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
+					r_MDispose_Boolean.SetBelong(this.instance);
 				}
-				return r_Dispose_Boolean;
+				return r_MDispose_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.FileSecurity GetAccessControl()
 		/// </summary>
-		protected RMethod r_GetAccessControl;
-		public virtual RMethod RGetAccessControl
+		protected RMethod r_MGetAccessControl;
+		public virtual RMethod RMGetAccessControl
 		{
 			get
 			{
-				if(r_GetAccessControl == null)
+				if(r_MGetAccessControl == null)
 				{
-					r_GetAccessControl = new(this, "GetAccessControl", 0);
-					r_GetAccessControl.SetBelong(this.instance);
+					r_MGetAccessControl = new(this, "GetAccessControl", 0);
+					r_MGetAccessControl.SetBelong(this.instance);
 				}
-				return r_GetAccessControl;
+				return r_MGetAccessControl;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAccessControl(System.Security.AccessControl.FileSecurity)
 		/// </summary>
-		protected RMethod r_SetAccessControl_FileSecurity;
-		public virtual RMethod RSetAccessControl_FileSecurity
+		protected RMethod r_MSetAccessControl_FileSecurity;
+		public virtual RMethod RMSetAccessControl_FileSecurity
 		{
 			get
 			{
-				if(r_SetAccessControl_FileSecurity == null)
+				if(r_MSetAccessControl_FileSecurity == null)
 				{
-					r_SetAccessControl_FileSecurity = new(this, "SetAccessControl", 0, typeof(System.Security.AccessControl.FileSecurity));
-					r_SetAccessControl_FileSecurity.SetBelong(this.instance);
+					r_MSetAccessControl_FileSecurity = new(this, "SetAccessControl", 0, typeof(System.Security.AccessControl.FileSecurity));
+					r_MSetAccessControl_FileSecurity.SetBelong(this.instance);
 				}
-				return r_SetAccessControl_FileSecurity;
+				return r_MSetAccessControl_FileSecurity;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task FlushAsync(System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_FlushAsync_CancellationToken;
-		public virtual RMethod RFlushAsync_CancellationToken
+		protected RMethod r_MFlushAsync_CancellationToken;
+		public virtual RMethod RMFlushAsync_CancellationToken
 		{
 			get
 			{
-				if(r_FlushAsync_CancellationToken == null)
+				if(r_MFlushAsync_CancellationToken == null)
 				{
-					r_FlushAsync_CancellationToken = new(this, "FlushAsync", 0, typeof(System.Threading.CancellationToken));
-					r_FlushAsync_CancellationToken.SetBelong(this.instance);
+					r_MFlushAsync_CancellationToken = new(this, "FlushAsync", 0, typeof(System.Threading.CancellationToken));
+					r_MFlushAsync_CancellationToken.SetBelong(this.instance);
 				}
-				return r_FlushAsync_CancellationToken;
+				return r_MFlushAsync_CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[System.Int32] ReadAsync(Byte[], Int32, Int32, System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_ReadAsync_ByteArray_Int32_Int32_CancellationToken;
-		public virtual RMethod RReadAsync_ByteArray_Int32_Int32_CancellationToken
+		protected RMethod r_MReadAsync_ByteArray_Int32_Int32_CancellationToken;
+		public virtual RMethod RMReadAsync_ByteArray_Int32_Int32_CancellationToken
 		{
 			get
 			{
-				if(r_ReadAsync_ByteArray_Int32_Int32_CancellationToken == null)
+				if(r_MReadAsync_ByteArray_Int32_Int32_CancellationToken == null)
 				{
-					r_ReadAsync_ByteArray_Int32_Int32_CancellationToken = new(this, "ReadAsync", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Threading.CancellationToken));
-					r_ReadAsync_ByteArray_Int32_Int32_CancellationToken.SetBelong(this.instance);
+					r_MReadAsync_ByteArray_Int32_Int32_CancellationToken = new(this, "ReadAsync", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Threading.CancellationToken));
+					r_MReadAsync_ByteArray_Int32_Int32_CancellationToken.SetBelong(this.instance);
 				}
-				return r_ReadAsync_ByteArray_Int32_Int32_CancellationToken;
+				return r_MReadAsync_ByteArray_Int32_Int32_CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task WriteAsync(Byte[], Int32, Int32, System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_WriteAsync_ByteArray_Int32_Int32_CancellationToken;
-		public virtual RMethod RWriteAsync_ByteArray_Int32_Int32_CancellationToken
+		protected RMethod r_MWriteAsync_ByteArray_Int32_Int32_CancellationToken;
+		public virtual RMethod RMWriteAsync_ByteArray_Int32_Int32_CancellationToken
 		{
 			get
 			{
-				if(r_WriteAsync_ByteArray_Int32_Int32_CancellationToken == null)
+				if(r_MWriteAsync_ByteArray_Int32_Int32_CancellationToken == null)
 				{
-					r_WriteAsync_ByteArray_Int32_Int32_CancellationToken = new(this, "WriteAsync", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Threading.CancellationToken));
-					r_WriteAsync_ByteArray_Int32_Int32_CancellationToken.SetBelong(this.instance);
+					r_MWriteAsync_ByteArray_Int32_Int32_CancellationToken = new(this, "WriteAsync", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Threading.CancellationToken));
+					r_MWriteAsync_ByteArray_Int32_Int32_CancellationToken.SetBelong(this.instance);
 				}
-				return r_WriteAsync_ByteArray_Int32_Int32_CancellationToken;
+				return r_MWriteAsync_ByteArray_Int32_Int32_CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// Int32 ReadSegment(Byte[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_ReadSegment_ByteArray_Int32_Int32;
-		public virtual RMethod RReadSegment_ByteArray_Int32_Int32
+		protected RMethod r_MReadSegment_ByteArray_Int32_Int32;
+		public virtual RMethod RMReadSegment_ByteArray_Int32_Int32
 		{
 			get
 			{
-				if(r_ReadSegment_ByteArray_Int32_Int32 == null)
+				if(r_MReadSegment_ByteArray_Int32_Int32 == null)
 				{
-					r_ReadSegment_ByteArray_Int32_Int32 = new(this, "ReadSegment", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_ReadSegment_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_MReadSegment_ByteArray_Int32_Int32 = new(this, "ReadSegment", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MReadSegment_ByteArray_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_ReadSegment_ByteArray_Int32_Int32;
+				return r_MReadSegment_ByteArray_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 WriteSegment(Byte[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_WriteSegment_ByteArray_Int32_Int32;
-		public virtual RMethod RWriteSegment_ByteArray_Int32_Int32
+		protected RMethod r_MWriteSegment_ByteArray_Int32_Int32;
+		public virtual RMethod RMWriteSegment_ByteArray_Int32_Int32
 		{
 			get
 			{
-				if(r_WriteSegment_ByteArray_Int32_Int32 == null)
+				if(r_MWriteSegment_ByteArray_Int32_Int32 == null)
 				{
-					r_WriteSegment_ByteArray_Int32_Int32 = new(this, "WriteSegment", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_WriteSegment_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_MWriteSegment_ByteArray_Int32_Int32 = new(this, "WriteSegment", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MWriteSegment_ByteArray_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_WriteSegment_ByteArray_Int32_Int32;
+				return r_MWriteSegment_ByteArray_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void FlushBuffer()
 		/// </summary>
-		protected RMethod r_FlushBuffer;
-		public virtual RMethod RFlushBuffer
+		protected RMethod r_MFlushBuffer;
+		public virtual RMethod RMFlushBuffer
 		{
 			get
 			{
-				if(r_FlushBuffer == null)
+				if(r_MFlushBuffer == null)
 				{
-					r_FlushBuffer = new(this, "FlushBuffer", 0);
-					r_FlushBuffer.SetBelong(this.instance);
+					r_MFlushBuffer = new(this, "FlushBuffer", 0);
+					r_MFlushBuffer.SetBelong(this.instance);
 				}
-				return r_FlushBuffer;
+				return r_MFlushBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void FlushBufferIfDirty()
 		/// </summary>
-		protected RMethod r_FlushBufferIfDirty;
-		public virtual RMethod RFlushBufferIfDirty
+		protected RMethod r_MFlushBufferIfDirty;
+		public virtual RMethod RMFlushBufferIfDirty
 		{
 			get
 			{
-				if(r_FlushBufferIfDirty == null)
+				if(r_MFlushBufferIfDirty == null)
 				{
-					r_FlushBufferIfDirty = new(this, "FlushBufferIfDirty", 0);
-					r_FlushBufferIfDirty.SetBelong(this.instance);
+					r_MFlushBufferIfDirty = new(this, "FlushBufferIfDirty", 0);
+					r_MFlushBufferIfDirty.SetBelong(this.instance);
 				}
-				return r_FlushBufferIfDirty;
+				return r_MFlushBufferIfDirty;
 			}
 		}
 
 		/// <summary>
 		/// Void RefillBuffer()
 		/// </summary>
-		protected RMethod r_RefillBuffer;
-		public virtual RMethod RRefillBuffer
+		protected RMethod r_MRefillBuffer;
+		public virtual RMethod RMRefillBuffer
 		{
 			get
 			{
-				if(r_RefillBuffer == null)
+				if(r_MRefillBuffer == null)
 				{
-					r_RefillBuffer = new(this, "RefillBuffer", 0);
-					r_RefillBuffer.SetBelong(this.instance);
+					r_MRefillBuffer = new(this, "RefillBuffer", 0);
+					r_MRefillBuffer.SetBelong(this.instance);
 				}
-				return r_RefillBuffer;
+				return r_MRefillBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Int32 ReadData(System.Runtime.InteropServices.SafeHandle, Byte[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_ReadData_SafeHandle_ByteArray_Int32_Int32;
-		public virtual RMethod RReadData_SafeHandle_ByteArray_Int32_Int32
+		protected RMethod r_MReadData_SafeHandle_ByteArray_Int32_Int32;
+		public virtual RMethod RMReadData_SafeHandle_ByteArray_Int32_Int32
 		{
 			get
 			{
-				if(r_ReadData_SafeHandle_ByteArray_Int32_Int32 == null)
+				if(r_MReadData_SafeHandle_ByteArray_Int32_Int32 == null)
 				{
-					r_ReadData_SafeHandle_ByteArray_Int32_Int32 = new(this, "ReadData", 0, typeof(System.Runtime.InteropServices.SafeHandle), typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_ReadData_SafeHandle_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_MReadData_SafeHandle_ByteArray_Int32_Int32 = new(this, "ReadData", 0, typeof(System.Runtime.InteropServices.SafeHandle), typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MReadData_SafeHandle_ByteArray_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_ReadData_SafeHandle_ByteArray_Int32_Int32;
+				return r_MReadData_SafeHandle_ByteArray_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void InitBuffer(Int32, Boolean)
 		/// </summary>
-		protected RMethod r_InitBuffer_Int32_Boolean;
-		public virtual RMethod RInitBuffer_Int32_Boolean
+		protected RMethod r_MInitBuffer_Int32_Boolean;
+		public virtual RMethod RMInitBuffer_Int32_Boolean
 		{
 			get
 			{
-				if(r_InitBuffer_Int32_Boolean == null)
+				if(r_MInitBuffer_Int32_Boolean == null)
 				{
-					r_InitBuffer_Int32_Boolean = new(this, "InitBuffer", 0, typeof(System.Int32), typeof(System.Boolean));
-					r_InitBuffer_Int32_Boolean.SetBelong(this.instance);
+					r_MInitBuffer_Int32_Boolean = new(this, "InitBuffer", 0, typeof(System.Int32), typeof(System.Boolean));
+					r_MInitBuffer_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_InitBuffer_Int32_Boolean;
+				return r_MInitBuffer_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetSecureFileName(System.String)
 		/// </summary>
-		protected RMethod r_GetSecureFileName_String;
-		public virtual RMethod RGetSecureFileName_String
+		protected RMethod r_MGetSecureFileName_String;
+		public virtual RMethod RMGetSecureFileName_String
 		{
 			get
 			{
-				if(r_GetSecureFileName_String == null)
+				if(r_MGetSecureFileName_String == null)
 				{
-					r_GetSecureFileName_String = new(this, "GetSecureFileName", 0, typeof(System.String));
-					r_GetSecureFileName_String.SetBelong(this.instance);
+					r_MGetSecureFileName_String = new(this, "GetSecureFileName", 0, typeof(System.String));
+					r_MGetSecureFileName_String.SetBelong(this.instance);
 				}
-				return r_GetSecureFileName_String;
+				return r_MGetSecureFileName_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetSecureFileName(System.String, Boolean)
 		/// </summary>
-		protected RMethod r_GetSecureFileName_String_Boolean;
-		public virtual RMethod RGetSecureFileName_String_Boolean
+		protected RMethod r_MGetSecureFileName_String_Boolean;
+		public virtual RMethod RMGetSecureFileName_String_Boolean
 		{
 			get
 			{
-				if(r_GetSecureFileName_String_Boolean == null)
+				if(r_MGetSecureFileName_String_Boolean == null)
 				{
-					r_GetSecureFileName_String_Boolean = new(this, "GetSecureFileName", 0, typeof(System.String), typeof(System.Boolean));
-					r_GetSecureFileName_String_Boolean.SetBelong(this.instance);
+					r_MGetSecureFileName_String_Boolean = new(this, "GetSecureFileName", 0, typeof(System.String), typeof(System.Boolean));
+					r_MGetSecureFileName_String_Boolean.SetBelong(this.instance);
 				}
-				return r_GetSecureFileName_String_Boolean;
+				return r_MGetSecureFileName_String_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.SemaphoreSlim EnsureAsyncActiveSemaphoreInitialized()
 		/// </summary>
-		protected RMethod r_EnsureAsyncActiveSemaphoreInitialized;
-		public virtual RMethod REnsureAsyncActiveSemaphoreInitialized
+		protected RMethod r_MEnsureAsyncActiveSemaphoreInitialized;
+		public virtual RMethod RMEnsureAsyncActiveSemaphoreInitialized
 		{
 			get
 			{
-				if(r_EnsureAsyncActiveSemaphoreInitialized == null)
+				if(r_MEnsureAsyncActiveSemaphoreInitialized == null)
 				{
-					r_EnsureAsyncActiveSemaphoreInitialized = new(this, "EnsureAsyncActiveSemaphoreInitialized", 0);
-					r_EnsureAsyncActiveSemaphoreInitialized.SetBelong(this.instance);
+					r_MEnsureAsyncActiveSemaphoreInitialized = new(this, "EnsureAsyncActiveSemaphoreInitialized", 0);
+					r_MEnsureAsyncActiveSemaphoreInitialized.SetBelong(this.instance);
 				}
-				return r_EnsureAsyncActiveSemaphoreInitialized;
+				return r_MEnsureAsyncActiveSemaphoreInitialized;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task CopyToAsync(System.IO.Stream)
 		/// </summary>
-		protected RMethod r_CopyToAsync_Stream;
-		public virtual RMethod RCopyToAsync_Stream
+		protected RMethod r_MCopyToAsync_Stream;
+		public virtual RMethod RMCopyToAsync_Stream
 		{
 			get
 			{
-				if(r_CopyToAsync_Stream == null)
+				if(r_MCopyToAsync_Stream == null)
 				{
-					r_CopyToAsync_Stream = new(this, "CopyToAsync", 0, typeof(System.IO.Stream));
-					r_CopyToAsync_Stream.SetBelong(this.instance);
+					r_MCopyToAsync_Stream = new(this, "CopyToAsync", 0, typeof(System.IO.Stream));
+					r_MCopyToAsync_Stream.SetBelong(this.instance);
 				}
-				return r_CopyToAsync_Stream;
+				return r_MCopyToAsync_Stream;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task CopyToAsync(System.IO.Stream, Int32)
 		/// </summary>
-		protected RMethod r_CopyToAsync_Stream_Int32;
-		public virtual RMethod RCopyToAsync_Stream_Int32
+		protected RMethod r_MCopyToAsync_Stream_Int32;
+		public virtual RMethod RMCopyToAsync_Stream_Int32
 		{
 			get
 			{
-				if(r_CopyToAsync_Stream_Int32 == null)
+				if(r_MCopyToAsync_Stream_Int32 == null)
 				{
-					r_CopyToAsync_Stream_Int32 = new(this, "CopyToAsync", 0, typeof(System.IO.Stream), typeof(System.Int32));
-					r_CopyToAsync_Stream_Int32.SetBelong(this.instance);
+					r_MCopyToAsync_Stream_Int32 = new(this, "CopyToAsync", 0, typeof(System.IO.Stream), typeof(System.Int32));
+					r_MCopyToAsync_Stream_Int32.SetBelong(this.instance);
 				}
-				return r_CopyToAsync_Stream_Int32;
+				return r_MCopyToAsync_Stream_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task CopyToAsync(System.IO.Stream, System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_CopyToAsync_Stream_CancellationToken;
-		public virtual RMethod RCopyToAsync_Stream_CancellationToken
+		protected RMethod r_MCopyToAsync_Stream_CancellationToken;
+		public virtual RMethod RMCopyToAsync_Stream_CancellationToken
 		{
 			get
 			{
-				if(r_CopyToAsync_Stream_CancellationToken == null)
+				if(r_MCopyToAsync_Stream_CancellationToken == null)
 				{
-					r_CopyToAsync_Stream_CancellationToken = new(this, "CopyToAsync", 0, typeof(System.IO.Stream), typeof(System.Threading.CancellationToken));
-					r_CopyToAsync_Stream_CancellationToken.SetBelong(this.instance);
+					r_MCopyToAsync_Stream_CancellationToken = new(this, "CopyToAsync", 0, typeof(System.IO.Stream), typeof(System.Threading.CancellationToken));
+					r_MCopyToAsync_Stream_CancellationToken.SetBelong(this.instance);
 				}
-				return r_CopyToAsync_Stream_CancellationToken;
+				return r_MCopyToAsync_Stream_CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task CopyToAsync(System.IO.Stream, Int32, System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_CopyToAsync_Stream_Int32_CancellationToken;
-		public virtual RMethod RCopyToAsync_Stream_Int32_CancellationToken
+		protected RMethod r_MCopyToAsync_Stream_Int32_CancellationToken;
+		public virtual RMethod RMCopyToAsync_Stream_Int32_CancellationToken
 		{
 			get
 			{
-				if(r_CopyToAsync_Stream_Int32_CancellationToken == null)
+				if(r_MCopyToAsync_Stream_Int32_CancellationToken == null)
 				{
-					r_CopyToAsync_Stream_Int32_CancellationToken = new(this, "CopyToAsync", 0, typeof(System.IO.Stream), typeof(System.Int32), typeof(System.Threading.CancellationToken));
-					r_CopyToAsync_Stream_Int32_CancellationToken.SetBelong(this.instance);
+					r_MCopyToAsync_Stream_Int32_CancellationToken = new(this, "CopyToAsync", 0, typeof(System.IO.Stream), typeof(System.Int32), typeof(System.Threading.CancellationToken));
+					r_MCopyToAsync_Stream_Int32_CancellationToken.SetBelong(this.instance);
 				}
-				return r_CopyToAsync_Stream_Int32_CancellationToken;
+				return r_MCopyToAsync_Stream_Int32_CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// Void CopyTo(System.IO.Stream)
 		/// </summary>
-		protected RMethod r_CopyTo_Stream;
-		public virtual RMethod RCopyTo_Stream
+		protected RMethod r_MCopyTo_Stream;
+		public virtual RMethod RMCopyTo_Stream
 		{
 			get
 			{
-				if(r_CopyTo_Stream == null)
+				if(r_MCopyTo_Stream == null)
 				{
-					r_CopyTo_Stream = new(this, "CopyTo", 0, typeof(System.IO.Stream));
-					r_CopyTo_Stream.SetBelong(this.instance);
+					r_MCopyTo_Stream = new(this, "CopyTo", 0, typeof(System.IO.Stream));
+					r_MCopyTo_Stream.SetBelong(this.instance);
 				}
-				return r_CopyTo_Stream;
+				return r_MCopyTo_Stream;
 			}
 		}
 
 		/// <summary>
 		/// Void CopyTo(System.IO.Stream, Int32)
 		/// </summary>
-		protected RMethod r_CopyTo_Stream_Int32;
-		public virtual RMethod RCopyTo_Stream_Int32
+		protected RMethod r_MCopyTo_Stream_Int32;
+		public virtual RMethod RMCopyTo_Stream_Int32
 		{
 			get
 			{
-				if(r_CopyTo_Stream_Int32 == null)
+				if(r_MCopyTo_Stream_Int32 == null)
 				{
-					r_CopyTo_Stream_Int32 = new(this, "CopyTo", 0, typeof(System.IO.Stream), typeof(System.Int32));
-					r_CopyTo_Stream_Int32.SetBelong(this.instance);
+					r_MCopyTo_Stream_Int32 = new(this, "CopyTo", 0, typeof(System.IO.Stream), typeof(System.Int32));
+					r_MCopyTo_Stream_Int32.SetBelong(this.instance);
 				}
-				return r_CopyTo_Stream_Int32;
+				return r_MCopyTo_Stream_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Close()
 		/// </summary>
-		protected RMethod r_Close;
-		public virtual RMethod RClose
+		protected RMethod r_MClose;
+		public virtual RMethod RMClose
 		{
 			get
 			{
-				if(r_Close == null)
+				if(r_MClose == null)
 				{
-					r_Close = new(this, "Close", 0);
-					r_Close.SetBelong(this.instance);
+					r_MClose = new(this, "Close", 0);
+					r_MClose.SetBelong(this.instance);
 				}
-				return r_Close;
+				return r_MClose;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose()
 		/// </summary>
-		protected RMethod r_Dispose;
-		public virtual RMethod RDispose
+		protected RMethod r_MDispose;
+		public virtual RMethod RMDispose
 		{
 			get
 			{
-				if(r_Dispose == null)
+				if(r_MDispose == null)
 				{
-					r_Dispose = new(this, "Dispose", 0);
-					r_Dispose.SetBelong(this.instance);
+					r_MDispose = new(this, "Dispose", 0);
+					r_MDispose.SetBelong(this.instance);
 				}
-				return r_Dispose;
+				return r_MDispose;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task FlushAsync()
 		/// </summary>
-		protected RMethod r_FlushAsync;
-		public virtual RMethod RFlushAsync
+		protected RMethod r_MFlushAsync;
+		public virtual RMethod RMFlushAsync
 		{
 			get
 			{
-				if(r_FlushAsync == null)
+				if(r_MFlushAsync == null)
 				{
-					r_FlushAsync = new(this, "FlushAsync", 0);
-					r_FlushAsync.SetBelong(this.instance);
+					r_MFlushAsync = new(this, "FlushAsync", 0);
+					r_MFlushAsync.SetBelong(this.instance);
 				}
-				return r_FlushAsync;
+				return r_MFlushAsync;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.WaitHandle CreateWaitHandle()
 		/// </summary>
-		protected RMethod r_CreateWaitHandle;
-		public virtual RMethod RCreateWaitHandle
+		protected RMethod r_MCreateWaitHandle;
+		public virtual RMethod RMCreateWaitHandle
 		{
 			get
 			{
-				if(r_CreateWaitHandle == null)
+				if(r_MCreateWaitHandle == null)
 				{
-					r_CreateWaitHandle = new(this, "CreateWaitHandle", 0);
-					r_CreateWaitHandle.SetBelong(this.instance);
+					r_MCreateWaitHandle = new(this, "CreateWaitHandle", 0);
+					r_MCreateWaitHandle.SetBelong(this.instance);
 				}
-				return r_CreateWaitHandle;
+				return r_MCreateWaitHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.IAsyncResult BeginReadInternal(Byte[], Int32, Int32, System.AsyncCallback, System.Object, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_BeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean;
-		public virtual RMethod RBeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean
+		protected RMethod r_MBeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean;
+		public virtual RMethod RMBeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean
 		{
 			get
 			{
-				if(r_BeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean == null)
+				if(r_MBeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean == null)
 				{
-					r_BeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean = new(this, "BeginReadInternal", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.Boolean), typeof(System.Boolean));
-					r_BeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean.SetBelong(this.instance);
+					r_MBeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean = new(this, "BeginReadInternal", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.Boolean), typeof(System.Boolean));
+					r_MBeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_BeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean;
+				return r_MBeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[System.Int32] ReadAsync(Byte[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_ReadAsync_ByteArray_Int32_Int32;
-		public virtual RMethod RReadAsync_ByteArray_Int32_Int32
+		protected RMethod r_MReadAsync_ByteArray_Int32_Int32;
+		public virtual RMethod RMReadAsync_ByteArray_Int32_Int32
 		{
 			get
 			{
-				if(r_ReadAsync_ByteArray_Int32_Int32 == null)
+				if(r_MReadAsync_ByteArray_Int32_Int32 == null)
 				{
-					r_ReadAsync_ByteArray_Int32_Int32 = new(this, "ReadAsync", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_ReadAsync_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_MReadAsync_ByteArray_Int32_Int32 = new(this, "ReadAsync", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MReadAsync_ByteArray_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_ReadAsync_ByteArray_Int32_Int32;
+				return r_MReadAsync_ByteArray_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.ValueTask`1[System.Int32] ReadAsync(System.Memory`1[System.Byte], System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_ReadAsync_Memory_d_Byte_p__CancellationToken;
-		public virtual RMethod RReadAsync_Memory_d_Byte_p__CancellationToken
+		protected RMethod r_MReadAsync_Memory_d_Byte_p__CancellationToken;
+		public virtual RMethod RMReadAsync_Memory_d_Byte_p__CancellationToken
 		{
 			get
 			{
-				if(r_ReadAsync_Memory_d_Byte_p__CancellationToken == null)
+				if(r_MReadAsync_Memory_d_Byte_p__CancellationToken == null)
 				{
-					r_ReadAsync_Memory_d_Byte_p__CancellationToken = new(this, "ReadAsync", 0, typeof(System.Memory<>).MakeGenericType(typeof(System.Byte)), typeof(System.Threading.CancellationToken));
-					r_ReadAsync_Memory_d_Byte_p__CancellationToken.SetBelong(this.instance);
+					r_MReadAsync_Memory_d_Byte_p__CancellationToken = new(this, "ReadAsync", 0, typeof(System.Memory<>).MakeGenericType(typeof(System.Byte)), typeof(System.Threading.CancellationToken));
+					r_MReadAsync_Memory_d_Byte_p__CancellationToken.SetBelong(this.instance);
 				}
-				return r_ReadAsync_Memory_d_Byte_p__CancellationToken;
+				return r_MReadAsync_Memory_d_Byte_p__CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// System.IAsyncResult BeginWriteInternal(Byte[], Int32, Int32, System.AsyncCallback, System.Object, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_BeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean;
-		public virtual RMethod RBeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean
+		protected RMethod r_MBeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean;
+		public virtual RMethod RMBeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean
 		{
 			get
 			{
-				if(r_BeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean == null)
+				if(r_MBeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean == null)
 				{
-					r_BeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean = new(this, "BeginWriteInternal", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.Boolean), typeof(System.Boolean));
-					r_BeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean.SetBelong(this.instance);
+					r_MBeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean = new(this, "BeginWriteInternal", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.Boolean), typeof(System.Boolean));
+					r_MBeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_BeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean;
+				return r_MBeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task WriteAsync(Byte[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_WriteAsync_ByteArray_Int32_Int32;
-		public virtual RMethod RWriteAsync_ByteArray_Int32_Int32
+		protected RMethod r_MWriteAsync_ByteArray_Int32_Int32;
+		public virtual RMethod RMWriteAsync_ByteArray_Int32_Int32
 		{
 			get
 			{
-				if(r_WriteAsync_ByteArray_Int32_Int32 == null)
+				if(r_MWriteAsync_ByteArray_Int32_Int32 == null)
 				{
-					r_WriteAsync_ByteArray_Int32_Int32 = new(this, "WriteAsync", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_WriteAsync_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_MWriteAsync_ByteArray_Int32_Int32 = new(this, "WriteAsync", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MWriteAsync_ByteArray_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_WriteAsync_ByteArray_Int32_Int32;
+				return r_MWriteAsync_ByteArray_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.ValueTask WriteAsync(System.ReadOnlyMemory`1[System.Byte], System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_WriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken;
-		public virtual RMethod RWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken
+		protected RMethod r_MWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken;
+		public virtual RMethod RMWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken
 		{
 			get
 			{
-				if(r_WriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken == null)
+				if(r_MWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken == null)
 				{
-					r_WriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken = new(this, "WriteAsync", 0, typeof(System.ReadOnlyMemory<>).MakeGenericType(typeof(System.Byte)), typeof(System.Threading.CancellationToken));
-					r_WriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken.SetBelong(this.instance);
+					r_MWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken = new(this, "WriteAsync", 0, typeof(System.ReadOnlyMemory<>).MakeGenericType(typeof(System.Byte)), typeof(System.Threading.CancellationToken));
+					r_MWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken.SetBelong(this.instance);
 				}
-				return r_WriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken;
+				return r_MWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Read(System.Span`1[System.Byte])
 		/// </summary>
-		protected RMethod r_Read_Span_d_Byte_p_;
-		public virtual RMethod RRead_Span_d_Byte_p_
+		protected RMethod r_MRead_Span_d_Byte_p_;
+		public virtual RMethod RMRead_Span_d_Byte_p_
 		{
 			get
 			{
-				if(r_Read_Span_d_Byte_p_ == null)
+				if(r_MRead_Span_d_Byte_p_ == null)
 				{
-					r_Read_Span_d_Byte_p_ = new(this, "Read", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)));
-					r_Read_Span_d_Byte_p_.SetBelong(this.instance);
+					r_MRead_Span_d_Byte_p_ = new(this, "Read", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)));
+					r_MRead_Span_d_Byte_p_.SetBelong(this.instance);
 				}
-				return r_Read_Span_d_Byte_p_;
+				return r_MRead_Span_d_Byte_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void Write(System.ReadOnlySpan`1[System.Byte])
 		/// </summary>
-		protected RMethod r_Write_ReadOnlySpan_d_Byte_p_;
-		public virtual RMethod RWrite_ReadOnlySpan_d_Byte_p_
+		protected RMethod r_MWrite_ReadOnlySpan_d_Byte_p_;
+		public virtual RMethod RMWrite_ReadOnlySpan_d_Byte_p_
 		{
 			get
 			{
-				if(r_Write_ReadOnlySpan_d_Byte_p_ == null)
+				if(r_MWrite_ReadOnlySpan_d_Byte_p_ == null)
 				{
-					r_Write_ReadOnlySpan_d_Byte_p_ = new(this, "Write", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)));
-					r_Write_ReadOnlySpan_d_Byte_p_.SetBelong(this.instance);
+					r_MWrite_ReadOnlySpan_d_Byte_p_ = new(this, "Write", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)));
+					r_MWrite_ReadOnlySpan_d_Byte_p_.SetBelong(this.instance);
 				}
-				return r_Write_ReadOnlySpan_d_Byte_p_;
+				return r_MWrite_ReadOnlySpan_d_Byte_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void ObjectInvariant()
 		/// </summary>
-		protected RMethod r_ObjectInvariant;
-		public virtual RMethod RObjectInvariant
+		protected RMethod r_MObjectInvariant;
+		public virtual RMethod RMObjectInvariant
 		{
 			get
 			{
-				if(r_ObjectInvariant == null)
+				if(r_MObjectInvariant == null)
 				{
-					r_ObjectInvariant = new(this, "ObjectInvariant", 0);
-					r_ObjectInvariant.SetBelong(this.instance);
+					r_MObjectInvariant = new(this, "ObjectInvariant", 0);
+					r_MObjectInvariant.SetBelong(this.instance);
 				}
-				return r_ObjectInvariant;
+				return r_MObjectInvariant;
 			}
 		}
 
 		/// <summary>
 		/// System.IAsyncResult BlockingBeginRead(Byte[], Int32, Int32, System.AsyncCallback, System.Object)
 		/// </summary>
-		protected RMethod r_BlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object;
-		public virtual RMethod RBlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object
+		protected RMethod r_MBlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object;
+		public virtual RMethod RMBlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object
 		{
 			get
 			{
-				if(r_BlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object == null)
+				if(r_MBlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object == null)
 				{
-					r_BlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object = new(this, "BlockingBeginRead", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.AsyncCallback), typeof(System.Object));
-					r_BlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object.SetBelong(this.instance);
+					r_MBlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object = new(this, "BlockingBeginRead", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.AsyncCallback), typeof(System.Object));
+					r_MBlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object.SetBelong(this.instance);
 				}
-				return r_BlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object;
+				return r_MBlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.IAsyncResult BlockingBeginWrite(Byte[], Int32, Int32, System.AsyncCallback, System.Object)
 		/// </summary>
-		protected RMethod r_BlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object;
-		public virtual RMethod RBlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object
+		protected RMethod r_MBlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object;
+		public virtual RMethod RMBlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object
 		{
 			get
 			{
-				if(r_BlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object == null)
+				if(r_MBlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object == null)
 				{
-					r_BlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object = new(this, "BlockingBeginWrite", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.AsyncCallback), typeof(System.Object));
-					r_BlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object.SetBelong(this.instance);
+					r_MBlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object = new(this, "BlockingBeginWrite", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.AsyncCallback), typeof(System.Object));
+					r_MBlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object.SetBelong(this.instance);
 				}
-				return r_BlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object;
+				return r_MBlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.ValueTask DisposeAsync()
 		/// </summary>
-		protected RMethod r_DisposeAsync;
-		public virtual RMethod RDisposeAsync
+		protected RMethod r_MDisposeAsync;
+		public virtual RMethod RMDisposeAsync
 		{
 			get
 			{
-				if(r_DisposeAsync == null)
+				if(r_MDisposeAsync == null)
 				{
-					r_DisposeAsync = new(this, "DisposeAsync", 0);
-					r_DisposeAsync.SetBelong(this.instance);
+					r_MDisposeAsync = new(this, "DisposeAsync", 0);
+					r_MDisposeAsync.SetBelong(this.instance);
 				}
-				return r_DisposeAsync;
+				return r_MDisposeAsync;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Identity GetObjectIdentity(System.MarshalByRefObject, Boolean ByRef)
 		/// </summary>
-		protected RMethod r_GetObjectIdentity_MarshalByRefObject_Out_Boolean;
-		public virtual RMethod RGetObjectIdentity_MarshalByRefObject_Out_Boolean
+		protected RMethod r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean;
+		public virtual RMethod RMGetObjectIdentity_MarshalByRefObject_Out_Boolean
 		{
 			get
 			{
-				if(r_GetObjectIdentity_MarshalByRefObject_Out_Boolean == null)
+				if(r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean == null)
 				{
-					r_GetObjectIdentity_MarshalByRefObject_Out_Boolean = new(this, "GetObjectIdentity", 0, typeof(System.MarshalByRefObject), typeof(System.Boolean).MakeByRefType());
-					r_GetObjectIdentity_MarshalByRefObject_Out_Boolean.SetBelong(this.instance);
+					r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean = new(this, "GetObjectIdentity", 0, typeof(System.MarshalByRefObject), typeof(System.Boolean).MakeByRefType());
+					r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean.SetBelong(this.instance);
 				}
-				return r_GetObjectIdentity_MarshalByRefObject_Out_Boolean;
+				return r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.ObjRef CreateObjRef(System.Type)
 		/// </summary>
-		protected RMethod r_CreateObjRef_Type;
-		public virtual RMethod RCreateObjRef_Type
+		protected RMethod r_MCreateObjRef_Type;
+		public virtual RMethod RMCreateObjRef_Type
 		{
 			get
 			{
-				if(r_CreateObjRef_Type == null)
+				if(r_MCreateObjRef_Type == null)
 				{
-					r_CreateObjRef_Type = new(this, "CreateObjRef", 0, typeof(System.Type));
-					r_CreateObjRef_Type.SetBelong(this.instance);
+					r_MCreateObjRef_Type = new(this, "CreateObjRef", 0, typeof(System.Type));
+					r_MCreateObjRef_Type.SetBelong(this.instance);
 				}
-				return r_CreateObjRef_Type;
+				return r_MCreateObjRef_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetLifetimeService()
 		/// </summary>
-		protected RMethod r_GetLifetimeService;
-		public virtual RMethod RGetLifetimeService
+		protected RMethod r_MGetLifetimeService;
+		public virtual RMethod RMGetLifetimeService
 		{
 			get
 			{
-				if(r_GetLifetimeService == null)
+				if(r_MGetLifetimeService == null)
 				{
-					r_GetLifetimeService = new(this, "GetLifetimeService", 0);
-					r_GetLifetimeService.SetBelong(this.instance);
+					r_MGetLifetimeService = new(this, "GetLifetimeService", 0);
+					r_MGetLifetimeService.SetBelong(this.instance);
 				}
-				return r_GetLifetimeService;
+				return r_MGetLifetimeService;
 			}
 		}
 
 		/// <summary>
 		/// System.Object InitializeLifetimeService()
 		/// </summary>
-		protected RMethod r_InitializeLifetimeService;
-		public virtual RMethod RInitializeLifetimeService
+		protected RMethod r_MInitializeLifetimeService;
+		public virtual RMethod RMInitializeLifetimeService
 		{
 			get
 			{
-				if(r_InitializeLifetimeService == null)
+				if(r_MInitializeLifetimeService == null)
 				{
-					r_InitializeLifetimeService = new(this, "InitializeLifetimeService", 0);
-					r_InitializeLifetimeService.SetBelong(this.instance);
+					r_MInitializeLifetimeService = new(this, "InitializeLifetimeService", 0);
+					r_MInitializeLifetimeService.SetBelong(this.instance);
 				}
-				return r_InitializeLifetimeService;
+				return r_MInitializeLifetimeService;
 			}
 		}
 
 		/// <summary>
 		/// System.MarshalByRefObject MemberwiseClone(Boolean)
 		/// </summary>
-		protected RMethod r_MemberwiseClone_Boolean;
-		public virtual RMethod RMemberwiseClone_Boolean
+		protected RMethod r_MMemberwiseClone_Boolean;
+		public virtual RMethod RMMemberwiseClone_Boolean
 		{
 			get
 			{
-				if(r_MemberwiseClone_Boolean == null)
+				if(r_MMemberwiseClone_Boolean == null)
 				{
-					r_MemberwiseClone_Boolean = new(this, "MemberwiseClone", 0, typeof(System.Boolean));
-					r_MemberwiseClone_Boolean.SetBelong(this.instance);
+					r_MMemberwiseClone_Boolean = new(this, "MemberwiseClone", 0, typeof(System.Boolean));
+					r_MMemberwiseClone_Boolean.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone_Boolean;
+				return r_MMemberwiseClone_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -1699,7 +1699,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@safeHandle, @access, @ownsHandle, @bufferSize, @isAsync, @isConsoleWrapper};
-            var ___result = RInit_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMInit_SafeFileHandle_FileAccess_Boolean_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1710,7 +1710,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RExposeHandle.Invoke(___genericsType, ___parameters);
+            var ___result = RMExposeHandle.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1721,7 +1721,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RReadByte.Invoke(___genericsType, ___parameters);
+            var ___result = RMReadByte.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1732,7 +1732,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = RWriteByte_Byte.Invoke(___genericsType, ___parameters);
+            var ___result = RMWriteByte_Byte.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1743,7 +1743,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@array, @offset, @count};
-            var ___result = RRead_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMRead_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1754,7 +1754,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@dest, @offset, @count};
-            var ___result = RReadInternal_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMReadInternal_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1765,7 +1765,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@array, @offset, @numBytes, @userCallback, @stateObject};
-            var ___result = RBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
 
             return (System.IAsyncResult)___result;
         }
@@ -1776,7 +1776,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@asyncResult};
-            var ___result = REndRead_IAsyncResult.Invoke(___genericsType, ___parameters);
+            var ___result = RMEndRead_IAsyncResult.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1787,7 +1787,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@array, @offset, @count};
-            var ___result = RWrite_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMWrite_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1798,7 +1798,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@src, @offset, @count};
-            var ___result = RWriteInternal_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMWriteInternal_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1809,7 +1809,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@array, @offset, @numBytes, @userCallback, @stateObject};
-            var ___result = RBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
 
             return (System.IAsyncResult)___result;
         }
@@ -1820,7 +1820,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@asyncResult};
-            var ___result = REndWrite_IAsyncResult.Invoke(___genericsType, ___parameters);
+            var ___result = RMEndWrite_IAsyncResult.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1831,7 +1831,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@offset, @origin};
-            var ___result = RSeek_Int64_SeekOrigin.Invoke(___genericsType, ___parameters);
+            var ___result = RMSeek_Int64_SeekOrigin.Invoke(___genericsType, ___parameters);
 
             return (System.Int64)___result;
         }
@@ -1842,7 +1842,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = RSetLength_Int64.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetLength_Int64.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1853,7 +1853,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFlush.Invoke(___genericsType, ___parameters);
+            var ___result = RMFlush.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1864,7 +1864,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@flushToDisk};
-            var ___result = RFlush_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMFlush_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1875,7 +1875,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @length};
-            var ___result = RLock_Int64_Int64.Invoke(___genericsType, ___parameters);
+            var ___result = RMLock_Int64_Int64.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1886,7 +1886,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @length};
-            var ___result = RUnlock_Int64_Int64.Invoke(___genericsType, ___parameters);
+            var ___result = RMUnlock_Int64_Int64.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1897,7 +1897,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1908,7 +1908,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@disposing};
-            var ___result = RDispose_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1919,7 +1919,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetAccessControl.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetAccessControl.Invoke(___genericsType, ___parameters);
 
             return (System.Security.AccessControl.FileSecurity)___result;
         }
@@ -1930,7 +1930,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fileSecurity};
-            var ___result = RSetAccessControl_FileSecurity.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetAccessControl_FileSecurity.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1941,7 +1941,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cancellationToken};
-            var ___result = RFlushAsync_CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMFlushAsync_CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -1952,7 +1952,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer, @offset, @count, @cancellationToken};
-            var ___result = RReadAsync_ByteArray_Int32_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMReadAsync_ByteArray_Int32_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<System.Int32>)___result;
         }
@@ -1963,7 +1963,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer, @offset, @count, @cancellationToken};
-            var ___result = RWriteAsync_ByteArray_Int32_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMWriteAsync_ByteArray_Int32_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -1974,7 +1974,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@dest, @dest_offset, @count};
-            var ___result = RReadSegment_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMReadSegment_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1985,7 +1985,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@src, @src_offset, @count};
-            var ___result = RWriteSegment_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMWriteSegment_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1996,7 +1996,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFlushBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMFlushBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2007,7 +2007,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFlushBufferIfDirty.Invoke(___genericsType, ___parameters);
+            var ___result = RMFlushBufferIfDirty.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2018,7 +2018,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RRefillBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMRefillBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2029,7 +2029,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@safeHandle, @buf, @offset, @count};
-            var ___result = RReadData_SafeHandle_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMReadData_SafeHandle_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -2040,7 +2040,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@size, @isZeroSize};
-            var ___result = RInitBuffer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitBuffer_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2051,7 +2051,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@filename};
-            var ___result = RGetSecureFileName_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetSecureFileName_String.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -2062,7 +2062,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@filename, @full};
-            var ___result = RGetSecureFileName_String_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetSecureFileName_String_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -2073,7 +2073,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = REnsureAsyncActiveSemaphoreInitialized.Invoke(___genericsType, ___parameters);
+            var ___result = RMEnsureAsyncActiveSemaphoreInitialized.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.SemaphoreSlim)___result;
         }
@@ -2084,7 +2084,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination};
-            var ___result = RCopyToAsync_Stream.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyToAsync_Stream.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2095,7 +2095,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination, @bufferSize};
-            var ___result = RCopyToAsync_Stream_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyToAsync_Stream_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2106,7 +2106,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination, @cancellationToken};
-            var ___result = RCopyToAsync_Stream_CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyToAsync_Stream_CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2117,7 +2117,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination, @bufferSize, @cancellationToken};
-            var ___result = RCopyToAsync_Stream_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyToAsync_Stream_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2128,7 +2128,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination};
-            var ___result = RCopyTo_Stream.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyTo_Stream.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2139,7 +2139,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination, @bufferSize};
-            var ___result = RCopyTo_Stream_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyTo_Stream_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2150,7 +2150,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RClose.Invoke(___genericsType, ___parameters);
+            var ___result = RMClose.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2161,7 +2161,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RDispose.Invoke(___genericsType, ___parameters);
+            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2172,7 +2172,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFlushAsync.Invoke(___genericsType, ___parameters);
+            var ___result = RMFlushAsync.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2183,7 +2183,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCreateWaitHandle.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateWaitHandle.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.WaitHandle)___result;
         }
@@ -2194,7 +2194,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state, @serializeAsynchronously, @apm};
-            var ___result = RBeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMBeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.IAsyncResult)___result;
         }
@@ -2205,7 +2205,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer, @offset, @count};
-            var ___result = RReadAsync_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMReadAsync_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<System.Int32>)___result;
         }
@@ -2216,7 +2216,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer, @cancellationToken};
-            var ___result = RReadAsync_Memory_d_Byte_p__CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMReadAsync_Memory_d_Byte_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.ValueTask<System.Int32>)___result;
         }
@@ -2227,7 +2227,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state, @serializeAsynchronously, @apm};
-            var ___result = RBeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMBeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.IAsyncResult)___result;
         }
@@ -2238,7 +2238,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer, @offset, @count};
-            var ___result = RWriteAsync_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMWriteAsync_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2249,7 +2249,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer, @cancellationToken};
-            var ___result = RWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.ValueTask)___result;
         }
@@ -2260,7 +2260,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer.Value};
-            var ___result = RRead_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMRead_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -2271,7 +2271,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer.Value};
-            var ___result = RWrite_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMWrite_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2282,7 +2282,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RObjectInvariant.Invoke(___genericsType, ___parameters);
+            var ___result = RMObjectInvariant.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2293,7 +2293,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state};
-            var ___result = RBlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMBlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
 
             return (System.IAsyncResult)___result;
         }
@@ -2304,7 +2304,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state};
-            var ___result = RBlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMBlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
 
             return (System.IAsyncResult)___result;
         }
@@ -2315,7 +2315,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RDisposeAsync.Invoke(___genericsType, ___parameters);
+            var ___result = RMDisposeAsync.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.ValueTask)___result;
         }
@@ -2327,7 +2327,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @IsClient};
-            var ___result = RGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
             return new RSystem.RRuntime.RRemoting.RIdentity(___result);
@@ -2339,7 +2339,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@requestedType};
-            var ___result = RCreateObjRef_Type.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateObjRef_Type.Invoke(___genericsType, ___parameters);
 
             return (System.Runtime.Remoting.ObjRef)___result;
         }
@@ -2350,7 +2350,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetLifetimeService.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetLifetimeService.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -2361,7 +2361,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInitializeLifetimeService.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitializeLifetimeService.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -2372,7 +2372,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cloneIdentity};
-            var ___result = RMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.MarshalByRefObject)___result;
         }
@@ -2383,7 +2383,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2394,7 +2394,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -2405,7 +2405,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -2416,7 +2416,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -2427,7 +2427,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

@@ -13,187 +13,187 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.SortKey GetSortKey(System.String, System.Globalization.CompareOptions)
 		/// </summary>
-		protected RMethod r_GetSortKey_String_CompareOptions;
-		public virtual RMethod RGetSortKey_String_CompareOptions
+		protected RMethod r_MGetSortKey_String_CompareOptions;
+		public virtual RMethod RMGetSortKey_String_CompareOptions
 		{
 			get
 			{
-				if(r_GetSortKey_String_CompareOptions == null)
+				if(r_MGetSortKey_String_CompareOptions == null)
 				{
-					r_GetSortKey_String_CompareOptions = new(this, "GetSortKey", 0, typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_GetSortKey_String_CompareOptions.SetBelong(this.instance);
+					r_MGetSortKey_String_CompareOptions = new(this, "GetSortKey", 0, typeof(System.String), typeof(System.Globalization.CompareOptions));
+					r_MGetSortKey_String_CompareOptions.SetBelong(this.instance);
 				}
-				return r_GetSortKey_String_CompareOptions;
+				return r_MGetSortKey_String_CompareOptions;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Compare(System.String, System.String)
 		/// </summary>
-		protected RMethod r_Compare_String_String;
-		public virtual RMethod RCompare_String_String
+		protected RMethod r_MCompare_String_String;
+		public virtual RMethod RMCompare_String_String
 		{
 			get
 			{
-				if(r_Compare_String_String == null)
+				if(r_MCompare_String_String == null)
 				{
-					r_Compare_String_String = new(this, "Compare", 0, typeof(System.String), typeof(System.String));
-					r_Compare_String_String.SetBelong(this.instance);
+					r_MCompare_String_String = new(this, "Compare", 0, typeof(System.String), typeof(System.String));
+					r_MCompare_String_String.SetBelong(this.instance);
 				}
-				return r_Compare_String_String;
+				return r_MCompare_String_String;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Compare(System.String, Int32, Int32, System.String, Int32, Int32, System.Globalization.CompareOptions)
 		/// </summary>
-		protected RMethod r_Compare_String_Int32_Int32_String_Int32_Int32_CompareOptions;
-		public virtual RMethod RCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions
+		protected RMethod r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions;
+		public virtual RMethod RMCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions
 		{
 			get
 			{
-				if(r_Compare_String_Int32_Int32_String_Int32_Int32_CompareOptions == null)
+				if(r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions == null)
 				{
-					r_Compare_String_Int32_Int32_String_Int32_Int32_CompareOptions = new(this, "Compare", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_Compare_String_Int32_Int32_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions = new(this, "Compare", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
+					r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
 				}
-				return r_Compare_String_Int32_Int32_String_Int32_Int32_CompareOptions;
+				return r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsPrefix(System.String, System.String, System.Globalization.CompareOptions)
 		/// </summary>
-		protected RMethod r_IsPrefix_String_String_CompareOptions;
-		public virtual RMethod RIsPrefix_String_String_CompareOptions
+		protected RMethod r_MIsPrefix_String_String_CompareOptions;
+		public virtual RMethod RMIsPrefix_String_String_CompareOptions
 		{
 			get
 			{
-				if(r_IsPrefix_String_String_CompareOptions == null)
+				if(r_MIsPrefix_String_String_CompareOptions == null)
 				{
-					r_IsPrefix_String_String_CompareOptions = new(this, "IsPrefix", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_IsPrefix_String_String_CompareOptions.SetBelong(this.instance);
+					r_MIsPrefix_String_String_CompareOptions = new(this, "IsPrefix", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
+					r_MIsPrefix_String_String_CompareOptions.SetBelong(this.instance);
 				}
-				return r_IsPrefix_String_String_CompareOptions;
+				return r_MIsPrefix_String_String_CompareOptions;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsSuffix(System.String, System.String, System.Globalization.CompareOptions)
 		/// </summary>
-		protected RMethod r_IsSuffix_String_String_CompareOptions;
-		public virtual RMethod RIsSuffix_String_String_CompareOptions
+		protected RMethod r_MIsSuffix_String_String_CompareOptions;
+		public virtual RMethod RMIsSuffix_String_String_CompareOptions
 		{
 			get
 			{
-				if(r_IsSuffix_String_String_CompareOptions == null)
+				if(r_MIsSuffix_String_String_CompareOptions == null)
 				{
-					r_IsSuffix_String_String_CompareOptions = new(this, "IsSuffix", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_IsSuffix_String_String_CompareOptions.SetBelong(this.instance);
+					r_MIsSuffix_String_String_CompareOptions = new(this, "IsSuffix", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
+					r_MIsSuffix_String_String_CompareOptions.SetBelong(this.instance);
 				}
-				return r_IsSuffix_String_String_CompareOptions;
+				return r_MIsSuffix_String_String_CompareOptions;
 			}
 		}
 
 		/// <summary>
 		/// Int32 IndexOf(System.String, System.String, Int32, Int32, System.Globalization.CompareOptions)
 		/// </summary>
-		protected RMethod r_IndexOf_String_String_Int32_Int32_CompareOptions;
-		public virtual RMethod RIndexOf_String_String_Int32_Int32_CompareOptions
+		protected RMethod r_MIndexOf_String_String_Int32_Int32_CompareOptions;
+		public virtual RMethod RMIndexOf_String_String_Int32_Int32_CompareOptions
 		{
 			get
 			{
-				if(r_IndexOf_String_String_Int32_Int32_CompareOptions == null)
+				if(r_MIndexOf_String_String_Int32_Int32_CompareOptions == null)
 				{
-					r_IndexOf_String_String_Int32_Int32_CompareOptions = new(this, "IndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_IndexOf_String_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MIndexOf_String_String_Int32_Int32_CompareOptions = new(this, "IndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
+					r_MIndexOf_String_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
 				}
-				return r_IndexOf_String_String_Int32_Int32_CompareOptions;
+				return r_MIndexOf_String_String_Int32_Int32_CompareOptions;
 			}
 		}
 
 		/// <summary>
 		/// Int32 IndexOf(System.String, Char, Int32, Int32, System.Globalization.CompareOptions)
 		/// </summary>
-		protected RMethod r_IndexOf_String_Char_Int32_Int32_CompareOptions;
-		public virtual RMethod RIndexOf_String_Char_Int32_Int32_CompareOptions
+		protected RMethod r_MIndexOf_String_Char_Int32_Int32_CompareOptions;
+		public virtual RMethod RMIndexOf_String_Char_Int32_Int32_CompareOptions
 		{
 			get
 			{
-				if(r_IndexOf_String_Char_Int32_Int32_CompareOptions == null)
+				if(r_MIndexOf_String_Char_Int32_Int32_CompareOptions == null)
 				{
-					r_IndexOf_String_Char_Int32_Int32_CompareOptions = new(this, "IndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_IndexOf_String_Char_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MIndexOf_String_Char_Int32_Int32_CompareOptions = new(this, "IndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
+					r_MIndexOf_String_Char_Int32_Int32_CompareOptions.SetBelong(this.instance);
 				}
-				return r_IndexOf_String_Char_Int32_Int32_CompareOptions;
+				return r_MIndexOf_String_Char_Int32_Int32_CompareOptions;
 			}
 		}
 
 		/// <summary>
 		/// Int32 LastIndexOf(System.String, System.String, System.Globalization.CompareOptions)
 		/// </summary>
-		protected RMethod r_LastIndexOf_String_String_CompareOptions;
-		public virtual RMethod RLastIndexOf_String_String_CompareOptions
+		protected RMethod r_MLastIndexOf_String_String_CompareOptions;
+		public virtual RMethod RMLastIndexOf_String_String_CompareOptions
 		{
 			get
 			{
-				if(r_LastIndexOf_String_String_CompareOptions == null)
+				if(r_MLastIndexOf_String_String_CompareOptions == null)
 				{
-					r_LastIndexOf_String_String_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_LastIndexOf_String_String_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOf_String_String_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
+					r_MLastIndexOf_String_String_CompareOptions.SetBelong(this.instance);
 				}
-				return r_LastIndexOf_String_String_CompareOptions;
+				return r_MLastIndexOf_String_String_CompareOptions;
 			}
 		}
 
 		/// <summary>
 		/// Int32 LastIndexOf(System.String, System.String, Int32, Int32, System.Globalization.CompareOptions)
 		/// </summary>
-		protected RMethod r_LastIndexOf_String_String_Int32_Int32_CompareOptions;
-		public virtual RMethod RLastIndexOf_String_String_Int32_Int32_CompareOptions
+		protected RMethod r_MLastIndexOf_String_String_Int32_Int32_CompareOptions;
+		public virtual RMethod RMLastIndexOf_String_String_Int32_Int32_CompareOptions
 		{
 			get
 			{
-				if(r_LastIndexOf_String_String_Int32_Int32_CompareOptions == null)
+				if(r_MLastIndexOf_String_String_Int32_Int32_CompareOptions == null)
 				{
-					r_LastIndexOf_String_String_Int32_Int32_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_LastIndexOf_String_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOf_String_String_Int32_Int32_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
+					r_MLastIndexOf_String_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
 				}
-				return r_LastIndexOf_String_String_Int32_Int32_CompareOptions;
+				return r_MLastIndexOf_String_String_Int32_Int32_CompareOptions;
 			}
 		}
 
 		/// <summary>
 		/// Int32 LastIndexOf(System.String, Char, System.Globalization.CompareOptions)
 		/// </summary>
-		protected RMethod r_LastIndexOf_String_Char_CompareOptions;
-		public virtual RMethod RLastIndexOf_String_Char_CompareOptions
+		protected RMethod r_MLastIndexOf_String_Char_CompareOptions;
+		public virtual RMethod RMLastIndexOf_String_Char_CompareOptions
 		{
 			get
 			{
-				if(r_LastIndexOf_String_Char_CompareOptions == null)
+				if(r_MLastIndexOf_String_Char_CompareOptions == null)
 				{
-					r_LastIndexOf_String_Char_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Globalization.CompareOptions));
-					r_LastIndexOf_String_Char_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOf_String_Char_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Globalization.CompareOptions));
+					r_MLastIndexOf_String_Char_CompareOptions.SetBelong(this.instance);
 				}
-				return r_LastIndexOf_String_Char_CompareOptions;
+				return r_MLastIndexOf_String_Char_CompareOptions;
 			}
 		}
 
 		/// <summary>
 		/// Int32 LastIndexOf(System.String, Char, Int32, Int32, System.Globalization.CompareOptions)
 		/// </summary>
-		protected RMethod r_LastIndexOf_String_Char_Int32_Int32_CompareOptions;
-		public virtual RMethod RLastIndexOf_String_Char_Int32_Int32_CompareOptions
+		protected RMethod r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions;
+		public virtual RMethod RMLastIndexOf_String_Char_Int32_Int32_CompareOptions
 		{
 			get
 			{
-				if(r_LastIndexOf_String_Char_Int32_Int32_CompareOptions == null)
+				if(r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions == null)
 				{
-					r_LastIndexOf_String_Char_Int32_Int32_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_LastIndexOf_String_Char_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
+					r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions.SetBelong(this.instance);
 				}
-				return r_LastIndexOf_String_Char_Int32_Int32_CompareOptions;
+				return r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions;
 			}
 		}
 
@@ -220,7 +220,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source, @options};
-            var ___result = RGetSortKey_String_CompareOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetSortKey_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.SortKey)___result;
         }
@@ -231,7 +231,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s1, @s2};
-            var ___result = RCompare_String_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMCompare_String_String.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -242,7 +242,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s1, @idx1, @len1, @s2, @idx2, @len2, @options};
-            var ___result = RCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -253,7 +253,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@src, @target, @opt};
-            var ___result = RIsPrefix_String_String_CompareOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsPrefix_String_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -264,7 +264,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@src, @target, @opt};
-            var ___result = RIsSuffix_String_String_CompareOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsSuffix_String_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -275,7 +275,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @target, @start, @length, @opt};
-            var ___result = RIndexOf_String_String_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMIndexOf_String_String_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -286,7 +286,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @target, @start, @length, @opt};
-            var ___result = RIndexOf_String_Char_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMIndexOf_String_Char_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -297,7 +297,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @target, @opt};
-            var ___result = RLastIndexOf_String_String_CompareOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMLastIndexOf_String_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -308,7 +308,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @target, @start, @length, @opt};
-            var ___result = RLastIndexOf_String_String_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMLastIndexOf_String_String_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -319,7 +319,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @target, @opt};
-            var ___result = RLastIndexOf_String_Char_CompareOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMLastIndexOf_String_Char_CompareOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -330,7 +330,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @target, @start, @length, @opt};
-            var ___result = RLastIndexOf_String_Char_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMLastIndexOf_String_Char_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }

@@ -13,3060 +13,3060 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_SourceFontFileGUID
 		/// </summary>
-		protected RSystem.RString r_m_SourceFontFileGUID;
-		public virtual RSystem.RString Rm_SourceFontFileGUID
+		protected RSystem.RString r_Fm_SourceFontFileGUID;
+		public virtual RSystem.RString RFm_SourceFontFileGUID
 		{
 			get
 			{
-				if(r_m_SourceFontFileGUID == null)
+				if(r_Fm_SourceFontFileGUID == null)
 				{
-					r_m_SourceFontFileGUID = new(this, "m_SourceFontFileGUID");
-					r_m_SourceFontFileGUID.SetBelong(this.instance);
+					r_Fm_SourceFontFileGUID = new(this, "m_SourceFontFileGUID");
+					r_Fm_SourceFontFileGUID.SetBelong(this.instance);
 				}
-				return r_m_SourceFontFileGUID;
+				return r_Fm_SourceFontFileGUID;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Font m_SourceFontFile_EditorRef
 		/// </summary>
-		protected RUnityEngine.RFont r_m_SourceFontFile_EditorRef;
-		public virtual RUnityEngine.RFont Rm_SourceFontFile_EditorRef
+		protected RUnityEngine.RFont r_Fm_SourceFontFile_EditorRef;
+		public virtual RUnityEngine.RFont RFm_SourceFontFile_EditorRef
 		{
 			get
 			{
-				if(r_m_SourceFontFile_EditorRef == null)
+				if(r_Fm_SourceFontFile_EditorRef == null)
 				{
-					r_m_SourceFontFile_EditorRef = new(this, "m_SourceFontFile_EditorRef");
-					r_m_SourceFontFile_EditorRef.SetBelong(this.instance);
+					r_Fm_SourceFontFile_EditorRef = new(this, "m_SourceFontFile_EditorRef");
+					r_Fm_SourceFontFile_EditorRef.SetBelong(this.instance);
 				}
-				return r_m_SourceFontFile_EditorRef;
+				return r_Fm_SourceFontFile_EditorRef;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Font m_SourceFontFile
 		/// </summary>
-		protected RUnityEngine.RFont r_m_SourceFontFile;
-		public virtual RUnityEngine.RFont Rm_SourceFontFile
+		protected RUnityEngine.RFont r_Fm_SourceFontFile;
+		public virtual RUnityEngine.RFont RFm_SourceFontFile
 		{
 			get
 			{
-				if(r_m_SourceFontFile == null)
+				if(r_Fm_SourceFontFile == null)
 				{
-					r_m_SourceFontFile = new(this, "m_SourceFontFile");
-					r_m_SourceFontFile.SetBelong(this.instance);
+					r_Fm_SourceFontFile = new(this, "m_SourceFontFile");
+					r_Fm_SourceFontFile.SetBelong(this.instance);
 				}
-				return r_m_SourceFontFile;
+				return r_Fm_SourceFontFile;
 			}
 		}
 
 		/// <summary>
 		/// System.String m_SourceFontFilePath
 		/// </summary>
-		protected RSystem.RString r_m_SourceFontFilePath;
-		public virtual RSystem.RString Rm_SourceFontFilePath
+		protected RSystem.RString r_Fm_SourceFontFilePath;
+		public virtual RSystem.RString RFm_SourceFontFilePath
 		{
 			get
 			{
-				if(r_m_SourceFontFilePath == null)
+				if(r_Fm_SourceFontFilePath == null)
 				{
-					r_m_SourceFontFilePath = new(this, "m_SourceFontFilePath");
-					r_m_SourceFontFilePath.SetBelong(this.instance);
+					r_Fm_SourceFontFilePath = new(this, "m_SourceFontFilePath");
+					r_Fm_SourceFontFilePath.SetBelong(this.instance);
 				}
-				return r_m_SourceFontFilePath;
+				return r_Fm_SourceFontFilePath;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.AtlasPopulationMode m_AtlasPopulationMode
 		/// </summary>
-		protected RField r_m_AtlasPopulationMode;
-		public virtual RField Rm_AtlasPopulationMode
+		protected RUnityEngine.RTextCore.RText.RAtlasPopulationMode r_Fm_AtlasPopulationMode;
+		public virtual RUnityEngine.RTextCore.RText.RAtlasPopulationMode RFm_AtlasPopulationMode
 		{
 			get
 			{
-				if(r_m_AtlasPopulationMode == null)
+				if(r_Fm_AtlasPopulationMode == null)
 				{
-					r_m_AtlasPopulationMode = new(this, "m_AtlasPopulationMode");
-					r_m_AtlasPopulationMode.SetBelong(this.instance);
+					r_Fm_AtlasPopulationMode = new(this, "m_AtlasPopulationMode");
+					r_Fm_AtlasPopulationMode.SetBelong(this.instance);
 				}
-				return r_m_AtlasPopulationMode;
+				return r_Fm_AtlasPopulationMode;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean InternalDynamicOS
 		/// </summary>
-		protected RSystem.RBoolean r_InternalDynamicOS;
-		public virtual RSystem.RBoolean RInternalDynamicOS
+		protected RSystem.RBoolean r_FInternalDynamicOS;
+		public virtual RSystem.RBoolean RFInternalDynamicOS
 		{
 			get
 			{
-				if(r_InternalDynamicOS == null)
+				if(r_FInternalDynamicOS == null)
 				{
-					r_InternalDynamicOS = new(this, "InternalDynamicOS");
-					r_InternalDynamicOS.SetBelong(this.instance);
+					r_FInternalDynamicOS = new(this, "InternalDynamicOS");
+					r_FInternalDynamicOS.SetBelong(this.instance);
 				}
-				return r_InternalDynamicOS;
+				return r_FInternalDynamicOS;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.FaceInfo m_FaceInfo
 		/// </summary>
-		protected RUnityEngine.RTextCore.RFaceInfo r_m_FaceInfo;
-		public virtual RUnityEngine.RTextCore.RFaceInfo Rm_FaceInfo
+		protected RUnityEngine.RTextCore.RFaceInfo r_Fm_FaceInfo;
+		public virtual RUnityEngine.RTextCore.RFaceInfo RFm_FaceInfo
 		{
 			get
 			{
-				if(r_m_FaceInfo == null)
+				if(r_Fm_FaceInfo == null)
 				{
-					r_m_FaceInfo = new(this, "m_FaceInfo");
-					r_m_FaceInfo.SetBelong(this.instance);
+					r_Fm_FaceInfo = new(this, "m_FaceInfo");
+					r_Fm_FaceInfo.SetBelong(this.instance);
 				}
-				return r_m_FaceInfo;
+				return r_Fm_FaceInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_FamilyNameHashCode
 		/// </summary>
-		protected RSystem.RInt32 r_m_FamilyNameHashCode;
-		public virtual RSystem.RInt32 Rm_FamilyNameHashCode
+		protected RSystem.RInt32 r_Fm_FamilyNameHashCode;
+		public virtual RSystem.RInt32 RFm_FamilyNameHashCode
 		{
 			get
 			{
-				if(r_m_FamilyNameHashCode == null)
+				if(r_Fm_FamilyNameHashCode == null)
 				{
-					r_m_FamilyNameHashCode = new(this, "m_FamilyNameHashCode");
-					r_m_FamilyNameHashCode.SetBelong(this.instance);
+					r_Fm_FamilyNameHashCode = new(this, "m_FamilyNameHashCode");
+					r_Fm_FamilyNameHashCode.SetBelong(this.instance);
 				}
-				return r_m_FamilyNameHashCode;
+				return r_Fm_FamilyNameHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_StyleNameHashCode
 		/// </summary>
-		protected RSystem.RInt32 r_m_StyleNameHashCode;
-		public virtual RSystem.RInt32 Rm_StyleNameHashCode
+		protected RSystem.RInt32 r_Fm_StyleNameHashCode;
+		public virtual RSystem.RInt32 RFm_StyleNameHashCode
 		{
 			get
 			{
-				if(r_m_StyleNameHashCode == null)
+				if(r_Fm_StyleNameHashCode == null)
 				{
-					r_m_StyleNameHashCode = new(this, "m_StyleNameHashCode");
-					r_m_StyleNameHashCode.SetBelong(this.instance);
+					r_Fm_StyleNameHashCode = new(this, "m_StyleNameHashCode");
+					r_Fm_StyleNameHashCode.SetBelong(this.instance);
 				}
-				return r_m_StyleNameHashCode;
+				return r_Fm_StyleNameHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Glyph] m_GlyphTable
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> r_m_GlyphTable;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> Rm_GlyphTable
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> r_Fm_GlyphTable;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> RFm_GlyphTable
 		{
 			get
 			{
-				if(r_m_GlyphTable == null)
+				if(r_Fm_GlyphTable == null)
 				{
-					r_m_GlyphTable = new(this, "m_GlyphTable");
-					r_m_GlyphTable.SetBelong(this.instance);
+					r_Fm_GlyphTable = new(this, "m_GlyphTable");
+					r_Fm_GlyphTable.SetBelong(this.instance);
 				}
-				return r_m_GlyphTable;
+				return r_Fm_GlyphTable;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.Glyph] m_GlyphLookupDictionary
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RGlyph> r_m_GlyphLookupDictionary;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RGlyph> Rm_GlyphLookupDictionary
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RGlyph> r_Fm_GlyphLookupDictionary;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RGlyph> RFm_GlyphLookupDictionary
 		{
 			get
 			{
-				if(r_m_GlyphLookupDictionary == null)
+				if(r_Fm_GlyphLookupDictionary == null)
 				{
-					r_m_GlyphLookupDictionary = new(this, "m_GlyphLookupDictionary");
-					r_m_GlyphLookupDictionary.SetBelong(this.instance);
+					r_Fm_GlyphLookupDictionary = new(this, "m_GlyphLookupDictionary");
+					r_Fm_GlyphLookupDictionary.SetBelong(this.instance);
 				}
-				return r_m_GlyphLookupDictionary;
+				return r_Fm_GlyphLookupDictionary;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.Character] m_CharacterTable
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RCharacter> r_m_CharacterTable;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RCharacter> Rm_CharacterTable
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RCharacter> r_Fm_CharacterTable;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RCharacter> RFm_CharacterTable
 		{
 			get
 			{
-				if(r_m_CharacterTable == null)
+				if(r_Fm_CharacterTable == null)
 				{
-					r_m_CharacterTable = new(this, "m_CharacterTable");
-					r_m_CharacterTable.SetBelong(this.instance);
+					r_Fm_CharacterTable = new(this, "m_CharacterTable");
+					r_Fm_CharacterTable.SetBelong(this.instance);
 				}
-				return r_m_CharacterTable;
+				return r_Fm_CharacterTable;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.Text.Character] m_CharacterLookupDictionary
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RCharacter> r_m_CharacterLookupDictionary;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RCharacter> Rm_CharacterLookupDictionary
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RCharacter> r_Fm_CharacterLookupDictionary;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RCharacter> RFm_CharacterLookupDictionary
 		{
 			get
 			{
-				if(r_m_CharacterLookupDictionary == null)
+				if(r_Fm_CharacterLookupDictionary == null)
 				{
-					r_m_CharacterLookupDictionary = new(this, "m_CharacterLookupDictionary");
-					r_m_CharacterLookupDictionary.SetBelong(this.instance);
+					r_Fm_CharacterLookupDictionary = new(this, "m_CharacterLookupDictionary");
+					r_Fm_CharacterLookupDictionary.SetBelong(this.instance);
 				}
-				return r_m_CharacterLookupDictionary;
+				return r_Fm_CharacterLookupDictionary;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Texture2D m_AtlasTexture
 		/// </summary>
-		protected RUnityEngine.RTexture2D r_m_AtlasTexture;
-		public virtual RUnityEngine.RTexture2D Rm_AtlasTexture
+		protected RUnityEngine.RTexture2D r_Fm_AtlasTexture;
+		public virtual RUnityEngine.RTexture2D RFm_AtlasTexture
 		{
 			get
 			{
-				if(r_m_AtlasTexture == null)
+				if(r_Fm_AtlasTexture == null)
 				{
-					r_m_AtlasTexture = new(this, "m_AtlasTexture");
-					r_m_AtlasTexture.SetBelong(this.instance);
+					r_Fm_AtlasTexture = new(this, "m_AtlasTexture");
+					r_Fm_AtlasTexture.SetBelong(this.instance);
 				}
-				return r_m_AtlasTexture;
+				return r_Fm_AtlasTexture;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Texture2D[] m_AtlasTextures
 		/// </summary>
-		protected RFieldArray<RUnityEngine.RTexture2D> r_m_AtlasTextures;
-		public virtual RFieldArray<RUnityEngine.RTexture2D> Rm_AtlasTextures
+		protected RFieldArray<RUnityEngine.RTexture2D> r_Fm_AtlasTextures;
+		public virtual RFieldArray<RUnityEngine.RTexture2D> RFm_AtlasTextures
 		{
 			get
 			{
-				if(r_m_AtlasTextures == null)
+				if(r_Fm_AtlasTextures == null)
 				{
-					r_m_AtlasTextures = new(this, "m_AtlasTextures");
-					r_m_AtlasTextures.SetBelong(this.instance);
+					r_Fm_AtlasTextures = new(this, "m_AtlasTextures");
+					r_Fm_AtlasTextures.SetBelong(this.instance);
 				}
-				return r_m_AtlasTextures;
+				return r_Fm_AtlasTextures;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_AtlasTextureIndex
 		/// </summary>
-		protected RSystem.RInt32 r_m_AtlasTextureIndex;
-		public virtual RSystem.RInt32 Rm_AtlasTextureIndex
+		protected RSystem.RInt32 r_Fm_AtlasTextureIndex;
+		public virtual RSystem.RInt32 RFm_AtlasTextureIndex
 		{
 			get
 			{
-				if(r_m_AtlasTextureIndex == null)
+				if(r_Fm_AtlasTextureIndex == null)
 				{
-					r_m_AtlasTextureIndex = new(this, "m_AtlasTextureIndex");
-					r_m_AtlasTextureIndex.SetBelong(this.instance);
+					r_Fm_AtlasTextureIndex = new(this, "m_AtlasTextureIndex");
+					r_Fm_AtlasTextureIndex.SetBelong(this.instance);
 				}
-				return r_m_AtlasTextureIndex;
+				return r_Fm_AtlasTextureIndex;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_IsMultiAtlasTexturesEnabled
 		/// </summary>
-		protected RSystem.RBoolean r_m_IsMultiAtlasTexturesEnabled;
-		public virtual RSystem.RBoolean Rm_IsMultiAtlasTexturesEnabled
+		protected RSystem.RBoolean r_Fm_IsMultiAtlasTexturesEnabled;
+		public virtual RSystem.RBoolean RFm_IsMultiAtlasTexturesEnabled
 		{
 			get
 			{
-				if(r_m_IsMultiAtlasTexturesEnabled == null)
+				if(r_Fm_IsMultiAtlasTexturesEnabled == null)
 				{
-					r_m_IsMultiAtlasTexturesEnabled = new(this, "m_IsMultiAtlasTexturesEnabled");
-					r_m_IsMultiAtlasTexturesEnabled.SetBelong(this.instance);
+					r_Fm_IsMultiAtlasTexturesEnabled = new(this, "m_IsMultiAtlasTexturesEnabled");
+					r_Fm_IsMultiAtlasTexturesEnabled.SetBelong(this.instance);
 				}
-				return r_m_IsMultiAtlasTexturesEnabled;
+				return r_Fm_IsMultiAtlasTexturesEnabled;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_ClearDynamicDataOnBuild
 		/// </summary>
-		protected RSystem.RBoolean r_m_ClearDynamicDataOnBuild;
-		public virtual RSystem.RBoolean Rm_ClearDynamicDataOnBuild
+		protected RSystem.RBoolean r_Fm_ClearDynamicDataOnBuild;
+		public virtual RSystem.RBoolean RFm_ClearDynamicDataOnBuild
 		{
 			get
 			{
-				if(r_m_ClearDynamicDataOnBuild == null)
+				if(r_Fm_ClearDynamicDataOnBuild == null)
 				{
-					r_m_ClearDynamicDataOnBuild = new(this, "m_ClearDynamicDataOnBuild");
-					r_m_ClearDynamicDataOnBuild.SetBelong(this.instance);
+					r_Fm_ClearDynamicDataOnBuild = new(this, "m_ClearDynamicDataOnBuild");
+					r_Fm_ClearDynamicDataOnBuild.SetBelong(this.instance);
 				}
-				return r_m_ClearDynamicDataOnBuild;
+				return r_Fm_ClearDynamicDataOnBuild;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_AtlasWidth
 		/// </summary>
-		protected RSystem.RInt32 r_m_AtlasWidth;
-		public virtual RSystem.RInt32 Rm_AtlasWidth
+		protected RSystem.RInt32 r_Fm_AtlasWidth;
+		public virtual RSystem.RInt32 RFm_AtlasWidth
 		{
 			get
 			{
-				if(r_m_AtlasWidth == null)
+				if(r_Fm_AtlasWidth == null)
 				{
-					r_m_AtlasWidth = new(this, "m_AtlasWidth");
-					r_m_AtlasWidth.SetBelong(this.instance);
+					r_Fm_AtlasWidth = new(this, "m_AtlasWidth");
+					r_Fm_AtlasWidth.SetBelong(this.instance);
 				}
-				return r_m_AtlasWidth;
+				return r_Fm_AtlasWidth;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_AtlasHeight
 		/// </summary>
-		protected RSystem.RInt32 r_m_AtlasHeight;
-		public virtual RSystem.RInt32 Rm_AtlasHeight
+		protected RSystem.RInt32 r_Fm_AtlasHeight;
+		public virtual RSystem.RInt32 RFm_AtlasHeight
 		{
 			get
 			{
-				if(r_m_AtlasHeight == null)
+				if(r_Fm_AtlasHeight == null)
 				{
-					r_m_AtlasHeight = new(this, "m_AtlasHeight");
-					r_m_AtlasHeight.SetBelong(this.instance);
+					r_Fm_AtlasHeight = new(this, "m_AtlasHeight");
+					r_Fm_AtlasHeight.SetBelong(this.instance);
 				}
-				return r_m_AtlasHeight;
+				return r_Fm_AtlasHeight;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_AtlasPadding
 		/// </summary>
-		protected RSystem.RInt32 r_m_AtlasPadding;
-		public virtual RSystem.RInt32 Rm_AtlasPadding
+		protected RSystem.RInt32 r_Fm_AtlasPadding;
+		public virtual RSystem.RInt32 RFm_AtlasPadding
 		{
 			get
 			{
-				if(r_m_AtlasPadding == null)
+				if(r_Fm_AtlasPadding == null)
 				{
-					r_m_AtlasPadding = new(this, "m_AtlasPadding");
-					r_m_AtlasPadding.SetBelong(this.instance);
+					r_Fm_AtlasPadding = new(this, "m_AtlasPadding");
+					r_Fm_AtlasPadding.SetBelong(this.instance);
 				}
-				return r_m_AtlasPadding;
+				return r_Fm_AtlasPadding;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode m_AtlasRenderMode
 		/// </summary>
-		protected RField r_m_AtlasRenderMode;
-		public virtual RField Rm_AtlasRenderMode
+		protected RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_Fm_AtlasRenderMode;
+		public virtual RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFm_AtlasRenderMode
 		{
 			get
 			{
-				if(r_m_AtlasRenderMode == null)
+				if(r_Fm_AtlasRenderMode == null)
 				{
-					r_m_AtlasRenderMode = new(this, "m_AtlasRenderMode");
-					r_m_AtlasRenderMode.SetBelong(this.instance);
+					r_Fm_AtlasRenderMode = new(this, "m_AtlasRenderMode");
+					r_Fm_AtlasRenderMode.SetBelong(this.instance);
 				}
-				return r_m_AtlasRenderMode;
+				return r_Fm_AtlasRenderMode;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.GlyphRect] m_UsedGlyphRects
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> r_m_UsedGlyphRects;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> Rm_UsedGlyphRects
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> r_Fm_UsedGlyphRects;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> RFm_UsedGlyphRects
 		{
 			get
 			{
-				if(r_m_UsedGlyphRects == null)
+				if(r_Fm_UsedGlyphRects == null)
 				{
-					r_m_UsedGlyphRects = new(this, "m_UsedGlyphRects");
-					r_m_UsedGlyphRects.SetBelong(this.instance);
+					r_Fm_UsedGlyphRects = new(this, "m_UsedGlyphRects");
+					r_Fm_UsedGlyphRects.SetBelong(this.instance);
 				}
-				return r_m_UsedGlyphRects;
+				return r_Fm_UsedGlyphRects;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.GlyphRect] m_FreeGlyphRects
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> r_m_FreeGlyphRects;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> Rm_FreeGlyphRects
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> r_Fm_FreeGlyphRects;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> RFm_FreeGlyphRects
 		{
 			get
 			{
-				if(r_m_FreeGlyphRects == null)
+				if(r_Fm_FreeGlyphRects == null)
 				{
-					r_m_FreeGlyphRects = new(this, "m_FreeGlyphRects");
-					r_m_FreeGlyphRects.SetBelong(this.instance);
+					r_Fm_FreeGlyphRects = new(this, "m_FreeGlyphRects");
+					r_Fm_FreeGlyphRects.SetBelong(this.instance);
 				}
-				return r_m_FreeGlyphRects;
+				return r_Fm_FreeGlyphRects;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontFeatureTable m_FontFeatureTable
 		/// </summary>
-		protected RUnityEngine.RTextCore.RText.RFontFeatureTable r_m_FontFeatureTable;
-		public virtual RUnityEngine.RTextCore.RText.RFontFeatureTable Rm_FontFeatureTable
+		protected RUnityEngine.RTextCore.RText.RFontFeatureTable r_Fm_FontFeatureTable;
+		public virtual RUnityEngine.RTextCore.RText.RFontFeatureTable RFm_FontFeatureTable
 		{
 			get
 			{
-				if(r_m_FontFeatureTable == null)
+				if(r_Fm_FontFeatureTable == null)
 				{
-					r_m_FontFeatureTable = new(this, "m_FontFeatureTable");
-					r_m_FontFeatureTable.SetBelong(this.instance);
+					r_Fm_FontFeatureTable = new(this, "m_FontFeatureTable");
+					r_Fm_FontFeatureTable.SetBelong(this.instance);
 				}
-				return r_m_FontFeatureTable;
+				return r_Fm_FontFeatureTable;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.FontAsset] m_FallbackFontAssetTable
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RFontAsset> r_m_FallbackFontAssetTable;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RFontAsset> Rm_FallbackFontAssetTable
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RFontAsset> r_Fm_FallbackFontAssetTable;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RFontAsset> RFm_FallbackFontAssetTable
 		{
 			get
 			{
-				if(r_m_FallbackFontAssetTable == null)
+				if(r_Fm_FallbackFontAssetTable == null)
 				{
-					r_m_FallbackFontAssetTable = new(this, "m_FallbackFontAssetTable");
-					r_m_FallbackFontAssetTable.SetBelong(this.instance);
+					r_Fm_FallbackFontAssetTable = new(this, "m_FallbackFontAssetTable");
+					r_Fm_FallbackFontAssetTable.SetBelong(this.instance);
 				}
-				return r_m_FallbackFontAssetTable;
+				return r_Fm_FallbackFontAssetTable;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAssetCreationEditorSettings m_fontAssetCreationEditorSettings
 		/// </summary>
-		protected RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings r_m_fontAssetCreationEditorSettings;
-		public virtual RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings Rm_fontAssetCreationEditorSettings
+		protected RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings r_Fm_fontAssetCreationEditorSettings;
+		public virtual RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings RFm_fontAssetCreationEditorSettings
 		{
 			get
 			{
-				if(r_m_fontAssetCreationEditorSettings == null)
+				if(r_Fm_fontAssetCreationEditorSettings == null)
 				{
-					r_m_fontAssetCreationEditorSettings = new(this, "m_fontAssetCreationEditorSettings");
-					r_m_fontAssetCreationEditorSettings.SetBelong(this.instance);
+					r_Fm_fontAssetCreationEditorSettings = new(this, "m_fontAssetCreationEditorSettings");
+					r_Fm_fontAssetCreationEditorSettings.SetBelong(this.instance);
 				}
-				return r_m_fontAssetCreationEditorSettings;
+				return r_Fm_fontAssetCreationEditorSettings;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontWeightPair[] m_FontWeightTable
 		/// </summary>
-		protected RFieldArray<RUnityEngine.RTextCore.RText.RFontWeightPair> r_m_FontWeightTable;
-		public virtual RFieldArray<RUnityEngine.RTextCore.RText.RFontWeightPair> Rm_FontWeightTable
+		protected RFieldArray<RUnityEngine.RTextCore.RText.RFontWeightPair> r_Fm_FontWeightTable;
+		public virtual RFieldArray<RUnityEngine.RTextCore.RText.RFontWeightPair> RFm_FontWeightTable
 		{
 			get
 			{
-				if(r_m_FontWeightTable == null)
+				if(r_Fm_FontWeightTable == null)
 				{
-					r_m_FontWeightTable = new(this, "m_FontWeightTable");
-					r_m_FontWeightTable.SetBelong(this.instance);
+					r_Fm_FontWeightTable = new(this, "m_FontWeightTable");
+					r_Fm_FontWeightTable.SetBelong(this.instance);
 				}
-				return r_m_FontWeightTable;
+				return r_Fm_FontWeightTable;
 			}
 		}
 
 		/// <summary>
 		/// System.Single m_RegularStyleWeight
 		/// </summary>
-		protected RSystem.RSingle r_m_RegularStyleWeight;
-		public virtual RSystem.RSingle Rm_RegularStyleWeight
+		protected RSystem.RSingle r_Fm_RegularStyleWeight;
+		public virtual RSystem.RSingle RFm_RegularStyleWeight
 		{
 			get
 			{
-				if(r_m_RegularStyleWeight == null)
+				if(r_Fm_RegularStyleWeight == null)
 				{
-					r_m_RegularStyleWeight = new(this, "m_RegularStyleWeight");
-					r_m_RegularStyleWeight.SetBelong(this.instance);
+					r_Fm_RegularStyleWeight = new(this, "m_RegularStyleWeight");
+					r_Fm_RegularStyleWeight.SetBelong(this.instance);
 				}
-				return r_m_RegularStyleWeight;
+				return r_Fm_RegularStyleWeight;
 			}
 		}
 
 		/// <summary>
 		/// System.Single m_RegularStyleSpacing
 		/// </summary>
-		protected RSystem.RSingle r_m_RegularStyleSpacing;
-		public virtual RSystem.RSingle Rm_RegularStyleSpacing
+		protected RSystem.RSingle r_Fm_RegularStyleSpacing;
+		public virtual RSystem.RSingle RFm_RegularStyleSpacing
 		{
 			get
 			{
-				if(r_m_RegularStyleSpacing == null)
+				if(r_Fm_RegularStyleSpacing == null)
 				{
-					r_m_RegularStyleSpacing = new(this, "m_RegularStyleSpacing");
-					r_m_RegularStyleSpacing.SetBelong(this.instance);
+					r_Fm_RegularStyleSpacing = new(this, "m_RegularStyleSpacing");
+					r_Fm_RegularStyleSpacing.SetBelong(this.instance);
 				}
-				return r_m_RegularStyleSpacing;
+				return r_Fm_RegularStyleSpacing;
 			}
 		}
 
 		/// <summary>
 		/// System.Single m_BoldStyleWeight
 		/// </summary>
-		protected RSystem.RSingle r_m_BoldStyleWeight;
-		public virtual RSystem.RSingle Rm_BoldStyleWeight
+		protected RSystem.RSingle r_Fm_BoldStyleWeight;
+		public virtual RSystem.RSingle RFm_BoldStyleWeight
 		{
 			get
 			{
-				if(r_m_BoldStyleWeight == null)
+				if(r_Fm_BoldStyleWeight == null)
 				{
-					r_m_BoldStyleWeight = new(this, "m_BoldStyleWeight");
-					r_m_BoldStyleWeight.SetBelong(this.instance);
+					r_Fm_BoldStyleWeight = new(this, "m_BoldStyleWeight");
+					r_Fm_BoldStyleWeight.SetBelong(this.instance);
 				}
-				return r_m_BoldStyleWeight;
+				return r_Fm_BoldStyleWeight;
 			}
 		}
 
 		/// <summary>
 		/// System.Single m_BoldStyleSpacing
 		/// </summary>
-		protected RSystem.RSingle r_m_BoldStyleSpacing;
-		public virtual RSystem.RSingle Rm_BoldStyleSpacing
+		protected RSystem.RSingle r_Fm_BoldStyleSpacing;
+		public virtual RSystem.RSingle RFm_BoldStyleSpacing
 		{
 			get
 			{
-				if(r_m_BoldStyleSpacing == null)
+				if(r_Fm_BoldStyleSpacing == null)
 				{
-					r_m_BoldStyleSpacing = new(this, "m_BoldStyleSpacing");
-					r_m_BoldStyleSpacing.SetBelong(this.instance);
+					r_Fm_BoldStyleSpacing = new(this, "m_BoldStyleSpacing");
+					r_Fm_BoldStyleSpacing.SetBelong(this.instance);
 				}
-				return r_m_BoldStyleSpacing;
+				return r_Fm_BoldStyleSpacing;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte m_ItalicStyleSlant
 		/// </summary>
-		protected RSystem.RByte r_m_ItalicStyleSlant;
-		public virtual RSystem.RByte Rm_ItalicStyleSlant
+		protected RSystem.RByte r_Fm_ItalicStyleSlant;
+		public virtual RSystem.RByte RFm_ItalicStyleSlant
 		{
 			get
 			{
-				if(r_m_ItalicStyleSlant == null)
+				if(r_Fm_ItalicStyleSlant == null)
 				{
-					r_m_ItalicStyleSlant = new(this, "m_ItalicStyleSlant");
-					r_m_ItalicStyleSlant.SetBelong(this.instance);
+					r_Fm_ItalicStyleSlant = new(this, "m_ItalicStyleSlant");
+					r_Fm_ItalicStyleSlant.SetBelong(this.instance);
 				}
-				return r_m_ItalicStyleSlant;
+				return r_Fm_ItalicStyleSlant;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte m_TabMultiple
 		/// </summary>
-		protected RSystem.RByte r_m_TabMultiple;
-		public virtual RSystem.RByte Rm_TabMultiple
+		protected RSystem.RByte r_Fm_TabMultiple;
+		public virtual RSystem.RByte RFm_TabMultiple
 		{
 			get
 			{
-				if(r_m_TabMultiple == null)
+				if(r_Fm_TabMultiple == null)
 				{
-					r_m_TabMultiple = new(this, "m_TabMultiple");
-					r_m_TabMultiple.SetBelong(this.instance);
+					r_Fm_TabMultiple = new(this, "m_TabMultiple");
+					r_Fm_TabMultiple.SetBelong(this.instance);
 				}
-				return r_m_TabMultiple;
+				return r_Fm_TabMultiple;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean IsFontAssetLookupTablesDirty
 		/// </summary>
-		protected RSystem.RBoolean r_IsFontAssetLookupTablesDirty;
-		public virtual RSystem.RBoolean RIsFontAssetLookupTablesDirty
+		protected RSystem.RBoolean r_FIsFontAssetLookupTablesDirty;
+		public virtual RSystem.RBoolean RFIsFontAssetLookupTablesDirty
 		{
 			get
 			{
-				if(r_IsFontAssetLookupTablesDirty == null)
+				if(r_FIsFontAssetLookupTablesDirty == null)
 				{
-					r_IsFontAssetLookupTablesDirty = new(this, "IsFontAssetLookupTablesDirty");
-					r_IsFontAssetLookupTablesDirty.SetBelong(this.instance);
+					r_FIsFontAssetLookupTablesDirty = new(this, "IsFontAssetLookupTablesDirty");
+					r_FIsFontAssetLookupTablesDirty.SetBelong(this.instance);
 				}
-				return r_IsFontAssetLookupTablesDirty;
+				return r_FIsFontAssetLookupTablesDirty;
 			}
 		}
 
 		/// <summary>
 		/// System.Action`2[UnityEngine.Texture,UnityEngine.TextCore.Text.FontAsset] OnFontAssetTextureChanged
 		/// </summary>
-		protected static RSystem.RAction<RUnityEngine.RTexture, RUnityEngine.RTextCore.RText.RFontAsset> r_OnFontAssetTextureChanged;
-		public static RSystem.RAction<RUnityEngine.RTexture, RUnityEngine.RTextCore.RText.RFontAsset> ROnFontAssetTextureChanged
+		protected static RSystem.RAction<RUnityEngine.RTexture, RUnityEngine.RTextCore.RText.RFontAsset> r_FOnFontAssetTextureChanged;
+		public static RSystem.RAction<RUnityEngine.RTexture, RUnityEngine.RTextCore.RText.RFontAsset> RFOnFontAssetTextureChanged
 		{
 			get
 			{
-				if(r_OnFontAssetTextureChanged == null)
+				if(r_FOnFontAssetTextureChanged == null)
 				{
-					r_OnFontAssetTextureChanged = new(typeof(UnityEngine.TextCore.Text.FontAsset), "OnFontAssetTextureChanged");
-					r_OnFontAssetTextureChanged.SetBelong(null);
+					r_FOnFontAssetTextureChanged = new(typeof(UnityEngine.TextCore.Text.FontAsset), "OnFontAssetTextureChanged");
+					r_FOnFontAssetTextureChanged.SetBelong(null);
 				}
-				return r_OnFontAssetTextureChanged;
+				return r_FOnFontAssetTextureChanged;
 			}
 		}
 
 		/// <summary>
 		/// System.Action`1[UnityEngine.TextCore.Text.FontAsset] RegisterResourceForUpdate
 		/// </summary>
-		protected static RSystem.RAction<RUnityEngine.RTextCore.RText.RFontAsset> r_RegisterResourceForUpdate;
-		public static RSystem.RAction<RUnityEngine.RTextCore.RText.RFontAsset> RRegisterResourceForUpdate
+		protected static RSystem.RAction<RUnityEngine.RTextCore.RText.RFontAsset> r_FRegisterResourceForUpdate;
+		public static RSystem.RAction<RUnityEngine.RTextCore.RText.RFontAsset> RFRegisterResourceForUpdate
 		{
 			get
 			{
-				if(r_RegisterResourceForUpdate == null)
+				if(r_FRegisterResourceForUpdate == null)
 				{
-					r_RegisterResourceForUpdate = new(typeof(UnityEngine.TextCore.Text.FontAsset), "RegisterResourceForUpdate");
-					r_RegisterResourceForUpdate.SetBelong(null);
+					r_FRegisterResourceForUpdate = new(typeof(UnityEngine.TextCore.Text.FontAsset), "RegisterResourceForUpdate");
+					r_FRegisterResourceForUpdate.SetBelong(null);
 				}
-				return r_RegisterResourceForUpdate;
+				return r_FRegisterResourceForUpdate;
 			}
 		}
 
 		/// <summary>
 		/// System.Action`1[UnityEngine.TextCore.Text.FontAsset] RegisterResourceForReimport
 		/// </summary>
-		protected static RSystem.RAction<RUnityEngine.RTextCore.RText.RFontAsset> r_RegisterResourceForReimport;
-		public static RSystem.RAction<RUnityEngine.RTextCore.RText.RFontAsset> RRegisterResourceForReimport
+		protected static RSystem.RAction<RUnityEngine.RTextCore.RText.RFontAsset> r_FRegisterResourceForReimport;
+		public static RSystem.RAction<RUnityEngine.RTextCore.RText.RFontAsset> RFRegisterResourceForReimport
 		{
 			get
 			{
-				if(r_RegisterResourceForReimport == null)
+				if(r_FRegisterResourceForReimport == null)
 				{
-					r_RegisterResourceForReimport = new(typeof(UnityEngine.TextCore.Text.FontAsset), "RegisterResourceForReimport");
-					r_RegisterResourceForReimport.SetBelong(null);
+					r_FRegisterResourceForReimport = new(typeof(UnityEngine.TextCore.Text.FontAsset), "RegisterResourceForReimport");
+					r_FRegisterResourceForReimport.SetBelong(null);
 				}
-				return r_RegisterResourceForReimport;
+				return r_FRegisterResourceForReimport;
 			}
 		}
 
 		/// <summary>
 		/// System.Action`2[UnityEngine.Texture2D,System.Boolean] SetAtlasTextureIsReadable
 		/// </summary>
-		protected static RSystem.RAction<RUnityEngine.RTexture2D, RSystem.RBoolean> r_SetAtlasTextureIsReadable;
-		public static RSystem.RAction<RUnityEngine.RTexture2D, RSystem.RBoolean> RSetAtlasTextureIsReadable
+		protected static RSystem.RAction<RUnityEngine.RTexture2D, RSystem.RBoolean> r_FSetAtlasTextureIsReadable;
+		public static RSystem.RAction<RUnityEngine.RTexture2D, RSystem.RBoolean> RFSetAtlasTextureIsReadable
 		{
 			get
 			{
-				if(r_SetAtlasTextureIsReadable == null)
+				if(r_FSetAtlasTextureIsReadable == null)
 				{
-					r_SetAtlasTextureIsReadable = new(typeof(UnityEngine.TextCore.Text.FontAsset), "SetAtlasTextureIsReadable");
-					r_SetAtlasTextureIsReadable.SetBelong(null);
+					r_FSetAtlasTextureIsReadable = new(typeof(UnityEngine.TextCore.Text.FontAsset), "SetAtlasTextureIsReadable");
+					r_FSetAtlasTextureIsReadable.SetBelong(null);
 				}
-				return r_SetAtlasTextureIsReadable;
+				return r_FSetAtlasTextureIsReadable;
 			}
 		}
 
 		/// <summary>
 		/// System.Func`2[System.String,UnityEngine.Font] GetSourceFontRef
 		/// </summary>
-		protected static RSystem.RFunc<RSystem.RString, RUnityEngine.RFont> r_GetSourceFontRef;
-		public static RSystem.RFunc<RSystem.RString, RUnityEngine.RFont> RGetSourceFontRef
+		protected static RSystem.RFunc<RSystem.RString, RUnityEngine.RFont> r_FGetSourceFontRef;
+		public static RSystem.RFunc<RSystem.RString, RUnityEngine.RFont> RFGetSourceFontRef
 		{
 			get
 			{
-				if(r_GetSourceFontRef == null)
+				if(r_FGetSourceFontRef == null)
 				{
-					r_GetSourceFontRef = new(typeof(UnityEngine.TextCore.Text.FontAsset), "GetSourceFontRef");
-					r_GetSourceFontRef.SetBelong(null);
+					r_FGetSourceFontRef = new(typeof(UnityEngine.TextCore.Text.FontAsset), "GetSourceFontRef");
+					r_FGetSourceFontRef.SetBelong(null);
 				}
-				return r_GetSourceFontRef;
+				return r_FGetSourceFontRef;
 			}
 		}
 
 		/// <summary>
 		/// System.Func`2[UnityEngine.Font,System.String] SetSourceFontGUID
 		/// </summary>
-		protected static RSystem.RFunc<RUnityEngine.RFont, RSystem.RString> r_SetSourceFontGUID;
-		public static RSystem.RFunc<RUnityEngine.RFont, RSystem.RString> RSetSourceFontGUID
+		protected static RSystem.RFunc<RUnityEngine.RFont, RSystem.RString> r_FSetSourceFontGUID;
+		public static RSystem.RFunc<RUnityEngine.RFont, RSystem.RString> RFSetSourceFontGUID
 		{
 			get
 			{
-				if(r_SetSourceFontGUID == null)
+				if(r_FSetSourceFontGUID == null)
 				{
-					r_SetSourceFontGUID = new(typeof(UnityEngine.TextCore.Text.FontAsset), "SetSourceFontGUID");
-					r_SetSourceFontGUID.SetBelong(null);
+					r_FSetSourceFontGUID = new(typeof(UnityEngine.TextCore.Text.FontAsset), "SetSourceFontGUID");
+					r_FSetSourceFontGUID.SetBelong(null);
 				}
-				return r_SetSourceFontGUID;
+				return r_FSetSourceFontGUID;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker k_ReadFontAssetDefinitionMarker
 		/// </summary>
-		protected static RUnity.RProfiling.RProfilerMarker r_k_ReadFontAssetDefinitionMarker;
-		public static RUnity.RProfiling.RProfilerMarker Rk_ReadFontAssetDefinitionMarker
+		protected static RUnity.RProfiling.RProfilerMarker r_Fk_ReadFontAssetDefinitionMarker;
+		public static RUnity.RProfiling.RProfilerMarker RFk_ReadFontAssetDefinitionMarker
 		{
 			get
 			{
-				if(r_k_ReadFontAssetDefinitionMarker == null)
+				if(r_Fk_ReadFontAssetDefinitionMarker == null)
 				{
-					r_k_ReadFontAssetDefinitionMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_ReadFontAssetDefinitionMarker");
-					r_k_ReadFontAssetDefinitionMarker.SetBelong(null);
+					r_Fk_ReadFontAssetDefinitionMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_ReadFontAssetDefinitionMarker");
+					r_Fk_ReadFontAssetDefinitionMarker.SetBelong(null);
 				}
-				return r_k_ReadFontAssetDefinitionMarker;
+				return r_Fk_ReadFontAssetDefinitionMarker;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker k_AddSynthesizedCharactersMarker
 		/// </summary>
-		protected static RUnity.RProfiling.RProfilerMarker r_k_AddSynthesizedCharactersMarker;
-		public static RUnity.RProfiling.RProfilerMarker Rk_AddSynthesizedCharactersMarker
+		protected static RUnity.RProfiling.RProfilerMarker r_Fk_AddSynthesizedCharactersMarker;
+		public static RUnity.RProfiling.RProfilerMarker RFk_AddSynthesizedCharactersMarker
 		{
 			get
 			{
-				if(r_k_AddSynthesizedCharactersMarker == null)
+				if(r_Fk_AddSynthesizedCharactersMarker == null)
 				{
-					r_k_AddSynthesizedCharactersMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_AddSynthesizedCharactersMarker");
-					r_k_AddSynthesizedCharactersMarker.SetBelong(null);
+					r_Fk_AddSynthesizedCharactersMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_AddSynthesizedCharactersMarker");
+					r_Fk_AddSynthesizedCharactersMarker.SetBelong(null);
 				}
-				return r_k_AddSynthesizedCharactersMarker;
+				return r_Fk_AddSynthesizedCharactersMarker;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker k_TryAddCharacterMarker
 		/// </summary>
-		protected static RUnity.RProfiling.RProfilerMarker r_k_TryAddCharacterMarker;
-		public static RUnity.RProfiling.RProfilerMarker Rk_TryAddCharacterMarker
+		protected static RUnity.RProfiling.RProfilerMarker r_Fk_TryAddCharacterMarker;
+		public static RUnity.RProfiling.RProfilerMarker RFk_TryAddCharacterMarker
 		{
 			get
 			{
-				if(r_k_TryAddCharacterMarker == null)
+				if(r_Fk_TryAddCharacterMarker == null)
 				{
-					r_k_TryAddCharacterMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_TryAddCharacterMarker");
-					r_k_TryAddCharacterMarker.SetBelong(null);
+					r_Fk_TryAddCharacterMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_TryAddCharacterMarker");
+					r_Fk_TryAddCharacterMarker.SetBelong(null);
 				}
-				return r_k_TryAddCharacterMarker;
+				return r_Fk_TryAddCharacterMarker;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker k_TryAddCharactersMarker
 		/// </summary>
-		protected static RUnity.RProfiling.RProfilerMarker r_k_TryAddCharactersMarker;
-		public static RUnity.RProfiling.RProfilerMarker Rk_TryAddCharactersMarker
+		protected static RUnity.RProfiling.RProfilerMarker r_Fk_TryAddCharactersMarker;
+		public static RUnity.RProfiling.RProfilerMarker RFk_TryAddCharactersMarker
 		{
 			get
 			{
-				if(r_k_TryAddCharactersMarker == null)
+				if(r_Fk_TryAddCharactersMarker == null)
 				{
-					r_k_TryAddCharactersMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_TryAddCharactersMarker");
-					r_k_TryAddCharactersMarker.SetBelong(null);
+					r_Fk_TryAddCharactersMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_TryAddCharactersMarker");
+					r_Fk_TryAddCharactersMarker.SetBelong(null);
 				}
-				return r_k_TryAddCharactersMarker;
+				return r_Fk_TryAddCharactersMarker;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker k_UpdateGlyphAdjustmentRecordsMarker
 		/// </summary>
-		protected static RUnity.RProfiling.RProfilerMarker r_k_UpdateGlyphAdjustmentRecordsMarker;
-		public static RUnity.RProfiling.RProfilerMarker Rk_UpdateGlyphAdjustmentRecordsMarker
+		protected static RUnity.RProfiling.RProfilerMarker r_Fk_UpdateGlyphAdjustmentRecordsMarker;
+		public static RUnity.RProfiling.RProfilerMarker RFk_UpdateGlyphAdjustmentRecordsMarker
 		{
 			get
 			{
-				if(r_k_UpdateGlyphAdjustmentRecordsMarker == null)
+				if(r_Fk_UpdateGlyphAdjustmentRecordsMarker == null)
 				{
-					r_k_UpdateGlyphAdjustmentRecordsMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_UpdateGlyphAdjustmentRecordsMarker");
-					r_k_UpdateGlyphAdjustmentRecordsMarker.SetBelong(null);
+					r_Fk_UpdateGlyphAdjustmentRecordsMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_UpdateGlyphAdjustmentRecordsMarker");
+					r_Fk_UpdateGlyphAdjustmentRecordsMarker.SetBelong(null);
 				}
-				return r_k_UpdateGlyphAdjustmentRecordsMarker;
+				return r_Fk_UpdateGlyphAdjustmentRecordsMarker;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker k_UpdateDiacriticalMarkAdjustmentRecordsMarker
 		/// </summary>
-		protected static RUnity.RProfiling.RProfilerMarker r_k_UpdateDiacriticalMarkAdjustmentRecordsMarker;
-		public static RUnity.RProfiling.RProfilerMarker Rk_UpdateDiacriticalMarkAdjustmentRecordsMarker
+		protected static RUnity.RProfiling.RProfilerMarker r_Fk_UpdateDiacriticalMarkAdjustmentRecordsMarker;
+		public static RUnity.RProfiling.RProfilerMarker RFk_UpdateDiacriticalMarkAdjustmentRecordsMarker
 		{
 			get
 			{
-				if(r_k_UpdateDiacriticalMarkAdjustmentRecordsMarker == null)
+				if(r_Fk_UpdateDiacriticalMarkAdjustmentRecordsMarker == null)
 				{
-					r_k_UpdateDiacriticalMarkAdjustmentRecordsMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_UpdateDiacriticalMarkAdjustmentRecordsMarker");
-					r_k_UpdateDiacriticalMarkAdjustmentRecordsMarker.SetBelong(null);
+					r_Fk_UpdateDiacriticalMarkAdjustmentRecordsMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_UpdateDiacriticalMarkAdjustmentRecordsMarker");
+					r_Fk_UpdateDiacriticalMarkAdjustmentRecordsMarker.SetBelong(null);
 				}
-				return r_k_UpdateDiacriticalMarkAdjustmentRecordsMarker;
+				return r_Fk_UpdateDiacriticalMarkAdjustmentRecordsMarker;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker k_ClearFontAssetDataMarker
 		/// </summary>
-		protected static RUnity.RProfiling.RProfilerMarker r_k_ClearFontAssetDataMarker;
-		public static RUnity.RProfiling.RProfilerMarker Rk_ClearFontAssetDataMarker
+		protected static RUnity.RProfiling.RProfilerMarker r_Fk_ClearFontAssetDataMarker;
+		public static RUnity.RProfiling.RProfilerMarker RFk_ClearFontAssetDataMarker
 		{
 			get
 			{
-				if(r_k_ClearFontAssetDataMarker == null)
+				if(r_Fk_ClearFontAssetDataMarker == null)
 				{
-					r_k_ClearFontAssetDataMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_ClearFontAssetDataMarker");
-					r_k_ClearFontAssetDataMarker.SetBelong(null);
+					r_Fk_ClearFontAssetDataMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_ClearFontAssetDataMarker");
+					r_Fk_ClearFontAssetDataMarker.SetBelong(null);
 				}
-				return r_k_ClearFontAssetDataMarker;
+				return r_Fk_ClearFontAssetDataMarker;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker k_UpdateFontAssetDataMarker
 		/// </summary>
-		protected static RUnity.RProfiling.RProfilerMarker r_k_UpdateFontAssetDataMarker;
-		public static RUnity.RProfiling.RProfilerMarker Rk_UpdateFontAssetDataMarker
+		protected static RUnity.RProfiling.RProfilerMarker r_Fk_UpdateFontAssetDataMarker;
+		public static RUnity.RProfiling.RProfilerMarker RFk_UpdateFontAssetDataMarker
 		{
 			get
 			{
-				if(r_k_UpdateFontAssetDataMarker == null)
+				if(r_Fk_UpdateFontAssetDataMarker == null)
 				{
-					r_k_UpdateFontAssetDataMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_UpdateFontAssetDataMarker");
-					r_k_UpdateFontAssetDataMarker.SetBelong(null);
+					r_Fk_UpdateFontAssetDataMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_UpdateFontAssetDataMarker");
+					r_Fk_UpdateFontAssetDataMarker.SetBelong(null);
 				}
-				return r_k_UpdateFontAssetDataMarker;
+				return r_Fk_UpdateFontAssetDataMarker;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker k_TryAddGlyphMarker
 		/// </summary>
-		protected static RUnity.RProfiling.RProfilerMarker r_k_TryAddGlyphMarker;
-		public static RUnity.RProfiling.RProfilerMarker Rk_TryAddGlyphMarker
+		protected static RUnity.RProfiling.RProfilerMarker r_Fk_TryAddGlyphMarker;
+		public static RUnity.RProfiling.RProfilerMarker RFk_TryAddGlyphMarker
 		{
 			get
 			{
-				if(r_k_TryAddGlyphMarker == null)
+				if(r_Fk_TryAddGlyphMarker == null)
 				{
-					r_k_TryAddGlyphMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_TryAddGlyphMarker");
-					r_k_TryAddGlyphMarker.SetBelong(null);
+					r_Fk_TryAddGlyphMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_TryAddGlyphMarker");
+					r_Fk_TryAddGlyphMarker.SetBelong(null);
 				}
-				return r_k_TryAddGlyphMarker;
+				return r_Fk_TryAddGlyphMarker;
 			}
 		}
 
 		/// <summary>
 		/// System.String s_DefaultMaterialSuffix
 		/// </summary>
-		protected static RSystem.RString r_s_DefaultMaterialSuffix;
-		public static RSystem.RString Rs_DefaultMaterialSuffix
+		protected static RSystem.RString r_Fs_DefaultMaterialSuffix;
+		public static RSystem.RString RFs_DefaultMaterialSuffix
 		{
 			get
 			{
-				if(r_s_DefaultMaterialSuffix == null)
+				if(r_Fs_DefaultMaterialSuffix == null)
 				{
-					r_s_DefaultMaterialSuffix = new(typeof(UnityEngine.TextCore.Text.FontAsset), "s_DefaultMaterialSuffix");
-					r_s_DefaultMaterialSuffix.SetBelong(null);
+					r_Fs_DefaultMaterialSuffix = new(typeof(UnityEngine.TextCore.Text.FontAsset), "s_DefaultMaterialSuffix");
+					r_Fs_DefaultMaterialSuffix.SetBelong(null);
 				}
-				return r_s_DefaultMaterialSuffix;
+				return r_Fs_DefaultMaterialSuffix;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] k_SearchedFontAssetLookup
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> r_k_SearchedFontAssetLookup;
-		public static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> Rk_SearchedFontAssetLookup
+		protected static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> r_Fk_SearchedFontAssetLookup;
+		public static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> RFk_SearchedFontAssetLookup
 		{
 			get
 			{
-				if(r_k_SearchedFontAssetLookup == null)
+				if(r_Fk_SearchedFontAssetLookup == null)
 				{
-					r_k_SearchedFontAssetLookup = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_SearchedFontAssetLookup");
-					r_k_SearchedFontAssetLookup.SetBelong(null);
+					r_Fk_SearchedFontAssetLookup = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_SearchedFontAssetLookup");
+					r_Fk_SearchedFontAssetLookup.SetBelong(null);
 				}
-				return r_k_SearchedFontAssetLookup;
+				return r_Fk_SearchedFontAssetLookup;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.FontAsset] k_FontAssets_FontFeaturesUpdateQueue
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RFontAsset> r_k_FontAssets_FontFeaturesUpdateQueue;
-		public static RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RFontAsset> Rk_FontAssets_FontFeaturesUpdateQueue
+		protected static RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RFontAsset> r_Fk_FontAssets_FontFeaturesUpdateQueue;
+		public static RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RFontAsset> RFk_FontAssets_FontFeaturesUpdateQueue
 		{
 			get
 			{
-				if(r_k_FontAssets_FontFeaturesUpdateQueue == null)
+				if(r_Fk_FontAssets_FontFeaturesUpdateQueue == null)
 				{
-					r_k_FontAssets_FontFeaturesUpdateQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_FontAssets_FontFeaturesUpdateQueue");
-					r_k_FontAssets_FontFeaturesUpdateQueue.SetBelong(null);
+					r_Fk_FontAssets_FontFeaturesUpdateQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_FontAssets_FontFeaturesUpdateQueue");
+					r_Fk_FontAssets_FontFeaturesUpdateQueue.SetBelong(null);
 				}
-				return r_k_FontAssets_FontFeaturesUpdateQueue;
+				return r_Fk_FontAssets_FontFeaturesUpdateQueue;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] k_FontAssets_FontFeaturesUpdateQueueLookup
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> r_k_FontAssets_FontFeaturesUpdateQueueLookup;
-		public static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> Rk_FontAssets_FontFeaturesUpdateQueueLookup
+		protected static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> r_Fk_FontAssets_FontFeaturesUpdateQueueLookup;
+		public static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> RFk_FontAssets_FontFeaturesUpdateQueueLookup
 		{
 			get
 			{
-				if(r_k_FontAssets_FontFeaturesUpdateQueueLookup == null)
+				if(r_Fk_FontAssets_FontFeaturesUpdateQueueLookup == null)
 				{
-					r_k_FontAssets_FontFeaturesUpdateQueueLookup = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_FontAssets_FontFeaturesUpdateQueueLookup");
-					r_k_FontAssets_FontFeaturesUpdateQueueLookup.SetBelong(null);
+					r_Fk_FontAssets_FontFeaturesUpdateQueueLookup = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_FontAssets_FontFeaturesUpdateQueueLookup");
+					r_Fk_FontAssets_FontFeaturesUpdateQueueLookup.SetBelong(null);
 				}
-				return r_k_FontAssets_FontFeaturesUpdateQueueLookup;
+				return r_Fk_FontAssets_FontFeaturesUpdateQueueLookup;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.Texture2D] k_FontAssets_AtlasTexturesUpdateQueue
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RList<RUnityEngine.RTexture2D> r_k_FontAssets_AtlasTexturesUpdateQueue;
-		public static RSystem.RCollections.RGeneric.RList<RUnityEngine.RTexture2D> Rk_FontAssets_AtlasTexturesUpdateQueue
+		protected static RSystem.RCollections.RGeneric.RList<RUnityEngine.RTexture2D> r_Fk_FontAssets_AtlasTexturesUpdateQueue;
+		public static RSystem.RCollections.RGeneric.RList<RUnityEngine.RTexture2D> RFk_FontAssets_AtlasTexturesUpdateQueue
 		{
 			get
 			{
-				if(r_k_FontAssets_AtlasTexturesUpdateQueue == null)
+				if(r_Fk_FontAssets_AtlasTexturesUpdateQueue == null)
 				{
-					r_k_FontAssets_AtlasTexturesUpdateQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_FontAssets_AtlasTexturesUpdateQueue");
-					r_k_FontAssets_AtlasTexturesUpdateQueue.SetBelong(null);
+					r_Fk_FontAssets_AtlasTexturesUpdateQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_FontAssets_AtlasTexturesUpdateQueue");
+					r_Fk_FontAssets_AtlasTexturesUpdateQueue.SetBelong(null);
 				}
-				return r_k_FontAssets_AtlasTexturesUpdateQueue;
+				return r_Fk_FontAssets_AtlasTexturesUpdateQueue;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] k_FontAssets_AtlasTexturesUpdateQueueLookup
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> r_k_FontAssets_AtlasTexturesUpdateQueueLookup;
-		public static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> Rk_FontAssets_AtlasTexturesUpdateQueueLookup
+		protected static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> r_Fk_FontAssets_AtlasTexturesUpdateQueueLookup;
+		public static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> RFk_FontAssets_AtlasTexturesUpdateQueueLookup
 		{
 			get
 			{
-				if(r_k_FontAssets_AtlasTexturesUpdateQueueLookup == null)
+				if(r_Fk_FontAssets_AtlasTexturesUpdateQueueLookup == null)
 				{
-					r_k_FontAssets_AtlasTexturesUpdateQueueLookup = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_FontAssets_AtlasTexturesUpdateQueueLookup");
-					r_k_FontAssets_AtlasTexturesUpdateQueueLookup.SetBelong(null);
+					r_Fk_FontAssets_AtlasTexturesUpdateQueueLookup = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_FontAssets_AtlasTexturesUpdateQueueLookup");
+					r_Fk_FontAssets_AtlasTexturesUpdateQueueLookup.SetBelong(null);
 				}
-				return r_k_FontAssets_AtlasTexturesUpdateQueueLookup;
+				return r_Fk_FontAssets_AtlasTexturesUpdateQueueLookup;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Glyph] m_GlyphsToRender
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> r_m_GlyphsToRender;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> Rm_GlyphsToRender
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> r_Fm_GlyphsToRender;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> RFm_GlyphsToRender
 		{
 			get
 			{
-				if(r_m_GlyphsToRender == null)
+				if(r_Fm_GlyphsToRender == null)
 				{
-					r_m_GlyphsToRender = new(this, "m_GlyphsToRender");
-					r_m_GlyphsToRender.SetBelong(this.instance);
+					r_Fm_GlyphsToRender = new(this, "m_GlyphsToRender");
+					r_Fm_GlyphsToRender.SetBelong(this.instance);
 				}
-				return r_m_GlyphsToRender;
+				return r_Fm_GlyphsToRender;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Glyph] m_GlyphsRendered
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> r_m_GlyphsRendered;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> Rm_GlyphsRendered
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> r_Fm_GlyphsRendered;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> RFm_GlyphsRendered
 		{
 			get
 			{
-				if(r_m_GlyphsRendered == null)
+				if(r_Fm_GlyphsRendered == null)
 				{
-					r_m_GlyphsRendered = new(this, "m_GlyphsRendered");
-					r_m_GlyphsRendered.SetBelong(this.instance);
+					r_Fm_GlyphsRendered = new(this, "m_GlyphsRendered");
+					r_Fm_GlyphsRendered.SetBelong(this.instance);
 				}
-				return r_m_GlyphsRendered;
+				return r_Fm_GlyphsRendered;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.UInt32] m_GlyphIndexList
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> r_m_GlyphIndexList;
-		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> Rm_GlyphIndexList
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> r_Fm_GlyphIndexList;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> RFm_GlyphIndexList
 		{
 			get
 			{
-				if(r_m_GlyphIndexList == null)
+				if(r_Fm_GlyphIndexList == null)
 				{
-					r_m_GlyphIndexList = new(this, "m_GlyphIndexList");
-					r_m_GlyphIndexList.SetBelong(this.instance);
+					r_Fm_GlyphIndexList = new(this, "m_GlyphIndexList");
+					r_Fm_GlyphIndexList.SetBelong(this.instance);
 				}
-				return r_m_GlyphIndexList;
+				return r_Fm_GlyphIndexList;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.UInt32] m_GlyphIndexListNewlyAdded
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> r_m_GlyphIndexListNewlyAdded;
-		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> Rm_GlyphIndexListNewlyAdded
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> r_Fm_GlyphIndexListNewlyAdded;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> RFm_GlyphIndexListNewlyAdded
 		{
 			get
 			{
-				if(r_m_GlyphIndexListNewlyAdded == null)
+				if(r_Fm_GlyphIndexListNewlyAdded == null)
 				{
-					r_m_GlyphIndexListNewlyAdded = new(this, "m_GlyphIndexListNewlyAdded");
-					r_m_GlyphIndexListNewlyAdded.SetBelong(this.instance);
+					r_Fm_GlyphIndexListNewlyAdded = new(this, "m_GlyphIndexListNewlyAdded");
+					r_Fm_GlyphIndexListNewlyAdded.SetBelong(this.instance);
 				}
-				return r_m_GlyphIndexListNewlyAdded;
+				return r_Fm_GlyphIndexListNewlyAdded;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.UInt32] m_GlyphsToAdd
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> r_m_GlyphsToAdd;
-		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> Rm_GlyphsToAdd
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> r_Fm_GlyphsToAdd;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> RFm_GlyphsToAdd
 		{
 			get
 			{
-				if(r_m_GlyphsToAdd == null)
+				if(r_Fm_GlyphsToAdd == null)
 				{
-					r_m_GlyphsToAdd = new(this, "m_GlyphsToAdd");
-					r_m_GlyphsToAdd.SetBelong(this.instance);
+					r_Fm_GlyphsToAdd = new(this, "m_GlyphsToAdd");
+					r_Fm_GlyphsToAdd.SetBelong(this.instance);
 				}
-				return r_m_GlyphsToAdd;
+				return r_Fm_GlyphsToAdd;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.UInt32] m_GlyphsToAddLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> r_m_GlyphsToAddLookup;
-		public virtual RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> Rm_GlyphsToAddLookup
+		protected RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> r_Fm_GlyphsToAddLookup;
+		public virtual RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> RFm_GlyphsToAddLookup
 		{
 			get
 			{
-				if(r_m_GlyphsToAddLookup == null)
+				if(r_Fm_GlyphsToAddLookup == null)
 				{
-					r_m_GlyphsToAddLookup = new(this, "m_GlyphsToAddLookup");
-					r_m_GlyphsToAddLookup.SetBelong(this.instance);
+					r_Fm_GlyphsToAddLookup = new(this, "m_GlyphsToAddLookup");
+					r_Fm_GlyphsToAddLookup.SetBelong(this.instance);
 				}
-				return r_m_GlyphsToAddLookup;
+				return r_Fm_GlyphsToAddLookup;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.Character] m_CharactersToAdd
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RCharacter> r_m_CharactersToAdd;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RCharacter> Rm_CharactersToAdd
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RCharacter> r_Fm_CharactersToAdd;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RCharacter> RFm_CharactersToAdd
 		{
 			get
 			{
-				if(r_m_CharactersToAdd == null)
+				if(r_Fm_CharactersToAdd == null)
 				{
-					r_m_CharactersToAdd = new(this, "m_CharactersToAdd");
-					r_m_CharactersToAdd.SetBelong(this.instance);
+					r_Fm_CharactersToAdd = new(this, "m_CharactersToAdd");
+					r_Fm_CharactersToAdd.SetBelong(this.instance);
 				}
-				return r_m_CharactersToAdd;
+				return r_Fm_CharactersToAdd;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.UInt32] m_CharactersToAddLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> r_m_CharactersToAddLookup;
-		public virtual RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> Rm_CharactersToAddLookup
+		protected RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> r_Fm_CharactersToAddLookup;
+		public virtual RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> RFm_CharactersToAddLookup
 		{
 			get
 			{
-				if(r_m_CharactersToAddLookup == null)
+				if(r_Fm_CharactersToAddLookup == null)
 				{
-					r_m_CharactersToAddLookup = new(this, "m_CharactersToAddLookup");
-					r_m_CharactersToAddLookup.SetBelong(this.instance);
+					r_Fm_CharactersToAddLookup = new(this, "m_CharactersToAddLookup");
+					r_Fm_CharactersToAddLookup.SetBelong(this.instance);
 				}
-				return r_m_CharactersToAddLookup;
+				return r_Fm_CharactersToAddLookup;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.UInt32] s_MissingCharacterList
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> r_s_MissingCharacterList;
-		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> Rs_MissingCharacterList
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> r_Fs_MissingCharacterList;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> RFs_MissingCharacterList
 		{
 			get
 			{
-				if(r_s_MissingCharacterList == null)
+				if(r_Fs_MissingCharacterList == null)
 				{
-					r_s_MissingCharacterList = new(this, "s_MissingCharacterList");
-					r_s_MissingCharacterList.SetBelong(this.instance);
+					r_Fs_MissingCharacterList = new(this, "s_MissingCharacterList");
+					r_Fs_MissingCharacterList.SetBelong(this.instance);
 				}
-				return r_s_MissingCharacterList;
+				return r_Fs_MissingCharacterList;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.UInt32] m_MissingUnicodesFromFontFile
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> r_m_MissingUnicodesFromFontFile;
-		public virtual RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> Rm_MissingUnicodesFromFontFile
+		protected RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> r_Fm_MissingUnicodesFromFontFile;
+		public virtual RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> RFm_MissingUnicodesFromFontFile
 		{
 			get
 			{
-				if(r_m_MissingUnicodesFromFontFile == null)
+				if(r_Fm_MissingUnicodesFromFontFile == null)
 				{
-					r_m_MissingUnicodesFromFontFile = new(this, "m_MissingUnicodesFromFontFile");
-					r_m_MissingUnicodesFromFontFile.SetBelong(this.instance);
+					r_Fm_MissingUnicodesFromFontFile = new(this, "m_MissingUnicodesFromFontFile");
+					r_Fm_MissingUnicodesFromFontFile.SetBelong(this.instance);
 				}
-				return r_m_MissingUnicodesFromFontFile;
+				return r_Fm_MissingUnicodesFromFontFile;
 			}
 		}
 
 		/// <summary>
 		/// System.UInt32[] k_GlyphIndexArray
 		/// </summary>
-		protected static RFieldArray<RSystem.RUInt32> r_k_GlyphIndexArray;
-		public static RFieldArray<RSystem.RUInt32> Rk_GlyphIndexArray
+		protected static RFieldArray<RSystem.RUInt32> r_Fk_GlyphIndexArray;
+		public static RFieldArray<RSystem.RUInt32> RFk_GlyphIndexArray
 		{
 			get
 			{
-				if(r_k_GlyphIndexArray == null)
+				if(r_Fk_GlyphIndexArray == null)
 				{
-					r_k_GlyphIndexArray = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_GlyphIndexArray");
-					r_k_GlyphIndexArray.SetBelong(null);
+					r_Fk_GlyphIndexArray = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_GlyphIndexArray");
+					r_Fk_GlyphIndexArray.SetBelong(null);
 				}
-				return r_k_GlyphIndexArray;
+				return r_Fk_GlyphIndexArray;
 			}
 		}
 
 		/// <summary>
 		/// System.String m_Version
 		/// </summary>
-		protected RSystem.RString r_m_Version;
-		public virtual RSystem.RString Rm_Version
+		protected RSystem.RString r_Fm_Version;
+		public virtual RSystem.RString RFm_Version
 		{
 			get
 			{
-				if(r_m_Version == null)
+				if(r_Fm_Version == null)
 				{
-					r_m_Version = new(this, "m_Version");
-					r_m_Version.SetBelong(this.instance);
+					r_Fm_Version = new(this, "m_Version");
+					r_Fm_Version.SetBelong(this.instance);
 				}
-				return r_m_Version;
+				return r_Fm_Version;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_InstanceID
 		/// </summary>
-		protected RSystem.RInt32 r_m_InstanceID;
-		public virtual RSystem.RInt32 Rm_InstanceID
+		protected RSystem.RInt32 r_Fm_InstanceID;
+		public virtual RSystem.RInt32 RFm_InstanceID
 		{
 			get
 			{
-				if(r_m_InstanceID == null)
+				if(r_Fm_InstanceID == null)
 				{
-					r_m_InstanceID = new(this, "m_InstanceID");
-					r_m_InstanceID.SetBelong(this.instance);
+					r_Fm_InstanceID = new(this, "m_InstanceID");
+					r_Fm_InstanceID.SetBelong(this.instance);
 				}
-				return r_m_InstanceID;
+				return r_Fm_InstanceID;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_HashCode
 		/// </summary>
-		protected RSystem.RInt32 r_m_HashCode;
-		public virtual RSystem.RInt32 Rm_HashCode
+		protected RSystem.RInt32 r_Fm_HashCode;
+		public virtual RSystem.RInt32 RFm_HashCode
 		{
 			get
 			{
-				if(r_m_HashCode == null)
+				if(r_Fm_HashCode == null)
 				{
-					r_m_HashCode = new(this, "m_HashCode");
-					r_m_HashCode.SetBelong(this.instance);
+					r_Fm_HashCode = new(this, "m_HashCode");
+					r_Fm_HashCode.SetBelong(this.instance);
 				}
-				return r_m_HashCode;
+				return r_Fm_HashCode;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Material m_Material
 		/// </summary>
-		protected RUnityEngine.RMaterial r_m_Material;
-		public virtual RUnityEngine.RMaterial Rm_Material
+		protected RUnityEngine.RMaterial r_Fm_Material;
+		public virtual RUnityEngine.RMaterial RFm_Material
 		{
 			get
 			{
-				if(r_m_Material == null)
+				if(r_Fm_Material == null)
 				{
-					r_m_Material = new(this, "m_Material");
-					r_m_Material.SetBelong(this.instance);
+					r_Fm_Material = new(this, "m_Material");
+					r_Fm_Material.SetBelong(this.instance);
 				}
-				return r_m_Material;
+				return r_Fm_Material;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_MaterialHashCode
 		/// </summary>
-		protected RSystem.RInt32 r_m_MaterialHashCode;
-		public virtual RSystem.RInt32 Rm_MaterialHashCode
+		protected RSystem.RInt32 r_Fm_MaterialHashCode;
+		public virtual RSystem.RInt32 RFm_MaterialHashCode
 		{
 			get
 			{
-				if(r_m_MaterialHashCode == null)
+				if(r_Fm_MaterialHashCode == null)
 				{
-					r_m_MaterialHashCode = new(this, "m_MaterialHashCode");
-					r_m_MaterialHashCode.SetBelong(this.instance);
+					r_Fm_MaterialHashCode = new(this, "m_MaterialHashCode");
+					r_Fm_MaterialHashCode.SetBelong(this.instance);
 				}
-				return r_m_MaterialHashCode;
+				return r_Fm_MaterialHashCode;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Font SourceFont_EditorRef
 		/// </summary>
-		protected RUnityEngine.RFont r_SourceFont_EditorRef;
-		public virtual RUnityEngine.RFont RSourceFont_EditorRef
+		protected RUnityEngine.RFont r_PSourceFont_EditorRef;
+		public virtual RUnityEngine.RFont RPSourceFont_EditorRef
 		{
 			get
 			{
-				if(r_SourceFont_EditorRef == null)
+				if(r_PSourceFont_EditorRef == null)
 				{
-					r_SourceFont_EditorRef = new(this, "SourceFont_EditorRef", -1);
-					r_SourceFont_EditorRef.SetBelong(this.instance);
+					r_PSourceFont_EditorRef = new(this, "SourceFont_EditorRef", -1);
+					r_PSourceFont_EditorRef.SetBelong(this.instance);
 				}
-				return r_SourceFont_EditorRef;
+				return r_PSourceFont_EditorRef;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Font sourceFontFile
 		/// </summary>
-		protected RUnityEngine.RFont r_sourceFontFile;
-		public virtual RUnityEngine.RFont RsourceFontFile
+		protected RUnityEngine.RFont r_PsourceFontFile;
+		public virtual RUnityEngine.RFont RPsourceFontFile
 		{
 			get
 			{
-				if(r_sourceFontFile == null)
+				if(r_PsourceFontFile == null)
 				{
-					r_sourceFontFile = new(this, "sourceFontFile", -1);
-					r_sourceFontFile.SetBelong(this.instance);
+					r_PsourceFontFile = new(this, "sourceFontFile", -1);
+					r_PsourceFontFile.SetBelong(this.instance);
 				}
-				return r_sourceFontFile;
+				return r_PsourceFontFile;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.AtlasPopulationMode atlasPopulationMode
 		/// </summary>
-		protected RProperty r_atlasPopulationMode;
-		public virtual RProperty RatlasPopulationMode
+		protected RUnityEngine.RTextCore.RText.RAtlasPopulationMode r_PatlasPopulationMode;
+		public virtual RUnityEngine.RTextCore.RText.RAtlasPopulationMode RPatlasPopulationMode
 		{
 			get
 			{
-				if(r_atlasPopulationMode == null)
+				if(r_PatlasPopulationMode == null)
 				{
-					r_atlasPopulationMode = new(this, "atlasPopulationMode", -1);
-					r_atlasPopulationMode.SetBelong(this.instance);
+					r_PatlasPopulationMode = new(this, "atlasPopulationMode", -1);
+					r_PatlasPopulationMode.SetBelong(this.instance);
 				}
-				return r_atlasPopulationMode;
+				return r_PatlasPopulationMode;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.FaceInfo faceInfo
 		/// </summary>
-		protected RUnityEngine.RTextCore.RFaceInfo r_faceInfo;
-		public virtual RUnityEngine.RTextCore.RFaceInfo RfaceInfo
+		protected RUnityEngine.RTextCore.RFaceInfo r_PfaceInfo;
+		public virtual RUnityEngine.RTextCore.RFaceInfo RPfaceInfo
 		{
 			get
 			{
-				if(r_faceInfo == null)
+				if(r_PfaceInfo == null)
 				{
-					r_faceInfo = new(this, "faceInfo", -1);
-					r_faceInfo.SetBelong(this.instance);
+					r_PfaceInfo = new(this, "faceInfo", -1);
+					r_PfaceInfo.SetBelong(this.instance);
 				}
-				return r_faceInfo;
+				return r_PfaceInfo;
 			}
 		}
 
 		/// <summary>
 		/// Int32 familyNameHashCode
 		/// </summary>
-		protected RSystem.RInt32 r_familyNameHashCode;
-		public virtual RSystem.RInt32 RfamilyNameHashCode
+		protected RSystem.RInt32 r_PfamilyNameHashCode;
+		public virtual RSystem.RInt32 RPfamilyNameHashCode
 		{
 			get
 			{
-				if(r_familyNameHashCode == null)
+				if(r_PfamilyNameHashCode == null)
 				{
-					r_familyNameHashCode = new(this, "familyNameHashCode", -1);
-					r_familyNameHashCode.SetBelong(this.instance);
+					r_PfamilyNameHashCode = new(this, "familyNameHashCode", -1);
+					r_PfamilyNameHashCode.SetBelong(this.instance);
 				}
-				return r_familyNameHashCode;
+				return r_PfamilyNameHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Int32 styleNameHashCode
 		/// </summary>
-		protected RSystem.RInt32 r_styleNameHashCode;
-		public virtual RSystem.RInt32 RstyleNameHashCode
+		protected RSystem.RInt32 r_PstyleNameHashCode;
+		public virtual RSystem.RInt32 RPstyleNameHashCode
 		{
 			get
 			{
-				if(r_styleNameHashCode == null)
+				if(r_PstyleNameHashCode == null)
 				{
-					r_styleNameHashCode = new(this, "styleNameHashCode", -1);
-					r_styleNameHashCode.SetBelong(this.instance);
+					r_PstyleNameHashCode = new(this, "styleNameHashCode", -1);
+					r_PstyleNameHashCode.SetBelong(this.instance);
 				}
-				return r_styleNameHashCode;
+				return r_PstyleNameHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Glyph] glyphTable
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> r_glyphTable;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> RglyphTable
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> r_PglyphTable;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyph> RPglyphTable
 		{
 			get
 			{
-				if(r_glyphTable == null)
+				if(r_PglyphTable == null)
 				{
-					r_glyphTable = new(this, "glyphTable", -1);
-					r_glyphTable.SetBelong(this.instance);
+					r_PglyphTable = new(this, "glyphTable", -1);
+					r_PglyphTable.SetBelong(this.instance);
 				}
-				return r_glyphTable;
+				return r_PglyphTable;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.Glyph] glyphLookupTable
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RGlyph> r_glyphLookupTable;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RGlyph> RglyphLookupTable
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RGlyph> r_PglyphLookupTable;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RGlyph> RPglyphLookupTable
 		{
 			get
 			{
-				if(r_glyphLookupTable == null)
+				if(r_PglyphLookupTable == null)
 				{
-					r_glyphLookupTable = new(this, "glyphLookupTable", -1);
-					r_glyphLookupTable.SetBelong(this.instance);
+					r_PglyphLookupTable = new(this, "glyphLookupTable", -1);
+					r_PglyphLookupTable.SetBelong(this.instance);
 				}
-				return r_glyphLookupTable;
+				return r_PglyphLookupTable;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.Character] characterTable
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RCharacter> r_characterTable;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RCharacter> RcharacterTable
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RCharacter> r_PcharacterTable;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RCharacter> RPcharacterTable
 		{
 			get
 			{
-				if(r_characterTable == null)
+				if(r_PcharacterTable == null)
 				{
-					r_characterTable = new(this, "characterTable", -1);
-					r_characterTable.SetBelong(this.instance);
+					r_PcharacterTable = new(this, "characterTable", -1);
+					r_PcharacterTable.SetBelong(this.instance);
 				}
-				return r_characterTable;
+				return r_PcharacterTable;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.Text.Character] characterLookupTable
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RCharacter> r_characterLookupTable;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RCharacter> RcharacterLookupTable
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RCharacter> r_PcharacterLookupTable;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RCharacter> RPcharacterLookupTable
 		{
 			get
 			{
-				if(r_characterLookupTable == null)
+				if(r_PcharacterLookupTable == null)
 				{
-					r_characterLookupTable = new(this, "characterLookupTable", -1);
-					r_characterLookupTable.SetBelong(this.instance);
+					r_PcharacterLookupTable = new(this, "characterLookupTable", -1);
+					r_PcharacterLookupTable.SetBelong(this.instance);
 				}
-				return r_characterLookupTable;
+				return r_PcharacterLookupTable;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Texture2D atlasTexture
 		/// </summary>
-		protected RUnityEngine.RTexture2D r_atlasTexture;
-		public virtual RUnityEngine.RTexture2D RatlasTexture
+		protected RUnityEngine.RTexture2D r_PatlasTexture;
+		public virtual RUnityEngine.RTexture2D RPatlasTexture
 		{
 			get
 			{
-				if(r_atlasTexture == null)
+				if(r_PatlasTexture == null)
 				{
-					r_atlasTexture = new(this, "atlasTexture", -1);
-					r_atlasTexture.SetBelong(this.instance);
+					r_PatlasTexture = new(this, "atlasTexture", -1);
+					r_PatlasTexture.SetBelong(this.instance);
 				}
-				return r_atlasTexture;
+				return r_PatlasTexture;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Texture2D[] atlasTextures
 		/// </summary>
-		protected RPropertyArray<RUnityEngine.RTexture2D> r_atlasTextures;
-		public virtual RPropertyArray<RUnityEngine.RTexture2D> RatlasTextures
+		protected RPropertyArray<RUnityEngine.RTexture2D> r_PatlasTextures;
+		public virtual RPropertyArray<RUnityEngine.RTexture2D> RPatlasTextures
 		{
 			get
 			{
-				if(r_atlasTextures == null)
+				if(r_PatlasTextures == null)
 				{
-					r_atlasTextures = new(this, "atlasTextures", -1);
-					r_atlasTextures.SetBelong(this.instance);
+					r_PatlasTextures = new(this, "atlasTextures", -1);
+					r_PatlasTextures.SetBelong(this.instance);
 				}
-				return r_atlasTextures;
+				return r_PatlasTextures;
 			}
 		}
 
 		/// <summary>
 		/// Int32 atlasTextureCount
 		/// </summary>
-		protected RSystem.RInt32 r_atlasTextureCount;
-		public virtual RSystem.RInt32 RatlasTextureCount
+		protected RSystem.RInt32 r_PatlasTextureCount;
+		public virtual RSystem.RInt32 RPatlasTextureCount
 		{
 			get
 			{
-				if(r_atlasTextureCount == null)
+				if(r_PatlasTextureCount == null)
 				{
-					r_atlasTextureCount = new(this, "atlasTextureCount", -1);
-					r_atlasTextureCount.SetBelong(this.instance);
+					r_PatlasTextureCount = new(this, "atlasTextureCount", -1);
+					r_PatlasTextureCount.SetBelong(this.instance);
 				}
-				return r_atlasTextureCount;
+				return r_PatlasTextureCount;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isMultiAtlasTexturesEnabled
 		/// </summary>
-		protected RSystem.RBoolean r_isMultiAtlasTexturesEnabled;
-		public virtual RSystem.RBoolean RisMultiAtlasTexturesEnabled
+		protected RSystem.RBoolean r_PisMultiAtlasTexturesEnabled;
+		public virtual RSystem.RBoolean RPisMultiAtlasTexturesEnabled
 		{
 			get
 			{
-				if(r_isMultiAtlasTexturesEnabled == null)
+				if(r_PisMultiAtlasTexturesEnabled == null)
 				{
-					r_isMultiAtlasTexturesEnabled = new(this, "isMultiAtlasTexturesEnabled", -1);
-					r_isMultiAtlasTexturesEnabled.SetBelong(this.instance);
+					r_PisMultiAtlasTexturesEnabled = new(this, "isMultiAtlasTexturesEnabled", -1);
+					r_PisMultiAtlasTexturesEnabled.SetBelong(this.instance);
 				}
-				return r_isMultiAtlasTexturesEnabled;
+				return r_PisMultiAtlasTexturesEnabled;
 			}
 		}
 
 		/// <summary>
 		/// Boolean clearDynamicDataOnBuild
 		/// </summary>
-		protected RSystem.RBoolean r_clearDynamicDataOnBuild;
-		public virtual RSystem.RBoolean RclearDynamicDataOnBuild
+		protected RSystem.RBoolean r_PclearDynamicDataOnBuild;
+		public virtual RSystem.RBoolean RPclearDynamicDataOnBuild
 		{
 			get
 			{
-				if(r_clearDynamicDataOnBuild == null)
+				if(r_PclearDynamicDataOnBuild == null)
 				{
-					r_clearDynamicDataOnBuild = new(this, "clearDynamicDataOnBuild", -1);
-					r_clearDynamicDataOnBuild.SetBelong(this.instance);
+					r_PclearDynamicDataOnBuild = new(this, "clearDynamicDataOnBuild", -1);
+					r_PclearDynamicDataOnBuild.SetBelong(this.instance);
 				}
-				return r_clearDynamicDataOnBuild;
+				return r_PclearDynamicDataOnBuild;
 			}
 		}
 
 		/// <summary>
 		/// Int32 atlasWidth
 		/// </summary>
-		protected RSystem.RInt32 r_atlasWidth;
-		public virtual RSystem.RInt32 RatlasWidth
+		protected RSystem.RInt32 r_PatlasWidth;
+		public virtual RSystem.RInt32 RPatlasWidth
 		{
 			get
 			{
-				if(r_atlasWidth == null)
+				if(r_PatlasWidth == null)
 				{
-					r_atlasWidth = new(this, "atlasWidth", -1);
-					r_atlasWidth.SetBelong(this.instance);
+					r_PatlasWidth = new(this, "atlasWidth", -1);
+					r_PatlasWidth.SetBelong(this.instance);
 				}
-				return r_atlasWidth;
+				return r_PatlasWidth;
 			}
 		}
 
 		/// <summary>
 		/// Int32 atlasHeight
 		/// </summary>
-		protected RSystem.RInt32 r_atlasHeight;
-		public virtual RSystem.RInt32 RatlasHeight
+		protected RSystem.RInt32 r_PatlasHeight;
+		public virtual RSystem.RInt32 RPatlasHeight
 		{
 			get
 			{
-				if(r_atlasHeight == null)
+				if(r_PatlasHeight == null)
 				{
-					r_atlasHeight = new(this, "atlasHeight", -1);
-					r_atlasHeight.SetBelong(this.instance);
+					r_PatlasHeight = new(this, "atlasHeight", -1);
+					r_PatlasHeight.SetBelong(this.instance);
 				}
-				return r_atlasHeight;
+				return r_PatlasHeight;
 			}
 		}
 
 		/// <summary>
 		/// Int32 atlasPadding
 		/// </summary>
-		protected RSystem.RInt32 r_atlasPadding;
-		public virtual RSystem.RInt32 RatlasPadding
+		protected RSystem.RInt32 r_PatlasPadding;
+		public virtual RSystem.RInt32 RPatlasPadding
 		{
 			get
 			{
-				if(r_atlasPadding == null)
+				if(r_PatlasPadding == null)
 				{
-					r_atlasPadding = new(this, "atlasPadding", -1);
-					r_atlasPadding.SetBelong(this.instance);
+					r_PatlasPadding = new(this, "atlasPadding", -1);
+					r_PatlasPadding.SetBelong(this.instance);
 				}
-				return r_atlasPadding;
+				return r_PatlasPadding;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode atlasRenderMode
 		/// </summary>
-		protected RProperty r_atlasRenderMode;
-		public virtual RProperty RatlasRenderMode
+		protected RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_PatlasRenderMode;
+		public virtual RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RPatlasRenderMode
 		{
 			get
 			{
-				if(r_atlasRenderMode == null)
+				if(r_PatlasRenderMode == null)
 				{
-					r_atlasRenderMode = new(this, "atlasRenderMode", -1);
-					r_atlasRenderMode.SetBelong(this.instance);
+					r_PatlasRenderMode = new(this, "atlasRenderMode", -1);
+					r_PatlasRenderMode.SetBelong(this.instance);
 				}
-				return r_atlasRenderMode;
+				return r_PatlasRenderMode;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.GlyphRect] usedGlyphRects
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> r_usedGlyphRects;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> RusedGlyphRects
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> r_PusedGlyphRects;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> RPusedGlyphRects
 		{
 			get
 			{
-				if(r_usedGlyphRects == null)
+				if(r_PusedGlyphRects == null)
 				{
-					r_usedGlyphRects = new(this, "usedGlyphRects", -1);
-					r_usedGlyphRects.SetBelong(this.instance);
+					r_PusedGlyphRects = new(this, "usedGlyphRects", -1);
+					r_PusedGlyphRects.SetBelong(this.instance);
 				}
-				return r_usedGlyphRects;
+				return r_PusedGlyphRects;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.GlyphRect] freeGlyphRects
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> r_freeGlyphRects;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> RfreeGlyphRects
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> r_PfreeGlyphRects;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RGlyphRect> RPfreeGlyphRects
 		{
 			get
 			{
-				if(r_freeGlyphRects == null)
+				if(r_PfreeGlyphRects == null)
 				{
-					r_freeGlyphRects = new(this, "freeGlyphRects", -1);
-					r_freeGlyphRects.SetBelong(this.instance);
+					r_PfreeGlyphRects = new(this, "freeGlyphRects", -1);
+					r_PfreeGlyphRects.SetBelong(this.instance);
 				}
-				return r_freeGlyphRects;
+				return r_PfreeGlyphRects;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontFeatureTable fontFeatureTable
 		/// </summary>
-		protected RUnityEngine.RTextCore.RText.RFontFeatureTable r_fontFeatureTable;
-		public virtual RUnityEngine.RTextCore.RText.RFontFeatureTable RfontFeatureTable
+		protected RUnityEngine.RTextCore.RText.RFontFeatureTable r_PfontFeatureTable;
+		public virtual RUnityEngine.RTextCore.RText.RFontFeatureTable RPfontFeatureTable
 		{
 			get
 			{
-				if(r_fontFeatureTable == null)
+				if(r_PfontFeatureTable == null)
 				{
-					r_fontFeatureTable = new(this, "fontFeatureTable", -1);
-					r_fontFeatureTable.SetBelong(this.instance);
+					r_PfontFeatureTable = new(this, "fontFeatureTable", -1);
+					r_PfontFeatureTable.SetBelong(this.instance);
 				}
-				return r_fontFeatureTable;
+				return r_PfontFeatureTable;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.FontAsset] fallbackFontAssetTable
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RFontAsset> r_fallbackFontAssetTable;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RFontAsset> RfallbackFontAssetTable
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RFontAsset> r_PfallbackFontAssetTable;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RText.RFontAsset> RPfallbackFontAssetTable
 		{
 			get
 			{
-				if(r_fallbackFontAssetTable == null)
+				if(r_PfallbackFontAssetTable == null)
 				{
-					r_fallbackFontAssetTable = new(this, "fallbackFontAssetTable", -1);
-					r_fallbackFontAssetTable.SetBelong(this.instance);
+					r_PfallbackFontAssetTable = new(this, "fallbackFontAssetTable", -1);
+					r_PfallbackFontAssetTable.SetBelong(this.instance);
 				}
-				return r_fallbackFontAssetTable;
+				return r_PfallbackFontAssetTable;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAssetCreationEditorSettings fontAssetCreationEditorSettings
 		/// </summary>
-		protected RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings r_fontAssetCreationEditorSettings;
-		public virtual RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings RfontAssetCreationEditorSettings
+		protected RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings r_PfontAssetCreationEditorSettings;
+		public virtual RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings RPfontAssetCreationEditorSettings
 		{
 			get
 			{
-				if(r_fontAssetCreationEditorSettings == null)
+				if(r_PfontAssetCreationEditorSettings == null)
 				{
-					r_fontAssetCreationEditorSettings = new(this, "fontAssetCreationEditorSettings", -1);
-					r_fontAssetCreationEditorSettings.SetBelong(this.instance);
+					r_PfontAssetCreationEditorSettings = new(this, "fontAssetCreationEditorSettings", -1);
+					r_PfontAssetCreationEditorSettings.SetBelong(this.instance);
 				}
-				return r_fontAssetCreationEditorSettings;
+				return r_PfontAssetCreationEditorSettings;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontWeightPair[] fontWeightTable
 		/// </summary>
-		protected RPropertyArray<RUnityEngine.RTextCore.RText.RFontWeightPair> r_fontWeightTable;
-		public virtual RPropertyArray<RUnityEngine.RTextCore.RText.RFontWeightPair> RfontWeightTable
+		protected RPropertyArray<RUnityEngine.RTextCore.RText.RFontWeightPair> r_PfontWeightTable;
+		public virtual RPropertyArray<RUnityEngine.RTextCore.RText.RFontWeightPair> RPfontWeightTable
 		{
 			get
 			{
-				if(r_fontWeightTable == null)
+				if(r_PfontWeightTable == null)
 				{
-					r_fontWeightTable = new(this, "fontWeightTable", -1);
-					r_fontWeightTable.SetBelong(this.instance);
+					r_PfontWeightTable = new(this, "fontWeightTable", -1);
+					r_PfontWeightTable.SetBelong(this.instance);
 				}
-				return r_fontWeightTable;
+				return r_PfontWeightTable;
 			}
 		}
 
 		/// <summary>
 		/// Single regularStyleWeight
 		/// </summary>
-		protected RSystem.RSingle r_regularStyleWeight;
-		public virtual RSystem.RSingle RregularStyleWeight
+		protected RSystem.RSingle r_PregularStyleWeight;
+		public virtual RSystem.RSingle RPregularStyleWeight
 		{
 			get
 			{
-				if(r_regularStyleWeight == null)
+				if(r_PregularStyleWeight == null)
 				{
-					r_regularStyleWeight = new(this, "regularStyleWeight", -1);
-					r_regularStyleWeight.SetBelong(this.instance);
+					r_PregularStyleWeight = new(this, "regularStyleWeight", -1);
+					r_PregularStyleWeight.SetBelong(this.instance);
 				}
-				return r_regularStyleWeight;
+				return r_PregularStyleWeight;
 			}
 		}
 
 		/// <summary>
 		/// Single regularStyleSpacing
 		/// </summary>
-		protected RSystem.RSingle r_regularStyleSpacing;
-		public virtual RSystem.RSingle RregularStyleSpacing
+		protected RSystem.RSingle r_PregularStyleSpacing;
+		public virtual RSystem.RSingle RPregularStyleSpacing
 		{
 			get
 			{
-				if(r_regularStyleSpacing == null)
+				if(r_PregularStyleSpacing == null)
 				{
-					r_regularStyleSpacing = new(this, "regularStyleSpacing", -1);
-					r_regularStyleSpacing.SetBelong(this.instance);
+					r_PregularStyleSpacing = new(this, "regularStyleSpacing", -1);
+					r_PregularStyleSpacing.SetBelong(this.instance);
 				}
-				return r_regularStyleSpacing;
+				return r_PregularStyleSpacing;
 			}
 		}
 
 		/// <summary>
 		/// Single boldStyleWeight
 		/// </summary>
-		protected RSystem.RSingle r_boldStyleWeight;
-		public virtual RSystem.RSingle RboldStyleWeight
+		protected RSystem.RSingle r_PboldStyleWeight;
+		public virtual RSystem.RSingle RPboldStyleWeight
 		{
 			get
 			{
-				if(r_boldStyleWeight == null)
+				if(r_PboldStyleWeight == null)
 				{
-					r_boldStyleWeight = new(this, "boldStyleWeight", -1);
-					r_boldStyleWeight.SetBelong(this.instance);
+					r_PboldStyleWeight = new(this, "boldStyleWeight", -1);
+					r_PboldStyleWeight.SetBelong(this.instance);
 				}
-				return r_boldStyleWeight;
+				return r_PboldStyleWeight;
 			}
 		}
 
 		/// <summary>
 		/// Single boldStyleSpacing
 		/// </summary>
-		protected RSystem.RSingle r_boldStyleSpacing;
-		public virtual RSystem.RSingle RboldStyleSpacing
+		protected RSystem.RSingle r_PboldStyleSpacing;
+		public virtual RSystem.RSingle RPboldStyleSpacing
 		{
 			get
 			{
-				if(r_boldStyleSpacing == null)
+				if(r_PboldStyleSpacing == null)
 				{
-					r_boldStyleSpacing = new(this, "boldStyleSpacing", -1);
-					r_boldStyleSpacing.SetBelong(this.instance);
+					r_PboldStyleSpacing = new(this, "boldStyleSpacing", -1);
+					r_PboldStyleSpacing.SetBelong(this.instance);
 				}
-				return r_boldStyleSpacing;
+				return r_PboldStyleSpacing;
 			}
 		}
 
 		/// <summary>
 		/// Byte italicStyleSlant
 		/// </summary>
-		protected RSystem.RByte r_italicStyleSlant;
-		public virtual RSystem.RByte RitalicStyleSlant
+		protected RSystem.RByte r_PitalicStyleSlant;
+		public virtual RSystem.RByte RPitalicStyleSlant
 		{
 			get
 			{
-				if(r_italicStyleSlant == null)
+				if(r_PitalicStyleSlant == null)
 				{
-					r_italicStyleSlant = new(this, "italicStyleSlant", -1);
-					r_italicStyleSlant.SetBelong(this.instance);
+					r_PitalicStyleSlant = new(this, "italicStyleSlant", -1);
+					r_PitalicStyleSlant.SetBelong(this.instance);
 				}
-				return r_italicStyleSlant;
+				return r_PitalicStyleSlant;
 			}
 		}
 
 		/// <summary>
 		/// Byte tabMultiple
 		/// </summary>
-		protected RSystem.RByte r_tabMultiple;
-		public virtual RSystem.RByte RtabMultiple
+		protected RSystem.RByte r_PtabMultiple;
+		public virtual RSystem.RByte RPtabMultiple
 		{
 			get
 			{
-				if(r_tabMultiple == null)
+				if(r_PtabMultiple == null)
 				{
-					r_tabMultiple = new(this, "tabMultiple", -1);
-					r_tabMultiple.SetBelong(this.instance);
+					r_PtabMultiple = new(this, "tabMultiple", -1);
+					r_PtabMultiple.SetBelong(this.instance);
 				}
-				return r_tabMultiple;
+				return r_PtabMultiple;
 			}
 		}
 
 		/// <summary>
 		/// System.String version
 		/// </summary>
-		protected RSystem.RString r_version;
-		public virtual RSystem.RString Rversion
+		protected RSystem.RString r_Pversion;
+		public virtual RSystem.RString RPversion
 		{
 			get
 			{
-				if(r_version == null)
+				if(r_Pversion == null)
 				{
-					r_version = new(this, "version", -1);
-					r_version.SetBelong(this.instance);
+					r_Pversion = new(this, "version", -1);
+					r_Pversion.SetBelong(this.instance);
 				}
-				return r_version;
+				return r_Pversion;
 			}
 		}
 
 		/// <summary>
 		/// Int32 instanceID
 		/// </summary>
-		protected RSystem.RInt32 r_instanceID;
-		public virtual RSystem.RInt32 RinstanceID
+		protected RSystem.RInt32 r_PinstanceID;
+		public virtual RSystem.RInt32 RPinstanceID
 		{
 			get
 			{
-				if(r_instanceID == null)
+				if(r_PinstanceID == null)
 				{
-					r_instanceID = new(this, "instanceID", -1);
-					r_instanceID.SetBelong(this.instance);
+					r_PinstanceID = new(this, "instanceID", -1);
+					r_PinstanceID.SetBelong(this.instance);
 				}
-				return r_instanceID;
+				return r_PinstanceID;
 			}
 		}
 
 		/// <summary>
 		/// Int32 hashCode
 		/// </summary>
-		protected RSystem.RInt32 r_hashCode;
-		public virtual RSystem.RInt32 RhashCode
+		protected RSystem.RInt32 r_PhashCode;
+		public virtual RSystem.RInt32 RPhashCode
 		{
 			get
 			{
-				if(r_hashCode == null)
+				if(r_PhashCode == null)
 				{
-					r_hashCode = new(this, "hashCode", -1);
-					r_hashCode.SetBelong(this.instance);
+					r_PhashCode = new(this, "hashCode", -1);
+					r_PhashCode.SetBelong(this.instance);
 				}
-				return r_hashCode;
+				return r_PhashCode;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Material material
 		/// </summary>
-		protected RUnityEngine.RMaterial r_material;
-		public virtual RUnityEngine.RMaterial Rmaterial
+		protected RUnityEngine.RMaterial r_Pmaterial;
+		public virtual RUnityEngine.RMaterial RPmaterial
 		{
 			get
 			{
-				if(r_material == null)
+				if(r_Pmaterial == null)
 				{
-					r_material = new(this, "material", -1);
-					r_material.SetBelong(this.instance);
+					r_Pmaterial = new(this, "material", -1);
+					r_Pmaterial.SetBelong(this.instance);
 				}
-				return r_material;
+				return r_Pmaterial;
 			}
 		}
 
 		/// <summary>
 		/// Int32 materialHashCode
 		/// </summary>
-		protected RSystem.RInt32 r_materialHashCode;
-		public virtual RSystem.RInt32 RmaterialHashCode
+		protected RSystem.RInt32 r_PmaterialHashCode;
+		public virtual RSystem.RInt32 RPmaterialHashCode
 		{
 			get
 			{
-				if(r_materialHashCode == null)
+				if(r_PmaterialHashCode == null)
 				{
-					r_materialHashCode = new(this, "materialHashCode", -1);
-					r_materialHashCode.SetBelong(this.instance);
+					r_PmaterialHashCode = new(this, "materialHashCode", -1);
+					r_PmaterialHashCode.SetBelong(this.instance);
 				}
-				return r_materialHashCode;
+				return r_PmaterialHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RSystem.RString r_name;
-		public virtual RSystem.RString Rname
+		protected RSystem.RString r_Pname;
+		public virtual RSystem.RString RPname
 		{
 			get
 			{
-				if(r_name == null)
+				if(r_Pname == null)
 				{
-					r_name = new(this, "name", -1);
-					r_name.SetBelong(this.instance);
+					r_Pname = new(this, "name", -1);
+					r_Pname.SetBelong(this.instance);
 				}
-				return r_name;
+				return r_Pname;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected RProperty r_hideFlags;
-		public virtual RProperty RhideFlags
+		protected RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{
-				if(r_hideFlags == null)
+				if(r_PhideFlags == null)
 				{
-					r_hideFlags = new(this, "hideFlags", -1);
-					r_hideFlags.SetBelong(this.instance);
+					r_PhideFlags = new(this, "hideFlags", -1);
+					r_PhideFlags.SetBelong(this.instance);
 				}
-				return r_hideFlags;
+				return r_PhideFlags;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset CreateFontAsset(System.String, System.String, Int32)
 		/// </summary>
-		protected static RMethod r_CreateFontAsset_String_String_Int32;
-		public static RMethod RCreateFontAsset_String_String_Int32
+		protected static RMethod r_MCreateFontAsset_String_String_Int32;
+		public static RMethod RMCreateFontAsset_String_String_Int32
 		{
 			get
 			{
-				if(r_CreateFontAsset_String_String_Int32 == null)
+				if(r_MCreateFontAsset_String_String_Int32 == null)
 				{
-					r_CreateFontAsset_String_String_Int32 = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(System.String), typeof(System.String), typeof(System.Int32));
-					r_CreateFontAsset_String_String_Int32.SetBelong(null);
+					r_MCreateFontAsset_String_String_Int32 = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(System.String), typeof(System.String), typeof(System.Int32));
+					r_MCreateFontAsset_String_String_Int32.SetBelong(null);
 				}
-				return r_CreateFontAsset_String_String_Int32;
+				return r_MCreateFontAsset_String_String_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset CreateFontAsset(System.String, Int32, Int32, Int32, UnityEngine.TextCore.LowLevel.GlyphRenderMode, Int32, Int32)
 		/// </summary>
-		protected static RMethod r_CreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32;
-		public static RMethod RCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32
+		protected static RMethod r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32;
+		public static RMethod RMCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32
 		{
 			get
 			{
-				if(r_CreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32 == null)
+				if(r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32 == null)
 				{
-					r_CreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32 = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32));
-					r_CreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32.SetBelong(null);
+					r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32 = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32));
+					r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32.SetBelong(null);
 				}
-				return r_CreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32;
+				return r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset CreateFontAsset(System.String, Int32, Int32, Int32, UnityEngine.TextCore.LowLevel.GlyphRenderMode, Int32, Int32, UnityEngine.TextCore.Text.AtlasPopulationMode, Boolean)
 		/// </summary>
-		protected static RMethod r_CreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
-		public static RMethod RCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean
+		protected static RMethod r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
+		public static RMethod RMCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean
 		{
 			get
 			{
-				if(r_CreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean == null)
+				if(r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean == null)
 				{
-					r_CreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
-					r_CreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.SetBelong(null);
+					r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
+					r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.SetBelong(null);
 				}
-				return r_CreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
+				return r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font)
 		/// </summary>
-		protected static RMethod r_CreateFontAsset_Font;
-		public static RMethod RCreateFontAsset_Font
+		protected static RMethod r_MCreateFontAsset_Font;
+		public static RMethod RMCreateFontAsset_Font
 		{
 			get
 			{
-				if(r_CreateFontAsset_Font == null)
+				if(r_MCreateFontAsset_Font == null)
 				{
-					r_CreateFontAsset_Font = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(UnityEngine.Font));
-					r_CreateFontAsset_Font.SetBelong(null);
+					r_MCreateFontAsset_Font = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(UnityEngine.Font));
+					r_MCreateFontAsset_Font.SetBelong(null);
 				}
-				return r_CreateFontAsset_Font;
+				return r_MCreateFontAsset_Font;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font, Int32, Int32, UnityEngine.TextCore.LowLevel.GlyphRenderMode, Int32, Int32, UnityEngine.TextCore.Text.AtlasPopulationMode, Boolean)
 		/// </summary>
-		protected static RMethod r_CreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
-		public static RMethod RCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean
+		protected static RMethod r_MCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
+		public static RMethod RMCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean
 		{
 			get
 			{
-				if(r_CreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean == null)
+				if(r_MCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean == null)
 				{
-					r_CreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(UnityEngine.Font), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
-					r_CreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.SetBelong(null);
+					r_MCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(UnityEngine.Font), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
+					r_MCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.SetBelong(null);
 				}
-				return r_CreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
+				return r_MCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font, Int32, Int32, Int32, UnityEngine.TextCore.LowLevel.GlyphRenderMode, Int32, Int32, UnityEngine.TextCore.Text.AtlasPopulationMode, Boolean)
 		/// </summary>
-		protected static RMethod r_CreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
-		public static RMethod RCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean
+		protected static RMethod r_MCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
+		public static RMethod RMCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean
 		{
 			get
 			{
-				if(r_CreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean == null)
+				if(r_MCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean == null)
 				{
-					r_CreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(UnityEngine.Font), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
-					r_CreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.SetBelong(null);
+					r_MCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(UnityEngine.Font), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
+					r_MCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.SetBelong(null);
 				}
-				return r_CreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
+				return r_MCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset CreateFontAssetInstance(UnityEngine.Font, Int32, UnityEngine.TextCore.LowLevel.GlyphRenderMode, Int32, Int32, UnityEngine.TextCore.Text.AtlasPopulationMode, Boolean)
 		/// </summary>
-		protected static RMethod r_CreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
-		public static RMethod RCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean
+		protected static RMethod r_MCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
+		public static RMethod RMCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean
 		{
 			get
 			{
-				if(r_CreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean == null)
+				if(r_MCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean == null)
 				{
-					r_CreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAssetInstance", 0, typeof(UnityEngine.Font), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
-					r_CreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.SetBelong(null);
+					r_MCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAssetInstance", 0, typeof(UnityEngine.Font), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
+					r_MCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.SetBelong(null);
 				}
-				return r_CreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
+				return r_MCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Awake()
 		/// </summary>
-		protected RMethod r_Awake;
-		public virtual RMethod RAwake
+		protected RMethod r_MAwake;
+		public virtual RMethod RMAwake
 		{
 			get
 			{
-				if(r_Awake == null)
+				if(r_MAwake == null)
 				{
-					r_Awake = new(this, "Awake", 0);
-					r_Awake.SetBelong(this.instance);
+					r_MAwake = new(this, "Awake", 0);
+					r_MAwake.SetBelong(this.instance);
 				}
-				return r_Awake;
+				return r_MAwake;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDestroy()
 		/// </summary>
-		protected RMethod r_OnDestroy;
-		public virtual RMethod ROnDestroy
+		protected RMethod r_MOnDestroy;
+		public virtual RMethod RMOnDestroy
 		{
 			get
 			{
-				if(r_OnDestroy == null)
+				if(r_MOnDestroy == null)
 				{
-					r_OnDestroy = new(this, "OnDestroy", 0);
-					r_OnDestroy.SetBelong(this.instance);
+					r_MOnDestroy = new(this, "OnDestroy", 0);
+					r_MOnDestroy.SetBelong(this.instance);
 				}
-				return r_OnDestroy;
+				return r_MOnDestroy;
 			}
 		}
 
 		/// <summary>
 		/// Void OnValidate()
 		/// </summary>
-		protected RMethod r_OnValidate;
-		public virtual RMethod ROnValidate
+		protected RMethod r_MOnValidate;
+		public virtual RMethod RMOnValidate
 		{
 			get
 			{
-				if(r_OnValidate == null)
+				if(r_MOnValidate == null)
 				{
-					r_OnValidate = new(this, "OnValidate", 0);
-					r_OnValidate.SetBelong(this.instance);
+					r_MOnValidate = new(this, "OnValidate", 0);
+					r_MOnValidate.SetBelong(this.instance);
 				}
-				return r_OnValidate;
+				return r_MOnValidate;
 			}
 		}
 
 		/// <summary>
 		/// Void ReadFontAssetDefinition()
 		/// </summary>
-		protected RMethod r_ReadFontAssetDefinition;
-		public virtual RMethod RReadFontAssetDefinition
+		protected RMethod r_MReadFontAssetDefinition;
+		public virtual RMethod RMReadFontAssetDefinition
 		{
 			get
 			{
-				if(r_ReadFontAssetDefinition == null)
+				if(r_MReadFontAssetDefinition == null)
 				{
-					r_ReadFontAssetDefinition = new(this, "ReadFontAssetDefinition", 0);
-					r_ReadFontAssetDefinition.SetBelong(this.instance);
+					r_MReadFontAssetDefinition = new(this, "ReadFontAssetDefinition", 0);
+					r_MReadFontAssetDefinition.SetBelong(this.instance);
 				}
-				return r_ReadFontAssetDefinition;
+				return r_MReadFontAssetDefinition;
 			}
 		}
 
 		/// <summary>
 		/// Void InitializeDictionaryLookupTables()
 		/// </summary>
-		protected RMethod r_InitializeDictionaryLookupTables;
-		public virtual RMethod RInitializeDictionaryLookupTables
+		protected RMethod r_MInitializeDictionaryLookupTables;
+		public virtual RMethod RMInitializeDictionaryLookupTables
 		{
 			get
 			{
-				if(r_InitializeDictionaryLookupTables == null)
+				if(r_MInitializeDictionaryLookupTables == null)
 				{
-					r_InitializeDictionaryLookupTables = new(this, "InitializeDictionaryLookupTables", 0);
-					r_InitializeDictionaryLookupTables.SetBelong(this.instance);
+					r_MInitializeDictionaryLookupTables = new(this, "InitializeDictionaryLookupTables", 0);
+					r_MInitializeDictionaryLookupTables.SetBelong(this.instance);
 				}
-				return r_InitializeDictionaryLookupTables;
+				return r_MInitializeDictionaryLookupTables;
 			}
 		}
 
 		/// <summary>
 		/// Void InitializeGlyphLookupDictionary()
 		/// </summary>
-		protected RMethod r_InitializeGlyphLookupDictionary;
-		public virtual RMethod RInitializeGlyphLookupDictionary
+		protected RMethod r_MInitializeGlyphLookupDictionary;
+		public virtual RMethod RMInitializeGlyphLookupDictionary
 		{
 			get
 			{
-				if(r_InitializeGlyphLookupDictionary == null)
+				if(r_MInitializeGlyphLookupDictionary == null)
 				{
-					r_InitializeGlyphLookupDictionary = new(this, "InitializeGlyphLookupDictionary", 0);
-					r_InitializeGlyphLookupDictionary.SetBelong(this.instance);
+					r_MInitializeGlyphLookupDictionary = new(this, "InitializeGlyphLookupDictionary", 0);
+					r_MInitializeGlyphLookupDictionary.SetBelong(this.instance);
 				}
-				return r_InitializeGlyphLookupDictionary;
+				return r_MInitializeGlyphLookupDictionary;
 			}
 		}
 
 		/// <summary>
 		/// Void InitializeCharacterLookupDictionary()
 		/// </summary>
-		protected RMethod r_InitializeCharacterLookupDictionary;
-		public virtual RMethod RInitializeCharacterLookupDictionary
+		protected RMethod r_MInitializeCharacterLookupDictionary;
+		public virtual RMethod RMInitializeCharacterLookupDictionary
 		{
 			get
 			{
-				if(r_InitializeCharacterLookupDictionary == null)
+				if(r_MInitializeCharacterLookupDictionary == null)
 				{
-					r_InitializeCharacterLookupDictionary = new(this, "InitializeCharacterLookupDictionary", 0);
-					r_InitializeCharacterLookupDictionary.SetBelong(this.instance);
+					r_MInitializeCharacterLookupDictionary = new(this, "InitializeCharacterLookupDictionary", 0);
+					r_MInitializeCharacterLookupDictionary.SetBelong(this.instance);
 				}
-				return r_InitializeCharacterLookupDictionary;
+				return r_MInitializeCharacterLookupDictionary;
 			}
 		}
 
 		/// <summary>
 		/// Void InitializeLigatureSubstitutionLookupDictionary()
 		/// </summary>
-		protected RMethod r_InitializeLigatureSubstitutionLookupDictionary;
-		public virtual RMethod RInitializeLigatureSubstitutionLookupDictionary
+		protected RMethod r_MInitializeLigatureSubstitutionLookupDictionary;
+		public virtual RMethod RMInitializeLigatureSubstitutionLookupDictionary
 		{
 			get
 			{
-				if(r_InitializeLigatureSubstitutionLookupDictionary == null)
+				if(r_MInitializeLigatureSubstitutionLookupDictionary == null)
 				{
-					r_InitializeLigatureSubstitutionLookupDictionary = new(this, "InitializeLigatureSubstitutionLookupDictionary", 0);
-					r_InitializeLigatureSubstitutionLookupDictionary.SetBelong(this.instance);
+					r_MInitializeLigatureSubstitutionLookupDictionary = new(this, "InitializeLigatureSubstitutionLookupDictionary", 0);
+					r_MInitializeLigatureSubstitutionLookupDictionary.SetBelong(this.instance);
 				}
-				return r_InitializeLigatureSubstitutionLookupDictionary;
+				return r_MInitializeLigatureSubstitutionLookupDictionary;
 			}
 		}
 
 		/// <summary>
 		/// Void InitializeGlyphPaidAdjustmentRecordsLookupDictionary()
 		/// </summary>
-		protected RMethod r_InitializeGlyphPaidAdjustmentRecordsLookupDictionary;
-		public virtual RMethod RInitializeGlyphPaidAdjustmentRecordsLookupDictionary
+		protected RMethod r_MInitializeGlyphPaidAdjustmentRecordsLookupDictionary;
+		public virtual RMethod RMInitializeGlyphPaidAdjustmentRecordsLookupDictionary
 		{
 			get
 			{
-				if(r_InitializeGlyphPaidAdjustmentRecordsLookupDictionary == null)
+				if(r_MInitializeGlyphPaidAdjustmentRecordsLookupDictionary == null)
 				{
-					r_InitializeGlyphPaidAdjustmentRecordsLookupDictionary = new(this, "InitializeGlyphPaidAdjustmentRecordsLookupDictionary", 0);
-					r_InitializeGlyphPaidAdjustmentRecordsLookupDictionary.SetBelong(this.instance);
+					r_MInitializeGlyphPaidAdjustmentRecordsLookupDictionary = new(this, "InitializeGlyphPaidAdjustmentRecordsLookupDictionary", 0);
+					r_MInitializeGlyphPaidAdjustmentRecordsLookupDictionary.SetBelong(this.instance);
 				}
-				return r_InitializeGlyphPaidAdjustmentRecordsLookupDictionary;
+				return r_MInitializeGlyphPaidAdjustmentRecordsLookupDictionary;
 			}
 		}
 
 		/// <summary>
 		/// Void InitializeMarkToBaseAdjustmentRecordsLookupDictionary()
 		/// </summary>
-		protected RMethod r_InitializeMarkToBaseAdjustmentRecordsLookupDictionary;
-		public virtual RMethod RInitializeMarkToBaseAdjustmentRecordsLookupDictionary
+		protected RMethod r_MInitializeMarkToBaseAdjustmentRecordsLookupDictionary;
+		public virtual RMethod RMInitializeMarkToBaseAdjustmentRecordsLookupDictionary
 		{
 			get
 			{
-				if(r_InitializeMarkToBaseAdjustmentRecordsLookupDictionary == null)
+				if(r_MInitializeMarkToBaseAdjustmentRecordsLookupDictionary == null)
 				{
-					r_InitializeMarkToBaseAdjustmentRecordsLookupDictionary = new(this, "InitializeMarkToBaseAdjustmentRecordsLookupDictionary", 0);
-					r_InitializeMarkToBaseAdjustmentRecordsLookupDictionary.SetBelong(this.instance);
+					r_MInitializeMarkToBaseAdjustmentRecordsLookupDictionary = new(this, "InitializeMarkToBaseAdjustmentRecordsLookupDictionary", 0);
+					r_MInitializeMarkToBaseAdjustmentRecordsLookupDictionary.SetBelong(this.instance);
 				}
-				return r_InitializeMarkToBaseAdjustmentRecordsLookupDictionary;
+				return r_MInitializeMarkToBaseAdjustmentRecordsLookupDictionary;
 			}
 		}
 
 		/// <summary>
 		/// Void InitializeMarkToMarkAdjustmentRecordsLookupDictionary()
 		/// </summary>
-		protected RMethod r_InitializeMarkToMarkAdjustmentRecordsLookupDictionary;
-		public virtual RMethod RInitializeMarkToMarkAdjustmentRecordsLookupDictionary
+		protected RMethod r_MInitializeMarkToMarkAdjustmentRecordsLookupDictionary;
+		public virtual RMethod RMInitializeMarkToMarkAdjustmentRecordsLookupDictionary
 		{
 			get
 			{
-				if(r_InitializeMarkToMarkAdjustmentRecordsLookupDictionary == null)
+				if(r_MInitializeMarkToMarkAdjustmentRecordsLookupDictionary == null)
 				{
-					r_InitializeMarkToMarkAdjustmentRecordsLookupDictionary = new(this, "InitializeMarkToMarkAdjustmentRecordsLookupDictionary", 0);
-					r_InitializeMarkToMarkAdjustmentRecordsLookupDictionary.SetBelong(this.instance);
+					r_MInitializeMarkToMarkAdjustmentRecordsLookupDictionary = new(this, "InitializeMarkToMarkAdjustmentRecordsLookupDictionary", 0);
+					r_MInitializeMarkToMarkAdjustmentRecordsLookupDictionary.SetBelong(this.instance);
 				}
-				return r_InitializeMarkToMarkAdjustmentRecordsLookupDictionary;
+				return r_MInitializeMarkToMarkAdjustmentRecordsLookupDictionary;
 			}
 		}
 
 		/// <summary>
 		/// Void AddSynthesizedCharactersAndFaceMetrics()
 		/// </summary>
-		protected RMethod r_AddSynthesizedCharactersAndFaceMetrics;
-		public virtual RMethod RAddSynthesizedCharactersAndFaceMetrics
+		protected RMethod r_MAddSynthesizedCharactersAndFaceMetrics;
+		public virtual RMethod RMAddSynthesizedCharactersAndFaceMetrics
 		{
 			get
 			{
-				if(r_AddSynthesizedCharactersAndFaceMetrics == null)
+				if(r_MAddSynthesizedCharactersAndFaceMetrics == null)
 				{
-					r_AddSynthesizedCharactersAndFaceMetrics = new(this, "AddSynthesizedCharactersAndFaceMetrics", 0);
-					r_AddSynthesizedCharactersAndFaceMetrics.SetBelong(this.instance);
+					r_MAddSynthesizedCharactersAndFaceMetrics = new(this, "AddSynthesizedCharactersAndFaceMetrics", 0);
+					r_MAddSynthesizedCharactersAndFaceMetrics.SetBelong(this.instance);
 				}
-				return r_AddSynthesizedCharactersAndFaceMetrics;
+				return r_MAddSynthesizedCharactersAndFaceMetrics;
 			}
 		}
 
 		/// <summary>
 		/// Void AddSynthesizedCharacter(UInt32, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_AddSynthesizedCharacter_UInt32_Boolean_Boolean;
-		public virtual RMethod RAddSynthesizedCharacter_UInt32_Boolean_Boolean
+		protected RMethod r_MAddSynthesizedCharacter_UInt32_Boolean_Boolean;
+		public virtual RMethod RMAddSynthesizedCharacter_UInt32_Boolean_Boolean
 		{
 			get
 			{
-				if(r_AddSynthesizedCharacter_UInt32_Boolean_Boolean == null)
+				if(r_MAddSynthesizedCharacter_UInt32_Boolean_Boolean == null)
 				{
-					r_AddSynthesizedCharacter_UInt32_Boolean_Boolean = new(this, "AddSynthesizedCharacter", 0, typeof(System.UInt32), typeof(System.Boolean), typeof(System.Boolean));
-					r_AddSynthesizedCharacter_UInt32_Boolean_Boolean.SetBelong(this.instance);
+					r_MAddSynthesizedCharacter_UInt32_Boolean_Boolean = new(this, "AddSynthesizedCharacter", 0, typeof(System.UInt32), typeof(System.Boolean), typeof(System.Boolean));
+					r_MAddSynthesizedCharacter_UInt32_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_AddSynthesizedCharacter_UInt32_Boolean_Boolean;
+				return r_MAddSynthesizedCharacter_UInt32_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void AddCharacterToLookupCache(UInt32, UnityEngine.TextCore.Text.Character)
 		/// </summary>
-		protected RMethod r_AddCharacterToLookupCache_UInt32_Character;
-		public virtual RMethod RAddCharacterToLookupCache_UInt32_Character
+		protected RMethod r_MAddCharacterToLookupCache_UInt32_Character;
+		public virtual RMethod RMAddCharacterToLookupCache_UInt32_Character
 		{
 			get
 			{
-				if(r_AddCharacterToLookupCache_UInt32_Character == null)
+				if(r_MAddCharacterToLookupCache_UInt32_Character == null)
 				{
-					r_AddCharacterToLookupCache_UInt32_Character = new(this, "AddCharacterToLookupCache", 0, typeof(System.UInt32), typeof(UnityEngine.TextCore.Text.Character));
-					r_AddCharacterToLookupCache_UInt32_Character.SetBelong(this.instance);
+					r_MAddCharacterToLookupCache_UInt32_Character = new(this, "AddCharacterToLookupCache", 0, typeof(System.UInt32), typeof(UnityEngine.TextCore.Text.Character));
+					r_MAddCharacterToLookupCache_UInt32_Character.SetBelong(this.instance);
 				}
-				return r_AddCharacterToLookupCache_UInt32_Character;
+				return r_MAddCharacterToLookupCache_UInt32_Character;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError LoadFontFace()
 		/// </summary>
-		protected RMethod r_LoadFontFace;
-		public virtual RMethod RLoadFontFace
+		protected RMethod r_MLoadFontFace;
+		public virtual RMethod RMLoadFontFace
 		{
 			get
 			{
-				if(r_LoadFontFace == null)
+				if(r_MLoadFontFace == null)
 				{
-					r_LoadFontFace = new(this, "LoadFontFace", 0);
-					r_LoadFontFace.SetBelong(this.instance);
+					r_MLoadFontFace = new(this, "LoadFontFace", 0);
+					r_MLoadFontFace.SetBelong(this.instance);
 				}
-				return r_LoadFontFace;
+				return r_MLoadFontFace;
 			}
 		}
 
 		/// <summary>
 		/// Void SortCharacterTable()
 		/// </summary>
-		protected RMethod r_SortCharacterTable;
-		public virtual RMethod RSortCharacterTable
+		protected RMethod r_MSortCharacterTable;
+		public virtual RMethod RMSortCharacterTable
 		{
 			get
 			{
-				if(r_SortCharacterTable == null)
+				if(r_MSortCharacterTable == null)
 				{
-					r_SortCharacterTable = new(this, "SortCharacterTable", 0);
-					r_SortCharacterTable.SetBelong(this.instance);
+					r_MSortCharacterTable = new(this, "SortCharacterTable", 0);
+					r_MSortCharacterTable.SetBelong(this.instance);
 				}
-				return r_SortCharacterTable;
+				return r_MSortCharacterTable;
 			}
 		}
 
 		/// <summary>
 		/// Void SortGlyphTable()
 		/// </summary>
-		protected RMethod r_SortGlyphTable;
-		public virtual RMethod RSortGlyphTable
+		protected RMethod r_MSortGlyphTable;
+		public virtual RMethod RMSortGlyphTable
 		{
 			get
 			{
-				if(r_SortGlyphTable == null)
+				if(r_MSortGlyphTable == null)
 				{
-					r_SortGlyphTable = new(this, "SortGlyphTable", 0);
-					r_SortGlyphTable.SetBelong(this.instance);
+					r_MSortGlyphTable = new(this, "SortGlyphTable", 0);
+					r_MSortGlyphTable.SetBelong(this.instance);
 				}
-				return r_SortGlyphTable;
+				return r_MSortGlyphTable;
 			}
 		}
 
 		/// <summary>
 		/// Void SortFontFeatureTable()
 		/// </summary>
-		protected RMethod r_SortFontFeatureTable;
-		public virtual RMethod RSortFontFeatureTable
+		protected RMethod r_MSortFontFeatureTable;
+		public virtual RMethod RMSortFontFeatureTable
 		{
 			get
 			{
-				if(r_SortFontFeatureTable == null)
+				if(r_MSortFontFeatureTable == null)
 				{
-					r_SortFontFeatureTable = new(this, "SortFontFeatureTable", 0);
-					r_SortFontFeatureTable.SetBelong(this.instance);
+					r_MSortFontFeatureTable = new(this, "SortFontFeatureTable", 0);
+					r_MSortFontFeatureTable.SetBelong(this.instance);
 				}
-				return r_SortFontFeatureTable;
+				return r_MSortFontFeatureTable;
 			}
 		}
 
 		/// <summary>
 		/// Void SortAllTables()
 		/// </summary>
-		protected RMethod r_SortAllTables;
-		public virtual RMethod RSortAllTables
+		protected RMethod r_MSortAllTables;
+		public virtual RMethod RMSortAllTables
 		{
 			get
 			{
-				if(r_SortAllTables == null)
+				if(r_MSortAllTables == null)
 				{
-					r_SortAllTables = new(this, "SortAllTables", 0);
-					r_SortAllTables.SetBelong(this.instance);
+					r_MSortAllTables = new(this, "SortAllTables", 0);
+					r_MSortAllTables.SetBelong(this.instance);
 				}
-				return r_SortAllTables;
+				return r_MSortAllTables;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasCharacter(Int32)
 		/// </summary>
-		protected RMethod r_HasCharacter_Int32;
-		public virtual RMethod RHasCharacter_Int32
+		protected RMethod r_MHasCharacter_Int32;
+		public virtual RMethod RMHasCharacter_Int32
 		{
 			get
 			{
-				if(r_HasCharacter_Int32 == null)
+				if(r_MHasCharacter_Int32 == null)
 				{
-					r_HasCharacter_Int32 = new(this, "HasCharacter", 0, typeof(System.Int32));
-					r_HasCharacter_Int32.SetBelong(this.instance);
+					r_MHasCharacter_Int32 = new(this, "HasCharacter", 0, typeof(System.Int32));
+					r_MHasCharacter_Int32.SetBelong(this.instance);
 				}
-				return r_HasCharacter_Int32;
+				return r_MHasCharacter_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasCharacter(Char, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_HasCharacter_Char_Boolean_Boolean;
-		public virtual RMethod RHasCharacter_Char_Boolean_Boolean
+		protected RMethod r_MHasCharacter_Char_Boolean_Boolean;
+		public virtual RMethod RMHasCharacter_Char_Boolean_Boolean
 		{
 			get
 			{
-				if(r_HasCharacter_Char_Boolean_Boolean == null)
+				if(r_MHasCharacter_Char_Boolean_Boolean == null)
 				{
-					r_HasCharacter_Char_Boolean_Boolean = new(this, "HasCharacter", 0, typeof(System.Char), typeof(System.Boolean), typeof(System.Boolean));
-					r_HasCharacter_Char_Boolean_Boolean.SetBelong(this.instance);
+					r_MHasCharacter_Char_Boolean_Boolean = new(this, "HasCharacter", 0, typeof(System.Char), typeof(System.Boolean), typeof(System.Boolean));
+					r_MHasCharacter_Char_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_HasCharacter_Char_Boolean_Boolean;
+				return r_MHasCharacter_Char_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasCharacter_Internal(UInt32, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_HasCharacter_Internal_UInt32_Boolean_Boolean;
-		public virtual RMethod RHasCharacter_Internal_UInt32_Boolean_Boolean
+		protected RMethod r_MHasCharacter_Internal_UInt32_Boolean_Boolean;
+		public virtual RMethod RMHasCharacter_Internal_UInt32_Boolean_Boolean
 		{
 			get
 			{
-				if(r_HasCharacter_Internal_UInt32_Boolean_Boolean == null)
+				if(r_MHasCharacter_Internal_UInt32_Boolean_Boolean == null)
 				{
-					r_HasCharacter_Internal_UInt32_Boolean_Boolean = new(this, "HasCharacter_Internal", 0, typeof(System.UInt32), typeof(System.Boolean), typeof(System.Boolean));
-					r_HasCharacter_Internal_UInt32_Boolean_Boolean.SetBelong(this.instance);
+					r_MHasCharacter_Internal_UInt32_Boolean_Boolean = new(this, "HasCharacter_Internal", 0, typeof(System.UInt32), typeof(System.Boolean), typeof(System.Boolean));
+					r_MHasCharacter_Internal_UInt32_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_HasCharacter_Internal_UInt32_Boolean_Boolean;
+				return r_MHasCharacter_Internal_UInt32_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasCharacters(System.String, System.Collections.Generic.List`1[System.Char] ByRef)
 		/// </summary>
-		protected RMethod r_HasCharacters_String_Out_List_d_Char_p_;
-		public virtual RMethod RHasCharacters_String_Out_List_d_Char_p_
+		protected RMethod r_MHasCharacters_String_Out_List_d_Char_p_;
+		public virtual RMethod RMHasCharacters_String_Out_List_d_Char_p_
 		{
 			get
 			{
-				if(r_HasCharacters_String_Out_List_d_Char_p_ == null)
+				if(r_MHasCharacters_String_Out_List_d_Char_p_ == null)
 				{
-					r_HasCharacters_String_Out_List_d_Char_p_ = new(this, "HasCharacters", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Char)).MakeByRefType());
-					r_HasCharacters_String_Out_List_d_Char_p_.SetBelong(this.instance);
+					r_MHasCharacters_String_Out_List_d_Char_p_ = new(this, "HasCharacters", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Char)).MakeByRefType());
+					r_MHasCharacters_String_Out_List_d_Char_p_.SetBelong(this.instance);
 				}
-				return r_HasCharacters_String_Out_List_d_Char_p_;
+				return r_MHasCharacters_String_Out_List_d_Char_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasCharacters(System.String, UInt32[] ByRef, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_HasCharacters_String_Out_UInt32Array_Boolean_Boolean;
-		public virtual RMethod RHasCharacters_String_Out_UInt32Array_Boolean_Boolean
+		protected RMethod r_MHasCharacters_String_Out_UInt32Array_Boolean_Boolean;
+		public virtual RMethod RMHasCharacters_String_Out_UInt32Array_Boolean_Boolean
 		{
 			get
 			{
-				if(r_HasCharacters_String_Out_UInt32Array_Boolean_Boolean == null)
+				if(r_MHasCharacters_String_Out_UInt32Array_Boolean_Boolean == null)
 				{
-					r_HasCharacters_String_Out_UInt32Array_Boolean_Boolean = new(this, "HasCharacters", 0, typeof(System.String), typeof(System.UInt32).MakeArrayType().MakeByRefType(), typeof(System.Boolean), typeof(System.Boolean));
-					r_HasCharacters_String_Out_UInt32Array_Boolean_Boolean.SetBelong(this.instance);
+					r_MHasCharacters_String_Out_UInt32Array_Boolean_Boolean = new(this, "HasCharacters", 0, typeof(System.String), typeof(System.UInt32).MakeArrayType().MakeByRefType(), typeof(System.Boolean), typeof(System.Boolean));
+					r_MHasCharacters_String_Out_UInt32Array_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_HasCharacters_String_Out_UInt32Array_Boolean_Boolean;
+				return r_MHasCharacters_String_Out_UInt32Array_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasCharacters(System.String)
 		/// </summary>
-		protected RMethod r_HasCharacters_String;
-		public virtual RMethod RHasCharacters_String
+		protected RMethod r_MHasCharacters_String;
+		public virtual RMethod RMHasCharacters_String
 		{
 			get
 			{
-				if(r_HasCharacters_String == null)
+				if(r_MHasCharacters_String == null)
 				{
-					r_HasCharacters_String = new(this, "HasCharacters", 0, typeof(System.String));
-					r_HasCharacters_String.SetBelong(this.instance);
+					r_MHasCharacters_String = new(this, "HasCharacters", 0, typeof(System.String));
+					r_MHasCharacters_String.SetBelong(this.instance);
 				}
-				return r_HasCharacters_String;
+				return r_MHasCharacters_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetCharacters(UnityEngine.TextCore.Text.FontAsset)
 		/// </summary>
-		protected static RMethod r_GetCharacters_FontAsset;
-		public static RMethod RGetCharacters_FontAsset
+		protected static RMethod r_MGetCharacters_FontAsset;
+		public static RMethod RMGetCharacters_FontAsset
 		{
 			get
 			{
-				if(r_GetCharacters_FontAsset == null)
+				if(r_MGetCharacters_FontAsset == null)
 				{
-					r_GetCharacters_FontAsset = new(typeof(UnityEngine.TextCore.Text.FontAsset), "GetCharacters", 0, typeof(UnityEngine.TextCore.Text.FontAsset));
-					r_GetCharacters_FontAsset.SetBelong(null);
+					r_MGetCharacters_FontAsset = new(typeof(UnityEngine.TextCore.Text.FontAsset), "GetCharacters", 0, typeof(UnityEngine.TextCore.Text.FontAsset));
+					r_MGetCharacters_FontAsset.SetBelong(null);
 				}
-				return r_GetCharacters_FontAsset;
+				return r_MGetCharacters_FontAsset;
 			}
 		}
 
 		/// <summary>
 		/// Int32[] GetCharactersArray(UnityEngine.TextCore.Text.FontAsset)
 		/// </summary>
-		protected static RMethod r_GetCharactersArray_FontAsset;
-		public static RMethod RGetCharactersArray_FontAsset
+		protected static RMethod r_MGetCharactersArray_FontAsset;
+		public static RMethod RMGetCharactersArray_FontAsset
 		{
 			get
 			{
-				if(r_GetCharactersArray_FontAsset == null)
+				if(r_MGetCharactersArray_FontAsset == null)
 				{
-					r_GetCharactersArray_FontAsset = new(typeof(UnityEngine.TextCore.Text.FontAsset), "GetCharactersArray", 0, typeof(UnityEngine.TextCore.Text.FontAsset));
-					r_GetCharactersArray_FontAsset.SetBelong(null);
+					r_MGetCharactersArray_FontAsset = new(typeof(UnityEngine.TextCore.Text.FontAsset), "GetCharactersArray", 0, typeof(UnityEngine.TextCore.Text.FontAsset));
+					r_MGetCharactersArray_FontAsset.SetBelong(null);
 				}
-				return r_GetCharactersArray_FontAsset;
+				return r_MGetCharactersArray_FontAsset;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetGlyphIndex(UInt32)
 		/// </summary>
-		protected RMethod r_GetGlyphIndex_UInt32;
-		public virtual RMethod RGetGlyphIndex_UInt32
+		protected RMethod r_MGetGlyphIndex_UInt32;
+		public virtual RMethod RMGetGlyphIndex_UInt32
 		{
 			get
 			{
-				if(r_GetGlyphIndex_UInt32 == null)
+				if(r_MGetGlyphIndex_UInt32 == null)
 				{
-					r_GetGlyphIndex_UInt32 = new(this, "GetGlyphIndex", 0, typeof(System.UInt32));
-					r_GetGlyphIndex_UInt32.SetBelong(this.instance);
+					r_MGetGlyphIndex_UInt32 = new(this, "GetGlyphIndex", 0, typeof(System.UInt32));
+					r_MGetGlyphIndex_UInt32.SetBelong(this.instance);
 				}
-				return r_GetGlyphIndex_UInt32;
+				return r_MGetGlyphIndex_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterFontAssetForFontFeatureUpdate(UnityEngine.TextCore.Text.FontAsset)
 		/// </summary>
-		protected static RMethod r_RegisterFontAssetForFontFeatureUpdate_FontAsset;
-		public static RMethod RRegisterFontAssetForFontFeatureUpdate_FontAsset
+		protected static RMethod r_MRegisterFontAssetForFontFeatureUpdate_FontAsset;
+		public static RMethod RMRegisterFontAssetForFontFeatureUpdate_FontAsset
 		{
 			get
 			{
-				if(r_RegisterFontAssetForFontFeatureUpdate_FontAsset == null)
+				if(r_MRegisterFontAssetForFontFeatureUpdate_FontAsset == null)
 				{
-					r_RegisterFontAssetForFontFeatureUpdate_FontAsset = new(typeof(UnityEngine.TextCore.Text.FontAsset), "RegisterFontAssetForFontFeatureUpdate", 0, typeof(UnityEngine.TextCore.Text.FontAsset));
-					r_RegisterFontAssetForFontFeatureUpdate_FontAsset.SetBelong(null);
+					r_MRegisterFontAssetForFontFeatureUpdate_FontAsset = new(typeof(UnityEngine.TextCore.Text.FontAsset), "RegisterFontAssetForFontFeatureUpdate", 0, typeof(UnityEngine.TextCore.Text.FontAsset));
+					r_MRegisterFontAssetForFontFeatureUpdate_FontAsset.SetBelong(null);
 				}
-				return r_RegisterFontAssetForFontFeatureUpdate_FontAsset;
+				return r_MRegisterFontAssetForFontFeatureUpdate_FontAsset;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateFontFeaturesForFontAssetsInQueue()
 		/// </summary>
-		protected static RMethod r_UpdateFontFeaturesForFontAssetsInQueue;
-		public static RMethod RUpdateFontFeaturesForFontAssetsInQueue
+		protected static RMethod r_MUpdateFontFeaturesForFontAssetsInQueue;
+		public static RMethod RMUpdateFontFeaturesForFontAssetsInQueue
 		{
 			get
 			{
-				if(r_UpdateFontFeaturesForFontAssetsInQueue == null)
+				if(r_MUpdateFontFeaturesForFontAssetsInQueue == null)
 				{
-					r_UpdateFontFeaturesForFontAssetsInQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "UpdateFontFeaturesForFontAssetsInQueue", 0);
-					r_UpdateFontFeaturesForFontAssetsInQueue.SetBelong(null);
+					r_MUpdateFontFeaturesForFontAssetsInQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "UpdateFontFeaturesForFontAssetsInQueue", 0);
+					r_MUpdateFontFeaturesForFontAssetsInQueue.SetBelong(null);
 				}
-				return r_UpdateFontFeaturesForFontAssetsInQueue;
+				return r_MUpdateFontFeaturesForFontAssetsInQueue;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterAtlasTextureForApply(UnityEngine.Texture2D)
 		/// </summary>
-		protected static RMethod r_RegisterAtlasTextureForApply_Texture2D;
-		public static RMethod RRegisterAtlasTextureForApply_Texture2D
+		protected static RMethod r_MRegisterAtlasTextureForApply_Texture2D;
+		public static RMethod RMRegisterAtlasTextureForApply_Texture2D
 		{
 			get
 			{
-				if(r_RegisterAtlasTextureForApply_Texture2D == null)
+				if(r_MRegisterAtlasTextureForApply_Texture2D == null)
 				{
-					r_RegisterAtlasTextureForApply_Texture2D = new(typeof(UnityEngine.TextCore.Text.FontAsset), "RegisterAtlasTextureForApply", 0, typeof(UnityEngine.Texture2D));
-					r_RegisterAtlasTextureForApply_Texture2D.SetBelong(null);
+					r_MRegisterAtlasTextureForApply_Texture2D = new(typeof(UnityEngine.TextCore.Text.FontAsset), "RegisterAtlasTextureForApply", 0, typeof(UnityEngine.Texture2D));
+					r_MRegisterAtlasTextureForApply_Texture2D.SetBelong(null);
 				}
-				return r_RegisterAtlasTextureForApply_Texture2D;
+				return r_MRegisterAtlasTextureForApply_Texture2D;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateAtlasTexturesInQueue()
 		/// </summary>
-		protected static RMethod r_UpdateAtlasTexturesInQueue;
-		public static RMethod RUpdateAtlasTexturesInQueue
+		protected static RMethod r_MUpdateAtlasTexturesInQueue;
+		public static RMethod RMUpdateAtlasTexturesInQueue
 		{
 			get
 			{
-				if(r_UpdateAtlasTexturesInQueue == null)
+				if(r_MUpdateAtlasTexturesInQueue == null)
 				{
-					r_UpdateAtlasTexturesInQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "UpdateAtlasTexturesInQueue", 0);
-					r_UpdateAtlasTexturesInQueue.SetBelong(null);
+					r_MUpdateAtlasTexturesInQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "UpdateAtlasTexturesInQueue", 0);
+					r_MUpdateAtlasTexturesInQueue.SetBelong(null);
 				}
-				return r_UpdateAtlasTexturesInQueue;
+				return r_MUpdateAtlasTexturesInQueue;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateFontAssetsInUpdateQueue()
 		/// </summary>
-		protected static RMethod r_UpdateFontAssetsInUpdateQueue;
-		public static RMethod RUpdateFontAssetsInUpdateQueue
+		protected static RMethod r_MUpdateFontAssetsInUpdateQueue;
+		public static RMethod RMUpdateFontAssetsInUpdateQueue
 		{
 			get
 			{
-				if(r_UpdateFontAssetsInUpdateQueue == null)
+				if(r_MUpdateFontAssetsInUpdateQueue == null)
 				{
-					r_UpdateFontAssetsInUpdateQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "UpdateFontAssetsInUpdateQueue", 0);
-					r_UpdateFontAssetsInUpdateQueue.SetBelong(null);
+					r_MUpdateFontAssetsInUpdateQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "UpdateFontAssetsInUpdateQueue", 0);
+					r_MUpdateFontAssetsInUpdateQueue.SetBelong(null);
 				}
-				return r_UpdateFontAssetsInUpdateQueue;
+				return r_MUpdateFontAssetsInUpdateQueue;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryAddCharacters(UInt32[], Boolean)
 		/// </summary>
-		protected RMethod r_TryAddCharacters_UInt32Array_Boolean;
-		public virtual RMethod RTryAddCharacters_UInt32Array_Boolean
+		protected RMethod r_MTryAddCharacters_UInt32Array_Boolean;
+		public virtual RMethod RMTryAddCharacters_UInt32Array_Boolean
 		{
 			get
 			{
-				if(r_TryAddCharacters_UInt32Array_Boolean == null)
+				if(r_MTryAddCharacters_UInt32Array_Boolean == null)
 				{
-					r_TryAddCharacters_UInt32Array_Boolean = new(this, "TryAddCharacters", 0, typeof(System.UInt32).MakeArrayType(), typeof(System.Boolean));
-					r_TryAddCharacters_UInt32Array_Boolean.SetBelong(this.instance);
+					r_MTryAddCharacters_UInt32Array_Boolean = new(this, "TryAddCharacters", 0, typeof(System.UInt32).MakeArrayType(), typeof(System.Boolean));
+					r_MTryAddCharacters_UInt32Array_Boolean.SetBelong(this.instance);
 				}
-				return r_TryAddCharacters_UInt32Array_Boolean;
+				return r_MTryAddCharacters_UInt32Array_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryAddCharacters(UInt32[], UInt32[] ByRef, Boolean)
 		/// </summary>
-		protected RMethod r_TryAddCharacters_UInt32Array_Out_UInt32Array_Boolean;
-		public virtual RMethod RTryAddCharacters_UInt32Array_Out_UInt32Array_Boolean
+		protected RMethod r_MTryAddCharacters_UInt32Array_Out_UInt32Array_Boolean;
+		public virtual RMethod RMTryAddCharacters_UInt32Array_Out_UInt32Array_Boolean
 		{
 			get
 			{
-				if(r_TryAddCharacters_UInt32Array_Out_UInt32Array_Boolean == null)
+				if(r_MTryAddCharacters_UInt32Array_Out_UInt32Array_Boolean == null)
 				{
-					r_TryAddCharacters_UInt32Array_Out_UInt32Array_Boolean = new(this, "TryAddCharacters", 0, typeof(System.UInt32).MakeArrayType(), typeof(System.UInt32).MakeArrayType().MakeByRefType(), typeof(System.Boolean));
-					r_TryAddCharacters_UInt32Array_Out_UInt32Array_Boolean.SetBelong(this.instance);
+					r_MTryAddCharacters_UInt32Array_Out_UInt32Array_Boolean = new(this, "TryAddCharacters", 0, typeof(System.UInt32).MakeArrayType(), typeof(System.UInt32).MakeArrayType().MakeByRefType(), typeof(System.Boolean));
+					r_MTryAddCharacters_UInt32Array_Out_UInt32Array_Boolean.SetBelong(this.instance);
 				}
-				return r_TryAddCharacters_UInt32Array_Out_UInt32Array_Boolean;
+				return r_MTryAddCharacters_UInt32Array_Out_UInt32Array_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryAddCharacters(System.String, Boolean)
 		/// </summary>
-		protected RMethod r_TryAddCharacters_String_Boolean;
-		public virtual RMethod RTryAddCharacters_String_Boolean
+		protected RMethod r_MTryAddCharacters_String_Boolean;
+		public virtual RMethod RMTryAddCharacters_String_Boolean
 		{
 			get
 			{
-				if(r_TryAddCharacters_String_Boolean == null)
+				if(r_MTryAddCharacters_String_Boolean == null)
 				{
-					r_TryAddCharacters_String_Boolean = new(this, "TryAddCharacters", 0, typeof(System.String), typeof(System.Boolean));
-					r_TryAddCharacters_String_Boolean.SetBelong(this.instance);
+					r_MTryAddCharacters_String_Boolean = new(this, "TryAddCharacters", 0, typeof(System.String), typeof(System.Boolean));
+					r_MTryAddCharacters_String_Boolean.SetBelong(this.instance);
 				}
-				return r_TryAddCharacters_String_Boolean;
+				return r_MTryAddCharacters_String_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryAddCharacters(System.String, System.String ByRef, Boolean)
 		/// </summary>
-		protected RMethod r_TryAddCharacters_String_Out_String_Boolean;
-		public virtual RMethod RTryAddCharacters_String_Out_String_Boolean
+		protected RMethod r_MTryAddCharacters_String_Out_String_Boolean;
+		public virtual RMethod RMTryAddCharacters_String_Out_String_Boolean
 		{
 			get
 			{
-				if(r_TryAddCharacters_String_Out_String_Boolean == null)
+				if(r_MTryAddCharacters_String_Out_String_Boolean == null)
 				{
-					r_TryAddCharacters_String_Out_String_Boolean = new(this, "TryAddCharacters", 0, typeof(System.String), typeof(System.String).MakeByRefType(), typeof(System.Boolean));
-					r_TryAddCharacters_String_Out_String_Boolean.SetBelong(this.instance);
+					r_MTryAddCharacters_String_Out_String_Boolean = new(this, "TryAddCharacters", 0, typeof(System.String), typeof(System.String).MakeByRefType(), typeof(System.Boolean));
+					r_MTryAddCharacters_String_Out_String_Boolean.SetBelong(this.instance);
 				}
-				return r_TryAddCharacters_String_Out_String_Boolean;
+				return r_MTryAddCharacters_String_Out_String_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryAddGlyphInternal(UInt32, UnityEngine.TextCore.Glyph ByRef)
 		/// </summary>
-		protected RMethod r_TryAddGlyphInternal_UInt32_Out_Glyph;
-		public virtual RMethod RTryAddGlyphInternal_UInt32_Out_Glyph
+		protected RMethod r_MTryAddGlyphInternal_UInt32_Out_Glyph;
+		public virtual RMethod RMTryAddGlyphInternal_UInt32_Out_Glyph
 		{
 			get
 			{
-				if(r_TryAddGlyphInternal_UInt32_Out_Glyph == null)
+				if(r_MTryAddGlyphInternal_UInt32_Out_Glyph == null)
 				{
-					r_TryAddGlyphInternal_UInt32_Out_Glyph = new(this, "TryAddGlyphInternal", 0, typeof(System.UInt32), typeof(UnityEngine.TextCore.Glyph).MakeByRefType());
-					r_TryAddGlyphInternal_UInt32_Out_Glyph.SetBelong(this.instance);
+					r_MTryAddGlyphInternal_UInt32_Out_Glyph = new(this, "TryAddGlyphInternal", 0, typeof(System.UInt32), typeof(UnityEngine.TextCore.Glyph).MakeByRefType());
+					r_MTryAddGlyphInternal_UInt32_Out_Glyph.SetBelong(this.instance);
 				}
-				return r_TryAddGlyphInternal_UInt32_Out_Glyph;
+				return r_MTryAddGlyphInternal_UInt32_Out_Glyph;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryAddCharacterInternal(UInt32, UnityEngine.TextCore.Text.Character ByRef, Boolean)
 		/// </summary>
-		protected RMethod r_TryAddCharacterInternal_UInt32_Out_Character_Boolean;
-		public virtual RMethod RTryAddCharacterInternal_UInt32_Out_Character_Boolean
+		protected RMethod r_MTryAddCharacterInternal_UInt32_Out_Character_Boolean;
+		public virtual RMethod RMTryAddCharacterInternal_UInt32_Out_Character_Boolean
 		{
 			get
 			{
-				if(r_TryAddCharacterInternal_UInt32_Out_Character_Boolean == null)
+				if(r_MTryAddCharacterInternal_UInt32_Out_Character_Boolean == null)
 				{
-					r_TryAddCharacterInternal_UInt32_Out_Character_Boolean = new(this, "TryAddCharacterInternal", 0, typeof(System.UInt32), typeof(UnityEngine.TextCore.Text.Character).MakeByRefType(), typeof(System.Boolean));
-					r_TryAddCharacterInternal_UInt32_Out_Character_Boolean.SetBelong(this.instance);
+					r_MTryAddCharacterInternal_UInt32_Out_Character_Boolean = new(this, "TryAddCharacterInternal", 0, typeof(System.UInt32), typeof(UnityEngine.TextCore.Text.Character).MakeByRefType(), typeof(System.Boolean));
+					r_MTryAddCharacterInternal_UInt32_Out_Character_Boolean.SetBelong(this.instance);
 				}
-				return r_TryAddCharacterInternal_UInt32_Out_Character_Boolean;
+				return r_MTryAddCharacterInternal_UInt32_Out_Character_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetCharacter_and_QueueRenderToTexture(UInt32, UnityEngine.TextCore.Text.Character ByRef, Boolean)
 		/// </summary>
-		protected RMethod r_TryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean;
-		public virtual RMethod RTryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean
+		protected RMethod r_MTryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean;
+		public virtual RMethod RMTryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean
 		{
 			get
 			{
-				if(r_TryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean == null)
+				if(r_MTryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean == null)
 				{
-					r_TryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean = new(this, "TryGetCharacter_and_QueueRenderToTexture", 0, typeof(System.UInt32), typeof(UnityEngine.TextCore.Text.Character).MakeByRefType(), typeof(System.Boolean));
-					r_TryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean.SetBelong(this.instance);
+					r_MTryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean = new(this, "TryGetCharacter_and_QueueRenderToTexture", 0, typeof(System.UInt32), typeof(UnityEngine.TextCore.Text.Character).MakeByRefType(), typeof(System.Boolean));
+					r_MTryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean.SetBelong(this.instance);
 				}
-				return r_TryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean;
+				return r_MTryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void TryAddGlyphsToAtlasTextures()
 		/// </summary>
-		protected RMethod r_TryAddGlyphsToAtlasTextures;
-		public virtual RMethod RTryAddGlyphsToAtlasTextures
+		protected RMethod r_MTryAddGlyphsToAtlasTextures;
+		public virtual RMethod RMTryAddGlyphsToAtlasTextures
 		{
 			get
 			{
-				if(r_TryAddGlyphsToAtlasTextures == null)
+				if(r_MTryAddGlyphsToAtlasTextures == null)
 				{
-					r_TryAddGlyphsToAtlasTextures = new(this, "TryAddGlyphsToAtlasTextures", 0);
-					r_TryAddGlyphsToAtlasTextures.SetBelong(this.instance);
+					r_MTryAddGlyphsToAtlasTextures = new(this, "TryAddGlyphsToAtlasTextures", 0);
+					r_MTryAddGlyphsToAtlasTextures.SetBelong(this.instance);
 				}
-				return r_TryAddGlyphsToAtlasTextures;
+				return r_MTryAddGlyphsToAtlasTextures;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryAddGlyphsToNewAtlasTexture()
 		/// </summary>
-		protected RMethod r_TryAddGlyphsToNewAtlasTexture;
-		public virtual RMethod RTryAddGlyphsToNewAtlasTexture
+		protected RMethod r_MTryAddGlyphsToNewAtlasTexture;
+		public virtual RMethod RMTryAddGlyphsToNewAtlasTexture
 		{
 			get
 			{
-				if(r_TryAddGlyphsToNewAtlasTexture == null)
+				if(r_MTryAddGlyphsToNewAtlasTexture == null)
 				{
-					r_TryAddGlyphsToNewAtlasTexture = new(this, "TryAddGlyphsToNewAtlasTexture", 0);
-					r_TryAddGlyphsToNewAtlasTexture.SetBelong(this.instance);
+					r_MTryAddGlyphsToNewAtlasTexture = new(this, "TryAddGlyphsToNewAtlasTexture", 0);
+					r_MTryAddGlyphsToNewAtlasTexture.SetBelong(this.instance);
 				}
-				return r_TryAddGlyphsToNewAtlasTexture;
+				return r_MTryAddGlyphsToNewAtlasTexture;
 			}
 		}
 
 		/// <summary>
 		/// Void SetupNewAtlasTexture()
 		/// </summary>
-		protected RMethod r_SetupNewAtlasTexture;
-		public virtual RMethod RSetupNewAtlasTexture
+		protected RMethod r_MSetupNewAtlasTexture;
+		public virtual RMethod RMSetupNewAtlasTexture
 		{
 			get
 			{
-				if(r_SetupNewAtlasTexture == null)
+				if(r_MSetupNewAtlasTexture == null)
 				{
-					r_SetupNewAtlasTexture = new(this, "SetupNewAtlasTexture", 0);
-					r_SetupNewAtlasTexture.SetBelong(this.instance);
+					r_MSetupNewAtlasTexture = new(this, "SetupNewAtlasTexture", 0);
+					r_MSetupNewAtlasTexture.SetBelong(this.instance);
 				}
-				return r_SetupNewAtlasTexture;
+				return r_MSetupNewAtlasTexture;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateAllFontFeatures()
 		/// </summary>
-		protected RMethod r_UpdateAllFontFeatures;
-		public virtual RMethod RUpdateAllFontFeatures
+		protected RMethod r_MUpdateAllFontFeatures;
+		public virtual RMethod RMUpdateAllFontFeatures
 		{
 			get
 			{
-				if(r_UpdateAllFontFeatures == null)
+				if(r_MUpdateAllFontFeatures == null)
 				{
-					r_UpdateAllFontFeatures = new(this, "UpdateAllFontFeatures", 0);
-					r_UpdateAllFontFeatures.SetBelong(this.instance);
+					r_MUpdateAllFontFeatures = new(this, "UpdateAllFontFeatures", 0);
+					r_MUpdateAllFontFeatures.SetBelong(this.instance);
 				}
-				return r_UpdateAllFontFeatures;
+				return r_MUpdateAllFontFeatures;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateGlyphAdjustmentRecords()
 		/// </summary>
-		protected RMethod r_UpdateGlyphAdjustmentRecords;
-		public virtual RMethod RUpdateGlyphAdjustmentRecords
+		protected RMethod r_MUpdateGlyphAdjustmentRecords;
+		public virtual RMethod RMUpdateGlyphAdjustmentRecords
 		{
 			get
 			{
-				if(r_UpdateGlyphAdjustmentRecords == null)
+				if(r_MUpdateGlyphAdjustmentRecords == null)
 				{
-					r_UpdateGlyphAdjustmentRecords = new(this, "UpdateGlyphAdjustmentRecords", 0);
-					r_UpdateGlyphAdjustmentRecords.SetBelong(this.instance);
+					r_MUpdateGlyphAdjustmentRecords = new(this, "UpdateGlyphAdjustmentRecords", 0);
+					r_MUpdateGlyphAdjustmentRecords.SetBelong(this.instance);
 				}
-				return r_UpdateGlyphAdjustmentRecords;
+				return r_MUpdateGlyphAdjustmentRecords;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateGlyphAdjustmentRecords(UInt32[])
 		/// </summary>
-		protected RMethod r_UpdateGlyphAdjustmentRecords_UInt32Array;
-		public virtual RMethod RUpdateGlyphAdjustmentRecords_UInt32Array
+		protected RMethod r_MUpdateGlyphAdjustmentRecords_UInt32Array;
+		public virtual RMethod RMUpdateGlyphAdjustmentRecords_UInt32Array
 		{
 			get
 			{
-				if(r_UpdateGlyphAdjustmentRecords_UInt32Array == null)
+				if(r_MUpdateGlyphAdjustmentRecords_UInt32Array == null)
 				{
-					r_UpdateGlyphAdjustmentRecords_UInt32Array = new(this, "UpdateGlyphAdjustmentRecords", 0, typeof(System.UInt32).MakeArrayType());
-					r_UpdateGlyphAdjustmentRecords_UInt32Array.SetBelong(this.instance);
+					r_MUpdateGlyphAdjustmentRecords_UInt32Array = new(this, "UpdateGlyphAdjustmentRecords", 0, typeof(System.UInt32).MakeArrayType());
+					r_MUpdateGlyphAdjustmentRecords_UInt32Array.SetBelong(this.instance);
 				}
-				return r_UpdateGlyphAdjustmentRecords_UInt32Array;
+				return r_MUpdateGlyphAdjustmentRecords_UInt32Array;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateGlyphAdjustmentRecords(System.Collections.Generic.List`1[System.UInt32])
 		/// </summary>
-		protected RMethod r_UpdateGlyphAdjustmentRecords_List_d_UInt32_p_;
-		public virtual RMethod RUpdateGlyphAdjustmentRecords_List_d_UInt32_p_
+		protected RMethod r_MUpdateGlyphAdjustmentRecords_List_d_UInt32_p_;
+		public virtual RMethod RMUpdateGlyphAdjustmentRecords_List_d_UInt32_p_
 		{
 			get
 			{
-				if(r_UpdateGlyphAdjustmentRecords_List_d_UInt32_p_ == null)
+				if(r_MUpdateGlyphAdjustmentRecords_List_d_UInt32_p_ == null)
 				{
-					r_UpdateGlyphAdjustmentRecords_List_d_UInt32_p_ = new(this, "UpdateGlyphAdjustmentRecords", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt32)));
-					r_UpdateGlyphAdjustmentRecords_List_d_UInt32_p_.SetBelong(this.instance);
+					r_MUpdateGlyphAdjustmentRecords_List_d_UInt32_p_ = new(this, "UpdateGlyphAdjustmentRecords", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt32)));
+					r_MUpdateGlyphAdjustmentRecords_List_d_UInt32_p_.SetBelong(this.instance);
 				}
-				return r_UpdateGlyphAdjustmentRecords_List_d_UInt32_p_;
+				return r_MUpdateGlyphAdjustmentRecords_List_d_UInt32_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateGlyphAdjustmentRecords(System.Collections.Generic.List`1[System.UInt32], System.Collections.Generic.List`1[System.UInt32])
 		/// </summary>
-		protected RMethod r_UpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_;
-		public virtual RMethod RUpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_
+		protected RMethod r_MUpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_;
+		public virtual RMethod RMUpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_
 		{
 			get
 			{
-				if(r_UpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_ == null)
+				if(r_MUpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_ == null)
 				{
-					r_UpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_ = new(this, "UpdateGlyphAdjustmentRecords", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt32)), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt32)));
-					r_UpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_.SetBelong(this.instance);
+					r_MUpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_ = new(this, "UpdateGlyphAdjustmentRecords", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt32)), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt32)));
+					r_MUpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_.SetBelong(this.instance);
 				}
-				return r_UpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_;
+				return r_MUpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void CopyListDataToArray[T](System.Collections.Generic.List`1[T], T[] ByRef)
 		/// </summary>
-		protected RMethod r_CopyListDataToArray_GT_List_d_T_p__Ref_TArray;
-		public virtual RMethod RCopyListDataToArray_GT_List_d_T_p__Ref_TArray
+		protected RMethod r_MCopyListDataToArray_GT_List_d_T_p__Ref_TArray;
+		public virtual RMethod RMCopyListDataToArray_GT_List_d_T_p__Ref_TArray
 		{
 			get
 			{
-				if(r_CopyListDataToArray_GT_List_d_T_p__Ref_TArray == null)
+				if(r_MCopyListDataToArray_GT_List_d_T_p__Ref_TArray == null)
 				{
-					r_CopyListDataToArray_GT_List_d_T_p__Ref_TArray = new(this, "CopyListDataToArray", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType());
-					r_CopyListDataToArray_GT_List_d_T_p__Ref_TArray.SetBelong(this.instance);
+					r_MCopyListDataToArray_GT_List_d_T_p__Ref_TArray = new(this, "CopyListDataToArray", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType());
+					r_MCopyListDataToArray_GT_List_d_T_p__Ref_TArray.SetBelong(this.instance);
 				}
-				return r_CopyListDataToArray_GT_List_d_T_p__Ref_TArray;
+				return r_MCopyListDataToArray_GT_List_d_T_p__Ref_TArray;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearFontAssetData(Boolean)
 		/// </summary>
-		protected RMethod r_ClearFontAssetData_Boolean;
-		public virtual RMethod RClearFontAssetData_Boolean
+		protected RMethod r_MClearFontAssetData_Boolean;
+		public virtual RMethod RMClearFontAssetData_Boolean
 		{
 			get
 			{
-				if(r_ClearFontAssetData_Boolean == null)
+				if(r_MClearFontAssetData_Boolean == null)
 				{
-					r_ClearFontAssetData_Boolean = new(this, "ClearFontAssetData", 0, typeof(System.Boolean));
-					r_ClearFontAssetData_Boolean.SetBelong(this.instance);
+					r_MClearFontAssetData_Boolean = new(this, "ClearFontAssetData", 0, typeof(System.Boolean));
+					r_MClearFontAssetData_Boolean.SetBelong(this.instance);
 				}
-				return r_ClearFontAssetData_Boolean;
+				return r_MClearFontAssetData_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearFontAssetDataInternal(Boolean)
 		/// </summary>
-		protected RMethod r_ClearFontAssetDataInternal_Boolean;
-		public virtual RMethod RClearFontAssetDataInternal_Boolean
+		protected RMethod r_MClearFontAssetDataInternal_Boolean;
+		public virtual RMethod RMClearFontAssetDataInternal_Boolean
 		{
 			get
 			{
-				if(r_ClearFontAssetDataInternal_Boolean == null)
+				if(r_MClearFontAssetDataInternal_Boolean == null)
 				{
-					r_ClearFontAssetDataInternal_Boolean = new(this, "ClearFontAssetDataInternal", 0, typeof(System.Boolean));
-					r_ClearFontAssetDataInternal_Boolean.SetBelong(this.instance);
+					r_MClearFontAssetDataInternal_Boolean = new(this, "ClearFontAssetDataInternal", 0, typeof(System.Boolean));
+					r_MClearFontAssetDataInternal_Boolean.SetBelong(this.instance);
 				}
-				return r_ClearFontAssetDataInternal_Boolean;
+				return r_MClearFontAssetDataInternal_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateFontAssetData()
 		/// </summary>
-		protected RMethod r_UpdateFontAssetData;
-		public virtual RMethod RUpdateFontAssetData
+		protected RMethod r_MUpdateFontAssetData;
+		public virtual RMethod RMUpdateFontAssetData
 		{
 			get
 			{
-				if(r_UpdateFontAssetData == null)
+				if(r_MUpdateFontAssetData == null)
 				{
-					r_UpdateFontAssetData = new(this, "UpdateFontAssetData", 0);
-					r_UpdateFontAssetData.SetBelong(this.instance);
+					r_MUpdateFontAssetData = new(this, "UpdateFontAssetData", 0);
+					r_MUpdateFontAssetData.SetBelong(this.instance);
 				}
-				return r_UpdateFontAssetData;
+				return r_MUpdateFontAssetData;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearFontAssetTables(Boolean)
 		/// </summary>
-		protected RMethod r_ClearFontAssetTables_Boolean;
-		public virtual RMethod RClearFontAssetTables_Boolean
+		protected RMethod r_MClearFontAssetTables_Boolean;
+		public virtual RMethod RMClearFontAssetTables_Boolean
 		{
 			get
 			{
-				if(r_ClearFontAssetTables_Boolean == null)
+				if(r_MClearFontAssetTables_Boolean == null)
 				{
-					r_ClearFontAssetTables_Boolean = new(this, "ClearFontAssetTables", 0, typeof(System.Boolean));
-					r_ClearFontAssetTables_Boolean.SetBelong(this.instance);
+					r_MClearFontAssetTables_Boolean = new(this, "ClearFontAssetTables", 0, typeof(System.Boolean));
+					r_MClearFontAssetTables_Boolean.SetBelong(this.instance);
 				}
-				return r_ClearFontAssetTables_Boolean;
+				return r_MClearFontAssetTables_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearAtlasTextures(Boolean)
 		/// </summary>
-		protected RMethod r_ClearAtlasTextures_Boolean;
-		public virtual RMethod RClearAtlasTextures_Boolean
+		protected RMethod r_MClearAtlasTextures_Boolean;
+		public virtual RMethod RMClearAtlasTextures_Boolean
 		{
 			get
 			{
-				if(r_ClearAtlasTextures_Boolean == null)
+				if(r_MClearAtlasTextures_Boolean == null)
 				{
-					r_ClearAtlasTextures_Boolean = new(this, "ClearAtlasTextures", 0, typeof(System.Boolean));
-					r_ClearAtlasTextures_Boolean.SetBelong(this.instance);
+					r_MClearAtlasTextures_Boolean = new(this, "ClearAtlasTextures", 0, typeof(System.Boolean));
+					r_MClearAtlasTextures_Boolean.SetBelong(this.instance);
 				}
-				return r_ClearAtlasTextures_Boolean;
+				return r_MClearAtlasTextures_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void DestroyAtlasTextures()
 		/// </summary>
-		protected RMethod r_DestroyAtlasTextures;
-		public virtual RMethod RDestroyAtlasTextures
+		protected RMethod r_MDestroyAtlasTextures;
+		public virtual RMethod RMDestroyAtlasTextures
 		{
 			get
 			{
-				if(r_DestroyAtlasTextures == null)
+				if(r_MDestroyAtlasTextures == null)
 				{
-					r_DestroyAtlasTextures = new(this, "DestroyAtlasTextures", 0);
-					r_DestroyAtlasTextures.SetBelong(this.instance);
+					r_MDestroyAtlasTextures = new(this, "DestroyAtlasTextures", 0);
+					r_MDestroyAtlasTextures.SetBelong(this.instance);
 				}
-				return r_DestroyAtlasTextures;
+				return r_MDestroyAtlasTextures;
 			}
 		}
 
 		/// <summary>
 		/// Void SetDirty()
 		/// </summary>
-		protected RMethod r_SetDirty;
-		public virtual RMethod RSetDirty
+		protected RMethod r_MSetDirty;
+		public virtual RMethod RMSetDirty
 		{
 			get
 			{
-				if(r_SetDirty == null)
+				if(r_MSetDirty == null)
 				{
-					r_SetDirty = new(this, "SetDirty", 0);
-					r_SetDirty.SetBelong(this.instance);
+					r_MSetDirty = new(this, "SetDirty", 0);
+					r_MSetDirty.SetBelong(this.instance);
 				}
-				return r_SetDirty;
+				return r_MSetDirty;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetInstanceID()
 		/// </summary>
-		protected RMethod r_GetInstanceID;
-		public virtual RMethod RGetInstanceID
+		protected RMethod r_MGetInstanceID;
+		public virtual RMethod RMGetInstanceID
 		{
 			get
 			{
-				if(r_GetInstanceID == null)
+				if(r_MGetInstanceID == null)
 				{
-					r_GetInstanceID = new(this, "GetInstanceID", 0);
-					r_GetInstanceID.SetBelong(this.instance);
+					r_MGetInstanceID = new(this, "GetInstanceID", 0);
+					r_MGetInstanceID.SetBelong(this.instance);
 				}
-				return r_GetInstanceID;
+				return r_MGetInstanceID;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -3093,7 +3093,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@familyName, @styleName, @pointSize};
-            var ___result = RCreateFontAsset_String_String_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateFontAsset_String_String_Int32.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.TextCore.Text.FontAsset)___result;
         }
@@ -3104,7 +3104,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fontFilePath, @faceIndex, @samplingPointSize, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight};
-            var ___result = RCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.TextCore.Text.FontAsset)___result;
         }
@@ -3115,7 +3115,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fontFilePath, @faceIndex, @samplingPointSize, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
-            var ___result = RCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.TextCore.Text.FontAsset)___result;
         }
@@ -3126,7 +3126,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@font};
-            var ___result = RCreateFontAsset_Font.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateFontAsset_Font.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.TextCore.Text.FontAsset)___result;
         }
@@ -3137,7 +3137,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@font, @samplingPointSize, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
-            var ___result = RCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.TextCore.Text.FontAsset)___result;
         }
@@ -3148,7 +3148,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@font, @faceIndex, @samplingPointSize, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
-            var ___result = RCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.TextCore.Text.FontAsset)___result;
         }
@@ -3159,7 +3159,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@font, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
-            var ___result = RCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.TextCore.Text.FontAsset)___result;
         }
@@ -3170,7 +3170,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RAwake.Invoke(___genericsType, ___parameters);
+            var ___result = RMAwake.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3181,7 +3181,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = ROnDestroy.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnDestroy.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3192,7 +3192,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = ROnValidate.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnValidate.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3203,7 +3203,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RReadFontAssetDefinition.Invoke(___genericsType, ___parameters);
+            var ___result = RMReadFontAssetDefinition.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3214,7 +3214,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInitializeDictionaryLookupTables.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitializeDictionaryLookupTables.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3225,7 +3225,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInitializeGlyphLookupDictionary.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitializeGlyphLookupDictionary.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3236,7 +3236,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInitializeCharacterLookupDictionary.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitializeCharacterLookupDictionary.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3247,7 +3247,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInitializeLigatureSubstitutionLookupDictionary.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitializeLigatureSubstitutionLookupDictionary.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3258,7 +3258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInitializeGlyphPaidAdjustmentRecordsLookupDictionary.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitializeGlyphPaidAdjustmentRecordsLookupDictionary.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3269,7 +3269,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInitializeMarkToBaseAdjustmentRecordsLookupDictionary.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitializeMarkToBaseAdjustmentRecordsLookupDictionary.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3280,7 +3280,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInitializeMarkToMarkAdjustmentRecordsLookupDictionary.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitializeMarkToMarkAdjustmentRecordsLookupDictionary.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3291,7 +3291,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RAddSynthesizedCharactersAndFaceMetrics.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddSynthesizedCharactersAndFaceMetrics.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3302,7 +3302,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@unicode, @isFontFaceLoaded, @addImmediately};
-            var ___result = RAddSynthesizedCharacter_UInt32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddSynthesizedCharacter_UInt32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3313,7 +3313,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@unicode, @character};
-            var ___result = RAddCharacterToLookupCache_UInt32_Character.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddCharacterToLookupCache_UInt32_Character.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3324,7 +3324,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RLoadFontFace.Invoke(___genericsType, ___parameters);
+            var ___result = RMLoadFontFace.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.TextCore.LowLevel.FontEngineError)___result;
         }
@@ -3335,7 +3335,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSortCharacterTable.Invoke(___genericsType, ___parameters);
+            var ___result = RMSortCharacterTable.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3346,7 +3346,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSortGlyphTable.Invoke(___genericsType, ___parameters);
+            var ___result = RMSortGlyphTable.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3357,7 +3357,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSortFontFeatureTable.Invoke(___genericsType, ___parameters);
+            var ___result = RMSortFontFeatureTable.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3368,7 +3368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSortAllTables.Invoke(___genericsType, ___parameters);
+            var ___result = RMSortAllTables.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3379,7 +3379,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@character};
-            var ___result = RHasCharacter_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasCharacter_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3390,7 +3390,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@character, @searchFallbacks, @tryAddCharacter};
-            var ___result = RHasCharacter_Char_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasCharacter_Char_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3401,7 +3401,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@character, @searchFallbacks, @tryAddCharacter};
-            var ___result = RHasCharacter_Internal_UInt32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasCharacter_Internal_UInt32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3413,7 +3413,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@text, @missingCharacters};
-            var ___result = RHasCharacters_String_Out_List_d_Char_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasCharacters_String_Out_List_d_Char_p_.Invoke(___genericsType, ___parameters);
 			@missingCharacters = (System.Collections.Generic.List<System.Char>)___parameters[1];
 
             return (System.Boolean)___result;
@@ -3426,7 +3426,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@text, @missingCharacters, @searchFallbacks, @tryAddCharacter};
-            var ___result = RHasCharacters_String_Out_UInt32Array_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasCharacters_String_Out_UInt32Array_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 			@missingCharacters = (System.UInt32[])___parameters[1];
 
             return (System.Boolean)___result;
@@ -3438,7 +3438,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@text};
-            var ___result = RHasCharacters_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasCharacters_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3449,7 +3449,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fontAsset};
-            var ___result = RGetCharacters_FontAsset.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCharacters_FontAsset.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -3460,7 +3460,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fontAsset};
-            var ___result = RGetCharactersArray_FontAsset.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCharactersArray_FontAsset.Invoke(___genericsType, ___parameters);
 
             return (System.Int32[])___result;
         }
@@ -3471,7 +3471,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@unicode};
-            var ___result = RGetGlyphIndex_UInt32.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetGlyphIndex_UInt32.Invoke(___genericsType, ___parameters);
 
             return (System.UInt32)___result;
         }
@@ -3482,7 +3482,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fontAsset};
-            var ___result = RRegisterFontAssetForFontFeatureUpdate_FontAsset.Invoke(___genericsType, ___parameters);
+            var ___result = RMRegisterFontAssetForFontFeatureUpdate_FontAsset.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3493,7 +3493,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateFontFeaturesForFontAssetsInQueue.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateFontFeaturesForFontAssetsInQueue.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3504,7 +3504,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@texture};
-            var ___result = RRegisterAtlasTextureForApply_Texture2D.Invoke(___genericsType, ___parameters);
+            var ___result = RMRegisterAtlasTextureForApply_Texture2D.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3515,7 +3515,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateAtlasTexturesInQueue.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateAtlasTexturesInQueue.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3526,7 +3526,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateFontAssetsInUpdateQueue.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateFontAssetsInUpdateQueue.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3537,7 +3537,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@unicodes, @includeFontFeatures};
-            var ___result = RTryAddCharacters_UInt32Array_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryAddCharacters_UInt32Array_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3549,7 +3549,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@unicodes, @missingUnicodes, @includeFontFeatures};
-            var ___result = RTryAddCharacters_UInt32Array_Out_UInt32Array_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryAddCharacters_UInt32Array_Out_UInt32Array_Boolean.Invoke(___genericsType, ___parameters);
 			@missingUnicodes = (System.UInt32[])___parameters[1];
 
             return (System.Boolean)___result;
@@ -3561,7 +3561,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@characters, @includeFontFeatures};
-            var ___result = RTryAddCharacters_String_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryAddCharacters_String_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3573,7 +3573,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@characters, @missingCharacters, @includeFontFeatures};
-            var ___result = RTryAddCharacters_String_Out_String_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryAddCharacters_String_Out_String_Boolean.Invoke(___genericsType, ___parameters);
 			@missingCharacters = (System.String)___parameters[1];
 
             return (System.Boolean)___result;
@@ -3586,7 +3586,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@glyphIndex, @glyph};
-            var ___result = RTryAddGlyphInternal_UInt32_Out_Glyph.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryAddGlyphInternal_UInt32_Out_Glyph.Invoke(___genericsType, ___parameters);
 			@glyph = (UnityEngine.TextCore.Glyph)___parameters[1];
 
             return (System.Boolean)___result;
@@ -3599,7 +3599,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@unicode, @character, @shouldGetFontFeatures};
-            var ___result = RTryAddCharacterInternal_UInt32_Out_Character_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryAddCharacterInternal_UInt32_Out_Character_Boolean.Invoke(___genericsType, ___parameters);
 			@character = (UnityEngine.TextCore.Text.Character)___parameters[1];
 
             return (System.Boolean)___result;
@@ -3612,7 +3612,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@unicode, @character, @shouldGetFontFeatures};
-            var ___result = RTryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean.Invoke(___genericsType, ___parameters);
 			@character = (UnityEngine.TextCore.Text.Character)___parameters[1];
 
             return (System.Boolean)___result;
@@ -3624,7 +3624,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RTryAddGlyphsToAtlasTextures.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryAddGlyphsToAtlasTextures.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3635,7 +3635,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RTryAddGlyphsToNewAtlasTexture.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryAddGlyphsToNewAtlasTexture.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3646,7 +3646,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSetupNewAtlasTexture.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetupNewAtlasTexture.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3657,7 +3657,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateAllFontFeatures.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateAllFontFeatures.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3668,7 +3668,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateGlyphAdjustmentRecords.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateGlyphAdjustmentRecords.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3679,7 +3679,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@glyphIndexes};
-            var ___result = RUpdateGlyphAdjustmentRecords_UInt32Array.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateGlyphAdjustmentRecords_UInt32Array.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3690,7 +3690,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@glyphIndexes};
-            var ___result = RUpdateGlyphAdjustmentRecords_List_d_UInt32_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateGlyphAdjustmentRecords_List_d_UInt32_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3701,7 +3701,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newGlyphIndexes, @allGlyphIndexes};
-            var ___result = RUpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateGlyphAdjustmentRecords_List_d_UInt32_p__List_d_UInt32_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3712,7 +3712,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@srcList, @dstArray};
-            var ___result = RCopyListDataToArray_GT_List_d_T_p__Ref_TArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyListDataToArray_GT_List_d_T_p__Ref_TArray.Invoke(___genericsType, ___parameters);
 			@dstArray = (T[])___parameters[1];
 
             
@@ -3724,7 +3724,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@setAtlasSizeToZero};
-            var ___result = RClearFontAssetData_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMClearFontAssetData_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3735,7 +3735,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@clearFontFeatures};
-            var ___result = RClearFontAssetDataInternal_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMClearFontAssetDataInternal_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3746,7 +3746,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateFontAssetData.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateFontAssetData.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3757,7 +3757,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@clearFontFeatures};
-            var ___result = RClearFontAssetTables_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMClearFontAssetTables_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3768,7 +3768,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@setAtlasSizeToZero};
-            var ___result = RClearAtlasTextures_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMClearAtlasTextures_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3779,7 +3779,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RDestroyAtlasTextures.Invoke(___genericsType, ___parameters);
+            var ___result = RMDestroyAtlasTextures.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3790,7 +3790,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSetDirty.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetDirty.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3801,7 +3801,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetInstanceID.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -3812,7 +3812,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -3823,7 +3823,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3834,7 +3834,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -3845,7 +3845,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3856,7 +3856,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -3867,7 +3867,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

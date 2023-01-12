@@ -13,493 +13,493 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.IChannelInfo channel_info
 		/// </summary>
-		protected RSystem.RRuntime.RRemoting.RIChannelInfo r_channel_info;
-		public virtual RSystem.RRuntime.RRemoting.RIChannelInfo Rchannel_info
+		protected RSystem.RRuntime.RRemoting.RIChannelInfo r_Fchannel_info;
+		public virtual RSystem.RRuntime.RRemoting.RIChannelInfo RFchannel_info
 		{
 			get
 			{
-				if(r_channel_info == null)
+				if(r_Fchannel_info == null)
 				{
-					r_channel_info = new(this, "channel_info");
-					r_channel_info.SetBelong(this.instance);
+					r_Fchannel_info = new(this, "channel_info");
+					r_Fchannel_info.SetBelong(this.instance);
 				}
-				return r_channel_info;
+				return r_Fchannel_info;
 			}
 		}
 
 		/// <summary>
 		/// System.String uri
 		/// </summary>
-		protected RSystem.RString r_uri;
-		public virtual RSystem.RString Ruri
+		protected RSystem.RString r_Furi;
+		public virtual RSystem.RString RFuri
 		{
 			get
 			{
-				if(r_uri == null)
+				if(r_Furi == null)
 				{
-					r_uri = new(this, "uri");
-					r_uri.SetBelong(this.instance);
+					r_Furi = new(this, "uri");
+					r_Furi.SetBelong(this.instance);
 				}
-				return r_uri;
+				return r_Furi;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.IRemotingTypeInfo typeInfo
 		/// </summary>
-		protected RSystem.RRuntime.RRemoting.RIRemotingTypeInfo r_typeInfo;
-		public virtual RSystem.RRuntime.RRemoting.RIRemotingTypeInfo RtypeInfo
+		protected RSystem.RRuntime.RRemoting.RIRemotingTypeInfo r_FtypeInfo;
+		public virtual RSystem.RRuntime.RRemoting.RIRemotingTypeInfo RFtypeInfo
 		{
 			get
 			{
-				if(r_typeInfo == null)
+				if(r_FtypeInfo == null)
 				{
-					r_typeInfo = new(this, "typeInfo");
-					r_typeInfo.SetBelong(this.instance);
+					r_FtypeInfo = new(this, "typeInfo");
+					r_FtypeInfo.SetBelong(this.instance);
 				}
-				return r_typeInfo;
+				return r_FtypeInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.IEnvoyInfo envoyInfo
 		/// </summary>
-		protected RSystem.RRuntime.RRemoting.RIEnvoyInfo r_envoyInfo;
-		public virtual RSystem.RRuntime.RRemoting.RIEnvoyInfo RenvoyInfo
+		protected RSystem.RRuntime.RRemoting.RIEnvoyInfo r_FenvoyInfo;
+		public virtual RSystem.RRuntime.RRemoting.RIEnvoyInfo RFenvoyInfo
 		{
 			get
 			{
-				if(r_envoyInfo == null)
+				if(r_FenvoyInfo == null)
 				{
-					r_envoyInfo = new(this, "envoyInfo");
-					r_envoyInfo.SetBelong(this.instance);
+					r_FenvoyInfo = new(this, "envoyInfo");
+					r_FenvoyInfo.SetBelong(this.instance);
 				}
-				return r_envoyInfo;
+				return r_FenvoyInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 flags
 		/// </summary>
-		protected RSystem.RInt32 r_flags;
-		public virtual RSystem.RInt32 Rflags
+		protected RSystem.RInt32 r_Fflags;
+		public virtual RSystem.RInt32 RFflags
 		{
 			get
 			{
-				if(r_flags == null)
+				if(r_Fflags == null)
 				{
-					r_flags = new(this, "flags");
-					r_flags.SetBelong(this.instance);
+					r_Fflags = new(this, "flags");
+					r_Fflags.SetBelong(this.instance);
 				}
-				return r_flags;
+				return r_Fflags;
 			}
 		}
 
 		/// <summary>
 		/// System.Type _serverType
 		/// </summary>
-		protected RSystem.RType r__serverType;
-		public virtual RSystem.RType R_serverType
+		protected RSystem.RType r_F_serverType;
+		public virtual RSystem.RType RF_serverType
 		{
 			get
 			{
-				if(r__serverType == null)
+				if(r_F_serverType == null)
 				{
-					r__serverType = new(this, "_serverType");
-					r__serverType.SetBelong(this.instance);
+					r_F_serverType = new(this, "_serverType");
+					r_F_serverType.SetBelong(this.instance);
 				}
-				return r__serverType;
+				return r_F_serverType;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 MarshalledObjectRef
 		/// </summary>
-		protected static RSystem.RInt32 r_MarshalledObjectRef;
-		public static RSystem.RInt32 RMarshalledObjectRef
+		protected static RSystem.RInt32 r_FMarshalledObjectRef;
+		public static RSystem.RInt32 RFMarshalledObjectRef
 		{
 			get
 			{
-				if(r_MarshalledObjectRef == null)
+				if(r_FMarshalledObjectRef == null)
 				{
-					r_MarshalledObjectRef = new(typeof(System.Runtime.Remoting.ObjRef), "MarshalledObjectRef");
-					r_MarshalledObjectRef.SetBelong(null);
+					r_FMarshalledObjectRef = new(typeof(System.Runtime.Remoting.ObjRef), "MarshalledObjectRef");
+					r_FMarshalledObjectRef.SetBelong(null);
 				}
-				return r_MarshalledObjectRef;
+				return r_FMarshalledObjectRef;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 WellKnowObjectRef
 		/// </summary>
-		protected static RSystem.RInt32 r_WellKnowObjectRef;
-		public static RSystem.RInt32 RWellKnowObjectRef
+		protected static RSystem.RInt32 r_FWellKnowObjectRef;
+		public static RSystem.RInt32 RFWellKnowObjectRef
 		{
 			get
 			{
-				if(r_WellKnowObjectRef == null)
+				if(r_FWellKnowObjectRef == null)
 				{
-					r_WellKnowObjectRef = new(typeof(System.Runtime.Remoting.ObjRef), "WellKnowObjectRef");
-					r_WellKnowObjectRef.SetBelong(null);
+					r_FWellKnowObjectRef = new(typeof(System.Runtime.Remoting.ObjRef), "WellKnowObjectRef");
+					r_FWellKnowObjectRef.SetBelong(null);
 				}
-				return r_WellKnowObjectRef;
+				return r_FWellKnowObjectRef;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsReferenceToWellKnow
 		/// </summary>
-		protected RSystem.RBoolean r_IsReferenceToWellKnow;
-		public virtual RSystem.RBoolean RIsReferenceToWellKnow
+		protected RSystem.RBoolean r_PIsReferenceToWellKnow;
+		public virtual RSystem.RBoolean RPIsReferenceToWellKnow
 		{
 			get
 			{
-				if(r_IsReferenceToWellKnow == null)
+				if(r_PIsReferenceToWellKnow == null)
 				{
-					r_IsReferenceToWellKnow = new(this, "IsReferenceToWellKnow", -1);
-					r_IsReferenceToWellKnow.SetBelong(this.instance);
+					r_PIsReferenceToWellKnow = new(this, "IsReferenceToWellKnow", -1);
+					r_PIsReferenceToWellKnow.SetBelong(this.instance);
 				}
-				return r_IsReferenceToWellKnow;
+				return r_PIsReferenceToWellKnow;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.IChannelInfo ChannelInfo
 		/// </summary>
-		protected RSystem.RRuntime.RRemoting.RIChannelInfo r_ChannelInfo;
-		public virtual RSystem.RRuntime.RRemoting.RIChannelInfo RChannelInfo
+		protected RSystem.RRuntime.RRemoting.RIChannelInfo r_PChannelInfo;
+		public virtual RSystem.RRuntime.RRemoting.RIChannelInfo RPChannelInfo
 		{
 			get
 			{
-				if(r_ChannelInfo == null)
+				if(r_PChannelInfo == null)
 				{
-					r_ChannelInfo = new(this, "ChannelInfo", -1);
-					r_ChannelInfo.SetBelong(this.instance);
+					r_PChannelInfo = new(this, "ChannelInfo", -1);
+					r_PChannelInfo.SetBelong(this.instance);
 				}
-				return r_ChannelInfo;
+				return r_PChannelInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.IEnvoyInfo EnvoyInfo
 		/// </summary>
-		protected RSystem.RRuntime.RRemoting.RIEnvoyInfo r_EnvoyInfo;
-		public virtual RSystem.RRuntime.RRemoting.RIEnvoyInfo REnvoyInfo
+		protected RSystem.RRuntime.RRemoting.RIEnvoyInfo r_PEnvoyInfo;
+		public virtual RSystem.RRuntime.RRemoting.RIEnvoyInfo RPEnvoyInfo
 		{
 			get
 			{
-				if(r_EnvoyInfo == null)
+				if(r_PEnvoyInfo == null)
 				{
-					r_EnvoyInfo = new(this, "EnvoyInfo", -1);
-					r_EnvoyInfo.SetBelong(this.instance);
+					r_PEnvoyInfo = new(this, "EnvoyInfo", -1);
+					r_PEnvoyInfo.SetBelong(this.instance);
 				}
-				return r_EnvoyInfo;
+				return r_PEnvoyInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.IRemotingTypeInfo TypeInfo
 		/// </summary>
-		protected RSystem.RRuntime.RRemoting.RIRemotingTypeInfo r_TypeInfo;
-		public virtual RSystem.RRuntime.RRemoting.RIRemotingTypeInfo RTypeInfo
+		protected RSystem.RRuntime.RRemoting.RIRemotingTypeInfo r_PTypeInfo;
+		public virtual RSystem.RRuntime.RRemoting.RIRemotingTypeInfo RPTypeInfo
 		{
 			get
 			{
-				if(r_TypeInfo == null)
+				if(r_PTypeInfo == null)
 				{
-					r_TypeInfo = new(this, "TypeInfo", -1);
-					r_TypeInfo.SetBelong(this.instance);
+					r_PTypeInfo = new(this, "TypeInfo", -1);
+					r_PTypeInfo.SetBelong(this.instance);
 				}
-				return r_TypeInfo;
+				return r_PTypeInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.String URI
 		/// </summary>
-		protected RSystem.RString r_URI;
-		public virtual RSystem.RString RURI
+		protected RSystem.RString r_PURI;
+		public virtual RSystem.RString RPURI
 		{
 			get
 			{
-				if(r_URI == null)
+				if(r_PURI == null)
 				{
-					r_URI = new(this, "URI", -1);
-					r_URI.SetBelong(this.instance);
+					r_PURI = new(this, "URI", -1);
+					r_PURI.SetBelong(this.instance);
 				}
-				return r_URI;
+				return r_PURI;
 			}
 		}
 
 		/// <summary>
 		/// System.Type ServerType
 		/// </summary>
-		protected RSystem.RType r_ServerType;
-		public virtual RSystem.RType RServerType
+		protected RSystem.RType r_PServerType;
+		public virtual RSystem.RType RPServerType
 		{
 			get
 			{
-				if(r_ServerType == null)
+				if(r_PServerType == null)
 				{
-					r_ServerType = new(this, "ServerType", -1);
-					r_ServerType.SetBelong(this.instance);
+					r_PServerType = new(this, "ServerType", -1);
+					r_PServerType.SetBelong(this.instance);
 				}
-				return r_ServerType;
+				return r_PServerType;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.ObjRef DeserializeInTheCurrentDomain(Int32, Byte[])
 		/// </summary>
-		protected RMethod r_DeserializeInTheCurrentDomain_Int32_ByteArray;
-		public virtual RMethod RDeserializeInTheCurrentDomain_Int32_ByteArray
+		protected RMethod r_MDeserializeInTheCurrentDomain_Int32_ByteArray;
+		public virtual RMethod RMDeserializeInTheCurrentDomain_Int32_ByteArray
 		{
 			get
 			{
-				if(r_DeserializeInTheCurrentDomain_Int32_ByteArray == null)
+				if(r_MDeserializeInTheCurrentDomain_Int32_ByteArray == null)
 				{
-					r_DeserializeInTheCurrentDomain_Int32_ByteArray = new(this, "DeserializeInTheCurrentDomain", 0, typeof(System.Int32), typeof(System.Byte).MakeArrayType());
-					r_DeserializeInTheCurrentDomain_Int32_ByteArray.SetBelong(this.instance);
+					r_MDeserializeInTheCurrentDomain_Int32_ByteArray = new(this, "DeserializeInTheCurrentDomain", 0, typeof(System.Int32), typeof(System.Byte).MakeArrayType());
+					r_MDeserializeInTheCurrentDomain_Int32_ByteArray.SetBelong(this.instance);
 				}
-				return r_DeserializeInTheCurrentDomain_Int32_ByteArray;
+				return r_MDeserializeInTheCurrentDomain_Int32_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] SerializeType()
 		/// </summary>
-		protected RMethod r_SerializeType;
-		public virtual RMethod RSerializeType
+		protected RMethod r_MSerializeType;
+		public virtual RMethod RMSerializeType
 		{
 			get
 			{
-				if(r_SerializeType == null)
+				if(r_MSerializeType == null)
 				{
-					r_SerializeType = new(this, "SerializeType", 0);
-					r_SerializeType.SetBelong(this.instance);
+					r_MSerializeType = new(this, "SerializeType", 0);
+					r_MSerializeType.SetBelong(this.instance);
 				}
-				return r_SerializeType;
+				return r_MSerializeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsPossibleToCAD()
 		/// </summary>
-		protected RMethod r_IsPossibleToCAD;
-		public virtual RMethod RIsPossibleToCAD
+		protected RMethod r_MIsPossibleToCAD;
+		public virtual RMethod RMIsPossibleToCAD
 		{
 			get
 			{
-				if(r_IsPossibleToCAD == null)
+				if(r_MIsPossibleToCAD == null)
 				{
-					r_IsPossibleToCAD = new(this, "IsPossibleToCAD", 0);
-					r_IsPossibleToCAD.SetBelong(this.instance);
+					r_MIsPossibleToCAD = new(this, "IsPossibleToCAD", 0);
+					r_MIsPossibleToCAD.SetBelong(this.instance);
 				}
-				return r_IsPossibleToCAD;
+				return r_MIsPossibleToCAD;
 			}
 		}
 
 		/// <summary>
 		/// Void GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_GetObjectData_SerializationInfo_StreamingContext;
-		public virtual RMethod RGetObjectData_SerializationInfo_StreamingContext
+		protected RMethod r_MGetObjectData_SerializationInfo_StreamingContext;
+		public virtual RMethod RMGetObjectData_SerializationInfo_StreamingContext
 		{
 			get
 			{
-				if(r_GetObjectData_SerializationInfo_StreamingContext == null)
+				if(r_MGetObjectData_SerializationInfo_StreamingContext == null)
 				{
-					r_GetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
+					r_MGetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
+					r_MGetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
 				}
-				return r_GetObjectData_SerializationInfo_StreamingContext;
+				return r_MGetObjectData_SerializationInfo_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetRealObject(System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_GetRealObject_StreamingContext;
-		public virtual RMethod RGetRealObject_StreamingContext
+		protected RMethod r_MGetRealObject_StreamingContext;
+		public virtual RMethod RMGetRealObject_StreamingContext
 		{
 			get
 			{
-				if(r_GetRealObject_StreamingContext == null)
+				if(r_MGetRealObject_StreamingContext == null)
 				{
-					r_GetRealObject_StreamingContext = new(this, "GetRealObject", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_GetRealObject_StreamingContext.SetBelong(this.instance);
+					r_MGetRealObject_StreamingContext = new(this, "GetRealObject", 0, typeof(System.Runtime.Serialization.StreamingContext));
+					r_MGetRealObject_StreamingContext.SetBelong(this.instance);
 				}
-				return r_GetRealObject_StreamingContext;
+				return r_MGetRealObject_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsFromThisAppDomain()
 		/// </summary>
-		protected RMethod r_IsFromThisAppDomain;
-		public virtual RMethod RIsFromThisAppDomain
+		protected RMethod r_MIsFromThisAppDomain;
+		public virtual RMethod RMIsFromThisAppDomain
 		{
 			get
 			{
-				if(r_IsFromThisAppDomain == null)
+				if(r_MIsFromThisAppDomain == null)
 				{
-					r_IsFromThisAppDomain = new(this, "IsFromThisAppDomain", 0);
-					r_IsFromThisAppDomain.SetBelong(this.instance);
+					r_MIsFromThisAppDomain = new(this, "IsFromThisAppDomain", 0);
+					r_MIsFromThisAppDomain.SetBelong(this.instance);
 				}
-				return r_IsFromThisAppDomain;
+				return r_MIsFromThisAppDomain;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsFromThisProcess()
 		/// </summary>
-		protected RMethod r_IsFromThisProcess;
-		public virtual RMethod RIsFromThisProcess
+		protected RMethod r_MIsFromThisProcess;
+		public virtual RMethod RMIsFromThisProcess
 		{
 			get
 			{
-				if(r_IsFromThisProcess == null)
+				if(r_MIsFromThisProcess == null)
 				{
-					r_IsFromThisProcess = new(this, "IsFromThisProcess", 0);
-					r_IsFromThisProcess.SetBelong(this.instance);
+					r_MIsFromThisProcess = new(this, "IsFromThisProcess", 0);
+					r_MIsFromThisProcess.SetBelong(this.instance);
 				}
-				return r_IsFromThisProcess;
+				return r_MIsFromThisProcess;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateChannelInfo()
 		/// </summary>
-		protected RMethod r_UpdateChannelInfo;
-		public virtual RMethod RUpdateChannelInfo
+		protected RMethod r_MUpdateChannelInfo;
+		public virtual RMethod RMUpdateChannelInfo
 		{
 			get
 			{
-				if(r_UpdateChannelInfo == null)
+				if(r_MUpdateChannelInfo == null)
 				{
-					r_UpdateChannelInfo = new(this, "UpdateChannelInfo", 0);
-					r_UpdateChannelInfo.SetBelong(this.instance);
+					r_MUpdateChannelInfo = new(this, "UpdateChannelInfo", 0);
+					r_MUpdateChannelInfo.SetBelong(this.instance);
 				}
-				return r_UpdateChannelInfo;
+				return r_MUpdateChannelInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void SetDomainID(Int32)
 		/// </summary>
-		protected RMethod r_SetDomainID_Int32;
-		public virtual RMethod RSetDomainID_Int32
+		protected RMethod r_MSetDomainID_Int32;
+		public virtual RMethod RMSetDomainID_Int32
 		{
 			get
 			{
-				if(r_SetDomainID_Int32 == null)
+				if(r_MSetDomainID_Int32 == null)
 				{
-					r_SetDomainID_Int32 = new(this, "SetDomainID", 0, typeof(System.Int32));
-					r_SetDomainID_Int32.SetBelong(this.instance);
+					r_MSetDomainID_Int32 = new(this, "SetDomainID", 0, typeof(System.Int32));
+					r_MSetDomainID_Int32.SetBelong(this.instance);
 				}
-				return r_SetDomainID_Int32;
+				return r_MSetDomainID_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -526,7 +526,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@domainId, @tInfo};
-            var ___result = RDeserializeInTheCurrentDomain_Int32_ByteArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMDeserializeInTheCurrentDomain_Int32_ByteArray.Invoke(___genericsType, ___parameters);
 
             return (System.Runtime.Remoting.ObjRef)___result;
         }
@@ -537,7 +537,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSerializeType.Invoke(___genericsType, ___parameters);
+            var ___result = RMSerializeType.Invoke(___genericsType, ___parameters);
 
             return (System.Byte[])___result;
         }
@@ -548,7 +548,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RIsPossibleToCAD.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsPossibleToCAD.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -559,7 +559,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@info, @context};
-            var ___result = RGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetObjectData_SerializationInfo_StreamingContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -570,7 +570,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@context};
-            var ___result = RGetRealObject_StreamingContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetRealObject_StreamingContext.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -581,7 +581,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RIsFromThisAppDomain.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsFromThisAppDomain.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -592,7 +592,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RIsFromThisProcess.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsFromThisProcess.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -603,7 +603,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateChannelInfo.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateChannelInfo.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -614,7 +614,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id};
-            var ___result = RSetDomainID_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetDomainID_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -625,7 +625,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -636,7 +636,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -647,7 +647,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -658,7 +658,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -669,7 +669,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -680,7 +680,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

@@ -13,306 +13,306 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 		/// <summary>
 		/// System.IntPtr handle
 		/// </summary>
-		protected RSystem.RIntPtr r_handle;
-		public virtual RSystem.RIntPtr Rhandle
+		protected RSystem.RIntPtr r_Fhandle;
+		public virtual RSystem.RIntPtr RFhandle
 		{
 			get
 			{
-				if(r_handle == null)
+				if(r_Fhandle == null)
 				{
-					r_handle = new(this, "handle");
-					r_handle.SetBelong(this.instance);
+					r_Fhandle = new(this, "handle");
+					r_Fhandle.SetBelong(this.instance);
 				}
-				return r_handle;
+				return r_Fhandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsInvalid
 		/// </summary>
-		protected RSystem.RBoolean r_IsInvalid;
-		public virtual RSystem.RBoolean RIsInvalid
+		protected RSystem.RBoolean r_PIsInvalid;
+		public virtual RSystem.RBoolean RPIsInvalid
 		{
 			get
 			{
-				if(r_IsInvalid == null)
+				if(r_PIsInvalid == null)
 				{
-					r_IsInvalid = new(this, "IsInvalid", -1);
-					r_IsInvalid.SetBelong(this.instance);
+					r_PIsInvalid = new(this, "IsInvalid", -1);
+					r_PIsInvalid.SetBelong(this.instance);
 				}
-				return r_IsInvalid;
+				return r_PIsInvalid;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsClosed
 		/// </summary>
-		protected RSystem.RBoolean r_IsClosed;
-		public virtual RSystem.RBoolean RIsClosed
+		protected RSystem.RBoolean r_PIsClosed;
+		public virtual RSystem.RBoolean RPIsClosed
 		{
 			get
 			{
-				if(r_IsClosed == null)
+				if(r_PIsClosed == null)
 				{
-					r_IsClosed = new(this, "IsClosed", -1);
-					r_IsClosed.SetBelong(this.instance);
+					r_PIsClosed = new(this, "IsClosed", -1);
+					r_PIsClosed.SetBelong(this.instance);
 				}
-				return r_IsClosed;
+				return r_PIsClosed;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ReleaseHandle()
 		/// </summary>
-		protected RMethod r_ReleaseHandle;
-		public virtual RMethod RReleaseHandle
+		protected RMethod r_MReleaseHandle;
+		public virtual RMethod RMReleaseHandle
 		{
 			get
 			{
-				if(r_ReleaseHandle == null)
+				if(r_MReleaseHandle == null)
 				{
-					r_ReleaseHandle = new(this, "ReleaseHandle", 0);
-					r_ReleaseHandle.SetBelong(this.instance);
+					r_MReleaseHandle = new(this, "ReleaseHandle", 0);
+					r_MReleaseHandle.SetBelong(this.instance);
 				}
-				return r_ReleaseHandle;
+				return r_MReleaseHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Void SetHandle(IntPtr)
 		/// </summary>
-		protected RMethod r_SetHandle_IntPtr;
-		public virtual RMethod RSetHandle_IntPtr
+		protected RMethod r_MSetHandle_IntPtr;
+		public virtual RMethod RMSetHandle_IntPtr
 		{
 			get
 			{
-				if(r_SetHandle_IntPtr == null)
+				if(r_MSetHandle_IntPtr == null)
 				{
-					r_SetHandle_IntPtr = new(this, "SetHandle", 0, typeof(System.IntPtr));
-					r_SetHandle_IntPtr.SetBelong(this.instance);
+					r_MSetHandle_IntPtr = new(this, "SetHandle", 0, typeof(System.IntPtr));
+					r_MSetHandle_IntPtr.SetBelong(this.instance);
 				}
-				return r_SetHandle_IntPtr;
+				return r_MSetHandle_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr DangerousGetHandle()
 		/// </summary>
-		protected RMethod r_DangerousGetHandle;
-		public virtual RMethod RDangerousGetHandle
+		protected RMethod r_MDangerousGetHandle;
+		public virtual RMethod RMDangerousGetHandle
 		{
 			get
 			{
-				if(r_DangerousGetHandle == null)
+				if(r_MDangerousGetHandle == null)
 				{
-					r_DangerousGetHandle = new(this, "DangerousGetHandle", 0);
-					r_DangerousGetHandle.SetBelong(this.instance);
+					r_MDangerousGetHandle = new(this, "DangerousGetHandle", 0);
+					r_MDangerousGetHandle.SetBelong(this.instance);
 				}
-				return r_DangerousGetHandle;
+				return r_MDangerousGetHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void Close()
 		/// </summary>
-		protected RMethod r_Close;
-		public virtual RMethod RClose
+		protected RMethod r_MClose;
+		public virtual RMethod RMClose
 		{
 			get
 			{
-				if(r_Close == null)
+				if(r_MClose == null)
 				{
-					r_Close = new(this, "Close", 0);
-					r_Close.SetBelong(this.instance);
+					r_MClose = new(this, "Close", 0);
+					r_MClose.SetBelong(this.instance);
 				}
-				return r_Close;
+				return r_MClose;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose()
 		/// </summary>
-		protected RMethod r_Dispose;
-		public virtual RMethod RDispose
+		protected RMethod r_MDispose;
+		public virtual RMethod RMDispose
 		{
 			get
 			{
-				if(r_Dispose == null)
+				if(r_MDispose == null)
 				{
-					r_Dispose = new(this, "Dispose", 0);
-					r_Dispose.SetBelong(this.instance);
+					r_MDispose = new(this, "Dispose", 0);
+					r_MDispose.SetBelong(this.instance);
 				}
-				return r_Dispose;
+				return r_MDispose;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose(Boolean)
 		/// </summary>
-		protected RMethod r_Dispose_Boolean;
-		public virtual RMethod RDispose_Boolean
+		protected RMethod r_MDispose_Boolean;
+		public virtual RMethod RMDispose_Boolean
 		{
 			get
 			{
-				if(r_Dispose_Boolean == null)
+				if(r_MDispose_Boolean == null)
 				{
-					r_Dispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_Dispose_Boolean.SetBelong(this.instance);
+					r_MDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
+					r_MDispose_Boolean.SetBelong(this.instance);
 				}
-				return r_Dispose_Boolean;
+				return r_MDispose_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetHandleAsInvalid()
 		/// </summary>
-		protected RMethod r_SetHandleAsInvalid;
-		public virtual RMethod RSetHandleAsInvalid
+		protected RMethod r_MSetHandleAsInvalid;
+		public virtual RMethod RMSetHandleAsInvalid
 		{
 			get
 			{
-				if(r_SetHandleAsInvalid == null)
+				if(r_MSetHandleAsInvalid == null)
 				{
-					r_SetHandleAsInvalid = new(this, "SetHandleAsInvalid", 0);
-					r_SetHandleAsInvalid.SetBelong(this.instance);
+					r_MSetHandleAsInvalid = new(this, "SetHandleAsInvalid", 0);
+					r_MSetHandleAsInvalid.SetBelong(this.instance);
 				}
-				return r_SetHandleAsInvalid;
+				return r_MSetHandleAsInvalid;
 			}
 		}
 
 		/// <summary>
 		/// Void DangerousAddRef(Boolean ByRef)
 		/// </summary>
-		protected RMethod r_DangerousAddRef_Ref_Boolean;
-		public virtual RMethod RDangerousAddRef_Ref_Boolean
+		protected RMethod r_MDangerousAddRef_Ref_Boolean;
+		public virtual RMethod RMDangerousAddRef_Ref_Boolean
 		{
 			get
 			{
-				if(r_DangerousAddRef_Ref_Boolean == null)
+				if(r_MDangerousAddRef_Ref_Boolean == null)
 				{
-					r_DangerousAddRef_Ref_Boolean = new(this, "DangerousAddRef", 0, typeof(System.Boolean).MakeByRefType());
-					r_DangerousAddRef_Ref_Boolean.SetBelong(this.instance);
+					r_MDangerousAddRef_Ref_Boolean = new(this, "DangerousAddRef", 0, typeof(System.Boolean).MakeByRefType());
+					r_MDangerousAddRef_Ref_Boolean.SetBelong(this.instance);
 				}
-				return r_DangerousAddRef_Ref_Boolean;
+				return r_MDangerousAddRef_Ref_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void DangerousRelease()
 		/// </summary>
-		protected RMethod r_DangerousRelease;
-		public virtual RMethod RDangerousRelease
+		protected RMethod r_MDangerousRelease;
+		public virtual RMethod RMDangerousRelease
 		{
 			get
 			{
-				if(r_DangerousRelease == null)
+				if(r_MDangerousRelease == null)
 				{
-					r_DangerousRelease = new(this, "DangerousRelease", 0);
-					r_DangerousRelease.SetBelong(this.instance);
+					r_MDangerousRelease = new(this, "DangerousRelease", 0);
+					r_MDangerousRelease.SetBelong(this.instance);
 				}
-				return r_DangerousRelease;
+				return r_MDangerousRelease;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RReleaseHandle.Invoke(___genericsType, ___parameters);
+            var ___result = RMReleaseHandle.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RSetHandle_IntPtr.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetHandle_IntPtr.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RDangerousGetHandle.Invoke(___genericsType, ___parameters);
+            var ___result = RMDangerousGetHandle.Invoke(___genericsType, ___parameters);
 
             return (System.IntPtr)___result;
         }
@@ -383,7 +383,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RClose.Invoke(___genericsType, ___parameters);
+            var ___result = RMClose.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RDispose.Invoke(___genericsType, ___parameters);
+            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -405,7 +405,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@disposing};
-            var ___result = RDispose_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -416,7 +416,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSetHandleAsInvalid.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetHandleAsInvalid.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -427,7 +427,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@success};
-            var ___result = RDangerousAddRef_Ref_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMDangerousAddRef_Ref_Boolean.Invoke(___genericsType, ___parameters);
 			@success = (System.Boolean)___parameters[0];
 
             
@@ -439,7 +439,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RDangerousRelease.Invoke(___genericsType, ___parameters);
+            var ___result = RMDangerousRelease.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -450,7 +450,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -461,7 +461,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -472,7 +472,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -483,7 +483,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -494,7 +494,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

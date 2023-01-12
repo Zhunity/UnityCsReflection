@@ -13,544 +13,544 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSheets.StylePropertyValue] m_Values
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> r_m_Values;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> Rm_Values
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> r_Fm_Values;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> RFm_Values
 		{
 			get
 			{
-				if(r_m_Values == null)
+				if(r_Fm_Values == null)
 				{
-					r_m_Values = new(this, "m_Values");
-					r_m_Values.SetBelong(this.instance);
+					r_Fm_Values = new(this, "m_Values");
+					r_Fm_Values.SetBelong(this.instance);
 				}
-				return r_m_Values;
+				return r_Fm_Values;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StylePropertyValue current
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue r_current;
-		public virtual RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue Rcurrent
+		protected RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue r_Pcurrent;
+		public virtual RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue RPcurrent
 		{
 			get
 			{
-				if(r_current == null)
+				if(r_Pcurrent == null)
 				{
-					r_current = new(this, "current", -1);
-					r_current.SetBelong(this.instance);
+					r_Pcurrent = new(this, "current", -1);
+					r_Pcurrent.SetBelong(this.instance);
 				}
-				return r_current;
+				return r_Pcurrent;
 			}
 		}
 
 		/// <summary>
 		/// Int32 valueCount
 		/// </summary>
-		protected RSystem.RInt32 r_valueCount;
-		public virtual RSystem.RInt32 RvalueCount
+		protected RSystem.RInt32 r_PvalueCount;
+		public virtual RSystem.RInt32 RPvalueCount
 		{
 			get
 			{
-				if(r_valueCount == null)
+				if(r_PvalueCount == null)
 				{
-					r_valueCount = new(this, "valueCount", -1);
-					r_valueCount.SetBelong(this.instance);
+					r_PvalueCount = new(this, "valueCount", -1);
+					r_PvalueCount.SetBelong(this.instance);
 				}
-				return r_valueCount;
+				return r_PvalueCount;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isCurrentVariable
 		/// </summary>
-		protected RSystem.RBoolean r_isCurrentVariable;
-		public virtual RSystem.RBoolean RisCurrentVariable
+		protected RSystem.RBoolean r_PisCurrentVariable;
+		public virtual RSystem.RBoolean RPisCurrentVariable
 		{
 			get
 			{
-				if(r_isCurrentVariable == null)
+				if(r_PisCurrentVariable == null)
 				{
-					r_isCurrentVariable = new(this, "isCurrentVariable", -1);
-					r_isCurrentVariable.SetBelong(this.instance);
+					r_PisCurrentVariable = new(this, "isCurrentVariable", -1);
+					r_PisCurrentVariable.SetBelong(this.instance);
 				}
-				return r_isCurrentVariable;
+				return r_PisCurrentVariable;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isCurrentComma
 		/// </summary>
-		protected RSystem.RBoolean r_isCurrentComma;
-		public virtual RSystem.RBoolean RisCurrentComma
+		protected RSystem.RBoolean r_PisCurrentComma;
+		public virtual RSystem.RBoolean RPisCurrentComma
 		{
 			get
 			{
-				if(r_isCurrentComma == null)
+				if(r_PisCurrentComma == null)
 				{
-					r_isCurrentComma = new(this, "isCurrentComma", -1);
-					r_isCurrentComma.SetBelong(this.instance);
+					r_PisCurrentComma = new(this, "isCurrentComma", -1);
+					r_PisCurrentComma.SetBelong(this.instance);
 				}
-				return r_isCurrentComma;
+				return r_PisCurrentComma;
 			}
 		}
 
 		/// <summary>
 		/// Boolean hasCurrent
 		/// </summary>
-		protected RSystem.RBoolean r_hasCurrent;
-		public virtual RSystem.RBoolean RhasCurrent
+		protected RSystem.RBoolean r_PhasCurrent;
+		public virtual RSystem.RBoolean RPhasCurrent
 		{
 			get
 			{
-				if(r_hasCurrent == null)
+				if(r_PhasCurrent == null)
 				{
-					r_hasCurrent = new(this, "hasCurrent", -1);
-					r_hasCurrent.SetBelong(this.instance);
+					r_PhasCurrent = new(this, "hasCurrent", -1);
+					r_PhasCurrent.SetBelong(this.instance);
 				}
-				return r_hasCurrent;
+				return r_PhasCurrent;
 			}
 		}
 
 		/// <summary>
 		/// Int32 currentIndex
 		/// </summary>
-		protected RSystem.RInt32 r_currentIndex;
-		public virtual RSystem.RInt32 RcurrentIndex
+		protected RSystem.RInt32 r_PcurrentIndex;
+		public virtual RSystem.RInt32 RPcurrentIndex
 		{
 			get
 			{
-				if(r_currentIndex == null)
+				if(r_PcurrentIndex == null)
 				{
-					r_currentIndex = new(this, "currentIndex", -1);
-					r_currentIndex.SetBelong(this.instance);
+					r_PcurrentIndex = new(this, "currentIndex", -1);
+					r_PcurrentIndex.SetBelong(this.instance);
 				}
-				return r_currentIndex;
+				return r_PcurrentIndex;
 			}
 		}
 
 		/// <summary>
 		/// Int32 matchedVariableCount
 		/// </summary>
-		protected RSystem.RInt32 r_matchedVariableCount;
-		public virtual RSystem.RInt32 RmatchedVariableCount
+		protected RSystem.RInt32 r_PmatchedVariableCount;
+		public virtual RSystem.RInt32 RPmatchedVariableCount
 		{
 			get
 			{
-				if(r_matchedVariableCount == null)
+				if(r_PmatchedVariableCount == null)
 				{
-					r_matchedVariableCount = new(this, "matchedVariableCount", -1);
-					r_matchedVariableCount.SetBelong(this.instance);
+					r_PmatchedVariableCount = new(this, "matchedVariableCount", -1);
+					r_PmatchedVariableCount.SetBelong(this.instance);
 				}
-				return r_matchedVariableCount;
+				return r_PmatchedVariableCount;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.MatchResult Match(UnityEngine.UIElements.StyleSheets.Syntax.Expression, System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSheets.StylePropertyValue])
 		/// </summary>
-		protected RMethod r_Match_Expression_List_d_StylePropertyValue_p_;
-		public virtual RMethod RMatch_Expression_List_d_StylePropertyValue_p_
+		protected RMethod r_MMatch_Expression_List_d_StylePropertyValue_p_;
+		public virtual RMethod RMMatch_Expression_List_d_StylePropertyValue_p_
 		{
 			get
 			{
-				if(r_Match_Expression_List_d_StylePropertyValue_p_ == null)
+				if(r_MMatch_Expression_List_d_StylePropertyValue_p_ == null)
 				{
-					r_Match_Expression_List_d_StylePropertyValue_p_ = new(this, "Match", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.Expression"), typeof(System.Collections.Generic.List<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue")));
-					r_Match_Expression_List_d_StylePropertyValue_p_.SetBelong(this.instance);
+					r_MMatch_Expression_List_d_StylePropertyValue_p_ = new(this, "Match", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.Expression"), typeof(System.Collections.Generic.List<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue")));
+					r_MMatch_Expression_List_d_StylePropertyValue_p_.SetBelong(this.instance);
 				}
-				return r_Match_Expression_List_d_StylePropertyValue_p_;
+				return r_MMatch_Expression_List_d_StylePropertyValue_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MatchKeyword(System.String)
 		/// </summary>
-		protected RMethod r_MatchKeyword_String;
-		public virtual RMethod RMatchKeyword_String
+		protected RMethod r_MMatchKeyword_String;
+		public virtual RMethod RMMatchKeyword_String
 		{
 			get
 			{
-				if(r_MatchKeyword_String == null)
+				if(r_MMatchKeyword_String == null)
 				{
-					r_MatchKeyword_String = new(this, "MatchKeyword", 0, typeof(System.String));
-					r_MatchKeyword_String.SetBelong(this.instance);
+					r_MMatchKeyword_String = new(this, "MatchKeyword", 0, typeof(System.String));
+					r_MMatchKeyword_String.SetBelong(this.instance);
 				}
-				return r_MatchKeyword_String;
+				return r_MMatchKeyword_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MatchNumber()
 		/// </summary>
-		protected RMethod r_MatchNumber;
-		public virtual RMethod RMatchNumber
+		protected RMethod r_MMatchNumber;
+		public virtual RMethod RMMatchNumber
 		{
 			get
 			{
-				if(r_MatchNumber == null)
+				if(r_MMatchNumber == null)
 				{
-					r_MatchNumber = new(this, "MatchNumber", 0);
-					r_MatchNumber.SetBelong(this.instance);
+					r_MMatchNumber = new(this, "MatchNumber", 0);
+					r_MMatchNumber.SetBelong(this.instance);
 				}
-				return r_MatchNumber;
+				return r_MMatchNumber;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MatchInteger()
 		/// </summary>
-		protected RMethod r_MatchInteger;
-		public virtual RMethod RMatchInteger
+		protected RMethod r_MMatchInteger;
+		public virtual RMethod RMMatchInteger
 		{
 			get
 			{
-				if(r_MatchInteger == null)
+				if(r_MMatchInteger == null)
 				{
-					r_MatchInteger = new(this, "MatchInteger", 0);
-					r_MatchInteger.SetBelong(this.instance);
+					r_MMatchInteger = new(this, "MatchInteger", 0);
+					r_MMatchInteger.SetBelong(this.instance);
 				}
-				return r_MatchInteger;
+				return r_MMatchInteger;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MatchLength()
 		/// </summary>
-		protected RMethod r_MatchLength;
-		public virtual RMethod RMatchLength
+		protected RMethod r_MMatchLength;
+		public virtual RMethod RMMatchLength
 		{
 			get
 			{
-				if(r_MatchLength == null)
+				if(r_MMatchLength == null)
 				{
-					r_MatchLength = new(this, "MatchLength", 0);
-					r_MatchLength.SetBelong(this.instance);
+					r_MMatchLength = new(this, "MatchLength", 0);
+					r_MMatchLength.SetBelong(this.instance);
 				}
-				return r_MatchLength;
+				return r_MMatchLength;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MatchPercentage()
 		/// </summary>
-		protected RMethod r_MatchPercentage;
-		public virtual RMethod RMatchPercentage
+		protected RMethod r_MMatchPercentage;
+		public virtual RMethod RMMatchPercentage
 		{
 			get
 			{
-				if(r_MatchPercentage == null)
+				if(r_MMatchPercentage == null)
 				{
-					r_MatchPercentage = new(this, "MatchPercentage", 0);
-					r_MatchPercentage.SetBelong(this.instance);
+					r_MMatchPercentage = new(this, "MatchPercentage", 0);
+					r_MMatchPercentage.SetBelong(this.instance);
 				}
-				return r_MatchPercentage;
+				return r_MMatchPercentage;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MatchColor()
 		/// </summary>
-		protected RMethod r_MatchColor;
-		public virtual RMethod RMatchColor
+		protected RMethod r_MMatchColor;
+		public virtual RMethod RMMatchColor
 		{
 			get
 			{
-				if(r_MatchColor == null)
+				if(r_MMatchColor == null)
 				{
-					r_MatchColor = new(this, "MatchColor", 0);
-					r_MatchColor.SetBelong(this.instance);
+					r_MMatchColor = new(this, "MatchColor", 0);
+					r_MMatchColor.SetBelong(this.instance);
 				}
-				return r_MatchColor;
+				return r_MMatchColor;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MatchResource()
 		/// </summary>
-		protected RMethod r_MatchResource;
-		public virtual RMethod RMatchResource
+		protected RMethod r_MMatchResource;
+		public virtual RMethod RMMatchResource
 		{
 			get
 			{
-				if(r_MatchResource == null)
+				if(r_MMatchResource == null)
 				{
-					r_MatchResource = new(this, "MatchResource", 0);
-					r_MatchResource.SetBelong(this.instance);
+					r_MMatchResource = new(this, "MatchResource", 0);
+					r_MMatchResource.SetBelong(this.instance);
 				}
-				return r_MatchResource;
+				return r_MMatchResource;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MatchUrl()
 		/// </summary>
-		protected RMethod r_MatchUrl;
-		public virtual RMethod RMatchUrl
+		protected RMethod r_MMatchUrl;
+		public virtual RMethod RMMatchUrl
 		{
 			get
 			{
-				if(r_MatchUrl == null)
+				if(r_MMatchUrl == null)
 				{
-					r_MatchUrl = new(this, "MatchUrl", 0);
-					r_MatchUrl.SetBelong(this.instance);
+					r_MMatchUrl = new(this, "MatchUrl", 0);
+					r_MMatchUrl.SetBelong(this.instance);
 				}
-				return r_MatchUrl;
+				return r_MMatchUrl;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MatchTime()
 		/// </summary>
-		protected RMethod r_MatchTime;
-		public virtual RMethod RMatchTime
+		protected RMethod r_MMatchTime;
+		public virtual RMethod RMMatchTime
 		{
 			get
 			{
-				if(r_MatchTime == null)
+				if(r_MMatchTime == null)
 				{
-					r_MatchTime = new(this, "MatchTime", 0);
-					r_MatchTime.SetBelong(this.instance);
+					r_MMatchTime = new(this, "MatchTime", 0);
+					r_MMatchTime.SetBelong(this.instance);
 				}
-				return r_MatchTime;
+				return r_MMatchTime;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MatchCustomIdent()
 		/// </summary>
-		protected RMethod r_MatchCustomIdent;
-		public virtual RMethod RMatchCustomIdent
+		protected RMethod r_MMatchCustomIdent;
+		public virtual RMethod RMMatchCustomIdent
 		{
 			get
 			{
-				if(r_MatchCustomIdent == null)
+				if(r_MMatchCustomIdent == null)
 				{
-					r_MatchCustomIdent = new(this, "MatchCustomIdent", 0);
-					r_MatchCustomIdent.SetBelong(this.instance);
+					r_MMatchCustomIdent = new(this, "MatchCustomIdent", 0);
+					r_MMatchCustomIdent.SetBelong(this.instance);
 				}
-				return r_MatchCustomIdent;
+				return r_MMatchCustomIdent;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MatchAngle()
 		/// </summary>
-		protected RMethod r_MatchAngle;
-		public virtual RMethod RMatchAngle
+		protected RMethod r_MMatchAngle;
+		public virtual RMethod RMMatchAngle
 		{
 			get
 			{
-				if(r_MatchAngle == null)
+				if(r_MMatchAngle == null)
 				{
-					r_MatchAngle = new(this, "MatchAngle", 0);
-					r_MatchAngle.SetBelong(this.instance);
+					r_MMatchAngle = new(this, "MatchAngle", 0);
+					r_MMatchAngle.SetBelong(this.instance);
 				}
-				return r_MatchAngle;
+				return r_MMatchAngle;
 			}
 		}
 
 		/// <summary>
 		/// Void Initialize()
 		/// </summary>
-		protected RMethod r_Initialize;
-		public virtual RMethod RInitialize
+		protected RMethod r_MInitialize;
+		public virtual RMethod RMInitialize
 		{
 			get
 			{
-				if(r_Initialize == null)
+				if(r_MInitialize == null)
 				{
-					r_Initialize = new(this, "Initialize", 0);
-					r_Initialize.SetBelong(this.instance);
+					r_MInitialize = new(this, "Initialize", 0);
+					r_MInitialize.SetBelong(this.instance);
 				}
-				return r_Initialize;
+				return r_MInitialize;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveNext()
 		/// </summary>
-		protected RMethod r_MoveNext;
-		public virtual RMethod RMoveNext
+		protected RMethod r_MMoveNext;
+		public virtual RMethod RMMoveNext
 		{
 			get
 			{
-				if(r_MoveNext == null)
+				if(r_MMoveNext == null)
 				{
-					r_MoveNext = new(this, "MoveNext", 0);
-					r_MoveNext.SetBelong(this.instance);
+					r_MMoveNext = new(this, "MoveNext", 0);
+					r_MMoveNext.SetBelong(this.instance);
 				}
-				return r_MoveNext;
+				return r_MMoveNext;
 			}
 		}
 
 		/// <summary>
 		/// Void SaveContext()
 		/// </summary>
-		protected RMethod r_SaveContext;
-		public virtual RMethod RSaveContext
+		protected RMethod r_MSaveContext;
+		public virtual RMethod RMSaveContext
 		{
 			get
 			{
-				if(r_SaveContext == null)
+				if(r_MSaveContext == null)
 				{
-					r_SaveContext = new(this, "SaveContext", 0);
-					r_SaveContext.SetBelong(this.instance);
+					r_MSaveContext = new(this, "SaveContext", 0);
+					r_MSaveContext.SetBelong(this.instance);
 				}
-				return r_SaveContext;
+				return r_MSaveContext;
 			}
 		}
 
 		/// <summary>
 		/// Void RestoreContext()
 		/// </summary>
-		protected RMethod r_RestoreContext;
-		public virtual RMethod RRestoreContext
+		protected RMethod r_MRestoreContext;
+		public virtual RMethod RMRestoreContext
 		{
 			get
 			{
-				if(r_RestoreContext == null)
+				if(r_MRestoreContext == null)
 				{
-					r_RestoreContext = new(this, "RestoreContext", 0);
-					r_RestoreContext.SetBelong(this.instance);
+					r_MRestoreContext = new(this, "RestoreContext", 0);
+					r_MRestoreContext.SetBelong(this.instance);
 				}
-				return r_RestoreContext;
+				return r_MRestoreContext;
 			}
 		}
 
 		/// <summary>
 		/// Void DropContext()
 		/// </summary>
-		protected RMethod r_DropContext;
-		public virtual RMethod RDropContext
+		protected RMethod r_MDropContext;
+		public virtual RMethod RMDropContext
 		{
 			get
 			{
-				if(r_DropContext == null)
+				if(r_MDropContext == null)
 				{
-					r_DropContext = new(this, "DropContext", 0);
-					r_DropContext.SetBelong(this.instance);
+					r_MDropContext = new(this, "DropContext", 0);
+					r_MDropContext.SetBelong(this.instance);
 				}
-				return r_DropContext;
+				return r_MDropContext;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Match(UnityEngine.UIElements.StyleSheets.Syntax.Expression)
 		/// </summary>
-		protected RMethod r_Match_Expression;
-		public virtual RMethod RMatch_Expression
+		protected RMethod r_MMatch_Expression;
+		public virtual RMethod RMMatch_Expression
 		{
 			get
 			{
-				if(r_Match_Expression == null)
+				if(r_MMatch_Expression == null)
 				{
-					r_Match_Expression = new(this, "Match", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.Expression"));
-					r_Match_Expression.SetBelong(this.instance);
+					r_MMatch_Expression = new(this, "Match", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.Expression"));
+					r_MMatch_Expression.SetBelong(this.instance);
 				}
-				return r_Match_Expression;
+				return r_MMatch_Expression;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -577,7 +577,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@exp.Value, @values.Value};
-            var ___result = RMatch_Expression_List_d_StylePropertyValue_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatch_Expression_List_d_StylePropertyValue_p_.Invoke(___genericsType, ___parameters);
 
             return new RUnityEngine.RUIElements.RStyleSheets.RMatchResult(___result);
         }
@@ -588,7 +588,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
-            var ___result = RMatchKeyword_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatchKeyword_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -599,7 +599,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMatchNumber.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatchNumber.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -610,7 +610,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMatchInteger.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatchInteger.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -621,7 +621,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMatchLength.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatchLength.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -632,7 +632,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMatchPercentage.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatchPercentage.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -643,7 +643,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMatchColor.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatchColor.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -654,7 +654,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMatchResource.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatchResource.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -665,7 +665,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMatchUrl.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatchUrl.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -676,7 +676,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMatchTime.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatchTime.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -687,7 +687,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMatchCustomIdent.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatchCustomIdent.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -698,7 +698,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMatchAngle.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatchAngle.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -709,7 +709,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInitialize.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitialize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -720,7 +720,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMoveNext.Invoke(___genericsType, ___parameters);
+            var ___result = RMMoveNext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -731,7 +731,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSaveContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMSaveContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -742,7 +742,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RRestoreContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMRestoreContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -753,7 +753,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RDropContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMDropContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -764,7 +764,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@exp.Value};
-            var ___result = RMatch_Expression.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatch_Expression.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -775,7 +775,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -786,7 +786,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -797,7 +797,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -808,7 +808,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -819,7 +819,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -830,7 +830,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

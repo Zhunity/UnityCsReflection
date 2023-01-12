@@ -13,2295 +13,2465 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Action`1[UnityEditor.Overlays.Layout] layoutChanged
 		/// </summary>
-		protected REvent r_layoutChanged;
-		public virtual REvent RlayoutChanged
+		protected REvent r_ElayoutChanged;
+		public virtual REvent RElayoutChanged
 		{
 			get
 			{
-				if(r_layoutChanged == null)
+				if(r_ElayoutChanged == null)
 				{
-					r_layoutChanged = new(this, "layoutChanged");
-					r_layoutChanged.SetBelong(this.instance);
+					r_ElayoutChanged = new(this, "layoutChanged");
+					r_ElayoutChanged.SetBelong(this.instance);
 				}
-				return r_layoutChanged;
+				return r_ElayoutChanged;
 			}
 		}
 
 		/// <summary>
 		/// System.Action`1[System.Boolean] collapsedChanged
 		/// </summary>
-		protected REvent r_collapsedChanged;
-		public virtual REvent RcollapsedChanged
+		protected REvent r_EcollapsedChanged;
+		public virtual REvent REcollapsedChanged
 		{
 			get
 			{
-				if(r_collapsedChanged == null)
+				if(r_EcollapsedChanged == null)
 				{
-					r_collapsedChanged = new(this, "collapsedChanged");
-					r_collapsedChanged.SetBelong(this.instance);
+					r_EcollapsedChanged = new(this, "collapsedChanged");
+					r_EcollapsedChanged.SetBelong(this.instance);
 				}
-				return r_collapsedChanged;
+				return r_EcollapsedChanged;
 			}
 		}
 
 		/// <summary>
 		/// System.Action`1[System.Boolean] displayedChanged
 		/// </summary>
-		protected REvent r_displayedChanged;
-		public virtual REvent RdisplayedChanged
+		protected REvent r_EdisplayedChanged;
+		public virtual REvent REdisplayedChanged
 		{
 			get
 			{
-				if(r_displayedChanged == null)
+				if(r_EdisplayedChanged == null)
 				{
-					r_displayedChanged = new(this, "displayedChanged");
-					r_displayedChanged.SetBelong(this.instance);
+					r_EdisplayedChanged = new(this, "displayedChanged");
+					r_EdisplayedChanged.SetBelong(this.instance);
 				}
-				return r_displayedChanged;
+				return r_EdisplayedChanged;
 			}
 		}
 
 		/// <summary>
 		/// System.Action`1[UnityEditor.Overlays.OverlayContainer] containerChanged
 		/// </summary>
-		protected REvent r_containerChanged;
-		public virtual REvent RcontainerChanged
+		protected REvent r_EcontainerChanged;
+		public virtual REvent REcontainerChanged
 		{
 			get
 			{
-				if(r_containerChanged == null)
+				if(r_EcontainerChanged == null)
 				{
-					r_containerChanged = new(this, "containerChanged");
-					r_containerChanged.SetBelong(this.instance);
+					r_EcontainerChanged = new(this, "containerChanged");
+					r_EcontainerChanged.SetBelong(this.instance);
 				}
-				return r_containerChanged;
+				return r_EcontainerChanged;
 			}
 		}
 
 		/// <summary>
 		/// System.Action minSizeChanged
 		/// </summary>
-		protected REvent r_minSizeChanged;
-		public virtual REvent RminSizeChanged
+		protected REvent r_EminSizeChanged;
+		public virtual REvent REminSizeChanged
 		{
 			get
 			{
-				if(r_minSizeChanged == null)
+				if(r_EminSizeChanged == null)
 				{
-					r_minSizeChanged = new(this, "minSizeChanged");
-					r_minSizeChanged.SetBelong(this.instance);
+					r_EminSizeChanged = new(this, "minSizeChanged");
+					r_EminSizeChanged.SetBelong(this.instance);
 				}
-				return r_minSizeChanged;
+				return r_EminSizeChanged;
 			}
 		}
 
 		/// <summary>
 		/// System.Action maxSizeChanged
 		/// </summary>
-		protected REvent r_maxSizeChanged;
-		public virtual REvent RmaxSizeChanged
+		protected REvent r_EmaxSizeChanged;
+		public virtual REvent REmaxSizeChanged
 		{
 			get
 			{
-				if(r_maxSizeChanged == null)
+				if(r_EmaxSizeChanged == null)
 				{
-					r_maxSizeChanged = new(this, "maxSizeChanged");
-					r_maxSizeChanged.SetBelong(this.instance);
+					r_EmaxSizeChanged = new(this, "maxSizeChanged");
+					r_EmaxSizeChanged.SetBelong(this.instance);
 				}
-				return r_maxSizeChanged;
+				return r_EmaxSizeChanged;
 			}
 		}
 
 		/// <summary>
 		/// System.Action sizeOverridenChanged
 		/// </summary>
-		protected REvent r_sizeOverridenChanged;
-		public virtual REvent RsizeOverridenChanged
+		protected REvent r_EsizeOverridenChanged;
+		public virtual REvent REsizeOverridenChanged
 		{
 			get
 			{
-				if(r_sizeOverridenChanged == null)
+				if(r_EsizeOverridenChanged == null)
 				{
-					r_sizeOverridenChanged = new(this, "sizeOverridenChanged");
-					r_sizeOverridenChanged.SetBelong(this.instance);
+					r_EsizeOverridenChanged = new(this, "sizeOverridenChanged");
+					r_EsizeOverridenChanged.SetBelong(this.instance);
 				}
-				return r_sizeOverridenChanged;
+				return r_EsizeOverridenChanged;
 			}
 		}
 
 		/// <summary>
 		/// System.Action`1[System.Boolean] floatingChanged
 		/// </summary>
-		protected REvent r_floatingChanged;
-		public virtual REvent RfloatingChanged
+		protected REvent r_EfloatingChanged;
+		public virtual REvent REfloatingChanged
 		{
 			get
 			{
-				if(r_floatingChanged == null)
+				if(r_EfloatingChanged == null)
 				{
-					r_floatingChanged = new(this, "floatingChanged");
-					r_floatingChanged.SetBelong(this.instance);
+					r_EfloatingChanged = new(this, "floatingChanged");
+					r_EfloatingChanged.SetBelong(this.instance);
 				}
-				return r_floatingChanged;
+				return r_EfloatingChanged;
 			}
 		}
 
 		/// <summary>
 		/// System.Action`1[UnityEngine.Vector3] floatingPositionChanged
 		/// </summary>
-		protected REvent r_floatingPositionChanged;
-		public virtual REvent RfloatingPositionChanged
+		protected REvent r_EfloatingPositionChanged;
+		public virtual REvent REfloatingPositionChanged
 		{
 			get
 			{
-				if(r_floatingPositionChanged == null)
+				if(r_EfloatingPositionChanged == null)
 				{
-					r_floatingPositionChanged = new(this, "floatingPositionChanged");
-					r_floatingPositionChanged.SetBelong(this.instance);
+					r_EfloatingPositionChanged = new(this, "floatingPositionChanged");
+					r_EfloatingPositionChanged.SetBelong(this.instance);
 				}
-				return r_floatingPositionChanged;
+				return r_EfloatingPositionChanged;
 			}
 		}
 
 		/// <summary>
 		/// System.Action displayNameChanged
 		/// </summary>
-		protected REvent r_displayNameChanged;
-		public virtual REvent RdisplayNameChanged
+		protected REvent r_EdisplayNameChanged;
+		public virtual REvent REdisplayNameChanged
 		{
 			get
 			{
-				if(r_displayNameChanged == null)
+				if(r_EdisplayNameChanged == null)
 				{
-					r_displayNameChanged = new(this, "displayNameChanged");
-					r_displayNameChanged.SetBelong(this.instance);
+					r_EdisplayNameChanged = new(this, "displayNameChanged");
+					r_EdisplayNameChanged.SetBelong(this.instance);
 				}
-				return r_displayNameChanged;
+				return r_EdisplayNameChanged;
 			}
 		}
 
 		/// <summary>
 		/// System.String k_UxmlPath
 		/// </summary>
-		protected static RSystem.RString r_k_UxmlPath;
-		public static RSystem.RString Rk_UxmlPath
+		protected static RSystem.RString r_Fk_UxmlPath;
+		public static RSystem.RString RFk_UxmlPath
 		{
 			get
 			{
-				if(r_k_UxmlPath == null)
+				if(r_Fk_UxmlPath == null)
 				{
-					r_k_UxmlPath = new(typeof(UnityEditor.Overlays.Overlay), "k_UxmlPath");
-					r_k_UxmlPath.SetBelong(null);
+					r_Fk_UxmlPath = new(typeof(UnityEditor.Overlays.Overlay), "k_UxmlPath");
+					r_Fk_UxmlPath.SetBelong(null);
 				}
-				return r_k_UxmlPath;
+				return r_Fk_UxmlPath;
 			}
 		}
 
 		/// <summary>
 		/// System.String ussClassName
 		/// </summary>
-		protected static RSystem.RString r_ussClassName;
-		public static RSystem.RString RussClassName
+		protected static RSystem.RString r_FussClassName;
+		public static RSystem.RString RFussClassName
 		{
 			get
 			{
-				if(r_ussClassName == null)
+				if(r_FussClassName == null)
 				{
-					r_ussClassName = new(typeof(UnityEditor.Overlays.Overlay), "ussClassName");
-					r_ussClassName.SetBelong(null);
+					r_FussClassName = new(typeof(UnityEditor.Overlays.Overlay), "ussClassName");
+					r_FussClassName.SetBelong(null);
 				}
-				return r_ussClassName;
+				return r_FussClassName;
 			}
 		}
 
 		/// <summary>
 		/// System.String k_Highlight
 		/// </summary>
-		protected static RSystem.RString r_k_Highlight;
-		public static RSystem.RString Rk_Highlight
+		protected static RSystem.RString r_Fk_Highlight;
+		public static RSystem.RString RFk_Highlight
 		{
 			get
 			{
-				if(r_k_Highlight == null)
+				if(r_Fk_Highlight == null)
 				{
-					r_k_Highlight = new(typeof(UnityEditor.Overlays.Overlay), "k_Highlight");
-					r_k_Highlight.SetBelong(null);
+					r_Fk_Highlight = new(typeof(UnityEditor.Overlays.Overlay), "k_Highlight");
+					r_Fk_Highlight.SetBelong(null);
 				}
-				return r_k_Highlight;
+				return r_Fk_Highlight;
 			}
 		}
 
 		/// <summary>
 		/// System.String k_Floating
 		/// </summary>
-		protected static RSystem.RString r_k_Floating;
-		public static RSystem.RString Rk_Floating
+		protected static RSystem.RString r_Fk_Floating;
+		public static RSystem.RString RFk_Floating
 		{
 			get
 			{
-				if(r_k_Floating == null)
+				if(r_Fk_Floating == null)
 				{
-					r_k_Floating = new(typeof(UnityEditor.Overlays.Overlay), "k_Floating");
-					r_k_Floating.SetBelong(null);
+					r_Fk_Floating = new(typeof(UnityEditor.Overlays.Overlay), "k_Floating");
+					r_Fk_Floating.SetBelong(null);
 				}
-				return r_k_Floating;
+				return r_Fk_Floating;
 			}
 		}
 
 		/// <summary>
 		/// System.String headerTitle
 		/// </summary>
-		protected static RSystem.RString r_headerTitle;
-		public static RSystem.RString RheaderTitle
+		protected static RSystem.RString r_FheaderTitle;
+		public static RSystem.RString RFheaderTitle
 		{
 			get
 			{
-				if(r_headerTitle == null)
+				if(r_FheaderTitle == null)
 				{
-					r_headerTitle = new(typeof(UnityEditor.Overlays.Overlay), "headerTitle");
-					r_headerTitle.SetBelong(null);
+					r_FheaderTitle = new(typeof(UnityEditor.Overlays.Overlay), "headerTitle");
+					r_FheaderTitle.SetBelong(null);
 				}
-				return r_headerTitle;
+				return r_FheaderTitle;
 			}
 		}
 
 		/// <summary>
 		/// System.String k_Collapsed
 		/// </summary>
-		protected static RSystem.RString r_k_Collapsed;
-		public static RSystem.RString Rk_Collapsed
+		protected static RSystem.RString r_Fk_Collapsed;
+		public static RSystem.RString RFk_Collapsed
 		{
 			get
 			{
-				if(r_k_Collapsed == null)
+				if(r_Fk_Collapsed == null)
 				{
-					r_k_Collapsed = new(typeof(UnityEditor.Overlays.Overlay), "k_Collapsed");
-					r_k_Collapsed.SetBelong(null);
+					r_Fk_Collapsed = new(typeof(UnityEditor.Overlays.Overlay), "k_Collapsed");
+					r_Fk_Collapsed.SetBelong(null);
 				}
-				return r_k_Collapsed;
+				return r_Fk_Collapsed;
 			}
 		}
 
 		/// <summary>
 		/// System.String k_Header
 		/// </summary>
-		protected static RSystem.RString r_k_Header;
-		public static RSystem.RString Rk_Header
+		protected static RSystem.RString r_Fk_Header;
+		public static RSystem.RString RFk_Header
 		{
 			get
 			{
-				if(r_k_Header == null)
+				if(r_Fk_Header == null)
 				{
-					r_k_Header = new(typeof(UnityEditor.Overlays.Overlay), "k_Header");
-					r_k_Header.SetBelong(null);
+					r_Fk_Header = new(typeof(UnityEditor.Overlays.Overlay), "k_Header");
+					r_Fk_Header.SetBelong(null);
 				}
-				return r_k_Header;
+				return r_Fk_Header;
 			}
 		}
 
 		/// <summary>
 		/// System.String k_Expanded
 		/// </summary>
-		protected static RSystem.RString r_k_Expanded;
-		public static RSystem.RString Rk_Expanded
+		protected static RSystem.RString r_Fk_Expanded;
+		public static RSystem.RString RFk_Expanded
 		{
 			get
 			{
-				if(r_k_Expanded == null)
+				if(r_Fk_Expanded == null)
 				{
-					r_k_Expanded = new(typeof(UnityEditor.Overlays.Overlay), "k_Expanded");
-					r_k_Expanded.SetBelong(null);
+					r_Fk_Expanded = new(typeof(UnityEditor.Overlays.Overlay), "k_Expanded");
+					r_Fk_Expanded.SetBelong(null);
 				}
-				return r_k_Expanded;
+				return r_Fk_Expanded;
 			}
 		}
 
 		/// <summary>
 		/// System.String k_CollapsedContent
 		/// </summary>
-		protected static RSystem.RString r_k_CollapsedContent;
-		public static RSystem.RString Rk_CollapsedContent
+		protected static RSystem.RString r_Fk_CollapsedContent;
+		public static RSystem.RString RFk_CollapsedContent
 		{
 			get
 			{
-				if(r_k_CollapsedContent == null)
+				if(r_Fk_CollapsedContent == null)
 				{
-					r_k_CollapsedContent = new(typeof(UnityEditor.Overlays.Overlay), "k_CollapsedContent");
-					r_k_CollapsedContent.SetBelong(null);
+					r_Fk_CollapsedContent = new(typeof(UnityEditor.Overlays.Overlay), "k_CollapsedContent");
+					r_Fk_CollapsedContent.SetBelong(null);
 				}
-				return r_k_CollapsedContent;
+				return r_Fk_CollapsedContent;
 			}
 		}
 
 		/// <summary>
 		/// System.String k_CollapsedIconButton
 		/// </summary>
-		protected static RSystem.RString r_k_CollapsedIconButton;
-		public static RSystem.RString Rk_CollapsedIconButton
+		protected static RSystem.RString r_Fk_CollapsedIconButton;
+		public static RSystem.RString RFk_CollapsedIconButton
 		{
 			get
 			{
-				if(r_k_CollapsedIconButton == null)
+				if(r_Fk_CollapsedIconButton == null)
 				{
-					r_k_CollapsedIconButton = new(typeof(UnityEditor.Overlays.Overlay), "k_CollapsedIconButton");
-					r_k_CollapsedIconButton.SetBelong(null);
+					r_Fk_CollapsedIconButton = new(typeof(UnityEditor.Overlays.Overlay), "k_CollapsedIconButton");
+					r_Fk_CollapsedIconButton.SetBelong(null);
 				}
-				return r_k_CollapsedIconButton;
+				return r_Fk_CollapsedIconButton;
 			}
 		}
 
 		/// <summary>
 		/// System.String k_ToolbarHorizontalLayout
 		/// </summary>
-		protected static RSystem.RString r_k_ToolbarHorizontalLayout;
-		public static RSystem.RString Rk_ToolbarHorizontalLayout
+		protected static RSystem.RString r_Fk_ToolbarHorizontalLayout;
+		public static RSystem.RString RFk_ToolbarHorizontalLayout
 		{
 			get
 			{
-				if(r_k_ToolbarHorizontalLayout == null)
+				if(r_Fk_ToolbarHorizontalLayout == null)
 				{
-					r_k_ToolbarHorizontalLayout = new(typeof(UnityEditor.Overlays.Overlay), "k_ToolbarHorizontalLayout");
-					r_k_ToolbarHorizontalLayout.SetBelong(null);
+					r_Fk_ToolbarHorizontalLayout = new(typeof(UnityEditor.Overlays.Overlay), "k_ToolbarHorizontalLayout");
+					r_Fk_ToolbarHorizontalLayout.SetBelong(null);
 				}
-				return r_k_ToolbarHorizontalLayout;
+				return r_Fk_ToolbarHorizontalLayout;
 			}
 		}
 
 		/// <summary>
 		/// System.String k_ToolbarVerticalLayout
 		/// </summary>
-		protected static RSystem.RString r_k_ToolbarVerticalLayout;
-		public static RSystem.RString Rk_ToolbarVerticalLayout
+		protected static RSystem.RString r_Fk_ToolbarVerticalLayout;
+		public static RSystem.RString RFk_ToolbarVerticalLayout
 		{
 			get
 			{
-				if(r_k_ToolbarVerticalLayout == null)
+				if(r_Fk_ToolbarVerticalLayout == null)
 				{
-					r_k_ToolbarVerticalLayout = new(typeof(UnityEditor.Overlays.Overlay), "k_ToolbarVerticalLayout");
-					r_k_ToolbarVerticalLayout.SetBelong(null);
+					r_Fk_ToolbarVerticalLayout = new(typeof(UnityEditor.Overlays.Overlay), "k_ToolbarVerticalLayout");
+					r_Fk_ToolbarVerticalLayout.SetBelong(null);
 				}
-				return r_k_ToolbarVerticalLayout;
+				return r_Fk_ToolbarVerticalLayout;
 			}
 		}
 
 		/// <summary>
 		/// System.String k_PanelLayout
 		/// </summary>
-		protected static RSystem.RString r_k_PanelLayout;
-		public static RSystem.RString Rk_PanelLayout
+		protected static RSystem.RString r_Fk_PanelLayout;
+		public static RSystem.RString RFk_PanelLayout
 		{
 			get
 			{
-				if(r_k_PanelLayout == null)
+				if(r_Fk_PanelLayout == null)
 				{
-					r_k_PanelLayout = new(typeof(UnityEditor.Overlays.Overlay), "k_PanelLayout");
-					r_k_PanelLayout.SetBelong(null);
+					r_Fk_PanelLayout = new(typeof(UnityEditor.Overlays.Overlay), "k_PanelLayout");
+					r_Fk_PanelLayout.SetBelong(null);
 				}
-				return r_k_PanelLayout;
+				return r_Fk_PanelLayout;
 			}
 		}
 
 		/// <summary>
 		/// System.String m_Id
 		/// </summary>
-		protected RSystem.RString r_m_Id;
-		public virtual RSystem.RString Rm_Id
+		protected RSystem.RString r_Fm_Id;
+		public virtual RSystem.RString RFm_Id
 		{
 			get
 			{
-				if(r_m_Id == null)
+				if(r_Fm_Id == null)
 				{
-					r_m_Id = new(this, "m_Id");
-					r_m_Id.SetBelong(this.instance);
+					r_Fm_Id = new(this, "m_Id");
+					r_Fm_Id.SetBelong(this.instance);
 				}
-				return r_m_Id;
+				return r_Fm_Id;
 			}
 		}
 
 		/// <summary>
 		/// System.String m_RootVisualElementName
 		/// </summary>
-		protected RSystem.RString r_m_RootVisualElementName;
-		public virtual RSystem.RString Rm_RootVisualElementName
+		protected RSystem.RString r_Fm_RootVisualElementName;
+		public virtual RSystem.RString RFm_RootVisualElementName
 		{
 			get
 			{
-				if(r_m_RootVisualElementName == null)
+				if(r_Fm_RootVisualElementName == null)
 				{
-					r_m_RootVisualElementName = new(this, "m_RootVisualElementName");
-					r_m_RootVisualElementName.SetBelong(this.instance);
+					r_Fm_RootVisualElementName = new(this, "m_RootVisualElementName");
+					r_Fm_RootVisualElementName.SetBelong(this.instance);
 				}
-				return r_m_RootVisualElementName;
+				return r_Fm_RootVisualElementName;
 			}
 		}
 
 		/// <summary>
 		/// System.String m_DisplayName
 		/// </summary>
-		protected RSystem.RString r_m_DisplayName;
-		public virtual RSystem.RString Rm_DisplayName
+		protected RSystem.RString r_Fm_DisplayName;
+		public virtual RSystem.RString RFm_DisplayName
 		{
 			get
 			{
-				if(r_m_DisplayName == null)
+				if(r_Fm_DisplayName == null)
 				{
-					r_m_DisplayName = new(this, "m_DisplayName");
-					r_m_DisplayName.SetBelong(this.instance);
+					r_Fm_DisplayName = new(this, "m_DisplayName");
+					r_Fm_DisplayName.SetBelong(this.instance);
 				}
-				return r_m_DisplayName;
+				return r_Fm_DisplayName;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.Layout m_Layout
 		/// </summary>
-		protected RField r_m_Layout;
-		public virtual RField Rm_Layout
+		protected RUnityEditor.ROverlays.RLayout r_Fm_Layout;
+		public virtual RUnityEditor.ROverlays.RLayout RFm_Layout
 		{
 			get
 			{
-				if(r_m_Layout == null)
+				if(r_Fm_Layout == null)
 				{
-					r_m_Layout = new(this, "m_Layout");
-					r_m_Layout.SetBelong(this.instance);
+					r_Fm_Layout = new(this, "m_Layout");
+					r_Fm_Layout.SetBelong(this.instance);
 				}
-				return r_m_Layout;
+				return r_Fm_Layout;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.Layout m_ActiveLayout
 		/// </summary>
-		protected RField r_m_ActiveLayout;
-		public virtual RField Rm_ActiveLayout
+		protected RUnityEditor.ROverlays.RLayout r_Fm_ActiveLayout;
+		public virtual RUnityEditor.ROverlays.RLayout RFm_ActiveLayout
 		{
 			get
 			{
-				if(r_m_ActiveLayout == null)
+				if(r_Fm_ActiveLayout == null)
 				{
-					r_m_ActiveLayout = new(this, "m_ActiveLayout");
-					r_m_ActiveLayout.SetBelong(this.instance);
+					r_Fm_ActiveLayout = new(this, "m_ActiveLayout");
+					r_Fm_ActiveLayout.SetBelong(this.instance);
 				}
-				return r_m_ActiveLayout;
+				return r_Fm_ActiveLayout;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_Collapsed
 		/// </summary>
-		protected RSystem.RBoolean r_m_Collapsed;
-		public virtual RSystem.RBoolean Rm_Collapsed
+		protected RSystem.RBoolean r_Fm_Collapsed;
+		public virtual RSystem.RBoolean RFm_Collapsed
 		{
 			get
 			{
-				if(r_m_Collapsed == null)
+				if(r_Fm_Collapsed == null)
 				{
-					r_m_Collapsed = new(this, "m_Collapsed");
-					r_m_Collapsed.SetBelong(this.instance);
+					r_Fm_Collapsed = new(this, "m_Collapsed");
+					r_Fm_Collapsed.SetBelong(this.instance);
 				}
-				return r_m_Collapsed;
+				return r_Fm_Collapsed;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean <dontSaveInLayout>k__BackingField
 		/// </summary>
-		protected RSystem.RBoolean r___0__dontSaveInLayout__1__k__BackingField;
-		public virtual RSystem.RBoolean R__0__dontSaveInLayout__1__k__BackingField
+		protected RSystem.RBoolean r_F__0__dontSaveInLayout__1__k__BackingField;
+		public virtual RSystem.RBoolean RF__0__dontSaveInLayout__1__k__BackingField
 		{
 			get
 			{
-				if(r___0__dontSaveInLayout__1__k__BackingField == null)
+				if(r_F__0__dontSaveInLayout__1__k__BackingField == null)
 				{
-					r___0__dontSaveInLayout__1__k__BackingField = new(this, "<dontSaveInLayout>k__BackingField");
-					r___0__dontSaveInLayout__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__dontSaveInLayout__1__k__BackingField = new(this, "<dontSaveInLayout>k__BackingField");
+					r_F__0__dontSaveInLayout__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___0__dontSaveInLayout__1__k__BackingField;
+				return r_F__0__dontSaveInLayout__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_HasMenuEntry
 		/// </summary>
-		protected RSystem.RBoolean r_m_HasMenuEntry;
-		public virtual RSystem.RBoolean Rm_HasMenuEntry
+		protected RSystem.RBoolean r_Fm_HasMenuEntry;
+		public virtual RSystem.RBoolean RFm_HasMenuEntry
 		{
 			get
 			{
-				if(r_m_HasMenuEntry == null)
+				if(r_Fm_HasMenuEntry == null)
 				{
-					r_m_HasMenuEntry = new(this, "m_HasMenuEntry");
-					r_m_HasMenuEntry.SetBelong(this.instance);
+					r_Fm_HasMenuEntry = new(this, "m_HasMenuEntry");
+					r_Fm_HasMenuEntry.SetBelong(this.instance);
 				}
-				return r_m_HasMenuEntry;
+				return r_Fm_HasMenuEntry;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_Floating
 		/// </summary>
-		protected RSystem.RBoolean r_m_Floating;
-		public virtual RSystem.RBoolean Rm_Floating
+		protected RSystem.RBoolean r_Fm_Floating;
+		public virtual RSystem.RBoolean RFm_Floating
 		{
 			get
 			{
-				if(r_m_Floating == null)
+				if(r_Fm_Floating == null)
 				{
-					r_m_Floating = new(this, "m_Floating");
-					r_m_Floating.SetBelong(this.instance);
+					r_Fm_Floating = new(this, "m_Floating");
+					r_Fm_Floating.SetBelong(this.instance);
 				}
-				return r_m_Floating;
+				return r_Fm_Floating;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 m_FloatingSnapOffset
 		/// </summary>
-		protected RUnityEngine.RVector2 r_m_FloatingSnapOffset;
-		public virtual RUnityEngine.RVector2 Rm_FloatingSnapOffset
+		protected RUnityEngine.RVector2 r_Fm_FloatingSnapOffset;
+		public virtual RUnityEngine.RVector2 RFm_FloatingSnapOffset
 		{
 			get
 			{
-				if(r_m_FloatingSnapOffset == null)
+				if(r_Fm_FloatingSnapOffset == null)
 				{
-					r_m_FloatingSnapOffset = new(this, "m_FloatingSnapOffset");
-					r_m_FloatingSnapOffset.SetBelong(this.instance);
+					r_Fm_FloatingSnapOffset = new(this, "m_FloatingSnapOffset");
+					r_Fm_FloatingSnapOffset.SetBelong(this.instance);
 				}
-				return r_m_FloatingSnapOffset;
+				return r_Fm_FloatingSnapOffset;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 m_SnapOffsetDelta
 		/// </summary>
-		protected RUnityEngine.RVector2 r_m_SnapOffsetDelta;
-		public virtual RUnityEngine.RVector2 Rm_SnapOffsetDelta
+		protected RUnityEngine.RVector2 r_Fm_SnapOffsetDelta;
+		public virtual RUnityEngine.RVector2 RFm_SnapOffsetDelta
 		{
 			get
 			{
-				if(r_m_SnapOffsetDelta == null)
+				if(r_Fm_SnapOffsetDelta == null)
 				{
-					r_m_SnapOffsetDelta = new(this, "m_SnapOffsetDelta");
-					r_m_SnapOffsetDelta.SetBelong(this.instance);
+					r_Fm_SnapOffsetDelta = new(this, "m_SnapOffsetDelta");
+					r_Fm_SnapOffsetDelta.SetBelong(this.instance);
 				}
-				return r_m_SnapOffsetDelta;
+				return r_Fm_SnapOffsetDelta;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 m_MinSize
 		/// </summary>
-		protected RUnityEngine.RVector2 r_m_MinSize;
-		public virtual RUnityEngine.RVector2 Rm_MinSize
+		protected RUnityEngine.RVector2 r_Fm_MinSize;
+		public virtual RUnityEngine.RVector2 RFm_MinSize
 		{
 			get
 			{
-				if(r_m_MinSize == null)
+				if(r_Fm_MinSize == null)
 				{
-					r_m_MinSize = new(this, "m_MinSize");
-					r_m_MinSize.SetBelong(this.instance);
+					r_Fm_MinSize = new(this, "m_MinSize");
+					r_Fm_MinSize.SetBelong(this.instance);
 				}
-				return r_m_MinSize;
+				return r_Fm_MinSize;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 m_MaxSize
 		/// </summary>
-		protected RUnityEngine.RVector2 r_m_MaxSize;
-		public virtual RUnityEngine.RVector2 Rm_MaxSize
+		protected RUnityEngine.RVector2 r_Fm_MaxSize;
+		public virtual RUnityEngine.RVector2 RFm_MaxSize
 		{
 			get
 			{
-				if(r_m_MaxSize == null)
+				if(r_Fm_MaxSize == null)
 				{
-					r_m_MaxSize = new(this, "m_MaxSize");
-					r_m_MaxSize.SetBelong(this.instance);
+					r_Fm_MaxSize = new(this, "m_MaxSize");
+					r_Fm_MaxSize.SetBelong(this.instance);
 				}
-				return r_m_MaxSize;
+				return r_Fm_MaxSize;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 m_Size
 		/// </summary>
-		protected RUnityEngine.RVector2 r_m_Size;
-		public virtual RUnityEngine.RVector2 Rm_Size
+		protected RUnityEngine.RVector2 r_Fm_Size;
+		public virtual RUnityEngine.RVector2 RFm_Size
 		{
 			get
 			{
-				if(r_m_Size == null)
+				if(r_Fm_Size == null)
 				{
-					r_m_Size = new(this, "m_Size");
-					r_m_Size.SetBelong(this.instance);
+					r_Fm_Size = new(this, "m_Size");
+					r_Fm_Size.SetBelong(this.instance);
 				}
-				return r_m_Size;
+				return r_Fm_Size;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_SizeOverridden
 		/// </summary>
-		protected RSystem.RBoolean r_m_SizeOverridden;
-		public virtual RSystem.RBoolean Rm_SizeOverridden
+		protected RSystem.RBoolean r_Fm_SizeOverridden;
+		public virtual RSystem.RBoolean RFm_SizeOverridden
 		{
 			get
 			{
-				if(r_m_SizeOverridden == null)
+				if(r_Fm_SizeOverridden == null)
 				{
-					r_m_SizeOverridden = new(this, "m_SizeOverridden");
-					r_m_SizeOverridden.SetBelong(this.instance);
+					r_Fm_SizeOverridden = new(this, "m_SizeOverridden");
+					r_Fm_SizeOverridden.SetBelong(this.instance);
 				}
-				return r_m_SizeOverridden;
+				return r_Fm_SizeOverridden;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_LockAnchor
 		/// </summary>
-		protected RSystem.RBoolean r_m_LockAnchor;
-		public virtual RSystem.RBoolean Rm_LockAnchor
+		protected RSystem.RBoolean r_Fm_LockAnchor;
+		public virtual RSystem.RBoolean RFm_LockAnchor
 		{
 			get
 			{
-				if(r_m_LockAnchor == null)
+				if(r_Fm_LockAnchor == null)
 				{
-					r_m_LockAnchor = new(this, "m_LockAnchor");
-					r_m_LockAnchor.SetBelong(this.instance);
+					r_Fm_LockAnchor = new(this, "m_LockAnchor");
+					r_Fm_LockAnchor.SetBelong(this.instance);
 				}
-				return r_m_LockAnchor;
+				return r_Fm_LockAnchor;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_ContentsChanged
 		/// </summary>
-		protected RSystem.RBoolean r_m_ContentsChanged;
-		public virtual RSystem.RBoolean Rm_ContentsChanged
+		protected RSystem.RBoolean r_Fm_ContentsChanged;
+		public virtual RSystem.RBoolean RFm_ContentsChanged
 		{
 			get
 			{
-				if(r_m_ContentsChanged == null)
+				if(r_Fm_ContentsChanged == null)
 				{
-					r_m_ContentsChanged = new(this, "m_ContentsChanged");
-					r_m_ContentsChanged.SetBelong(this.instance);
+					r_Fm_ContentsChanged = new(this, "m_ContentsChanged");
+					r_Fm_ContentsChanged.SetBelong(this.instance);
 				}
-				return r_m_ContentsChanged;
+				return r_Fm_ContentsChanged;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_DisableContentModification
 		/// </summary>
-		protected RSystem.RBoolean r_m_DisableContentModification;
-		public virtual RSystem.RBoolean Rm_DisableContentModification
+		protected RSystem.RBoolean r_Fm_DisableContentModification;
+		public virtual RSystem.RBoolean RFm_DisableContentModification
 		{
 			get
 			{
-				if(r_m_DisableContentModification == null)
+				if(r_Fm_DisableContentModification == null)
 				{
-					r_m_DisableContentModification = new(this, "m_DisableContentModification");
-					r_m_DisableContentModification.SetBelong(this.instance);
+					r_Fm_DisableContentModification = new(this, "m_DisableContentModification");
+					r_Fm_DisableContentModification.SetBelong(this.instance);
 				}
-				return r_m_DisableContentModification;
+				return r_Fm_DisableContentModification;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayCanvas <canvas>k__BackingField
 		/// </summary>
-		protected RUnityEditor.ROverlays.ROverlayCanvas r___0__canvas__1__k__BackingField;
-		public virtual RUnityEditor.ROverlays.ROverlayCanvas R__0__canvas__1__k__BackingField
+		protected RUnityEditor.ROverlays.ROverlayCanvas r_F__0__canvas__1__k__BackingField;
+		public virtual RUnityEditor.ROverlays.ROverlayCanvas RF__0__canvas__1__k__BackingField
 		{
 			get
 			{
-				if(r___0__canvas__1__k__BackingField == null)
+				if(r_F__0__canvas__1__k__BackingField == null)
 				{
-					r___0__canvas__1__k__BackingField = new(this, "<canvas>k__BackingField");
-					r___0__canvas__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__canvas__1__k__BackingField = new(this, "<canvas>k__BackingField");
+					r_F__0__canvas__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___0__canvas__1__k__BackingField;
+				return r_F__0__canvas__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayContainer m_Container
 		/// </summary>
-		protected RUnityEditor.ROverlays.ROverlayContainer r_m_Container;
-		public virtual RUnityEditor.ROverlays.ROverlayContainer Rm_Container
+		protected RUnityEditor.ROverlays.ROverlayContainer r_Fm_Container;
+		public virtual RUnityEditor.ROverlays.ROverlayContainer RFm_Container
 		{
 			get
 			{
-				if(r_m_Container == null)
+				if(r_Fm_Container == null)
 				{
-					r_m_Container = new(this, "m_Container");
-					r_m_Container.SetBelong(this.instance);
+					r_Fm_Container = new(this, "m_Container");
+					r_Fm_Container.SetBelong(this.instance);
 				}
-				return r_m_Container;
+				return r_Fm_Container;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_CurrentContent
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r_m_CurrentContent;
-		public virtual RUnityEngine.RUIElements.RVisualElement Rm_CurrentContent
+		protected RUnityEngine.RUIElements.RVisualElement r_Fm_CurrentContent;
+		public virtual RUnityEngine.RUIElements.RVisualElement RFm_CurrentContent
 		{
 			get
 			{
-				if(r_m_CurrentContent == null)
+				if(r_Fm_CurrentContent == null)
 				{
-					r_m_CurrentContent = new(this, "m_CurrentContent");
-					r_m_CurrentContent.SetBelong(this.instance);
+					r_Fm_CurrentContent = new(this, "m_CurrentContent");
+					r_Fm_CurrentContent.SetBelong(this.instance);
 				}
-				return r_m_CurrentContent;
+				return r_Fm_CurrentContent;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_CollapsedContent
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r_m_CollapsedContent;
-		public virtual RUnityEngine.RUIElements.RVisualElement Rm_CollapsedContent
+		protected RUnityEngine.RUIElements.RVisualElement r_Fm_CollapsedContent;
+		public virtual RUnityEngine.RUIElements.RVisualElement RFm_CollapsedContent
 		{
 			get
 			{
-				if(r_m_CollapsedContent == null)
+				if(r_Fm_CollapsedContent == null)
 				{
-					r_m_CollapsedContent = new(this, "m_CollapsedContent");
-					r_m_CollapsedContent.SetBelong(this.instance);
+					r_Fm_CollapsedContent = new(this, "m_CollapsedContent");
+					r_Fm_CollapsedContent.SetBelong(this.instance);
 				}
-				return r_m_CollapsedContent;
+				return r_Fm_CollapsedContent;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayPopup m_ModalPopup
 		/// </summary>
-		protected RUnityEditor.ROverlays.ROverlayPopup r_m_ModalPopup;
-		public virtual RUnityEditor.ROverlays.ROverlayPopup Rm_ModalPopup
+		protected RUnityEditor.ROverlays.ROverlayPopup r_Fm_ModalPopup;
+		public virtual RUnityEditor.ROverlays.ROverlayPopup RFm_ModalPopup
 		{
 			get
 			{
-				if(r_m_ModalPopup == null)
+				if(r_Fm_ModalPopup == null)
 				{
-					r_m_ModalPopup = new(this, "m_ModalPopup");
-					r_m_ModalPopup.SetBelong(this.instance);
+					r_Fm_ModalPopup = new(this, "m_ModalPopup");
+					r_Fm_ModalPopup.SetBelong(this.instance);
 				}
-				return r_m_ModalPopup;
+				return r_Fm_ModalPopup;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_RootVisualElement
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r_m_RootVisualElement;
-		public virtual RUnityEngine.RUIElements.RVisualElement Rm_RootVisualElement
+		protected RUnityEngine.RUIElements.RVisualElement r_Fm_RootVisualElement;
+		public virtual RUnityEngine.RUIElements.RVisualElement RFm_RootVisualElement
 		{
 			get
 			{
-				if(r_m_RootVisualElement == null)
+				if(r_Fm_RootVisualElement == null)
 				{
-					r_m_RootVisualElement = new(this, "m_RootVisualElement");
-					r_m_RootVisualElement.SetBelong(this.instance);
+					r_Fm_RootVisualElement = new(this, "m_RootVisualElement");
+					r_Fm_RootVisualElement.SetBelong(this.instance);
 				}
-				return r_m_RootVisualElement;
+				return r_Fm_RootVisualElement;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_ResizeTarget
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r_m_ResizeTarget;
-		public virtual RUnityEngine.RUIElements.RVisualElement Rm_ResizeTarget
+		protected RUnityEngine.RUIElements.RVisualElement r_Fm_ResizeTarget;
+		public virtual RUnityEngine.RUIElements.RVisualElement RFm_ResizeTarget
 		{
 			get
 			{
-				if(r_m_ResizeTarget == null)
+				if(r_Fm_ResizeTarget == null)
 				{
-					r_m_ResizeTarget = new(this, "m_ResizeTarget");
-					r_m_ResizeTarget.SetBelong(this.instance);
+					r_Fm_ResizeTarget = new(this, "m_ResizeTarget");
+					r_Fm_ResizeTarget.SetBelong(this.instance);
 				}
-				return r_m_ResizeTarget;
+				return r_Fm_ResizeTarget;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayDropZone m_BeforeDropZone
 		/// </summary>
-		protected RUnityEditor.ROverlays.ROverlayDropZone r_m_BeforeDropZone;
-		public virtual RUnityEditor.ROverlays.ROverlayDropZone Rm_BeforeDropZone
+		protected RUnityEditor.ROverlays.ROverlayDropZone r_Fm_BeforeDropZone;
+		public virtual RUnityEditor.ROverlays.ROverlayDropZone RFm_BeforeDropZone
 		{
 			get
 			{
-				if(r_m_BeforeDropZone == null)
+				if(r_Fm_BeforeDropZone == null)
 				{
-					r_m_BeforeDropZone = new(this, "m_BeforeDropZone");
-					r_m_BeforeDropZone.SetBelong(this.instance);
+					r_Fm_BeforeDropZone = new(this, "m_BeforeDropZone");
+					r_Fm_BeforeDropZone.SetBelong(this.instance);
 				}
-				return r_m_BeforeDropZone;
+				return r_Fm_BeforeDropZone;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayDropZone m_AfterDropZone
 		/// </summary>
-		protected RUnityEditor.ROverlays.ROverlayDropZone r_m_AfterDropZone;
-		public virtual RUnityEditor.ROverlays.ROverlayDropZone Rm_AfterDropZone
+		protected RUnityEditor.ROverlays.ROverlayDropZone r_Fm_AfterDropZone;
+		public virtual RUnityEditor.ROverlays.ROverlayDropZone RFm_AfterDropZone
 		{
 			get
 			{
-				if(r_m_AfterDropZone == null)
+				if(r_Fm_AfterDropZone == null)
 				{
-					r_m_AfterDropZone = new(this, "m_AfterDropZone");
-					r_m_AfterDropZone.SetBelong(this.instance);
+					r_Fm_AfterDropZone = new(this, "m_AfterDropZone");
+					r_Fm_AfterDropZone.SetBelong(this.instance);
 				}
-				return r_m_AfterDropZone;
+				return r_Fm_AfterDropZone;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`1[UnityEditor.Overlays.Layout] layoutChanged
+		/// </summary>
+		protected RSystem.RAction<RUnityEditor.ROverlays.RLayout> r_FlayoutChanged;
+		public virtual RSystem.RAction<RUnityEditor.ROverlays.RLayout> RFlayoutChanged
+		{
+			get
+			{
+				if(r_FlayoutChanged == null)
+				{
+					r_FlayoutChanged = new(this, "layoutChanged");
+					r_FlayoutChanged.SetBelong(this.instance);
+				}
+				return r_FlayoutChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`1[System.Boolean] collapsedChanged
+		/// </summary>
+		protected RSystem.RAction<RSystem.RBoolean> r_FcollapsedChanged;
+		public virtual RSystem.RAction<RSystem.RBoolean> RFcollapsedChanged
+		{
+			get
+			{
+				if(r_FcollapsedChanged == null)
+				{
+					r_FcollapsedChanged = new(this, "collapsedChanged");
+					r_FcollapsedChanged.SetBelong(this.instance);
+				}
+				return r_FcollapsedChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`1[System.Boolean] displayedChanged
+		/// </summary>
+		protected RSystem.RAction<RSystem.RBoolean> r_FdisplayedChanged;
+		public virtual RSystem.RAction<RSystem.RBoolean> RFdisplayedChanged
+		{
+			get
+			{
+				if(r_FdisplayedChanged == null)
+				{
+					r_FdisplayedChanged = new(this, "displayedChanged");
+					r_FdisplayedChanged.SetBelong(this.instance);
+				}
+				return r_FdisplayedChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`1[UnityEditor.Overlays.OverlayContainer] containerChanged
+		/// </summary>
+		protected RSystem.RAction<RUnityEditor.ROverlays.ROverlayContainer> r_FcontainerChanged;
+		public virtual RSystem.RAction<RUnityEditor.ROverlays.ROverlayContainer> RFcontainerChanged
+		{
+			get
+			{
+				if(r_FcontainerChanged == null)
+				{
+					r_FcontainerChanged = new(this, "containerChanged");
+					r_FcontainerChanged.SetBelong(this.instance);
+				}
+				return r_FcontainerChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Action minSizeChanged
+		/// </summary>
+		protected RSystem.RAction r_FminSizeChanged;
+		public virtual RSystem.RAction RFminSizeChanged
+		{
+			get
+			{
+				if(r_FminSizeChanged == null)
+				{
+					r_FminSizeChanged = new(this, "minSizeChanged");
+					r_FminSizeChanged.SetBelong(this.instance);
+				}
+				return r_FminSizeChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Action maxSizeChanged
+		/// </summary>
+		protected RSystem.RAction r_FmaxSizeChanged;
+		public virtual RSystem.RAction RFmaxSizeChanged
+		{
+			get
+			{
+				if(r_FmaxSizeChanged == null)
+				{
+					r_FmaxSizeChanged = new(this, "maxSizeChanged");
+					r_FmaxSizeChanged.SetBelong(this.instance);
+				}
+				return r_FmaxSizeChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Action sizeOverridenChanged
+		/// </summary>
+		protected RSystem.RAction r_FsizeOverridenChanged;
+		public virtual RSystem.RAction RFsizeOverridenChanged
+		{
+			get
+			{
+				if(r_FsizeOverridenChanged == null)
+				{
+					r_FsizeOverridenChanged = new(this, "sizeOverridenChanged");
+					r_FsizeOverridenChanged.SetBelong(this.instance);
+				}
+				return r_FsizeOverridenChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`1[System.Boolean] floatingChanged
+		/// </summary>
+		protected RSystem.RAction<RSystem.RBoolean> r_FfloatingChanged;
+		public virtual RSystem.RAction<RSystem.RBoolean> RFfloatingChanged
+		{
+			get
+			{
+				if(r_FfloatingChanged == null)
+				{
+					r_FfloatingChanged = new(this, "floatingChanged");
+					r_FfloatingChanged.SetBelong(this.instance);
+				}
+				return r_FfloatingChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`1[UnityEngine.Vector3] floatingPositionChanged
+		/// </summary>
+		protected RSystem.RAction<RUnityEngine.RVector3> r_FfloatingPositionChanged;
+		public virtual RSystem.RAction<RUnityEngine.RVector3> RFfloatingPositionChanged
+		{
+			get
+			{
+				if(r_FfloatingPositionChanged == null)
+				{
+					r_FfloatingPositionChanged = new(this, "floatingPositionChanged");
+					r_FfloatingPositionChanged.SetBelong(this.instance);
+				}
+				return r_FfloatingPositionChanged;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualTreeAsset s_TreeAsset
 		/// </summary>
-		protected static RUnityEngine.RUIElements.RVisualTreeAsset r_s_TreeAsset;
-		public static RUnityEngine.RUIElements.RVisualTreeAsset Rs_TreeAsset
+		protected static RUnityEngine.RUIElements.RVisualTreeAsset r_Fs_TreeAsset;
+		public static RUnityEngine.RUIElements.RVisualTreeAsset RFs_TreeAsset
 		{
 			get
 			{
-				if(r_s_TreeAsset == null)
+				if(r_Fs_TreeAsset == null)
 				{
-					r_s_TreeAsset = new(typeof(UnityEditor.Overlays.Overlay), "s_TreeAsset");
-					r_s_TreeAsset.SetBelong(null);
+					r_Fs_TreeAsset = new(typeof(UnityEditor.Overlays.Overlay), "s_TreeAsset");
+					r_Fs_TreeAsset.SetBelong(null);
 				}
-				return r_s_TreeAsset;
+				return r_Fs_TreeAsset;
+			}
+		}
+
+		/// <summary>
+		/// System.Action displayNameChanged
+		/// </summary>
+		protected RSystem.RAction r_FdisplayNameChanged;
+		public virtual RSystem.RAction RFdisplayNameChanged
+		{
+			get
+			{
+				if(r_FdisplayNameChanged == null)
+				{
+					r_FdisplayNameChanged = new(this, "displayNameChanged");
+					r_FdisplayNameChanged.SetBelong(this.instance);
+				}
+				return r_FdisplayNameChanged;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_ContentRoot
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r_m_ContentRoot;
-		public virtual RUnityEngine.RUIElements.RVisualElement Rm_ContentRoot
+		protected RUnityEngine.RUIElements.RVisualElement r_Fm_ContentRoot;
+		public virtual RUnityEngine.RUIElements.RVisualElement RFm_ContentRoot
 		{
 			get
 			{
-				if(r_m_ContentRoot == null)
+				if(r_Fm_ContentRoot == null)
 				{
-					r_m_ContentRoot = new(this, "m_ContentRoot");
-					r_m_ContentRoot.SetBelong(this.instance);
+					r_Fm_ContentRoot = new(this, "m_ContentRoot");
+					r_Fm_ContentRoot.SetBelong(this.instance);
 				}
-				return r_m_ContentRoot;
+				return r_Fm_ContentRoot;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Texture2D m_CollapsedIcon
 		/// </summary>
-		protected RUnityEngine.RTexture2D r_m_CollapsedIcon;
-		public virtual RUnityEngine.RTexture2D Rm_CollapsedIcon
+		protected RUnityEngine.RTexture2D r_Fm_CollapsedIcon;
+		public virtual RUnityEngine.RTexture2D RFm_CollapsedIcon
 		{
 			get
 			{
-				if(r_m_CollapsedIcon == null)
+				if(r_Fm_CollapsedIcon == null)
 				{
-					r_m_CollapsedIcon = new(this, "m_CollapsedIcon");
-					r_m_CollapsedIcon.SetBelong(this.instance);
+					r_Fm_CollapsedIcon = new(this, "m_CollapsedIcon");
+					r_Fm_CollapsedIcon.SetBelong(this.instance);
 				}
-				return r_m_CollapsedIcon;
+				return r_Fm_CollapsedIcon;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.SnapCorner <floatingSnapCorner>k__BackingField
 		/// </summary>
-		protected RField r___0__floatingSnapCorner__1__k__BackingField;
-		public virtual RField R__0__floatingSnapCorner__1__k__BackingField
+		protected RUnityEditor.ROverlays.RSnapCorner r_F__0__floatingSnapCorner__1__k__BackingField;
+		public virtual RUnityEditor.ROverlays.RSnapCorner RF__0__floatingSnapCorner__1__k__BackingField
 		{
 			get
 			{
-				if(r___0__floatingSnapCorner__1__k__BackingField == null)
+				if(r_F__0__floatingSnapCorner__1__k__BackingField == null)
 				{
-					r___0__floatingSnapCorner__1__k__BackingField = new(this, "<floatingSnapCorner>k__BackingField");
-					r___0__floatingSnapCorner__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__floatingSnapCorner__1__k__BackingField = new(this, "<floatingSnapCorner>k__BackingField");
+					r_F__0__floatingSnapCorner__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___0__floatingSnapCorner__1__k__BackingField;
+				return r_F__0__floatingSnapCorner__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// Boolean dontSaveInLayout
 		/// </summary>
-		protected RSystem.RBoolean r_dontSaveInLayout;
-		public virtual RSystem.RBoolean RdontSaveInLayout
+		protected RSystem.RBoolean r_PdontSaveInLayout;
+		public virtual RSystem.RBoolean RPdontSaveInLayout
 		{
 			get
 			{
-				if(r_dontSaveInLayout == null)
+				if(r_PdontSaveInLayout == null)
 				{
-					r_dontSaveInLayout = new(this, "dontSaveInLayout", -1);
-					r_dontSaveInLayout.SetBelong(this.instance);
+					r_PdontSaveInLayout = new(this, "dontSaveInLayout", -1);
+					r_PdontSaveInLayout.SetBelong(this.instance);
 				}
-				return r_dontSaveInLayout;
+				return r_PdontSaveInLayout;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.EditorWindow containerWindow
 		/// </summary>
-		protected RUnityEditor.REditorWindow r_containerWindow;
-		public virtual RUnityEditor.REditorWindow RcontainerWindow
+		protected RUnityEditor.REditorWindow r_PcontainerWindow;
+		public virtual RUnityEditor.REditorWindow RPcontainerWindow
 		{
 			get
 			{
-				if(r_containerWindow == null)
+				if(r_PcontainerWindow == null)
 				{
-					r_containerWindow = new(this, "containerWindow", -1);
-					r_containerWindow.SetBelong(this.instance);
+					r_PcontainerWindow = new(this, "containerWindow", -1);
+					r_PcontainerWindow.SetBelong(this.instance);
 				}
-				return r_containerWindow;
+				return r_PcontainerWindow;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayCanvas canvas
 		/// </summary>
-		protected RUnityEditor.ROverlays.ROverlayCanvas r_canvas;
-		public virtual RUnityEditor.ROverlays.ROverlayCanvas Rcanvas
+		protected RUnityEditor.ROverlays.ROverlayCanvas r_Pcanvas;
+		public virtual RUnityEditor.ROverlays.ROverlayCanvas RPcanvas
 		{
 			get
 			{
-				if(r_canvas == null)
+				if(r_Pcanvas == null)
 				{
-					r_canvas = new(this, "canvas", -1);
-					r_canvas.SetBelong(this.instance);
+					r_Pcanvas = new(this, "canvas", -1);
+					r_Pcanvas.SetBelong(this.instance);
 				}
-				return r_canvas;
+				return r_Pcanvas;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement resizeTarget
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r_resizeTarget;
-		public virtual RUnityEngine.RUIElements.RVisualElement RresizeTarget
+		protected RUnityEngine.RUIElements.RVisualElement r_PresizeTarget;
+		public virtual RUnityEngine.RUIElements.RVisualElement RPresizeTarget
 		{
 			get
 			{
-				if(r_resizeTarget == null)
+				if(r_PresizeTarget == null)
 				{
-					r_resizeTarget = new(this, "resizeTarget", -1);
-					r_resizeTarget.SetBelong(this.instance);
+					r_PresizeTarget = new(this, "resizeTarget", -1);
+					r_PresizeTarget.SetBelong(this.instance);
 				}
-				return r_resizeTarget;
+				return r_PresizeTarget;
 			}
 		}
 
 		/// <summary>
 		/// System.String id
 		/// </summary>
-		protected RSystem.RString r_id;
-		public virtual RSystem.RString Rid
+		protected RSystem.RString r_Pid;
+		public virtual RSystem.RString RPid
 		{
 			get
 			{
-				if(r_id == null)
+				if(r_Pid == null)
 				{
-					r_id = new(this, "id", -1);
-					r_id.SetBelong(this.instance);
+					r_Pid = new(this, "id", -1);
+					r_Pid.SetBelong(this.instance);
 				}
-				return r_id;
+				return r_Pid;
 			}
 		}
 
 		/// <summary>
 		/// Boolean hasMenuEntry
 		/// </summary>
-		protected RSystem.RBoolean r_hasMenuEntry;
-		public virtual RSystem.RBoolean RhasMenuEntry
+		protected RSystem.RBoolean r_PhasMenuEntry;
+		public virtual RSystem.RBoolean RPhasMenuEntry
 		{
 			get
 			{
-				if(r_hasMenuEntry == null)
+				if(r_PhasMenuEntry == null)
 				{
-					r_hasMenuEntry = new(this, "hasMenuEntry", -1);
-					r_hasMenuEntry.SetBelong(this.instance);
+					r_PhasMenuEntry = new(this, "hasMenuEntry", -1);
+					r_PhasMenuEntry.SetBelong(this.instance);
 				}
-				return r_hasMenuEntry;
+				return r_PhasMenuEntry;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect collapsedButtonRect
 		/// </summary>
-		protected RUnityEngine.RRect r_collapsedButtonRect;
-		public virtual RUnityEngine.RRect RcollapsedButtonRect
+		protected RUnityEngine.RRect r_PcollapsedButtonRect;
+		public virtual RUnityEngine.RRect RPcollapsedButtonRect
 		{
 			get
 			{
-				if(r_collapsedButtonRect == null)
+				if(r_PcollapsedButtonRect == null)
 				{
-					r_collapsedButtonRect = new(this, "collapsedButtonRect", -1);
-					r_collapsedButtonRect.SetBelong(this.instance);
+					r_PcollapsedButtonRect = new(this, "collapsedButtonRect", -1);
+					r_PcollapsedButtonRect.SetBelong(this.instance);
 				}
-				return r_collapsedButtonRect;
+				return r_PcollapsedButtonRect;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Texture2D collapsedIcon
 		/// </summary>
-		protected RUnityEngine.RTexture2D r_collapsedIcon;
-		public virtual RUnityEngine.RTexture2D RcollapsedIcon
+		protected RUnityEngine.RTexture2D r_PcollapsedIcon;
+		public virtual RUnityEngine.RTexture2D RPcollapsedIcon
 		{
 			get
 			{
-				if(r_collapsedIcon == null)
+				if(r_PcollapsedIcon == null)
 				{
-					r_collapsedIcon = new(this, "collapsedIcon", -1);
-					r_collapsedIcon.SetBelong(this.instance);
+					r_PcollapsedIcon = new(this, "collapsedIcon", -1);
+					r_PcollapsedIcon.SetBelong(this.instance);
 				}
-				return r_collapsedIcon;
+				return r_PcollapsedIcon;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement collapsedContent
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r_collapsedContent;
-		public virtual RUnityEngine.RUIElements.RVisualElement RcollapsedContent
+		protected RUnityEngine.RUIElements.RVisualElement r_PcollapsedContent;
+		public virtual RUnityEngine.RUIElements.RVisualElement RPcollapsedContent
 		{
 			get
 			{
-				if(r_collapsedContent == null)
+				if(r_PcollapsedContent == null)
 				{
-					r_collapsedContent = new(this, "collapsedContent", -1);
-					r_collapsedContent.SetBelong(this.instance);
+					r_PcollapsedContent = new(this, "collapsedContent", -1);
+					r_PcollapsedContent.SetBelong(this.instance);
 				}
-				return r_collapsedContent;
+				return r_PcollapsedContent;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.Layout layout
 		/// </summary>
-		protected RProperty r_layout;
-		public virtual RProperty Rlayout
+		protected RUnityEditor.ROverlays.RLayout r_Playout;
+		public virtual RUnityEditor.ROverlays.RLayout RPlayout
 		{
 			get
 			{
-				if(r_layout == null)
+				if(r_Playout == null)
 				{
-					r_layout = new(this, "layout", -1);
-					r_layout.SetBelong(this.instance);
+					r_Playout = new(this, "layout", -1);
+					r_Playout.SetBelong(this.instance);
 				}
-				return r_layout;
+				return r_Playout;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.Layout activeLayout
 		/// </summary>
-		protected RProperty r_activeLayout;
-		public virtual RProperty RactiveLayout
+		protected RUnityEditor.ROverlays.RLayout r_PactiveLayout;
+		public virtual RUnityEditor.ROverlays.RLayout RPactiveLayout
 		{
 			get
 			{
-				if(r_activeLayout == null)
+				if(r_PactiveLayout == null)
 				{
-					r_activeLayout = new(this, "activeLayout", -1);
-					r_activeLayout.SetBelong(this.instance);
+					r_PactiveLayout = new(this, "activeLayout", -1);
+					r_PactiveLayout.SetBelong(this.instance);
 				}
-				return r_activeLayout;
+				return r_PactiveLayout;
 			}
 		}
 
 		/// <summary>
 		/// Boolean collapsed
 		/// </summary>
-		protected RSystem.RBoolean r_collapsed;
-		public virtual RSystem.RBoolean Rcollapsed
+		protected RSystem.RBoolean r_Pcollapsed;
+		public virtual RSystem.RBoolean RPcollapsed
 		{
 			get
 			{
-				if(r_collapsed == null)
+				if(r_Pcollapsed == null)
 				{
-					r_collapsed = new(this, "collapsed", -1);
-					r_collapsed.SetBelong(this.instance);
+					r_Pcollapsed = new(this, "collapsed", -1);
+					r_Pcollapsed.SetBelong(this.instance);
 				}
-				return r_collapsed;
+				return r_Pcollapsed;
 			}
 		}
 
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected RSystem.RString r_displayName;
-		public virtual RSystem.RString RdisplayName
+		protected RSystem.RString r_PdisplayName;
+		public virtual RSystem.RString RPdisplayName
 		{
 			get
 			{
-				if(r_displayName == null)
+				if(r_PdisplayName == null)
 				{
-					r_displayName = new(this, "displayName", -1);
-					r_displayName.SetBelong(this.instance);
+					r_PdisplayName = new(this, "displayName", -1);
+					r_PdisplayName.SetBelong(this.instance);
 				}
-				return r_displayName;
+				return r_PdisplayName;
 			}
 		}
 
 		/// <summary>
 		/// Boolean userControlledVisibility
 		/// </summary>
-		protected RSystem.RBoolean r_userControlledVisibility;
-		public virtual RSystem.RBoolean RuserControlledVisibility
+		protected RSystem.RBoolean r_PuserControlledVisibility;
+		public virtual RSystem.RBoolean RPuserControlledVisibility
 		{
 			get
 			{
-				if(r_userControlledVisibility == null)
+				if(r_PuserControlledVisibility == null)
 				{
-					r_userControlledVisibility = new(this, "userControlledVisibility", -1);
-					r_userControlledVisibility.SetBelong(this.instance);
+					r_PuserControlledVisibility = new(this, "userControlledVisibility", -1);
+					r_PuserControlledVisibility.SetBelong(this.instance);
 				}
-				return r_userControlledVisibility;
+				return r_PuserControlledVisibility;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayContainer container
 		/// </summary>
-		protected RUnityEditor.ROverlays.ROverlayContainer r_container;
-		public virtual RUnityEditor.ROverlays.ROverlayContainer Rcontainer
+		protected RUnityEditor.ROverlays.ROverlayContainer r_Pcontainer;
+		public virtual RUnityEditor.ROverlays.ROverlayContainer RPcontainer
 		{
 			get
 			{
-				if(r_container == null)
+				if(r_Pcontainer == null)
 				{
-					r_container = new(this, "container", -1);
-					r_container.SetBelong(this.instance);
+					r_Pcontainer = new(this, "container", -1);
+					r_Pcontainer.SetBelong(this.instance);
 				}
-				return r_container;
+				return r_Pcontainer;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.DockZone dockZone
 		/// </summary>
-		protected RProperty r_dockZone;
-		public virtual RProperty RdockZone
+		protected RUnityEditor.ROverlays.RDockZone r_PdockZone;
+		public virtual RUnityEditor.ROverlays.RDockZone RPdockZone
 		{
 			get
 			{
-				if(r_dockZone == null)
+				if(r_PdockZone == null)
 				{
-					r_dockZone = new(this, "dockZone", -1);
-					r_dockZone.SetBelong(this.instance);
+					r_PdockZone = new(this, "dockZone", -1);
+					r_PdockZone.SetBelong(this.instance);
 				}
-				return r_dockZone;
+				return r_PdockZone;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.DockPosition dockPosition
 		/// </summary>
-		protected RProperty r_dockPosition;
-		public virtual RProperty RdockPosition
+		protected RUnityEditor.ROverlays.RDockPosition r_PdockPosition;
+		public virtual RUnityEditor.ROverlays.RDockPosition RPdockPosition
 		{
 			get
 			{
-				if(r_dockPosition == null)
+				if(r_PdockPosition == null)
 				{
-					r_dockPosition = new(this, "dockPosition", -1);
-					r_dockPosition.SetBelong(this.instance);
+					r_PdockPosition = new(this, "dockPosition", -1);
+					r_PdockPosition.SetBelong(this.instance);
 				}
-				return r_dockPosition;
+				return r_PdockPosition;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualTreeAsset treeAsset
 		/// </summary>
-		protected static RUnityEngine.RUIElements.RVisualTreeAsset r_treeAsset;
-		public static RUnityEngine.RUIElements.RVisualTreeAsset RtreeAsset
+		protected static RUnityEngine.RUIElements.RVisualTreeAsset r_PtreeAsset;
+		public static RUnityEngine.RUIElements.RVisualTreeAsset RPtreeAsset
 		{
 			get
 			{
-				if(r_treeAsset == null)
+				if(r_PtreeAsset == null)
 				{
-					r_treeAsset = new(typeof(UnityEditor.Overlays.Overlay), "treeAsset", -1);
-					r_treeAsset.SetBelong(null);
+					r_PtreeAsset = new(typeof(UnityEditor.Overlays.Overlay), "treeAsset", -1);
+					r_PtreeAsset.SetBelong(null);
 				}
-				return r_treeAsset;
+				return r_PtreeAsset;
 			}
 		}
 
 		/// <summary>
 		/// Boolean displayed
 		/// </summary>
-		protected RSystem.RBoolean r_displayed;
-		public virtual RSystem.RBoolean Rdisplayed
+		protected RSystem.RBoolean r_Pdisplayed;
+		public virtual RSystem.RBoolean RPdisplayed
 		{
 			get
 			{
-				if(r_displayed == null)
+				if(r_Pdisplayed == null)
 				{
-					r_displayed = new(this, "displayed", -1);
-					r_displayed.SetBelong(this.instance);
+					r_Pdisplayed = new(this, "displayed", -1);
+					r_Pdisplayed.SetBelong(this.instance);
 				}
-				return r_displayed;
+				return r_Pdisplayed;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.Layout supportedLayouts
 		/// </summary>
-		protected RProperty r_supportedLayouts;
-		public virtual RProperty RsupportedLayouts
+		protected RUnityEditor.ROverlays.RLayout r_PsupportedLayouts;
+		public virtual RUnityEditor.ROverlays.RLayout RPsupportedLayouts
 		{
 			get
 			{
-				if(r_supportedLayouts == null)
+				if(r_PsupportedLayouts == null)
 				{
-					r_supportedLayouts = new(this, "supportedLayouts", -1);
-					r_supportedLayouts.SetBelong(this.instance);
+					r_PsupportedLayouts = new(this, "supportedLayouts", -1);
+					r_PsupportedLayouts.SetBelong(this.instance);
 				}
-				return r_supportedLayouts;
+				return r_PsupportedLayouts;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement rootVisualElement
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r_rootVisualElement;
-		public virtual RUnityEngine.RUIElements.RVisualElement RrootVisualElement
+		protected RUnityEngine.RUIElements.RVisualElement r_ProotVisualElement;
+		public virtual RUnityEngine.RUIElements.RVisualElement RProotVisualElement
 		{
 			get
 			{
-				if(r_rootVisualElement == null)
+				if(r_ProotVisualElement == null)
 				{
-					r_rootVisualElement = new(this, "rootVisualElement", -1);
-					r_rootVisualElement.SetBelong(this.instance);
+					r_ProotVisualElement = new(this, "rootVisualElement", -1);
+					r_ProotVisualElement.SetBelong(this.instance);
 				}
-				return r_rootVisualElement;
+				return r_ProotVisualElement;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement contentRoot
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r_contentRoot;
-		public virtual RUnityEngine.RUIElements.RVisualElement RcontentRoot
+		protected RUnityEngine.RUIElements.RVisualElement r_PcontentRoot;
+		public virtual RUnityEngine.RUIElements.RVisualElement RPcontentRoot
 		{
 			get
 			{
-				if(r_contentRoot == null)
+				if(r_PcontentRoot == null)
 				{
-					r_contentRoot = new(this, "contentRoot", -1);
-					r_contentRoot.SetBelong(this.instance);
+					r_PcontentRoot = new(this, "contentRoot", -1);
+					r_PcontentRoot.SetBelong(this.instance);
 				}
-				return r_contentRoot;
+				return r_PcontentRoot;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isInToolbar
 		/// </summary>
-		protected RSystem.RBoolean r_isInToolbar;
-		public virtual RSystem.RBoolean RisInToolbar
+		protected RSystem.RBoolean r_PisInToolbar;
+		public virtual RSystem.RBoolean RPisInToolbar
 		{
 			get
 			{
-				if(r_isInToolbar == null)
+				if(r_PisInToolbar == null)
 				{
-					r_isInToolbar = new(this, "isInToolbar", -1);
-					r_isInToolbar.SetBelong(this.instance);
+					r_PisInToolbar = new(this, "isInToolbar", -1);
+					r_PisInToolbar.SetBelong(this.instance);
 				}
-				return r_isInToolbar;
+				return r_PisInToolbar;
 			}
 		}
 
 		/// <summary>
 		/// Boolean sizeOverridden
 		/// </summary>
-		protected RSystem.RBoolean r_sizeOverridden;
-		public virtual RSystem.RBoolean RsizeOverridden
+		protected RSystem.RBoolean r_PsizeOverridden;
+		public virtual RSystem.RBoolean RPsizeOverridden
 		{
 			get
 			{
-				if(r_sizeOverridden == null)
+				if(r_PsizeOverridden == null)
 				{
-					r_sizeOverridden = new(this, "sizeOverridden", -1);
-					r_sizeOverridden.SetBelong(this.instance);
+					r_PsizeOverridden = new(this, "sizeOverridden", -1);
+					r_PsizeOverridden.SetBelong(this.instance);
 				}
-				return r_sizeOverridden;
+				return r_PsizeOverridden;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 sizeToSave
 		/// </summary>
-		protected RUnityEngine.RVector2 r_sizeToSave;
-		public virtual RUnityEngine.RVector2 RsizeToSave
+		protected RUnityEngine.RVector2 r_PsizeToSave;
+		public virtual RUnityEngine.RVector2 RPsizeToSave
 		{
 			get
 			{
-				if(r_sizeToSave == null)
+				if(r_PsizeToSave == null)
 				{
-					r_sizeToSave = new(this, "sizeToSave", -1);
-					r_sizeToSave.SetBelong(this.instance);
+					r_PsizeToSave = new(this, "sizeToSave", -1);
+					r_PsizeToSave.SetBelong(this.instance);
 				}
-				return r_sizeToSave;
+				return r_PsizeToSave;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 size
 		/// </summary>
-		protected RUnityEngine.RVector2 r_size;
-		public virtual RUnityEngine.RVector2 Rsize
+		protected RUnityEngine.RVector2 r_Psize;
+		public virtual RUnityEngine.RVector2 RPsize
 		{
 			get
 			{
-				if(r_size == null)
+				if(r_Psize == null)
 				{
-					r_size = new(this, "size", -1);
-					r_size.SetBelong(this.instance);
+					r_Psize = new(this, "size", -1);
+					r_Psize.SetBelong(this.instance);
 				}
-				return r_size;
+				return r_Psize;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 minSize
 		/// </summary>
-		protected RUnityEngine.RVector2 r_minSize;
-		public virtual RUnityEngine.RVector2 RminSize
+		protected RUnityEngine.RVector2 r_PminSize;
+		public virtual RUnityEngine.RVector2 RPminSize
 		{
 			get
 			{
-				if(r_minSize == null)
+				if(r_PminSize == null)
 				{
-					r_minSize = new(this, "minSize", -1);
-					r_minSize.SetBelong(this.instance);
+					r_PminSize = new(this, "minSize", -1);
+					r_PminSize.SetBelong(this.instance);
 				}
-				return r_minSize;
+				return r_PminSize;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 maxSize
 		/// </summary>
-		protected RUnityEngine.RVector2 r_maxSize;
-		public virtual RUnityEngine.RVector2 RmaxSize
+		protected RUnityEngine.RVector2 r_PmaxSize;
+		public virtual RUnityEngine.RVector2 RPmaxSize
 		{
 			get
 			{
-				if(r_maxSize == null)
+				if(r_PmaxSize == null)
 				{
-					r_maxSize = new(this, "maxSize", -1);
-					r_maxSize.SetBelong(this.instance);
+					r_PmaxSize = new(this, "maxSize", -1);
+					r_PmaxSize.SetBelong(this.instance);
 				}
-				return r_maxSize;
+				return r_PmaxSize;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.SnapCorner floatingSnapCorner
 		/// </summary>
-		protected RProperty r_floatingSnapCorner;
-		public virtual RProperty RfloatingSnapCorner
+		protected RUnityEditor.ROverlays.RSnapCorner r_PfloatingSnapCorner;
+		public virtual RUnityEditor.ROverlays.RSnapCorner RPfloatingSnapCorner
 		{
 			get
 			{
-				if(r_floatingSnapCorner == null)
+				if(r_PfloatingSnapCorner == null)
 				{
-					r_floatingSnapCorner = new(this, "floatingSnapCorner", -1);
-					r_floatingSnapCorner.SetBelong(this.instance);
+					r_PfloatingSnapCorner = new(this, "floatingSnapCorner", -1);
+					r_PfloatingSnapCorner.SetBelong(this.instance);
 				}
-				return r_floatingSnapCorner;
+				return r_PfloatingSnapCorner;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 floatingSnapOffset
 		/// </summary>
-		protected RUnityEngine.RVector2 r_floatingSnapOffset;
-		public virtual RUnityEngine.RVector2 RfloatingSnapOffset
+		protected RUnityEngine.RVector2 r_PfloatingSnapOffset;
+		public virtual RUnityEngine.RVector2 RPfloatingSnapOffset
 		{
 			get
 			{
-				if(r_floatingSnapOffset == null)
+				if(r_PfloatingSnapOffset == null)
 				{
-					r_floatingSnapOffset = new(this, "floatingSnapOffset", -1);
-					r_floatingSnapOffset.SetBelong(this.instance);
+					r_PfloatingSnapOffset = new(this, "floatingSnapOffset", -1);
+					r_PfloatingSnapOffset.SetBelong(this.instance);
 				}
-				return r_floatingSnapOffset;
+				return r_PfloatingSnapOffset;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 floatingPosition
 		/// </summary>
-		protected RUnityEngine.RVector2 r_floatingPosition;
-		public virtual RUnityEngine.RVector2 RfloatingPosition
+		protected RUnityEngine.RVector2 r_PfloatingPosition;
+		public virtual RUnityEngine.RVector2 RPfloatingPosition
 		{
 			get
 			{
-				if(r_floatingPosition == null)
+				if(r_PfloatingPosition == null)
 				{
-					r_floatingPosition = new(this, "floatingPosition", -1);
-					r_floatingPosition.SetBelong(this.instance);
+					r_PfloatingPosition = new(this, "floatingPosition", -1);
+					r_PfloatingPosition.SetBelong(this.instance);
 				}
-				return r_floatingPosition;
+				return r_PfloatingPosition;
 			}
 		}
 
 		/// <summary>
 		/// Boolean floating
 		/// </summary>
-		protected RSystem.RBoolean r_floating;
-		public virtual RSystem.RBoolean Rfloating
+		protected RSystem.RBoolean r_Pfloating;
+		public virtual RSystem.RBoolean RPfloating
 		{
 			get
 			{
-				if(r_floating == null)
+				if(r_Pfloating == null)
 				{
-					r_floating = new(this, "floating", -1);
-					r_floating.SetBelong(this.instance);
+					r_Pfloating = new(this, "floating", -1);
+					r_Pfloating.SetBelong(this.instance);
 				}
-				return r_floating;
+				return r_Pfloating;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetEventTypeErrorMessage(System.String)
 		/// </summary>
-		protected static RMethod r_GetEventTypeErrorMessage_String;
-		public static RMethod RGetEventTypeErrorMessage_String
+		protected static RMethod r_MGetEventTypeErrorMessage_String;
+		public static RMethod RMGetEventTypeErrorMessage_String
 		{
 			get
 			{
-				if(r_GetEventTypeErrorMessage_String == null)
+				if(r_MGetEventTypeErrorMessage_String == null)
 				{
-					r_GetEventTypeErrorMessage_String = new(typeof(UnityEditor.Overlays.Overlay), "GetEventTypeErrorMessage", 0, typeof(System.String));
-					r_GetEventTypeErrorMessage_String.SetBelong(null);
+					r_MGetEventTypeErrorMessage_String = new(typeof(UnityEditor.Overlays.Overlay), "GetEventTypeErrorMessage", 0, typeof(System.String));
+					r_MGetEventTypeErrorMessage_String.SetBelong(null);
 				}
-				return r_GetEventTypeErrorMessage_String;
+				return r_MGetEventTypeErrorMessage_String;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetSize()
 		/// </summary>
-		protected RMethod r_ResetSize;
-		public virtual RMethod RResetSize
+		protected RMethod r_MResetSize;
+		public virtual RMethod RMResetSize
 		{
 			get
 			{
-				if(r_ResetSize == null)
+				if(r_MResetSize == null)
 				{
-					r_ResetSize = new(this, "ResetSize", 0);
-					r_ResetSize.SetBelong(this.instance);
+					r_MResetSize = new(this, "ResetSize", 0);
+					r_MResetSize.SetBelong(this.instance);
 				}
-				return r_ResetSize;
+				return r_MResetSize;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CanCreateRequestedLayout(UnityEditor.Overlays.Layout)
 		/// </summary>
-		protected RMethod r_CanCreateRequestedLayout_Layout;
-		public virtual RMethod RCanCreateRequestedLayout_Layout
+		protected RMethod r_MCanCreateRequestedLayout_Layout;
+		public virtual RMethod RMCanCreateRequestedLayout_Layout
 		{
 			get
 			{
-				if(r_CanCreateRequestedLayout_Layout == null)
+				if(r_MCanCreateRequestedLayout_Layout == null)
 				{
-					r_CanCreateRequestedLayout_Layout = new(this, "CanCreateRequestedLayout", 0, typeof(UnityEditor.Overlays.Layout));
-					r_CanCreateRequestedLayout_Layout.SetBelong(this.instance);
+					r_MCanCreateRequestedLayout_Layout = new(this, "CanCreateRequestedLayout", 0, typeof(UnityEditor.Overlays.Layout));
+					r_MCanCreateRequestedLayout_Layout.SetBelong(this.instance);
 				}
-				return r_CanCreateRequestedLayout_Layout;
+				return r_MCanCreateRequestedLayout_Layout;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Overlays.Layout GetBestLayoutForState()
 		/// </summary>
-		protected RMethod r_GetBestLayoutForState;
-		public virtual RMethod RGetBestLayoutForState
+		protected RMethod r_MGetBestLayoutForState;
+		public virtual RMethod RMGetBestLayoutForState
 		{
 			get
 			{
-				if(r_GetBestLayoutForState == null)
+				if(r_MGetBestLayoutForState == null)
 				{
-					r_GetBestLayoutForState = new(this, "GetBestLayoutForState", 0);
-					r_GetBestLayoutForState.SetBelong(this.instance);
+					r_MGetBestLayoutForState = new(this, "GetBestLayoutForState", 0);
+					r_MGetBestLayoutForState.SetBelong(this.instance);
 				}
-				return r_GetBestLayoutForState;
+				return r_MGetBestLayoutForState;
 			}
 		}
 
 		/// <summary>
 		/// Void RebuildContent()
 		/// </summary>
-		protected RMethod r_RebuildContent;
-		public virtual RMethod RRebuildContent
+		protected RMethod r_MRebuildContent;
+		public virtual RMethod RMRebuildContent
 		{
 			get
 			{
-				if(r_RebuildContent == null)
+				if(r_MRebuildContent == null)
 				{
-					r_RebuildContent = new(this, "RebuildContent", 0);
-					r_RebuildContent.SetBelong(this.instance);
+					r_MRebuildContent = new(this, "RebuildContent", 0);
+					r_MRebuildContent.SetBelong(this.instance);
 				}
-				return r_RebuildContent;
+				return r_MRebuildContent;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ShouldUseSizeValue()
 		/// </summary>
-		protected RMethod r_ShouldUseSizeValue;
-		public virtual RMethod RShouldUseSizeValue
+		protected RMethod r_MShouldUseSizeValue;
+		public virtual RMethod RMShouldUseSizeValue
 		{
 			get
 			{
-				if(r_ShouldUseSizeValue == null)
+				if(r_MShouldUseSizeValue == null)
 				{
-					r_ShouldUseSizeValue = new(this, "ShouldUseSizeValue", 0);
-					r_ShouldUseSizeValue.SetBelong(this.instance);
+					r_MShouldUseSizeValue = new(this, "ShouldUseSizeValue", 0);
+					r_MShouldUseSizeValue.SetBelong(this.instance);
 				}
-				return r_ShouldUseSizeValue;
+				return r_MShouldUseSizeValue;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsSizeAuto(Single, Single)
 		/// </summary>
-		protected RMethod r_IsSizeAuto_Single_Single;
-		public virtual RMethod RIsSizeAuto_Single_Single
+		protected RMethod r_MIsSizeAuto_Single_Single;
+		public virtual RMethod RMIsSizeAuto_Single_Single
 		{
 			get
 			{
-				if(r_IsSizeAuto_Single_Single == null)
+				if(r_MIsSizeAuto_Single_Single == null)
 				{
-					r_IsSizeAuto_Single_Single = new(this, "IsSizeAuto", 0, typeof(System.Single), typeof(System.Single));
-					r_IsSizeAuto_Single_Single.SetBelong(this.instance);
+					r_MIsSizeAuto_Single_Single = new(this, "IsSizeAuto", 0, typeof(System.Single), typeof(System.Single));
+					r_MIsSizeAuto_Single_Single.SetBelong(this.instance);
 				}
-				return r_IsSizeAuto_Single_Single;
+				return r_MIsSizeAuto_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateSize()
 		/// </summary>
-		protected RMethod r_UpdateSize;
-		public virtual RMethod RUpdateSize
+		protected RMethod r_MUpdateSize;
+		public virtual RMethod RMUpdateSize
 		{
 			get
 			{
-				if(r_UpdateSize == null)
+				if(r_MUpdateSize == null)
 				{
-					r_UpdateSize = new(this, "UpdateSize", 0);
-					r_UpdateSize.SetBelong(this.instance);
+					r_MUpdateSize = new(this, "UpdateSize", 0);
+					r_MUpdateSize.SetBelong(this.instance);
 				}
-				return r_UpdateSize;
+				return r_MUpdateSize;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement CreateContent(UnityEditor.Overlays.Layout)
 		/// </summary>
-		protected RMethod r_CreateContent_Layout;
-		public virtual RMethod RCreateContent_Layout
+		protected RMethod r_MCreateContent_Layout;
+		public virtual RMethod RMCreateContent_Layout
 		{
 			get
 			{
-				if(r_CreateContent_Layout == null)
+				if(r_MCreateContent_Layout == null)
 				{
-					r_CreateContent_Layout = new(this, "CreateContent", 0, typeof(UnityEditor.Overlays.Layout));
-					r_CreateContent_Layout.SetBelong(this.instance);
+					r_MCreateContent_Layout = new(this, "CreateContent", 0, typeof(UnityEditor.Overlays.Layout));
+					r_MCreateContent_Layout.SetBelong(this.instance);
 				}
-				return r_CreateContent_Layout;
+				return r_MCreateContent_Layout;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement CreatePanelContent()
 		/// </summary>
-		protected RMethod r_CreatePanelContent;
-		public virtual RMethod RCreatePanelContent
+		protected RMethod r_MCreatePanelContent;
+		public virtual RMethod RMCreatePanelContent
 		{
 			get
 			{
-				if(r_CreatePanelContent == null)
+				if(r_MCreatePanelContent == null)
 				{
-					r_CreatePanelContent = new(this, "CreatePanelContent", 0);
-					r_CreatePanelContent.SetBelong(this.instance);
+					r_MCreatePanelContent = new(this, "CreatePanelContent", 0);
+					r_MCreatePanelContent.SetBelong(this.instance);
 				}
-				return r_CreatePanelContent;
+				return r_MCreatePanelContent;
 			}
 		}
 
 		/// <summary>
 		/// Void OnCreated()
 		/// </summary>
-		protected RMethod r_OnCreated;
-		public virtual RMethod ROnCreated
+		protected RMethod r_MOnCreated;
+		public virtual RMethod RMOnCreated
 		{
 			get
 			{
-				if(r_OnCreated == null)
+				if(r_MOnCreated == null)
 				{
-					r_OnCreated = new(this, "OnCreated", 0);
-					r_OnCreated.SetBelong(this.instance);
+					r_MOnCreated = new(this, "OnCreated", 0);
+					r_MOnCreated.SetBelong(this.instance);
 				}
-				return r_OnCreated;
+				return r_MOnCreated;
 			}
 		}
 
 		/// <summary>
 		/// Void OnWillBeDestroyed()
 		/// </summary>
-		protected RMethod r_OnWillBeDestroyed;
-		public virtual RMethod ROnWillBeDestroyed
+		protected RMethod r_MOnWillBeDestroyed;
+		public virtual RMethod RMOnWillBeDestroyed
 		{
 			get
 			{
-				if(r_OnWillBeDestroyed == null)
+				if(r_MOnWillBeDestroyed == null)
 				{
-					r_OnWillBeDestroyed = new(this, "OnWillBeDestroyed", 0);
-					r_OnWillBeDestroyed.SetBelong(this.instance);
+					r_MOnWillBeDestroyed = new(this, "OnWillBeDestroyed", 0);
+					r_MOnWillBeDestroyed.SetBelong(this.instance);
 				}
-				return r_OnWillBeDestroyed;
+				return r_MOnWillBeDestroyed;
 			}
 		}
 
 		/// <summary>
 		/// Void Close()
 		/// </summary>
-		protected RMethod r_Close;
-		public virtual RMethod RClose
+		protected RMethod r_MClose;
+		public virtual RMethod RMClose
 		{
 			get
 			{
-				if(r_Close == null)
+				if(r_MClose == null)
 				{
-					r_Close = new(this, "Close", 0);
-					r_Close.SetBelong(this.instance);
+					r_MClose = new(this, "Close", 0);
+					r_MClose.SetBelong(this.instance);
 				}
-				return r_Close;
+				return r_MClose;
 			}
 		}
 
 		/// <summary>
 		/// Void ToggleCollapsedPopup()
 		/// </summary>
-		protected RMethod r_ToggleCollapsedPopup;
-		public virtual RMethod RToggleCollapsedPopup
+		protected RMethod r_MToggleCollapsedPopup;
+		public virtual RMethod RMToggleCollapsedPopup
 		{
 			get
 			{
-				if(r_ToggleCollapsedPopup == null)
+				if(r_MToggleCollapsedPopup == null)
 				{
-					r_ToggleCollapsedPopup = new(this, "ToggleCollapsedPopup", 0);
-					r_ToggleCollapsedPopup.SetBelong(this.instance);
+					r_MToggleCollapsedPopup = new(this, "ToggleCollapsedPopup", 0);
+					r_MToggleCollapsedPopup.SetBelong(this.instance);
 				}
-				return r_ToggleCollapsedPopup;
+				return r_MToggleCollapsedPopup;
 			}
 		}
 
 		/// <summary>
 		/// Void ClosePopup()
 		/// </summary>
-		protected RMethod r_ClosePopup;
-		public virtual RMethod RClosePopup
+		protected RMethod r_MClosePopup;
+		public virtual RMethod RMClosePopup
 		{
 			get
 			{
-				if(r_ClosePopup == null)
+				if(r_MClosePopup == null)
 				{
-					r_ClosePopup = new(this, "ClosePopup", 0);
-					r_ClosePopup.SetBelong(this.instance);
+					r_MClosePopup = new(this, "ClosePopup", 0);
+					r_MClosePopup.SetBelong(this.instance);
 				}
-				return r_ClosePopup;
+				return r_MClosePopup;
 			}
 		}
 
 		/// <summary>
 		/// Status GetMenuItemState(Boolean)
 		/// </summary>
-		protected static RMethod r_GetMenuItemState_Boolean;
-		public static RMethod RGetMenuItemState_Boolean
+		protected static RMethod r_MGetMenuItemState_Boolean;
+		public static RMethod RMGetMenuItemState_Boolean
 		{
 			get
 			{
-				if(r_GetMenuItemState_Boolean == null)
+				if(r_MGetMenuItemState_Boolean == null)
 				{
-					r_GetMenuItemState_Boolean = new(typeof(UnityEditor.Overlays.Overlay), "GetMenuItemState", 0, typeof(System.Boolean));
-					r_GetMenuItemState_Boolean.SetBelong(null);
+					r_MGetMenuItemState_Boolean = new(typeof(UnityEditor.Overlays.Overlay), "GetMenuItemState", 0, typeof(System.Boolean));
+					r_MGetMenuItemState_Boolean.SetBelong(null);
 				}
-				return r_GetMenuItemState_Boolean;
+				return r_MGetMenuItemState_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void BuildContextMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)
 		/// </summary>
-		protected RMethod r_BuildContextMenu_ContextualMenuPopulateEvent;
-		public virtual RMethod RBuildContextMenu_ContextualMenuPopulateEvent
+		protected RMethod r_MBuildContextMenu_ContextualMenuPopulateEvent;
+		public virtual RMethod RMBuildContextMenu_ContextualMenuPopulateEvent
 		{
 			get
 			{
-				if(r_BuildContextMenu_ContextualMenuPopulateEvent == null)
+				if(r_MBuildContextMenu_ContextualMenuPopulateEvent == null)
 				{
-					r_BuildContextMenu_ContextualMenuPopulateEvent = new(this, "BuildContextMenu", 0, typeof(UnityEngine.UIElements.ContextualMenuPopulateEvent));
-					r_BuildContextMenu_ContextualMenuPopulateEvent.SetBelong(this.instance);
+					r_MBuildContextMenu_ContextualMenuPopulateEvent = new(this, "BuildContextMenu", 0, typeof(UnityEngine.UIElements.ContextualMenuPopulateEvent));
+					r_MBuildContextMenu_ContextualMenuPopulateEvent.SetBelong(this.instance);
 				}
-				return r_BuildContextMenu_ContextualMenuPopulateEvent;
+				return r_MBuildContextMenu_ContextualMenuPopulateEvent;
 			}
 		}
 
 		/// <summary>
 		/// Void SetHighlightEnabled(Boolean)
 		/// </summary>
-		protected RMethod r_SetHighlightEnabled_Boolean;
-		public virtual RMethod RSetHighlightEnabled_Boolean
+		protected RMethod r_MSetHighlightEnabled_Boolean;
+		public virtual RMethod RMSetHighlightEnabled_Boolean
 		{
 			get
 			{
-				if(r_SetHighlightEnabled_Boolean == null)
+				if(r_MSetHighlightEnabled_Boolean == null)
 				{
-					r_SetHighlightEnabled_Boolean = new(this, "SetHighlightEnabled", 0, typeof(System.Boolean));
-					r_SetHighlightEnabled_Boolean.SetBelong(this.instance);
+					r_MSetHighlightEnabled_Boolean = new(this, "SetHighlightEnabled", 0, typeof(System.Boolean));
+					r_MSetHighlightEnabled_Boolean.SetBelong(this.instance);
 				}
-				return r_SetHighlightEnabled_Boolean;
+				return r_MSetHighlightEnabled_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Initialize(UnityEditor.Overlays.OverlayAttribute)
 		/// </summary>
-		protected RMethod r_Initialize_OverlayAttribute;
-		public virtual RMethod RInitialize_OverlayAttribute
+		protected RMethod r_MInitialize_OverlayAttribute;
+		public virtual RMethod RMInitialize_OverlayAttribute
 		{
 			get
 			{
-				if(r_Initialize_OverlayAttribute == null)
+				if(r_MInitialize_OverlayAttribute == null)
 				{
-					r_Initialize_OverlayAttribute = new(this, "Initialize", 0, typeof(UnityEditor.Overlays.OverlayAttribute));
-					r_Initialize_OverlayAttribute.SetBelong(this.instance);
+					r_MInitialize_OverlayAttribute = new(this, "Initialize", 0, typeof(UnityEditor.Overlays.OverlayAttribute));
+					r_MInitialize_OverlayAttribute.SetBelong(this.instance);
 				}
-				return r_Initialize_OverlayAttribute;
+				return r_MInitialize_OverlayAttribute;
 			}
 		}
 
 		/// <summary>
 		/// Void Initialize(System.String, System.String, System.String)
 		/// </summary>
-		protected RMethod r_Initialize_String_String_String;
-		public virtual RMethod RInitialize_String_String_String
+		protected RMethod r_MInitialize_String_String_String;
+		public virtual RMethod RMInitialize_String_String_String
 		{
 			get
 			{
-				if(r_Initialize_String_String_String == null)
+				if(r_MInitialize_String_String_String == null)
 				{
-					r_Initialize_String_String_String = new(this, "Initialize", 0, typeof(System.String), typeof(System.String), typeof(System.String));
-					r_Initialize_String_String_String.SetBelong(this.instance);
+					r_MInitialize_String_String_String = new(this, "Initialize", 0, typeof(System.String), typeof(System.String), typeof(System.String));
+					r_MInitialize_String_String_String.SetBelong(this.instance);
 				}
-				return r_Initialize_String_String_String;
+				return r_MInitialize_String_String_String;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplySaveData(UnityEditor.Overlays.SaveData)
 		/// </summary>
-		protected RMethod r_ApplySaveData_SaveData;
-		public virtual RMethod RApplySaveData_SaveData
+		protected RMethod r_MApplySaveData_SaveData;
+		public virtual RMethod RMApplySaveData_SaveData
 		{
 			get
 			{
-				if(r_ApplySaveData_SaveData == null)
+				if(r_MApplySaveData_SaveData == null)
 				{
-					r_ApplySaveData_SaveData = new(this, "ApplySaveData", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.SaveData"));
-					r_ApplySaveData_SaveData.SetBelong(this.instance);
+					r_MApplySaveData_SaveData = new(this, "ApplySaveData", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.SaveData"));
+					r_MApplySaveData_SaveData.SetBelong(this.instance);
 				}
-				return r_ApplySaveData_SaveData;
+				return r_MApplySaveData_SaveData;
 			}
 		}
 
 		/// <summary>
 		/// Void OnFloatingChanged(Boolean)
 		/// </summary>
-		protected RMethod r_OnFloatingChanged_Boolean;
-		public virtual RMethod ROnFloatingChanged_Boolean
+		protected RMethod r_MOnFloatingChanged_Boolean;
+		public virtual RMethod RMOnFloatingChanged_Boolean
 		{
 			get
 			{
-				if(r_OnFloatingChanged_Boolean == null)
+				if(r_MOnFloatingChanged_Boolean == null)
 				{
-					r_OnFloatingChanged_Boolean = new(this, "OnFloatingChanged", 0, typeof(System.Boolean));
-					r_OnFloatingChanged_Boolean.SetBelong(this.instance);
+					r_MOnFloatingChanged_Boolean = new(this, "OnFloatingChanged", 0, typeof(System.Boolean));
+					r_MOnFloatingChanged_Boolean.SetBelong(this.instance);
 				}
-				return r_OnFloatingChanged_Boolean;
+				return r_MOnFloatingChanged_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean DockAt(UnityEditor.Overlays.OverlayContainer, UnityEditor.Overlays.OverlayContainerSection)
 		/// </summary>
-		protected RMethod r_DockAt_OverlayContainer_OverlayContainerSection;
-		public virtual RMethod RDockAt_OverlayContainer_OverlayContainerSection
+		protected RMethod r_MDockAt_OverlayContainer_OverlayContainerSection;
+		public virtual RMethod RMDockAt_OverlayContainer_OverlayContainerSection
 		{
 			get
 			{
-				if(r_DockAt_OverlayContainer_OverlayContainerSection == null)
+				if(r_MDockAt_OverlayContainer_OverlayContainerSection == null)
 				{
-					r_DockAt_OverlayContainer_OverlayContainerSection = new(this, "DockAt", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainer"),  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection"));
-					r_DockAt_OverlayContainer_OverlayContainerSection.SetBelong(this.instance);
+					r_MDockAt_OverlayContainer_OverlayContainerSection = new(this, "DockAt", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainer"),  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection"));
+					r_MDockAt_OverlayContainer_OverlayContainerSection.SetBelong(this.instance);
 				}
-				return r_DockAt_OverlayContainer_OverlayContainerSection;
+				return r_MDockAt_OverlayContainer_OverlayContainerSection;
 			}
 		}
 
 		/// <summary>
 		/// Boolean DockAt(UnityEditor.Overlays.OverlayContainer, UnityEditor.Overlays.OverlayContainerSection, Int32)
 		/// </summary>
-		protected RMethod r_DockAt_OverlayContainer_OverlayContainerSection_Int32;
-		public virtual RMethod RDockAt_OverlayContainer_OverlayContainerSection_Int32
+		protected RMethod r_MDockAt_OverlayContainer_OverlayContainerSection_Int32;
+		public virtual RMethod RMDockAt_OverlayContainer_OverlayContainerSection_Int32
 		{
 			get
 			{
-				if(r_DockAt_OverlayContainer_OverlayContainerSection_Int32 == null)
+				if(r_MDockAt_OverlayContainer_OverlayContainerSection_Int32 == null)
 				{
-					r_DockAt_OverlayContainer_OverlayContainerSection_Int32 = new(this, "DockAt", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainer"),  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection"), typeof(System.Int32));
-					r_DockAt_OverlayContainer_OverlayContainerSection_Int32.SetBelong(this.instance);
+					r_MDockAt_OverlayContainer_OverlayContainerSection_Int32 = new(this, "DockAt", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainer"),  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection"), typeof(System.Int32));
+					r_MDockAt_OverlayContainer_OverlayContainerSection_Int32.SetBelong(this.instance);
 				}
-				return r_DockAt_OverlayContainer_OverlayContainerSection_Int32;
+				return r_MDockAt_OverlayContainer_OverlayContainerSection_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean DockBefore(UnityEditor.Overlays.Overlay)
 		/// </summary>
-		protected RMethod r_DockBefore_Overlay;
-		public virtual RMethod RDockBefore_Overlay
+		protected RMethod r_MDockBefore_Overlay;
+		public virtual RMethod RMDockBefore_Overlay
 		{
 			get
 			{
-				if(r_DockBefore_Overlay == null)
+				if(r_MDockBefore_Overlay == null)
 				{
-					r_DockBefore_Overlay = new(this, "DockBefore", 0, typeof(UnityEditor.Overlays.Overlay));
-					r_DockBefore_Overlay.SetBelong(this.instance);
+					r_MDockBefore_Overlay = new(this, "DockBefore", 0, typeof(UnityEditor.Overlays.Overlay));
+					r_MDockBefore_Overlay.SetBelong(this.instance);
 				}
-				return r_DockBefore_Overlay;
+				return r_MDockBefore_Overlay;
 			}
 		}
 
 		/// <summary>
 		/// Boolean DockAfter(UnityEditor.Overlays.Overlay)
 		/// </summary>
-		protected RMethod r_DockAfter_Overlay;
-		public virtual RMethod RDockAfter_Overlay
+		protected RMethod r_MDockAfter_Overlay;
+		public virtual RMethod RMDockAfter_Overlay
 		{
 			get
 			{
-				if(r_DockAfter_Overlay == null)
+				if(r_MDockAfter_Overlay == null)
 				{
-					r_DockAfter_Overlay = new(this, "DockAfter", 0, typeof(UnityEditor.Overlays.Overlay));
-					r_DockAfter_Overlay.SetBelong(this.instance);
+					r_MDockAfter_Overlay = new(this, "DockAfter", 0, typeof(UnityEditor.Overlays.Overlay));
+					r_MDockAfter_Overlay.SetBelong(this.instance);
 				}
-				return r_DockAfter_Overlay;
+				return r_MDockAfter_Overlay;
 			}
 		}
 
 		/// <summary>
 		/// Void Undock()
 		/// </summary>
-		protected RMethod r_Undock;
-		public virtual RMethod RUndock
+		protected RMethod r_MUndock;
+		public virtual RMethod RMUndock
 		{
 			get
 			{
-				if(r_Undock == null)
+				if(r_MUndock == null)
 				{
-					r_Undock = new(this, "Undock", 0);
-					r_Undock.SetBelong(this.instance);
+					r_MUndock = new(this, "Undock", 0);
+					r_MUndock.SetBelong(this.instance);
 				}
-				return r_Undock;
+				return r_MUndock;
 			}
 		}
 
 		/// <summary>
 		/// Void BringToFront()
 		/// </summary>
-		protected RMethod r_BringToFront;
-		public virtual RMethod RBringToFront
+		protected RMethod r_MBringToFront;
+		public virtual RMethod RMBringToFront
 		{
 			get
 			{
-				if(r_BringToFront == null)
+				if(r_MBringToFront == null)
 				{
-					r_BringToFront = new(this, "BringToFront", 0);
-					r_BringToFront.SetBelong(this.instance);
+					r_MBringToFront = new(this, "BringToFront", 0);
+					r_MBringToFront.SetBelong(this.instance);
 				}
-				return r_BringToFront;
+				return r_MBringToFront;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSnappingOffset(UnityEngine.Vector2, UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_SetSnappingOffset_Vector2_Vector2;
-		public virtual RMethod RSetSnappingOffset_Vector2_Vector2
+		protected RMethod r_MSetSnappingOffset_Vector2_Vector2;
+		public virtual RMethod RMSetSnappingOffset_Vector2_Vector2
 		{
 			get
 			{
-				if(r_SetSnappingOffset_Vector2_Vector2 == null)
+				if(r_MSetSnappingOffset_Vector2_Vector2 == null)
 				{
-					r_SetSnappingOffset_Vector2_Vector2 = new(this, "SetSnappingOffset", 0, typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2));
-					r_SetSnappingOffset_Vector2_Vector2.SetBelong(this.instance);
+					r_MSetSnappingOffset_Vector2_Vector2 = new(this, "SetSnappingOffset", 0, typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2));
+					r_MSetSnappingOffset_Vector2_Vector2.SetBelong(this.instance);
 				}
-				return r_SetSnappingOffset_Vector2_Vector2;
+				return r_MSetSnappingOffset_Vector2_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 SnapToFloatingPosition(UnityEditor.Overlays.SnapCorner, UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_SnapToFloatingPosition_SnapCorner_Vector2;
-		public virtual RMethod RSnapToFloatingPosition_SnapCorner_Vector2
+		protected RMethod r_MSnapToFloatingPosition_SnapCorner_Vector2;
+		public virtual RMethod RMSnapToFloatingPosition_SnapCorner_Vector2
 		{
 			get
 			{
-				if(r_SnapToFloatingPosition_SnapCorner_Vector2 == null)
+				if(r_MSnapToFloatingPosition_SnapCorner_Vector2 == null)
 				{
-					r_SnapToFloatingPosition_SnapCorner_Vector2 = new(this, "SnapToFloatingPosition", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.SnapCorner"), typeof(UnityEngine.Vector2));
-					r_SnapToFloatingPosition_SnapCorner_Vector2.SetBelong(this.instance);
+					r_MSnapToFloatingPosition_SnapCorner_Vector2 = new(this, "SnapToFloatingPosition", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.SnapCorner"), typeof(UnityEngine.Vector2));
+					r_MSnapToFloatingPosition_SnapCorner_Vector2.SetBelong(this.instance);
 				}
-				return r_SnapToFloatingPosition_SnapCorner_Vector2;
+				return r_MSnapToFloatingPosition_SnapCorner_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void FloatingToSnapPosition(UnityEngine.Vector2, UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_FloatingToSnapPosition_Vector2_Out_Vector2;
-		public virtual RMethod RFloatingToSnapPosition_Vector2_Out_Vector2
+		protected RMethod r_MFloatingToSnapPosition_Vector2_Out_Vector2;
+		public virtual RMethod RMFloatingToSnapPosition_Vector2_Out_Vector2
 		{
 			get
 			{
-				if(r_FloatingToSnapPosition_Vector2_Out_Vector2 == null)
+				if(r_MFloatingToSnapPosition_Vector2_Out_Vector2 == null)
 				{
-					r_FloatingToSnapPosition_Vector2_Out_Vector2 = new(this, "FloatingToSnapPosition", 0, typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2).MakeByRefType());
-					r_FloatingToSnapPosition_Vector2_Out_Vector2.SetBelong(this.instance);
+					r_MFloatingToSnapPosition_Vector2_Out_Vector2 = new(this, "FloatingToSnapPosition", 0, typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2).MakeByRefType());
+					r_MFloatingToSnapPosition_Vector2_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_FloatingToSnapPosition_Vector2_Out_Vector2;
+				return r_MFloatingToSnapPosition_Vector2_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void FloatingToSnapPosition(UnityEngine.Vector2, UnityEditor.Overlays.SnapCorner ByRef, UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_FloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2;
-		public virtual RMethod RFloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2
+		protected RMethod r_MFloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2;
+		public virtual RMethod RMFloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2
 		{
 			get
 			{
-				if(r_FloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2 == null)
+				if(r_MFloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2 == null)
 				{
-					r_FloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2 = new(this, "FloatingToSnapPosition", 0, typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEditor.Overlays.SnapCorner").MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType());
-					r_FloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2.SetBelong(this.instance);
+					r_MFloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2 = new(this, "FloatingToSnapPosition", 0, typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEditor.Overlays.SnapCorner").MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType());
+					r_MFloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_FloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2;
+				return r_MFloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void OnGeometryChanged(UnityEngine.UIElements.GeometryChangedEvent)
 		/// </summary>
-		protected RMethod r_OnGeometryChanged_GeometryChangedEvent;
-		public virtual RMethod ROnGeometryChanged_GeometryChangedEvent
+		protected RMethod r_MOnGeometryChanged_GeometryChangedEvent;
+		public virtual RMethod RMOnGeometryChanged_GeometryChangedEvent
 		{
 			get
 			{
-				if(r_OnGeometryChanged_GeometryChangedEvent == null)
+				if(r_MOnGeometryChanged_GeometryChangedEvent == null)
 				{
-					r_OnGeometryChanged_GeometryChangedEvent = new(this, "OnGeometryChanged", 0, typeof(UnityEngine.UIElements.GeometryChangedEvent));
-					r_OnGeometryChanged_GeometryChangedEvent.SetBelong(this.instance);
+					r_MOnGeometryChanged_GeometryChangedEvent = new(this, "OnGeometryChanged", 0, typeof(UnityEngine.UIElements.GeometryChangedEvent));
+					r_MOnGeometryChanged_GeometryChangedEvent.SetBelong(this.instance);
 				}
-				return r_OnGeometryChanged_GeometryChangedEvent;
+				return r_MOnGeometryChanged_GeometryChangedEvent;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateSnapping(UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_UpdateSnapping_Vector2;
-		public virtual RMethod RUpdateSnapping_Vector2
+		protected RMethod r_MUpdateSnapping_Vector2;
+		public virtual RMethod RMUpdateSnapping_Vector2
 		{
 			get
 			{
-				if(r_UpdateSnapping_Vector2 == null)
+				if(r_MUpdateSnapping_Vector2 == null)
 				{
-					r_UpdateSnapping_Vector2 = new(this, "UpdateSnapping", 0, typeof(UnityEngine.Vector2));
-					r_UpdateSnapping_Vector2.SetBelong(this.instance);
+					r_MUpdateSnapping_Vector2 = new(this, "UpdateSnapping", 0, typeof(UnityEngine.Vector2));
+					r_MUpdateSnapping_Vector2.SetBelong(this.instance);
 				}
-				return r_UpdateSnapping_Vector2;
+				return r_MUpdateSnapping_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateAbsolutePosition()
 		/// </summary>
-		protected RMethod r_UpdateAbsolutePosition;
-		public virtual RMethod RUpdateAbsolutePosition
+		protected RMethod r_MUpdateAbsolutePosition;
+		public virtual RMethod RMUpdateAbsolutePosition
 		{
 			get
 			{
-				if(r_UpdateAbsolutePosition == null)
+				if(r_MUpdateAbsolutePosition == null)
 				{
-					r_UpdateAbsolutePosition = new(this, "UpdateAbsolutePosition", 0);
-					r_UpdateAbsolutePosition.SetBelong(this.instance);
+					r_MUpdateAbsolutePosition = new(this, "UpdateAbsolutePosition", 0);
+					r_MUpdateAbsolutePosition.SetBelong(this.instance);
 				}
-				return r_UpdateAbsolutePosition;
+				return r_MUpdateAbsolutePosition;
 			}
 		}
 
 		/// <summary>
 		/// Void <ToggleCollapsedPopup>b__154_0(UnityEngine.UIElements.FocusOutEvent)
 		/// </summary>
-		protected RMethod r___0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent;
-		public virtual RMethod R__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent
+		protected RMethod r_M__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent;
+		public virtual RMethod RM__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent
 		{
 			get
 			{
-				if(r___0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent == null)
+				if(r_M__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent == null)
 				{
-					r___0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent = new(this, "<ToggleCollapsedPopup>b__154_0", 0, typeof(UnityEngine.UIElements.FocusOutEvent));
-					r___0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent.SetBelong(this.instance);
+					r_M__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent = new(this, "<ToggleCollapsedPopup>b__154_0", 0, typeof(UnityEngine.UIElements.FocusOutEvent));
+					r_M__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent.SetBelong(this.instance);
 				}
-				return r___0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent;
+				return r_M__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent;
 			}
 		}
 
 		/// <summary>
 		/// Void <BuildContextMenu>b__157_0(UnityEngine.UIElements.DropdownMenuAction)
 		/// </summary>
-		protected RMethod r___0__BuildContextMenu__1__b__157_0_DropdownMenuAction;
-		public virtual RMethod R__0__BuildContextMenu__1__b__157_0_DropdownMenuAction
+		protected RMethod r_M__0__BuildContextMenu__1__b__157_0_DropdownMenuAction;
+		public virtual RMethod RM__0__BuildContextMenu__1__b__157_0_DropdownMenuAction
 		{
 			get
 			{
-				if(r___0__BuildContextMenu__1__b__157_0_DropdownMenuAction == null)
+				if(r_M__0__BuildContextMenu__1__b__157_0_DropdownMenuAction == null)
 				{
-					r___0__BuildContextMenu__1__b__157_0_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_0", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
-					r___0__BuildContextMenu__1__b__157_0_DropdownMenuAction.SetBelong(this.instance);
+					r_M__0__BuildContextMenu__1__b__157_0_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_0", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_M__0__BuildContextMenu__1__b__157_0_DropdownMenuAction.SetBelong(this.instance);
 				}
-				return r___0__BuildContextMenu__1__b__157_0_DropdownMenuAction;
+				return r_M__0__BuildContextMenu__1__b__157_0_DropdownMenuAction;
 			}
 		}
 
 		/// <summary>
 		/// Void <BuildContextMenu>b__157_1(UnityEngine.UIElements.DropdownMenuAction)
 		/// </summary>
-		protected RMethod r___0__BuildContextMenu__1__b__157_1_DropdownMenuAction;
-		public virtual RMethod R__0__BuildContextMenu__1__b__157_1_DropdownMenuAction
+		protected RMethod r_M__0__BuildContextMenu__1__b__157_1_DropdownMenuAction;
+		public virtual RMethod RM__0__BuildContextMenu__1__b__157_1_DropdownMenuAction
 		{
 			get
 			{
-				if(r___0__BuildContextMenu__1__b__157_1_DropdownMenuAction == null)
+				if(r_M__0__BuildContextMenu__1__b__157_1_DropdownMenuAction == null)
 				{
-					r___0__BuildContextMenu__1__b__157_1_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_1", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
-					r___0__BuildContextMenu__1__b__157_1_DropdownMenuAction.SetBelong(this.instance);
+					r_M__0__BuildContextMenu__1__b__157_1_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_1", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_M__0__BuildContextMenu__1__b__157_1_DropdownMenuAction.SetBelong(this.instance);
 				}
-				return r___0__BuildContextMenu__1__b__157_1_DropdownMenuAction;
+				return r_M__0__BuildContextMenu__1__b__157_1_DropdownMenuAction;
 			}
 		}
 
 		/// <summary>
 		/// Void <BuildContextMenu>b__157_2(UnityEngine.UIElements.DropdownMenuAction)
 		/// </summary>
-		protected RMethod r___0__BuildContextMenu__1__b__157_2_DropdownMenuAction;
-		public virtual RMethod R__0__BuildContextMenu__1__b__157_2_DropdownMenuAction
+		protected RMethod r_M__0__BuildContextMenu__1__b__157_2_DropdownMenuAction;
+		public virtual RMethod RM__0__BuildContextMenu__1__b__157_2_DropdownMenuAction
 		{
 			get
 			{
-				if(r___0__BuildContextMenu__1__b__157_2_DropdownMenuAction == null)
+				if(r_M__0__BuildContextMenu__1__b__157_2_DropdownMenuAction == null)
 				{
-					r___0__BuildContextMenu__1__b__157_2_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_2", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
-					r___0__BuildContextMenu__1__b__157_2_DropdownMenuAction.SetBelong(this.instance);
+					r_M__0__BuildContextMenu__1__b__157_2_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_2", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_M__0__BuildContextMenu__1__b__157_2_DropdownMenuAction.SetBelong(this.instance);
 				}
-				return r___0__BuildContextMenu__1__b__157_2_DropdownMenuAction;
+				return r_M__0__BuildContextMenu__1__b__157_2_DropdownMenuAction;
 			}
 		}
 
 		/// <summary>
 		/// Void <BuildContextMenu>b__157_3(UnityEngine.UIElements.DropdownMenuAction)
 		/// </summary>
-		protected RMethod r___0__BuildContextMenu__1__b__157_3_DropdownMenuAction;
-		public virtual RMethod R__0__BuildContextMenu__1__b__157_3_DropdownMenuAction
+		protected RMethod r_M__0__BuildContextMenu__1__b__157_3_DropdownMenuAction;
+		public virtual RMethod RM__0__BuildContextMenu__1__b__157_3_DropdownMenuAction
 		{
 			get
 			{
-				if(r___0__BuildContextMenu__1__b__157_3_DropdownMenuAction == null)
+				if(r_M__0__BuildContextMenu__1__b__157_3_DropdownMenuAction == null)
 				{
-					r___0__BuildContextMenu__1__b__157_3_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_3", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
-					r___0__BuildContextMenu__1__b__157_3_DropdownMenuAction.SetBelong(this.instance);
+					r_M__0__BuildContextMenu__1__b__157_3_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_3", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_M__0__BuildContextMenu__1__b__157_3_DropdownMenuAction.SetBelong(this.instance);
 				}
-				return r___0__BuildContextMenu__1__b__157_3_DropdownMenuAction;
+				return r_M__0__BuildContextMenu__1__b__157_3_DropdownMenuAction;
 			}
 		}
 
 		/// <summary>
 		/// Void <BuildContextMenu>b__157_4(UnityEngine.UIElements.DropdownMenuAction)
 		/// </summary>
-		protected RMethod r___0__BuildContextMenu__1__b__157_4_DropdownMenuAction;
-		public virtual RMethod R__0__BuildContextMenu__1__b__157_4_DropdownMenuAction
+		protected RMethod r_M__0__BuildContextMenu__1__b__157_4_DropdownMenuAction;
+		public virtual RMethod RM__0__BuildContextMenu__1__b__157_4_DropdownMenuAction
 		{
 			get
 			{
-				if(r___0__BuildContextMenu__1__b__157_4_DropdownMenuAction == null)
+				if(r_M__0__BuildContextMenu__1__b__157_4_DropdownMenuAction == null)
 				{
-					r___0__BuildContextMenu__1__b__157_4_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_4", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
-					r___0__BuildContextMenu__1__b__157_4_DropdownMenuAction.SetBelong(this.instance);
+					r_M__0__BuildContextMenu__1__b__157_4_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_4", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_M__0__BuildContextMenu__1__b__157_4_DropdownMenuAction.SetBelong(this.instance);
 				}
-				return r___0__BuildContextMenu__1__b__157_4_DropdownMenuAction;
+				return r_M__0__BuildContextMenu__1__b__157_4_DropdownMenuAction;
 			}
 		}
 
 		/// <summary>
 		/// Void <BuildContextMenu>b__157_5(UnityEngine.UIElements.DropdownMenuAction)
 		/// </summary>
-		protected RMethod r___0__BuildContextMenu__1__b__157_5_DropdownMenuAction;
-		public virtual RMethod R__0__BuildContextMenu__1__b__157_5_DropdownMenuAction
+		protected RMethod r_M__0__BuildContextMenu__1__b__157_5_DropdownMenuAction;
+		public virtual RMethod RM__0__BuildContextMenu__1__b__157_5_DropdownMenuAction
 		{
 			get
 			{
-				if(r___0__BuildContextMenu__1__b__157_5_DropdownMenuAction == null)
+				if(r_M__0__BuildContextMenu__1__b__157_5_DropdownMenuAction == null)
 				{
-					r___0__BuildContextMenu__1__b__157_5_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_5", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
-					r___0__BuildContextMenu__1__b__157_5_DropdownMenuAction.SetBelong(this.instance);
+					r_M__0__BuildContextMenu__1__b__157_5_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_5", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_M__0__BuildContextMenu__1__b__157_5_DropdownMenuAction.SetBelong(this.instance);
 				}
-				return r___0__BuildContextMenu__1__b__157_5_DropdownMenuAction;
+				return r_M__0__BuildContextMenu__1__b__157_5_DropdownMenuAction;
 			}
 		}
 
 		/// <summary>
 		/// Void <BuildContextMenu>b__157_6(UnityEngine.UIElements.DropdownMenuAction)
 		/// </summary>
-		protected RMethod r___0__BuildContextMenu__1__b__157_6_DropdownMenuAction;
-		public virtual RMethod R__0__BuildContextMenu__1__b__157_6_DropdownMenuAction
+		protected RMethod r_M__0__BuildContextMenu__1__b__157_6_DropdownMenuAction;
+		public virtual RMethod RM__0__BuildContextMenu__1__b__157_6_DropdownMenuAction
 		{
 			get
 			{
-				if(r___0__BuildContextMenu__1__b__157_6_DropdownMenuAction == null)
+				if(r_M__0__BuildContextMenu__1__b__157_6_DropdownMenuAction == null)
 				{
-					r___0__BuildContextMenu__1__b__157_6_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_6", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
-					r___0__BuildContextMenu__1__b__157_6_DropdownMenuAction.SetBelong(this.instance);
+					r_M__0__BuildContextMenu__1__b__157_6_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_6", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_M__0__BuildContextMenu__1__b__157_6_DropdownMenuAction.SetBelong(this.instance);
 				}
-				return r___0__BuildContextMenu__1__b__157_6_DropdownMenuAction;
+				return r_M__0__BuildContextMenu__1__b__157_6_DropdownMenuAction;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -2328,7 +2498,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@errorEvent};
-            var ___result = RGetEventTypeErrorMessage_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetEventTypeErrorMessage_String.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -2339,7 +2509,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RResetSize.Invoke(___genericsType, ___parameters);
+            var ___result = RMResetSize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2350,7 +2520,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@requested};
-            var ___result = RCanCreateRequestedLayout_Layout.Invoke(___genericsType, ___parameters);
+            var ___result = RMCanCreateRequestedLayout_Layout.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2361,7 +2531,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetBestLayoutForState.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetBestLayoutForState.Invoke(___genericsType, ___parameters);
 
             return (UnityEditor.Overlays.Layout)___result;
         }
@@ -2372,7 +2542,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RRebuildContent.Invoke(___genericsType, ___parameters);
+            var ___result = RMRebuildContent.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2383,7 +2553,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RShouldUseSizeValue.Invoke(___genericsType, ___parameters);
+            var ___result = RMShouldUseSizeValue.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2394,7 +2564,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@min, @max};
-            var ___result = RIsSizeAuto_Single_Single.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsSizeAuto_Single_Single.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2405,7 +2575,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateSize.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateSize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2416,7 +2586,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@requestedLayout};
-            var ___result = RCreateContent_Layout.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateContent_Layout.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.VisualElement)___result;
         }
@@ -2427,7 +2597,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCreatePanelContent.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreatePanelContent.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.VisualElement)___result;
         }
@@ -2438,7 +2608,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = ROnCreated.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnCreated.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2449,7 +2619,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = ROnWillBeDestroyed.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnWillBeDestroyed.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2460,7 +2630,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RClose.Invoke(___genericsType, ___parameters);
+            var ___result = RMClose.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2471,7 +2641,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToggleCollapsedPopup.Invoke(___genericsType, ___parameters);
+            var ___result = RMToggleCollapsedPopup.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2482,20 +2652,20 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RClosePopup.Invoke(___genericsType, ___parameters);
+            var ___result = RMClosePopup.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public static RType GetMenuItemState(System.Boolean @isChecked)
+        public static RUnityEngine.RUIElements.RDropdownMenuAction.RStatus GetMenuItemState(System.Boolean @isChecked)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@isChecked};
-            var ___result = RGetMenuItemState_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetMenuItemState_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new RType(___result);
+            return new RUnityEngine.RUIElements.RDropdownMenuAction.RStatus(___result);
         }
 
 
@@ -2504,7 +2674,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = RBuildContextMenu_ContextualMenuPopulateEvent.Invoke(___genericsType, ___parameters);
+            var ___result = RMBuildContextMenu_ContextualMenuPopulateEvent.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2515,7 +2685,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@highlight};
-            var ___result = RSetHighlightEnabled_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetHighlightEnabled_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2526,7 +2696,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@attrib};
-            var ___result = RInitialize_OverlayAttribute.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitialize_OverlayAttribute.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2537,7 +2707,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_id, @_uss, @_display};
-            var ___result = RInitialize_String_String_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitialize_String_String_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2548,7 +2718,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data.Value};
-            var ___result = RApplySaveData_SaveData.Invoke(___genericsType, ___parameters);
+            var ___result = RMApplySaveData_SaveData.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2559,29 +2729,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@floating};
-            var ___result = ROnFloatingChanged_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnFloatingChanged_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual System.Boolean DockAt(RUnityEditor.ROverlays.ROverlayContainer @container, RType @section)
+        public virtual System.Boolean DockAt(RUnityEditor.ROverlays.ROverlayContainer @container, RUnityEditor.ROverlays.ROverlayContainerSection @section)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@container.Value, @section.Value};
-            var ___result = RDockAt_OverlayContainer_OverlayContainerSection.Invoke(___genericsType, ___parameters);
+            var ___result = RMDockAt_OverlayContainer_OverlayContainerSection.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual System.Boolean DockAt(RUnityEditor.ROverlays.ROverlayContainer @container, RType @section, System.Int32 @index)
+        public virtual System.Boolean DockAt(RUnityEditor.ROverlays.ROverlayContainer @container, RUnityEditor.ROverlays.ROverlayContainerSection @section, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@container.Value, @section.Value, @index};
-            var ___result = RDockAt_OverlayContainer_OverlayContainerSection_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMDockAt_OverlayContainer_OverlayContainerSection_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2592,7 +2762,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target};
-            var ___result = RDockBefore_Overlay.Invoke(___genericsType, ___parameters);
+            var ___result = RMDockBefore_Overlay.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2603,7 +2773,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target};
-            var ___result = RDockAfter_Overlay.Invoke(___genericsType, ___parameters);
+            var ___result = RMDockAfter_Overlay.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2614,7 +2784,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUndock.Invoke(___genericsType, ___parameters);
+            var ___result = RMUndock.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2625,7 +2795,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RBringToFront.Invoke(___genericsType, ___parameters);
+            var ___result = RMBringToFront.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2636,18 +2806,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@snapOffset, @snapOffsetDelta};
-            var ___result = RSetSnappingOffset_Vector2_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetSnappingOffset_Vector2_Vector2.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual UnityEngine.Vector2 SnapToFloatingPosition(RType @corner, UnityEngine.Vector2 @snapPosition)
+        public virtual UnityEngine.Vector2 SnapToFloatingPosition(RUnityEditor.ROverlays.RSnapCorner @corner, UnityEngine.Vector2 @snapPosition)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@corner.Value, @snapPosition};
-            var ___result = RSnapToFloatingPosition_SnapCorner_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMSnapToFloatingPosition_SnapCorner_Vector2.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector2)___result;
         }
@@ -2659,22 +2829,22 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @snapOffset};
-            var ___result = RFloatingToSnapPosition_Vector2_Out_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMFloatingToSnapPosition_Vector2_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@snapOffset = (UnityEngine.Vector2)___parameters[1];
 
             
         }
 
 
-        public virtual void FloatingToSnapPosition(UnityEngine.Vector2 @position, out RType @snapCorner, out UnityEngine.Vector2 @snapOffset)
+        public virtual void FloatingToSnapPosition(UnityEngine.Vector2 @position, out RUnityEditor.ROverlays.RSnapCorner @snapCorner, out UnityEngine.Vector2 @snapOffset)
         {
 			@snapCorner = default;
 			@snapOffset = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @snapCorner.Value, @snapOffset};
-            var ___result = RFloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@snapCorner = new RType(___parameters[1]);
+            var ___result = RMFloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2.Invoke(___genericsType, ___parameters);
+			@snapCorner = new RUnityEditor.ROverlays.RSnapCorner(___parameters[1]);
 			@snapOffset = (UnityEngine.Vector2)___parameters[2];
 
             
@@ -2686,7 +2856,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = ROnGeometryChanged_GeometryChangedEvent.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnGeometryChanged_GeometryChangedEvent.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2697,7 +2867,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position};
-            var ___result = RUpdateSnapping_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateSnapping_Vector2.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2708,7 +2878,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateAbsolutePosition.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateAbsolutePosition.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2719,7 +2889,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = R__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2730,7 +2900,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action};
-            var ___result = R__0__BuildContextMenu__1__b__157_0_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__BuildContextMenu__1__b__157_0_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2741,7 +2911,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action};
-            var ___result = R__0__BuildContextMenu__1__b__157_1_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__BuildContextMenu__1__b__157_1_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2752,7 +2922,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action};
-            var ___result = R__0__BuildContextMenu__1__b__157_2_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__BuildContextMenu__1__b__157_2_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2763,7 +2933,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action};
-            var ___result = R__0__BuildContextMenu__1__b__157_3_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__BuildContextMenu__1__b__157_3_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2774,7 +2944,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action};
-            var ___result = R__0__BuildContextMenu__1__b__157_4_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__BuildContextMenu__1__b__157_4_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2785,7 +2955,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action};
-            var ___result = R__0__BuildContextMenu__1__b__157_5_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__BuildContextMenu__1__b__157_5_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2796,7 +2966,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action};
-            var ___result = R__0__BuildContextMenu__1__b__157_6_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__BuildContextMenu__1__b__157_6_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2807,7 +2977,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2818,7 +2988,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2829,7 +2999,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -2840,7 +3010,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -2851,7 +3021,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -2862,7 +3032,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

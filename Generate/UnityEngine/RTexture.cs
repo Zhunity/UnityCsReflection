@@ -13,1105 +13,1105 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 GenerateAllMips
 		/// </summary>
-		protected static RSystem.RInt32 r_GenerateAllMips;
-		public static RSystem.RInt32 RGenerateAllMips
+		protected static RSystem.RInt32 r_FGenerateAllMips;
+		public static RSystem.RInt32 RFGenerateAllMips
 		{
 			get
 			{
-				if(r_GenerateAllMips == null)
+				if(r_FGenerateAllMips == null)
 				{
-					r_GenerateAllMips = new(typeof(UnityEngine.Texture), "GenerateAllMips");
-					r_GenerateAllMips.SetBelong(null);
+					r_FGenerateAllMips = new(typeof(UnityEngine.Texture), "GenerateAllMips");
+					r_FGenerateAllMips.SetBelong(null);
 				}
-				return r_GenerateAllMips;
+				return r_FGenerateAllMips;
 			}
 		}
 
 		/// <summary>
 		/// Int32 masterTextureLimit
 		/// </summary>
-		protected static RSystem.RInt32 r_masterTextureLimit;
-		public static RSystem.RInt32 RmasterTextureLimit
+		protected static RSystem.RInt32 r_PmasterTextureLimit;
+		public static RSystem.RInt32 RPmasterTextureLimit
 		{
 			get
 			{
-				if(r_masterTextureLimit == null)
+				if(r_PmasterTextureLimit == null)
 				{
-					r_masterTextureLimit = new(typeof(UnityEngine.Texture), "masterTextureLimit", -1);
-					r_masterTextureLimit.SetBelong(null);
+					r_PmasterTextureLimit = new(typeof(UnityEngine.Texture), "masterTextureLimit", -1);
+					r_PmasterTextureLimit.SetBelong(null);
 				}
-				return r_masterTextureLimit;
+				return r_PmasterTextureLimit;
 			}
 		}
 
 		/// <summary>
 		/// Int32 globalMipmapLimit
 		/// </summary>
-		protected static RSystem.RInt32 r_globalMipmapLimit;
-		public static RSystem.RInt32 RglobalMipmapLimit
+		protected static RSystem.RInt32 r_PglobalMipmapLimit;
+		public static RSystem.RInt32 RPglobalMipmapLimit
 		{
 			get
 			{
-				if(r_globalMipmapLimit == null)
+				if(r_PglobalMipmapLimit == null)
 				{
-					r_globalMipmapLimit = new(typeof(UnityEngine.Texture), "globalMipmapLimit", -1);
-					r_globalMipmapLimit.SetBelong(null);
+					r_PglobalMipmapLimit = new(typeof(UnityEngine.Texture), "globalMipmapLimit", -1);
+					r_PglobalMipmapLimit.SetBelong(null);
 				}
-				return r_globalMipmapLimit;
+				return r_PglobalMipmapLimit;
 			}
 		}
 
 		/// <summary>
 		/// Int32 mipmapCount
 		/// </summary>
-		protected RSystem.RInt32 r_mipmapCount;
-		public virtual RSystem.RInt32 RmipmapCount
+		protected RSystem.RInt32 r_PmipmapCount;
+		public virtual RSystem.RInt32 RPmipmapCount
 		{
 			get
 			{
-				if(r_mipmapCount == null)
+				if(r_PmipmapCount == null)
 				{
-					r_mipmapCount = new(this, "mipmapCount", -1);
-					r_mipmapCount.SetBelong(this.instance);
+					r_PmipmapCount = new(this, "mipmapCount", -1);
+					r_PmipmapCount.SetBelong(this.instance);
 				}
-				return r_mipmapCount;
+				return r_PmipmapCount;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.AnisotropicFiltering anisotropicFiltering
 		/// </summary>
-		protected static RProperty r_anisotropicFiltering;
-		public static RProperty RanisotropicFiltering
+		protected static RUnityEngine.RAnisotropicFiltering r_PanisotropicFiltering;
+		public static RUnityEngine.RAnisotropicFiltering RPanisotropicFiltering
 		{
 			get
 			{
-				if(r_anisotropicFiltering == null)
+				if(r_PanisotropicFiltering == null)
 				{
-					r_anisotropicFiltering = new(typeof(UnityEngine.Texture), "anisotropicFiltering", -1);
-					r_anisotropicFiltering.SetBelong(null);
+					r_PanisotropicFiltering = new(typeof(UnityEngine.Texture), "anisotropicFiltering", -1);
+					r_PanisotropicFiltering.SetBelong(null);
 				}
-				return r_anisotropicFiltering;
+				return r_PanisotropicFiltering;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.GraphicsFormat graphicsFormat
 		/// </summary>
-		protected RProperty r_graphicsFormat;
-		public virtual RProperty RgraphicsFormat
+		protected RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_PgraphicsFormat;
+		public virtual RUnityEngine.RExperimental.RRendering.RGraphicsFormat RPgraphicsFormat
 		{
 			get
 			{
-				if(r_graphicsFormat == null)
+				if(r_PgraphicsFormat == null)
 				{
-					r_graphicsFormat = new(this, "graphicsFormat", -1);
-					r_graphicsFormat.SetBelong(this.instance);
+					r_PgraphicsFormat = new(this, "graphicsFormat", -1);
+					r_PgraphicsFormat.SetBelong(this.instance);
 				}
-				return r_graphicsFormat;
+				return r_PgraphicsFormat;
 			}
 		}
 
 		/// <summary>
 		/// Int32 width
 		/// </summary>
-		protected RSystem.RInt32 r_width;
-		public virtual RSystem.RInt32 Rwidth
+		protected RSystem.RInt32 r_Pwidth;
+		public virtual RSystem.RInt32 RPwidth
 		{
 			get
 			{
-				if(r_width == null)
+				if(r_Pwidth == null)
 				{
-					r_width = new(this, "width", -1);
-					r_width.SetBelong(this.instance);
+					r_Pwidth = new(this, "width", -1);
+					r_Pwidth.SetBelong(this.instance);
 				}
-				return r_width;
+				return r_Pwidth;
 			}
 		}
 
 		/// <summary>
 		/// Int32 height
 		/// </summary>
-		protected RSystem.RInt32 r_height;
-		public virtual RSystem.RInt32 Rheight
+		protected RSystem.RInt32 r_Pheight;
+		public virtual RSystem.RInt32 RPheight
 		{
 			get
 			{
-				if(r_height == null)
+				if(r_Pheight == null)
 				{
-					r_height = new(this, "height", -1);
-					r_height.SetBelong(this.instance);
+					r_Pheight = new(this, "height", -1);
+					r_Pheight.SetBelong(this.instance);
 				}
-				return r_height;
+				return r_Pheight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.TextureDimension dimension
 		/// </summary>
-		protected RProperty r_dimension;
-		public virtual RProperty Rdimension
+		protected RUnityEngine.RRendering.RTextureDimension r_Pdimension;
+		public virtual RUnityEngine.RRendering.RTextureDimension RPdimension
 		{
 			get
 			{
-				if(r_dimension == null)
+				if(r_Pdimension == null)
 				{
-					r_dimension = new(this, "dimension", -1);
-					r_dimension.SetBelong(this.instance);
+					r_Pdimension = new(this, "dimension", -1);
+					r_Pdimension.SetBelong(this.instance);
 				}
-				return r_dimension;
+				return r_Pdimension;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isReadable
 		/// </summary>
-		protected RSystem.RBoolean r_isReadable;
-		public virtual RSystem.RBoolean RisReadable
+		protected RSystem.RBoolean r_PisReadable;
+		public virtual RSystem.RBoolean RPisReadable
 		{
 			get
 			{
-				if(r_isReadable == null)
+				if(r_PisReadable == null)
 				{
-					r_isReadable = new(this, "isReadable", -1);
-					r_isReadable.SetBelong(this.instance);
+					r_PisReadable = new(this, "isReadable", -1);
+					r_PisReadable.SetBelong(this.instance);
 				}
-				return r_isReadable;
+				return r_PisReadable;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextureWrapMode wrapMode
 		/// </summary>
-		protected RProperty r_wrapMode;
-		public virtual RProperty RwrapMode
+		protected RUnityEngine.RTextureWrapMode r_PwrapMode;
+		public virtual RUnityEngine.RTextureWrapMode RPwrapMode
 		{
 			get
 			{
-				if(r_wrapMode == null)
+				if(r_PwrapMode == null)
 				{
-					r_wrapMode = new(this, "wrapMode", -1);
-					r_wrapMode.SetBelong(this.instance);
+					r_PwrapMode = new(this, "wrapMode", -1);
+					r_PwrapMode.SetBelong(this.instance);
 				}
-				return r_wrapMode;
+				return r_PwrapMode;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextureWrapMode wrapModeU
 		/// </summary>
-		protected RProperty r_wrapModeU;
-		public virtual RProperty RwrapModeU
+		protected RUnityEngine.RTextureWrapMode r_PwrapModeU;
+		public virtual RUnityEngine.RTextureWrapMode RPwrapModeU
 		{
 			get
 			{
-				if(r_wrapModeU == null)
+				if(r_PwrapModeU == null)
 				{
-					r_wrapModeU = new(this, "wrapModeU", -1);
-					r_wrapModeU.SetBelong(this.instance);
+					r_PwrapModeU = new(this, "wrapModeU", -1);
+					r_PwrapModeU.SetBelong(this.instance);
 				}
-				return r_wrapModeU;
+				return r_PwrapModeU;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextureWrapMode wrapModeV
 		/// </summary>
-		protected RProperty r_wrapModeV;
-		public virtual RProperty RwrapModeV
+		protected RUnityEngine.RTextureWrapMode r_PwrapModeV;
+		public virtual RUnityEngine.RTextureWrapMode RPwrapModeV
 		{
 			get
 			{
-				if(r_wrapModeV == null)
+				if(r_PwrapModeV == null)
 				{
-					r_wrapModeV = new(this, "wrapModeV", -1);
-					r_wrapModeV.SetBelong(this.instance);
+					r_PwrapModeV = new(this, "wrapModeV", -1);
+					r_PwrapModeV.SetBelong(this.instance);
 				}
-				return r_wrapModeV;
+				return r_PwrapModeV;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextureWrapMode wrapModeW
 		/// </summary>
-		protected RProperty r_wrapModeW;
-		public virtual RProperty RwrapModeW
+		protected RUnityEngine.RTextureWrapMode r_PwrapModeW;
+		public virtual RUnityEngine.RTextureWrapMode RPwrapModeW
 		{
 			get
 			{
-				if(r_wrapModeW == null)
+				if(r_PwrapModeW == null)
 				{
-					r_wrapModeW = new(this, "wrapModeW", -1);
-					r_wrapModeW.SetBelong(this.instance);
+					r_PwrapModeW = new(this, "wrapModeW", -1);
+					r_PwrapModeW.SetBelong(this.instance);
 				}
-				return r_wrapModeW;
+				return r_PwrapModeW;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.FilterMode filterMode
 		/// </summary>
-		protected RProperty r_filterMode;
-		public virtual RProperty RfilterMode
+		protected RUnityEngine.RFilterMode r_PfilterMode;
+		public virtual RUnityEngine.RFilterMode RPfilterMode
 		{
 			get
 			{
-				if(r_filterMode == null)
+				if(r_PfilterMode == null)
 				{
-					r_filterMode = new(this, "filterMode", -1);
-					r_filterMode.SetBelong(this.instance);
+					r_PfilterMode = new(this, "filterMode", -1);
+					r_PfilterMode.SetBelong(this.instance);
 				}
-				return r_filterMode;
+				return r_PfilterMode;
 			}
 		}
 
 		/// <summary>
 		/// Int32 anisoLevel
 		/// </summary>
-		protected RSystem.RInt32 r_anisoLevel;
-		public virtual RSystem.RInt32 RanisoLevel
+		protected RSystem.RInt32 r_PanisoLevel;
+		public virtual RSystem.RInt32 RPanisoLevel
 		{
 			get
 			{
-				if(r_anisoLevel == null)
+				if(r_PanisoLevel == null)
 				{
-					r_anisoLevel = new(this, "anisoLevel", -1);
-					r_anisoLevel.SetBelong(this.instance);
+					r_PanisoLevel = new(this, "anisoLevel", -1);
+					r_PanisoLevel.SetBelong(this.instance);
 				}
-				return r_anisoLevel;
+				return r_PanisoLevel;
 			}
 		}
 
 		/// <summary>
 		/// Single mipMapBias
 		/// </summary>
-		protected RSystem.RSingle r_mipMapBias;
-		public virtual RSystem.RSingle RmipMapBias
+		protected RSystem.RSingle r_PmipMapBias;
+		public virtual RSystem.RSingle RPmipMapBias
 		{
 			get
 			{
-				if(r_mipMapBias == null)
+				if(r_PmipMapBias == null)
 				{
-					r_mipMapBias = new(this, "mipMapBias", -1);
-					r_mipMapBias.SetBelong(this.instance);
+					r_PmipMapBias = new(this, "mipMapBias", -1);
+					r_PmipMapBias.SetBelong(this.instance);
 				}
-				return r_mipMapBias;
+				return r_PmipMapBias;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 texelSize
 		/// </summary>
-		protected RUnityEngine.RVector2 r_texelSize;
-		public virtual RUnityEngine.RVector2 RtexelSize
+		protected RUnityEngine.RVector2 r_PtexelSize;
+		public virtual RUnityEngine.RVector2 RPtexelSize
 		{
 			get
 			{
-				if(r_texelSize == null)
+				if(r_PtexelSize == null)
 				{
-					r_texelSize = new(this, "texelSize", -1);
-					r_texelSize.SetBelong(this.instance);
+					r_PtexelSize = new(this, "texelSize", -1);
+					r_PtexelSize.SetBelong(this.instance);
 				}
-				return r_texelSize;
+				return r_PtexelSize;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 updateCount
 		/// </summary>
-		protected RSystem.RUInt32 r_updateCount;
-		public virtual RSystem.RUInt32 RupdateCount
+		protected RSystem.RUInt32 r_PupdateCount;
+		public virtual RSystem.RUInt32 RPupdateCount
 		{
 			get
 			{
-				if(r_updateCount == null)
+				if(r_PupdateCount == null)
 				{
-					r_updateCount = new(this, "updateCount", -1);
-					r_updateCount.SetBelong(this.instance);
+					r_PupdateCount = new(this, "updateCount", -1);
+					r_PupdateCount.SetBelong(this.instance);
 				}
-				return r_updateCount;
+				return r_PupdateCount;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.ColorSpace activeTextureColorSpace
 		/// </summary>
-		protected RProperty r_activeTextureColorSpace;
-		public virtual RProperty RactiveTextureColorSpace
+		protected RUnityEngine.RColorSpace r_PactiveTextureColorSpace;
+		public virtual RUnityEngine.RColorSpace RPactiveTextureColorSpace
 		{
 			get
 			{
-				if(r_activeTextureColorSpace == null)
+				if(r_PactiveTextureColorSpace == null)
 				{
-					r_activeTextureColorSpace = new(this, "activeTextureColorSpace", -1);
-					r_activeTextureColorSpace.SetBelong(this.instance);
+					r_PactiveTextureColorSpace = new(this, "activeTextureColorSpace", -1);
+					r_PactiveTextureColorSpace.SetBelong(this.instance);
 				}
-				return r_activeTextureColorSpace;
+				return r_PactiveTextureColorSpace;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isDataSRGB
 		/// </summary>
-		protected RSystem.RBoolean r_isDataSRGB;
-		public virtual RSystem.RBoolean RisDataSRGB
+		protected RSystem.RBoolean r_PisDataSRGB;
+		public virtual RSystem.RBoolean RPisDataSRGB
 		{
 			get
 			{
-				if(r_isDataSRGB == null)
+				if(r_PisDataSRGB == null)
 				{
-					r_isDataSRGB = new(this, "isDataSRGB", -1);
-					r_isDataSRGB.SetBelong(this.instance);
+					r_PisDataSRGB = new(this, "isDataSRGB", -1);
+					r_PisDataSRGB.SetBelong(this.instance);
 				}
-				return r_isDataSRGB;
+				return r_PisDataSRGB;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Hash128 imageContentsHash
 		/// </summary>
-		protected RUnityEngine.RHash128 r_imageContentsHash;
-		public virtual RUnityEngine.RHash128 RimageContentsHash
+		protected RUnityEngine.RHash128 r_PimageContentsHash;
+		public virtual RUnityEngine.RHash128 RPimageContentsHash
 		{
 			get
 			{
-				if(r_imageContentsHash == null)
+				if(r_PimageContentsHash == null)
 				{
-					r_imageContentsHash = new(this, "imageContentsHash", -1);
-					r_imageContentsHash.SetBelong(this.instance);
+					r_PimageContentsHash = new(this, "imageContentsHash", -1);
+					r_PimageContentsHash.SetBelong(this.instance);
 				}
-				return r_imageContentsHash;
+				return r_PimageContentsHash;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 totalTextureMemory
 		/// </summary>
-		protected static RSystem.RUInt64 r_totalTextureMemory;
-		public static RSystem.RUInt64 RtotalTextureMemory
+		protected static RSystem.RUInt64 r_PtotalTextureMemory;
+		public static RSystem.RUInt64 RPtotalTextureMemory
 		{
 			get
 			{
-				if(r_totalTextureMemory == null)
+				if(r_PtotalTextureMemory == null)
 				{
-					r_totalTextureMemory = new(typeof(UnityEngine.Texture), "totalTextureMemory", -1);
-					r_totalTextureMemory.SetBelong(null);
+					r_PtotalTextureMemory = new(typeof(UnityEngine.Texture), "totalTextureMemory", -1);
+					r_PtotalTextureMemory.SetBelong(null);
 				}
-				return r_totalTextureMemory;
+				return r_PtotalTextureMemory;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 desiredTextureMemory
 		/// </summary>
-		protected static RSystem.RUInt64 r_desiredTextureMemory;
-		public static RSystem.RUInt64 RdesiredTextureMemory
+		protected static RSystem.RUInt64 r_PdesiredTextureMemory;
+		public static RSystem.RUInt64 RPdesiredTextureMemory
 		{
 			get
 			{
-				if(r_desiredTextureMemory == null)
+				if(r_PdesiredTextureMemory == null)
 				{
-					r_desiredTextureMemory = new(typeof(UnityEngine.Texture), "desiredTextureMemory", -1);
-					r_desiredTextureMemory.SetBelong(null);
+					r_PdesiredTextureMemory = new(typeof(UnityEngine.Texture), "desiredTextureMemory", -1);
+					r_PdesiredTextureMemory.SetBelong(null);
 				}
-				return r_desiredTextureMemory;
+				return r_PdesiredTextureMemory;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 targetTextureMemory
 		/// </summary>
-		protected static RSystem.RUInt64 r_targetTextureMemory;
-		public static RSystem.RUInt64 RtargetTextureMemory
+		protected static RSystem.RUInt64 r_PtargetTextureMemory;
+		public static RSystem.RUInt64 RPtargetTextureMemory
 		{
 			get
 			{
-				if(r_targetTextureMemory == null)
+				if(r_PtargetTextureMemory == null)
 				{
-					r_targetTextureMemory = new(typeof(UnityEngine.Texture), "targetTextureMemory", -1);
-					r_targetTextureMemory.SetBelong(null);
+					r_PtargetTextureMemory = new(typeof(UnityEngine.Texture), "targetTextureMemory", -1);
+					r_PtargetTextureMemory.SetBelong(null);
 				}
-				return r_targetTextureMemory;
+				return r_PtargetTextureMemory;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 currentTextureMemory
 		/// </summary>
-		protected static RSystem.RUInt64 r_currentTextureMemory;
-		public static RSystem.RUInt64 RcurrentTextureMemory
+		protected static RSystem.RUInt64 r_PcurrentTextureMemory;
+		public static RSystem.RUInt64 RPcurrentTextureMemory
 		{
 			get
 			{
-				if(r_currentTextureMemory == null)
+				if(r_PcurrentTextureMemory == null)
 				{
-					r_currentTextureMemory = new(typeof(UnityEngine.Texture), "currentTextureMemory", -1);
-					r_currentTextureMemory.SetBelong(null);
+					r_PcurrentTextureMemory = new(typeof(UnityEngine.Texture), "currentTextureMemory", -1);
+					r_PcurrentTextureMemory.SetBelong(null);
 				}
-				return r_currentTextureMemory;
+				return r_PcurrentTextureMemory;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 nonStreamingTextureMemory
 		/// </summary>
-		protected static RSystem.RUInt64 r_nonStreamingTextureMemory;
-		public static RSystem.RUInt64 RnonStreamingTextureMemory
+		protected static RSystem.RUInt64 r_PnonStreamingTextureMemory;
+		public static RSystem.RUInt64 RPnonStreamingTextureMemory
 		{
 			get
 			{
-				if(r_nonStreamingTextureMemory == null)
+				if(r_PnonStreamingTextureMemory == null)
 				{
-					r_nonStreamingTextureMemory = new(typeof(UnityEngine.Texture), "nonStreamingTextureMemory", -1);
-					r_nonStreamingTextureMemory.SetBelong(null);
+					r_PnonStreamingTextureMemory = new(typeof(UnityEngine.Texture), "nonStreamingTextureMemory", -1);
+					r_PnonStreamingTextureMemory.SetBelong(null);
 				}
-				return r_nonStreamingTextureMemory;
+				return r_PnonStreamingTextureMemory;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 streamingMipmapUploadCount
 		/// </summary>
-		protected static RSystem.RUInt64 r_streamingMipmapUploadCount;
-		public static RSystem.RUInt64 RstreamingMipmapUploadCount
+		protected static RSystem.RUInt64 r_PstreamingMipmapUploadCount;
+		public static RSystem.RUInt64 RPstreamingMipmapUploadCount
 		{
 			get
 			{
-				if(r_streamingMipmapUploadCount == null)
+				if(r_PstreamingMipmapUploadCount == null)
 				{
-					r_streamingMipmapUploadCount = new(typeof(UnityEngine.Texture), "streamingMipmapUploadCount", -1);
-					r_streamingMipmapUploadCount.SetBelong(null);
+					r_PstreamingMipmapUploadCount = new(typeof(UnityEngine.Texture), "streamingMipmapUploadCount", -1);
+					r_PstreamingMipmapUploadCount.SetBelong(null);
 				}
-				return r_streamingMipmapUploadCount;
+				return r_PstreamingMipmapUploadCount;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 streamingRendererCount
 		/// </summary>
-		protected static RSystem.RUInt64 r_streamingRendererCount;
-		public static RSystem.RUInt64 RstreamingRendererCount
+		protected static RSystem.RUInt64 r_PstreamingRendererCount;
+		public static RSystem.RUInt64 RPstreamingRendererCount
 		{
 			get
 			{
-				if(r_streamingRendererCount == null)
+				if(r_PstreamingRendererCount == null)
 				{
-					r_streamingRendererCount = new(typeof(UnityEngine.Texture), "streamingRendererCount", -1);
-					r_streamingRendererCount.SetBelong(null);
+					r_PstreamingRendererCount = new(typeof(UnityEngine.Texture), "streamingRendererCount", -1);
+					r_PstreamingRendererCount.SetBelong(null);
 				}
-				return r_streamingRendererCount;
+				return r_PstreamingRendererCount;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 streamingTextureCount
 		/// </summary>
-		protected static RSystem.RUInt64 r_streamingTextureCount;
-		public static RSystem.RUInt64 RstreamingTextureCount
+		protected static RSystem.RUInt64 r_PstreamingTextureCount;
+		public static RSystem.RUInt64 RPstreamingTextureCount
 		{
 			get
 			{
-				if(r_streamingTextureCount == null)
+				if(r_PstreamingTextureCount == null)
 				{
-					r_streamingTextureCount = new(typeof(UnityEngine.Texture), "streamingTextureCount", -1);
-					r_streamingTextureCount.SetBelong(null);
+					r_PstreamingTextureCount = new(typeof(UnityEngine.Texture), "streamingTextureCount", -1);
+					r_PstreamingTextureCount.SetBelong(null);
 				}
-				return r_streamingTextureCount;
+				return r_PstreamingTextureCount;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 nonStreamingTextureCount
 		/// </summary>
-		protected static RSystem.RUInt64 r_nonStreamingTextureCount;
-		public static RSystem.RUInt64 RnonStreamingTextureCount
+		protected static RSystem.RUInt64 r_PnonStreamingTextureCount;
+		public static RSystem.RUInt64 RPnonStreamingTextureCount
 		{
 			get
 			{
-				if(r_nonStreamingTextureCount == null)
+				if(r_PnonStreamingTextureCount == null)
 				{
-					r_nonStreamingTextureCount = new(typeof(UnityEngine.Texture), "nonStreamingTextureCount", -1);
-					r_nonStreamingTextureCount.SetBelong(null);
+					r_PnonStreamingTextureCount = new(typeof(UnityEngine.Texture), "nonStreamingTextureCount", -1);
+					r_PnonStreamingTextureCount.SetBelong(null);
 				}
-				return r_nonStreamingTextureCount;
+				return r_PnonStreamingTextureCount;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 streamingTexturePendingLoadCount
 		/// </summary>
-		protected static RSystem.RUInt64 r_streamingTexturePendingLoadCount;
-		public static RSystem.RUInt64 RstreamingTexturePendingLoadCount
+		protected static RSystem.RUInt64 r_PstreamingTexturePendingLoadCount;
+		public static RSystem.RUInt64 RPstreamingTexturePendingLoadCount
 		{
 			get
 			{
-				if(r_streamingTexturePendingLoadCount == null)
+				if(r_PstreamingTexturePendingLoadCount == null)
 				{
-					r_streamingTexturePendingLoadCount = new(typeof(UnityEngine.Texture), "streamingTexturePendingLoadCount", -1);
-					r_streamingTexturePendingLoadCount.SetBelong(null);
+					r_PstreamingTexturePendingLoadCount = new(typeof(UnityEngine.Texture), "streamingTexturePendingLoadCount", -1);
+					r_PstreamingTexturePendingLoadCount.SetBelong(null);
 				}
-				return r_streamingTexturePendingLoadCount;
+				return r_PstreamingTexturePendingLoadCount;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 streamingTextureLoadingCount
 		/// </summary>
-		protected static RSystem.RUInt64 r_streamingTextureLoadingCount;
-		public static RSystem.RUInt64 RstreamingTextureLoadingCount
+		protected static RSystem.RUInt64 r_PstreamingTextureLoadingCount;
+		public static RSystem.RUInt64 RPstreamingTextureLoadingCount
 		{
 			get
 			{
-				if(r_streamingTextureLoadingCount == null)
+				if(r_PstreamingTextureLoadingCount == null)
 				{
-					r_streamingTextureLoadingCount = new(typeof(UnityEngine.Texture), "streamingTextureLoadingCount", -1);
-					r_streamingTextureLoadingCount.SetBelong(null);
+					r_PstreamingTextureLoadingCount = new(typeof(UnityEngine.Texture), "streamingTextureLoadingCount", -1);
+					r_PstreamingTextureLoadingCount.SetBelong(null);
 				}
-				return r_streamingTextureLoadingCount;
+				return r_PstreamingTextureLoadingCount;
 			}
 		}
 
 		/// <summary>
 		/// Boolean streamingTextureForceLoadAll
 		/// </summary>
-		protected static RSystem.RBoolean r_streamingTextureForceLoadAll;
-		public static RSystem.RBoolean RstreamingTextureForceLoadAll
+		protected static RSystem.RBoolean r_PstreamingTextureForceLoadAll;
+		public static RSystem.RBoolean RPstreamingTextureForceLoadAll
 		{
 			get
 			{
-				if(r_streamingTextureForceLoadAll == null)
+				if(r_PstreamingTextureForceLoadAll == null)
 				{
-					r_streamingTextureForceLoadAll = new(typeof(UnityEngine.Texture), "streamingTextureForceLoadAll", -1);
-					r_streamingTextureForceLoadAll.SetBelong(null);
+					r_PstreamingTextureForceLoadAll = new(typeof(UnityEngine.Texture), "streamingTextureForceLoadAll", -1);
+					r_PstreamingTextureForceLoadAll.SetBelong(null);
 				}
-				return r_streamingTextureForceLoadAll;
+				return r_PstreamingTextureForceLoadAll;
 			}
 		}
 
 		/// <summary>
 		/// Boolean streamingTextureDiscardUnusedMips
 		/// </summary>
-		protected static RSystem.RBoolean r_streamingTextureDiscardUnusedMips;
-		public static RSystem.RBoolean RstreamingTextureDiscardUnusedMips
+		protected static RSystem.RBoolean r_PstreamingTextureDiscardUnusedMips;
+		public static RSystem.RBoolean RPstreamingTextureDiscardUnusedMips
 		{
 			get
 			{
-				if(r_streamingTextureDiscardUnusedMips == null)
+				if(r_PstreamingTextureDiscardUnusedMips == null)
 				{
-					r_streamingTextureDiscardUnusedMips = new(typeof(UnityEngine.Texture), "streamingTextureDiscardUnusedMips", -1);
-					r_streamingTextureDiscardUnusedMips.SetBelong(null);
+					r_PstreamingTextureDiscardUnusedMips = new(typeof(UnityEngine.Texture), "streamingTextureDiscardUnusedMips", -1);
+					r_PstreamingTextureDiscardUnusedMips.SetBelong(null);
 				}
-				return r_streamingTextureDiscardUnusedMips;
+				return r_PstreamingTextureDiscardUnusedMips;
 			}
 		}
 
 		/// <summary>
 		/// Boolean allowThreadedTextureCreation
 		/// </summary>
-		protected static RSystem.RBoolean r_allowThreadedTextureCreation;
-		public static RSystem.RBoolean RallowThreadedTextureCreation
+		protected static RSystem.RBoolean r_PallowThreadedTextureCreation;
+		public static RSystem.RBoolean RPallowThreadedTextureCreation
 		{
 			get
 			{
-				if(r_allowThreadedTextureCreation == null)
+				if(r_PallowThreadedTextureCreation == null)
 				{
-					r_allowThreadedTextureCreation = new(typeof(UnityEngine.Texture), "allowThreadedTextureCreation", -1);
-					r_allowThreadedTextureCreation.SetBelong(null);
+					r_PallowThreadedTextureCreation = new(typeof(UnityEngine.Texture), "allowThreadedTextureCreation", -1);
+					r_PallowThreadedTextureCreation.SetBelong(null);
 				}
-				return r_allowThreadedTextureCreation;
+				return r_PallowThreadedTextureCreation;
 			}
 		}
 
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RSystem.RString r_name;
-		public virtual RSystem.RString Rname
+		protected RSystem.RString r_Pname;
+		public virtual RSystem.RString RPname
 		{
 			get
 			{
-				if(r_name == null)
+				if(r_Pname == null)
 				{
-					r_name = new(this, "name", -1);
-					r_name.SetBelong(this.instance);
+					r_Pname = new(this, "name", -1);
+					r_Pname.SetBelong(this.instance);
 				}
-				return r_name;
+				return r_Pname;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected RProperty r_hideFlags;
-		public virtual RProperty RhideFlags
+		protected RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{
-				if(r_hideFlags == null)
+				if(r_PhideFlags == null)
 				{
-					r_hideFlags = new(this, "hideFlags", -1);
-					r_hideFlags.SetBelong(this.instance);
+					r_PhideFlags = new(this, "hideFlags", -1);
+					r_PhideFlags.SetBelong(this.instance);
 				}
-				return r_hideFlags;
+				return r_PhideFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetGlobalAnisotropicFilteringLimits(Int32, Int32)
 		/// </summary>
-		protected static RMethod r_SetGlobalAnisotropicFilteringLimits_Int32_Int32;
-		public static RMethod RSetGlobalAnisotropicFilteringLimits_Int32_Int32
+		protected static RMethod r_MSetGlobalAnisotropicFilteringLimits_Int32_Int32;
+		public static RMethod RMSetGlobalAnisotropicFilteringLimits_Int32_Int32
 		{
 			get
 			{
-				if(r_SetGlobalAnisotropicFilteringLimits_Int32_Int32 == null)
+				if(r_MSetGlobalAnisotropicFilteringLimits_Int32_Int32 == null)
 				{
-					r_SetGlobalAnisotropicFilteringLimits_Int32_Int32 = new(typeof(UnityEngine.Texture), "SetGlobalAnisotropicFilteringLimits", 0, typeof(System.Int32), typeof(System.Int32));
-					r_SetGlobalAnisotropicFilteringLimits_Int32_Int32.SetBelong(null);
+					r_MSetGlobalAnisotropicFilteringLimits_Int32_Int32 = new(typeof(UnityEngine.Texture), "SetGlobalAnisotropicFilteringLimits", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MSetGlobalAnisotropicFilteringLimits_Int32_Int32.SetBelong(null);
 				}
-				return r_SetGlobalAnisotropicFilteringLimits_Int32_Int32;
+				return r_MSetGlobalAnisotropicFilteringLimits_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetDataWidth()
 		/// </summary>
-		protected RMethod r_GetDataWidth;
-		public virtual RMethod RGetDataWidth
+		protected RMethod r_MGetDataWidth;
+		public virtual RMethod RMGetDataWidth
 		{
 			get
 			{
-				if(r_GetDataWidth == null)
+				if(r_MGetDataWidth == null)
 				{
-					r_GetDataWidth = new(this, "GetDataWidth", 0);
-					r_GetDataWidth.SetBelong(this.instance);
+					r_MGetDataWidth = new(this, "GetDataWidth", 0);
+					r_MGetDataWidth.SetBelong(this.instance);
 				}
-				return r_GetDataWidth;
+				return r_MGetDataWidth;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetDataHeight()
 		/// </summary>
-		protected RMethod r_GetDataHeight;
-		public virtual RMethod RGetDataHeight
+		protected RMethod r_MGetDataHeight;
+		public virtual RMethod RMGetDataHeight
 		{
 			get
 			{
-				if(r_GetDataHeight == null)
+				if(r_MGetDataHeight == null)
 				{
-					r_GetDataHeight = new(this, "GetDataHeight", 0);
-					r_GetDataHeight.SetBelong(this.instance);
+					r_MGetDataHeight = new(this, "GetDataHeight", 0);
+					r_MGetDataHeight.SetBelong(this.instance);
 				}
-				return r_GetDataHeight;
+				return r_MGetDataHeight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.TextureDimension GetDimension()
 		/// </summary>
-		protected RMethod r_GetDimension;
-		public virtual RMethod RGetDimension
+		protected RMethod r_MGetDimension;
+		public virtual RMethod RMGetDimension
 		{
 			get
 			{
-				if(r_GetDimension == null)
+				if(r_MGetDimension == null)
 				{
-					r_GetDimension = new(this, "GetDimension", 0);
-					r_GetDimension.SetBelong(this.instance);
+					r_MGetDimension = new(this, "GetDimension", 0);
+					r_MGetDimension.SetBelong(this.instance);
 				}
-				return r_GetDimension;
+				return r_MGetDimension;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetNativeTexturePtr()
 		/// </summary>
-		protected RMethod r_GetNativeTexturePtr;
-		public virtual RMethod RGetNativeTexturePtr
+		protected RMethod r_MGetNativeTexturePtr;
+		public virtual RMethod RMGetNativeTexturePtr
 		{
 			get
 			{
-				if(r_GetNativeTexturePtr == null)
+				if(r_MGetNativeTexturePtr == null)
 				{
-					r_GetNativeTexturePtr = new(this, "GetNativeTexturePtr", 0);
-					r_GetNativeTexturePtr.SetBelong(this.instance);
+					r_MGetNativeTexturePtr = new(this, "GetNativeTexturePtr", 0);
+					r_MGetNativeTexturePtr.SetBelong(this.instance);
 				}
-				return r_GetNativeTexturePtr;
+				return r_MGetNativeTexturePtr;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetNativeTextureID()
 		/// </summary>
-		protected RMethod r_GetNativeTextureID;
-		public virtual RMethod RGetNativeTextureID
+		protected RMethod r_MGetNativeTextureID;
+		public virtual RMethod RMGetNativeTextureID
 		{
 			get
 			{
-				if(r_GetNativeTextureID == null)
+				if(r_MGetNativeTextureID == null)
 				{
-					r_GetNativeTextureID = new(this, "GetNativeTextureID", 0);
-					r_GetNativeTextureID.SetBelong(this.instance);
+					r_MGetNativeTextureID = new(this, "GetNativeTextureID", 0);
+					r_MGetNativeTextureID.SetBelong(this.instance);
 				}
-				return r_GetNativeTextureID;
+				return r_MGetNativeTextureID;
 			}
 		}
 
 		/// <summary>
 		/// Void IncrementUpdateCount()
 		/// </summary>
-		protected RMethod r_IncrementUpdateCount;
-		public virtual RMethod RIncrementUpdateCount
+		protected RMethod r_MIncrementUpdateCount;
+		public virtual RMethod RMIncrementUpdateCount
 		{
 			get
 			{
-				if(r_IncrementUpdateCount == null)
+				if(r_MIncrementUpdateCount == null)
 				{
-					r_IncrementUpdateCount = new(this, "IncrementUpdateCount", 0);
-					r_IncrementUpdateCount.SetBelong(this.instance);
+					r_MIncrementUpdateCount = new(this, "IncrementUpdateCount", 0);
+					r_MIncrementUpdateCount.SetBelong(this.instance);
 				}
-				return r_IncrementUpdateCount;
+				return r_MIncrementUpdateCount;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Internal_GetActiveTextureColorSpace()
 		/// </summary>
-		protected RMethod r_Internal_GetActiveTextureColorSpace;
-		public virtual RMethod RInternal_GetActiveTextureColorSpace
+		protected RMethod r_MInternal_GetActiveTextureColorSpace;
+		public virtual RMethod RMInternal_GetActiveTextureColorSpace
 		{
 			get
 			{
-				if(r_Internal_GetActiveTextureColorSpace == null)
+				if(r_MInternal_GetActiveTextureColorSpace == null)
 				{
-					r_Internal_GetActiveTextureColorSpace = new(this, "Internal_GetActiveTextureColorSpace", 0);
-					r_Internal_GetActiveTextureColorSpace.SetBelong(this.instance);
+					r_MInternal_GetActiveTextureColorSpace = new(this, "Internal_GetActiveTextureColorSpace", 0);
+					r_MInternal_GetActiveTextureColorSpace.SetBelong(this.instance);
 				}
-				return r_Internal_GetActiveTextureColorSpace;
+				return r_MInternal_GetActiveTextureColorSpace;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextureColorSpace Internal_GetStoredColorSpace()
 		/// </summary>
-		protected RMethod r_Internal_GetStoredColorSpace;
-		public virtual RMethod RInternal_GetStoredColorSpace
+		protected RMethod r_MInternal_GetStoredColorSpace;
+		public virtual RMethod RMInternal_GetStoredColorSpace
 		{
 			get
 			{
-				if(r_Internal_GetStoredColorSpace == null)
+				if(r_MInternal_GetStoredColorSpace == null)
 				{
-					r_Internal_GetStoredColorSpace = new(this, "Internal_GetStoredColorSpace", 0);
-					r_Internal_GetStoredColorSpace.SetBelong(this.instance);
+					r_MInternal_GetStoredColorSpace = new(this, "Internal_GetStoredColorSpace", 0);
+					r_MInternal_GetStoredColorSpace.SetBelong(this.instance);
 				}
-				return r_Internal_GetStoredColorSpace;
+				return r_MInternal_GetStoredColorSpace;
 			}
 		}
 
 		/// <summary>
 		/// Void SetStreamingTextureMaterialDebugProperties()
 		/// </summary>
-		protected static RMethod r_SetStreamingTextureMaterialDebugProperties;
-		public static RMethod RSetStreamingTextureMaterialDebugProperties
+		protected static RMethod r_MSetStreamingTextureMaterialDebugProperties;
+		public static RMethod RMSetStreamingTextureMaterialDebugProperties
 		{
 			get
 			{
-				if(r_SetStreamingTextureMaterialDebugProperties == null)
+				if(r_MSetStreamingTextureMaterialDebugProperties == null)
 				{
-					r_SetStreamingTextureMaterialDebugProperties = new(typeof(UnityEngine.Texture), "SetStreamingTextureMaterialDebugProperties", 0);
-					r_SetStreamingTextureMaterialDebugProperties.SetBelong(null);
+					r_MSetStreamingTextureMaterialDebugProperties = new(typeof(UnityEngine.Texture), "SetStreamingTextureMaterialDebugProperties", 0);
+					r_MSetStreamingTextureMaterialDebugProperties.SetBelong(null);
 				}
-				return r_SetStreamingTextureMaterialDebugProperties;
+				return r_MSetStreamingTextureMaterialDebugProperties;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 GetPixelDataSize(Int32, Int32)
 		/// </summary>
-		protected RMethod r_GetPixelDataSize_Int32_Int32;
-		public virtual RMethod RGetPixelDataSize_Int32_Int32
+		protected RMethod r_MGetPixelDataSize_Int32_Int32;
+		public virtual RMethod RMGetPixelDataSize_Int32_Int32
 		{
 			get
 			{
-				if(r_GetPixelDataSize_Int32_Int32 == null)
+				if(r_MGetPixelDataSize_Int32_Int32 == null)
 				{
-					r_GetPixelDataSize_Int32_Int32 = new(this, "GetPixelDataSize", 0, typeof(System.Int32), typeof(System.Int32));
-					r_GetPixelDataSize_Int32_Int32.SetBelong(this.instance);
+					r_MGetPixelDataSize_Int32_Int32 = new(this, "GetPixelDataSize", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MGetPixelDataSize_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_GetPixelDataSize_Int32_Int32;
+				return r_MGetPixelDataSize_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 GetPixelDataOffset(Int32, Int32)
 		/// </summary>
-		protected RMethod r_GetPixelDataOffset_Int32_Int32;
-		public virtual RMethod RGetPixelDataOffset_Int32_Int32
+		protected RMethod r_MGetPixelDataOffset_Int32_Int32;
+		public virtual RMethod RMGetPixelDataOffset_Int32_Int32
 		{
 			get
 			{
-				if(r_GetPixelDataOffset_Int32_Int32 == null)
+				if(r_MGetPixelDataOffset_Int32_Int32 == null)
 				{
-					r_GetPixelDataOffset_Int32_Int32 = new(this, "GetPixelDataOffset", 0, typeof(System.Int32), typeof(System.Int32));
-					r_GetPixelDataOffset_Int32_Int32.SetBelong(this.instance);
+					r_MGetPixelDataOffset_Int32_Int32 = new(this, "GetPixelDataOffset", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MGetPixelDataOffset_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_GetPixelDataOffset_Int32_Int32;
+				return r_MGetPixelDataOffset_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ValidateFormat(UnityEngine.RenderTextureFormat)
 		/// </summary>
-		protected RMethod r_ValidateFormat_RenderTextureFormat;
-		public virtual RMethod RValidateFormat_RenderTextureFormat
+		protected RMethod r_MValidateFormat_RenderTextureFormat;
+		public virtual RMethod RMValidateFormat_RenderTextureFormat
 		{
 			get
 			{
-				if(r_ValidateFormat_RenderTextureFormat == null)
+				if(r_MValidateFormat_RenderTextureFormat == null)
 				{
-					r_ValidateFormat_RenderTextureFormat = new(this, "ValidateFormat", 0, typeof(UnityEngine.RenderTextureFormat));
-					r_ValidateFormat_RenderTextureFormat.SetBelong(this.instance);
+					r_MValidateFormat_RenderTextureFormat = new(this, "ValidateFormat", 0, typeof(UnityEngine.RenderTextureFormat));
+					r_MValidateFormat_RenderTextureFormat.SetBelong(this.instance);
 				}
-				return r_ValidateFormat_RenderTextureFormat;
+				return r_MValidateFormat_RenderTextureFormat;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ValidateFormat(UnityEngine.TextureFormat)
 		/// </summary>
-		protected RMethod r_ValidateFormat_TextureFormat;
-		public virtual RMethod RValidateFormat_TextureFormat
+		protected RMethod r_MValidateFormat_TextureFormat;
+		public virtual RMethod RMValidateFormat_TextureFormat
 		{
 			get
 			{
-				if(r_ValidateFormat_TextureFormat == null)
+				if(r_MValidateFormat_TextureFormat == null)
 				{
-					r_ValidateFormat_TextureFormat = new(this, "ValidateFormat", 0, typeof(UnityEngine.TextureFormat));
-					r_ValidateFormat_TextureFormat.SetBelong(this.instance);
+					r_MValidateFormat_TextureFormat = new(this, "ValidateFormat", 0, typeof(UnityEngine.TextureFormat));
+					r_MValidateFormat_TextureFormat.SetBelong(this.instance);
 				}
-				return r_ValidateFormat_TextureFormat;
+				return r_MValidateFormat_TextureFormat;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat, UnityEngine.Experimental.Rendering.FormatUsage)
 		/// </summary>
-		protected RMethod r_ValidateFormat_GraphicsFormat_FormatUsage;
-		public virtual RMethod RValidateFormat_GraphicsFormat_FormatUsage
+		protected RMethod r_MValidateFormat_GraphicsFormat_FormatUsage;
+		public virtual RMethod RMValidateFormat_GraphicsFormat_FormatUsage
 		{
 			get
 			{
-				if(r_ValidateFormat_GraphicsFormat_FormatUsage == null)
+				if(r_MValidateFormat_GraphicsFormat_FormatUsage == null)
 				{
-					r_ValidateFormat_GraphicsFormat_FormatUsage = new(this, "ValidateFormat", 0, typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(UnityEngine.Experimental.Rendering.FormatUsage));
-					r_ValidateFormat_GraphicsFormat_FormatUsage.SetBelong(this.instance);
+					r_MValidateFormat_GraphicsFormat_FormatUsage = new(this, "ValidateFormat", 0, typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(UnityEngine.Experimental.Rendering.FormatUsage));
+					r_MValidateFormat_GraphicsFormat_FormatUsage.SetBelong(this.instance);
 				}
-				return r_ValidateFormat_GraphicsFormat_FormatUsage;
+				return r_MValidateFormat_GraphicsFormat_FormatUsage;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture)
 		/// </summary>
-		protected RMethod r_CreateNonReadableException_Texture;
-		public virtual RMethod RCreateNonReadableException_Texture
+		protected RMethod r_MCreateNonReadableException_Texture;
+		public virtual RMethod RMCreateNonReadableException_Texture
 		{
 			get
 			{
-				if(r_CreateNonReadableException_Texture == null)
+				if(r_MCreateNonReadableException_Texture == null)
 				{
-					r_CreateNonReadableException_Texture = new(this, "CreateNonReadableException", 0, typeof(UnityEngine.Texture));
-					r_CreateNonReadableException_Texture.SetBelong(this.instance);
+					r_MCreateNonReadableException_Texture = new(this, "CreateNonReadableException", 0, typeof(UnityEngine.Texture));
+					r_MCreateNonReadableException_Texture.SetBelong(this.instance);
 				}
-				return r_CreateNonReadableException_Texture;
+				return r_MCreateNonReadableException_Texture;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UnityException CreateNativeArrayLengthOverflowException()
 		/// </summary>
-		protected RMethod r_CreateNativeArrayLengthOverflowException;
-		public virtual RMethod RCreateNativeArrayLengthOverflowException
+		protected RMethod r_MCreateNativeArrayLengthOverflowException;
+		public virtual RMethod RMCreateNativeArrayLengthOverflowException
 		{
 			get
 			{
-				if(r_CreateNativeArrayLengthOverflowException == null)
+				if(r_MCreateNativeArrayLengthOverflowException == null)
 				{
-					r_CreateNativeArrayLengthOverflowException = new(this, "CreateNativeArrayLengthOverflowException", 0);
-					r_CreateNativeArrayLengthOverflowException.SetBelong(this.instance);
+					r_MCreateNativeArrayLengthOverflowException = new(this, "CreateNativeArrayLengthOverflowException", 0);
+					r_MCreateNativeArrayLengthOverflowException.SetBelong(this.instance);
 				}
-				return r_CreateNativeArrayLengthOverflowException;
+				return r_MCreateNativeArrayLengthOverflowException;
 			}
 		}
 
 		/// <summary>
 		/// Void get_texelSize_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_get_texelSize_Injected_Out_Vector2;
-		public virtual RMethod Rget_texelSize_Injected_Out_Vector2
+		protected RMethod r_Mget_texelSize_Injected_Out_Vector2;
+		public virtual RMethod RMget_texelSize_Injected_Out_Vector2
 		{
 			get
 			{
-				if(r_get_texelSize_Injected_Out_Vector2 == null)
+				if(r_Mget_texelSize_Injected_Out_Vector2 == null)
 				{
-					r_get_texelSize_Injected_Out_Vector2 = new(this, "get_texelSize_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_get_texelSize_Injected_Out_Vector2.SetBelong(this.instance);
+					r_Mget_texelSize_Injected_Out_Vector2 = new(this, "get_texelSize_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_Mget_texelSize_Injected_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_get_texelSize_Injected_Out_Vector2;
+				return r_Mget_texelSize_Injected_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void get_imageContentsHash_Injected(UnityEngine.Hash128 ByRef)
 		/// </summary>
-		protected RMethod r_get_imageContentsHash_Injected_Out_Hash128;
-		public virtual RMethod Rget_imageContentsHash_Injected_Out_Hash128
+		protected RMethod r_Mget_imageContentsHash_Injected_Out_Hash128;
+		public virtual RMethod RMget_imageContentsHash_Injected_Out_Hash128
 		{
 			get
 			{
-				if(r_get_imageContentsHash_Injected_Out_Hash128 == null)
+				if(r_Mget_imageContentsHash_Injected_Out_Hash128 == null)
 				{
-					r_get_imageContentsHash_Injected_Out_Hash128 = new(this, "get_imageContentsHash_Injected", 0, typeof(UnityEngine.Hash128).MakeByRefType());
-					r_get_imageContentsHash_Injected_Out_Hash128.SetBelong(this.instance);
+					r_Mget_imageContentsHash_Injected_Out_Hash128 = new(this, "get_imageContentsHash_Injected", 0, typeof(UnityEngine.Hash128).MakeByRefType());
+					r_Mget_imageContentsHash_Injected_Out_Hash128.SetBelong(this.instance);
 				}
-				return r_get_imageContentsHash_Injected_Out_Hash128;
+				return r_Mget_imageContentsHash_Injected_Out_Hash128;
 			}
 		}
 
 		/// <summary>
 		/// Void set_imageContentsHash_Injected(UnityEngine.Hash128 ByRef)
 		/// </summary>
-		protected RMethod r_set_imageContentsHash_Injected_Ref_Hash128;
-		public virtual RMethod Rset_imageContentsHash_Injected_Ref_Hash128
+		protected RMethod r_Mset_imageContentsHash_Injected_Ref_Hash128;
+		public virtual RMethod RMset_imageContentsHash_Injected_Ref_Hash128
 		{
 			get
 			{
-				if(r_set_imageContentsHash_Injected_Ref_Hash128 == null)
+				if(r_Mset_imageContentsHash_Injected_Ref_Hash128 == null)
 				{
-					r_set_imageContentsHash_Injected_Ref_Hash128 = new(this, "set_imageContentsHash_Injected", 0, typeof(UnityEngine.Hash128).MakeByRefType());
-					r_set_imageContentsHash_Injected_Ref_Hash128.SetBelong(this.instance);
+					r_Mset_imageContentsHash_Injected_Ref_Hash128 = new(this, "set_imageContentsHash_Injected", 0, typeof(UnityEngine.Hash128).MakeByRefType());
+					r_Mset_imageContentsHash_Injected_Ref_Hash128.SetBelong(this.instance);
 				}
-				return r_set_imageContentsHash_Injected_Ref_Hash128;
+				return r_Mset_imageContentsHash_Injected_Ref_Hash128;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetInstanceID()
 		/// </summary>
-		protected RMethod r_GetInstanceID;
-		public virtual RMethod RGetInstanceID
+		protected RMethod r_MGetInstanceID;
+		public virtual RMethod RMGetInstanceID
 		{
 			get
 			{
-				if(r_GetInstanceID == null)
+				if(r_MGetInstanceID == null)
 				{
-					r_GetInstanceID = new(this, "GetInstanceID", 0);
-					r_GetInstanceID.SetBelong(this.instance);
+					r_MGetInstanceID = new(this, "GetInstanceID", 0);
+					r_MGetInstanceID.SetBelong(this.instance);
 				}
-				return r_GetInstanceID;
+				return r_MGetInstanceID;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -1138,7 +1138,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@forcedMin, @globalMax};
-            var ___result = RSetGlobalAnisotropicFilteringLimits_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetGlobalAnisotropicFilteringLimits_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1149,7 +1149,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetDataWidth.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetDataWidth.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1160,7 +1160,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetDataHeight.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetDataHeight.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1171,7 +1171,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetDimension.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetDimension.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Rendering.TextureDimension)___result;
         }
@@ -1182,7 +1182,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetNativeTexturePtr.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetNativeTexturePtr.Invoke(___genericsType, ___parameters);
 
             return (System.IntPtr)___result;
         }
@@ -1193,7 +1193,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetNativeTextureID.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetNativeTextureID.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1204,7 +1204,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RIncrementUpdateCount.Invoke(___genericsType, ___parameters);
+            var ___result = RMIncrementUpdateCount.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1215,20 +1215,20 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInternal_GetActiveTextureColorSpace.Invoke(___genericsType, ___parameters);
+            var ___result = RMInternal_GetActiveTextureColorSpace.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
 
 
-        public virtual RType Internal_GetStoredColorSpace()
+        public virtual RUnityEngine.RTextureColorSpace Internal_GetStoredColorSpace()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInternal_GetStoredColorSpace.Invoke(___genericsType, ___parameters);
+            var ___result = RMInternal_GetStoredColorSpace.Invoke(___genericsType, ___parameters);
 
-            return new RType(___result);
+            return new RUnityEngine.RTextureColorSpace(___result);
         }
 
 
@@ -1237,7 +1237,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSetStreamingTextureMaterialDebugProperties.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetStreamingTextureMaterialDebugProperties.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1248,7 +1248,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mipLevel, @element};
-            var ___result = RGetPixelDataSize_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetPixelDataSize_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.UInt64)___result;
         }
@@ -1259,7 +1259,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mipLevel, @element};
-            var ___result = RGetPixelDataOffset_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetPixelDataOffset_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.UInt64)___result;
         }
@@ -1270,7 +1270,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@format};
-            var ___result = RValidateFormat_RenderTextureFormat.Invoke(___genericsType, ___parameters);
+            var ___result = RMValidateFormat_RenderTextureFormat.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1281,7 +1281,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@format};
-            var ___result = RValidateFormat_TextureFormat.Invoke(___genericsType, ___parameters);
+            var ___result = RMValidateFormat_TextureFormat.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1292,7 +1292,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@format, @usage};
-            var ___result = RValidateFormat_GraphicsFormat_FormatUsage.Invoke(___genericsType, ___parameters);
+            var ___result = RMValidateFormat_GraphicsFormat_FormatUsage.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1303,7 +1303,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t};
-            var ___result = RCreateNonReadableException_Texture.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateNonReadableException_Texture.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UnityException)___result;
         }
@@ -1314,7 +1314,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCreateNativeArrayLengthOverflowException.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateNativeArrayLengthOverflowException.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UnityException)___result;
         }
@@ -1326,7 +1326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_texelSize_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_texelSize_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
@@ -1339,7 +1339,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
-            var ___result = Rget_imageContentsHash_Injected_Out_Hash128.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_imageContentsHash_Injected_Out_Hash128.Invoke(___genericsType, ___parameters);
 			@ret = (UnityEngine.Hash128)___parameters[0];
 
             
@@ -1351,7 +1351,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = Rset_imageContentsHash_Injected_Ref_Hash128.Invoke(___genericsType, ___parameters);
+            var ___result = RMset_imageContentsHash_Injected_Ref_Hash128.Invoke(___genericsType, ___parameters);
 			@value = (UnityEngine.Hash128)___parameters[0];
 
             
@@ -1363,7 +1363,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetInstanceID.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1374,7 +1374,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1385,7 +1385,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1396,7 +1396,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -1407,7 +1407,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1418,7 +1418,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -1429,7 +1429,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

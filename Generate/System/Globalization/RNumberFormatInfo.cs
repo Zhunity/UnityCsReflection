@@ -13,1479 +13,1479 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberFormatInfo invariantInfo
 		/// </summary>
-		protected static RSystem.RGlobalization.RNumberFormatInfo r_invariantInfo;
-		public static RSystem.RGlobalization.RNumberFormatInfo RinvariantInfo
+		protected static RSystem.RGlobalization.RNumberFormatInfo r_FinvariantInfo;
+		public static RSystem.RGlobalization.RNumberFormatInfo RFinvariantInfo
 		{
 			get
 			{
-				if(r_invariantInfo == null)
+				if(r_FinvariantInfo == null)
 				{
-					r_invariantInfo = new(typeof(System.Globalization.NumberFormatInfo), "invariantInfo");
-					r_invariantInfo.SetBelong(null);
+					r_FinvariantInfo = new(typeof(System.Globalization.NumberFormatInfo), "invariantInfo");
+					r_FinvariantInfo.SetBelong(null);
 				}
-				return r_invariantInfo;
+				return r_FinvariantInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32[] numberGroupSizes
 		/// </summary>
-		protected RFieldArray<RSystem.RInt32> r_numberGroupSizes;
-		public virtual RFieldArray<RSystem.RInt32> RnumberGroupSizes
+		protected RFieldArray<RSystem.RInt32> r_FnumberGroupSizes;
+		public virtual RFieldArray<RSystem.RInt32> RFnumberGroupSizes
 		{
 			get
 			{
-				if(r_numberGroupSizes == null)
+				if(r_FnumberGroupSizes == null)
 				{
-					r_numberGroupSizes = new(this, "numberGroupSizes");
-					r_numberGroupSizes.SetBelong(this.instance);
+					r_FnumberGroupSizes = new(this, "numberGroupSizes");
+					r_FnumberGroupSizes.SetBelong(this.instance);
 				}
-				return r_numberGroupSizes;
+				return r_FnumberGroupSizes;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32[] currencyGroupSizes
 		/// </summary>
-		protected RFieldArray<RSystem.RInt32> r_currencyGroupSizes;
-		public virtual RFieldArray<RSystem.RInt32> RcurrencyGroupSizes
+		protected RFieldArray<RSystem.RInt32> r_FcurrencyGroupSizes;
+		public virtual RFieldArray<RSystem.RInt32> RFcurrencyGroupSizes
 		{
 			get
 			{
-				if(r_currencyGroupSizes == null)
+				if(r_FcurrencyGroupSizes == null)
 				{
-					r_currencyGroupSizes = new(this, "currencyGroupSizes");
-					r_currencyGroupSizes.SetBelong(this.instance);
+					r_FcurrencyGroupSizes = new(this, "currencyGroupSizes");
+					r_FcurrencyGroupSizes.SetBelong(this.instance);
 				}
-				return r_currencyGroupSizes;
+				return r_FcurrencyGroupSizes;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32[] percentGroupSizes
 		/// </summary>
-		protected RFieldArray<RSystem.RInt32> r_percentGroupSizes;
-		public virtual RFieldArray<RSystem.RInt32> RpercentGroupSizes
+		protected RFieldArray<RSystem.RInt32> r_FpercentGroupSizes;
+		public virtual RFieldArray<RSystem.RInt32> RFpercentGroupSizes
 		{
 			get
 			{
-				if(r_percentGroupSizes == null)
+				if(r_FpercentGroupSizes == null)
 				{
-					r_percentGroupSizes = new(this, "percentGroupSizes");
-					r_percentGroupSizes.SetBelong(this.instance);
+					r_FpercentGroupSizes = new(this, "percentGroupSizes");
+					r_FpercentGroupSizes.SetBelong(this.instance);
 				}
-				return r_percentGroupSizes;
+				return r_FpercentGroupSizes;
 			}
 		}
 
 		/// <summary>
 		/// System.String positiveSign
 		/// </summary>
-		protected RSystem.RString r_positiveSign;
-		public virtual RSystem.RString RpositiveSign
+		protected RSystem.RString r_FpositiveSign;
+		public virtual RSystem.RString RFpositiveSign
 		{
 			get
 			{
-				if(r_positiveSign == null)
+				if(r_FpositiveSign == null)
 				{
-					r_positiveSign = new(this, "positiveSign");
-					r_positiveSign.SetBelong(this.instance);
+					r_FpositiveSign = new(this, "positiveSign");
+					r_FpositiveSign.SetBelong(this.instance);
 				}
-				return r_positiveSign;
+				return r_FpositiveSign;
 			}
 		}
 
 		/// <summary>
 		/// System.String negativeSign
 		/// </summary>
-		protected RSystem.RString r_negativeSign;
-		public virtual RSystem.RString RnegativeSign
+		protected RSystem.RString r_FnegativeSign;
+		public virtual RSystem.RString RFnegativeSign
 		{
 			get
 			{
-				if(r_negativeSign == null)
+				if(r_FnegativeSign == null)
 				{
-					r_negativeSign = new(this, "negativeSign");
-					r_negativeSign.SetBelong(this.instance);
+					r_FnegativeSign = new(this, "negativeSign");
+					r_FnegativeSign.SetBelong(this.instance);
 				}
-				return r_negativeSign;
+				return r_FnegativeSign;
 			}
 		}
 
 		/// <summary>
 		/// System.String numberDecimalSeparator
 		/// </summary>
-		protected RSystem.RString r_numberDecimalSeparator;
-		public virtual RSystem.RString RnumberDecimalSeparator
+		protected RSystem.RString r_FnumberDecimalSeparator;
+		public virtual RSystem.RString RFnumberDecimalSeparator
 		{
 			get
 			{
-				if(r_numberDecimalSeparator == null)
+				if(r_FnumberDecimalSeparator == null)
 				{
-					r_numberDecimalSeparator = new(this, "numberDecimalSeparator");
-					r_numberDecimalSeparator.SetBelong(this.instance);
+					r_FnumberDecimalSeparator = new(this, "numberDecimalSeparator");
+					r_FnumberDecimalSeparator.SetBelong(this.instance);
 				}
-				return r_numberDecimalSeparator;
+				return r_FnumberDecimalSeparator;
 			}
 		}
 
 		/// <summary>
 		/// System.String numberGroupSeparator
 		/// </summary>
-		protected RSystem.RString r_numberGroupSeparator;
-		public virtual RSystem.RString RnumberGroupSeparator
+		protected RSystem.RString r_FnumberGroupSeparator;
+		public virtual RSystem.RString RFnumberGroupSeparator
 		{
 			get
 			{
-				if(r_numberGroupSeparator == null)
+				if(r_FnumberGroupSeparator == null)
 				{
-					r_numberGroupSeparator = new(this, "numberGroupSeparator");
-					r_numberGroupSeparator.SetBelong(this.instance);
+					r_FnumberGroupSeparator = new(this, "numberGroupSeparator");
+					r_FnumberGroupSeparator.SetBelong(this.instance);
 				}
-				return r_numberGroupSeparator;
+				return r_FnumberGroupSeparator;
 			}
 		}
 
 		/// <summary>
 		/// System.String currencyGroupSeparator
 		/// </summary>
-		protected RSystem.RString r_currencyGroupSeparator;
-		public virtual RSystem.RString RcurrencyGroupSeparator
+		protected RSystem.RString r_FcurrencyGroupSeparator;
+		public virtual RSystem.RString RFcurrencyGroupSeparator
 		{
 			get
 			{
-				if(r_currencyGroupSeparator == null)
+				if(r_FcurrencyGroupSeparator == null)
 				{
-					r_currencyGroupSeparator = new(this, "currencyGroupSeparator");
-					r_currencyGroupSeparator.SetBelong(this.instance);
+					r_FcurrencyGroupSeparator = new(this, "currencyGroupSeparator");
+					r_FcurrencyGroupSeparator.SetBelong(this.instance);
 				}
-				return r_currencyGroupSeparator;
+				return r_FcurrencyGroupSeparator;
 			}
 		}
 
 		/// <summary>
 		/// System.String currencyDecimalSeparator
 		/// </summary>
-		protected RSystem.RString r_currencyDecimalSeparator;
-		public virtual RSystem.RString RcurrencyDecimalSeparator
+		protected RSystem.RString r_FcurrencyDecimalSeparator;
+		public virtual RSystem.RString RFcurrencyDecimalSeparator
 		{
 			get
 			{
-				if(r_currencyDecimalSeparator == null)
+				if(r_FcurrencyDecimalSeparator == null)
 				{
-					r_currencyDecimalSeparator = new(this, "currencyDecimalSeparator");
-					r_currencyDecimalSeparator.SetBelong(this.instance);
+					r_FcurrencyDecimalSeparator = new(this, "currencyDecimalSeparator");
+					r_FcurrencyDecimalSeparator.SetBelong(this.instance);
 				}
-				return r_currencyDecimalSeparator;
+				return r_FcurrencyDecimalSeparator;
 			}
 		}
 
 		/// <summary>
 		/// System.String currencySymbol
 		/// </summary>
-		protected RSystem.RString r_currencySymbol;
-		public virtual RSystem.RString RcurrencySymbol
+		protected RSystem.RString r_FcurrencySymbol;
+		public virtual RSystem.RString RFcurrencySymbol
 		{
 			get
 			{
-				if(r_currencySymbol == null)
+				if(r_FcurrencySymbol == null)
 				{
-					r_currencySymbol = new(this, "currencySymbol");
-					r_currencySymbol.SetBelong(this.instance);
+					r_FcurrencySymbol = new(this, "currencySymbol");
+					r_FcurrencySymbol.SetBelong(this.instance);
 				}
-				return r_currencySymbol;
+				return r_FcurrencySymbol;
 			}
 		}
 
 		/// <summary>
 		/// System.String ansiCurrencySymbol
 		/// </summary>
-		protected RSystem.RString r_ansiCurrencySymbol;
-		public virtual RSystem.RString RansiCurrencySymbol
+		protected RSystem.RString r_FansiCurrencySymbol;
+		public virtual RSystem.RString RFansiCurrencySymbol
 		{
 			get
 			{
-				if(r_ansiCurrencySymbol == null)
+				if(r_FansiCurrencySymbol == null)
 				{
-					r_ansiCurrencySymbol = new(this, "ansiCurrencySymbol");
-					r_ansiCurrencySymbol.SetBelong(this.instance);
+					r_FansiCurrencySymbol = new(this, "ansiCurrencySymbol");
+					r_FansiCurrencySymbol.SetBelong(this.instance);
 				}
-				return r_ansiCurrencySymbol;
+				return r_FansiCurrencySymbol;
 			}
 		}
 
 		/// <summary>
 		/// System.String nanSymbol
 		/// </summary>
-		protected RSystem.RString r_nanSymbol;
-		public virtual RSystem.RString RnanSymbol
+		protected RSystem.RString r_FnanSymbol;
+		public virtual RSystem.RString RFnanSymbol
 		{
 			get
 			{
-				if(r_nanSymbol == null)
+				if(r_FnanSymbol == null)
 				{
-					r_nanSymbol = new(this, "nanSymbol");
-					r_nanSymbol.SetBelong(this.instance);
+					r_FnanSymbol = new(this, "nanSymbol");
+					r_FnanSymbol.SetBelong(this.instance);
 				}
-				return r_nanSymbol;
+				return r_FnanSymbol;
 			}
 		}
 
 		/// <summary>
 		/// System.String positiveInfinitySymbol
 		/// </summary>
-		protected RSystem.RString r_positiveInfinitySymbol;
-		public virtual RSystem.RString RpositiveInfinitySymbol
+		protected RSystem.RString r_FpositiveInfinitySymbol;
+		public virtual RSystem.RString RFpositiveInfinitySymbol
 		{
 			get
 			{
-				if(r_positiveInfinitySymbol == null)
+				if(r_FpositiveInfinitySymbol == null)
 				{
-					r_positiveInfinitySymbol = new(this, "positiveInfinitySymbol");
-					r_positiveInfinitySymbol.SetBelong(this.instance);
+					r_FpositiveInfinitySymbol = new(this, "positiveInfinitySymbol");
+					r_FpositiveInfinitySymbol.SetBelong(this.instance);
 				}
-				return r_positiveInfinitySymbol;
+				return r_FpositiveInfinitySymbol;
 			}
 		}
 
 		/// <summary>
 		/// System.String negativeInfinitySymbol
 		/// </summary>
-		protected RSystem.RString r_negativeInfinitySymbol;
-		public virtual RSystem.RString RnegativeInfinitySymbol
+		protected RSystem.RString r_FnegativeInfinitySymbol;
+		public virtual RSystem.RString RFnegativeInfinitySymbol
 		{
 			get
 			{
-				if(r_negativeInfinitySymbol == null)
+				if(r_FnegativeInfinitySymbol == null)
 				{
-					r_negativeInfinitySymbol = new(this, "negativeInfinitySymbol");
-					r_negativeInfinitySymbol.SetBelong(this.instance);
+					r_FnegativeInfinitySymbol = new(this, "negativeInfinitySymbol");
+					r_FnegativeInfinitySymbol.SetBelong(this.instance);
 				}
-				return r_negativeInfinitySymbol;
+				return r_FnegativeInfinitySymbol;
 			}
 		}
 
 		/// <summary>
 		/// System.String percentDecimalSeparator
 		/// </summary>
-		protected RSystem.RString r_percentDecimalSeparator;
-		public virtual RSystem.RString RpercentDecimalSeparator
+		protected RSystem.RString r_FpercentDecimalSeparator;
+		public virtual RSystem.RString RFpercentDecimalSeparator
 		{
 			get
 			{
-				if(r_percentDecimalSeparator == null)
+				if(r_FpercentDecimalSeparator == null)
 				{
-					r_percentDecimalSeparator = new(this, "percentDecimalSeparator");
-					r_percentDecimalSeparator.SetBelong(this.instance);
+					r_FpercentDecimalSeparator = new(this, "percentDecimalSeparator");
+					r_FpercentDecimalSeparator.SetBelong(this.instance);
 				}
-				return r_percentDecimalSeparator;
+				return r_FpercentDecimalSeparator;
 			}
 		}
 
 		/// <summary>
 		/// System.String percentGroupSeparator
 		/// </summary>
-		protected RSystem.RString r_percentGroupSeparator;
-		public virtual RSystem.RString RpercentGroupSeparator
+		protected RSystem.RString r_FpercentGroupSeparator;
+		public virtual RSystem.RString RFpercentGroupSeparator
 		{
 			get
 			{
-				if(r_percentGroupSeparator == null)
+				if(r_FpercentGroupSeparator == null)
 				{
-					r_percentGroupSeparator = new(this, "percentGroupSeparator");
-					r_percentGroupSeparator.SetBelong(this.instance);
+					r_FpercentGroupSeparator = new(this, "percentGroupSeparator");
+					r_FpercentGroupSeparator.SetBelong(this.instance);
 				}
-				return r_percentGroupSeparator;
+				return r_FpercentGroupSeparator;
 			}
 		}
 
 		/// <summary>
 		/// System.String percentSymbol
 		/// </summary>
-		protected RSystem.RString r_percentSymbol;
-		public virtual RSystem.RString RpercentSymbol
+		protected RSystem.RString r_FpercentSymbol;
+		public virtual RSystem.RString RFpercentSymbol
 		{
 			get
 			{
-				if(r_percentSymbol == null)
+				if(r_FpercentSymbol == null)
 				{
-					r_percentSymbol = new(this, "percentSymbol");
-					r_percentSymbol.SetBelong(this.instance);
+					r_FpercentSymbol = new(this, "percentSymbol");
+					r_FpercentSymbol.SetBelong(this.instance);
 				}
-				return r_percentSymbol;
+				return r_FpercentSymbol;
 			}
 		}
 
 		/// <summary>
 		/// System.String perMilleSymbol
 		/// </summary>
-		protected RSystem.RString r_perMilleSymbol;
-		public virtual RSystem.RString RperMilleSymbol
+		protected RSystem.RString r_FperMilleSymbol;
+		public virtual RSystem.RString RFperMilleSymbol
 		{
 			get
 			{
-				if(r_perMilleSymbol == null)
+				if(r_FperMilleSymbol == null)
 				{
-					r_perMilleSymbol = new(this, "perMilleSymbol");
-					r_perMilleSymbol.SetBelong(this.instance);
+					r_FperMilleSymbol = new(this, "perMilleSymbol");
+					r_FperMilleSymbol.SetBelong(this.instance);
 				}
-				return r_perMilleSymbol;
+				return r_FperMilleSymbol;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] nativeDigits
 		/// </summary>
-		protected RFieldArray<RSystem.RString> r_nativeDigits;
-		public virtual RFieldArray<RSystem.RString> RnativeDigits
+		protected RFieldArray<RSystem.RString> r_FnativeDigits;
+		public virtual RFieldArray<RSystem.RString> RFnativeDigits
 		{
 			get
 			{
-				if(r_nativeDigits == null)
+				if(r_FnativeDigits == null)
 				{
-					r_nativeDigits = new(this, "nativeDigits");
-					r_nativeDigits.SetBelong(this.instance);
+					r_FnativeDigits = new(this, "nativeDigits");
+					r_FnativeDigits.SetBelong(this.instance);
 				}
-				return r_nativeDigits;
+				return r_FnativeDigits;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_dataItem
 		/// </summary>
-		protected RSystem.RInt32 r_m_dataItem;
-		public virtual RSystem.RInt32 Rm_dataItem
+		protected RSystem.RInt32 r_Fm_dataItem;
+		public virtual RSystem.RInt32 RFm_dataItem
 		{
 			get
 			{
-				if(r_m_dataItem == null)
+				if(r_Fm_dataItem == null)
 				{
-					r_m_dataItem = new(this, "m_dataItem");
-					r_m_dataItem.SetBelong(this.instance);
+					r_Fm_dataItem = new(this, "m_dataItem");
+					r_Fm_dataItem.SetBelong(this.instance);
 				}
-				return r_m_dataItem;
+				return r_Fm_dataItem;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 numberDecimalDigits
 		/// </summary>
-		protected RSystem.RInt32 r_numberDecimalDigits;
-		public virtual RSystem.RInt32 RnumberDecimalDigits
+		protected RSystem.RInt32 r_FnumberDecimalDigits;
+		public virtual RSystem.RInt32 RFnumberDecimalDigits
 		{
 			get
 			{
-				if(r_numberDecimalDigits == null)
+				if(r_FnumberDecimalDigits == null)
 				{
-					r_numberDecimalDigits = new(this, "numberDecimalDigits");
-					r_numberDecimalDigits.SetBelong(this.instance);
+					r_FnumberDecimalDigits = new(this, "numberDecimalDigits");
+					r_FnumberDecimalDigits.SetBelong(this.instance);
 				}
-				return r_numberDecimalDigits;
+				return r_FnumberDecimalDigits;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 currencyDecimalDigits
 		/// </summary>
-		protected RSystem.RInt32 r_currencyDecimalDigits;
-		public virtual RSystem.RInt32 RcurrencyDecimalDigits
+		protected RSystem.RInt32 r_FcurrencyDecimalDigits;
+		public virtual RSystem.RInt32 RFcurrencyDecimalDigits
 		{
 			get
 			{
-				if(r_currencyDecimalDigits == null)
+				if(r_FcurrencyDecimalDigits == null)
 				{
-					r_currencyDecimalDigits = new(this, "currencyDecimalDigits");
-					r_currencyDecimalDigits.SetBelong(this.instance);
+					r_FcurrencyDecimalDigits = new(this, "currencyDecimalDigits");
+					r_FcurrencyDecimalDigits.SetBelong(this.instance);
 				}
-				return r_currencyDecimalDigits;
+				return r_FcurrencyDecimalDigits;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 currencyPositivePattern
 		/// </summary>
-		protected RSystem.RInt32 r_currencyPositivePattern;
-		public virtual RSystem.RInt32 RcurrencyPositivePattern
+		protected RSystem.RInt32 r_FcurrencyPositivePattern;
+		public virtual RSystem.RInt32 RFcurrencyPositivePattern
 		{
 			get
 			{
-				if(r_currencyPositivePattern == null)
+				if(r_FcurrencyPositivePattern == null)
 				{
-					r_currencyPositivePattern = new(this, "currencyPositivePattern");
-					r_currencyPositivePattern.SetBelong(this.instance);
+					r_FcurrencyPositivePattern = new(this, "currencyPositivePattern");
+					r_FcurrencyPositivePattern.SetBelong(this.instance);
 				}
-				return r_currencyPositivePattern;
+				return r_FcurrencyPositivePattern;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 currencyNegativePattern
 		/// </summary>
-		protected RSystem.RInt32 r_currencyNegativePattern;
-		public virtual RSystem.RInt32 RcurrencyNegativePattern
+		protected RSystem.RInt32 r_FcurrencyNegativePattern;
+		public virtual RSystem.RInt32 RFcurrencyNegativePattern
 		{
 			get
 			{
-				if(r_currencyNegativePattern == null)
+				if(r_FcurrencyNegativePattern == null)
 				{
-					r_currencyNegativePattern = new(this, "currencyNegativePattern");
-					r_currencyNegativePattern.SetBelong(this.instance);
+					r_FcurrencyNegativePattern = new(this, "currencyNegativePattern");
+					r_FcurrencyNegativePattern.SetBelong(this.instance);
 				}
-				return r_currencyNegativePattern;
+				return r_FcurrencyNegativePattern;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 numberNegativePattern
 		/// </summary>
-		protected RSystem.RInt32 r_numberNegativePattern;
-		public virtual RSystem.RInt32 RnumberNegativePattern
+		protected RSystem.RInt32 r_FnumberNegativePattern;
+		public virtual RSystem.RInt32 RFnumberNegativePattern
 		{
 			get
 			{
-				if(r_numberNegativePattern == null)
+				if(r_FnumberNegativePattern == null)
 				{
-					r_numberNegativePattern = new(this, "numberNegativePattern");
-					r_numberNegativePattern.SetBelong(this.instance);
+					r_FnumberNegativePattern = new(this, "numberNegativePattern");
+					r_FnumberNegativePattern.SetBelong(this.instance);
 				}
-				return r_numberNegativePattern;
+				return r_FnumberNegativePattern;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 percentPositivePattern
 		/// </summary>
-		protected RSystem.RInt32 r_percentPositivePattern;
-		public virtual RSystem.RInt32 RpercentPositivePattern
+		protected RSystem.RInt32 r_FpercentPositivePattern;
+		public virtual RSystem.RInt32 RFpercentPositivePattern
 		{
 			get
 			{
-				if(r_percentPositivePattern == null)
+				if(r_FpercentPositivePattern == null)
 				{
-					r_percentPositivePattern = new(this, "percentPositivePattern");
-					r_percentPositivePattern.SetBelong(this.instance);
+					r_FpercentPositivePattern = new(this, "percentPositivePattern");
+					r_FpercentPositivePattern.SetBelong(this.instance);
 				}
-				return r_percentPositivePattern;
+				return r_FpercentPositivePattern;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 percentNegativePattern
 		/// </summary>
-		protected RSystem.RInt32 r_percentNegativePattern;
-		public virtual RSystem.RInt32 RpercentNegativePattern
+		protected RSystem.RInt32 r_FpercentNegativePattern;
+		public virtual RSystem.RInt32 RFpercentNegativePattern
 		{
 			get
 			{
-				if(r_percentNegativePattern == null)
+				if(r_FpercentNegativePattern == null)
 				{
-					r_percentNegativePattern = new(this, "percentNegativePattern");
-					r_percentNegativePattern.SetBelong(this.instance);
+					r_FpercentNegativePattern = new(this, "percentNegativePattern");
+					r_FpercentNegativePattern.SetBelong(this.instance);
 				}
-				return r_percentNegativePattern;
+				return r_FpercentNegativePattern;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 percentDecimalDigits
 		/// </summary>
-		protected RSystem.RInt32 r_percentDecimalDigits;
-		public virtual RSystem.RInt32 RpercentDecimalDigits
+		protected RSystem.RInt32 r_FpercentDecimalDigits;
+		public virtual RSystem.RInt32 RFpercentDecimalDigits
 		{
 			get
 			{
-				if(r_percentDecimalDigits == null)
+				if(r_FpercentDecimalDigits == null)
 				{
-					r_percentDecimalDigits = new(this, "percentDecimalDigits");
-					r_percentDecimalDigits.SetBelong(this.instance);
+					r_FpercentDecimalDigits = new(this, "percentDecimalDigits");
+					r_FpercentDecimalDigits.SetBelong(this.instance);
 				}
-				return r_percentDecimalDigits;
+				return r_FpercentDecimalDigits;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 digitSubstitution
 		/// </summary>
-		protected RSystem.RInt32 r_digitSubstitution;
-		public virtual RSystem.RInt32 RdigitSubstitution
+		protected RSystem.RInt32 r_FdigitSubstitution;
+		public virtual RSystem.RInt32 RFdigitSubstitution
 		{
 			get
 			{
-				if(r_digitSubstitution == null)
+				if(r_FdigitSubstitution == null)
 				{
-					r_digitSubstitution = new(this, "digitSubstitution");
-					r_digitSubstitution.SetBelong(this.instance);
+					r_FdigitSubstitution = new(this, "digitSubstitution");
+					r_FdigitSubstitution.SetBelong(this.instance);
 				}
-				return r_digitSubstitution;
+				return r_FdigitSubstitution;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean isReadOnly
 		/// </summary>
-		protected RSystem.RBoolean r_isReadOnly;
-		public virtual RSystem.RBoolean RisReadOnly
+		protected RSystem.RBoolean r_FisReadOnly;
+		public virtual RSystem.RBoolean RFisReadOnly
 		{
 			get
 			{
-				if(r_isReadOnly == null)
+				if(r_FisReadOnly == null)
 				{
-					r_isReadOnly = new(this, "isReadOnly");
-					r_isReadOnly.SetBelong(this.instance);
+					r_FisReadOnly = new(this, "isReadOnly");
+					r_FisReadOnly.SetBelong(this.instance);
 				}
-				return r_isReadOnly;
+				return r_FisReadOnly;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_useUserOverride
 		/// </summary>
-		protected RSystem.RBoolean r_m_useUserOverride;
-		public virtual RSystem.RBoolean Rm_useUserOverride
+		protected RSystem.RBoolean r_Fm_useUserOverride;
+		public virtual RSystem.RBoolean RFm_useUserOverride
 		{
 			get
 			{
-				if(r_m_useUserOverride == null)
+				if(r_Fm_useUserOverride == null)
 				{
-					r_m_useUserOverride = new(this, "m_useUserOverride");
-					r_m_useUserOverride.SetBelong(this.instance);
+					r_Fm_useUserOverride = new(this, "m_useUserOverride");
+					r_Fm_useUserOverride.SetBelong(this.instance);
 				}
-				return r_m_useUserOverride;
+				return r_Fm_useUserOverride;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_isInvariant
 		/// </summary>
-		protected RSystem.RBoolean r_m_isInvariant;
-		public virtual RSystem.RBoolean Rm_isInvariant
+		protected RSystem.RBoolean r_Fm_isInvariant;
+		public virtual RSystem.RBoolean RFm_isInvariant
 		{
 			get
 			{
-				if(r_m_isInvariant == null)
+				if(r_Fm_isInvariant == null)
 				{
-					r_m_isInvariant = new(this, "m_isInvariant");
-					r_m_isInvariant.SetBelong(this.instance);
+					r_Fm_isInvariant = new(this, "m_isInvariant");
+					r_Fm_isInvariant.SetBelong(this.instance);
 				}
-				return r_m_isInvariant;
+				return r_Fm_isInvariant;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean validForParseAsNumber
 		/// </summary>
-		protected RSystem.RBoolean r_validForParseAsNumber;
-		public virtual RSystem.RBoolean RvalidForParseAsNumber
+		protected RSystem.RBoolean r_FvalidForParseAsNumber;
+		public virtual RSystem.RBoolean RFvalidForParseAsNumber
 		{
 			get
 			{
-				if(r_validForParseAsNumber == null)
+				if(r_FvalidForParseAsNumber == null)
 				{
-					r_validForParseAsNumber = new(this, "validForParseAsNumber");
-					r_validForParseAsNumber.SetBelong(this.instance);
+					r_FvalidForParseAsNumber = new(this, "validForParseAsNumber");
+					r_FvalidForParseAsNumber.SetBelong(this.instance);
 				}
-				return r_validForParseAsNumber;
+				return r_FvalidForParseAsNumber;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean validForParseAsCurrency
 		/// </summary>
-		protected RSystem.RBoolean r_validForParseAsCurrency;
-		public virtual RSystem.RBoolean RvalidForParseAsCurrency
+		protected RSystem.RBoolean r_FvalidForParseAsCurrency;
+		public virtual RSystem.RBoolean RFvalidForParseAsCurrency
 		{
 			get
 			{
-				if(r_validForParseAsCurrency == null)
+				if(r_FvalidForParseAsCurrency == null)
 				{
-					r_validForParseAsCurrency = new(this, "validForParseAsCurrency");
-					r_validForParseAsCurrency.SetBelong(this.instance);
+					r_FvalidForParseAsCurrency = new(this, "validForParseAsCurrency");
+					r_FvalidForParseAsCurrency.SetBelong(this.instance);
 				}
-				return r_validForParseAsCurrency;
+				return r_FvalidForParseAsCurrency;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.NumberStyles InvalidNumberStyles
 		/// </summary>
-		protected static RField r_InvalidNumberStyles;
-		public static RField RInvalidNumberStyles
+		protected static RSystem.RGlobalization.RNumberStyles r_FInvalidNumberStyles;
+		public static RSystem.RGlobalization.RNumberStyles RFInvalidNumberStyles
 		{
 			get
 			{
-				if(r_InvalidNumberStyles == null)
+				if(r_FInvalidNumberStyles == null)
 				{
-					r_InvalidNumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "InvalidNumberStyles");
-					r_InvalidNumberStyles.SetBelong(null);
+					r_FInvalidNumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "InvalidNumberStyles");
+					r_FInvalidNumberStyles.SetBelong(null);
 				}
-				return r_InvalidNumberStyles;
+				return r_FInvalidNumberStyles;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.NumberFormatInfo InvariantInfo
 		/// </summary>
-		protected static RSystem.RGlobalization.RNumberFormatInfo r_InvariantInfo;
-		public static RSystem.RGlobalization.RNumberFormatInfo RInvariantInfo
+		protected static RSystem.RGlobalization.RNumberFormatInfo r_PInvariantInfo;
+		public static RSystem.RGlobalization.RNumberFormatInfo RPInvariantInfo
 		{
 			get
 			{
-				if(r_InvariantInfo == null)
+				if(r_PInvariantInfo == null)
 				{
-					r_InvariantInfo = new(typeof(System.Globalization.NumberFormatInfo), "InvariantInfo", -1);
-					r_InvariantInfo.SetBelong(null);
+					r_PInvariantInfo = new(typeof(System.Globalization.NumberFormatInfo), "InvariantInfo", -1);
+					r_PInvariantInfo.SetBelong(null);
 				}
-				return r_InvariantInfo;
+				return r_PInvariantInfo;
 			}
 		}
 
 		/// <summary>
 		/// Int32 CurrencyDecimalDigits
 		/// </summary>
-		protected RSystem.RInt32 r_CurrencyDecimalDigits;
-		public virtual RSystem.RInt32 RCurrencyDecimalDigits
+		protected RSystem.RInt32 r_PCurrencyDecimalDigits;
+		public virtual RSystem.RInt32 RPCurrencyDecimalDigits
 		{
 			get
 			{
-				if(r_CurrencyDecimalDigits == null)
+				if(r_PCurrencyDecimalDigits == null)
 				{
-					r_CurrencyDecimalDigits = new(this, "CurrencyDecimalDigits", -1);
-					r_CurrencyDecimalDigits.SetBelong(this.instance);
+					r_PCurrencyDecimalDigits = new(this, "CurrencyDecimalDigits", -1);
+					r_PCurrencyDecimalDigits.SetBelong(this.instance);
 				}
-				return r_CurrencyDecimalDigits;
+				return r_PCurrencyDecimalDigits;
 			}
 		}
 
 		/// <summary>
 		/// System.String CurrencyDecimalSeparator
 		/// </summary>
-		protected RSystem.RString r_CurrencyDecimalSeparator;
-		public virtual RSystem.RString RCurrencyDecimalSeparator
+		protected RSystem.RString r_PCurrencyDecimalSeparator;
+		public virtual RSystem.RString RPCurrencyDecimalSeparator
 		{
 			get
 			{
-				if(r_CurrencyDecimalSeparator == null)
+				if(r_PCurrencyDecimalSeparator == null)
 				{
-					r_CurrencyDecimalSeparator = new(this, "CurrencyDecimalSeparator", -1);
-					r_CurrencyDecimalSeparator.SetBelong(this.instance);
+					r_PCurrencyDecimalSeparator = new(this, "CurrencyDecimalSeparator", -1);
+					r_PCurrencyDecimalSeparator.SetBelong(this.instance);
 				}
-				return r_CurrencyDecimalSeparator;
+				return r_PCurrencyDecimalSeparator;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RSystem.RBoolean r_IsReadOnly;
-		public virtual RSystem.RBoolean RIsReadOnly
+		protected RSystem.RBoolean r_PIsReadOnly;
+		public virtual RSystem.RBoolean RPIsReadOnly
 		{
 			get
 			{
-				if(r_IsReadOnly == null)
+				if(r_PIsReadOnly == null)
 				{
-					r_IsReadOnly = new(this, "IsReadOnly", -1);
-					r_IsReadOnly.SetBelong(this.instance);
+					r_PIsReadOnly = new(this, "IsReadOnly", -1);
+					r_PIsReadOnly.SetBelong(this.instance);
 				}
-				return r_IsReadOnly;
+				return r_PIsReadOnly;
 			}
 		}
 
 		/// <summary>
 		/// Int32[] CurrencyGroupSizes
 		/// </summary>
-		protected RPropertyArray<RSystem.RInt32> r_CurrencyGroupSizes;
-		public virtual RPropertyArray<RSystem.RInt32> RCurrencyGroupSizes
+		protected RPropertyArray<RSystem.RInt32> r_PCurrencyGroupSizes;
+		public virtual RPropertyArray<RSystem.RInt32> RPCurrencyGroupSizes
 		{
 			get
 			{
-				if(r_CurrencyGroupSizes == null)
+				if(r_PCurrencyGroupSizes == null)
 				{
-					r_CurrencyGroupSizes = new(this, "CurrencyGroupSizes", -1);
-					r_CurrencyGroupSizes.SetBelong(this.instance);
+					r_PCurrencyGroupSizes = new(this, "CurrencyGroupSizes", -1);
+					r_PCurrencyGroupSizes.SetBelong(this.instance);
 				}
-				return r_CurrencyGroupSizes;
+				return r_PCurrencyGroupSizes;
 			}
 		}
 
 		/// <summary>
 		/// Int32[] NumberGroupSizes
 		/// </summary>
-		protected RPropertyArray<RSystem.RInt32> r_NumberGroupSizes;
-		public virtual RPropertyArray<RSystem.RInt32> RNumberGroupSizes
+		protected RPropertyArray<RSystem.RInt32> r_PNumberGroupSizes;
+		public virtual RPropertyArray<RSystem.RInt32> RPNumberGroupSizes
 		{
 			get
 			{
-				if(r_NumberGroupSizes == null)
+				if(r_PNumberGroupSizes == null)
 				{
-					r_NumberGroupSizes = new(this, "NumberGroupSizes", -1);
-					r_NumberGroupSizes.SetBelong(this.instance);
+					r_PNumberGroupSizes = new(this, "NumberGroupSizes", -1);
+					r_PNumberGroupSizes.SetBelong(this.instance);
 				}
-				return r_NumberGroupSizes;
+				return r_PNumberGroupSizes;
 			}
 		}
 
 		/// <summary>
 		/// Int32[] PercentGroupSizes
 		/// </summary>
-		protected RPropertyArray<RSystem.RInt32> r_PercentGroupSizes;
-		public virtual RPropertyArray<RSystem.RInt32> RPercentGroupSizes
+		protected RPropertyArray<RSystem.RInt32> r_PPercentGroupSizes;
+		public virtual RPropertyArray<RSystem.RInt32> RPPercentGroupSizes
 		{
 			get
 			{
-				if(r_PercentGroupSizes == null)
+				if(r_PPercentGroupSizes == null)
 				{
-					r_PercentGroupSizes = new(this, "PercentGroupSizes", -1);
-					r_PercentGroupSizes.SetBelong(this.instance);
+					r_PPercentGroupSizes = new(this, "PercentGroupSizes", -1);
+					r_PPercentGroupSizes.SetBelong(this.instance);
 				}
-				return r_PercentGroupSizes;
+				return r_PPercentGroupSizes;
 			}
 		}
 
 		/// <summary>
 		/// System.String CurrencyGroupSeparator
 		/// </summary>
-		protected RSystem.RString r_CurrencyGroupSeparator;
-		public virtual RSystem.RString RCurrencyGroupSeparator
+		protected RSystem.RString r_PCurrencyGroupSeparator;
+		public virtual RSystem.RString RPCurrencyGroupSeparator
 		{
 			get
 			{
-				if(r_CurrencyGroupSeparator == null)
+				if(r_PCurrencyGroupSeparator == null)
 				{
-					r_CurrencyGroupSeparator = new(this, "CurrencyGroupSeparator", -1);
-					r_CurrencyGroupSeparator.SetBelong(this.instance);
+					r_PCurrencyGroupSeparator = new(this, "CurrencyGroupSeparator", -1);
+					r_PCurrencyGroupSeparator.SetBelong(this.instance);
 				}
-				return r_CurrencyGroupSeparator;
+				return r_PCurrencyGroupSeparator;
 			}
 		}
 
 		/// <summary>
 		/// System.String CurrencySymbol
 		/// </summary>
-		protected RSystem.RString r_CurrencySymbol;
-		public virtual RSystem.RString RCurrencySymbol
+		protected RSystem.RString r_PCurrencySymbol;
+		public virtual RSystem.RString RPCurrencySymbol
 		{
 			get
 			{
-				if(r_CurrencySymbol == null)
+				if(r_PCurrencySymbol == null)
 				{
-					r_CurrencySymbol = new(this, "CurrencySymbol", -1);
-					r_CurrencySymbol.SetBelong(this.instance);
+					r_PCurrencySymbol = new(this, "CurrencySymbol", -1);
+					r_PCurrencySymbol.SetBelong(this.instance);
 				}
-				return r_CurrencySymbol;
+				return r_PCurrencySymbol;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.NumberFormatInfo CurrentInfo
 		/// </summary>
-		protected static RSystem.RGlobalization.RNumberFormatInfo r_CurrentInfo;
-		public static RSystem.RGlobalization.RNumberFormatInfo RCurrentInfo
+		protected static RSystem.RGlobalization.RNumberFormatInfo r_PCurrentInfo;
+		public static RSystem.RGlobalization.RNumberFormatInfo RPCurrentInfo
 		{
 			get
 			{
-				if(r_CurrentInfo == null)
+				if(r_PCurrentInfo == null)
 				{
-					r_CurrentInfo = new(typeof(System.Globalization.NumberFormatInfo), "CurrentInfo", -1);
-					r_CurrentInfo.SetBelong(null);
+					r_PCurrentInfo = new(typeof(System.Globalization.NumberFormatInfo), "CurrentInfo", -1);
+					r_PCurrentInfo.SetBelong(null);
 				}
-				return r_CurrentInfo;
+				return r_PCurrentInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.String NaNSymbol
 		/// </summary>
-		protected RSystem.RString r_NaNSymbol;
-		public virtual RSystem.RString RNaNSymbol
+		protected RSystem.RString r_PNaNSymbol;
+		public virtual RSystem.RString RPNaNSymbol
 		{
 			get
 			{
-				if(r_NaNSymbol == null)
+				if(r_PNaNSymbol == null)
 				{
-					r_NaNSymbol = new(this, "NaNSymbol", -1);
-					r_NaNSymbol.SetBelong(this.instance);
+					r_PNaNSymbol = new(this, "NaNSymbol", -1);
+					r_PNaNSymbol.SetBelong(this.instance);
 				}
-				return r_NaNSymbol;
+				return r_PNaNSymbol;
 			}
 		}
 
 		/// <summary>
 		/// Int32 CurrencyNegativePattern
 		/// </summary>
-		protected RSystem.RInt32 r_CurrencyNegativePattern;
-		public virtual RSystem.RInt32 RCurrencyNegativePattern
+		protected RSystem.RInt32 r_PCurrencyNegativePattern;
+		public virtual RSystem.RInt32 RPCurrencyNegativePattern
 		{
 			get
 			{
-				if(r_CurrencyNegativePattern == null)
+				if(r_PCurrencyNegativePattern == null)
 				{
-					r_CurrencyNegativePattern = new(this, "CurrencyNegativePattern", -1);
-					r_CurrencyNegativePattern.SetBelong(this.instance);
+					r_PCurrencyNegativePattern = new(this, "CurrencyNegativePattern", -1);
+					r_PCurrencyNegativePattern.SetBelong(this.instance);
 				}
-				return r_CurrencyNegativePattern;
+				return r_PCurrencyNegativePattern;
 			}
 		}
 
 		/// <summary>
 		/// Int32 NumberNegativePattern
 		/// </summary>
-		protected RSystem.RInt32 r_NumberNegativePattern;
-		public virtual RSystem.RInt32 RNumberNegativePattern
+		protected RSystem.RInt32 r_PNumberNegativePattern;
+		public virtual RSystem.RInt32 RPNumberNegativePattern
 		{
 			get
 			{
-				if(r_NumberNegativePattern == null)
+				if(r_PNumberNegativePattern == null)
 				{
-					r_NumberNegativePattern = new(this, "NumberNegativePattern", -1);
-					r_NumberNegativePattern.SetBelong(this.instance);
+					r_PNumberNegativePattern = new(this, "NumberNegativePattern", -1);
+					r_PNumberNegativePattern.SetBelong(this.instance);
 				}
-				return r_NumberNegativePattern;
+				return r_PNumberNegativePattern;
 			}
 		}
 
 		/// <summary>
 		/// Int32 PercentPositivePattern
 		/// </summary>
-		protected RSystem.RInt32 r_PercentPositivePattern;
-		public virtual RSystem.RInt32 RPercentPositivePattern
+		protected RSystem.RInt32 r_PPercentPositivePattern;
+		public virtual RSystem.RInt32 RPPercentPositivePattern
 		{
 			get
 			{
-				if(r_PercentPositivePattern == null)
+				if(r_PPercentPositivePattern == null)
 				{
-					r_PercentPositivePattern = new(this, "PercentPositivePattern", -1);
-					r_PercentPositivePattern.SetBelong(this.instance);
+					r_PPercentPositivePattern = new(this, "PercentPositivePattern", -1);
+					r_PPercentPositivePattern.SetBelong(this.instance);
 				}
-				return r_PercentPositivePattern;
+				return r_PPercentPositivePattern;
 			}
 		}
 
 		/// <summary>
 		/// Int32 PercentNegativePattern
 		/// </summary>
-		protected RSystem.RInt32 r_PercentNegativePattern;
-		public virtual RSystem.RInt32 RPercentNegativePattern
+		protected RSystem.RInt32 r_PPercentNegativePattern;
+		public virtual RSystem.RInt32 RPPercentNegativePattern
 		{
 			get
 			{
-				if(r_PercentNegativePattern == null)
+				if(r_PPercentNegativePattern == null)
 				{
-					r_PercentNegativePattern = new(this, "PercentNegativePattern", -1);
-					r_PercentNegativePattern.SetBelong(this.instance);
+					r_PPercentNegativePattern = new(this, "PercentNegativePattern", -1);
+					r_PPercentNegativePattern.SetBelong(this.instance);
 				}
-				return r_PercentNegativePattern;
+				return r_PPercentNegativePattern;
 			}
 		}
 
 		/// <summary>
 		/// System.String NegativeInfinitySymbol
 		/// </summary>
-		protected RSystem.RString r_NegativeInfinitySymbol;
-		public virtual RSystem.RString RNegativeInfinitySymbol
+		protected RSystem.RString r_PNegativeInfinitySymbol;
+		public virtual RSystem.RString RPNegativeInfinitySymbol
 		{
 			get
 			{
-				if(r_NegativeInfinitySymbol == null)
+				if(r_PNegativeInfinitySymbol == null)
 				{
-					r_NegativeInfinitySymbol = new(this, "NegativeInfinitySymbol", -1);
-					r_NegativeInfinitySymbol.SetBelong(this.instance);
+					r_PNegativeInfinitySymbol = new(this, "NegativeInfinitySymbol", -1);
+					r_PNegativeInfinitySymbol.SetBelong(this.instance);
 				}
-				return r_NegativeInfinitySymbol;
+				return r_PNegativeInfinitySymbol;
 			}
 		}
 
 		/// <summary>
 		/// System.String NegativeSign
 		/// </summary>
-		protected RSystem.RString r_NegativeSign;
-		public virtual RSystem.RString RNegativeSign
+		protected RSystem.RString r_PNegativeSign;
+		public virtual RSystem.RString RPNegativeSign
 		{
 			get
 			{
-				if(r_NegativeSign == null)
+				if(r_PNegativeSign == null)
 				{
-					r_NegativeSign = new(this, "NegativeSign", -1);
-					r_NegativeSign.SetBelong(this.instance);
+					r_PNegativeSign = new(this, "NegativeSign", -1);
+					r_PNegativeSign.SetBelong(this.instance);
 				}
-				return r_NegativeSign;
+				return r_PNegativeSign;
 			}
 		}
 
 		/// <summary>
 		/// Int32 NumberDecimalDigits
 		/// </summary>
-		protected RSystem.RInt32 r_NumberDecimalDigits;
-		public virtual RSystem.RInt32 RNumberDecimalDigits
+		protected RSystem.RInt32 r_PNumberDecimalDigits;
+		public virtual RSystem.RInt32 RPNumberDecimalDigits
 		{
 			get
 			{
-				if(r_NumberDecimalDigits == null)
+				if(r_PNumberDecimalDigits == null)
 				{
-					r_NumberDecimalDigits = new(this, "NumberDecimalDigits", -1);
-					r_NumberDecimalDigits.SetBelong(this.instance);
+					r_PNumberDecimalDigits = new(this, "NumberDecimalDigits", -1);
+					r_PNumberDecimalDigits.SetBelong(this.instance);
 				}
-				return r_NumberDecimalDigits;
+				return r_PNumberDecimalDigits;
 			}
 		}
 
 		/// <summary>
 		/// System.String NumberDecimalSeparator
 		/// </summary>
-		protected RSystem.RString r_NumberDecimalSeparator;
-		public virtual RSystem.RString RNumberDecimalSeparator
+		protected RSystem.RString r_PNumberDecimalSeparator;
+		public virtual RSystem.RString RPNumberDecimalSeparator
 		{
 			get
 			{
-				if(r_NumberDecimalSeparator == null)
+				if(r_PNumberDecimalSeparator == null)
 				{
-					r_NumberDecimalSeparator = new(this, "NumberDecimalSeparator", -1);
-					r_NumberDecimalSeparator.SetBelong(this.instance);
+					r_PNumberDecimalSeparator = new(this, "NumberDecimalSeparator", -1);
+					r_PNumberDecimalSeparator.SetBelong(this.instance);
 				}
-				return r_NumberDecimalSeparator;
+				return r_PNumberDecimalSeparator;
 			}
 		}
 
 		/// <summary>
 		/// System.String NumberGroupSeparator
 		/// </summary>
-		protected RSystem.RString r_NumberGroupSeparator;
-		public virtual RSystem.RString RNumberGroupSeparator
+		protected RSystem.RString r_PNumberGroupSeparator;
+		public virtual RSystem.RString RPNumberGroupSeparator
 		{
 			get
 			{
-				if(r_NumberGroupSeparator == null)
+				if(r_PNumberGroupSeparator == null)
 				{
-					r_NumberGroupSeparator = new(this, "NumberGroupSeparator", -1);
-					r_NumberGroupSeparator.SetBelong(this.instance);
+					r_PNumberGroupSeparator = new(this, "NumberGroupSeparator", -1);
+					r_PNumberGroupSeparator.SetBelong(this.instance);
 				}
-				return r_NumberGroupSeparator;
+				return r_PNumberGroupSeparator;
 			}
 		}
 
 		/// <summary>
 		/// Int32 CurrencyPositivePattern
 		/// </summary>
-		protected RSystem.RInt32 r_CurrencyPositivePattern;
-		public virtual RSystem.RInt32 RCurrencyPositivePattern
+		protected RSystem.RInt32 r_PCurrencyPositivePattern;
+		public virtual RSystem.RInt32 RPCurrencyPositivePattern
 		{
 			get
 			{
-				if(r_CurrencyPositivePattern == null)
+				if(r_PCurrencyPositivePattern == null)
 				{
-					r_CurrencyPositivePattern = new(this, "CurrencyPositivePattern", -1);
-					r_CurrencyPositivePattern.SetBelong(this.instance);
+					r_PCurrencyPositivePattern = new(this, "CurrencyPositivePattern", -1);
+					r_PCurrencyPositivePattern.SetBelong(this.instance);
 				}
-				return r_CurrencyPositivePattern;
+				return r_PCurrencyPositivePattern;
 			}
 		}
 
 		/// <summary>
 		/// System.String PositiveInfinitySymbol
 		/// </summary>
-		protected RSystem.RString r_PositiveInfinitySymbol;
-		public virtual RSystem.RString RPositiveInfinitySymbol
+		protected RSystem.RString r_PPositiveInfinitySymbol;
+		public virtual RSystem.RString RPPositiveInfinitySymbol
 		{
 			get
 			{
-				if(r_PositiveInfinitySymbol == null)
+				if(r_PPositiveInfinitySymbol == null)
 				{
-					r_PositiveInfinitySymbol = new(this, "PositiveInfinitySymbol", -1);
-					r_PositiveInfinitySymbol.SetBelong(this.instance);
+					r_PPositiveInfinitySymbol = new(this, "PositiveInfinitySymbol", -1);
+					r_PPositiveInfinitySymbol.SetBelong(this.instance);
 				}
-				return r_PositiveInfinitySymbol;
+				return r_PPositiveInfinitySymbol;
 			}
 		}
 
 		/// <summary>
 		/// System.String PositiveSign
 		/// </summary>
-		protected RSystem.RString r_PositiveSign;
-		public virtual RSystem.RString RPositiveSign
+		protected RSystem.RString r_PPositiveSign;
+		public virtual RSystem.RString RPPositiveSign
 		{
 			get
 			{
-				if(r_PositiveSign == null)
+				if(r_PPositiveSign == null)
 				{
-					r_PositiveSign = new(this, "PositiveSign", -1);
-					r_PositiveSign.SetBelong(this.instance);
+					r_PPositiveSign = new(this, "PositiveSign", -1);
+					r_PPositiveSign.SetBelong(this.instance);
 				}
-				return r_PositiveSign;
+				return r_PPositiveSign;
 			}
 		}
 
 		/// <summary>
 		/// Int32 PercentDecimalDigits
 		/// </summary>
-		protected RSystem.RInt32 r_PercentDecimalDigits;
-		public virtual RSystem.RInt32 RPercentDecimalDigits
+		protected RSystem.RInt32 r_PPercentDecimalDigits;
+		public virtual RSystem.RInt32 RPPercentDecimalDigits
 		{
 			get
 			{
-				if(r_PercentDecimalDigits == null)
+				if(r_PPercentDecimalDigits == null)
 				{
-					r_PercentDecimalDigits = new(this, "PercentDecimalDigits", -1);
-					r_PercentDecimalDigits.SetBelong(this.instance);
+					r_PPercentDecimalDigits = new(this, "PercentDecimalDigits", -1);
+					r_PPercentDecimalDigits.SetBelong(this.instance);
 				}
-				return r_PercentDecimalDigits;
+				return r_PPercentDecimalDigits;
 			}
 		}
 
 		/// <summary>
 		/// System.String PercentDecimalSeparator
 		/// </summary>
-		protected RSystem.RString r_PercentDecimalSeparator;
-		public virtual RSystem.RString RPercentDecimalSeparator
+		protected RSystem.RString r_PPercentDecimalSeparator;
+		public virtual RSystem.RString RPPercentDecimalSeparator
 		{
 			get
 			{
-				if(r_PercentDecimalSeparator == null)
+				if(r_PPercentDecimalSeparator == null)
 				{
-					r_PercentDecimalSeparator = new(this, "PercentDecimalSeparator", -1);
-					r_PercentDecimalSeparator.SetBelong(this.instance);
+					r_PPercentDecimalSeparator = new(this, "PercentDecimalSeparator", -1);
+					r_PPercentDecimalSeparator.SetBelong(this.instance);
 				}
-				return r_PercentDecimalSeparator;
+				return r_PPercentDecimalSeparator;
 			}
 		}
 
 		/// <summary>
 		/// System.String PercentGroupSeparator
 		/// </summary>
-		protected RSystem.RString r_PercentGroupSeparator;
-		public virtual RSystem.RString RPercentGroupSeparator
+		protected RSystem.RString r_PPercentGroupSeparator;
+		public virtual RSystem.RString RPPercentGroupSeparator
 		{
 			get
 			{
-				if(r_PercentGroupSeparator == null)
+				if(r_PPercentGroupSeparator == null)
 				{
-					r_PercentGroupSeparator = new(this, "PercentGroupSeparator", -1);
-					r_PercentGroupSeparator.SetBelong(this.instance);
+					r_PPercentGroupSeparator = new(this, "PercentGroupSeparator", -1);
+					r_PPercentGroupSeparator.SetBelong(this.instance);
 				}
-				return r_PercentGroupSeparator;
+				return r_PPercentGroupSeparator;
 			}
 		}
 
 		/// <summary>
 		/// System.String PercentSymbol
 		/// </summary>
-		protected RSystem.RString r_PercentSymbol;
-		public virtual RSystem.RString RPercentSymbol
+		protected RSystem.RString r_PPercentSymbol;
+		public virtual RSystem.RString RPPercentSymbol
 		{
 			get
 			{
-				if(r_PercentSymbol == null)
+				if(r_PPercentSymbol == null)
 				{
-					r_PercentSymbol = new(this, "PercentSymbol", -1);
-					r_PercentSymbol.SetBelong(this.instance);
+					r_PPercentSymbol = new(this, "PercentSymbol", -1);
+					r_PPercentSymbol.SetBelong(this.instance);
 				}
-				return r_PercentSymbol;
+				return r_PPercentSymbol;
 			}
 		}
 
 		/// <summary>
 		/// System.String PerMilleSymbol
 		/// </summary>
-		protected RSystem.RString r_PerMilleSymbol;
-		public virtual RSystem.RString RPerMilleSymbol
+		protected RSystem.RString r_PPerMilleSymbol;
+		public virtual RSystem.RString RPPerMilleSymbol
 		{
 			get
 			{
-				if(r_PerMilleSymbol == null)
+				if(r_PPerMilleSymbol == null)
 				{
-					r_PerMilleSymbol = new(this, "PerMilleSymbol", -1);
-					r_PerMilleSymbol.SetBelong(this.instance);
+					r_PPerMilleSymbol = new(this, "PerMilleSymbol", -1);
+					r_PPerMilleSymbol.SetBelong(this.instance);
 				}
-				return r_PerMilleSymbol;
+				return r_PPerMilleSymbol;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] NativeDigits
 		/// </summary>
-		protected RPropertyArray<RSystem.RString> r_NativeDigits;
-		public virtual RPropertyArray<RSystem.RString> RNativeDigits
+		protected RPropertyArray<RSystem.RString> r_PNativeDigits;
+		public virtual RPropertyArray<RSystem.RString> RPNativeDigits
 		{
 			get
 			{
-				if(r_NativeDigits == null)
+				if(r_PNativeDigits == null)
 				{
-					r_NativeDigits = new(this, "NativeDigits", -1);
-					r_NativeDigits.SetBelong(this.instance);
+					r_PNativeDigits = new(this, "NativeDigits", -1);
+					r_PNativeDigits.SetBelong(this.instance);
 				}
-				return r_NativeDigits;
+				return r_PNativeDigits;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.DigitShapes DigitSubstitution
 		/// </summary>
-		protected RProperty r_DigitSubstitution;
-		public virtual RProperty RDigitSubstitution
+		protected RSystem.RGlobalization.RDigitShapes r_PDigitSubstitution;
+		public virtual RSystem.RGlobalization.RDigitShapes RPDigitSubstitution
 		{
 			get
 			{
-				if(r_DigitSubstitution == null)
+				if(r_PDigitSubstitution == null)
 				{
-					r_DigitSubstitution = new(this, "DigitSubstitution", -1);
-					r_DigitSubstitution.SetBelong(this.instance);
+					r_PDigitSubstitution = new(this, "DigitSubstitution", -1);
+					r_PDigitSubstitution.SetBelong(this.instance);
 				}
-				return r_DigitSubstitution;
+				return r_PDigitSubstitution;
 			}
 		}
 
 		/// <summary>
 		/// Void OnSerializing(System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_OnSerializing_StreamingContext;
-		public virtual RMethod ROnSerializing_StreamingContext
+		protected RMethod r_MOnSerializing_StreamingContext;
+		public virtual RMethod RMOnSerializing_StreamingContext
 		{
 			get
 			{
-				if(r_OnSerializing_StreamingContext == null)
+				if(r_MOnSerializing_StreamingContext == null)
 				{
-					r_OnSerializing_StreamingContext = new(this, "OnSerializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_OnSerializing_StreamingContext.SetBelong(this.instance);
+					r_MOnSerializing_StreamingContext = new(this, "OnSerializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
+					r_MOnSerializing_StreamingContext.SetBelong(this.instance);
 				}
-				return r_OnSerializing_StreamingContext;
+				return r_MOnSerializing_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDeserializing(System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_OnDeserializing_StreamingContext;
-		public virtual RMethod ROnDeserializing_StreamingContext
+		protected RMethod r_MOnDeserializing_StreamingContext;
+		public virtual RMethod RMOnDeserializing_StreamingContext
 		{
 			get
 			{
-				if(r_OnDeserializing_StreamingContext == null)
+				if(r_MOnDeserializing_StreamingContext == null)
 				{
-					r_OnDeserializing_StreamingContext = new(this, "OnDeserializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_OnDeserializing_StreamingContext.SetBelong(this.instance);
+					r_MOnDeserializing_StreamingContext = new(this, "OnDeserializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
+					r_MOnDeserializing_StreamingContext.SetBelong(this.instance);
 				}
-				return r_OnDeserializing_StreamingContext;
+				return r_MOnDeserializing_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDeserialized(System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_OnDeserialized_StreamingContext;
-		public virtual RMethod ROnDeserialized_StreamingContext
+		protected RMethod r_MOnDeserialized_StreamingContext;
+		public virtual RMethod RMOnDeserialized_StreamingContext
 		{
 			get
 			{
-				if(r_OnDeserialized_StreamingContext == null)
+				if(r_MOnDeserialized_StreamingContext == null)
 				{
-					r_OnDeserialized_StreamingContext = new(this, "OnDeserialized", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_OnDeserialized_StreamingContext.SetBelong(this.instance);
+					r_MOnDeserialized_StreamingContext = new(this, "OnDeserialized", 0, typeof(System.Runtime.Serialization.StreamingContext));
+					r_MOnDeserialized_StreamingContext.SetBelong(this.instance);
 				}
-				return r_OnDeserialized_StreamingContext;
+				return r_MOnDeserialized_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Void VerifyDecimalSeparator(System.String, System.String)
 		/// </summary>
-		protected static RMethod r_VerifyDecimalSeparator_String_String;
-		public static RMethod RVerifyDecimalSeparator_String_String
+		protected static RMethod r_MVerifyDecimalSeparator_String_String;
+		public static RMethod RMVerifyDecimalSeparator_String_String
 		{
 			get
 			{
-				if(r_VerifyDecimalSeparator_String_String == null)
+				if(r_MVerifyDecimalSeparator_String_String == null)
 				{
-					r_VerifyDecimalSeparator_String_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyDecimalSeparator", 0, typeof(System.String), typeof(System.String));
-					r_VerifyDecimalSeparator_String_String.SetBelong(null);
+					r_MVerifyDecimalSeparator_String_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyDecimalSeparator", 0, typeof(System.String), typeof(System.String));
+					r_MVerifyDecimalSeparator_String_String.SetBelong(null);
 				}
-				return r_VerifyDecimalSeparator_String_String;
+				return r_MVerifyDecimalSeparator_String_String;
 			}
 		}
 
 		/// <summary>
 		/// Void VerifyGroupSeparator(System.String, System.String)
 		/// </summary>
-		protected static RMethod r_VerifyGroupSeparator_String_String;
-		public static RMethod RVerifyGroupSeparator_String_String
+		protected static RMethod r_MVerifyGroupSeparator_String_String;
+		public static RMethod RMVerifyGroupSeparator_String_String
 		{
 			get
 			{
-				if(r_VerifyGroupSeparator_String_String == null)
+				if(r_MVerifyGroupSeparator_String_String == null)
 				{
-					r_VerifyGroupSeparator_String_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyGroupSeparator", 0, typeof(System.String), typeof(System.String));
-					r_VerifyGroupSeparator_String_String.SetBelong(null);
+					r_MVerifyGroupSeparator_String_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyGroupSeparator", 0, typeof(System.String), typeof(System.String));
+					r_MVerifyGroupSeparator_String_String.SetBelong(null);
 				}
-				return r_VerifyGroupSeparator_String_String;
+				return r_MVerifyGroupSeparator_String_String;
 			}
 		}
 
 		/// <summary>
 		/// Void VerifyNativeDigits(System.String[], System.String)
 		/// </summary>
-		protected static RMethod r_VerifyNativeDigits_StringArray_String;
-		public static RMethod RVerifyNativeDigits_StringArray_String
+		protected static RMethod r_MVerifyNativeDigits_StringArray_String;
+		public static RMethod RMVerifyNativeDigits_StringArray_String
 		{
 			get
 			{
-				if(r_VerifyNativeDigits_StringArray_String == null)
+				if(r_MVerifyNativeDigits_StringArray_String == null)
 				{
-					r_VerifyNativeDigits_StringArray_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyNativeDigits", 0, typeof(System.String).MakeArrayType(), typeof(System.String));
-					r_VerifyNativeDigits_StringArray_String.SetBelong(null);
+					r_MVerifyNativeDigits_StringArray_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyNativeDigits", 0, typeof(System.String).MakeArrayType(), typeof(System.String));
+					r_MVerifyNativeDigits_StringArray_String.SetBelong(null);
 				}
-				return r_VerifyNativeDigits_StringArray_String;
+				return r_MVerifyNativeDigits_StringArray_String;
 			}
 		}
 
 		/// <summary>
 		/// Void VerifyDigitSubstitution(System.Globalization.DigitShapes, System.String)
 		/// </summary>
-		protected static RMethod r_VerifyDigitSubstitution_DigitShapes_String;
-		public static RMethod RVerifyDigitSubstitution_DigitShapes_String
+		protected static RMethod r_MVerifyDigitSubstitution_DigitShapes_String;
+		public static RMethod RMVerifyDigitSubstitution_DigitShapes_String
 		{
 			get
 			{
-				if(r_VerifyDigitSubstitution_DigitShapes_String == null)
+				if(r_MVerifyDigitSubstitution_DigitShapes_String == null)
 				{
-					r_VerifyDigitSubstitution_DigitShapes_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyDigitSubstitution", 0, typeof(System.Globalization.DigitShapes), typeof(System.String));
-					r_VerifyDigitSubstitution_DigitShapes_String.SetBelong(null);
+					r_MVerifyDigitSubstitution_DigitShapes_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyDigitSubstitution", 0, typeof(System.Globalization.DigitShapes), typeof(System.String));
+					r_MVerifyDigitSubstitution_DigitShapes_String.SetBelong(null);
 				}
-				return r_VerifyDigitSubstitution_DigitShapes_String;
+				return r_MVerifyDigitSubstitution_DigitShapes_String;
 			}
 		}
 
 		/// <summary>
 		/// Void VerifyWritable()
 		/// </summary>
-		protected RMethod r_VerifyWritable;
-		public virtual RMethod RVerifyWritable
+		protected RMethod r_MVerifyWritable;
+		public virtual RMethod RMVerifyWritable
 		{
 			get
 			{
-				if(r_VerifyWritable == null)
+				if(r_MVerifyWritable == null)
 				{
-					r_VerifyWritable = new(this, "VerifyWritable", 0);
-					r_VerifyWritable.SetBelong(this.instance);
+					r_MVerifyWritable = new(this, "VerifyWritable", 0);
+					r_MVerifyWritable.SetBelong(this.instance);
 				}
-				return r_VerifyWritable;
+				return r_MVerifyWritable;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.NumberFormatInfo GetInstance(System.IFormatProvider)
 		/// </summary>
-		protected static RMethod r_GetInstance_IFormatProvider;
-		public static RMethod RGetInstance_IFormatProvider
+		protected static RMethod r_MGetInstance_IFormatProvider;
+		public static RMethod RMGetInstance_IFormatProvider
 		{
 			get
 			{
-				if(r_GetInstance_IFormatProvider == null)
+				if(r_MGetInstance_IFormatProvider == null)
 				{
-					r_GetInstance_IFormatProvider = new(typeof(System.Globalization.NumberFormatInfo), "GetInstance", 0, typeof(System.IFormatProvider));
-					r_GetInstance_IFormatProvider.SetBelong(null);
+					r_MGetInstance_IFormatProvider = new(typeof(System.Globalization.NumberFormatInfo), "GetInstance", 0, typeof(System.IFormatProvider));
+					r_MGetInstance_IFormatProvider.SetBelong(null);
 				}
-				return r_GetInstance_IFormatProvider;
+				return r_MGetInstance_IFormatProvider;
 			}
 		}
 
 		/// <summary>
 		/// System.Object Clone()
 		/// </summary>
-		protected RMethod r_Clone;
-		public virtual RMethod RClone
+		protected RMethod r_MClone;
+		public virtual RMethod RMClone
 		{
 			get
 			{
-				if(r_Clone == null)
+				if(r_MClone == null)
 				{
-					r_Clone = new(this, "Clone", 0);
-					r_Clone.SetBelong(this.instance);
+					r_MClone = new(this, "Clone", 0);
+					r_MClone.SetBelong(this.instance);
 				}
-				return r_Clone;
+				return r_MClone;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckGroupSize(System.String, Int32[])
 		/// </summary>
-		protected static RMethod r_CheckGroupSize_String_Int32Array;
-		public static RMethod RCheckGroupSize_String_Int32Array
+		protected static RMethod r_MCheckGroupSize_String_Int32Array;
+		public static RMethod RMCheckGroupSize_String_Int32Array
 		{
 			get
 			{
-				if(r_CheckGroupSize_String_Int32Array == null)
+				if(r_MCheckGroupSize_String_Int32Array == null)
 				{
-					r_CheckGroupSize_String_Int32Array = new(typeof(System.Globalization.NumberFormatInfo), "CheckGroupSize", 0, typeof(System.String), typeof(System.Int32).MakeArrayType());
-					r_CheckGroupSize_String_Int32Array.SetBelong(null);
+					r_MCheckGroupSize_String_Int32Array = new(typeof(System.Globalization.NumberFormatInfo), "CheckGroupSize", 0, typeof(System.String), typeof(System.Int32).MakeArrayType());
+					r_MCheckGroupSize_String_Int32Array.SetBelong(null);
 				}
-				return r_CheckGroupSize_String_Int32Array;
+				return r_MCheckGroupSize_String_Int32Array;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetFormat(System.Type)
 		/// </summary>
-		protected RMethod r_GetFormat_Type;
-		public virtual RMethod RGetFormat_Type
+		protected RMethod r_MGetFormat_Type;
+		public virtual RMethod RMGetFormat_Type
 		{
 			get
 			{
-				if(r_GetFormat_Type == null)
+				if(r_MGetFormat_Type == null)
 				{
-					r_GetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
-					r_GetFormat_Type.SetBelong(this.instance);
+					r_MGetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
+					r_MGetFormat_Type.SetBelong(this.instance);
 				}
-				return r_GetFormat_Type;
+				return r_MGetFormat_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.NumberFormatInfo ReadOnly(System.Globalization.NumberFormatInfo)
 		/// </summary>
-		protected static RMethod r_ReadOnly_NumberFormatInfo;
-		public static RMethod RReadOnly_NumberFormatInfo
+		protected static RMethod r_MReadOnly_NumberFormatInfo;
+		public static RMethod RMReadOnly_NumberFormatInfo
 		{
 			get
 			{
-				if(r_ReadOnly_NumberFormatInfo == null)
+				if(r_MReadOnly_NumberFormatInfo == null)
 				{
-					r_ReadOnly_NumberFormatInfo = new(typeof(System.Globalization.NumberFormatInfo), "ReadOnly", 0, typeof(System.Globalization.NumberFormatInfo));
-					r_ReadOnly_NumberFormatInfo.SetBelong(null);
+					r_MReadOnly_NumberFormatInfo = new(typeof(System.Globalization.NumberFormatInfo), "ReadOnly", 0, typeof(System.Globalization.NumberFormatInfo));
+					r_MReadOnly_NumberFormatInfo.SetBelong(null);
 				}
-				return r_ReadOnly_NumberFormatInfo;
+				return r_MReadOnly_NumberFormatInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void ValidateParseStyleInteger(System.Globalization.NumberStyles)
 		/// </summary>
-		protected static RMethod r_ValidateParseStyleInteger_NumberStyles;
-		public static RMethod RValidateParseStyleInteger_NumberStyles
+		protected static RMethod r_MValidateParseStyleInteger_NumberStyles;
+		public static RMethod RMValidateParseStyleInteger_NumberStyles
 		{
 			get
 			{
-				if(r_ValidateParseStyleInteger_NumberStyles == null)
+				if(r_MValidateParseStyleInteger_NumberStyles == null)
 				{
-					r_ValidateParseStyleInteger_NumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "ValidateParseStyleInteger", 0, typeof(System.Globalization.NumberStyles));
-					r_ValidateParseStyleInteger_NumberStyles.SetBelong(null);
+					r_MValidateParseStyleInteger_NumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "ValidateParseStyleInteger", 0, typeof(System.Globalization.NumberStyles));
+					r_MValidateParseStyleInteger_NumberStyles.SetBelong(null);
 				}
-				return r_ValidateParseStyleInteger_NumberStyles;
+				return r_MValidateParseStyleInteger_NumberStyles;
 			}
 		}
 
 		/// <summary>
 		/// Void ValidateParseStyleFloatingPoint(System.Globalization.NumberStyles)
 		/// </summary>
-		protected static RMethod r_ValidateParseStyleFloatingPoint_NumberStyles;
-		public static RMethod RValidateParseStyleFloatingPoint_NumberStyles
+		protected static RMethod r_MValidateParseStyleFloatingPoint_NumberStyles;
+		public static RMethod RMValidateParseStyleFloatingPoint_NumberStyles
 		{
 			get
 			{
-				if(r_ValidateParseStyleFloatingPoint_NumberStyles == null)
+				if(r_MValidateParseStyleFloatingPoint_NumberStyles == null)
 				{
-					r_ValidateParseStyleFloatingPoint_NumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "ValidateParseStyleFloatingPoint", 0, typeof(System.Globalization.NumberStyles));
-					r_ValidateParseStyleFloatingPoint_NumberStyles.SetBelong(null);
+					r_MValidateParseStyleFloatingPoint_NumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "ValidateParseStyleFloatingPoint", 0, typeof(System.Globalization.NumberStyles));
+					r_MValidateParseStyleFloatingPoint_NumberStyles.SetBelong(null);
 				}
-				return r_ValidateParseStyleFloatingPoint_NumberStyles;
+				return r_MValidateParseStyleFloatingPoint_NumberStyles;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -1512,7 +1512,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ctx};
-            var ___result = ROnSerializing_StreamingContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnSerializing_StreamingContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1523,7 +1523,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ctx};
-            var ___result = ROnDeserializing_StreamingContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnDeserializing_StreamingContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1534,7 +1534,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ctx};
-            var ___result = ROnDeserialized_StreamingContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnDeserialized_StreamingContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1545,7 +1545,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@decSep, @propertyName};
-            var ___result = RVerifyDecimalSeparator_String_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMVerifyDecimalSeparator_String_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1556,7 +1556,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@groupSep, @propertyName};
-            var ___result = RVerifyGroupSeparator_String_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMVerifyGroupSeparator_String_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1567,7 +1567,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nativeDig, @propertyName};
-            var ___result = RVerifyNativeDigits_StringArray_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMVerifyNativeDigits_StringArray_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1578,7 +1578,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@digitSub, @propertyName};
-            var ___result = RVerifyDigitSubstitution_DigitShapes_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMVerifyDigitSubstitution_DigitShapes_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1589,7 +1589,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RVerifyWritable.Invoke(___genericsType, ___parameters);
+            var ___result = RMVerifyWritable.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1600,7 +1600,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@formatProvider};
-            var ___result = RGetInstance_IFormatProvider.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetInstance_IFormatProvider.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.NumberFormatInfo)___result;
         }
@@ -1611,7 +1611,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -1622,7 +1622,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@propName, @groupSize};
-            var ___result = RCheckGroupSize_String_Int32Array.Invoke(___genericsType, ___parameters);
+            var ___result = RMCheckGroupSize_String_Int32Array.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1633,7 +1633,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@formatType};
-            var ___result = RGetFormat_Type.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetFormat_Type.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -1644,7 +1644,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nfi};
-            var ___result = RReadOnly_NumberFormatInfo.Invoke(___genericsType, ___parameters);
+            var ___result = RMReadOnly_NumberFormatInfo.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.NumberFormatInfo)___result;
         }
@@ -1655,7 +1655,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@style};
-            var ___result = RValidateParseStyleInteger_NumberStyles.Invoke(___genericsType, ___parameters);
+            var ___result = RMValidateParseStyleInteger_NumberStyles.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1666,7 +1666,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@style};
-            var ___result = RValidateParseStyleFloatingPoint_NumberStyles.Invoke(___genericsType, ___parameters);
+            var ___result = RMValidateParseStyleFloatingPoint_NumberStyles.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1677,7 +1677,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1688,7 +1688,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1699,7 +1699,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1710,7 +1710,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -1721,7 +1721,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -1732,7 +1732,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

@@ -13,204 +13,204 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ReadOnlySpan`1[System.Char] s
 		/// </summary>
-		protected RSystem.RReadOnlySpan<RSystem.RChar> r_s;
-		public virtual RSystem.RReadOnlySpan<RSystem.RChar> Rs
+		protected RSystem.RReadOnlySpan<RSystem.RChar> r_Fs;
+		public virtual RSystem.RReadOnlySpan<RSystem.RChar> RFs
 		{
 			get
 			{
-				if(r_s == null)
+				if(r_Fs == null)
 				{
-					r_s = new(this, "s");
-					r_s.SetBelong(this.instance);
+					r_Fs = new(this, "s");
+					r_Fs.SetBelong(this.instance);
 				}
-				return r_s;
+				return r_Fs;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 index
 		/// </summary>
-		protected RSystem.RInt32 r_index;
-		public virtual RSystem.RInt32 Rindex
+		protected RSystem.RInt32 r_Findex;
+		public virtual RSystem.RInt32 RFindex
 		{
 			get
 			{
-				if(r_index == null)
+				if(r_Findex == null)
 				{
-					r_index = new(this, "index");
-					r_index.SetBelong(this.instance);
+					r_Findex = new(this, "index");
+					r_Findex.SetBelong(this.instance);
 				}
-				return r_index;
+				return r_Findex;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 length
 		/// </summary>
-		protected RSystem.RInt32 r_length;
-		public virtual RSystem.RInt32 Rlength
+		protected RSystem.RInt32 r_Flength;
+		public virtual RSystem.RInt32 RFlength
 		{
 			get
 			{
-				if(r_length == null)
+				if(r_Flength == null)
 				{
-					r_length = new(this, "length");
-					r_length.SetBelong(this.instance);
+					r_Flength = new(this, "length");
+					r_Flength.SetBelong(this.instance);
 				}
-				return r_length;
+				return r_Flength;
 			}
 		}
 
 		/// <summary>
 		/// System.DTSubStringType type
 		/// </summary>
-		protected RField r_type;
-		public virtual RField Rtype
+		protected RSystem.RDTSubStringType r_Ftype;
+		public virtual RSystem.RDTSubStringType RFtype
 		{
 			get
 			{
-				if(r_type == null)
+				if(r_Ftype == null)
 				{
-					r_type = new(this, "type");
-					r_type.SetBelong(this.instance);
+					r_Ftype = new(this, "type");
+					r_Ftype.SetBelong(this.instance);
 				}
-				return r_type;
+				return r_Ftype;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 value
 		/// </summary>
-		protected RSystem.RInt32 r_value;
-		public virtual RSystem.RInt32 Rvalue
+		protected RSystem.RInt32 r_Fvalue;
+		public virtual RSystem.RInt32 RFvalue
 		{
 			get
 			{
-				if(r_value == null)
+				if(r_Fvalue == null)
 				{
-					r_value = new(this, "value");
-					r_value.SetBelong(this.instance);
+					r_Fvalue = new(this, "value");
+					r_Fvalue.SetBelong(this.instance);
 				}
-				return r_value;
+				return r_Fvalue;
 			}
 		}
 
 		/// <summary>
 		/// Char Item [Int32]
 		/// </summary>
-		protected RSystem.RChar r_Item_Int32;
-		public virtual RSystem.RChar RItem_Int32
+		protected RSystem.RChar r_PItem_Int32;
+		public virtual RSystem.RChar RPItem_Int32
 		{
 			get
 			{
-				if(r_Item_Int32 == null)
+				if(r_PItem_Int32 == null)
 				{
-					r_Item_Int32 = new(this, "Item", -1, typeof(System.Int32));
-					r_Item_Int32.SetBelong(this.instance);
+					r_PItem_Int32 = new(this, "Item", -1, typeof(System.Int32));
+					r_PItem_Int32.SetBelong(this.instance);
 				}
-				return r_Item_Int32;
+				return r_PItem_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -237,7 +237,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -248,7 +248,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -259,7 +259,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -270,7 +270,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -281,7 +281,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

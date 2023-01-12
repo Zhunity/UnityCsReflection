@@ -15,272 +15,272 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean needsClosing
 		/// </summary>
-		protected RSystem.RBoolean r_needsClosing;
-		public virtual RSystem.RBoolean RneedsClosing
+		protected RSystem.RBoolean r_FneedsClosing;
+		public virtual RSystem.RBoolean RFneedsClosing
 		{
 			get
 			{
-				if(r_needsClosing == null)
+				if(r_FneedsClosing == null)
 				{
-					r_needsClosing = new(this, "needsClosing");
-					r_needsClosing.SetBelong(this.instance);
+					r_FneedsClosing = new(this, "needsClosing");
+					r_FneedsClosing.SetBelong(this.instance);
 				}
-				return r_needsClosing;
+				return r_FneedsClosing;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean popViewMatrix
 		/// </summary>
-		protected RSystem.RBoolean r_popViewMatrix;
-		public virtual RSystem.RBoolean RpopViewMatrix
+		protected RSystem.RBoolean r_FpopViewMatrix;
+		public virtual RSystem.RBoolean RFpopViewMatrix
 		{
 			get
 			{
-				if(r_popViewMatrix == null)
+				if(r_FpopViewMatrix == null)
 				{
-					r_popViewMatrix = new(this, "popViewMatrix");
-					r_popViewMatrix.SetBelong(this.instance);
+					r_FpopViewMatrix = new(this, "popViewMatrix");
+					r_FpopViewMatrix.SetBelong(this.instance);
 				}
-				return r_popViewMatrix;
+				return r_FpopViewMatrix;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean popScissorClip
 		/// </summary>
-		protected RSystem.RBoolean r_popScissorClip;
-		public virtual RSystem.RBoolean RpopScissorClip
+		protected RSystem.RBoolean r_FpopScissorClip;
+		public virtual RSystem.RBoolean RFpopScissorClip
 		{
 			get
 			{
-				if(r_popScissorClip == null)
+				if(r_FpopScissorClip == null)
 				{
-					r_popScissorClip = new(this, "popScissorClip");
-					r_popScissorClip.SetBelong(this.instance);
+					r_FpopScissorClip = new(this, "popScissorClip");
+					r_FpopScissorClip.SetBelong(this.instance);
 				}
-				return r_popScissorClip;
+				return r_FpopScissorClip;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean blitAndPopRenderTexture
 		/// </summary>
-		protected RSystem.RBoolean r_blitAndPopRenderTexture;
-		public virtual RSystem.RBoolean RblitAndPopRenderTexture
+		protected RSystem.RBoolean r_FblitAndPopRenderTexture;
+		public virtual RSystem.RBoolean RFblitAndPopRenderTexture
 		{
 			get
 			{
-				if(r_blitAndPopRenderTexture == null)
+				if(r_FblitAndPopRenderTexture == null)
 				{
-					r_blitAndPopRenderTexture = new(this, "blitAndPopRenderTexture");
-					r_blitAndPopRenderTexture.SetBelong(this.instance);
+					r_FblitAndPopRenderTexture = new(this, "blitAndPopRenderTexture");
+					r_FblitAndPopRenderTexture.SetBelong(this.instance);
 				}
-				return r_blitAndPopRenderTexture;
+				return r_FblitAndPopRenderTexture;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean PopDefaultMaterial
 		/// </summary>
-		protected RSystem.RBoolean r_PopDefaultMaterial;
-		public virtual RSystem.RBoolean RPopDefaultMaterial
+		protected RSystem.RBoolean r_FPopDefaultMaterial;
+		public virtual RSystem.RBoolean RFPopDefaultMaterial
 		{
 			get
 			{
-				if(r_PopDefaultMaterial == null)
+				if(r_FPopDefaultMaterial == null)
 				{
-					r_PopDefaultMaterial = new(this, "PopDefaultMaterial");
-					r_PopDefaultMaterial.SetBelong(this.instance);
+					r_FPopDefaultMaterial = new(this, "PopDefaultMaterial");
+					r_FPopDefaultMaterial.SetBelong(this.instance);
 				}
-				return r_PopDefaultMaterial;
+				return r_FPopDefaultMaterial;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderChainCommand clipUnregisterDrawCommand
 		/// </summary>
-		protected RUnityEngine.RUIElements.RUIR.RRenderChainCommand r_clipUnregisterDrawCommand;
-		public virtual RUnityEngine.RUIElements.RUIR.RRenderChainCommand RclipUnregisterDrawCommand
+		protected RUnityEngine.RUIElements.RUIR.RRenderChainCommand r_FclipUnregisterDrawCommand;
+		public virtual RUnityEngine.RUIElements.RUIR.RRenderChainCommand RFclipUnregisterDrawCommand
 		{
 			get
 			{
-				if(r_clipUnregisterDrawCommand == null)
+				if(r_FclipUnregisterDrawCommand == null)
 				{
-					r_clipUnregisterDrawCommand = new(this, "clipUnregisterDrawCommand");
-					r_clipUnregisterDrawCommand.SetBelong(this.instance);
+					r_FclipUnregisterDrawCommand = new(this, "clipUnregisterDrawCommand");
+					r_FclipUnregisterDrawCommand.SetBelong(this.instance);
 				}
-				return r_clipUnregisterDrawCommand;
+				return r_FclipUnregisterDrawCommand;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.UIElements.Vertex] clipperRegisterVertices
 		/// </summary>
-		protected RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> r_clipperRegisterVertices;
-		public virtual RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> RclipperRegisterVertices
+		protected RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> r_FclipperRegisterVertices;
+		public virtual RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> RFclipperRegisterVertices
 		{
 			get
 			{
-				if(r_clipperRegisterVertices == null)
+				if(r_FclipperRegisterVertices == null)
 				{
-					r_clipperRegisterVertices = new(this, "clipperRegisterVertices");
-					r_clipperRegisterVertices.SetBelong(this.instance);
+					r_FclipperRegisterVertices = new(this, "clipperRegisterVertices");
+					r_FclipperRegisterVertices.SetBelong(this.instance);
 				}
-				return r_clipperRegisterVertices;
+				return r_FclipperRegisterVertices;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[System.UInt16] clipperRegisterIndices
 		/// </summary>
-		protected RUnity.RCollections.RNativeSlice<RSystem.RUInt16> r_clipperRegisterIndices;
-		public virtual RUnity.RCollections.RNativeSlice<RSystem.RUInt16> RclipperRegisterIndices
+		protected RUnity.RCollections.RNativeSlice<RSystem.RUInt16> r_FclipperRegisterIndices;
+		public virtual RUnity.RCollections.RNativeSlice<RSystem.RUInt16> RFclipperRegisterIndices
 		{
 			get
 			{
-				if(r_clipperRegisterIndices == null)
+				if(r_FclipperRegisterIndices == null)
 				{
-					r_clipperRegisterIndices = new(this, "clipperRegisterIndices");
-					r_clipperRegisterIndices.SetBelong(this.instance);
+					r_FclipperRegisterIndices = new(this, "clipperRegisterIndices");
+					r_FclipperRegisterIndices.SetBelong(this.instance);
 				}
-				return r_clipperRegisterIndices;
+				return r_FclipperRegisterIndices;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 clipperRegisterIndexOffset
 		/// </summary>
-		protected RSystem.RInt32 r_clipperRegisterIndexOffset;
-		public virtual RSystem.RInt32 RclipperRegisterIndexOffset
+		protected RSystem.RInt32 r_FclipperRegisterIndexOffset;
+		public virtual RSystem.RInt32 RFclipperRegisterIndexOffset
 		{
 			get
 			{
-				if(r_clipperRegisterIndexOffset == null)
+				if(r_FclipperRegisterIndexOffset == null)
 				{
-					r_clipperRegisterIndexOffset = new(this, "clipperRegisterIndexOffset");
-					r_clipperRegisterIndexOffset.SetBelong(this.instance);
+					r_FclipperRegisterIndexOffset = new(this, "clipperRegisterIndexOffset");
+					r_FclipperRegisterIndexOffset.SetBelong(this.instance);
 				}
-				return r_clipperRegisterIndexOffset;
+				return r_FclipperRegisterIndexOffset;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 maskStencilRef
 		/// </summary>
-		protected RSystem.RInt32 r_maskStencilRef;
-		public virtual RSystem.RInt32 RmaskStencilRef
+		protected RSystem.RInt32 r_FmaskStencilRef;
+		public virtual RSystem.RInt32 RFmaskStencilRef
 		{
 			get
 			{
-				if(r_maskStencilRef == null)
+				if(r_FmaskStencilRef == null)
 				{
-					r_maskStencilRef = new(this, "maskStencilRef");
-					r_maskStencilRef.SetBelong(this.instance);
+					r_FmaskStencilRef = new(this, "maskStencilRef");
+					r_FmaskStencilRef.SetBelong(this.instance);
 				}
-				return r_maskStencilRef;
+				return r_FmaskStencilRef;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -307,7 +307,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -318,7 +318,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -329,7 +329,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -340,7 +340,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -351,7 +351,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -362,7 +362,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 CompareTo(T)
 		/// </summary>
-		protected RMethod r_CompareTo_T;
-		public virtual RMethod RCompareTo_T
+		protected RMethod r_MCompareTo_T;
+		public virtual RMethod RMCompareTo_T
 		{
 			get
 			{
-				if(r_CompareTo_T == null)
+				if(r_MCompareTo_T == null)
 				{
-					r_CompareTo_T = new(this, "CompareTo", 0, Type.MakeGenericMethodParameter(0));
-					r_CompareTo_T.SetBelong(this.instance);
+					r_MCompareTo_T = new(this, "CompareTo", 0, Type.MakeGenericMethodParameter(0));
+					r_MCompareTo_T.SetBelong(this.instance);
 				}
-				return r_CompareTo_T;
+				return r_MCompareTo_T;
 			}
 		}
 
@@ -50,7 +50,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other};
-            var ___result = RCompareTo_T.Invoke(___genericsType, ___parameters);
+            var ___result = RMCompareTo_T.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }

@@ -13,1037 +13,1037 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected RSystem.RString r_text;
-		public virtual RSystem.RString Rtext
+		protected RSystem.RString r_Ftext;
+		public virtual RSystem.RString RFtext
 		{
 			get
 			{
-				if(r_text == null)
+				if(r_Ftext == null)
 				{
-					r_text = new(this, "text");
-					r_text.SetBelong(this.instance);
+					r_Ftext = new(this, "text");
+					r_Ftext.SetBelong(this.instance);
 				}
-				return r_text;
+				return r_Ftext;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect screenRect
 		/// </summary>
-		protected RUnityEngine.RRect r_screenRect;
-		public virtual RUnityEngine.RRect RscreenRect
+		protected RUnityEngine.RRect r_FscreenRect;
+		public virtual RUnityEngine.RRect RFscreenRect
 		{
 			get
 			{
-				if(r_screenRect == null)
+				if(r_FscreenRect == null)
 				{
-					r_screenRect = new(this, "screenRect");
-					r_screenRect.SetBelong(this.instance);
+					r_FscreenRect = new(this, "screenRect");
+					r_FscreenRect.SetBelong(this.instance);
 				}
-				return r_screenRect;
+				return r_FscreenRect;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector4 margins
 		/// </summary>
-		protected RUnityEngine.RVector4 r_margins;
-		public virtual RUnityEngine.RVector4 Rmargins
+		protected RUnityEngine.RVector4 r_Fmargins;
+		public virtual RUnityEngine.RVector4 RFmargins
 		{
 			get
 			{
-				if(r_margins == null)
+				if(r_Fmargins == null)
 				{
-					r_margins = new(this, "margins");
-					r_margins.SetBelong(this.instance);
+					r_Fmargins = new(this, "margins");
+					r_Fmargins.SetBelong(this.instance);
 				}
-				return r_margins;
+				return r_Fmargins;
 			}
 		}
 
 		/// <summary>
 		/// System.Single scale
 		/// </summary>
-		protected RSystem.RSingle r_scale;
-		public virtual RSystem.RSingle Rscale
+		protected RSystem.RSingle r_Fscale;
+		public virtual RSystem.RSingle RFscale
 		{
 			get
 			{
-				if(r_scale == null)
+				if(r_Fscale == null)
 				{
-					r_scale = new(this, "scale");
-					r_scale.SetBelong(this.instance);
+					r_Fscale = new(this, "scale");
+					r_Fscale.SetBelong(this.instance);
 				}
-				return r_scale;
+				return r_Fscale;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset fontAsset
 		/// </summary>
-		protected RUnityEngine.RTextCore.RText.RFontAsset r_fontAsset;
-		public virtual RUnityEngine.RTextCore.RText.RFontAsset RfontAsset
+		protected RUnityEngine.RTextCore.RText.RFontAsset r_FfontAsset;
+		public virtual RUnityEngine.RTextCore.RText.RFontAsset RFfontAsset
 		{
 			get
 			{
-				if(r_fontAsset == null)
+				if(r_FfontAsset == null)
 				{
-					r_fontAsset = new(this, "fontAsset");
-					r_fontAsset.SetBelong(this.instance);
+					r_FfontAsset = new(this, "fontAsset");
+					r_FfontAsset.SetBelong(this.instance);
 				}
-				return r_fontAsset;
+				return r_FfontAsset;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Material material
 		/// </summary>
-		protected RUnityEngine.RMaterial r_material;
-		public virtual RUnityEngine.RMaterial Rmaterial
+		protected RUnityEngine.RMaterial r_Fmaterial;
+		public virtual RUnityEngine.RMaterial RFmaterial
 		{
 			get
 			{
-				if(r_material == null)
+				if(r_Fmaterial == null)
 				{
-					r_material = new(this, "material");
-					r_material.SetBelong(this.instance);
+					r_Fmaterial = new(this, "material");
+					r_Fmaterial.SetBelong(this.instance);
 				}
-				return r_material;
+				return r_Fmaterial;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.SpriteAsset spriteAsset
 		/// </summary>
-		protected RUnityEngine.RTextCore.RText.RSpriteAsset r_spriteAsset;
-		public virtual RUnityEngine.RTextCore.RText.RSpriteAsset RspriteAsset
+		protected RUnityEngine.RTextCore.RText.RSpriteAsset r_FspriteAsset;
+		public virtual RUnityEngine.RTextCore.RText.RSpriteAsset RFspriteAsset
 		{
 			get
 			{
-				if(r_spriteAsset == null)
+				if(r_FspriteAsset == null)
 				{
-					r_spriteAsset = new(this, "spriteAsset");
-					r_spriteAsset.SetBelong(this.instance);
+					r_FspriteAsset = new(this, "spriteAsset");
+					r_FspriteAsset.SetBelong(this.instance);
 				}
-				return r_spriteAsset;
+				return r_FspriteAsset;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextStyleSheet styleSheet
 		/// </summary>
-		protected RUnityEngine.RTextCore.RText.RTextStyleSheet r_styleSheet;
-		public virtual RUnityEngine.RTextCore.RText.RTextStyleSheet RstyleSheet
+		protected RUnityEngine.RTextCore.RText.RTextStyleSheet r_FstyleSheet;
+		public virtual RUnityEngine.RTextCore.RText.RTextStyleSheet RFstyleSheet
 		{
 			get
 			{
-				if(r_styleSheet == null)
+				if(r_FstyleSheet == null)
 				{
-					r_styleSheet = new(this, "styleSheet");
-					r_styleSheet.SetBelong(this.instance);
+					r_FstyleSheet = new(this, "styleSheet");
+					r_FstyleSheet.SetBelong(this.instance);
 				}
-				return r_styleSheet;
+				return r_FstyleSheet;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontStyles fontStyle
 		/// </summary>
-		protected RField r_fontStyle;
-		public virtual RField RfontStyle
+		protected RUnityEngine.RTextCore.RText.RFontStyles r_FfontStyle;
+		public virtual RUnityEngine.RTextCore.RText.RFontStyles RFfontStyle
 		{
 			get
 			{
-				if(r_fontStyle == null)
+				if(r_FfontStyle == null)
 				{
-					r_fontStyle = new(this, "fontStyle");
-					r_fontStyle.SetBelong(this.instance);
+					r_FfontStyle = new(this, "fontStyle");
+					r_FfontStyle.SetBelong(this.instance);
 				}
-				return r_fontStyle;
+				return r_FfontStyle;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextSettings textSettings
 		/// </summary>
-		protected RUnityEngine.RTextCore.RText.RTextSettings r_textSettings;
-		public virtual RUnityEngine.RTextCore.RText.RTextSettings RtextSettings
+		protected RUnityEngine.RTextCore.RText.RTextSettings r_FtextSettings;
+		public virtual RUnityEngine.RTextCore.RText.RTextSettings RFtextSettings
 		{
 			get
 			{
-				if(r_textSettings == null)
+				if(r_FtextSettings == null)
 				{
-					r_textSettings = new(this, "textSettings");
-					r_textSettings.SetBelong(this.instance);
+					r_FtextSettings = new(this, "textSettings");
+					r_FtextSettings.SetBelong(this.instance);
 				}
-				return r_textSettings;
+				return r_FtextSettings;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment textAlignment
 		/// </summary>
-		protected RField r_textAlignment;
-		public virtual RField RtextAlignment
+		protected RUnityEngine.RTextCore.RText.RTextAlignment r_FtextAlignment;
+		public virtual RUnityEngine.RTextCore.RText.RTextAlignment RFtextAlignment
 		{
 			get
 			{
-				if(r_textAlignment == null)
+				if(r_FtextAlignment == null)
 				{
-					r_textAlignment = new(this, "textAlignment");
-					r_textAlignment.SetBelong(this.instance);
+					r_FtextAlignment = new(this, "textAlignment");
+					r_FtextAlignment.SetBelong(this.instance);
 				}
-				return r_textAlignment;
+				return r_FtextAlignment;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextOverflowMode overflowMode
 		/// </summary>
-		protected RField r_overflowMode;
-		public virtual RField RoverflowMode
+		protected RUnityEngine.RTextCore.RText.RTextOverflowMode r_FoverflowMode;
+		public virtual RUnityEngine.RTextCore.RText.RTextOverflowMode RFoverflowMode
 		{
 			get
 			{
-				if(r_overflowMode == null)
+				if(r_FoverflowMode == null)
 				{
-					r_overflowMode = new(this, "overflowMode");
-					r_overflowMode.SetBelong(this.instance);
+					r_FoverflowMode = new(this, "overflowMode");
+					r_FoverflowMode.SetBelong(this.instance);
 				}
-				return r_overflowMode;
+				return r_FoverflowMode;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean wordWrap
 		/// </summary>
-		protected RSystem.RBoolean r_wordWrap;
-		public virtual RSystem.RBoolean RwordWrap
+		protected RSystem.RBoolean r_FwordWrap;
+		public virtual RSystem.RBoolean RFwordWrap
 		{
 			get
 			{
-				if(r_wordWrap == null)
+				if(r_FwordWrap == null)
 				{
-					r_wordWrap = new(this, "wordWrap");
-					r_wordWrap.SetBelong(this.instance);
+					r_FwordWrap = new(this, "wordWrap");
+					r_FwordWrap.SetBelong(this.instance);
 				}
-				return r_wordWrap;
+				return r_FwordWrap;
 			}
 		}
 
 		/// <summary>
 		/// System.Single wordWrappingRatio
 		/// </summary>
-		protected RSystem.RSingle r_wordWrappingRatio;
-		public virtual RSystem.RSingle RwordWrappingRatio
+		protected RSystem.RSingle r_FwordWrappingRatio;
+		public virtual RSystem.RSingle RFwordWrappingRatio
 		{
 			get
 			{
-				if(r_wordWrappingRatio == null)
+				if(r_FwordWrappingRatio == null)
 				{
-					r_wordWrappingRatio = new(this, "wordWrappingRatio");
-					r_wordWrappingRatio.SetBelong(this.instance);
+					r_FwordWrappingRatio = new(this, "wordWrappingRatio");
+					r_FwordWrappingRatio.SetBelong(this.instance);
 				}
-				return r_wordWrappingRatio;
+				return r_FwordWrappingRatio;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Color color
 		/// </summary>
-		protected RUnityEngine.RColor r_color;
-		public virtual RUnityEngine.RColor Rcolor
+		protected RUnityEngine.RColor r_Fcolor;
+		public virtual RUnityEngine.RColor RFcolor
 		{
 			get
 			{
-				if(r_color == null)
+				if(r_Fcolor == null)
 				{
-					r_color = new(this, "color");
-					r_color.SetBelong(this.instance);
+					r_Fcolor = new(this, "color");
+					r_Fcolor.SetBelong(this.instance);
 				}
-				return r_color;
+				return r_Fcolor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextColorGradient fontColorGradient
 		/// </summary>
-		protected RUnityEngine.RTextCore.RText.RTextColorGradient r_fontColorGradient;
-		public virtual RUnityEngine.RTextCore.RText.RTextColorGradient RfontColorGradient
+		protected RUnityEngine.RTextCore.RText.RTextColorGradient r_FfontColorGradient;
+		public virtual RUnityEngine.RTextCore.RText.RTextColorGradient RFfontColorGradient
 		{
 			get
 			{
-				if(r_fontColorGradient == null)
+				if(r_FfontColorGradient == null)
 				{
-					r_fontColorGradient = new(this, "fontColorGradient");
-					r_fontColorGradient.SetBelong(this.instance);
+					r_FfontColorGradient = new(this, "fontColorGradient");
+					r_FfontColorGradient.SetBelong(this.instance);
 				}
-				return r_fontColorGradient;
+				return r_FfontColorGradient;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextColorGradient fontColorGradientPreset
 		/// </summary>
-		protected RUnityEngine.RTextCore.RText.RTextColorGradient r_fontColorGradientPreset;
-		public virtual RUnityEngine.RTextCore.RText.RTextColorGradient RfontColorGradientPreset
+		protected RUnityEngine.RTextCore.RText.RTextColorGradient r_FfontColorGradientPreset;
+		public virtual RUnityEngine.RTextCore.RText.RTextColorGradient RFfontColorGradientPreset
 		{
 			get
 			{
-				if(r_fontColorGradientPreset == null)
+				if(r_FfontColorGradientPreset == null)
 				{
-					r_fontColorGradientPreset = new(this, "fontColorGradientPreset");
-					r_fontColorGradientPreset.SetBelong(this.instance);
+					r_FfontColorGradientPreset = new(this, "fontColorGradientPreset");
+					r_FfontColorGradientPreset.SetBelong(this.instance);
 				}
-				return r_fontColorGradientPreset;
+				return r_FfontColorGradientPreset;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean tintSprites
 		/// </summary>
-		protected RSystem.RBoolean r_tintSprites;
-		public virtual RSystem.RBoolean RtintSprites
+		protected RSystem.RBoolean r_FtintSprites;
+		public virtual RSystem.RBoolean RFtintSprites
 		{
 			get
 			{
-				if(r_tintSprites == null)
+				if(r_FtintSprites == null)
 				{
-					r_tintSprites = new(this, "tintSprites");
-					r_tintSprites.SetBelong(this.instance);
+					r_FtintSprites = new(this, "tintSprites");
+					r_FtintSprites.SetBelong(this.instance);
 				}
-				return r_tintSprites;
+				return r_FtintSprites;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean overrideRichTextColors
 		/// </summary>
-		protected RSystem.RBoolean r_overrideRichTextColors;
-		public virtual RSystem.RBoolean RoverrideRichTextColors
+		protected RSystem.RBoolean r_FoverrideRichTextColors;
+		public virtual RSystem.RBoolean RFoverrideRichTextColors
 		{
 			get
 			{
-				if(r_overrideRichTextColors == null)
+				if(r_FoverrideRichTextColors == null)
 				{
-					r_overrideRichTextColors = new(this, "overrideRichTextColors");
-					r_overrideRichTextColors.SetBelong(this.instance);
+					r_FoverrideRichTextColors = new(this, "overrideRichTextColors");
+					r_FoverrideRichTextColors.SetBelong(this.instance);
 				}
-				return r_overrideRichTextColors;
+				return r_FoverrideRichTextColors;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean shouldConvertToLinearSpace
 		/// </summary>
-		protected RSystem.RBoolean r_shouldConvertToLinearSpace;
-		public virtual RSystem.RBoolean RshouldConvertToLinearSpace
+		protected RSystem.RBoolean r_FshouldConvertToLinearSpace;
+		public virtual RSystem.RBoolean RFshouldConvertToLinearSpace
 		{
 			get
 			{
-				if(r_shouldConvertToLinearSpace == null)
+				if(r_FshouldConvertToLinearSpace == null)
 				{
-					r_shouldConvertToLinearSpace = new(this, "shouldConvertToLinearSpace");
-					r_shouldConvertToLinearSpace.SetBelong(this.instance);
+					r_FshouldConvertToLinearSpace = new(this, "shouldConvertToLinearSpace");
+					r_FshouldConvertToLinearSpace.SetBelong(this.instance);
 				}
-				return r_shouldConvertToLinearSpace;
+				return r_FshouldConvertToLinearSpace;
 			}
 		}
 
 		/// <summary>
 		/// System.Single fontSize
 		/// </summary>
-		protected RSystem.RSingle r_fontSize;
-		public virtual RSystem.RSingle RfontSize
+		protected RSystem.RSingle r_FfontSize;
+		public virtual RSystem.RSingle RFfontSize
 		{
 			get
 			{
-				if(r_fontSize == null)
+				if(r_FfontSize == null)
 				{
-					r_fontSize = new(this, "fontSize");
-					r_fontSize.SetBelong(this.instance);
+					r_FfontSize = new(this, "fontSize");
+					r_FfontSize.SetBelong(this.instance);
 				}
-				return r_fontSize;
+				return r_FfontSize;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean autoSize
 		/// </summary>
-		protected RSystem.RBoolean r_autoSize;
-		public virtual RSystem.RBoolean RautoSize
+		protected RSystem.RBoolean r_FautoSize;
+		public virtual RSystem.RBoolean RFautoSize
 		{
 			get
 			{
-				if(r_autoSize == null)
+				if(r_FautoSize == null)
 				{
-					r_autoSize = new(this, "autoSize");
-					r_autoSize.SetBelong(this.instance);
+					r_FautoSize = new(this, "autoSize");
+					r_FautoSize.SetBelong(this.instance);
 				}
-				return r_autoSize;
+				return r_FautoSize;
 			}
 		}
 
 		/// <summary>
 		/// System.Single fontSizeMin
 		/// </summary>
-		protected RSystem.RSingle r_fontSizeMin;
-		public virtual RSystem.RSingle RfontSizeMin
+		protected RSystem.RSingle r_FfontSizeMin;
+		public virtual RSystem.RSingle RFfontSizeMin
 		{
 			get
 			{
-				if(r_fontSizeMin == null)
+				if(r_FfontSizeMin == null)
 				{
-					r_fontSizeMin = new(this, "fontSizeMin");
-					r_fontSizeMin.SetBelong(this.instance);
+					r_FfontSizeMin = new(this, "fontSizeMin");
+					r_FfontSizeMin.SetBelong(this.instance);
 				}
-				return r_fontSizeMin;
+				return r_FfontSizeMin;
 			}
 		}
 
 		/// <summary>
 		/// System.Single fontSizeMax
 		/// </summary>
-		protected RSystem.RSingle r_fontSizeMax;
-		public virtual RSystem.RSingle RfontSizeMax
+		protected RSystem.RSingle r_FfontSizeMax;
+		public virtual RSystem.RSingle RFfontSizeMax
 		{
 			get
 			{
-				if(r_fontSizeMax == null)
+				if(r_FfontSizeMax == null)
 				{
-					r_fontSizeMax = new(this, "fontSizeMax");
-					r_fontSizeMax.SetBelong(this.instance);
+					r_FfontSizeMax = new(this, "fontSizeMax");
+					r_FfontSizeMax.SetBelong(this.instance);
 				}
-				return r_fontSizeMax;
+				return r_FfontSizeMax;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean enableKerning
 		/// </summary>
-		protected RSystem.RBoolean r_enableKerning;
-		public virtual RSystem.RBoolean RenableKerning
+		protected RSystem.RBoolean r_FenableKerning;
+		public virtual RSystem.RBoolean RFenableKerning
 		{
 			get
 			{
-				if(r_enableKerning == null)
+				if(r_FenableKerning == null)
 				{
-					r_enableKerning = new(this, "enableKerning");
-					r_enableKerning.SetBelong(this.instance);
+					r_FenableKerning = new(this, "enableKerning");
+					r_FenableKerning.SetBelong(this.instance);
 				}
-				return r_enableKerning;
+				return r_FenableKerning;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean richText
 		/// </summary>
-		protected RSystem.RBoolean r_richText;
-		public virtual RSystem.RBoolean RrichText
+		protected RSystem.RBoolean r_FrichText;
+		public virtual RSystem.RBoolean RFrichText
 		{
 			get
 			{
-				if(r_richText == null)
+				if(r_FrichText == null)
 				{
-					r_richText = new(this, "richText");
-					r_richText.SetBelong(this.instance);
+					r_FrichText = new(this, "richText");
+					r_FrichText.SetBelong(this.instance);
 				}
-				return r_richText;
+				return r_FrichText;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean isRightToLeft
 		/// </summary>
-		protected RSystem.RBoolean r_isRightToLeft;
-		public virtual RSystem.RBoolean RisRightToLeft
+		protected RSystem.RBoolean r_FisRightToLeft;
+		public virtual RSystem.RBoolean RFisRightToLeft
 		{
 			get
 			{
-				if(r_isRightToLeft == null)
+				if(r_FisRightToLeft == null)
 				{
-					r_isRightToLeft = new(this, "isRightToLeft");
-					r_isRightToLeft.SetBelong(this.instance);
+					r_FisRightToLeft = new(this, "isRightToLeft");
+					r_FisRightToLeft.SetBelong(this.instance);
 				}
-				return r_isRightToLeft;
+				return r_FisRightToLeft;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean extraPadding
 		/// </summary>
-		protected RSystem.RBoolean r_extraPadding;
-		public virtual RSystem.RBoolean RextraPadding
+		protected RSystem.RBoolean r_FextraPadding;
+		public virtual RSystem.RBoolean RFextraPadding
 		{
 			get
 			{
-				if(r_extraPadding == null)
+				if(r_FextraPadding == null)
 				{
-					r_extraPadding = new(this, "extraPadding");
-					r_extraPadding.SetBelong(this.instance);
+					r_FextraPadding = new(this, "extraPadding");
+					r_FextraPadding.SetBelong(this.instance);
 				}
-				return r_extraPadding;
+				return r_FextraPadding;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean parseControlCharacters
 		/// </summary>
-		protected RSystem.RBoolean r_parseControlCharacters;
-		public virtual RSystem.RBoolean RparseControlCharacters
+		protected RSystem.RBoolean r_FparseControlCharacters;
+		public virtual RSystem.RBoolean RFparseControlCharacters
 		{
 			get
 			{
-				if(r_parseControlCharacters == null)
+				if(r_FparseControlCharacters == null)
 				{
-					r_parseControlCharacters = new(this, "parseControlCharacters");
-					r_parseControlCharacters.SetBelong(this.instance);
+					r_FparseControlCharacters = new(this, "parseControlCharacters");
+					r_FparseControlCharacters.SetBelong(this.instance);
 				}
-				return r_parseControlCharacters;
+				return r_FparseControlCharacters;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean isOrthographic
 		/// </summary>
-		protected RSystem.RBoolean r_isOrthographic;
-		public virtual RSystem.RBoolean RisOrthographic
+		protected RSystem.RBoolean r_FisOrthographic;
+		public virtual RSystem.RBoolean RFisOrthographic
 		{
 			get
 			{
-				if(r_isOrthographic == null)
+				if(r_FisOrthographic == null)
 				{
-					r_isOrthographic = new(this, "isOrthographic");
-					r_isOrthographic.SetBelong(this.instance);
+					r_FisOrthographic = new(this, "isOrthographic");
+					r_FisOrthographic.SetBelong(this.instance);
 				}
-				return r_isOrthographic;
+				return r_FisOrthographic;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean tagNoParsing
 		/// </summary>
-		protected RSystem.RBoolean r_tagNoParsing;
-		public virtual RSystem.RBoolean RtagNoParsing
+		protected RSystem.RBoolean r_FtagNoParsing;
+		public virtual RSystem.RBoolean RFtagNoParsing
 		{
 			get
 			{
-				if(r_tagNoParsing == null)
+				if(r_FtagNoParsing == null)
 				{
-					r_tagNoParsing = new(this, "tagNoParsing");
-					r_tagNoParsing.SetBelong(this.instance);
+					r_FtagNoParsing = new(this, "tagNoParsing");
+					r_FtagNoParsing.SetBelong(this.instance);
 				}
-				return r_tagNoParsing;
+				return r_FtagNoParsing;
 			}
 		}
 
 		/// <summary>
 		/// System.Single characterSpacing
 		/// </summary>
-		protected RSystem.RSingle r_characterSpacing;
-		public virtual RSystem.RSingle RcharacterSpacing
+		protected RSystem.RSingle r_FcharacterSpacing;
+		public virtual RSystem.RSingle RFcharacterSpacing
 		{
 			get
 			{
-				if(r_characterSpacing == null)
+				if(r_FcharacterSpacing == null)
 				{
-					r_characterSpacing = new(this, "characterSpacing");
-					r_characterSpacing.SetBelong(this.instance);
+					r_FcharacterSpacing = new(this, "characterSpacing");
+					r_FcharacterSpacing.SetBelong(this.instance);
 				}
-				return r_characterSpacing;
+				return r_FcharacterSpacing;
 			}
 		}
 
 		/// <summary>
 		/// System.Single wordSpacing
 		/// </summary>
-		protected RSystem.RSingle r_wordSpacing;
-		public virtual RSystem.RSingle RwordSpacing
+		protected RSystem.RSingle r_FwordSpacing;
+		public virtual RSystem.RSingle RFwordSpacing
 		{
 			get
 			{
-				if(r_wordSpacing == null)
+				if(r_FwordSpacing == null)
 				{
-					r_wordSpacing = new(this, "wordSpacing");
-					r_wordSpacing.SetBelong(this.instance);
+					r_FwordSpacing = new(this, "wordSpacing");
+					r_FwordSpacing.SetBelong(this.instance);
 				}
-				return r_wordSpacing;
+				return r_FwordSpacing;
 			}
 		}
 
 		/// <summary>
 		/// System.Single lineSpacing
 		/// </summary>
-		protected RSystem.RSingle r_lineSpacing;
-		public virtual RSystem.RSingle RlineSpacing
+		protected RSystem.RSingle r_FlineSpacing;
+		public virtual RSystem.RSingle RFlineSpacing
 		{
 			get
 			{
-				if(r_lineSpacing == null)
+				if(r_FlineSpacing == null)
 				{
-					r_lineSpacing = new(this, "lineSpacing");
-					r_lineSpacing.SetBelong(this.instance);
+					r_FlineSpacing = new(this, "lineSpacing");
+					r_FlineSpacing.SetBelong(this.instance);
 				}
-				return r_lineSpacing;
+				return r_FlineSpacing;
 			}
 		}
 
 		/// <summary>
 		/// System.Single paragraphSpacing
 		/// </summary>
-		protected RSystem.RSingle r_paragraphSpacing;
-		public virtual RSystem.RSingle RparagraphSpacing
+		protected RSystem.RSingle r_FparagraphSpacing;
+		public virtual RSystem.RSingle RFparagraphSpacing
 		{
 			get
 			{
-				if(r_paragraphSpacing == null)
+				if(r_FparagraphSpacing == null)
 				{
-					r_paragraphSpacing = new(this, "paragraphSpacing");
-					r_paragraphSpacing.SetBelong(this.instance);
+					r_FparagraphSpacing = new(this, "paragraphSpacing");
+					r_FparagraphSpacing.SetBelong(this.instance);
 				}
-				return r_paragraphSpacing;
+				return r_FparagraphSpacing;
 			}
 		}
 
 		/// <summary>
 		/// System.Single lineSpacingMax
 		/// </summary>
-		protected RSystem.RSingle r_lineSpacingMax;
-		public virtual RSystem.RSingle RlineSpacingMax
+		protected RSystem.RSingle r_FlineSpacingMax;
+		public virtual RSystem.RSingle RFlineSpacingMax
 		{
 			get
 			{
-				if(r_lineSpacingMax == null)
+				if(r_FlineSpacingMax == null)
 				{
-					r_lineSpacingMax = new(this, "lineSpacingMax");
-					r_lineSpacingMax.SetBelong(this.instance);
+					r_FlineSpacingMax = new(this, "lineSpacingMax");
+					r_FlineSpacingMax.SetBelong(this.instance);
 				}
-				return r_lineSpacingMax;
+				return r_FlineSpacingMax;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextWrappingMode textWrappingMode
 		/// </summary>
-		protected RField r_textWrappingMode;
-		public virtual RField RtextWrappingMode
+		protected RUnityEngine.RTextCore.RText.RTextWrappingMode r_FtextWrappingMode;
+		public virtual RUnityEngine.RTextCore.RText.RTextWrappingMode RFtextWrappingMode
 		{
 			get
 			{
-				if(r_textWrappingMode == null)
+				if(r_FtextWrappingMode == null)
 				{
-					r_textWrappingMode = new(this, "textWrappingMode");
-					r_textWrappingMode.SetBelong(this.instance);
+					r_FtextWrappingMode = new(this, "textWrappingMode");
+					r_FtextWrappingMode.SetBelong(this.instance);
 				}
-				return r_textWrappingMode;
+				return r_FtextWrappingMode;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 maxVisibleCharacters
 		/// </summary>
-		protected RSystem.RInt32 r_maxVisibleCharacters;
-		public virtual RSystem.RInt32 RmaxVisibleCharacters
+		protected RSystem.RInt32 r_FmaxVisibleCharacters;
+		public virtual RSystem.RInt32 RFmaxVisibleCharacters
 		{
 			get
 			{
-				if(r_maxVisibleCharacters == null)
+				if(r_FmaxVisibleCharacters == null)
 				{
-					r_maxVisibleCharacters = new(this, "maxVisibleCharacters");
-					r_maxVisibleCharacters.SetBelong(this.instance);
+					r_FmaxVisibleCharacters = new(this, "maxVisibleCharacters");
+					r_FmaxVisibleCharacters.SetBelong(this.instance);
 				}
-				return r_maxVisibleCharacters;
+				return r_FmaxVisibleCharacters;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 maxVisibleWords
 		/// </summary>
-		protected RSystem.RInt32 r_maxVisibleWords;
-		public virtual RSystem.RInt32 RmaxVisibleWords
+		protected RSystem.RInt32 r_FmaxVisibleWords;
+		public virtual RSystem.RInt32 RFmaxVisibleWords
 		{
 			get
 			{
-				if(r_maxVisibleWords == null)
+				if(r_FmaxVisibleWords == null)
 				{
-					r_maxVisibleWords = new(this, "maxVisibleWords");
-					r_maxVisibleWords.SetBelong(this.instance);
+					r_FmaxVisibleWords = new(this, "maxVisibleWords");
+					r_FmaxVisibleWords.SetBelong(this.instance);
 				}
-				return r_maxVisibleWords;
+				return r_FmaxVisibleWords;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 maxVisibleLines
 		/// </summary>
-		protected RSystem.RInt32 r_maxVisibleLines;
-		public virtual RSystem.RInt32 RmaxVisibleLines
+		protected RSystem.RInt32 r_FmaxVisibleLines;
+		public virtual RSystem.RInt32 RFmaxVisibleLines
 		{
 			get
 			{
-				if(r_maxVisibleLines == null)
+				if(r_FmaxVisibleLines == null)
 				{
-					r_maxVisibleLines = new(this, "maxVisibleLines");
-					r_maxVisibleLines.SetBelong(this.instance);
+					r_FmaxVisibleLines = new(this, "maxVisibleLines");
+					r_FmaxVisibleLines.SetBelong(this.instance);
 				}
-				return r_maxVisibleLines;
+				return r_FmaxVisibleLines;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 firstVisibleCharacter
 		/// </summary>
-		protected RSystem.RInt32 r_firstVisibleCharacter;
-		public virtual RSystem.RInt32 RfirstVisibleCharacter
+		protected RSystem.RInt32 r_FfirstVisibleCharacter;
+		public virtual RSystem.RInt32 RFfirstVisibleCharacter
 		{
 			get
 			{
-				if(r_firstVisibleCharacter == null)
+				if(r_FfirstVisibleCharacter == null)
 				{
-					r_firstVisibleCharacter = new(this, "firstVisibleCharacter");
-					r_firstVisibleCharacter.SetBelong(this.instance);
+					r_FfirstVisibleCharacter = new(this, "firstVisibleCharacter");
+					r_FfirstVisibleCharacter.SetBelong(this.instance);
 				}
-				return r_firstVisibleCharacter;
+				return r_FfirstVisibleCharacter;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean useMaxVisibleDescender
 		/// </summary>
-		protected RSystem.RBoolean r_useMaxVisibleDescender;
-		public virtual RSystem.RBoolean RuseMaxVisibleDescender
+		protected RSystem.RBoolean r_FuseMaxVisibleDescender;
+		public virtual RSystem.RBoolean RFuseMaxVisibleDescender
 		{
 			get
 			{
-				if(r_useMaxVisibleDescender == null)
+				if(r_FuseMaxVisibleDescender == null)
 				{
-					r_useMaxVisibleDescender = new(this, "useMaxVisibleDescender");
-					r_useMaxVisibleDescender.SetBelong(this.instance);
+					r_FuseMaxVisibleDescender = new(this, "useMaxVisibleDescender");
+					r_FuseMaxVisibleDescender.SetBelong(this.instance);
 				}
-				return r_useMaxVisibleDescender;
+				return r_FuseMaxVisibleDescender;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextFontWeight fontWeight
 		/// </summary>
-		protected RField r_fontWeight;
-		public virtual RField RfontWeight
+		protected RUnityEngine.RTextCore.RText.RTextFontWeight r_FfontWeight;
+		public virtual RUnityEngine.RTextCore.RText.RTextFontWeight RFfontWeight
 		{
 			get
 			{
-				if(r_fontWeight == null)
+				if(r_FfontWeight == null)
 				{
-					r_fontWeight = new(this, "fontWeight");
-					r_fontWeight.SetBelong(this.instance);
+					r_FfontWeight = new(this, "fontWeight");
+					r_FfontWeight.SetBelong(this.instance);
 				}
-				return r_fontWeight;
+				return r_FfontWeight;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 pageToDisplay
 		/// </summary>
-		protected RSystem.RInt32 r_pageToDisplay;
-		public virtual RSystem.RInt32 RpageToDisplay
+		protected RSystem.RInt32 r_FpageToDisplay;
+		public virtual RSystem.RInt32 RFpageToDisplay
 		{
 			get
 			{
-				if(r_pageToDisplay == null)
+				if(r_FpageToDisplay == null)
 				{
-					r_pageToDisplay = new(this, "pageToDisplay");
-					r_pageToDisplay.SetBelong(this.instance);
+					r_FpageToDisplay = new(this, "pageToDisplay");
+					r_FpageToDisplay.SetBelong(this.instance);
 				}
-				return r_pageToDisplay;
+				return r_FpageToDisplay;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextureMapping horizontalMapping
 		/// </summary>
-		protected RField r_horizontalMapping;
-		public virtual RField RhorizontalMapping
+		protected RUnityEngine.RTextCore.RText.RTextureMapping r_FhorizontalMapping;
+		public virtual RUnityEngine.RTextCore.RText.RTextureMapping RFhorizontalMapping
 		{
 			get
 			{
-				if(r_horizontalMapping == null)
+				if(r_FhorizontalMapping == null)
 				{
-					r_horizontalMapping = new(this, "horizontalMapping");
-					r_horizontalMapping.SetBelong(this.instance);
+					r_FhorizontalMapping = new(this, "horizontalMapping");
+					r_FhorizontalMapping.SetBelong(this.instance);
 				}
-				return r_horizontalMapping;
+				return r_FhorizontalMapping;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextureMapping verticalMapping
 		/// </summary>
-		protected RField r_verticalMapping;
-		public virtual RField RverticalMapping
+		protected RUnityEngine.RTextCore.RText.RTextureMapping r_FverticalMapping;
+		public virtual RUnityEngine.RTextCore.RText.RTextureMapping RFverticalMapping
 		{
 			get
 			{
-				if(r_verticalMapping == null)
+				if(r_FverticalMapping == null)
 				{
-					r_verticalMapping = new(this, "verticalMapping");
-					r_verticalMapping.SetBelong(this.instance);
+					r_FverticalMapping = new(this, "verticalMapping");
+					r_FverticalMapping.SetBelong(this.instance);
 				}
-				return r_verticalMapping;
+				return r_FverticalMapping;
 			}
 		}
 
 		/// <summary>
 		/// System.Single uvLineOffset
 		/// </summary>
-		protected RSystem.RSingle r_uvLineOffset;
-		public virtual RSystem.RSingle RuvLineOffset
+		protected RSystem.RSingle r_FuvLineOffset;
+		public virtual RSystem.RSingle RFuvLineOffset
 		{
 			get
 			{
-				if(r_uvLineOffset == null)
+				if(r_FuvLineOffset == null)
 				{
-					r_uvLineOffset = new(this, "uvLineOffset");
-					r_uvLineOffset.SetBelong(this.instance);
+					r_FuvLineOffset = new(this, "uvLineOffset");
+					r_FuvLineOffset.SetBelong(this.instance);
 				}
-				return r_uvLineOffset;
+				return r_FuvLineOffset;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.VertexSortingOrder geometrySortingOrder
 		/// </summary>
-		protected RField r_geometrySortingOrder;
-		public virtual RField RgeometrySortingOrder
+		protected RUnityEngine.RTextCore.RText.RVertexSortingOrder r_FgeometrySortingOrder;
+		public virtual RUnityEngine.RTextCore.RText.RVertexSortingOrder RFgeometrySortingOrder
 		{
 			get
 			{
-				if(r_geometrySortingOrder == null)
+				if(r_FgeometrySortingOrder == null)
 				{
-					r_geometrySortingOrder = new(this, "geometrySortingOrder");
-					r_geometrySortingOrder.SetBelong(this.instance);
+					r_FgeometrySortingOrder = new(this, "geometrySortingOrder");
+					r_FgeometrySortingOrder.SetBelong(this.instance);
 				}
-				return r_geometrySortingOrder;
+				return r_FgeometrySortingOrder;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean inverseYAxis
 		/// </summary>
-		protected RSystem.RBoolean r_inverseYAxis;
-		public virtual RSystem.RBoolean RinverseYAxis
+		protected RSystem.RBoolean r_FinverseYAxis;
+		public virtual RSystem.RBoolean RFinverseYAxis
 		{
 			get
 			{
-				if(r_inverseYAxis == null)
+				if(r_FinverseYAxis == null)
 				{
-					r_inverseYAxis = new(this, "inverseYAxis");
-					r_inverseYAxis.SetBelong(this.instance);
+					r_FinverseYAxis = new(this, "inverseYAxis");
+					r_FinverseYAxis.SetBelong(this.instance);
 				}
-				return r_inverseYAxis;
+				return r_FinverseYAxis;
 			}
 		}
 
 		/// <summary>
 		/// System.Single charWidthMaxAdj
 		/// </summary>
-		protected RSystem.RSingle r_charWidthMaxAdj;
-		public virtual RSystem.RSingle RcharWidthMaxAdj
+		protected RSystem.RSingle r_FcharWidthMaxAdj;
+		public virtual RSystem.RSingle RFcharWidthMaxAdj
 		{
 			get
 			{
-				if(r_charWidthMaxAdj == null)
+				if(r_FcharWidthMaxAdj == null)
 				{
-					r_charWidthMaxAdj = new(this, "charWidthMaxAdj");
-					r_charWidthMaxAdj.SetBelong(this.instance);
+					r_FcharWidthMaxAdj = new(this, "charWidthMaxAdj");
+					r_FcharWidthMaxAdj.SetBelong(this.instance);
 				}
-				return r_charWidthMaxAdj;
+				return r_FcharWidthMaxAdj;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextInputSource inputSource
 		/// </summary>
-		protected RField r_inputSource;
-		public virtual RField RinputSource
+		protected RUnityEngine.RTextCore.RText.RTextInputSource r_FinputSource;
+		public virtual RUnityEngine.RTextCore.RText.RTextInputSource RFinputSource
 		{
 			get
 			{
-				if(r_inputSource == null)
+				if(r_FinputSource == null)
 				{
-					r_inputSource = new(this, "inputSource");
-					r_inputSource.SetBelong(this.instance);
+					r_FinputSource = new(this, "inputSource");
+					r_FinputSource.SetBelong(this.instance);
 				}
-				return r_inputSource;
+				return r_FinputSource;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(UnityEngine.TextCore.Text.TextGenerationSettings)
 		/// </summary>
-		protected RMethod r_Equals_TextGenerationSettings;
-		public virtual RMethod REquals_TextGenerationSettings
+		protected RMethod r_MEquals_TextGenerationSettings;
+		public virtual RMethod RMEquals_TextGenerationSettings
 		{
 			get
 			{
-				if(r_Equals_TextGenerationSettings == null)
+				if(r_MEquals_TextGenerationSettings == null)
 				{
-					r_Equals_TextGenerationSettings = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
-					r_Equals_TextGenerationSettings.SetBelong(this.instance);
+					r_MEquals_TextGenerationSettings = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_MEquals_TextGenerationSettings.SetBelong(this.instance);
 				}
-				return r_Equals_TextGenerationSettings;
+				return r_MEquals_TextGenerationSettings;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(UnityEngine.TextCore.Text.TextGenerationSettings, UnityEngine.TextCore.Text.TextGenerationSettings)
 		/// </summary>
-		protected static RMethod r_op_Equality_TextGenerationSettings_TextGenerationSettings;
-		public static RMethod Rop_Equality_TextGenerationSettings_TextGenerationSettings
+		protected static RMethod r_Mop_Equality_TextGenerationSettings_TextGenerationSettings;
+		public static RMethod RMop_Equality_TextGenerationSettings_TextGenerationSettings
 		{
 			get
 			{
-				if(r_op_Equality_TextGenerationSettings_TextGenerationSettings == null)
+				if(r_Mop_Equality_TextGenerationSettings_TextGenerationSettings == null)
 				{
-					r_op_Equality_TextGenerationSettings_TextGenerationSettings = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
-					r_op_Equality_TextGenerationSettings_TextGenerationSettings.SetBelong(null);
+					r_Mop_Equality_TextGenerationSettings_TextGenerationSettings = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_Mop_Equality_TextGenerationSettings_TextGenerationSettings.SetBelong(null);
 				}
-				return r_op_Equality_TextGenerationSettings_TextGenerationSettings;
+				return r_Mop_Equality_TextGenerationSettings_TextGenerationSettings;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(UnityEngine.TextCore.Text.TextGenerationSettings, UnityEngine.TextCore.Text.TextGenerationSettings)
 		/// </summary>
-		protected static RMethod r_op_Inequality_TextGenerationSettings_TextGenerationSettings;
-		public static RMethod Rop_Inequality_TextGenerationSettings_TextGenerationSettings
+		protected static RMethod r_Mop_Inequality_TextGenerationSettings_TextGenerationSettings;
+		public static RMethod RMop_Inequality_TextGenerationSettings_TextGenerationSettings
 		{
 			get
 			{
-				if(r_op_Inequality_TextGenerationSettings_TextGenerationSettings == null)
+				if(r_Mop_Inequality_TextGenerationSettings_TextGenerationSettings == null)
 				{
-					r_op_Inequality_TextGenerationSettings_TextGenerationSettings = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
-					r_op_Inequality_TextGenerationSettings_TextGenerationSettings.SetBelong(null);
+					r_Mop_Inequality_TextGenerationSettings_TextGenerationSettings = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_Mop_Inequality_TextGenerationSettings_TextGenerationSettings.SetBelong(null);
 				}
-				return r_op_Inequality_TextGenerationSettings_TextGenerationSettings;
+				return r_Mop_Inequality_TextGenerationSettings_TextGenerationSettings;
 			}
 		}
 
 		/// <summary>
 		/// Void Copy(UnityEngine.TextCore.Text.TextGenerationSettings)
 		/// </summary>
-		protected RMethod r_Copy_TextGenerationSettings;
-		public virtual RMethod RCopy_TextGenerationSettings
+		protected RMethod r_MCopy_TextGenerationSettings;
+		public virtual RMethod RMCopy_TextGenerationSettings
 		{
 			get
 			{
-				if(r_Copy_TextGenerationSettings == null)
+				if(r_MCopy_TextGenerationSettings == null)
 				{
-					r_Copy_TextGenerationSettings = new(this, "Copy", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
-					r_Copy_TextGenerationSettings.SetBelong(this.instance);
+					r_MCopy_TextGenerationSettings = new(this, "Copy", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_MCopy_TextGenerationSettings.SetBelong(this.instance);
 				}
-				return r_Copy_TextGenerationSettings;
+				return r_MCopy_TextGenerationSettings;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -1070,7 +1070,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other.Value};
-            var ___result = REquals_TextGenerationSettings.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_TextGenerationSettings.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1081,7 +1081,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1092,7 +1092,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1103,7 +1103,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@left.Value, @right.Value};
-            var ___result = Rop_Equality_TextGenerationSettings_TextGenerationSettings.Invoke(___genericsType, ___parameters);
+            var ___result = RMop_Equality_TextGenerationSettings_TextGenerationSettings.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1114,7 +1114,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@left.Value, @right.Value};
-            var ___result = Rop_Inequality_TextGenerationSettings_TextGenerationSettings.Invoke(___genericsType, ___parameters);
+            var ___result = RMop_Inequality_TextGenerationSettings_TextGenerationSettings.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1125,7 +1125,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other.Value};
-            var ___result = RCopy_TextGenerationSettings.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopy_TextGenerationSettings.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1136,7 +1136,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1147,7 +1147,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -1158,7 +1158,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -1169,7 +1169,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

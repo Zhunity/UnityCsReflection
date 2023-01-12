@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Object[] ChannelData
 		/// </summary>
-		protected RPropertyArray<RSystem.RObject> r_ChannelData;
-		public virtual RPropertyArray<RSystem.RObject> RChannelData
+		protected RPropertyArray<RSystem.RObject> r_PChannelData;
+		public virtual RPropertyArray<RSystem.RObject> RPChannelData
 		{
 			get
 			{
-				if(r_ChannelData == null)
+				if(r_PChannelData == null)
 				{
-					r_ChannelData = new(this, "ChannelData", -1);
-					r_ChannelData.SetBelong(this.instance);
+					r_PChannelData = new(this, "ChannelData", -1);
+					r_PChannelData.SetBelong(this.instance);
 				}
-				return r_ChannelData;
+				return r_PChannelData;
 			}
 		}
 

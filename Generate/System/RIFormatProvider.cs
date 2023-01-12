@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Object GetFormat(System.Type)
 		/// </summary>
-		protected RMethod r_GetFormat_Type;
-		public virtual RMethod RGetFormat_Type
+		protected RMethod r_MGetFormat_Type;
+		public virtual RMethod RMGetFormat_Type
 		{
 			get
 			{
-				if(r_GetFormat_Type == null)
+				if(r_MGetFormat_Type == null)
 				{
-					r_GetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
-					r_GetFormat_Type.SetBelong(this.instance);
+					r_MGetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
+					r_MGetFormat_Type.SetBelong(this.instance);
 				}
-				return r_GetFormat_Type;
+				return r_MGetFormat_Type;
 			}
 		}
 
@@ -50,7 +50,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@formatType};
-            var ___result = RGetFormat_Type.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetFormat_Type.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

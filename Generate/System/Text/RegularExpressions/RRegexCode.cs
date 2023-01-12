@@ -13,1105 +13,1105 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Onerep
 		/// </summary>
-		protected static RSystem.RInt32 r_Onerep;
-		public static RSystem.RInt32 ROnerep
+		protected static RSystem.RInt32 r_FOnerep;
+		public static RSystem.RInt32 RFOnerep
 		{
 			get
 			{
-				if(r_Onerep == null)
+				if(r_FOnerep == null)
 				{
-					r_Onerep = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Onerep");
-					r_Onerep.SetBelong(null);
+					r_FOnerep = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Onerep");
+					r_FOnerep.SetBelong(null);
 				}
-				return r_Onerep;
+				return r_FOnerep;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Notonerep
 		/// </summary>
-		protected static RSystem.RInt32 r_Notonerep;
-		public static RSystem.RInt32 RNotonerep
+		protected static RSystem.RInt32 r_FNotonerep;
+		public static RSystem.RInt32 RFNotonerep
 		{
 			get
 			{
-				if(r_Notonerep == null)
+				if(r_FNotonerep == null)
 				{
-					r_Notonerep = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notonerep");
-					r_Notonerep.SetBelong(null);
+					r_FNotonerep = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notonerep");
+					r_FNotonerep.SetBelong(null);
 				}
-				return r_Notonerep;
+				return r_FNotonerep;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Setrep
 		/// </summary>
-		protected static RSystem.RInt32 r_Setrep;
-		public static RSystem.RInt32 RSetrep
+		protected static RSystem.RInt32 r_FSetrep;
+		public static RSystem.RInt32 RFSetrep
 		{
 			get
 			{
-				if(r_Setrep == null)
+				if(r_FSetrep == null)
 				{
-					r_Setrep = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setrep");
-					r_Setrep.SetBelong(null);
+					r_FSetrep = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setrep");
+					r_FSetrep.SetBelong(null);
 				}
-				return r_Setrep;
+				return r_FSetrep;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Oneloop
 		/// </summary>
-		protected static RSystem.RInt32 r_Oneloop;
-		public static RSystem.RInt32 ROneloop
+		protected static RSystem.RInt32 r_FOneloop;
+		public static RSystem.RInt32 RFOneloop
 		{
 			get
 			{
-				if(r_Oneloop == null)
+				if(r_FOneloop == null)
 				{
-					r_Oneloop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Oneloop");
-					r_Oneloop.SetBelong(null);
+					r_FOneloop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Oneloop");
+					r_FOneloop.SetBelong(null);
 				}
-				return r_Oneloop;
+				return r_FOneloop;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Notoneloop
 		/// </summary>
-		protected static RSystem.RInt32 r_Notoneloop;
-		public static RSystem.RInt32 RNotoneloop
+		protected static RSystem.RInt32 r_FNotoneloop;
+		public static RSystem.RInt32 RFNotoneloop
 		{
 			get
 			{
-				if(r_Notoneloop == null)
+				if(r_FNotoneloop == null)
 				{
-					r_Notoneloop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notoneloop");
-					r_Notoneloop.SetBelong(null);
+					r_FNotoneloop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notoneloop");
+					r_FNotoneloop.SetBelong(null);
 				}
-				return r_Notoneloop;
+				return r_FNotoneloop;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Setloop
 		/// </summary>
-		protected static RSystem.RInt32 r_Setloop;
-		public static RSystem.RInt32 RSetloop
+		protected static RSystem.RInt32 r_FSetloop;
+		public static RSystem.RInt32 RFSetloop
 		{
 			get
 			{
-				if(r_Setloop == null)
+				if(r_FSetloop == null)
 				{
-					r_Setloop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setloop");
-					r_Setloop.SetBelong(null);
+					r_FSetloop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setloop");
+					r_FSetloop.SetBelong(null);
 				}
-				return r_Setloop;
+				return r_FSetloop;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Onelazy
 		/// </summary>
-		protected static RSystem.RInt32 r_Onelazy;
-		public static RSystem.RInt32 ROnelazy
+		protected static RSystem.RInt32 r_FOnelazy;
+		public static RSystem.RInt32 RFOnelazy
 		{
 			get
 			{
-				if(r_Onelazy == null)
+				if(r_FOnelazy == null)
 				{
-					r_Onelazy = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Onelazy");
-					r_Onelazy.SetBelong(null);
+					r_FOnelazy = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Onelazy");
+					r_FOnelazy.SetBelong(null);
 				}
-				return r_Onelazy;
+				return r_FOnelazy;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Notonelazy
 		/// </summary>
-		protected static RSystem.RInt32 r_Notonelazy;
-		public static RSystem.RInt32 RNotonelazy
+		protected static RSystem.RInt32 r_FNotonelazy;
+		public static RSystem.RInt32 RFNotonelazy
 		{
 			get
 			{
-				if(r_Notonelazy == null)
+				if(r_FNotonelazy == null)
 				{
-					r_Notonelazy = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notonelazy");
-					r_Notonelazy.SetBelong(null);
+					r_FNotonelazy = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notonelazy");
+					r_FNotonelazy.SetBelong(null);
 				}
-				return r_Notonelazy;
+				return r_FNotonelazy;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Setlazy
 		/// </summary>
-		protected static RSystem.RInt32 r_Setlazy;
-		public static RSystem.RInt32 RSetlazy
+		protected static RSystem.RInt32 r_FSetlazy;
+		public static RSystem.RInt32 RFSetlazy
 		{
 			get
 			{
-				if(r_Setlazy == null)
+				if(r_FSetlazy == null)
 				{
-					r_Setlazy = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setlazy");
-					r_Setlazy.SetBelong(null);
+					r_FSetlazy = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setlazy");
+					r_FSetlazy.SetBelong(null);
 				}
-				return r_Setlazy;
+				return r_FSetlazy;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 One
 		/// </summary>
-		protected static RSystem.RInt32 r_One;
-		public static RSystem.RInt32 ROne
+		protected static RSystem.RInt32 r_FOne;
+		public static RSystem.RInt32 RFOne
 		{
 			get
 			{
-				if(r_One == null)
+				if(r_FOne == null)
 				{
-					r_One = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "One");
-					r_One.SetBelong(null);
+					r_FOne = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "One");
+					r_FOne.SetBelong(null);
 				}
-				return r_One;
+				return r_FOne;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Notone
 		/// </summary>
-		protected static RSystem.RInt32 r_Notone;
-		public static RSystem.RInt32 RNotone
+		protected static RSystem.RInt32 r_FNotone;
+		public static RSystem.RInt32 RFNotone
 		{
 			get
 			{
-				if(r_Notone == null)
+				if(r_FNotone == null)
 				{
-					r_Notone = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notone");
-					r_Notone.SetBelong(null);
+					r_FNotone = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notone");
+					r_FNotone.SetBelong(null);
 				}
-				return r_Notone;
+				return r_FNotone;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Set
 		/// </summary>
-		protected static RSystem.RInt32 r_Set;
-		public static RSystem.RInt32 RSet
+		protected static RSystem.RInt32 r_FSet;
+		public static RSystem.RInt32 RFSet
 		{
 			get
 			{
-				if(r_Set == null)
+				if(r_FSet == null)
 				{
-					r_Set = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Set");
-					r_Set.SetBelong(null);
+					r_FSet = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Set");
+					r_FSet.SetBelong(null);
 				}
-				return r_Set;
+				return r_FSet;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Multi
 		/// </summary>
-		protected static RSystem.RInt32 r_Multi;
-		public static RSystem.RInt32 RMulti
+		protected static RSystem.RInt32 r_FMulti;
+		public static RSystem.RInt32 RFMulti
 		{
 			get
 			{
-				if(r_Multi == null)
+				if(r_FMulti == null)
 				{
-					r_Multi = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Multi");
-					r_Multi.SetBelong(null);
+					r_FMulti = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Multi");
+					r_FMulti.SetBelong(null);
 				}
-				return r_Multi;
+				return r_FMulti;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Ref
 		/// </summary>
-		protected static RSystem.RInt32 r_Ref;
-		public static RSystem.RInt32 RRef
+		protected static RSystem.RInt32 r_FRef;
+		public static RSystem.RInt32 RFRef
 		{
 			get
 			{
-				if(r_Ref == null)
+				if(r_FRef == null)
 				{
-					r_Ref = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Ref");
-					r_Ref.SetBelong(null);
+					r_FRef = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Ref");
+					r_FRef.SetBelong(null);
 				}
-				return r_Ref;
+				return r_FRef;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Bol
 		/// </summary>
-		protected static RSystem.RInt32 r_Bol;
-		public static RSystem.RInt32 RBol
+		protected static RSystem.RInt32 r_FBol;
+		public static RSystem.RInt32 RFBol
 		{
 			get
 			{
-				if(r_Bol == null)
+				if(r_FBol == null)
 				{
-					r_Bol = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Bol");
-					r_Bol.SetBelong(null);
+					r_FBol = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Bol");
+					r_FBol.SetBelong(null);
 				}
-				return r_Bol;
+				return r_FBol;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Eol
 		/// </summary>
-		protected static RSystem.RInt32 r_Eol;
-		public static RSystem.RInt32 REol
+		protected static RSystem.RInt32 r_FEol;
+		public static RSystem.RInt32 RFEol
 		{
 			get
 			{
-				if(r_Eol == null)
+				if(r_FEol == null)
 				{
-					r_Eol = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Eol");
-					r_Eol.SetBelong(null);
+					r_FEol = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Eol");
+					r_FEol.SetBelong(null);
 				}
-				return r_Eol;
+				return r_FEol;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Boundary
 		/// </summary>
-		protected static RSystem.RInt32 r_Boundary;
-		public static RSystem.RInt32 RBoundary
+		protected static RSystem.RInt32 r_FBoundary;
+		public static RSystem.RInt32 RFBoundary
 		{
 			get
 			{
-				if(r_Boundary == null)
+				if(r_FBoundary == null)
 				{
-					r_Boundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Boundary");
-					r_Boundary.SetBelong(null);
+					r_FBoundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Boundary");
+					r_FBoundary.SetBelong(null);
 				}
-				return r_Boundary;
+				return r_FBoundary;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Nonboundary
 		/// </summary>
-		protected static RSystem.RInt32 r_Nonboundary;
-		public static RSystem.RInt32 RNonboundary
+		protected static RSystem.RInt32 r_FNonboundary;
+		public static RSystem.RInt32 RFNonboundary
 		{
 			get
 			{
-				if(r_Nonboundary == null)
+				if(r_FNonboundary == null)
 				{
-					r_Nonboundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nonboundary");
-					r_Nonboundary.SetBelong(null);
+					r_FNonboundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nonboundary");
+					r_FNonboundary.SetBelong(null);
 				}
-				return r_Nonboundary;
+				return r_FNonboundary;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Beginning
 		/// </summary>
-		protected static RSystem.RInt32 r_Beginning;
-		public static RSystem.RInt32 RBeginning
+		protected static RSystem.RInt32 r_FBeginning;
+		public static RSystem.RInt32 RFBeginning
 		{
 			get
 			{
-				if(r_Beginning == null)
+				if(r_FBeginning == null)
 				{
-					r_Beginning = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Beginning");
-					r_Beginning.SetBelong(null);
+					r_FBeginning = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Beginning");
+					r_FBeginning.SetBelong(null);
 				}
-				return r_Beginning;
+				return r_FBeginning;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Start
 		/// </summary>
-		protected static RSystem.RInt32 r_Start;
-		public static RSystem.RInt32 RStart
+		protected static RSystem.RInt32 r_FStart;
+		public static RSystem.RInt32 RFStart
 		{
 			get
 			{
-				if(r_Start == null)
+				if(r_FStart == null)
 				{
-					r_Start = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Start");
-					r_Start.SetBelong(null);
+					r_FStart = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Start");
+					r_FStart.SetBelong(null);
 				}
-				return r_Start;
+				return r_FStart;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 EndZ
 		/// </summary>
-		protected static RSystem.RInt32 r_EndZ;
-		public static RSystem.RInt32 REndZ
+		protected static RSystem.RInt32 r_FEndZ;
+		public static RSystem.RInt32 RFEndZ
 		{
 			get
 			{
-				if(r_EndZ == null)
+				if(r_FEndZ == null)
 				{
-					r_EndZ = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "EndZ");
-					r_EndZ.SetBelong(null);
+					r_FEndZ = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "EndZ");
+					r_FEndZ.SetBelong(null);
 				}
-				return r_EndZ;
+				return r_FEndZ;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 End
 		/// </summary>
-		protected static RSystem.RInt32 r_End;
-		public static RSystem.RInt32 REnd
+		protected static RSystem.RInt32 r_FEnd;
+		public static RSystem.RInt32 RFEnd
 		{
 			get
 			{
-				if(r_End == null)
+				if(r_FEnd == null)
 				{
-					r_End = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "End");
-					r_End.SetBelong(null);
+					r_FEnd = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "End");
+					r_FEnd.SetBelong(null);
 				}
-				return r_End;
+				return r_FEnd;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Nothing
 		/// </summary>
-		protected static RSystem.RInt32 r_Nothing;
-		public static RSystem.RInt32 RNothing
+		protected static RSystem.RInt32 r_FNothing;
+		public static RSystem.RInt32 RFNothing
 		{
 			get
 			{
-				if(r_Nothing == null)
+				if(r_FNothing == null)
 				{
-					r_Nothing = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nothing");
-					r_Nothing.SetBelong(null);
+					r_FNothing = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nothing");
+					r_FNothing.SetBelong(null);
 				}
-				return r_Nothing;
+				return r_FNothing;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Lazybranch
 		/// </summary>
-		protected static RSystem.RInt32 r_Lazybranch;
-		public static RSystem.RInt32 RLazybranch
+		protected static RSystem.RInt32 r_FLazybranch;
+		public static RSystem.RInt32 RFLazybranch
 		{
 			get
 			{
-				if(r_Lazybranch == null)
+				if(r_FLazybranch == null)
 				{
-					r_Lazybranch = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranch");
-					r_Lazybranch.SetBelong(null);
+					r_FLazybranch = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranch");
+					r_FLazybranch.SetBelong(null);
 				}
-				return r_Lazybranch;
+				return r_FLazybranch;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Branchmark
 		/// </summary>
-		protected static RSystem.RInt32 r_Branchmark;
-		public static RSystem.RInt32 RBranchmark
+		protected static RSystem.RInt32 r_FBranchmark;
+		public static RSystem.RInt32 RFBranchmark
 		{
 			get
 			{
-				if(r_Branchmark == null)
+				if(r_FBranchmark == null)
 				{
-					r_Branchmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Branchmark");
-					r_Branchmark.SetBelong(null);
+					r_FBranchmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Branchmark");
+					r_FBranchmark.SetBelong(null);
 				}
-				return r_Branchmark;
+				return r_FBranchmark;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Lazybranchmark
 		/// </summary>
-		protected static RSystem.RInt32 r_Lazybranchmark;
-		public static RSystem.RInt32 RLazybranchmark
+		protected static RSystem.RInt32 r_FLazybranchmark;
+		public static RSystem.RInt32 RFLazybranchmark
 		{
 			get
 			{
-				if(r_Lazybranchmark == null)
+				if(r_FLazybranchmark == null)
 				{
-					r_Lazybranchmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranchmark");
-					r_Lazybranchmark.SetBelong(null);
+					r_FLazybranchmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranchmark");
+					r_FLazybranchmark.SetBelong(null);
 				}
-				return r_Lazybranchmark;
+				return r_FLazybranchmark;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Nullcount
 		/// </summary>
-		protected static RSystem.RInt32 r_Nullcount;
-		public static RSystem.RInt32 RNullcount
+		protected static RSystem.RInt32 r_FNullcount;
+		public static RSystem.RInt32 RFNullcount
 		{
 			get
 			{
-				if(r_Nullcount == null)
+				if(r_FNullcount == null)
 				{
-					r_Nullcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nullcount");
-					r_Nullcount.SetBelong(null);
+					r_FNullcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nullcount");
+					r_FNullcount.SetBelong(null);
 				}
-				return r_Nullcount;
+				return r_FNullcount;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Setcount
 		/// </summary>
-		protected static RSystem.RInt32 r_Setcount;
-		public static RSystem.RInt32 RSetcount
+		protected static RSystem.RInt32 r_FSetcount;
+		public static RSystem.RInt32 RFSetcount
 		{
 			get
 			{
-				if(r_Setcount == null)
+				if(r_FSetcount == null)
 				{
-					r_Setcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setcount");
-					r_Setcount.SetBelong(null);
+					r_FSetcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setcount");
+					r_FSetcount.SetBelong(null);
 				}
-				return r_Setcount;
+				return r_FSetcount;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Branchcount
 		/// </summary>
-		protected static RSystem.RInt32 r_Branchcount;
-		public static RSystem.RInt32 RBranchcount
+		protected static RSystem.RInt32 r_FBranchcount;
+		public static RSystem.RInt32 RFBranchcount
 		{
 			get
 			{
-				if(r_Branchcount == null)
+				if(r_FBranchcount == null)
 				{
-					r_Branchcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Branchcount");
-					r_Branchcount.SetBelong(null);
+					r_FBranchcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Branchcount");
+					r_FBranchcount.SetBelong(null);
 				}
-				return r_Branchcount;
+				return r_FBranchcount;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Lazybranchcount
 		/// </summary>
-		protected static RSystem.RInt32 r_Lazybranchcount;
-		public static RSystem.RInt32 RLazybranchcount
+		protected static RSystem.RInt32 r_FLazybranchcount;
+		public static RSystem.RInt32 RFLazybranchcount
 		{
 			get
 			{
-				if(r_Lazybranchcount == null)
+				if(r_FLazybranchcount == null)
 				{
-					r_Lazybranchcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranchcount");
-					r_Lazybranchcount.SetBelong(null);
+					r_FLazybranchcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranchcount");
+					r_FLazybranchcount.SetBelong(null);
 				}
-				return r_Lazybranchcount;
+				return r_FLazybranchcount;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Nullmark
 		/// </summary>
-		protected static RSystem.RInt32 r_Nullmark;
-		public static RSystem.RInt32 RNullmark
+		protected static RSystem.RInt32 r_FNullmark;
+		public static RSystem.RInt32 RFNullmark
 		{
 			get
 			{
-				if(r_Nullmark == null)
+				if(r_FNullmark == null)
 				{
-					r_Nullmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nullmark");
-					r_Nullmark.SetBelong(null);
+					r_FNullmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nullmark");
+					r_FNullmark.SetBelong(null);
 				}
-				return r_Nullmark;
+				return r_FNullmark;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Setmark
 		/// </summary>
-		protected static RSystem.RInt32 r_Setmark;
-		public static RSystem.RInt32 RSetmark
+		protected static RSystem.RInt32 r_FSetmark;
+		public static RSystem.RInt32 RFSetmark
 		{
 			get
 			{
-				if(r_Setmark == null)
+				if(r_FSetmark == null)
 				{
-					r_Setmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setmark");
-					r_Setmark.SetBelong(null);
+					r_FSetmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setmark");
+					r_FSetmark.SetBelong(null);
 				}
-				return r_Setmark;
+				return r_FSetmark;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Capturemark
 		/// </summary>
-		protected static RSystem.RInt32 r_Capturemark;
-		public static RSystem.RInt32 RCapturemark
+		protected static RSystem.RInt32 r_FCapturemark;
+		public static RSystem.RInt32 RFCapturemark
 		{
 			get
 			{
-				if(r_Capturemark == null)
+				if(r_FCapturemark == null)
 				{
-					r_Capturemark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Capturemark");
-					r_Capturemark.SetBelong(null);
+					r_FCapturemark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Capturemark");
+					r_FCapturemark.SetBelong(null);
 				}
-				return r_Capturemark;
+				return r_FCapturemark;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Getmark
 		/// </summary>
-		protected static RSystem.RInt32 r_Getmark;
-		public static RSystem.RInt32 RGetmark
+		protected static RSystem.RInt32 r_FGetmark;
+		public static RSystem.RInt32 RFGetmark
 		{
 			get
 			{
-				if(r_Getmark == null)
+				if(r_FGetmark == null)
 				{
-					r_Getmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Getmark");
-					r_Getmark.SetBelong(null);
+					r_FGetmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Getmark");
+					r_FGetmark.SetBelong(null);
 				}
-				return r_Getmark;
+				return r_FGetmark;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Setjump
 		/// </summary>
-		protected static RSystem.RInt32 r_Setjump;
-		public static RSystem.RInt32 RSetjump
+		protected static RSystem.RInt32 r_FSetjump;
+		public static RSystem.RInt32 RFSetjump
 		{
 			get
 			{
-				if(r_Setjump == null)
+				if(r_FSetjump == null)
 				{
-					r_Setjump = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setjump");
-					r_Setjump.SetBelong(null);
+					r_FSetjump = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setjump");
+					r_FSetjump.SetBelong(null);
 				}
-				return r_Setjump;
+				return r_FSetjump;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Backjump
 		/// </summary>
-		protected static RSystem.RInt32 r_Backjump;
-		public static RSystem.RInt32 RBackjump
+		protected static RSystem.RInt32 r_FBackjump;
+		public static RSystem.RInt32 RFBackjump
 		{
 			get
 			{
-				if(r_Backjump == null)
+				if(r_FBackjump == null)
 				{
-					r_Backjump = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Backjump");
-					r_Backjump.SetBelong(null);
+					r_FBackjump = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Backjump");
+					r_FBackjump.SetBelong(null);
 				}
-				return r_Backjump;
+				return r_FBackjump;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Forejump
 		/// </summary>
-		protected static RSystem.RInt32 r_Forejump;
-		public static RSystem.RInt32 RForejump
+		protected static RSystem.RInt32 r_FForejump;
+		public static RSystem.RInt32 RFForejump
 		{
 			get
 			{
-				if(r_Forejump == null)
+				if(r_FForejump == null)
 				{
-					r_Forejump = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Forejump");
-					r_Forejump.SetBelong(null);
+					r_FForejump = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Forejump");
+					r_FForejump.SetBelong(null);
 				}
-				return r_Forejump;
+				return r_FForejump;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Testref
 		/// </summary>
-		protected static RSystem.RInt32 r_Testref;
-		public static RSystem.RInt32 RTestref
+		protected static RSystem.RInt32 r_FTestref;
+		public static RSystem.RInt32 RFTestref
 		{
 			get
 			{
-				if(r_Testref == null)
+				if(r_FTestref == null)
 				{
-					r_Testref = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Testref");
-					r_Testref.SetBelong(null);
+					r_FTestref = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Testref");
+					r_FTestref.SetBelong(null);
 				}
-				return r_Testref;
+				return r_FTestref;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Goto
 		/// </summary>
-		protected static RSystem.RInt32 r_Goto;
-		public static RSystem.RInt32 RGoto
+		protected static RSystem.RInt32 r_FGoto;
+		public static RSystem.RInt32 RFGoto
 		{
 			get
 			{
-				if(r_Goto == null)
+				if(r_FGoto == null)
 				{
-					r_Goto = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Goto");
-					r_Goto.SetBelong(null);
+					r_FGoto = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Goto");
+					r_FGoto.SetBelong(null);
 				}
-				return r_Goto;
+				return r_FGoto;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Prune
 		/// </summary>
-		protected static RSystem.RInt32 r_Prune;
-		public static RSystem.RInt32 RPrune
+		protected static RSystem.RInt32 r_FPrune;
+		public static RSystem.RInt32 RFPrune
 		{
 			get
 			{
-				if(r_Prune == null)
+				if(r_FPrune == null)
 				{
-					r_Prune = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Prune");
-					r_Prune.SetBelong(null);
+					r_FPrune = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Prune");
+					r_FPrune.SetBelong(null);
 				}
-				return r_Prune;
+				return r_FPrune;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Stop
 		/// </summary>
-		protected static RSystem.RInt32 r_Stop;
-		public static RSystem.RInt32 RStop
+		protected static RSystem.RInt32 r_FStop;
+		public static RSystem.RInt32 RFStop
 		{
 			get
 			{
-				if(r_Stop == null)
+				if(r_FStop == null)
 				{
-					r_Stop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Stop");
-					r_Stop.SetBelong(null);
+					r_FStop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Stop");
+					r_FStop.SetBelong(null);
 				}
-				return r_Stop;
+				return r_FStop;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 ECMABoundary
 		/// </summary>
-		protected static RSystem.RInt32 r_ECMABoundary;
-		public static RSystem.RInt32 RECMABoundary
+		protected static RSystem.RInt32 r_FECMABoundary;
+		public static RSystem.RInt32 RFECMABoundary
 		{
 			get
 			{
-				if(r_ECMABoundary == null)
+				if(r_FECMABoundary == null)
 				{
-					r_ECMABoundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "ECMABoundary");
-					r_ECMABoundary.SetBelong(null);
+					r_FECMABoundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "ECMABoundary");
+					r_FECMABoundary.SetBelong(null);
 				}
-				return r_ECMABoundary;
+				return r_FECMABoundary;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 NonECMABoundary
 		/// </summary>
-		protected static RSystem.RInt32 r_NonECMABoundary;
-		public static RSystem.RInt32 RNonECMABoundary
+		protected static RSystem.RInt32 r_FNonECMABoundary;
+		public static RSystem.RInt32 RFNonECMABoundary
 		{
 			get
 			{
-				if(r_NonECMABoundary == null)
+				if(r_FNonECMABoundary == null)
 				{
-					r_NonECMABoundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "NonECMABoundary");
-					r_NonECMABoundary.SetBelong(null);
+					r_FNonECMABoundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "NonECMABoundary");
+					r_FNonECMABoundary.SetBelong(null);
 				}
-				return r_NonECMABoundary;
+				return r_FNonECMABoundary;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Mask
 		/// </summary>
-		protected static RSystem.RInt32 r_Mask;
-		public static RSystem.RInt32 RMask
+		protected static RSystem.RInt32 r_FMask;
+		public static RSystem.RInt32 RFMask
 		{
 			get
 			{
-				if(r_Mask == null)
+				if(r_FMask == null)
 				{
-					r_Mask = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Mask");
-					r_Mask.SetBelong(null);
+					r_FMask = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Mask");
+					r_FMask.SetBelong(null);
 				}
-				return r_Mask;
+				return r_FMask;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Rtl
 		/// </summary>
-		protected static RSystem.RInt32 r_Rtl;
-		public static RSystem.RInt32 RRtl
+		protected static RSystem.RInt32 r_FRtl;
+		public static RSystem.RInt32 RFRtl
 		{
 			get
 			{
-				if(r_Rtl == null)
+				if(r_FRtl == null)
 				{
-					r_Rtl = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Rtl");
-					r_Rtl.SetBelong(null);
+					r_FRtl = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Rtl");
+					r_FRtl.SetBelong(null);
 				}
-				return r_Rtl;
+				return r_FRtl;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Back
 		/// </summary>
-		protected static RSystem.RInt32 r_Back;
-		public static RSystem.RInt32 RBack
+		protected static RSystem.RInt32 r_FBack;
+		public static RSystem.RInt32 RFBack
 		{
 			get
 			{
-				if(r_Back == null)
+				if(r_FBack == null)
 				{
-					r_Back = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Back");
-					r_Back.SetBelong(null);
+					r_FBack = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Back");
+					r_FBack.SetBelong(null);
 				}
-				return r_Back;
+				return r_FBack;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Back2
 		/// </summary>
-		protected static RSystem.RInt32 r_Back2;
-		public static RSystem.RInt32 RBack2
+		protected static RSystem.RInt32 r_FBack2;
+		public static RSystem.RInt32 RFBack2
 		{
 			get
 			{
-				if(r_Back2 == null)
+				if(r_FBack2 == null)
 				{
-					r_Back2 = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Back2");
-					r_Back2.SetBelong(null);
+					r_FBack2 = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Back2");
+					r_FBack2.SetBelong(null);
 				}
-				return r_Back2;
+				return r_FBack2;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Ci
 		/// </summary>
-		protected static RSystem.RInt32 r_Ci;
-		public static RSystem.RInt32 RCi
+		protected static RSystem.RInt32 r_FCi;
+		public static RSystem.RInt32 RFCi
 		{
 			get
 			{
-				if(r_Ci == null)
+				if(r_FCi == null)
 				{
-					r_Ci = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Ci");
-					r_Ci.SetBelong(null);
+					r_FCi = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Ci");
+					r_FCi.SetBelong(null);
 				}
-				return r_Ci;
+				return r_FCi;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32[] Codes
 		/// </summary>
-		protected RFieldArray<RSystem.RInt32> r_Codes;
-		public virtual RFieldArray<RSystem.RInt32> RCodes
+		protected RFieldArray<RSystem.RInt32> r_FCodes;
+		public virtual RFieldArray<RSystem.RInt32> RFCodes
 		{
 			get
 			{
-				if(r_Codes == null)
+				if(r_FCodes == null)
 				{
-					r_Codes = new(this, "Codes");
-					r_Codes.SetBelong(this.instance);
+					r_FCodes = new(this, "Codes");
+					r_FCodes.SetBelong(this.instance);
 				}
-				return r_Codes;
+				return r_FCodes;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] Strings
 		/// </summary>
-		protected RFieldArray<RSystem.RString> r_Strings;
-		public virtual RFieldArray<RSystem.RString> RStrings
+		protected RFieldArray<RSystem.RString> r_FStrings;
+		public virtual RFieldArray<RSystem.RString> RFStrings
 		{
 			get
 			{
-				if(r_Strings == null)
+				if(r_FStrings == null)
 				{
-					r_Strings = new(this, "Strings");
-					r_Strings.SetBelong(this.instance);
+					r_FStrings = new(this, "Strings");
+					r_FStrings.SetBelong(this.instance);
 				}
-				return r_Strings;
+				return r_FStrings;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 TrackCount
 		/// </summary>
-		protected RSystem.RInt32 r_TrackCount;
-		public virtual RSystem.RInt32 RTrackCount
+		protected RSystem.RInt32 r_FTrackCount;
+		public virtual RSystem.RInt32 RFTrackCount
 		{
 			get
 			{
-				if(r_TrackCount == null)
+				if(r_FTrackCount == null)
 				{
-					r_TrackCount = new(this, "TrackCount");
-					r_TrackCount.SetBelong(this.instance);
+					r_FTrackCount = new(this, "TrackCount");
+					r_FTrackCount.SetBelong(this.instance);
 				}
-				return r_TrackCount;
+				return r_FTrackCount;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Hashtable Caps
 		/// </summary>
-		protected RSystem.RCollections.RHashtable r_Caps;
-		public virtual RSystem.RCollections.RHashtable RCaps
+		protected RSystem.RCollections.RHashtable r_FCaps;
+		public virtual RSystem.RCollections.RHashtable RFCaps
 		{
 			get
 			{
-				if(r_Caps == null)
+				if(r_FCaps == null)
 				{
-					r_Caps = new(this, "Caps");
-					r_Caps.SetBelong(this.instance);
+					r_FCaps = new(this, "Caps");
+					r_FCaps.SetBelong(this.instance);
 				}
-				return r_Caps;
+				return r_FCaps;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 CapSize
 		/// </summary>
-		protected RSystem.RInt32 r_CapSize;
-		public virtual RSystem.RInt32 RCapSize
+		protected RSystem.RInt32 r_FCapSize;
+		public virtual RSystem.RInt32 RFCapSize
 		{
 			get
 			{
-				if(r_CapSize == null)
+				if(r_FCapSize == null)
 				{
-					r_CapSize = new(this, "CapSize");
-					r_CapSize.SetBelong(this.instance);
+					r_FCapSize = new(this, "CapSize");
+					r_FCapSize.SetBelong(this.instance);
 				}
-				return r_CapSize;
+				return r_FCapSize;
 			}
 		}
 
 		/// <summary>
 		/// System.Nullable`1[System.Text.RegularExpressions.RegexPrefix] FCPrefix
 		/// </summary>
-		protected RSystem.RNullable<RSystem.RText.RRegularExpressions.RRegexPrefix> r_FCPrefix;
-		public virtual RSystem.RNullable<RSystem.RText.RRegularExpressions.RRegexPrefix> RFCPrefix
+		protected RSystem.RNullable<RSystem.RText.RRegularExpressions.RRegexPrefix> r_FFCPrefix;
+		public virtual RSystem.RNullable<RSystem.RText.RRegularExpressions.RRegexPrefix> RFFCPrefix
 		{
 			get
 			{
-				if(r_FCPrefix == null)
+				if(r_FFCPrefix == null)
 				{
-					r_FCPrefix = new(this, "FCPrefix");
-					r_FCPrefix.SetBelong(this.instance);
+					r_FFCPrefix = new(this, "FCPrefix");
+					r_FFCPrefix.SetBelong(this.instance);
 				}
-				return r_FCPrefix;
+				return r_FFCPrefix;
 			}
 		}
 
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexBoyerMoore BMPrefix
 		/// </summary>
-		protected RSystem.RText.RRegularExpressions.RRegexBoyerMoore r_BMPrefix;
-		public virtual RSystem.RText.RRegularExpressions.RRegexBoyerMoore RBMPrefix
+		protected RSystem.RText.RRegularExpressions.RRegexBoyerMoore r_FBMPrefix;
+		public virtual RSystem.RText.RRegularExpressions.RRegexBoyerMoore RFBMPrefix
 		{
 			get
 			{
-				if(r_BMPrefix == null)
+				if(r_FBMPrefix == null)
 				{
-					r_BMPrefix = new(this, "BMPrefix");
-					r_BMPrefix.SetBelong(this.instance);
+					r_FBMPrefix = new(this, "BMPrefix");
+					r_FBMPrefix.SetBelong(this.instance);
 				}
-				return r_BMPrefix;
+				return r_FBMPrefix;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Anchors
 		/// </summary>
-		protected RSystem.RInt32 r_Anchors;
-		public virtual RSystem.RInt32 RAnchors
+		protected RSystem.RInt32 r_FAnchors;
+		public virtual RSystem.RInt32 RFAnchors
 		{
 			get
 			{
-				if(r_Anchors == null)
+				if(r_FAnchors == null)
 				{
-					r_Anchors = new(this, "Anchors");
-					r_Anchors.SetBelong(this.instance);
+					r_FAnchors = new(this, "Anchors");
+					r_FAnchors.SetBelong(this.instance);
 				}
-				return r_Anchors;
+				return r_FAnchors;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean RightToLeft
 		/// </summary>
-		protected RSystem.RBoolean r_RightToLeft;
-		public virtual RSystem.RBoolean RRightToLeft
+		protected RSystem.RBoolean r_FRightToLeft;
+		public virtual RSystem.RBoolean RFRightToLeft
 		{
 			get
 			{
-				if(r_RightToLeft == null)
+				if(r_FRightToLeft == null)
 				{
-					r_RightToLeft = new(this, "RightToLeft");
-					r_RightToLeft.SetBelong(this.instance);
+					r_FRightToLeft = new(this, "RightToLeft");
+					r_FRightToLeft.SetBelong(this.instance);
 				}
-				return r_RightToLeft;
+				return r_FRightToLeft;
 			}
 		}
 
 		/// <summary>
 		/// Boolean OpcodeBacktracks(Int32)
 		/// </summary>
-		protected static RMethod r_OpcodeBacktracks_Int32;
-		public static RMethod ROpcodeBacktracks_Int32
+		protected static RMethod r_MOpcodeBacktracks_Int32;
+		public static RMethod RMOpcodeBacktracks_Int32
 		{
 			get
 			{
-				if(r_OpcodeBacktracks_Int32 == null)
+				if(r_MOpcodeBacktracks_Int32 == null)
 				{
-					r_OpcodeBacktracks_Int32 = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "OpcodeBacktracks", 0, typeof(System.Int32));
-					r_OpcodeBacktracks_Int32.SetBelong(null);
+					r_MOpcodeBacktracks_Int32 = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "OpcodeBacktracks", 0, typeof(System.Int32));
+					r_MOpcodeBacktracks_Int32.SetBelong(null);
 				}
-				return r_OpcodeBacktracks_Int32;
+				return r_MOpcodeBacktracks_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 OpcodeSize(Int32)
 		/// </summary>
-		protected static RMethod r_OpcodeSize_Int32;
-		public static RMethod ROpcodeSize_Int32
+		protected static RMethod r_MOpcodeSize_Int32;
+		public static RMethod RMOpcodeSize_Int32
 		{
 			get
 			{
-				if(r_OpcodeSize_Int32 == null)
+				if(r_MOpcodeSize_Int32 == null)
 				{
-					r_OpcodeSize_Int32 = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "OpcodeSize", 0, typeof(System.Int32));
-					r_OpcodeSize_Int32.SetBelong(null);
+					r_MOpcodeSize_Int32 = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "OpcodeSize", 0, typeof(System.Int32));
+					r_MOpcodeSize_Int32.SetBelong(null);
 				}
-				return r_OpcodeSize_Int32;
+				return r_MOpcodeSize_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -1138,7 +1138,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@Op};
-            var ___result = ROpcodeBacktracks_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMOpcodeBacktracks_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1149,7 +1149,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@opcode};
-            var ___result = ROpcodeSize_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMOpcodeSize_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1160,7 +1160,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1171,7 +1171,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1182,7 +1182,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1193,7 +1193,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -1204,7 +1204,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -1215,7 +1215,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

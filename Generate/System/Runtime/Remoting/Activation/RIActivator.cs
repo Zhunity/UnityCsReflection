@@ -13,51 +13,51 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Runtime.Remoting.Activation.ActivatorLevel Level
 		/// </summary>
-		protected RProperty r_Level;
-		public virtual RProperty RLevel
+		protected RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel r_PLevel;
+		public virtual RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel RPLevel
 		{
 			get
 			{
-				if(r_Level == null)
+				if(r_PLevel == null)
 				{
-					r_Level = new(this, "Level", -1);
-					r_Level.SetBelong(this.instance);
+					r_PLevel = new(this, "Level", -1);
+					r_PLevel.SetBelong(this.instance);
 				}
-				return r_Level;
+				return r_PLevel;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Activation.IActivator NextActivator
 		/// </summary>
-		protected RSystem.RRuntime.RRemoting.RActivation.RIActivator r_NextActivator;
-		public virtual RSystem.RRuntime.RRemoting.RActivation.RIActivator RNextActivator
+		protected RSystem.RRuntime.RRemoting.RActivation.RIActivator r_PNextActivator;
+		public virtual RSystem.RRuntime.RRemoting.RActivation.RIActivator RPNextActivator
 		{
 			get
 			{
-				if(r_NextActivator == null)
+				if(r_PNextActivator == null)
 				{
-					r_NextActivator = new(this, "NextActivator", -1);
-					r_NextActivator.SetBelong(this.instance);
+					r_PNextActivator = new(this, "NextActivator", -1);
+					r_PNextActivator.SetBelong(this.instance);
 				}
-				return r_NextActivator;
+				return r_PNextActivator;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage)
 		/// </summary>
-		protected RMethod r_Activate_IConstructionCallMessage;
-		public virtual RMethod RActivate_IConstructionCallMessage
+		protected RMethod r_MActivate_IConstructionCallMessage;
+		public virtual RMethod RMActivate_IConstructionCallMessage
 		{
 			get
 			{
-				if(r_Activate_IConstructionCallMessage == null)
+				if(r_MActivate_IConstructionCallMessage == null)
 				{
-					r_Activate_IConstructionCallMessage = new(this, "Activate", 0, typeof(System.Runtime.Remoting.Activation.IConstructionCallMessage));
-					r_Activate_IConstructionCallMessage.SetBelong(this.instance);
+					r_MActivate_IConstructionCallMessage = new(this, "Activate", 0, typeof(System.Runtime.Remoting.Activation.IConstructionCallMessage));
+					r_MActivate_IConstructionCallMessage.SetBelong(this.instance);
 				}
-				return r_Activate_IConstructionCallMessage;
+				return r_MActivate_IConstructionCallMessage;
 			}
 		}
 
@@ -84,7 +84,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@msg};
-            var ___result = RActivate_IConstructionCallMessage.Invoke(___genericsType, ___parameters);
+            var ___result = RMActivate_IConstructionCallMessage.Invoke(___genericsType, ___parameters);
 
             return (System.Runtime.Remoting.Activation.IConstructionReturnMessage)___result;
         }

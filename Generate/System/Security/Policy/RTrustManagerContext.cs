@@ -13,306 +13,306 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Boolean _ignorePersistedDecision
 		/// </summary>
-		protected RSystem.RBoolean r__ignorePersistedDecision;
-		public virtual RSystem.RBoolean R_ignorePersistedDecision
+		protected RSystem.RBoolean r_F_ignorePersistedDecision;
+		public virtual RSystem.RBoolean RF_ignorePersistedDecision
 		{
 			get
 			{
-				if(r__ignorePersistedDecision == null)
+				if(r_F_ignorePersistedDecision == null)
 				{
-					r__ignorePersistedDecision = new(this, "_ignorePersistedDecision");
-					r__ignorePersistedDecision.SetBelong(this.instance);
+					r_F_ignorePersistedDecision = new(this, "_ignorePersistedDecision");
+					r_F_ignorePersistedDecision.SetBelong(this.instance);
 				}
-				return r__ignorePersistedDecision;
+				return r_F_ignorePersistedDecision;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean _noPrompt
 		/// </summary>
-		protected RSystem.RBoolean r__noPrompt;
-		public virtual RSystem.RBoolean R_noPrompt
+		protected RSystem.RBoolean r_F_noPrompt;
+		public virtual RSystem.RBoolean RF_noPrompt
 		{
 			get
 			{
-				if(r__noPrompt == null)
+				if(r_F_noPrompt == null)
 				{
-					r__noPrompt = new(this, "_noPrompt");
-					r__noPrompt.SetBelong(this.instance);
+					r_F_noPrompt = new(this, "_noPrompt");
+					r_F_noPrompt.SetBelong(this.instance);
 				}
-				return r__noPrompt;
+				return r_F_noPrompt;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean _keepAlive
 		/// </summary>
-		protected RSystem.RBoolean r__keepAlive;
-		public virtual RSystem.RBoolean R_keepAlive
+		protected RSystem.RBoolean r_F_keepAlive;
+		public virtual RSystem.RBoolean RF_keepAlive
 		{
 			get
 			{
-				if(r__keepAlive == null)
+				if(r_F_keepAlive == null)
 				{
-					r__keepAlive = new(this, "_keepAlive");
-					r__keepAlive.SetBelong(this.instance);
+					r_F_keepAlive = new(this, "_keepAlive");
+					r_F_keepAlive.SetBelong(this.instance);
 				}
-				return r__keepAlive;
+				return r_F_keepAlive;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean _persist
 		/// </summary>
-		protected RSystem.RBoolean r__persist;
-		public virtual RSystem.RBoolean R_persist
+		protected RSystem.RBoolean r_F_persist;
+		public virtual RSystem.RBoolean RF_persist
 		{
 			get
 			{
-				if(r__persist == null)
+				if(r_F_persist == null)
 				{
-					r__persist = new(this, "_persist");
-					r__persist.SetBelong(this.instance);
+					r_F_persist = new(this, "_persist");
+					r_F_persist.SetBelong(this.instance);
 				}
-				return r__persist;
+				return r_F_persist;
 			}
 		}
 
 		/// <summary>
 		/// System.ApplicationIdentity _previousId
 		/// </summary>
-		protected RSystem.RApplicationIdentity r__previousId;
-		public virtual RSystem.RApplicationIdentity R_previousId
+		protected RSystem.RApplicationIdentity r_F_previousId;
+		public virtual RSystem.RApplicationIdentity RF_previousId
 		{
 			get
 			{
-				if(r__previousId == null)
+				if(r_F_previousId == null)
 				{
-					r__previousId = new(this, "_previousId");
-					r__previousId.SetBelong(this.instance);
+					r_F_previousId = new(this, "_previousId");
+					r_F_previousId.SetBelong(this.instance);
 				}
-				return r__previousId;
+				return r_F_previousId;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.TrustManagerUIContext _ui
 		/// </summary>
-		protected RField r__ui;
-		public virtual RField R_ui
+		protected RSystem.RSecurity.RPolicy.RTrustManagerUIContext r_F_ui;
+		public virtual RSystem.RSecurity.RPolicy.RTrustManagerUIContext RF_ui
 		{
 			get
 			{
-				if(r__ui == null)
+				if(r_F_ui == null)
 				{
-					r__ui = new(this, "_ui");
-					r__ui.SetBelong(this.instance);
+					r_F_ui = new(this, "_ui");
+					r_F_ui.SetBelong(this.instance);
 				}
-				return r__ui;
+				return r_F_ui;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IgnorePersistedDecision
 		/// </summary>
-		protected RSystem.RBoolean r_IgnorePersistedDecision;
-		public virtual RSystem.RBoolean RIgnorePersistedDecision
+		protected RSystem.RBoolean r_PIgnorePersistedDecision;
+		public virtual RSystem.RBoolean RPIgnorePersistedDecision
 		{
 			get
 			{
-				if(r_IgnorePersistedDecision == null)
+				if(r_PIgnorePersistedDecision == null)
 				{
-					r_IgnorePersistedDecision = new(this, "IgnorePersistedDecision", -1);
-					r_IgnorePersistedDecision.SetBelong(this.instance);
+					r_PIgnorePersistedDecision = new(this, "IgnorePersistedDecision", -1);
+					r_PIgnorePersistedDecision.SetBelong(this.instance);
 				}
-				return r_IgnorePersistedDecision;
+				return r_PIgnorePersistedDecision;
 			}
 		}
 
 		/// <summary>
 		/// Boolean KeepAlive
 		/// </summary>
-		protected RSystem.RBoolean r_KeepAlive;
-		public virtual RSystem.RBoolean RKeepAlive
+		protected RSystem.RBoolean r_PKeepAlive;
+		public virtual RSystem.RBoolean RPKeepAlive
 		{
 			get
 			{
-				if(r_KeepAlive == null)
+				if(r_PKeepAlive == null)
 				{
-					r_KeepAlive = new(this, "KeepAlive", -1);
-					r_KeepAlive.SetBelong(this.instance);
+					r_PKeepAlive = new(this, "KeepAlive", -1);
+					r_PKeepAlive.SetBelong(this.instance);
 				}
-				return r_KeepAlive;
+				return r_PKeepAlive;
 			}
 		}
 
 		/// <summary>
 		/// Boolean NoPrompt
 		/// </summary>
-		protected RSystem.RBoolean r_NoPrompt;
-		public virtual RSystem.RBoolean RNoPrompt
+		protected RSystem.RBoolean r_PNoPrompt;
+		public virtual RSystem.RBoolean RPNoPrompt
 		{
 			get
 			{
-				if(r_NoPrompt == null)
+				if(r_PNoPrompt == null)
 				{
-					r_NoPrompt = new(this, "NoPrompt", -1);
-					r_NoPrompt.SetBelong(this.instance);
+					r_PNoPrompt = new(this, "NoPrompt", -1);
+					r_PNoPrompt.SetBelong(this.instance);
 				}
-				return r_NoPrompt;
+				return r_PNoPrompt;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Persist
 		/// </summary>
-		protected RSystem.RBoolean r_Persist;
-		public virtual RSystem.RBoolean RPersist
+		protected RSystem.RBoolean r_PPersist;
+		public virtual RSystem.RBoolean RPPersist
 		{
 			get
 			{
-				if(r_Persist == null)
+				if(r_PPersist == null)
 				{
-					r_Persist = new(this, "Persist", -1);
-					r_Persist.SetBelong(this.instance);
+					r_PPersist = new(this, "Persist", -1);
+					r_PPersist.SetBelong(this.instance);
 				}
-				return r_Persist;
+				return r_PPersist;
 			}
 		}
 
 		/// <summary>
 		/// System.ApplicationIdentity PreviousApplicationIdentity
 		/// </summary>
-		protected RSystem.RApplicationIdentity r_PreviousApplicationIdentity;
-		public virtual RSystem.RApplicationIdentity RPreviousApplicationIdentity
+		protected RSystem.RApplicationIdentity r_PPreviousApplicationIdentity;
+		public virtual RSystem.RApplicationIdentity RPPreviousApplicationIdentity
 		{
 			get
 			{
-				if(r_PreviousApplicationIdentity == null)
+				if(r_PPreviousApplicationIdentity == null)
 				{
-					r_PreviousApplicationIdentity = new(this, "PreviousApplicationIdentity", -1);
-					r_PreviousApplicationIdentity.SetBelong(this.instance);
+					r_PPreviousApplicationIdentity = new(this, "PreviousApplicationIdentity", -1);
+					r_PPreviousApplicationIdentity.SetBelong(this.instance);
 				}
-				return r_PreviousApplicationIdentity;
+				return r_PPreviousApplicationIdentity;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.TrustManagerUIContext UIContext
 		/// </summary>
-		protected RProperty r_UIContext;
-		public virtual RProperty RUIContext
+		protected RSystem.RSecurity.RPolicy.RTrustManagerUIContext r_PUIContext;
+		public virtual RSystem.RSecurity.RPolicy.RTrustManagerUIContext RPUIContext
 		{
 			get
 			{
-				if(r_UIContext == null)
+				if(r_PUIContext == null)
 				{
-					r_UIContext = new(this, "UIContext", -1);
-					r_UIContext.SetBelong(this.instance);
+					r_PUIContext = new(this, "UIContext", -1);
+					r_PUIContext.SetBelong(this.instance);
 				}
-				return r_UIContext;
+				return r_PUIContext;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -383,7 +383,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

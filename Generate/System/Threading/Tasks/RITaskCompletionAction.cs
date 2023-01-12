@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean InvokeMayRunArbitraryCode
 		/// </summary>
-		protected RSystem.RBoolean r_InvokeMayRunArbitraryCode;
-		public virtual RSystem.RBoolean RInvokeMayRunArbitraryCode
+		protected RSystem.RBoolean r_PInvokeMayRunArbitraryCode;
+		public virtual RSystem.RBoolean RPInvokeMayRunArbitraryCode
 		{
 			get
 			{
-				if(r_InvokeMayRunArbitraryCode == null)
+				if(r_PInvokeMayRunArbitraryCode == null)
 				{
-					r_InvokeMayRunArbitraryCode = new(this, "InvokeMayRunArbitraryCode", -1);
-					r_InvokeMayRunArbitraryCode.SetBelong(this.instance);
+					r_PInvokeMayRunArbitraryCode = new(this, "InvokeMayRunArbitraryCode", -1);
+					r_PInvokeMayRunArbitraryCode.SetBelong(this.instance);
 				}
-				return r_InvokeMayRunArbitraryCode;
+				return r_PInvokeMayRunArbitraryCode;
 			}
 		}
 
 		/// <summary>
 		/// Void Invoke(System.Threading.Tasks.Task)
 		/// </summary>
-		protected RMethod r_Invoke_Task;
-		public virtual RMethod RInvoke_Task
+		protected RMethod r_MInvoke_Task;
+		public virtual RMethod RMInvoke_Task
 		{
 			get
 			{
-				if(r_Invoke_Task == null)
+				if(r_MInvoke_Task == null)
 				{
-					r_Invoke_Task = new(this, "Invoke", 0, typeof(System.Threading.Tasks.Task));
-					r_Invoke_Task.SetBelong(this.instance);
+					r_MInvoke_Task = new(this, "Invoke", 0, typeof(System.Threading.Tasks.Task));
+					r_MInvoke_Task.SetBelong(this.instance);
 				}
-				return r_Invoke_Task;
+				return r_MInvoke_Task;
 			}
 		}
 
@@ -67,7 +67,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@completingTask};
-            var ___result = RInvoke_Task.Invoke(___genericsType, ___parameters);
+            var ___result = RMInvoke_Task.Invoke(___genericsType, ___parameters);
 
             
         }

@@ -13,2431 +13,2431 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// TResult m_result
 		/// </summary>
-		protected RField r_m_result;
-		public virtual RField Rm_result
+		protected RField r_Fm_result;
+		public virtual RField RFm_result
 		{
 			get
 			{
-				if(r_m_result == null)
+				if(r_Fm_result == null)
 				{
-					r_m_result = new(this, "m_result");
-					r_m_result.SetBelong(this.instance);
+					r_Fm_result = new(this, "m_result");
+					r_Fm_result.SetBelong(this.instance);
 				}
-				return r_m_result;
+				return r_Fm_result;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.TaskFactory`1[TResult] s_defaultFactory
 		/// </summary>
-		protected static RSystem.RThreading.RTasks.RTaskFactory<RField> r_s_defaultFactory;
-		public static RSystem.RThreading.RTasks.RTaskFactory<RField> Rs_defaultFactory
+		protected static RSystem.RThreading.RTasks.RTaskFactory<RField> r_Fs_defaultFactory;
+		public static RSystem.RThreading.RTasks.RTaskFactory<RField> RFs_defaultFactory
 		{
 			get
 			{
-				if(r_s_defaultFactory == null)
+				if(r_Fs_defaultFactory == null)
 				{
-					r_s_defaultFactory = new(typeof(System.Threading.Tasks.Task<>), "s_defaultFactory");
-					r_s_defaultFactory.SetBelong(null);
+					r_Fs_defaultFactory = new(typeof(System.Threading.Tasks.Task<>), "s_defaultFactory");
+					r_Fs_defaultFactory.SetBelong(null);
 				}
-				return r_s_defaultFactory;
+				return r_Fs_defaultFactory;
 			}
 		}
 
 		/// <summary>
 		/// System.Delegate m_action
 		/// </summary>
-		protected RSystem.RDelegate r_m_action;
-		public virtual RSystem.RDelegate Rm_action
+		protected RSystem.RDelegate r_Fm_action;
+		public virtual RSystem.RDelegate RFm_action
 		{
 			get
 			{
-				if(r_m_action == null)
+				if(r_Fm_action == null)
 				{
-					r_m_action = new(this, "m_action");
-					r_m_action.SetBelong(this.instance);
+					r_Fm_action = new(this, "m_action");
+					r_Fm_action.SetBelong(this.instance);
 				}
-				return r_m_action;
+				return r_Fm_action;
 			}
 		}
 
 		/// <summary>
 		/// System.Object m_stateObject
 		/// </summary>
-		protected RSystem.RObject r_m_stateObject;
-		public virtual RSystem.RObject Rm_stateObject
+		protected RSystem.RObject r_Fm_stateObject;
+		public virtual RSystem.RObject RFm_stateObject
 		{
 			get
 			{
-				if(r_m_stateObject == null)
+				if(r_Fm_stateObject == null)
 				{
-					r_m_stateObject = new(this, "m_stateObject");
-					r_m_stateObject.SetBelong(this.instance);
+					r_Fm_stateObject = new(this, "m_stateObject");
+					r_Fm_stateObject.SetBelong(this.instance);
 				}
-				return r_m_stateObject;
+				return r_Fm_stateObject;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.TaskScheduler m_taskScheduler
 		/// </summary>
-		protected RSystem.RThreading.RTasks.RTaskScheduler r_m_taskScheduler;
-		public virtual RSystem.RThreading.RTasks.RTaskScheduler Rm_taskScheduler
+		protected RSystem.RThreading.RTasks.RTaskScheduler r_Fm_taskScheduler;
+		public virtual RSystem.RThreading.RTasks.RTaskScheduler RFm_taskScheduler
 		{
 			get
 			{
-				if(r_m_taskScheduler == null)
+				if(r_Fm_taskScheduler == null)
 				{
-					r_m_taskScheduler = new(this, "m_taskScheduler");
-					r_m_taskScheduler.SetBelong(this.instance);
+					r_Fm_taskScheduler = new(this, "m_taskScheduler");
+					r_Fm_taskScheduler.SetBelong(this.instance);
 				}
-				return r_m_taskScheduler;
+				return r_Fm_taskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task m_parent
 		/// </summary>
-		protected RSystem.RThreading.RTasks.RTask r_m_parent;
-		public virtual RSystem.RThreading.RTasks.RTask Rm_parent
+		protected RSystem.RThreading.RTasks.RTask r_Fm_parent;
+		public virtual RSystem.RThreading.RTasks.RTask RFm_parent
 		{
 			get
 			{
-				if(r_m_parent == null)
+				if(r_Fm_parent == null)
 				{
-					r_m_parent = new(this, "m_parent");
-					r_m_parent.SetBelong(this.instance);
+					r_Fm_parent = new(this, "m_parent");
+					r_Fm_parent.SetBelong(this.instance);
 				}
-				return r_m_parent;
+				return r_Fm_parent;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_stateFlags
 		/// </summary>
-		protected RSystem.RInt32 r_m_stateFlags;
-		public virtual RSystem.RInt32 Rm_stateFlags
+		protected RSystem.RInt32 r_Fm_stateFlags;
+		public virtual RSystem.RInt32 RFm_stateFlags
 		{
 			get
 			{
-				if(r_m_stateFlags == null)
+				if(r_Fm_stateFlags == null)
 				{
-					r_m_stateFlags = new(this, "m_stateFlags");
-					r_m_stateFlags.SetBelong(this.instance);
+					r_Fm_stateFlags = new(this, "m_stateFlags");
+					r_Fm_stateFlags.SetBelong(this.instance);
 				}
-				return r_m_stateFlags;
+				return r_Fm_stateFlags;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task+ContingentProperties m_contingentProperties
 		/// </summary>
-		protected RSystem.RThreading.RTasks.RTask.RContingentProperties r_m_contingentProperties;
-		public virtual RSystem.RThreading.RTasks.RTask.RContingentProperties Rm_contingentProperties
+		protected RSystem.RThreading.RTasks.RTask.RContingentProperties r_Fm_contingentProperties;
+		public virtual RSystem.RThreading.RTasks.RTask.RContingentProperties RFm_contingentProperties
 		{
 			get
 			{
-				if(r_m_contingentProperties == null)
+				if(r_Fm_contingentProperties == null)
 				{
-					r_m_contingentProperties = new(this, "m_contingentProperties");
-					r_m_contingentProperties.SetBelong(this.instance);
+					r_Fm_contingentProperties = new(this, "m_contingentProperties");
+					r_Fm_contingentProperties.SetBelong(this.instance);
 				}
-				return r_m_contingentProperties;
+				return r_Fm_contingentProperties;
 			}
 		}
 
 		/// <summary>
 		/// System.String DebuggerDisplayResultDescription
 		/// </summary>
-		protected RSystem.RString r_DebuggerDisplayResultDescription;
-		public virtual RSystem.RString RDebuggerDisplayResultDescription
+		protected RSystem.RString r_PDebuggerDisplayResultDescription;
+		public virtual RSystem.RString RPDebuggerDisplayResultDescription
 		{
 			get
 			{
-				if(r_DebuggerDisplayResultDescription == null)
+				if(r_PDebuggerDisplayResultDescription == null)
 				{
-					r_DebuggerDisplayResultDescription = new(this, "DebuggerDisplayResultDescription", -1);
-					r_DebuggerDisplayResultDescription.SetBelong(this.instance);
+					r_PDebuggerDisplayResultDescription = new(this, "DebuggerDisplayResultDescription", -1);
+					r_PDebuggerDisplayResultDescription.SetBelong(this.instance);
 				}
-				return r_DebuggerDisplayResultDescription;
+				return r_PDebuggerDisplayResultDescription;
 			}
 		}
 
 		/// <summary>
 		/// System.String DebuggerDisplayMethodDescription
 		/// </summary>
-		protected RSystem.RString r_DebuggerDisplayMethodDescription;
-		public virtual RSystem.RString RDebuggerDisplayMethodDescription
+		protected RSystem.RString r_PDebuggerDisplayMethodDescription;
+		public virtual RSystem.RString RPDebuggerDisplayMethodDescription
 		{
 			get
 			{
-				if(r_DebuggerDisplayMethodDescription == null)
+				if(r_PDebuggerDisplayMethodDescription == null)
 				{
-					r_DebuggerDisplayMethodDescription = new(this, "DebuggerDisplayMethodDescription", -1);
-					r_DebuggerDisplayMethodDescription.SetBelong(this.instance);
+					r_PDebuggerDisplayMethodDescription = new(this, "DebuggerDisplayMethodDescription", -1);
+					r_PDebuggerDisplayMethodDescription.SetBelong(this.instance);
 				}
-				return r_DebuggerDisplayMethodDescription;
+				return r_PDebuggerDisplayMethodDescription;
 			}
 		}
 
 		/// <summary>
 		/// TResult Result
 		/// </summary>
-		protected RProperty r_Result;
-		public virtual RProperty RResult
+		protected RProperty r_PResult;
+		public virtual RProperty RPResult
 		{
 			get
 			{
-				if(r_Result == null)
+				if(r_PResult == null)
 				{
-					r_Result = new(this, "Result", -1);
-					r_Result.SetBelong(this.instance);
+					r_PResult = new(this, "Result", -1);
+					r_PResult.SetBelong(this.instance);
 				}
-				return r_Result;
+				return r_PResult;
 			}
 		}
 
 		/// <summary>
 		/// TResult ResultOnSuccess
 		/// </summary>
-		protected RProperty r_ResultOnSuccess;
-		public virtual RProperty RResultOnSuccess
+		protected RProperty r_PResultOnSuccess;
+		public virtual RProperty RPResultOnSuccess
 		{
 			get
 			{
-				if(r_ResultOnSuccess == null)
+				if(r_PResultOnSuccess == null)
 				{
-					r_ResultOnSuccess = new(this, "ResultOnSuccess", -1);
-					r_ResultOnSuccess.SetBelong(this.instance);
+					r_PResultOnSuccess = new(this, "ResultOnSuccess", -1);
+					r_PResultOnSuccess.SetBelong(this.instance);
 				}
-				return r_ResultOnSuccess;
+				return r_PResultOnSuccess;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.TaskFactory`1[TResult] Factory
 		/// </summary>
-		protected static RSystem.RThreading.RTasks.RTaskFactory<RProperty> r_Factory;
-		public static RSystem.RThreading.RTasks.RTaskFactory<RProperty> RFactory
+		protected static RSystem.RThreading.RTasks.RTaskFactory<RProperty> r_PFactory;
+		public static RSystem.RThreading.RTasks.RTaskFactory<RProperty> RPFactory
 		{
 			get
 			{
-				if(r_Factory == null)
+				if(r_PFactory == null)
 				{
-					r_Factory = new(typeof(System.Threading.Tasks.Task<>), "Factory", -1);
-					r_Factory.SetBelong(null);
+					r_PFactory = new(typeof(System.Threading.Tasks.Task<>), "Factory", -1);
+					r_PFactory.SetBelong(null);
 				}
-				return r_Factory;
+				return r_PFactory;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.TaskCreationOptions Options
 		/// </summary>
-		protected RProperty r_Options;
-		public virtual RProperty ROptions
+		protected RSystem.RThreading.RTasks.RTaskCreationOptions r_POptions;
+		public virtual RSystem.RThreading.RTasks.RTaskCreationOptions RPOptions
 		{
 			get
 			{
-				if(r_Options == null)
+				if(r_POptions == null)
 				{
-					r_Options = new(this, "Options", -1);
-					r_Options.SetBelong(this.instance);
+					r_POptions = new(this, "Options", -1);
+					r_POptions.SetBelong(this.instance);
 				}
-				return r_Options;
+				return r_POptions;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsWaitNotificationEnabledOrNotRanToCompletion
 		/// </summary>
-		protected RSystem.RBoolean r_IsWaitNotificationEnabledOrNotRanToCompletion;
-		public virtual RSystem.RBoolean RIsWaitNotificationEnabledOrNotRanToCompletion
+		protected RSystem.RBoolean r_PIsWaitNotificationEnabledOrNotRanToCompletion;
+		public virtual RSystem.RBoolean RPIsWaitNotificationEnabledOrNotRanToCompletion
 		{
 			get
 			{
-				if(r_IsWaitNotificationEnabledOrNotRanToCompletion == null)
+				if(r_PIsWaitNotificationEnabledOrNotRanToCompletion == null)
 				{
-					r_IsWaitNotificationEnabledOrNotRanToCompletion = new(this, "IsWaitNotificationEnabledOrNotRanToCompletion", -1);
-					r_IsWaitNotificationEnabledOrNotRanToCompletion.SetBelong(this.instance);
+					r_PIsWaitNotificationEnabledOrNotRanToCompletion = new(this, "IsWaitNotificationEnabledOrNotRanToCompletion", -1);
+					r_PIsWaitNotificationEnabledOrNotRanToCompletion.SetBelong(this.instance);
 				}
-				return r_IsWaitNotificationEnabledOrNotRanToCompletion;
+				return r_PIsWaitNotificationEnabledOrNotRanToCompletion;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ShouldNotifyDebuggerOfWaitCompletion
 		/// </summary>
-		protected RSystem.RBoolean r_ShouldNotifyDebuggerOfWaitCompletion;
-		public virtual RSystem.RBoolean RShouldNotifyDebuggerOfWaitCompletion
+		protected RSystem.RBoolean r_PShouldNotifyDebuggerOfWaitCompletion;
+		public virtual RSystem.RBoolean RPShouldNotifyDebuggerOfWaitCompletion
 		{
 			get
 			{
-				if(r_ShouldNotifyDebuggerOfWaitCompletion == null)
+				if(r_PShouldNotifyDebuggerOfWaitCompletion == null)
 				{
-					r_ShouldNotifyDebuggerOfWaitCompletion = new(this, "ShouldNotifyDebuggerOfWaitCompletion", -1);
-					r_ShouldNotifyDebuggerOfWaitCompletion.SetBelong(this.instance);
+					r_PShouldNotifyDebuggerOfWaitCompletion = new(this, "ShouldNotifyDebuggerOfWaitCompletion", -1);
+					r_PShouldNotifyDebuggerOfWaitCompletion.SetBelong(this.instance);
 				}
-				return r_ShouldNotifyDebuggerOfWaitCompletion;
+				return r_PShouldNotifyDebuggerOfWaitCompletion;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsWaitNotificationEnabled
 		/// </summary>
-		protected RSystem.RBoolean r_IsWaitNotificationEnabled;
-		public virtual RSystem.RBoolean RIsWaitNotificationEnabled
+		protected RSystem.RBoolean r_PIsWaitNotificationEnabled;
+		public virtual RSystem.RBoolean RPIsWaitNotificationEnabled
 		{
 			get
 			{
-				if(r_IsWaitNotificationEnabled == null)
+				if(r_PIsWaitNotificationEnabled == null)
 				{
-					r_IsWaitNotificationEnabled = new(this, "IsWaitNotificationEnabled", -1);
-					r_IsWaitNotificationEnabled.SetBelong(this.instance);
+					r_PIsWaitNotificationEnabled = new(this, "IsWaitNotificationEnabled", -1);
+					r_PIsWaitNotificationEnabled.SetBelong(this.instance);
 				}
-				return r_IsWaitNotificationEnabled;
+				return r_PIsWaitNotificationEnabled;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Id
 		/// </summary>
-		protected RSystem.RInt32 r_Id;
-		public virtual RSystem.RInt32 RId
+		protected RSystem.RInt32 r_PId;
+		public virtual RSystem.RInt32 RPId
 		{
 			get
 			{
-				if(r_Id == null)
+				if(r_PId == null)
 				{
-					r_Id = new(this, "Id", -1);
-					r_Id.SetBelong(this.instance);
+					r_PId = new(this, "Id", -1);
+					r_PId.SetBelong(this.instance);
 				}
-				return r_Id;
+				return r_PId;
 			}
 		}
 
 		/// <summary>
 		/// System.AggregateException Exception
 		/// </summary>
-		protected RSystem.RAggregateException r_Exception;
-		public virtual RSystem.RAggregateException RException
+		protected RSystem.RAggregateException r_PException;
+		public virtual RSystem.RAggregateException RPException
 		{
 			get
 			{
-				if(r_Exception == null)
+				if(r_PException == null)
 				{
-					r_Exception = new(this, "Exception", -1);
-					r_Exception.SetBelong(this.instance);
+					r_PException = new(this, "Exception", -1);
+					r_PException.SetBelong(this.instance);
 				}
-				return r_Exception;
+				return r_PException;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.TaskStatus Status
 		/// </summary>
-		protected RProperty r_Status;
-		public virtual RProperty RStatus
+		protected RSystem.RThreading.RTasks.RTaskStatus r_PStatus;
+		public virtual RSystem.RThreading.RTasks.RTaskStatus RPStatus
 		{
 			get
 			{
-				if(r_Status == null)
+				if(r_PStatus == null)
 				{
-					r_Status = new(this, "Status", -1);
-					r_Status.SetBelong(this.instance);
+					r_PStatus = new(this, "Status", -1);
+					r_PStatus.SetBelong(this.instance);
 				}
-				return r_Status;
+				return r_PStatus;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsCanceled
 		/// </summary>
-		protected RSystem.RBoolean r_IsCanceled;
-		public virtual RSystem.RBoolean RIsCanceled
+		protected RSystem.RBoolean r_PIsCanceled;
+		public virtual RSystem.RBoolean RPIsCanceled
 		{
 			get
 			{
-				if(r_IsCanceled == null)
+				if(r_PIsCanceled == null)
 				{
-					r_IsCanceled = new(this, "IsCanceled", -1);
-					r_IsCanceled.SetBelong(this.instance);
+					r_PIsCanceled = new(this, "IsCanceled", -1);
+					r_PIsCanceled.SetBelong(this.instance);
 				}
-				return r_IsCanceled;
+				return r_PIsCanceled;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsCancellationRequested
 		/// </summary>
-		protected RSystem.RBoolean r_IsCancellationRequested;
-		public virtual RSystem.RBoolean RIsCancellationRequested
+		protected RSystem.RBoolean r_PIsCancellationRequested;
+		public virtual RSystem.RBoolean RPIsCancellationRequested
 		{
 			get
 			{
-				if(r_IsCancellationRequested == null)
+				if(r_PIsCancellationRequested == null)
 				{
-					r_IsCancellationRequested = new(this, "IsCancellationRequested", -1);
-					r_IsCancellationRequested.SetBelong(this.instance);
+					r_PIsCancellationRequested = new(this, "IsCancellationRequested", -1);
+					r_PIsCancellationRequested.SetBelong(this.instance);
 				}
-				return r_IsCancellationRequested;
+				return r_PIsCancellationRequested;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.CancellationToken CancellationToken
 		/// </summary>
-		protected RSystem.RThreading.RCancellationToken r_CancellationToken;
-		public virtual RSystem.RThreading.RCancellationToken RCancellationToken
+		protected RSystem.RThreading.RCancellationToken r_PCancellationToken;
+		public virtual RSystem.RThreading.RCancellationToken RPCancellationToken
 		{
 			get
 			{
-				if(r_CancellationToken == null)
+				if(r_PCancellationToken == null)
 				{
-					r_CancellationToken = new(this, "CancellationToken", -1);
-					r_CancellationToken.SetBelong(this.instance);
+					r_PCancellationToken = new(this, "CancellationToken", -1);
+					r_PCancellationToken.SetBelong(this.instance);
 				}
-				return r_CancellationToken;
+				return r_PCancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsCancellationAcknowledged
 		/// </summary>
-		protected RSystem.RBoolean r_IsCancellationAcknowledged;
-		public virtual RSystem.RBoolean RIsCancellationAcknowledged
+		protected RSystem.RBoolean r_PIsCancellationAcknowledged;
+		public virtual RSystem.RBoolean RPIsCancellationAcknowledged
 		{
 			get
 			{
-				if(r_IsCancellationAcknowledged == null)
+				if(r_PIsCancellationAcknowledged == null)
 				{
-					r_IsCancellationAcknowledged = new(this, "IsCancellationAcknowledged", -1);
-					r_IsCancellationAcknowledged.SetBelong(this.instance);
+					r_PIsCancellationAcknowledged = new(this, "IsCancellationAcknowledged", -1);
+					r_PIsCancellationAcknowledged.SetBelong(this.instance);
 				}
-				return r_IsCancellationAcknowledged;
+				return r_PIsCancellationAcknowledged;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected RSystem.RBoolean r_IsCompleted;
-		public virtual RSystem.RBoolean RIsCompleted
+		protected RSystem.RBoolean r_PIsCompleted;
+		public virtual RSystem.RBoolean RPIsCompleted
 		{
 			get
 			{
-				if(r_IsCompleted == null)
+				if(r_PIsCompleted == null)
 				{
-					r_IsCompleted = new(this, "IsCompleted", -1);
-					r_IsCompleted.SetBelong(this.instance);
+					r_PIsCompleted = new(this, "IsCompleted", -1);
+					r_PIsCompleted.SetBelong(this.instance);
 				}
-				return r_IsCompleted;
+				return r_PIsCompleted;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsCompletedSuccessfully
 		/// </summary>
-		protected RSystem.RBoolean r_IsCompletedSuccessfully;
-		public virtual RSystem.RBoolean RIsCompletedSuccessfully
+		protected RSystem.RBoolean r_PIsCompletedSuccessfully;
+		public virtual RSystem.RBoolean RPIsCompletedSuccessfully
 		{
 			get
 			{
-				if(r_IsCompletedSuccessfully == null)
+				if(r_PIsCompletedSuccessfully == null)
 				{
-					r_IsCompletedSuccessfully = new(this, "IsCompletedSuccessfully", -1);
-					r_IsCompletedSuccessfully.SetBelong(this.instance);
+					r_PIsCompletedSuccessfully = new(this, "IsCompletedSuccessfully", -1);
+					r_PIsCompletedSuccessfully.SetBelong(this.instance);
 				}
-				return r_IsCompletedSuccessfully;
+				return r_PIsCompletedSuccessfully;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.TaskCreationOptions CreationOptions
 		/// </summary>
-		protected RProperty r_CreationOptions;
-		public virtual RProperty RCreationOptions
+		protected RSystem.RThreading.RTasks.RTaskCreationOptions r_PCreationOptions;
+		public virtual RSystem.RThreading.RTasks.RTaskCreationOptions RPCreationOptions
 		{
 			get
 			{
-				if(r_CreationOptions == null)
+				if(r_PCreationOptions == null)
 				{
-					r_CreationOptions = new(this, "CreationOptions", -1);
-					r_CreationOptions.SetBelong(this.instance);
+					r_PCreationOptions = new(this, "CreationOptions", -1);
+					r_PCreationOptions.SetBelong(this.instance);
 				}
-				return r_CreationOptions;
+				return r_PCreationOptions;
 			}
 		}
 
 		/// <summary>
 		/// System.Object AsyncState
 		/// </summary>
-		protected RSystem.RObject r_AsyncState;
-		public virtual RSystem.RObject RAsyncState
+		protected RSystem.RObject r_PAsyncState;
+		public virtual RSystem.RObject RPAsyncState
 		{
 			get
 			{
-				if(r_AsyncState == null)
+				if(r_PAsyncState == null)
 				{
-					r_AsyncState = new(this, "AsyncState", -1);
-					r_AsyncState.SetBelong(this.instance);
+					r_PAsyncState = new(this, "AsyncState", -1);
+					r_PAsyncState.SetBelong(this.instance);
 				}
-				return r_AsyncState;
+				return r_PAsyncState;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.TaskScheduler ExecutingTaskScheduler
 		/// </summary>
-		protected RSystem.RThreading.RTasks.RTaskScheduler r_ExecutingTaskScheduler;
-		public virtual RSystem.RThreading.RTasks.RTaskScheduler RExecutingTaskScheduler
+		protected RSystem.RThreading.RTasks.RTaskScheduler r_PExecutingTaskScheduler;
+		public virtual RSystem.RThreading.RTasks.RTaskScheduler RPExecutingTaskScheduler
 		{
 			get
 			{
-				if(r_ExecutingTaskScheduler == null)
+				if(r_PExecutingTaskScheduler == null)
 				{
-					r_ExecutingTaskScheduler = new(this, "ExecutingTaskScheduler", -1);
-					r_ExecutingTaskScheduler.SetBelong(this.instance);
+					r_PExecutingTaskScheduler = new(this, "ExecutingTaskScheduler", -1);
+					r_PExecutingTaskScheduler.SetBelong(this.instance);
 				}
-				return r_ExecutingTaskScheduler;
+				return r_PExecutingTaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.ManualResetEventSlim CompletedEvent
 		/// </summary>
-		protected RSystem.RThreading.RManualResetEventSlim r_CompletedEvent;
-		public virtual RSystem.RThreading.RManualResetEventSlim RCompletedEvent
+		protected RSystem.RThreading.RManualResetEventSlim r_PCompletedEvent;
+		public virtual RSystem.RThreading.RManualResetEventSlim RPCompletedEvent
 		{
 			get
 			{
-				if(r_CompletedEvent == null)
+				if(r_PCompletedEvent == null)
 				{
-					r_CompletedEvent = new(this, "CompletedEvent", -1);
-					r_CompletedEvent.SetBelong(this.instance);
+					r_PCompletedEvent = new(this, "CompletedEvent", -1);
+					r_PCompletedEvent.SetBelong(this.instance);
 				}
-				return r_CompletedEvent;
+				return r_PCompletedEvent;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ExceptionRecorded
 		/// </summary>
-		protected RSystem.RBoolean r_ExceptionRecorded;
-		public virtual RSystem.RBoolean RExceptionRecorded
+		protected RSystem.RBoolean r_PExceptionRecorded;
+		public virtual RSystem.RBoolean RPExceptionRecorded
 		{
 			get
 			{
-				if(r_ExceptionRecorded == null)
+				if(r_PExceptionRecorded == null)
 				{
-					r_ExceptionRecorded = new(this, "ExceptionRecorded", -1);
-					r_ExceptionRecorded.SetBelong(this.instance);
+					r_PExceptionRecorded = new(this, "ExceptionRecorded", -1);
+					r_PExceptionRecorded.SetBelong(this.instance);
 				}
-				return r_ExceptionRecorded;
+				return r_PExceptionRecorded;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsFaulted
 		/// </summary>
-		protected RSystem.RBoolean r_IsFaulted;
-		public virtual RSystem.RBoolean RIsFaulted
+		protected RSystem.RBoolean r_PIsFaulted;
+		public virtual RSystem.RBoolean RPIsFaulted
 		{
 			get
 			{
-				if(r_IsFaulted == null)
+				if(r_PIsFaulted == null)
 				{
-					r_IsFaulted = new(this, "IsFaulted", -1);
-					r_IsFaulted.SetBelong(this.instance);
+					r_PIsFaulted = new(this, "IsFaulted", -1);
+					r_PIsFaulted.SetBelong(this.instance);
 				}
-				return r_IsFaulted;
+				return r_PIsFaulted;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.ExecutionContext CapturedContext
 		/// </summary>
-		protected RSystem.RThreading.RExecutionContext r_CapturedContext;
-		public virtual RSystem.RThreading.RExecutionContext RCapturedContext
+		protected RSystem.RThreading.RExecutionContext r_PCapturedContext;
+		public virtual RSystem.RThreading.RExecutionContext RPCapturedContext
 		{
 			get
 			{
-				if(r_CapturedContext == null)
+				if(r_PCapturedContext == null)
 				{
-					r_CapturedContext = new(this, "CapturedContext", -1);
-					r_CapturedContext.SetBelong(this.instance);
+					r_PCapturedContext = new(this, "CapturedContext", -1);
+					r_PCapturedContext.SetBelong(this.instance);
 				}
-				return r_CapturedContext;
+				return r_PCapturedContext;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsExceptionObservedByParent
 		/// </summary>
-		protected RSystem.RBoolean r_IsExceptionObservedByParent;
-		public virtual RSystem.RBoolean RIsExceptionObservedByParent
+		protected RSystem.RBoolean r_PIsExceptionObservedByParent;
+		public virtual RSystem.RBoolean RPIsExceptionObservedByParent
 		{
 			get
 			{
-				if(r_IsExceptionObservedByParent == null)
+				if(r_PIsExceptionObservedByParent == null)
 				{
-					r_IsExceptionObservedByParent = new(this, "IsExceptionObservedByParent", -1);
-					r_IsExceptionObservedByParent.SetBelong(this.instance);
+					r_PIsExceptionObservedByParent = new(this, "IsExceptionObservedByParent", -1);
+					r_PIsExceptionObservedByParent.SetBelong(this.instance);
 				}
-				return r_IsExceptionObservedByParent;
+				return r_PIsExceptionObservedByParent;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsDelegateInvoked
 		/// </summary>
-		protected RSystem.RBoolean r_IsDelegateInvoked;
-		public virtual RSystem.RBoolean RIsDelegateInvoked
+		protected RSystem.RBoolean r_PIsDelegateInvoked;
+		public virtual RSystem.RBoolean RPIsDelegateInvoked
 		{
 			get
 			{
-				if(r_IsDelegateInvoked == null)
+				if(r_PIsDelegateInvoked == null)
 				{
-					r_IsDelegateInvoked = new(this, "IsDelegateInvoked", -1);
-					r_IsDelegateInvoked.SetBelong(this.instance);
+					r_PIsDelegateInvoked = new(this, "IsDelegateInvoked", -1);
+					r_PIsDelegateInvoked.SetBelong(this.instance);
 				}
-				return r_IsDelegateInvoked;
+				return r_PIsDelegateInvoked;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TResult] StartNew(System.Threading.Tasks.Task, System.Func`1[TResult], System.Threading.CancellationToken, System.Threading.Tasks.TaskCreationOptions, System.Threading.Tasks.InternalTaskOptions, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected static RMethod r_StartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
-		public static RMethod RStartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler
+		protected static RMethod r_MStartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
+		public static RMethod RMStartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler
 		{
 			get
 			{
-				if(r_StartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler == null)
+				if(r_MStartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler == null)
 				{
-					r_StartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(typeof(System.Threading.Tasks.Task<>), "StartNew", 0, typeof(System.Threading.Tasks.Task), typeof(System.Func<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReflectionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
-					r_StartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.SetBelong(null);
+					r_MStartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(typeof(System.Threading.Tasks.Task<>), "StartNew", 0, typeof(System.Threading.Tasks.Task), typeof(System.Func<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReflectionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MStartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.SetBelong(null);
 				}
-				return r_StartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
+				return r_MStartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TResult] StartNew(System.Threading.Tasks.Task, System.Func`2[System.Object,TResult], System.Object, System.Threading.CancellationToken, System.Threading.Tasks.TaskCreationOptions, System.Threading.Tasks.InternalTaskOptions, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected static RMethod r_StartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
-		public static RMethod RStartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler
+		protected static RMethod r_MStartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
+		public static RMethod RMStartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler
 		{
 			get
 			{
-				if(r_StartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler == null)
+				if(r_MStartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler == null)
 				{
-					r_StartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(typeof(System.Threading.Tasks.Task<>), "StartNew", 0, typeof(System.Threading.Tasks.Task), typeof(System.Func<, >).MakeGenericType(typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReflectionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
-					r_StartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.SetBelong(null);
+					r_MStartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(typeof(System.Threading.Tasks.Task<>), "StartNew", 0, typeof(System.Threading.Tasks.Task), typeof(System.Func<, >).MakeGenericType(typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReflectionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MStartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.SetBelong(null);
 				}
-				return r_StartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
+				return r_MStartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TrySetResult(TResult)
 		/// </summary>
-		protected RMethod r_TrySetResult_TResult;
-		public virtual RMethod RTrySetResult_TResult
+		protected RMethod r_MTrySetResult_TResult;
+		public virtual RMethod RMTrySetResult_TResult
 		{
 			get
 			{
-				if(r_TrySetResult_TResult == null)
+				if(r_MTrySetResult_TResult == null)
 				{
-					r_TrySetResult_TResult = new(this, "TrySetResult", 0, Type.MakeGenericMethodParameter(0));
-					r_TrySetResult_TResult.SetBelong(this.instance);
+					r_MTrySetResult_TResult = new(this, "TrySetResult", 0, Type.MakeGenericMethodParameter(0));
+					r_MTrySetResult_TResult.SetBelong(this.instance);
 				}
-				return r_TrySetResult_TResult;
+				return r_MTrySetResult_TResult;
 			}
 		}
 
 		/// <summary>
 		/// Void DangerousSetResult(TResult)
 		/// </summary>
-		protected RMethod r_DangerousSetResult_TResult;
-		public virtual RMethod RDangerousSetResult_TResult
+		protected RMethod r_MDangerousSetResult_TResult;
+		public virtual RMethod RMDangerousSetResult_TResult
 		{
 			get
 			{
-				if(r_DangerousSetResult_TResult == null)
+				if(r_MDangerousSetResult_TResult == null)
 				{
-					r_DangerousSetResult_TResult = new(this, "DangerousSetResult", 0, Type.MakeGenericMethodParameter(0));
-					r_DangerousSetResult_TResult.SetBelong(this.instance);
+					r_MDangerousSetResult_TResult = new(this, "DangerousSetResult", 0, Type.MakeGenericMethodParameter(0));
+					r_MDangerousSetResult_TResult.SetBelong(this.instance);
 				}
-				return r_DangerousSetResult_TResult;
+				return r_MDangerousSetResult_TResult;
 			}
 		}
 
 		/// <summary>
 		/// TResult GetResultCore(Boolean)
 		/// </summary>
-		protected RMethod r_GetResultCore_Boolean;
-		public virtual RMethod RGetResultCore_Boolean
+		protected RMethod r_MGetResultCore_Boolean;
+		public virtual RMethod RMGetResultCore_Boolean
 		{
 			get
 			{
-				if(r_GetResultCore_Boolean == null)
+				if(r_MGetResultCore_Boolean == null)
 				{
-					r_GetResultCore_Boolean = new(this, "GetResultCore", 0, typeof(System.Boolean));
-					r_GetResultCore_Boolean.SetBelong(this.instance);
+					r_MGetResultCore_Boolean = new(this, "GetResultCore", 0, typeof(System.Boolean));
+					r_MGetResultCore_Boolean.SetBelong(this.instance);
 				}
-				return r_GetResultCore_Boolean;
+				return r_MGetResultCore_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void InnerInvoke()
 		/// </summary>
-		protected RMethod r_InnerInvoke;
-		public virtual RMethod RInnerInvoke
+		protected RMethod r_MInnerInvoke;
+		public virtual RMethod RMInnerInvoke
 		{
 			get
 			{
-				if(r_InnerInvoke == null)
+				if(r_MInnerInvoke == null)
 				{
-					r_InnerInvoke = new(this, "InnerInvoke", 0);
-					r_InnerInvoke.SetBelong(this.instance);
+					r_MInnerInvoke = new(this, "InnerInvoke", 0);
+					r_MInnerInvoke.SetBelong(this.instance);
 				}
-				return r_InnerInvoke;
+				return r_MInnerInvoke;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.CompilerServices.TaskAwaiter`1[TResult] GetAwaiter()
 		/// </summary>
-		protected RMethod r_GetAwaiter;
-		public virtual RMethod RGetAwaiter
+		protected RMethod r_MGetAwaiter;
+		public virtual RMethod RMGetAwaiter
 		{
 			get
 			{
-				if(r_GetAwaiter == null)
+				if(r_MGetAwaiter == null)
 				{
-					r_GetAwaiter = new(this, "GetAwaiter", 0);
-					r_GetAwaiter.SetBelong(this.instance);
+					r_MGetAwaiter = new(this, "GetAwaiter", 0);
+					r_MGetAwaiter.SetBelong(this.instance);
 				}
-				return r_GetAwaiter;
+				return r_MGetAwaiter;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1[TResult] ConfigureAwait(Boolean)
 		/// </summary>
-		protected RMethod r_ConfigureAwait_Boolean;
-		public virtual RMethod RConfigureAwait_Boolean
+		protected RMethod r_MConfigureAwait_Boolean;
+		public virtual RMethod RMConfigureAwait_Boolean
 		{
 			get
 			{
-				if(r_ConfigureAwait_Boolean == null)
+				if(r_MConfigureAwait_Boolean == null)
 				{
-					r_ConfigureAwait_Boolean = new(this, "ConfigureAwait", 0, typeof(System.Boolean));
-					r_ConfigureAwait_Boolean.SetBelong(this.instance);
+					r_MConfigureAwait_Boolean = new(this, "ConfigureAwait", 0, typeof(System.Boolean));
+					r_MConfigureAwait_Boolean.SetBelong(this.instance);
 				}
-				return r_ConfigureAwait_Boolean;
+				return r_MConfigureAwait_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`1[System.Threading.Tasks.Task`1[TResult]])
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_d_TResult_p__p_;
-		public virtual RMethod RContinueWith_Action_d_Task_d_TResult_p__p_
+		protected RMethod r_MContinueWith_Action_d_Task_d_TResult_p__p_;
+		public virtual RMethod RMContinueWith_Action_d_Task_d_TResult_p__p_
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_d_TResult_p__p_ == null)
+				if(r_MContinueWith_Action_d_Task_d_TResult_p__p_ == null)
 				{
-					r_ContinueWith_Action_d_Task_d_TResult_p__p_ = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)));
-					r_ContinueWith_Action_d_Task_d_TResult_p__p_.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_d_TResult_p__p_ = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)));
+					r_MContinueWith_Action_d_Task_d_TResult_p__p_.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_d_TResult_p__p_;
+				return r_MContinueWith_Action_d_Task_d_TResult_p__p_;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`1[System.Threading.Tasks.Task`1[TResult]], System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken;
-		public virtual RMethod RContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken
+		protected RMethod r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken;
+		public virtual RMethod RMContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken == null)
+				if(r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken == null)
 				{
-					r_ContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.CancellationToken));
-					r_ContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.CancellationToken));
+					r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken;
+				return r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`1[System.Threading.Tasks.Task`1[TResult]], System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler;
-		public virtual RMethod RContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler
+		protected RMethod r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler;
+		public virtual RMethod RMContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler == null)
+				if(r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler == null)
 				{
-					r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler;
+				return r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`1[System.Threading.Tasks.Task`1[TResult]], System.Threading.Tasks.TaskContinuationOptions)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions;
-		public virtual RMethod RContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions
+		protected RMethod r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions;
+		public virtual RMethod RMContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions == null)
+				if(r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions == null)
 				{
-					r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions;
+				return r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`1[System.Threading.Tasks.Task`1[TResult]], System.Threading.CancellationToken, System.Threading.Tasks.TaskContinuationOptions, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler;
-		public virtual RMethod RContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler
+		protected RMethod r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler;
+		public virtual RMethod RMContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
+				if(r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
-					r_ContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler;
+				return r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`1[System.Threading.Tasks.Task`1[TResult]], System.Threading.Tasks.TaskScheduler, System.Threading.CancellationToken, System.Threading.Tasks.TaskContinuationOptions)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions;
-		public virtual RMethod RContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions
+		protected RMethod r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions;
+		public virtual RMethod RMContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions == null)
+				if(r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions == null)
 				{
-					r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions;
+				return r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`2[System.Threading.Tasks.Task`1[TResult],System.Object], System.Object)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object;
-		public virtual RMethod RContinueWith_Action_d_Task_d_TResult_p__Object_p__Object
+		protected RMethod r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object;
+		public virtual RMethod RMContinueWith_Action_d_Task_d_TResult_p__Object_p__Object
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object == null)
+				if(r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object == null)
 				{
-					r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object));
-					r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object));
+					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object;
+				return r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`2[System.Threading.Tasks.Task`1[TResult],System.Object], System.Object, System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken;
-		public virtual RMethod RContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken
+		protected RMethod r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken;
+		public virtual RMethod RMContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken == null)
+				if(r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken == null)
 				{
-					r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.CancellationToken));
-					r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.CancellationToken));
+					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken;
+				return r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`2[System.Threading.Tasks.Task`1[TResult],System.Object], System.Object, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler;
-		public virtual RMethod RContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler
+		protected RMethod r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler;
+		public virtual RMethod RMContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler == null)
+				if(r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler == null)
 				{
-					r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler;
+				return r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`2[System.Threading.Tasks.Task`1[TResult],System.Object], System.Object, System.Threading.Tasks.TaskContinuationOptions)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions;
-		public virtual RMethod RContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions
+		protected RMethod r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions;
+		public virtual RMethod RMContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions == null)
+				if(r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions == null)
 				{
-					r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions;
+				return r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`2[System.Threading.Tasks.Task`1[TResult],System.Object], System.Object, System.Threading.CancellationToken, System.Threading.Tasks.TaskContinuationOptions, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
-		public virtual RMethod RContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler
+		protected RMethod r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
+		public virtual RMethod RMContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler == null)
+				if(r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
-					r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
+				return r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`2[System.Threading.Tasks.Task`1[TResult],System.Object], System.Object, System.Threading.Tasks.TaskScheduler, System.Threading.CancellationToken, System.Threading.Tasks.TaskContinuationOptions)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions;
-		public virtual RMethod RContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions
+		protected RMethod r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions;
+		public virtual RMethod RMContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions == null)
+				if(r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions == null)
 				{
-					r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions;
+				return r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TNewResult] ContinueWith[TNewResult](System.Func`2[System.Threading.Tasks.Task`1[TResult],TNewResult])
 		/// </summary>
-		protected RMethod r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_;
-		public virtual RMethod RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_
+		protected RMethod r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_;
+		public virtual RMethod RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_
 		{
 			get
 			{
-				if(r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_ == null)
+				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_ == null)
 				{
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_ = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)));
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_.SetBelong(this.instance);
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_ = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)));
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_;
+				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TNewResult] ContinueWith[TNewResult](System.Func`2[System.Threading.Tasks.Task`1[TResult],TNewResult], System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken;
-		public virtual RMethod RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken
+		protected RMethod r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken;
+		public virtual RMethod RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken
 		{
 			get
 			{
-				if(r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken == null)
+				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken == null)
 				{
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken.SetBelong(this.instance);
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken;
+				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TNewResult] ContinueWith[TNewResult](System.Func`2[System.Threading.Tasks.Task`1[TResult],TNewResult], System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler;
-		public virtual RMethod RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler
+		protected RMethod r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler;
+		public virtual RMethod RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler == null)
+				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler == null)
 				{
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler;
+				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TNewResult] ContinueWith[TNewResult](System.Func`2[System.Threading.Tasks.Task`1[TResult],TNewResult], System.Threading.Tasks.TaskContinuationOptions)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions;
-		public virtual RMethod RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions
+		protected RMethod r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions;
+		public virtual RMethod RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions
 		{
 			get
 			{
-				if(r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions == null)
+				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions == null)
 				{
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions.SetBelong(this.instance);
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions;
+				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TNewResult] ContinueWith[TNewResult](System.Func`2[System.Threading.Tasks.Task`1[TResult],TNewResult], System.Threading.CancellationToken, System.Threading.Tasks.TaskContinuationOptions, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
-		public virtual RMethod RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler
+		protected RMethod r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
+		public virtual RMethod RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
+				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
+				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TNewResult] ContinueWith[TNewResult](System.Func`2[System.Threading.Tasks.Task`1[TResult],TNewResult], System.Threading.Tasks.TaskScheduler, System.Threading.CancellationToken, System.Threading.Tasks.TaskContinuationOptions)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions;
-		public virtual RMethod RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions
+		protected RMethod r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions;
+		public virtual RMethod RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions
 		{
 			get
 			{
-				if(r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions == null)
+				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions == null)
 				{
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.instance);
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions;
+				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TNewResult] ContinueWith[TNewResult](System.Func`3[System.Threading.Tasks.Task`1[TResult],System.Object,TNewResult], System.Object)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object;
-		public virtual RMethod RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object
+		protected RMethod r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object;
+		public virtual RMethod RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object
 		{
 			get
 			{
-				if(r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object == null)
+				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object == null)
 				{
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object));
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object.SetBelong(this.instance);
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object));
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object;
+				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TNewResult] ContinueWith[TNewResult](System.Func`3[System.Threading.Tasks.Task`1[TResult],System.Object,TNewResult], System.Object, System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken;
-		public virtual RMethod RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken
+		protected RMethod r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken;
+		public virtual RMethod RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken
 		{
 			get
 			{
-				if(r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken == null)
+				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken == null)
 				{
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken));
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken.SetBelong(this.instance);
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken));
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken;
+				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TNewResult] ContinueWith[TNewResult](System.Func`3[System.Threading.Tasks.Task`1[TResult],System.Object,TNewResult], System.Object, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler;
-		public virtual RMethod RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler
+		protected RMethod r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler;
+		public virtual RMethod RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler == null)
+				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler == null)
 				{
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler;
+				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TNewResult] ContinueWith[TNewResult](System.Func`3[System.Threading.Tasks.Task`1[TResult],System.Object,TNewResult], System.Object, System.Threading.Tasks.TaskContinuationOptions)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions;
-		public virtual RMethod RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions
+		protected RMethod r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions;
+		public virtual RMethod RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions
 		{
 			get
 			{
-				if(r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions == null)
+				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions == null)
 				{
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions.SetBelong(this.instance);
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions;
+				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TNewResult] ContinueWith[TNewResult](System.Func`3[System.Threading.Tasks.Task`1[TResult],System.Object,TNewResult], System.Object, System.Threading.CancellationToken, System.Threading.Tasks.TaskContinuationOptions, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
-		public virtual RMethod RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler
+		protected RMethod r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
+		public virtual RMethod RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler == null)
+				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
+				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TNewResult] ContinueWith[TNewResult](System.Func`3[System.Threading.Tasks.Task`1[TResult],System.Object,TNewResult], System.Object, System.Threading.Tasks.TaskScheduler, System.Threading.CancellationToken, System.Threading.Tasks.TaskContinuationOptions)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions;
-		public virtual RMethod RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions
+		protected RMethod r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions;
+		public virtual RMethod RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions
 		{
 			get
 			{
-				if(r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions == null)
+				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions == null)
 				{
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.instance);
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions;
+				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions;
 			}
 		}
 
 		/// <summary>
 		/// Void TaskConstructorCore(System.Delegate, System.Object, System.Threading.CancellationToken, System.Threading.Tasks.TaskCreationOptions, System.Threading.Tasks.InternalTaskOptions, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
-		public virtual RMethod RTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler
+		protected RMethod r_MTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
+		public virtual RMethod RMTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler
 		{
 			get
 			{
-				if(r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler == null)
+				if(r_MTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler == null)
 				{
-					r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(this, "TaskConstructorCore", 0, typeof(System.Delegate), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReflectionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
-					r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.SetBelong(this.instance);
+					r_MTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(this, "TaskConstructorCore", 0, typeof(System.Delegate), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReflectionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
+				return r_MTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TrySetCanceled(System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_TrySetCanceled_CancellationToken;
-		public virtual RMethod RTrySetCanceled_CancellationToken
+		protected RMethod r_MTrySetCanceled_CancellationToken;
+		public virtual RMethod RMTrySetCanceled_CancellationToken
 		{
 			get
 			{
-				if(r_TrySetCanceled_CancellationToken == null)
+				if(r_MTrySetCanceled_CancellationToken == null)
 				{
-					r_TrySetCanceled_CancellationToken = new(this, "TrySetCanceled", 0, typeof(System.Threading.CancellationToken));
-					r_TrySetCanceled_CancellationToken.SetBelong(this.instance);
+					r_MTrySetCanceled_CancellationToken = new(this, "TrySetCanceled", 0, typeof(System.Threading.CancellationToken));
+					r_MTrySetCanceled_CancellationToken.SetBelong(this.instance);
 				}
-				return r_TrySetCanceled_CancellationToken;
+				return r_MTrySetCanceled_CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TrySetCanceled(System.Threading.CancellationToken, System.Object)
 		/// </summary>
-		protected RMethod r_TrySetCanceled_CancellationToken_Object;
-		public virtual RMethod RTrySetCanceled_CancellationToken_Object
+		protected RMethod r_MTrySetCanceled_CancellationToken_Object;
+		public virtual RMethod RMTrySetCanceled_CancellationToken_Object
 		{
 			get
 			{
-				if(r_TrySetCanceled_CancellationToken_Object == null)
+				if(r_MTrySetCanceled_CancellationToken_Object == null)
 				{
-					r_TrySetCanceled_CancellationToken_Object = new(this, "TrySetCanceled", 0, typeof(System.Threading.CancellationToken), typeof(System.Object));
-					r_TrySetCanceled_CancellationToken_Object.SetBelong(this.instance);
+					r_MTrySetCanceled_CancellationToken_Object = new(this, "TrySetCanceled", 0, typeof(System.Threading.CancellationToken), typeof(System.Object));
+					r_MTrySetCanceled_CancellationToken_Object.SetBelong(this.instance);
 				}
-				return r_TrySetCanceled_CancellationToken_Object;
+				return r_MTrySetCanceled_CancellationToken_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TrySetException(System.Object)
 		/// </summary>
-		protected RMethod r_TrySetException_Object;
-		public virtual RMethod RTrySetException_Object
+		protected RMethod r_MTrySetException_Object;
+		public virtual RMethod RMTrySetException_Object
 		{
 			get
 			{
-				if(r_TrySetException_Object == null)
+				if(r_MTrySetException_Object == null)
 				{
-					r_TrySetException_Object = new(this, "TrySetException", 0, typeof(System.Object));
-					r_TrySetException_Object.SetBelong(this.instance);
+					r_MTrySetException_Object = new(this, "TrySetException", 0, typeof(System.Object));
+					r_MTrySetException_Object.SetBelong(this.instance);
 				}
-				return r_TrySetException_Object;
+				return r_MTrySetException_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean AtomicStateUpdate(Int32, Int32)
 		/// </summary>
-		protected RMethod r_AtomicStateUpdate_Int32_Int32;
-		public virtual RMethod RAtomicStateUpdate_Int32_Int32
+		protected RMethod r_MAtomicStateUpdate_Int32_Int32;
+		public virtual RMethod RMAtomicStateUpdate_Int32_Int32
 		{
 			get
 			{
-				if(r_AtomicStateUpdate_Int32_Int32 == null)
+				if(r_MAtomicStateUpdate_Int32_Int32 == null)
 				{
-					r_AtomicStateUpdate_Int32_Int32 = new(this, "AtomicStateUpdate", 0, typeof(System.Int32), typeof(System.Int32));
-					r_AtomicStateUpdate_Int32_Int32.SetBelong(this.instance);
+					r_MAtomicStateUpdate_Int32_Int32 = new(this, "AtomicStateUpdate", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MAtomicStateUpdate_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_AtomicStateUpdate_Int32_Int32;
+				return r_MAtomicStateUpdate_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean AtomicStateUpdate(Int32, Int32, Int32 ByRef)
 		/// </summary>
-		protected RMethod r_AtomicStateUpdate_Int32_Int32_Ref_Int32;
-		public virtual RMethod RAtomicStateUpdate_Int32_Int32_Ref_Int32
+		protected RMethod r_MAtomicStateUpdate_Int32_Int32_Ref_Int32;
+		public virtual RMethod RMAtomicStateUpdate_Int32_Int32_Ref_Int32
 		{
 			get
 			{
-				if(r_AtomicStateUpdate_Int32_Int32_Ref_Int32 == null)
+				if(r_MAtomicStateUpdate_Int32_Int32_Ref_Int32 == null)
 				{
-					r_AtomicStateUpdate_Int32_Int32_Ref_Int32 = new(this, "AtomicStateUpdate", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32).MakeByRefType());
-					r_AtomicStateUpdate_Int32_Int32_Ref_Int32.SetBelong(this.instance);
+					r_MAtomicStateUpdate_Int32_Int32_Ref_Int32 = new(this, "AtomicStateUpdate", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32).MakeByRefType());
+					r_MAtomicStateUpdate_Int32_Int32_Ref_Int32.SetBelong(this.instance);
 				}
-				return r_AtomicStateUpdate_Int32_Int32_Ref_Int32;
+				return r_MAtomicStateUpdate_Int32_Int32_Ref_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNotificationForWaitCompletion(Boolean)
 		/// </summary>
-		protected RMethod r_SetNotificationForWaitCompletion_Boolean;
-		public virtual RMethod RSetNotificationForWaitCompletion_Boolean
+		protected RMethod r_MSetNotificationForWaitCompletion_Boolean;
+		public virtual RMethod RMSetNotificationForWaitCompletion_Boolean
 		{
 			get
 			{
-				if(r_SetNotificationForWaitCompletion_Boolean == null)
+				if(r_MSetNotificationForWaitCompletion_Boolean == null)
 				{
-					r_SetNotificationForWaitCompletion_Boolean = new(this, "SetNotificationForWaitCompletion", 0, typeof(System.Boolean));
-					r_SetNotificationForWaitCompletion_Boolean.SetBelong(this.instance);
+					r_MSetNotificationForWaitCompletion_Boolean = new(this, "SetNotificationForWaitCompletion", 0, typeof(System.Boolean));
+					r_MSetNotificationForWaitCompletion_Boolean.SetBelong(this.instance);
 				}
-				return r_SetNotificationForWaitCompletion_Boolean;
+				return r_MSetNotificationForWaitCompletion_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean NotifyDebuggerOfWaitCompletionIfNecessary()
 		/// </summary>
-		protected RMethod r_NotifyDebuggerOfWaitCompletionIfNecessary;
-		public virtual RMethod RNotifyDebuggerOfWaitCompletionIfNecessary
+		protected RMethod r_MNotifyDebuggerOfWaitCompletionIfNecessary;
+		public virtual RMethod RMNotifyDebuggerOfWaitCompletionIfNecessary
 		{
 			get
 			{
-				if(r_NotifyDebuggerOfWaitCompletionIfNecessary == null)
+				if(r_MNotifyDebuggerOfWaitCompletionIfNecessary == null)
 				{
-					r_NotifyDebuggerOfWaitCompletionIfNecessary = new(this, "NotifyDebuggerOfWaitCompletionIfNecessary", 0);
-					r_NotifyDebuggerOfWaitCompletionIfNecessary.SetBelong(this.instance);
+					r_MNotifyDebuggerOfWaitCompletionIfNecessary = new(this, "NotifyDebuggerOfWaitCompletionIfNecessary", 0);
+					r_MNotifyDebuggerOfWaitCompletionIfNecessary.SetBelong(this.instance);
 				}
-				return r_NotifyDebuggerOfWaitCompletionIfNecessary;
+				return r_MNotifyDebuggerOfWaitCompletionIfNecessary;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MarkStarted()
 		/// </summary>
-		protected RMethod r_MarkStarted;
-		public virtual RMethod RMarkStarted
+		protected RMethod r_MMarkStarted;
+		public virtual RMethod RMMarkStarted
 		{
 			get
 			{
-				if(r_MarkStarted == null)
+				if(r_MMarkStarted == null)
 				{
-					r_MarkStarted = new(this, "MarkStarted", 0);
-					r_MarkStarted.SetBelong(this.instance);
+					r_MMarkStarted = new(this, "MarkStarted", 0);
+					r_MMarkStarted.SetBelong(this.instance);
 				}
-				return r_MarkStarted;
+				return r_MMarkStarted;
 			}
 		}
 
 		/// <summary>
 		/// Void AddNewChild()
 		/// </summary>
-		protected RMethod r_AddNewChild;
-		public virtual RMethod RAddNewChild
+		protected RMethod r_MAddNewChild;
+		public virtual RMethod RMAddNewChild
 		{
 			get
 			{
-				if(r_AddNewChild == null)
+				if(r_MAddNewChild == null)
 				{
-					r_AddNewChild = new(this, "AddNewChild", 0);
-					r_AddNewChild.SetBelong(this.instance);
+					r_MAddNewChild = new(this, "AddNewChild", 0);
+					r_MAddNewChild.SetBelong(this.instance);
 				}
-				return r_AddNewChild;
+				return r_MAddNewChild;
 			}
 		}
 
 		/// <summary>
 		/// Void DisregardChild()
 		/// </summary>
-		protected RMethod r_DisregardChild;
-		public virtual RMethod RDisregardChild
+		protected RMethod r_MDisregardChild;
+		public virtual RMethod RMDisregardChild
 		{
 			get
 			{
-				if(r_DisregardChild == null)
+				if(r_MDisregardChild == null)
 				{
-					r_DisregardChild = new(this, "DisregardChild", 0);
-					r_DisregardChild.SetBelong(this.instance);
+					r_MDisregardChild = new(this, "DisregardChild", 0);
+					r_MDisregardChild.SetBelong(this.instance);
 				}
-				return r_DisregardChild;
+				return r_MDisregardChild;
 			}
 		}
 
 		/// <summary>
 		/// Void Start()
 		/// </summary>
-		protected RMethod r_Start;
-		public virtual RMethod RStart
+		protected RMethod r_MStart;
+		public virtual RMethod RMStart
 		{
 			get
 			{
-				if(r_Start == null)
+				if(r_MStart == null)
 				{
-					r_Start = new(this, "Start", 0);
-					r_Start.SetBelong(this.instance);
+					r_MStart = new(this, "Start", 0);
+					r_MStart.SetBelong(this.instance);
 				}
-				return r_Start;
+				return r_MStart;
 			}
 		}
 
 		/// <summary>
 		/// Void Start(System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_Start_TaskScheduler;
-		public virtual RMethod RStart_TaskScheduler
+		protected RMethod r_MStart_TaskScheduler;
+		public virtual RMethod RMStart_TaskScheduler
 		{
 			get
 			{
-				if(r_Start_TaskScheduler == null)
+				if(r_MStart_TaskScheduler == null)
 				{
-					r_Start_TaskScheduler = new(this, "Start", 0, typeof(System.Threading.Tasks.TaskScheduler));
-					r_Start_TaskScheduler.SetBelong(this.instance);
+					r_MStart_TaskScheduler = new(this, "Start", 0, typeof(System.Threading.Tasks.TaskScheduler));
+					r_MStart_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_Start_TaskScheduler;
+				return r_MStart_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// Void RunSynchronously()
 		/// </summary>
-		protected RMethod r_RunSynchronously;
-		public virtual RMethod RRunSynchronously
+		protected RMethod r_MRunSynchronously;
+		public virtual RMethod RMRunSynchronously
 		{
 			get
 			{
-				if(r_RunSynchronously == null)
+				if(r_MRunSynchronously == null)
 				{
-					r_RunSynchronously = new(this, "RunSynchronously", 0);
-					r_RunSynchronously.SetBelong(this.instance);
+					r_MRunSynchronously = new(this, "RunSynchronously", 0);
+					r_MRunSynchronously.SetBelong(this.instance);
 				}
-				return r_RunSynchronously;
+				return r_MRunSynchronously;
 			}
 		}
 
 		/// <summary>
 		/// Void RunSynchronously(System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_RunSynchronously_TaskScheduler;
-		public virtual RMethod RRunSynchronously_TaskScheduler
+		protected RMethod r_MRunSynchronously_TaskScheduler;
+		public virtual RMethod RMRunSynchronously_TaskScheduler
 		{
 			get
 			{
-				if(r_RunSynchronously_TaskScheduler == null)
+				if(r_MRunSynchronously_TaskScheduler == null)
 				{
-					r_RunSynchronously_TaskScheduler = new(this, "RunSynchronously", 0, typeof(System.Threading.Tasks.TaskScheduler));
-					r_RunSynchronously_TaskScheduler.SetBelong(this.instance);
+					r_MRunSynchronously_TaskScheduler = new(this, "RunSynchronously", 0, typeof(System.Threading.Tasks.TaskScheduler));
+					r_MRunSynchronously_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_RunSynchronously_TaskScheduler;
+				return r_MRunSynchronously_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalRunSynchronously(System.Threading.Tasks.TaskScheduler, Boolean)
 		/// </summary>
-		protected RMethod r_InternalRunSynchronously_TaskScheduler_Boolean;
-		public virtual RMethod RInternalRunSynchronously_TaskScheduler_Boolean
+		protected RMethod r_MInternalRunSynchronously_TaskScheduler_Boolean;
+		public virtual RMethod RMInternalRunSynchronously_TaskScheduler_Boolean
 		{
 			get
 			{
-				if(r_InternalRunSynchronously_TaskScheduler_Boolean == null)
+				if(r_MInternalRunSynchronously_TaskScheduler_Boolean == null)
 				{
-					r_InternalRunSynchronously_TaskScheduler_Boolean = new(this, "InternalRunSynchronously", 0, typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Boolean));
-					r_InternalRunSynchronously_TaskScheduler_Boolean.SetBelong(this.instance);
+					r_MInternalRunSynchronously_TaskScheduler_Boolean = new(this, "InternalRunSynchronously", 0, typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Boolean));
+					r_MInternalRunSynchronously_TaskScheduler_Boolean.SetBelong(this.instance);
 				}
-				return r_InternalRunSynchronously_TaskScheduler_Boolean;
+				return r_MInternalRunSynchronously_TaskScheduler_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// ContingentProperties EnsureContingentPropertiesInitialized(Boolean)
 		/// </summary>
-		protected RMethod r_EnsureContingentPropertiesInitialized_Boolean;
-		public virtual RMethod REnsureContingentPropertiesInitialized_Boolean
+		protected RMethod r_MEnsureContingentPropertiesInitialized_Boolean;
+		public virtual RMethod RMEnsureContingentPropertiesInitialized_Boolean
 		{
 			get
 			{
-				if(r_EnsureContingentPropertiesInitialized_Boolean == null)
+				if(r_MEnsureContingentPropertiesInitialized_Boolean == null)
 				{
-					r_EnsureContingentPropertiesInitialized_Boolean = new(this, "EnsureContingentPropertiesInitialized", 0, typeof(System.Boolean));
-					r_EnsureContingentPropertiesInitialized_Boolean.SetBelong(this.instance);
+					r_MEnsureContingentPropertiesInitialized_Boolean = new(this, "EnsureContingentPropertiesInitialized", 0, typeof(System.Boolean));
+					r_MEnsureContingentPropertiesInitialized_Boolean.SetBelong(this.instance);
 				}
-				return r_EnsureContingentPropertiesInitialized_Boolean;
+				return r_MEnsureContingentPropertiesInitialized_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose()
 		/// </summary>
-		protected RMethod r_Dispose;
-		public virtual RMethod RDispose
+		protected RMethod r_MDispose;
+		public virtual RMethod RMDispose
 		{
 			get
 			{
-				if(r_Dispose == null)
+				if(r_MDispose == null)
 				{
-					r_Dispose = new(this, "Dispose", 0);
-					r_Dispose.SetBelong(this.instance);
+					r_MDispose = new(this, "Dispose", 0);
+					r_MDispose.SetBelong(this.instance);
 				}
-				return r_Dispose;
+				return r_MDispose;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose(Boolean)
 		/// </summary>
-		protected RMethod r_Dispose_Boolean;
-		public virtual RMethod RDispose_Boolean
+		protected RMethod r_MDispose_Boolean;
+		public virtual RMethod RMDispose_Boolean
 		{
 			get
 			{
-				if(r_Dispose_Boolean == null)
+				if(r_MDispose_Boolean == null)
 				{
-					r_Dispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_Dispose_Boolean.SetBelong(this.instance);
+					r_MDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
+					r_MDispose_Boolean.SetBelong(this.instance);
 				}
-				return r_Dispose_Boolean;
+				return r_MDispose_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void ScheduleAndStart(Boolean)
 		/// </summary>
-		protected RMethod r_ScheduleAndStart_Boolean;
-		public virtual RMethod RScheduleAndStart_Boolean
+		protected RMethod r_MScheduleAndStart_Boolean;
+		public virtual RMethod RMScheduleAndStart_Boolean
 		{
 			get
 			{
-				if(r_ScheduleAndStart_Boolean == null)
+				if(r_MScheduleAndStart_Boolean == null)
 				{
-					r_ScheduleAndStart_Boolean = new(this, "ScheduleAndStart", 0, typeof(System.Boolean));
-					r_ScheduleAndStart_Boolean.SetBelong(this.instance);
+					r_MScheduleAndStart_Boolean = new(this, "ScheduleAndStart", 0, typeof(System.Boolean));
+					r_MScheduleAndStart_Boolean.SetBelong(this.instance);
 				}
-				return r_ScheduleAndStart_Boolean;
+				return r_MScheduleAndStart_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void AddException(System.Object)
 		/// </summary>
-		protected RMethod r_AddException_Object;
-		public virtual RMethod RAddException_Object
+		protected RMethod r_MAddException_Object;
+		public virtual RMethod RMAddException_Object
 		{
 			get
 			{
-				if(r_AddException_Object == null)
+				if(r_MAddException_Object == null)
 				{
-					r_AddException_Object = new(this, "AddException", 0, typeof(System.Object));
-					r_AddException_Object.SetBelong(this.instance);
+					r_MAddException_Object = new(this, "AddException", 0, typeof(System.Object));
+					r_MAddException_Object.SetBelong(this.instance);
 				}
-				return r_AddException_Object;
+				return r_MAddException_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void AddException(System.Object, Boolean)
 		/// </summary>
-		protected RMethod r_AddException_Object_Boolean;
-		public virtual RMethod RAddException_Object_Boolean
+		protected RMethod r_MAddException_Object_Boolean;
+		public virtual RMethod RMAddException_Object_Boolean
 		{
 			get
 			{
-				if(r_AddException_Object_Boolean == null)
+				if(r_MAddException_Object_Boolean == null)
 				{
-					r_AddException_Object_Boolean = new(this, "AddException", 0, typeof(System.Object), typeof(System.Boolean));
-					r_AddException_Object_Boolean.SetBelong(this.instance);
+					r_MAddException_Object_Boolean = new(this, "AddException", 0, typeof(System.Object), typeof(System.Boolean));
+					r_MAddException_Object_Boolean.SetBelong(this.instance);
 				}
-				return r_AddException_Object_Boolean;
+				return r_MAddException_Object_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[System.Runtime.ExceptionServices.ExceptionDispatchInfo] GetExceptionDispatchInfos()
 		/// </summary>
-		protected RMethod r_GetExceptionDispatchInfos;
-		public virtual RMethod RGetExceptionDispatchInfos
+		protected RMethod r_MGetExceptionDispatchInfos;
+		public virtual RMethod RMGetExceptionDispatchInfos
 		{
 			get
 			{
-				if(r_GetExceptionDispatchInfos == null)
+				if(r_MGetExceptionDispatchInfos == null)
 				{
-					r_GetExceptionDispatchInfos = new(this, "GetExceptionDispatchInfos", 0);
-					r_GetExceptionDispatchInfos.SetBelong(this.instance);
+					r_MGetExceptionDispatchInfos = new(this, "GetExceptionDispatchInfos", 0);
+					r_MGetExceptionDispatchInfos.SetBelong(this.instance);
 				}
-				return r_GetExceptionDispatchInfos;
+				return r_MGetExceptionDispatchInfos;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.ExceptionServices.ExceptionDispatchInfo GetCancellationExceptionDispatchInfo()
 		/// </summary>
-		protected RMethod r_GetCancellationExceptionDispatchInfo;
-		public virtual RMethod RGetCancellationExceptionDispatchInfo
+		protected RMethod r_MGetCancellationExceptionDispatchInfo;
+		public virtual RMethod RMGetCancellationExceptionDispatchInfo
 		{
 			get
 			{
-				if(r_GetCancellationExceptionDispatchInfo == null)
+				if(r_MGetCancellationExceptionDispatchInfo == null)
 				{
-					r_GetCancellationExceptionDispatchInfo = new(this, "GetCancellationExceptionDispatchInfo", 0);
-					r_GetCancellationExceptionDispatchInfo.SetBelong(this.instance);
+					r_MGetCancellationExceptionDispatchInfo = new(this, "GetCancellationExceptionDispatchInfo", 0);
+					r_MGetCancellationExceptionDispatchInfo.SetBelong(this.instance);
 				}
-				return r_GetCancellationExceptionDispatchInfo;
+				return r_MGetCancellationExceptionDispatchInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void ThrowIfExceptional(Boolean)
 		/// </summary>
-		protected RMethod r_ThrowIfExceptional_Boolean;
-		public virtual RMethod RThrowIfExceptional_Boolean
+		protected RMethod r_MThrowIfExceptional_Boolean;
+		public virtual RMethod RMThrowIfExceptional_Boolean
 		{
 			get
 			{
-				if(r_ThrowIfExceptional_Boolean == null)
+				if(r_MThrowIfExceptional_Boolean == null)
 				{
-					r_ThrowIfExceptional_Boolean = new(this, "ThrowIfExceptional", 0, typeof(System.Boolean));
-					r_ThrowIfExceptional_Boolean.SetBelong(this.instance);
+					r_MThrowIfExceptional_Boolean = new(this, "ThrowIfExceptional", 0, typeof(System.Boolean));
+					r_MThrowIfExceptional_Boolean.SetBelong(this.instance);
 				}
-				return r_ThrowIfExceptional_Boolean;
+				return r_MThrowIfExceptional_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateExceptionObservedStatus()
 		/// </summary>
-		protected RMethod r_UpdateExceptionObservedStatus;
-		public virtual RMethod RUpdateExceptionObservedStatus
+		protected RMethod r_MUpdateExceptionObservedStatus;
+		public virtual RMethod RMUpdateExceptionObservedStatus
 		{
 			get
 			{
-				if(r_UpdateExceptionObservedStatus == null)
+				if(r_MUpdateExceptionObservedStatus == null)
 				{
-					r_UpdateExceptionObservedStatus = new(this, "UpdateExceptionObservedStatus", 0);
-					r_UpdateExceptionObservedStatus.SetBelong(this.instance);
+					r_MUpdateExceptionObservedStatus = new(this, "UpdateExceptionObservedStatus", 0);
+					r_MUpdateExceptionObservedStatus.SetBelong(this.instance);
 				}
-				return r_UpdateExceptionObservedStatus;
+				return r_MUpdateExceptionObservedStatus;
 			}
 		}
 
 		/// <summary>
 		/// Void Finish(Boolean)
 		/// </summary>
-		protected RMethod r_Finish_Boolean;
-		public virtual RMethod RFinish_Boolean
+		protected RMethod r_MFinish_Boolean;
+		public virtual RMethod RMFinish_Boolean
 		{
 			get
 			{
-				if(r_Finish_Boolean == null)
+				if(r_MFinish_Boolean == null)
 				{
-					r_Finish_Boolean = new(this, "Finish", 0, typeof(System.Boolean));
-					r_Finish_Boolean.SetBelong(this.instance);
+					r_MFinish_Boolean = new(this, "Finish", 0, typeof(System.Boolean));
+					r_MFinish_Boolean.SetBelong(this.instance);
 				}
-				return r_Finish_Boolean;
+				return r_MFinish_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void FinishStageTwo()
 		/// </summary>
-		protected RMethod r_FinishStageTwo;
-		public virtual RMethod RFinishStageTwo
+		protected RMethod r_MFinishStageTwo;
+		public virtual RMethod RMFinishStageTwo
 		{
 			get
 			{
-				if(r_FinishStageTwo == null)
+				if(r_MFinishStageTwo == null)
 				{
-					r_FinishStageTwo = new(this, "FinishStageTwo", 0);
-					r_FinishStageTwo.SetBelong(this.instance);
+					r_MFinishStageTwo = new(this, "FinishStageTwo", 0);
+					r_MFinishStageTwo.SetBelong(this.instance);
 				}
-				return r_FinishStageTwo;
+				return r_MFinishStageTwo;
 			}
 		}
 
 		/// <summary>
 		/// Void FinishStageThree()
 		/// </summary>
-		protected RMethod r_FinishStageThree;
-		public virtual RMethod RFinishStageThree
+		protected RMethod r_MFinishStageThree;
+		public virtual RMethod RMFinishStageThree
 		{
 			get
 			{
-				if(r_FinishStageThree == null)
+				if(r_MFinishStageThree == null)
 				{
-					r_FinishStageThree = new(this, "FinishStageThree", 0);
-					r_FinishStageThree.SetBelong(this.instance);
+					r_MFinishStageThree = new(this, "FinishStageThree", 0);
+					r_MFinishStageThree.SetBelong(this.instance);
 				}
-				return r_FinishStageThree;
+				return r_MFinishStageThree;
 			}
 		}
 
 		/// <summary>
 		/// Void ProcessChildCompletion(System.Threading.Tasks.Task)
 		/// </summary>
-		protected RMethod r_ProcessChildCompletion_Task;
-		public virtual RMethod RProcessChildCompletion_Task
+		protected RMethod r_MProcessChildCompletion_Task;
+		public virtual RMethod RMProcessChildCompletion_Task
 		{
 			get
 			{
-				if(r_ProcessChildCompletion_Task == null)
+				if(r_MProcessChildCompletion_Task == null)
 				{
-					r_ProcessChildCompletion_Task = new(this, "ProcessChildCompletion", 0, typeof(System.Threading.Tasks.Task));
-					r_ProcessChildCompletion_Task.SetBelong(this.instance);
+					r_MProcessChildCompletion_Task = new(this, "ProcessChildCompletion", 0, typeof(System.Threading.Tasks.Task));
+					r_MProcessChildCompletion_Task.SetBelong(this.instance);
 				}
-				return r_ProcessChildCompletion_Task;
+				return r_MProcessChildCompletion_Task;
 			}
 		}
 
 		/// <summary>
 		/// Void AddExceptionsFromChildren()
 		/// </summary>
-		protected RMethod r_AddExceptionsFromChildren;
-		public virtual RMethod RAddExceptionsFromChildren
+		protected RMethod r_MAddExceptionsFromChildren;
+		public virtual RMethod RMAddExceptionsFromChildren
 		{
 			get
 			{
-				if(r_AddExceptionsFromChildren == null)
+				if(r_MAddExceptionsFromChildren == null)
 				{
-					r_AddExceptionsFromChildren = new(this, "AddExceptionsFromChildren", 0);
-					r_AddExceptionsFromChildren.SetBelong(this.instance);
+					r_MAddExceptionsFromChildren = new(this, "AddExceptionsFromChildren", 0);
+					r_MAddExceptionsFromChildren.SetBelong(this.instance);
 				}
-				return r_AddExceptionsFromChildren;
+				return r_MAddExceptionsFromChildren;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ExecuteEntry(Boolean)
 		/// </summary>
-		protected RMethod r_ExecuteEntry_Boolean;
-		public virtual RMethod RExecuteEntry_Boolean
+		protected RMethod r_MExecuteEntry_Boolean;
+		public virtual RMethod RMExecuteEntry_Boolean
 		{
 			get
 			{
-				if(r_ExecuteEntry_Boolean == null)
+				if(r_MExecuteEntry_Boolean == null)
 				{
-					r_ExecuteEntry_Boolean = new(this, "ExecuteEntry", 0, typeof(System.Boolean));
-					r_ExecuteEntry_Boolean.SetBelong(this.instance);
+					r_MExecuteEntry_Boolean = new(this, "ExecuteEntry", 0, typeof(System.Boolean));
+					r_MExecuteEntry_Boolean.SetBelong(this.instance);
 				}
-				return r_ExecuteEntry_Boolean;
+				return r_MExecuteEntry_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetContinuationForAwait(System.Action, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_SetContinuationForAwait_Action_Boolean_Boolean;
-		public virtual RMethod RSetContinuationForAwait_Action_Boolean_Boolean
+		protected RMethod r_MSetContinuationForAwait_Action_Boolean_Boolean;
+		public virtual RMethod RMSetContinuationForAwait_Action_Boolean_Boolean
 		{
 			get
 			{
-				if(r_SetContinuationForAwait_Action_Boolean_Boolean == null)
+				if(r_MSetContinuationForAwait_Action_Boolean_Boolean == null)
 				{
-					r_SetContinuationForAwait_Action_Boolean_Boolean = new(this, "SetContinuationForAwait", 0, typeof(System.Action), typeof(System.Boolean), typeof(System.Boolean));
-					r_SetContinuationForAwait_Action_Boolean_Boolean.SetBelong(this.instance);
+					r_MSetContinuationForAwait_Action_Boolean_Boolean = new(this, "SetContinuationForAwait", 0, typeof(System.Action), typeof(System.Boolean), typeof(System.Boolean));
+					r_MSetContinuationForAwait_Action_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_SetContinuationForAwait_Action_Boolean_Boolean;
+				return r_MSetContinuationForAwait_Action_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Wait()
 		/// </summary>
-		protected RMethod r_Wait;
-		public virtual RMethod RWait
+		protected RMethod r_MWait;
+		public virtual RMethod RMWait
 		{
 			get
 			{
-				if(r_Wait == null)
+				if(r_MWait == null)
 				{
-					r_Wait = new(this, "Wait", 0);
-					r_Wait.SetBelong(this.instance);
+					r_MWait = new(this, "Wait", 0);
+					r_MWait.SetBelong(this.instance);
 				}
-				return r_Wait;
+				return r_MWait;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Wait(System.TimeSpan)
 		/// </summary>
-		protected RMethod r_Wait_TimeSpan;
-		public virtual RMethod RWait_TimeSpan
+		protected RMethod r_MWait_TimeSpan;
+		public virtual RMethod RMWait_TimeSpan
 		{
 			get
 			{
-				if(r_Wait_TimeSpan == null)
+				if(r_MWait_TimeSpan == null)
 				{
-					r_Wait_TimeSpan = new(this, "Wait", 0, typeof(System.TimeSpan));
-					r_Wait_TimeSpan.SetBelong(this.instance);
+					r_MWait_TimeSpan = new(this, "Wait", 0, typeof(System.TimeSpan));
+					r_MWait_TimeSpan.SetBelong(this.instance);
 				}
-				return r_Wait_TimeSpan;
+				return r_MWait_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Void Wait(System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_Wait_CancellationToken;
-		public virtual RMethod RWait_CancellationToken
+		protected RMethod r_MWait_CancellationToken;
+		public virtual RMethod RMWait_CancellationToken
 		{
 			get
 			{
-				if(r_Wait_CancellationToken == null)
+				if(r_MWait_CancellationToken == null)
 				{
-					r_Wait_CancellationToken = new(this, "Wait", 0, typeof(System.Threading.CancellationToken));
-					r_Wait_CancellationToken.SetBelong(this.instance);
+					r_MWait_CancellationToken = new(this, "Wait", 0, typeof(System.Threading.CancellationToken));
+					r_MWait_CancellationToken.SetBelong(this.instance);
 				}
-				return r_Wait_CancellationToken;
+				return r_MWait_CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Wait(Int32)
 		/// </summary>
-		protected RMethod r_Wait_Int32;
-		public virtual RMethod RWait_Int32
+		protected RMethod r_MWait_Int32;
+		public virtual RMethod RMWait_Int32
 		{
 			get
 			{
-				if(r_Wait_Int32 == null)
+				if(r_MWait_Int32 == null)
 				{
-					r_Wait_Int32 = new(this, "Wait", 0, typeof(System.Int32));
-					r_Wait_Int32.SetBelong(this.instance);
+					r_MWait_Int32 = new(this, "Wait", 0, typeof(System.Int32));
+					r_MWait_Int32.SetBelong(this.instance);
 				}
-				return r_Wait_Int32;
+				return r_MWait_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Wait(Int32, System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_Wait_Int32_CancellationToken;
-		public virtual RMethod RWait_Int32_CancellationToken
+		protected RMethod r_MWait_Int32_CancellationToken;
+		public virtual RMethod RMWait_Int32_CancellationToken
 		{
 			get
 			{
-				if(r_Wait_Int32_CancellationToken == null)
+				if(r_MWait_Int32_CancellationToken == null)
 				{
-					r_Wait_Int32_CancellationToken = new(this, "Wait", 0, typeof(System.Int32), typeof(System.Threading.CancellationToken));
-					r_Wait_Int32_CancellationToken.SetBelong(this.instance);
+					r_MWait_Int32_CancellationToken = new(this, "Wait", 0, typeof(System.Int32), typeof(System.Threading.CancellationToken));
+					r_MWait_Int32_CancellationToken.SetBelong(this.instance);
 				}
-				return r_Wait_Int32_CancellationToken;
+				return r_MWait_Int32_CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// Boolean InternalWait(Int32, System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_InternalWait_Int32_CancellationToken;
-		public virtual RMethod RInternalWait_Int32_CancellationToken
+		protected RMethod r_MInternalWait_Int32_CancellationToken;
+		public virtual RMethod RMInternalWait_Int32_CancellationToken
 		{
 			get
 			{
-				if(r_InternalWait_Int32_CancellationToken == null)
+				if(r_MInternalWait_Int32_CancellationToken == null)
 				{
-					r_InternalWait_Int32_CancellationToken = new(this, "InternalWait", 0, typeof(System.Int32), typeof(System.Threading.CancellationToken));
-					r_InternalWait_Int32_CancellationToken.SetBelong(this.instance);
+					r_MInternalWait_Int32_CancellationToken = new(this, "InternalWait", 0, typeof(System.Int32), typeof(System.Threading.CancellationToken));
+					r_MInternalWait_Int32_CancellationToken.SetBelong(this.instance);
 				}
-				return r_InternalWait_Int32_CancellationToken;
+				return r_MInternalWait_Int32_CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// Boolean InternalCancel(Boolean)
 		/// </summary>
-		protected RMethod r_InternalCancel_Boolean;
-		public virtual RMethod RInternalCancel_Boolean
+		protected RMethod r_MInternalCancel_Boolean;
+		public virtual RMethod RMInternalCancel_Boolean
 		{
 			get
 			{
-				if(r_InternalCancel_Boolean == null)
+				if(r_MInternalCancel_Boolean == null)
 				{
-					r_InternalCancel_Boolean = new(this, "InternalCancel", 0, typeof(System.Boolean));
-					r_InternalCancel_Boolean.SetBelong(this.instance);
+					r_MInternalCancel_Boolean = new(this, "InternalCancel", 0, typeof(System.Boolean));
+					r_MInternalCancel_Boolean.SetBelong(this.instance);
 				}
-				return r_InternalCancel_Boolean;
+				return r_MInternalCancel_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void RecordInternalCancellationRequest()
 		/// </summary>
-		protected RMethod r_RecordInternalCancellationRequest;
-		public virtual RMethod RRecordInternalCancellationRequest
+		protected RMethod r_MRecordInternalCancellationRequest;
+		public virtual RMethod RMRecordInternalCancellationRequest
 		{
 			get
 			{
-				if(r_RecordInternalCancellationRequest == null)
+				if(r_MRecordInternalCancellationRequest == null)
 				{
-					r_RecordInternalCancellationRequest = new(this, "RecordInternalCancellationRequest", 0);
-					r_RecordInternalCancellationRequest.SetBelong(this.instance);
+					r_MRecordInternalCancellationRequest = new(this, "RecordInternalCancellationRequest", 0);
+					r_MRecordInternalCancellationRequest.SetBelong(this.instance);
 				}
-				return r_RecordInternalCancellationRequest;
+				return r_MRecordInternalCancellationRequest;
 			}
 		}
 
 		/// <summary>
 		/// Void RecordInternalCancellationRequest(System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_RecordInternalCancellationRequest_CancellationToken;
-		public virtual RMethod RRecordInternalCancellationRequest_CancellationToken
+		protected RMethod r_MRecordInternalCancellationRequest_CancellationToken;
+		public virtual RMethod RMRecordInternalCancellationRequest_CancellationToken
 		{
 			get
 			{
-				if(r_RecordInternalCancellationRequest_CancellationToken == null)
+				if(r_MRecordInternalCancellationRequest_CancellationToken == null)
 				{
-					r_RecordInternalCancellationRequest_CancellationToken = new(this, "RecordInternalCancellationRequest", 0, typeof(System.Threading.CancellationToken));
-					r_RecordInternalCancellationRequest_CancellationToken.SetBelong(this.instance);
+					r_MRecordInternalCancellationRequest_CancellationToken = new(this, "RecordInternalCancellationRequest", 0, typeof(System.Threading.CancellationToken));
+					r_MRecordInternalCancellationRequest_CancellationToken.SetBelong(this.instance);
 				}
-				return r_RecordInternalCancellationRequest_CancellationToken;
+				return r_MRecordInternalCancellationRequest_CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// Void RecordInternalCancellationRequest(System.Threading.CancellationToken, System.Object)
 		/// </summary>
-		protected RMethod r_RecordInternalCancellationRequest_CancellationToken_Object;
-		public virtual RMethod RRecordInternalCancellationRequest_CancellationToken_Object
+		protected RMethod r_MRecordInternalCancellationRequest_CancellationToken_Object;
+		public virtual RMethod RMRecordInternalCancellationRequest_CancellationToken_Object
 		{
 			get
 			{
-				if(r_RecordInternalCancellationRequest_CancellationToken_Object == null)
+				if(r_MRecordInternalCancellationRequest_CancellationToken_Object == null)
 				{
-					r_RecordInternalCancellationRequest_CancellationToken_Object = new(this, "RecordInternalCancellationRequest", 0, typeof(System.Threading.CancellationToken), typeof(System.Object));
-					r_RecordInternalCancellationRequest_CancellationToken_Object.SetBelong(this.instance);
+					r_MRecordInternalCancellationRequest_CancellationToken_Object = new(this, "RecordInternalCancellationRequest", 0, typeof(System.Threading.CancellationToken), typeof(System.Object));
+					r_MRecordInternalCancellationRequest_CancellationToken_Object.SetBelong(this.instance);
 				}
-				return r_RecordInternalCancellationRequest_CancellationToken_Object;
+				return r_MRecordInternalCancellationRequest_CancellationToken_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void CancellationCleanupLogic()
 		/// </summary>
-		protected RMethod r_CancellationCleanupLogic;
-		public virtual RMethod RCancellationCleanupLogic
+		protected RMethod r_MCancellationCleanupLogic;
+		public virtual RMethod RMCancellationCleanupLogic
 		{
 			get
 			{
-				if(r_CancellationCleanupLogic == null)
+				if(r_MCancellationCleanupLogic == null)
 				{
-					r_CancellationCleanupLogic = new(this, "CancellationCleanupLogic", 0);
-					r_CancellationCleanupLogic.SetBelong(this.instance);
+					r_MCancellationCleanupLogic = new(this, "CancellationCleanupLogic", 0);
+					r_MCancellationCleanupLogic.SetBelong(this.instance);
 				}
-				return r_CancellationCleanupLogic;
+				return r_MCancellationCleanupLogic;
 			}
 		}
 
 		/// <summary>
 		/// Void FinishContinuations()
 		/// </summary>
-		protected RMethod r_FinishContinuations;
-		public virtual RMethod RFinishContinuations
+		protected RMethod r_MFinishContinuations;
+		public virtual RMethod RMFinishContinuations
 		{
 			get
 			{
-				if(r_FinishContinuations == null)
+				if(r_MFinishContinuations == null)
 				{
-					r_FinishContinuations = new(this, "FinishContinuations", 0);
-					r_FinishContinuations.SetBelong(this.instance);
+					r_MFinishContinuations = new(this, "FinishContinuations", 0);
+					r_MFinishContinuations.SetBelong(this.instance);
 				}
-				return r_FinishContinuations;
+				return r_MFinishContinuations;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`1[System.Threading.Tasks.Task])
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_p_;
-		public virtual RMethod RContinueWith_Action_d_Task_p_
+		protected RMethod r_MContinueWith_Action_d_Task_p_;
+		public virtual RMethod RMContinueWith_Action_d_Task_p_
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_p_ == null)
+				if(r_MContinueWith_Action_d_Task_p_ == null)
 				{
-					r_ContinueWith_Action_d_Task_p_ = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)));
-					r_ContinueWith_Action_d_Task_p_.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_p_ = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)));
+					r_MContinueWith_Action_d_Task_p_.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_p_;
+				return r_MContinueWith_Action_d_Task_p_;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`1[System.Threading.Tasks.Task], System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_p__CancellationToken;
-		public virtual RMethod RContinueWith_Action_d_Task_p__CancellationToken
+		protected RMethod r_MContinueWith_Action_d_Task_p__CancellationToken;
+		public virtual RMethod RMContinueWith_Action_d_Task_p__CancellationToken
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_p__CancellationToken == null)
+				if(r_MContinueWith_Action_d_Task_p__CancellationToken == null)
 				{
-					r_ContinueWith_Action_d_Task_p__CancellationToken = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)), typeof(System.Threading.CancellationToken));
-					r_ContinueWith_Action_d_Task_p__CancellationToken.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_p__CancellationToken = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)), typeof(System.Threading.CancellationToken));
+					r_MContinueWith_Action_d_Task_p__CancellationToken.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_p__CancellationToken;
+				return r_MContinueWith_Action_d_Task_p__CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`1[System.Threading.Tasks.Task], System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_p__TaskScheduler;
-		public virtual RMethod RContinueWith_Action_d_Task_p__TaskScheduler
+		protected RMethod r_MContinueWith_Action_d_Task_p__TaskScheduler;
+		public virtual RMethod RMContinueWith_Action_d_Task_p__TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_p__TaskScheduler == null)
+				if(r_MContinueWith_Action_d_Task_p__TaskScheduler == null)
 				{
-					r_ContinueWith_Action_d_Task_p__TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_Action_d_Task_p__TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_p__TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_Action_d_Task_p__TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_p__TaskScheduler;
+				return r_MContinueWith_Action_d_Task_p__TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`1[System.Threading.Tasks.Task], System.Threading.Tasks.TaskContinuationOptions)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_p__TaskContinuationOptions;
-		public virtual RMethod RContinueWith_Action_d_Task_p__TaskContinuationOptions
+		protected RMethod r_MContinueWith_Action_d_Task_p__TaskContinuationOptions;
+		public virtual RMethod RMContinueWith_Action_d_Task_p__TaskContinuationOptions
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_p__TaskContinuationOptions == null)
+				if(r_MContinueWith_Action_d_Task_p__TaskContinuationOptions == null)
 				{
-					r_ContinueWith_Action_d_Task_p__TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_ContinueWith_Action_d_Task_p__TaskContinuationOptions.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_p__TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWith_Action_d_Task_p__TaskContinuationOptions.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_p__TaskContinuationOptions;
+				return r_MContinueWith_Action_d_Task_p__TaskContinuationOptions;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`1[System.Threading.Tasks.Task], System.Threading.CancellationToken, System.Threading.Tasks.TaskContinuationOptions, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
-		public virtual RMethod RContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler
+		protected RMethod r_MContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
+		public virtual RMethod RMContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
+				if(r_MContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
-					r_ContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
+				return r_MContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`2[System.Threading.Tasks.Task,System.Object], System.Object)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_Object_p__Object;
-		public virtual RMethod RContinueWith_Action_d_Task_Object_p__Object
+		protected RMethod r_MContinueWith_Action_d_Task_Object_p__Object;
+		public virtual RMethod RMContinueWith_Action_d_Task_Object_p__Object
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_Object_p__Object == null)
+				if(r_MContinueWith_Action_d_Task_Object_p__Object == null)
 				{
-					r_ContinueWith_Action_d_Task_Object_p__Object = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object));
-					r_ContinueWith_Action_d_Task_Object_p__Object.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_Object_p__Object = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object));
+					r_MContinueWith_Action_d_Task_Object_p__Object.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_Object_p__Object;
+				return r_MContinueWith_Action_d_Task_Object_p__Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`2[System.Threading.Tasks.Task,System.Object], System.Object, System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_Object_p__Object_CancellationToken;
-		public virtual RMethod RContinueWith_Action_d_Task_Object_p__Object_CancellationToken
+		protected RMethod r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken;
+		public virtual RMethod RMContinueWith_Action_d_Task_Object_p__Object_CancellationToken
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_Object_p__Object_CancellationToken == null)
+				if(r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken == null)
 				{
-					r_ContinueWith_Action_d_Task_Object_p__Object_CancellationToken = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.CancellationToken));
-					r_ContinueWith_Action_d_Task_Object_p__Object_CancellationToken.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.CancellationToken));
+					r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_Object_p__Object_CancellationToken;
+				return r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`2[System.Threading.Tasks.Task,System.Object], System.Object, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_Object_p__Object_TaskScheduler;
-		public virtual RMethod RContinueWith_Action_d_Task_Object_p__Object_TaskScheduler
+		protected RMethod r_MContinueWith_Action_d_Task_Object_p__Object_TaskScheduler;
+		public virtual RMethod RMContinueWith_Action_d_Task_Object_p__Object_TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_Object_p__Object_TaskScheduler == null)
+				if(r_MContinueWith_Action_d_Task_Object_p__Object_TaskScheduler == null)
 				{
-					r_ContinueWith_Action_d_Task_Object_p__Object_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_Action_d_Task_Object_p__Object_TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_Object_p__Object_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_Action_d_Task_Object_p__Object_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_Object_p__Object_TaskScheduler;
+				return r_MContinueWith_Action_d_Task_Object_p__Object_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`2[System.Threading.Tasks.Task,System.Object], System.Object, System.Threading.Tasks.TaskContinuationOptions)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions;
-		public virtual RMethod RContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions
+		protected RMethod r_MContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions;
+		public virtual RMethod RMContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions == null)
+				if(r_MContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions == null)
 				{
-					r_ContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_ContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions;
+				return r_MContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task ContinueWith(System.Action`2[System.Threading.Tasks.Task,System.Object], System.Object, System.Threading.CancellationToken, System.Threading.Tasks.TaskContinuationOptions, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
-		public virtual RMethod RContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler
+		protected RMethod r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
+		public virtual RMethod RMContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler == null)
+				if(r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
-					r_ContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
+				return r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TResult] ContinueWith[TResult](System.Func`2[System.Threading.Tasks.Task,TResult])
 		/// </summary>
-		protected RMethod r_ContinueWith_GTResult_Func_d_Task_TResult_p_;
-		public virtual RMethod RContinueWith_GTResult_Func_d_Task_TResult_p_
+		protected RMethod r_MContinueWith_GTResult_Func_d_Task_TResult_p_;
+		public virtual RMethod RMContinueWith_GTResult_Func_d_Task_TResult_p_
 		{
 			get
 			{
-				if(r_ContinueWith_GTResult_Func_d_Task_TResult_p_ == null)
+				if(r_MContinueWith_GTResult_Func_d_Task_TResult_p_ == null)
 				{
-					r_ContinueWith_GTResult_Func_d_Task_TResult_p_ = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)));
-					r_ContinueWith_GTResult_Func_d_Task_TResult_p_.SetBelong(this.instance);
+					r_MContinueWith_GTResult_Func_d_Task_TResult_p_ = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)));
+					r_MContinueWith_GTResult_Func_d_Task_TResult_p_.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTResult_Func_d_Task_TResult_p_;
+				return r_MContinueWith_GTResult_Func_d_Task_TResult_p_;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TResult] ContinueWith[TResult](System.Func`2[System.Threading.Tasks.Task,TResult], System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken;
-		public virtual RMethod RContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken
+		protected RMethod r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken;
+		public virtual RMethod RMContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken
 		{
 			get
 			{
-				if(r_ContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken == null)
+				if(r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken == null)
 				{
-					r_ContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
-					r_ContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken.SetBelong(this.instance);
+					r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
+					r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken;
+				return r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TResult] ContinueWith[TResult](System.Func`2[System.Threading.Tasks.Task,TResult], System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler;
-		public virtual RMethod RContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler
+		protected RMethod r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler;
+		public virtual RMethod RMContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler == null)
+				if(r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler == null)
 				{
-					r_ContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler;
+				return r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TResult] ContinueWith[TResult](System.Func`2[System.Threading.Tasks.Task,TResult], System.Threading.Tasks.TaskContinuationOptions)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions;
-		public virtual RMethod RContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions
+		protected RMethod r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions;
+		public virtual RMethod RMContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions
 		{
 			get
 			{
-				if(r_ContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions == null)
+				if(r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions == null)
 				{
-					r_ContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_ContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions.SetBelong(this.instance);
+					r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions;
+				return r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TResult] ContinueWith[TResult](System.Func`2[System.Threading.Tasks.Task,TResult], System.Threading.CancellationToken, System.Threading.Tasks.TaskContinuationOptions, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
-		public virtual RMethod RContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler
+		protected RMethod r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
+		public virtual RMethod RMContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
+				if(r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
-					r_ContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
+				return r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TResult] ContinueWith[TResult](System.Func`3[System.Threading.Tasks.Task,System.Object,TResult], System.Object)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object;
-		public virtual RMethod RContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object
+		protected RMethod r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object;
+		public virtual RMethod RMContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object
 		{
 			get
 			{
-				if(r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object == null)
+				if(r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object == null)
 				{
-					r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object));
-					r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object.SetBelong(this.instance);
+					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object));
+					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object;
+				return r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TResult] ContinueWith[TResult](System.Func`3[System.Threading.Tasks.Task,System.Object,TResult], System.Object, System.Threading.CancellationToken)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken;
-		public virtual RMethod RContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken
+		protected RMethod r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken;
+		public virtual RMethod RMContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken
 		{
 			get
 			{
-				if(r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken == null)
+				if(r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken == null)
 				{
-					r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken));
-					r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken.SetBelong(this.instance);
+					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken));
+					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken;
+				return r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TResult] ContinueWith[TResult](System.Func`3[System.Threading.Tasks.Task,System.Object,TResult], System.Object, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler;
-		public virtual RMethod RContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler
+		protected RMethod r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler;
+		public virtual RMethod RMContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler == null)
+				if(r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler == null)
 				{
-					r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler;
+				return r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TResult] ContinueWith[TResult](System.Func`3[System.Threading.Tasks.Task,System.Object,TResult], System.Object, System.Threading.Tasks.TaskContinuationOptions)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions;
-		public virtual RMethod RContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions
+		protected RMethod r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions;
+		public virtual RMethod RMContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions
 		{
 			get
 			{
-				if(r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions == null)
+				if(r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions == null)
 				{
-					r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions.SetBelong(this.instance);
+					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions;
+				return r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TResult] ContinueWith[TResult](System.Func`3[System.Threading.Tasks.Task,System.Object,TResult], System.Object, System.Threading.CancellationToken, System.Threading.Tasks.TaskContinuationOptions, System.Threading.Tasks.TaskScheduler)
 		/// </summary>
-		protected RMethod r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
-		public virtual RMethod RContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler
+		protected RMethod r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
+		public virtual RMethod RMContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler
 		{
 			get
 			{
-				if(r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler == null)
+				if(r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
-					r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
+					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.instance);
 				}
-				return r_ContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
+				return r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
 		}
 
 		/// <summary>
 		/// Void ContinueWithCore(System.Threading.Tasks.Task, System.Threading.Tasks.TaskScheduler, System.Threading.CancellationToken, System.Threading.Tasks.TaskContinuationOptions)
 		/// </summary>
-		protected RMethod r_ContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions;
-		public virtual RMethod RContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions
+		protected RMethod r_MContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions;
+		public virtual RMethod RMContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions
 		{
 			get
 			{
-				if(r_ContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions == null)
+				if(r_MContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions == null)
 				{
-					r_ContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWithCore", 0, typeof(System.Threading.Tasks.Task), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_ContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.instance);
+					r_MContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWithCore", 0, typeof(System.Threading.Tasks.Task), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.instance);
 				}
-				return r_ContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions;
+				return r_MContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions;
 			}
 		}
 
 		/// <summary>
 		/// Void AddCompletionAction(System.Threading.Tasks.ITaskCompletionAction)
 		/// </summary>
-		protected RMethod r_AddCompletionAction_ITaskCompletionAction;
-		public virtual RMethod RAddCompletionAction_ITaskCompletionAction
+		protected RMethod r_MAddCompletionAction_ITaskCompletionAction;
+		public virtual RMethod RMAddCompletionAction_ITaskCompletionAction
 		{
 			get
 			{
-				if(r_AddCompletionAction_ITaskCompletionAction == null)
+				if(r_MAddCompletionAction_ITaskCompletionAction == null)
 				{
-					r_AddCompletionAction_ITaskCompletionAction = new(this, "AddCompletionAction", 0,  ReflectionUtils.GetType("System.Threading.Tasks.ITaskCompletionAction"));
-					r_AddCompletionAction_ITaskCompletionAction.SetBelong(this.instance);
+					r_MAddCompletionAction_ITaskCompletionAction = new(this, "AddCompletionAction", 0,  ReflectionUtils.GetType("System.Threading.Tasks.ITaskCompletionAction"));
+					r_MAddCompletionAction_ITaskCompletionAction.SetBelong(this.instance);
 				}
-				return r_AddCompletionAction_ITaskCompletionAction;
+				return r_MAddCompletionAction_ITaskCompletionAction;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveContinuation(System.Object)
 		/// </summary>
-		protected RMethod r_RemoveContinuation_Object;
-		public virtual RMethod RRemoveContinuation_Object
+		protected RMethod r_MRemoveContinuation_Object;
+		public virtual RMethod RMRemoveContinuation_Object
 		{
 			get
 			{
-				if(r_RemoveContinuation_Object == null)
+				if(r_MRemoveContinuation_Object == null)
 				{
-					r_RemoveContinuation_Object = new(this, "RemoveContinuation", 0, typeof(System.Object));
-					r_RemoveContinuation_Object.SetBelong(this.instance);
+					r_MRemoveContinuation_Object = new(this, "RemoveContinuation", 0, typeof(System.Object));
+					r_MRemoveContinuation_Object.SetBelong(this.instance);
 				}
-				return r_RemoveContinuation_Object;
+				return r_MRemoveContinuation_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Delegate[] GetDelegateContinuationsForDebugger()
 		/// </summary>
-		protected RMethod r_GetDelegateContinuationsForDebugger;
-		public virtual RMethod RGetDelegateContinuationsForDebugger
+		protected RMethod r_MGetDelegateContinuationsForDebugger;
+		public virtual RMethod RMGetDelegateContinuationsForDebugger
 		{
 			get
 			{
-				if(r_GetDelegateContinuationsForDebugger == null)
+				if(r_MGetDelegateContinuationsForDebugger == null)
 				{
-					r_GetDelegateContinuationsForDebugger = new(this, "GetDelegateContinuationsForDebugger", 0);
-					r_GetDelegateContinuationsForDebugger.SetBelong(this.instance);
+					r_MGetDelegateContinuationsForDebugger = new(this, "GetDelegateContinuationsForDebugger", 0);
+					r_MGetDelegateContinuationsForDebugger.SetBelong(this.instance);
 				}
-				return r_GetDelegateContinuationsForDebugger;
+				return r_MGetDelegateContinuationsForDebugger;
 			}
 		}
 
 		/// <summary>
 		/// Void MarkAborted(System.Threading.ThreadAbortException)
 		/// </summary>
-		protected RMethod r_MarkAborted_ThreadAbortException;
-		public virtual RMethod RMarkAborted_ThreadAbortException
+		protected RMethod r_MMarkAborted_ThreadAbortException;
+		public virtual RMethod RMMarkAborted_ThreadAbortException
 		{
 			get
 			{
-				if(r_MarkAborted_ThreadAbortException == null)
+				if(r_MMarkAborted_ThreadAbortException == null)
 				{
-					r_MarkAborted_ThreadAbortException = new(this, "MarkAborted", 0, typeof(System.Threading.ThreadAbortException));
-					r_MarkAborted_ThreadAbortException.SetBelong(this.instance);
+					r_MMarkAborted_ThreadAbortException = new(this, "MarkAborted", 0, typeof(System.Threading.ThreadAbortException));
+					r_MMarkAborted_ThreadAbortException.SetBelong(this.instance);
 				}
-				return r_MarkAborted_ThreadAbortException;
+				return r_MMarkAborted_ThreadAbortException;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -2459,23 +2459,23 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 	    {
 	    }
 
-        public static System.Threading.Tasks.Task<TResult> StartNew(System.Threading.Tasks.Task @parent, System.Func<TResult> @function, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, RType @internalOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+        public static System.Threading.Tasks.Task<TResult> StartNew(System.Threading.Tasks.Task @parent, System.Func<TResult> @function, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, RSystem.RThreading.RTasks.RInternalTaskOptions @internalOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@parent, @function, @cancellationToken, @creationOptions, @internalOptions.Value, @scheduler};
-            var ___result = RStartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMStartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TResult>)___result;
         }
 
 
-        public static System.Threading.Tasks.Task<TResult> StartNew(System.Threading.Tasks.Task @parent, System.Func<System.Object, TResult> @function, System.Object @state, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, RType @internalOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+        public static System.Threading.Tasks.Task<TResult> StartNew(System.Threading.Tasks.Task @parent, System.Func<System.Object, TResult> @function, System.Object @state, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, RSystem.RThreading.RTasks.RInternalTaskOptions @internalOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@parent, @function, @state, @cancellationToken, @creationOptions, @internalOptions.Value, @scheduler};
-            var ___result = RStartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMStartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TResult>)___result;
         }
@@ -2486,7 +2486,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result};
-            var ___result = RTrySetResult_TResult.Invoke(___genericsType, ___parameters);
+            var ___result = RMTrySetResult_TResult.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2497,7 +2497,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result};
-            var ___result = RDangerousSetResult_TResult.Invoke(___genericsType, ___parameters);
+            var ___result = RMDangerousSetResult_TResult.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2508,7 +2508,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@waitCompletionNotification};
-            var ___result = RGetResultCore_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetResultCore_Boolean.Invoke(___genericsType, ___parameters);
 
             return (TResult)___result;
         }
@@ -2519,7 +2519,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInnerInvoke.Invoke(___genericsType, ___parameters);
+            var ___result = RMInnerInvoke.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2530,7 +2530,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetAwaiter.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetAwaiter.Invoke(___genericsType, ___parameters);
 
             return (System.Runtime.CompilerServices.TaskAwaiter<TResult>)___result;
         }
@@ -2541,7 +2541,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continueOnCapturedContext};
-            var ___result = RConfigureAwait_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMConfigureAwait_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Runtime.CompilerServices.ConfiguredTaskAwaitable<TResult>)___result;
         }
@@ -2552,7 +2552,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction};
-            var ___result = RContinueWith_Action_d_Task_d_TResult_p__p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_d_TResult_p__p_.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2563,7 +2563,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @cancellationToken};
-            var ___result = RContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2574,7 +2574,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @scheduler};
-            var ___result = RContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2585,7 +2585,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @continuationOptions};
-            var ___result = RContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2596,7 +2596,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2607,7 +2607,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @scheduler, @cancellationToken, @continuationOptions};
-            var ___result = RContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2618,7 +2618,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @state};
-            var ___result = RContinueWith_Action_d_Task_d_TResult_p__Object_p__Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_d_TResult_p__Object_p__Object.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2629,7 +2629,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @state, @cancellationToken};
-            var ___result = RContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2640,7 +2640,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @state, @scheduler};
-            var ___result = RContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2651,7 +2651,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @state, @continuationOptions};
-            var ___result = RContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2662,7 +2662,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @state, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2673,7 +2673,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @state, @scheduler, @cancellationToken, @continuationOptions};
-            var ___result = RContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -2684,7 +2684,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TNewResult)};
             var ___parameters = new object[]{@continuationFunction};
-            var ___result = RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TNewResult>)___result;
         }
@@ -2695,7 +2695,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TNewResult)};
             var ___parameters = new object[]{@continuationFunction, @cancellationToken};
-            var ___result = RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TNewResult>)___result;
         }
@@ -2706,7 +2706,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TNewResult)};
             var ___parameters = new object[]{@continuationFunction, @scheduler};
-            var ___result = RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TNewResult>)___result;
         }
@@ -2717,7 +2717,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TNewResult)};
             var ___parameters = new object[]{@continuationFunction, @continuationOptions};
-            var ___result = RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TNewResult>)___result;
         }
@@ -2728,7 +2728,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TNewResult)};
             var ___parameters = new object[]{@continuationFunction, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TNewResult>)___result;
         }
@@ -2739,7 +2739,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TNewResult)};
             var ___parameters = new object[]{@continuationFunction, @scheduler, @cancellationToken, @continuationOptions};
-            var ___result = RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TNewResult>)___result;
         }
@@ -2750,7 +2750,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TNewResult)};
             var ___parameters = new object[]{@continuationFunction, @state};
-            var ___result = RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TNewResult>)___result;
         }
@@ -2761,7 +2761,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TNewResult)};
             var ___parameters = new object[]{@continuationFunction, @state, @cancellationToken};
-            var ___result = RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TNewResult>)___result;
         }
@@ -2772,7 +2772,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TNewResult)};
             var ___parameters = new object[]{@continuationFunction, @state, @scheduler};
-            var ___result = RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TNewResult>)___result;
         }
@@ -2783,7 +2783,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TNewResult)};
             var ___parameters = new object[]{@continuationFunction, @state, @continuationOptions};
-            var ___result = RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TNewResult>)___result;
         }
@@ -2794,7 +2794,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TNewResult)};
             var ___parameters = new object[]{@continuationFunction, @state, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TNewResult>)___result;
         }
@@ -2805,18 +2805,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TNewResult)};
             var ___parameters = new object[]{@continuationFunction, @state, @scheduler, @cancellationToken, @continuationOptions};
-            var ___result = RContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TNewResult>)___result;
         }
 
 
-        public virtual void TaskConstructorCore(System.Delegate @action, System.Object @state, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, RType @internalOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+        public virtual void TaskConstructorCore(System.Delegate @action, System.Object @state, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, RSystem.RThreading.RTasks.RInternalTaskOptions @internalOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action, @state, @cancellationToken, @creationOptions, @internalOptions.Value, @scheduler};
-            var ___result = RTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2827,7 +2827,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tokenToRecord};
-            var ___result = RTrySetCanceled_CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMTrySetCanceled_CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2838,7 +2838,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tokenToRecord, @cancellationException};
-            var ___result = RTrySetCanceled_CancellationToken_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMTrySetCanceled_CancellationToken_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2849,7 +2849,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@exceptionObject};
-            var ___result = RTrySetException_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMTrySetException_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2860,7 +2860,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newBits, @illegalBits};
-            var ___result = RAtomicStateUpdate_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMAtomicStateUpdate_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2871,7 +2871,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newBits, @illegalBits, @oldFlags};
-            var ___result = RAtomicStateUpdate_Int32_Int32_Ref_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMAtomicStateUpdate_Int32_Int32_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@oldFlags = (System.Int32)___parameters[2];
 
             return (System.Boolean)___result;
@@ -2883,7 +2883,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@enabled};
-            var ___result = RSetNotificationForWaitCompletion_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetNotificationForWaitCompletion_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2894,7 +2894,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RNotifyDebuggerOfWaitCompletionIfNecessary.Invoke(___genericsType, ___parameters);
+            var ___result = RMNotifyDebuggerOfWaitCompletionIfNecessary.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2905,7 +2905,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMarkStarted.Invoke(___genericsType, ___parameters);
+            var ___result = RMMarkStarted.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2916,7 +2916,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RAddNewChild.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddNewChild.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2927,7 +2927,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RDisregardChild.Invoke(___genericsType, ___parameters);
+            var ___result = RMDisregardChild.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2938,7 +2938,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RStart.Invoke(___genericsType, ___parameters);
+            var ___result = RMStart.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2949,7 +2949,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@scheduler};
-            var ___result = RStart_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMStart_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2960,7 +2960,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RRunSynchronously.Invoke(___genericsType, ___parameters);
+            var ___result = RMRunSynchronously.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2971,7 +2971,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@scheduler};
-            var ___result = RRunSynchronously_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMRunSynchronously_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2982,7 +2982,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@scheduler, @waitForCompletion};
-            var ___result = RInternalRunSynchronously_TaskScheduler_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMInternalRunSynchronously_TaskScheduler_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2993,7 +2993,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@needsProtection};
-            var ___result = REnsureContingentPropertiesInitialized_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMEnsureContingentPropertiesInitialized_Boolean.Invoke(___genericsType, ___parameters);
 
             return new RSystem.RThreading.RTasks.RTask.RContingentProperties(___result);
         }
@@ -3004,7 +3004,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RDispose.Invoke(___genericsType, ___parameters);
+            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3015,7 +3015,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@disposing};
-            var ___result = RDispose_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3026,7 +3026,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@needsProtection};
-            var ___result = RScheduleAndStart_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMScheduleAndStart_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3037,7 +3037,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@exceptionObject};
-            var ___result = RAddException_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddException_Object.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3048,7 +3048,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@exceptionObject, @representsCancellation};
-            var ___result = RAddException_Object_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddException_Object_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3059,7 +3059,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetExceptionDispatchInfos.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetExceptionDispatchInfos.Invoke(___genericsType, ___parameters);
 
             return (System.Collections.ObjectModel.ReadOnlyCollection<System.Runtime.ExceptionServices.ExceptionDispatchInfo>)___result;
         }
@@ -3070,7 +3070,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetCancellationExceptionDispatchInfo.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCancellationExceptionDispatchInfo.Invoke(___genericsType, ___parameters);
 
             return (System.Runtime.ExceptionServices.ExceptionDispatchInfo)___result;
         }
@@ -3081,7 +3081,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@includeTaskCanceledExceptions};
-            var ___result = RThrowIfExceptional_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMThrowIfExceptional_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3092,7 +3092,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateExceptionObservedStatus.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateExceptionObservedStatus.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3103,7 +3103,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bUserDelegateExecuted};
-            var ___result = RFinish_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinish_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3114,7 +3114,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinishStageTwo.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinishStageTwo.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3125,7 +3125,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinishStageThree.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinishStageThree.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3136,7 +3136,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@childTask};
-            var ___result = RProcessChildCompletion_Task.Invoke(___genericsType, ___parameters);
+            var ___result = RMProcessChildCompletion_Task.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3147,7 +3147,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RAddExceptionsFromChildren.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddExceptionsFromChildren.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3158,7 +3158,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bPreventDoubleExecution};
-            var ___result = RExecuteEntry_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMExecuteEntry_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3169,7 +3169,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @continueOnCapturedContext, @flowExecutionContext};
-            var ___result = RSetContinuationForAwait_Action_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetContinuationForAwait_Action_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3180,7 +3180,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RWait.Invoke(___genericsType, ___parameters);
+            var ___result = RMWait.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3191,7 +3191,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@timeout};
-            var ___result = RWait_TimeSpan.Invoke(___genericsType, ___parameters);
+            var ___result = RMWait_TimeSpan.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3202,7 +3202,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cancellationToken};
-            var ___result = RWait_CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMWait_CancellationToken.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3213,7 +3213,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@millisecondsTimeout};
-            var ___result = RWait_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMWait_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3224,7 +3224,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@millisecondsTimeout, @cancellationToken};
-            var ___result = RWait_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMWait_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3235,7 +3235,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@millisecondsTimeout, @cancellationToken};
-            var ___result = RInternalWait_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMInternalWait_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3246,7 +3246,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bCancelNonExecutingOnly};
-            var ___result = RInternalCancel_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMInternalCancel_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3257,7 +3257,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RRecordInternalCancellationRequest.Invoke(___genericsType, ___parameters);
+            var ___result = RMRecordInternalCancellationRequest.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3268,7 +3268,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tokenToRecord};
-            var ___result = RRecordInternalCancellationRequest_CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMRecordInternalCancellationRequest_CancellationToken.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3279,7 +3279,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tokenToRecord, @cancellationException};
-            var ___result = RRecordInternalCancellationRequest_CancellationToken_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMRecordInternalCancellationRequest_CancellationToken_Object.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3290,7 +3290,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCancellationCleanupLogic.Invoke(___genericsType, ___parameters);
+            var ___result = RMCancellationCleanupLogic.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3301,7 +3301,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinishContinuations.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinishContinuations.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3312,7 +3312,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction};
-            var ___result = RContinueWith_Action_d_Task_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_p_.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -3323,7 +3323,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @cancellationToken};
-            var ___result = RContinueWith_Action_d_Task_p__CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -3334,7 +3334,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @scheduler};
-            var ___result = RContinueWith_Action_d_Task_p__TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_p__TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -3345,7 +3345,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @continuationOptions};
-            var ___result = RContinueWith_Action_d_Task_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -3356,7 +3356,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -3367,7 +3367,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @state};
-            var ___result = RContinueWith_Action_d_Task_Object_p__Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_Object_p__Object.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -3378,7 +3378,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @state, @cancellationToken};
-            var ___result = RContinueWith_Action_d_Task_Object_p__Object_CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_Object_p__Object_CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -3389,7 +3389,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @state, @scheduler};
-            var ___result = RContinueWith_Action_d_Task_Object_p__Object_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_Object_p__Object_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -3400,7 +3400,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @state, @continuationOptions};
-            var ___result = RContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -3411,7 +3411,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationAction, @state, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task)___result;
         }
@@ -3422,7 +3422,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TResult)};
             var ___parameters = new object[]{@continuationFunction};
-            var ___result = RContinueWith_GTResult_Func_d_Task_TResult_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTResult_Func_d_Task_TResult_p_.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TResult>)___result;
         }
@@ -3433,7 +3433,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TResult)};
             var ___parameters = new object[]{@continuationFunction, @cancellationToken};
-            var ___result = RContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TResult>)___result;
         }
@@ -3444,7 +3444,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TResult)};
             var ___parameters = new object[]{@continuationFunction, @scheduler};
-            var ___result = RContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TResult>)___result;
         }
@@ -3455,7 +3455,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TResult)};
             var ___parameters = new object[]{@continuationFunction, @continuationOptions};
-            var ___result = RContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TResult>)___result;
         }
@@ -3466,7 +3466,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TResult)};
             var ___parameters = new object[]{@continuationFunction, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TResult>)___result;
         }
@@ -3477,7 +3477,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TResult)};
             var ___parameters = new object[]{@continuationFunction, @state};
-            var ___result = RContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TResult>)___result;
         }
@@ -3488,7 +3488,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TResult)};
             var ___parameters = new object[]{@continuationFunction, @state, @cancellationToken};
-            var ___result = RContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TResult>)___result;
         }
@@ -3499,7 +3499,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TResult)};
             var ___parameters = new object[]{@continuationFunction, @state, @scheduler};
-            var ___result = RContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TResult>)___result;
         }
@@ -3510,7 +3510,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TResult)};
             var ___parameters = new object[]{@continuationFunction, @state, @continuationOptions};
-            var ___result = RContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TResult>)___result;
         }
@@ -3521,7 +3521,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {typeof(TResult)};
             var ___parameters = new object[]{@continuationFunction, @state, @cancellationToken, @continuationOptions, @scheduler};
-            var ___result = RContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.Task<TResult>)___result;
         }
@@ -3532,7 +3532,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationTask, @scheduler, @cancellationToken, @options};
-            var ___result = RContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3543,7 +3543,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action.Value};
-            var ___result = RAddCompletionAction_ITaskCompletionAction.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddCompletionAction_ITaskCompletionAction.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3554,7 +3554,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationObject};
-            var ___result = RRemoveContinuation_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveContinuation_Object.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3565,7 +3565,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetDelegateContinuationsForDebugger.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetDelegateContinuationsForDebugger.Invoke(___genericsType, ___parameters);
 
             return (System.Delegate[])___result;
         }
@@ -3576,7 +3576,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@e};
-            var ___result = RMarkAborted_ThreadAbortException.Invoke(___genericsType, ___parameters);
+            var ___result = RMMarkAborted_ThreadAbortException.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3587,7 +3587,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -3598,7 +3598,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3609,7 +3609,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -3620,7 +3620,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -3631,7 +3631,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -3642,7 +3642,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

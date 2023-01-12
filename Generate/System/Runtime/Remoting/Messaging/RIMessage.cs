@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Collections.IDictionary Properties
 		/// </summary>
-		protected RSystem.RCollections.RIDictionary r_Properties;
-		public virtual RSystem.RCollections.RIDictionary RProperties
+		protected RSystem.RCollections.RIDictionary r_PProperties;
+		public virtual RSystem.RCollections.RIDictionary RPProperties
 		{
 			get
 			{
-				if(r_Properties == null)
+				if(r_PProperties == null)
 				{
-					r_Properties = new(this, "Properties", -1);
-					r_Properties.SetBelong(this.instance);
+					r_PProperties = new(this, "Properties", -1);
+					r_PProperties.SetBelong(this.instance);
 				}
-				return r_Properties;
+				return r_PProperties;
 			}
 		}
 

@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// T Current
 		/// </summary>
-		protected RProperty r_Current;
-		public virtual RProperty RCurrent
+		protected RProperty r_PCurrent;
+		public virtual RProperty RPCurrent
 		{
 			get
 			{
-				if(r_Current == null)
+				if(r_PCurrent == null)
 				{
-					r_Current = new(this, "Current", -1);
-					r_Current.SetBelong(this.instance);
+					r_PCurrent = new(this, "Current", -1);
+					r_PCurrent.SetBelong(this.instance);
 				}
-				return r_Current;
+				return r_PCurrent;
 			}
 		}
 

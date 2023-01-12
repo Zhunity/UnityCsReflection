@@ -13,867 +13,867 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// Single maxRecursionDepth
 		/// </summary>
-		protected RSystem.RSingle r_maxRecursionDepth;
-		public virtual RSystem.RSingle RmaxRecursionDepth
+		protected RSystem.RSingle r_PmaxRecursionDepth;
+		public virtual RSystem.RSingle RPmaxRecursionDepth
 		{
 			get
 			{
-				if(r_maxRecursionDepth == null)
+				if(r_PmaxRecursionDepth == null)
 				{
-					r_maxRecursionDepth = new(this, "maxRecursionDepth", -1);
-					r_maxRecursionDepth.SetBelong(this.instance);
+					r_PmaxRecursionDepth = new(this, "maxRecursionDepth", -1);
+					r_PmaxRecursionDepth.SetBelong(this.instance);
 				}
-				return r_maxRecursionDepth;
+				return r_PmaxRecursionDepth;
 			}
 		}
 
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RSystem.RString r_name;
-		public virtual RSystem.RString Rname
+		protected RSystem.RString r_Pname;
+		public virtual RSystem.RString RPname
 		{
 			get
 			{
-				if(r_name == null)
+				if(r_Pname == null)
 				{
-					r_name = new(this, "name", -1);
-					r_name.SetBelong(this.instance);
+					r_Pname = new(this, "name", -1);
+					r_Pname.SetBelong(this.instance);
 				}
-				return r_name;
+				return r_Pname;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected RProperty r_hideFlags;
-		public virtual RProperty RhideFlags
+		protected RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{
-				if(r_hideFlags == null)
+				if(r_PhideFlags == null)
 				{
-					r_hideFlags = new(this, "hideFlags", -1);
-					r_hideFlags.SetBelong(this.instance);
+					r_PhideFlags = new(this, "hideFlags", -1);
+					r_PhideFlags.SetBelong(this.instance);
 				}
-				return r_hideFlags;
+				return r_PhideFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetFloat(Int32, Single)
 		/// </summary>
-		protected RMethod r_SetFloat_Int32_Single;
-		public virtual RMethod RSetFloat_Int32_Single
+		protected RMethod r_MSetFloat_Int32_Single;
+		public virtual RMethod RMSetFloat_Int32_Single
 		{
 			get
 			{
-				if(r_SetFloat_Int32_Single == null)
+				if(r_MSetFloat_Int32_Single == null)
 				{
-					r_SetFloat_Int32_Single = new(this, "SetFloat", 0, typeof(System.Int32), typeof(System.Single));
-					r_SetFloat_Int32_Single.SetBelong(this.instance);
+					r_MSetFloat_Int32_Single = new(this, "SetFloat", 0, typeof(System.Int32), typeof(System.Single));
+					r_MSetFloat_Int32_Single.SetBelong(this.instance);
 				}
-				return r_SetFloat_Int32_Single;
+				return r_MSetFloat_Int32_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void SetInt(Int32, Int32)
 		/// </summary>
-		protected RMethod r_SetInt_Int32_Int32;
-		public virtual RMethod RSetInt_Int32_Int32
+		protected RMethod r_MSetInt_Int32_Int32;
+		public virtual RMethod RMSetInt_Int32_Int32
 		{
 			get
 			{
-				if(r_SetInt_Int32_Int32 == null)
+				if(r_MSetInt_Int32_Int32 == null)
 				{
-					r_SetInt_Int32_Int32 = new(this, "SetInt", 0, typeof(System.Int32), typeof(System.Int32));
-					r_SetInt_Int32_Int32.SetBelong(this.instance);
+					r_MSetInt_Int32_Int32 = new(this, "SetInt", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MSetInt_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_SetInt_Int32_Int32;
+				return r_MSetInt_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVector(Int32, UnityEngine.Vector4)
 		/// </summary>
-		protected RMethod r_SetVector_Int32_Vector4;
-		public virtual RMethod RSetVector_Int32_Vector4
+		protected RMethod r_MSetVector_Int32_Vector4;
+		public virtual RMethod RMSetVector_Int32_Vector4
 		{
 			get
 			{
-				if(r_SetVector_Int32_Vector4 == null)
+				if(r_MSetVector_Int32_Vector4 == null)
 				{
-					r_SetVector_Int32_Vector4 = new(this, "SetVector", 0, typeof(System.Int32), typeof(UnityEngine.Vector4));
-					r_SetVector_Int32_Vector4.SetBelong(this.instance);
+					r_MSetVector_Int32_Vector4 = new(this, "SetVector", 0, typeof(System.Int32), typeof(UnityEngine.Vector4));
+					r_MSetVector_Int32_Vector4.SetBelong(this.instance);
 				}
-				return r_SetVector_Int32_Vector4;
+				return r_MSetVector_Int32_Vector4;
 			}
 		}
 
 		/// <summary>
 		/// Void SetMatrix(Int32, UnityEngine.Matrix4x4)
 		/// </summary>
-		protected RMethod r_SetMatrix_Int32_Matrix4x4;
-		public virtual RMethod RSetMatrix_Int32_Matrix4x4
+		protected RMethod r_MSetMatrix_Int32_Matrix4x4;
+		public virtual RMethod RMSetMatrix_Int32_Matrix4x4
 		{
 			get
 			{
-				if(r_SetMatrix_Int32_Matrix4x4 == null)
+				if(r_MSetMatrix_Int32_Matrix4x4 == null)
 				{
-					r_SetMatrix_Int32_Matrix4x4 = new(this, "SetMatrix", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4));
-					r_SetMatrix_Int32_Matrix4x4.SetBelong(this.instance);
+					r_MSetMatrix_Int32_Matrix4x4 = new(this, "SetMatrix", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4));
+					r_MSetMatrix_Int32_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_SetMatrix_Int32_Matrix4x4;
+				return r_MSetMatrix_Int32_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void SetFloatArray(Int32, Single[])
 		/// </summary>
-		protected RMethod r_SetFloatArray_Int32_SingleArray;
-		public virtual RMethod RSetFloatArray_Int32_SingleArray
+		protected RMethod r_MSetFloatArray_Int32_SingleArray;
+		public virtual RMethod RMSetFloatArray_Int32_SingleArray
 		{
 			get
 			{
-				if(r_SetFloatArray_Int32_SingleArray == null)
+				if(r_MSetFloatArray_Int32_SingleArray == null)
 				{
-					r_SetFloatArray_Int32_SingleArray = new(this, "SetFloatArray", 0, typeof(System.Int32), typeof(System.Single).MakeArrayType());
-					r_SetFloatArray_Int32_SingleArray.SetBelong(this.instance);
+					r_MSetFloatArray_Int32_SingleArray = new(this, "SetFloatArray", 0, typeof(System.Int32), typeof(System.Single).MakeArrayType());
+					r_MSetFloatArray_Int32_SingleArray.SetBelong(this.instance);
 				}
-				return r_SetFloatArray_Int32_SingleArray;
+				return r_MSetFloatArray_Int32_SingleArray;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIntArray(Int32, Int32[])
 		/// </summary>
-		protected RMethod r_SetIntArray_Int32_Int32Array;
-		public virtual RMethod RSetIntArray_Int32_Int32Array
+		protected RMethod r_MSetIntArray_Int32_Int32Array;
+		public virtual RMethod RMSetIntArray_Int32_Int32Array
 		{
 			get
 			{
-				if(r_SetIntArray_Int32_Int32Array == null)
+				if(r_MSetIntArray_Int32_Int32Array == null)
 				{
-					r_SetIntArray_Int32_Int32Array = new(this, "SetIntArray", 0, typeof(System.Int32), typeof(System.Int32).MakeArrayType());
-					r_SetIntArray_Int32_Int32Array.SetBelong(this.instance);
+					r_MSetIntArray_Int32_Int32Array = new(this, "SetIntArray", 0, typeof(System.Int32), typeof(System.Int32).MakeArrayType());
+					r_MSetIntArray_Int32_Int32Array.SetBelong(this.instance);
 				}
-				return r_SetIntArray_Int32_Int32Array;
+				return r_MSetIntArray_Int32_Int32Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVectorArray(Int32, UnityEngine.Vector4[])
 		/// </summary>
-		protected RMethod r_SetVectorArray_Int32_Vector4Array;
-		public virtual RMethod RSetVectorArray_Int32_Vector4Array
+		protected RMethod r_MSetVectorArray_Int32_Vector4Array;
+		public virtual RMethod RMSetVectorArray_Int32_Vector4Array
 		{
 			get
 			{
-				if(r_SetVectorArray_Int32_Vector4Array == null)
+				if(r_MSetVectorArray_Int32_Vector4Array == null)
 				{
-					r_SetVectorArray_Int32_Vector4Array = new(this, "SetVectorArray", 0, typeof(System.Int32), typeof(UnityEngine.Vector4).MakeArrayType());
-					r_SetVectorArray_Int32_Vector4Array.SetBelong(this.instance);
+					r_MSetVectorArray_Int32_Vector4Array = new(this, "SetVectorArray", 0, typeof(System.Int32), typeof(UnityEngine.Vector4).MakeArrayType());
+					r_MSetVectorArray_Int32_Vector4Array.SetBelong(this.instance);
 				}
-				return r_SetVectorArray_Int32_Vector4Array;
+				return r_MSetVectorArray_Int32_Vector4Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetMatrixArray(Int32, UnityEngine.Matrix4x4[])
 		/// </summary>
-		protected RMethod r_SetMatrixArray_Int32_Matrix4x4Array;
-		public virtual RMethod RSetMatrixArray_Int32_Matrix4x4Array
+		protected RMethod r_MSetMatrixArray_Int32_Matrix4x4Array;
+		public virtual RMethod RMSetMatrixArray_Int32_Matrix4x4Array
 		{
 			get
 			{
-				if(r_SetMatrixArray_Int32_Matrix4x4Array == null)
+				if(r_MSetMatrixArray_Int32_Matrix4x4Array == null)
 				{
-					r_SetMatrixArray_Int32_Matrix4x4Array = new(this, "SetMatrixArray", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeArrayType());
-					r_SetMatrixArray_Int32_Matrix4x4Array.SetBelong(this.instance);
+					r_MSetMatrixArray_Int32_Matrix4x4Array = new(this, "SetMatrixArray", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeArrayType());
+					r_MSetMatrixArray_Int32_Matrix4x4Array.SetBelong(this.instance);
 				}
-				return r_SetMatrixArray_Int32_Matrix4x4Array;
+				return r_MSetMatrixArray_Int32_Matrix4x4Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTexture(Int32, UnityEngine.Texture)
 		/// </summary>
-		protected RMethod r_SetTexture_Int32_Texture;
-		public virtual RMethod RSetTexture_Int32_Texture
+		protected RMethod r_MSetTexture_Int32_Texture;
+		public virtual RMethod RMSetTexture_Int32_Texture
 		{
 			get
 			{
-				if(r_SetTexture_Int32_Texture == null)
+				if(r_MSetTexture_Int32_Texture == null)
 				{
-					r_SetTexture_Int32_Texture = new(this, "SetTexture", 0, typeof(System.Int32), typeof(UnityEngine.Texture));
-					r_SetTexture_Int32_Texture.SetBelong(this.instance);
+					r_MSetTexture_Int32_Texture = new(this, "SetTexture", 0, typeof(System.Int32), typeof(UnityEngine.Texture));
+					r_MSetTexture_Int32_Texture.SetBelong(this.instance);
 				}
-				return r_SetTexture_Int32_Texture;
+				return r_MSetTexture_Int32_Texture;
 			}
 		}
 
 		/// <summary>
 		/// Void SetBuffer(Int32, UnityEngine.ComputeBuffer)
 		/// </summary>
-		protected RMethod r_SetBuffer_Int32_ComputeBuffer;
-		public virtual RMethod RSetBuffer_Int32_ComputeBuffer
+		protected RMethod r_MSetBuffer_Int32_ComputeBuffer;
+		public virtual RMethod RMSetBuffer_Int32_ComputeBuffer
 		{
 			get
 			{
-				if(r_SetBuffer_Int32_ComputeBuffer == null)
+				if(r_MSetBuffer_Int32_ComputeBuffer == null)
 				{
-					r_SetBuffer_Int32_ComputeBuffer = new(this, "SetBuffer", 0, typeof(System.Int32), typeof(UnityEngine.ComputeBuffer));
-					r_SetBuffer_Int32_ComputeBuffer.SetBelong(this.instance);
+					r_MSetBuffer_Int32_ComputeBuffer = new(this, "SetBuffer", 0, typeof(System.Int32), typeof(UnityEngine.ComputeBuffer));
+					r_MSetBuffer_Int32_ComputeBuffer.SetBelong(this.instance);
 				}
-				return r_SetBuffer_Int32_ComputeBuffer;
+				return r_MSetBuffer_Int32_ComputeBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void SetGraphicsBuffer(Int32, UnityEngine.GraphicsBuffer)
 		/// </summary>
-		protected RMethod r_SetGraphicsBuffer_Int32_GraphicsBuffer;
-		public virtual RMethod RSetGraphicsBuffer_Int32_GraphicsBuffer
+		protected RMethod r_MSetGraphicsBuffer_Int32_GraphicsBuffer;
+		public virtual RMethod RMSetGraphicsBuffer_Int32_GraphicsBuffer
 		{
 			get
 			{
-				if(r_SetGraphicsBuffer_Int32_GraphicsBuffer == null)
+				if(r_MSetGraphicsBuffer_Int32_GraphicsBuffer == null)
 				{
-					r_SetGraphicsBuffer_Int32_GraphicsBuffer = new(this, "SetGraphicsBuffer", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer));
-					r_SetGraphicsBuffer_Int32_GraphicsBuffer.SetBelong(this.instance);
+					r_MSetGraphicsBuffer_Int32_GraphicsBuffer = new(this, "SetGraphicsBuffer", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer));
+					r_MSetGraphicsBuffer_Int32_GraphicsBuffer.SetBelong(this.instance);
 				}
-				return r_SetGraphicsBuffer_Int32_GraphicsBuffer;
+				return r_MSetGraphicsBuffer_Int32_GraphicsBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void SetConstantComputeBuffer(Int32, UnityEngine.ComputeBuffer, Int32, Int32)
 		/// </summary>
-		protected RMethod r_SetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32;
-		public virtual RMethod RSetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32
+		protected RMethod r_MSetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32;
+		public virtual RMethod RMSetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32
 		{
 			get
 			{
-				if(r_SetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32 == null)
+				if(r_MSetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32 == null)
 				{
-					r_SetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32 = new(this, "SetConstantComputeBuffer", 0, typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_SetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MSetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32 = new(this, "SetConstantComputeBuffer", 0, typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32));
+					r_MSetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_SetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32;
+				return r_MSetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetConstantGraphicsBuffer(Int32, UnityEngine.GraphicsBuffer, Int32, Int32)
 		/// </summary>
-		protected RMethod r_SetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32;
-		public virtual RMethod RSetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32
+		protected RMethod r_MSetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32;
+		public virtual RMethod RMSetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32
 		{
 			get
 			{
-				if(r_SetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32 == null)
+				if(r_MSetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32 == null)
 				{
-					r_SetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32 = new(this, "SetConstantGraphicsBuffer", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_SetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MSetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32 = new(this, "SetConstantGraphicsBuffer", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32));
+					r_MSetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_SetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32;
+				return r_MSetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAccelerationStructure(Int32, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure)
 		/// </summary>
-		protected RMethod r_SetAccelerationStructure_Int32_RayTracingAccelerationStructure;
-		public virtual RMethod RSetAccelerationStructure_Int32_RayTracingAccelerationStructure
+		protected RMethod r_MSetAccelerationStructure_Int32_RayTracingAccelerationStructure;
+		public virtual RMethod RMSetAccelerationStructure_Int32_RayTracingAccelerationStructure
 		{
 			get
 			{
-				if(r_SetAccelerationStructure_Int32_RayTracingAccelerationStructure == null)
+				if(r_MSetAccelerationStructure_Int32_RayTracingAccelerationStructure == null)
 				{
-					r_SetAccelerationStructure_Int32_RayTracingAccelerationStructure = new(this, "SetAccelerationStructure", 0, typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure));
-					r_SetAccelerationStructure_Int32_RayTracingAccelerationStructure.SetBelong(this.instance);
+					r_MSetAccelerationStructure_Int32_RayTracingAccelerationStructure = new(this, "SetAccelerationStructure", 0, typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure));
+					r_MSetAccelerationStructure_Int32_RayTracingAccelerationStructure.SetBelong(this.instance);
 				}
-				return r_SetAccelerationStructure_Int32_RayTracingAccelerationStructure;
+				return r_MSetAccelerationStructure_Int32_RayTracingAccelerationStructure;
 			}
 		}
 
 		/// <summary>
 		/// Void SetShaderPass(System.String)
 		/// </summary>
-		protected RMethod r_SetShaderPass_String;
-		public virtual RMethod RSetShaderPass_String
+		protected RMethod r_MSetShaderPass_String;
+		public virtual RMethod RMSetShaderPass_String
 		{
 			get
 			{
-				if(r_SetShaderPass_String == null)
+				if(r_MSetShaderPass_String == null)
 				{
-					r_SetShaderPass_String = new(this, "SetShaderPass", 0, typeof(System.String));
-					r_SetShaderPass_String.SetBelong(this.instance);
+					r_MSetShaderPass_String = new(this, "SetShaderPass", 0, typeof(System.String));
+					r_MSetShaderPass_String.SetBelong(this.instance);
 				}
-				return r_SetShaderPass_String;
+				return r_MSetShaderPass_String;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTextureFromGlobal(Int32, Int32)
 		/// </summary>
-		protected RMethod r_SetTextureFromGlobal_Int32_Int32;
-		public virtual RMethod RSetTextureFromGlobal_Int32_Int32
+		protected RMethod r_MSetTextureFromGlobal_Int32_Int32;
+		public virtual RMethod RMSetTextureFromGlobal_Int32_Int32
 		{
 			get
 			{
-				if(r_SetTextureFromGlobal_Int32_Int32 == null)
+				if(r_MSetTextureFromGlobal_Int32_Int32 == null)
 				{
-					r_SetTextureFromGlobal_Int32_Int32 = new(this, "SetTextureFromGlobal", 0, typeof(System.Int32), typeof(System.Int32));
-					r_SetTextureFromGlobal_Int32_Int32.SetBelong(this.instance);
+					r_MSetTextureFromGlobal_Int32_Int32 = new(this, "SetTextureFromGlobal", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MSetTextureFromGlobal_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_SetTextureFromGlobal_Int32_Int32;
+				return r_MSetTextureFromGlobal_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispatch(System.String, Int32, Int32, Int32, UnityEngine.Camera)
 		/// </summary>
-		protected RMethod r_Dispatch_String_Int32_Int32_Int32_Camera;
-		public virtual RMethod RDispatch_String_Int32_Int32_Int32_Camera
+		protected RMethod r_MDispatch_String_Int32_Int32_Int32_Camera;
+		public virtual RMethod RMDispatch_String_Int32_Int32_Int32_Camera
 		{
 			get
 			{
-				if(r_Dispatch_String_Int32_Int32_Int32_Camera == null)
+				if(r_MDispatch_String_Int32_Int32_Int32_Camera == null)
 				{
-					r_Dispatch_String_Int32_Int32_Int32_Camera = new(this, "Dispatch", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Camera));
-					r_Dispatch_String_Int32_Int32_Int32_Camera.SetBelong(this.instance);
+					r_MDispatch_String_Int32_Int32_Int32_Camera = new(this, "Dispatch", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Camera));
+					r_MDispatch_String_Int32_Int32_Int32_Camera.SetBelong(this.instance);
 				}
-				return r_Dispatch_String_Int32_Int32_Int32_Camera;
+				return r_MDispatch_String_Int32_Int32_Int32_Camera;
 			}
 		}
 
 		/// <summary>
 		/// Void SetBuffer(Int32, UnityEngine.GraphicsBuffer)
 		/// </summary>
-		protected RMethod r_SetBuffer_Int32_GraphicsBuffer;
-		public virtual RMethod RSetBuffer_Int32_GraphicsBuffer
+		protected RMethod r_MSetBuffer_Int32_GraphicsBuffer;
+		public virtual RMethod RMSetBuffer_Int32_GraphicsBuffer
 		{
 			get
 			{
-				if(r_SetBuffer_Int32_GraphicsBuffer == null)
+				if(r_MSetBuffer_Int32_GraphicsBuffer == null)
 				{
-					r_SetBuffer_Int32_GraphicsBuffer = new(this, "SetBuffer", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer));
-					r_SetBuffer_Int32_GraphicsBuffer.SetBelong(this.instance);
+					r_MSetBuffer_Int32_GraphicsBuffer = new(this, "SetBuffer", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer));
+					r_MSetBuffer_Int32_GraphicsBuffer.SetBelong(this.instance);
 				}
-				return r_SetBuffer_Int32_GraphicsBuffer;
+				return r_MSetBuffer_Int32_GraphicsBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void SetFloat(System.String, Single)
 		/// </summary>
-		protected RMethod r_SetFloat_String_Single;
-		public virtual RMethod RSetFloat_String_Single
+		protected RMethod r_MSetFloat_String_Single;
+		public virtual RMethod RMSetFloat_String_Single
 		{
 			get
 			{
-				if(r_SetFloat_String_Single == null)
+				if(r_MSetFloat_String_Single == null)
 				{
-					r_SetFloat_String_Single = new(this, "SetFloat", 0, typeof(System.String), typeof(System.Single));
-					r_SetFloat_String_Single.SetBelong(this.instance);
+					r_MSetFloat_String_Single = new(this, "SetFloat", 0, typeof(System.String), typeof(System.Single));
+					r_MSetFloat_String_Single.SetBelong(this.instance);
 				}
-				return r_SetFloat_String_Single;
+				return r_MSetFloat_String_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void SetInt(System.String, Int32)
 		/// </summary>
-		protected RMethod r_SetInt_String_Int32;
-		public virtual RMethod RSetInt_String_Int32
+		protected RMethod r_MSetInt_String_Int32;
+		public virtual RMethod RMSetInt_String_Int32
 		{
 			get
 			{
-				if(r_SetInt_String_Int32 == null)
+				if(r_MSetInt_String_Int32 == null)
 				{
-					r_SetInt_String_Int32 = new(this, "SetInt", 0, typeof(System.String), typeof(System.Int32));
-					r_SetInt_String_Int32.SetBelong(this.instance);
+					r_MSetInt_String_Int32 = new(this, "SetInt", 0, typeof(System.String), typeof(System.Int32));
+					r_MSetInt_String_Int32.SetBelong(this.instance);
 				}
-				return r_SetInt_String_Int32;
+				return r_MSetInt_String_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVector(System.String, UnityEngine.Vector4)
 		/// </summary>
-		protected RMethod r_SetVector_String_Vector4;
-		public virtual RMethod RSetVector_String_Vector4
+		protected RMethod r_MSetVector_String_Vector4;
+		public virtual RMethod RMSetVector_String_Vector4
 		{
 			get
 			{
-				if(r_SetVector_String_Vector4 == null)
+				if(r_MSetVector_String_Vector4 == null)
 				{
-					r_SetVector_String_Vector4 = new(this, "SetVector", 0, typeof(System.String), typeof(UnityEngine.Vector4));
-					r_SetVector_String_Vector4.SetBelong(this.instance);
+					r_MSetVector_String_Vector4 = new(this, "SetVector", 0, typeof(System.String), typeof(UnityEngine.Vector4));
+					r_MSetVector_String_Vector4.SetBelong(this.instance);
 				}
-				return r_SetVector_String_Vector4;
+				return r_MSetVector_String_Vector4;
 			}
 		}
 
 		/// <summary>
 		/// Void SetMatrix(System.String, UnityEngine.Matrix4x4)
 		/// </summary>
-		protected RMethod r_SetMatrix_String_Matrix4x4;
-		public virtual RMethod RSetMatrix_String_Matrix4x4
+		protected RMethod r_MSetMatrix_String_Matrix4x4;
+		public virtual RMethod RMSetMatrix_String_Matrix4x4
 		{
 			get
 			{
-				if(r_SetMatrix_String_Matrix4x4 == null)
+				if(r_MSetMatrix_String_Matrix4x4 == null)
 				{
-					r_SetMatrix_String_Matrix4x4 = new(this, "SetMatrix", 0, typeof(System.String), typeof(UnityEngine.Matrix4x4));
-					r_SetMatrix_String_Matrix4x4.SetBelong(this.instance);
+					r_MSetMatrix_String_Matrix4x4 = new(this, "SetMatrix", 0, typeof(System.String), typeof(UnityEngine.Matrix4x4));
+					r_MSetMatrix_String_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_SetMatrix_String_Matrix4x4;
+				return r_MSetMatrix_String_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVectorArray(System.String, UnityEngine.Vector4[])
 		/// </summary>
-		protected RMethod r_SetVectorArray_String_Vector4Array;
-		public virtual RMethod RSetVectorArray_String_Vector4Array
+		protected RMethod r_MSetVectorArray_String_Vector4Array;
+		public virtual RMethod RMSetVectorArray_String_Vector4Array
 		{
 			get
 			{
-				if(r_SetVectorArray_String_Vector4Array == null)
+				if(r_MSetVectorArray_String_Vector4Array == null)
 				{
-					r_SetVectorArray_String_Vector4Array = new(this, "SetVectorArray", 0, typeof(System.String), typeof(UnityEngine.Vector4).MakeArrayType());
-					r_SetVectorArray_String_Vector4Array.SetBelong(this.instance);
+					r_MSetVectorArray_String_Vector4Array = new(this, "SetVectorArray", 0, typeof(System.String), typeof(UnityEngine.Vector4).MakeArrayType());
+					r_MSetVectorArray_String_Vector4Array.SetBelong(this.instance);
 				}
-				return r_SetVectorArray_String_Vector4Array;
+				return r_MSetVectorArray_String_Vector4Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetMatrixArray(System.String, UnityEngine.Matrix4x4[])
 		/// </summary>
-		protected RMethod r_SetMatrixArray_String_Matrix4x4Array;
-		public virtual RMethod RSetMatrixArray_String_Matrix4x4Array
+		protected RMethod r_MSetMatrixArray_String_Matrix4x4Array;
+		public virtual RMethod RMSetMatrixArray_String_Matrix4x4Array
 		{
 			get
 			{
-				if(r_SetMatrixArray_String_Matrix4x4Array == null)
+				if(r_MSetMatrixArray_String_Matrix4x4Array == null)
 				{
-					r_SetMatrixArray_String_Matrix4x4Array = new(this, "SetMatrixArray", 0, typeof(System.String), typeof(UnityEngine.Matrix4x4).MakeArrayType());
-					r_SetMatrixArray_String_Matrix4x4Array.SetBelong(this.instance);
+					r_MSetMatrixArray_String_Matrix4x4Array = new(this, "SetMatrixArray", 0, typeof(System.String), typeof(UnityEngine.Matrix4x4).MakeArrayType());
+					r_MSetMatrixArray_String_Matrix4x4Array.SetBelong(this.instance);
 				}
-				return r_SetMatrixArray_String_Matrix4x4Array;
+				return r_MSetMatrixArray_String_Matrix4x4Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetFloats(System.String, Single[])
 		/// </summary>
-		protected RMethod r_SetFloats_String_SingleArray;
-		public virtual RMethod RSetFloats_String_SingleArray
+		protected RMethod r_MSetFloats_String_SingleArray;
+		public virtual RMethod RMSetFloats_String_SingleArray
 		{
 			get
 			{
-				if(r_SetFloats_String_SingleArray == null)
+				if(r_MSetFloats_String_SingleArray == null)
 				{
-					r_SetFloats_String_SingleArray = new(this, "SetFloats", 0, typeof(System.String), typeof(System.Single).MakeArrayType());
-					r_SetFloats_String_SingleArray.SetBelong(this.instance);
+					r_MSetFloats_String_SingleArray = new(this, "SetFloats", 0, typeof(System.String), typeof(System.Single).MakeArrayType());
+					r_MSetFloats_String_SingleArray.SetBelong(this.instance);
 				}
-				return r_SetFloats_String_SingleArray;
+				return r_MSetFloats_String_SingleArray;
 			}
 		}
 
 		/// <summary>
 		/// Void SetFloats(Int32, Single[])
 		/// </summary>
-		protected RMethod r_SetFloats_Int32_SingleArray;
-		public virtual RMethod RSetFloats_Int32_SingleArray
+		protected RMethod r_MSetFloats_Int32_SingleArray;
+		public virtual RMethod RMSetFloats_Int32_SingleArray
 		{
 			get
 			{
-				if(r_SetFloats_Int32_SingleArray == null)
+				if(r_MSetFloats_Int32_SingleArray == null)
 				{
-					r_SetFloats_Int32_SingleArray = new(this, "SetFloats", 0, typeof(System.Int32), typeof(System.Single).MakeArrayType());
-					r_SetFloats_Int32_SingleArray.SetBelong(this.instance);
+					r_MSetFloats_Int32_SingleArray = new(this, "SetFloats", 0, typeof(System.Int32), typeof(System.Single).MakeArrayType());
+					r_MSetFloats_Int32_SingleArray.SetBelong(this.instance);
 				}
-				return r_SetFloats_Int32_SingleArray;
+				return r_MSetFloats_Int32_SingleArray;
 			}
 		}
 
 		/// <summary>
 		/// Void SetInts(System.String, Int32[])
 		/// </summary>
-		protected RMethod r_SetInts_String_Int32Array;
-		public virtual RMethod RSetInts_String_Int32Array
+		protected RMethod r_MSetInts_String_Int32Array;
+		public virtual RMethod RMSetInts_String_Int32Array
 		{
 			get
 			{
-				if(r_SetInts_String_Int32Array == null)
+				if(r_MSetInts_String_Int32Array == null)
 				{
-					r_SetInts_String_Int32Array = new(this, "SetInts", 0, typeof(System.String), typeof(System.Int32).MakeArrayType());
-					r_SetInts_String_Int32Array.SetBelong(this.instance);
+					r_MSetInts_String_Int32Array = new(this, "SetInts", 0, typeof(System.String), typeof(System.Int32).MakeArrayType());
+					r_MSetInts_String_Int32Array.SetBelong(this.instance);
 				}
-				return r_SetInts_String_Int32Array;
+				return r_MSetInts_String_Int32Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetInts(Int32, Int32[])
 		/// </summary>
-		protected RMethod r_SetInts_Int32_Int32Array;
-		public virtual RMethod RSetInts_Int32_Int32Array
+		protected RMethod r_MSetInts_Int32_Int32Array;
+		public virtual RMethod RMSetInts_Int32_Int32Array
 		{
 			get
 			{
-				if(r_SetInts_Int32_Int32Array == null)
+				if(r_MSetInts_Int32_Int32Array == null)
 				{
-					r_SetInts_Int32_Int32Array = new(this, "SetInts", 0, typeof(System.Int32), typeof(System.Int32).MakeArrayType());
-					r_SetInts_Int32_Int32Array.SetBelong(this.instance);
+					r_MSetInts_Int32_Int32Array = new(this, "SetInts", 0, typeof(System.Int32), typeof(System.Int32).MakeArrayType());
+					r_MSetInts_Int32_Int32Array.SetBelong(this.instance);
 				}
-				return r_SetInts_Int32_Int32Array;
+				return r_MSetInts_Int32_Int32Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetBool(System.String, Boolean)
 		/// </summary>
-		protected RMethod r_SetBool_String_Boolean;
-		public virtual RMethod RSetBool_String_Boolean
+		protected RMethod r_MSetBool_String_Boolean;
+		public virtual RMethod RMSetBool_String_Boolean
 		{
 			get
 			{
-				if(r_SetBool_String_Boolean == null)
+				if(r_MSetBool_String_Boolean == null)
 				{
-					r_SetBool_String_Boolean = new(this, "SetBool", 0, typeof(System.String), typeof(System.Boolean));
-					r_SetBool_String_Boolean.SetBelong(this.instance);
+					r_MSetBool_String_Boolean = new(this, "SetBool", 0, typeof(System.String), typeof(System.Boolean));
+					r_MSetBool_String_Boolean.SetBelong(this.instance);
 				}
-				return r_SetBool_String_Boolean;
+				return r_MSetBool_String_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetBool(Int32, Boolean)
 		/// </summary>
-		protected RMethod r_SetBool_Int32_Boolean;
-		public virtual RMethod RSetBool_Int32_Boolean
+		protected RMethod r_MSetBool_Int32_Boolean;
+		public virtual RMethod RMSetBool_Int32_Boolean
 		{
 			get
 			{
-				if(r_SetBool_Int32_Boolean == null)
+				if(r_MSetBool_Int32_Boolean == null)
 				{
-					r_SetBool_Int32_Boolean = new(this, "SetBool", 0, typeof(System.Int32), typeof(System.Boolean));
-					r_SetBool_Int32_Boolean.SetBelong(this.instance);
+					r_MSetBool_Int32_Boolean = new(this, "SetBool", 0, typeof(System.Int32), typeof(System.Boolean));
+					r_MSetBool_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_SetBool_Int32_Boolean;
+				return r_MSetBool_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTexture(System.String, UnityEngine.Texture)
 		/// </summary>
-		protected RMethod r_SetTexture_String_Texture;
-		public virtual RMethod RSetTexture_String_Texture
+		protected RMethod r_MSetTexture_String_Texture;
+		public virtual RMethod RMSetTexture_String_Texture
 		{
 			get
 			{
-				if(r_SetTexture_String_Texture == null)
+				if(r_MSetTexture_String_Texture == null)
 				{
-					r_SetTexture_String_Texture = new(this, "SetTexture", 0, typeof(System.String), typeof(UnityEngine.Texture));
-					r_SetTexture_String_Texture.SetBelong(this.instance);
+					r_MSetTexture_String_Texture = new(this, "SetTexture", 0, typeof(System.String), typeof(UnityEngine.Texture));
+					r_MSetTexture_String_Texture.SetBelong(this.instance);
 				}
-				return r_SetTexture_String_Texture;
+				return r_MSetTexture_String_Texture;
 			}
 		}
 
 		/// <summary>
 		/// Void SetBuffer(System.String, UnityEngine.ComputeBuffer)
 		/// </summary>
-		protected RMethod r_SetBuffer_String_ComputeBuffer;
-		public virtual RMethod RSetBuffer_String_ComputeBuffer
+		protected RMethod r_MSetBuffer_String_ComputeBuffer;
+		public virtual RMethod RMSetBuffer_String_ComputeBuffer
 		{
 			get
 			{
-				if(r_SetBuffer_String_ComputeBuffer == null)
+				if(r_MSetBuffer_String_ComputeBuffer == null)
 				{
-					r_SetBuffer_String_ComputeBuffer = new(this, "SetBuffer", 0, typeof(System.String), typeof(UnityEngine.ComputeBuffer));
-					r_SetBuffer_String_ComputeBuffer.SetBelong(this.instance);
+					r_MSetBuffer_String_ComputeBuffer = new(this, "SetBuffer", 0, typeof(System.String), typeof(UnityEngine.ComputeBuffer));
+					r_MSetBuffer_String_ComputeBuffer.SetBelong(this.instance);
 				}
-				return r_SetBuffer_String_ComputeBuffer;
+				return r_MSetBuffer_String_ComputeBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void SetBuffer(System.String, UnityEngine.GraphicsBuffer)
 		/// </summary>
-		protected RMethod r_SetBuffer_String_GraphicsBuffer;
-		public virtual RMethod RSetBuffer_String_GraphicsBuffer
+		protected RMethod r_MSetBuffer_String_GraphicsBuffer;
+		public virtual RMethod RMSetBuffer_String_GraphicsBuffer
 		{
 			get
 			{
-				if(r_SetBuffer_String_GraphicsBuffer == null)
+				if(r_MSetBuffer_String_GraphicsBuffer == null)
 				{
-					r_SetBuffer_String_GraphicsBuffer = new(this, "SetBuffer", 0, typeof(System.String), typeof(UnityEngine.GraphicsBuffer));
-					r_SetBuffer_String_GraphicsBuffer.SetBelong(this.instance);
+					r_MSetBuffer_String_GraphicsBuffer = new(this, "SetBuffer", 0, typeof(System.String), typeof(UnityEngine.GraphicsBuffer));
+					r_MSetBuffer_String_GraphicsBuffer.SetBelong(this.instance);
 				}
-				return r_SetBuffer_String_GraphicsBuffer;
+				return r_MSetBuffer_String_GraphicsBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void SetConstantBuffer(Int32, UnityEngine.ComputeBuffer, Int32, Int32)
 		/// </summary>
-		protected RMethod r_SetConstantBuffer_Int32_ComputeBuffer_Int32_Int32;
-		public virtual RMethod RSetConstantBuffer_Int32_ComputeBuffer_Int32_Int32
+		protected RMethod r_MSetConstantBuffer_Int32_ComputeBuffer_Int32_Int32;
+		public virtual RMethod RMSetConstantBuffer_Int32_ComputeBuffer_Int32_Int32
 		{
 			get
 			{
-				if(r_SetConstantBuffer_Int32_ComputeBuffer_Int32_Int32 == null)
+				if(r_MSetConstantBuffer_Int32_ComputeBuffer_Int32_Int32 == null)
 				{
-					r_SetConstantBuffer_Int32_ComputeBuffer_Int32_Int32 = new(this, "SetConstantBuffer", 0, typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_SetConstantBuffer_Int32_ComputeBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MSetConstantBuffer_Int32_ComputeBuffer_Int32_Int32 = new(this, "SetConstantBuffer", 0, typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32));
+					r_MSetConstantBuffer_Int32_ComputeBuffer_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_SetConstantBuffer_Int32_ComputeBuffer_Int32_Int32;
+				return r_MSetConstantBuffer_Int32_ComputeBuffer_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetConstantBuffer(System.String, UnityEngine.ComputeBuffer, Int32, Int32)
 		/// </summary>
-		protected RMethod r_SetConstantBuffer_String_ComputeBuffer_Int32_Int32;
-		public virtual RMethod RSetConstantBuffer_String_ComputeBuffer_Int32_Int32
+		protected RMethod r_MSetConstantBuffer_String_ComputeBuffer_Int32_Int32;
+		public virtual RMethod RMSetConstantBuffer_String_ComputeBuffer_Int32_Int32
 		{
 			get
 			{
-				if(r_SetConstantBuffer_String_ComputeBuffer_Int32_Int32 == null)
+				if(r_MSetConstantBuffer_String_ComputeBuffer_Int32_Int32 == null)
 				{
-					r_SetConstantBuffer_String_ComputeBuffer_Int32_Int32 = new(this, "SetConstantBuffer", 0, typeof(System.String), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_SetConstantBuffer_String_ComputeBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MSetConstantBuffer_String_ComputeBuffer_Int32_Int32 = new(this, "SetConstantBuffer", 0, typeof(System.String), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32));
+					r_MSetConstantBuffer_String_ComputeBuffer_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_SetConstantBuffer_String_ComputeBuffer_Int32_Int32;
+				return r_MSetConstantBuffer_String_ComputeBuffer_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetConstantBuffer(Int32, UnityEngine.GraphicsBuffer, Int32, Int32)
 		/// </summary>
-		protected RMethod r_SetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32;
-		public virtual RMethod RSetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32
+		protected RMethod r_MSetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32;
+		public virtual RMethod RMSetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32
 		{
 			get
 			{
-				if(r_SetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32 == null)
+				if(r_MSetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32 == null)
 				{
-					r_SetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32 = new(this, "SetConstantBuffer", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_SetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MSetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32 = new(this, "SetConstantBuffer", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32));
+					r_MSetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_SetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32;
+				return r_MSetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetConstantBuffer(System.String, UnityEngine.GraphicsBuffer, Int32, Int32)
 		/// </summary>
-		protected RMethod r_SetConstantBuffer_String_GraphicsBuffer_Int32_Int32;
-		public virtual RMethod RSetConstantBuffer_String_GraphicsBuffer_Int32_Int32
+		protected RMethod r_MSetConstantBuffer_String_GraphicsBuffer_Int32_Int32;
+		public virtual RMethod RMSetConstantBuffer_String_GraphicsBuffer_Int32_Int32
 		{
 			get
 			{
-				if(r_SetConstantBuffer_String_GraphicsBuffer_Int32_Int32 == null)
+				if(r_MSetConstantBuffer_String_GraphicsBuffer_Int32_Int32 == null)
 				{
-					r_SetConstantBuffer_String_GraphicsBuffer_Int32_Int32 = new(this, "SetConstantBuffer", 0, typeof(System.String), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_SetConstantBuffer_String_GraphicsBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MSetConstantBuffer_String_GraphicsBuffer_Int32_Int32 = new(this, "SetConstantBuffer", 0, typeof(System.String), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32));
+					r_MSetConstantBuffer_String_GraphicsBuffer_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_SetConstantBuffer_String_GraphicsBuffer_Int32_Int32;
+				return r_MSetConstantBuffer_String_GraphicsBuffer_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAccelerationStructure(System.String, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure)
 		/// </summary>
-		protected RMethod r_SetAccelerationStructure_String_RayTracingAccelerationStructure;
-		public virtual RMethod RSetAccelerationStructure_String_RayTracingAccelerationStructure
+		protected RMethod r_MSetAccelerationStructure_String_RayTracingAccelerationStructure;
+		public virtual RMethod RMSetAccelerationStructure_String_RayTracingAccelerationStructure
 		{
 			get
 			{
-				if(r_SetAccelerationStructure_String_RayTracingAccelerationStructure == null)
+				if(r_MSetAccelerationStructure_String_RayTracingAccelerationStructure == null)
 				{
-					r_SetAccelerationStructure_String_RayTracingAccelerationStructure = new(this, "SetAccelerationStructure", 0, typeof(System.String), typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure));
-					r_SetAccelerationStructure_String_RayTracingAccelerationStructure.SetBelong(this.instance);
+					r_MSetAccelerationStructure_String_RayTracingAccelerationStructure = new(this, "SetAccelerationStructure", 0, typeof(System.String), typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure));
+					r_MSetAccelerationStructure_String_RayTracingAccelerationStructure.SetBelong(this.instance);
 				}
-				return r_SetAccelerationStructure_String_RayTracingAccelerationStructure;
+				return r_MSetAccelerationStructure_String_RayTracingAccelerationStructure;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTextureFromGlobal(System.String, System.String)
 		/// </summary>
-		protected RMethod r_SetTextureFromGlobal_String_String;
-		public virtual RMethod RSetTextureFromGlobal_String_String
+		protected RMethod r_MSetTextureFromGlobal_String_String;
+		public virtual RMethod RMSetTextureFromGlobal_String_String
 		{
 			get
 			{
-				if(r_SetTextureFromGlobal_String_String == null)
+				if(r_MSetTextureFromGlobal_String_String == null)
 				{
-					r_SetTextureFromGlobal_String_String = new(this, "SetTextureFromGlobal", 0, typeof(System.String), typeof(System.String));
-					r_SetTextureFromGlobal_String_String.SetBelong(this.instance);
+					r_MSetTextureFromGlobal_String_String = new(this, "SetTextureFromGlobal", 0, typeof(System.String), typeof(System.String));
+					r_MSetTextureFromGlobal_String_String.SetBelong(this.instance);
 				}
-				return r_SetTextureFromGlobal_String_String;
+				return r_MSetTextureFromGlobal_String_String;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVector_Injected(Int32, UnityEngine.Vector4 ByRef)
 		/// </summary>
-		protected RMethod r_SetVector_Injected_Int32_Ref_Vector4;
-		public virtual RMethod RSetVector_Injected_Int32_Ref_Vector4
+		protected RMethod r_MSetVector_Injected_Int32_Ref_Vector4;
+		public virtual RMethod RMSetVector_Injected_Int32_Ref_Vector4
 		{
 			get
 			{
-				if(r_SetVector_Injected_Int32_Ref_Vector4 == null)
+				if(r_MSetVector_Injected_Int32_Ref_Vector4 == null)
 				{
-					r_SetVector_Injected_Int32_Ref_Vector4 = new(this, "SetVector_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Vector4).MakeByRefType());
-					r_SetVector_Injected_Int32_Ref_Vector4.SetBelong(this.instance);
+					r_MSetVector_Injected_Int32_Ref_Vector4 = new(this, "SetVector_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Vector4).MakeByRefType());
+					r_MSetVector_Injected_Int32_Ref_Vector4.SetBelong(this.instance);
 				}
-				return r_SetVector_Injected_Int32_Ref_Vector4;
+				return r_MSetVector_Injected_Int32_Ref_Vector4;
 			}
 		}
 
 		/// <summary>
 		/// Void SetMatrix_Injected(Int32, UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_SetMatrix_Injected_Int32_Ref_Matrix4x4;
-		public virtual RMethod RSetMatrix_Injected_Int32_Ref_Matrix4x4
+		protected RMethod r_MSetMatrix_Injected_Int32_Ref_Matrix4x4;
+		public virtual RMethod RMSetMatrix_Injected_Int32_Ref_Matrix4x4
 		{
 			get
 			{
-				if(r_SetMatrix_Injected_Int32_Ref_Matrix4x4 == null)
+				if(r_MSetMatrix_Injected_Int32_Ref_Matrix4x4 == null)
 				{
-					r_SetMatrix_Injected_Int32_Ref_Matrix4x4 = new(this, "SetMatrix_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_SetMatrix_Injected_Int32_Ref_Matrix4x4.SetBelong(this.instance);
+					r_MSetMatrix_Injected_Int32_Ref_Matrix4x4 = new(this, "SetMatrix_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_MSetMatrix_Injected_Int32_Ref_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_SetMatrix_Injected_Int32_Ref_Matrix4x4;
+				return r_MSetMatrix_Injected_Int32_Ref_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetInstanceID()
 		/// </summary>
-		protected RMethod r_GetInstanceID;
-		public virtual RMethod RGetInstanceID
+		protected RMethod r_MGetInstanceID;
+		public virtual RMethod RMGetInstanceID
 		{
 			get
 			{
-				if(r_GetInstanceID == null)
+				if(r_MGetInstanceID == null)
 				{
-					r_GetInstanceID = new(this, "GetInstanceID", 0);
-					r_GetInstanceID.SetBelong(this.instance);
+					r_MGetInstanceID = new(this, "GetInstanceID", 0);
+					r_MGetInstanceID.SetBelong(this.instance);
 				}
-				return r_GetInstanceID;
+				return r_MGetInstanceID;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -900,7 +900,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
-            var ___result = RSetFloat_Int32_Single.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetFloat_Int32_Single.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -911,7 +911,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
-            var ___result = RSetInt_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetInt_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -922,7 +922,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
-            var ___result = RSetVector_Int32_Vector4.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetVector_Int32_Vector4.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -933,7 +933,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
-            var ___result = RSetMatrix_Int32_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetMatrix_Int32_Matrix4x4.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -944,7 +944,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @values};
-            var ___result = RSetFloatArray_Int32_SingleArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetFloatArray_Int32_SingleArray.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -955,7 +955,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @values};
-            var ___result = RSetIntArray_Int32_Int32Array.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetIntArray_Int32_Int32Array.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -966,7 +966,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @values};
-            var ___result = RSetVectorArray_Int32_Vector4Array.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetVectorArray_Int32_Vector4Array.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -977,7 +977,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @values};
-            var ___result = RSetMatrixArray_Int32_Matrix4x4Array.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetMatrixArray_Int32_Matrix4x4Array.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -988,7 +988,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @texture};
-            var ___result = RSetTexture_Int32_Texture.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetTexture_Int32_Texture.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -999,7 +999,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @buffer};
-            var ___result = RSetBuffer_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetBuffer_Int32_ComputeBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1010,7 +1010,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @buffer};
-            var ___result = RSetGraphicsBuffer_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetGraphicsBuffer_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1021,7 +1021,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @buffer, @offset, @size};
-            var ___result = RSetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetConstantComputeBuffer_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1032,7 +1032,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @buffer, @offset, @size};
-            var ___result = RSetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetConstantGraphicsBuffer_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1043,7 +1043,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @accelerationStructure};
-            var ___result = RSetAccelerationStructure_Int32_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetAccelerationStructure_Int32_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1054,7 +1054,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@passName};
-            var ___result = RSetShaderPass_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetShaderPass_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1065,7 +1065,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @globalTextureNameID};
-            var ___result = RSetTextureFromGlobal_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetTextureFromGlobal_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1076,7 +1076,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rayGenFunctionName, @width, @height, @depth, @camera};
-            var ___result = RDispatch_String_Int32_Int32_Int32_Camera.Invoke(___genericsType, ___parameters);
+            var ___result = RMDispatch_String_Int32_Int32_Int32_Camera.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1087,7 +1087,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @buffer};
-            var ___result = RSetBuffer_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetBuffer_Int32_GraphicsBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1098,7 +1098,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @val};
-            var ___result = RSetFloat_String_Single.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetFloat_String_Single.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1109,7 +1109,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @val};
-            var ___result = RSetInt_String_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetInt_String_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1120,7 +1120,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @val};
-            var ___result = RSetVector_String_Vector4.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetVector_String_Vector4.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1131,7 +1131,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @val};
-            var ___result = RSetMatrix_String_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetMatrix_String_Matrix4x4.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1142,7 +1142,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @values};
-            var ___result = RSetVectorArray_String_Vector4Array.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetVectorArray_String_Vector4Array.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1153,7 +1153,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @values};
-            var ___result = RSetMatrixArray_String_Matrix4x4Array.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetMatrixArray_String_Matrix4x4Array.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1164,7 +1164,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @values};
-            var ___result = RSetFloats_String_SingleArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetFloats_String_SingleArray.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1175,7 +1175,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @values};
-            var ___result = RSetFloats_Int32_SingleArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetFloats_Int32_SingleArray.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1186,7 +1186,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @values};
-            var ___result = RSetInts_String_Int32Array.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetInts_String_Int32Array.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1197,7 +1197,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @values};
-            var ___result = RSetInts_Int32_Int32Array.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetInts_Int32_Int32Array.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1208,7 +1208,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @val};
-            var ___result = RSetBool_String_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetBool_String_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1219,7 +1219,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
-            var ___result = RSetBool_Int32_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetBool_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1230,7 +1230,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @texture};
-            var ___result = RSetTexture_String_Texture.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetTexture_String_Texture.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1241,7 +1241,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @buffer};
-            var ___result = RSetBuffer_String_ComputeBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetBuffer_String_ComputeBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1252,7 +1252,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @buffer};
-            var ___result = RSetBuffer_String_GraphicsBuffer.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetBuffer_String_GraphicsBuffer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1263,7 +1263,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @buffer, @offset, @size};
-            var ___result = RSetConstantBuffer_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetConstantBuffer_Int32_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1274,7 +1274,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @buffer, @offset, @size};
-            var ___result = RSetConstantBuffer_String_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetConstantBuffer_String_ComputeBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1285,7 +1285,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @buffer, @offset, @size};
-            var ___result = RSetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetConstantBuffer_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1296,7 +1296,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @buffer, @offset, @size};
-            var ___result = RSetConstantBuffer_String_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetConstantBuffer_String_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1307,7 +1307,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @accelerationStructure};
-            var ___result = RSetAccelerationStructure_String_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetAccelerationStructure_String_RayTracingAccelerationStructure.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1318,7 +1318,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @globalTextureName};
-            var ___result = RSetTextureFromGlobal_String_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetTextureFromGlobal_String_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1329,7 +1329,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
-            var ___result = RSetVector_Injected_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetVector_Injected_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
 			@val = (UnityEngine.Vector4)___parameters[1];
 
             
@@ -1341,7 +1341,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
-            var ___result = RSetMatrix_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetMatrix_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@val = (UnityEngine.Matrix4x4)___parameters[1];
 
             
@@ -1353,7 +1353,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetInstanceID.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1364,7 +1364,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1375,7 +1375,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1386,7 +1386,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -1397,7 +1397,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1408,7 +1408,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -1419,7 +1419,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

@@ -13,85 +13,85 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.IPermission Copy()
 		/// </summary>
-		protected RMethod r_Copy;
-		public virtual RMethod RCopy
+		protected RMethod r_MCopy;
+		public virtual RMethod RMCopy
 		{
 			get
 			{
-				if(r_Copy == null)
+				if(r_MCopy == null)
 				{
-					r_Copy = new(this, "Copy", 0);
-					r_Copy.SetBelong(this.instance);
+					r_MCopy = new(this, "Copy", 0);
+					r_MCopy.SetBelong(this.instance);
 				}
-				return r_Copy;
+				return r_MCopy;
 			}
 		}
 
 		/// <summary>
 		/// Void Demand()
 		/// </summary>
-		protected RMethod r_Demand;
-		public virtual RMethod RDemand
+		protected RMethod r_MDemand;
+		public virtual RMethod RMDemand
 		{
 			get
 			{
-				if(r_Demand == null)
+				if(r_MDemand == null)
 				{
-					r_Demand = new(this, "Demand", 0);
-					r_Demand.SetBelong(this.instance);
+					r_MDemand = new(this, "Demand", 0);
+					r_MDemand.SetBelong(this.instance);
 				}
-				return r_Demand;
+				return r_MDemand;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.IPermission Intersect(System.Security.IPermission)
 		/// </summary>
-		protected RMethod r_Intersect_IPermission;
-		public virtual RMethod RIntersect_IPermission
+		protected RMethod r_MIntersect_IPermission;
+		public virtual RMethod RMIntersect_IPermission
 		{
 			get
 			{
-				if(r_Intersect_IPermission == null)
+				if(r_MIntersect_IPermission == null)
 				{
-					r_Intersect_IPermission = new(this, "Intersect", 0, typeof(System.Security.IPermission));
-					r_Intersect_IPermission.SetBelong(this.instance);
+					r_MIntersect_IPermission = new(this, "Intersect", 0, typeof(System.Security.IPermission));
+					r_MIntersect_IPermission.SetBelong(this.instance);
 				}
-				return r_Intersect_IPermission;
+				return r_MIntersect_IPermission;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsSubsetOf(System.Security.IPermission)
 		/// </summary>
-		protected RMethod r_IsSubsetOf_IPermission;
-		public virtual RMethod RIsSubsetOf_IPermission
+		protected RMethod r_MIsSubsetOf_IPermission;
+		public virtual RMethod RMIsSubsetOf_IPermission
 		{
 			get
 			{
-				if(r_IsSubsetOf_IPermission == null)
+				if(r_MIsSubsetOf_IPermission == null)
 				{
-					r_IsSubsetOf_IPermission = new(this, "IsSubsetOf", 0, typeof(System.Security.IPermission));
-					r_IsSubsetOf_IPermission.SetBelong(this.instance);
+					r_MIsSubsetOf_IPermission = new(this, "IsSubsetOf", 0, typeof(System.Security.IPermission));
+					r_MIsSubsetOf_IPermission.SetBelong(this.instance);
 				}
-				return r_IsSubsetOf_IPermission;
+				return r_MIsSubsetOf_IPermission;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.IPermission Union(System.Security.IPermission)
 		/// </summary>
-		protected RMethod r_Union_IPermission;
-		public virtual RMethod RUnion_IPermission
+		protected RMethod r_MUnion_IPermission;
+		public virtual RMethod RMUnion_IPermission
 		{
 			get
 			{
-				if(r_Union_IPermission == null)
+				if(r_MUnion_IPermission == null)
 				{
-					r_Union_IPermission = new(this, "Union", 0, typeof(System.Security.IPermission));
-					r_Union_IPermission.SetBelong(this.instance);
+					r_MUnion_IPermission = new(this, "Union", 0, typeof(System.Security.IPermission));
+					r_MUnion_IPermission.SetBelong(this.instance);
 				}
-				return r_Union_IPermission;
+				return r_MUnion_IPermission;
 			}
 		}
 
@@ -118,7 +118,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCopy.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
             return (System.Security.IPermission)___result;
         }
@@ -129,7 +129,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RDemand.Invoke(___genericsType, ___parameters);
+            var ___result = RMDemand.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -140,7 +140,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target};
-            var ___result = RIntersect_IPermission.Invoke(___genericsType, ___parameters);
+            var ___result = RMIntersect_IPermission.Invoke(___genericsType, ___parameters);
 
             return (System.Security.IPermission)___result;
         }
@@ -151,7 +151,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target};
-            var ___result = RIsSubsetOf_IPermission.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsSubsetOf_IPermission.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -162,7 +162,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target};
-            var ___result = RUnion_IPermission.Invoke(___genericsType, ___parameters);
+            var ___result = RMUnion_IPermission.Invoke(___genericsType, ___parameters);
 
             return (System.Security.IPermission)___result;
         }

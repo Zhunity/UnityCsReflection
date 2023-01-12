@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Experimental.ITransitionAnimations animation
 		/// </summary>
-		protected RUnityEngine.RUIElements.RExperimental.RITransitionAnimations r_animation;
-		public virtual RUnityEngine.RUIElements.RExperimental.RITransitionAnimations Ranimation
+		protected RUnityEngine.RUIElements.RExperimental.RITransitionAnimations r_Panimation;
+		public virtual RUnityEngine.RUIElements.RExperimental.RITransitionAnimations RPanimation
 		{
 			get
 			{
-				if(r_animation == null)
+				if(r_Panimation == null)
 				{
-					r_animation = new(this, "animation", -1);
-					r_animation.SetBelong(this.instance);
+					r_Panimation = new(this, "animation", -1);
+					r_Panimation.SetBelong(this.instance);
 				}
-				return r_animation;
+				return r_Panimation;
 			}
 		}
 

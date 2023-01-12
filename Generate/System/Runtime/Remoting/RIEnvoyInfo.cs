@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageSink EnvoySinks
 		/// </summary>
-		protected RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_EnvoySinks;
-		public virtual RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink REnvoySinks
+		protected RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_PEnvoySinks;
+		public virtual RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RPEnvoySinks
 		{
 			get
 			{
-				if(r_EnvoySinks == null)
+				if(r_PEnvoySinks == null)
 				{
-					r_EnvoySinks = new(this, "EnvoySinks", -1);
-					r_EnvoySinks.SetBelong(this.instance);
+					r_PEnvoySinks = new(this, "EnvoySinks", -1);
+					r_PEnvoySinks.SetBelong(this.instance);
 				}
-				return r_EnvoySinks;
+				return r_PEnvoySinks;
 			}
 		}
 

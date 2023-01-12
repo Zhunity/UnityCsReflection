@@ -13,153 +13,153 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.TimeSpan CurrentLeaseTime
 		/// </summary>
-		protected RSystem.RTimeSpan r_CurrentLeaseTime;
-		public virtual RSystem.RTimeSpan RCurrentLeaseTime
+		protected RSystem.RTimeSpan r_PCurrentLeaseTime;
+		public virtual RSystem.RTimeSpan RPCurrentLeaseTime
 		{
 			get
 			{
-				if(r_CurrentLeaseTime == null)
+				if(r_PCurrentLeaseTime == null)
 				{
-					r_CurrentLeaseTime = new(this, "CurrentLeaseTime", -1);
-					r_CurrentLeaseTime.SetBelong(this.instance);
+					r_PCurrentLeaseTime = new(this, "CurrentLeaseTime", -1);
+					r_PCurrentLeaseTime.SetBelong(this.instance);
 				}
-				return r_CurrentLeaseTime;
+				return r_PCurrentLeaseTime;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Lifetime.LeaseState CurrentState
 		/// </summary>
-		protected RProperty r_CurrentState;
-		public virtual RProperty RCurrentState
+		protected RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_PCurrentState;
+		public virtual RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RPCurrentState
 		{
 			get
 			{
-				if(r_CurrentState == null)
+				if(r_PCurrentState == null)
 				{
-					r_CurrentState = new(this, "CurrentState", -1);
-					r_CurrentState.SetBelong(this.instance);
+					r_PCurrentState = new(this, "CurrentState", -1);
+					r_PCurrentState.SetBelong(this.instance);
 				}
-				return r_CurrentState;
+				return r_PCurrentState;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan InitialLeaseTime
 		/// </summary>
-		protected RSystem.RTimeSpan r_InitialLeaseTime;
-		public virtual RSystem.RTimeSpan RInitialLeaseTime
+		protected RSystem.RTimeSpan r_PInitialLeaseTime;
+		public virtual RSystem.RTimeSpan RPInitialLeaseTime
 		{
 			get
 			{
-				if(r_InitialLeaseTime == null)
+				if(r_PInitialLeaseTime == null)
 				{
-					r_InitialLeaseTime = new(this, "InitialLeaseTime", -1);
-					r_InitialLeaseTime.SetBelong(this.instance);
+					r_PInitialLeaseTime = new(this, "InitialLeaseTime", -1);
+					r_PInitialLeaseTime.SetBelong(this.instance);
 				}
-				return r_InitialLeaseTime;
+				return r_PInitialLeaseTime;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan RenewOnCallTime
 		/// </summary>
-		protected RSystem.RTimeSpan r_RenewOnCallTime;
-		public virtual RSystem.RTimeSpan RRenewOnCallTime
+		protected RSystem.RTimeSpan r_PRenewOnCallTime;
+		public virtual RSystem.RTimeSpan RPRenewOnCallTime
 		{
 			get
 			{
-				if(r_RenewOnCallTime == null)
+				if(r_PRenewOnCallTime == null)
 				{
-					r_RenewOnCallTime = new(this, "RenewOnCallTime", -1);
-					r_RenewOnCallTime.SetBelong(this.instance);
+					r_PRenewOnCallTime = new(this, "RenewOnCallTime", -1);
+					r_PRenewOnCallTime.SetBelong(this.instance);
 				}
-				return r_RenewOnCallTime;
+				return r_PRenewOnCallTime;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan SponsorshipTimeout
 		/// </summary>
-		protected RSystem.RTimeSpan r_SponsorshipTimeout;
-		public virtual RSystem.RTimeSpan RSponsorshipTimeout
+		protected RSystem.RTimeSpan r_PSponsorshipTimeout;
+		public virtual RSystem.RTimeSpan RPSponsorshipTimeout
 		{
 			get
 			{
-				if(r_SponsorshipTimeout == null)
+				if(r_PSponsorshipTimeout == null)
 				{
-					r_SponsorshipTimeout = new(this, "SponsorshipTimeout", -1);
-					r_SponsorshipTimeout.SetBelong(this.instance);
+					r_PSponsorshipTimeout = new(this, "SponsorshipTimeout", -1);
+					r_PSponsorshipTimeout.SetBelong(this.instance);
 				}
-				return r_SponsorshipTimeout;
+				return r_PSponsorshipTimeout;
 			}
 		}
 
 		/// <summary>
 		/// Void Register(System.Runtime.Remoting.Lifetime.ISponsor)
 		/// </summary>
-		protected RMethod r_Register_ISponsor;
-		public virtual RMethod RRegister_ISponsor
+		protected RMethod r_MRegister_ISponsor;
+		public virtual RMethod RMRegister_ISponsor
 		{
 			get
 			{
-				if(r_Register_ISponsor == null)
+				if(r_MRegister_ISponsor == null)
 				{
-					r_Register_ISponsor = new(this, "Register", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor));
-					r_Register_ISponsor.SetBelong(this.instance);
+					r_MRegister_ISponsor = new(this, "Register", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor));
+					r_MRegister_ISponsor.SetBelong(this.instance);
 				}
-				return r_Register_ISponsor;
+				return r_MRegister_ISponsor;
 			}
 		}
 
 		/// <summary>
 		/// Void Register(System.Runtime.Remoting.Lifetime.ISponsor, System.TimeSpan)
 		/// </summary>
-		protected RMethod r_Register_ISponsor_TimeSpan;
-		public virtual RMethod RRegister_ISponsor_TimeSpan
+		protected RMethod r_MRegister_ISponsor_TimeSpan;
+		public virtual RMethod RMRegister_ISponsor_TimeSpan
 		{
 			get
 			{
-				if(r_Register_ISponsor_TimeSpan == null)
+				if(r_MRegister_ISponsor_TimeSpan == null)
 				{
-					r_Register_ISponsor_TimeSpan = new(this, "Register", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor), typeof(System.TimeSpan));
-					r_Register_ISponsor_TimeSpan.SetBelong(this.instance);
+					r_MRegister_ISponsor_TimeSpan = new(this, "Register", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor), typeof(System.TimeSpan));
+					r_MRegister_ISponsor_TimeSpan.SetBelong(this.instance);
 				}
-				return r_Register_ISponsor_TimeSpan;
+				return r_MRegister_ISponsor_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan Renew(System.TimeSpan)
 		/// </summary>
-		protected RMethod r_Renew_TimeSpan;
-		public virtual RMethod RRenew_TimeSpan
+		protected RMethod r_MRenew_TimeSpan;
+		public virtual RMethod RMRenew_TimeSpan
 		{
 			get
 			{
-				if(r_Renew_TimeSpan == null)
+				if(r_MRenew_TimeSpan == null)
 				{
-					r_Renew_TimeSpan = new(this, "Renew", 0, typeof(System.TimeSpan));
-					r_Renew_TimeSpan.SetBelong(this.instance);
+					r_MRenew_TimeSpan = new(this, "Renew", 0, typeof(System.TimeSpan));
+					r_MRenew_TimeSpan.SetBelong(this.instance);
 				}
-				return r_Renew_TimeSpan;
+				return r_MRenew_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Void Unregister(System.Runtime.Remoting.Lifetime.ISponsor)
 		/// </summary>
-		protected RMethod r_Unregister_ISponsor;
-		public virtual RMethod RUnregister_ISponsor
+		protected RMethod r_MUnregister_ISponsor;
+		public virtual RMethod RMUnregister_ISponsor
 		{
 			get
 			{
-				if(r_Unregister_ISponsor == null)
+				if(r_MUnregister_ISponsor == null)
 				{
-					r_Unregister_ISponsor = new(this, "Unregister", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor));
-					r_Unregister_ISponsor.SetBelong(this.instance);
+					r_MUnregister_ISponsor = new(this, "Unregister", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor));
+					r_MUnregister_ISponsor.SetBelong(this.instance);
 				}
-				return r_Unregister_ISponsor;
+				return r_MUnregister_ISponsor;
 			}
 		}
 
@@ -186,7 +186,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = RRegister_ISponsor.Invoke(___genericsType, ___parameters);
+            var ___result = RMRegister_ISponsor.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -197,7 +197,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @renewalTime};
-            var ___result = RRegister_ISponsor_TimeSpan.Invoke(___genericsType, ___parameters);
+            var ___result = RMRegister_ISponsor_TimeSpan.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -208,7 +208,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@renewalTime};
-            var ___result = RRenew_TimeSpan.Invoke(___genericsType, ___parameters);
+            var ___result = RMRenew_TimeSpan.Invoke(___genericsType, ___parameters);
 
             return (System.TimeSpan)___result;
         }
@@ -219,7 +219,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = RUnregister_ISponsor.Invoke(___genericsType, ___parameters);
+            var ___result = RMUnregister_ISponsor.Invoke(___genericsType, ___parameters);
 
             
         }

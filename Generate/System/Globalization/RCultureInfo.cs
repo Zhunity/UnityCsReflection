@@ -13,2023 +13,2023 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CultureInfo invariant_culture_info
 		/// </summary>
-		protected static RSystem.RGlobalization.RCultureInfo r_invariant_culture_info;
-		public static RSystem.RGlobalization.RCultureInfo Rinvariant_culture_info
+		protected static RSystem.RGlobalization.RCultureInfo r_Finvariant_culture_info;
+		public static RSystem.RGlobalization.RCultureInfo RFinvariant_culture_info
 		{
 			get
 			{
-				if(r_invariant_culture_info == null)
+				if(r_Finvariant_culture_info == null)
 				{
-					r_invariant_culture_info = new(typeof(System.Globalization.CultureInfo), "invariant_culture_info");
-					r_invariant_culture_info.SetBelong(null);
+					r_Finvariant_culture_info = new(typeof(System.Globalization.CultureInfo), "invariant_culture_info");
+					r_Finvariant_culture_info.SetBelong(null);
 				}
-				return r_invariant_culture_info;
+				return r_Finvariant_culture_info;
 			}
 		}
 
 		/// <summary>
 		/// System.Object shared_table_lock
 		/// </summary>
-		protected static RSystem.RObject r_shared_table_lock;
-		public static RSystem.RObject Rshared_table_lock
+		protected static RSystem.RObject r_Fshared_table_lock;
+		public static RSystem.RObject RFshared_table_lock
 		{
 			get
 			{
-				if(r_shared_table_lock == null)
+				if(r_Fshared_table_lock == null)
 				{
-					r_shared_table_lock = new(typeof(System.Globalization.CultureInfo), "shared_table_lock");
-					r_shared_table_lock.SetBelong(null);
+					r_Fshared_table_lock = new(typeof(System.Globalization.CultureInfo), "shared_table_lock");
+					r_Fshared_table_lock.SetBelong(null);
 				}
-				return r_shared_table_lock;
+				return r_Fshared_table_lock;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo default_current_culture
 		/// </summary>
-		protected static RSystem.RGlobalization.RCultureInfo r_default_current_culture;
-		public static RSystem.RGlobalization.RCultureInfo Rdefault_current_culture
+		protected static RSystem.RGlobalization.RCultureInfo r_Fdefault_current_culture;
+		public static RSystem.RGlobalization.RCultureInfo RFdefault_current_culture
 		{
 			get
 			{
-				if(r_default_current_culture == null)
+				if(r_Fdefault_current_culture == null)
 				{
-					r_default_current_culture = new(typeof(System.Globalization.CultureInfo), "default_current_culture");
-					r_default_current_culture.SetBelong(null);
+					r_Fdefault_current_culture = new(typeof(System.Globalization.CultureInfo), "default_current_culture");
+					r_Fdefault_current_culture.SetBelong(null);
 				}
-				return r_default_current_culture;
+				return r_Fdefault_current_culture;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_isReadOnly
 		/// </summary>
-		protected RSystem.RBoolean r_m_isReadOnly;
-		public virtual RSystem.RBoolean Rm_isReadOnly
+		protected RSystem.RBoolean r_Fm_isReadOnly;
+		public virtual RSystem.RBoolean RFm_isReadOnly
 		{
 			get
 			{
-				if(r_m_isReadOnly == null)
+				if(r_Fm_isReadOnly == null)
 				{
-					r_m_isReadOnly = new(this, "m_isReadOnly");
-					r_m_isReadOnly.SetBelong(this.instance);
+					r_Fm_isReadOnly = new(this, "m_isReadOnly");
+					r_Fm_isReadOnly.SetBelong(this.instance);
 				}
-				return r_m_isReadOnly;
+				return r_Fm_isReadOnly;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 cultureID
 		/// </summary>
-		protected RSystem.RInt32 r_cultureID;
-		public virtual RSystem.RInt32 RcultureID
+		protected RSystem.RInt32 r_FcultureID;
+		public virtual RSystem.RInt32 RFcultureID
 		{
 			get
 			{
-				if(r_cultureID == null)
+				if(r_FcultureID == null)
 				{
-					r_cultureID = new(this, "cultureID");
-					r_cultureID.SetBelong(this.instance);
+					r_FcultureID = new(this, "cultureID");
+					r_FcultureID.SetBelong(this.instance);
 				}
-				return r_cultureID;
+				return r_FcultureID;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 parent_lcid
 		/// </summary>
-		protected RSystem.RInt32 r_parent_lcid;
-		public virtual RSystem.RInt32 Rparent_lcid
+		protected RSystem.RInt32 r_Fparent_lcid;
+		public virtual RSystem.RInt32 RFparent_lcid
 		{
 			get
 			{
-				if(r_parent_lcid == null)
+				if(r_Fparent_lcid == null)
 				{
-					r_parent_lcid = new(this, "parent_lcid");
-					r_parent_lcid.SetBelong(this.instance);
+					r_Fparent_lcid = new(this, "parent_lcid");
+					r_Fparent_lcid.SetBelong(this.instance);
 				}
-				return r_parent_lcid;
+				return r_Fparent_lcid;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 datetime_index
 		/// </summary>
-		protected RSystem.RInt32 r_datetime_index;
-		public virtual RSystem.RInt32 Rdatetime_index
+		protected RSystem.RInt32 r_Fdatetime_index;
+		public virtual RSystem.RInt32 RFdatetime_index
 		{
 			get
 			{
-				if(r_datetime_index == null)
+				if(r_Fdatetime_index == null)
 				{
-					r_datetime_index = new(this, "datetime_index");
-					r_datetime_index.SetBelong(this.instance);
+					r_Fdatetime_index = new(this, "datetime_index");
+					r_Fdatetime_index.SetBelong(this.instance);
 				}
-				return r_datetime_index;
+				return r_Fdatetime_index;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 number_index
 		/// </summary>
-		protected RSystem.RInt32 r_number_index;
-		public virtual RSystem.RInt32 Rnumber_index
+		protected RSystem.RInt32 r_Fnumber_index;
+		public virtual RSystem.RInt32 RFnumber_index
 		{
 			get
 			{
-				if(r_number_index == null)
+				if(r_Fnumber_index == null)
 				{
-					r_number_index = new(this, "number_index");
-					r_number_index.SetBelong(this.instance);
+					r_Fnumber_index = new(this, "number_index");
+					r_Fnumber_index.SetBelong(this.instance);
 				}
-				return r_number_index;
+				return r_Fnumber_index;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 default_calendar_type
 		/// </summary>
-		protected RSystem.RInt32 r_default_calendar_type;
-		public virtual RSystem.RInt32 Rdefault_calendar_type
+		protected RSystem.RInt32 r_Fdefault_calendar_type;
+		public virtual RSystem.RInt32 RFdefault_calendar_type
 		{
 			get
 			{
-				if(r_default_calendar_type == null)
+				if(r_Fdefault_calendar_type == null)
 				{
-					r_default_calendar_type = new(this, "default_calendar_type");
-					r_default_calendar_type.SetBelong(this.instance);
+					r_Fdefault_calendar_type = new(this, "default_calendar_type");
+					r_Fdefault_calendar_type.SetBelong(this.instance);
 				}
-				return r_default_calendar_type;
+				return r_Fdefault_calendar_type;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_useUserOverride
 		/// </summary>
-		protected RSystem.RBoolean r_m_useUserOverride;
-		public virtual RSystem.RBoolean Rm_useUserOverride
+		protected RSystem.RBoolean r_Fm_useUserOverride;
+		public virtual RSystem.RBoolean RFm_useUserOverride
 		{
 			get
 			{
-				if(r_m_useUserOverride == null)
+				if(r_Fm_useUserOverride == null)
 				{
-					r_m_useUserOverride = new(this, "m_useUserOverride");
-					r_m_useUserOverride.SetBelong(this.instance);
+					r_Fm_useUserOverride = new(this, "m_useUserOverride");
+					r_Fm_useUserOverride.SetBelong(this.instance);
 				}
-				return r_m_useUserOverride;
+				return r_Fm_useUserOverride;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.NumberFormatInfo numInfo
 		/// </summary>
-		protected RSystem.RGlobalization.RNumberFormatInfo r_numInfo;
-		public virtual RSystem.RGlobalization.RNumberFormatInfo RnumInfo
+		protected RSystem.RGlobalization.RNumberFormatInfo r_FnumInfo;
+		public virtual RSystem.RGlobalization.RNumberFormatInfo RFnumInfo
 		{
 			get
 			{
-				if(r_numInfo == null)
+				if(r_FnumInfo == null)
 				{
-					r_numInfo = new(this, "numInfo");
-					r_numInfo.SetBelong(this.instance);
+					r_FnumInfo = new(this, "numInfo");
+					r_FnumInfo.SetBelong(this.instance);
 				}
-				return r_numInfo;
+				return r_FnumInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.DateTimeFormatInfo dateTimeInfo
 		/// </summary>
-		protected RSystem.RGlobalization.RDateTimeFormatInfo r_dateTimeInfo;
-		public virtual RSystem.RGlobalization.RDateTimeFormatInfo RdateTimeInfo
+		protected RSystem.RGlobalization.RDateTimeFormatInfo r_FdateTimeInfo;
+		public virtual RSystem.RGlobalization.RDateTimeFormatInfo RFdateTimeInfo
 		{
 			get
 			{
-				if(r_dateTimeInfo == null)
+				if(r_FdateTimeInfo == null)
 				{
-					r_dateTimeInfo = new(this, "dateTimeInfo");
-					r_dateTimeInfo.SetBelong(this.instance);
+					r_FdateTimeInfo = new(this, "dateTimeInfo");
+					r_FdateTimeInfo.SetBelong(this.instance);
 				}
-				return r_dateTimeInfo;
+				return r_FdateTimeInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.TextInfo textInfo
 		/// </summary>
-		protected RSystem.RGlobalization.RTextInfo r_textInfo;
-		public virtual RSystem.RGlobalization.RTextInfo RtextInfo
+		protected RSystem.RGlobalization.RTextInfo r_FtextInfo;
+		public virtual RSystem.RGlobalization.RTextInfo RFtextInfo
 		{
 			get
 			{
-				if(r_textInfo == null)
+				if(r_FtextInfo == null)
 				{
-					r_textInfo = new(this, "textInfo");
-					r_textInfo.SetBelong(this.instance);
+					r_FtextInfo = new(this, "textInfo");
+					r_FtextInfo.SetBelong(this.instance);
 				}
-				return r_textInfo;
+				return r_FtextInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.String m_name
 		/// </summary>
-		protected RSystem.RString r_m_name;
-		public virtual RSystem.RString Rm_name
+		protected RSystem.RString r_Fm_name;
+		public virtual RSystem.RString RFm_name
 		{
 			get
 			{
-				if(r_m_name == null)
+				if(r_Fm_name == null)
 				{
-					r_m_name = new(this, "m_name");
-					r_m_name.SetBelong(this.instance);
+					r_Fm_name = new(this, "m_name");
+					r_Fm_name.SetBelong(this.instance);
 				}
-				return r_m_name;
+				return r_Fm_name;
 			}
 		}
 
 		/// <summary>
 		/// System.String englishname
 		/// </summary>
-		protected RSystem.RString r_englishname;
-		public virtual RSystem.RString Renglishname
+		protected RSystem.RString r_Fenglishname;
+		public virtual RSystem.RString RFenglishname
 		{
 			get
 			{
-				if(r_englishname == null)
+				if(r_Fenglishname == null)
 				{
-					r_englishname = new(this, "englishname");
-					r_englishname.SetBelong(this.instance);
+					r_Fenglishname = new(this, "englishname");
+					r_Fenglishname.SetBelong(this.instance);
 				}
-				return r_englishname;
+				return r_Fenglishname;
 			}
 		}
 
 		/// <summary>
 		/// System.String nativename
 		/// </summary>
-		protected RSystem.RString r_nativename;
-		public virtual RSystem.RString Rnativename
+		protected RSystem.RString r_Fnativename;
+		public virtual RSystem.RString RFnativename
 		{
 			get
 			{
-				if(r_nativename == null)
+				if(r_Fnativename == null)
 				{
-					r_nativename = new(this, "nativename");
-					r_nativename.SetBelong(this.instance);
+					r_Fnativename = new(this, "nativename");
+					r_Fnativename.SetBelong(this.instance);
 				}
-				return r_nativename;
+				return r_Fnativename;
 			}
 		}
 
 		/// <summary>
 		/// System.String iso3lang
 		/// </summary>
-		protected RSystem.RString r_iso3lang;
-		public virtual RSystem.RString Riso3lang
+		protected RSystem.RString r_Fiso3lang;
+		public virtual RSystem.RString RFiso3lang
 		{
 			get
 			{
-				if(r_iso3lang == null)
+				if(r_Fiso3lang == null)
 				{
-					r_iso3lang = new(this, "iso3lang");
-					r_iso3lang.SetBelong(this.instance);
+					r_Fiso3lang = new(this, "iso3lang");
+					r_Fiso3lang.SetBelong(this.instance);
 				}
-				return r_iso3lang;
+				return r_Fiso3lang;
 			}
 		}
 
 		/// <summary>
 		/// System.String iso2lang
 		/// </summary>
-		protected RSystem.RString r_iso2lang;
-		public virtual RSystem.RString Riso2lang
+		protected RSystem.RString r_Fiso2lang;
+		public virtual RSystem.RString RFiso2lang
 		{
 			get
 			{
-				if(r_iso2lang == null)
+				if(r_Fiso2lang == null)
 				{
-					r_iso2lang = new(this, "iso2lang");
-					r_iso2lang.SetBelong(this.instance);
+					r_Fiso2lang = new(this, "iso2lang");
+					r_Fiso2lang.SetBelong(this.instance);
 				}
-				return r_iso2lang;
+				return r_Fiso2lang;
 			}
 		}
 
 		/// <summary>
 		/// System.String win3lang
 		/// </summary>
-		protected RSystem.RString r_win3lang;
-		public virtual RSystem.RString Rwin3lang
+		protected RSystem.RString r_Fwin3lang;
+		public virtual RSystem.RString RFwin3lang
 		{
 			get
 			{
-				if(r_win3lang == null)
+				if(r_Fwin3lang == null)
 				{
-					r_win3lang = new(this, "win3lang");
-					r_win3lang.SetBelong(this.instance);
+					r_Fwin3lang = new(this, "win3lang");
+					r_Fwin3lang.SetBelong(this.instance);
 				}
-				return r_win3lang;
+				return r_Fwin3lang;
 			}
 		}
 
 		/// <summary>
 		/// System.String territory
 		/// </summary>
-		protected RSystem.RString r_territory;
-		public virtual RSystem.RString Rterritory
+		protected RSystem.RString r_Fterritory;
+		public virtual RSystem.RString RFterritory
 		{
 			get
 			{
-				if(r_territory == null)
+				if(r_Fterritory == null)
 				{
-					r_territory = new(this, "territory");
-					r_territory.SetBelong(this.instance);
+					r_Fterritory = new(this, "territory");
+					r_Fterritory.SetBelong(this.instance);
 				}
-				return r_territory;
+				return r_Fterritory;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] native_calendar_names
 		/// </summary>
-		protected RFieldArray<RSystem.RString> r_native_calendar_names;
-		public virtual RFieldArray<RSystem.RString> Rnative_calendar_names
+		protected RFieldArray<RSystem.RString> r_Fnative_calendar_names;
+		public virtual RFieldArray<RSystem.RString> RFnative_calendar_names
 		{
 			get
 			{
-				if(r_native_calendar_names == null)
+				if(r_Fnative_calendar_names == null)
 				{
-					r_native_calendar_names = new(this, "native_calendar_names");
-					r_native_calendar_names.SetBelong(this.instance);
+					r_Fnative_calendar_names = new(this, "native_calendar_names");
+					r_Fnative_calendar_names.SetBelong(this.instance);
 				}
-				return r_native_calendar_names;
+				return r_Fnative_calendar_names;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CompareInfo compareInfo
 		/// </summary>
-		protected RSystem.RGlobalization.RCompareInfo r_compareInfo;
-		public virtual RSystem.RGlobalization.RCompareInfo RcompareInfo
+		protected RSystem.RGlobalization.RCompareInfo r_FcompareInfo;
+		public virtual RSystem.RGlobalization.RCompareInfo RFcompareInfo
 		{
 			get
 			{
-				if(r_compareInfo == null)
+				if(r_FcompareInfo == null)
 				{
-					r_compareInfo = new(this, "compareInfo");
-					r_compareInfo.SetBelong(this.instance);
+					r_FcompareInfo = new(this, "compareInfo");
+					r_FcompareInfo.SetBelong(this.instance);
 				}
-				return r_compareInfo;
+				return r_FcompareInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.Void* textinfo_data
 		/// </summary>
-		protected RFieldPointer<RField> r_textinfo_data;
-		public virtual RFieldPointer<RField> Rtextinfo_data
+		protected RFieldPointer<RField> r_Ftextinfo_data;
+		public virtual RFieldPointer<RField> RFtextinfo_data
 		{
 			get
 			{
-				if(r_textinfo_data == null)
+				if(r_Ftextinfo_data == null)
 				{
-					r_textinfo_data = new(this, "textinfo_data");
-					r_textinfo_data.SetBelong(this.instance);
+					r_Ftextinfo_data = new(this, "textinfo_data");
+					r_Ftextinfo_data.SetBelong(this.instance);
 				}
-				return r_textinfo_data;
+				return r_Ftextinfo_data;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 m_dataItem
 		/// </summary>
-		protected RSystem.RInt32 r_m_dataItem;
-		public virtual RSystem.RInt32 Rm_dataItem
+		protected RSystem.RInt32 r_Fm_dataItem;
+		public virtual RSystem.RInt32 RFm_dataItem
 		{
 			get
 			{
-				if(r_m_dataItem == null)
+				if(r_Fm_dataItem == null)
 				{
-					r_m_dataItem = new(this, "m_dataItem");
-					r_m_dataItem.SetBelong(this.instance);
+					r_Fm_dataItem = new(this, "m_dataItem");
+					r_Fm_dataItem.SetBelong(this.instance);
 				}
-				return r_m_dataItem;
+				return r_Fm_dataItem;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.Calendar calendar
 		/// </summary>
-		protected RSystem.RGlobalization.RCalendar r_calendar;
-		public virtual RSystem.RGlobalization.RCalendar Rcalendar
+		protected RSystem.RGlobalization.RCalendar r_Fcalendar;
+		public virtual RSystem.RGlobalization.RCalendar RFcalendar
 		{
 			get
 			{
-				if(r_calendar == null)
+				if(r_Fcalendar == null)
 				{
-					r_calendar = new(this, "calendar");
-					r_calendar.SetBelong(this.instance);
+					r_Fcalendar = new(this, "calendar");
+					r_Fcalendar.SetBelong(this.instance);
 				}
-				return r_calendar;
+				return r_Fcalendar;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo parent_culture
 		/// </summary>
-		protected RSystem.RGlobalization.RCultureInfo r_parent_culture;
-		public virtual RSystem.RGlobalization.RCultureInfo Rparent_culture
+		protected RSystem.RGlobalization.RCultureInfo r_Fparent_culture;
+		public virtual RSystem.RGlobalization.RCultureInfo RFparent_culture
 		{
 			get
 			{
-				if(r_parent_culture == null)
+				if(r_Fparent_culture == null)
 				{
-					r_parent_culture = new(this, "parent_culture");
-					r_parent_culture.SetBelong(this.instance);
+					r_Fparent_culture = new(this, "parent_culture");
+					r_Fparent_culture.SetBelong(this.instance);
 				}
-				return r_parent_culture;
+				return r_Fparent_culture;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean constructed
 		/// </summary>
-		protected RSystem.RBoolean r_constructed;
-		public virtual RSystem.RBoolean Rconstructed
+		protected RSystem.RBoolean r_Fconstructed;
+		public virtual RSystem.RBoolean RFconstructed
 		{
 			get
 			{
-				if(r_constructed == null)
+				if(r_Fconstructed == null)
 				{
-					r_constructed = new(this, "constructed");
-					r_constructed.SetBelong(this.instance);
+					r_Fconstructed = new(this, "constructed");
+					r_Fconstructed.SetBelong(this.instance);
 				}
-				return r_constructed;
+				return r_Fconstructed;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte[] cached_serialized_form
 		/// </summary>
-		protected RFieldArray<RSystem.RByte> r_cached_serialized_form;
-		public virtual RFieldArray<RSystem.RByte> Rcached_serialized_form
+		protected RFieldArray<RSystem.RByte> r_Fcached_serialized_form;
+		public virtual RFieldArray<RSystem.RByte> RFcached_serialized_form
 		{
 			get
 			{
-				if(r_cached_serialized_form == null)
+				if(r_Fcached_serialized_form == null)
 				{
-					r_cached_serialized_form = new(this, "cached_serialized_form");
-					r_cached_serialized_form.SetBelong(this.instance);
+					r_Fcached_serialized_form = new(this, "cached_serialized_form");
+					r_Fcached_serialized_form.SetBelong(this.instance);
 				}
-				return r_cached_serialized_form;
+				return r_Fcached_serialized_form;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureData m_cultureData
 		/// </summary>
-		protected RSystem.RGlobalization.RCultureData r_m_cultureData;
-		public virtual RSystem.RGlobalization.RCultureData Rm_cultureData
+		protected RSystem.RGlobalization.RCultureData r_Fm_cultureData;
+		public virtual RSystem.RGlobalization.RCultureData RFm_cultureData
 		{
 			get
 			{
-				if(r_m_cultureData == null)
+				if(r_Fm_cultureData == null)
 				{
-					r_m_cultureData = new(this, "m_cultureData");
-					r_m_cultureData.SetBelong(this.instance);
+					r_Fm_cultureData = new(this, "m_cultureData");
+					r_Fm_cultureData.SetBelong(this.instance);
 				}
-				return r_m_cultureData;
+				return r_Fm_cultureData;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_isInherited
 		/// </summary>
-		protected RSystem.RBoolean r_m_isInherited;
-		public virtual RSystem.RBoolean Rm_isInherited
+		protected RSystem.RBoolean r_Fm_isInherited;
+		public virtual RSystem.RBoolean RFm_isInherited
 		{
 			get
 			{
-				if(r_m_isInherited == null)
+				if(r_Fm_isInherited == null)
 				{
-					r_m_isInherited = new(this, "m_isInherited");
-					r_m_isInherited.SetBelong(this.instance);
+					r_Fm_isInherited = new(this, "m_isInherited");
+					r_Fm_isInherited.SetBelong(this.instance);
 				}
-				return r_m_isInherited;
+				return r_Fm_isInherited;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 InvariantCultureId
 		/// </summary>
-		protected static RSystem.RInt32 r_InvariantCultureId;
-		public static RSystem.RInt32 RInvariantCultureId
+		protected static RSystem.RInt32 r_FInvariantCultureId;
+		public static RSystem.RInt32 RFInvariantCultureId
 		{
 			get
 			{
-				if(r_InvariantCultureId == null)
+				if(r_FInvariantCultureId == null)
 				{
-					r_InvariantCultureId = new(typeof(System.Globalization.CultureInfo), "InvariantCultureId");
-					r_InvariantCultureId.SetBelong(null);
+					r_FInvariantCultureId = new(typeof(System.Globalization.CultureInfo), "InvariantCultureId");
+					r_FInvariantCultureId.SetBelong(null);
 				}
-				return r_InvariantCultureId;
+				return r_FInvariantCultureId;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 CalendarTypeBits
 		/// </summary>
-		protected static RSystem.RInt32 r_CalendarTypeBits;
-		public static RSystem.RInt32 RCalendarTypeBits
+		protected static RSystem.RInt32 r_FCalendarTypeBits;
+		public static RSystem.RInt32 RFCalendarTypeBits
 		{
 			get
 			{
-				if(r_CalendarTypeBits == null)
+				if(r_FCalendarTypeBits == null)
 				{
-					r_CalendarTypeBits = new(typeof(System.Globalization.CultureInfo), "CalendarTypeBits");
-					r_CalendarTypeBits.SetBelong(null);
+					r_FCalendarTypeBits = new(typeof(System.Globalization.CultureInfo), "CalendarTypeBits");
+					r_FCalendarTypeBits.SetBelong(null);
 				}
-				return r_CalendarTypeBits;
+				return r_FCalendarTypeBits;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 LOCALE_INVARIANT
 		/// </summary>
-		protected static RSystem.RInt32 r_LOCALE_INVARIANT;
-		public static RSystem.RInt32 RLOCALE_INVARIANT
+		protected static RSystem.RInt32 r_FLOCALE_INVARIANT;
+		public static RSystem.RInt32 RFLOCALE_INVARIANT
 		{
 			get
 			{
-				if(r_LOCALE_INVARIANT == null)
+				if(r_FLOCALE_INVARIANT == null)
 				{
-					r_LOCALE_INVARIANT = new(typeof(System.Globalization.CultureInfo), "LOCALE_INVARIANT");
-					r_LOCALE_INVARIANT.SetBelong(null);
+					r_FLOCALE_INVARIANT = new(typeof(System.Globalization.CultureInfo), "LOCALE_INVARIANT");
+					r_FLOCALE_INVARIANT.SetBelong(null);
 				}
-				return r_LOCALE_INVARIANT;
+				return r_FLOCALE_INVARIANT;
 			}
 		}
 
 		/// <summary>
 		/// System.String MSG_READONLY
 		/// </summary>
-		protected static RSystem.RString r_MSG_READONLY;
-		public static RSystem.RString RMSG_READONLY
+		protected static RSystem.RString r_FMSG_READONLY;
+		public static RSystem.RString RFMSG_READONLY
 		{
 			get
 			{
-				if(r_MSG_READONLY == null)
+				if(r_FMSG_READONLY == null)
 				{
-					r_MSG_READONLY = new(typeof(System.Globalization.CultureInfo), "MSG_READONLY");
-					r_MSG_READONLY.SetBelong(null);
+					r_FMSG_READONLY = new(typeof(System.Globalization.CultureInfo), "MSG_READONLY");
+					r_FMSG_READONLY.SetBelong(null);
 				}
-				return r_MSG_READONLY;
+				return r_FMSG_READONLY;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo s_DefaultThreadCurrentUICulture
 		/// </summary>
-		protected static RSystem.RGlobalization.RCultureInfo r_s_DefaultThreadCurrentUICulture;
-		public static RSystem.RGlobalization.RCultureInfo Rs_DefaultThreadCurrentUICulture
+		protected static RSystem.RGlobalization.RCultureInfo r_Fs_DefaultThreadCurrentUICulture;
+		public static RSystem.RGlobalization.RCultureInfo RFs_DefaultThreadCurrentUICulture
 		{
 			get
 			{
-				if(r_s_DefaultThreadCurrentUICulture == null)
+				if(r_Fs_DefaultThreadCurrentUICulture == null)
 				{
-					r_s_DefaultThreadCurrentUICulture = new(typeof(System.Globalization.CultureInfo), "s_DefaultThreadCurrentUICulture");
-					r_s_DefaultThreadCurrentUICulture.SetBelong(null);
+					r_Fs_DefaultThreadCurrentUICulture = new(typeof(System.Globalization.CultureInfo), "s_DefaultThreadCurrentUICulture");
+					r_Fs_DefaultThreadCurrentUICulture.SetBelong(null);
 				}
-				return r_s_DefaultThreadCurrentUICulture;
+				return r_Fs_DefaultThreadCurrentUICulture;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo s_DefaultThreadCurrentCulture
 		/// </summary>
-		protected static RSystem.RGlobalization.RCultureInfo r_s_DefaultThreadCurrentCulture;
-		public static RSystem.RGlobalization.RCultureInfo Rs_DefaultThreadCurrentCulture
+		protected static RSystem.RGlobalization.RCultureInfo r_Fs_DefaultThreadCurrentCulture;
+		public static RSystem.RGlobalization.RCultureInfo RFs_DefaultThreadCurrentCulture
 		{
 			get
 			{
-				if(r_s_DefaultThreadCurrentCulture == null)
+				if(r_Fs_DefaultThreadCurrentCulture == null)
 				{
-					r_s_DefaultThreadCurrentCulture = new(typeof(System.Globalization.CultureInfo), "s_DefaultThreadCurrentCulture");
-					r_s_DefaultThreadCurrentCulture.SetBelong(null);
+					r_Fs_DefaultThreadCurrentCulture = new(typeof(System.Globalization.CultureInfo), "s_DefaultThreadCurrentCulture");
+					r_Fs_DefaultThreadCurrentCulture.SetBelong(null);
 				}
-				return r_s_DefaultThreadCurrentCulture;
+				return r_Fs_DefaultThreadCurrentCulture;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,System.Globalization.CultureInfo] shared_by_number
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RGlobalization.RCultureInfo> r_shared_by_number;
-		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RGlobalization.RCultureInfo> Rshared_by_number
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RGlobalization.RCultureInfo> r_Fshared_by_number;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RGlobalization.RCultureInfo> RFshared_by_number
 		{
 			get
 			{
-				if(r_shared_by_number == null)
+				if(r_Fshared_by_number == null)
 				{
-					r_shared_by_number = new(typeof(System.Globalization.CultureInfo), "shared_by_number");
-					r_shared_by_number.SetBelong(null);
+					r_Fshared_by_number = new(typeof(System.Globalization.CultureInfo), "shared_by_number");
+					r_Fshared_by_number.SetBelong(null);
 				}
-				return r_shared_by_number;
+				return r_Fshared_by_number;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.Globalization.CultureInfo] shared_by_name
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RGlobalization.RCultureInfo> r_shared_by_name;
-		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RGlobalization.RCultureInfo> Rshared_by_name
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RGlobalization.RCultureInfo> r_Fshared_by_name;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RGlobalization.RCultureInfo> RFshared_by_name
 		{
 			get
 			{
-				if(r_shared_by_name == null)
+				if(r_Fshared_by_name == null)
 				{
-					r_shared_by_name = new(typeof(System.Globalization.CultureInfo), "shared_by_name");
-					r_shared_by_name.SetBelong(null);
+					r_Fshared_by_name = new(typeof(System.Globalization.CultureInfo), "shared_by_name");
+					r_Fshared_by_name.SetBelong(null);
 				}
-				return r_shared_by_name;
+				return r_Fshared_by_name;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo s_UserPreferredCultureInfoInAppX
 		/// </summary>
-		protected static RSystem.RGlobalization.RCultureInfo r_s_UserPreferredCultureInfoInAppX;
-		public static RSystem.RGlobalization.RCultureInfo Rs_UserPreferredCultureInfoInAppX
+		protected static RSystem.RGlobalization.RCultureInfo r_Fs_UserPreferredCultureInfoInAppX;
+		public static RSystem.RGlobalization.RCultureInfo RFs_UserPreferredCultureInfoInAppX
 		{
 			get
 			{
-				if(r_s_UserPreferredCultureInfoInAppX == null)
+				if(r_Fs_UserPreferredCultureInfoInAppX == null)
 				{
-					r_s_UserPreferredCultureInfoInAppX = new(typeof(System.Globalization.CultureInfo), "s_UserPreferredCultureInfoInAppX");
-					r_s_UserPreferredCultureInfoInAppX.SetBelong(null);
+					r_Fs_UserPreferredCultureInfoInAppX = new(typeof(System.Globalization.CultureInfo), "s_UserPreferredCultureInfoInAppX");
+					r_Fs_UserPreferredCultureInfoInAppX.SetBelong(null);
 				}
-				return r_s_UserPreferredCultureInfoInAppX;
+				return r_Fs_UserPreferredCultureInfoInAppX;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean IsTaiwanSku
 		/// </summary>
-		protected static RSystem.RBoolean r_IsTaiwanSku;
-		public static RSystem.RBoolean RIsTaiwanSku
+		protected static RSystem.RBoolean r_FIsTaiwanSku;
+		public static RSystem.RBoolean RFIsTaiwanSku
 		{
 			get
 			{
-				if(r_IsTaiwanSku == null)
+				if(r_FIsTaiwanSku == null)
 				{
-					r_IsTaiwanSku = new(typeof(System.Globalization.CultureInfo), "IsTaiwanSku");
-					r_IsTaiwanSku.SetBelong(null);
+					r_FIsTaiwanSku = new(typeof(System.Globalization.CultureInfo), "IsTaiwanSku");
+					r_FIsTaiwanSku.SetBelong(null);
 				}
-				return r_IsTaiwanSku;
+				return r_FIsTaiwanSku;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureData _cultureData
 		/// </summary>
-		protected RSystem.RGlobalization.RCultureData r__cultureData;
-		public virtual RSystem.RGlobalization.RCultureData R_cultureData
+		protected RSystem.RGlobalization.RCultureData r_P_cultureData;
+		public virtual RSystem.RGlobalization.RCultureData RP_cultureData
 		{
 			get
 			{
-				if(r__cultureData == null)
+				if(r_P_cultureData == null)
 				{
-					r__cultureData = new(this, "_cultureData", -1);
-					r__cultureData.SetBelong(this.instance);
+					r_P_cultureData = new(this, "_cultureData", -1);
+					r_P_cultureData.SetBelong(this.instance);
 				}
-				return r__cultureData;
+				return r_P_cultureData;
 			}
 		}
 
 		/// <summary>
 		/// Boolean _isInherited
 		/// </summary>
-		protected RSystem.RBoolean r__isInherited;
-		public virtual RSystem.RBoolean R_isInherited
+		protected RSystem.RBoolean r_P_isInherited;
+		public virtual RSystem.RBoolean RP_isInherited
 		{
 			get
 			{
-				if(r__isInherited == null)
+				if(r_P_isInherited == null)
 				{
-					r__isInherited = new(this, "_isInherited", -1);
-					r__isInherited.SetBelong(this.instance);
+					r_P_isInherited = new(this, "_isInherited", -1);
+					r_P_isInherited.SetBelong(this.instance);
 				}
-				return r__isInherited;
+				return r_P_isInherited;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo InvariantCulture
 		/// </summary>
-		protected static RSystem.RGlobalization.RCultureInfo r_InvariantCulture;
-		public static RSystem.RGlobalization.RCultureInfo RInvariantCulture
+		protected static RSystem.RGlobalization.RCultureInfo r_PInvariantCulture;
+		public static RSystem.RGlobalization.RCultureInfo RPInvariantCulture
 		{
 			get
 			{
-				if(r_InvariantCulture == null)
+				if(r_PInvariantCulture == null)
 				{
-					r_InvariantCulture = new(typeof(System.Globalization.CultureInfo), "InvariantCulture", -1);
-					r_InvariantCulture.SetBelong(null);
+					r_PInvariantCulture = new(typeof(System.Globalization.CultureInfo), "InvariantCulture", -1);
+					r_PInvariantCulture.SetBelong(null);
 				}
-				return r_InvariantCulture;
+				return r_PInvariantCulture;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo CurrentCulture
 		/// </summary>
-		protected static RSystem.RGlobalization.RCultureInfo r_CurrentCulture;
-		public static RSystem.RGlobalization.RCultureInfo RCurrentCulture
+		protected static RSystem.RGlobalization.RCultureInfo r_PCurrentCulture;
+		public static RSystem.RGlobalization.RCultureInfo RPCurrentCulture
 		{
 			get
 			{
-				if(r_CurrentCulture == null)
+				if(r_PCurrentCulture == null)
 				{
-					r_CurrentCulture = new(typeof(System.Globalization.CultureInfo), "CurrentCulture", -1);
-					r_CurrentCulture.SetBelong(null);
+					r_PCurrentCulture = new(typeof(System.Globalization.CultureInfo), "CurrentCulture", -1);
+					r_PCurrentCulture.SetBelong(null);
 				}
-				return r_CurrentCulture;
+				return r_PCurrentCulture;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo CurrentUICulture
 		/// </summary>
-		protected static RSystem.RGlobalization.RCultureInfo r_CurrentUICulture;
-		public static RSystem.RGlobalization.RCultureInfo RCurrentUICulture
+		protected static RSystem.RGlobalization.RCultureInfo r_PCurrentUICulture;
+		public static RSystem.RGlobalization.RCultureInfo RPCurrentUICulture
 		{
 			get
 			{
-				if(r_CurrentUICulture == null)
+				if(r_PCurrentUICulture == null)
 				{
-					r_CurrentUICulture = new(typeof(System.Globalization.CultureInfo), "CurrentUICulture", -1);
-					r_CurrentUICulture.SetBelong(null);
+					r_PCurrentUICulture = new(typeof(System.Globalization.CultureInfo), "CurrentUICulture", -1);
+					r_PCurrentUICulture.SetBelong(null);
 				}
-				return r_CurrentUICulture;
+				return r_PCurrentUICulture;
 			}
 		}
 
 		/// <summary>
 		/// System.String Territory
 		/// </summary>
-		protected RSystem.RString r_Territory;
-		public virtual RSystem.RString RTerritory
+		protected RSystem.RString r_PTerritory;
+		public virtual RSystem.RString RPTerritory
 		{
 			get
 			{
-				if(r_Territory == null)
+				if(r_PTerritory == null)
 				{
-					r_Territory = new(this, "Territory", -1);
-					r_Territory.SetBelong(this.instance);
+					r_PTerritory = new(this, "Territory", -1);
+					r_PTerritory.SetBelong(this.instance);
 				}
-				return r_Territory;
+				return r_PTerritory;
 			}
 		}
 
 		/// <summary>
 		/// System.String _name
 		/// </summary>
-		protected RSystem.RString r__name;
-		public virtual RSystem.RString R_name
+		protected RSystem.RString r_P_name;
+		public virtual RSystem.RString RP_name
 		{
 			get
 			{
-				if(r__name == null)
+				if(r_P_name == null)
 				{
-					r__name = new(this, "_name", -1);
-					r__name.SetBelong(this.instance);
+					r_P_name = new(this, "_name", -1);
+					r_P_name.SetBelong(this.instance);
 				}
-				return r__name;
+				return r_P_name;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureTypes CultureTypes
 		/// </summary>
-		protected RProperty r_CultureTypes;
-		public virtual RProperty RCultureTypes
+		protected RSystem.RGlobalization.RCultureTypes r_PCultureTypes;
+		public virtual RSystem.RGlobalization.RCultureTypes RPCultureTypes
 		{
 			get
 			{
-				if(r_CultureTypes == null)
+				if(r_PCultureTypes == null)
 				{
-					r_CultureTypes = new(this, "CultureTypes", -1);
-					r_CultureTypes.SetBelong(this.instance);
+					r_PCultureTypes = new(this, "CultureTypes", -1);
+					r_PCultureTypes.SetBelong(this.instance);
 				}
-				return r_CultureTypes;
+				return r_PCultureTypes;
 			}
 		}
 
 		/// <summary>
 		/// System.String IetfLanguageTag
 		/// </summary>
-		protected RSystem.RString r_IetfLanguageTag;
-		public virtual RSystem.RString RIetfLanguageTag
+		protected RSystem.RString r_PIetfLanguageTag;
+		public virtual RSystem.RString RPIetfLanguageTag
 		{
 			get
 			{
-				if(r_IetfLanguageTag == null)
+				if(r_PIetfLanguageTag == null)
 				{
-					r_IetfLanguageTag = new(this, "IetfLanguageTag", -1);
-					r_IetfLanguageTag.SetBelong(this.instance);
+					r_PIetfLanguageTag = new(this, "IetfLanguageTag", -1);
+					r_PIetfLanguageTag.SetBelong(this.instance);
 				}
-				return r_IetfLanguageTag;
+				return r_PIetfLanguageTag;
 			}
 		}
 
 		/// <summary>
 		/// Int32 KeyboardLayoutId
 		/// </summary>
-		protected RSystem.RInt32 r_KeyboardLayoutId;
-		public virtual RSystem.RInt32 RKeyboardLayoutId
+		protected RSystem.RInt32 r_PKeyboardLayoutId;
+		public virtual RSystem.RInt32 RPKeyboardLayoutId
 		{
 			get
 			{
-				if(r_KeyboardLayoutId == null)
+				if(r_PKeyboardLayoutId == null)
 				{
-					r_KeyboardLayoutId = new(this, "KeyboardLayoutId", -1);
-					r_KeyboardLayoutId.SetBelong(this.instance);
+					r_PKeyboardLayoutId = new(this, "KeyboardLayoutId", -1);
+					r_PKeyboardLayoutId.SetBelong(this.instance);
 				}
-				return r_KeyboardLayoutId;
+				return r_PKeyboardLayoutId;
 			}
 		}
 
 		/// <summary>
 		/// Int32 LCID
 		/// </summary>
-		protected RSystem.RInt32 r_LCID;
-		public virtual RSystem.RInt32 RLCID
+		protected RSystem.RInt32 r_PLCID;
+		public virtual RSystem.RInt32 RPLCID
 		{
 			get
 			{
-				if(r_LCID == null)
+				if(r_PLCID == null)
 				{
-					r_LCID = new(this, "LCID", -1);
-					r_LCID.SetBelong(this.instance);
+					r_PLCID = new(this, "LCID", -1);
+					r_PLCID.SetBelong(this.instance);
 				}
-				return r_LCID;
+				return r_PLCID;
 			}
 		}
 
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RSystem.RString r_Name;
-		public virtual RSystem.RString RName
+		protected RSystem.RString r_PName;
+		public virtual RSystem.RString RPName
 		{
 			get
 			{
-				if(r_Name == null)
+				if(r_PName == null)
 				{
-					r_Name = new(this, "Name", -1);
-					r_Name.SetBelong(this.instance);
+					r_PName = new(this, "Name", -1);
+					r_PName.SetBelong(this.instance);
 				}
-				return r_Name;
+				return r_PName;
 			}
 		}
 
 		/// <summary>
 		/// System.String NativeName
 		/// </summary>
-		protected RSystem.RString r_NativeName;
-		public virtual RSystem.RString RNativeName
+		protected RSystem.RString r_PNativeName;
+		public virtual RSystem.RString RPNativeName
 		{
 			get
 			{
-				if(r_NativeName == null)
+				if(r_PNativeName == null)
 				{
-					r_NativeName = new(this, "NativeName", -1);
-					r_NativeName.SetBelong(this.instance);
+					r_PNativeName = new(this, "NativeName", -1);
+					r_PNativeName.SetBelong(this.instance);
 				}
-				return r_NativeName;
+				return r_PNativeName;
 			}
 		}
 
 		/// <summary>
 		/// System.String NativeCalendarName
 		/// </summary>
-		protected RSystem.RString r_NativeCalendarName;
-		public virtual RSystem.RString RNativeCalendarName
+		protected RSystem.RString r_PNativeCalendarName;
+		public virtual RSystem.RString RPNativeCalendarName
 		{
 			get
 			{
-				if(r_NativeCalendarName == null)
+				if(r_PNativeCalendarName == null)
 				{
-					r_NativeCalendarName = new(this, "NativeCalendarName", -1);
-					r_NativeCalendarName.SetBelong(this.instance);
+					r_PNativeCalendarName = new(this, "NativeCalendarName", -1);
+					r_PNativeCalendarName.SetBelong(this.instance);
 				}
-				return r_NativeCalendarName;
+				return r_PNativeCalendarName;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.Calendar Calendar
 		/// </summary>
-		protected RSystem.RGlobalization.RCalendar r_Calendar;
-		public virtual RSystem.RGlobalization.RCalendar RCalendar
+		protected RSystem.RGlobalization.RCalendar r_PCalendar;
+		public virtual RSystem.RGlobalization.RCalendar RPCalendar
 		{
 			get
 			{
-				if(r_Calendar == null)
+				if(r_PCalendar == null)
 				{
-					r_Calendar = new(this, "Calendar", -1);
-					r_Calendar.SetBelong(this.instance);
+					r_PCalendar = new(this, "Calendar", -1);
+					r_PCalendar.SetBelong(this.instance);
 				}
-				return r_Calendar;
+				return r_PCalendar;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.Calendar[] OptionalCalendars
 		/// </summary>
-		protected RPropertyArray<RSystem.RGlobalization.RCalendar> r_OptionalCalendars;
-		public virtual RPropertyArray<RSystem.RGlobalization.RCalendar> ROptionalCalendars
+		protected RPropertyArray<RSystem.RGlobalization.RCalendar> r_POptionalCalendars;
+		public virtual RPropertyArray<RSystem.RGlobalization.RCalendar> RPOptionalCalendars
 		{
 			get
 			{
-				if(r_OptionalCalendars == null)
+				if(r_POptionalCalendars == null)
 				{
-					r_OptionalCalendars = new(this, "OptionalCalendars", -1);
-					r_OptionalCalendars.SetBelong(this.instance);
+					r_POptionalCalendars = new(this, "OptionalCalendars", -1);
+					r_POptionalCalendars.SetBelong(this.instance);
 				}
-				return r_OptionalCalendars;
+				return r_POptionalCalendars;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo Parent
 		/// </summary>
-		protected RSystem.RGlobalization.RCultureInfo r_Parent;
-		public virtual RSystem.RGlobalization.RCultureInfo RParent
+		protected RSystem.RGlobalization.RCultureInfo r_PParent;
+		public virtual RSystem.RGlobalization.RCultureInfo RPParent
 		{
 			get
 			{
-				if(r_Parent == null)
+				if(r_PParent == null)
 				{
-					r_Parent = new(this, "Parent", -1);
-					r_Parent.SetBelong(this.instance);
+					r_PParent = new(this, "Parent", -1);
+					r_PParent.SetBelong(this.instance);
 				}
-				return r_Parent;
+				return r_PParent;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.TextInfo TextInfo
 		/// </summary>
-		protected RSystem.RGlobalization.RTextInfo r_TextInfo;
-		public virtual RSystem.RGlobalization.RTextInfo RTextInfo
+		protected RSystem.RGlobalization.RTextInfo r_PTextInfo;
+		public virtual RSystem.RGlobalization.RTextInfo RPTextInfo
 		{
 			get
 			{
-				if(r_TextInfo == null)
+				if(r_PTextInfo == null)
 				{
-					r_TextInfo = new(this, "TextInfo", -1);
-					r_TextInfo.SetBelong(this.instance);
+					r_PTextInfo = new(this, "TextInfo", -1);
+					r_PTextInfo.SetBelong(this.instance);
 				}
-				return r_TextInfo;
+				return r_PTextInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.String ThreeLetterISOLanguageName
 		/// </summary>
-		protected RSystem.RString r_ThreeLetterISOLanguageName;
-		public virtual RSystem.RString RThreeLetterISOLanguageName
+		protected RSystem.RString r_PThreeLetterISOLanguageName;
+		public virtual RSystem.RString RPThreeLetterISOLanguageName
 		{
 			get
 			{
-				if(r_ThreeLetterISOLanguageName == null)
+				if(r_PThreeLetterISOLanguageName == null)
 				{
-					r_ThreeLetterISOLanguageName = new(this, "ThreeLetterISOLanguageName", -1);
-					r_ThreeLetterISOLanguageName.SetBelong(this.instance);
+					r_PThreeLetterISOLanguageName = new(this, "ThreeLetterISOLanguageName", -1);
+					r_PThreeLetterISOLanguageName.SetBelong(this.instance);
 				}
-				return r_ThreeLetterISOLanguageName;
+				return r_PThreeLetterISOLanguageName;
 			}
 		}
 
 		/// <summary>
 		/// System.String ThreeLetterWindowsLanguageName
 		/// </summary>
-		protected RSystem.RString r_ThreeLetterWindowsLanguageName;
-		public virtual RSystem.RString RThreeLetterWindowsLanguageName
+		protected RSystem.RString r_PThreeLetterWindowsLanguageName;
+		public virtual RSystem.RString RPThreeLetterWindowsLanguageName
 		{
 			get
 			{
-				if(r_ThreeLetterWindowsLanguageName == null)
+				if(r_PThreeLetterWindowsLanguageName == null)
 				{
-					r_ThreeLetterWindowsLanguageName = new(this, "ThreeLetterWindowsLanguageName", -1);
-					r_ThreeLetterWindowsLanguageName.SetBelong(this.instance);
+					r_PThreeLetterWindowsLanguageName = new(this, "ThreeLetterWindowsLanguageName", -1);
+					r_PThreeLetterWindowsLanguageName.SetBelong(this.instance);
 				}
-				return r_ThreeLetterWindowsLanguageName;
+				return r_PThreeLetterWindowsLanguageName;
 			}
 		}
 
 		/// <summary>
 		/// System.String TwoLetterISOLanguageName
 		/// </summary>
-		protected RSystem.RString r_TwoLetterISOLanguageName;
-		public virtual RSystem.RString RTwoLetterISOLanguageName
+		protected RSystem.RString r_PTwoLetterISOLanguageName;
+		public virtual RSystem.RString RPTwoLetterISOLanguageName
 		{
 			get
 			{
-				if(r_TwoLetterISOLanguageName == null)
+				if(r_PTwoLetterISOLanguageName == null)
 				{
-					r_TwoLetterISOLanguageName = new(this, "TwoLetterISOLanguageName", -1);
-					r_TwoLetterISOLanguageName.SetBelong(this.instance);
+					r_PTwoLetterISOLanguageName = new(this, "TwoLetterISOLanguageName", -1);
+					r_PTwoLetterISOLanguageName.SetBelong(this.instance);
 				}
-				return r_TwoLetterISOLanguageName;
+				return r_PTwoLetterISOLanguageName;
 			}
 		}
 
 		/// <summary>
 		/// Boolean UseUserOverride
 		/// </summary>
-		protected RSystem.RBoolean r_UseUserOverride;
-		public virtual RSystem.RBoolean RUseUserOverride
+		protected RSystem.RBoolean r_PUseUserOverride;
+		public virtual RSystem.RBoolean RPUseUserOverride
 		{
 			get
 			{
-				if(r_UseUserOverride == null)
+				if(r_PUseUserOverride == null)
 				{
-					r_UseUserOverride = new(this, "UseUserOverride", -1);
-					r_UseUserOverride.SetBelong(this.instance);
+					r_PUseUserOverride = new(this, "UseUserOverride", -1);
+					r_PUseUserOverride.SetBelong(this.instance);
 				}
-				return r_UseUserOverride;
+				return r_PUseUserOverride;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CompareInfo CompareInfo
 		/// </summary>
-		protected RSystem.RGlobalization.RCompareInfo r_CompareInfo;
-		public virtual RSystem.RGlobalization.RCompareInfo RCompareInfo
+		protected RSystem.RGlobalization.RCompareInfo r_PCompareInfo;
+		public virtual RSystem.RGlobalization.RCompareInfo RPCompareInfo
 		{
 			get
 			{
-				if(r_CompareInfo == null)
+				if(r_PCompareInfo == null)
 				{
-					r_CompareInfo = new(this, "CompareInfo", -1);
-					r_CompareInfo.SetBelong(this.instance);
+					r_PCompareInfo = new(this, "CompareInfo", -1);
+					r_PCompareInfo.SetBelong(this.instance);
 				}
-				return r_CompareInfo;
+				return r_PCompareInfo;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsNeutralCulture
 		/// </summary>
-		protected RSystem.RBoolean r_IsNeutralCulture;
-		public virtual RSystem.RBoolean RIsNeutralCulture
+		protected RSystem.RBoolean r_PIsNeutralCulture;
+		public virtual RSystem.RBoolean RPIsNeutralCulture
 		{
 			get
 			{
-				if(r_IsNeutralCulture == null)
+				if(r_PIsNeutralCulture == null)
 				{
-					r_IsNeutralCulture = new(this, "IsNeutralCulture", -1);
-					r_IsNeutralCulture.SetBelong(this.instance);
+					r_PIsNeutralCulture = new(this, "IsNeutralCulture", -1);
+					r_PIsNeutralCulture.SetBelong(this.instance);
 				}
-				return r_IsNeutralCulture;
+				return r_PIsNeutralCulture;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.NumberFormatInfo NumberFormat
 		/// </summary>
-		protected RSystem.RGlobalization.RNumberFormatInfo r_NumberFormat;
-		public virtual RSystem.RGlobalization.RNumberFormatInfo RNumberFormat
+		protected RSystem.RGlobalization.RNumberFormatInfo r_PNumberFormat;
+		public virtual RSystem.RGlobalization.RNumberFormatInfo RPNumberFormat
 		{
 			get
 			{
-				if(r_NumberFormat == null)
+				if(r_PNumberFormat == null)
 				{
-					r_NumberFormat = new(this, "NumberFormat", -1);
-					r_NumberFormat.SetBelong(this.instance);
+					r_PNumberFormat = new(this, "NumberFormat", -1);
+					r_PNumberFormat.SetBelong(this.instance);
 				}
-				return r_NumberFormat;
+				return r_PNumberFormat;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.DateTimeFormatInfo DateTimeFormat
 		/// </summary>
-		protected RSystem.RGlobalization.RDateTimeFormatInfo r_DateTimeFormat;
-		public virtual RSystem.RGlobalization.RDateTimeFormatInfo RDateTimeFormat
+		protected RSystem.RGlobalization.RDateTimeFormatInfo r_PDateTimeFormat;
+		public virtual RSystem.RGlobalization.RDateTimeFormatInfo RPDateTimeFormat
 		{
 			get
 			{
-				if(r_DateTimeFormat == null)
+				if(r_PDateTimeFormat == null)
 				{
-					r_DateTimeFormat = new(this, "DateTimeFormat", -1);
-					r_DateTimeFormat.SetBelong(this.instance);
+					r_PDateTimeFormat = new(this, "DateTimeFormat", -1);
+					r_PDateTimeFormat.SetBelong(this.instance);
 				}
-				return r_DateTimeFormat;
+				return r_PDateTimeFormat;
 			}
 		}
 
 		/// <summary>
 		/// System.String DisplayName
 		/// </summary>
-		protected RSystem.RString r_DisplayName;
-		public virtual RSystem.RString RDisplayName
+		protected RSystem.RString r_PDisplayName;
+		public virtual RSystem.RString RPDisplayName
 		{
 			get
 			{
-				if(r_DisplayName == null)
+				if(r_PDisplayName == null)
 				{
-					r_DisplayName = new(this, "DisplayName", -1);
-					r_DisplayName.SetBelong(this.instance);
+					r_PDisplayName = new(this, "DisplayName", -1);
+					r_PDisplayName.SetBelong(this.instance);
 				}
-				return r_DisplayName;
+				return r_PDisplayName;
 			}
 		}
 
 		/// <summary>
 		/// System.String EnglishName
 		/// </summary>
-		protected RSystem.RString r_EnglishName;
-		public virtual RSystem.RString REnglishName
+		protected RSystem.RString r_PEnglishName;
+		public virtual RSystem.RString RPEnglishName
 		{
 			get
 			{
-				if(r_EnglishName == null)
+				if(r_PEnglishName == null)
 				{
-					r_EnglishName = new(this, "EnglishName", -1);
-					r_EnglishName.SetBelong(this.instance);
+					r_PEnglishName = new(this, "EnglishName", -1);
+					r_PEnglishName.SetBelong(this.instance);
 				}
-				return r_EnglishName;
+				return r_PEnglishName;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo InstalledUICulture
 		/// </summary>
-		protected static RSystem.RGlobalization.RCultureInfo r_InstalledUICulture;
-		public static RSystem.RGlobalization.RCultureInfo RInstalledUICulture
+		protected static RSystem.RGlobalization.RCultureInfo r_PInstalledUICulture;
+		public static RSystem.RGlobalization.RCultureInfo RPInstalledUICulture
 		{
 			get
 			{
-				if(r_InstalledUICulture == null)
+				if(r_PInstalledUICulture == null)
 				{
-					r_InstalledUICulture = new(typeof(System.Globalization.CultureInfo), "InstalledUICulture", -1);
-					r_InstalledUICulture.SetBelong(null);
+					r_PInstalledUICulture = new(typeof(System.Globalization.CultureInfo), "InstalledUICulture", -1);
+					r_PInstalledUICulture.SetBelong(null);
 				}
-				return r_InstalledUICulture;
+				return r_PInstalledUICulture;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RSystem.RBoolean r_IsReadOnly;
-		public virtual RSystem.RBoolean RIsReadOnly
+		protected RSystem.RBoolean r_PIsReadOnly;
+		public virtual RSystem.RBoolean RPIsReadOnly
 		{
 			get
 			{
-				if(r_IsReadOnly == null)
+				if(r_PIsReadOnly == null)
 				{
-					r_IsReadOnly = new(this, "IsReadOnly", -1);
-					r_IsReadOnly.SetBelong(this.instance);
+					r_PIsReadOnly = new(this, "IsReadOnly", -1);
+					r_PIsReadOnly.SetBelong(this.instance);
 				}
-				return r_IsReadOnly;
+				return r_PIsReadOnly;
 			}
 		}
 
 		/// <summary>
 		/// Int32 CalendarType
 		/// </summary>
-		protected RSystem.RInt32 r_CalendarType;
-		public virtual RSystem.RInt32 RCalendarType
+		protected RSystem.RInt32 r_PCalendarType;
+		public virtual RSystem.RInt32 RPCalendarType
 		{
 			get
 			{
-				if(r_CalendarType == null)
+				if(r_PCalendarType == null)
 				{
-					r_CalendarType = new(this, "CalendarType", -1);
-					r_CalendarType.SetBelong(this.instance);
+					r_PCalendarType = new(this, "CalendarType", -1);
+					r_PCalendarType.SetBelong(this.instance);
 				}
-				return r_CalendarType;
+				return r_PCalendarType;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo DefaultThreadCurrentCulture
 		/// </summary>
-		protected static RSystem.RGlobalization.RCultureInfo r_DefaultThreadCurrentCulture;
-		public static RSystem.RGlobalization.RCultureInfo RDefaultThreadCurrentCulture
+		protected static RSystem.RGlobalization.RCultureInfo r_PDefaultThreadCurrentCulture;
+		public static RSystem.RGlobalization.RCultureInfo RPDefaultThreadCurrentCulture
 		{
 			get
 			{
-				if(r_DefaultThreadCurrentCulture == null)
+				if(r_PDefaultThreadCurrentCulture == null)
 				{
-					r_DefaultThreadCurrentCulture = new(typeof(System.Globalization.CultureInfo), "DefaultThreadCurrentCulture", -1);
-					r_DefaultThreadCurrentCulture.SetBelong(null);
+					r_PDefaultThreadCurrentCulture = new(typeof(System.Globalization.CultureInfo), "DefaultThreadCurrentCulture", -1);
+					r_PDefaultThreadCurrentCulture.SetBelong(null);
 				}
-				return r_DefaultThreadCurrentCulture;
+				return r_PDefaultThreadCurrentCulture;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo DefaultThreadCurrentUICulture
 		/// </summary>
-		protected static RSystem.RGlobalization.RCultureInfo r_DefaultThreadCurrentUICulture;
-		public static RSystem.RGlobalization.RCultureInfo RDefaultThreadCurrentUICulture
+		protected static RSystem.RGlobalization.RCultureInfo r_PDefaultThreadCurrentUICulture;
+		public static RSystem.RGlobalization.RCultureInfo RPDefaultThreadCurrentUICulture
 		{
 			get
 			{
-				if(r_DefaultThreadCurrentUICulture == null)
+				if(r_PDefaultThreadCurrentUICulture == null)
 				{
-					r_DefaultThreadCurrentUICulture = new(typeof(System.Globalization.CultureInfo), "DefaultThreadCurrentUICulture", -1);
-					r_DefaultThreadCurrentUICulture.SetBelong(null);
+					r_PDefaultThreadCurrentUICulture = new(typeof(System.Globalization.CultureInfo), "DefaultThreadCurrentUICulture", -1);
+					r_PDefaultThreadCurrentUICulture.SetBelong(null);
 				}
-				return r_DefaultThreadCurrentUICulture;
+				return r_PDefaultThreadCurrentUICulture;
 			}
 		}
 
 		/// <summary>
 		/// System.String SortName
 		/// </summary>
-		protected RSystem.RString r_SortName;
-		public virtual RSystem.RString RSortName
+		protected RSystem.RString r_PSortName;
+		public virtual RSystem.RString RPSortName
 		{
 			get
 			{
-				if(r_SortName == null)
+				if(r_PSortName == null)
 				{
-					r_SortName = new(this, "SortName", -1);
-					r_SortName.SetBelong(this.instance);
+					r_PSortName = new(this, "SortName", -1);
+					r_PSortName.SetBelong(this.instance);
 				}
-				return r_SortName;
+				return r_PSortName;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo UserDefaultUICulture
 		/// </summary>
-		protected static RSystem.RGlobalization.RCultureInfo r_UserDefaultUICulture;
-		public static RSystem.RGlobalization.RCultureInfo RUserDefaultUICulture
+		protected static RSystem.RGlobalization.RCultureInfo r_PUserDefaultUICulture;
+		public static RSystem.RGlobalization.RCultureInfo RPUserDefaultUICulture
 		{
 			get
 			{
-				if(r_UserDefaultUICulture == null)
+				if(r_PUserDefaultUICulture == null)
 				{
-					r_UserDefaultUICulture = new(typeof(System.Globalization.CultureInfo), "UserDefaultUICulture", -1);
-					r_UserDefaultUICulture.SetBelong(null);
+					r_PUserDefaultUICulture = new(typeof(System.Globalization.CultureInfo), "UserDefaultUICulture", -1);
+					r_PUserDefaultUICulture.SetBelong(null);
 				}
-				return r_UserDefaultUICulture;
+				return r_PUserDefaultUICulture;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo UserDefaultCulture
 		/// </summary>
-		protected static RSystem.RGlobalization.RCultureInfo r_UserDefaultCulture;
-		public static RSystem.RGlobalization.RCultureInfo RUserDefaultCulture
+		protected static RSystem.RGlobalization.RCultureInfo r_PUserDefaultCulture;
+		public static RSystem.RGlobalization.RCultureInfo RPUserDefaultCulture
 		{
 			get
 			{
-				if(r_UserDefaultCulture == null)
+				if(r_PUserDefaultCulture == null)
 				{
-					r_UserDefaultCulture = new(typeof(System.Globalization.CultureInfo), "UserDefaultCulture", -1);
-					r_UserDefaultCulture.SetBelong(null);
+					r_PUserDefaultCulture = new(typeof(System.Globalization.CultureInfo), "UserDefaultCulture", -1);
+					r_PUserDefaultCulture.SetBelong(null);
 				}
-				return r_UserDefaultCulture;
+				return r_PUserDefaultCulture;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasInvariantCultureName
 		/// </summary>
-		protected RSystem.RBoolean r_HasInvariantCultureName;
-		public virtual RSystem.RBoolean RHasInvariantCultureName
+		protected RSystem.RBoolean r_PHasInvariantCultureName;
+		public virtual RSystem.RBoolean RPHasInvariantCultureName
 		{
 			get
 			{
-				if(r_HasInvariantCultureName == null)
+				if(r_PHasInvariantCultureName == null)
 				{
-					r_HasInvariantCultureName = new(this, "HasInvariantCultureName", -1);
-					r_HasInvariantCultureName.SetBelong(this.instance);
+					r_PHasInvariantCultureName = new(this, "HasInvariantCultureName", -1);
+					r_PHasInvariantCultureName.SetBelong(this.instance);
 				}
-				return r_HasInvariantCultureName;
+				return r_PHasInvariantCultureName;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo ConstructCurrentCulture()
 		/// </summary>
-		protected static RMethod r_ConstructCurrentCulture;
-		public static RMethod RConstructCurrentCulture
+		protected static RMethod r_MConstructCurrentCulture;
+		public static RMethod RMConstructCurrentCulture
 		{
 			get
 			{
-				if(r_ConstructCurrentCulture == null)
+				if(r_MConstructCurrentCulture == null)
 				{
-					r_ConstructCurrentCulture = new(typeof(System.Globalization.CultureInfo), "ConstructCurrentCulture", 0);
-					r_ConstructCurrentCulture.SetBelong(null);
+					r_MConstructCurrentCulture = new(typeof(System.Globalization.CultureInfo), "ConstructCurrentCulture", 0);
+					r_MConstructCurrentCulture.SetBelong(null);
 				}
-				return r_ConstructCurrentCulture;
+				return r_MConstructCurrentCulture;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo ConstructCurrentUICulture()
 		/// </summary>
-		protected static RMethod r_ConstructCurrentUICulture;
-		public static RMethod RConstructCurrentUICulture
+		protected static RMethod r_MConstructCurrentUICulture;
+		public static RMethod RMConstructCurrentUICulture
 		{
 			get
 			{
-				if(r_ConstructCurrentUICulture == null)
+				if(r_MConstructCurrentUICulture == null)
 				{
-					r_ConstructCurrentUICulture = new(typeof(System.Globalization.CultureInfo), "ConstructCurrentUICulture", 0);
-					r_ConstructCurrentUICulture.SetBelong(null);
+					r_MConstructCurrentUICulture = new(typeof(System.Globalization.CultureInfo), "ConstructCurrentUICulture", 0);
+					r_MConstructCurrentUICulture.SetBelong(null);
 				}
-				return r_ConstructCurrentUICulture;
+				return r_MConstructCurrentUICulture;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo GetConsoleFallbackUICulture()
 		/// </summary>
-		protected RMethod r_GetConsoleFallbackUICulture;
-		public virtual RMethod RGetConsoleFallbackUICulture
+		protected RMethod r_MGetConsoleFallbackUICulture;
+		public virtual RMethod RMGetConsoleFallbackUICulture
 		{
 			get
 			{
-				if(r_GetConsoleFallbackUICulture == null)
+				if(r_MGetConsoleFallbackUICulture == null)
 				{
-					r_GetConsoleFallbackUICulture = new(this, "GetConsoleFallbackUICulture", 0);
-					r_GetConsoleFallbackUICulture.SetBelong(this.instance);
+					r_MGetConsoleFallbackUICulture = new(this, "GetConsoleFallbackUICulture", 0);
+					r_MGetConsoleFallbackUICulture.SetBelong(this.instance);
 				}
-				return r_GetConsoleFallbackUICulture;
+				return r_MGetConsoleFallbackUICulture;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearCachedData()
 		/// </summary>
-		protected RMethod r_ClearCachedData;
-		public virtual RMethod RClearCachedData
+		protected RMethod r_MClearCachedData;
+		public virtual RMethod RMClearCachedData
 		{
 			get
 			{
-				if(r_ClearCachedData == null)
+				if(r_MClearCachedData == null)
 				{
-					r_ClearCachedData = new(this, "ClearCachedData", 0);
-					r_ClearCachedData.SetBelong(this.instance);
+					r_MClearCachedData = new(this, "ClearCachedData", 0);
+					r_MClearCachedData.SetBelong(this.instance);
 				}
-				return r_ClearCachedData;
+				return r_MClearCachedData;
 			}
 		}
 
 		/// <summary>
 		/// System.Object Clone()
 		/// </summary>
-		protected RMethod r_Clone;
-		public virtual RMethod RClone
+		protected RMethod r_MClone;
+		public virtual RMethod RMClone
 		{
 			get
 			{
-				if(r_Clone == null)
+				if(r_MClone == null)
 				{
-					r_Clone = new(this, "Clone", 0);
-					r_Clone.SetBelong(this.instance);
+					r_MClone = new(this, "Clone", 0);
+					r_MClone.SetBelong(this.instance);
 				}
-				return r_Clone;
+				return r_MClone;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo[] GetCultures(System.Globalization.CultureTypes)
 		/// </summary>
-		protected static RMethod r_GetCultures_CultureTypes;
-		public static RMethod RGetCultures_CultureTypes
+		protected static RMethod r_MGetCultures_CultureTypes;
+		public static RMethod RMGetCultures_CultureTypes
 		{
 			get
 			{
-				if(r_GetCultures_CultureTypes == null)
+				if(r_MGetCultures_CultureTypes == null)
 				{
-					r_GetCultures_CultureTypes = new(typeof(System.Globalization.CultureInfo), "GetCultures", 0, typeof(System.Globalization.CultureTypes));
-					r_GetCultures_CultureTypes.SetBelong(null);
+					r_MGetCultures_CultureTypes = new(typeof(System.Globalization.CultureInfo), "GetCultures", 0, typeof(System.Globalization.CultureTypes));
+					r_MGetCultures_CultureTypes.SetBelong(null);
 				}
-				return r_GetCultures_CultureTypes;
+				return r_MGetCultures_CultureTypes;
 			}
 		}
 
 		/// <summary>
 		/// Data GetTextInfoData()
 		/// </summary>
-		protected RMethod r_GetTextInfoData;
-		public virtual RMethod RGetTextInfoData
+		protected RMethod r_MGetTextInfoData;
+		public virtual RMethod RMGetTextInfoData
 		{
 			get
 			{
-				if(r_GetTextInfoData == null)
+				if(r_MGetTextInfoData == null)
 				{
-					r_GetTextInfoData = new(this, "GetTextInfoData", 0);
-					r_GetTextInfoData.SetBelong(this.instance);
+					r_MGetTextInfoData = new(this, "GetTextInfoData", 0);
+					r_MGetTextInfoData.SetBelong(this.instance);
 				}
-				return r_GetTextInfoData;
+				return r_MGetTextInfoData;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo ReadOnly(System.Globalization.CultureInfo)
 		/// </summary>
-		protected static RMethod r_ReadOnly_CultureInfo;
-		public static RMethod RReadOnly_CultureInfo
+		protected static RMethod r_MReadOnly_CultureInfo;
+		public static RMethod RMReadOnly_CultureInfo
 		{
 			get
 			{
-				if(r_ReadOnly_CultureInfo == null)
+				if(r_MReadOnly_CultureInfo == null)
 				{
-					r_ReadOnly_CultureInfo = new(typeof(System.Globalization.CultureInfo), "ReadOnly", 0, typeof(System.Globalization.CultureInfo));
-					r_ReadOnly_CultureInfo.SetBelong(null);
+					r_MReadOnly_CultureInfo = new(typeof(System.Globalization.CultureInfo), "ReadOnly", 0, typeof(System.Globalization.CultureInfo));
+					r_MReadOnly_CultureInfo.SetBelong(null);
 				}
-				return r_ReadOnly_CultureInfo;
+				return r_MReadOnly_CultureInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckNeutral()
 		/// </summary>
-		protected RMethod r_CheckNeutral;
-		public virtual RMethod RCheckNeutral
+		protected RMethod r_MCheckNeutral;
+		public virtual RMethod RMCheckNeutral
 		{
 			get
 			{
-				if(r_CheckNeutral == null)
+				if(r_MCheckNeutral == null)
 				{
-					r_CheckNeutral = new(this, "CheckNeutral", 0);
-					r_CheckNeutral.SetBelong(this.instance);
+					r_MCheckNeutral = new(this, "CheckNeutral", 0);
+					r_MCheckNeutral.SetBelong(this.instance);
 				}
-				return r_CheckNeutral;
+				return r_MCheckNeutral;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetFormat(System.Type)
 		/// </summary>
-		protected RMethod r_GetFormat_Type;
-		public virtual RMethod RGetFormat_Type
+		protected RMethod r_MGetFormat_Type;
+		public virtual RMethod RMGetFormat_Type
 		{
 			get
 			{
-				if(r_GetFormat_Type == null)
+				if(r_MGetFormat_Type == null)
 				{
-					r_GetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
-					r_GetFormat_Type.SetBelong(this.instance);
+					r_MGetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
+					r_MGetFormat_Type.SetBelong(this.instance);
 				}
-				return r_GetFormat_Type;
+				return r_MGetFormat_Type;
 			}
 		}
 
 		/// <summary>
 		/// Void Construct()
 		/// </summary>
-		protected RMethod r_Construct;
-		public virtual RMethod RConstruct
+		protected RMethod r_MConstruct;
+		public virtual RMethod RMConstruct
 		{
 			get
 			{
-				if(r_Construct == null)
+				if(r_MConstruct == null)
 				{
-					r_Construct = new(this, "Construct", 0);
-					r_Construct.SetBelong(this.instance);
+					r_MConstruct = new(this, "Construct", 0);
+					r_MConstruct.SetBelong(this.instance);
 				}
-				return r_Construct;
+				return r_MConstruct;
 			}
 		}
 
 		/// <summary>
 		/// Boolean construct_internal_locale_from_lcid(Int32)
 		/// </summary>
-		protected RMethod r_construct_internal_locale_from_lcid_Int32;
-		public virtual RMethod Rconstruct_internal_locale_from_lcid_Int32
+		protected RMethod r_Mconstruct_internal_locale_from_lcid_Int32;
+		public virtual RMethod RMconstruct_internal_locale_from_lcid_Int32
 		{
 			get
 			{
-				if(r_construct_internal_locale_from_lcid_Int32 == null)
+				if(r_Mconstruct_internal_locale_from_lcid_Int32 == null)
 				{
-					r_construct_internal_locale_from_lcid_Int32 = new(this, "construct_internal_locale_from_lcid", 0, typeof(System.Int32));
-					r_construct_internal_locale_from_lcid_Int32.SetBelong(this.instance);
+					r_Mconstruct_internal_locale_from_lcid_Int32 = new(this, "construct_internal_locale_from_lcid", 0, typeof(System.Int32));
+					r_Mconstruct_internal_locale_from_lcid_Int32.SetBelong(this.instance);
 				}
-				return r_construct_internal_locale_from_lcid_Int32;
+				return r_Mconstruct_internal_locale_from_lcid_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean construct_internal_locale_from_name(System.String)
 		/// </summary>
-		protected RMethod r_construct_internal_locale_from_name_String;
-		public virtual RMethod Rconstruct_internal_locale_from_name_String
+		protected RMethod r_Mconstruct_internal_locale_from_name_String;
+		public virtual RMethod RMconstruct_internal_locale_from_name_String
 		{
 			get
 			{
-				if(r_construct_internal_locale_from_name_String == null)
+				if(r_Mconstruct_internal_locale_from_name_String == null)
 				{
-					r_construct_internal_locale_from_name_String = new(this, "construct_internal_locale_from_name", 0, typeof(System.String));
-					r_construct_internal_locale_from_name_String.SetBelong(this.instance);
+					r_Mconstruct_internal_locale_from_name_String = new(this, "construct_internal_locale_from_name", 0, typeof(System.String));
+					r_Mconstruct_internal_locale_from_name_String.SetBelong(this.instance);
 				}
-				return r_construct_internal_locale_from_name_String;
+				return r_Mconstruct_internal_locale_from_name_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String get_current_locale_name()
 		/// </summary>
-		protected static RMethod r_get_current_locale_name;
-		public static RMethod Rget_current_locale_name
+		protected static RMethod r_Mget_current_locale_name;
+		public static RMethod RMget_current_locale_name
 		{
 			get
 			{
-				if(r_get_current_locale_name == null)
+				if(r_Mget_current_locale_name == null)
 				{
-					r_get_current_locale_name = new(typeof(System.Globalization.CultureInfo), "get_current_locale_name", 0);
-					r_get_current_locale_name.SetBelong(null);
+					r_Mget_current_locale_name = new(typeof(System.Globalization.CultureInfo), "get_current_locale_name", 0);
+					r_Mget_current_locale_name.SetBelong(null);
 				}
-				return r_get_current_locale_name;
+				return r_Mget_current_locale_name;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo[] internal_get_cultures(Boolean, Boolean, Boolean)
 		/// </summary>
-		protected static RMethod r_internal_get_cultures_Boolean_Boolean_Boolean;
-		public static RMethod Rinternal_get_cultures_Boolean_Boolean_Boolean
+		protected static RMethod r_Minternal_get_cultures_Boolean_Boolean_Boolean;
+		public static RMethod RMinternal_get_cultures_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_internal_get_cultures_Boolean_Boolean_Boolean == null)
+				if(r_Minternal_get_cultures_Boolean_Boolean_Boolean == null)
 				{
-					r_internal_get_cultures_Boolean_Boolean_Boolean = new(typeof(System.Globalization.CultureInfo), "internal_get_cultures", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_internal_get_cultures_Boolean_Boolean_Boolean.SetBelong(null);
+					r_Minternal_get_cultures_Boolean_Boolean_Boolean = new(typeof(System.Globalization.CultureInfo), "internal_get_cultures", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_Minternal_get_cultures_Boolean_Boolean_Boolean.SetBelong(null);
 				}
-				return r_internal_get_cultures_Boolean_Boolean_Boolean;
+				return r_Minternal_get_cultures_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void ConstructInvariant(Boolean)
 		/// </summary>
-		protected RMethod r_ConstructInvariant_Boolean;
-		public virtual RMethod RConstructInvariant_Boolean
+		protected RMethod r_MConstructInvariant_Boolean;
+		public virtual RMethod RMConstructInvariant_Boolean
 		{
 			get
 			{
-				if(r_ConstructInvariant_Boolean == null)
+				if(r_MConstructInvariant_Boolean == null)
 				{
-					r_ConstructInvariant_Boolean = new(this, "ConstructInvariant", 0, typeof(System.Boolean));
-					r_ConstructInvariant_Boolean.SetBelong(this.instance);
+					r_MConstructInvariant_Boolean = new(this, "ConstructInvariant", 0, typeof(System.Boolean));
+					r_MConstructInvariant_Boolean.SetBelong(this.instance);
 				}
-				return r_ConstructInvariant_Boolean;
+				return r_MConstructInvariant_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.TextInfo CreateTextInfo(Boolean)
 		/// </summary>
-		protected RMethod r_CreateTextInfo_Boolean;
-		public virtual RMethod RCreateTextInfo_Boolean
+		protected RMethod r_MCreateTextInfo_Boolean;
+		public virtual RMethod RMCreateTextInfo_Boolean
 		{
 			get
 			{
-				if(r_CreateTextInfo_Boolean == null)
+				if(r_MCreateTextInfo_Boolean == null)
 				{
-					r_CreateTextInfo_Boolean = new(this, "CreateTextInfo", 0, typeof(System.Boolean));
-					r_CreateTextInfo_Boolean.SetBelong(this.instance);
+					r_MCreateTextInfo_Boolean = new(this, "CreateTextInfo", 0, typeof(System.Boolean));
+					r_MCreateTextInfo_Boolean.SetBelong(this.instance);
 				}
-				return r_CreateTextInfo_Boolean;
+				return r_MCreateTextInfo_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void insert_into_shared_tables(System.Globalization.CultureInfo)
 		/// </summary>
-		protected static RMethod r_insert_into_shared_tables_CultureInfo;
-		public static RMethod Rinsert_into_shared_tables_CultureInfo
+		protected static RMethod r_Minsert_into_shared_tables_CultureInfo;
+		public static RMethod RMinsert_into_shared_tables_CultureInfo
 		{
 			get
 			{
-				if(r_insert_into_shared_tables_CultureInfo == null)
+				if(r_Minsert_into_shared_tables_CultureInfo == null)
 				{
-					r_insert_into_shared_tables_CultureInfo = new(typeof(System.Globalization.CultureInfo), "insert_into_shared_tables", 0, typeof(System.Globalization.CultureInfo));
-					r_insert_into_shared_tables_CultureInfo.SetBelong(null);
+					r_Minsert_into_shared_tables_CultureInfo = new(typeof(System.Globalization.CultureInfo), "insert_into_shared_tables", 0, typeof(System.Globalization.CultureInfo));
+					r_Minsert_into_shared_tables_CultureInfo.SetBelong(null);
 				}
-				return r_insert_into_shared_tables_CultureInfo;
+				return r_Minsert_into_shared_tables_CultureInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo GetCultureInfo(Int32)
 		/// </summary>
-		protected static RMethod r_GetCultureInfo_Int32;
-		public static RMethod RGetCultureInfo_Int32
+		protected static RMethod r_MGetCultureInfo_Int32;
+		public static RMethod RMGetCultureInfo_Int32
 		{
 			get
 			{
-				if(r_GetCultureInfo_Int32 == null)
+				if(r_MGetCultureInfo_Int32 == null)
 				{
-					r_GetCultureInfo_Int32 = new(typeof(System.Globalization.CultureInfo), "GetCultureInfo", 0, typeof(System.Int32));
-					r_GetCultureInfo_Int32.SetBelong(null);
+					r_MGetCultureInfo_Int32 = new(typeof(System.Globalization.CultureInfo), "GetCultureInfo", 0, typeof(System.Int32));
+					r_MGetCultureInfo_Int32.SetBelong(null);
 				}
-				return r_GetCultureInfo_Int32;
+				return r_MGetCultureInfo_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo GetCultureInfo(System.String)
 		/// </summary>
-		protected static RMethod r_GetCultureInfo_String;
-		public static RMethod RGetCultureInfo_String
+		protected static RMethod r_MGetCultureInfo_String;
+		public static RMethod RMGetCultureInfo_String
 		{
 			get
 			{
-				if(r_GetCultureInfo_String == null)
+				if(r_MGetCultureInfo_String == null)
 				{
-					r_GetCultureInfo_String = new(typeof(System.Globalization.CultureInfo), "GetCultureInfo", 0, typeof(System.String));
-					r_GetCultureInfo_String.SetBelong(null);
+					r_MGetCultureInfo_String = new(typeof(System.Globalization.CultureInfo), "GetCultureInfo", 0, typeof(System.String));
+					r_MGetCultureInfo_String.SetBelong(null);
 				}
-				return r_GetCultureInfo_String;
+				return r_MGetCultureInfo_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo GetCultureInfo(System.String, System.String)
 		/// </summary>
-		protected static RMethod r_GetCultureInfo_String_String;
-		public static RMethod RGetCultureInfo_String_String
+		protected static RMethod r_MGetCultureInfo_String_String;
+		public static RMethod RMGetCultureInfo_String_String
 		{
 			get
 			{
-				if(r_GetCultureInfo_String_String == null)
+				if(r_MGetCultureInfo_String_String == null)
 				{
-					r_GetCultureInfo_String_String = new(typeof(System.Globalization.CultureInfo), "GetCultureInfo", 0, typeof(System.String), typeof(System.String));
-					r_GetCultureInfo_String_String.SetBelong(null);
+					r_MGetCultureInfo_String_String = new(typeof(System.Globalization.CultureInfo), "GetCultureInfo", 0, typeof(System.String), typeof(System.String));
+					r_MGetCultureInfo_String_String.SetBelong(null);
 				}
-				return r_GetCultureInfo_String_String;
+				return r_MGetCultureInfo_String_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo GetCultureInfoByIetfLanguageTag(System.String)
 		/// </summary>
-		protected static RMethod r_GetCultureInfoByIetfLanguageTag_String;
-		public static RMethod RGetCultureInfoByIetfLanguageTag_String
+		protected static RMethod r_MGetCultureInfoByIetfLanguageTag_String;
+		public static RMethod RMGetCultureInfoByIetfLanguageTag_String
 		{
 			get
 			{
-				if(r_GetCultureInfoByIetfLanguageTag_String == null)
+				if(r_MGetCultureInfoByIetfLanguageTag_String == null)
 				{
-					r_GetCultureInfoByIetfLanguageTag_String = new(typeof(System.Globalization.CultureInfo), "GetCultureInfoByIetfLanguageTag", 0, typeof(System.String));
-					r_GetCultureInfoByIetfLanguageTag_String.SetBelong(null);
+					r_MGetCultureInfoByIetfLanguageTag_String = new(typeof(System.Globalization.CultureInfo), "GetCultureInfoByIetfLanguageTag", 0, typeof(System.String));
+					r_MGetCultureInfoByIetfLanguageTag_String.SetBelong(null);
 				}
-				return r_GetCultureInfoByIetfLanguageTag_String;
+				return r_MGetCultureInfoByIetfLanguageTag_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo CreateCulture(System.String, Boolean)
 		/// </summary>
-		protected static RMethod r_CreateCulture_String_Boolean;
-		public static RMethod RCreateCulture_String_Boolean
+		protected static RMethod r_MCreateCulture_String_Boolean;
+		public static RMethod RMCreateCulture_String_Boolean
 		{
 			get
 			{
-				if(r_CreateCulture_String_Boolean == null)
+				if(r_MCreateCulture_String_Boolean == null)
 				{
-					r_CreateCulture_String_Boolean = new(typeof(System.Globalization.CultureInfo), "CreateCulture", 0, typeof(System.String), typeof(System.Boolean));
-					r_CreateCulture_String_Boolean.SetBelong(null);
+					r_MCreateCulture_String_Boolean = new(typeof(System.Globalization.CultureInfo), "CreateCulture", 0, typeof(System.String), typeof(System.Boolean));
+					r_MCreateCulture_String_Boolean.SetBelong(null);
 				}
-				return r_CreateCulture_String_Boolean;
+				return r_MCreateCulture_String_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo CreateSpecificCulture(System.String)
 		/// </summary>
-		protected static RMethod r_CreateSpecificCulture_String;
-		public static RMethod RCreateSpecificCulture_String
+		protected static RMethod r_MCreateSpecificCulture_String;
+		public static RMethod RMCreateSpecificCulture_String
 		{
 			get
 			{
-				if(r_CreateSpecificCulture_String == null)
+				if(r_MCreateSpecificCulture_String == null)
 				{
-					r_CreateSpecificCulture_String = new(typeof(System.Globalization.CultureInfo), "CreateSpecificCulture", 0, typeof(System.String));
-					r_CreateSpecificCulture_String.SetBelong(null);
+					r_MCreateSpecificCulture_String = new(typeof(System.Globalization.CultureInfo), "CreateSpecificCulture", 0, typeof(System.String));
+					r_MCreateSpecificCulture_String.SetBelong(null);
 				}
-				return r_CreateSpecificCulture_String;
+				return r_MCreateSpecificCulture_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ConstructLocaleFromName(System.String)
 		/// </summary>
-		protected RMethod r_ConstructLocaleFromName_String;
-		public virtual RMethod RConstructLocaleFromName_String
+		protected RMethod r_MConstructLocaleFromName_String;
+		public virtual RMethod RMConstructLocaleFromName_String
 		{
 			get
 			{
-				if(r_ConstructLocaleFromName_String == null)
+				if(r_MConstructLocaleFromName_String == null)
 				{
-					r_ConstructLocaleFromName_String = new(this, "ConstructLocaleFromName", 0, typeof(System.String));
-					r_ConstructLocaleFromName_String.SetBelong(this.instance);
+					r_MConstructLocaleFromName_String = new(this, "ConstructLocaleFromName", 0, typeof(System.String));
+					r_MConstructLocaleFromName_String.SetBelong(this.instance);
 				}
-				return r_ConstructLocaleFromName_String;
+				return r_MConstructLocaleFromName_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo CreateSpecificCultureFromNeutral(System.String)
 		/// </summary>
-		protected static RMethod r_CreateSpecificCultureFromNeutral_String;
-		public static RMethod RCreateSpecificCultureFromNeutral_String
+		protected static RMethod r_MCreateSpecificCultureFromNeutral_String;
+		public static RMethod RMCreateSpecificCultureFromNeutral_String
 		{
 			get
 			{
-				if(r_CreateSpecificCultureFromNeutral_String == null)
+				if(r_MCreateSpecificCultureFromNeutral_String == null)
 				{
-					r_CreateSpecificCultureFromNeutral_String = new(typeof(System.Globalization.CultureInfo), "CreateSpecificCultureFromNeutral", 0, typeof(System.String));
-					r_CreateSpecificCultureFromNeutral_String.SetBelong(null);
+					r_MCreateSpecificCultureFromNeutral_String = new(typeof(System.Globalization.CultureInfo), "CreateSpecificCultureFromNeutral", 0, typeof(System.String));
+					r_MCreateSpecificCultureFromNeutral_String.SetBelong(null);
 				}
-				return r_CreateSpecificCultureFromNeutral_String;
+				return r_MCreateSpecificCultureFromNeutral_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.Calendar CreateCalendar(Int32)
 		/// </summary>
-		protected static RMethod r_CreateCalendar_Int32;
-		public static RMethod RCreateCalendar_Int32
+		protected static RMethod r_MCreateCalendar_Int32;
+		public static RMethod RMCreateCalendar_Int32
 		{
 			get
 			{
-				if(r_CreateCalendar_Int32 == null)
+				if(r_MCreateCalendar_Int32 == null)
 				{
-					r_CreateCalendar_Int32 = new(typeof(System.Globalization.CultureInfo), "CreateCalendar", 0, typeof(System.Int32));
-					r_CreateCalendar_Int32.SetBelong(null);
+					r_MCreateCalendar_Int32 = new(typeof(System.Globalization.CultureInfo), "CreateCalendar", 0, typeof(System.Int32));
+					r_MCreateCalendar_Int32.SetBelong(null);
 				}
-				return r_CreateCalendar_Int32;
+				return r_MCreateCalendar_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Exception CreateNotFoundException(System.String)
 		/// </summary>
-		protected static RMethod r_CreateNotFoundException_String;
-		public static RMethod RCreateNotFoundException_String
+		protected static RMethod r_MCreateNotFoundException_String;
+		public static RMethod RMCreateNotFoundException_String
 		{
 			get
 			{
-				if(r_CreateNotFoundException_String == null)
+				if(r_MCreateNotFoundException_String == null)
 				{
-					r_CreateNotFoundException_String = new(typeof(System.Globalization.CultureInfo), "CreateNotFoundException", 0, typeof(System.String));
-					r_CreateNotFoundException_String.SetBelong(null);
+					r_MCreateNotFoundException_String = new(typeof(System.Globalization.CultureInfo), "CreateNotFoundException", 0, typeof(System.String));
+					r_MCreateNotFoundException_String.SetBelong(null);
 				}
-				return r_CreateNotFoundException_String;
+				return r_MCreateNotFoundException_String;
 			}
 		}
 
 		/// <summary>
 		/// Void InitializeUserPreferredCultureInfoInAppX(OnCultureInfoChangedDelegate)
 		/// </summary>
-		protected static RMethod r_InitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate;
-		public static RMethod RInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate
+		protected static RMethod r_MInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate;
+		public static RMethod RMInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate
 		{
 			get
 			{
-				if(r_InitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate == null)
+				if(r_MInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate == null)
 				{
-					r_InitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate = new(typeof(System.Globalization.CultureInfo), "InitializeUserPreferredCultureInfoInAppX", 0,  ReflectionUtils.GetType("System.Globalization.CultureInfo+OnCultureInfoChangedDelegate"));
-					r_InitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate.SetBelong(null);
+					r_MInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate = new(typeof(System.Globalization.CultureInfo), "InitializeUserPreferredCultureInfoInAppX", 0,  ReflectionUtils.GetType("System.Globalization.CultureInfo+OnCultureInfoChangedDelegate"));
+					r_MInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate.SetBelong(null);
 				}
-				return r_InitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate;
+				return r_MInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUserPreferredCultureInfoInAppX(System.String)
 		/// </summary>
-		protected static RMethod r_SetUserPreferredCultureInfoInAppX_String;
-		public static RMethod RSetUserPreferredCultureInfoInAppX_String
+		protected static RMethod r_MSetUserPreferredCultureInfoInAppX_String;
+		public static RMethod RMSetUserPreferredCultureInfoInAppX_String
 		{
 			get
 			{
-				if(r_SetUserPreferredCultureInfoInAppX_String == null)
+				if(r_MSetUserPreferredCultureInfoInAppX_String == null)
 				{
-					r_SetUserPreferredCultureInfoInAppX_String = new(typeof(System.Globalization.CultureInfo), "SetUserPreferredCultureInfoInAppX", 0, typeof(System.String));
-					r_SetUserPreferredCultureInfoInAppX_String.SetBelong(null);
+					r_MSetUserPreferredCultureInfoInAppX_String = new(typeof(System.Globalization.CultureInfo), "SetUserPreferredCultureInfoInAppX", 0, typeof(System.String));
+					r_MSetUserPreferredCultureInfoInAppX_String.SetBelong(null);
 				}
-				return r_SetUserPreferredCultureInfoInAppX_String;
+				return r_MSetUserPreferredCultureInfoInAppX_String;
 			}
 		}
 
 		/// <summary>
 		/// Void OnCultureInfoChangedInAppX(System.String)
 		/// </summary>
-		protected static RMethod r_OnCultureInfoChangedInAppX_String;
-		public static RMethod ROnCultureInfoChangedInAppX_String
+		protected static RMethod r_MOnCultureInfoChangedInAppX_String;
+		public static RMethod RMOnCultureInfoChangedInAppX_String
 		{
 			get
 			{
-				if(r_OnCultureInfoChangedInAppX_String == null)
+				if(r_MOnCultureInfoChangedInAppX_String == null)
 				{
-					r_OnCultureInfoChangedInAppX_String = new(typeof(System.Globalization.CultureInfo), "OnCultureInfoChangedInAppX", 0, typeof(System.String));
-					r_OnCultureInfoChangedInAppX_String.SetBelong(null);
+					r_MOnCultureInfoChangedInAppX_String = new(typeof(System.Globalization.CultureInfo), "OnCultureInfoChangedInAppX", 0, typeof(System.String));
+					r_MOnCultureInfoChangedInAppX_String.SetBelong(null);
 				}
-				return r_OnCultureInfoChangedInAppX_String;
+				return r_MOnCultureInfoChangedInAppX_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CultureInfo GetCultureInfoForUserPreferredLanguageInAppX()
 		/// </summary>
-		protected static RMethod r_GetCultureInfoForUserPreferredLanguageInAppX;
-		public static RMethod RGetCultureInfoForUserPreferredLanguageInAppX
+		protected static RMethod r_MGetCultureInfoForUserPreferredLanguageInAppX;
+		public static RMethod RMGetCultureInfoForUserPreferredLanguageInAppX
 		{
 			get
 			{
-				if(r_GetCultureInfoForUserPreferredLanguageInAppX == null)
+				if(r_MGetCultureInfoForUserPreferredLanguageInAppX == null)
 				{
-					r_GetCultureInfoForUserPreferredLanguageInAppX = new(typeof(System.Globalization.CultureInfo), "GetCultureInfoForUserPreferredLanguageInAppX", 0);
-					r_GetCultureInfoForUserPreferredLanguageInAppX.SetBelong(null);
+					r_MGetCultureInfoForUserPreferredLanguageInAppX = new(typeof(System.Globalization.CultureInfo), "GetCultureInfoForUserPreferredLanguageInAppX", 0);
+					r_MGetCultureInfoForUserPreferredLanguageInAppX.SetBelong(null);
 				}
-				return r_GetCultureInfoForUserPreferredLanguageInAppX;
+				return r_MGetCultureInfoForUserPreferredLanguageInAppX;
 			}
 		}
 
 		/// <summary>
 		/// Void SetCultureInfoForUserPreferredLanguageInAppX(System.Globalization.CultureInfo)
 		/// </summary>
-		protected static RMethod r_SetCultureInfoForUserPreferredLanguageInAppX_CultureInfo;
-		public static RMethod RSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo
+		protected static RMethod r_MSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo;
+		public static RMethod RMSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo
 		{
 			get
 			{
-				if(r_SetCultureInfoForUserPreferredLanguageInAppX_CultureInfo == null)
+				if(r_MSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo == null)
 				{
-					r_SetCultureInfoForUserPreferredLanguageInAppX_CultureInfo = new(typeof(System.Globalization.CultureInfo), "SetCultureInfoForUserPreferredLanguageInAppX", 0, typeof(System.Globalization.CultureInfo));
-					r_SetCultureInfoForUserPreferredLanguageInAppX_CultureInfo.SetBelong(null);
+					r_MSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo = new(typeof(System.Globalization.CultureInfo), "SetCultureInfoForUserPreferredLanguageInAppX", 0, typeof(System.Globalization.CultureInfo));
+					r_MSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo.SetBelong(null);
 				}
-				return r_SetCultureInfoForUserPreferredLanguageInAppX_CultureInfo;
+				return r_MSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckDomainSafetyObject(System.Object, System.Object)
 		/// </summary>
-		protected static RMethod r_CheckDomainSafetyObject_Object_Object;
-		public static RMethod RCheckDomainSafetyObject_Object_Object
+		protected static RMethod r_MCheckDomainSafetyObject_Object_Object;
+		public static RMethod RMCheckDomainSafetyObject_Object_Object
 		{
 			get
 			{
-				if(r_CheckDomainSafetyObject_Object_Object == null)
+				if(r_MCheckDomainSafetyObject_Object_Object == null)
 				{
-					r_CheckDomainSafetyObject_Object_Object = new(typeof(System.Globalization.CultureInfo), "CheckDomainSafetyObject", 0, typeof(System.Object), typeof(System.Object));
-					r_CheckDomainSafetyObject_Object_Object.SetBelong(null);
+					r_MCheckDomainSafetyObject_Object_Object = new(typeof(System.Globalization.CultureInfo), "CheckDomainSafetyObject", 0, typeof(System.Object), typeof(System.Object));
+					r_MCheckDomainSafetyObject_Object_Object.SetBelong(null);
 				}
-				return r_CheckDomainSafetyObject_Object_Object;
+				return r_MCheckDomainSafetyObject_Object_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean VerifyCultureName(System.String, Boolean)
 		/// </summary>
-		protected static RMethod r_VerifyCultureName_String_Boolean;
-		public static RMethod RVerifyCultureName_String_Boolean
+		protected static RMethod r_MVerifyCultureName_String_Boolean;
+		public static RMethod RMVerifyCultureName_String_Boolean
 		{
 			get
 			{
-				if(r_VerifyCultureName_String_Boolean == null)
+				if(r_MVerifyCultureName_String_Boolean == null)
 				{
-					r_VerifyCultureName_String_Boolean = new(typeof(System.Globalization.CultureInfo), "VerifyCultureName", 0, typeof(System.String), typeof(System.Boolean));
-					r_VerifyCultureName_String_Boolean.SetBelong(null);
+					r_MVerifyCultureName_String_Boolean = new(typeof(System.Globalization.CultureInfo), "VerifyCultureName", 0, typeof(System.String), typeof(System.Boolean));
+					r_MVerifyCultureName_String_Boolean.SetBelong(null);
 				}
-				return r_VerifyCultureName_String_Boolean;
+				return r_MVerifyCultureName_String_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean VerifyCultureName(System.Globalization.CultureInfo, Boolean)
 		/// </summary>
-		protected static RMethod r_VerifyCultureName_CultureInfo_Boolean;
-		public static RMethod RVerifyCultureName_CultureInfo_Boolean
+		protected static RMethod r_MVerifyCultureName_CultureInfo_Boolean;
+		public static RMethod RMVerifyCultureName_CultureInfo_Boolean
 		{
 			get
 			{
-				if(r_VerifyCultureName_CultureInfo_Boolean == null)
+				if(r_MVerifyCultureName_CultureInfo_Boolean == null)
 				{
-					r_VerifyCultureName_CultureInfo_Boolean = new(typeof(System.Globalization.CultureInfo), "VerifyCultureName", 0, typeof(System.Globalization.CultureInfo), typeof(System.Boolean));
-					r_VerifyCultureName_CultureInfo_Boolean.SetBelong(null);
+					r_MVerifyCultureName_CultureInfo_Boolean = new(typeof(System.Globalization.CultureInfo), "VerifyCultureName", 0, typeof(System.Globalization.CultureInfo), typeof(System.Boolean));
+					r_MVerifyCultureName_CultureInfo_Boolean.SetBelong(null);
 				}
-				return r_VerifyCultureName_CultureInfo_Boolean;
+				return r_MVerifyCultureName_CultureInfo_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -2056,7 +2056,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RConstructCurrentCulture.Invoke(___genericsType, ___parameters);
+            var ___result = RMConstructCurrentCulture.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.CultureInfo)___result;
         }
@@ -2067,7 +2067,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RConstructCurrentUICulture.Invoke(___genericsType, ___parameters);
+            var ___result = RMConstructCurrentUICulture.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.CultureInfo)___result;
         }
@@ -2078,7 +2078,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetConsoleFallbackUICulture.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetConsoleFallbackUICulture.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.CultureInfo)___result;
         }
@@ -2089,7 +2089,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RClearCachedData.Invoke(___genericsType, ___parameters);
+            var ___result = RMClearCachedData.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2100,7 +2100,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -2111,7 +2111,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2122,7 +2122,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@types};
-            var ___result = RGetCultures_CultureTypes.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCultures_CultureTypes.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.CultureInfo[])___result;
         }
@@ -2133,7 +2133,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetTextInfoData.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetTextInfoData.Invoke(___genericsType, ___parameters);
 
             return new RSystem.RGlobalization.RCultureInfo.RData(___result);
         }
@@ -2144,7 +2144,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -2155,7 +2155,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ci};
-            var ___result = RReadOnly_CultureInfo.Invoke(___genericsType, ___parameters);
+            var ___result = RMReadOnly_CultureInfo.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.CultureInfo)___result;
         }
@@ -2166,7 +2166,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -2177,7 +2177,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCheckNeutral.Invoke(___genericsType, ___parameters);
+            var ___result = RMCheckNeutral.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2188,7 +2188,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@formatType};
-            var ___result = RGetFormat_Type.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetFormat_Type.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -2199,7 +2199,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RConstruct.Invoke(___genericsType, ___parameters);
+            var ___result = RMConstruct.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2210,7 +2210,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lcid};
-            var ___result = Rconstruct_internal_locale_from_lcid_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMconstruct_internal_locale_from_lcid_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2221,7 +2221,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
-            var ___result = Rconstruct_internal_locale_from_name_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMconstruct_internal_locale_from_name_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2232,7 +2232,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = Rget_current_locale_name.Invoke(___genericsType, ___parameters);
+            var ___result = RMget_current_locale_name.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -2243,7 +2243,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@neutral, @specific, @installed};
-            var ___result = Rinternal_get_cultures_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMinternal_get_cultures_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.CultureInfo[])___result;
         }
@@ -2254,7 +2254,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@read_only};
-            var ___result = RConstructInvariant_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMConstructInvariant_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2265,7 +2265,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@readOnly};
-            var ___result = RCreateTextInfo_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateTextInfo_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.TextInfo)___result;
         }
@@ -2276,7 +2276,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@c};
-            var ___result = Rinsert_into_shared_tables_CultureInfo.Invoke(___genericsType, ___parameters);
+            var ___result = RMinsert_into_shared_tables_CultureInfo.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2287,7 +2287,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@culture};
-            var ___result = RGetCultureInfo_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCultureInfo_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.CultureInfo)___result;
         }
@@ -2298,7 +2298,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
-            var ___result = RGetCultureInfo_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCultureInfo_String.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.CultureInfo)___result;
         }
@@ -2309,7 +2309,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @altName};
-            var ___result = RGetCultureInfo_String_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCultureInfo_String_String.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.CultureInfo)___result;
         }
@@ -2320,7 +2320,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
-            var ___result = RGetCultureInfoByIetfLanguageTag_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCultureInfoByIetfLanguageTag_String.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.CultureInfo)___result;
         }
@@ -2331,7 +2331,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @reference};
-            var ___result = RCreateCulture_String_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateCulture_String_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.CultureInfo)___result;
         }
@@ -2342,7 +2342,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
-            var ___result = RCreateSpecificCulture_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateSpecificCulture_String.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.CultureInfo)___result;
         }
@@ -2353,7 +2353,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
-            var ___result = RConstructLocaleFromName_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMConstructLocaleFromName_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2364,7 +2364,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
-            var ___result = RCreateSpecificCultureFromNeutral_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateSpecificCultureFromNeutral_String.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.CultureInfo)___result;
         }
@@ -2375,7 +2375,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@calendarType};
-            var ___result = RCreateCalendar_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateCalendar_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.Calendar)___result;
         }
@@ -2386,7 +2386,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
-            var ___result = RCreateNotFoundException_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateNotFoundException_String.Invoke(___genericsType, ___parameters);
 
             return (System.Exception)___result;
         }
@@ -2397,7 +2397,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@onCultureInfoChangedInAppX.Value};
-            var ___result = RInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2408,7 +2408,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
-            var ___result = RSetUserPreferredCultureInfoInAppX_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetUserPreferredCultureInfoInAppX_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2419,7 +2419,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@language};
-            var ___result = ROnCultureInfoChangedInAppX_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnCultureInfoChangedInAppX_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2430,7 +2430,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetCultureInfoForUserPreferredLanguageInAppX.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCultureInfoForUserPreferredLanguageInAppX.Invoke(___genericsType, ___parameters);
 
             return (System.Globalization.CultureInfo)___result;
         }
@@ -2441,7 +2441,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cultureInfo};
-            var ___result = RSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2452,7 +2452,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @container};
-            var ___result = RCheckDomainSafetyObject_Object_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMCheckDomainSafetyObject_Object_Object.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2463,7 +2463,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cultureName, @throwException};
-            var ___result = RVerifyCultureName_String_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMVerifyCultureName_String_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2474,7 +2474,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@culture, @throwException};
-            var ___result = RVerifyCultureName_CultureInfo_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMVerifyCultureName_CultureInfo_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -2485,7 +2485,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2496,7 +2496,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -2507,7 +2507,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

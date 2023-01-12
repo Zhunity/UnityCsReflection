@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.String TypeName
 		/// </summary>
-		protected RSystem.RString r_TypeName;
-		public virtual RSystem.RString RTypeName
+		protected RSystem.RString r_PTypeName;
+		public virtual RSystem.RString RPTypeName
 		{
 			get
 			{
-				if(r_TypeName == null)
+				if(r_PTypeName == null)
 				{
-					r_TypeName = new(this, "TypeName", -1);
-					r_TypeName.SetBelong(this.instance);
+					r_PTypeName = new(this, "TypeName", -1);
+					r_PTypeName.SetBelong(this.instance);
 				}
-				return r_TypeName;
+				return r_PTypeName;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CanCastTo(System.Type, System.Object)
 		/// </summary>
-		protected RMethod r_CanCastTo_Type_Object;
-		public virtual RMethod RCanCastTo_Type_Object
+		protected RMethod r_MCanCastTo_Type_Object;
+		public virtual RMethod RMCanCastTo_Type_Object
 		{
 			get
 			{
-				if(r_CanCastTo_Type_Object == null)
+				if(r_MCanCastTo_Type_Object == null)
 				{
-					r_CanCastTo_Type_Object = new(this, "CanCastTo", 0, typeof(System.Type), typeof(System.Object));
-					r_CanCastTo_Type_Object.SetBelong(this.instance);
+					r_MCanCastTo_Type_Object = new(this, "CanCastTo", 0, typeof(System.Type), typeof(System.Object));
+					r_MCanCastTo_Type_Object.SetBelong(this.instance);
 				}
-				return r_CanCastTo_Type_Object;
+				return r_MCanCastTo_Type_Object;
 			}
 		}
 
@@ -67,7 +67,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fromType, @o};
-            var ___result = RCanCastTo_Type_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMCanCastTo_Type_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }

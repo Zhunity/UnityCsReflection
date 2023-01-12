@@ -13,680 +13,680 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected RSystem.RString r_text;
-		public virtual RSystem.RString Rtext
+		protected RSystem.RString r_Ftext;
+		public virtual RSystem.RString RFtext
 		{
 			get
 			{
-				if(r_text == null)
+				if(r_Ftext == null)
 				{
-					r_text = new(this, "text");
-					r_text.SetBelong(this.instance);
+					r_Ftext = new(this, "text");
+					r_Ftext.SetBelong(this.instance);
 				}
-				return r_text;
+				return r_Ftext;
 			}
 		}
 
 		/// <summary>
 		/// System.String tag
 		/// </summary>
-		protected RSystem.RString r_tag;
-		public virtual RSystem.RString Rtag
+		protected RSystem.RString r_Ftag;
+		public virtual RSystem.RString RFtag
 		{
 			get
 			{
-				if(r_tag == null)
+				if(r_Ftag == null)
 				{
-					r_tag = new(this, "tag");
-					r_tag.SetBelong(this.instance);
+					r_Ftag = new(this, "tag");
+					r_Ftag.SetBelong(this.instance);
 				}
-				return r_tag;
+				return r_Ftag;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.ArrayList attributes
 		/// </summary>
-		protected RSystem.RCollections.RArrayList r_attributes;
-		public virtual RSystem.RCollections.RArrayList Rattributes
+		protected RSystem.RCollections.RArrayList r_Fattributes;
+		public virtual RSystem.RCollections.RArrayList RFattributes
 		{
 			get
 			{
-				if(r_attributes == null)
+				if(r_Fattributes == null)
 				{
-					r_attributes = new(this, "attributes");
-					r_attributes.SetBelong(this.instance);
+					r_Fattributes = new(this, "attributes");
+					r_Fattributes.SetBelong(this.instance);
 				}
-				return r_attributes;
+				return r_Fattributes;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.ArrayList children
 		/// </summary>
-		protected RSystem.RCollections.RArrayList r_children;
-		public virtual RSystem.RCollections.RArrayList Rchildren
+		protected RSystem.RCollections.RArrayList r_Fchildren;
+		public virtual RSystem.RCollections.RArrayList RFchildren
 		{
 			get
 			{
-				if(r_children == null)
+				if(r_Fchildren == null)
 				{
-					r_children = new(this, "children");
-					r_children.SetBelong(this.instance);
+					r_Fchildren = new(this, "children");
+					r_Fchildren.SetBelong(this.instance);
 				}
-				return r_children;
+				return r_Fchildren;
 			}
 		}
 
 		/// <summary>
 		/// System.Char[] invalid_tag_chars
 		/// </summary>
-		protected static RFieldArray<RSystem.RChar> r_invalid_tag_chars;
-		public static RFieldArray<RSystem.RChar> Rinvalid_tag_chars
+		protected static RFieldArray<RSystem.RChar> r_Finvalid_tag_chars;
+		public static RFieldArray<RSystem.RChar> RFinvalid_tag_chars
 		{
 			get
 			{
-				if(r_invalid_tag_chars == null)
+				if(r_Finvalid_tag_chars == null)
 				{
-					r_invalid_tag_chars = new(typeof(System.Security.SecurityElement), "invalid_tag_chars");
-					r_invalid_tag_chars.SetBelong(null);
+					r_Finvalid_tag_chars = new(typeof(System.Security.SecurityElement), "invalid_tag_chars");
+					r_Finvalid_tag_chars.SetBelong(null);
 				}
-				return r_invalid_tag_chars;
+				return r_Finvalid_tag_chars;
 			}
 		}
 
 		/// <summary>
 		/// System.Char[] invalid_text_chars
 		/// </summary>
-		protected static RFieldArray<RSystem.RChar> r_invalid_text_chars;
-		public static RFieldArray<RSystem.RChar> Rinvalid_text_chars
+		protected static RFieldArray<RSystem.RChar> r_Finvalid_text_chars;
+		public static RFieldArray<RSystem.RChar> RFinvalid_text_chars
 		{
 			get
 			{
-				if(r_invalid_text_chars == null)
+				if(r_Finvalid_text_chars == null)
 				{
-					r_invalid_text_chars = new(typeof(System.Security.SecurityElement), "invalid_text_chars");
-					r_invalid_text_chars.SetBelong(null);
+					r_Finvalid_text_chars = new(typeof(System.Security.SecurityElement), "invalid_text_chars");
+					r_Finvalid_text_chars.SetBelong(null);
 				}
-				return r_invalid_text_chars;
+				return r_Finvalid_text_chars;
 			}
 		}
 
 		/// <summary>
 		/// System.Char[] invalid_attr_name_chars
 		/// </summary>
-		protected static RFieldArray<RSystem.RChar> r_invalid_attr_name_chars;
-		public static RFieldArray<RSystem.RChar> Rinvalid_attr_name_chars
+		protected static RFieldArray<RSystem.RChar> r_Finvalid_attr_name_chars;
+		public static RFieldArray<RSystem.RChar> RFinvalid_attr_name_chars
 		{
 			get
 			{
-				if(r_invalid_attr_name_chars == null)
+				if(r_Finvalid_attr_name_chars == null)
 				{
-					r_invalid_attr_name_chars = new(typeof(System.Security.SecurityElement), "invalid_attr_name_chars");
-					r_invalid_attr_name_chars.SetBelong(null);
+					r_Finvalid_attr_name_chars = new(typeof(System.Security.SecurityElement), "invalid_attr_name_chars");
+					r_Finvalid_attr_name_chars.SetBelong(null);
 				}
-				return r_invalid_attr_name_chars;
+				return r_Finvalid_attr_name_chars;
 			}
 		}
 
 		/// <summary>
 		/// System.Char[] invalid_attr_value_chars
 		/// </summary>
-		protected static RFieldArray<RSystem.RChar> r_invalid_attr_value_chars;
-		public static RFieldArray<RSystem.RChar> Rinvalid_attr_value_chars
+		protected static RFieldArray<RSystem.RChar> r_Finvalid_attr_value_chars;
+		public static RFieldArray<RSystem.RChar> RFinvalid_attr_value_chars
 		{
 			get
 			{
-				if(r_invalid_attr_value_chars == null)
+				if(r_Finvalid_attr_value_chars == null)
 				{
-					r_invalid_attr_value_chars = new(typeof(System.Security.SecurityElement), "invalid_attr_value_chars");
-					r_invalid_attr_value_chars.SetBelong(null);
+					r_Finvalid_attr_value_chars = new(typeof(System.Security.SecurityElement), "invalid_attr_value_chars");
+					r_Finvalid_attr_value_chars.SetBelong(null);
 				}
-				return r_invalid_attr_value_chars;
+				return r_Finvalid_attr_value_chars;
 			}
 		}
 
 		/// <summary>
 		/// System.Char[] invalid_chars
 		/// </summary>
-		protected static RFieldArray<RSystem.RChar> r_invalid_chars;
-		public static RFieldArray<RSystem.RChar> Rinvalid_chars
+		protected static RFieldArray<RSystem.RChar> r_Finvalid_chars;
+		public static RFieldArray<RSystem.RChar> RFinvalid_chars
 		{
 			get
 			{
-				if(r_invalid_chars == null)
+				if(r_Finvalid_chars == null)
 				{
-					r_invalid_chars = new(typeof(System.Security.SecurityElement), "invalid_chars");
-					r_invalid_chars.SetBelong(null);
+					r_Finvalid_chars = new(typeof(System.Security.SecurityElement), "invalid_chars");
+					r_Finvalid_chars.SetBelong(null);
 				}
-				return r_invalid_chars;
+				return r_Finvalid_chars;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Hashtable Attributes
 		/// </summary>
-		protected RSystem.RCollections.RHashtable r_Attributes;
-		public virtual RSystem.RCollections.RHashtable RAttributes
+		protected RSystem.RCollections.RHashtable r_PAttributes;
+		public virtual RSystem.RCollections.RHashtable RPAttributes
 		{
 			get
 			{
-				if(r_Attributes == null)
+				if(r_PAttributes == null)
 				{
-					r_Attributes = new(this, "Attributes", -1);
-					r_Attributes.SetBelong(this.instance);
+					r_PAttributes = new(this, "Attributes", -1);
+					r_PAttributes.SetBelong(this.instance);
 				}
-				return r_Attributes;
+				return r_PAttributes;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.ArrayList Children
 		/// </summary>
-		protected RSystem.RCollections.RArrayList r_Children;
-		public virtual RSystem.RCollections.RArrayList RChildren
+		protected RSystem.RCollections.RArrayList r_PChildren;
+		public virtual RSystem.RCollections.RArrayList RPChildren
 		{
 			get
 			{
-				if(r_Children == null)
+				if(r_PChildren == null)
 				{
-					r_Children = new(this, "Children", -1);
-					r_Children.SetBelong(this.instance);
+					r_PChildren = new(this, "Children", -1);
+					r_PChildren.SetBelong(this.instance);
 				}
-				return r_Children;
+				return r_PChildren;
 			}
 		}
 
 		/// <summary>
 		/// System.String Tag
 		/// </summary>
-		protected RSystem.RString r_Tag;
-		public virtual RSystem.RString RTag
+		protected RSystem.RString r_PTag;
+		public virtual RSystem.RString RPTag
 		{
 			get
 			{
-				if(r_Tag == null)
+				if(r_PTag == null)
 				{
-					r_Tag = new(this, "Tag", -1);
-					r_Tag.SetBelong(this.instance);
+					r_PTag = new(this, "Tag", -1);
+					r_PTag.SetBelong(this.instance);
 				}
-				return r_Tag;
+				return r_PTag;
 			}
 		}
 
 		/// <summary>
 		/// System.String Text
 		/// </summary>
-		protected RSystem.RString r_Text;
-		public virtual RSystem.RString RText
+		protected RSystem.RString r_PText;
+		public virtual RSystem.RString RPText
 		{
 			get
 			{
-				if(r_Text == null)
+				if(r_PText == null)
 				{
-					r_Text = new(this, "Text", -1);
-					r_Text.SetBelong(this.instance);
+					r_PText = new(this, "Text", -1);
+					r_PText.SetBelong(this.instance);
 				}
-				return r_Text;
+				return r_PText;
 			}
 		}
 
 		/// <summary>
 		/// System.String m_strTag
 		/// </summary>
-		protected RSystem.RString r_m_strTag;
-		public virtual RSystem.RString Rm_strTag
+		protected RSystem.RString r_Pm_strTag;
+		public virtual RSystem.RString RPm_strTag
 		{
 			get
 			{
-				if(r_m_strTag == null)
+				if(r_Pm_strTag == null)
 				{
-					r_m_strTag = new(this, "m_strTag", -1);
-					r_m_strTag.SetBelong(this.instance);
+					r_Pm_strTag = new(this, "m_strTag", -1);
+					r_Pm_strTag.SetBelong(this.instance);
 				}
-				return r_m_strTag;
+				return r_Pm_strTag;
 			}
 		}
 
 		/// <summary>
 		/// System.String m_strText
 		/// </summary>
-		protected RSystem.RString r_m_strText;
-		public virtual RSystem.RString Rm_strText
+		protected RSystem.RString r_Pm_strText;
+		public virtual RSystem.RString RPm_strText
 		{
 			get
 			{
-				if(r_m_strText == null)
+				if(r_Pm_strText == null)
 				{
-					r_m_strText = new(this, "m_strText", -1);
-					r_m_strText.SetBelong(this.instance);
+					r_Pm_strText = new(this, "m_strText", -1);
+					r_Pm_strText.SetBelong(this.instance);
 				}
-				return r_m_strText;
+				return r_Pm_strText;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.ArrayList m_lAttributes
 		/// </summary>
-		protected RSystem.RCollections.RArrayList r_m_lAttributes;
-		public virtual RSystem.RCollections.RArrayList Rm_lAttributes
+		protected RSystem.RCollections.RArrayList r_Pm_lAttributes;
+		public virtual RSystem.RCollections.RArrayList RPm_lAttributes
 		{
 			get
 			{
-				if(r_m_lAttributes == null)
+				if(r_Pm_lAttributes == null)
 				{
-					r_m_lAttributes = new(this, "m_lAttributes", -1);
-					r_m_lAttributes.SetBelong(this.instance);
+					r_Pm_lAttributes = new(this, "m_lAttributes", -1);
+					r_Pm_lAttributes.SetBelong(this.instance);
 				}
-				return r_m_lAttributes;
+				return r_Pm_lAttributes;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.ArrayList InternalChildren
 		/// </summary>
-		protected RSystem.RCollections.RArrayList r_InternalChildren;
-		public virtual RSystem.RCollections.RArrayList RInternalChildren
+		protected RSystem.RCollections.RArrayList r_PInternalChildren;
+		public virtual RSystem.RCollections.RArrayList RPInternalChildren
 		{
 			get
 			{
-				if(r_InternalChildren == null)
+				if(r_PInternalChildren == null)
 				{
-					r_InternalChildren = new(this, "InternalChildren", -1);
-					r_InternalChildren.SetBelong(this.instance);
+					r_PInternalChildren = new(this, "InternalChildren", -1);
+					r_PInternalChildren.SetBelong(this.instance);
 				}
-				return r_InternalChildren;
+				return r_PInternalChildren;
 			}
 		}
 
 		/// <summary>
 		/// Void AddAttribute(System.String, System.String)
 		/// </summary>
-		protected RMethod r_AddAttribute_String_String;
-		public virtual RMethod RAddAttribute_String_String
+		protected RMethod r_MAddAttribute_String_String;
+		public virtual RMethod RMAddAttribute_String_String
 		{
 			get
 			{
-				if(r_AddAttribute_String_String == null)
+				if(r_MAddAttribute_String_String == null)
 				{
-					r_AddAttribute_String_String = new(this, "AddAttribute", 0, typeof(System.String), typeof(System.String));
-					r_AddAttribute_String_String.SetBelong(this.instance);
+					r_MAddAttribute_String_String = new(this, "AddAttribute", 0, typeof(System.String), typeof(System.String));
+					r_MAddAttribute_String_String.SetBelong(this.instance);
 				}
-				return r_AddAttribute_String_String;
+				return r_MAddAttribute_String_String;
 			}
 		}
 
 		/// <summary>
 		/// Void AddChild(System.Security.SecurityElement)
 		/// </summary>
-		protected RMethod r_AddChild_SecurityElement;
-		public virtual RMethod RAddChild_SecurityElement
+		protected RMethod r_MAddChild_SecurityElement;
+		public virtual RMethod RMAddChild_SecurityElement
 		{
 			get
 			{
-				if(r_AddChild_SecurityElement == null)
+				if(r_MAddChild_SecurityElement == null)
 				{
-					r_AddChild_SecurityElement = new(this, "AddChild", 0, typeof(System.Security.SecurityElement));
-					r_AddChild_SecurityElement.SetBelong(this.instance);
+					r_MAddChild_SecurityElement = new(this, "AddChild", 0, typeof(System.Security.SecurityElement));
+					r_MAddChild_SecurityElement.SetBelong(this.instance);
 				}
-				return r_AddChild_SecurityElement;
+				return r_MAddChild_SecurityElement;
 			}
 		}
 
 		/// <summary>
 		/// System.String Attribute(System.String)
 		/// </summary>
-		protected RMethod r_Attribute_String;
-		public virtual RMethod RAttribute_String
+		protected RMethod r_MAttribute_String;
+		public virtual RMethod RMAttribute_String
 		{
 			get
 			{
-				if(r_Attribute_String == null)
+				if(r_MAttribute_String == null)
 				{
-					r_Attribute_String = new(this, "Attribute", 0, typeof(System.String));
-					r_Attribute_String.SetBelong(this.instance);
+					r_MAttribute_String = new(this, "Attribute", 0, typeof(System.String));
+					r_MAttribute_String.SetBelong(this.instance);
 				}
-				return r_Attribute_String;
+				return r_MAttribute_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.SecurityElement Copy()
 		/// </summary>
-		protected RMethod r_Copy;
-		public virtual RMethod RCopy
+		protected RMethod r_MCopy;
+		public virtual RMethod RMCopy
 		{
 			get
 			{
-				if(r_Copy == null)
+				if(r_MCopy == null)
 				{
-					r_Copy = new(this, "Copy", 0);
-					r_Copy.SetBelong(this.instance);
+					r_MCopy = new(this, "Copy", 0);
+					r_MCopy.SetBelong(this.instance);
 				}
-				return r_Copy;
+				return r_MCopy;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equal(System.Security.SecurityElement)
 		/// </summary>
-		protected RMethod r_Equal_SecurityElement;
-		public virtual RMethod REqual_SecurityElement
+		protected RMethod r_MEqual_SecurityElement;
+		public virtual RMethod RMEqual_SecurityElement
 		{
 			get
 			{
-				if(r_Equal_SecurityElement == null)
+				if(r_MEqual_SecurityElement == null)
 				{
-					r_Equal_SecurityElement = new(this, "Equal", 0, typeof(System.Security.SecurityElement));
-					r_Equal_SecurityElement.SetBelong(this.instance);
+					r_MEqual_SecurityElement = new(this, "Equal", 0, typeof(System.Security.SecurityElement));
+					r_MEqual_SecurityElement.SetBelong(this.instance);
 				}
-				return r_Equal_SecurityElement;
+				return r_MEqual_SecurityElement;
 			}
 		}
 
 		/// <summary>
 		/// System.String Escape(System.String)
 		/// </summary>
-		protected static RMethod r_Escape_String;
-		public static RMethod REscape_String
+		protected static RMethod r_MEscape_String;
+		public static RMethod RMEscape_String
 		{
 			get
 			{
-				if(r_Escape_String == null)
+				if(r_MEscape_String == null)
 				{
-					r_Escape_String = new(typeof(System.Security.SecurityElement), "Escape", 0, typeof(System.String));
-					r_Escape_String.SetBelong(null);
+					r_MEscape_String = new(typeof(System.Security.SecurityElement), "Escape", 0, typeof(System.String));
+					r_MEscape_String.SetBelong(null);
 				}
-				return r_Escape_String;
+				return r_MEscape_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String Unescape(System.String)
 		/// </summary>
-		protected static RMethod r_Unescape_String;
-		public static RMethod RUnescape_String
+		protected static RMethod r_MUnescape_String;
+		public static RMethod RMUnescape_String
 		{
 			get
 			{
-				if(r_Unescape_String == null)
+				if(r_MUnescape_String == null)
 				{
-					r_Unescape_String = new(typeof(System.Security.SecurityElement), "Unescape", 0, typeof(System.String));
-					r_Unescape_String.SetBelong(null);
+					r_MUnescape_String = new(typeof(System.Security.SecurityElement), "Unescape", 0, typeof(System.String));
+					r_MUnescape_String.SetBelong(null);
 				}
-				return r_Unescape_String;
+				return r_MUnescape_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.SecurityElement FromString(System.String)
 		/// </summary>
-		protected static RMethod r_FromString_String;
-		public static RMethod RFromString_String
+		protected static RMethod r_MFromString_String;
+		public static RMethod RMFromString_String
 		{
 			get
 			{
-				if(r_FromString_String == null)
+				if(r_MFromString_String == null)
 				{
-					r_FromString_String = new(typeof(System.Security.SecurityElement), "FromString", 0, typeof(System.String));
-					r_FromString_String.SetBelong(null);
+					r_MFromString_String = new(typeof(System.Security.SecurityElement), "FromString", 0, typeof(System.String));
+					r_MFromString_String.SetBelong(null);
 				}
-				return r_FromString_String;
+				return r_MFromString_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsValidAttributeName(System.String)
 		/// </summary>
-		protected static RMethod r_IsValidAttributeName_String;
-		public static RMethod RIsValidAttributeName_String
+		protected static RMethod r_MIsValidAttributeName_String;
+		public static RMethod RMIsValidAttributeName_String
 		{
 			get
 			{
-				if(r_IsValidAttributeName_String == null)
+				if(r_MIsValidAttributeName_String == null)
 				{
-					r_IsValidAttributeName_String = new(typeof(System.Security.SecurityElement), "IsValidAttributeName", 0, typeof(System.String));
-					r_IsValidAttributeName_String.SetBelong(null);
+					r_MIsValidAttributeName_String = new(typeof(System.Security.SecurityElement), "IsValidAttributeName", 0, typeof(System.String));
+					r_MIsValidAttributeName_String.SetBelong(null);
 				}
-				return r_IsValidAttributeName_String;
+				return r_MIsValidAttributeName_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsValidAttributeValue(System.String)
 		/// </summary>
-		protected static RMethod r_IsValidAttributeValue_String;
-		public static RMethod RIsValidAttributeValue_String
+		protected static RMethod r_MIsValidAttributeValue_String;
+		public static RMethod RMIsValidAttributeValue_String
 		{
 			get
 			{
-				if(r_IsValidAttributeValue_String == null)
+				if(r_MIsValidAttributeValue_String == null)
 				{
-					r_IsValidAttributeValue_String = new(typeof(System.Security.SecurityElement), "IsValidAttributeValue", 0, typeof(System.String));
-					r_IsValidAttributeValue_String.SetBelong(null);
+					r_MIsValidAttributeValue_String = new(typeof(System.Security.SecurityElement), "IsValidAttributeValue", 0, typeof(System.String));
+					r_MIsValidAttributeValue_String.SetBelong(null);
 				}
-				return r_IsValidAttributeValue_String;
+				return r_MIsValidAttributeValue_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsValidTag(System.String)
 		/// </summary>
-		protected static RMethod r_IsValidTag_String;
-		public static RMethod RIsValidTag_String
+		protected static RMethod r_MIsValidTag_String;
+		public static RMethod RMIsValidTag_String
 		{
 			get
 			{
-				if(r_IsValidTag_String == null)
+				if(r_MIsValidTag_String == null)
 				{
-					r_IsValidTag_String = new(typeof(System.Security.SecurityElement), "IsValidTag", 0, typeof(System.String));
-					r_IsValidTag_String.SetBelong(null);
+					r_MIsValidTag_String = new(typeof(System.Security.SecurityElement), "IsValidTag", 0, typeof(System.String));
+					r_MIsValidTag_String.SetBelong(null);
 				}
-				return r_IsValidTag_String;
+				return r_MIsValidTag_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsValidText(System.String)
 		/// </summary>
-		protected static RMethod r_IsValidText_String;
-		public static RMethod RIsValidText_String
+		protected static RMethod r_MIsValidText_String;
+		public static RMethod RMIsValidText_String
 		{
 			get
 			{
-				if(r_IsValidText_String == null)
+				if(r_MIsValidText_String == null)
 				{
-					r_IsValidText_String = new(typeof(System.Security.SecurityElement), "IsValidText", 0, typeof(System.String));
-					r_IsValidText_String.SetBelong(null);
+					r_MIsValidText_String = new(typeof(System.Security.SecurityElement), "IsValidText", 0, typeof(System.String));
+					r_MIsValidText_String.SetBelong(null);
 				}
-				return r_IsValidText_String;
+				return r_MIsValidText_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.SecurityElement SearchForChildByTag(System.String)
 		/// </summary>
-		protected RMethod r_SearchForChildByTag_String;
-		public virtual RMethod RSearchForChildByTag_String
+		protected RMethod r_MSearchForChildByTag_String;
+		public virtual RMethod RMSearchForChildByTag_String
 		{
 			get
 			{
-				if(r_SearchForChildByTag_String == null)
+				if(r_MSearchForChildByTag_String == null)
 				{
-					r_SearchForChildByTag_String = new(this, "SearchForChildByTag", 0, typeof(System.String));
-					r_SearchForChildByTag_String.SetBelong(this.instance);
+					r_MSearchForChildByTag_String = new(this, "SearchForChildByTag", 0, typeof(System.String));
+					r_MSearchForChildByTag_String.SetBelong(this.instance);
 				}
-				return r_SearchForChildByTag_String;
+				return r_MSearchForChildByTag_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String SearchForTextOfTag(System.String)
 		/// </summary>
-		protected RMethod r_SearchForTextOfTag_String;
-		public virtual RMethod RSearchForTextOfTag_String
+		protected RMethod r_MSearchForTextOfTag_String;
+		public virtual RMethod RMSearchForTextOfTag_String
 		{
 			get
 			{
-				if(r_SearchForTextOfTag_String == null)
+				if(r_MSearchForTextOfTag_String == null)
 				{
-					r_SearchForTextOfTag_String = new(this, "SearchForTextOfTag", 0, typeof(System.String));
-					r_SearchForTextOfTag_String.SetBelong(this.instance);
+					r_MSearchForTextOfTag_String = new(this, "SearchForTextOfTag", 0, typeof(System.String));
+					r_MSearchForTextOfTag_String.SetBelong(this.instance);
 				}
-				return r_SearchForTextOfTag_String;
+				return r_MSearchForTextOfTag_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void ToXml(System.Text.StringBuilder ByRef, Int32)
 		/// </summary>
-		protected RMethod r_ToXml_Ref_StringBuilder_Int32;
-		public virtual RMethod RToXml_Ref_StringBuilder_Int32
+		protected RMethod r_MToXml_Ref_StringBuilder_Int32;
+		public virtual RMethod RMToXml_Ref_StringBuilder_Int32
 		{
 			get
 			{
-				if(r_ToXml_Ref_StringBuilder_Int32 == null)
+				if(r_MToXml_Ref_StringBuilder_Int32 == null)
 				{
-					r_ToXml_Ref_StringBuilder_Int32 = new(this, "ToXml", 0, typeof(System.Text.StringBuilder).MakeByRefType(), typeof(System.Int32));
-					r_ToXml_Ref_StringBuilder_Int32.SetBelong(this.instance);
+					r_MToXml_Ref_StringBuilder_Int32 = new(this, "ToXml", 0, typeof(System.Text.StringBuilder).MakeByRefType(), typeof(System.Int32));
+					r_MToXml_Ref_StringBuilder_Int32.SetBelong(this.instance);
 				}
-				return r_ToXml_Ref_StringBuilder_Int32;
+				return r_MToXml_Ref_StringBuilder_Int32;
 			}
 		}
 
 		/// <summary>
 		/// SecurityAttribute GetAttribute(System.String)
 		/// </summary>
-		protected RMethod r_GetAttribute_String;
-		public virtual RMethod RGetAttribute_String
+		protected RMethod r_MGetAttribute_String;
+		public virtual RMethod RMGetAttribute_String
 		{
 			get
 			{
-				if(r_GetAttribute_String == null)
+				if(r_MGetAttribute_String == null)
 				{
-					r_GetAttribute_String = new(this, "GetAttribute", 0, typeof(System.String));
-					r_GetAttribute_String.SetBelong(this.instance);
+					r_MGetAttribute_String = new(this, "GetAttribute", 0, typeof(System.String));
+					r_MGetAttribute_String.SetBelong(this.instance);
 				}
-				return r_GetAttribute_String;
+				return r_MGetAttribute_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String SearchForTextOfLocalName(System.String)
 		/// </summary>
-		protected RMethod r_SearchForTextOfLocalName_String;
-		public virtual RMethod RSearchForTextOfLocalName_String
+		protected RMethod r_MSearchForTextOfLocalName_String;
+		public virtual RMethod RMSearchForTextOfLocalName_String
 		{
 			get
 			{
-				if(r_SearchForTextOfLocalName_String == null)
+				if(r_MSearchForTextOfLocalName_String == null)
 				{
-					r_SearchForTextOfLocalName_String = new(this, "SearchForTextOfLocalName", 0, typeof(System.String));
-					r_SearchForTextOfLocalName_String.SetBelong(this.instance);
+					r_MSearchForTextOfLocalName_String = new(this, "SearchForTextOfLocalName", 0, typeof(System.String));
+					r_MSearchForTextOfLocalName_String.SetBelong(this.instance);
 				}
-				return r_SearchForTextOfLocalName_String;
+				return r_MSearchForTextOfLocalName_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -713,7 +713,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @value};
-            var ___result = RAddAttribute_String_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddAttribute_String_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -724,7 +724,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@child};
-            var ___result = RAddChild_SecurityElement.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddChild_SecurityElement.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -735,7 +735,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
-            var ___result = RAttribute_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMAttribute_String.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -746,7 +746,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCopy.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
             return (System.Security.SecurityElement)___result;
         }
@@ -757,7 +757,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other};
-            var ___result = REqual_SecurityElement.Invoke(___genericsType, ___parameters);
+            var ___result = RMEqual_SecurityElement.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -768,7 +768,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str};
-            var ___result = REscape_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMEscape_String.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -779,7 +779,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str};
-            var ___result = RUnescape_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMUnescape_String.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -790,7 +790,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@xml};
-            var ___result = RFromString_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMFromString_String.Invoke(___genericsType, ___parameters);
 
             return (System.Security.SecurityElement)___result;
         }
@@ -801,7 +801,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
-            var ___result = RIsValidAttributeName_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsValidAttributeName_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -812,7 +812,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = RIsValidAttributeValue_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsValidAttributeValue_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -823,7 +823,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tag};
-            var ___result = RIsValidTag_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsValidTag_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -834,7 +834,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@text};
-            var ___result = RIsValidText_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsValidText_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -845,7 +845,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tag};
-            var ___result = RSearchForChildByTag_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMSearchForChildByTag_String.Invoke(___genericsType, ___parameters);
 
             return (System.Security.SecurityElement)___result;
         }
@@ -856,7 +856,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tag};
-            var ___result = RSearchForTextOfTag_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMSearchForTextOfTag_String.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -867,7 +867,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -878,7 +878,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @level};
-            var ___result = RToXml_Ref_StringBuilder_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMToXml_Ref_StringBuilder_Int32.Invoke(___genericsType, ___parameters);
 			@s = (System.Text.StringBuilder)___parameters[0];
 
             
@@ -890,7 +890,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
-            var ___result = RGetAttribute_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetAttribute_String.Invoke(___genericsType, ___parameters);
 
             return new RSystem.RSecurity.RSecurityElement.RSecurityAttribute(___result);
         }
@@ -901,7 +901,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@strLocalName};
-            var ___result = RSearchForTextOfLocalName_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMSearchForTextOfLocalName_String.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -912,7 +912,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -923,7 +923,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -934,7 +934,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -945,7 +945,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -956,7 +956,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

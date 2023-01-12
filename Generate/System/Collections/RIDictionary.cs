@@ -13,170 +13,170 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Object Item [System.Object]
 		/// </summary>
-		protected RSystem.RObject r_Item_Object;
-		public virtual RSystem.RObject RItem_Object
+		protected RSystem.RObject r_PItem_Object;
+		public virtual RSystem.RObject RPItem_Object
 		{
 			get
 			{
-				if(r_Item_Object == null)
+				if(r_PItem_Object == null)
 				{
-					r_Item_Object = new(this, "Item", -1, typeof(System.Object));
-					r_Item_Object.SetBelong(this.instance);
+					r_PItem_Object = new(this, "Item", -1, typeof(System.Object));
+					r_PItem_Object.SetBelong(this.instance);
 				}
-				return r_Item_Object;
+				return r_PItem_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.ICollection Keys
 		/// </summary>
-		protected RSystem.RCollections.RICollection r_Keys;
-		public virtual RSystem.RCollections.RICollection RKeys
+		protected RSystem.RCollections.RICollection r_PKeys;
+		public virtual RSystem.RCollections.RICollection RPKeys
 		{
 			get
 			{
-				if(r_Keys == null)
+				if(r_PKeys == null)
 				{
-					r_Keys = new(this, "Keys", -1);
-					r_Keys.SetBelong(this.instance);
+					r_PKeys = new(this, "Keys", -1);
+					r_PKeys.SetBelong(this.instance);
 				}
-				return r_Keys;
+				return r_PKeys;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.ICollection Values
 		/// </summary>
-		protected RSystem.RCollections.RICollection r_Values;
-		public virtual RSystem.RCollections.RICollection RValues
+		protected RSystem.RCollections.RICollection r_PValues;
+		public virtual RSystem.RCollections.RICollection RPValues
 		{
 			get
 			{
-				if(r_Values == null)
+				if(r_PValues == null)
 				{
-					r_Values = new(this, "Values", -1);
-					r_Values.SetBelong(this.instance);
+					r_PValues = new(this, "Values", -1);
+					r_PValues.SetBelong(this.instance);
 				}
-				return r_Values;
+				return r_PValues;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RSystem.RBoolean r_IsReadOnly;
-		public virtual RSystem.RBoolean RIsReadOnly
+		protected RSystem.RBoolean r_PIsReadOnly;
+		public virtual RSystem.RBoolean RPIsReadOnly
 		{
 			get
 			{
-				if(r_IsReadOnly == null)
+				if(r_PIsReadOnly == null)
 				{
-					r_IsReadOnly = new(this, "IsReadOnly", -1);
-					r_IsReadOnly.SetBelong(this.instance);
+					r_PIsReadOnly = new(this, "IsReadOnly", -1);
+					r_PIsReadOnly.SetBelong(this.instance);
 				}
-				return r_IsReadOnly;
+				return r_PIsReadOnly;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsFixedSize
 		/// </summary>
-		protected RSystem.RBoolean r_IsFixedSize;
-		public virtual RSystem.RBoolean RIsFixedSize
+		protected RSystem.RBoolean r_PIsFixedSize;
+		public virtual RSystem.RBoolean RPIsFixedSize
 		{
 			get
 			{
-				if(r_IsFixedSize == null)
+				if(r_PIsFixedSize == null)
 				{
-					r_IsFixedSize = new(this, "IsFixedSize", -1);
-					r_IsFixedSize.SetBelong(this.instance);
+					r_PIsFixedSize = new(this, "IsFixedSize", -1);
+					r_PIsFixedSize.SetBelong(this.instance);
 				}
-				return r_IsFixedSize;
+				return r_PIsFixedSize;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Contains(System.Object)
 		/// </summary>
-		protected RMethod r_Contains_Object;
-		public virtual RMethod RContains_Object
+		protected RMethod r_MContains_Object;
+		public virtual RMethod RMContains_Object
 		{
 			get
 			{
-				if(r_Contains_Object == null)
+				if(r_MContains_Object == null)
 				{
-					r_Contains_Object = new(this, "Contains", 0, typeof(System.Object));
-					r_Contains_Object.SetBelong(this.instance);
+					r_MContains_Object = new(this, "Contains", 0, typeof(System.Object));
+					r_MContains_Object.SetBelong(this.instance);
 				}
-				return r_Contains_Object;
+				return r_MContains_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Add(System.Object, System.Object)
 		/// </summary>
-		protected RMethod r_Add_Object_Object;
-		public virtual RMethod RAdd_Object_Object
+		protected RMethod r_MAdd_Object_Object;
+		public virtual RMethod RMAdd_Object_Object
 		{
 			get
 			{
-				if(r_Add_Object_Object == null)
+				if(r_MAdd_Object_Object == null)
 				{
-					r_Add_Object_Object = new(this, "Add", 0, typeof(System.Object), typeof(System.Object));
-					r_Add_Object_Object.SetBelong(this.instance);
+					r_MAdd_Object_Object = new(this, "Add", 0, typeof(System.Object), typeof(System.Object));
+					r_MAdd_Object_Object.SetBelong(this.instance);
 				}
-				return r_Add_Object_Object;
+				return r_MAdd_Object_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Clear()
 		/// </summary>
-		protected RMethod r_Clear;
-		public virtual RMethod RClear
+		protected RMethod r_MClear;
+		public virtual RMethod RMClear
 		{
 			get
 			{
-				if(r_Clear == null)
+				if(r_MClear == null)
 				{
-					r_Clear = new(this, "Clear", 0);
-					r_Clear.SetBelong(this.instance);
+					r_MClear = new(this, "Clear", 0);
+					r_MClear.SetBelong(this.instance);
 				}
-				return r_Clear;
+				return r_MClear;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.IDictionaryEnumerator GetEnumerator()
 		/// </summary>
-		protected RMethod r_GetEnumerator;
-		public virtual RMethod RGetEnumerator
+		protected RMethod r_MGetEnumerator;
+		public virtual RMethod RMGetEnumerator
 		{
 			get
 			{
-				if(r_GetEnumerator == null)
+				if(r_MGetEnumerator == null)
 				{
-					r_GetEnumerator = new(this, "GetEnumerator", 0);
-					r_GetEnumerator.SetBelong(this.instance);
+					r_MGetEnumerator = new(this, "GetEnumerator", 0);
+					r_MGetEnumerator.SetBelong(this.instance);
 				}
-				return r_GetEnumerator;
+				return r_MGetEnumerator;
 			}
 		}
 
 		/// <summary>
 		/// Void Remove(System.Object)
 		/// </summary>
-		protected RMethod r_Remove_Object;
-		public virtual RMethod RRemove_Object
+		protected RMethod r_MRemove_Object;
+		public virtual RMethod RMRemove_Object
 		{
 			get
 			{
-				if(r_Remove_Object == null)
+				if(r_MRemove_Object == null)
 				{
-					r_Remove_Object = new(this, "Remove", 0, typeof(System.Object));
-					r_Remove_Object.SetBelong(this.instance);
+					r_MRemove_Object = new(this, "Remove", 0, typeof(System.Object));
+					r_MRemove_Object.SetBelong(this.instance);
 				}
-				return r_Remove_Object;
+				return r_MRemove_Object;
 			}
 		}
 
@@ -203,7 +203,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key};
-            var ___result = RContains_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMContains_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -214,7 +214,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @value};
-            var ___result = RAdd_Object_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMAdd_Object_Object.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -225,7 +225,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RClear.Invoke(___genericsType, ___parameters);
+            var ___result = RMClear.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -236,7 +236,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetEnumerator.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
             return (System.Collections.IDictionaryEnumerator)___result;
         }
@@ -247,7 +247,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key};
-            var ___result = RRemove_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemove_Object.Invoke(___genericsType, ___parameters);
 
             
         }

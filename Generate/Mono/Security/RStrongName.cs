@@ -13,527 +13,527 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Security.Cryptography.RSA rsa
 		/// </summary>
-		protected RSystem.RSecurity.RCryptography.RRSA r_rsa;
-		public virtual RSystem.RSecurity.RCryptography.RRSA Rrsa
+		protected RSystem.RSecurity.RCryptography.RRSA r_Frsa;
+		public virtual RSystem.RSecurity.RCryptography.RRSA RFrsa
 		{
 			get
 			{
-				if(r_rsa == null)
+				if(r_Frsa == null)
 				{
-					r_rsa = new(this, "rsa");
-					r_rsa.SetBelong(this.instance);
+					r_Frsa = new(this, "rsa");
+					r_Frsa.SetBelong(this.instance);
 				}
-				return r_rsa;
+				return r_Frsa;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte[] publicKey
 		/// </summary>
-		protected RFieldArray<RSystem.RByte> r_publicKey;
-		public virtual RFieldArray<RSystem.RByte> RpublicKey
+		protected RFieldArray<RSystem.RByte> r_FpublicKey;
+		public virtual RFieldArray<RSystem.RByte> RFpublicKey
 		{
 			get
 			{
-				if(r_publicKey == null)
+				if(r_FpublicKey == null)
 				{
-					r_publicKey = new(this, "publicKey");
-					r_publicKey.SetBelong(this.instance);
+					r_FpublicKey = new(this, "publicKey");
+					r_FpublicKey.SetBelong(this.instance);
 				}
-				return r_publicKey;
+				return r_FpublicKey;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte[] keyToken
 		/// </summary>
-		protected RFieldArray<RSystem.RByte> r_keyToken;
-		public virtual RFieldArray<RSystem.RByte> RkeyToken
+		protected RFieldArray<RSystem.RByte> r_FkeyToken;
+		public virtual RFieldArray<RSystem.RByte> RFkeyToken
 		{
 			get
 			{
-				if(r_keyToken == null)
+				if(r_FkeyToken == null)
 				{
-					r_keyToken = new(this, "keyToken");
-					r_keyToken.SetBelong(this.instance);
+					r_FkeyToken = new(this, "keyToken");
+					r_FkeyToken.SetBelong(this.instance);
 				}
-				return r_keyToken;
+				return r_FkeyToken;
 			}
 		}
 
 		/// <summary>
 		/// System.String tokenAlgorithm
 		/// </summary>
-		protected RSystem.RString r_tokenAlgorithm;
-		public virtual RSystem.RString RtokenAlgorithm
+		protected RSystem.RString r_FtokenAlgorithm;
+		public virtual RSystem.RString RFtokenAlgorithm
 		{
 			get
 			{
-				if(r_tokenAlgorithm == null)
+				if(r_FtokenAlgorithm == null)
 				{
-					r_tokenAlgorithm = new(this, "tokenAlgorithm");
-					r_tokenAlgorithm.SetBelong(this.instance);
+					r_FtokenAlgorithm = new(this, "tokenAlgorithm");
+					r_FtokenAlgorithm.SetBelong(this.instance);
 				}
-				return r_tokenAlgorithm;
+				return r_FtokenAlgorithm;
 			}
 		}
 
 		/// <summary>
 		/// System.Object lockObject
 		/// </summary>
-		protected static RSystem.RObject r_lockObject;
-		public static RSystem.RObject RlockObject
+		protected static RSystem.RObject r_FlockObject;
+		public static RSystem.RObject RFlockObject
 		{
 			get
 			{
-				if(r_lockObject == null)
+				if(r_FlockObject == null)
 				{
-					r_lockObject = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "lockObject");
-					r_lockObject.SetBelong(null);
+					r_FlockObject = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "lockObject");
+					r_FlockObject.SetBelong(null);
 				}
-				return r_lockObject;
+				return r_FlockObject;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean initialized
 		/// </summary>
-		protected static RSystem.RBoolean r_initialized;
-		public static RSystem.RBoolean Rinitialized
+		protected static RSystem.RBoolean r_Finitialized;
+		public static RSystem.RBoolean RFinitialized
 		{
 			get
 			{
-				if(r_initialized == null)
+				if(r_Finitialized == null)
 				{
-					r_initialized = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "initialized");
-					r_initialized.SetBelong(null);
+					r_Finitialized = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "initialized");
+					r_Finitialized.SetBelong(null);
 				}
-				return r_initialized;
+				return r_Finitialized;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CanSign
 		/// </summary>
-		protected RSystem.RBoolean r_CanSign;
-		public virtual RSystem.RBoolean RCanSign
+		protected RSystem.RBoolean r_PCanSign;
+		public virtual RSystem.RBoolean RPCanSign
 		{
 			get
 			{
-				if(r_CanSign == null)
+				if(r_PCanSign == null)
 				{
-					r_CanSign = new(this, "CanSign", -1);
-					r_CanSign.SetBelong(this.instance);
+					r_PCanSign = new(this, "CanSign", -1);
+					r_PCanSign.SetBelong(this.instance);
 				}
-				return r_CanSign;
+				return r_PCanSign;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Cryptography.RSA RSA
 		/// </summary>
-		protected RSystem.RSecurity.RCryptography.RRSA r_RSA;
-		public virtual RSystem.RSecurity.RCryptography.RRSA RRSA
+		protected RSystem.RSecurity.RCryptography.RRSA r_PRSA;
+		public virtual RSystem.RSecurity.RCryptography.RRSA RPRSA
 		{
 			get
 			{
-				if(r_RSA == null)
+				if(r_PRSA == null)
 				{
-					r_RSA = new(this, "RSA", -1);
-					r_RSA.SetBelong(this.instance);
+					r_PRSA = new(this, "RSA", -1);
+					r_PRSA.SetBelong(this.instance);
 				}
-				return r_RSA;
+				return r_PRSA;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] PublicKey
 		/// </summary>
-		protected RPropertyArray<RSystem.RByte> r_PublicKey;
-		public virtual RPropertyArray<RSystem.RByte> RPublicKey
+		protected RPropertyArray<RSystem.RByte> r_PPublicKey;
+		public virtual RPropertyArray<RSystem.RByte> RPPublicKey
 		{
 			get
 			{
-				if(r_PublicKey == null)
+				if(r_PPublicKey == null)
 				{
-					r_PublicKey = new(this, "PublicKey", -1);
-					r_PublicKey.SetBelong(this.instance);
+					r_PPublicKey = new(this, "PublicKey", -1);
+					r_PPublicKey.SetBelong(this.instance);
 				}
-				return r_PublicKey;
+				return r_PPublicKey;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] PublicKeyToken
 		/// </summary>
-		protected RPropertyArray<RSystem.RByte> r_PublicKeyToken;
-		public virtual RPropertyArray<RSystem.RByte> RPublicKeyToken
+		protected RPropertyArray<RSystem.RByte> r_PPublicKeyToken;
+		public virtual RPropertyArray<RSystem.RByte> RPPublicKeyToken
 		{
 			get
 			{
-				if(r_PublicKeyToken == null)
+				if(r_PPublicKeyToken == null)
 				{
-					r_PublicKeyToken = new(this, "PublicKeyToken", -1);
-					r_PublicKeyToken.SetBelong(this.instance);
+					r_PPublicKeyToken = new(this, "PublicKeyToken", -1);
+					r_PPublicKeyToken.SetBelong(this.instance);
 				}
-				return r_PublicKeyToken;
+				return r_PPublicKeyToken;
 			}
 		}
 
 		/// <summary>
 		/// System.String TokenAlgorithm
 		/// </summary>
-		protected RSystem.RString r_TokenAlgorithm;
-		public virtual RSystem.RString RTokenAlgorithm
+		protected RSystem.RString r_PTokenAlgorithm;
+		public virtual RSystem.RString RPTokenAlgorithm
 		{
 			get
 			{
-				if(r_TokenAlgorithm == null)
+				if(r_PTokenAlgorithm == null)
 				{
-					r_TokenAlgorithm = new(this, "TokenAlgorithm", -1);
-					r_TokenAlgorithm.SetBelong(this.instance);
+					r_PTokenAlgorithm = new(this, "TokenAlgorithm", -1);
+					r_PTokenAlgorithm.SetBelong(this.instance);
 				}
-				return r_TokenAlgorithm;
+				return r_PTokenAlgorithm;
 			}
 		}
 
 		/// <summary>
 		/// Void InvalidateCache()
 		/// </summary>
-		protected RMethod r_InvalidateCache;
-		public virtual RMethod RInvalidateCache
+		protected RMethod r_MInvalidateCache;
+		public virtual RMethod RMInvalidateCache
 		{
 			get
 			{
-				if(r_InvalidateCache == null)
+				if(r_MInvalidateCache == null)
 				{
-					r_InvalidateCache = new(this, "InvalidateCache", 0);
-					r_InvalidateCache.SetBelong(this.instance);
+					r_MInvalidateCache = new(this, "InvalidateCache", 0);
+					r_MInvalidateCache.SetBelong(this.instance);
 				}
-				return r_InvalidateCache;
+				return r_MInvalidateCache;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Cryptography.HashAlgorithm GetHashAlgorithm(System.String)
 		/// </summary>
-		protected static RMethod r_GetHashAlgorithm_String;
-		public static RMethod RGetHashAlgorithm_String
+		protected static RMethod r_MGetHashAlgorithm_String;
+		public static RMethod RMGetHashAlgorithm_String
 		{
 			get
 			{
-				if(r_GetHashAlgorithm_String == null)
+				if(r_MGetHashAlgorithm_String == null)
 				{
-					r_GetHashAlgorithm_String = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "GetHashAlgorithm", 0, typeof(System.String));
-					r_GetHashAlgorithm_String.SetBelong(null);
+					r_MGetHashAlgorithm_String = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "GetHashAlgorithm", 0, typeof(System.String));
+					r_MGetHashAlgorithm_String.SetBelong(null);
 				}
-				return r_GetHashAlgorithm_String;
+				return r_MGetHashAlgorithm_String;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] GetBytes()
 		/// </summary>
-		protected RMethod r_GetBytes;
-		public virtual RMethod RGetBytes
+		protected RMethod r_MGetBytes;
+		public virtual RMethod RMGetBytes
 		{
 			get
 			{
-				if(r_GetBytes == null)
+				if(r_MGetBytes == null)
 				{
-					r_GetBytes = new(this, "GetBytes", 0);
-					r_GetBytes.SetBelong(this.instance);
+					r_MGetBytes = new(this, "GetBytes", 0);
+					r_MGetBytes.SetBelong(this.instance);
 				}
-				return r_GetBytes;
+				return r_MGetBytes;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 RVAtoPosition(UInt32, Int32, Byte[])
 		/// </summary>
-		protected RMethod r_RVAtoPosition_UInt32_Int32_ByteArray;
-		public virtual RMethod RRVAtoPosition_UInt32_Int32_ByteArray
+		protected RMethod r_MRVAtoPosition_UInt32_Int32_ByteArray;
+		public virtual RMethod RMRVAtoPosition_UInt32_Int32_ByteArray
 		{
 			get
 			{
-				if(r_RVAtoPosition_UInt32_Int32_ByteArray == null)
+				if(r_MRVAtoPosition_UInt32_Int32_ByteArray == null)
 				{
-					r_RVAtoPosition_UInt32_Int32_ByteArray = new(this, "RVAtoPosition", 0, typeof(System.UInt32), typeof(System.Int32), typeof(System.Byte).MakeArrayType());
-					r_RVAtoPosition_UInt32_Int32_ByteArray.SetBelong(this.instance);
+					r_MRVAtoPosition_UInt32_Int32_ByteArray = new(this, "RVAtoPosition", 0, typeof(System.UInt32), typeof(System.Int32), typeof(System.Byte).MakeArrayType());
+					r_MRVAtoPosition_UInt32_Int32_ByteArray.SetBelong(this.instance);
 				}
-				return r_RVAtoPosition_UInt32_Int32_ByteArray;
+				return r_MRVAtoPosition_UInt32_Int32_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// StrongNameSignature Error(System.String)
 		/// </summary>
-		protected static RMethod r_Error_String;
-		public static RMethod RError_String
+		protected static RMethod r_MError_String;
+		public static RMethod RMError_String
 		{
 			get
 			{
-				if(r_Error_String == null)
+				if(r_MError_String == null)
 				{
-					r_Error_String = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "Error", 0, typeof(System.String));
-					r_Error_String.SetBelong(null);
+					r_MError_String = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "Error", 0, typeof(System.String));
+					r_MError_String.SetBelong(null);
 				}
-				return r_Error_String;
+				return r_MError_String;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] ReadMore(System.IO.Stream, Byte[], Int32)
 		/// </summary>
-		protected static RMethod r_ReadMore_Stream_ByteArray_Int32;
-		public static RMethod RReadMore_Stream_ByteArray_Int32
+		protected static RMethod r_MReadMore_Stream_ByteArray_Int32;
+		public static RMethod RMReadMore_Stream_ByteArray_Int32
 		{
 			get
 			{
-				if(r_ReadMore_Stream_ByteArray_Int32 == null)
+				if(r_MReadMore_Stream_ByteArray_Int32 == null)
 				{
-					r_ReadMore_Stream_ByteArray_Int32 = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "ReadMore", 0, typeof(System.IO.Stream), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
-					r_ReadMore_Stream_ByteArray_Int32.SetBelong(null);
+					r_MReadMore_Stream_ByteArray_Int32 = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "ReadMore", 0, typeof(System.IO.Stream), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_MReadMore_Stream_ByteArray_Int32.SetBelong(null);
 				}
-				return r_ReadMore_Stream_ByteArray_Int32;
+				return r_MReadMore_Stream_ByteArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// StrongNameSignature StrongHash(System.IO.Stream, StrongNameOptions)
 		/// </summary>
-		protected RMethod r_StrongHash_Stream_StrongNameOptions;
-		public virtual RMethod RStrongHash_Stream_StrongNameOptions
+		protected RMethod r_MStrongHash_Stream_StrongNameOptions;
+		public virtual RMethod RMStrongHash_Stream_StrongNameOptions
 		{
 			get
 			{
-				if(r_StrongHash_Stream_StrongNameOptions == null)
+				if(r_MStrongHash_Stream_StrongNameOptions == null)
 				{
-					r_StrongHash_Stream_StrongNameOptions = new(this, "StrongHash", 0, typeof(System.IO.Stream),  ReflectionUtils.GetType("Mono.Security.StrongName+StrongNameOptions"));
-					r_StrongHash_Stream_StrongNameOptions.SetBelong(this.instance);
+					r_MStrongHash_Stream_StrongNameOptions = new(this, "StrongHash", 0, typeof(System.IO.Stream),  ReflectionUtils.GetType("Mono.Security.StrongName+StrongNameOptions"));
+					r_MStrongHash_Stream_StrongNameOptions.SetBelong(this.instance);
 				}
-				return r_StrongHash_Stream_StrongNameOptions;
+				return r_MStrongHash_Stream_StrongNameOptions;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] Hash(System.String)
 		/// </summary>
-		protected RMethod r_Hash_String;
-		public virtual RMethod RHash_String
+		protected RMethod r_MHash_String;
+		public virtual RMethod RMHash_String
 		{
 			get
 			{
-				if(r_Hash_String == null)
+				if(r_MHash_String == null)
 				{
-					r_Hash_String = new(this, "Hash", 0, typeof(System.String));
-					r_Hash_String.SetBelong(this.instance);
+					r_MHash_String = new(this, "Hash", 0, typeof(System.String));
+					r_MHash_String.SetBelong(this.instance);
 				}
-				return r_Hash_String;
+				return r_MHash_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Sign(System.String)
 		/// </summary>
-		protected RMethod r_Sign_String;
-		public virtual RMethod RSign_String
+		protected RMethod r_MSign_String;
+		public virtual RMethod RMSign_String
 		{
 			get
 			{
-				if(r_Sign_String == null)
+				if(r_MSign_String == null)
 				{
-					r_Sign_String = new(this, "Sign", 0, typeof(System.String));
-					r_Sign_String.SetBelong(this.instance);
+					r_MSign_String = new(this, "Sign", 0, typeof(System.String));
+					r_MSign_String.SetBelong(this.instance);
 				}
-				return r_Sign_String;
+				return r_MSign_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Verify(System.String)
 		/// </summary>
-		protected RMethod r_Verify_String;
-		public virtual RMethod RVerify_String
+		protected RMethod r_MVerify_String;
+		public virtual RMethod RMVerify_String
 		{
 			get
 			{
-				if(r_Verify_String == null)
+				if(r_MVerify_String == null)
 				{
-					r_Verify_String = new(this, "Verify", 0, typeof(System.String));
-					r_Verify_String.SetBelong(this.instance);
+					r_MVerify_String = new(this, "Verify", 0, typeof(System.String));
+					r_MVerify_String.SetBelong(this.instance);
 				}
-				return r_Verify_String;
+				return r_MVerify_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Verify(System.IO.Stream)
 		/// </summary>
-		protected RMethod r_Verify_Stream;
-		public virtual RMethod RVerify_Stream
+		protected RMethod r_MVerify_Stream;
+		public virtual RMethod RMVerify_Stream
 		{
 			get
 			{
-				if(r_Verify_Stream == null)
+				if(r_MVerify_Stream == null)
 				{
-					r_Verify_Stream = new(this, "Verify", 0, typeof(System.IO.Stream));
-					r_Verify_Stream.SetBelong(this.instance);
+					r_MVerify_Stream = new(this, "Verify", 0, typeof(System.IO.Stream));
+					r_MVerify_Stream.SetBelong(this.instance);
 				}
-				return r_Verify_Stream;
+				return r_MVerify_Stream;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsAssemblyStrongnamed(System.String)
 		/// </summary>
-		protected static RMethod r_IsAssemblyStrongnamed_String;
-		public static RMethod RIsAssemblyStrongnamed_String
+		protected static RMethod r_MIsAssemblyStrongnamed_String;
+		public static RMethod RMIsAssemblyStrongnamed_String
 		{
 			get
 			{
-				if(r_IsAssemblyStrongnamed_String == null)
+				if(r_MIsAssemblyStrongnamed_String == null)
 				{
-					r_IsAssemblyStrongnamed_String = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "IsAssemblyStrongnamed", 0, typeof(System.String));
-					r_IsAssemblyStrongnamed_String.SetBelong(null);
+					r_MIsAssemblyStrongnamed_String = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "IsAssemblyStrongnamed", 0, typeof(System.String));
+					r_MIsAssemblyStrongnamed_String.SetBelong(null);
 				}
-				return r_IsAssemblyStrongnamed_String;
+				return r_MIsAssemblyStrongnamed_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean VerifySignature(Byte[], Int32, Byte[], Byte[])
 		/// </summary>
-		protected static RMethod r_VerifySignature_ByteArray_Int32_ByteArray_ByteArray;
-		public static RMethod RVerifySignature_ByteArray_Int32_ByteArray_ByteArray
+		protected static RMethod r_MVerifySignature_ByteArray_Int32_ByteArray_ByteArray;
+		public static RMethod RMVerifySignature_ByteArray_Int32_ByteArray_ByteArray
 		{
 			get
 			{
-				if(r_VerifySignature_ByteArray_Int32_ByteArray_ByteArray == null)
+				if(r_MVerifySignature_ByteArray_Int32_ByteArray_ByteArray == null)
 				{
-					r_VerifySignature_ByteArray_Int32_ByteArray_ByteArray = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "VerifySignature", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
-					r_VerifySignature_ByteArray_Int32_ByteArray_ByteArray.SetBelong(null);
+					r_MVerifySignature_ByteArray_Int32_ByteArray_ByteArray = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "VerifySignature", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
+					r_MVerifySignature_ByteArray_Int32_ByteArray_ByteArray.SetBelong(null);
 				}
-				return r_VerifySignature_ByteArray_Int32_ByteArray_ByteArray;
+				return r_MVerifySignature_ByteArray_Int32_ByteArray_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Verify(System.Security.Cryptography.RSA, System.Configuration.Assemblies.AssemblyHashAlgorithm, Byte[], Byte[])
 		/// </summary>
-		protected static RMethod r_Verify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray;
-		public static RMethod RVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray
+		protected static RMethod r_MVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray;
+		public static RMethod RMVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray
 		{
 			get
 			{
-				if(r_Verify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray == null)
+				if(r_MVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray == null)
 				{
-					r_Verify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "Verify", 0, typeof(System.Security.Cryptography.RSA), typeof(System.Configuration.Assemblies.AssemblyHashAlgorithm), typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
-					r_Verify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray.SetBelong(null);
+					r_MVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "Verify", 0, typeof(System.Security.Cryptography.RSA), typeof(System.Configuration.Assemblies.AssemblyHashAlgorithm), typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
+					r_MVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray.SetBelong(null);
 				}
-				return r_Verify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray;
+				return r_MVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -560,7 +560,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInvalidateCache.Invoke(___genericsType, ___parameters);
+            var ___result = RMInvalidateCache.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -571,7 +571,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@algorithm};
-            var ___result = RGetHashAlgorithm_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashAlgorithm_String.Invoke(___genericsType, ___parameters);
 
             return (System.Security.Cryptography.HashAlgorithm)___result;
         }
@@ -582,7 +582,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetBytes.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetBytes.Invoke(___genericsType, ___parameters);
 
             return (System.Byte[])___result;
         }
@@ -593,7 +593,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@r, @sections, @headers};
-            var ___result = RRVAtoPosition_UInt32_Int32_ByteArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMRVAtoPosition_UInt32_Int32_ByteArray.Invoke(___genericsType, ___parameters);
 
             return (System.UInt32)___result;
         }
@@ -604,7 +604,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a};
-            var ___result = RError_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMError_String.Invoke(___genericsType, ___parameters);
 
             return new RMono.RSecurity.RStrongName.RStrongNameSignature(___result);
         }
@@ -615,18 +615,18 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@stream, @a, @newSize};
-            var ___result = RReadMore_Stream_ByteArray_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMReadMore_Stream_ByteArray_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Byte[])___result;
         }
 
 
-        public virtual RMono.RSecurity.RStrongName.RStrongNameSignature StrongHash(System.IO.Stream @stream, RType @options)
+        public virtual RMono.RSecurity.RStrongName.RStrongNameSignature StrongHash(System.IO.Stream @stream, RMono.RSecurity.RStrongName.RStrongNameOptions @options)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@stream, @options.Value};
-            var ___result = RStrongHash_Stream_StrongNameOptions.Invoke(___genericsType, ___parameters);
+            var ___result = RMStrongHash_Stream_StrongNameOptions.Invoke(___genericsType, ___parameters);
 
             return new RMono.RSecurity.RStrongName.RStrongNameSignature(___result);
         }
@@ -637,7 +637,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fileName};
-            var ___result = RHash_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMHash_String.Invoke(___genericsType, ___parameters);
 
             return (System.Byte[])___result;
         }
@@ -648,7 +648,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fileName};
-            var ___result = RSign_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMSign_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -659,7 +659,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fileName};
-            var ___result = RVerify_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMVerify_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -670,7 +670,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@stream};
-            var ___result = RVerify_Stream.Invoke(___genericsType, ___parameters);
+            var ___result = RMVerify_Stream.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -681,7 +681,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assemblyName};
-            var ___result = RIsAssemblyStrongnamed_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsAssemblyStrongnamed_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -692,7 +692,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@publicKey, @algorithm, @hash, @signature};
-            var ___result = RVerifySignature_ByteArray_Int32_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMVerifySignature_ByteArray_Int32_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -703,7 +703,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rsa, @algorithm, @hash, @signature};
-            var ___result = RVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -714,7 +714,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -725,7 +725,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -736,7 +736,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -747,7 +747,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -758,7 +758,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -769,7 +769,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

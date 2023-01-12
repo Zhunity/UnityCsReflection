@@ -13,51 +13,51 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageSink NextSink
 		/// </summary>
-		protected RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_NextSink;
-		public virtual RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RNextSink
+		protected RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_PNextSink;
+		public virtual RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RPNextSink
 		{
 			get
 			{
-				if(r_NextSink == null)
+				if(r_PNextSink == null)
 				{
-					r_NextSink = new(this, "NextSink", -1);
-					r_NextSink.SetBelong(this.instance);
+					r_PNextSink = new(this, "NextSink", -1);
+					r_PNextSink.SetBelong(this.instance);
 				}
-				return r_NextSink;
+				return r_PNextSink;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage)
 		/// </summary>
-		protected RMethod r_SyncProcessMessage_IMessage;
-		public virtual RMethod RSyncProcessMessage_IMessage
+		protected RMethod r_MSyncProcessMessage_IMessage;
+		public virtual RMethod RMSyncProcessMessage_IMessage
 		{
 			get
 			{
-				if(r_SyncProcessMessage_IMessage == null)
+				if(r_MSyncProcessMessage_IMessage == null)
 				{
-					r_SyncProcessMessage_IMessage = new(this, "SyncProcessMessage", 0, typeof(System.Runtime.Remoting.Messaging.IMessage));
-					r_SyncProcessMessage_IMessage.SetBelong(this.instance);
+					r_MSyncProcessMessage_IMessage = new(this, "SyncProcessMessage", 0, typeof(System.Runtime.Remoting.Messaging.IMessage));
+					r_MSyncProcessMessage_IMessage.SetBelong(this.instance);
 				}
-				return r_SyncProcessMessage_IMessage;
+				return r_MSyncProcessMessage_IMessage;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage, System.Runtime.Remoting.Messaging.IMessageSink)
 		/// </summary>
-		protected RMethod r_AsyncProcessMessage_IMessage_IMessageSink;
-		public virtual RMethod RAsyncProcessMessage_IMessage_IMessageSink
+		protected RMethod r_MAsyncProcessMessage_IMessage_IMessageSink;
+		public virtual RMethod RMAsyncProcessMessage_IMessage_IMessageSink
 		{
 			get
 			{
-				if(r_AsyncProcessMessage_IMessage_IMessageSink == null)
+				if(r_MAsyncProcessMessage_IMessage_IMessageSink == null)
 				{
-					r_AsyncProcessMessage_IMessage_IMessageSink = new(this, "AsyncProcessMessage", 0, typeof(System.Runtime.Remoting.Messaging.IMessage), typeof(System.Runtime.Remoting.Messaging.IMessageSink));
-					r_AsyncProcessMessage_IMessage_IMessageSink.SetBelong(this.instance);
+					r_MAsyncProcessMessage_IMessage_IMessageSink = new(this, "AsyncProcessMessage", 0, typeof(System.Runtime.Remoting.Messaging.IMessage), typeof(System.Runtime.Remoting.Messaging.IMessageSink));
+					r_MAsyncProcessMessage_IMessage_IMessageSink.SetBelong(this.instance);
 				}
-				return r_AsyncProcessMessage_IMessage_IMessageSink;
+				return r_MAsyncProcessMessage_IMessage_IMessageSink;
 			}
 		}
 
@@ -84,7 +84,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@msg};
-            var ___result = RSyncProcessMessage_IMessage.Invoke(___genericsType, ___parameters);
+            var ___result = RMSyncProcessMessage_IMessage.Invoke(___genericsType, ___parameters);
 
             return (System.Runtime.Remoting.Messaging.IMessage)___result;
         }
@@ -95,7 +95,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@msg, @replySink};
-            var ___result = RAsyncProcessMessage_IMessage_IMessageSink.Invoke(___genericsType, ___parameters);
+            var ___result = RMAsyncProcessMessage_IMessage_IMessageSink.Invoke(___genericsType, ___parameters);
 
             return (System.Runtime.Remoting.Messaging.IMessageCtrl)___result;
         }

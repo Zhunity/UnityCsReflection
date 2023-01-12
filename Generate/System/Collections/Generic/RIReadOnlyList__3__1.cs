@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// T Item [Int32]
 		/// </summary>
-		protected RProperty r_Item_Int32;
-		public virtual RProperty RItem_Int32
+		protected RProperty r_PItem_Int32;
+		public virtual RProperty RPItem_Int32
 		{
 			get
 			{
-				if(r_Item_Int32 == null)
+				if(r_PItem_Int32 == null)
 				{
-					r_Item_Int32 = new(this, "Item", -1, typeof(System.Int32));
-					r_Item_Int32.SetBelong(this.instance);
+					r_PItem_Int32 = new(this, "Item", -1, typeof(System.Int32));
+					r_PItem_Int32.SetBelong(this.instance);
 				}
-				return r_Item_Int32;
+				return r_PItem_Int32;
 			}
 		}
 

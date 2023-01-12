@@ -371,5 +371,23 @@ namespace SMFrame.Editor.Refleaction
 			
 			baseM.Invoke(ci, null);
 		}
+
+		enum a
+		{
+			a,
+			B,
+			C,
+		}
+
+		[MenuItem("Tools/test new enum")]
+		static void TestEnum()
+		{
+			var e = typeof(a);
+			var ms = e.GetFields();
+			foreach(var m in ms)
+			{
+				Debug.Log(m + "  " + m.MemberType + "  " + m.FieldType + "  " + m.IsStatic);
+			}
+		}
 	}
 }

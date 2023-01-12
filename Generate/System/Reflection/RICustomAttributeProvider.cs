@@ -13,51 +13,51 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Object[] GetCustomAttributes(Boolean)
 		/// </summary>
-		protected RMethod r_GetCustomAttributes_Boolean;
-		public virtual RMethod RGetCustomAttributes_Boolean
+		protected RMethod r_MGetCustomAttributes_Boolean;
+		public virtual RMethod RMGetCustomAttributes_Boolean
 		{
 			get
 			{
-				if(r_GetCustomAttributes_Boolean == null)
+				if(r_MGetCustomAttributes_Boolean == null)
 				{
-					r_GetCustomAttributes_Boolean = new(this, "GetCustomAttributes", 0, typeof(System.Boolean));
-					r_GetCustomAttributes_Boolean.SetBelong(this.instance);
+					r_MGetCustomAttributes_Boolean = new(this, "GetCustomAttributes", 0, typeof(System.Boolean));
+					r_MGetCustomAttributes_Boolean.SetBelong(this.instance);
 				}
-				return r_GetCustomAttributes_Boolean;
+				return r_MGetCustomAttributes_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Object[] GetCustomAttributes(System.Type, Boolean)
 		/// </summary>
-		protected RMethod r_GetCustomAttributes_Type_Boolean;
-		public virtual RMethod RGetCustomAttributes_Type_Boolean
+		protected RMethod r_MGetCustomAttributes_Type_Boolean;
+		public virtual RMethod RMGetCustomAttributes_Type_Boolean
 		{
 			get
 			{
-				if(r_GetCustomAttributes_Type_Boolean == null)
+				if(r_MGetCustomAttributes_Type_Boolean == null)
 				{
-					r_GetCustomAttributes_Type_Boolean = new(this, "GetCustomAttributes", 0, typeof(System.Type), typeof(System.Boolean));
-					r_GetCustomAttributes_Type_Boolean.SetBelong(this.instance);
+					r_MGetCustomAttributes_Type_Boolean = new(this, "GetCustomAttributes", 0, typeof(System.Type), typeof(System.Boolean));
+					r_MGetCustomAttributes_Type_Boolean.SetBelong(this.instance);
 				}
-				return r_GetCustomAttributes_Type_Boolean;
+				return r_MGetCustomAttributes_Type_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsDefined(System.Type, Boolean)
 		/// </summary>
-		protected RMethod r_IsDefined_Type_Boolean;
-		public virtual RMethod RIsDefined_Type_Boolean
+		protected RMethod r_MIsDefined_Type_Boolean;
+		public virtual RMethod RMIsDefined_Type_Boolean
 		{
 			get
 			{
-				if(r_IsDefined_Type_Boolean == null)
+				if(r_MIsDefined_Type_Boolean == null)
 				{
-					r_IsDefined_Type_Boolean = new(this, "IsDefined", 0, typeof(System.Type), typeof(System.Boolean));
-					r_IsDefined_Type_Boolean.SetBelong(this.instance);
+					r_MIsDefined_Type_Boolean = new(this, "IsDefined", 0, typeof(System.Type), typeof(System.Boolean));
+					r_MIsDefined_Type_Boolean.SetBelong(this.instance);
 				}
-				return r_IsDefined_Type_Boolean;
+				return r_MIsDefined_Type_Boolean;
 			}
 		}
 
@@ -84,7 +84,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@inherit};
-            var ___result = RGetCustomAttributes_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCustomAttributes_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Object[])___result;
         }
@@ -95,7 +95,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@attributeType, @inherit};
-            var ___result = RGetCustomAttributes_Type_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCustomAttributes_Type_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Object[])___result;
         }
@@ -106,7 +106,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@attributeType, @inherit};
-            var ___result = RIsDefined_Type_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsDefined_Type_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }

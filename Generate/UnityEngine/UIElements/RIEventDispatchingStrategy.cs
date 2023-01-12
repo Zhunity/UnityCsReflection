@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean CanDispatchEvent(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_CanDispatchEvent_EventBase;
-		public virtual RMethod RCanDispatchEvent_EventBase
+		protected RMethod r_MCanDispatchEvent_EventBase;
+		public virtual RMethod RMCanDispatchEvent_EventBase
 		{
 			get
 			{
-				if(r_CanDispatchEvent_EventBase == null)
+				if(r_MCanDispatchEvent_EventBase == null)
 				{
-					r_CanDispatchEvent_EventBase = new(this, "CanDispatchEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_CanDispatchEvent_EventBase.SetBelong(this.instance);
+					r_MCanDispatchEvent_EventBase = new(this, "CanDispatchEvent", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_MCanDispatchEvent_EventBase.SetBelong(this.instance);
 				}
-				return r_CanDispatchEvent_EventBase;
+				return r_MCanDispatchEvent_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// Void DispatchEvent(UnityEngine.UIElements.EventBase, UnityEngine.UIElements.IPanel)
 		/// </summary>
-		protected RMethod r_DispatchEvent_EventBase_IPanel;
-		public virtual RMethod RDispatchEvent_EventBase_IPanel
+		protected RMethod r_MDispatchEvent_EventBase_IPanel;
+		public virtual RMethod RMDispatchEvent_EventBase_IPanel
 		{
 			get
 			{
-				if(r_DispatchEvent_EventBase_IPanel == null)
+				if(r_MDispatchEvent_EventBase_IPanel == null)
 				{
-					r_DispatchEvent_EventBase_IPanel = new(this, "DispatchEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.IPanel));
-					r_DispatchEvent_EventBase_IPanel.SetBelong(this.instance);
+					r_MDispatchEvent_EventBase_IPanel = new(this, "DispatchEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.IPanel));
+					r_MDispatchEvent_EventBase_IPanel.SetBelong(this.instance);
 				}
-				return r_DispatchEvent_EventBase_IPanel;
+				return r_MDispatchEvent_EventBase_IPanel;
 			}
 		}
 
@@ -67,7 +67,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = RCanDispatchEvent_EventBase.Invoke(___genericsType, ___parameters);
+            var ___result = RMCanDispatchEvent_EventBase.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -78,7 +78,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt, @panel};
-            var ___result = RDispatchEvent_EventBase_IPanel.Invoke(___genericsType, ___parameters);
+            var ___result = RMDispatchEvent_EventBase_IPanel.Invoke(___genericsType, ___parameters);
 
             
         }

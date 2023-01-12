@@ -13,595 +13,595 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ReadOnlySpan`1[System.Char] Value
 		/// </summary>
-		protected RSystem.RReadOnlySpan<RSystem.RChar> r_Value;
-		public virtual RSystem.RReadOnlySpan<RSystem.RChar> RValue
+		protected RSystem.RReadOnlySpan<RSystem.RChar> r_FValue;
+		public virtual RSystem.RReadOnlySpan<RSystem.RChar> RFValue
 		{
 			get
 			{
-				if(r_Value == null)
+				if(r_FValue == null)
 				{
-					r_Value = new(this, "Value");
-					r_Value.SetBelong(this.instance);
+					r_FValue = new(this, "Value");
+					r_FValue.SetBelong(this.instance);
 				}
-				return r_Value;
+				return r_FValue;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 Index
 		/// </summary>
-		protected RSystem.RInt32 r_Index;
-		public virtual RSystem.RInt32 RIndex
+		protected RSystem.RInt32 r_FIndex;
+		public virtual RSystem.RInt32 RFIndex
 		{
 			get
 			{
-				if(r_Index == null)
+				if(r_FIndex == null)
 				{
-					r_Index = new(this, "Index");
-					r_Index.SetBelong(this.instance);
+					r_FIndex = new(this, "Index");
+					r_FIndex.SetBelong(this.instance);
 				}
-				return r_Index;
+				return r_FIndex;
 			}
 		}
 
 		/// <summary>
 		/// System.Char m_current
 		/// </summary>
-		protected RSystem.RChar r_m_current;
-		public virtual RSystem.RChar Rm_current
+		protected RSystem.RChar r_Fm_current;
+		public virtual RSystem.RChar RFm_current
 		{
 			get
 			{
-				if(r_m_current == null)
+				if(r_Fm_current == null)
 				{
-					r_m_current = new(this, "m_current");
-					r_m_current.SetBelong(this.instance);
+					r_Fm_current = new(this, "m_current");
+					r_Fm_current.SetBelong(this.instance);
 				}
-				return r_m_current;
+				return r_Fm_current;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CompareInfo m_info
 		/// </summary>
-		protected RSystem.RGlobalization.RCompareInfo r_m_info;
-		public virtual RSystem.RGlobalization.RCompareInfo Rm_info
+		protected RSystem.RGlobalization.RCompareInfo r_Fm_info;
+		public virtual RSystem.RGlobalization.RCompareInfo RFm_info
 		{
 			get
 			{
-				if(r_m_info == null)
+				if(r_Fm_info == null)
 				{
-					r_m_info = new(this, "m_info");
-					r_m_info.SetBelong(this.instance);
+					r_Fm_info = new(this, "m_info");
+					r_Fm_info.SetBelong(this.instance);
 				}
-				return r_m_info;
+				return r_Fm_info;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean m_checkDigitToken
 		/// </summary>
-		protected RSystem.RBoolean r_m_checkDigitToken;
-		public virtual RSystem.RBoolean Rm_checkDigitToken
+		protected RSystem.RBoolean r_Fm_checkDigitToken;
+		public virtual RSystem.RBoolean RFm_checkDigitToken
 		{
 			get
 			{
-				if(r_m_checkDigitToken == null)
+				if(r_Fm_checkDigitToken == null)
 				{
-					r_m_checkDigitToken = new(this, "m_checkDigitToken");
-					r_m_checkDigitToken.SetBelong(this.instance);
+					r_Fm_checkDigitToken = new(this, "m_checkDigitToken");
+					r_Fm_checkDigitToken.SetBelong(this.instance);
 				}
-				return r_m_checkDigitToken;
+				return r_Fm_checkDigitToken;
 			}
 		}
 
 		/// <summary>
 		/// System.Char[] WhiteSpaceChecks
 		/// </summary>
-		protected static RFieldArray<RSystem.RChar> r_WhiteSpaceChecks;
-		public static RFieldArray<RSystem.RChar> RWhiteSpaceChecks
+		protected static RFieldArray<RSystem.RChar> r_FWhiteSpaceChecks;
+		public static RFieldArray<RSystem.RChar> RFWhiteSpaceChecks
 		{
 			get
 			{
-				if(r_WhiteSpaceChecks == null)
+				if(r_FWhiteSpaceChecks == null)
 				{
-					r_WhiteSpaceChecks = new( ReflectionUtils.GetType("System.__DTString"), "WhiteSpaceChecks");
-					r_WhiteSpaceChecks.SetBelong(null);
+					r_FWhiteSpaceChecks = new( ReflectionUtils.GetType("System.__DTString"), "WhiteSpaceChecks");
+					r_FWhiteSpaceChecks.SetBelong(null);
 				}
-				return r_WhiteSpaceChecks;
+				return r_FWhiteSpaceChecks;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected RSystem.RInt32 r_Length;
-		public virtual RSystem.RInt32 RLength
+		protected RSystem.RInt32 r_PLength;
+		public virtual RSystem.RInt32 RPLength
 		{
 			get
 			{
-				if(r_Length == null)
+				if(r_PLength == null)
 				{
-					r_Length = new(this, "Length", -1);
-					r_Length.SetBelong(this.instance);
+					r_PLength = new(this, "Length", -1);
+					r_PLength.SetBelong(this.instance);
 				}
-				return r_Length;
+				return r_PLength;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CompareInfo CompareInfo
 		/// </summary>
-		protected RSystem.RGlobalization.RCompareInfo r_CompareInfo;
-		public virtual RSystem.RGlobalization.RCompareInfo RCompareInfo
+		protected RSystem.RGlobalization.RCompareInfo r_PCompareInfo;
+		public virtual RSystem.RGlobalization.RCompareInfo RPCompareInfo
 		{
 			get
 			{
-				if(r_CompareInfo == null)
+				if(r_PCompareInfo == null)
 				{
-					r_CompareInfo = new(this, "CompareInfo", -1);
-					r_CompareInfo.SetBelong(this.instance);
+					r_PCompareInfo = new(this, "CompareInfo", -1);
+					r_PCompareInfo.SetBelong(this.instance);
 				}
-				return r_CompareInfo;
+				return r_PCompareInfo;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetNext()
 		/// </summary>
-		protected RMethod r_GetNext;
-		public virtual RMethod RGetNext
+		protected RMethod r_MGetNext;
+		public virtual RMethod RMGetNext
 		{
 			get
 			{
-				if(r_GetNext == null)
+				if(r_MGetNext == null)
 				{
-					r_GetNext = new(this, "GetNext", 0);
-					r_GetNext.SetBelong(this.instance);
+					r_MGetNext = new(this, "GetNext", 0);
+					r_MGetNext.SetBelong(this.instance);
 				}
-				return r_GetNext;
+				return r_MGetNext;
 			}
 		}
 
 		/// <summary>
 		/// Boolean AtEnd()
 		/// </summary>
-		protected RMethod r_AtEnd;
-		public virtual RMethod RAtEnd
+		protected RMethod r_MAtEnd;
+		public virtual RMethod RMAtEnd
 		{
 			get
 			{
-				if(r_AtEnd == null)
+				if(r_MAtEnd == null)
 				{
-					r_AtEnd = new(this, "AtEnd", 0);
-					r_AtEnd.SetBelong(this.instance);
+					r_MAtEnd = new(this, "AtEnd", 0);
+					r_MAtEnd.SetBelong(this.instance);
 				}
-				return r_AtEnd;
+				return r_MAtEnd;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Advance(Int32)
 		/// </summary>
-		protected RMethod r_Advance_Int32;
-		public virtual RMethod RAdvance_Int32
+		protected RMethod r_MAdvance_Int32;
+		public virtual RMethod RMAdvance_Int32
 		{
 			get
 			{
-				if(r_Advance_Int32 == null)
+				if(r_MAdvance_Int32 == null)
 				{
-					r_Advance_Int32 = new(this, "Advance", 0, typeof(System.Int32));
-					r_Advance_Int32.SetBelong(this.instance);
+					r_MAdvance_Int32 = new(this, "Advance", 0, typeof(System.Int32));
+					r_MAdvance_Int32.SetBelong(this.instance);
 				}
-				return r_Advance_Int32;
+				return r_MAdvance_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void GetRegularToken(System.TokenType ByRef, Int32 ByRef, System.Globalization.DateTimeFormatInfo)
 		/// </summary>
-		protected RMethod r_GetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo;
-		public virtual RMethod RGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo
+		protected RMethod r_MGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo;
+		public virtual RMethod RMGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo
 		{
 			get
 			{
-				if(r_GetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo == null)
+				if(r_MGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo == null)
 				{
-					r_GetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo = new(this, "GetRegularToken", 0,  ReflectionUtils.GetType("System.TokenType").MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.Globalization.DateTimeFormatInfo));
-					r_GetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo.SetBelong(this.instance);
+					r_MGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo = new(this, "GetRegularToken", 0,  ReflectionUtils.GetType("System.TokenType").MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.Globalization.DateTimeFormatInfo));
+					r_MGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo.SetBelong(this.instance);
 				}
-				return r_GetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo;
+				return r_MGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.TokenType GetSeparatorToken(System.Globalization.DateTimeFormatInfo, Int32 ByRef, Char ByRef)
 		/// </summary>
-		protected RMethod r_GetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char;
-		public virtual RMethod RGetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char
+		protected RMethod r_MGetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char;
+		public virtual RMethod RMGetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char
 		{
 			get
 			{
-				if(r_GetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char == null)
+				if(r_MGetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char == null)
 				{
-					r_GetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char = new(this, "GetSeparatorToken", 0, typeof(System.Globalization.DateTimeFormatInfo), typeof(System.Int32).MakeByRefType(), typeof(System.Char).MakeByRefType());
-					r_GetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char.SetBelong(this.instance);
+					r_MGetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char = new(this, "GetSeparatorToken", 0, typeof(System.Globalization.DateTimeFormatInfo), typeof(System.Int32).MakeByRefType(), typeof(System.Char).MakeByRefType());
+					r_MGetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char.SetBelong(this.instance);
 				}
-				return r_GetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char;
+				return r_MGetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MatchSpecifiedWord(System.String)
 		/// </summary>
-		protected RMethod r_MatchSpecifiedWord_String;
-		public virtual RMethod RMatchSpecifiedWord_String
+		protected RMethod r_MMatchSpecifiedWord_String;
+		public virtual RMethod RMMatchSpecifiedWord_String
 		{
 			get
 			{
-				if(r_MatchSpecifiedWord_String == null)
+				if(r_MMatchSpecifiedWord_String == null)
 				{
-					r_MatchSpecifiedWord_String = new(this, "MatchSpecifiedWord", 0, typeof(System.String));
-					r_MatchSpecifiedWord_String.SetBelong(this.instance);
+					r_MMatchSpecifiedWord_String = new(this, "MatchSpecifiedWord", 0, typeof(System.String));
+					r_MMatchSpecifiedWord_String.SetBelong(this.instance);
 				}
-				return r_MatchSpecifiedWord_String;
+				return r_MMatchSpecifiedWord_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MatchSpecifiedWords(System.String, Boolean, Int32 ByRef)
 		/// </summary>
-		protected RMethod r_MatchSpecifiedWords_String_Boolean_Ref_Int32;
-		public virtual RMethod RMatchSpecifiedWords_String_Boolean_Ref_Int32
+		protected RMethod r_MMatchSpecifiedWords_String_Boolean_Ref_Int32;
+		public virtual RMethod RMMatchSpecifiedWords_String_Boolean_Ref_Int32
 		{
 			get
 			{
-				if(r_MatchSpecifiedWords_String_Boolean_Ref_Int32 == null)
+				if(r_MMatchSpecifiedWords_String_Boolean_Ref_Int32 == null)
 				{
-					r_MatchSpecifiedWords_String_Boolean_Ref_Int32 = new(this, "MatchSpecifiedWords", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
-					r_MatchSpecifiedWords_String_Boolean_Ref_Int32.SetBelong(this.instance);
+					r_MMatchSpecifiedWords_String_Boolean_Ref_Int32 = new(this, "MatchSpecifiedWords", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
+					r_MMatchSpecifiedWords_String_Boolean_Ref_Int32.SetBelong(this.instance);
 				}
-				return r_MatchSpecifiedWords_String_Boolean_Ref_Int32;
+				return r_MMatchSpecifiedWords_String_Boolean_Ref_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Match(System.String)
 		/// </summary>
-		protected RMethod r_Match_String;
-		public virtual RMethod RMatch_String
+		protected RMethod r_MMatch_String;
+		public virtual RMethod RMMatch_String
 		{
 			get
 			{
-				if(r_Match_String == null)
+				if(r_MMatch_String == null)
 				{
-					r_Match_String = new(this, "Match", 0, typeof(System.String));
-					r_Match_String.SetBelong(this.instance);
+					r_MMatch_String = new(this, "Match", 0, typeof(System.String));
+					r_MMatch_String.SetBelong(this.instance);
 				}
-				return r_Match_String;
+				return r_MMatch_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Match(Char)
 		/// </summary>
-		protected RMethod r_Match_Char;
-		public virtual RMethod RMatch_Char
+		protected RMethod r_MMatch_Char;
+		public virtual RMethod RMMatch_Char
 		{
 			get
 			{
-				if(r_Match_Char == null)
+				if(r_MMatch_Char == null)
 				{
-					r_Match_Char = new(this, "Match", 0, typeof(System.Char));
-					r_Match_Char.SetBelong(this.instance);
+					r_MMatch_Char = new(this, "Match", 0, typeof(System.Char));
+					r_MMatch_Char.SetBelong(this.instance);
 				}
-				return r_Match_Char;
+				return r_MMatch_Char;
 			}
 		}
 
 		/// <summary>
 		/// Int32 MatchLongestWords(System.String[], Int32 ByRef)
 		/// </summary>
-		protected RMethod r_MatchLongestWords_StringArray_Ref_Int32;
-		public virtual RMethod RMatchLongestWords_StringArray_Ref_Int32
+		protected RMethod r_MMatchLongestWords_StringArray_Ref_Int32;
+		public virtual RMethod RMMatchLongestWords_StringArray_Ref_Int32
 		{
 			get
 			{
-				if(r_MatchLongestWords_StringArray_Ref_Int32 == null)
+				if(r_MMatchLongestWords_StringArray_Ref_Int32 == null)
 				{
-					r_MatchLongestWords_StringArray_Ref_Int32 = new(this, "MatchLongestWords", 0, typeof(System.String).MakeArrayType(), typeof(System.Int32).MakeByRefType());
-					r_MatchLongestWords_StringArray_Ref_Int32.SetBelong(this.instance);
+					r_MMatchLongestWords_StringArray_Ref_Int32 = new(this, "MatchLongestWords", 0, typeof(System.String).MakeArrayType(), typeof(System.Int32).MakeByRefType());
+					r_MMatchLongestWords_StringArray_Ref_Int32.SetBelong(this.instance);
 				}
-				return r_MatchLongestWords_StringArray_Ref_Int32;
+				return r_MMatchLongestWords_StringArray_Ref_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetRepeatCount()
 		/// </summary>
-		protected RMethod r_GetRepeatCount;
-		public virtual RMethod RGetRepeatCount
+		protected RMethod r_MGetRepeatCount;
+		public virtual RMethod RMGetRepeatCount
 		{
 			get
 			{
-				if(r_GetRepeatCount == null)
+				if(r_MGetRepeatCount == null)
 				{
-					r_GetRepeatCount = new(this, "GetRepeatCount", 0);
-					r_GetRepeatCount.SetBelong(this.instance);
+					r_MGetRepeatCount = new(this, "GetRepeatCount", 0);
+					r_MGetRepeatCount.SetBelong(this.instance);
 				}
-				return r_GetRepeatCount;
+				return r_MGetRepeatCount;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetNextDigit()
 		/// </summary>
-		protected RMethod r_GetNextDigit;
-		public virtual RMethod RGetNextDigit
+		protected RMethod r_MGetNextDigit;
+		public virtual RMethod RMGetNextDigit
 		{
 			get
 			{
-				if(r_GetNextDigit == null)
+				if(r_MGetNextDigit == null)
 				{
-					r_GetNextDigit = new(this, "GetNextDigit", 0);
-					r_GetNextDigit.SetBelong(this.instance);
+					r_MGetNextDigit = new(this, "GetNextDigit", 0);
+					r_MGetNextDigit.SetBelong(this.instance);
 				}
-				return r_GetNextDigit;
+				return r_MGetNextDigit;
 			}
 		}
 
 		/// <summary>
 		/// Char GetChar()
 		/// </summary>
-		protected RMethod r_GetChar;
-		public virtual RMethod RGetChar
+		protected RMethod r_MGetChar;
+		public virtual RMethod RMGetChar
 		{
 			get
 			{
-				if(r_GetChar == null)
+				if(r_MGetChar == null)
 				{
-					r_GetChar = new(this, "GetChar", 0);
-					r_GetChar.SetBelong(this.instance);
+					r_MGetChar = new(this, "GetChar", 0);
+					r_MGetChar.SetBelong(this.instance);
 				}
-				return r_GetChar;
+				return r_MGetChar;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetDigit()
 		/// </summary>
-		protected RMethod r_GetDigit;
-		public virtual RMethod RGetDigit
+		protected RMethod r_MGetDigit;
+		public virtual RMethod RMGetDigit
 		{
 			get
 			{
-				if(r_GetDigit == null)
+				if(r_MGetDigit == null)
 				{
-					r_GetDigit = new(this, "GetDigit", 0);
-					r_GetDigit.SetBelong(this.instance);
+					r_MGetDigit = new(this, "GetDigit", 0);
+					r_MGetDigit.SetBelong(this.instance);
 				}
-				return r_GetDigit;
+				return r_MGetDigit;
 			}
 		}
 
 		/// <summary>
 		/// Void SkipWhiteSpaces()
 		/// </summary>
-		protected RMethod r_SkipWhiteSpaces;
-		public virtual RMethod RSkipWhiteSpaces
+		protected RMethod r_MSkipWhiteSpaces;
+		public virtual RMethod RMSkipWhiteSpaces
 		{
 			get
 			{
-				if(r_SkipWhiteSpaces == null)
+				if(r_MSkipWhiteSpaces == null)
 				{
-					r_SkipWhiteSpaces = new(this, "SkipWhiteSpaces", 0);
-					r_SkipWhiteSpaces.SetBelong(this.instance);
+					r_MSkipWhiteSpaces = new(this, "SkipWhiteSpaces", 0);
+					r_MSkipWhiteSpaces.SetBelong(this.instance);
 				}
-				return r_SkipWhiteSpaces;
+				return r_MSkipWhiteSpaces;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SkipWhiteSpaceCurrent()
 		/// </summary>
-		protected RMethod r_SkipWhiteSpaceCurrent;
-		public virtual RMethod RSkipWhiteSpaceCurrent
+		protected RMethod r_MSkipWhiteSpaceCurrent;
+		public virtual RMethod RMSkipWhiteSpaceCurrent
 		{
 			get
 			{
-				if(r_SkipWhiteSpaceCurrent == null)
+				if(r_MSkipWhiteSpaceCurrent == null)
 				{
-					r_SkipWhiteSpaceCurrent = new(this, "SkipWhiteSpaceCurrent", 0);
-					r_SkipWhiteSpaceCurrent.SetBelong(this.instance);
+					r_MSkipWhiteSpaceCurrent = new(this, "SkipWhiteSpaceCurrent", 0);
+					r_MSkipWhiteSpaceCurrent.SetBelong(this.instance);
 				}
-				return r_SkipWhiteSpaceCurrent;
+				return r_MSkipWhiteSpaceCurrent;
 			}
 		}
 
 		/// <summary>
 		/// Void TrimTail()
 		/// </summary>
-		protected RMethod r_TrimTail;
-		public virtual RMethod RTrimTail
+		protected RMethod r_MTrimTail;
+		public virtual RMethod RMTrimTail
 		{
 			get
 			{
-				if(r_TrimTail == null)
+				if(r_MTrimTail == null)
 				{
-					r_TrimTail = new(this, "TrimTail", 0);
-					r_TrimTail.SetBelong(this.instance);
+					r_MTrimTail = new(this, "TrimTail", 0);
+					r_MTrimTail.SetBelong(this.instance);
 				}
-				return r_TrimTail;
+				return r_MTrimTail;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveTrailingInQuoteSpaces()
 		/// </summary>
-		protected RMethod r_RemoveTrailingInQuoteSpaces;
-		public virtual RMethod RRemoveTrailingInQuoteSpaces
+		protected RMethod r_MRemoveTrailingInQuoteSpaces;
+		public virtual RMethod RMRemoveTrailingInQuoteSpaces
 		{
 			get
 			{
-				if(r_RemoveTrailingInQuoteSpaces == null)
+				if(r_MRemoveTrailingInQuoteSpaces == null)
 				{
-					r_RemoveTrailingInQuoteSpaces = new(this, "RemoveTrailingInQuoteSpaces", 0);
-					r_RemoveTrailingInQuoteSpaces.SetBelong(this.instance);
+					r_MRemoveTrailingInQuoteSpaces = new(this, "RemoveTrailingInQuoteSpaces", 0);
+					r_MRemoveTrailingInQuoteSpaces.SetBelong(this.instance);
 				}
-				return r_RemoveTrailingInQuoteSpaces;
+				return r_MRemoveTrailingInQuoteSpaces;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveLeadingInQuoteSpaces()
 		/// </summary>
-		protected RMethod r_RemoveLeadingInQuoteSpaces;
-		public virtual RMethod RRemoveLeadingInQuoteSpaces
+		protected RMethod r_MRemoveLeadingInQuoteSpaces;
+		public virtual RMethod RMRemoveLeadingInQuoteSpaces
 		{
 			get
 			{
-				if(r_RemoveLeadingInQuoteSpaces == null)
+				if(r_MRemoveLeadingInQuoteSpaces == null)
 				{
-					r_RemoveLeadingInQuoteSpaces = new(this, "RemoveLeadingInQuoteSpaces", 0);
-					r_RemoveLeadingInQuoteSpaces.SetBelong(this.instance);
+					r_MRemoveLeadingInQuoteSpaces = new(this, "RemoveLeadingInQuoteSpaces", 0);
+					r_MRemoveLeadingInQuoteSpaces.SetBelong(this.instance);
 				}
-				return r_RemoveLeadingInQuoteSpaces;
+				return r_MRemoveLeadingInQuoteSpaces;
 			}
 		}
 
 		/// <summary>
 		/// System.DTSubString GetSubString()
 		/// </summary>
-		protected RMethod r_GetSubString;
-		public virtual RMethod RGetSubString
+		protected RMethod r_MGetSubString;
+		public virtual RMethod RMGetSubString
 		{
 			get
 			{
-				if(r_GetSubString == null)
+				if(r_MGetSubString == null)
 				{
-					r_GetSubString = new(this, "GetSubString", 0);
-					r_GetSubString.SetBelong(this.instance);
+					r_MGetSubString = new(this, "GetSubString", 0);
+					r_MGetSubString.SetBelong(this.instance);
 				}
-				return r_GetSubString;
+				return r_MGetSubString;
 			}
 		}
 
 		/// <summary>
 		/// Void ConsumeSubString(System.DTSubString)
 		/// </summary>
-		protected RMethod r_ConsumeSubString_DTSubString;
-		public virtual RMethod RConsumeSubString_DTSubString
+		protected RMethod r_MConsumeSubString_DTSubString;
+		public virtual RMethod RMConsumeSubString_DTSubString
 		{
 			get
 			{
-				if(r_ConsumeSubString_DTSubString == null)
+				if(r_MConsumeSubString_DTSubString == null)
 				{
-					r_ConsumeSubString_DTSubString = new(this, "ConsumeSubString", 0,  ReflectionUtils.GetType("System.DTSubString"));
-					r_ConsumeSubString_DTSubString.SetBelong(this.instance);
+					r_MConsumeSubString_DTSubString = new(this, "ConsumeSubString", 0,  ReflectionUtils.GetType("System.DTSubString"));
+					r_MConsumeSubString_DTSubString.SetBelong(this.instance);
 				}
-				return r_ConsumeSubString_DTSubString;
+				return r_MConsumeSubString_DTSubString;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -628,7 +628,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetNext.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetNext.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -639,7 +639,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RAtEnd.Invoke(___genericsType, ___parameters);
+            var ___result = RMAtEnd.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -650,39 +650,39 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@count};
-            var ___result = RAdvance_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMAdvance_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual void GetRegularToken(out RType @tokenType, out System.Int32 @tokenValue, System.Globalization.DateTimeFormatInfo @dtfi)
+        public virtual void GetRegularToken(out RSystem.RTokenType @tokenType, out System.Int32 @tokenValue, System.Globalization.DateTimeFormatInfo @dtfi)
         {
 			@tokenType = default;
 			@tokenValue = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tokenType.Value, @tokenValue, @dtfi};
-            var ___result = RGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo.Invoke(___genericsType, ___parameters);
-			@tokenType = new RType(___parameters[0]);
+            var ___result = RMGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo.Invoke(___genericsType, ___parameters);
+			@tokenType = new RSystem.RTokenType(___parameters[0]);
 			@tokenValue = (System.Int32)___parameters[1];
 
             
         }
 
 
-        public virtual RType GetSeparatorToken(System.Globalization.DateTimeFormatInfo @dtfi, out System.Int32 @indexBeforeSeparator, out System.Char @charBeforeSeparator)
+        public virtual RSystem.RTokenType GetSeparatorToken(System.Globalization.DateTimeFormatInfo @dtfi, out System.Int32 @indexBeforeSeparator, out System.Char @charBeforeSeparator)
         {
 			@indexBeforeSeparator = default;
 			@charBeforeSeparator = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@dtfi, @indexBeforeSeparator, @charBeforeSeparator};
-            var ___result = RGetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char.Invoke(___genericsType, ___parameters);
 			@indexBeforeSeparator = (System.Int32)___parameters[1];
 			@charBeforeSeparator = (System.Char)___parameters[2];
 
-            return new RType(___result);
+            return new RSystem.RTokenType(___result);
         }
 
 
@@ -691,7 +691,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target};
-            var ___result = RMatchSpecifiedWord_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatchSpecifiedWord_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -702,7 +702,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target, @checkWordBoundary, @matchLength};
-            var ___result = RMatchSpecifiedWords_String_Boolean_Ref_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatchSpecifiedWords_String_Boolean_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@matchLength = (System.Int32)___parameters[2];
 
             return (System.Boolean)___result;
@@ -714,7 +714,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str};
-            var ___result = RMatch_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatch_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -725,7 +725,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ch};
-            var ___result = RMatch_Char.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatch_Char.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -736,7 +736,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@words, @maxMatchStrLen};
-            var ___result = RMatchLongestWords_StringArray_Ref_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMMatchLongestWords_StringArray_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@maxMatchStrLen = (System.Int32)___parameters[1];
 
             return (System.Int32)___result;
@@ -748,7 +748,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetRepeatCount.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetRepeatCount.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -759,7 +759,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetNextDigit.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetNextDigit.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -770,7 +770,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetChar.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetChar.Invoke(___genericsType, ___parameters);
 
             return (System.Char)___result;
         }
@@ -781,7 +781,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetDigit.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetDigit.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -792,7 +792,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSkipWhiteSpaces.Invoke(___genericsType, ___parameters);
+            var ___result = RMSkipWhiteSpaces.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -803,7 +803,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSkipWhiteSpaceCurrent.Invoke(___genericsType, ___parameters);
+            var ___result = RMSkipWhiteSpaceCurrent.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -814,7 +814,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RTrimTail.Invoke(___genericsType, ___parameters);
+            var ___result = RMTrimTail.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -825,7 +825,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RRemoveTrailingInQuoteSpaces.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveTrailingInQuoteSpaces.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -836,7 +836,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RRemoveLeadingInQuoteSpaces.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveLeadingInQuoteSpaces.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -847,7 +847,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetSubString.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetSubString.Invoke(___genericsType, ___parameters);
 
             return new RSystem.RDTSubString(___result);
         }
@@ -858,7 +858,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sub.Value};
-            var ___result = RConsumeSubString_DTSubString.Invoke(___genericsType, ___parameters);
+            var ___result = RMConsumeSubString_DTSubString.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -869,7 +869,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -880,7 +880,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -891,7 +891,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -902,7 +902,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -913,7 +913,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -924,7 +924,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

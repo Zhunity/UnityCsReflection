@@ -13,391 +13,391 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Runtime.Hosting.ApplicationActivator _activator
 		/// </summary>
-		protected RSystem.RRuntime.RHosting.RApplicationActivator r__activator;
-		public virtual RSystem.RRuntime.RHosting.RApplicationActivator R_activator
+		protected RSystem.RRuntime.RHosting.RApplicationActivator r_F_activator;
+		public virtual RSystem.RRuntime.RHosting.RApplicationActivator RF_activator
 		{
 			get
 			{
-				if(r__activator == null)
+				if(r_F_activator == null)
 				{
-					r__activator = new(this, "_activator");
-					r__activator.SetBelong(this.instance);
+					r_F_activator = new(this, "_activator");
+					r_F_activator.SetBelong(this.instance);
 				}
-				return r__activator;
+				return r_F_activator;
 			}
 		}
 
 		/// <summary>
 		/// System.AppDomainManagerInitializationOptions _flags
 		/// </summary>
-		protected RField r__flags;
-		public virtual RField R_flags
+		protected RSystem.RAppDomainManagerInitializationOptions r_F_flags;
+		public virtual RSystem.RAppDomainManagerInitializationOptions RF_flags
 		{
 			get
 			{
-				if(r__flags == null)
+				if(r_F_flags == null)
 				{
-					r__flags = new(this, "_flags");
-					r__flags.SetBelong(this.instance);
+					r_F_flags = new(this, "_flags");
+					r_F_flags.SetBelong(this.instance);
 				}
-				return r__flags;
+				return r_F_flags;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Hosting.ApplicationActivator ApplicationActivator
 		/// </summary>
-		protected RSystem.RRuntime.RHosting.RApplicationActivator r_ApplicationActivator;
-		public virtual RSystem.RRuntime.RHosting.RApplicationActivator RApplicationActivator
+		protected RSystem.RRuntime.RHosting.RApplicationActivator r_PApplicationActivator;
+		public virtual RSystem.RRuntime.RHosting.RApplicationActivator RPApplicationActivator
 		{
 			get
 			{
-				if(r_ApplicationActivator == null)
+				if(r_PApplicationActivator == null)
 				{
-					r_ApplicationActivator = new(this, "ApplicationActivator", -1);
-					r_ApplicationActivator.SetBelong(this.instance);
+					r_PApplicationActivator = new(this, "ApplicationActivator", -1);
+					r_PApplicationActivator.SetBelong(this.instance);
 				}
-				return r_ApplicationActivator;
+				return r_PApplicationActivator;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.Assembly EntryAssembly
 		/// </summary>
-		protected RSystem.RReflection.RAssembly r_EntryAssembly;
-		public virtual RSystem.RReflection.RAssembly REntryAssembly
+		protected RSystem.RReflection.RAssembly r_PEntryAssembly;
+		public virtual RSystem.RReflection.RAssembly RPEntryAssembly
 		{
 			get
 			{
-				if(r_EntryAssembly == null)
+				if(r_PEntryAssembly == null)
 				{
-					r_EntryAssembly = new(this, "EntryAssembly", -1);
-					r_EntryAssembly.SetBelong(this.instance);
+					r_PEntryAssembly = new(this, "EntryAssembly", -1);
+					r_PEntryAssembly.SetBelong(this.instance);
 				}
-				return r_EntryAssembly;
+				return r_PEntryAssembly;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.HostExecutionContextManager HostExecutionContextManager
 		/// </summary>
-		protected RSystem.RThreading.RHostExecutionContextManager r_HostExecutionContextManager;
-		public virtual RSystem.RThreading.RHostExecutionContextManager RHostExecutionContextManager
+		protected RSystem.RThreading.RHostExecutionContextManager r_PHostExecutionContextManager;
+		public virtual RSystem.RThreading.RHostExecutionContextManager RPHostExecutionContextManager
 		{
 			get
 			{
-				if(r_HostExecutionContextManager == null)
+				if(r_PHostExecutionContextManager == null)
 				{
-					r_HostExecutionContextManager = new(this, "HostExecutionContextManager", -1);
-					r_HostExecutionContextManager.SetBelong(this.instance);
+					r_PHostExecutionContextManager = new(this, "HostExecutionContextManager", -1);
+					r_PHostExecutionContextManager.SetBelong(this.instance);
 				}
-				return r_HostExecutionContextManager;
+				return r_PHostExecutionContextManager;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.HostSecurityManager HostSecurityManager
 		/// </summary>
-		protected RSystem.RSecurity.RHostSecurityManager r_HostSecurityManager;
-		public virtual RSystem.RSecurity.RHostSecurityManager RHostSecurityManager
+		protected RSystem.RSecurity.RHostSecurityManager r_PHostSecurityManager;
+		public virtual RSystem.RSecurity.RHostSecurityManager RPHostSecurityManager
 		{
 			get
 			{
-				if(r_HostSecurityManager == null)
+				if(r_PHostSecurityManager == null)
 				{
-					r_HostSecurityManager = new(this, "HostSecurityManager", -1);
-					r_HostSecurityManager.SetBelong(this.instance);
+					r_PHostSecurityManager = new(this, "HostSecurityManager", -1);
+					r_PHostSecurityManager.SetBelong(this.instance);
 				}
-				return r_HostSecurityManager;
+				return r_PHostSecurityManager;
 			}
 		}
 
 		/// <summary>
 		/// System.AppDomainManagerInitializationOptions InitializationFlags
 		/// </summary>
-		protected RProperty r_InitializationFlags;
-		public virtual RProperty RInitializationFlags
+		protected RSystem.RAppDomainManagerInitializationOptions r_PInitializationFlags;
+		public virtual RSystem.RAppDomainManagerInitializationOptions RPInitializationFlags
 		{
 			get
 			{
-				if(r_InitializationFlags == null)
+				if(r_PInitializationFlags == null)
 				{
-					r_InitializationFlags = new(this, "InitializationFlags", -1);
-					r_InitializationFlags.SetBelong(this.instance);
+					r_PInitializationFlags = new(this, "InitializationFlags", -1);
+					r_PInitializationFlags.SetBelong(this.instance);
 				}
-				return r_InitializationFlags;
+				return r_PInitializationFlags;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.ServerIdentity ObjectIdentity
 		/// </summary>
-		protected RSystem.RRuntime.RRemoting.RServerIdentity r_ObjectIdentity;
-		public virtual RSystem.RRuntime.RRemoting.RServerIdentity RObjectIdentity
+		protected RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
+		public virtual RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
 		{
 			get
 			{
-				if(r_ObjectIdentity == null)
+				if(r_PObjectIdentity == null)
 				{
-					r_ObjectIdentity = new(this, "ObjectIdentity", -1);
-					r_ObjectIdentity.SetBelong(this.instance);
+					r_PObjectIdentity = new(this, "ObjectIdentity", -1);
+					r_PObjectIdentity.SetBelong(this.instance);
 				}
-				return r_ObjectIdentity;
+				return r_PObjectIdentity;
 			}
 		}
 
 		/// <summary>
 		/// System.AppDomain CreateDomain(System.String, System.Security.Policy.Evidence, System.AppDomainSetup)
 		/// </summary>
-		protected RMethod r_CreateDomain_String_Evidence_AppDomainSetup;
-		public virtual RMethod RCreateDomain_String_Evidence_AppDomainSetup
+		protected RMethod r_MCreateDomain_String_Evidence_AppDomainSetup;
+		public virtual RMethod RMCreateDomain_String_Evidence_AppDomainSetup
 		{
 			get
 			{
-				if(r_CreateDomain_String_Evidence_AppDomainSetup == null)
+				if(r_MCreateDomain_String_Evidence_AppDomainSetup == null)
 				{
-					r_CreateDomain_String_Evidence_AppDomainSetup = new(this, "CreateDomain", 0, typeof(System.String), typeof(System.Security.Policy.Evidence), typeof(System.AppDomainSetup));
-					r_CreateDomain_String_Evidence_AppDomainSetup.SetBelong(this.instance);
+					r_MCreateDomain_String_Evidence_AppDomainSetup = new(this, "CreateDomain", 0, typeof(System.String), typeof(System.Security.Policy.Evidence), typeof(System.AppDomainSetup));
+					r_MCreateDomain_String_Evidence_AppDomainSetup.SetBelong(this.instance);
 				}
-				return r_CreateDomain_String_Evidence_AppDomainSetup;
+				return r_MCreateDomain_String_Evidence_AppDomainSetup;
 			}
 		}
 
 		/// <summary>
 		/// Void InitializeNewDomain(System.AppDomainSetup)
 		/// </summary>
-		protected RMethod r_InitializeNewDomain_AppDomainSetup;
-		public virtual RMethod RInitializeNewDomain_AppDomainSetup
+		protected RMethod r_MInitializeNewDomain_AppDomainSetup;
+		public virtual RMethod RMInitializeNewDomain_AppDomainSetup
 		{
 			get
 			{
-				if(r_InitializeNewDomain_AppDomainSetup == null)
+				if(r_MInitializeNewDomain_AppDomainSetup == null)
 				{
-					r_InitializeNewDomain_AppDomainSetup = new(this, "InitializeNewDomain", 0, typeof(System.AppDomainSetup));
-					r_InitializeNewDomain_AppDomainSetup.SetBelong(this.instance);
+					r_MInitializeNewDomain_AppDomainSetup = new(this, "InitializeNewDomain", 0, typeof(System.AppDomainSetup));
+					r_MInitializeNewDomain_AppDomainSetup.SetBelong(this.instance);
 				}
-				return r_InitializeNewDomain_AppDomainSetup;
+				return r_MInitializeNewDomain_AppDomainSetup;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CheckSecuritySettings(System.Security.SecurityState)
 		/// </summary>
-		protected RMethod r_CheckSecuritySettings_SecurityState;
-		public virtual RMethod RCheckSecuritySettings_SecurityState
+		protected RMethod r_MCheckSecuritySettings_SecurityState;
+		public virtual RMethod RMCheckSecuritySettings_SecurityState
 		{
 			get
 			{
-				if(r_CheckSecuritySettings_SecurityState == null)
+				if(r_MCheckSecuritySettings_SecurityState == null)
 				{
-					r_CheckSecuritySettings_SecurityState = new(this, "CheckSecuritySettings", 0, typeof(System.Security.SecurityState));
-					r_CheckSecuritySettings_SecurityState.SetBelong(this.instance);
+					r_MCheckSecuritySettings_SecurityState = new(this, "CheckSecuritySettings", 0, typeof(System.Security.SecurityState));
+					r_MCheckSecuritySettings_SecurityState.SetBelong(this.instance);
 				}
-				return r_CheckSecuritySettings_SecurityState;
+				return r_MCheckSecuritySettings_SecurityState;
 			}
 		}
 
 		/// <summary>
 		/// System.AppDomain CreateDomainHelper(System.String, System.Security.Policy.Evidence, System.AppDomainSetup)
 		/// </summary>
-		protected static RMethod r_CreateDomainHelper_String_Evidence_AppDomainSetup;
-		public static RMethod RCreateDomainHelper_String_Evidence_AppDomainSetup
+		protected static RMethod r_MCreateDomainHelper_String_Evidence_AppDomainSetup;
+		public static RMethod RMCreateDomainHelper_String_Evidence_AppDomainSetup
 		{
 			get
 			{
-				if(r_CreateDomainHelper_String_Evidence_AppDomainSetup == null)
+				if(r_MCreateDomainHelper_String_Evidence_AppDomainSetup == null)
 				{
-					r_CreateDomainHelper_String_Evidence_AppDomainSetup = new(typeof(System.AppDomainManager), "CreateDomainHelper", 0, typeof(System.String), typeof(System.Security.Policy.Evidence), typeof(System.AppDomainSetup));
-					r_CreateDomainHelper_String_Evidence_AppDomainSetup.SetBelong(null);
+					r_MCreateDomainHelper_String_Evidence_AppDomainSetup = new(typeof(System.AppDomainManager), "CreateDomainHelper", 0, typeof(System.String), typeof(System.Security.Policy.Evidence), typeof(System.AppDomainSetup));
+					r_MCreateDomainHelper_String_Evidence_AppDomainSetup.SetBelong(null);
 				}
-				return r_CreateDomainHelper_String_Evidence_AppDomainSetup;
+				return r_MCreateDomainHelper_String_Evidence_AppDomainSetup;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Identity GetObjectIdentity(System.MarshalByRefObject, Boolean ByRef)
 		/// </summary>
-		protected RMethod r_GetObjectIdentity_MarshalByRefObject_Out_Boolean;
-		public virtual RMethod RGetObjectIdentity_MarshalByRefObject_Out_Boolean
+		protected RMethod r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean;
+		public virtual RMethod RMGetObjectIdentity_MarshalByRefObject_Out_Boolean
 		{
 			get
 			{
-				if(r_GetObjectIdentity_MarshalByRefObject_Out_Boolean == null)
+				if(r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean == null)
 				{
-					r_GetObjectIdentity_MarshalByRefObject_Out_Boolean = new(this, "GetObjectIdentity", 0, typeof(System.MarshalByRefObject), typeof(System.Boolean).MakeByRefType());
-					r_GetObjectIdentity_MarshalByRefObject_Out_Boolean.SetBelong(this.instance);
+					r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean = new(this, "GetObjectIdentity", 0, typeof(System.MarshalByRefObject), typeof(System.Boolean).MakeByRefType());
+					r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean.SetBelong(this.instance);
 				}
-				return r_GetObjectIdentity_MarshalByRefObject_Out_Boolean;
+				return r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.ObjRef CreateObjRef(System.Type)
 		/// </summary>
-		protected RMethod r_CreateObjRef_Type;
-		public virtual RMethod RCreateObjRef_Type
+		protected RMethod r_MCreateObjRef_Type;
+		public virtual RMethod RMCreateObjRef_Type
 		{
 			get
 			{
-				if(r_CreateObjRef_Type == null)
+				if(r_MCreateObjRef_Type == null)
 				{
-					r_CreateObjRef_Type = new(this, "CreateObjRef", 0, typeof(System.Type));
-					r_CreateObjRef_Type.SetBelong(this.instance);
+					r_MCreateObjRef_Type = new(this, "CreateObjRef", 0, typeof(System.Type));
+					r_MCreateObjRef_Type.SetBelong(this.instance);
 				}
-				return r_CreateObjRef_Type;
+				return r_MCreateObjRef_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetLifetimeService()
 		/// </summary>
-		protected RMethod r_GetLifetimeService;
-		public virtual RMethod RGetLifetimeService
+		protected RMethod r_MGetLifetimeService;
+		public virtual RMethod RMGetLifetimeService
 		{
 			get
 			{
-				if(r_GetLifetimeService == null)
+				if(r_MGetLifetimeService == null)
 				{
-					r_GetLifetimeService = new(this, "GetLifetimeService", 0);
-					r_GetLifetimeService.SetBelong(this.instance);
+					r_MGetLifetimeService = new(this, "GetLifetimeService", 0);
+					r_MGetLifetimeService.SetBelong(this.instance);
 				}
-				return r_GetLifetimeService;
+				return r_MGetLifetimeService;
 			}
 		}
 
 		/// <summary>
 		/// System.Object InitializeLifetimeService()
 		/// </summary>
-		protected RMethod r_InitializeLifetimeService;
-		public virtual RMethod RInitializeLifetimeService
+		protected RMethod r_MInitializeLifetimeService;
+		public virtual RMethod RMInitializeLifetimeService
 		{
 			get
 			{
-				if(r_InitializeLifetimeService == null)
+				if(r_MInitializeLifetimeService == null)
 				{
-					r_InitializeLifetimeService = new(this, "InitializeLifetimeService", 0);
-					r_InitializeLifetimeService.SetBelong(this.instance);
+					r_MInitializeLifetimeService = new(this, "InitializeLifetimeService", 0);
+					r_MInitializeLifetimeService.SetBelong(this.instance);
 				}
-				return r_InitializeLifetimeService;
+				return r_MInitializeLifetimeService;
 			}
 		}
 
 		/// <summary>
 		/// System.MarshalByRefObject MemberwiseClone(Boolean)
 		/// </summary>
-		protected RMethod r_MemberwiseClone_Boolean;
-		public virtual RMethod RMemberwiseClone_Boolean
+		protected RMethod r_MMemberwiseClone_Boolean;
+		public virtual RMethod RMMemberwiseClone_Boolean
 		{
 			get
 			{
-				if(r_MemberwiseClone_Boolean == null)
+				if(r_MMemberwiseClone_Boolean == null)
 				{
-					r_MemberwiseClone_Boolean = new(this, "MemberwiseClone", 0, typeof(System.Boolean));
-					r_MemberwiseClone_Boolean.SetBelong(this.instance);
+					r_MMemberwiseClone_Boolean = new(this, "MemberwiseClone", 0, typeof(System.Boolean));
+					r_MMemberwiseClone_Boolean.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone_Boolean;
+				return r_MMemberwiseClone_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -424,7 +424,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@friendlyName, @securityInfo, @appDomainInfo};
-            var ___result = RCreateDomain_String_Evidence_AppDomainSetup.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateDomain_String_Evidence_AppDomainSetup.Invoke(___genericsType, ___parameters);
 
             return (System.AppDomain)___result;
         }
@@ -435,7 +435,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@appDomainInfo};
-            var ___result = RInitializeNewDomain_AppDomainSetup.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitializeNewDomain_AppDomainSetup.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -446,7 +446,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@state};
-            var ___result = RCheckSecuritySettings_SecurityState.Invoke(___genericsType, ___parameters);
+            var ___result = RMCheckSecuritySettings_SecurityState.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -457,7 +457,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@friendlyName, @securityInfo, @appDomainInfo};
-            var ___result = RCreateDomainHelper_String_Evidence_AppDomainSetup.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateDomainHelper_String_Evidence_AppDomainSetup.Invoke(___genericsType, ___parameters);
 
             return (System.AppDomain)___result;
         }
@@ -469,7 +469,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @IsClient};
-            var ___result = RGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
             return new RSystem.RRuntime.RRemoting.RIdentity(___result);
@@ -481,7 +481,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@requestedType};
-            var ___result = RCreateObjRef_Type.Invoke(___genericsType, ___parameters);
+            var ___result = RMCreateObjRef_Type.Invoke(___genericsType, ___parameters);
 
             return (System.Runtime.Remoting.ObjRef)___result;
         }
@@ -492,7 +492,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetLifetimeService.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetLifetimeService.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -503,7 +503,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RInitializeLifetimeService.Invoke(___genericsType, ___parameters);
+            var ___result = RMInitializeLifetimeService.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -514,7 +514,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cloneIdentity};
-            var ___result = RMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.MarshalByRefObject)___result;
         }
@@ -525,7 +525,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -536,7 +536,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -547,7 +547,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -558,7 +558,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -569,7 +569,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -580,7 +580,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

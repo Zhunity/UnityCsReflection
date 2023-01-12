@@ -15,12 +15,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <param name="action"></param>
 		public void AddSelectionEventHandler(Delegate action)
 		{
-			RselectionChanged.AddEventHandler(action);
+			REselectionChanged.AddEventHandler(action);
 		}
 
 		public void RemoveSelectionEventHandler(Delegate action)
 		{
-			RselectionChanged.RemoveEventHandler(action);
+			REselectionChanged.RemoveEventHandler(action);
 		}
 
 		/// <summary>
@@ -29,12 +29,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <param name="action"></param>
 		public void AddCloseEventHandler(Delegate action)
 		{
-			RwindowClosed.AddEventHandler(action);
+			REwindowClosed.AddEventHandler(action);
 		}
 
 		public void RemoveCloseEventHandler(Delegate action)
 		{
-			RwindowClosed.RemoveEventHandler(action);
+			REwindowClosed.RemoveEventHandler(action);
 		}
 	}
 }

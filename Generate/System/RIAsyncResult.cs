@@ -13,68 +13,68 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected RSystem.RBoolean r_IsCompleted;
-		public virtual RSystem.RBoolean RIsCompleted
+		protected RSystem.RBoolean r_PIsCompleted;
+		public virtual RSystem.RBoolean RPIsCompleted
 		{
 			get
 			{
-				if(r_IsCompleted == null)
+				if(r_PIsCompleted == null)
 				{
-					r_IsCompleted = new(this, "IsCompleted", -1);
-					r_IsCompleted.SetBelong(this.instance);
+					r_PIsCompleted = new(this, "IsCompleted", -1);
+					r_PIsCompleted.SetBelong(this.instance);
 				}
-				return r_IsCompleted;
+				return r_PIsCompleted;
 			}
 		}
 
 		/// <summary>
 		/// System.Threading.WaitHandle AsyncWaitHandle
 		/// </summary>
-		protected RSystem.RThreading.RWaitHandle r_AsyncWaitHandle;
-		public virtual RSystem.RThreading.RWaitHandle RAsyncWaitHandle
+		protected RSystem.RThreading.RWaitHandle r_PAsyncWaitHandle;
+		public virtual RSystem.RThreading.RWaitHandle RPAsyncWaitHandle
 		{
 			get
 			{
-				if(r_AsyncWaitHandle == null)
+				if(r_PAsyncWaitHandle == null)
 				{
-					r_AsyncWaitHandle = new(this, "AsyncWaitHandle", -1);
-					r_AsyncWaitHandle.SetBelong(this.instance);
+					r_PAsyncWaitHandle = new(this, "AsyncWaitHandle", -1);
+					r_PAsyncWaitHandle.SetBelong(this.instance);
 				}
-				return r_AsyncWaitHandle;
+				return r_PAsyncWaitHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.Object AsyncState
 		/// </summary>
-		protected RSystem.RObject r_AsyncState;
-		public virtual RSystem.RObject RAsyncState
+		protected RSystem.RObject r_PAsyncState;
+		public virtual RSystem.RObject RPAsyncState
 		{
 			get
 			{
-				if(r_AsyncState == null)
+				if(r_PAsyncState == null)
 				{
-					r_AsyncState = new(this, "AsyncState", -1);
-					r_AsyncState.SetBelong(this.instance);
+					r_PAsyncState = new(this, "AsyncState", -1);
+					r_PAsyncState.SetBelong(this.instance);
 				}
-				return r_AsyncState;
+				return r_PAsyncState;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CompletedSynchronously
 		/// </summary>
-		protected RSystem.RBoolean r_CompletedSynchronously;
-		public virtual RSystem.RBoolean RCompletedSynchronously
+		protected RSystem.RBoolean r_PCompletedSynchronously;
+		public virtual RSystem.RBoolean RPCompletedSynchronously
 		{
 			get
 			{
-				if(r_CompletedSynchronously == null)
+				if(r_PCompletedSynchronously == null)
 				{
-					r_CompletedSynchronously = new(this, "CompletedSynchronously", -1);
-					r_CompletedSynchronously.SetBelong(this.instance);
+					r_PCompletedSynchronously = new(this, "CompletedSynchronously", -1);
+					r_PCompletedSynchronously.SetBelong(this.instance);
 				}
-				return r_CompletedSynchronously;
+				return r_PCompletedSynchronously;
 			}
 		}
 

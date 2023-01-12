@@ -13,1071 +13,1071 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String application_base
 		/// </summary>
-		protected RSystem.RString r_application_base;
-		public virtual RSystem.RString Rapplication_base
+		protected RSystem.RString r_Fapplication_base;
+		public virtual RSystem.RString RFapplication_base
 		{
 			get
 			{
-				if(r_application_base == null)
+				if(r_Fapplication_base == null)
 				{
-					r_application_base = new(this, "application_base");
-					r_application_base.SetBelong(this.instance);
+					r_Fapplication_base = new(this, "application_base");
+					r_Fapplication_base.SetBelong(this.instance);
 				}
-				return r_application_base;
+				return r_Fapplication_base;
 			}
 		}
 
 		/// <summary>
 		/// System.String application_name
 		/// </summary>
-		protected RSystem.RString r_application_name;
-		public virtual RSystem.RString Rapplication_name
+		protected RSystem.RString r_Fapplication_name;
+		public virtual RSystem.RString RFapplication_name
 		{
 			get
 			{
-				if(r_application_name == null)
+				if(r_Fapplication_name == null)
 				{
-					r_application_name = new(this, "application_name");
-					r_application_name.SetBelong(this.instance);
+					r_Fapplication_name = new(this, "application_name");
+					r_Fapplication_name.SetBelong(this.instance);
 				}
-				return r_application_name;
+				return r_Fapplication_name;
 			}
 		}
 
 		/// <summary>
 		/// System.String cache_path
 		/// </summary>
-		protected RSystem.RString r_cache_path;
-		public virtual RSystem.RString Rcache_path
+		protected RSystem.RString r_Fcache_path;
+		public virtual RSystem.RString RFcache_path
 		{
 			get
 			{
-				if(r_cache_path == null)
+				if(r_Fcache_path == null)
 				{
-					r_cache_path = new(this, "cache_path");
-					r_cache_path.SetBelong(this.instance);
+					r_Fcache_path = new(this, "cache_path");
+					r_Fcache_path.SetBelong(this.instance);
 				}
-				return r_cache_path;
+				return r_Fcache_path;
 			}
 		}
 
 		/// <summary>
 		/// System.String configuration_file
 		/// </summary>
-		protected RSystem.RString r_configuration_file;
-		public virtual RSystem.RString Rconfiguration_file
+		protected RSystem.RString r_Fconfiguration_file;
+		public virtual RSystem.RString RFconfiguration_file
 		{
 			get
 			{
-				if(r_configuration_file == null)
+				if(r_Fconfiguration_file == null)
 				{
-					r_configuration_file = new(this, "configuration_file");
-					r_configuration_file.SetBelong(this.instance);
+					r_Fconfiguration_file = new(this, "configuration_file");
+					r_Fconfiguration_file.SetBelong(this.instance);
 				}
-				return r_configuration_file;
+				return r_Fconfiguration_file;
 			}
 		}
 
 		/// <summary>
 		/// System.String dynamic_base
 		/// </summary>
-		protected RSystem.RString r_dynamic_base;
-		public virtual RSystem.RString Rdynamic_base
+		protected RSystem.RString r_Fdynamic_base;
+		public virtual RSystem.RString RFdynamic_base
 		{
 			get
 			{
-				if(r_dynamic_base == null)
+				if(r_Fdynamic_base == null)
 				{
-					r_dynamic_base = new(this, "dynamic_base");
-					r_dynamic_base.SetBelong(this.instance);
+					r_Fdynamic_base = new(this, "dynamic_base");
+					r_Fdynamic_base.SetBelong(this.instance);
 				}
-				return r_dynamic_base;
+				return r_Fdynamic_base;
 			}
 		}
 
 		/// <summary>
 		/// System.String license_file
 		/// </summary>
-		protected RSystem.RString r_license_file;
-		public virtual RSystem.RString Rlicense_file
+		protected RSystem.RString r_Flicense_file;
+		public virtual RSystem.RString RFlicense_file
 		{
 			get
 			{
-				if(r_license_file == null)
+				if(r_Flicense_file == null)
 				{
-					r_license_file = new(this, "license_file");
-					r_license_file.SetBelong(this.instance);
+					r_Flicense_file = new(this, "license_file");
+					r_Flicense_file.SetBelong(this.instance);
 				}
-				return r_license_file;
+				return r_Flicense_file;
 			}
 		}
 
 		/// <summary>
 		/// System.String private_bin_path
 		/// </summary>
-		protected RSystem.RString r_private_bin_path;
-		public virtual RSystem.RString Rprivate_bin_path
+		protected RSystem.RString r_Fprivate_bin_path;
+		public virtual RSystem.RString RFprivate_bin_path
 		{
 			get
 			{
-				if(r_private_bin_path == null)
+				if(r_Fprivate_bin_path == null)
 				{
-					r_private_bin_path = new(this, "private_bin_path");
-					r_private_bin_path.SetBelong(this.instance);
+					r_Fprivate_bin_path = new(this, "private_bin_path");
+					r_Fprivate_bin_path.SetBelong(this.instance);
 				}
-				return r_private_bin_path;
+				return r_Fprivate_bin_path;
 			}
 		}
 
 		/// <summary>
 		/// System.String private_bin_path_probe
 		/// </summary>
-		protected RSystem.RString r_private_bin_path_probe;
-		public virtual RSystem.RString Rprivate_bin_path_probe
+		protected RSystem.RString r_Fprivate_bin_path_probe;
+		public virtual RSystem.RString RFprivate_bin_path_probe
 		{
 			get
 			{
-				if(r_private_bin_path_probe == null)
+				if(r_Fprivate_bin_path_probe == null)
 				{
-					r_private_bin_path_probe = new(this, "private_bin_path_probe");
-					r_private_bin_path_probe.SetBelong(this.instance);
+					r_Fprivate_bin_path_probe = new(this, "private_bin_path_probe");
+					r_Fprivate_bin_path_probe.SetBelong(this.instance);
 				}
-				return r_private_bin_path_probe;
+				return r_Fprivate_bin_path_probe;
 			}
 		}
 
 		/// <summary>
 		/// System.String shadow_copy_directories
 		/// </summary>
-		protected RSystem.RString r_shadow_copy_directories;
-		public virtual RSystem.RString Rshadow_copy_directories
+		protected RSystem.RString r_Fshadow_copy_directories;
+		public virtual RSystem.RString RFshadow_copy_directories
 		{
 			get
 			{
-				if(r_shadow_copy_directories == null)
+				if(r_Fshadow_copy_directories == null)
 				{
-					r_shadow_copy_directories = new(this, "shadow_copy_directories");
-					r_shadow_copy_directories.SetBelong(this.instance);
+					r_Fshadow_copy_directories = new(this, "shadow_copy_directories");
+					r_Fshadow_copy_directories.SetBelong(this.instance);
 				}
-				return r_shadow_copy_directories;
+				return r_Fshadow_copy_directories;
 			}
 		}
 
 		/// <summary>
 		/// System.String shadow_copy_files
 		/// </summary>
-		protected RSystem.RString r_shadow_copy_files;
-		public virtual RSystem.RString Rshadow_copy_files
+		protected RSystem.RString r_Fshadow_copy_files;
+		public virtual RSystem.RString RFshadow_copy_files
 		{
 			get
 			{
-				if(r_shadow_copy_files == null)
+				if(r_Fshadow_copy_files == null)
 				{
-					r_shadow_copy_files = new(this, "shadow_copy_files");
-					r_shadow_copy_files.SetBelong(this.instance);
+					r_Fshadow_copy_files = new(this, "shadow_copy_files");
+					r_Fshadow_copy_files.SetBelong(this.instance);
 				}
-				return r_shadow_copy_files;
+				return r_Fshadow_copy_files;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean publisher_policy
 		/// </summary>
-		protected RSystem.RBoolean r_publisher_policy;
-		public virtual RSystem.RBoolean Rpublisher_policy
+		protected RSystem.RBoolean r_Fpublisher_policy;
+		public virtual RSystem.RBoolean RFpublisher_policy
 		{
 			get
 			{
-				if(r_publisher_policy == null)
+				if(r_Fpublisher_policy == null)
 				{
-					r_publisher_policy = new(this, "publisher_policy");
-					r_publisher_policy.SetBelong(this.instance);
+					r_Fpublisher_policy = new(this, "publisher_policy");
+					r_Fpublisher_policy.SetBelong(this.instance);
 				}
-				return r_publisher_policy;
+				return r_Fpublisher_policy;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean path_changed
 		/// </summary>
-		protected RSystem.RBoolean r_path_changed;
-		public virtual RSystem.RBoolean Rpath_changed
+		protected RSystem.RBoolean r_Fpath_changed;
+		public virtual RSystem.RBoolean RFpath_changed
 		{
 			get
 			{
-				if(r_path_changed == null)
+				if(r_Fpath_changed == null)
 				{
-					r_path_changed = new(this, "path_changed");
-					r_path_changed.SetBelong(this.instance);
+					r_Fpath_changed = new(this, "path_changed");
+					r_Fpath_changed.SetBelong(this.instance);
 				}
-				return r_path_changed;
+				return r_Fpath_changed;
 			}
 		}
 
 		/// <summary>
 		/// System.LoaderOptimization loader_optimization
 		/// </summary>
-		protected RField r_loader_optimization;
-		public virtual RField Rloader_optimization
+		protected RSystem.RLoaderOptimization r_Floader_optimization;
+		public virtual RSystem.RLoaderOptimization RFloader_optimization
 		{
 			get
 			{
-				if(r_loader_optimization == null)
+				if(r_Floader_optimization == null)
 				{
-					r_loader_optimization = new(this, "loader_optimization");
-					r_loader_optimization.SetBelong(this.instance);
+					r_Floader_optimization = new(this, "loader_optimization");
+					r_Floader_optimization.SetBelong(this.instance);
 				}
-				return r_loader_optimization;
+				return r_Floader_optimization;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean disallow_binding_redirects
 		/// </summary>
-		protected RSystem.RBoolean r_disallow_binding_redirects;
-		public virtual RSystem.RBoolean Rdisallow_binding_redirects
+		protected RSystem.RBoolean r_Fdisallow_binding_redirects;
+		public virtual RSystem.RBoolean RFdisallow_binding_redirects
 		{
 			get
 			{
-				if(r_disallow_binding_redirects == null)
+				if(r_Fdisallow_binding_redirects == null)
 				{
-					r_disallow_binding_redirects = new(this, "disallow_binding_redirects");
-					r_disallow_binding_redirects.SetBelong(this.instance);
+					r_Fdisallow_binding_redirects = new(this, "disallow_binding_redirects");
+					r_Fdisallow_binding_redirects.SetBelong(this.instance);
 				}
-				return r_disallow_binding_redirects;
+				return r_Fdisallow_binding_redirects;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean disallow_code_downloads
 		/// </summary>
-		protected RSystem.RBoolean r_disallow_code_downloads;
-		public virtual RSystem.RBoolean Rdisallow_code_downloads
+		protected RSystem.RBoolean r_Fdisallow_code_downloads;
+		public virtual RSystem.RBoolean RFdisallow_code_downloads
 		{
 			get
 			{
-				if(r_disallow_code_downloads == null)
+				if(r_Fdisallow_code_downloads == null)
 				{
-					r_disallow_code_downloads = new(this, "disallow_code_downloads");
-					r_disallow_code_downloads.SetBelong(this.instance);
+					r_Fdisallow_code_downloads = new(this, "disallow_code_downloads");
+					r_Fdisallow_code_downloads.SetBelong(this.instance);
 				}
-				return r_disallow_code_downloads;
+				return r_Fdisallow_code_downloads;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Hosting.ActivationArguments _activationArguments
 		/// </summary>
-		protected RSystem.RRuntime.RHosting.RActivationArguments r__activationArguments;
-		public virtual RSystem.RRuntime.RHosting.RActivationArguments R_activationArguments
+		protected RSystem.RRuntime.RHosting.RActivationArguments r_F_activationArguments;
+		public virtual RSystem.RRuntime.RHosting.RActivationArguments RF_activationArguments
 		{
 			get
 			{
-				if(r__activationArguments == null)
+				if(r_F_activationArguments == null)
 				{
-					r__activationArguments = new(this, "_activationArguments");
-					r__activationArguments.SetBelong(this.instance);
+					r_F_activationArguments = new(this, "_activationArguments");
+					r_F_activationArguments.SetBelong(this.instance);
 				}
-				return r__activationArguments;
+				return r_F_activationArguments;
 			}
 		}
 
 		/// <summary>
 		/// System.AppDomainInitializer domain_initializer
 		/// </summary>
-		protected RSystem.RAppDomainInitializer r_domain_initializer;
-		public virtual RSystem.RAppDomainInitializer Rdomain_initializer
+		protected RSystem.RAppDomainInitializer r_Fdomain_initializer;
+		public virtual RSystem.RAppDomainInitializer RFdomain_initializer
 		{
 			get
 			{
-				if(r_domain_initializer == null)
+				if(r_Fdomain_initializer == null)
 				{
-					r_domain_initializer = new(this, "domain_initializer");
-					r_domain_initializer.SetBelong(this.instance);
+					r_Fdomain_initializer = new(this, "domain_initializer");
+					r_Fdomain_initializer.SetBelong(this.instance);
 				}
-				return r_domain_initializer;
+				return r_Fdomain_initializer;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.ApplicationTrust application_trust
 		/// </summary>
-		protected RSystem.RSecurity.RPolicy.RApplicationTrust r_application_trust;
-		public virtual RSystem.RSecurity.RPolicy.RApplicationTrust Rapplication_trust
+		protected RSystem.RSecurity.RPolicy.RApplicationTrust r_Fapplication_trust;
+		public virtual RSystem.RSecurity.RPolicy.RApplicationTrust RFapplication_trust
 		{
 			get
 			{
-				if(r_application_trust == null)
+				if(r_Fapplication_trust == null)
 				{
-					r_application_trust = new(this, "application_trust");
-					r_application_trust.SetBelong(this.instance);
+					r_Fapplication_trust = new(this, "application_trust");
+					r_Fapplication_trust.SetBelong(this.instance);
 				}
-				return r_application_trust;
+				return r_Fapplication_trust;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] domain_initializer_args
 		/// </summary>
-		protected RFieldArray<RSystem.RString> r_domain_initializer_args;
-		public virtual RFieldArray<RSystem.RString> Rdomain_initializer_args
+		protected RFieldArray<RSystem.RString> r_Fdomain_initializer_args;
+		public virtual RFieldArray<RSystem.RString> RFdomain_initializer_args
 		{
 			get
 			{
-				if(r_domain_initializer_args == null)
+				if(r_Fdomain_initializer_args == null)
 				{
-					r_domain_initializer_args = new(this, "domain_initializer_args");
-					r_domain_initializer_args.SetBelong(this.instance);
+					r_Fdomain_initializer_args = new(this, "domain_initializer_args");
+					r_Fdomain_initializer_args.SetBelong(this.instance);
 				}
-				return r_domain_initializer_args;
+				return r_Fdomain_initializer_args;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean disallow_appbase_probe
 		/// </summary>
-		protected RSystem.RBoolean r_disallow_appbase_probe;
-		public virtual RSystem.RBoolean Rdisallow_appbase_probe
+		protected RSystem.RBoolean r_Fdisallow_appbase_probe;
+		public virtual RSystem.RBoolean RFdisallow_appbase_probe
 		{
 			get
 			{
-				if(r_disallow_appbase_probe == null)
+				if(r_Fdisallow_appbase_probe == null)
 				{
-					r_disallow_appbase_probe = new(this, "disallow_appbase_probe");
-					r_disallow_appbase_probe.SetBelong(this.instance);
+					r_Fdisallow_appbase_probe = new(this, "disallow_appbase_probe");
+					r_Fdisallow_appbase_probe.SetBelong(this.instance);
 				}
-				return r_disallow_appbase_probe;
+				return r_Fdisallow_appbase_probe;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte[] configuration_bytes
 		/// </summary>
-		protected RFieldArray<RSystem.RByte> r_configuration_bytes;
-		public virtual RFieldArray<RSystem.RByte> Rconfiguration_bytes
+		protected RFieldArray<RSystem.RByte> r_Fconfiguration_bytes;
+		public virtual RFieldArray<RSystem.RByte> RFconfiguration_bytes
 		{
 			get
 			{
-				if(r_configuration_bytes == null)
+				if(r_Fconfiguration_bytes == null)
 				{
-					r_configuration_bytes = new(this, "configuration_bytes");
-					r_configuration_bytes.SetBelong(this.instance);
+					r_Fconfiguration_bytes = new(this, "configuration_bytes");
+					r_Fconfiguration_bytes.SetBelong(this.instance);
 				}
-				return r_configuration_bytes;
+				return r_Fconfiguration_bytes;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte[] serialized_non_primitives
 		/// </summary>
-		protected RFieldArray<RSystem.RByte> r_serialized_non_primitives;
-		public virtual RFieldArray<RSystem.RByte> Rserialized_non_primitives
+		protected RFieldArray<RSystem.RByte> r_Fserialized_non_primitives;
+		public virtual RFieldArray<RSystem.RByte> RFserialized_non_primitives
 		{
 			get
 			{
-				if(r_serialized_non_primitives == null)
+				if(r_Fserialized_non_primitives == null)
 				{
-					r_serialized_non_primitives = new(this, "serialized_non_primitives");
-					r_serialized_non_primitives.SetBelong(this.instance);
+					r_Fserialized_non_primitives = new(this, "serialized_non_primitives");
+					r_Fserialized_non_primitives.SetBelong(this.instance);
 				}
-				return r_serialized_non_primitives;
+				return r_Fserialized_non_primitives;
 			}
 		}
 
 		/// <summary>
 		/// System.String manager_assembly
 		/// </summary>
-		protected RSystem.RString r_manager_assembly;
-		public virtual RSystem.RString Rmanager_assembly
+		protected RSystem.RString r_Fmanager_assembly;
+		public virtual RSystem.RString RFmanager_assembly
 		{
 			get
 			{
-				if(r_manager_assembly == null)
+				if(r_Fmanager_assembly == null)
 				{
-					r_manager_assembly = new(this, "manager_assembly");
-					r_manager_assembly.SetBelong(this.instance);
+					r_Fmanager_assembly = new(this, "manager_assembly");
+					r_Fmanager_assembly.SetBelong(this.instance);
 				}
-				return r_manager_assembly;
+				return r_Fmanager_assembly;
 			}
 		}
 
 		/// <summary>
 		/// System.String manager_type
 		/// </summary>
-		protected RSystem.RString r_manager_type;
-		public virtual RSystem.RString Rmanager_type
+		protected RSystem.RString r_Fmanager_type;
+		public virtual RSystem.RString RFmanager_type
 		{
 			get
 			{
-				if(r_manager_type == null)
+				if(r_Fmanager_type == null)
 				{
-					r_manager_type = new(this, "manager_type");
-					r_manager_type.SetBelong(this.instance);
+					r_Fmanager_type = new(this, "manager_type");
+					r_Fmanager_type.SetBelong(this.instance);
 				}
-				return r_manager_type;
+				return r_Fmanager_type;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] partial_visible_assemblies
 		/// </summary>
-		protected RFieldArray<RSystem.RString> r_partial_visible_assemblies;
-		public virtual RFieldArray<RSystem.RString> Rpartial_visible_assemblies
+		protected RFieldArray<RSystem.RString> r_Fpartial_visible_assemblies;
+		public virtual RFieldArray<RSystem.RString> RFpartial_visible_assemblies
 		{
 			get
 			{
-				if(r_partial_visible_assemblies == null)
+				if(r_Fpartial_visible_assemblies == null)
 				{
-					r_partial_visible_assemblies = new(this, "partial_visible_assemblies");
-					r_partial_visible_assemblies.SetBelong(this.instance);
+					r_Fpartial_visible_assemblies = new(this, "partial_visible_assemblies");
+					r_Fpartial_visible_assemblies.SetBelong(this.instance);
 				}
-				return r_partial_visible_assemblies;
+				return r_Fpartial_visible_assemblies;
 			}
 		}
 
 		/// <summary>
 		/// System.String <TargetFrameworkName>k__BackingField
 		/// </summary>
-		protected RSystem.RString r___0__TargetFrameworkName__1__k__BackingField;
-		public virtual RSystem.RString R__0__TargetFrameworkName__1__k__BackingField
+		protected RSystem.RString r_F__0__TargetFrameworkName__1__k__BackingField;
+		public virtual RSystem.RString RF__0__TargetFrameworkName__1__k__BackingField
 		{
 			get
 			{
-				if(r___0__TargetFrameworkName__1__k__BackingField == null)
+				if(r_F__0__TargetFrameworkName__1__k__BackingField == null)
 				{
-					r___0__TargetFrameworkName__1__k__BackingField = new(this, "<TargetFrameworkName>k__BackingField");
-					r___0__TargetFrameworkName__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__TargetFrameworkName__1__k__BackingField = new(this, "<TargetFrameworkName>k__BackingField");
+					r_F__0__TargetFrameworkName__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___0__TargetFrameworkName__1__k__BackingField;
+				return r_F__0__TargetFrameworkName__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// System.String ApplicationBase
 		/// </summary>
-		protected RSystem.RString r_ApplicationBase;
-		public virtual RSystem.RString RApplicationBase
+		protected RSystem.RString r_PApplicationBase;
+		public virtual RSystem.RString RPApplicationBase
 		{
 			get
 			{
-				if(r_ApplicationBase == null)
+				if(r_PApplicationBase == null)
 				{
-					r_ApplicationBase = new(this, "ApplicationBase", -1);
-					r_ApplicationBase.SetBelong(this.instance);
+					r_PApplicationBase = new(this, "ApplicationBase", -1);
+					r_PApplicationBase.SetBelong(this.instance);
 				}
-				return r_ApplicationBase;
+				return r_PApplicationBase;
 			}
 		}
 
 		/// <summary>
 		/// System.String ApplicationName
 		/// </summary>
-		protected RSystem.RString r_ApplicationName;
-		public virtual RSystem.RString RApplicationName
+		protected RSystem.RString r_PApplicationName;
+		public virtual RSystem.RString RPApplicationName
 		{
 			get
 			{
-				if(r_ApplicationName == null)
+				if(r_PApplicationName == null)
 				{
-					r_ApplicationName = new(this, "ApplicationName", -1);
-					r_ApplicationName.SetBelong(this.instance);
+					r_PApplicationName = new(this, "ApplicationName", -1);
+					r_PApplicationName.SetBelong(this.instance);
 				}
-				return r_ApplicationName;
+				return r_PApplicationName;
 			}
 		}
 
 		/// <summary>
 		/// System.String CachePath
 		/// </summary>
-		protected RSystem.RString r_CachePath;
-		public virtual RSystem.RString RCachePath
+		protected RSystem.RString r_PCachePath;
+		public virtual RSystem.RString RPCachePath
 		{
 			get
 			{
-				if(r_CachePath == null)
+				if(r_PCachePath == null)
 				{
-					r_CachePath = new(this, "CachePath", -1);
-					r_CachePath.SetBelong(this.instance);
+					r_PCachePath = new(this, "CachePath", -1);
+					r_PCachePath.SetBelong(this.instance);
 				}
-				return r_CachePath;
+				return r_PCachePath;
 			}
 		}
 
 		/// <summary>
 		/// System.String ConfigurationFile
 		/// </summary>
-		protected RSystem.RString r_ConfigurationFile;
-		public virtual RSystem.RString RConfigurationFile
+		protected RSystem.RString r_PConfigurationFile;
+		public virtual RSystem.RString RPConfigurationFile
 		{
 			get
 			{
-				if(r_ConfigurationFile == null)
+				if(r_PConfigurationFile == null)
 				{
-					r_ConfigurationFile = new(this, "ConfigurationFile", -1);
-					r_ConfigurationFile.SetBelong(this.instance);
+					r_PConfigurationFile = new(this, "ConfigurationFile", -1);
+					r_PConfigurationFile.SetBelong(this.instance);
 				}
-				return r_ConfigurationFile;
+				return r_PConfigurationFile;
 			}
 		}
 
 		/// <summary>
 		/// Boolean DisallowPublisherPolicy
 		/// </summary>
-		protected RSystem.RBoolean r_DisallowPublisherPolicy;
-		public virtual RSystem.RBoolean RDisallowPublisherPolicy
+		protected RSystem.RBoolean r_PDisallowPublisherPolicy;
+		public virtual RSystem.RBoolean RPDisallowPublisherPolicy
 		{
 			get
 			{
-				if(r_DisallowPublisherPolicy == null)
+				if(r_PDisallowPublisherPolicy == null)
 				{
-					r_DisallowPublisherPolicy = new(this, "DisallowPublisherPolicy", -1);
-					r_DisallowPublisherPolicy.SetBelong(this.instance);
+					r_PDisallowPublisherPolicy = new(this, "DisallowPublisherPolicy", -1);
+					r_PDisallowPublisherPolicy.SetBelong(this.instance);
 				}
-				return r_DisallowPublisherPolicy;
+				return r_PDisallowPublisherPolicy;
 			}
 		}
 
 		/// <summary>
 		/// System.String DynamicBase
 		/// </summary>
-		protected RSystem.RString r_DynamicBase;
-		public virtual RSystem.RString RDynamicBase
+		protected RSystem.RString r_PDynamicBase;
+		public virtual RSystem.RString RPDynamicBase
 		{
 			get
 			{
-				if(r_DynamicBase == null)
+				if(r_PDynamicBase == null)
 				{
-					r_DynamicBase = new(this, "DynamicBase", -1);
-					r_DynamicBase.SetBelong(this.instance);
+					r_PDynamicBase = new(this, "DynamicBase", -1);
+					r_PDynamicBase.SetBelong(this.instance);
 				}
-				return r_DynamicBase;
+				return r_PDynamicBase;
 			}
 		}
 
 		/// <summary>
 		/// System.String LicenseFile
 		/// </summary>
-		protected RSystem.RString r_LicenseFile;
-		public virtual RSystem.RString RLicenseFile
+		protected RSystem.RString r_PLicenseFile;
+		public virtual RSystem.RString RPLicenseFile
 		{
 			get
 			{
-				if(r_LicenseFile == null)
+				if(r_PLicenseFile == null)
 				{
-					r_LicenseFile = new(this, "LicenseFile", -1);
-					r_LicenseFile.SetBelong(this.instance);
+					r_PLicenseFile = new(this, "LicenseFile", -1);
+					r_PLicenseFile.SetBelong(this.instance);
 				}
-				return r_LicenseFile;
+				return r_PLicenseFile;
 			}
 		}
 
 		/// <summary>
 		/// System.LoaderOptimization LoaderOptimization
 		/// </summary>
-		protected RProperty r_LoaderOptimization;
-		public virtual RProperty RLoaderOptimization
+		protected RSystem.RLoaderOptimization r_PLoaderOptimization;
+		public virtual RSystem.RLoaderOptimization RPLoaderOptimization
 		{
 			get
 			{
-				if(r_LoaderOptimization == null)
+				if(r_PLoaderOptimization == null)
 				{
-					r_LoaderOptimization = new(this, "LoaderOptimization", -1);
-					r_LoaderOptimization.SetBelong(this.instance);
+					r_PLoaderOptimization = new(this, "LoaderOptimization", -1);
+					r_PLoaderOptimization.SetBelong(this.instance);
 				}
-				return r_LoaderOptimization;
+				return r_PLoaderOptimization;
 			}
 		}
 
 		/// <summary>
 		/// System.String AppDomainManagerAssembly
 		/// </summary>
-		protected RSystem.RString r_AppDomainManagerAssembly;
-		public virtual RSystem.RString RAppDomainManagerAssembly
+		protected RSystem.RString r_PAppDomainManagerAssembly;
+		public virtual RSystem.RString RPAppDomainManagerAssembly
 		{
 			get
 			{
-				if(r_AppDomainManagerAssembly == null)
+				if(r_PAppDomainManagerAssembly == null)
 				{
-					r_AppDomainManagerAssembly = new(this, "AppDomainManagerAssembly", -1);
-					r_AppDomainManagerAssembly.SetBelong(this.instance);
+					r_PAppDomainManagerAssembly = new(this, "AppDomainManagerAssembly", -1);
+					r_PAppDomainManagerAssembly.SetBelong(this.instance);
 				}
-				return r_AppDomainManagerAssembly;
+				return r_PAppDomainManagerAssembly;
 			}
 		}
 
 		/// <summary>
 		/// System.String AppDomainManagerType
 		/// </summary>
-		protected RSystem.RString r_AppDomainManagerType;
-		public virtual RSystem.RString RAppDomainManagerType
+		protected RSystem.RString r_PAppDomainManagerType;
+		public virtual RSystem.RString RPAppDomainManagerType
 		{
 			get
 			{
-				if(r_AppDomainManagerType == null)
+				if(r_PAppDomainManagerType == null)
 				{
-					r_AppDomainManagerType = new(this, "AppDomainManagerType", -1);
-					r_AppDomainManagerType.SetBelong(this.instance);
+					r_PAppDomainManagerType = new(this, "AppDomainManagerType", -1);
+					r_PAppDomainManagerType.SetBelong(this.instance);
 				}
-				return r_AppDomainManagerType;
+				return r_PAppDomainManagerType;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] PartialTrustVisibleAssemblies
 		/// </summary>
-		protected RPropertyArray<RSystem.RString> r_PartialTrustVisibleAssemblies;
-		public virtual RPropertyArray<RSystem.RString> RPartialTrustVisibleAssemblies
+		protected RPropertyArray<RSystem.RString> r_PPartialTrustVisibleAssemblies;
+		public virtual RPropertyArray<RSystem.RString> RPPartialTrustVisibleAssemblies
 		{
 			get
 			{
-				if(r_PartialTrustVisibleAssemblies == null)
+				if(r_PPartialTrustVisibleAssemblies == null)
 				{
-					r_PartialTrustVisibleAssemblies = new(this, "PartialTrustVisibleAssemblies", -1);
-					r_PartialTrustVisibleAssemblies.SetBelong(this.instance);
+					r_PPartialTrustVisibleAssemblies = new(this, "PartialTrustVisibleAssemblies", -1);
+					r_PPartialTrustVisibleAssemblies.SetBelong(this.instance);
 				}
-				return r_PartialTrustVisibleAssemblies;
+				return r_PPartialTrustVisibleAssemblies;
 			}
 		}
 
 		/// <summary>
 		/// System.String PrivateBinPath
 		/// </summary>
-		protected RSystem.RString r_PrivateBinPath;
-		public virtual RSystem.RString RPrivateBinPath
+		protected RSystem.RString r_PPrivateBinPath;
+		public virtual RSystem.RString RPPrivateBinPath
 		{
 			get
 			{
-				if(r_PrivateBinPath == null)
+				if(r_PPrivateBinPath == null)
 				{
-					r_PrivateBinPath = new(this, "PrivateBinPath", -1);
-					r_PrivateBinPath.SetBelong(this.instance);
+					r_PPrivateBinPath = new(this, "PrivateBinPath", -1);
+					r_PPrivateBinPath.SetBelong(this.instance);
 				}
-				return r_PrivateBinPath;
+				return r_PPrivateBinPath;
 			}
 		}
 
 		/// <summary>
 		/// System.String PrivateBinPathProbe
 		/// </summary>
-		protected RSystem.RString r_PrivateBinPathProbe;
-		public virtual RSystem.RString RPrivateBinPathProbe
+		protected RSystem.RString r_PPrivateBinPathProbe;
+		public virtual RSystem.RString RPPrivateBinPathProbe
 		{
 			get
 			{
-				if(r_PrivateBinPathProbe == null)
+				if(r_PPrivateBinPathProbe == null)
 				{
-					r_PrivateBinPathProbe = new(this, "PrivateBinPathProbe", -1);
-					r_PrivateBinPathProbe.SetBelong(this.instance);
+					r_PPrivateBinPathProbe = new(this, "PrivateBinPathProbe", -1);
+					r_PPrivateBinPathProbe.SetBelong(this.instance);
 				}
-				return r_PrivateBinPathProbe;
+				return r_PPrivateBinPathProbe;
 			}
 		}
 
 		/// <summary>
 		/// System.String ShadowCopyDirectories
 		/// </summary>
-		protected RSystem.RString r_ShadowCopyDirectories;
-		public virtual RSystem.RString RShadowCopyDirectories
+		protected RSystem.RString r_PShadowCopyDirectories;
+		public virtual RSystem.RString RPShadowCopyDirectories
 		{
 			get
 			{
-				if(r_ShadowCopyDirectories == null)
+				if(r_PShadowCopyDirectories == null)
 				{
-					r_ShadowCopyDirectories = new(this, "ShadowCopyDirectories", -1);
-					r_ShadowCopyDirectories.SetBelong(this.instance);
+					r_PShadowCopyDirectories = new(this, "ShadowCopyDirectories", -1);
+					r_PShadowCopyDirectories.SetBelong(this.instance);
 				}
-				return r_ShadowCopyDirectories;
+				return r_PShadowCopyDirectories;
 			}
 		}
 
 		/// <summary>
 		/// System.String ShadowCopyFiles
 		/// </summary>
-		protected RSystem.RString r_ShadowCopyFiles;
-		public virtual RSystem.RString RShadowCopyFiles
+		protected RSystem.RString r_PShadowCopyFiles;
+		public virtual RSystem.RString RPShadowCopyFiles
 		{
 			get
 			{
-				if(r_ShadowCopyFiles == null)
+				if(r_PShadowCopyFiles == null)
 				{
-					r_ShadowCopyFiles = new(this, "ShadowCopyFiles", -1);
-					r_ShadowCopyFiles.SetBelong(this.instance);
+					r_PShadowCopyFiles = new(this, "ShadowCopyFiles", -1);
+					r_PShadowCopyFiles.SetBelong(this.instance);
 				}
-				return r_ShadowCopyFiles;
+				return r_PShadowCopyFiles;
 			}
 		}
 
 		/// <summary>
 		/// Boolean DisallowBindingRedirects
 		/// </summary>
-		protected RSystem.RBoolean r_DisallowBindingRedirects;
-		public virtual RSystem.RBoolean RDisallowBindingRedirects
+		protected RSystem.RBoolean r_PDisallowBindingRedirects;
+		public virtual RSystem.RBoolean RPDisallowBindingRedirects
 		{
 			get
 			{
-				if(r_DisallowBindingRedirects == null)
+				if(r_PDisallowBindingRedirects == null)
 				{
-					r_DisallowBindingRedirects = new(this, "DisallowBindingRedirects", -1);
-					r_DisallowBindingRedirects.SetBelong(this.instance);
+					r_PDisallowBindingRedirects = new(this, "DisallowBindingRedirects", -1);
+					r_PDisallowBindingRedirects.SetBelong(this.instance);
 				}
-				return r_DisallowBindingRedirects;
+				return r_PDisallowBindingRedirects;
 			}
 		}
 
 		/// <summary>
 		/// Boolean DisallowCodeDownload
 		/// </summary>
-		protected RSystem.RBoolean r_DisallowCodeDownload;
-		public virtual RSystem.RBoolean RDisallowCodeDownload
+		protected RSystem.RBoolean r_PDisallowCodeDownload;
+		public virtual RSystem.RBoolean RPDisallowCodeDownload
 		{
 			get
 			{
-				if(r_DisallowCodeDownload == null)
+				if(r_PDisallowCodeDownload == null)
 				{
-					r_DisallowCodeDownload = new(this, "DisallowCodeDownload", -1);
-					r_DisallowCodeDownload.SetBelong(this.instance);
+					r_PDisallowCodeDownload = new(this, "DisallowCodeDownload", -1);
+					r_PDisallowCodeDownload.SetBelong(this.instance);
 				}
-				return r_DisallowCodeDownload;
+				return r_PDisallowCodeDownload;
 			}
 		}
 
 		/// <summary>
 		/// System.String TargetFrameworkName
 		/// </summary>
-		protected RSystem.RString r_TargetFrameworkName;
-		public virtual RSystem.RString RTargetFrameworkName
+		protected RSystem.RString r_PTargetFrameworkName;
+		public virtual RSystem.RString RPTargetFrameworkName
 		{
 			get
 			{
-				if(r_TargetFrameworkName == null)
+				if(r_PTargetFrameworkName == null)
 				{
-					r_TargetFrameworkName = new(this, "TargetFrameworkName", -1);
-					r_TargetFrameworkName.SetBelong(this.instance);
+					r_PTargetFrameworkName = new(this, "TargetFrameworkName", -1);
+					r_PTargetFrameworkName.SetBelong(this.instance);
 				}
-				return r_TargetFrameworkName;
+				return r_PTargetFrameworkName;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Hosting.ActivationArguments ActivationArguments
 		/// </summary>
-		protected RSystem.RRuntime.RHosting.RActivationArguments r_ActivationArguments;
-		public virtual RSystem.RRuntime.RHosting.RActivationArguments RActivationArguments
+		protected RSystem.RRuntime.RHosting.RActivationArguments r_PActivationArguments;
+		public virtual RSystem.RRuntime.RHosting.RActivationArguments RPActivationArguments
 		{
 			get
 			{
-				if(r_ActivationArguments == null)
+				if(r_PActivationArguments == null)
 				{
-					r_ActivationArguments = new(this, "ActivationArguments", -1);
-					r_ActivationArguments.SetBelong(this.instance);
+					r_PActivationArguments = new(this, "ActivationArguments", -1);
+					r_PActivationArguments.SetBelong(this.instance);
 				}
-				return r_ActivationArguments;
+				return r_PActivationArguments;
 			}
 		}
 
 		/// <summary>
 		/// System.AppDomainInitializer AppDomainInitializer
 		/// </summary>
-		protected RSystem.RAppDomainInitializer r_AppDomainInitializer;
-		public virtual RSystem.RAppDomainInitializer RAppDomainInitializer
+		protected RSystem.RAppDomainInitializer r_PAppDomainInitializer;
+		public virtual RSystem.RAppDomainInitializer RPAppDomainInitializer
 		{
 			get
 			{
-				if(r_AppDomainInitializer == null)
+				if(r_PAppDomainInitializer == null)
 				{
-					r_AppDomainInitializer = new(this, "AppDomainInitializer", -1);
-					r_AppDomainInitializer.SetBelong(this.instance);
+					r_PAppDomainInitializer = new(this, "AppDomainInitializer", -1);
+					r_PAppDomainInitializer.SetBelong(this.instance);
 				}
-				return r_AppDomainInitializer;
+				return r_PAppDomainInitializer;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] AppDomainInitializerArguments
 		/// </summary>
-		protected RPropertyArray<RSystem.RString> r_AppDomainInitializerArguments;
-		public virtual RPropertyArray<RSystem.RString> RAppDomainInitializerArguments
+		protected RPropertyArray<RSystem.RString> r_PAppDomainInitializerArguments;
+		public virtual RPropertyArray<RSystem.RString> RPAppDomainInitializerArguments
 		{
 			get
 			{
-				if(r_AppDomainInitializerArguments == null)
+				if(r_PAppDomainInitializerArguments == null)
 				{
-					r_AppDomainInitializerArguments = new(this, "AppDomainInitializerArguments", -1);
-					r_AppDomainInitializerArguments.SetBelong(this.instance);
+					r_PAppDomainInitializerArguments = new(this, "AppDomainInitializerArguments", -1);
+					r_PAppDomainInitializerArguments.SetBelong(this.instance);
 				}
-				return r_AppDomainInitializerArguments;
+				return r_PAppDomainInitializerArguments;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.ApplicationTrust ApplicationTrust
 		/// </summary>
-		protected RSystem.RSecurity.RPolicy.RApplicationTrust r_ApplicationTrust;
-		public virtual RSystem.RSecurity.RPolicy.RApplicationTrust RApplicationTrust
+		protected RSystem.RSecurity.RPolicy.RApplicationTrust r_PApplicationTrust;
+		public virtual RSystem.RSecurity.RPolicy.RApplicationTrust RPApplicationTrust
 		{
 			get
 			{
-				if(r_ApplicationTrust == null)
+				if(r_PApplicationTrust == null)
 				{
-					r_ApplicationTrust = new(this, "ApplicationTrust", -1);
-					r_ApplicationTrust.SetBelong(this.instance);
+					r_PApplicationTrust = new(this, "ApplicationTrust", -1);
+					r_PApplicationTrust.SetBelong(this.instance);
 				}
-				return r_ApplicationTrust;
+				return r_PApplicationTrust;
 			}
 		}
 
 		/// <summary>
 		/// Boolean DisallowApplicationBaseProbing
 		/// </summary>
-		protected RSystem.RBoolean r_DisallowApplicationBaseProbing;
-		public virtual RSystem.RBoolean RDisallowApplicationBaseProbing
+		protected RSystem.RBoolean r_PDisallowApplicationBaseProbing;
+		public virtual RSystem.RBoolean RPDisallowApplicationBaseProbing
 		{
 			get
 			{
-				if(r_DisallowApplicationBaseProbing == null)
+				if(r_PDisallowApplicationBaseProbing == null)
 				{
-					r_DisallowApplicationBaseProbing = new(this, "DisallowApplicationBaseProbing", -1);
-					r_DisallowApplicationBaseProbing.SetBelong(this.instance);
+					r_PDisallowApplicationBaseProbing = new(this, "DisallowApplicationBaseProbing", -1);
+					r_PDisallowApplicationBaseProbing.SetBelong(this.instance);
 				}
-				return r_DisallowApplicationBaseProbing;
+				return r_PDisallowApplicationBaseProbing;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SandboxInterop
 		/// </summary>
-		protected RSystem.RBoolean r_SandboxInterop;
-		public virtual RSystem.RBoolean RSandboxInterop
+		protected RSystem.RBoolean r_PSandboxInterop;
+		public virtual RSystem.RBoolean RPSandboxInterop
 		{
 			get
 			{
-				if(r_SandboxInterop == null)
+				if(r_PSandboxInterop == null)
 				{
-					r_SandboxInterop = new(this, "SandboxInterop", -1);
-					r_SandboxInterop.SetBelong(this.instance);
+					r_PSandboxInterop = new(this, "SandboxInterop", -1);
+					r_PSandboxInterop.SetBelong(this.instance);
 				}
-				return r_SandboxInterop;
+				return r_PSandboxInterop;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetAppBase(System.String)
 		/// </summary>
-		protected static RMethod r_GetAppBase_String;
-		public static RMethod RGetAppBase_String
+		protected static RMethod r_MGetAppBase_String;
+		public static RMethod RMGetAppBase_String
 		{
 			get
 			{
-				if(r_GetAppBase_String == null)
+				if(r_MGetAppBase_String == null)
 				{
-					r_GetAppBase_String = new(typeof(System.AppDomainSetup), "GetAppBase", 0, typeof(System.String));
-					r_GetAppBase_String.SetBelong(null);
+					r_MGetAppBase_String = new(typeof(System.AppDomainSetup), "GetAppBase", 0, typeof(System.String));
+					r_MGetAppBase_String.SetBelong(null);
 				}
-				return r_GetAppBase_String;
+				return r_MGetAppBase_String;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] GetConfigurationBytes()
 		/// </summary>
-		protected RMethod r_GetConfigurationBytes;
-		public virtual RMethod RGetConfigurationBytes
+		protected RMethod r_MGetConfigurationBytes;
+		public virtual RMethod RMGetConfigurationBytes
 		{
 			get
 			{
-				if(r_GetConfigurationBytes == null)
+				if(r_MGetConfigurationBytes == null)
 				{
-					r_GetConfigurationBytes = new(this, "GetConfigurationBytes", 0);
-					r_GetConfigurationBytes.SetBelong(this.instance);
+					r_MGetConfigurationBytes = new(this, "GetConfigurationBytes", 0);
+					r_MGetConfigurationBytes.SetBelong(this.instance);
 				}
-				return r_GetConfigurationBytes;
+				return r_MGetConfigurationBytes;
 			}
 		}
 
 		/// <summary>
 		/// Void SetConfigurationBytes(Byte[])
 		/// </summary>
-		protected RMethod r_SetConfigurationBytes_ByteArray;
-		public virtual RMethod RSetConfigurationBytes_ByteArray
+		protected RMethod r_MSetConfigurationBytes_ByteArray;
+		public virtual RMethod RMSetConfigurationBytes_ByteArray
 		{
 			get
 			{
-				if(r_SetConfigurationBytes_ByteArray == null)
+				if(r_MSetConfigurationBytes_ByteArray == null)
 				{
-					r_SetConfigurationBytes_ByteArray = new(this, "SetConfigurationBytes", 0, typeof(System.Byte).MakeArrayType());
-					r_SetConfigurationBytes_ByteArray.SetBelong(this.instance);
+					r_MSetConfigurationBytes_ByteArray = new(this, "SetConfigurationBytes", 0, typeof(System.Byte).MakeArrayType());
+					r_MSetConfigurationBytes_ByteArray.SetBelong(this.instance);
 				}
-				return r_SetConfigurationBytes_ByteArray;
+				return r_MSetConfigurationBytes_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Void DeserializeNonPrimitives()
 		/// </summary>
-		protected RMethod r_DeserializeNonPrimitives;
-		public virtual RMethod RDeserializeNonPrimitives
+		protected RMethod r_MDeserializeNonPrimitives;
+		public virtual RMethod RMDeserializeNonPrimitives
 		{
 			get
 			{
-				if(r_DeserializeNonPrimitives == null)
+				if(r_MDeserializeNonPrimitives == null)
 				{
-					r_DeserializeNonPrimitives = new(this, "DeserializeNonPrimitives", 0);
-					r_DeserializeNonPrimitives.SetBelong(this.instance);
+					r_MDeserializeNonPrimitives = new(this, "DeserializeNonPrimitives", 0);
+					r_MDeserializeNonPrimitives.SetBelong(this.instance);
 				}
-				return r_DeserializeNonPrimitives;
+				return r_MDeserializeNonPrimitives;
 			}
 		}
 
 		/// <summary>
 		/// Void SerializeNonPrimitives()
 		/// </summary>
-		protected RMethod r_SerializeNonPrimitives;
-		public virtual RMethod RSerializeNonPrimitives
+		protected RMethod r_MSerializeNonPrimitives;
+		public virtual RMethod RMSerializeNonPrimitives
 		{
 			get
 			{
-				if(r_SerializeNonPrimitives == null)
+				if(r_MSerializeNonPrimitives == null)
 				{
-					r_SerializeNonPrimitives = new(this, "SerializeNonPrimitives", 0);
-					r_SerializeNonPrimitives.SetBelong(this.instance);
+					r_MSerializeNonPrimitives = new(this, "SerializeNonPrimitives", 0);
+					r_MSerializeNonPrimitives.SetBelong(this.instance);
 				}
-				return r_SerializeNonPrimitives;
+				return r_MSerializeNonPrimitives;
 			}
 		}
 
 		/// <summary>
 		/// Void SetCompatibilitySwitches(System.Collections.Generic.IEnumerable`1[System.String])
 		/// </summary>
-		protected RMethod r_SetCompatibilitySwitches_IEnumerable_d_String_p_;
-		public virtual RMethod RSetCompatibilitySwitches_IEnumerable_d_String_p_
+		protected RMethod r_MSetCompatibilitySwitches_IEnumerable_d_String_p_;
+		public virtual RMethod RMSetCompatibilitySwitches_IEnumerable_d_String_p_
 		{
 			get
 			{
-				if(r_SetCompatibilitySwitches_IEnumerable_d_String_p_ == null)
+				if(r_MSetCompatibilitySwitches_IEnumerable_d_String_p_ == null)
 				{
-					r_SetCompatibilitySwitches_IEnumerable_d_String_p_ = new(this, "SetCompatibilitySwitches", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
-					r_SetCompatibilitySwitches_IEnumerable_d_String_p_.SetBelong(this.instance);
+					r_MSetCompatibilitySwitches_IEnumerable_d_String_p_ = new(this, "SetCompatibilitySwitches", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MSetCompatibilitySwitches_IEnumerable_d_String_p_.SetBelong(this.instance);
 				}
-				return r_SetCompatibilitySwitches_IEnumerable_d_String_p_;
+				return r_MSetCompatibilitySwitches_IEnumerable_d_String_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNativeFunction(System.String, Int32, IntPtr)
 		/// </summary>
-		protected RMethod r_SetNativeFunction_String_Int32_IntPtr;
-		public virtual RMethod RSetNativeFunction_String_Int32_IntPtr
+		protected RMethod r_MSetNativeFunction_String_Int32_IntPtr;
+		public virtual RMethod RMSetNativeFunction_String_Int32_IntPtr
 		{
 			get
 			{
-				if(r_SetNativeFunction_String_Int32_IntPtr == null)
+				if(r_MSetNativeFunction_String_Int32_IntPtr == null)
 				{
-					r_SetNativeFunction_String_Int32_IntPtr = new(this, "SetNativeFunction", 0, typeof(System.String), typeof(System.Int32), typeof(System.IntPtr));
-					r_SetNativeFunction_String_Int32_IntPtr.SetBelong(this.instance);
+					r_MSetNativeFunction_String_Int32_IntPtr = new(this, "SetNativeFunction", 0, typeof(System.String), typeof(System.Int32), typeof(System.IntPtr));
+					r_MSetNativeFunction_String_Int32_IntPtr.SetBelong(this.instance);
 				}
-				return r_SetNativeFunction_String_Int32_IntPtr;
+				return r_MSetNativeFunction_String_Int32_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -1104,7 +1104,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@appBase};
-            var ___result = RGetAppBase_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetAppBase_String.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -1115,7 +1115,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetConfigurationBytes.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetConfigurationBytes.Invoke(___genericsType, ___parameters);
 
             return (System.Byte[])___result;
         }
@@ -1126,7 +1126,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = RSetConfigurationBytes_ByteArray.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetConfigurationBytes_ByteArray.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1137,7 +1137,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RDeserializeNonPrimitives.Invoke(___genericsType, ___parameters);
+            var ___result = RMDeserializeNonPrimitives.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1148,7 +1148,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSerializeNonPrimitives.Invoke(___genericsType, ___parameters);
+            var ___result = RMSerializeNonPrimitives.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1159,7 +1159,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@switches};
-            var ___result = RSetCompatibilitySwitches_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetCompatibilitySwitches_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1170,7 +1170,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@functionName, @functionVersion, @functionPointer};
-            var ___result = RSetNativeFunction_String_Int32_IntPtr.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetNativeFunction_String_Int32_IntPtr.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1181,7 +1181,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1192,7 +1192,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1203,7 +1203,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -1214,7 +1214,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -1225,7 +1225,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -1236,7 +1236,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

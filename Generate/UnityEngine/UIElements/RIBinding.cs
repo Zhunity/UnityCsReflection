@@ -13,51 +13,51 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Void PreUpdate()
 		/// </summary>
-		protected RMethod r_PreUpdate;
-		public virtual RMethod RPreUpdate
+		protected RMethod r_MPreUpdate;
+		public virtual RMethod RMPreUpdate
 		{
 			get
 			{
-				if(r_PreUpdate == null)
+				if(r_MPreUpdate == null)
 				{
-					r_PreUpdate = new(this, "PreUpdate", 0);
-					r_PreUpdate.SetBelong(this.instance);
+					r_MPreUpdate = new(this, "PreUpdate", 0);
+					r_MPreUpdate.SetBelong(this.instance);
 				}
-				return r_PreUpdate;
+				return r_MPreUpdate;
 			}
 		}
 
 		/// <summary>
 		/// Void Update()
 		/// </summary>
-		protected RMethod r_Update;
-		public virtual RMethod RUpdate
+		protected RMethod r_MUpdate;
+		public virtual RMethod RMUpdate
 		{
 			get
 			{
-				if(r_Update == null)
+				if(r_MUpdate == null)
 				{
-					r_Update = new(this, "Update", 0);
-					r_Update.SetBelong(this.instance);
+					r_MUpdate = new(this, "Update", 0);
+					r_MUpdate.SetBelong(this.instance);
 				}
-				return r_Update;
+				return r_MUpdate;
 			}
 		}
 
 		/// <summary>
 		/// Void Release()
 		/// </summary>
-		protected RMethod r_Release;
-		public virtual RMethod RRelease
+		protected RMethod r_MRelease;
+		public virtual RMethod RMRelease
 		{
 			get
 			{
-				if(r_Release == null)
+				if(r_MRelease == null)
 				{
-					r_Release = new(this, "Release", 0);
-					r_Release.SetBelong(this.instance);
+					r_MRelease = new(this, "Release", 0);
+					r_MRelease.SetBelong(this.instance);
 				}
-				return r_Release;
+				return r_MRelease;
 			}
 		}
 
@@ -84,7 +84,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RPreUpdate.Invoke(___genericsType, ___parameters);
+            var ___result = RMPreUpdate.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -95,7 +95,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdate.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -106,7 +106,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RRelease.Invoke(___genericsType, ___parameters);
+            var ___result = RMRelease.Invoke(___genericsType, ___parameters);
 
             
         }

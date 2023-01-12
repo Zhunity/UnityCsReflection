@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Void SetCursor(UnityEngine.UIElements.Cursor)
 		/// </summary>
-		protected RMethod r_SetCursor_Cursor;
-		public virtual RMethod RSetCursor_Cursor
+		protected RMethod r_MSetCursor_Cursor;
+		public virtual RMethod RMSetCursor_Cursor
 		{
 			get
 			{
-				if(r_SetCursor_Cursor == null)
+				if(r_MSetCursor_Cursor == null)
 				{
-					r_SetCursor_Cursor = new(this, "SetCursor", 0, typeof(UnityEngine.UIElements.Cursor));
-					r_SetCursor_Cursor.SetBelong(this.instance);
+					r_MSetCursor_Cursor = new(this, "SetCursor", 0, typeof(UnityEngine.UIElements.Cursor));
+					r_MSetCursor_Cursor.SetBelong(this.instance);
 				}
-				return r_SetCursor_Cursor;
+				return r_MSetCursor_Cursor;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetCursor()
 		/// </summary>
-		protected RMethod r_ResetCursor;
-		public virtual RMethod RResetCursor
+		protected RMethod r_MResetCursor;
+		public virtual RMethod RMResetCursor
 		{
 			get
 			{
-				if(r_ResetCursor == null)
+				if(r_MResetCursor == null)
 				{
-					r_ResetCursor = new(this, "ResetCursor", 0);
-					r_ResetCursor.SetBelong(this.instance);
+					r_MResetCursor = new(this, "ResetCursor", 0);
+					r_MResetCursor.SetBelong(this.instance);
 				}
-				return r_ResetCursor;
+				return r_MResetCursor;
 			}
 		}
 
@@ -67,7 +67,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cursor};
-            var ___result = RSetCursor_Cursor.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetCursor_Cursor.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -78,7 +78,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RResetCursor.Invoke(___genericsType, ___parameters);
+            var ___result = RMResetCursor.Invoke(___genericsType, ___parameters);
 
             
         }

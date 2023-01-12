@@ -13,289 +13,289 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.PermissionSet perms
 		/// </summary>
-		protected RSystem.RSecurity.RPermissionSet r_perms;
-		public virtual RSystem.RSecurity.RPermissionSet Rperms
+		protected RSystem.RSecurity.RPermissionSet r_Fperms;
+		public virtual RSystem.RSecurity.RPermissionSet RFperms
 		{
 			get
 			{
-				if(r_perms == null)
+				if(r_Fperms == null)
 				{
-					r_perms = new(this, "perms");
-					r_perms.SetBelong(this.instance);
+					r_Fperms = new(this, "perms");
+					r_Fperms.SetBelong(this.instance);
 				}
-				return r_perms;
+				return r_Fperms;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.PolicyStatementAttribute attrs
 		/// </summary>
-		protected RField r_attrs;
-		public virtual RField Rattrs
+		protected RSystem.RSecurity.RPolicy.RPolicyStatementAttribute r_Fattrs;
+		public virtual RSystem.RSecurity.RPolicy.RPolicyStatementAttribute RFattrs
 		{
 			get
 			{
-				if(r_attrs == null)
+				if(r_Fattrs == null)
 				{
-					r_attrs = new(this, "attrs");
-					r_attrs.SetBelong(this.instance);
+					r_Fattrs = new(this, "attrs");
+					r_Fattrs.SetBelong(this.instance);
 				}
-				return r_attrs;
+				return r_Fattrs;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.PermissionSet PermissionSet
 		/// </summary>
-		protected RSystem.RSecurity.RPermissionSet r_PermissionSet;
-		public virtual RSystem.RSecurity.RPermissionSet RPermissionSet
+		protected RSystem.RSecurity.RPermissionSet r_PPermissionSet;
+		public virtual RSystem.RSecurity.RPermissionSet RPPermissionSet
 		{
 			get
 			{
-				if(r_PermissionSet == null)
+				if(r_PPermissionSet == null)
 				{
-					r_PermissionSet = new(this, "PermissionSet", -1);
-					r_PermissionSet.SetBelong(this.instance);
+					r_PPermissionSet = new(this, "PermissionSet", -1);
+					r_PPermissionSet.SetBelong(this.instance);
 				}
-				return r_PermissionSet;
+				return r_PPermissionSet;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.PolicyStatementAttribute Attributes
 		/// </summary>
-		protected RProperty r_Attributes;
-		public virtual RProperty RAttributes
+		protected RSystem.RSecurity.RPolicy.RPolicyStatementAttribute r_PAttributes;
+		public virtual RSystem.RSecurity.RPolicy.RPolicyStatementAttribute RPAttributes
 		{
 			get
 			{
-				if(r_Attributes == null)
+				if(r_PAttributes == null)
 				{
-					r_Attributes = new(this, "Attributes", -1);
-					r_Attributes.SetBelong(this.instance);
+					r_PAttributes = new(this, "Attributes", -1);
+					r_PAttributes.SetBelong(this.instance);
 				}
-				return r_Attributes;
+				return r_PAttributes;
 			}
 		}
 
 		/// <summary>
 		/// System.String AttributeString
 		/// </summary>
-		protected RSystem.RString r_AttributeString;
-		public virtual RSystem.RString RAttributeString
+		protected RSystem.RString r_PAttributeString;
+		public virtual RSystem.RString RPAttributeString
 		{
 			get
 			{
-				if(r_AttributeString == null)
+				if(r_PAttributeString == null)
 				{
-					r_AttributeString = new(this, "AttributeString", -1);
-					r_AttributeString.SetBelong(this.instance);
+					r_PAttributeString = new(this, "AttributeString", -1);
+					r_PAttributeString.SetBelong(this.instance);
 				}
-				return r_AttributeString;
+				return r_PAttributeString;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.PolicyStatement Copy()
 		/// </summary>
-		protected RMethod r_Copy;
-		public virtual RMethod RCopy
+		protected RMethod r_MCopy;
+		public virtual RMethod RMCopy
 		{
 			get
 			{
-				if(r_Copy == null)
+				if(r_MCopy == null)
 				{
-					r_Copy = new(this, "Copy", 0);
-					r_Copy.SetBelong(this.instance);
+					r_MCopy = new(this, "Copy", 0);
+					r_MCopy.SetBelong(this.instance);
 				}
-				return r_Copy;
+				return r_MCopy;
 			}
 		}
 
 		/// <summary>
 		/// Void FromXml(System.Security.SecurityElement)
 		/// </summary>
-		protected RMethod r_FromXml_SecurityElement;
-		public virtual RMethod RFromXml_SecurityElement
+		protected RMethod r_MFromXml_SecurityElement;
+		public virtual RMethod RMFromXml_SecurityElement
 		{
 			get
 			{
-				if(r_FromXml_SecurityElement == null)
+				if(r_MFromXml_SecurityElement == null)
 				{
-					r_FromXml_SecurityElement = new(this, "FromXml", 0, typeof(System.Security.SecurityElement));
-					r_FromXml_SecurityElement.SetBelong(this.instance);
+					r_MFromXml_SecurityElement = new(this, "FromXml", 0, typeof(System.Security.SecurityElement));
+					r_MFromXml_SecurityElement.SetBelong(this.instance);
 				}
-				return r_FromXml_SecurityElement;
+				return r_MFromXml_SecurityElement;
 			}
 		}
 
 		/// <summary>
 		/// Void FromXml(System.Security.SecurityElement, System.Security.Policy.PolicyLevel)
 		/// </summary>
-		protected RMethod r_FromXml_SecurityElement_PolicyLevel;
-		public virtual RMethod RFromXml_SecurityElement_PolicyLevel
+		protected RMethod r_MFromXml_SecurityElement_PolicyLevel;
+		public virtual RMethod RMFromXml_SecurityElement_PolicyLevel
 		{
 			get
 			{
-				if(r_FromXml_SecurityElement_PolicyLevel == null)
+				if(r_MFromXml_SecurityElement_PolicyLevel == null)
 				{
-					r_FromXml_SecurityElement_PolicyLevel = new(this, "FromXml", 0, typeof(System.Security.SecurityElement), typeof(System.Security.Policy.PolicyLevel));
-					r_FromXml_SecurityElement_PolicyLevel.SetBelong(this.instance);
+					r_MFromXml_SecurityElement_PolicyLevel = new(this, "FromXml", 0, typeof(System.Security.SecurityElement), typeof(System.Security.Policy.PolicyLevel));
+					r_MFromXml_SecurityElement_PolicyLevel.SetBelong(this.instance);
 				}
-				return r_FromXml_SecurityElement_PolicyLevel;
+				return r_MFromXml_SecurityElement_PolicyLevel;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.SecurityElement ToXml()
 		/// </summary>
-		protected RMethod r_ToXml;
-		public virtual RMethod RToXml
+		protected RMethod r_MToXml;
+		public virtual RMethod RMToXml
 		{
 			get
 			{
-				if(r_ToXml == null)
+				if(r_MToXml == null)
 				{
-					r_ToXml = new(this, "ToXml", 0);
-					r_ToXml.SetBelong(this.instance);
+					r_MToXml = new(this, "ToXml", 0);
+					r_MToXml.SetBelong(this.instance);
 				}
-				return r_ToXml;
+				return r_MToXml;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.SecurityElement ToXml(System.Security.Policy.PolicyLevel)
 		/// </summary>
-		protected RMethod r_ToXml_PolicyLevel;
-		public virtual RMethod RToXml_PolicyLevel
+		protected RMethod r_MToXml_PolicyLevel;
+		public virtual RMethod RMToXml_PolicyLevel
 		{
 			get
 			{
-				if(r_ToXml_PolicyLevel == null)
+				if(r_MToXml_PolicyLevel == null)
 				{
-					r_ToXml_PolicyLevel = new(this, "ToXml", 0, typeof(System.Security.Policy.PolicyLevel));
-					r_ToXml_PolicyLevel.SetBelong(this.instance);
+					r_MToXml_PolicyLevel = new(this, "ToXml", 0, typeof(System.Security.Policy.PolicyLevel));
+					r_MToXml_PolicyLevel.SetBelong(this.instance);
 				}
-				return r_ToXml_PolicyLevel;
+				return r_MToXml_PolicyLevel;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.PolicyStatement Empty()
 		/// </summary>
-		protected static RMethod r_Empty;
-		public static RMethod REmpty
+		protected static RMethod r_MEmpty;
+		public static RMethod RMEmpty
 		{
 			get
 			{
-				if(r_Empty == null)
+				if(r_MEmpty == null)
 				{
-					r_Empty = new(typeof(System.Security.Policy.PolicyStatement), "Empty", 0);
-					r_Empty.SetBelong(null);
+					r_MEmpty = new(typeof(System.Security.Policy.PolicyStatement), "Empty", 0);
+					r_MEmpty.SetBelong(null);
 				}
-				return r_Empty;
+				return r_MEmpty;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
@@ -322,7 +322,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCopy.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
             return (System.Security.Policy.PolicyStatement)___result;
         }
@@ -333,7 +333,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@et};
-            var ___result = RFromXml_SecurityElement.Invoke(___genericsType, ___parameters);
+            var ___result = RMFromXml_SecurityElement.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -344,7 +344,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@et, @level};
-            var ___result = RFromXml_SecurityElement_PolicyLevel.Invoke(___genericsType, ___parameters);
+            var ___result = RMFromXml_SecurityElement_PolicyLevel.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -355,7 +355,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToXml.Invoke(___genericsType, ___parameters);
+            var ___result = RMToXml.Invoke(___genericsType, ___parameters);
 
             return (System.Security.SecurityElement)___result;
         }
@@ -366,7 +366,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@level};
-            var ___result = RToXml_PolicyLevel.Invoke(___genericsType, ___parameters);
+            var ___result = RMToXml_PolicyLevel.Invoke(___genericsType, ___parameters);
 
             return (System.Security.SecurityElement)___result;
         }
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -388,7 +388,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -399,7 +399,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = REmpty.Invoke(___genericsType, ___parameters);
+            var ___result = RMEmpty.Invoke(___genericsType, ___parameters);
 
             return (System.Security.Policy.PolicyStatement)___result;
         }
@@ -410,7 +410,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -421,7 +421,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -432,7 +432,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -443,7 +443,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }

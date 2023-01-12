@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// T Copy()
 		/// </summary>
-		protected RMethod r_Copy;
-		public virtual RMethod RCopy
+		protected RMethod r_MCopy;
+		public virtual RMethod RMCopy
 		{
 			get
 			{
-				if(r_Copy == null)
+				if(r_MCopy == null)
 				{
-					r_Copy = new(this, "Copy", 0);
-					r_Copy.SetBelong(this.instance);
+					r_MCopy = new(this, "Copy", 0);
+					r_MCopy.SetBelong(this.instance);
 				}
-				return r_Copy;
+				return r_MCopy;
 			}
 		}
 
 		/// <summary>
 		/// Void CopyFrom(T ByRef)
 		/// </summary>
-		protected RMethod r_CopyFrom_Ref_T;
-		public virtual RMethod RCopyFrom_Ref_T
+		protected RMethod r_MCopyFrom_Ref_T;
+		public virtual RMethod RMCopyFrom_Ref_T
 		{
 			get
 			{
-				if(r_CopyFrom_Ref_T == null)
+				if(r_MCopyFrom_Ref_T == null)
 				{
-					r_CopyFrom_Ref_T = new(this, "CopyFrom", 0, Type.MakeGenericMethodParameter(0).MakeByRefType());
-					r_CopyFrom_Ref_T.SetBelong(this.instance);
+					r_MCopyFrom_Ref_T = new(this, "CopyFrom", 0, Type.MakeGenericMethodParameter(0).MakeByRefType());
+					r_MCopyFrom_Ref_T.SetBelong(this.instance);
 				}
-				return r_CopyFrom_Ref_T;
+				return r_MCopyFrom_Ref_T;
 			}
 		}
 
@@ -67,7 +67,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RCopy.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
             return (T)___result;
         }
@@ -78,7 +78,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other};
-            var ___result = RCopyFrom_Ref_T.Invoke(___genericsType, ___parameters);
+            var ___result = RMCopyFrom_Ref_T.Invoke(___genericsType, ___parameters);
 			@other = (T)___parameters[0];
 
             

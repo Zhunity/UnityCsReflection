@@ -13,3995 +13,3995 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Clickable m_Clickable
 		/// </summary>
-		protected RUnityEngine.RUIElements.RClickable r_m_Clickable;
-		public virtual RUnityEngine.RUIElements.RClickable Rm_Clickable
+		protected RUnityEngine.RUIElements.RClickable r_Fm_Clickable;
+		public virtual RUnityEngine.RUIElements.RClickable RFm_Clickable
 		{
 			get
 			{
-				if(r_m_Clickable == null)
+				if(r_Fm_Clickable == null)
 				{
-					r_m_Clickable = new(this, "m_Clickable");
-					r_m_Clickable.SetBelong(this.instance);
+					r_Fm_Clickable = new(this, "m_Clickable");
+					r_Fm_Clickable.SetBelong(this.instance);
 				}
-				return r_m_Clickable;
+				return r_Fm_Clickable;
 			}
 		}
 
 		/// <summary>
 		/// System.String ussClassName
 		/// </summary>
-		protected static RSystem.RString r_ussClassName;
-		public static RSystem.RString RussClassName
+		protected static RSystem.RString r_FussClassName;
+		public static RSystem.RString RFussClassName
 		{
 			get
 			{
-				if(r_ussClassName == null)
+				if(r_FussClassName == null)
 				{
-					r_ussClassName = new(typeof(UnityEngine.UIElements.RepeatButton), "ussClassName");
-					r_ussClassName.SetBelong(null);
+					r_FussClassName = new(typeof(UnityEngine.UIElements.RepeatButton), "ussClassName");
+					r_FussClassName.SetBelong(null);
 				}
-				return r_ussClassName;
+				return r_FussClassName;
 			}
 		}
 
 		/// <summary>
 		/// System.String elidedText
 		/// </summary>
-		protected RSystem.RString r_elidedText;
-		public virtual RSystem.RString RelidedText
+		protected RSystem.RString r_FelidedText;
+		public virtual RSystem.RString RFelidedText
 		{
 			get
 			{
-				if(r_elidedText == null)
+				if(r_FelidedText == null)
 				{
-					r_elidedText = new(this, "elidedText");
-					r_elidedText.SetBelong(this.instance);
+					r_FelidedText = new(this, "elidedText");
+					r_FelidedText.SetBelong(this.instance);
 				}
-				return r_elidedText;
+				return r_FelidedText;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.TextEditingManipulator editingManipulator
 		/// </summary>
-		protected RUnityEngine.RUIElements.RTextEditingManipulator r_editingManipulator;
-		public virtual RUnityEngine.RUIElements.RTextEditingManipulator ReditingManipulator
+		protected RUnityEngine.RUIElements.RTextEditingManipulator r_FeditingManipulator;
+		public virtual RUnityEngine.RUIElements.RTextEditingManipulator RFeditingManipulator
 		{
 			get
 			{
-				if(r_editingManipulator == null)
+				if(r_FeditingManipulator == null)
 				{
-					r_editingManipulator = new(this, "editingManipulator");
-					r_editingManipulator.SetBelong(this.instance);
+					r_FeditingManipulator = new(this, "editingManipulator");
+					r_FeditingManipulator.SetBelong(this.instance);
 				}
-				return r_editingManipulator;
+				return r_FeditingManipulator;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags m_Flags
 		/// </summary>
-		protected RField r_m_Flags;
-		public virtual RField Rm_Flags
+		protected RUnityEngine.RUIElements.RVisualElementFlags r_Fm_Flags;
+		public virtual RUnityEngine.RUIElements.RVisualElementFlags RFm_Flags
 		{
 			get
 			{
-				if(r_m_Flags == null)
+				if(r_Fm_Flags == null)
 				{
-					r_m_Flags = new(this, "m_Flags");
-					r_m_Flags.SetBelong(this.instance);
+					r_Fm_Flags = new(this, "m_Flags");
+					r_Fm_Flags.SetBelong(this.instance);
 				}
-				return r_m_Flags;
+				return r_Fm_Flags;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect lastLayout
 		/// </summary>
-		protected RUnityEngine.RRect r_lastLayout;
-		public virtual RUnityEngine.RRect RlastLayout
+		protected RUnityEngine.RRect r_FlastLayout;
+		public virtual RUnityEngine.RRect RFlastLayout
 		{
 			get
 			{
-				if(r_lastLayout == null)
+				if(r_FlastLayout == null)
 				{
-					r_lastLayout = new(this, "lastLayout");
-					r_lastLayout.SetBelong(this.instance);
+					r_FlastLayout = new(this, "lastLayout");
+					r_FlastLayout.SetBelong(this.instance);
 				}
-				return r_lastLayout;
+				return r_FlastLayout;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect lastPseudoPadding
 		/// </summary>
-		protected RUnityEngine.RRect r_lastPseudoPadding;
-		public virtual RUnityEngine.RRect RlastPseudoPadding
+		protected RUnityEngine.RRect r_FlastPseudoPadding;
+		public virtual RUnityEngine.RRect RFlastPseudoPadding
 		{
 			get
 			{
-				if(r_lastPseudoPadding == null)
+				if(r_FlastPseudoPadding == null)
 				{
-					r_lastPseudoPadding = new(this, "lastPseudoPadding");
-					r_lastPseudoPadding.SetBelong(this.instance);
+					r_FlastPseudoPadding = new(this, "lastPseudoPadding");
+					r_FlastPseudoPadding.SetBelong(this.instance);
 				}
-				return r_lastPseudoPadding;
+				return r_FlastPseudoPadding;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderChainVEData renderChainData
 		/// </summary>
-		protected RUnityEngine.RUIElements.RUIR.RRenderChainVEData r_renderChainData;
-		public virtual RUnityEngine.RUIElements.RUIR.RRenderChainVEData RrenderChainData
+		protected RUnityEngine.RUIElements.RUIR.RRenderChainVEData r_FrenderChainData;
+		public virtual RUnityEngine.RUIElements.RUIR.RRenderChainVEData RFrenderChainData
 		{
 			get
 			{
-				if(r_renderChainData == null)
+				if(r_FrenderChainData == null)
 				{
-					r_renderChainData = new(this, "renderChainData");
-					r_renderChainData.SetBelong(this.instance);
+					r_FrenderChainData = new(this, "renderChainData");
+					r_FrenderChainData.SetBelong(this.instance);
 				}
-				return r_renderChainData;
+				return r_FrenderChainData;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.PseudoStates triggerPseudoMask
 		/// </summary>
-		protected RField r_triggerPseudoMask;
-		public virtual RField RtriggerPseudoMask
+		protected RUnityEngine.RUIElements.RPseudoStates r_FtriggerPseudoMask;
+		public virtual RUnityEngine.RUIElements.RPseudoStates RFtriggerPseudoMask
 		{
 			get
 			{
-				if(r_triggerPseudoMask == null)
+				if(r_FtriggerPseudoMask == null)
 				{
-					r_triggerPseudoMask = new(this, "triggerPseudoMask");
-					r_triggerPseudoMask.SetBelong(this.instance);
+					r_FtriggerPseudoMask = new(this, "triggerPseudoMask");
+					r_FtriggerPseudoMask.SetBelong(this.instance);
 				}
-				return r_triggerPseudoMask;
+				return r_FtriggerPseudoMask;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.PseudoStates dependencyPseudoMask
 		/// </summary>
-		protected RField r_dependencyPseudoMask;
-		public virtual RField RdependencyPseudoMask
+		protected RUnityEngine.RUIElements.RPseudoStates r_FdependencyPseudoMask;
+		public virtual RUnityEngine.RUIElements.RPseudoStates RFdependencyPseudoMask
 		{
 			get
 			{
-				if(r_dependencyPseudoMask == null)
+				if(r_FdependencyPseudoMask == null)
 				{
-					r_dependencyPseudoMask = new(this, "dependencyPseudoMask");
-					r_dependencyPseudoMask.SetBelong(this.instance);
+					r_FdependencyPseudoMask = new(this, "dependencyPseudoMask");
+					r_FdependencyPseudoMask.SetBelong(this.instance);
 				}
-				return r_dependencyPseudoMask;
+				return r_FdependencyPseudoMask;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.ComputedStyle m_Style
 		/// </summary>
-		protected RUnityEngine.RUIElements.RComputedStyle r_m_Style;
-		public virtual RUnityEngine.RUIElements.RComputedStyle Rm_Style
+		protected RUnityEngine.RUIElements.RComputedStyle r_Fm_Style;
+		public virtual RUnityEngine.RUIElements.RComputedStyle RFm_Style
 		{
 			get
 			{
-				if(r_m_Style == null)
+				if(r_Fm_Style == null)
 				{
-					r_m_Style = new(this, "m_Style");
-					r_m_Style.SetBelong(this.instance);
+					r_Fm_Style = new(this, "m_Style");
+					r_Fm_Style.SetBelong(this.instance);
 				}
-				return r_m_Style;
+				return r_Fm_Style;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleVariableContext variableContext
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleVariableContext r_variableContext;
-		public virtual RUnityEngine.RUIElements.RStyleVariableContext RvariableContext
+		protected RUnityEngine.RUIElements.RStyleVariableContext r_FvariableContext;
+		public virtual RUnityEngine.RUIElements.RStyleVariableContext RFvariableContext
 		{
 			get
 			{
-				if(r_variableContext == null)
+				if(r_FvariableContext == null)
 				{
-					r_variableContext = new(this, "variableContext");
-					r_variableContext.SetBelong(this.instance);
+					r_FvariableContext = new(this, "variableContext");
+					r_FvariableContext.SetBelong(this.instance);
 				}
-				return r_variableContext;
+				return r_FvariableContext;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 inheritedStylesHash
 		/// </summary>
-		protected RSystem.RInt32 r_inheritedStylesHash;
-		public virtual RSystem.RInt32 RinheritedStylesHash
+		protected RSystem.RInt32 r_FinheritedStylesHash;
+		public virtual RSystem.RInt32 RFinheritedStylesHash
 		{
 			get
 			{
-				if(r_inheritedStylesHash == null)
+				if(r_FinheritedStylesHash == null)
 				{
-					r_inheritedStylesHash = new(this, "inheritedStylesHash");
-					r_inheritedStylesHash.SetBelong(this.instance);
+					r_FinheritedStylesHash = new(this, "inheritedStylesHash");
+					r_FinheritedStylesHash.SetBelong(this.instance);
 				}
-				return r_inheritedStylesHash;
+				return r_FinheritedStylesHash;
 			}
 		}
 
 		/// <summary>
 		/// System.UInt32 controlid
 		/// </summary>
-		protected RSystem.RUInt32 r_controlid;
-		public virtual RSystem.RUInt32 Rcontrolid
+		protected RSystem.RUInt32 r_Fcontrolid;
+		public virtual RSystem.RUInt32 RFcontrolid
 		{
 			get
 			{
-				if(r_controlid == null)
+				if(r_Fcontrolid == null)
 				{
-					r_controlid = new(this, "controlid");
-					r_controlid.SetBelong(this.instance);
+					r_Fcontrolid = new(this, "controlid");
+					r_Fcontrolid.SetBelong(this.instance);
 				}
-				return r_controlid;
+				return r_Fcontrolid;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 imguiContainerDescendantCount
 		/// </summary>
-		protected RSystem.RInt32 r_imguiContainerDescendantCount;
-		public virtual RSystem.RInt32 RimguiContainerDescendantCount
+		protected RSystem.RInt32 r_FimguiContainerDescendantCount;
+		public virtual RSystem.RInt32 RFimguiContainerDescendantCount
 		{
 			get
 			{
-				if(r_imguiContainerDescendantCount == null)
+				if(r_FimguiContainerDescendantCount == null)
 				{
-					r_imguiContainerDescendantCount = new(this, "imguiContainerDescendantCount");
-					r_imguiContainerDescendantCount.SetBelong(this.instance);
+					r_FimguiContainerDescendantCount = new(this, "imguiContainerDescendantCount");
+					r_FimguiContainerDescendantCount.SetBelong(this.instance);
 				}
-				return r_imguiContainerDescendantCount;
+				return r_FimguiContainerDescendantCount;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.InlineStyleAccess inlineStyleAccess
 		/// </summary>
-		protected RUnityEngine.RUIElements.RInlineStyleAccess r_inlineStyleAccess;
-		public virtual RUnityEngine.RUIElements.RInlineStyleAccess RinlineStyleAccess
+		protected RUnityEngine.RUIElements.RInlineStyleAccess r_FinlineStyleAccess;
+		public virtual RUnityEngine.RUIElements.RInlineStyleAccess RFinlineStyleAccess
 		{
 			get
 			{
-				if(r_inlineStyleAccess == null)
+				if(r_FinlineStyleAccess == null)
 				{
-					r_inlineStyleAccess = new(this, "inlineStyleAccess");
-					r_inlineStyleAccess.SetBelong(this.instance);
+					r_FinlineStyleAccess = new(this, "inlineStyleAccess");
+					r_FinlineStyleAccess.SetBelong(this.instance);
 				}
-				return r_inlineStyleAccess;
+				return r_FinlineStyleAccess;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSheet] styleSheetList
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheet> r_styleSheetList;
-		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheet> RstyleSheetList
+		protected RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheet> r_FstyleSheetList;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheet> RFstyleSheetList
 		{
 			get
 			{
-				if(r_styleSheetList == null)
+				if(r_FstyleSheetList == null)
 				{
-					r_styleSheetList = new(this, "styleSheetList");
-					r_styleSheetList.SetBelong(this.instance);
+					r_FstyleSheetList = new(this, "styleSheetList");
+					r_FstyleSheetList.SetBelong(this.instance);
 				}
-				return r_styleSheetList;
+				return r_FstyleSheetList;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean isIMGUIContainer
 		/// </summary>
-		protected RSystem.RBoolean r_isIMGUIContainer;
-		public virtual RSystem.RBoolean RisIMGUIContainer
+		protected RSystem.RBoolean r_FisIMGUIContainer;
+		public virtual RSystem.RBoolean RFisIMGUIContainer
 		{
 			get
 			{
-				if(r_isIMGUIContainer == null)
+				if(r_FisIMGUIContainer == null)
 				{
-					r_isIMGUIContainer = new(this, "isIMGUIContainer");
-					r_isIMGUIContainer.SetBelong(this.instance);
+					r_FisIMGUIContainer = new(this, "isIMGUIContainer");
+					r_FisIMGUIContainer.SetBelong(this.instance);
 				}
-				return r_isIMGUIContainer;
+				return r_FisIMGUIContainer;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UITKTextHandle uitkTextHandle
 		/// </summary>
-		protected RUnityEngine.RUIElements.RUITKTextHandle r_uitkTextHandle;
-		public virtual RUnityEngine.RUIElements.RUITKTextHandle RuitkTextHandle
+		protected RUnityEngine.RUIElements.RUITKTextHandle r_PuitkTextHandle;
+		public virtual RUnityEngine.RUIElements.RUITKTextHandle RPuitkTextHandle
 		{
 			get
 			{
-				if(r_uitkTextHandle == null)
+				if(r_PuitkTextHandle == null)
 				{
-					r_uitkTextHandle = new(this, "uitkTextHandle", -1);
-					r_uitkTextHandle.SetBelong(this.instance);
+					r_PuitkTextHandle = new(this, "uitkTextHandle", -1);
+					r_PuitkTextHandle.SetBelong(this.instance);
 				}
-				return r_uitkTextHandle;
+				return r_PuitkTextHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected RSystem.RString r_text;
-		public virtual RSystem.RString Rtext
+		protected RSystem.RString r_Ptext;
+		public virtual RSystem.RString RPtext
 		{
 			get
 			{
-				if(r_text == null)
+				if(r_Ptext == null)
 				{
-					r_text = new(this, "text", -1);
-					r_text.SetBelong(this.instance);
+					r_Ptext = new(this, "text", -1);
+					r_Ptext.SetBelong(this.instance);
 				}
-				return r_text;
+				return r_Ptext;
 			}
 		}
 
 		/// <summary>
 		/// Boolean enableRichText
 		/// </summary>
-		protected RSystem.RBoolean r_enableRichText;
-		public virtual RSystem.RBoolean RenableRichText
+		protected RSystem.RBoolean r_PenableRichText;
+		public virtual RSystem.RBoolean RPenableRichText
 		{
 			get
 			{
-				if(r_enableRichText == null)
+				if(r_PenableRichText == null)
 				{
-					r_enableRichText = new(this, "enableRichText", -1);
-					r_enableRichText.SetBelong(this.instance);
+					r_PenableRichText = new(this, "enableRichText", -1);
+					r_PenableRichText.SetBelong(this.instance);
 				}
-				return r_enableRichText;
+				return r_PenableRichText;
 			}
 		}
 
 		/// <summary>
 		/// Boolean displayTooltipWhenElided
 		/// </summary>
-		protected RSystem.RBoolean r_displayTooltipWhenElided;
-		public virtual RSystem.RBoolean RdisplayTooltipWhenElided
+		protected RSystem.RBoolean r_PdisplayTooltipWhenElided;
+		public virtual RSystem.RBoolean RPdisplayTooltipWhenElided
 		{
 			get
 			{
-				if(r_displayTooltipWhenElided == null)
+				if(r_PdisplayTooltipWhenElided == null)
 				{
-					r_displayTooltipWhenElided = new(this, "displayTooltipWhenElided", -1);
-					r_displayTooltipWhenElided.SetBelong(this.instance);
+					r_PdisplayTooltipWhenElided = new(this, "displayTooltipWhenElided", -1);
+					r_PdisplayTooltipWhenElided.SetBelong(this.instance);
 				}
-				return r_displayTooltipWhenElided;
+				return r_PdisplayTooltipWhenElided;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isElided
 		/// </summary>
-		protected RSystem.RBoolean r_isElided;
-		public virtual RSystem.RBoolean RisElided
+		protected RSystem.RBoolean r_PisElided;
+		public virtual RSystem.RBoolean RPisElided
 		{
 			get
 			{
-				if(r_isElided == null)
+				if(r_PisElided == null)
 				{
-					r_isElided = new(this, "isElided", -1);
-					r_isElided.SetBelong(this.instance);
+					r_PisElided = new(this, "isElided", -1);
+					r_PisElided.SetBelong(this.instance);
 				}
-				return r_isElided;
+				return r_PisElided;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.ITextEdition edition
 		/// </summary>
-		protected RUnityEngine.RUIElements.RITextEdition r_edition;
-		public virtual RUnityEngine.RUIElements.RITextEdition Redition
+		protected RUnityEngine.RUIElements.RITextEdition r_Pedition;
+		public virtual RUnityEngine.RUIElements.RITextEdition RPedition
 		{
 			get
 			{
-				if(r_edition == null)
+				if(r_Pedition == null)
 				{
-					r_edition = new(this, "edition", -1);
-					r_edition.SetBelong(this.instance);
+					r_Pedition = new(this, "edition", -1);
+					r_Pedition.SetBelong(this.instance);
 				}
-				return r_edition;
+				return r_Pedition;
 			}
 		}
 
 		/// <summary>
 		/// System.String renderedText
 		/// </summary>
-		protected RSystem.RString r_renderedText;
-		public virtual RSystem.RString RrenderedText
+		protected RSystem.RString r_PrenderedText;
+		public virtual RSystem.RString RPrenderedText
 		{
 			get
 			{
-				if(r_renderedText == null)
+				if(r_PrenderedText == null)
 				{
-					r_renderedText = new(this, "renderedText", -1);
-					r_renderedText.SetBelong(this.instance);
+					r_PrenderedText = new(this, "renderedText", -1);
+					r_PrenderedText.SetBelong(this.instance);
 				}
-				return r_renderedText;
+				return r_PrenderedText;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.ITextSelection selection
 		/// </summary>
-		protected RUnityEngine.RUIElements.RITextSelection r_selection;
-		public virtual RUnityEngine.RUIElements.RITextSelection Rselection
+		protected RUnityEngine.RUIElements.RITextSelection r_Pselection;
+		public virtual RUnityEngine.RUIElements.RITextSelection RPselection
 		{
 			get
 			{
-				if(r_selection == null)
+				if(r_Pselection == null)
 				{
-					r_selection = new(this, "selection", -1);
-					r_selection.SetBelong(this.instance);
+					r_Pselection = new(this, "selection", -1);
+					r_Pselection.SetBelong(this.instance);
 				}
-				return r_selection;
+				return r_Pselection;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.TextSelectingManipulator selectingManipulator
 		/// </summary>
-		protected RUnityEngine.RUIElements.RTextSelectingManipulator r_selectingManipulator;
-		public virtual RUnityEngine.RUIElements.RTextSelectingManipulator RselectingManipulator
+		protected RUnityEngine.RUIElements.RTextSelectingManipulator r_PselectingManipulator;
+		public virtual RUnityEngine.RUIElements.RTextSelectingManipulator RPselectingManipulator
 		{
 			get
 			{
-				if(r_selectingManipulator == null)
+				if(r_PselectingManipulator == null)
 				{
-					r_selectingManipulator = new(this, "selectingManipulator", -1);
-					r_selectingManipulator.SetBelong(this.instance);
+					r_PselectingManipulator = new(this, "selectingManipulator", -1);
+					r_PselectingManipulator.SetBelong(this.instance);
 				}
-				return r_selectingManipulator;
+				return r_PselectingManipulator;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.IBinding binding
 		/// </summary>
-		protected RUnityEngine.RUIElements.RIBinding r_binding;
-		public virtual RUnityEngine.RUIElements.RIBinding Rbinding
+		protected RUnityEngine.RUIElements.RIBinding r_Pbinding;
+		public virtual RUnityEngine.RUIElements.RIBinding RPbinding
 		{
 			get
 			{
-				if(r_binding == null)
+				if(r_Pbinding == null)
 				{
-					r_binding = new(this, "binding", -1);
-					r_binding.SetBelong(this.instance);
+					r_Pbinding = new(this, "binding", -1);
+					r_Pbinding.SetBelong(this.instance);
 				}
-				return r_binding;
+				return r_Pbinding;
 			}
 		}
 
 		/// <summary>
 		/// System.String bindingPath
 		/// </summary>
-		protected RSystem.RString r_bindingPath;
-		public virtual RSystem.RString RbindingPath
+		protected RSystem.RString r_PbindingPath;
+		public virtual RSystem.RString RPbindingPath
 		{
 			get
 			{
-				if(r_bindingPath == null)
+				if(r_PbindingPath == null)
 				{
-					r_bindingPath = new(this, "bindingPath", -1);
-					r_bindingPath.SetBelong(this.instance);
+					r_PbindingPath = new(this, "bindingPath", -1);
+					r_PbindingPath.SetBelong(this.instance);
 				}
-				return r_bindingPath;
+				return r_PbindingPath;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.IResolvedStyle resolvedStyle
 		/// </summary>
-		protected RUnityEngine.RUIElements.RIResolvedStyle r_resolvedStyle;
-		public virtual RUnityEngine.RUIElements.RIResolvedStyle RresolvedStyle
+		protected RUnityEngine.RUIElements.RIResolvedStyle r_PresolvedStyle;
+		public virtual RUnityEngine.RUIElements.RIResolvedStyle RPresolvedStyle
 		{
 			get
 			{
-				if(r_resolvedStyle == null)
+				if(r_PresolvedStyle == null)
 				{
-					r_resolvedStyle = new(this, "resolvedStyle", -1);
-					r_resolvedStyle.SetBelong(this.instance);
+					r_PresolvedStyle = new(this, "resolvedStyle", -1);
+					r_PresolvedStyle.SetBelong(this.instance);
 				}
-				return r_resolvedStyle;
+				return r_PresolvedStyle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean hasRunningAnimations
 		/// </summary>
-		protected RSystem.RBoolean r_hasRunningAnimations;
-		public virtual RSystem.RBoolean RhasRunningAnimations
+		protected RSystem.RBoolean r_PhasRunningAnimations;
+		public virtual RSystem.RBoolean RPhasRunningAnimations
 		{
 			get
 			{
-				if(r_hasRunningAnimations == null)
+				if(r_PhasRunningAnimations == null)
 				{
-					r_hasRunningAnimations = new(this, "hasRunningAnimations", -1);
-					r_hasRunningAnimations.SetBelong(this.instance);
+					r_PhasRunningAnimations = new(this, "hasRunningAnimations", -1);
+					r_PhasRunningAnimations.SetBelong(this.instance);
 				}
-				return r_hasRunningAnimations;
+				return r_PhasRunningAnimations;
 			}
 		}
 
 		/// <summary>
 		/// Boolean hasCompletedAnimations
 		/// </summary>
-		protected RSystem.RBoolean r_hasCompletedAnimations;
-		public virtual RSystem.RBoolean RhasCompletedAnimations
+		protected RSystem.RBoolean r_PhasCompletedAnimations;
+		public virtual RSystem.RBoolean RPhasCompletedAnimations
 		{
 			get
 			{
-				if(r_hasCompletedAnimations == null)
+				if(r_PhasCompletedAnimations == null)
 				{
-					r_hasCompletedAnimations = new(this, "hasCompletedAnimations", -1);
-					r_hasCompletedAnimations.SetBelong(this.instance);
+					r_PhasCompletedAnimations = new(this, "hasCompletedAnimations", -1);
+					r_PhasCompletedAnimations.SetBelong(this.instance);
 				}
-				return r_hasCompletedAnimations;
+				return r_PhasCompletedAnimations;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.IStylePropertyAnimations styleAnimation
 		/// </summary>
-		protected RUnityEngine.RUIElements.RIStylePropertyAnimations r_styleAnimation;
-		public virtual RUnityEngine.RUIElements.RIStylePropertyAnimations RstyleAnimation
+		protected RUnityEngine.RUIElements.RIStylePropertyAnimations r_PstyleAnimation;
+		public virtual RUnityEngine.RUIElements.RIStylePropertyAnimations RPstyleAnimation
 		{
 			get
 			{
-				if(r_styleAnimation == null)
+				if(r_PstyleAnimation == null)
 				{
-					r_styleAnimation = new(this, "styleAnimation", -1);
-					r_styleAnimation.SetBelong(this.instance);
+					r_PstyleAnimation = new(this, "styleAnimation", -1);
+					r_PstyleAnimation.SetBelong(this.instance);
 				}
-				return r_styleAnimation;
+				return r_PstyleAnimation;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isCompositeRoot
 		/// </summary>
-		protected RSystem.RBoolean r_isCompositeRoot;
-		public virtual RSystem.RBoolean RisCompositeRoot
+		protected RSystem.RBoolean r_PisCompositeRoot;
+		public virtual RSystem.RBoolean RPisCompositeRoot
 		{
 			get
 			{
-				if(r_isCompositeRoot == null)
+				if(r_PisCompositeRoot == null)
 				{
-					r_isCompositeRoot = new(this, "isCompositeRoot", -1);
-					r_isCompositeRoot.SetBelong(this.instance);
+					r_PisCompositeRoot = new(this, "isCompositeRoot", -1);
+					r_PisCompositeRoot.SetBelong(this.instance);
 				}
-				return r_isCompositeRoot;
+				return r_PisCompositeRoot;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isHierarchyDisplayed
 		/// </summary>
-		protected RSystem.RBoolean r_isHierarchyDisplayed;
-		public virtual RSystem.RBoolean RisHierarchyDisplayed
+		protected RSystem.RBoolean r_PisHierarchyDisplayed;
+		public virtual RSystem.RBoolean RPisHierarchyDisplayed
 		{
 			get
 			{
-				if(r_isHierarchyDisplayed == null)
+				if(r_PisHierarchyDisplayed == null)
 				{
-					r_isHierarchyDisplayed = new(this, "isHierarchyDisplayed", -1);
-					r_isHierarchyDisplayed.SetBelong(this.instance);
+					r_PisHierarchyDisplayed = new(this, "isHierarchyDisplayed", -1);
+					r_PisHierarchyDisplayed.SetBelong(this.instance);
 				}
-				return r_isHierarchyDisplayed;
+				return r_PisHierarchyDisplayed;
 			}
 		}
 
 		/// <summary>
 		/// System.String viewDataKey
 		/// </summary>
-		protected RSystem.RString r_viewDataKey;
-		public virtual RSystem.RString RviewDataKey
+		protected RSystem.RString r_PviewDataKey;
+		public virtual RSystem.RString RPviewDataKey
 		{
 			get
 			{
-				if(r_viewDataKey == null)
+				if(r_PviewDataKey == null)
 				{
-					r_viewDataKey = new(this, "viewDataKey", -1);
-					r_viewDataKey.SetBelong(this.instance);
+					r_PviewDataKey = new(this, "viewDataKey", -1);
+					r_PviewDataKey.SetBelong(this.instance);
 				}
-				return r_viewDataKey;
+				return r_PviewDataKey;
 			}
 		}
 
 		/// <summary>
 		/// Boolean enableViewDataPersistence
 		/// </summary>
-		protected RSystem.RBoolean r_enableViewDataPersistence;
-		public virtual RSystem.RBoolean RenableViewDataPersistence
+		protected RSystem.RBoolean r_PenableViewDataPersistence;
+		public virtual RSystem.RBoolean RPenableViewDataPersistence
 		{
 			get
 			{
-				if(r_enableViewDataPersistence == null)
+				if(r_PenableViewDataPersistence == null)
 				{
-					r_enableViewDataPersistence = new(this, "enableViewDataPersistence", -1);
-					r_enableViewDataPersistence.SetBelong(this.instance);
+					r_PenableViewDataPersistence = new(this, "enableViewDataPersistence", -1);
+					r_PenableViewDataPersistence.SetBelong(this.instance);
 				}
-				return r_enableViewDataPersistence;
+				return r_PenableViewDataPersistence;
 			}
 		}
 
 		/// <summary>
 		/// System.Object userData
 		/// </summary>
-		protected RSystem.RObject r_userData;
-		public virtual RSystem.RObject RuserData
+		protected RSystem.RObject r_PuserData;
+		public virtual RSystem.RObject RPuserData
 		{
 			get
 			{
-				if(r_userData == null)
+				if(r_PuserData == null)
 				{
-					r_userData = new(this, "userData", -1);
-					r_userData.SetBelong(this.instance);
+					r_PuserData = new(this, "userData", -1);
+					r_PuserData.SetBelong(this.instance);
 				}
-				return r_userData;
+				return r_PuserData;
 			}
 		}
 
 		/// <summary>
 		/// Boolean canGrabFocus
 		/// </summary>
-		protected RSystem.RBoolean r_canGrabFocus;
-		public virtual RSystem.RBoolean RcanGrabFocus
+		protected RSystem.RBoolean r_PcanGrabFocus;
+		public virtual RSystem.RBoolean RPcanGrabFocus
 		{
 			get
 			{
-				if(r_canGrabFocus == null)
+				if(r_PcanGrabFocus == null)
 				{
-					r_canGrabFocus = new(this, "canGrabFocus", -1);
-					r_canGrabFocus.SetBelong(this.instance);
+					r_PcanGrabFocus = new(this, "canGrabFocus", -1);
+					r_PcanGrabFocus.SetBelong(this.instance);
 				}
-				return r_canGrabFocus;
+				return r_PcanGrabFocus;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.FocusController focusController
 		/// </summary>
-		protected RUnityEngine.RUIElements.RFocusController r_focusController;
-		public virtual RUnityEngine.RUIElements.RFocusController RfocusController
+		protected RUnityEngine.RUIElements.RFocusController r_PfocusController;
+		public virtual RUnityEngine.RUIElements.RFocusController RPfocusController
 		{
 			get
 			{
-				if(r_focusController == null)
+				if(r_PfocusController == null)
 				{
-					r_focusController = new(this, "focusController", -1);
-					r_focusController.SetBelong(this.instance);
+					r_PfocusController = new(this, "focusController", -1);
+					r_PfocusController.SetBelong(this.instance);
 				}
-				return r_focusController;
+				return r_PfocusController;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UsageHints usageHints
 		/// </summary>
-		protected RProperty r_usageHints;
-		public virtual RProperty RusageHints
+		protected RUnityEngine.RUIElements.RUsageHints r_PusageHints;
+		public virtual RUnityEngine.RUIElements.RUsageHints RPusageHints
 		{
 			get
 			{
-				if(r_usageHints == null)
+				if(r_PusageHints == null)
 				{
-					r_usageHints = new(this, "usageHints", -1);
-					r_usageHints.SetBelong(this.instance);
+					r_PusageHints = new(this, "usageHints", -1);
+					r_PusageHints.SetBelong(this.instance);
 				}
-				return r_usageHints;
+				return r_PusageHints;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.RenderHints renderHints
 		/// </summary>
-		protected RProperty r_renderHints;
-		public virtual RProperty RrenderHints
+		protected RUnityEngine.RUIElements.RRenderHints r_PrenderHints;
+		public virtual RUnityEngine.RUIElements.RRenderHints RPrenderHints
 		{
 			get
 			{
-				if(r_renderHints == null)
+				if(r_PrenderHints == null)
 				{
-					r_renderHints = new(this, "renderHints", -1);
-					r_renderHints.SetBelong(this.instance);
+					r_PrenderHints = new(this, "renderHints", -1);
+					r_PrenderHints.SetBelong(this.instance);
 				}
-				return r_renderHints;
+				return r_PrenderHints;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.ITransform transform
 		/// </summary>
-		protected RUnityEngine.RUIElements.RITransform r_transform;
-		public virtual RUnityEngine.RUIElements.RITransform Rtransform
+		protected RUnityEngine.RUIElements.RITransform r_Ptransform;
+		public virtual RUnityEngine.RUIElements.RITransform RPtransform
 		{
 			get
 			{
-				if(r_transform == null)
+				if(r_Ptransform == null)
 				{
-					r_transform = new(this, "transform", -1);
-					r_transform.SetBelong(this.instance);
+					r_Ptransform = new(this, "transform", -1);
+					r_Ptransform.SetBelong(this.instance);
 				}
-				return r_transform;
+				return r_Ptransform;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isLayoutManual
 		/// </summary>
-		protected RSystem.RBoolean r_isLayoutManual;
-		public virtual RSystem.RBoolean RisLayoutManual
+		protected RSystem.RBoolean r_PisLayoutManual;
+		public virtual RSystem.RBoolean RPisLayoutManual
 		{
 			get
 			{
-				if(r_isLayoutManual == null)
+				if(r_PisLayoutManual == null)
 				{
-					r_isLayoutManual = new(this, "isLayoutManual", -1);
-					r_isLayoutManual.SetBelong(this.instance);
+					r_PisLayoutManual = new(this, "isLayoutManual", -1);
+					r_PisLayoutManual.SetBelong(this.instance);
 				}
-				return r_isLayoutManual;
+				return r_PisLayoutManual;
 			}
 		}
 
 		/// <summary>
 		/// Single scaledPixelsPerPoint
 		/// </summary>
-		protected RSystem.RSingle r_scaledPixelsPerPoint;
-		public virtual RSystem.RSingle RscaledPixelsPerPoint
+		protected RSystem.RSingle r_PscaledPixelsPerPoint;
+		public virtual RSystem.RSingle RPscaledPixelsPerPoint
 		{
 			get
 			{
-				if(r_scaledPixelsPerPoint == null)
+				if(r_PscaledPixelsPerPoint == null)
 				{
-					r_scaledPixelsPerPoint = new(this, "scaledPixelsPerPoint", -1);
-					r_scaledPixelsPerPoint.SetBelong(this.instance);
+					r_PscaledPixelsPerPoint = new(this, "scaledPixelsPerPoint", -1);
+					r_PscaledPixelsPerPoint.SetBelong(this.instance);
 				}
-				return r_scaledPixelsPerPoint;
+				return r_PscaledPixelsPerPoint;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect layout
 		/// </summary>
-		protected RUnityEngine.RRect r_layout;
-		public virtual RUnityEngine.RRect Rlayout
+		protected RUnityEngine.RRect r_Playout;
+		public virtual RUnityEngine.RRect RPlayout
 		{
 			get
 			{
-				if(r_layout == null)
+				if(r_Playout == null)
 				{
-					r_layout = new(this, "layout", -1);
-					r_layout.SetBelong(this.instance);
+					r_Playout = new(this, "layout", -1);
+					r_Playout.SetBelong(this.instance);
 				}
-				return r_layout;
+				return r_Playout;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect contentRect
 		/// </summary>
-		protected RUnityEngine.RRect r_contentRect;
-		public virtual RUnityEngine.RRect RcontentRect
+		protected RUnityEngine.RRect r_PcontentRect;
+		public virtual RUnityEngine.RRect RPcontentRect
 		{
 			get
 			{
-				if(r_contentRect == null)
+				if(r_PcontentRect == null)
 				{
-					r_contentRect = new(this, "contentRect", -1);
-					r_contentRect.SetBelong(this.instance);
+					r_PcontentRect = new(this, "contentRect", -1);
+					r_PcontentRect.SetBelong(this.instance);
 				}
-				return r_contentRect;
+				return r_PcontentRect;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect paddingRect
 		/// </summary>
-		protected RUnityEngine.RRect r_paddingRect;
-		public virtual RUnityEngine.RRect RpaddingRect
+		protected RUnityEngine.RRect r_PpaddingRect;
+		public virtual RUnityEngine.RRect RPpaddingRect
 		{
 			get
 			{
-				if(r_paddingRect == null)
+				if(r_PpaddingRect == null)
 				{
-					r_paddingRect = new(this, "paddingRect", -1);
-					r_paddingRect.SetBelong(this.instance);
+					r_PpaddingRect = new(this, "paddingRect", -1);
+					r_PpaddingRect.SetBelong(this.instance);
 				}
-				return r_paddingRect;
+				return r_PpaddingRect;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isBoundingBoxDirty
 		/// </summary>
-		protected RSystem.RBoolean r_isBoundingBoxDirty;
-		public virtual RSystem.RBoolean RisBoundingBoxDirty
+		protected RSystem.RBoolean r_PisBoundingBoxDirty;
+		public virtual RSystem.RBoolean RPisBoundingBoxDirty
 		{
 			get
 			{
-				if(r_isBoundingBoxDirty == null)
+				if(r_PisBoundingBoxDirty == null)
 				{
-					r_isBoundingBoxDirty = new(this, "isBoundingBoxDirty", -1);
-					r_isBoundingBoxDirty.SetBelong(this.instance);
+					r_PisBoundingBoxDirty = new(this, "isBoundingBoxDirty", -1);
+					r_PisBoundingBoxDirty.SetBelong(this.instance);
 				}
-				return r_isBoundingBoxDirty;
+				return r_PisBoundingBoxDirty;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isWorldBoundingBoxDirty
 		/// </summary>
-		protected RSystem.RBoolean r_isWorldBoundingBoxDirty;
-		public virtual RSystem.RBoolean RisWorldBoundingBoxDirty
+		protected RSystem.RBoolean r_PisWorldBoundingBoxDirty;
+		public virtual RSystem.RBoolean RPisWorldBoundingBoxDirty
 		{
 			get
 			{
-				if(r_isWorldBoundingBoxDirty == null)
+				if(r_PisWorldBoundingBoxDirty == null)
 				{
-					r_isWorldBoundingBoxDirty = new(this, "isWorldBoundingBoxDirty", -1);
-					r_isWorldBoundingBoxDirty.SetBelong(this.instance);
+					r_PisWorldBoundingBoxDirty = new(this, "isWorldBoundingBoxDirty", -1);
+					r_PisWorldBoundingBoxDirty.SetBelong(this.instance);
 				}
-				return r_isWorldBoundingBoxDirty;
+				return r_PisWorldBoundingBoxDirty;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isWorldBoundingBoxOrDependenciesDirty
 		/// </summary>
-		protected RSystem.RBoolean r_isWorldBoundingBoxOrDependenciesDirty;
-		public virtual RSystem.RBoolean RisWorldBoundingBoxOrDependenciesDirty
+		protected RSystem.RBoolean r_PisWorldBoundingBoxOrDependenciesDirty;
+		public virtual RSystem.RBoolean RPisWorldBoundingBoxOrDependenciesDirty
 		{
 			get
 			{
-				if(r_isWorldBoundingBoxOrDependenciesDirty == null)
+				if(r_PisWorldBoundingBoxOrDependenciesDirty == null)
 				{
-					r_isWorldBoundingBoxOrDependenciesDirty = new(this, "isWorldBoundingBoxOrDependenciesDirty", -1);
-					r_isWorldBoundingBoxOrDependenciesDirty.SetBelong(this.instance);
+					r_PisWorldBoundingBoxOrDependenciesDirty = new(this, "isWorldBoundingBoxOrDependenciesDirty", -1);
+					r_PisWorldBoundingBoxOrDependenciesDirty.SetBelong(this.instance);
 				}
-				return r_isWorldBoundingBoxOrDependenciesDirty;
+				return r_PisWorldBoundingBoxOrDependenciesDirty;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect boundingBox
 		/// </summary>
-		protected RUnityEngine.RRect r_boundingBox;
-		public virtual RUnityEngine.RRect RboundingBox
+		protected RUnityEngine.RRect r_PboundingBox;
+		public virtual RUnityEngine.RRect RPboundingBox
 		{
 			get
 			{
-				if(r_boundingBox == null)
+				if(r_PboundingBox == null)
 				{
-					r_boundingBox = new(this, "boundingBox", -1);
-					r_boundingBox.SetBelong(this.instance);
+					r_PboundingBox = new(this, "boundingBox", -1);
+					r_PboundingBox.SetBelong(this.instance);
 				}
-				return r_boundingBox;
+				return r_PboundingBox;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect worldBoundingBox
 		/// </summary>
-		protected RUnityEngine.RRect r_worldBoundingBox;
-		public virtual RUnityEngine.RRect RworldBoundingBox
+		protected RUnityEngine.RRect r_PworldBoundingBox;
+		public virtual RUnityEngine.RRect RPworldBoundingBox
 		{
 			get
 			{
-				if(r_worldBoundingBox == null)
+				if(r_PworldBoundingBox == null)
 				{
-					r_worldBoundingBox = new(this, "worldBoundingBox", -1);
-					r_worldBoundingBox.SetBelong(this.instance);
+					r_PworldBoundingBox = new(this, "worldBoundingBox", -1);
+					r_PworldBoundingBox.SetBelong(this.instance);
 				}
-				return r_worldBoundingBox;
+				return r_PworldBoundingBox;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect worldBound
 		/// </summary>
-		protected RUnityEngine.RRect r_worldBound;
-		public virtual RUnityEngine.RRect RworldBound
+		protected RUnityEngine.RRect r_PworldBound;
+		public virtual RUnityEngine.RRect RPworldBound
 		{
 			get
 			{
-				if(r_worldBound == null)
+				if(r_PworldBound == null)
 				{
-					r_worldBound = new(this, "worldBound", -1);
-					r_worldBound.SetBelong(this.instance);
+					r_PworldBound = new(this, "worldBound", -1);
+					r_PworldBound.SetBelong(this.instance);
 				}
-				return r_worldBound;
+				return r_PworldBound;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect localBound
 		/// </summary>
-		protected RUnityEngine.RRect r_localBound;
-		public virtual RUnityEngine.RRect RlocalBound
+		protected RUnityEngine.RRect r_PlocalBound;
+		public virtual RUnityEngine.RRect RPlocalBound
 		{
 			get
 			{
-				if(r_localBound == null)
+				if(r_PlocalBound == null)
 				{
-					r_localBound = new(this, "localBound", -1);
-					r_localBound.SetBelong(this.instance);
+					r_PlocalBound = new(this, "localBound", -1);
+					r_PlocalBound.SetBelong(this.instance);
 				}
-				return r_localBound;
+				return r_PlocalBound;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect rect
 		/// </summary>
-		protected RUnityEngine.RRect r_rect;
-		public virtual RUnityEngine.RRect Rrect
+		protected RUnityEngine.RRect r_Prect;
+		public virtual RUnityEngine.RRect RPrect
 		{
 			get
 			{
-				if(r_rect == null)
+				if(r_Prect == null)
 				{
-					r_rect = new(this, "rect", -1);
-					r_rect.SetBelong(this.instance);
+					r_Prect = new(this, "rect", -1);
+					r_Prect.SetBelong(this.instance);
 				}
-				return r_rect;
+				return r_Prect;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isWorldTransformDirty
 		/// </summary>
-		protected RSystem.RBoolean r_isWorldTransformDirty;
-		public virtual RSystem.RBoolean RisWorldTransformDirty
+		protected RSystem.RBoolean r_PisWorldTransformDirty;
+		public virtual RSystem.RBoolean RPisWorldTransformDirty
 		{
 			get
 			{
-				if(r_isWorldTransformDirty == null)
+				if(r_PisWorldTransformDirty == null)
 				{
-					r_isWorldTransformDirty = new(this, "isWorldTransformDirty", -1);
-					r_isWorldTransformDirty.SetBelong(this.instance);
+					r_PisWorldTransformDirty = new(this, "isWorldTransformDirty", -1);
+					r_PisWorldTransformDirty.SetBelong(this.instance);
 				}
-				return r_isWorldTransformDirty;
+				return r_PisWorldTransformDirty;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isWorldTransformInverseDirty
 		/// </summary>
-		protected RSystem.RBoolean r_isWorldTransformInverseDirty;
-		public virtual RSystem.RBoolean RisWorldTransformInverseDirty
+		protected RSystem.RBoolean r_PisWorldTransformInverseDirty;
+		public virtual RSystem.RBoolean RPisWorldTransformInverseDirty
 		{
 			get
 			{
-				if(r_isWorldTransformInverseDirty == null)
+				if(r_PisWorldTransformInverseDirty == null)
 				{
-					r_isWorldTransformInverseDirty = new(this, "isWorldTransformInverseDirty", -1);
-					r_isWorldTransformInverseDirty.SetBelong(this.instance);
+					r_PisWorldTransformInverseDirty = new(this, "isWorldTransformInverseDirty", -1);
+					r_PisWorldTransformInverseDirty.SetBelong(this.instance);
 				}
-				return r_isWorldTransformInverseDirty;
+				return r_PisWorldTransformInverseDirty;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isWorldTransformInverseOrDependenciesDirty
 		/// </summary>
-		protected RSystem.RBoolean r_isWorldTransformInverseOrDependenciesDirty;
-		public virtual RSystem.RBoolean RisWorldTransformInverseOrDependenciesDirty
+		protected RSystem.RBoolean r_PisWorldTransformInverseOrDependenciesDirty;
+		public virtual RSystem.RBoolean RPisWorldTransformInverseOrDependenciesDirty
 		{
 			get
 			{
-				if(r_isWorldTransformInverseOrDependenciesDirty == null)
+				if(r_PisWorldTransformInverseOrDependenciesDirty == null)
 				{
-					r_isWorldTransformInverseOrDependenciesDirty = new(this, "isWorldTransformInverseOrDependenciesDirty", -1);
-					r_isWorldTransformInverseOrDependenciesDirty.SetBelong(this.instance);
+					r_PisWorldTransformInverseOrDependenciesDirty = new(this, "isWorldTransformInverseOrDependenciesDirty", -1);
+					r_PisWorldTransformInverseOrDependenciesDirty.SetBelong(this.instance);
 				}
-				return r_isWorldTransformInverseOrDependenciesDirty;
+				return r_PisWorldTransformInverseOrDependenciesDirty;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4 worldTransform
 		/// </summary>
-		protected RUnityEngine.RMatrix4x4 r_worldTransform;
-		public virtual RUnityEngine.RMatrix4x4 RworldTransform
+		protected RUnityEngine.RMatrix4x4 r_PworldTransform;
+		public virtual RUnityEngine.RMatrix4x4 RPworldTransform
 		{
 			get
 			{
-				if(r_worldTransform == null)
+				if(r_PworldTransform == null)
 				{
-					r_worldTransform = new(this, "worldTransform", -1);
-					r_worldTransform.SetBelong(this.instance);
+					r_PworldTransform = new(this, "worldTransform", -1);
+					r_PworldTransform.SetBelong(this.instance);
 				}
-				return r_worldTransform;
+				return r_PworldTransform;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4& worldTransformRef
 		/// </summary>
-		protected RUnityEngine.RMatrix4x4 r_worldTransformRef;
-		public virtual RUnityEngine.RMatrix4x4 RworldTransformRef
+		protected RUnityEngine.RMatrix4x4 r_PworldTransformRef;
+		public virtual RUnityEngine.RMatrix4x4 RPworldTransformRef
 		{
 			get
 			{
-				if(r_worldTransformRef == null)
+				if(r_PworldTransformRef == null)
 				{
-					r_worldTransformRef = new(this, "worldTransformRef", -1);
-					r_worldTransformRef.SetBelong(this.instance);
+					r_PworldTransformRef = new(this, "worldTransformRef", -1);
+					r_PworldTransformRef.SetBelong(this.instance);
 				}
-				return r_worldTransformRef;
+				return r_PworldTransformRef;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4& worldTransformInverse
 		/// </summary>
-		protected RUnityEngine.RMatrix4x4 r_worldTransformInverse;
-		public virtual RUnityEngine.RMatrix4x4 RworldTransformInverse
+		protected RUnityEngine.RMatrix4x4 r_PworldTransformInverse;
+		public virtual RUnityEngine.RMatrix4x4 RPworldTransformInverse
 		{
 			get
 			{
-				if(r_worldTransformInverse == null)
+				if(r_PworldTransformInverse == null)
 				{
-					r_worldTransformInverse = new(this, "worldTransformInverse", -1);
-					r_worldTransformInverse.SetBelong(this.instance);
+					r_PworldTransformInverse = new(this, "worldTransformInverse", -1);
+					r_PworldTransformInverse.SetBelong(this.instance);
 				}
-				return r_worldTransformInverse;
+				return r_PworldTransformInverse;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isWorldClipDirty
 		/// </summary>
-		protected RSystem.RBoolean r_isWorldClipDirty;
-		public virtual RSystem.RBoolean RisWorldClipDirty
+		protected RSystem.RBoolean r_PisWorldClipDirty;
+		public virtual RSystem.RBoolean RPisWorldClipDirty
 		{
 			get
 			{
-				if(r_isWorldClipDirty == null)
+				if(r_PisWorldClipDirty == null)
 				{
-					r_isWorldClipDirty = new(this, "isWorldClipDirty", -1);
-					r_isWorldClipDirty.SetBelong(this.instance);
+					r_PisWorldClipDirty = new(this, "isWorldClipDirty", -1);
+					r_PisWorldClipDirty.SetBelong(this.instance);
 				}
-				return r_isWorldClipDirty;
+				return r_PisWorldClipDirty;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect worldClip
 		/// </summary>
-		protected RUnityEngine.RRect r_worldClip;
-		public virtual RUnityEngine.RRect RworldClip
+		protected RUnityEngine.RRect r_PworldClip;
+		public virtual RUnityEngine.RRect RPworldClip
 		{
 			get
 			{
-				if(r_worldClip == null)
+				if(r_PworldClip == null)
 				{
-					r_worldClip = new(this, "worldClip", -1);
-					r_worldClip.SetBelong(this.instance);
+					r_PworldClip = new(this, "worldClip", -1);
+					r_PworldClip.SetBelong(this.instance);
 				}
-				return r_worldClip;
+				return r_PworldClip;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect worldClipMinusGroup
 		/// </summary>
-		protected RUnityEngine.RRect r_worldClipMinusGroup;
-		public virtual RUnityEngine.RRect RworldClipMinusGroup
+		protected RUnityEngine.RRect r_PworldClipMinusGroup;
+		public virtual RUnityEngine.RRect RPworldClipMinusGroup
 		{
 			get
 			{
-				if(r_worldClipMinusGroup == null)
+				if(r_PworldClipMinusGroup == null)
 				{
-					r_worldClipMinusGroup = new(this, "worldClipMinusGroup", -1);
-					r_worldClipMinusGroup.SetBelong(this.instance);
+					r_PworldClipMinusGroup = new(this, "worldClipMinusGroup", -1);
+					r_PworldClipMinusGroup.SetBelong(this.instance);
 				}
-				return r_worldClipMinusGroup;
+				return r_PworldClipMinusGroup;
 			}
 		}
 
 		/// <summary>
 		/// Boolean worldClipIsInfinite
 		/// </summary>
-		protected RSystem.RBoolean r_worldClipIsInfinite;
-		public virtual RSystem.RBoolean RworldClipIsInfinite
+		protected RSystem.RBoolean r_PworldClipIsInfinite;
+		public virtual RSystem.RBoolean RPworldClipIsInfinite
 		{
 			get
 			{
-				if(r_worldClipIsInfinite == null)
+				if(r_PworldClipIsInfinite == null)
 				{
-					r_worldClipIsInfinite = new(this, "worldClipIsInfinite", -1);
-					r_worldClipIsInfinite.SetBelong(this.instance);
+					r_PworldClipIsInfinite = new(this, "worldClipIsInfinite", -1);
+					r_PworldClipIsInfinite.SetBelong(this.instance);
 				}
-				return r_worldClipIsInfinite;
+				return r_PworldClipIsInfinite;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.PseudoStates pseudoStates
 		/// </summary>
-		protected RProperty r_pseudoStates;
-		public virtual RProperty RpseudoStates
+		protected RUnityEngine.RUIElements.RPseudoStates r_PpseudoStates;
+		public virtual RUnityEngine.RUIElements.RPseudoStates RPpseudoStates
 		{
 			get
 			{
-				if(r_pseudoStates == null)
+				if(r_PpseudoStates == null)
 				{
-					r_pseudoStates = new(this, "pseudoStates", -1);
-					r_pseudoStates.SetBelong(this.instance);
+					r_PpseudoStates = new(this, "pseudoStates", -1);
+					r_PpseudoStates.SetBelong(this.instance);
 				}
-				return r_pseudoStates;
+				return r_PpseudoStates;
 			}
 		}
 
 		/// <summary>
 		/// Int32 containedPointerIds
 		/// </summary>
-		protected RSystem.RInt32 r_containedPointerIds;
-		public virtual RSystem.RInt32 RcontainedPointerIds
+		protected RSystem.RInt32 r_PcontainedPointerIds;
+		public virtual RSystem.RInt32 RPcontainedPointerIds
 		{
 			get
 			{
-				if(r_containedPointerIds == null)
+				if(r_PcontainedPointerIds == null)
 				{
-					r_containedPointerIds = new(this, "containedPointerIds", -1);
-					r_containedPointerIds.SetBelong(this.instance);
+					r_PcontainedPointerIds = new(this, "containedPointerIds", -1);
+					r_PcontainedPointerIds.SetBelong(this.instance);
 				}
-				return r_containedPointerIds;
+				return r_PcontainedPointerIds;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.PickingMode pickingMode
 		/// </summary>
-		protected RProperty r_pickingMode;
-		public virtual RProperty RpickingMode
+		protected RUnityEngine.RUIElements.RPickingMode r_PpickingMode;
+		public virtual RUnityEngine.RUIElements.RPickingMode RPpickingMode
 		{
 			get
 			{
-				if(r_pickingMode == null)
+				if(r_PpickingMode == null)
 				{
-					r_pickingMode = new(this, "pickingMode", -1);
-					r_pickingMode.SetBelong(this.instance);
+					r_PpickingMode = new(this, "pickingMode", -1);
+					r_PpickingMode.SetBelong(this.instance);
 				}
-				return r_pickingMode;
+				return r_PpickingMode;
 			}
 		}
 
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RSystem.RString r_name;
-		public virtual RSystem.RString Rname
+		protected RSystem.RString r_Pname;
+		public virtual RSystem.RString RPname
 		{
 			get
 			{
-				if(r_name == null)
+				if(r_Pname == null)
 				{
-					r_name = new(this, "name", -1);
-					r_name.SetBelong(this.instance);
+					r_Pname = new(this, "name", -1);
+					r_Pname.SetBelong(this.instance);
 				}
-				return r_name;
+				return r_Pname;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] classList
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RSystem.RString> r_classList;
-		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RString> RclassList
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RString> r_PclassList;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RString> RPclassList
 		{
 			get
 			{
-				if(r_classList == null)
+				if(r_PclassList == null)
 				{
-					r_classList = new(this, "classList", -1);
-					r_classList.SetBelong(this.instance);
+					r_PclassList = new(this, "classList", -1);
+					r_PclassList.SetBelong(this.instance);
 				}
-				return r_classList;
+				return r_PclassList;
 			}
 		}
 
 		/// <summary>
 		/// System.String fullTypeName
 		/// </summary>
-		protected RSystem.RString r_fullTypeName;
-		public virtual RSystem.RString RfullTypeName
+		protected RSystem.RString r_PfullTypeName;
+		public virtual RSystem.RString RPfullTypeName
 		{
 			get
 			{
-				if(r_fullTypeName == null)
+				if(r_PfullTypeName == null)
 				{
-					r_fullTypeName = new(this, "fullTypeName", -1);
-					r_fullTypeName.SetBelong(this.instance);
+					r_PfullTypeName = new(this, "fullTypeName", -1);
+					r_PfullTypeName.SetBelong(this.instance);
 				}
-				return r_fullTypeName;
+				return r_PfullTypeName;
 			}
 		}
 
 		/// <summary>
 		/// System.String typeName
 		/// </summary>
-		protected RSystem.RString r_typeName;
-		public virtual RSystem.RString RtypeName
+		protected RSystem.RString r_PtypeName;
+		public virtual RSystem.RString RPtypeName
 		{
 			get
 			{
-				if(r_typeName == null)
+				if(r_PtypeName == null)
 				{
-					r_typeName = new(this, "typeName", -1);
-					r_typeName.SetBelong(this.instance);
+					r_PtypeName = new(this, "typeName", -1);
+					r_PtypeName.SetBelong(this.instance);
 				}
-				return r_typeName;
+				return r_PtypeName;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Yoga.YogaNode yogaNode
 		/// </summary>
-		protected RUnityEngine.RYoga.RYogaNode r_yogaNode;
-		public virtual RUnityEngine.RYoga.RYogaNode RyogaNode
+		protected RUnityEngine.RYoga.RYogaNode r_PyogaNode;
+		public virtual RUnityEngine.RYoga.RYogaNode RPyogaNode
 		{
 			get
 			{
-				if(r_yogaNode == null)
+				if(r_PyogaNode == null)
 				{
-					r_yogaNode = new(this, "yogaNode", -1);
-					r_yogaNode.SetBelong(this.instance);
+					r_PyogaNode = new(this, "yogaNode", -1);
+					r_PyogaNode.SetBelong(this.instance);
 				}
-				return r_yogaNode;
+				return r_PyogaNode;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.ComputedStyle& computedStyle
 		/// </summary>
-		protected RUnityEngine.RUIElements.RComputedStyle r_computedStyle;
-		public virtual RUnityEngine.RUIElements.RComputedStyle RcomputedStyle
+		protected RUnityEngine.RUIElements.RComputedStyle r_PcomputedStyle;
+		public virtual RUnityEngine.RUIElements.RComputedStyle RPcomputedStyle
 		{
 			get
 			{
-				if(r_computedStyle == null)
+				if(r_PcomputedStyle == null)
 				{
-					r_computedStyle = new(this, "computedStyle", -1);
-					r_computedStyle.SetBelong(this.instance);
+					r_PcomputedStyle = new(this, "computedStyle", -1);
+					r_PcomputedStyle.SetBelong(this.instance);
 				}
-				return r_computedStyle;
+				return r_PcomputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean hasInlineStyle
 		/// </summary>
-		protected RSystem.RBoolean r_hasInlineStyle;
-		public virtual RSystem.RBoolean RhasInlineStyle
+		protected RSystem.RBoolean r_PhasInlineStyle;
+		public virtual RSystem.RBoolean RPhasInlineStyle
 		{
 			get
 			{
-				if(r_hasInlineStyle == null)
+				if(r_PhasInlineStyle == null)
 				{
-					r_hasInlineStyle = new(this, "hasInlineStyle", -1);
-					r_hasInlineStyle.SetBelong(this.instance);
+					r_PhasInlineStyle = new(this, "hasInlineStyle", -1);
+					r_PhasInlineStyle.SetBelong(this.instance);
 				}
-				return r_hasInlineStyle;
+				return r_PhasInlineStyle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean styleInitialized
 		/// </summary>
-		protected RSystem.RBoolean r_styleInitialized;
-		public virtual RSystem.RBoolean RstyleInitialized
+		protected RSystem.RBoolean r_PstyleInitialized;
+		public virtual RSystem.RBoolean RPstyleInitialized
 		{
 			get
 			{
-				if(r_styleInitialized == null)
+				if(r_PstyleInitialized == null)
 				{
-					r_styleInitialized = new(this, "styleInitialized", -1);
-					r_styleInitialized.SetBelong(this.instance);
+					r_PstyleInitialized = new(this, "styleInitialized", -1);
+					r_PstyleInitialized.SetBelong(this.instance);
 				}
-				return r_styleInitialized;
+				return r_PstyleInitialized;
 			}
 		}
 
 		/// <summary>
 		/// Single opacity
 		/// </summary>
-		protected RSystem.RSingle r_opacity;
-		public virtual RSystem.RSingle Ropacity
+		protected RSystem.RSingle r_Popacity;
+		public virtual RSystem.RSingle RPopacity
 		{
 			get
 			{
-				if(r_opacity == null)
+				if(r_Popacity == null)
 				{
-					r_opacity = new(this, "opacity", -1);
-					r_opacity.SetBelong(this.instance);
+					r_Popacity = new(this, "opacity", -1);
+					r_Popacity.SetBelong(this.instance);
 				}
-				return r_opacity;
+				return r_Popacity;
 			}
 		}
 
 		/// <summary>
 		/// Boolean enabledInHierarchy
 		/// </summary>
-		protected RSystem.RBoolean r_enabledInHierarchy;
-		public virtual RSystem.RBoolean RenabledInHierarchy
+		protected RSystem.RBoolean r_PenabledInHierarchy;
+		public virtual RSystem.RBoolean RPenabledInHierarchy
 		{
 			get
 			{
-				if(r_enabledInHierarchy == null)
+				if(r_PenabledInHierarchy == null)
 				{
-					r_enabledInHierarchy = new(this, "enabledInHierarchy", -1);
-					r_enabledInHierarchy.SetBelong(this.instance);
+					r_PenabledInHierarchy = new(this, "enabledInHierarchy", -1);
+					r_PenabledInHierarchy.SetBelong(this.instance);
 				}
-				return r_enabledInHierarchy;
+				return r_PenabledInHierarchy;
 			}
 		}
 
 		/// <summary>
 		/// Boolean enabledSelf
 		/// </summary>
-		protected RSystem.RBoolean r_enabledSelf;
-		public virtual RSystem.RBoolean RenabledSelf
+		protected RSystem.RBoolean r_PenabledSelf;
+		public virtual RSystem.RBoolean RPenabledSelf
 		{
 			get
 			{
-				if(r_enabledSelf == null)
+				if(r_PenabledSelf == null)
 				{
-					r_enabledSelf = new(this, "enabledSelf", -1);
-					r_enabledSelf.SetBelong(this.instance);
+					r_PenabledSelf = new(this, "enabledSelf", -1);
+					r_PenabledSelf.SetBelong(this.instance);
 				}
-				return r_enabledSelf;
+				return r_PenabledSelf;
 			}
 		}
 
 		/// <summary>
 		/// Boolean visible
 		/// </summary>
-		protected RSystem.RBoolean r_visible;
-		public virtual RSystem.RBoolean Rvisible
+		protected RSystem.RBoolean r_Pvisible;
+		public virtual RSystem.RBoolean RPvisible
 		{
 			get
 			{
-				if(r_visible == null)
+				if(r_Pvisible == null)
 				{
-					r_visible = new(this, "visible", -1);
-					r_visible.SetBelong(this.instance);
+					r_Pvisible = new(this, "visible", -1);
+					r_Pvisible.SetBelong(this.instance);
 				}
-				return r_visible;
+				return r_Pvisible;
 			}
 		}
 
 		/// <summary>
 		/// System.Action`1[UnityEngine.UIElements.MeshGenerationContext] generateVisualContent
 		/// </summary>
-		protected RSystem.RAction<RUnityEngine.RUIElements.RMeshGenerationContext> r_generateVisualContent;
-		public virtual RSystem.RAction<RUnityEngine.RUIElements.RMeshGenerationContext> RgenerateVisualContent
+		protected RSystem.RAction<RUnityEngine.RUIElements.RMeshGenerationContext> r_PgenerateVisualContent;
+		public virtual RSystem.RAction<RUnityEngine.RUIElements.RMeshGenerationContext> RPgenerateVisualContent
 		{
 			get
 			{
-				if(r_generateVisualContent == null)
+				if(r_PgenerateVisualContent == null)
 				{
-					r_generateVisualContent = new(this, "generateVisualContent", -1);
-					r_generateVisualContent.SetBelong(this.instance);
+					r_PgenerateVisualContent = new(this, "generateVisualContent", -1);
+					r_PgenerateVisualContent.SetBelong(this.instance);
 				}
-				return r_generateVisualContent;
+				return r_PgenerateVisualContent;
 			}
 		}
 
 		/// <summary>
 		/// Boolean requireMeasureFunction
 		/// </summary>
-		protected RSystem.RBoolean r_requireMeasureFunction;
-		public virtual RSystem.RBoolean RrequireMeasureFunction
+		protected RSystem.RBoolean r_PrequireMeasureFunction;
+		public virtual RSystem.RBoolean RPrequireMeasureFunction
 		{
 			get
 			{
-				if(r_requireMeasureFunction == null)
+				if(r_PrequireMeasureFunction == null)
 				{
-					r_requireMeasureFunction = new(this, "requireMeasureFunction", -1);
-					r_requireMeasureFunction.SetBelong(this.instance);
+					r_PrequireMeasureFunction = new(this, "requireMeasureFunction", -1);
+					r_PrequireMeasureFunction.SetBelong(this.instance);
 				}
-				return r_requireMeasureFunction;
+				return r_PrequireMeasureFunction;
 			}
 		}
 
 		/// <summary>
 		/// RenderTargetMode subRenderTargetMode
 		/// </summary>
-		protected RProperty r_subRenderTargetMode;
-		public virtual RProperty RsubRenderTargetMode
+		protected RUnityEngine.RUIElements.RVisualElement.RRenderTargetMode r_PsubRenderTargetMode;
+		public virtual RUnityEngine.RUIElements.RVisualElement.RRenderTargetMode RPsubRenderTargetMode
 		{
 			get
 			{
-				if(r_subRenderTargetMode == null)
+				if(r_PsubRenderTargetMode == null)
 				{
-					r_subRenderTargetMode = new(this, "subRenderTargetMode", -1);
-					r_subRenderTargetMode.SetBelong(this.instance);
+					r_PsubRenderTargetMode = new(this, "subRenderTargetMode", -1);
+					r_PsubRenderTargetMode.SetBelong(this.instance);
 				}
-				return r_subRenderTargetMode;
+				return r_PsubRenderTargetMode;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Material defaultMaterial
 		/// </summary>
-		protected RUnityEngine.RMaterial r_defaultMaterial;
-		public virtual RUnityEngine.RMaterial RdefaultMaterial
+		protected RUnityEngine.RMaterial r_PdefaultMaterial;
+		public virtual RUnityEngine.RMaterial RPdefaultMaterial
 		{
 			get
 			{
-				if(r_defaultMaterial == null)
+				if(r_PdefaultMaterial == null)
 				{
-					r_defaultMaterial = new(this, "defaultMaterial", -1);
-					r_defaultMaterial.SetBelong(this.instance);
+					r_PdefaultMaterial = new(this, "defaultMaterial", -1);
+					r_PdefaultMaterial.SetBelong(this.instance);
 				}
-				return r_defaultMaterial;
+				return r_PdefaultMaterial;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement nextParentWithEventCallback
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r_nextParentWithEventCallback;
-		public virtual RUnityEngine.RUIElements.RVisualElement RnextParentWithEventCallback
+		protected RUnityEngine.RUIElements.RVisualElement r_PnextParentWithEventCallback;
+		public virtual RUnityEngine.RUIElements.RVisualElement RPnextParentWithEventCallback
 		{
 			get
 			{
-				if(r_nextParentWithEventCallback == null)
+				if(r_PnextParentWithEventCallback == null)
 				{
-					r_nextParentWithEventCallback = new(this, "nextParentWithEventCallback", -1);
-					r_nextParentWithEventCallback.SetBelong(this.instance);
+					r_PnextParentWithEventCallback = new(this, "nextParentWithEventCallback", -1);
+					r_PnextParentWithEventCallback.SetBelong(this.instance);
 				}
-				return r_nextParentWithEventCallback;
+				return r_PnextParentWithEventCallback;
 			}
 		}
 
 		/// <summary>
 		/// Int32 eventCallbackCategories
 		/// </summary>
-		protected RSystem.RInt32 r_eventCallbackCategories;
-		public virtual RSystem.RInt32 ReventCallbackCategories
+		protected RSystem.RInt32 r_PeventCallbackCategories;
+		public virtual RSystem.RInt32 RPeventCallbackCategories
 		{
 			get
 			{
-				if(r_eventCallbackCategories == null)
+				if(r_PeventCallbackCategories == null)
 				{
-					r_eventCallbackCategories = new(this, "eventCallbackCategories", -1);
-					r_eventCallbackCategories.SetBelong(this.instance);
+					r_PeventCallbackCategories = new(this, "eventCallbackCategories", -1);
+					r_PeventCallbackCategories.SetBelong(this.instance);
 				}
-				return r_eventCallbackCategories;
+				return r_PeventCallbackCategories;
 			}
 		}
 
 		/// <summary>
 		/// Int32 eventCallbackParentCategories
 		/// </summary>
-		protected RSystem.RInt32 r_eventCallbackParentCategories;
-		public virtual RSystem.RInt32 ReventCallbackParentCategories
+		protected RSystem.RInt32 r_PeventCallbackParentCategories;
+		public virtual RSystem.RInt32 RPeventCallbackParentCategories
 		{
 			get
 			{
-				if(r_eventCallbackParentCategories == null)
+				if(r_PeventCallbackParentCategories == null)
 				{
-					r_eventCallbackParentCategories = new(this, "eventCallbackParentCategories", -1);
-					r_eventCallbackParentCategories.SetBelong(this.instance);
+					r_PeventCallbackParentCategories = new(this, "eventCallbackParentCategories", -1);
+					r_PeventCallbackParentCategories.SetBelong(this.instance);
 				}
-				return r_eventCallbackParentCategories;
+				return r_PeventCallbackParentCategories;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isEventCallbackParentCategoriesDirty
 		/// </summary>
-		protected RSystem.RBoolean r_isEventCallbackParentCategoriesDirty;
-		public virtual RSystem.RBoolean RisEventCallbackParentCategoriesDirty
+		protected RSystem.RBoolean r_PisEventCallbackParentCategoriesDirty;
+		public virtual RSystem.RBoolean RPisEventCallbackParentCategoriesDirty
 		{
 			get
 			{
-				if(r_isEventCallbackParentCategoriesDirty == null)
+				if(r_PisEventCallbackParentCategoriesDirty == null)
 				{
-					r_isEventCallbackParentCategoriesDirty = new(this, "isEventCallbackParentCategoriesDirty", -1);
-					r_isEventCallbackParentCategoriesDirty.SetBelong(this.instance);
+					r_PisEventCallbackParentCategoriesDirty = new(this, "isEventCallbackParentCategoriesDirty", -1);
+					r_PisEventCallbackParentCategoriesDirty.SetBelong(this.instance);
 				}
-				return r_isEventCallbackParentCategoriesDirty;
+				return r_PisEventCallbackParentCategoriesDirty;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.IExperimentalFeatures experimental
 		/// </summary>
-		protected RUnityEngine.RUIElements.RIExperimentalFeatures r_experimental;
-		public virtual RUnityEngine.RUIElements.RIExperimentalFeatures Rexperimental
+		protected RUnityEngine.RUIElements.RIExperimentalFeatures r_Pexperimental;
+		public virtual RUnityEngine.RUIElements.RIExperimentalFeatures RPexperimental
 		{
 			get
 			{
-				if(r_experimental == null)
+				if(r_Pexperimental == null)
 				{
-					r_experimental = new(this, "experimental", -1);
-					r_experimental.SetBelong(this.instance);
+					r_Pexperimental = new(this, "experimental", -1);
+					r_Pexperimental.SetBelong(this.instance);
 				}
-				return r_experimental;
+				return r_Pexperimental;
 			}
 		}
 
 		/// <summary>
 		/// Hierarchy hierarchy
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement.RHierarchy r_hierarchy;
-		public virtual RUnityEngine.RUIElements.RVisualElement.RHierarchy Rhierarchy
+		protected RUnityEngine.RUIElements.RVisualElement.RHierarchy r_Phierarchy;
+		public virtual RUnityEngine.RUIElements.RVisualElement.RHierarchy RPhierarchy
 		{
 			get
 			{
-				if(r_hierarchy == null)
+				if(r_Phierarchy == null)
 				{
-					r_hierarchy = new(this, "hierarchy", -1);
-					r_hierarchy.SetBelong(this.instance);
+					r_Phierarchy = new(this, "hierarchy", -1);
+					r_Phierarchy.SetBelong(this.instance);
 				}
-				return r_hierarchy;
+				return r_Phierarchy;
 			}
 		}
 
 		/// <summary>
 		/// Boolean isRootVisualContainer
 		/// </summary>
-		protected RSystem.RBoolean r_isRootVisualContainer;
-		public virtual RSystem.RBoolean RisRootVisualContainer
+		protected RSystem.RBoolean r_PisRootVisualContainer;
+		public virtual RSystem.RBoolean RPisRootVisualContainer
 		{
 			get
 			{
-				if(r_isRootVisualContainer == null)
+				if(r_PisRootVisualContainer == null)
 				{
-					r_isRootVisualContainer = new(this, "isRootVisualContainer", -1);
-					r_isRootVisualContainer.SetBelong(this.instance);
+					r_PisRootVisualContainer = new(this, "isRootVisualContainer", -1);
+					r_PisRootVisualContainer.SetBelong(this.instance);
 				}
-				return r_isRootVisualContainer;
+				return r_PisRootVisualContainer;
 			}
 		}
 
 		/// <summary>
 		/// Boolean cacheAsBitmap
 		/// </summary>
-		protected RSystem.RBoolean r_cacheAsBitmap;
-		public virtual RSystem.RBoolean RcacheAsBitmap
+		protected RSystem.RBoolean r_PcacheAsBitmap;
+		public virtual RSystem.RBoolean RPcacheAsBitmap
 		{
 			get
 			{
-				if(r_cacheAsBitmap == null)
+				if(r_PcacheAsBitmap == null)
 				{
-					r_cacheAsBitmap = new(this, "cacheAsBitmap", -1);
-					r_cacheAsBitmap.SetBelong(this.instance);
+					r_PcacheAsBitmap = new(this, "cacheAsBitmap", -1);
+					r_PcacheAsBitmap.SetBelong(this.instance);
 				}
-				return r_cacheAsBitmap;
+				return r_PcacheAsBitmap;
 			}
 		}
 
 		/// <summary>
 		/// Boolean disableClipping
 		/// </summary>
-		protected RSystem.RBoolean r_disableClipping;
-		public virtual RSystem.RBoolean RdisableClipping
+		protected RSystem.RBoolean r_PdisableClipping;
+		public virtual RSystem.RBoolean RPdisableClipping
 		{
 			get
 			{
-				if(r_disableClipping == null)
+				if(r_PdisableClipping == null)
 				{
-					r_disableClipping = new(this, "disableClipping", -1);
-					r_disableClipping.SetBelong(this.instance);
+					r_PdisableClipping = new(this, "disableClipping", -1);
+					r_PdisableClipping.SetBelong(this.instance);
 				}
-				return r_disableClipping;
+				return r_PdisableClipping;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement parent
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r_parent;
-		public virtual RUnityEngine.RUIElements.RVisualElement Rparent
+		protected RUnityEngine.RUIElements.RVisualElement r_Pparent;
+		public virtual RUnityEngine.RUIElements.RVisualElement RPparent
 		{
 			get
 			{
-				if(r_parent == null)
+				if(r_Pparent == null)
 				{
-					r_parent = new(this, "parent", -1);
-					r_parent.SetBelong(this.instance);
+					r_Pparent = new(this, "parent", -1);
+					r_Pparent.SetBelong(this.instance);
 				}
-				return r_parent;
+				return r_Pparent;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.BaseVisualElementPanel elementPanel
 		/// </summary>
-		protected RUnityEngine.RUIElements.RBaseVisualElementPanel r_elementPanel;
-		public virtual RUnityEngine.RUIElements.RBaseVisualElementPanel RelementPanel
+		protected RUnityEngine.RUIElements.RBaseVisualElementPanel r_PelementPanel;
+		public virtual RUnityEngine.RUIElements.RBaseVisualElementPanel RPelementPanel
 		{
 			get
 			{
-				if(r_elementPanel == null)
+				if(r_PelementPanel == null)
 				{
-					r_elementPanel = new(this, "elementPanel", -1);
-					r_elementPanel.SetBelong(this.instance);
+					r_PelementPanel = new(this, "elementPanel", -1);
+					r_PelementPanel.SetBelong(this.instance);
 				}
-				return r_elementPanel;
+				return r_PelementPanel;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.IPanel panel
 		/// </summary>
-		protected RUnityEngine.RUIElements.RIPanel r_panel;
-		public virtual RUnityEngine.RUIElements.RIPanel Rpanel
+		protected RUnityEngine.RUIElements.RIPanel r_Ppanel;
+		public virtual RUnityEngine.RUIElements.RIPanel RPpanel
 		{
 			get
 			{
-				if(r_panel == null)
+				if(r_Ppanel == null)
 				{
-					r_panel = new(this, "panel", -1);
-					r_panel.SetBelong(this.instance);
+					r_Ppanel = new(this, "panel", -1);
+					r_Ppanel.SetBelong(this.instance);
 				}
-				return r_panel;
+				return r_Ppanel;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement contentContainer
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r_contentContainer;
-		public virtual RUnityEngine.RUIElements.RVisualElement RcontentContainer
+		protected RUnityEngine.RUIElements.RVisualElement r_PcontentContainer;
+		public virtual RUnityEngine.RUIElements.RVisualElement RPcontentContainer
 		{
 			get
 			{
-				if(r_contentContainer == null)
+				if(r_PcontentContainer == null)
 				{
-					r_contentContainer = new(this, "contentContainer", -1);
-					r_contentContainer.SetBelong(this.instance);
+					r_PcontentContainer = new(this, "contentContainer", -1);
+					r_PcontentContainer.SetBelong(this.instance);
 				}
-				return r_contentContainer;
+				return r_PcontentContainer;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualTreeAsset visualTreeAssetSource
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualTreeAsset r_visualTreeAssetSource;
-		public virtual RUnityEngine.RUIElements.RVisualTreeAsset RvisualTreeAssetSource
+		protected RUnityEngine.RUIElements.RVisualTreeAsset r_PvisualTreeAssetSource;
+		public virtual RUnityEngine.RUIElements.RVisualTreeAsset RPvisualTreeAssetSource
 		{
 			get
 			{
-				if(r_visualTreeAssetSource == null)
+				if(r_PvisualTreeAssetSource == null)
 				{
-					r_visualTreeAssetSource = new(this, "visualTreeAssetSource", -1);
-					r_visualTreeAssetSource.SetBelong(this.instance);
+					r_PvisualTreeAssetSource = new(this, "visualTreeAssetSource", -1);
+					r_PvisualTreeAssetSource.SetBelong(this.instance);
 				}
-				return r_visualTreeAssetSource;
+				return r_PvisualTreeAssetSource;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement Item [Int32]
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r_Item_Int32;
-		public virtual RUnityEngine.RUIElements.RVisualElement RItem_Int32
+		protected RUnityEngine.RUIElements.RVisualElement r_PItem_Int32;
+		public virtual RUnityEngine.RUIElements.RVisualElement RPItem_Int32
 		{
 			get
 			{
-				if(r_Item_Int32 == null)
+				if(r_PItem_Int32 == null)
 				{
-					r_Item_Int32 = new(this, "Item", -1, typeof(System.Int32));
-					r_Item_Int32.SetBelong(this.instance);
+					r_PItem_Int32 = new(this, "Item", -1, typeof(System.Int32));
+					r_PItem_Int32.SetBelong(this.instance);
 				}
-				return r_Item_Int32;
+				return r_PItem_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 childCount
 		/// </summary>
-		protected RSystem.RInt32 r_childCount;
-		public virtual RSystem.RInt32 RchildCount
+		protected RSystem.RInt32 r_PchildCount;
+		public virtual RSystem.RInt32 RPchildCount
 		{
 			get
 			{
-				if(r_childCount == null)
+				if(r_PchildCount == null)
 				{
-					r_childCount = new(this, "childCount", -1);
-					r_childCount.SetBelong(this.instance);
+					r_PchildCount = new(this, "childCount", -1);
+					r_PchildCount.SetBelong(this.instance);
 				}
-				return r_childCount;
+				return r_PchildCount;
 			}
 		}
 
 		/// <summary>
 		/// Boolean hasDefaultRotationAndScale
 		/// </summary>
-		protected RSystem.RBoolean r_hasDefaultRotationAndScale;
-		public virtual RSystem.RBoolean RhasDefaultRotationAndScale
+		protected RSystem.RBoolean r_PhasDefaultRotationAndScale;
+		public virtual RSystem.RBoolean RPhasDefaultRotationAndScale
 		{
 			get
 			{
-				if(r_hasDefaultRotationAndScale == null)
+				if(r_PhasDefaultRotationAndScale == null)
 				{
-					r_hasDefaultRotationAndScale = new(this, "hasDefaultRotationAndScale", -1);
-					r_hasDefaultRotationAndScale.SetBelong(this.instance);
+					r_PhasDefaultRotationAndScale = new(this, "hasDefaultRotationAndScale", -1);
+					r_PhasDefaultRotationAndScale.SetBelong(this.instance);
 				}
-				return r_hasDefaultRotationAndScale;
+				return r_PhasDefaultRotationAndScale;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.IVisualElementScheduler schedule
 		/// </summary>
-		protected RUnityEngine.RUIElements.RIVisualElementScheduler r_schedule;
-		public virtual RUnityEngine.RUIElements.RIVisualElementScheduler Rschedule
+		protected RUnityEngine.RUIElements.RIVisualElementScheduler r_Pschedule;
+		public virtual RUnityEngine.RUIElements.RIVisualElementScheduler RPschedule
 		{
 			get
 			{
-				if(r_schedule == null)
+				if(r_Pschedule == null)
 				{
-					r_schedule = new(this, "schedule", -1);
-					r_schedule.SetBelong(this.instance);
+					r_Pschedule = new(this, "schedule", -1);
+					r_Pschedule.SetBelong(this.instance);
 				}
-				return r_schedule;
+				return r_Pschedule;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.IStyle style
 		/// </summary>
-		protected RUnityEngine.RUIElements.RIStyle r_style;
-		public virtual RUnityEngine.RUIElements.RIStyle Rstyle
+		protected RUnityEngine.RUIElements.RIStyle r_Pstyle;
+		public virtual RUnityEngine.RUIElements.RIStyle RPstyle
 		{
 			get
 			{
-				if(r_style == null)
+				if(r_Pstyle == null)
 				{
-					r_style = new(this, "style", -1);
-					r_style.SetBelong(this.instance);
+					r_Pstyle = new(this, "style", -1);
+					r_Pstyle.SetBelong(this.instance);
 				}
-				return r_style;
+				return r_Pstyle;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.ICustomStyle customStyle
 		/// </summary>
-		protected RUnityEngine.RUIElements.RICustomStyle r_customStyle;
-		public virtual RUnityEngine.RUIElements.RICustomStyle RcustomStyle
+		protected RUnityEngine.RUIElements.RICustomStyle r_PcustomStyle;
+		public virtual RUnityEngine.RUIElements.RICustomStyle RPcustomStyle
 		{
 			get
 			{
-				if(r_customStyle == null)
+				if(r_PcustomStyle == null)
 				{
-					r_customStyle = new(this, "customStyle", -1);
-					r_customStyle.SetBelong(this.instance);
+					r_PcustomStyle = new(this, "customStyle", -1);
+					r_PcustomStyle.SetBelong(this.instance);
 				}
-				return r_customStyle;
+				return r_PcustomStyle;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementStyleSheetSet styleSheets
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElementStyleSheetSet r_styleSheets;
-		public virtual RUnityEngine.RUIElements.RVisualElementStyleSheetSet RstyleSheets
+		protected RUnityEngine.RUIElements.RVisualElementStyleSheetSet r_PstyleSheets;
+		public virtual RUnityEngine.RUIElements.RVisualElementStyleSheetSet RPstyleSheets
 		{
 			get
 			{
-				if(r_styleSheets == null)
+				if(r_PstyleSheets == null)
 				{
-					r_styleSheets = new(this, "styleSheets", -1);
-					r_styleSheets.SetBelong(this.instance);
+					r_PstyleSheets = new(this, "styleSheets", -1);
+					r_PstyleSheets.SetBelong(this.instance);
 				}
-				return r_styleSheets;
+				return r_PstyleSheets;
 			}
 		}
 
 		/// <summary>
 		/// System.String tooltip
 		/// </summary>
-		protected RSystem.RString r_tooltip;
-		public virtual RSystem.RString Rtooltip
+		protected RSystem.RString r_Ptooltip;
+		public virtual RSystem.RString RPtooltip
 		{
 			get
 			{
-				if(r_tooltip == null)
+				if(r_Ptooltip == null)
 				{
-					r_tooltip = new(this, "tooltip", -1);
-					r_tooltip.SetBelong(this.instance);
+					r_Ptooltip = new(this, "tooltip", -1);
+					r_Ptooltip.SetBelong(this.instance);
 				}
-				return r_tooltip;
+				return r_Ptooltip;
 			}
 		}
 
 		/// <summary>
 		/// Boolean focusable
 		/// </summary>
-		protected RSystem.RBoolean r_focusable;
-		public virtual RSystem.RBoolean Rfocusable
+		protected RSystem.RBoolean r_Pfocusable;
+		public virtual RSystem.RBoolean RPfocusable
 		{
 			get
 			{
-				if(r_focusable == null)
+				if(r_Pfocusable == null)
 				{
-					r_focusable = new(this, "focusable", -1);
-					r_focusable.SetBelong(this.instance);
+					r_Pfocusable = new(this, "focusable", -1);
+					r_Pfocusable.SetBelong(this.instance);
 				}
-				return r_focusable;
+				return r_Pfocusable;
 			}
 		}
 
 		/// <summary>
 		/// Int32 tabIndex
 		/// </summary>
-		protected RSystem.RInt32 r_tabIndex;
-		public virtual RSystem.RInt32 RtabIndex
+		protected RSystem.RInt32 r_PtabIndex;
+		public virtual RSystem.RInt32 RPtabIndex
 		{
 			get
 			{
-				if(r_tabIndex == null)
+				if(r_PtabIndex == null)
 				{
-					r_tabIndex = new(this, "tabIndex", -1);
-					r_tabIndex.SetBelong(this.instance);
+					r_PtabIndex = new(this, "tabIndex", -1);
+					r_PtabIndex.SetBelong(this.instance);
 				}
-				return r_tabIndex;
+				return r_PtabIndex;
 			}
 		}
 
 		/// <summary>
 		/// Boolean delegatesFocus
 		/// </summary>
-		protected RSystem.RBoolean r_delegatesFocus;
-		public virtual RSystem.RBoolean RdelegatesFocus
+		protected RSystem.RBoolean r_PdelegatesFocus;
+		public virtual RSystem.RBoolean RPdelegatesFocus
 		{
 			get
 			{
-				if(r_delegatesFocus == null)
+				if(r_PdelegatesFocus == null)
 				{
-					r_delegatesFocus = new(this, "delegatesFocus", -1);
-					r_delegatesFocus.SetBelong(this.instance);
+					r_PdelegatesFocus = new(this, "delegatesFocus", -1);
+					r_PdelegatesFocus.SetBelong(this.instance);
 				}
-				return r_delegatesFocus;
+				return r_PdelegatesFocus;
 			}
 		}
 
 		/// <summary>
 		/// Boolean excludeFromFocusRing
 		/// </summary>
-		protected RSystem.RBoolean r_excludeFromFocusRing;
-		public virtual RSystem.RBoolean RexcludeFromFocusRing
+		protected RSystem.RBoolean r_PexcludeFromFocusRing;
+		public virtual RSystem.RBoolean RPexcludeFromFocusRing
 		{
 			get
 			{
-				if(r_excludeFromFocusRing == null)
+				if(r_PexcludeFromFocusRing == null)
 				{
-					r_excludeFromFocusRing = new(this, "excludeFromFocusRing", -1);
-					r_excludeFromFocusRing.SetBelong(this.instance);
+					r_PexcludeFromFocusRing = new(this, "excludeFromFocusRing", -1);
+					r_PexcludeFromFocusRing.SetBelong(this.instance);
 				}
-				return r_excludeFromFocusRing;
+				return r_PexcludeFromFocusRing;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAction(System.Action, Int64, Int64)
 		/// </summary>
-		protected RMethod r_SetAction_Action_Int64_Int64;
-		public virtual RMethod RSetAction_Action_Int64_Int64
+		protected RMethod r_MSetAction_Action_Int64_Int64;
+		public virtual RMethod RMSetAction_Action_Int64_Int64
 		{
 			get
 			{
-				if(r_SetAction_Action_Int64_Int64 == null)
+				if(r_MSetAction_Action_Int64_Int64 == null)
 				{
-					r_SetAction_Action_Int64_Int64 = new(this, "SetAction", 0, typeof(System.Action), typeof(System.Int64), typeof(System.Int64));
-					r_SetAction_Action_Int64_Int64.SetBelong(this.instance);
+					r_MSetAction_Action_Int64_Int64 = new(this, "SetAction", 0, typeof(System.Action), typeof(System.Int64), typeof(System.Int64));
+					r_MSetAction_Action_Int64_Int64.SetBelong(this.instance);
 				}
-				return r_SetAction_Action_Int64_Int64;
+				return r_MSetAction_Action_Int64_Int64;
 			}
 		}
 
 		/// <summary>
 		/// Void OnGenerateVisualContent(UnityEngine.UIElements.MeshGenerationContext)
 		/// </summary>
-		protected RMethod r_OnGenerateVisualContent_MeshGenerationContext;
-		public virtual RMethod ROnGenerateVisualContent_MeshGenerationContext
+		protected RMethod r_MOnGenerateVisualContent_MeshGenerationContext;
+		public virtual RMethod RMOnGenerateVisualContent_MeshGenerationContext
 		{
 			get
 			{
-				if(r_OnGenerateVisualContent_MeshGenerationContext == null)
+				if(r_MOnGenerateVisualContent_MeshGenerationContext == null)
 				{
-					r_OnGenerateVisualContent_MeshGenerationContext = new(this, "OnGenerateVisualContent", 0, typeof(UnityEngine.UIElements.MeshGenerationContext));
-					r_OnGenerateVisualContent_MeshGenerationContext.SetBelong(this.instance);
+					r_MOnGenerateVisualContent_MeshGenerationContext = new(this, "OnGenerateVisualContent", 0, typeof(UnityEngine.UIElements.MeshGenerationContext));
+					r_MOnGenerateVisualContent_MeshGenerationContext.SetBelong(this.instance);
 				}
-				return r_OnGenerateVisualContent_MeshGenerationContext;
+				return r_MOnGenerateVisualContent_MeshGenerationContext;
 			}
 		}
 
 		/// <summary>
 		/// System.String ElideText(System.String, System.String, Single, UnityEngine.UIElements.TextOverflowPosition)
 		/// </summary>
-		protected RMethod r_ElideText_String_String_Single_TextOverflowPosition;
-		public virtual RMethod RElideText_String_String_Single_TextOverflowPosition
+		protected RMethod r_MElideText_String_String_Single_TextOverflowPosition;
+		public virtual RMethod RMElideText_String_String_Single_TextOverflowPosition
 		{
 			get
 			{
-				if(r_ElideText_String_String_Single_TextOverflowPosition == null)
+				if(r_MElideText_String_String_Single_TextOverflowPosition == null)
 				{
-					r_ElideText_String_String_Single_TextOverflowPosition = new(this, "ElideText", 0, typeof(System.String), typeof(System.String), typeof(System.Single), typeof(UnityEngine.UIElements.TextOverflowPosition));
-					r_ElideText_String_String_Single_TextOverflowPosition.SetBelong(this.instance);
+					r_MElideText_String_String_Single_TextOverflowPosition = new(this, "ElideText", 0, typeof(System.String), typeof(System.String), typeof(System.Single), typeof(UnityEngine.UIElements.TextOverflowPosition));
+					r_MElideText_String_String_Single_TextOverflowPosition.SetBelong(this.instance);
 				}
-				return r_ElideText_String_String_Single_TextOverflowPosition;
+				return r_MElideText_String_String_Single_TextOverflowPosition;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 MeasureTextSize(System.String, Single, MeasureMode, Single, MeasureMode)
 		/// </summary>
-		protected RMethod r_MeasureTextSize_String_Single_MeasureMode_Single_MeasureMode;
-		public virtual RMethod RMeasureTextSize_String_Single_MeasureMode_Single_MeasureMode
+		protected RMethod r_MMeasureTextSize_String_Single_MeasureMode_Single_MeasureMode;
+		public virtual RMethod RMMeasureTextSize_String_Single_MeasureMode_Single_MeasureMode
 		{
 			get
 			{
-				if(r_MeasureTextSize_String_Single_MeasureMode_Single_MeasureMode == null)
+				if(r_MMeasureTextSize_String_Single_MeasureMode_Single_MeasureMode == null)
 				{
-					r_MeasureTextSize_String_Single_MeasureMode_Single_MeasureMode = new(this, "MeasureTextSize", 0, typeof(System.String), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+MeasureMode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+MeasureMode"));
-					r_MeasureTextSize_String_Single_MeasureMode_Single_MeasureMode.SetBelong(this.instance);
+					r_MMeasureTextSize_String_Single_MeasureMode_Single_MeasureMode = new(this, "MeasureTextSize", 0, typeof(System.String), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+MeasureMode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+MeasureMode"));
+					r_MMeasureTextSize_String_Single_MeasureMode_Single_MeasureMode.SetBelong(this.instance);
 				}
-				return r_MeasureTextSize_String_Single_MeasureMode_Single_MeasureMode;
+				return r_MMeasureTextSize_String_Single_MeasureMode_Single_MeasureMode;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 DoMeasure(Single, MeasureMode, Single, MeasureMode)
 		/// </summary>
-		protected RMethod r_DoMeasure_Single_MeasureMode_Single_MeasureMode;
-		public virtual RMethod RDoMeasure_Single_MeasureMode_Single_MeasureMode
+		protected RMethod r_MDoMeasure_Single_MeasureMode_Single_MeasureMode;
+		public virtual RMethod RMDoMeasure_Single_MeasureMode_Single_MeasureMode
 		{
 			get
 			{
-				if(r_DoMeasure_Single_MeasureMode_Single_MeasureMode == null)
+				if(r_MDoMeasure_Single_MeasureMode_Single_MeasureMode == null)
 				{
-					r_DoMeasure_Single_MeasureMode_Single_MeasureMode = new(this, "DoMeasure", 0, typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+MeasureMode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+MeasureMode"));
-					r_DoMeasure_Single_MeasureMode_Single_MeasureMode.SetBelong(this.instance);
+					r_MDoMeasure_Single_MeasureMode_Single_MeasureMode = new(this, "DoMeasure", 0, typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+MeasureMode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+MeasureMode"));
+					r_MDoMeasure_Single_MeasureMode_Single_MeasureMode.SetBelong(this.instance);
 				}
-				return r_DoMeasure_Single_MeasureMode_Single_MeasureMode;
+				return r_MDoMeasure_Single_MeasureMode_Single_MeasureMode;
 			}
 		}
 
 		/// <summary>
 		/// Void ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_ExecuteDefaultActionAtTarget_EventBase;
-		public virtual RMethod RExecuteDefaultActionAtTarget_EventBase
+		protected RMethod r_MExecuteDefaultActionAtTarget_EventBase;
+		public virtual RMethod RMExecuteDefaultActionAtTarget_EventBase
 		{
 			get
 			{
-				if(r_ExecuteDefaultActionAtTarget_EventBase == null)
+				if(r_MExecuteDefaultActionAtTarget_EventBase == null)
 				{
-					r_ExecuteDefaultActionAtTarget_EventBase = new(this, "ExecuteDefaultActionAtTarget", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_ExecuteDefaultActionAtTarget_EventBase.SetBelong(this.instance);
+					r_MExecuteDefaultActionAtTarget_EventBase = new(this, "ExecuteDefaultActionAtTarget", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_MExecuteDefaultActionAtTarget_EventBase.SetBelong(this.instance);
 				}
-				return r_ExecuteDefaultActionAtTarget_EventBase;
+				return r_MExecuteDefaultActionAtTarget_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawCaret(UnityEngine.UIElements.MeshGenerationContext)
 		/// </summary>
-		protected RMethod r_DrawCaret_MeshGenerationContext;
-		public virtual RMethod RDrawCaret_MeshGenerationContext
+		protected RMethod r_MDrawCaret_MeshGenerationContext;
+		public virtual RMethod RMDrawCaret_MeshGenerationContext
 		{
 			get
 			{
-				if(r_DrawCaret_MeshGenerationContext == null)
+				if(r_MDrawCaret_MeshGenerationContext == null)
 				{
-					r_DrawCaret_MeshGenerationContext = new(this, "DrawCaret", 0, typeof(UnityEngine.UIElements.MeshGenerationContext));
-					r_DrawCaret_MeshGenerationContext.SetBelong(this.instance);
+					r_MDrawCaret_MeshGenerationContext = new(this, "DrawCaret", 0, typeof(UnityEngine.UIElements.MeshGenerationContext));
+					r_MDrawCaret_MeshGenerationContext.SetBelong(this.instance);
 				}
-				return r_DrawCaret_MeshGenerationContext;
+				return r_MDrawCaret_MeshGenerationContext;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryConvertLengthUnits(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.Length ByRef, UnityEngine.UIElements.Length ByRef, Int32)
 		/// </summary>
-		protected RMethod r_TryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32;
-		public virtual RMethod RTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32
+		protected RMethod r_MTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32;
+		public virtual RMethod RMTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32
 		{
 			get
 			{
-				if(r_TryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32 == null)
+				if(r_MTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32 == null)
 				{
-					r_TryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32 = new(this, "TryConvertLengthUnits", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Length).MakeByRefType(), typeof(UnityEngine.UIElements.Length).MakeByRefType(), typeof(System.Int32));
-					r_TryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32.SetBelong(this.instance);
+					r_MTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32 = new(this, "TryConvertLengthUnits", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Length).MakeByRefType(), typeof(UnityEngine.UIElements.Length).MakeByRefType(), typeof(System.Int32));
+					r_MTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32.SetBelong(this.instance);
 				}
-				return r_TryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32;
+				return r_MTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryConvertTransformOriginUnits(UnityEngine.UIElements.TransformOrigin ByRef, UnityEngine.UIElements.TransformOrigin ByRef)
 		/// </summary>
-		protected RMethod r_TryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin;
-		public virtual RMethod RTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin
+		protected RMethod r_MTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin;
+		public virtual RMethod RMTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin
 		{
 			get
 			{
-				if(r_TryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin == null)
+				if(r_MTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin == null)
 				{
-					r_TryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin = new(this, "TryConvertTransformOriginUnits", 0, typeof(UnityEngine.UIElements.TransformOrigin).MakeByRefType(), typeof(UnityEngine.UIElements.TransformOrigin).MakeByRefType());
-					r_TryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin.SetBelong(this.instance);
+					r_MTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin = new(this, "TryConvertTransformOriginUnits", 0, typeof(UnityEngine.UIElements.TransformOrigin).MakeByRefType(), typeof(UnityEngine.UIElements.TransformOrigin).MakeByRefType());
+					r_MTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin.SetBelong(this.instance);
 				}
-				return r_TryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin;
+				return r_MTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryConvertTranslateUnits(UnityEngine.UIElements.Translate ByRef, UnityEngine.UIElements.Translate ByRef)
 		/// </summary>
-		protected RMethod r_TryConvertTranslateUnits_Ref_Translate_Ref_Translate;
-		public virtual RMethod RTryConvertTranslateUnits_Ref_Translate_Ref_Translate
+		protected RMethod r_MTryConvertTranslateUnits_Ref_Translate_Ref_Translate;
+		public virtual RMethod RMTryConvertTranslateUnits_Ref_Translate_Ref_Translate
 		{
 			get
 			{
-				if(r_TryConvertTranslateUnits_Ref_Translate_Ref_Translate == null)
+				if(r_MTryConvertTranslateUnits_Ref_Translate_Ref_Translate == null)
 				{
-					r_TryConvertTranslateUnits_Ref_Translate_Ref_Translate = new(this, "TryConvertTranslateUnits", 0, typeof(UnityEngine.UIElements.Translate).MakeByRefType(), typeof(UnityEngine.UIElements.Translate).MakeByRefType());
-					r_TryConvertTranslateUnits_Ref_Translate_Ref_Translate.SetBelong(this.instance);
+					r_MTryConvertTranslateUnits_Ref_Translate_Ref_Translate = new(this, "TryConvertTranslateUnits", 0, typeof(UnityEngine.UIElements.Translate).MakeByRefType(), typeof(UnityEngine.UIElements.Translate).MakeByRefType());
+					r_MTryConvertTranslateUnits_Ref_Translate_Ref_Translate.SetBelong(this.instance);
 				}
-				return r_TryConvertTranslateUnits_Ref_Translate_Ref_Translate;
+				return r_MTryConvertTranslateUnits_Ref_Translate_Ref_Translate;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryConvertBackgroundPositionUnits(UnityEngine.UIElements.BackgroundPosition ByRef, UnityEngine.UIElements.BackgroundPosition ByRef)
 		/// </summary>
-		protected RMethod r_TryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition;
-		public virtual RMethod RTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition
+		protected RMethod r_MTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition;
+		public virtual RMethod RMTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition
 		{
 			get
 			{
-				if(r_TryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition == null)
+				if(r_MTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition == null)
 				{
-					r_TryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition = new(this, "TryConvertBackgroundPositionUnits", 0, typeof(UnityEngine.UIElements.BackgroundPosition).MakeByRefType(), typeof(UnityEngine.UIElements.BackgroundPosition).MakeByRefType());
-					r_TryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition.SetBelong(this.instance);
+					r_MTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition = new(this, "TryConvertBackgroundPositionUnits", 0, typeof(UnityEngine.UIElements.BackgroundPosition).MakeByRefType(), typeof(UnityEngine.UIElements.BackgroundPosition).MakeByRefType());
+					r_MTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition.SetBelong(this.instance);
 				}
-				return r_TryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition;
+				return r_MTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryConvertBackgroundSizeUnits(UnityEngine.UIElements.BackgroundSize ByRef, UnityEngine.UIElements.BackgroundSize ByRef)
 		/// </summary>
-		protected RMethod r_TryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize;
-		public virtual RMethod RTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize
+		protected RMethod r_MTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize;
+		public virtual RMethod RMTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize
 		{
 			get
 			{
-				if(r_TryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize == null)
+				if(r_MTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize == null)
 				{
-					r_TryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize = new(this, "TryConvertBackgroundSizeUnits", 0, typeof(UnityEngine.UIElements.BackgroundSize).MakeByRefType(), typeof(UnityEngine.UIElements.BackgroundSize).MakeByRefType());
-					r_TryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize.SetBelong(this.instance);
+					r_MTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize = new(this, "TryConvertBackgroundSizeUnits", 0, typeof(UnityEngine.UIElements.BackgroundSize).MakeByRefType(), typeof(UnityEngine.UIElements.BackgroundSize).MakeByRefType());
+					r_MTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize.SetBelong(this.instance);
 				}
-				return r_TryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize;
+				return r_MTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize;
 			}
 		}
 
 		/// <summary>
 		/// Void MarkRenderHintsClean()
 		/// </summary>
-		protected RMethod r_MarkRenderHintsClean;
-		public virtual RMethod RMarkRenderHintsClean
+		protected RMethod r_MMarkRenderHintsClean;
+		public virtual RMethod RMMarkRenderHintsClean
 		{
 			get
 			{
-				if(r_MarkRenderHintsClean == null)
+				if(r_MMarkRenderHintsClean == null)
 				{
-					r_MarkRenderHintsClean = new(this, "MarkRenderHintsClean", 0);
-					r_MarkRenderHintsClean.SetBelong(this.instance);
+					r_MMarkRenderHintsClean = new(this, "MarkRenderHintsClean", 0);
+					r_MMarkRenderHintsClean.SetBelong(this.instance);
 				}
-				return r_MarkRenderHintsClean;
+				return r_MMarkRenderHintsClean;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateBoundingBox()
 		/// </summary>
-		protected RMethod r_UpdateBoundingBox;
-		public virtual RMethod RUpdateBoundingBox
+		protected RMethod r_MUpdateBoundingBox;
+		public virtual RMethod RMUpdateBoundingBox
 		{
 			get
 			{
-				if(r_UpdateBoundingBox == null)
+				if(r_MUpdateBoundingBox == null)
 				{
-					r_UpdateBoundingBox = new(this, "UpdateBoundingBox", 0);
-					r_UpdateBoundingBox.SetBelong(this.instance);
+					r_MUpdateBoundingBox = new(this, "UpdateBoundingBox", 0);
+					r_MUpdateBoundingBox.SetBelong(this.instance);
 				}
-				return r_UpdateBoundingBox;
+				return r_MUpdateBoundingBox;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateWorldBoundingBox()
 		/// </summary>
-		protected RMethod r_UpdateWorldBoundingBox;
-		public virtual RMethod RUpdateWorldBoundingBox
+		protected RMethod r_MUpdateWorldBoundingBox;
+		public virtual RMethod RMUpdateWorldBoundingBox
 		{
 			get
 			{
-				if(r_UpdateWorldBoundingBox == null)
+				if(r_MUpdateWorldBoundingBox == null)
 				{
-					r_UpdateWorldBoundingBox = new(this, "UpdateWorldBoundingBox", 0);
-					r_UpdateWorldBoundingBox.SetBelong(this.instance);
+					r_MUpdateWorldBoundingBox = new(this, "UpdateWorldBoundingBox", 0);
+					r_MUpdateWorldBoundingBox.SetBelong(this.instance);
 				}
-				return r_UpdateWorldBoundingBox;
+				return r_MUpdateWorldBoundingBox;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateWorldTransform()
 		/// </summary>
-		protected RMethod r_UpdateWorldTransform;
-		public virtual RMethod RUpdateWorldTransform
+		protected RMethod r_MUpdateWorldTransform;
+		public virtual RMethod RMUpdateWorldTransform
 		{
 			get
 			{
-				if(r_UpdateWorldTransform == null)
+				if(r_MUpdateWorldTransform == null)
 				{
-					r_UpdateWorldTransform = new(this, "UpdateWorldTransform", 0);
-					r_UpdateWorldTransform.SetBelong(this.instance);
+					r_MUpdateWorldTransform = new(this, "UpdateWorldTransform", 0);
+					r_MUpdateWorldTransform.SetBelong(this.instance);
 				}
-				return r_UpdateWorldTransform;
+				return r_MUpdateWorldTransform;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateWorldTransformInverse()
 		/// </summary>
-		protected RMethod r_UpdateWorldTransformInverse;
-		public virtual RMethod RUpdateWorldTransformInverse
+		protected RMethod r_MUpdateWorldTransformInverse;
+		public virtual RMethod RMUpdateWorldTransformInverse
 		{
 			get
 			{
-				if(r_UpdateWorldTransformInverse == null)
+				if(r_MUpdateWorldTransformInverse == null)
 				{
-					r_UpdateWorldTransformInverse = new(this, "UpdateWorldTransformInverse", 0);
-					r_UpdateWorldTransformInverse.SetBelong(this.instance);
+					r_MUpdateWorldTransformInverse = new(this, "UpdateWorldTransformInverse", 0);
+					r_MUpdateWorldTransformInverse.SetBelong(this.instance);
 				}
-				return r_UpdateWorldTransformInverse;
+				return r_MUpdateWorldTransformInverse;
 			}
 		}
 
 		/// <summary>
 		/// Void EnsureWorldTransformAndClipUpToDate()
 		/// </summary>
-		protected RMethod r_EnsureWorldTransformAndClipUpToDate;
-		public virtual RMethod REnsureWorldTransformAndClipUpToDate
+		protected RMethod r_MEnsureWorldTransformAndClipUpToDate;
+		public virtual RMethod RMEnsureWorldTransformAndClipUpToDate
 		{
 			get
 			{
-				if(r_EnsureWorldTransformAndClipUpToDate == null)
+				if(r_MEnsureWorldTransformAndClipUpToDate == null)
 				{
-					r_EnsureWorldTransformAndClipUpToDate = new(this, "EnsureWorldTransformAndClipUpToDate", 0);
-					r_EnsureWorldTransformAndClipUpToDate.SetBelong(this.instance);
+					r_MEnsureWorldTransformAndClipUpToDate = new(this, "EnsureWorldTransformAndClipUpToDate", 0);
+					r_MEnsureWorldTransformAndClipUpToDate.SetBelong(this.instance);
 				}
-				return r_EnsureWorldTransformAndClipUpToDate;
+				return r_MEnsureWorldTransformAndClipUpToDate;
 			}
 		}
 
 		/// <summary>
 		/// Void ExecuteDefaultAction(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_ExecuteDefaultAction_EventBase;
-		public virtual RMethod RExecuteDefaultAction_EventBase
+		protected RMethod r_MExecuteDefaultAction_EventBase;
+		public virtual RMethod RMExecuteDefaultAction_EventBase
 		{
 			get
 			{
-				if(r_ExecuteDefaultAction_EventBase == null)
+				if(r_MExecuteDefaultAction_EventBase == null)
 				{
-					r_ExecuteDefaultAction_EventBase = new(this, "ExecuteDefaultAction", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_ExecuteDefaultAction_EventBase.SetBelong(this.instance);
+					r_MExecuteDefaultAction_EventBase = new(this, "ExecuteDefaultAction", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_MExecuteDefaultAction_EventBase.SetBelong(this.instance);
 				}
-				return r_ExecuteDefaultAction_EventBase;
+				return r_MExecuteDefaultAction_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect GetTooltipRect()
 		/// </summary>
-		protected RMethod r_GetTooltipRect;
-		public virtual RMethod RGetTooltipRect
+		protected RMethod r_MGetTooltipRect;
+		public virtual RMethod RMGetTooltipRect
 		{
 			get
 			{
-				if(r_GetTooltipRect == null)
+				if(r_MGetTooltipRect == null)
 				{
-					r_GetTooltipRect = new(this, "GetTooltipRect", 0);
-					r_GetTooltipRect.SetBelong(this.instance);
+					r_MGetTooltipRect = new(this, "GetTooltipRect", 0);
+					r_MGetTooltipRect.SetBelong(this.instance);
 				}
-				return r_GetTooltipRect;
+				return r_MGetTooltipRect;
 			}
 		}
 
 		/// <summary>
 		/// Void Focus()
 		/// </summary>
-		protected RMethod r_Focus;
-		public virtual RMethod RFocus
+		protected RMethod r_MFocus;
+		public virtual RMethod RMFocus
 		{
 			get
 			{
-				if(r_Focus == null)
+				if(r_MFocus == null)
 				{
-					r_Focus = new(this, "Focus", 0);
-					r_Focus.SetBelong(this.instance);
+					r_MFocus = new(this, "Focus", 0);
+					r_MFocus.SetBelong(this.instance);
 				}
-				return r_Focus;
+				return r_MFocus;
 			}
 		}
 
 		/// <summary>
 		/// Void SetPanel(UnityEngine.UIElements.BaseVisualElementPanel)
 		/// </summary>
-		protected RMethod r_SetPanel_BaseVisualElementPanel;
-		public virtual RMethod RSetPanel_BaseVisualElementPanel
+		protected RMethod r_MSetPanel_BaseVisualElementPanel;
+		public virtual RMethod RMSetPanel_BaseVisualElementPanel
 		{
 			get
 			{
-				if(r_SetPanel_BaseVisualElementPanel == null)
+				if(r_MSetPanel_BaseVisualElementPanel == null)
 				{
-					r_SetPanel_BaseVisualElementPanel = new(this, "SetPanel", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.BaseVisualElementPanel"));
-					r_SetPanel_BaseVisualElementPanel.SetBelong(this.instance);
+					r_MSetPanel_BaseVisualElementPanel = new(this, "SetPanel", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.BaseVisualElementPanel"));
+					r_MSetPanel_BaseVisualElementPanel.SetBelong(this.instance);
 				}
-				return r_SetPanel_BaseVisualElementPanel;
+				return r_MSetPanel_BaseVisualElementPanel;
 			}
 		}
 
 		/// <summary>
 		/// Void SendEvent(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_SendEvent_EventBase;
-		public virtual RMethod RSendEvent_EventBase
+		protected RMethod r_MSendEvent_EventBase;
+		public virtual RMethod RMSendEvent_EventBase
 		{
 			get
 			{
-				if(r_SendEvent_EventBase == null)
+				if(r_MSendEvent_EventBase == null)
 				{
-					r_SendEvent_EventBase = new(this, "SendEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_SendEvent_EventBase.SetBelong(this.instance);
+					r_MSendEvent_EventBase = new(this, "SendEvent", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_MSendEvent_EventBase.SetBelong(this.instance);
 				}
-				return r_SendEvent_EventBase;
+				return r_MSendEvent_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// Void SendEvent(UnityEngine.UIElements.EventBase, UnityEngine.UIElements.DispatchMode)
 		/// </summary>
-		protected RMethod r_SendEvent_EventBase_DispatchMode;
-		public virtual RMethod RSendEvent_EventBase_DispatchMode
+		protected RMethod r_MSendEvent_EventBase_DispatchMode;
+		public virtual RMethod RMSendEvent_EventBase_DispatchMode
 		{
 			get
 			{
-				if(r_SendEvent_EventBase_DispatchMode == null)
+				if(r_MSendEvent_EventBase_DispatchMode == null)
 				{
-					r_SendEvent_EventBase_DispatchMode = new(this, "SendEvent", 0, typeof(UnityEngine.UIElements.EventBase),  ReflectionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
-					r_SendEvent_EventBase_DispatchMode.SetBelong(this.instance);
+					r_MSendEvent_EventBase_DispatchMode = new(this, "SendEvent", 0, typeof(UnityEngine.UIElements.EventBase),  ReflectionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_MSendEvent_EventBase_DispatchMode.SetBelong(this.instance);
 				}
-				return r_SendEvent_EventBase_DispatchMode;
+				return r_MSendEvent_EventBase_DispatchMode;
 			}
 		}
 
 		/// <summary>
 		/// Void IncrementVersion(UnityEngine.UIElements.VersionChangeType)
 		/// </summary>
-		protected RMethod r_IncrementVersion_VersionChangeType;
-		public virtual RMethod RIncrementVersion_VersionChangeType
+		protected RMethod r_MIncrementVersion_VersionChangeType;
+		public virtual RMethod RMIncrementVersion_VersionChangeType
 		{
 			get
 			{
-				if(r_IncrementVersion_VersionChangeType == null)
+				if(r_MIncrementVersion_VersionChangeType == null)
 				{
-					r_IncrementVersion_VersionChangeType = new(this, "IncrementVersion", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
-					r_IncrementVersion_VersionChangeType.SetBelong(this.instance);
+					r_MIncrementVersion_VersionChangeType = new(this, "IncrementVersion", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
+					r_MIncrementVersion_VersionChangeType.SetBelong(this.instance);
 				}
-				return r_IncrementVersion_VersionChangeType;
+				return r_MIncrementVersion_VersionChangeType;
 			}
 		}
 
 		/// <summary>
 		/// Void InvokeHierarchyChanged(UnityEngine.UIElements.HierarchyChangeType)
 		/// </summary>
-		protected RMethod r_InvokeHierarchyChanged_HierarchyChangeType;
-		public virtual RMethod RInvokeHierarchyChanged_HierarchyChangeType
+		protected RMethod r_MInvokeHierarchyChanged_HierarchyChangeType;
+		public virtual RMethod RMInvokeHierarchyChanged_HierarchyChangeType
 		{
 			get
 			{
-				if(r_InvokeHierarchyChanged_HierarchyChangeType == null)
+				if(r_MInvokeHierarchyChanged_HierarchyChangeType == null)
 				{
-					r_InvokeHierarchyChanged_HierarchyChangeType = new(this, "InvokeHierarchyChanged", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.HierarchyChangeType"));
-					r_InvokeHierarchyChanged_HierarchyChangeType.SetBelong(this.instance);
+					r_MInvokeHierarchyChanged_HierarchyChangeType = new(this, "InvokeHierarchyChanged", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.HierarchyChangeType"));
+					r_MInvokeHierarchyChanged_HierarchyChangeType.SetBelong(this.instance);
 				}
-				return r_InvokeHierarchyChanged_HierarchyChangeType;
+				return r_MInvokeHierarchyChanged_HierarchyChangeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetEnabledFromHierarchy(Boolean)
 		/// </summary>
-		protected RMethod r_SetEnabledFromHierarchy_Boolean;
-		public virtual RMethod RSetEnabledFromHierarchy_Boolean
+		protected RMethod r_MSetEnabledFromHierarchy_Boolean;
+		public virtual RMethod RMSetEnabledFromHierarchy_Boolean
 		{
 			get
 			{
-				if(r_SetEnabledFromHierarchy_Boolean == null)
+				if(r_MSetEnabledFromHierarchy_Boolean == null)
 				{
-					r_SetEnabledFromHierarchy_Boolean = new(this, "SetEnabledFromHierarchy", 0, typeof(System.Boolean));
-					r_SetEnabledFromHierarchy_Boolean.SetBelong(this.instance);
+					r_MSetEnabledFromHierarchy_Boolean = new(this, "SetEnabledFromHierarchy", 0, typeof(System.Boolean));
+					r_MSetEnabledFromHierarchy_Boolean.SetBelong(this.instance);
 				}
-				return r_SetEnabledFromHierarchy_Boolean;
+				return r_MSetEnabledFromHierarchy_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetEnabled(Boolean)
 		/// </summary>
-		protected RMethod r_SetEnabled_Boolean;
-		public virtual RMethod RSetEnabled_Boolean
+		protected RMethod r_MSetEnabled_Boolean;
+		public virtual RMethod RMSetEnabled_Boolean
 		{
 			get
 			{
-				if(r_SetEnabled_Boolean == null)
+				if(r_MSetEnabled_Boolean == null)
 				{
-					r_SetEnabled_Boolean = new(this, "SetEnabled", 0, typeof(System.Boolean));
-					r_SetEnabled_Boolean.SetBelong(this.instance);
+					r_MSetEnabled_Boolean = new(this, "SetEnabled", 0, typeof(System.Boolean));
+					r_MSetEnabled_Boolean.SetBelong(this.instance);
 				}
-				return r_SetEnabled_Boolean;
+				return r_MSetEnabled_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void MarkDirtyRepaint()
 		/// </summary>
-		protected RMethod r_MarkDirtyRepaint;
-		public virtual RMethod RMarkDirtyRepaint
+		protected RMethod r_MMarkDirtyRepaint;
+		public virtual RMethod RMMarkDirtyRepaint
 		{
 			get
 			{
-				if(r_MarkDirtyRepaint == null)
+				if(r_MMarkDirtyRepaint == null)
 				{
-					r_MarkDirtyRepaint = new(this, "MarkDirtyRepaint", 0);
-					r_MarkDirtyRepaint.SetBelong(this.instance);
+					r_MMarkDirtyRepaint = new(this, "MarkDirtyRepaint", 0);
+					r_MMarkDirtyRepaint.SetBelong(this.instance);
 				}
-				return r_MarkDirtyRepaint;
+				return r_MMarkDirtyRepaint;
 			}
 		}
 
 		/// <summary>
 		/// Void InvokeGenerateVisualContent(UnityEngine.UIElements.MeshGenerationContext)
 		/// </summary>
-		protected RMethod r_InvokeGenerateVisualContent_MeshGenerationContext;
-		public virtual RMethod RInvokeGenerateVisualContent_MeshGenerationContext
+		protected RMethod r_MInvokeGenerateVisualContent_MeshGenerationContext;
+		public virtual RMethod RMInvokeGenerateVisualContent_MeshGenerationContext
 		{
 			get
 			{
-				if(r_InvokeGenerateVisualContent_MeshGenerationContext == null)
+				if(r_MInvokeGenerateVisualContent_MeshGenerationContext == null)
 				{
-					r_InvokeGenerateVisualContent_MeshGenerationContext = new(this, "InvokeGenerateVisualContent", 0, typeof(UnityEngine.UIElements.MeshGenerationContext));
-					r_InvokeGenerateVisualContent_MeshGenerationContext.SetBelong(this.instance);
+					r_MInvokeGenerateVisualContent_MeshGenerationContext = new(this, "InvokeGenerateVisualContent", 0, typeof(UnityEngine.UIElements.MeshGenerationContext));
+					r_MInvokeGenerateVisualContent_MeshGenerationContext.SetBelong(this.instance);
 				}
-				return r_InvokeGenerateVisualContent_MeshGenerationContext;
+				return r_MInvokeGenerateVisualContent_MeshGenerationContext;
 			}
 		}
 
 		/// <summary>
 		/// Void GetFullHierarchicalViewDataKey(System.Text.StringBuilder)
 		/// </summary>
-		protected RMethod r_GetFullHierarchicalViewDataKey_StringBuilder;
-		public virtual RMethod RGetFullHierarchicalViewDataKey_StringBuilder
+		protected RMethod r_MGetFullHierarchicalViewDataKey_StringBuilder;
+		public virtual RMethod RMGetFullHierarchicalViewDataKey_StringBuilder
 		{
 			get
 			{
-				if(r_GetFullHierarchicalViewDataKey_StringBuilder == null)
+				if(r_MGetFullHierarchicalViewDataKey_StringBuilder == null)
 				{
-					r_GetFullHierarchicalViewDataKey_StringBuilder = new(this, "GetFullHierarchicalViewDataKey", 0, typeof(System.Text.StringBuilder));
-					r_GetFullHierarchicalViewDataKey_StringBuilder.SetBelong(this.instance);
+					r_MGetFullHierarchicalViewDataKey_StringBuilder = new(this, "GetFullHierarchicalViewDataKey", 0, typeof(System.Text.StringBuilder));
+					r_MGetFullHierarchicalViewDataKey_StringBuilder.SetBelong(this.instance);
 				}
-				return r_GetFullHierarchicalViewDataKey_StringBuilder;
+				return r_MGetFullHierarchicalViewDataKey_StringBuilder;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetFullHierarchicalViewDataKey()
 		/// </summary>
-		protected RMethod r_GetFullHierarchicalViewDataKey;
-		public virtual RMethod RGetFullHierarchicalViewDataKey
+		protected RMethod r_MGetFullHierarchicalViewDataKey;
+		public virtual RMethod RMGetFullHierarchicalViewDataKey
 		{
 			get
 			{
-				if(r_GetFullHierarchicalViewDataKey == null)
+				if(r_MGetFullHierarchicalViewDataKey == null)
 				{
-					r_GetFullHierarchicalViewDataKey = new(this, "GetFullHierarchicalViewDataKey", 0);
-					r_GetFullHierarchicalViewDataKey.SetBelong(this.instance);
+					r_MGetFullHierarchicalViewDataKey = new(this, "GetFullHierarchicalViewDataKey", 0);
+					r_MGetFullHierarchicalViewDataKey.SetBelong(this.instance);
 				}
-				return r_GetFullHierarchicalViewDataKey;
+				return r_MGetFullHierarchicalViewDataKey;
 			}
 		}
 
 		/// <summary>
 		/// T GetOrCreateViewData[T](System.Object, System.String)
 		/// </summary>
-		protected RMethod r_GetOrCreateViewData_GT_Object_String;
-		public virtual RMethod RGetOrCreateViewData_GT_Object_String
+		protected RMethod r_MGetOrCreateViewData_GT_Object_String;
+		public virtual RMethod RMGetOrCreateViewData_GT_Object_String
 		{
 			get
 			{
-				if(r_GetOrCreateViewData_GT_Object_String == null)
+				if(r_MGetOrCreateViewData_GT_Object_String == null)
 				{
-					r_GetOrCreateViewData_GT_Object_String = new(this, "GetOrCreateViewData", 1, typeof(System.Object), typeof(System.String));
-					r_GetOrCreateViewData_GT_Object_String.SetBelong(this.instance);
+					r_MGetOrCreateViewData_GT_Object_String = new(this, "GetOrCreateViewData", 1, typeof(System.Object), typeof(System.String));
+					r_MGetOrCreateViewData_GT_Object_String.SetBelong(this.instance);
 				}
-				return r_GetOrCreateViewData_GT_Object_String;
+				return r_MGetOrCreateViewData_GT_Object_String;
 			}
 		}
 
 		/// <summary>
 		/// T GetOrCreateViewData[T](UnityEngine.ScriptableObject, System.String)
 		/// </summary>
-		protected RMethod r_GetOrCreateViewData_GT_ScriptableObject_String;
-		public virtual RMethod RGetOrCreateViewData_GT_ScriptableObject_String
+		protected RMethod r_MGetOrCreateViewData_GT_ScriptableObject_String;
+		public virtual RMethod RMGetOrCreateViewData_GT_ScriptableObject_String
 		{
 			get
 			{
-				if(r_GetOrCreateViewData_GT_ScriptableObject_String == null)
+				if(r_MGetOrCreateViewData_GT_ScriptableObject_String == null)
 				{
-					r_GetOrCreateViewData_GT_ScriptableObject_String = new(this, "GetOrCreateViewData", 1, typeof(UnityEngine.ScriptableObject), typeof(System.String));
-					r_GetOrCreateViewData_GT_ScriptableObject_String.SetBelong(this.instance);
+					r_MGetOrCreateViewData_GT_ScriptableObject_String = new(this, "GetOrCreateViewData", 1, typeof(UnityEngine.ScriptableObject), typeof(System.String));
+					r_MGetOrCreateViewData_GT_ScriptableObject_String.SetBelong(this.instance);
 				}
-				return r_GetOrCreateViewData_GT_ScriptableObject_String;
+				return r_MGetOrCreateViewData_GT_ScriptableObject_String;
 			}
 		}
 
 		/// <summary>
 		/// Void OverwriteFromViewData(System.Object, System.String)
 		/// </summary>
-		protected RMethod r_OverwriteFromViewData_Object_String;
-		public virtual RMethod ROverwriteFromViewData_Object_String
+		protected RMethod r_MOverwriteFromViewData_Object_String;
+		public virtual RMethod RMOverwriteFromViewData_Object_String
 		{
 			get
 			{
-				if(r_OverwriteFromViewData_Object_String == null)
+				if(r_MOverwriteFromViewData_Object_String == null)
 				{
-					r_OverwriteFromViewData_Object_String = new(this, "OverwriteFromViewData", 0, typeof(System.Object), typeof(System.String));
-					r_OverwriteFromViewData_Object_String.SetBelong(this.instance);
+					r_MOverwriteFromViewData_Object_String = new(this, "OverwriteFromViewData", 0, typeof(System.Object), typeof(System.String));
+					r_MOverwriteFromViewData_Object_String.SetBelong(this.instance);
 				}
-				return r_OverwriteFromViewData_Object_String;
+				return r_MOverwriteFromViewData_Object_String;
 			}
 		}
 
 		/// <summary>
 		/// Void SaveViewData()
 		/// </summary>
-		protected RMethod r_SaveViewData;
-		public virtual RMethod RSaveViewData
+		protected RMethod r_MSaveViewData;
+		public virtual RMethod RMSaveViewData
 		{
 			get
 			{
-				if(r_SaveViewData == null)
+				if(r_MSaveViewData == null)
 				{
-					r_SaveViewData = new(this, "SaveViewData", 0);
-					r_SaveViewData.SetBelong(this.instance);
+					r_MSaveViewData = new(this, "SaveViewData", 0);
+					r_MSaveViewData.SetBelong(this.instance);
 				}
-				return r_SaveViewData;
+				return r_MSaveViewData;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsViewDataPersitenceSupportedOnChildren(Boolean)
 		/// </summary>
-		protected RMethod r_IsViewDataPersitenceSupportedOnChildren_Boolean;
-		public virtual RMethod RIsViewDataPersitenceSupportedOnChildren_Boolean
+		protected RMethod r_MIsViewDataPersitenceSupportedOnChildren_Boolean;
+		public virtual RMethod RMIsViewDataPersitenceSupportedOnChildren_Boolean
 		{
 			get
 			{
-				if(r_IsViewDataPersitenceSupportedOnChildren_Boolean == null)
+				if(r_MIsViewDataPersitenceSupportedOnChildren_Boolean == null)
 				{
-					r_IsViewDataPersitenceSupportedOnChildren_Boolean = new(this, "IsViewDataPersitenceSupportedOnChildren", 0, typeof(System.Boolean));
-					r_IsViewDataPersitenceSupportedOnChildren_Boolean.SetBelong(this.instance);
+					r_MIsViewDataPersitenceSupportedOnChildren_Boolean = new(this, "IsViewDataPersitenceSupportedOnChildren", 0, typeof(System.Boolean));
+					r_MIsViewDataPersitenceSupportedOnChildren_Boolean.SetBelong(this.instance);
 				}
-				return r_IsViewDataPersitenceSupportedOnChildren_Boolean;
+				return r_MIsViewDataPersitenceSupportedOnChildren_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void OnViewDataReady(Boolean)
 		/// </summary>
-		protected RMethod r_OnViewDataReady_Boolean;
-		public virtual RMethod ROnViewDataReady_Boolean
+		protected RMethod r_MOnViewDataReady_Boolean;
+		public virtual RMethod RMOnViewDataReady_Boolean
 		{
 			get
 			{
-				if(r_OnViewDataReady_Boolean == null)
+				if(r_MOnViewDataReady_Boolean == null)
 				{
-					r_OnViewDataReady_Boolean = new(this, "OnViewDataReady", 0, typeof(System.Boolean));
-					r_OnViewDataReady_Boolean.SetBelong(this.instance);
+					r_MOnViewDataReady_Boolean = new(this, "OnViewDataReady", 0, typeof(System.Boolean));
+					r_MOnViewDataReady_Boolean.SetBelong(this.instance);
 				}
-				return r_OnViewDataReady_Boolean;
+				return r_MOnViewDataReady_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void OnViewDataReady()
 		/// </summary>
-		protected RMethod r_OnViewDataReady;
-		public virtual RMethod ROnViewDataReady
+		protected RMethod r_MOnViewDataReady;
+		public virtual RMethod RMOnViewDataReady
 		{
 			get
 			{
-				if(r_OnViewDataReady == null)
+				if(r_MOnViewDataReady == null)
 				{
-					r_OnViewDataReady = new(this, "OnViewDataReady", 0);
-					r_OnViewDataReady.SetBelong(this.instance);
+					r_MOnViewDataReady = new(this, "OnViewDataReady", 0);
+					r_MOnViewDataReady.SetBelong(this.instance);
 				}
-				return r_OnViewDataReady;
+				return r_MOnViewDataReady;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ContainsPoint(UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_ContainsPoint_Vector2;
-		public virtual RMethod RContainsPoint_Vector2
+		protected RMethod r_MContainsPoint_Vector2;
+		public virtual RMethod RMContainsPoint_Vector2
 		{
 			get
 			{
-				if(r_ContainsPoint_Vector2 == null)
+				if(r_MContainsPoint_Vector2 == null)
 				{
-					r_ContainsPoint_Vector2 = new(this, "ContainsPoint", 0, typeof(UnityEngine.Vector2));
-					r_ContainsPoint_Vector2.SetBelong(this.instance);
+					r_MContainsPoint_Vector2 = new(this, "ContainsPoint", 0, typeof(UnityEngine.Vector2));
+					r_MContainsPoint_Vector2.SetBelong(this.instance);
 				}
-				return r_ContainsPoint_Vector2;
+				return r_MContainsPoint_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Overlaps(UnityEngine.Rect)
 		/// </summary>
-		protected RMethod r_Overlaps_Rect;
-		public virtual RMethod ROverlaps_Rect
+		protected RMethod r_MOverlaps_Rect;
+		public virtual RMethod RMOverlaps_Rect
 		{
 			get
 			{
-				if(r_Overlaps_Rect == null)
+				if(r_MOverlaps_Rect == null)
 				{
-					r_Overlaps_Rect = new(this, "Overlaps", 0, typeof(UnityEngine.Rect));
-					r_Overlaps_Rect.SetBelong(this.instance);
+					r_MOverlaps_Rect = new(this, "Overlaps", 0, typeof(UnityEngine.Rect));
+					r_MOverlaps_Rect.SetBelong(this.instance);
 				}
-				return r_Overlaps_Rect;
+				return r_MOverlaps_Rect;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Yoga.YogaSize Measure(UnityEngine.Yoga.YogaNode, Single, UnityEngine.Yoga.YogaMeasureMode, Single, UnityEngine.Yoga.YogaMeasureMode)
 		/// </summary>
-		protected RMethod r_Measure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode;
-		public virtual RMethod RMeasure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode
+		protected RMethod r_MMeasure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode;
+		public virtual RMethod RMMeasure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode
 		{
 			get
 			{
-				if(r_Measure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode == null)
+				if(r_MMeasure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode == null)
 				{
-					r_Measure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode = new(this, "Measure", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaMeasureMode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaMeasureMode"));
-					r_Measure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.SetBelong(this.instance);
+					r_MMeasure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode = new(this, "Measure", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaMeasureMode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaMeasureMode"));
+					r_MMeasure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.SetBelong(this.instance);
 				}
-				return r_Measure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode;
+				return r_MMeasure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSize(UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_SetSize_Vector2;
-		public virtual RMethod RSetSize_Vector2
+		protected RMethod r_MSetSize_Vector2;
+		public virtual RMethod RMSetSize_Vector2
 		{
 			get
 			{
-				if(r_SetSize_Vector2 == null)
+				if(r_MSetSize_Vector2 == null)
 				{
-					r_SetSize_Vector2 = new(this, "SetSize", 0, typeof(UnityEngine.Vector2));
-					r_SetSize_Vector2.SetBelong(this.instance);
+					r_MSetSize_Vector2 = new(this, "SetSize", 0, typeof(UnityEngine.Vector2));
+					r_MSetSize_Vector2.SetBelong(this.instance);
 				}
-				return r_SetSize_Vector2;
+				return r_MSetSize_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void SetInlineRule(UnityEngine.UIElements.StyleSheet, UnityEngine.UIElements.StyleRule)
 		/// </summary>
-		protected RMethod r_SetInlineRule_StyleSheet_StyleRule;
-		public virtual RMethod RSetInlineRule_StyleSheet_StyleRule
+		protected RMethod r_MSetInlineRule_StyleSheet_StyleRule;
+		public virtual RMethod RMSetInlineRule_StyleSheet_StyleRule
 		{
 			get
 			{
-				if(r_SetInlineRule_StyleSheet_StyleRule == null)
+				if(r_MSetInlineRule_StyleSheet_StyleRule == null)
 				{
-					r_SetInlineRule_StyleSheet_StyleRule = new(this, "SetInlineRule", 0, typeof(UnityEngine.UIElements.StyleSheet),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleRule"));
-					r_SetInlineRule_StyleSheet_StyleRule.SetBelong(this.instance);
+					r_MSetInlineRule_StyleSheet_StyleRule = new(this, "SetInlineRule", 0, typeof(UnityEngine.UIElements.StyleSheet),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleRule"));
+					r_MSetInlineRule_StyleSheet_StyleRule.SetBelong(this.instance);
 				}
-				return r_SetInlineRule_StyleSheet_StyleRule;
+				return r_MSetInlineRule_StyleSheet_StyleRule;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateInlineRule(UnityEngine.UIElements.StyleSheet, UnityEngine.UIElements.StyleRule)
 		/// </summary>
-		protected RMethod r_UpdateInlineRule_StyleSheet_StyleRule;
-		public virtual RMethod RUpdateInlineRule_StyleSheet_StyleRule
+		protected RMethod r_MUpdateInlineRule_StyleSheet_StyleRule;
+		public virtual RMethod RMUpdateInlineRule_StyleSheet_StyleRule
 		{
 			get
 			{
-				if(r_UpdateInlineRule_StyleSheet_StyleRule == null)
+				if(r_MUpdateInlineRule_StyleSheet_StyleRule == null)
 				{
-					r_UpdateInlineRule_StyleSheet_StyleRule = new(this, "UpdateInlineRule", 0, typeof(UnityEngine.UIElements.StyleSheet),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleRule"));
-					r_UpdateInlineRule_StyleSheet_StyleRule.SetBelong(this.instance);
+					r_MUpdateInlineRule_StyleSheet_StyleRule = new(this, "UpdateInlineRule", 0, typeof(UnityEngine.UIElements.StyleSheet),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleRule"));
+					r_MUpdateInlineRule_StyleSheet_StyleRule.SetBelong(this.instance);
 				}
-				return r_UpdateInlineRule_StyleSheet_StyleRule;
+				return r_MUpdateInlineRule_StyleSheet_StyleRule;
 			}
 		}
 
 		/// <summary>
 		/// Void SetComputedStyle(UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected RMethod r_SetComputedStyle_Ref_ComputedStyle;
-		public virtual RMethod RSetComputedStyle_Ref_ComputedStyle
+		protected RMethod r_MSetComputedStyle_Ref_ComputedStyle;
+		public virtual RMethod RMSetComputedStyle_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_SetComputedStyle_Ref_ComputedStyle == null)
+				if(r_MSetComputedStyle_Ref_ComputedStyle == null)
 				{
-					r_SetComputedStyle_Ref_ComputedStyle = new(this, "SetComputedStyle", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_SetComputedStyle_Ref_ComputedStyle.SetBelong(this.instance);
+					r_MSetComputedStyle_Ref_ComputedStyle = new(this, "SetComputedStyle", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_MSetComputedStyle_Ref_ComputedStyle.SetBelong(this.instance);
 				}
-				return r_SetComputedStyle_Ref_ComputedStyle;
+				return r_MSetComputedStyle_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetPositionProperties()
 		/// </summary>
-		protected RMethod r_ResetPositionProperties;
-		public virtual RMethod RResetPositionProperties
+		protected RMethod r_MResetPositionProperties;
+		public virtual RMethod RMResetPositionProperties
 		{
 			get
 			{
-				if(r_ResetPositionProperties == null)
+				if(r_MResetPositionProperties == null)
 				{
-					r_ResetPositionProperties = new(this, "ResetPositionProperties", 0);
-					r_ResetPositionProperties.SetBelong(this.instance);
+					r_MResetPositionProperties = new(this, "ResetPositionProperties", 0);
+					r_MResetPositionProperties.SetBelong(this.instance);
 				}
-				return r_ResetPositionProperties;
+				return r_MResetPositionProperties;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[System.String] GetClasses()
 		/// </summary>
-		protected RMethod r_GetClasses;
-		public virtual RMethod RGetClasses
+		protected RMethod r_MGetClasses;
+		public virtual RMethod RMGetClasses
 		{
 			get
 			{
-				if(r_GetClasses == null)
+				if(r_MGetClasses == null)
 				{
-					r_GetClasses = new(this, "GetClasses", 0);
-					r_GetClasses.SetBelong(this.instance);
+					r_MGetClasses = new(this, "GetClasses", 0);
+					r_MGetClasses.SetBelong(this.instance);
 				}
-				return r_GetClasses;
+				return r_MGetClasses;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] GetClassesForIteration()
 		/// </summary>
-		protected RMethod r_GetClassesForIteration;
-		public virtual RMethod RGetClassesForIteration
+		protected RMethod r_MGetClassesForIteration;
+		public virtual RMethod RMGetClassesForIteration
 		{
 			get
 			{
-				if(r_GetClassesForIteration == null)
+				if(r_MGetClassesForIteration == null)
 				{
-					r_GetClassesForIteration = new(this, "GetClassesForIteration", 0);
-					r_GetClassesForIteration.SetBelong(this.instance);
+					r_MGetClassesForIteration = new(this, "GetClassesForIteration", 0);
+					r_MGetClassesForIteration.SetBelong(this.instance);
 				}
-				return r_GetClassesForIteration;
+				return r_MGetClassesForIteration;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearClassList()
 		/// </summary>
-		protected RMethod r_ClearClassList;
-		public virtual RMethod RClearClassList
+		protected RMethod r_MClearClassList;
+		public virtual RMethod RMClearClassList
 		{
 			get
 			{
-				if(r_ClearClassList == null)
+				if(r_MClearClassList == null)
 				{
-					r_ClearClassList = new(this, "ClearClassList", 0);
-					r_ClearClassList.SetBelong(this.instance);
+					r_MClearClassList = new(this, "ClearClassList", 0);
+					r_MClearClassList.SetBelong(this.instance);
 				}
-				return r_ClearClassList;
+				return r_MClearClassList;
 			}
 		}
 
 		/// <summary>
 		/// Void AddToClassList(System.String)
 		/// </summary>
-		protected RMethod r_AddToClassList_String;
-		public virtual RMethod RAddToClassList_String
+		protected RMethod r_MAddToClassList_String;
+		public virtual RMethod RMAddToClassList_String
 		{
 			get
 			{
-				if(r_AddToClassList_String == null)
+				if(r_MAddToClassList_String == null)
 				{
-					r_AddToClassList_String = new(this, "AddToClassList", 0, typeof(System.String));
-					r_AddToClassList_String.SetBelong(this.instance);
+					r_MAddToClassList_String = new(this, "AddToClassList", 0, typeof(System.String));
+					r_MAddToClassList_String.SetBelong(this.instance);
 				}
-				return r_AddToClassList_String;
+				return r_MAddToClassList_String;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveFromClassList(System.String)
 		/// </summary>
-		protected RMethod r_RemoveFromClassList_String;
-		public virtual RMethod RRemoveFromClassList_String
+		protected RMethod r_MRemoveFromClassList_String;
+		public virtual RMethod RMRemoveFromClassList_String
 		{
 			get
 			{
-				if(r_RemoveFromClassList_String == null)
+				if(r_MRemoveFromClassList_String == null)
 				{
-					r_RemoveFromClassList_String = new(this, "RemoveFromClassList", 0, typeof(System.String));
-					r_RemoveFromClassList_String.SetBelong(this.instance);
+					r_MRemoveFromClassList_String = new(this, "RemoveFromClassList", 0, typeof(System.String));
+					r_MRemoveFromClassList_String.SetBelong(this.instance);
 				}
-				return r_RemoveFromClassList_String;
+				return r_MRemoveFromClassList_String;
 			}
 		}
 
 		/// <summary>
 		/// Void ToggleInClassList(System.String)
 		/// </summary>
-		protected RMethod r_ToggleInClassList_String;
-		public virtual RMethod RToggleInClassList_String
+		protected RMethod r_MToggleInClassList_String;
+		public virtual RMethod RMToggleInClassList_String
 		{
 			get
 			{
-				if(r_ToggleInClassList_String == null)
+				if(r_MToggleInClassList_String == null)
 				{
-					r_ToggleInClassList_String = new(this, "ToggleInClassList", 0, typeof(System.String));
-					r_ToggleInClassList_String.SetBelong(this.instance);
+					r_MToggleInClassList_String = new(this, "ToggleInClassList", 0, typeof(System.String));
+					r_MToggleInClassList_String.SetBelong(this.instance);
 				}
-				return r_ToggleInClassList_String;
+				return r_MToggleInClassList_String;
 			}
 		}
 
 		/// <summary>
 		/// Void EnableInClassList(System.String, Boolean)
 		/// </summary>
-		protected RMethod r_EnableInClassList_String_Boolean;
-		public virtual RMethod REnableInClassList_String_Boolean
+		protected RMethod r_MEnableInClassList_String_Boolean;
+		public virtual RMethod RMEnableInClassList_String_Boolean
 		{
 			get
 			{
-				if(r_EnableInClassList_String_Boolean == null)
+				if(r_MEnableInClassList_String_Boolean == null)
 				{
-					r_EnableInClassList_String_Boolean = new(this, "EnableInClassList", 0, typeof(System.String), typeof(System.Boolean));
-					r_EnableInClassList_String_Boolean.SetBelong(this.instance);
+					r_MEnableInClassList_String_Boolean = new(this, "EnableInClassList", 0, typeof(System.String), typeof(System.Boolean));
+					r_MEnableInClassList_String_Boolean.SetBelong(this.instance);
 				}
-				return r_EnableInClassList_String_Boolean;
+				return r_MEnableInClassList_String_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ClassListContains(System.String)
 		/// </summary>
-		protected RMethod r_ClassListContains_String;
-		public virtual RMethod RClassListContains_String
+		protected RMethod r_MClassListContains_String;
+		public virtual RMethod RMClassListContains_String
 		{
 			get
 			{
-				if(r_ClassListContains_String == null)
+				if(r_MClassListContains_String == null)
 				{
-					r_ClassListContains_String = new(this, "ClassListContains", 0, typeof(System.String));
-					r_ClassListContains_String.SetBelong(this.instance);
+					r_MClassListContains_String = new(this, "ClassListContains", 0, typeof(System.String));
+					r_MClassListContains_String.SetBelong(this.instance);
 				}
-				return r_ClassListContains_String;
+				return r_MClassListContains_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Object FindAncestorUserData()
 		/// </summary>
-		protected RMethod r_FindAncestorUserData;
-		public virtual RMethod RFindAncestorUserData
+		protected RMethod r_MFindAncestorUserData;
+		public virtual RMethod RMFindAncestorUserData
 		{
 			get
 			{
-				if(r_FindAncestorUserData == null)
+				if(r_MFindAncestorUserData == null)
 				{
-					r_FindAncestorUserData = new(this, "FindAncestorUserData", 0);
-					r_FindAncestorUserData.SetBelong(this.instance);
+					r_MFindAncestorUserData = new(this, "FindAncestorUserData", 0);
+					r_MFindAncestorUserData.SetBelong(this.instance);
 				}
-				return r_FindAncestorUserData;
+				return r_MFindAncestorUserData;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetProperty(UnityEngine.PropertyName)
 		/// </summary>
-		protected RMethod r_GetProperty_PropertyName;
-		public virtual RMethod RGetProperty_PropertyName
+		protected RMethod r_MGetProperty_PropertyName;
+		public virtual RMethod RMGetProperty_PropertyName
 		{
 			get
 			{
-				if(r_GetProperty_PropertyName == null)
+				if(r_MGetProperty_PropertyName == null)
 				{
-					r_GetProperty_PropertyName = new(this, "GetProperty", 0, typeof(UnityEngine.PropertyName));
-					r_GetProperty_PropertyName.SetBelong(this.instance);
+					r_MGetProperty_PropertyName = new(this, "GetProperty", 0, typeof(UnityEngine.PropertyName));
+					r_MGetProperty_PropertyName.SetBelong(this.instance);
 				}
-				return r_GetProperty_PropertyName;
+				return r_MGetProperty_PropertyName;
 			}
 		}
 
 		/// <summary>
 		/// Void SetProperty(UnityEngine.PropertyName, System.Object)
 		/// </summary>
-		protected RMethod r_SetProperty_PropertyName_Object;
-		public virtual RMethod RSetProperty_PropertyName_Object
+		protected RMethod r_MSetProperty_PropertyName_Object;
+		public virtual RMethod RMSetProperty_PropertyName_Object
 		{
 			get
 			{
-				if(r_SetProperty_PropertyName_Object == null)
+				if(r_MSetProperty_PropertyName_Object == null)
 				{
-					r_SetProperty_PropertyName_Object = new(this, "SetProperty", 0, typeof(UnityEngine.PropertyName), typeof(System.Object));
-					r_SetProperty_PropertyName_Object.SetBelong(this.instance);
+					r_MSetProperty_PropertyName_Object = new(this, "SetProperty", 0, typeof(UnityEngine.PropertyName), typeof(System.Object));
+					r_MSetProperty_PropertyName_Object.SetBelong(this.instance);
 				}
-				return r_SetProperty_PropertyName_Object;
+				return r_MSetProperty_PropertyName_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasProperty(UnityEngine.PropertyName)
 		/// </summary>
-		protected RMethod r_HasProperty_PropertyName;
-		public virtual RMethod RHasProperty_PropertyName
+		protected RMethod r_MHasProperty_PropertyName;
+		public virtual RMethod RMHasProperty_PropertyName
 		{
 			get
 			{
-				if(r_HasProperty_PropertyName == null)
+				if(r_MHasProperty_PropertyName == null)
 				{
-					r_HasProperty_PropertyName = new(this, "HasProperty", 0, typeof(UnityEngine.PropertyName));
-					r_HasProperty_PropertyName.SetBelong(this.instance);
+					r_MHasProperty_PropertyName = new(this, "HasProperty", 0, typeof(UnityEngine.PropertyName));
+					r_MHasProperty_PropertyName.SetBelong(this.instance);
 				}
-				return r_HasProperty_PropertyName;
+				return r_MHasProperty_PropertyName;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPlayerRenderingToEditorElement()
 		/// </summary>
-		protected RMethod r_ApplyPlayerRenderingToEditorElement;
-		public virtual RMethod RApplyPlayerRenderingToEditorElement
+		protected RMethod r_MApplyPlayerRenderingToEditorElement;
+		public virtual RMethod RMApplyPlayerRenderingToEditorElement
 		{
 			get
 			{
-				if(r_ApplyPlayerRenderingToEditorElement == null)
+				if(r_MApplyPlayerRenderingToEditorElement == null)
 				{
-					r_ApplyPlayerRenderingToEditorElement = new(this, "ApplyPlayerRenderingToEditorElement", 0);
-					r_ApplyPlayerRenderingToEditorElement.SetBelong(this.instance);
+					r_MApplyPlayerRenderingToEditorElement = new(this, "ApplyPlayerRenderingToEditorElement", 0);
+					r_MApplyPlayerRenderingToEditorElement.SetBelong(this.instance);
 				}
-				return r_ApplyPlayerRenderingToEditorElement;
+				return r_MApplyPlayerRenderingToEditorElement;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterAnimation(UnityEngine.UIElements.Experimental.IValueAnimationUpdate)
 		/// </summary>
-		protected RMethod r_RegisterAnimation_IValueAnimationUpdate;
-		public virtual RMethod RRegisterAnimation_IValueAnimationUpdate
+		protected RMethod r_MRegisterAnimation_IValueAnimationUpdate;
+		public virtual RMethod RMRegisterAnimation_IValueAnimationUpdate
 		{
 			get
 			{
-				if(r_RegisterAnimation_IValueAnimationUpdate == null)
+				if(r_MRegisterAnimation_IValueAnimationUpdate == null)
 				{
-					r_RegisterAnimation_IValueAnimationUpdate = new(this, "RegisterAnimation", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate"));
-					r_RegisterAnimation_IValueAnimationUpdate.SetBelong(this.instance);
+					r_MRegisterAnimation_IValueAnimationUpdate = new(this, "RegisterAnimation", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate"));
+					r_MRegisterAnimation_IValueAnimationUpdate.SetBelong(this.instance);
 				}
-				return r_RegisterAnimation_IValueAnimationUpdate;
+				return r_MRegisterAnimation_IValueAnimationUpdate;
 			}
 		}
 
 		/// <summary>
 		/// Void UnregisterAnimation(UnityEngine.UIElements.Experimental.IValueAnimationUpdate)
 		/// </summary>
-		protected RMethod r_UnregisterAnimation_IValueAnimationUpdate;
-		public virtual RMethod RUnregisterAnimation_IValueAnimationUpdate
+		protected RMethod r_MUnregisterAnimation_IValueAnimationUpdate;
+		public virtual RMethod RMUnregisterAnimation_IValueAnimationUpdate
 		{
 			get
 			{
-				if(r_UnregisterAnimation_IValueAnimationUpdate == null)
+				if(r_MUnregisterAnimation_IValueAnimationUpdate == null)
 				{
-					r_UnregisterAnimation_IValueAnimationUpdate = new(this, "UnregisterAnimation", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate"));
-					r_UnregisterAnimation_IValueAnimationUpdate.SetBelong(this.instance);
+					r_MUnregisterAnimation_IValueAnimationUpdate = new(this, "UnregisterAnimation", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate"));
+					r_MUnregisterAnimation_IValueAnimationUpdate.SetBelong(this.instance);
 				}
-				return r_UnregisterAnimation_IValueAnimationUpdate;
+				return r_MUnregisterAnimation_IValueAnimationUpdate;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetCachedNextParentWithEventCallback(UnityEngine.UIElements.VisualElement ByRef)
 		/// </summary>
-		protected RMethod r_GetCachedNextParentWithEventCallback_Out_VisualElement;
-		public virtual RMethod RGetCachedNextParentWithEventCallback_Out_VisualElement
+		protected RMethod r_MGetCachedNextParentWithEventCallback_Out_VisualElement;
+		public virtual RMethod RMGetCachedNextParentWithEventCallback_Out_VisualElement
 		{
 			get
 			{
-				if(r_GetCachedNextParentWithEventCallback_Out_VisualElement == null)
+				if(r_MGetCachedNextParentWithEventCallback_Out_VisualElement == null)
 				{
-					r_GetCachedNextParentWithEventCallback_Out_VisualElement = new(this, "GetCachedNextParentWithEventCallback", 0, typeof(UnityEngine.UIElements.VisualElement).MakeByRefType());
-					r_GetCachedNextParentWithEventCallback_Out_VisualElement.SetBelong(this.instance);
+					r_MGetCachedNextParentWithEventCallback_Out_VisualElement = new(this, "GetCachedNextParentWithEventCallback", 0, typeof(UnityEngine.UIElements.VisualElement).MakeByRefType());
+					r_MGetCachedNextParentWithEventCallback_Out_VisualElement.SetBelong(this.instance);
 				}
-				return r_GetCachedNextParentWithEventCallback_Out_VisualElement;
+				return r_MGetCachedNextParentWithEventCallback_Out_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasEventCallbacks(UnityEngine.UIElements.EventCategory)
 		/// </summary>
-		protected RMethod r_HasEventCallbacks_EventCategory;
-		public virtual RMethod RHasEventCallbacks_EventCategory
+		protected RMethod r_MHasEventCallbacks_EventCategory;
+		public virtual RMethod RMHasEventCallbacks_EventCategory
 		{
 			get
 			{
-				if(r_HasEventCallbacks_EventCategory == null)
+				if(r_MHasEventCallbacks_EventCategory == null)
 				{
-					r_HasEventCallbacks_EventCategory = new(this, "HasEventCallbacks", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-					r_HasEventCallbacks_EventCategory.SetBelong(this.instance);
+					r_MHasEventCallbacks_EventCategory = new(this, "HasEventCallbacks", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
+					r_MHasEventCallbacks_EventCategory.SetBelong(this.instance);
 				}
-				return r_HasEventCallbacks_EventCategory;
+				return r_MHasEventCallbacks_EventCategory;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasParentEventCallbacks(UnityEngine.UIElements.EventCategory)
 		/// </summary>
-		protected RMethod r_HasParentEventCallbacks_EventCategory;
-		public virtual RMethod RHasParentEventCallbacks_EventCategory
+		protected RMethod r_MHasParentEventCallbacks_EventCategory;
+		public virtual RMethod RMHasParentEventCallbacks_EventCategory
 		{
 			get
 			{
-				if(r_HasParentEventCallbacks_EventCategory == null)
+				if(r_MHasParentEventCallbacks_EventCategory == null)
 				{
-					r_HasParentEventCallbacks_EventCategory = new(this, "HasParentEventCallbacks", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-					r_HasParentEventCallbacks_EventCategory.SetBelong(this.instance);
+					r_MHasParentEventCallbacks_EventCategory = new(this, "HasParentEventCallbacks", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
+					r_MHasParentEventCallbacks_EventCategory.SetBelong(this.instance);
 				}
-				return r_HasParentEventCallbacks_EventCategory;
+				return r_MHasParentEventCallbacks_EventCategory;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasParentEventCallbacksOrDefaultActions(UnityEngine.UIElements.EventCategory)
 		/// </summary>
-		protected RMethod r_HasParentEventCallbacksOrDefaultActions_EventCategory;
-		public virtual RMethod RHasParentEventCallbacksOrDefaultActions_EventCategory
+		protected RMethod r_MHasParentEventCallbacksOrDefaultActions_EventCategory;
+		public virtual RMethod RMHasParentEventCallbacksOrDefaultActions_EventCategory
 		{
 			get
 			{
-				if(r_HasParentEventCallbacksOrDefaultActions_EventCategory == null)
+				if(r_MHasParentEventCallbacksOrDefaultActions_EventCategory == null)
 				{
-					r_HasParentEventCallbacksOrDefaultActions_EventCategory = new(this, "HasParentEventCallbacksOrDefaultActions", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-					r_HasParentEventCallbacksOrDefaultActions_EventCategory.SetBelong(this.instance);
+					r_MHasParentEventCallbacksOrDefaultActions_EventCategory = new(this, "HasParentEventCallbacksOrDefaultActions", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
+					r_MHasParentEventCallbacksOrDefaultActions_EventCategory.SetBelong(this.instance);
 				}
-				return r_HasParentEventCallbacksOrDefaultActions_EventCategory;
+				return r_MHasParentEventCallbacksOrDefaultActions_EventCategory;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasEventCallbacksOrDefaultActions(UnityEngine.UIElements.EventCategory)
 		/// </summary>
-		protected RMethod r_HasEventCallbacksOrDefaultActions_EventCategory;
-		public virtual RMethod RHasEventCallbacksOrDefaultActions_EventCategory
+		protected RMethod r_MHasEventCallbacksOrDefaultActions_EventCategory;
+		public virtual RMethod RMHasEventCallbacksOrDefaultActions_EventCategory
 		{
 			get
 			{
-				if(r_HasEventCallbacksOrDefaultActions_EventCategory == null)
+				if(r_MHasEventCallbacksOrDefaultActions_EventCategory == null)
 				{
-					r_HasEventCallbacksOrDefaultActions_EventCategory = new(this, "HasEventCallbacksOrDefaultActions", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-					r_HasEventCallbacksOrDefaultActions_EventCategory.SetBelong(this.instance);
+					r_MHasEventCallbacksOrDefaultActions_EventCategory = new(this, "HasEventCallbacksOrDefaultActions", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
+					r_MHasEventCallbacksOrDefaultActions_EventCategory.SetBelong(this.instance);
 				}
-				return r_HasEventCallbacksOrDefaultActions_EventCategory;
+				return r_MHasEventCallbacksOrDefaultActions_EventCategory;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasParentEventCallbacksOrDefaultActionAtTarget(UnityEngine.UIElements.EventCategory)
 		/// </summary>
-		protected RMethod r_HasParentEventCallbacksOrDefaultActionAtTarget_EventCategory;
-		public virtual RMethod RHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory
+		protected RMethod r_MHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory;
+		public virtual RMethod RMHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory
 		{
 			get
 			{
-				if(r_HasParentEventCallbacksOrDefaultActionAtTarget_EventCategory == null)
+				if(r_MHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory == null)
 				{
-					r_HasParentEventCallbacksOrDefaultActionAtTarget_EventCategory = new(this, "HasParentEventCallbacksOrDefaultActionAtTarget", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-					r_HasParentEventCallbacksOrDefaultActionAtTarget_EventCategory.SetBelong(this.instance);
+					r_MHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory = new(this, "HasParentEventCallbacksOrDefaultActionAtTarget", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
+					r_MHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory.SetBelong(this.instance);
 				}
-				return r_HasParentEventCallbacksOrDefaultActionAtTarget_EventCategory;
+				return r_MHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasEventCallbacksOrDefaultActionAtTarget(UnityEngine.UIElements.EventCategory)
 		/// </summary>
-		protected RMethod r_HasEventCallbacksOrDefaultActionAtTarget_EventCategory;
-		public virtual RMethod RHasEventCallbacksOrDefaultActionAtTarget_EventCategory
+		protected RMethod r_MHasEventCallbacksOrDefaultActionAtTarget_EventCategory;
+		public virtual RMethod RMHasEventCallbacksOrDefaultActionAtTarget_EventCategory
 		{
 			get
 			{
-				if(r_HasEventCallbacksOrDefaultActionAtTarget_EventCategory == null)
+				if(r_MHasEventCallbacksOrDefaultActionAtTarget_EventCategory == null)
 				{
-					r_HasEventCallbacksOrDefaultActionAtTarget_EventCategory = new(this, "HasEventCallbacksOrDefaultActionAtTarget", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-					r_HasEventCallbacksOrDefaultActionAtTarget_EventCategory.SetBelong(this.instance);
+					r_MHasEventCallbacksOrDefaultActionAtTarget_EventCategory = new(this, "HasEventCallbacksOrDefaultActionAtTarget", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
+					r_MHasEventCallbacksOrDefaultActionAtTarget_EventCategory.SetBelong(this.instance);
 				}
-				return r_HasEventCallbacksOrDefaultActionAtTarget_EventCategory;
+				return r_MHasEventCallbacksOrDefaultActionAtTarget_EventCategory;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasDefaultAction(UnityEngine.UIElements.EventCategory)
 		/// </summary>
-		protected RMethod r_HasDefaultAction_EventCategory;
-		public virtual RMethod RHasDefaultAction_EventCategory
+		protected RMethod r_MHasDefaultAction_EventCategory;
+		public virtual RMethod RMHasDefaultAction_EventCategory
 		{
 			get
 			{
-				if(r_HasDefaultAction_EventCategory == null)
+				if(r_MHasDefaultAction_EventCategory == null)
 				{
-					r_HasDefaultAction_EventCategory = new(this, "HasDefaultAction", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-					r_HasDefaultAction_EventCategory.SetBelong(this.instance);
+					r_MHasDefaultAction_EventCategory = new(this, "HasDefaultAction", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
+					r_MHasDefaultAction_EventCategory.SetBelong(this.instance);
 				}
-				return r_HasDefaultAction_EventCategory;
+				return r_MHasDefaultAction_EventCategory;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ShouldClip()
 		/// </summary>
-		protected RMethod r_ShouldClip;
-		public virtual RMethod RShouldClip
+		protected RMethod r_MShouldClip;
+		public virtual RMethod RMShouldClip
 		{
 			get
 			{
-				if(r_ShouldClip == null)
+				if(r_MShouldClip == null)
 				{
-					r_ShouldClip = new(this, "ShouldClip", 0);
-					r_ShouldClip.SetBelong(this.instance);
+					r_MShouldClip = new(this, "ShouldClip", 0);
+					r_MShouldClip.SetBelong(this.instance);
 				}
-				return r_ShouldClip;
+				return r_MShouldClip;
 			}
 		}
 
 		/// <summary>
 		/// Void Add(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_Add_VisualElement;
-		public virtual RMethod RAdd_VisualElement
+		protected RMethod r_MAdd_VisualElement;
+		public virtual RMethod RMAdd_VisualElement
 		{
 			get
 			{
-				if(r_Add_VisualElement == null)
+				if(r_MAdd_VisualElement == null)
 				{
-					r_Add_VisualElement = new(this, "Add", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_Add_VisualElement.SetBelong(this.instance);
+					r_MAdd_VisualElement = new(this, "Add", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_MAdd_VisualElement.SetBelong(this.instance);
 				}
-				return r_Add_VisualElement;
+				return r_MAdd_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void Insert(Int32, UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_Insert_Int32_VisualElement;
-		public virtual RMethod RInsert_Int32_VisualElement
+		protected RMethod r_MInsert_Int32_VisualElement;
+		public virtual RMethod RMInsert_Int32_VisualElement
 		{
 			get
 			{
-				if(r_Insert_Int32_VisualElement == null)
+				if(r_MInsert_Int32_VisualElement == null)
 				{
-					r_Insert_Int32_VisualElement = new(this, "Insert", 0, typeof(System.Int32), typeof(UnityEngine.UIElements.VisualElement));
-					r_Insert_Int32_VisualElement.SetBelong(this.instance);
+					r_MInsert_Int32_VisualElement = new(this, "Insert", 0, typeof(System.Int32), typeof(UnityEngine.UIElements.VisualElement));
+					r_MInsert_Int32_VisualElement.SetBelong(this.instance);
 				}
-				return r_Insert_Int32_VisualElement;
+				return r_MInsert_Int32_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void Remove(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_Remove_VisualElement;
-		public virtual RMethod RRemove_VisualElement
+		protected RMethod r_MRemove_VisualElement;
+		public virtual RMethod RMRemove_VisualElement
 		{
 			get
 			{
-				if(r_Remove_VisualElement == null)
+				if(r_MRemove_VisualElement == null)
 				{
-					r_Remove_VisualElement = new(this, "Remove", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_Remove_VisualElement.SetBelong(this.instance);
+					r_MRemove_VisualElement = new(this, "Remove", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_MRemove_VisualElement.SetBelong(this.instance);
 				}
-				return r_Remove_VisualElement;
+				return r_MRemove_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAt(Int32)
 		/// </summary>
-		protected RMethod r_RemoveAt_Int32;
-		public virtual RMethod RRemoveAt_Int32
+		protected RMethod r_MRemoveAt_Int32;
+		public virtual RMethod RMRemoveAt_Int32
 		{
 			get
 			{
-				if(r_RemoveAt_Int32 == null)
+				if(r_MRemoveAt_Int32 == null)
 				{
-					r_RemoveAt_Int32 = new(this, "RemoveAt", 0, typeof(System.Int32));
-					r_RemoveAt_Int32.SetBelong(this.instance);
+					r_MRemoveAt_Int32 = new(this, "RemoveAt", 0, typeof(System.Int32));
+					r_MRemoveAt_Int32.SetBelong(this.instance);
 				}
-				return r_RemoveAt_Int32;
+				return r_MRemoveAt_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Clear()
 		/// </summary>
-		protected RMethod r_Clear;
-		public virtual RMethod RClear
+		protected RMethod r_MClear;
+		public virtual RMethod RMClear
 		{
 			get
 			{
-				if(r_Clear == null)
+				if(r_MClear == null)
 				{
-					r_Clear = new(this, "Clear", 0);
-					r_Clear.SetBelong(this.instance);
+					r_MClear = new(this, "Clear", 0);
+					r_MClear.SetBelong(this.instance);
 				}
-				return r_Clear;
+				return r_MClear;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement ElementAt(Int32)
 		/// </summary>
-		protected RMethod r_ElementAt_Int32;
-		public virtual RMethod RElementAt_Int32
+		protected RMethod r_MElementAt_Int32;
+		public virtual RMethod RMElementAt_Int32
 		{
 			get
 			{
-				if(r_ElementAt_Int32 == null)
+				if(r_MElementAt_Int32 == null)
 				{
-					r_ElementAt_Int32 = new(this, "ElementAt", 0, typeof(System.Int32));
-					r_ElementAt_Int32.SetBelong(this.instance);
+					r_MElementAt_Int32 = new(this, "ElementAt", 0, typeof(System.Int32));
+					r_MElementAt_Int32.SetBelong(this.instance);
 				}
-				return r_ElementAt_Int32;
+				return r_MElementAt_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 IndexOf(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_IndexOf_VisualElement;
-		public virtual RMethod RIndexOf_VisualElement
+		protected RMethod r_MIndexOf_VisualElement;
+		public virtual RMethod RMIndexOf_VisualElement
 		{
 			get
 			{
-				if(r_IndexOf_VisualElement == null)
+				if(r_MIndexOf_VisualElement == null)
 				{
-					r_IndexOf_VisualElement = new(this, "IndexOf", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_IndexOf_VisualElement.SetBelong(this.instance);
+					r_MIndexOf_VisualElement = new(this, "IndexOf", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_MIndexOf_VisualElement.SetBelong(this.instance);
 				}
-				return r_IndexOf_VisualElement;
+				return r_MIndexOf_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement ElementAtTreePath(System.Collections.Generic.List`1[System.Int32])
 		/// </summary>
-		protected RMethod r_ElementAtTreePath_List_d_Int32_p_;
-		public virtual RMethod RElementAtTreePath_List_d_Int32_p_
+		protected RMethod r_MElementAtTreePath_List_d_Int32_p_;
+		public virtual RMethod RMElementAtTreePath_List_d_Int32_p_
 		{
 			get
 			{
-				if(r_ElementAtTreePath_List_d_Int32_p_ == null)
+				if(r_MElementAtTreePath_List_d_Int32_p_ == null)
 				{
-					r_ElementAtTreePath_List_d_Int32_p_ = new(this, "ElementAtTreePath", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)));
-					r_ElementAtTreePath_List_d_Int32_p_.SetBelong(this.instance);
+					r_MElementAtTreePath_List_d_Int32_p_ = new(this, "ElementAtTreePath", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)));
+					r_MElementAtTreePath_List_d_Int32_p_.SetBelong(this.instance);
 				}
-				return r_ElementAtTreePath_List_d_Int32_p_;
+				return r_MElementAtTreePath_List_d_Int32_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean FindElementInTree(UnityEngine.UIElements.VisualElement, System.Collections.Generic.List`1[System.Int32])
 		/// </summary>
-		protected RMethod r_FindElementInTree_VisualElement_List_d_Int32_p_;
-		public virtual RMethod RFindElementInTree_VisualElement_List_d_Int32_p_
+		protected RMethod r_MFindElementInTree_VisualElement_List_d_Int32_p_;
+		public virtual RMethod RMFindElementInTree_VisualElement_List_d_Int32_p_
 		{
 			get
 			{
-				if(r_FindElementInTree_VisualElement_List_d_Int32_p_ == null)
+				if(r_MFindElementInTree_VisualElement_List_d_Int32_p_ == null)
 				{
-					r_FindElementInTree_VisualElement_List_d_Int32_p_ = new(this, "FindElementInTree", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)));
-					r_FindElementInTree_VisualElement_List_d_Int32_p_.SetBelong(this.instance);
+					r_MFindElementInTree_VisualElement_List_d_Int32_p_ = new(this, "FindElementInTree", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)));
+					r_MFindElementInTree_VisualElement_List_d_Int32_p_.SetBelong(this.instance);
 				}
-				return r_FindElementInTree_VisualElement_List_d_Int32_p_;
+				return r_MFindElementInTree_VisualElement_List_d_Int32_p_;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[UnityEngine.UIElements.VisualElement] Children()
 		/// </summary>
-		protected RMethod r_Children;
-		public virtual RMethod RChildren
+		protected RMethod r_MChildren;
+		public virtual RMethod RMChildren
 		{
 			get
 			{
-				if(r_Children == null)
+				if(r_MChildren == null)
 				{
-					r_Children = new(this, "Children", 0);
-					r_Children.SetBelong(this.instance);
+					r_MChildren = new(this, "Children", 0);
+					r_MChildren.SetBelong(this.instance);
 				}
-				return r_Children;
+				return r_MChildren;
 			}
 		}
 
 		/// <summary>
 		/// Void Sort(System.Comparison`1[UnityEngine.UIElements.VisualElement])
 		/// </summary>
-		protected RMethod r_Sort_Comparison_d_VisualElement_p_;
-		public virtual RMethod RSort_Comparison_d_VisualElement_p_
+		protected RMethod r_MSort_Comparison_d_VisualElement_p_;
+		public virtual RMethod RMSort_Comparison_d_VisualElement_p_
 		{
 			get
 			{
-				if(r_Sort_Comparison_d_VisualElement_p_ == null)
+				if(r_MSort_Comparison_d_VisualElement_p_ == null)
 				{
-					r_Sort_Comparison_d_VisualElement_p_ = new(this, "Sort", 0, typeof(System.Comparison<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
-					r_Sort_Comparison_d_VisualElement_p_.SetBelong(this.instance);
+					r_MSort_Comparison_d_VisualElement_p_ = new(this, "Sort", 0, typeof(System.Comparison<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
+					r_MSort_Comparison_d_VisualElement_p_.SetBelong(this.instance);
 				}
-				return r_Sort_Comparison_d_VisualElement_p_;
+				return r_MSort_Comparison_d_VisualElement_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void BringToFront()
 		/// </summary>
-		protected RMethod r_BringToFront;
-		public virtual RMethod RBringToFront
+		protected RMethod r_MBringToFront;
+		public virtual RMethod RMBringToFront
 		{
 			get
 			{
-				if(r_BringToFront == null)
+				if(r_MBringToFront == null)
 				{
-					r_BringToFront = new(this, "BringToFront", 0);
-					r_BringToFront.SetBelong(this.instance);
+					r_MBringToFront = new(this, "BringToFront", 0);
+					r_MBringToFront.SetBelong(this.instance);
 				}
-				return r_BringToFront;
+				return r_MBringToFront;
 			}
 		}
 
 		/// <summary>
 		/// Void SendToBack()
 		/// </summary>
-		protected RMethod r_SendToBack;
-		public virtual RMethod RSendToBack
+		protected RMethod r_MSendToBack;
+		public virtual RMethod RMSendToBack
 		{
 			get
 			{
-				if(r_SendToBack == null)
+				if(r_MSendToBack == null)
 				{
-					r_SendToBack = new(this, "SendToBack", 0);
-					r_SendToBack.SetBelong(this.instance);
+					r_MSendToBack = new(this, "SendToBack", 0);
+					r_MSendToBack.SetBelong(this.instance);
 				}
-				return r_SendToBack;
+				return r_MSendToBack;
 			}
 		}
 
 		/// <summary>
 		/// Void PlaceBehind(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_PlaceBehind_VisualElement;
-		public virtual RMethod RPlaceBehind_VisualElement
+		protected RMethod r_MPlaceBehind_VisualElement;
+		public virtual RMethod RMPlaceBehind_VisualElement
 		{
 			get
 			{
-				if(r_PlaceBehind_VisualElement == null)
+				if(r_MPlaceBehind_VisualElement == null)
 				{
-					r_PlaceBehind_VisualElement = new(this, "PlaceBehind", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_PlaceBehind_VisualElement.SetBelong(this.instance);
+					r_MPlaceBehind_VisualElement = new(this, "PlaceBehind", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_MPlaceBehind_VisualElement.SetBelong(this.instance);
 				}
-				return r_PlaceBehind_VisualElement;
+				return r_MPlaceBehind_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void PlaceInFront(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_PlaceInFront_VisualElement;
-		public virtual RMethod RPlaceInFront_VisualElement
+		protected RMethod r_MPlaceInFront_VisualElement;
+		public virtual RMethod RMPlaceInFront_VisualElement
 		{
 			get
 			{
-				if(r_PlaceInFront_VisualElement == null)
+				if(r_MPlaceInFront_VisualElement == null)
 				{
-					r_PlaceInFront_VisualElement = new(this, "PlaceInFront", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_PlaceInFront_VisualElement.SetBelong(this.instance);
+					r_MPlaceInFront_VisualElement = new(this, "PlaceInFront", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_MPlaceInFront_VisualElement.SetBelong(this.instance);
 				}
-				return r_PlaceInFront_VisualElement;
+				return r_MPlaceInFront_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveFromHierarchy()
 		/// </summary>
-		protected RMethod r_RemoveFromHierarchy;
-		public virtual RMethod RRemoveFromHierarchy
+		protected RMethod r_MRemoveFromHierarchy;
+		public virtual RMethod RMRemoveFromHierarchy
 		{
 			get
 			{
-				if(r_RemoveFromHierarchy == null)
+				if(r_MRemoveFromHierarchy == null)
 				{
-					r_RemoveFromHierarchy = new(this, "RemoveFromHierarchy", 0);
-					r_RemoveFromHierarchy.SetBelong(this.instance);
+					r_MRemoveFromHierarchy = new(this, "RemoveFromHierarchy", 0);
+					r_MRemoveFromHierarchy.SetBelong(this.instance);
 				}
-				return r_RemoveFromHierarchy;
+				return r_MRemoveFromHierarchy;
 			}
 		}
 
 		/// <summary>
 		/// T GetFirstOfType[T]()
 		/// </summary>
-		protected RMethod r_GetFirstOfType_GT;
-		public virtual RMethod RGetFirstOfType_GT
+		protected RMethod r_MGetFirstOfType_GT;
+		public virtual RMethod RMGetFirstOfType_GT
 		{
 			get
 			{
-				if(r_GetFirstOfType_GT == null)
+				if(r_MGetFirstOfType_GT == null)
 				{
-					r_GetFirstOfType_GT = new(this, "GetFirstOfType", 1);
-					r_GetFirstOfType_GT.SetBelong(this.instance);
+					r_MGetFirstOfType_GT = new(this, "GetFirstOfType", 1);
+					r_MGetFirstOfType_GT.SetBelong(this.instance);
 				}
-				return r_GetFirstOfType_GT;
+				return r_MGetFirstOfType_GT;
 			}
 		}
 
 		/// <summary>
 		/// T GetFirstAncestorOfType[T]()
 		/// </summary>
-		protected RMethod r_GetFirstAncestorOfType_GT;
-		public virtual RMethod RGetFirstAncestorOfType_GT
+		protected RMethod r_MGetFirstAncestorOfType_GT;
+		public virtual RMethod RMGetFirstAncestorOfType_GT
 		{
 			get
 			{
-				if(r_GetFirstAncestorOfType_GT == null)
+				if(r_MGetFirstAncestorOfType_GT == null)
 				{
-					r_GetFirstAncestorOfType_GT = new(this, "GetFirstAncestorOfType", 1);
-					r_GetFirstAncestorOfType_GT.SetBelong(this.instance);
+					r_MGetFirstAncestorOfType_GT = new(this, "GetFirstAncestorOfType", 1);
+					r_MGetFirstAncestorOfType_GT.SetBelong(this.instance);
 				}
-				return r_GetFirstAncestorOfType_GT;
+				return r_MGetFirstAncestorOfType_GT;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement GetFirstAncestorWhere(System.Predicate`1[UnityEngine.UIElements.VisualElement])
 		/// </summary>
-		protected RMethod r_GetFirstAncestorWhere_Predicate_d_VisualElement_p_;
-		public virtual RMethod RGetFirstAncestorWhere_Predicate_d_VisualElement_p_
+		protected RMethod r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_;
+		public virtual RMethod RMGetFirstAncestorWhere_Predicate_d_VisualElement_p_
 		{
 			get
 			{
-				if(r_GetFirstAncestorWhere_Predicate_d_VisualElement_p_ == null)
+				if(r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_ == null)
 				{
-					r_GetFirstAncestorWhere_Predicate_d_VisualElement_p_ = new(this, "GetFirstAncestorWhere", 0, typeof(System.Predicate<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
-					r_GetFirstAncestorWhere_Predicate_d_VisualElement_p_.SetBelong(this.instance);
+					r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_ = new(this, "GetFirstAncestorWhere", 0, typeof(System.Predicate<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
+					r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_.SetBelong(this.instance);
 				}
-				return r_GetFirstAncestorWhere_Predicate_d_VisualElement_p_;
+				return r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Contains(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_Contains_VisualElement;
-		public virtual RMethod RContains_VisualElement
+		protected RMethod r_MContains_VisualElement;
+		public virtual RMethod RMContains_VisualElement
 		{
 			get
 			{
-				if(r_Contains_VisualElement == null)
+				if(r_MContains_VisualElement == null)
 				{
-					r_Contains_VisualElement = new(this, "Contains", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_Contains_VisualElement.SetBelong(this.instance);
+					r_MContains_VisualElement = new(this, "Contains", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_MContains_VisualElement.SetBelong(this.instance);
 				}
-				return r_Contains_VisualElement;
+				return r_MContains_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement FindCommonAncestor(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_FindCommonAncestor_VisualElement;
-		public virtual RMethod RFindCommonAncestor_VisualElement
+		protected RMethod r_MFindCommonAncestor_VisualElement;
+		public virtual RMethod RMFindCommonAncestor_VisualElement
 		{
 			get
 			{
-				if(r_FindCommonAncestor_VisualElement == null)
+				if(r_MFindCommonAncestor_VisualElement == null)
 				{
-					r_FindCommonAncestor_VisualElement = new(this, "FindCommonAncestor", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_FindCommonAncestor_VisualElement.SetBelong(this.instance);
+					r_MFindCommonAncestor_VisualElement = new(this, "FindCommonAncestor", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_MFindCommonAncestor_VisualElement.SetBelong(this.instance);
 				}
-				return r_FindCommonAncestor_VisualElement;
+				return r_MFindCommonAncestor_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement GetRoot()
 		/// </summary>
-		protected RMethod r_GetRoot;
-		public virtual RMethod RGetRoot
+		protected RMethod r_MGetRoot;
+		public virtual RMethod RMGetRoot
 		{
 			get
 			{
-				if(r_GetRoot == null)
+				if(r_MGetRoot == null)
 				{
-					r_GetRoot = new(this, "GetRoot", 0);
-					r_GetRoot.SetBelong(this.instance);
+					r_MGetRoot = new(this, "GetRoot", 0);
+					r_MGetRoot.SetBelong(this.instance);
 				}
-				return r_GetRoot;
+				return r_MGetRoot;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement GetRootVisualContainer()
 		/// </summary>
-		protected RMethod r_GetRootVisualContainer;
-		public virtual RMethod RGetRootVisualContainer
+		protected RMethod r_MGetRootVisualContainer;
+		public virtual RMethod RMGetRootVisualContainer
 		{
 			get
 			{
-				if(r_GetRootVisualContainer == null)
+				if(r_MGetRootVisualContainer == null)
 				{
-					r_GetRootVisualContainer = new(this, "GetRootVisualContainer", 0);
-					r_GetRootVisualContainer.SetBelong(this.instance);
+					r_MGetRootVisualContainer = new(this, "GetRootVisualContainer", 0);
+					r_MGetRootVisualContainer.SetBelong(this.instance);
 				}
-				return r_GetRootVisualContainer;
+				return r_MGetRootVisualContainer;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement GetNextElementDepthFirst()
 		/// </summary>
-		protected RMethod r_GetNextElementDepthFirst;
-		public virtual RMethod RGetNextElementDepthFirst
+		protected RMethod r_MGetNextElementDepthFirst;
+		public virtual RMethod RMGetNextElementDepthFirst
 		{
 			get
 			{
-				if(r_GetNextElementDepthFirst == null)
+				if(r_MGetNextElementDepthFirst == null)
 				{
-					r_GetNextElementDepthFirst = new(this, "GetNextElementDepthFirst", 0);
-					r_GetNextElementDepthFirst.SetBelong(this.instance);
+					r_MGetNextElementDepthFirst = new(this, "GetNextElementDepthFirst", 0);
+					r_MGetNextElementDepthFirst.SetBelong(this.instance);
 				}
-				return r_GetNextElementDepthFirst;
+				return r_MGetNextElementDepthFirst;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement GetPreviousElementDepthFirst()
 		/// </summary>
-		protected RMethod r_GetPreviousElementDepthFirst;
-		public virtual RMethod RGetPreviousElementDepthFirst
+		protected RMethod r_MGetPreviousElementDepthFirst;
+		public virtual RMethod RMGetPreviousElementDepthFirst
 		{
 			get
 			{
-				if(r_GetPreviousElementDepthFirst == null)
+				if(r_MGetPreviousElementDepthFirst == null)
 				{
-					r_GetPreviousElementDepthFirst = new(this, "GetPreviousElementDepthFirst", 0);
-					r_GetPreviousElementDepthFirst.SetBelong(this.instance);
+					r_MGetPreviousElementDepthFirst = new(this, "GetPreviousElementDepthFirst", 0);
+					r_MGetPreviousElementDepthFirst.SetBelong(this.instance);
 				}
-				return r_GetPreviousElementDepthFirst;
+				return r_MGetPreviousElementDepthFirst;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement RetargetElement(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_RetargetElement_VisualElement;
-		public virtual RMethod RRetargetElement_VisualElement
+		protected RMethod r_MRetargetElement_VisualElement;
+		public virtual RMethod RMRetargetElement_VisualElement
 		{
 			get
 			{
-				if(r_RetargetElement_VisualElement == null)
+				if(r_MRetargetElement_VisualElement == null)
 				{
-					r_RetargetElement_VisualElement = new(this, "RetargetElement", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_RetargetElement_VisualElement.SetBelong(this.instance);
+					r_MRetargetElement_VisualElement = new(this, "RetargetElement", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_MRetargetElement_VisualElement.SetBelong(this.instance);
 				}
-				return r_RetargetElement_VisualElement;
+				return r_MRetargetElement_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void GetPivotedMatrixWithLayout(UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_GetPivotedMatrixWithLayout_Out_Matrix4x4;
-		public virtual RMethod RGetPivotedMatrixWithLayout_Out_Matrix4x4
+		protected RMethod r_MGetPivotedMatrixWithLayout_Out_Matrix4x4;
+		public virtual RMethod RMGetPivotedMatrixWithLayout_Out_Matrix4x4
 		{
 			get
 			{
-				if(r_GetPivotedMatrixWithLayout_Out_Matrix4x4 == null)
+				if(r_MGetPivotedMatrixWithLayout_Out_Matrix4x4 == null)
 				{
-					r_GetPivotedMatrixWithLayout_Out_Matrix4x4 = new(this, "GetPivotedMatrixWithLayout", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_GetPivotedMatrixWithLayout_Out_Matrix4x4.SetBelong(this.instance);
+					r_MGetPivotedMatrixWithLayout_Out_Matrix4x4 = new(this, "GetPivotedMatrixWithLayout", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_MGetPivotedMatrixWithLayout_Out_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_GetPivotedMatrixWithLayout_Out_Matrix4x4;
+				return r_MGetPivotedMatrixWithLayout_Out_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void AddStyleSheetPath(System.String)
 		/// </summary>
-		protected RMethod r_AddStyleSheetPath_String;
-		public virtual RMethod RAddStyleSheetPath_String
+		protected RMethod r_MAddStyleSheetPath_String;
+		public virtual RMethod RMAddStyleSheetPath_String
 		{
 			get
 			{
-				if(r_AddStyleSheetPath_String == null)
+				if(r_MAddStyleSheetPath_String == null)
 				{
-					r_AddStyleSheetPath_String = new(this, "AddStyleSheetPath", 0, typeof(System.String));
-					r_AddStyleSheetPath_String.SetBelong(this.instance);
+					r_MAddStyleSheetPath_String = new(this, "AddStyleSheetPath", 0, typeof(System.String));
+					r_MAddStyleSheetPath_String.SetBelong(this.instance);
 				}
-				return r_AddStyleSheetPath_String;
+				return r_MAddStyleSheetPath_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasStyleSheetPath(System.String)
 		/// </summary>
-		protected RMethod r_HasStyleSheetPath_String;
-		public virtual RMethod RHasStyleSheetPath_String
+		protected RMethod r_MHasStyleSheetPath_String;
+		public virtual RMethod RMHasStyleSheetPath_String
 		{
 			get
 			{
-				if(r_HasStyleSheetPath_String == null)
+				if(r_MHasStyleSheetPath_String == null)
 				{
-					r_HasStyleSheetPath_String = new(this, "HasStyleSheetPath", 0, typeof(System.String));
-					r_HasStyleSheetPath_String.SetBelong(this.instance);
+					r_MHasStyleSheetPath_String = new(this, "HasStyleSheetPath", 0, typeof(System.String));
+					r_MHasStyleSheetPath_String.SetBelong(this.instance);
 				}
-				return r_HasStyleSheetPath_String;
+				return r_MHasStyleSheetPath_String;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveStyleSheetPath(System.String)
 		/// </summary>
-		protected RMethod r_RemoveStyleSheetPath_String;
-		public virtual RMethod RRemoveStyleSheetPath_String
+		protected RMethod r_MRemoveStyleSheetPath_String;
+		public virtual RMethod RMRemoveStyleSheetPath_String
 		{
 			get
 			{
-				if(r_RemoveStyleSheetPath_String == null)
+				if(r_MRemoveStyleSheetPath_String == null)
 				{
-					r_RemoveStyleSheetPath_String = new(this, "RemoveStyleSheetPath", 0, typeof(System.String));
-					r_RemoveStyleSheetPath_String.SetBelong(this.instance);
+					r_MRemoveStyleSheetPath_String = new(this, "RemoveStyleSheetPath", 0, typeof(System.String));
+					r_MRemoveStyleSheetPath_String.SetBelong(this.instance);
 				}
-				return r_RemoveStyleSheetPath_String;
+				return r_MRemoveStyleSheetPath_String;
 			}
 		}
 
 		/// <summary>
 		/// Void Blur()
 		/// </summary>
-		protected RMethod r_Blur;
-		public virtual RMethod RBlur
+		protected RMethod r_MBlur;
+		public virtual RMethod RMBlur
 		{
 			get
 			{
-				if(r_Blur == null)
+				if(r_MBlur == null)
 				{
-					r_Blur = new(this, "Blur", 0);
-					r_Blur.SetBelong(this.instance);
+					r_MBlur = new(this, "Blur", 0);
+					r_MBlur.SetBelong(this.instance);
 				}
-				return r_Blur;
+				return r_MBlur;
 			}
 		}
 
 		/// <summary>
 		/// Void BlurImmediately()
 		/// </summary>
-		protected RMethod r_BlurImmediately;
-		public virtual RMethod RBlurImmediately
+		protected RMethod r_MBlurImmediately;
+		public virtual RMethod RMBlurImmediately
 		{
 			get
 			{
-				if(r_BlurImmediately == null)
+				if(r_MBlurImmediately == null)
 				{
-					r_BlurImmediately = new(this, "BlurImmediately", 0);
-					r_BlurImmediately.SetBelong(this.instance);
+					r_MBlurImmediately = new(this, "BlurImmediately", 0);
+					r_MBlurImmediately.SetBelong(this.instance);
 				}
-				return r_BlurImmediately;
+				return r_MBlurImmediately;
 			}
 		}
 
 		/// <summary>
 		/// Void ExecuteDefaultActionDisabled(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_ExecuteDefaultActionDisabled_EventBase;
-		public virtual RMethod RExecuteDefaultActionDisabled_EventBase
+		protected RMethod r_MExecuteDefaultActionDisabled_EventBase;
+		public virtual RMethod RMExecuteDefaultActionDisabled_EventBase
 		{
 			get
 			{
-				if(r_ExecuteDefaultActionDisabled_EventBase == null)
+				if(r_MExecuteDefaultActionDisabled_EventBase == null)
 				{
-					r_ExecuteDefaultActionDisabled_EventBase = new(this, "ExecuteDefaultActionDisabled", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_ExecuteDefaultActionDisabled_EventBase.SetBelong(this.instance);
+					r_MExecuteDefaultActionDisabled_EventBase = new(this, "ExecuteDefaultActionDisabled", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_MExecuteDefaultActionDisabled_EventBase.SetBelong(this.instance);
 				}
-				return r_ExecuteDefaultActionDisabled_EventBase;
+				return r_MExecuteDefaultActionDisabled_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterCallback[TEventType](UnityEngine.UIElements.EventCallback`1[TEventType], UnityEngine.UIElements.TrickleDown)
 		/// </summary>
-		protected RMethod r_RegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown;
-		public virtual RMethod RRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown
+		protected RMethod r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown;
+		public virtual RMethod RMRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown
 		{
 			get
 			{
-				if(r_RegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown == null)
+				if(r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown == null)
 				{
-					r_RegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown = new(this, "RegisterCallback", 1, typeof(UnityEngine.UIElements.EventCallback<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(UnityEngine.UIElements.TrickleDown));
-					r_RegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.SetBelong(this.instance);
+					r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown = new(this, "RegisterCallback", 1, typeof(UnityEngine.UIElements.EventCallback<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(UnityEngine.UIElements.TrickleDown));
+					r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.SetBelong(this.instance);
 				}
-				return r_RegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown;
+				return r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterCallback[TEventType,TUserArgsType](UnityEngine.UIElements.EventCallback`2[TEventType,TUserArgsType], TUserArgsType, UnityEngine.UIElements.TrickleDown)
 		/// </summary>
-		protected RMethod r_RegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown;
-		public virtual RMethod RRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown
+		protected RMethod r_MRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown;
+		public virtual RMethod RMRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown
 		{
 			get
 			{
-				if(r_RegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown == null)
+				if(r_MRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown == null)
 				{
-					r_RegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown = new(this, "RegisterCallback", 2, typeof(UnityEngine.UIElements.EventCallback<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), Type.MakeGenericMethodParameter(1), typeof(UnityEngine.UIElements.TrickleDown));
-					r_RegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown.SetBelong(this.instance);
+					r_MRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown = new(this, "RegisterCallback", 2, typeof(UnityEngine.UIElements.EventCallback<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), Type.MakeGenericMethodParameter(1), typeof(UnityEngine.UIElements.TrickleDown));
+					r_MRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown.SetBelong(this.instance);
 				}
-				return r_RegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown;
+				return r_MRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterCallback[TEventType](UnityEngine.UIElements.EventCallback`1[TEventType], UnityEngine.UIElements.InvokePolicy, UnityEngine.UIElements.TrickleDown)
 		/// </summary>
-		protected RMethod r_RegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown;
-		public virtual RMethod RRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown
+		protected RMethod r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown;
+		public virtual RMethod RMRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown
 		{
 			get
 			{
-				if(r_RegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown == null)
+				if(r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown == null)
 				{
-					r_RegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown = new(this, "RegisterCallback", 1, typeof(UnityEngine.UIElements.EventCallback<>).MakeGenericType(Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("UnityEngine.UIElements.InvokePolicy"), typeof(UnityEngine.UIElements.TrickleDown));
-					r_RegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown.SetBelong(this.instance);
+					r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown = new(this, "RegisterCallback", 1, typeof(UnityEngine.UIElements.EventCallback<>).MakeGenericType(Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("UnityEngine.UIElements.InvokePolicy"), typeof(UnityEngine.UIElements.TrickleDown));
+					r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown.SetBelong(this.instance);
 				}
-				return r_RegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown;
+				return r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown;
 			}
 		}
 
 		/// <summary>
 		/// Void UnregisterCallback[TEventType](UnityEngine.UIElements.EventCallback`1[TEventType], UnityEngine.UIElements.TrickleDown)
 		/// </summary>
-		protected RMethod r_UnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown;
-		public virtual RMethod RUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown
+		protected RMethod r_MUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown;
+		public virtual RMethod RMUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown
 		{
 			get
 			{
-				if(r_UnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown == null)
+				if(r_MUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown == null)
 				{
-					r_UnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown = new(this, "UnregisterCallback", 1, typeof(UnityEngine.UIElements.EventCallback<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(UnityEngine.UIElements.TrickleDown));
-					r_UnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.SetBelong(this.instance);
+					r_MUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown = new(this, "UnregisterCallback", 1, typeof(UnityEngine.UIElements.EventCallback<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(UnityEngine.UIElements.TrickleDown));
+					r_MUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.SetBelong(this.instance);
 				}
-				return r_UnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown;
+				return r_MUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown;
 			}
 		}
 
 		/// <summary>
 		/// Void UnregisterCallback[TEventType,TUserArgsType](UnityEngine.UIElements.EventCallback`2[TEventType,TUserArgsType], UnityEngine.UIElements.TrickleDown)
 		/// </summary>
-		protected RMethod r_UnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown;
-		public virtual RMethod RUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown
+		protected RMethod r_MUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown;
+		public virtual RMethod RMUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown
 		{
 			get
 			{
-				if(r_UnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown == null)
+				if(r_MUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown == null)
 				{
-					r_UnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown = new(this, "UnregisterCallback", 2, typeof(UnityEngine.UIElements.EventCallback<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), typeof(UnityEngine.UIElements.TrickleDown));
-					r_UnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown.SetBelong(this.instance);
+					r_MUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown = new(this, "UnregisterCallback", 2, typeof(UnityEngine.UIElements.EventCallback<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), typeof(UnityEngine.UIElements.TrickleDown));
+					r_MUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown.SetBelong(this.instance);
 				}
-				return r_UnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown;
+				return r_MUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetUserArgs[TEventType,TCallbackArgs](UnityEngine.UIElements.EventCallback`2[TEventType,TCallbackArgs], UnityEngine.UIElements.TrickleDown, TCallbackArgs ByRef)
 		/// </summary>
-		protected RMethod r_TryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs;
-		public virtual RMethod RTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs
+		protected RMethod r_MTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs;
+		public virtual RMethod RMTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs
 		{
 			get
 			{
-				if(r_TryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs == null)
+				if(r_MTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs == null)
 				{
-					r_TryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs = new(this, "TryGetUserArgs", 2, typeof(UnityEngine.UIElements.EventCallback<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), typeof(UnityEngine.UIElements.TrickleDown), Type.MakeGenericMethodParameter(1).MakeByRefType());
-					r_TryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs.SetBelong(this.instance);
+					r_MTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs = new(this, "TryGetUserArgs", 2, typeof(UnityEngine.UIElements.EventCallback<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), typeof(UnityEngine.UIElements.TrickleDown), Type.MakeGenericMethodParameter(1).MakeByRefType());
+					r_MTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs.SetBelong(this.instance);
 				}
-				return r_TryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs;
+				return r_MTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs;
 			}
 		}
 
 		/// <summary>
 		/// Void HandleEventAtTargetPhase(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_HandleEventAtTargetPhase_EventBase;
-		public virtual RMethod RHandleEventAtTargetPhase_EventBase
+		protected RMethod r_MHandleEventAtTargetPhase_EventBase;
+		public virtual RMethod RMHandleEventAtTargetPhase_EventBase
 		{
 			get
 			{
-				if(r_HandleEventAtTargetPhase_EventBase == null)
+				if(r_MHandleEventAtTargetPhase_EventBase == null)
 				{
-					r_HandleEventAtTargetPhase_EventBase = new(this, "HandleEventAtTargetPhase", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_HandleEventAtTargetPhase_EventBase.SetBelong(this.instance);
+					r_MHandleEventAtTargetPhase_EventBase = new(this, "HandleEventAtTargetPhase", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_MHandleEventAtTargetPhase_EventBase.SetBelong(this.instance);
 				}
-				return r_HandleEventAtTargetPhase_EventBase;
+				return r_MHandleEventAtTargetPhase_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// Void HandleEventAtTargetAndDefaultPhase(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_HandleEventAtTargetAndDefaultPhase_EventBase;
-		public virtual RMethod RHandleEventAtTargetAndDefaultPhase_EventBase
+		protected RMethod r_MHandleEventAtTargetAndDefaultPhase_EventBase;
+		public virtual RMethod RMHandleEventAtTargetAndDefaultPhase_EventBase
 		{
 			get
 			{
-				if(r_HandleEventAtTargetAndDefaultPhase_EventBase == null)
+				if(r_MHandleEventAtTargetAndDefaultPhase_EventBase == null)
 				{
-					r_HandleEventAtTargetAndDefaultPhase_EventBase = new(this, "HandleEventAtTargetAndDefaultPhase", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_HandleEventAtTargetAndDefaultPhase_EventBase.SetBelong(this.instance);
+					r_MHandleEventAtTargetAndDefaultPhase_EventBase = new(this, "HandleEventAtTargetAndDefaultPhase", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_MHandleEventAtTargetAndDefaultPhase_EventBase.SetBelong(this.instance);
 				}
-				return r_HandleEventAtTargetAndDefaultPhase_EventBase;
+				return r_MHandleEventAtTargetAndDefaultPhase_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// Void HandleEventAtCurrentTargetAndPhase(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_HandleEventAtCurrentTargetAndPhase_EventBase;
-		public virtual RMethod RHandleEventAtCurrentTargetAndPhase_EventBase
+		protected RMethod r_MHandleEventAtCurrentTargetAndPhase_EventBase;
+		public virtual RMethod RMHandleEventAtCurrentTargetAndPhase_EventBase
 		{
 			get
 			{
-				if(r_HandleEventAtCurrentTargetAndPhase_EventBase == null)
+				if(r_MHandleEventAtCurrentTargetAndPhase_EventBase == null)
 				{
-					r_HandleEventAtCurrentTargetAndPhase_EventBase = new(this, "HandleEventAtCurrentTargetAndPhase", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_HandleEventAtCurrentTargetAndPhase_EventBase.SetBelong(this.instance);
+					r_MHandleEventAtCurrentTargetAndPhase_EventBase = new(this, "HandleEventAtCurrentTargetAndPhase", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_MHandleEventAtCurrentTargetAndPhase_EventBase.SetBelong(this.instance);
 				}
-				return r_HandleEventAtCurrentTargetAndPhase_EventBase;
+				return r_MHandleEventAtCurrentTargetAndPhase_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// Void HandleEventEditorInternal(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_HandleEventEditorInternal_EventBase;
-		public virtual RMethod RHandleEventEditorInternal_EventBase
+		protected RMethod r_MHandleEventEditorInternal_EventBase;
+		public virtual RMethod RMHandleEventEditorInternal_EventBase
 		{
 			get
 			{
-				if(r_HandleEventEditorInternal_EventBase == null)
+				if(r_MHandleEventEditorInternal_EventBase == null)
 				{
-					r_HandleEventEditorInternal_EventBase = new(this, "HandleEventEditorInternal", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_HandleEventEditorInternal_EventBase.SetBelong(this.instance);
+					r_MHandleEventEditorInternal_EventBase = new(this, "HandleEventEditorInternal", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_MHandleEventEditorInternal_EventBase.SetBelong(this.instance);
 				}
-				return r_HandleEventEditorInternal_EventBase;
+				return r_MHandleEventEditorInternal_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// Void HandleEvent(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_HandleEvent_EventBase;
-		public virtual RMethod RHandleEvent_EventBase
+		protected RMethod r_MHandleEvent_EventBase;
+		public virtual RMethod RMHandleEvent_EventBase
 		{
 			get
 			{
-				if(r_HandleEvent_EventBase == null)
+				if(r_MHandleEvent_EventBase == null)
 				{
-					r_HandleEvent_EventBase = new(this, "HandleEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_HandleEvent_EventBase.SetBelong(this.instance);
+					r_MHandleEvent_EventBase = new(this, "HandleEvent", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_MHandleEvent_EventBase.SetBelong(this.instance);
 				}
-				return r_HandleEvent_EventBase;
+				return r_MHandleEvent_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasTrickleDownHandlers()
 		/// </summary>
-		protected RMethod r_HasTrickleDownHandlers;
-		public virtual RMethod RHasTrickleDownHandlers
+		protected RMethod r_MHasTrickleDownHandlers;
+		public virtual RMethod RMHasTrickleDownHandlers
 		{
 			get
 			{
-				if(r_HasTrickleDownHandlers == null)
+				if(r_MHasTrickleDownHandlers == null)
 				{
-					r_HasTrickleDownHandlers = new(this, "HasTrickleDownHandlers", 0);
-					r_HasTrickleDownHandlers.SetBelong(this.instance);
+					r_MHasTrickleDownHandlers = new(this, "HasTrickleDownHandlers", 0);
+					r_MHasTrickleDownHandlers.SetBelong(this.instance);
 				}
-				return r_HasTrickleDownHandlers;
+				return r_MHasTrickleDownHandlers;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasBubbleUpHandlers()
 		/// </summary>
-		protected RMethod r_HasBubbleUpHandlers;
-		public virtual RMethod RHasBubbleUpHandlers
+		protected RMethod r_MHasBubbleUpHandlers;
+		public virtual RMethod RMHasBubbleUpHandlers
 		{
 			get
 			{
-				if(r_HasBubbleUpHandlers == null)
+				if(r_MHasBubbleUpHandlers == null)
 				{
-					r_HasBubbleUpHandlers = new(this, "HasBubbleUpHandlers", 0);
-					r_HasBubbleUpHandlers.SetBelong(this.instance);
+					r_MHasBubbleUpHandlers = new(this, "HasBubbleUpHandlers", 0);
+					r_MHasBubbleUpHandlers.SetBelong(this.instance);
 				}
-				return r_HasBubbleUpHandlers;
+				return r_MHasBubbleUpHandlers;
 			}
 		}
 
 		/// <summary>
 		/// Void ExecuteDefaultActionDisabledAtTarget(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_ExecuteDefaultActionDisabledAtTarget_EventBase;
-		public virtual RMethod RExecuteDefaultActionDisabledAtTarget_EventBase
+		protected RMethod r_MExecuteDefaultActionDisabledAtTarget_EventBase;
+		public virtual RMethod RMExecuteDefaultActionDisabledAtTarget_EventBase
 		{
 			get
 			{
-				if(r_ExecuteDefaultActionDisabledAtTarget_EventBase == null)
+				if(r_MExecuteDefaultActionDisabledAtTarget_EventBase == null)
 				{
-					r_ExecuteDefaultActionDisabledAtTarget_EventBase = new(this, "ExecuteDefaultActionDisabledAtTarget", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_ExecuteDefaultActionDisabledAtTarget_EventBase.SetBelong(this.instance);
+					r_MExecuteDefaultActionDisabledAtTarget_EventBase = new(this, "ExecuteDefaultActionDisabledAtTarget", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_MExecuteDefaultActionDisabledAtTarget_EventBase.SetBelong(this.instance);
 				}
-				return r_ExecuteDefaultActionDisabledAtTarget_EventBase;
+				return r_MExecuteDefaultActionDisabledAtTarget_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -4028,7 +4028,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@clickEvent, @delay, @interval};
-            var ___result = RSetAction_Action_Int64_Int64.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetAction_Action_Int64_Int64.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4039,7 +4039,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mgc};
-            var ___result = ROnGenerateVisualContent_MeshGenerationContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnGenerateVisualContent_MeshGenerationContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4050,29 +4050,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@drawText, @ellipsisText, @width, @textOverflowPosition};
-            var ___result = RElideText_String_String_Single_TextOverflowPosition.Invoke(___genericsType, ___parameters);
+            var ___result = RMElideText_String_String_Single_TextOverflowPosition.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
 
 
-        public virtual UnityEngine.Vector2 MeasureTextSize(System.String @textToMeasure, System.Single @width, RType @widthMode, System.Single @height, RType @heightMode)
+        public virtual UnityEngine.Vector2 MeasureTextSize(System.String @textToMeasure, System.Single @width, RUnityEngine.RUIElements.RVisualElement.RMeasureMode @widthMode, System.Single @height, RUnityEngine.RUIElements.RVisualElement.RMeasureMode @heightMode)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@textToMeasure, @width, @widthMode.Value, @height, @heightMode.Value};
-            var ___result = RMeasureTextSize_String_Single_MeasureMode_Single_MeasureMode.Invoke(___genericsType, ___parameters);
+            var ___result = RMMeasureTextSize_String_Single_MeasureMode_Single_MeasureMode.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector2)___result;
         }
 
 
-        public virtual UnityEngine.Vector2 DoMeasure(System.Single @desiredWidth, RType @widthMode, System.Single @desiredHeight, RType @heightMode)
+        public virtual UnityEngine.Vector2 DoMeasure(System.Single @desiredWidth, RUnityEngine.RUIElements.RVisualElement.RMeasureMode @widthMode, System.Single @desiredHeight, RUnityEngine.RUIElements.RVisualElement.RMeasureMode @heightMode)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@desiredWidth, @widthMode.Value, @desiredHeight, @heightMode.Value};
-            var ___result = RDoMeasure_Single_MeasureMode_Single_MeasureMode.Invoke(___genericsType, ___parameters);
+            var ___result = RMDoMeasure_Single_MeasureMode_Single_MeasureMode.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Vector2)___result;
         }
@@ -4083,7 +4083,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = RExecuteDefaultActionAtTarget_EventBase.Invoke(___genericsType, ___parameters);
+            var ___result = RMExecuteDefaultActionAtTarget_EventBase.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4094,18 +4094,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mgc};
-            var ___result = RDrawCaret_MeshGenerationContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMDrawCaret_MeshGenerationContext.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual System.Boolean TryConvertLengthUnits(RType @id, ref UnityEngine.UIElements.Length @from, ref UnityEngine.UIElements.Length @to, System.Int32 @subPropertyIndex)
+        public virtual System.Boolean TryConvertLengthUnits(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref UnityEngine.UIElements.Length @from, ref UnityEngine.UIElements.Length @to, System.Int32 @subPropertyIndex)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @from, @to, @subPropertyIndex};
-            var ___result = RTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32.Invoke(___genericsType, ___parameters);
 			@from = (UnityEngine.UIElements.Length)___parameters[1];
 			@to = (UnityEngine.UIElements.Length)___parameters[2];
 
@@ -4118,7 +4118,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
-            var ___result = RTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin.Invoke(___genericsType, ___parameters);
 			@from = (UnityEngine.UIElements.TransformOrigin)___parameters[0];
 			@to = (UnityEngine.UIElements.TransformOrigin)___parameters[1];
 
@@ -4131,7 +4131,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
-            var ___result = RTryConvertTranslateUnits_Ref_Translate_Ref_Translate.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryConvertTranslateUnits_Ref_Translate_Ref_Translate.Invoke(___genericsType, ___parameters);
 			@from = (UnityEngine.UIElements.Translate)___parameters[0];
 			@to = (UnityEngine.UIElements.Translate)___parameters[1];
 
@@ -4144,7 +4144,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
-            var ___result = RTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition.Invoke(___genericsType, ___parameters);
 			@from = (UnityEngine.UIElements.BackgroundPosition)___parameters[0];
 			@to = (UnityEngine.UIElements.BackgroundPosition)___parameters[1];
 
@@ -4157,7 +4157,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
-            var ___result = RTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize.Invoke(___genericsType, ___parameters);
 			@from = (UnityEngine.UIElements.BackgroundSize)___parameters[0];
 			@to = (UnityEngine.UIElements.BackgroundSize)___parameters[1];
 
@@ -4170,7 +4170,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMarkRenderHintsClean.Invoke(___genericsType, ___parameters);
+            var ___result = RMMarkRenderHintsClean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4181,7 +4181,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateBoundingBox.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateBoundingBox.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4192,7 +4192,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateWorldBoundingBox.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateWorldBoundingBox.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4203,7 +4203,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateWorldTransform.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateWorldTransform.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4214,7 +4214,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RUpdateWorldTransformInverse.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateWorldTransformInverse.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4225,7 +4225,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = REnsureWorldTransformAndClipUpToDate.Invoke(___genericsType, ___parameters);
+            var ___result = RMEnsureWorldTransformAndClipUpToDate.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4236,7 +4236,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = RExecuteDefaultAction_EventBase.Invoke(___genericsType, ___parameters);
+            var ___result = RMExecuteDefaultAction_EventBase.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4247,7 +4247,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetTooltipRect.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetTooltipRect.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Rect)___result;
         }
@@ -4258,7 +4258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFocus.Invoke(___genericsType, ___parameters);
+            var ___result = RMFocus.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4269,7 +4269,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@p.Value};
-            var ___result = RSetPanel_BaseVisualElementPanel.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetPanel_BaseVisualElementPanel.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4280,40 +4280,40 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@e};
-            var ___result = RSendEvent_EventBase.Invoke(___genericsType, ___parameters);
+            var ___result = RMSendEvent_EventBase.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void SendEvent(UnityEngine.UIElements.EventBase @e, RType @dispatchMode)
+        public virtual void SendEvent(UnityEngine.UIElements.EventBase @e, RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@e, @dispatchMode.Value};
-            var ___result = RSendEvent_EventBase_DispatchMode.Invoke(___genericsType, ___parameters);
+            var ___result = RMSendEvent_EventBase_DispatchMode.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void IncrementVersion(RType @changeType)
+        public virtual void IncrementVersion(RUnityEngine.RUIElements.RVersionChangeType @changeType)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@changeType.Value};
-            var ___result = RIncrementVersion_VersionChangeType.Invoke(___genericsType, ___parameters);
+            var ___result = RMIncrementVersion_VersionChangeType.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void InvokeHierarchyChanged(RType @changeType)
+        public virtual void InvokeHierarchyChanged(RUnityEngine.RUIElements.RHierarchyChangeType @changeType)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@changeType.Value};
-            var ___result = RInvokeHierarchyChanged_HierarchyChangeType.Invoke(___genericsType, ___parameters);
+            var ___result = RMInvokeHierarchyChanged_HierarchyChangeType.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4324,7 +4324,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@state};
-            var ___result = RSetEnabledFromHierarchy_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetEnabledFromHierarchy_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -4335,7 +4335,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = RSetEnabled_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetEnabled_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4346,7 +4346,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMarkDirtyRepaint.Invoke(___genericsType, ___parameters);
+            var ___result = RMMarkDirtyRepaint.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4357,7 +4357,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mgc};
-            var ___result = RInvokeGenerateVisualContent_MeshGenerationContext.Invoke(___genericsType, ___parameters);
+            var ___result = RMInvokeGenerateVisualContent_MeshGenerationContext.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4368,7 +4368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key};
-            var ___result = RGetFullHierarchicalViewDataKey_StringBuilder.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetFullHierarchicalViewDataKey_StringBuilder.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4379,7 +4379,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetFullHierarchicalViewDataKey.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetFullHierarchicalViewDataKey.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -4390,7 +4390,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@existing, @key};
-            var ___result = RGetOrCreateViewData_GT_Object_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetOrCreateViewData_GT_Object_String.Invoke(___genericsType, ___parameters);
 
             return (T)___result;
         }
@@ -4401,7 +4401,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@existing, @key};
-            var ___result = RGetOrCreateViewData_GT_ScriptableObject_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetOrCreateViewData_GT_ScriptableObject_String.Invoke(___genericsType, ___parameters);
 
             return (T)___result;
         }
@@ -4412,7 +4412,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @key};
-            var ___result = ROverwriteFromViewData_Object_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMOverwriteFromViewData_Object_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4423,7 +4423,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSaveViewData.Invoke(___genericsType, ___parameters);
+            var ___result = RMSaveViewData.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4434,7 +4434,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@existingState};
-            var ___result = RIsViewDataPersitenceSupportedOnChildren_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMIsViewDataPersitenceSupportedOnChildren_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -4445,7 +4445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@enablePersistence};
-            var ___result = ROnViewDataReady_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnViewDataReady_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4456,7 +4456,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = ROnViewDataReady.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnViewDataReady.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4467,7 +4467,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@localPoint};
-            var ___result = RContainsPoint_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMContainsPoint_Vector2.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -4478,18 +4478,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rectangle};
-            var ___result = ROverlaps_Rect.Invoke(___genericsType, ___parameters);
+            var ___result = RMOverlaps_Rect.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual RUnityEngine.RYoga.RYogaSize Measure(RUnityEngine.RYoga.RYogaNode @node, System.Single @width, RType @widthMode, System.Single @height, RType @heightMode)
+        public virtual RUnityEngine.RYoga.RYogaSize Measure(RUnityEngine.RYoga.RYogaNode @node, System.Single @width, RUnityEngine.RYoga.RYogaMeasureMode @widthMode, System.Single @height, RUnityEngine.RYoga.RYogaMeasureMode @heightMode)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@node.Value, @width, @widthMode.Value, @height, @heightMode.Value};
-            var ___result = RMeasure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
+            var ___result = RMMeasure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
 
             return new RUnityEngine.RYoga.RYogaSize(___result);
         }
@@ -4500,7 +4500,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@size};
-            var ___result = RSetSize_Vector2.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetSize_Vector2.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4511,7 +4511,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sheet, @rule.Value};
-            var ___result = RSetInlineRule_StyleSheet_StyleRule.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetInlineRule_StyleSheet_StyleRule.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4522,7 +4522,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sheet, @rule.Value};
-            var ___result = RUpdateInlineRule_StyleSheet_StyleRule.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateInlineRule_StyleSheet_StyleRule.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4533,7 +4533,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newStyle.Value};
-            var ___result = RSetComputedStyle_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetComputedStyle_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
 			@newStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[0]);
 
             
@@ -4545,7 +4545,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RResetPositionProperties.Invoke(___genericsType, ___parameters);
+            var ___result = RMResetPositionProperties.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4556,7 +4556,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -4567,7 +4567,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetClasses.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetClasses.Invoke(___genericsType, ___parameters);
 
             return (System.Collections.Generic.IEnumerable<System.String>)___result;
         }
@@ -4578,7 +4578,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetClassesForIteration.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetClassesForIteration.Invoke(___genericsType, ___parameters);
 
             return (System.Collections.Generic.List<System.String>)___result;
         }
@@ -4589,7 +4589,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RClearClassList.Invoke(___genericsType, ___parameters);
+            var ___result = RMClearClassList.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4600,7 +4600,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@className};
-            var ___result = RAddToClassList_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddToClassList_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4611,7 +4611,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@className};
-            var ___result = RRemoveFromClassList_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveFromClassList_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4622,7 +4622,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@className};
-            var ___result = RToggleInClassList_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMToggleInClassList_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4633,7 +4633,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@className, @enable};
-            var ___result = REnableInClassList_String_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMEnableInClassList_String_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4644,7 +4644,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cls};
-            var ___result = RClassListContains_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMClassListContains_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -4655,7 +4655,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFindAncestorUserData.Invoke(___genericsType, ___parameters);
+            var ___result = RMFindAncestorUserData.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -4666,7 +4666,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key};
-            var ___result = RGetProperty_PropertyName.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetProperty_PropertyName.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
@@ -4677,7 +4677,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @value};
-            var ___result = RSetProperty_PropertyName_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetProperty_PropertyName_Object.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4688,7 +4688,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key};
-            var ___result = RHasProperty_PropertyName.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasProperty_PropertyName.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -4699,7 +4699,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RApplyPlayerRenderingToEditorElement.Invoke(___genericsType, ___parameters);
+            var ___result = RMApplyPlayerRenderingToEditorElement.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4710,7 +4710,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@anim.Value};
-            var ___result = RRegisterAnimation_IValueAnimationUpdate.Invoke(___genericsType, ___parameters);
+            var ___result = RMRegisterAnimation_IValueAnimationUpdate.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4721,7 +4721,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@anim.Value};
-            var ___result = RUnregisterAnimation_IValueAnimationUpdate.Invoke(___genericsType, ___parameters);
+            var ___result = RMUnregisterAnimation_IValueAnimationUpdate.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4733,85 +4733,85 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nextParent};
-            var ___result = RGetCachedNextParentWithEventCallback_Out_VisualElement.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetCachedNextParentWithEventCallback_Out_VisualElement.Invoke(___genericsType, ___parameters);
 			@nextParent = (UnityEngine.UIElements.VisualElement)___parameters[0];
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual System.Boolean HasEventCallbacks(RType @eventCategory)
+        public virtual System.Boolean HasEventCallbacks(RUnityEngine.RUIElements.REventCategory @eventCategory)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RHasEventCallbacks_EventCategory.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasEventCallbacks_EventCategory.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual System.Boolean HasParentEventCallbacks(RType @eventCategory)
+        public virtual System.Boolean HasParentEventCallbacks(RUnityEngine.RUIElements.REventCategory @eventCategory)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RHasParentEventCallbacks_EventCategory.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasParentEventCallbacks_EventCategory.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual System.Boolean HasParentEventCallbacksOrDefaultActions(RType @eventCategory)
+        public virtual System.Boolean HasParentEventCallbacksOrDefaultActions(RUnityEngine.RUIElements.REventCategory @eventCategory)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RHasParentEventCallbacksOrDefaultActions_EventCategory.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasParentEventCallbacksOrDefaultActions_EventCategory.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual System.Boolean HasEventCallbacksOrDefaultActions(RType @eventCategory)
+        public virtual System.Boolean HasEventCallbacksOrDefaultActions(RUnityEngine.RUIElements.REventCategory @eventCategory)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RHasEventCallbacksOrDefaultActions_EventCategory.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasEventCallbacksOrDefaultActions_EventCategory.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual System.Boolean HasParentEventCallbacksOrDefaultActionAtTarget(RType @eventCategory)
+        public virtual System.Boolean HasParentEventCallbacksOrDefaultActionAtTarget(RUnityEngine.RUIElements.REventCategory @eventCategory)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual System.Boolean HasEventCallbacksOrDefaultActionAtTarget(RType @eventCategory)
+        public virtual System.Boolean HasEventCallbacksOrDefaultActionAtTarget(RUnityEngine.RUIElements.REventCategory @eventCategory)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RHasEventCallbacksOrDefaultActionAtTarget_EventCategory.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasEventCallbacksOrDefaultActionAtTarget_EventCategory.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual System.Boolean HasDefaultAction(RType @eventCategory)
+        public virtual System.Boolean HasDefaultAction(RUnityEngine.RUIElements.REventCategory @eventCategory)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RHasDefaultAction_EventCategory.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasDefaultAction_EventCategory.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -4822,7 +4822,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RShouldClip.Invoke(___genericsType, ___parameters);
+            var ___result = RMShouldClip.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -4833,7 +4833,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@child};
-            var ___result = RAdd_VisualElement.Invoke(___genericsType, ___parameters);
+            var ___result = RMAdd_VisualElement.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4844,7 +4844,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @element};
-            var ___result = RInsert_Int32_VisualElement.Invoke(___genericsType, ___parameters);
+            var ___result = RMInsert_Int32_VisualElement.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4855,7 +4855,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element};
-            var ___result = RRemove_VisualElement.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemove_VisualElement.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4866,7 +4866,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
-            var ___result = RRemoveAt_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveAt_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4877,7 +4877,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RClear.Invoke(___genericsType, ___parameters);
+            var ___result = RMClear.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4888,7 +4888,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
-            var ___result = RElementAt_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RMElementAt_Int32.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.VisualElement)___result;
         }
@@ -4899,7 +4899,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element};
-            var ___result = RIndexOf_VisualElement.Invoke(___genericsType, ___parameters);
+            var ___result = RMIndexOf_VisualElement.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -4910,7 +4910,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@childIndexes};
-            var ___result = RElementAtTreePath_List_d_Int32_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMElementAtTreePath_List_d_Int32_p_.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.VisualElement)___result;
         }
@@ -4921,7 +4921,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element, @outChildIndexes};
-            var ___result = RFindElementInTree_VisualElement_List_d_Int32_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMFindElementInTree_VisualElement_List_d_Int32_p_.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -4932,7 +4932,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RChildren.Invoke(___genericsType, ___parameters);
+            var ___result = RMChildren.Invoke(___genericsType, ___parameters);
 
             return (System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualElement>)___result;
         }
@@ -4943,7 +4943,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@comp};
-            var ___result = RSort_Comparison_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMSort_Comparison_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4954,7 +4954,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RBringToFront.Invoke(___genericsType, ___parameters);
+            var ___result = RMBringToFront.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4965,7 +4965,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSendToBack.Invoke(___genericsType, ___parameters);
+            var ___result = RMSendToBack.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4976,7 +4976,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sibling};
-            var ___result = RPlaceBehind_VisualElement.Invoke(___genericsType, ___parameters);
+            var ___result = RMPlaceBehind_VisualElement.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4987,7 +4987,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sibling};
-            var ___result = RPlaceInFront_VisualElement.Invoke(___genericsType, ___parameters);
+            var ___result = RMPlaceInFront_VisualElement.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4998,7 +4998,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RRemoveFromHierarchy.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveFromHierarchy.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5009,7 +5009,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{};
-            var ___result = RGetFirstOfType_GT.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetFirstOfType_GT.Invoke(___genericsType, ___parameters);
 
             return (T)___result;
         }
@@ -5020,7 +5020,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{};
-            var ___result = RGetFirstAncestorOfType_GT.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetFirstAncestorOfType_GT.Invoke(___genericsType, ___parameters);
 
             return (T)___result;
         }
@@ -5031,7 +5031,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@predicate};
-            var ___result = RGetFirstAncestorWhere_Predicate_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetFirstAncestorWhere_Predicate_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.VisualElement)___result;
         }
@@ -5042,7 +5042,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@child};
-            var ___result = RContains_VisualElement.Invoke(___genericsType, ___parameters);
+            var ___result = RMContains_VisualElement.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -5053,7 +5053,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other};
-            var ___result = RFindCommonAncestor_VisualElement.Invoke(___genericsType, ___parameters);
+            var ___result = RMFindCommonAncestor_VisualElement.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.VisualElement)___result;
         }
@@ -5064,7 +5064,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetRoot.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetRoot.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.VisualElement)___result;
         }
@@ -5075,7 +5075,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetRootVisualContainer.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetRootVisualContainer.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.VisualElement)___result;
         }
@@ -5086,7 +5086,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetNextElementDepthFirst.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetNextElementDepthFirst.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.VisualElement)___result;
         }
@@ -5097,7 +5097,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetPreviousElementDepthFirst.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetPreviousElementDepthFirst.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.VisualElement)___result;
         }
@@ -5108,7 +5108,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@retargetAgainst};
-            var ___result = RRetargetElement_VisualElement.Invoke(___genericsType, ___parameters);
+            var ___result = RMRetargetElement_VisualElement.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.UIElements.VisualElement)___result;
         }
@@ -5120,7 +5120,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result};
-            var ___result = RGetPivotedMatrixWithLayout_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetPivotedMatrixWithLayout_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
 			@result = (UnityEngine.Matrix4x4)___parameters[0];
 
             
@@ -5132,7 +5132,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sheetPath};
-            var ___result = RAddStyleSheetPath_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddStyleSheetPath_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5143,7 +5143,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sheetPath};
-            var ___result = RHasStyleSheetPath_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasStyleSheetPath_String.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -5154,7 +5154,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sheetPath};
-            var ___result = RRemoveStyleSheetPath_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMRemoveStyleSheetPath_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5165,7 +5165,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RBlur.Invoke(___genericsType, ___parameters);
+            var ___result = RMBlur.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5176,7 +5176,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RBlurImmediately.Invoke(___genericsType, ___parameters);
+            var ___result = RMBlurImmediately.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5187,7 +5187,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = RExecuteDefaultActionDisabled_EventBase.Invoke(___genericsType, ___parameters);
+            var ___result = RMExecuteDefaultActionDisabled_EventBase.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5198,7 +5198,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {typeof(TEventType)};
             var ___parameters = new object[]{@callback, @useTrickleDown};
-            var ___result = RRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.Invoke(___genericsType, ___parameters);
+            var ___result = RMRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5209,18 +5209,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {typeof(TEventType), typeof(TUserArgsType)};
             var ___parameters = new object[]{@callback, @userArgs, @useTrickleDown};
-            var ___result = RRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown.Invoke(___genericsType, ___parameters);
+            var ___result = RMRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, RType @invokePolicy, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+        public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, RUnityEngine.RUIElements.RInvokePolicy @invokePolicy, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
         {
 
             var ___genericsType = new Type[] {typeof(TEventType)};
             var ___parameters = new object[]{@callback, @invokePolicy.Value, @useTrickleDown};
-            var ___result = RRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown.Invoke(___genericsType, ___parameters);
+            var ___result = RMRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5231,7 +5231,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {typeof(TEventType)};
             var ___parameters = new object[]{@callback, @useTrickleDown};
-            var ___result = RUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.Invoke(___genericsType, ___parameters);
+            var ___result = RMUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5242,7 +5242,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {typeof(TEventType), typeof(TUserArgsType)};
             var ___parameters = new object[]{@callback, @useTrickleDown};
-            var ___result = RUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown.Invoke(___genericsType, ___parameters);
+            var ___result = RMUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5254,7 +5254,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {typeof(TEventType), typeof(TCallbackArgs)};
             var ___parameters = new object[]{@callback, @useTrickleDown, @userData};
-            var ___result = RTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs.Invoke(___genericsType, ___parameters);
 			@userData = (TCallbackArgs)___parameters[2];
 
             return (System.Boolean)___result;
@@ -5266,7 +5266,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = RHandleEventAtTargetPhase_EventBase.Invoke(___genericsType, ___parameters);
+            var ___result = RMHandleEventAtTargetPhase_EventBase.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5277,7 +5277,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = RHandleEventAtTargetAndDefaultPhase_EventBase.Invoke(___genericsType, ___parameters);
+            var ___result = RMHandleEventAtTargetAndDefaultPhase_EventBase.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5288,7 +5288,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = RHandleEventAtCurrentTargetAndPhase_EventBase.Invoke(___genericsType, ___parameters);
+            var ___result = RMHandleEventAtCurrentTargetAndPhase_EventBase.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5299,7 +5299,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = RHandleEventEditorInternal_EventBase.Invoke(___genericsType, ___parameters);
+            var ___result = RMHandleEventEditorInternal_EventBase.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5310,7 +5310,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = RHandleEvent_EventBase.Invoke(___genericsType, ___parameters);
+            var ___result = RMHandleEvent_EventBase.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5321,7 +5321,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RHasTrickleDownHandlers.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasTrickleDownHandlers.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -5332,7 +5332,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RHasBubbleUpHandlers.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasBubbleUpHandlers.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -5343,7 +5343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = RExecuteDefaultActionDisabledAtTarget_EventBase.Invoke(___genericsType, ___parameters);
+            var ___result = RMExecuteDefaultActionDisabledAtTarget_EventBase.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5354,7 +5354,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -5365,7 +5365,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -5376,7 +5376,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -5387,7 +5387,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -5398,7 +5398,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }

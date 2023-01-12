@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Int32 Compare(System.Object, System.Object)
 		/// </summary>
-		protected RMethod r_Compare_Object_Object;
-		public virtual RMethod RCompare_Object_Object
+		protected RMethod r_MCompare_Object_Object;
+		public virtual RMethod RMCompare_Object_Object
 		{
 			get
 			{
-				if(r_Compare_Object_Object == null)
+				if(r_MCompare_Object_Object == null)
 				{
-					r_Compare_Object_Object = new(this, "Compare", 0, typeof(System.Object), typeof(System.Object));
-					r_Compare_Object_Object.SetBelong(this.instance);
+					r_MCompare_Object_Object = new(this, "Compare", 0, typeof(System.Object), typeof(System.Object));
+					r_MCompare_Object_Object.SetBelong(this.instance);
 				}
-				return r_Compare_Object_Object;
+				return r_MCompare_Object_Object;
 			}
 		}
 
@@ -50,7 +50,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@x, @y};
-            var ___result = RCompare_Object_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMCompare_Object_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }

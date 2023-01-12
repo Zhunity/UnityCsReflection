@@ -13,85 +13,85 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Type ActivationType
 		/// </summary>
-		protected RSystem.RType r_ActivationType;
-		public virtual RSystem.RType RActivationType
+		protected RSystem.RType r_PActivationType;
+		public virtual RSystem.RType RPActivationType
 		{
 			get
 			{
-				if(r_ActivationType == null)
+				if(r_PActivationType == null)
 				{
-					r_ActivationType = new(this, "ActivationType", -1);
-					r_ActivationType.SetBelong(this.instance);
+					r_PActivationType = new(this, "ActivationType", -1);
+					r_PActivationType.SetBelong(this.instance);
 				}
-				return r_ActivationType;
+				return r_PActivationType;
 			}
 		}
 
 		/// <summary>
 		/// System.String ActivationTypeName
 		/// </summary>
-		protected RSystem.RString r_ActivationTypeName;
-		public virtual RSystem.RString RActivationTypeName
+		protected RSystem.RString r_PActivationTypeName;
+		public virtual RSystem.RString RPActivationTypeName
 		{
 			get
 			{
-				if(r_ActivationTypeName == null)
+				if(r_PActivationTypeName == null)
 				{
-					r_ActivationTypeName = new(this, "ActivationTypeName", -1);
-					r_ActivationTypeName.SetBelong(this.instance);
+					r_PActivationTypeName = new(this, "ActivationTypeName", -1);
+					r_PActivationTypeName.SetBelong(this.instance);
 				}
-				return r_ActivationTypeName;
+				return r_PActivationTypeName;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Activation.IActivator Activator
 		/// </summary>
-		protected RSystem.RRuntime.RRemoting.RActivation.RIActivator r_Activator;
-		public virtual RSystem.RRuntime.RRemoting.RActivation.RIActivator RActivator
+		protected RSystem.RRuntime.RRemoting.RActivation.RIActivator r_PActivator;
+		public virtual RSystem.RRuntime.RRemoting.RActivation.RIActivator RPActivator
 		{
 			get
 			{
-				if(r_Activator == null)
+				if(r_PActivator == null)
 				{
-					r_Activator = new(this, "Activator", -1);
-					r_Activator.SetBelong(this.instance);
+					r_PActivator = new(this, "Activator", -1);
+					r_PActivator.SetBelong(this.instance);
 				}
-				return r_Activator;
+				return r_PActivator;
 			}
 		}
 
 		/// <summary>
 		/// System.Object[] CallSiteActivationAttributes
 		/// </summary>
-		protected RPropertyArray<RSystem.RObject> r_CallSiteActivationAttributes;
-		public virtual RPropertyArray<RSystem.RObject> RCallSiteActivationAttributes
+		protected RPropertyArray<RSystem.RObject> r_PCallSiteActivationAttributes;
+		public virtual RPropertyArray<RSystem.RObject> RPCallSiteActivationAttributes
 		{
 			get
 			{
-				if(r_CallSiteActivationAttributes == null)
+				if(r_PCallSiteActivationAttributes == null)
 				{
-					r_CallSiteActivationAttributes = new(this, "CallSiteActivationAttributes", -1);
-					r_CallSiteActivationAttributes.SetBelong(this.instance);
+					r_PCallSiteActivationAttributes = new(this, "CallSiteActivationAttributes", -1);
+					r_PCallSiteActivationAttributes.SetBelong(this.instance);
 				}
-				return r_CallSiteActivationAttributes;
+				return r_PCallSiteActivationAttributes;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.IList ContextProperties
 		/// </summary>
-		protected RSystem.RCollections.RIList r_ContextProperties;
-		public virtual RSystem.RCollections.RIList RContextProperties
+		protected RSystem.RCollections.RIList r_PContextProperties;
+		public virtual RSystem.RCollections.RIList RPContextProperties
 		{
 			get
 			{
-				if(r_ContextProperties == null)
+				if(r_PContextProperties == null)
 				{
-					r_ContextProperties = new(this, "ContextProperties", -1);
-					r_ContextProperties.SetBelong(this.instance);
+					r_PContextProperties = new(this, "ContextProperties", -1);
+					r_PContextProperties.SetBelong(this.instance);
 				}
-				return r_ContextProperties;
+				return r_PContextProperties;
 			}
 		}
 

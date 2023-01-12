@@ -13,68 +13,68 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Action`1[UnityEditor.DataModeChangeEventArgs] dataModeChanged
 		/// </summary>
-		protected REvent r_dataModeChanged;
-		public virtual REvent RdataModeChanged
+		protected REvent r_EdataModeChanged;
+		public virtual REvent REdataModeChanged
 		{
 			get
 			{
-				if(r_dataModeChanged == null)
+				if(r_EdataModeChanged == null)
 				{
-					r_dataModeChanged = new(this, "dataModeChanged");
-					r_dataModeChanged.SetBelong(this.instance);
+					r_EdataModeChanged = new(this, "dataModeChanged");
+					r_EdataModeChanged.SetBelong(this.instance);
 				}
-				return r_dataModeChanged;
+				return r_EdataModeChanged;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.DataMode dataMode
 		/// </summary>
-		protected RProperty r_dataMode;
-		public virtual RProperty RdataMode
+		protected RUnityEditor.RDataMode r_PdataMode;
+		public virtual RUnityEditor.RDataMode RPdataMode
 		{
 			get
 			{
-				if(r_dataMode == null)
+				if(r_PdataMode == null)
 				{
-					r_dataMode = new(this, "dataMode", -1);
-					r_dataMode.SetBelong(this.instance);
+					r_PdataMode = new(this, "dataMode", -1);
+					r_PdataMode.SetBelong(this.instance);
 				}
-				return r_dataMode;
+				return r_PdataMode;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateSupportedDataModes(System.Collections.Generic.IList`1[UnityEditor.DataMode], UnityEditor.DataMode)
 		/// </summary>
-		protected RMethod r_UpdateSupportedDataModes_IList_d_DataMode_p__DataMode;
-		public virtual RMethod RUpdateSupportedDataModes_IList_d_DataMode_p__DataMode
+		protected RMethod r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode;
+		public virtual RMethod RMUpdateSupportedDataModes_IList_d_DataMode_p__DataMode
 		{
 			get
 			{
-				if(r_UpdateSupportedDataModes_IList_d_DataMode_p__DataMode == null)
+				if(r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode == null)
 				{
-					r_UpdateSupportedDataModes_IList_d_DataMode_p__DataMode = new(this, "UpdateSupportedDataModes", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType(typeof(UnityEditor.DataMode)), typeof(UnityEditor.DataMode));
-					r_UpdateSupportedDataModes_IList_d_DataMode_p__DataMode.SetBelong(this.instance);
+					r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode = new(this, "UpdateSupportedDataModes", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType(typeof(UnityEditor.DataMode)), typeof(UnityEditor.DataMode));
+					r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode.SetBelong(this.instance);
 				}
-				return r_UpdateSupportedDataModes_IList_d_DataMode_p__DataMode;
+				return r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryChangeDataMode(UnityEditor.DataMode)
 		/// </summary>
-		protected RMethod r_TryChangeDataMode_DataMode;
-		public virtual RMethod RTryChangeDataMode_DataMode
+		protected RMethod r_MTryChangeDataMode_DataMode;
+		public virtual RMethod RMTryChangeDataMode_DataMode
 		{
 			get
 			{
-				if(r_TryChangeDataMode_DataMode == null)
+				if(r_MTryChangeDataMode_DataMode == null)
 				{
-					r_TryChangeDataMode_DataMode = new(this, "TryChangeDataMode", 0, typeof(UnityEditor.DataMode));
-					r_TryChangeDataMode_DataMode.SetBelong(this.instance);
+					r_MTryChangeDataMode_DataMode = new(this, "TryChangeDataMode", 0, typeof(UnityEditor.DataMode));
+					r_MTryChangeDataMode_DataMode.SetBelong(this.instance);
 				}
-				return r_TryChangeDataMode_DataMode;
+				return r_MTryChangeDataMode_DataMode;
 			}
 		}
 
@@ -101,7 +101,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@supportedDataMode, @preferredDataMode};
-            var ___result = RUpdateSupportedDataModes_IList_d_DataMode_p__DataMode.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateSupportedDataModes_IList_d_DataMode_p__DataMode.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -112,7 +112,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newDataMode};
-            var ___result = RTryChangeDataMode_DataMode.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryChangeDataMode_DataMode.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }

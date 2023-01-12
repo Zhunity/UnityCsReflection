@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean TryGetAttributeValue(System.String, System.String ByRef)
 		/// </summary>
-		protected RMethod r_TryGetAttributeValue_String_Out_String;
-		public virtual RMethod RTryGetAttributeValue_String_Out_String
+		protected RMethod r_MTryGetAttributeValue_String_Out_String;
+		public virtual RMethod RMTryGetAttributeValue_String_Out_String
 		{
 			get
 			{
-				if(r_TryGetAttributeValue_String_Out_String == null)
+				if(r_MTryGetAttributeValue_String_Out_String == null)
 				{
-					r_TryGetAttributeValue_String_Out_String = new(this, "TryGetAttributeValue", 0, typeof(System.String), typeof(System.String).MakeByRefType());
-					r_TryGetAttributeValue_String_Out_String.SetBelong(this.instance);
+					r_MTryGetAttributeValue_String_Out_String = new(this, "TryGetAttributeValue", 0, typeof(System.String), typeof(System.String).MakeByRefType());
+					r_MTryGetAttributeValue_String_Out_String.SetBelong(this.instance);
 				}
-				return r_TryGetAttributeValue_String_Out_String;
+				return r_MTryGetAttributeValue_String_Out_String;
 			}
 		}
 
@@ -51,7 +51,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@attributeName, @value};
-            var ___result = RTryGetAttributeValue_String_Out_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMTryGetAttributeValue_String_Out_String.Invoke(___genericsType, ___parameters);
 			@value = (System.String)___parameters[1];
 
             return (System.Boolean)___result;

@@ -13,221 +13,221 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String source
 		/// </summary>
-		protected RSystem.RString r_source;
-		public virtual RSystem.RString Rsource
+		protected RSystem.RString r_Fsource;
+		public virtual RSystem.RString RFsource
 		{
 			get
 			{
-				if(r_source == null)
+				if(r_Fsource == null)
 				{
-					r_source = new(this, "source");
-					r_source.SetBelong(this.instance);
+					r_Fsource = new(this, "source");
+					r_Fsource.SetBelong(this.instance);
 				}
-				return r_source;
+				return r_Fsource;
 			}
 		}
 
 		/// <summary>
 		/// System.Byte[] key
 		/// </summary>
-		protected RFieldArray<RSystem.RByte> r_key;
-		public virtual RFieldArray<RSystem.RByte> Rkey
+		protected RFieldArray<RSystem.RByte> r_Fkey;
+		public virtual RFieldArray<RSystem.RByte> RFkey
 		{
 			get
 			{
-				if(r_key == null)
+				if(r_Fkey == null)
 				{
-					r_key = new(this, "key");
-					r_key.SetBelong(this.instance);
+					r_Fkey = new(this, "key");
+					r_Fkey.SetBelong(this.instance);
 				}
-				return r_key;
+				return r_Fkey;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CompareOptions options
 		/// </summary>
-		protected RField r_options;
-		public virtual RField Roptions
+		protected RSystem.RGlobalization.RCompareOptions r_Foptions;
+		public virtual RSystem.RGlobalization.RCompareOptions RFoptions
 		{
 			get
 			{
-				if(r_options == null)
+				if(r_Foptions == null)
 				{
-					r_options = new(this, "options");
-					r_options.SetBelong(this.instance);
+					r_Foptions = new(this, "options");
+					r_Foptions.SetBelong(this.instance);
 				}
-				return r_options;
+				return r_Foptions;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 lcid
 		/// </summary>
-		protected RSystem.RInt32 r_lcid;
-		public virtual RSystem.RInt32 Rlcid
+		protected RSystem.RInt32 r_Flcid;
+		public virtual RSystem.RInt32 RFlcid
 		{
 			get
 			{
-				if(r_lcid == null)
+				if(r_Flcid == null)
 				{
-					r_lcid = new(this, "lcid");
-					r_lcid.SetBelong(this.instance);
+					r_Flcid = new(this, "lcid");
+					r_Flcid.SetBelong(this.instance);
 				}
-				return r_lcid;
+				return r_Flcid;
 			}
 		}
 
 		/// <summary>
 		/// System.String OriginalString
 		/// </summary>
-		protected RSystem.RString r_OriginalString;
-		public virtual RSystem.RString ROriginalString
+		protected RSystem.RString r_POriginalString;
+		public virtual RSystem.RString RPOriginalString
 		{
 			get
 			{
-				if(r_OriginalString == null)
+				if(r_POriginalString == null)
 				{
-					r_OriginalString = new(this, "OriginalString", -1);
-					r_OriginalString.SetBelong(this.instance);
+					r_POriginalString = new(this, "OriginalString", -1);
+					r_POriginalString.SetBelong(this.instance);
 				}
-				return r_OriginalString;
+				return r_POriginalString;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] KeyData
 		/// </summary>
-		protected RPropertyArray<RSystem.RByte> r_KeyData;
-		public virtual RPropertyArray<RSystem.RByte> RKeyData
+		protected RPropertyArray<RSystem.RByte> r_PKeyData;
+		public virtual RPropertyArray<RSystem.RByte> RPKeyData
 		{
 			get
 			{
-				if(r_KeyData == null)
+				if(r_PKeyData == null)
 				{
-					r_KeyData = new(this, "KeyData", -1);
-					r_KeyData.SetBelong(this.instance);
+					r_PKeyData = new(this, "KeyData", -1);
+					r_PKeyData.SetBelong(this.instance);
 				}
-				return r_KeyData;
+				return r_PKeyData;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Compare(System.Globalization.SortKey, System.Globalization.SortKey)
 		/// </summary>
-		protected static RMethod r_Compare_SortKey_SortKey;
-		public static RMethod RCompare_SortKey_SortKey
+		protected static RMethod r_MCompare_SortKey_SortKey;
+		public static RMethod RMCompare_SortKey_SortKey
 		{
 			get
 			{
-				if(r_Compare_SortKey_SortKey == null)
+				if(r_MCompare_SortKey_SortKey == null)
 				{
-					r_Compare_SortKey_SortKey = new(typeof(System.Globalization.SortKey), "Compare", 0, typeof(System.Globalization.SortKey), typeof(System.Globalization.SortKey));
-					r_Compare_SortKey_SortKey.SetBelong(null);
+					r_MCompare_SortKey_SortKey = new(typeof(System.Globalization.SortKey), "Compare", 0, typeof(System.Globalization.SortKey), typeof(System.Globalization.SortKey));
+					r_MCompare_SortKey_SortKey.SetBelong(null);
 				}
-				return r_Compare_SortKey_SortKey;
+				return r_MCompare_SortKey_SortKey;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_Equals_Object;
-		public virtual RMethod REquals_Object
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
 		{
 			get
 			{
-				if(r_Equals_Object == null)
+				if(r_MEquals_Object == null)
 				{
-					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_Equals_Object.SetBelong(this.instance);
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_MEquals_Object.SetBelong(this.instance);
 				}
-				return r_Equals_Object;
+				return r_MEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_GetHashCode;
-		public virtual RMethod RGetHashCode
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_GetHashCode == null)
+				if(r_MGetHashCode == null)
 				{
-					r_GetHashCode = new(this, "GetHashCode", 0);
-					r_GetHashCode.SetBelong(this.instance);
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MGetHashCode.SetBelong(this.instance);
 				}
-				return r_GetHashCode;
+				return r_MGetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_ToString;
-		public virtual RMethod RToString
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
 		{
 			get
 			{
-				if(r_ToString == null)
+				if(r_MToString == null)
 				{
-					r_ToString = new(this, "ToString", 0);
-					r_ToString.SetBelong(this.instance);
+					r_MToString = new(this, "ToString", 0);
+					r_MToString.SetBelong(this.instance);
 				}
-				return r_ToString;
+				return r_MToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_Finalize;
-		public virtual RMethod RFinalize
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
 		{
 			get
 			{
-				if(r_Finalize == null)
+				if(r_MFinalize == null)
 				{
-					r_Finalize = new(this, "Finalize", 0);
-					r_Finalize.SetBelong(this.instance);
+					r_MFinalize = new(this, "Finalize", 0);
+					r_MFinalize.SetBelong(this.instance);
 				}
-				return r_Finalize;
+				return r_MFinalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_GetType;
-		public virtual RMethod RGetType
+		protected RMethod r_MGetType;
+		public virtual RMethod RMGetType
 		{
 			get
 			{
-				if(r_GetType == null)
+				if(r_MGetType == null)
 				{
-					r_GetType = new(this, "GetType", 0);
-					r_GetType.SetBelong(this.instance);
+					r_MGetType = new(this, "GetType", 0);
+					r_MGetType.SetBelong(this.instance);
 				}
-				return r_GetType;
+				return r_MGetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_MemberwiseClone;
-		public virtual RMethod RMemberwiseClone
+		protected RMethod r_MMemberwiseClone;
+		public virtual RMethod RMMemberwiseClone
 		{
 			get
 			{
-				if(r_MemberwiseClone == null)
+				if(r_MMemberwiseClone == null)
 				{
-					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MMemberwiseClone.SetBelong(this.instance);
 				}
-				return r_MemberwiseClone;
+				return r_MMemberwiseClone;
 			}
 		}
 
@@ -254,7 +254,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sortkey1, @sortkey2};
-            var ___result = RCompare_SortKey_SortKey.Invoke(___genericsType, ___parameters);
+            var ___result = RMCompare_SortKey_SortKey.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -265,7 +265,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = REquals_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -276,7 +276,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
@@ -287,7 +287,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RToString.Invoke(___genericsType, ___parameters);
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return (System.String)___result;
         }
@@ -298,7 +298,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RFinalize.Invoke(___genericsType, ___parameters);
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -309,7 +309,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RGetType.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
             return (System.Type)___result;
         }
@@ -320,7 +320,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMemberwiseClone.Invoke(___genericsType, ___parameters);
+            var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return (System.Object)___result;
         }
