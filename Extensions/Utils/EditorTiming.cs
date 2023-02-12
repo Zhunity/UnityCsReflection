@@ -18,12 +18,11 @@ namespace SMFrame.Editor.Extension
 		{
 			EditorApplication.update += Update;
 			SceneView.duringSceneGui += OnSceneGUI;
-			AddComponentDataSource.ShowNameToComponentName();
+			
 			AddComponentListener.Instance.Init();
 #if !UNITY_2020_2_OR_NEWER
 			PackageManager.Instance.Init();
 #endif
-			//SceneGrid.Instance.Init();
 		}
 
 		static private void Update()
@@ -36,7 +35,7 @@ namespace SMFrame.Editor.Extension
 
 		static private void OnSceneGUI(SceneView view)
 		{
-			//SceneGrid.Instance.OnSceneGUI();
+
 		}
 	}
 }
