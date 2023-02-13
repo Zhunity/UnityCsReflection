@@ -25,7 +25,7 @@ namespace SMFrame.Editor.Extension
 
 		public void Init()
 		{
-			Manifest.LoadManifest();
+		//	Manifest.LoadManifest();
 		}
 
 		public void Update()

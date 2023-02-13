@@ -20,17 +20,13 @@ namespace SMFrame.Editor.Extension
 			SceneView.duringSceneGui += OnSceneGUI;
 			
 			AddComponentListener.Instance.Init();
-#if !UNITY_2020_2_OR_NEWER
 			PackageManager.Instance.Init();
-#endif
 		}
 
 		static private void Update()
 		{
 			AddComponentListener.Instance.Update();
-#if !UNITY_2020_2_OR_NEWER
 			PackageManager.Instance.Update();
-#endif
 		}
 
 		static private void OnSceneGUI(SceneView view)
