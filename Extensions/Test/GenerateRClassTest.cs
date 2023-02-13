@@ -203,7 +203,7 @@ namespace SMFrame.Editor.Refleaction
 		{
 			GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
 
-			GenerateInput.Generate(new List<string> { "UnityType", "ComponentDropdownItem", "AddComponentWindow" });
+			GenerateInput.Generate(new List<string> { "UnityType", "ComponentDropdownItem", "AddComponentWindow", "PackageManagerWindow" });
 		}
 
 		public class outest

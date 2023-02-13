@@ -11,6 +11,7 @@ using SMFrame.Editor.Refleaction;
 #endif
 using Object = UnityEngine.Object;
 using System.Linq;
+using SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI;
 
 namespace SMFrame.Editor.Extension
 {
@@ -19,7 +20,7 @@ namespace SMFrame.Editor.Extension
 	/// </summary>
 	public class PackageManager : Singleton<PackageManager>
 	{
-		PackageWindow packageWindow = new PackageWindow();
+		RPackageManagerWindow packageWindow = new RPackageManagerWindow();
 
 
 		public void Init()
