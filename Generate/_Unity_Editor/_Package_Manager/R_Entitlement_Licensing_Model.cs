@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.EntitlementLicensingModel
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.EntitlementLicensingModel None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.EntitlementLicensingModel Public
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel r_FPublic;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel RFPublic
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel r_FPublic;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel RFPublic
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.EntitlementLicensingModel AssetStore
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel r_FAssetStore;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel RFAssetStore
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel r_FAssetStore;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel RFAssetStore
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.EntitlementLicensingModel Enterprise
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel r_FEnterprise;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel RFEnterprise
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel r_FEnterprise;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel RFEnterprise
 		{
 			get
 			{

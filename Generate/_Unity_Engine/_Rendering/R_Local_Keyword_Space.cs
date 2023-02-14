@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.LocalKeywordSpace
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.IntPtr m_KeywordSpace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_KeywordSpace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_KeywordSpace
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_KeywordSpace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_KeywordSpace
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.LocalKeyword[] keywords
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeyword> r_Pkeywords;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeyword> RPkeywords
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeyword> r_Pkeywords;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeyword> RPkeywords
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.String[] keywordNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> r_PkeywordNames;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> RPkeywordNames
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> r_PkeywordNames;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> RPkeywordNames
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UInt32 keywordCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PkeywordCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPkeywordCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PkeywordCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPkeywordCount
 		{
 			get
 			{

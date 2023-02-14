@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {public partial class RDateTimeFormatInfo
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String tokenString
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FtokenString;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFtokenString
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FtokenString;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFtokenString
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.TokenType tokenType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RTokenType r_FtokenType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RTokenType RFtokenType
+		protected Hvak.Editor.Refleaction.RSystem.RTokenType r_FtokenType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RTokenType RFtokenType
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 tokenValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FtokenValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFtokenValue
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FtokenValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFtokenValue
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSheets.Syntax.ExpressionCombinator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.ExpressionCombinator None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.ExpressionCombinator Or
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator r_FOr;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator RFOr
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator r_FOr;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator RFOr
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.ExpressionCombinator OrOr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator r_FOrOr;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator RFOrOr
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator r_FOrOr;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator RFOrOr
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.ExpressionCombinator AndAnd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator r_FAndAnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator RFAndAnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator r_FAndAnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator RFAndAnd
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.ExpressionCombinator Juxtaposition
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator r_FJuxtaposition;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator RFJuxtaposition
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator r_FJuxtaposition;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator RFJuxtaposition
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.ExpressionCombinator Group
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator r_FGroup;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator RFGroup
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator r_FGroup;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionCombinator RFGroup
 		{
 			get
 			{

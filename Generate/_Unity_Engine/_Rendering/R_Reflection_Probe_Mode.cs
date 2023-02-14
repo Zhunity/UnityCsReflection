@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.ReflectionProbeMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeMode Baked
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeMode r_FBaked;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeMode RFBaked
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeMode r_FBaked;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeMode RFBaked
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeMode Realtime
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeMode r_FRealtime;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeMode RFRealtime
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeMode r_FRealtime;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeMode RFRealtime
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeMode Custom
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeMode r_FCustom;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeMode RFCustom
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeMode r_FCustom;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeMode RFCustom
 		{
 			get
 			{

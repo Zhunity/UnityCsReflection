@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.IPanelDebug
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IPanel panel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel r_Ppanel;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel RPpanel
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel r_Ppanel;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel RPpanel
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IPanel debuggerOverlayPanel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel r_PdebuggerOverlayPanel;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel RPdebuggerOverlayPanel
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel r_PdebuggerOverlayPanel;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel RPdebuggerOverlayPanel
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement visualTree
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PvisualTree;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPvisualTree
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PvisualTree;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPvisualTree
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement debugContainer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PdebugContainer;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPdebugContainer
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PdebugContainer;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPdebugContainer
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean hasAttachedDebuggers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasAttachedDebuggers;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasAttachedDebuggers
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasAttachedDebuggers;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasAttachedDebuggers
 		{
 			get
 			{
@@ -284,7 +284,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void AttachDebugger(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger @debugger)
+        public virtual void AttachDebugger(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger @debugger)
         {
 
             var ___genericsType = new Type[] {};
@@ -295,7 +295,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DetachDebugger(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger @debugger)
+        public virtual void DetachDebugger(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger @debugger)
         {
 
             var ___genericsType = new Type[] {};
@@ -317,14 +317,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger> GetAttachedDebuggers()
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger> GetAttachedDebuggers()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetAttachedDebuggers.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebugger>(___result);
         }
 
 
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ele, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @changeTypeFlag)
+        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ele, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @changeTypeFlag)
         {
 
             var ___genericsType = new Type[] {};

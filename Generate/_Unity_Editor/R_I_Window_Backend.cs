@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.IWindowBackend
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Object visualTree
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PvisualTree;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPvisualTree
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PvisualTree;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPvisualTree
 		{
 			get
 			{
@@ -131,7 +131,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual void OnCreate(SMFrame.Editor.Refleaction.RUnityEditor.RIWindowModel @model)
+        public virtual void OnCreate(Hvak.Editor.Refleaction.RUnityEditor.RIWindowModel @model)
         {
 
             var ___genericsType = new Type[] {};
@@ -142,7 +142,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void OnDestroy(SMFrame.Editor.Refleaction.RUnityEditor.RIWindowModel @model)
+        public virtual void OnDestroy(Hvak.Editor.Refleaction.RUnityEditor.RIWindowModel @model)
         {
 
             var ___genericsType = new Type[] {};

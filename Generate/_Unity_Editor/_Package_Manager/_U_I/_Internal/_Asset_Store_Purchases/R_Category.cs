@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {public partial class RAssetStorePurchases
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFname
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int64 count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fcount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFcount
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fcount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFcount
 		{
 			get
 			{

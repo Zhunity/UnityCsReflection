@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.CameraEvent
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent BeforeDepthTexture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeDepthTexture;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeDepthTexture
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeDepthTexture;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeDepthTexture
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent AfterDepthTexture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterDepthTexture;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterDepthTexture
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterDepthTexture;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterDepthTexture
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent BeforeDepthNormalsTexture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeDepthNormalsTexture;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeDepthNormalsTexture
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeDepthNormalsTexture;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeDepthNormalsTexture
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent AfterDepthNormalsTexture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterDepthNormalsTexture;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterDepthNormalsTexture
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterDepthNormalsTexture;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterDepthNormalsTexture
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent BeforeGBuffer
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeGBuffer;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeGBuffer
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeGBuffer;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeGBuffer
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent AfterGBuffer
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterGBuffer;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterGBuffer
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterGBuffer;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterGBuffer
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent BeforeLighting
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeLighting;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeLighting
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeLighting;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeLighting
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent AfterLighting
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterLighting;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterLighting
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterLighting;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterLighting
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent BeforeFinalPass
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeFinalPass;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeFinalPass
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeFinalPass;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeFinalPass
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent AfterFinalPass
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterFinalPass;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterFinalPass
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterFinalPass;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterFinalPass
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent BeforeForwardOpaque
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeForwardOpaque;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeForwardOpaque
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeForwardOpaque;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeForwardOpaque
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent AfterForwardOpaque
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterForwardOpaque;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterForwardOpaque
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterForwardOpaque;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterForwardOpaque
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent BeforeImageEffectsOpaque
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeImageEffectsOpaque;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeImageEffectsOpaque
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeImageEffectsOpaque;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeImageEffectsOpaque
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent AfterImageEffectsOpaque
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterImageEffectsOpaque;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterImageEffectsOpaque
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterImageEffectsOpaque;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterImageEffectsOpaque
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent BeforeSkybox
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeSkybox;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeSkybox
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeSkybox;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeSkybox
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent AfterSkybox
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterSkybox;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterSkybox
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterSkybox;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterSkybox
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent BeforeForwardAlpha
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeForwardAlpha;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeForwardAlpha
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeForwardAlpha;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeForwardAlpha
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent AfterForwardAlpha
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterForwardAlpha;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterForwardAlpha
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterForwardAlpha;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterForwardAlpha
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent BeforeImageEffects
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeImageEffects;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeImageEffects
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeImageEffects;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeImageEffects
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent AfterImageEffects
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterImageEffects;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterImageEffects
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterImageEffects;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterImageEffects
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent AfterEverything
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterEverything;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterEverything
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterEverything;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterEverything
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent BeforeReflections
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeReflections;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeReflections
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeReflections;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeReflections
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent AfterReflections
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterReflections;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterReflections
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterReflections;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterReflections
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent BeforeHaloAndLensFlares
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeHaloAndLensFlares;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeHaloAndLensFlares
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FBeforeHaloAndLensFlares;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFBeforeHaloAndLensFlares
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraEvent AfterHaloAndLensFlares
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterHaloAndLensFlares;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterHaloAndLensFlares
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent r_FAfterHaloAndLensFlares;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraEvent RFAfterHaloAndLensFlares
 		{
 			get
 			{

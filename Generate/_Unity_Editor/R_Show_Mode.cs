@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.ShowMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.ShowMode NormalWindow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode r_FNormalWindow;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode RFNormalWindow
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RShowMode r_FNormalWindow;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RShowMode RFNormalWindow
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.ShowMode PopupMenu
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode r_FPopupMenu;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode RFPopupMenu
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RShowMode r_FPopupMenu;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RShowMode RFPopupMenu
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.ShowMode Utility
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode r_FUtility;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode RFUtility
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RShowMode r_FUtility;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RShowMode RFUtility
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.ShowMode NoShadow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode r_FNoShadow;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode RFNoShadow
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RShowMode r_FNoShadow;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RShowMode RFNoShadow
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.ShowMode MainWindow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode r_FMainWindow;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode RFMainWindow
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RShowMode r_FMainWindow;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RShowMode RFMainWindow
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.ShowMode AuxWindow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode r_FAuxWindow;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode RFAuxWindow
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RShowMode r_FAuxWindow;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RShowMode RFAuxWindow
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.ShowMode Tooltip
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode r_FTooltip;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode RFTooltip
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RShowMode r_FTooltip;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RShowMode RFTooltip
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.ShowMode ModalUtility
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode r_FModalUtility;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RShowMode RFModalUtility
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RShowMode r_FModalUtility;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RShowMode RFModalUtility
 		{
 			get
 			{

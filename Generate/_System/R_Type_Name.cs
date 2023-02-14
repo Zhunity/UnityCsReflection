@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.TypeName
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String DisplayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PDisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPDisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PDisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPDisplayName
 		{
 			get
 			{
@@ -63,14 +63,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RTypeName NestedName(SMFrame.Editor.Refleaction.RSystem.RTypeIdentifier @innerName)
+        public virtual Hvak.Editor.Refleaction.RSystem.RTypeName NestedName(Hvak.Editor.Refleaction.RSystem.RTypeIdentifier @innerName)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@innerName.Value};
             var ___result = RMNestedName_TypeIdentifier.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RTypeName(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RTypeName(___result);
         }
 
 

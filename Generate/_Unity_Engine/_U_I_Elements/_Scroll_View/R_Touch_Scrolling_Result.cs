@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RScrollView
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollView+TouchScrollingResult Apply
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollingResult r_FApply;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollingResult RFApply
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollingResult r_FApply;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollingResult RFApply
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollView+TouchScrollingResult Forward
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollingResult r_FForward;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollingResult RFForward
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollingResult r_FForward;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollingResult RFForward
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollView+TouchScrollingResult Block
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollingResult r_FBlock;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollingResult RFBlock
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollingResult r_FBlock;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollingResult RFBlock
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class RException
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Exception+ExceptionMessageKind ThreadAbort
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RException.RExceptionMessageKind r_FThreadAbort;
-		public static SMFrame.Editor.Refleaction.RSystem.RException.RExceptionMessageKind RFThreadAbort
+		protected static Hvak.Editor.Refleaction.RSystem.RException.RExceptionMessageKind r_FThreadAbort;
+		public static Hvak.Editor.Refleaction.RSystem.RException.RExceptionMessageKind RFThreadAbort
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Exception+ExceptionMessageKind ThreadInterrupted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RException.RExceptionMessageKind r_FThreadInterrupted;
-		public static SMFrame.Editor.Refleaction.RSystem.RException.RExceptionMessageKind RFThreadInterrupted
+		protected static Hvak.Editor.Refleaction.RSystem.RException.RExceptionMessageKind r_FThreadInterrupted;
+		public static Hvak.Editor.Refleaction.RSystem.RException.RExceptionMessageKind RFThreadInterrupted
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Exception+ExceptionMessageKind OutOfMemory
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RException.RExceptionMessageKind r_FOutOfMemory;
-		public static SMFrame.Editor.Refleaction.RSystem.RException.RExceptionMessageKind RFOutOfMemory
+		protected static Hvak.Editor.Refleaction.RSystem.RException.RExceptionMessageKind r_FOutOfMemory;
+		public static Hvak.Editor.Refleaction.RSystem.RException.RExceptionMessageKind RFOutOfMemory
 		{
 			get
 			{

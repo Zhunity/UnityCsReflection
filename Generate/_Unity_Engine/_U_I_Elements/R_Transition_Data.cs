@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.TransitionData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.TimeValue] transitionDelay
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> r_FtransitionDelay;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> RFtransitionDelay
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> r_FtransitionDelay;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> RFtransitionDelay
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.TimeValue] transitionDuration
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> r_FtransitionDuration;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> RFtransitionDuration
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> r_FtransitionDuration;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> RFtransitionDuration
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StylePropertyName] transitionProperty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStylePropertyName> r_FtransitionProperty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStylePropertyName> RFtransitionProperty
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStylePropertyName> r_FtransitionProperty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStylePropertyName> RFtransitionProperty
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.EasingFunction] transitionTimingFunction
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingFunction> r_FtransitionTimingFunction;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingFunction> RFtransitionTimingFunction
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingFunction> r_FtransitionTimingFunction;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingFunction> RFtransitionTimingFunction
 		{
 			get
 			{
@@ -284,30 +284,30 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData Copy()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData Copy()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData(___result);
         }
 
 
-        public virtual void CopyFrom(ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData @other)
+        public virtual void CopyFrom(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData @other)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other.Value};
             var ___result = RMCopyFrom_Ref_TransitionData.Invoke(___genericsType, ___parameters);
-			@other = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData(___parameters[0]);
+			@other = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData(___parameters[0]);
 
             
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData @rhs)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -318,7 +318,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData @rhs)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -329,7 +329,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData @other)
         {
 
             var ___genericsType = new Type[] {};

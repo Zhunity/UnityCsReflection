@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
+namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {public partial class RDictionary<TKey, TValue>
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[TKey,TValue] _dictionary
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RField, SMFrame.Editor.Refleaction.RField> r_F_dictionary;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RField, SMFrame.Editor.Refleaction.RField> RF_dictionary
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RField, Hvak.Editor.Refleaction.RField> r_F_dictionary;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RField, Hvak.Editor.Refleaction.RField> RF_dictionary
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_version
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_version
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_index;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_index
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_index;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_index
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.KeyValuePair`2[TKey,TValue] _current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RKeyValuePair<SMFrame.Editor.Refleaction.RField, SMFrame.Editor.Refleaction.RField> r_F_current;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RKeyValuePair<SMFrame.Editor.Refleaction.RField, SMFrame.Editor.Refleaction.RField> RF_current
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RKeyValuePair<Hvak.Editor.Refleaction.RField, Hvak.Editor.Refleaction.RField> r_F_current;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RKeyValuePair<Hvak.Editor.Refleaction.RField, Hvak.Editor.Refleaction.RField> RF_current
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _getEnumeratorRetType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_getEnumeratorRetType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_getEnumeratorRetType
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_getEnumeratorRetType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_getEnumeratorRetType
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 DictEntry
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDictEntry;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDictEntry
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDictEntry;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDictEntry
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 KeyValuePair
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FKeyValuePair;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFKeyValuePair
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FKeyValuePair;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFKeyValuePair
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.KeyValuePair`2[TKey,TValue] Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RKeyValuePair<SMFrame.Editor.Refleaction.RProperty, SMFrame.Editor.Refleaction.RProperty> r_PCurrent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RKeyValuePair<SMFrame.Editor.Refleaction.RProperty, SMFrame.Editor.Refleaction.RProperty> RPCurrent
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RKeyValuePair<Hvak.Editor.Refleaction.RProperty, Hvak.Editor.Refleaction.RProperty> r_PCurrent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RKeyValuePair<Hvak.Editor.Refleaction.RProperty, Hvak.Editor.Refleaction.RProperty> RPCurrent
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Object System.Collections.IEnumerator.Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.DictionaryEntry System.Collections.IDictionaryEnumerator.Entry
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RDictionaryEntry r_PSystem__2__Collections__2__IDictionaryEnumerator__2__Entry;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RDictionaryEntry RPSystem__2__Collections__2__IDictionaryEnumerator__2__Entry
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RDictionaryEntry r_PSystem__2__Collections__2__IDictionaryEnumerator__2__Entry;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RDictionaryEntry RPSystem__2__Collections__2__IDictionaryEnumerator__2__Entry
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Object System.Collections.IDictionaryEnumerator.Key
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IDictionaryEnumerator__2__Key;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IDictionaryEnumerator__2__Key
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IDictionaryEnumerator__2__Key;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IDictionaryEnumerator__2__Key
 		{
 			get
 			{
@@ -203,8 +203,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Object System.Collections.IDictionaryEnumerator.Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IDictionaryEnumerator__2__Value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IDictionaryEnumerator__2__Value
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IDictionaryEnumerator__2__Value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IDictionaryEnumerator__2__Value
 		{
 			get
 			{

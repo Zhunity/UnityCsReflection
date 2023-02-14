@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.InvokePolicy
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.InvokePolicy Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInvokePolicy r_FDefault;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInvokePolicy RFDefault
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInvokePolicy r_FDefault;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInvokePolicy RFDefault
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.InvokePolicy IncludeDisabled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInvokePolicy r_FIncludeDisabled;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInvokePolicy RFIncludeDisabled
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInvokePolicy r_FIncludeDisabled;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInvokePolicy RFIncludeDisabled
 		{
 			get
 			{

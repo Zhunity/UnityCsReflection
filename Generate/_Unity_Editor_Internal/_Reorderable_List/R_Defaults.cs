@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
+namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 {public partial class RReorderableList
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEngine.GUIContent iconToolbarPlus
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_FiconToolbarPlus;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RFiconToolbarPlus
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_FiconToolbarPlus;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RFiconToolbarPlus
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEngine.GUIContent iconToolbarPlusMore
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_FiconToolbarPlusMore;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RFiconToolbarPlusMore
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_FiconToolbarPlusMore;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RFiconToolbarPlusMore
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEngine.GUIContent iconToolbarMinus
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_FiconToolbarMinus;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RFiconToolbarMinus
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_FiconToolbarMinus;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RFiconToolbarMinus
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEngine.GUIStyle draggingHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle r_FdraggingHandle;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle RFdraggingHandle
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle r_FdraggingHandle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle RFdraggingHandle
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEngine.GUIStyle headerBackground
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle r_FheaderBackground;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle RFheaderBackground
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle r_FheaderBackground;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle RFheaderBackground
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEngine.GUIStyle emptyHeaderBackground
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle r_FemptyHeaderBackground;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle RFemptyHeaderBackground
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle r_FemptyHeaderBackground;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle RFemptyHeaderBackground
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEngine.GUIStyle footerBackground
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle r_FfooterBackground;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle RFfooterBackground
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle r_FfooterBackground;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle RFfooterBackground
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEngine.GUIStyle boxBackground
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle r_FboxBackground;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle RFboxBackground
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle r_FboxBackground;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle RFboxBackground
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEngine.GUIStyle preButton
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle r_FpreButton;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle RFpreButton
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle r_FpreButton;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle RFpreButton
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEngine.GUIStyle elementBackground
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle r_FelementBackground;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle RFelementBackground
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle r_FelementBackground;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle RFelementBackground
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEngine.GUIStyle defaultLabel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle r_FdefaultLabel;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle RFdefaultLabel
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle r_FdefaultLabel;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle RFdefaultLabel
 		{
 			get
 			{
@@ -203,8 +203,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 padding
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fpadding;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFpadding
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fpadding;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFpadding
 		{
 			get
 			{
@@ -220,8 +220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 dragHandleWidth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FdragHandleWidth;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFdragHandleWidth
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FdragHandleWidth;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFdragHandleWidth
 		{
 			get
 			{
@@ -237,8 +237,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 propertyDrawerPadding
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FpropertyDrawerPadding;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFpropertyDrawerPadding
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FpropertyDrawerPadding;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFpropertyDrawerPadding
 		{
 			get
 			{
@@ -254,8 +254,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 minHeaderHeight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FminHeaderHeight;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFminHeaderHeight
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FminHeaderHeight;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFminHeaderHeight
 		{
 			get
 			{
@@ -271,8 +271,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Single elementPadding
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_FelementPadding;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFelementPadding
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_FelementPadding;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFelementPadding
 		{
 			get
 			{
@@ -288,8 +288,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEngine.GUIContent s_ListIsEmpty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_Fs_ListIsEmpty;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RFs_ListIsEmpty
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_Fs_ListIsEmpty;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RFs_ListIsEmpty
 		{
 			get
 			{
@@ -305,8 +305,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.String undoAdd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FundoAdd;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFundoAdd
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FundoAdd;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFundoAdd
 		{
 			get
 			{
@@ -322,8 +322,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.String undoRemove
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FundoRemove;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFundoRemove
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FundoRemove;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFundoRemove
 		{
 			get
 			{
@@ -339,8 +339,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.String undoMove
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FundoMove;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFundoMove
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FundoMove;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFundoMove
 		{
 			get
 			{
@@ -356,8 +356,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEngine.Rect infinityRect
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRect r_FinfinityRect;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRect RFinfinityRect
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRect r_FinfinityRect;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRect RFinfinityRect
 		{
 			get
 			{

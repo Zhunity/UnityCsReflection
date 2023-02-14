@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.CalendarAlgorithmType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarAlgorithmType Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType RFUnknown
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType r_FUnknown;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarAlgorithmType SolarCalendar
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType r_FSolarCalendar;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType RFSolarCalendar
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType r_FSolarCalendar;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType RFSolarCalendar
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarAlgorithmType LunarCalendar
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType r_FLunarCalendar;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType RFLunarCalendar
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType r_FLunarCalendar;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType RFLunarCalendar
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarAlgorithmType LunisolarCalendar
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType r_FLunisolarCalendar;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType RFLunisolarCalendar
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType r_FLunisolarCalendar;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType RFLunisolarCalendar
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.Thread
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.LocalDataStoreMgr s_LocalDataStoreMgr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreMgr r_Fs_LocalDataStoreMgr;
-		public static SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreMgr RFs_LocalDataStoreMgr
+		protected static Hvak.Editor.Refleaction.RSystem.RLocalDataStoreMgr r_Fs_LocalDataStoreMgr;
+		public static Hvak.Editor.Refleaction.RSystem.RLocalDataStoreMgr RFs_LocalDataStoreMgr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.LocalDataStoreHolder s_LocalDataStore
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreHolder r_Fs_LocalDataStore;
-		public static SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreHolder RFs_LocalDataStore
+		protected static Hvak.Editor.Refleaction.RSystem.RLocalDataStoreHolder r_Fs_LocalDataStore;
+		public static Hvak.Editor.Refleaction.RSystem.RLocalDataStoreHolder RFs_LocalDataStore
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Globalization.CultureInfo m_CurrentCulture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo r_Fm_CurrentCulture;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo RFm_CurrentCulture
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo r_Fm_CurrentCulture;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo RFm_CurrentCulture
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Globalization.CultureInfo m_CurrentUICulture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo r_Fm_CurrentUICulture;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo RFm_CurrentUICulture
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo r_Fm_CurrentUICulture;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo RFm_CurrentUICulture
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.AsyncLocal`1[System.Globalization.CultureInfo] s_asyncLocalCurrentCulture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RAsyncLocal<SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo> r_Fs_asyncLocalCurrentCulture;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RAsyncLocal<SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo> RFs_asyncLocalCurrentCulture
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RAsyncLocal<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo> r_Fs_asyncLocalCurrentCulture;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RAsyncLocal<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo> RFs_asyncLocalCurrentCulture
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.AsyncLocal`1[System.Globalization.CultureInfo] s_asyncLocalCurrentUICulture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RAsyncLocal<SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo> r_Fs_asyncLocalCurrentUICulture;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RAsyncLocal<SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo> RFs_asyncLocalCurrentUICulture
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RAsyncLocal<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo> r_Fs_asyncLocalCurrentUICulture;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RAsyncLocal<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo> RFs_asyncLocalCurrentUICulture
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.InternalThread internal_thread
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RInternalThread r_Finternal_thread;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RInternalThread RFinternal_thread
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread r_Finternal_thread;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread RFinternal_thread
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Object m_ThreadStartArg
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fm_ThreadStartArg;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFm_ThreadStartArg
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fm_ThreadStartArg;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFm_ThreadStartArg
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Object pending_exception
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fpending_exception;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFpending_exception
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fpending_exception;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFpending_exception
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.Thread current_thread
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThread r_Fcurrent_thread;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThread RFcurrent_thread
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThread r_Fcurrent_thread;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThread RFcurrent_thread
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.MulticastDelegate m_Delegate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RMulticastDelegate r_Fm_Delegate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RMulticastDelegate RFm_Delegate
+		protected Hvak.Editor.Refleaction.RSystem.RMulticastDelegate r_Fm_Delegate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RMulticastDelegate RFm_Delegate
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext m_ExecutionContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_Fm_ExecutionContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext RFm_ExecutionContext
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_Fm_ExecutionContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext RFm_ExecutionContext
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean m_ExecutionContextBelongsToOuterScope
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_ExecutionContextBelongsToOuterScope;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_ExecutionContextBelongsToOuterScope
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_ExecutionContextBelongsToOuterScope;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_ExecutionContextBelongsToOuterScope
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Security.Principal.IPrincipal principal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal r_Fprincipal;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal RFprincipal
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal r_Fprincipal;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal RFprincipal
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 principal_version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fprincipal_version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFprincipal_version
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fprincipal_version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFprincipal_version
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean ExecutionContextBelongsToCurrentScope
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PExecutionContextBelongsToCurrentScope;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPExecutionContextBelongsToCurrentScope
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PExecutionContextBelongsToCurrentScope;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPExecutionContextBelongsToCurrentScope
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext ExecutionContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_PExecutionContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext RPExecutionContext
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_PExecutionContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext RPExecutionContext
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadPriority Priority
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadPriority r_PPriority;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadPriority RPPriority
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RThreadPriority r_PPriority;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RThreadPriority RPPriority
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Globalization.CultureInfo CurrentUICulture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo r_PCurrentUICulture;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo RPCurrentUICulture
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo r_PCurrentUICulture;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo RPCurrentUICulture
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Globalization.CultureInfo CurrentCulture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo r_PCurrentCulture;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo RPCurrentCulture
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo r_PCurrentCulture;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo RPCurrentCulture
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.LocalDataStoreMgr LocalDataStoreManager
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreMgr r_PLocalDataStoreManager;
-		public static SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreMgr RPLocalDataStoreManager
+		protected static Hvak.Editor.Refleaction.RSystem.RLocalDataStoreMgr r_PLocalDataStoreManager;
+		public static Hvak.Editor.Refleaction.RSystem.RLocalDataStoreMgr RPLocalDataStoreManager
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.InternalThread Internal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RInternalThread r_PInternal;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RInternalThread RPInternal
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread r_PInternal;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread RPInternal
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Runtime.Remoting.Contexts.Context CurrentContext
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext r_PCurrentContext;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext RPCurrentContext
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext r_PCurrentContext;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext RPCurrentContext
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Security.Principal.IPrincipal CurrentPrincipal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal r_PCurrentPrincipal;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal RPCurrentPrincipal
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal r_PCurrentPrincipal;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal RPCurrentPrincipal
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.Thread CurrentThread
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThread r_PCurrentThread;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThread RPCurrentThread
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThread r_PCurrentThread;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThread RPCurrentThread
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 CurrentThreadId
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCurrentThreadId;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RPCurrentThreadId
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_PCurrentThreadId;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RPCurrentThreadId
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ApartmentState ApartmentState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RApartmentState r_PApartmentState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RApartmentState RPApartmentState
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RApartmentState r_PApartmentState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RApartmentState RPApartmentState
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsThreadPoolThread
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsThreadPoolThread;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsThreadPoolThread
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsThreadPoolThread;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsThreadPoolThread
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsThreadPoolThreadInternal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsThreadPoolThreadInternal;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsThreadPoolThreadInternal
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsThreadPoolThreadInternal;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsThreadPoolThreadInternal
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsAlive
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsAlive;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsAlive
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsAlive;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsAlive
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsBackground
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsBackground;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsBackground
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsBackground;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsBackground
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadState ThreadState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState r_PThreadState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState RPThreadState
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState r_PThreadState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState RPThreadState
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Object AbortReason
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PAbortReason;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPAbortReason
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PAbortReason;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPAbortReason
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 ManagedThreadId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PManagedThreadId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPManagedThreadId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PManagedThreadId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPManagedThreadId
 		{
 			get
 			{
@@ -2640,26 +2640,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Start(ref SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
+        public virtual void Start(ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@stackMark.Value};
             var ___result = RMStart_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
-			@stackMark = new SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[0]);
+			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[0]);
 
             
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader GetExecutionContextReader()
+        public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader GetExecutionContextReader()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetExecutionContextReader.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader(___result);
         }
 
 
@@ -2685,7 +2685,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void SetExecutionContext(SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader @value, System.Boolean @belongsToCurrentScope)
+        public virtual void SetExecutionContext(Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader @value, System.Boolean @belongsToCurrentScope)
         {
 
             var ___genericsType = new Type[] {};
@@ -3216,7 +3216,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.String GetName_internal(SMFrame.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread)
+        public static System.String GetName_internal(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread)
         {
 
             var ___genericsType = new Type[] {};
@@ -3227,7 +3227,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public unsafe static void SetName_icall(SMFrame.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Char* @name, System.Int32 @nameLength)
+        public unsafe static void SetName_icall(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Char* @name, System.Int32 @nameLength)
         {
 
             var ___genericsType = new Type[] {};
@@ -3238,7 +3238,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void SetName_internal(SMFrame.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.String @name)
+        public static void SetName_internal(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3249,7 +3249,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void Abort_internal(SMFrame.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Object @stateInfo)
+        public static void Abort_internal(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Object @stateInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -3326,19 +3326,19 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void StartInternal(System.Object @principal, ref SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
+        public virtual void StartInternal(System.Object @principal, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@principal, @stackMark.Value};
             var ___result = RMStartInternal_Object_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
-			@stackMark = new SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[1]);
+			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[1]);
 
             
         }
 
 
-        public static void SetState(SMFrame.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Threading.ThreadState @set)
+        public static void SetState(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Threading.ThreadState @set)
         {
 
             var ___genericsType = new Type[] {};
@@ -3349,7 +3349,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void ClrState(SMFrame.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Threading.ThreadState @clr)
+        public static void ClrState(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread, System.Threading.ThreadState @clr)
         {
 
             var ___genericsType = new Type[] {};
@@ -3360,7 +3360,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Threading.ThreadState GetState(SMFrame.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread)
+        public static System.Threading.ThreadState GetState(Hvak.Editor.Refleaction.RSystem.RThreading.RInternalThread @thread)
         {
 
             var ___genericsType = new Type[] {};

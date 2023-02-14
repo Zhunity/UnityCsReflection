@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.InheritedData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color color
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFcolor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFcolor
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Length fontSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_FfontSize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFfontSize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_FfontSize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFfontSize
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Length letterSpacing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_FletterSpacing;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFletterSpacing
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_FletterSpacing;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFletterSpacing
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextShadow textShadow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextShadow r_FtextShadow;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextShadow RFtextShadow
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextShadow r_FtextShadow;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextShadow RFtextShadow
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Font unityFont
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RFont r_FunityFont;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RFont RFunityFont
+		protected Hvak.Editor.Refleaction.RUnityEngine.RFont r_FunityFont;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RFont RFunityFont
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FontDefinition unityFontDefinition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFontDefinition r_FunityFontDefinition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFontDefinition RFunityFontDefinition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFontDefinition r_FunityFontDefinition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFontDefinition RFunityFontDefinition
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.FontStyle unityFontStyleAndWeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RFontStyle r_FunityFontStyleAndWeight;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RFontStyle RFunityFontStyleAndWeight
+		protected Hvak.Editor.Refleaction.RUnityEngine.RFontStyle r_FunityFontStyleAndWeight;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RFontStyle RFunityFontStyleAndWeight
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Length unityParagraphSpacing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_FunityParagraphSpacing;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFunityParagraphSpacing
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_FunityParagraphSpacing;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFunityParagraphSpacing
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.TextAnchor unityTextAlign
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor r_FunityTextAlign;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor RFunityTextAlign
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor r_FunityTextAlign;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor RFunityTextAlign
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color unityTextOutlineColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_FunityTextOutlineColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFunityTextOutlineColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_FunityTextOutlineColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFunityTextOutlineColor
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single unityTextOutlineWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FunityTextOutlineWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFunityTextOutlineWidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FunityTextOutlineWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFunityTextOutlineWidth
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Visibility visibility
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisibility r_Fvisibility;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisibility RFvisibility
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisibility r_Fvisibility;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisibility RFvisibility
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.WhiteSpace whiteSpace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RWhiteSpace r_FwhiteSpace;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RWhiteSpace RFwhiteSpace
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RWhiteSpace r_FwhiteSpace;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RWhiteSpace RFwhiteSpace
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Length wordSpacing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_FwordSpacing;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFwordSpacing
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_FwordSpacing;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFwordSpacing
 		{
 			get
 			{
@@ -454,30 +454,30 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData Copy()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData Copy()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData(___result);
         }
 
 
-        public virtual void CopyFrom(ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData @other)
+        public virtual void CopyFrom(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData @other)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other.Value};
             var ___result = RMCopyFrom_Ref_InheritedData.Invoke(___genericsType, ___parameters);
-			@other = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData(___parameters[0]);
+			@other = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData(___parameters[0]);
 
             
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData @rhs)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -488,7 +488,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData @rhs)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -499,7 +499,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData @other)
         {
 
             var ___genericsType = new Type[] {};

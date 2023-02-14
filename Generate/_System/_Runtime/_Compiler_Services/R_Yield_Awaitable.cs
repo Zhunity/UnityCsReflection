@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {
 	/// <summary>
 	/// System.Runtime.CompilerServices.YieldAwaitable
@@ -148,14 +148,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RYieldAwaitable.RYieldAwaiter GetAwaiter()
+        public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RYieldAwaitable.RYieldAwaiter GetAwaiter()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetAwaiter.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RYieldAwaitable.RYieldAwaiter(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RYieldAwaitable.RYieldAwaiter(___result);
         }
 
 

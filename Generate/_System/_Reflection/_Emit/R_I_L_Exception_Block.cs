@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.ILExceptionBlock
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 CATCH
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCATCH;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCATCH
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCATCH;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCATCH
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 FILTER
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FFILTER;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFFILTER
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FFILTER;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFFILTER
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 FINALLY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FFINALLY;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFFINALLY
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FFINALLY;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFFINALLY
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 FAULT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FFAULT;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFFAULT
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FFAULT;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFFAULT
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 FILTER_START
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FFILTER_START;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFFILTER_START
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FFILTER_START;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFFILTER_START
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Type extype
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_Fextype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFextype
+		protected Hvak.Editor.Refleaction.RSystem.RType r_Fextype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFextype
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ftype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFtype
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ftype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFtype
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 start
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fstart;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFstart
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fstart;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFstart
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 len
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Flen;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlen
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Flen;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlen
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 filter_offset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ffilter_offset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfilter_offset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ffilter_offset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfilter_offset
 		{
 			get
 			{

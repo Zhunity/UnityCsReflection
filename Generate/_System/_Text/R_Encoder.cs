@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText
+namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
 	/// System.Text.Encoder
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.EncoderFallback _fallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallback r_F_fallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallback RF_fallback
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoderFallback r_F_fallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoderFallback RF_fallback
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.EncoderFallbackBuffer _fallbackBuffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer r_F_fallbackBuffer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer RF_fallbackBuffer
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer r_F_fallbackBuffer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer RF_fallbackBuffer
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.EncoderFallback Fallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallback r_PFallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallback RPFallback
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoderFallback r_PFallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoderFallback RPFallback
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.EncoderFallbackBuffer FallbackBuffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer r_PFallbackBuffer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer RPFallbackBuffer
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer r_PFallbackBuffer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer RPFallbackBuffer
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean InternalHasFallbackBuffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PInternalHasFallbackBuffer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPInternalHasFallbackBuffer
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PInternalHasFallbackBuffer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPInternalHasFallbackBuffer
 		{
 			get
 			{
@@ -419,7 +419,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetByteCount(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @chars, System.Boolean @flush)
+        public virtual System.Int32 GetByteCount(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars, System.Boolean @flush)
         {
 
             var ___genericsType = new Type[] {};
@@ -452,7 +452,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetBytes(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @chars, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @bytes, System.Boolean @flush)
+        public virtual System.Int32 GetBytes(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes, System.Boolean @flush)
         {
 
             var ___genericsType = new Type[] {};
@@ -497,7 +497,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void Convert(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @chars, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @bytes, System.Boolean @flush, out System.Int32 @charsUsed, out System.Int32 @bytesUsed, out System.Boolean @completed)
+        public virtual void Convert(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes, System.Boolean @flush, out System.Int32 @charsUsed, out System.Int32 @bytesUsed, out System.Boolean @completed)
         {
 			@charsUsed = default;
 			@bytesUsed = default;

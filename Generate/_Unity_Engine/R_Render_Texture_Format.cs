@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.RenderTextureFormat
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat ARGB32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGB32;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGB32
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGB32;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGB32
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat Depth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FDepth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFDepth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FDepth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFDepth
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat ARGBHalf
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGBHalf;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGBHalf
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGBHalf;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGBHalf
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat Shadowmap
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FShadowmap;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFShadowmap
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FShadowmap;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFShadowmap
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat RGB565
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRGB565;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRGB565
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRGB565;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRGB565
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat ARGB4444
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGB4444;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGB4444
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGB4444;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGB4444
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat ARGB1555
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGB1555;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGB1555
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGB1555;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGB1555
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FDefault;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFDefault
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FDefault;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFDefault
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat ARGB2101010
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGB2101010;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGB2101010
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGB2101010;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGB2101010
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat DefaultHDR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FDefaultHDR;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFDefaultHDR
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FDefaultHDR;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFDefaultHDR
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat ARGB64
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGB64;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGB64
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGB64;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGB64
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat ARGBFloat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGBFloat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGBFloat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGBFloat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGBFloat
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat RGFloat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRGFloat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRGFloat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRGFloat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRGFloat
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat RGHalf
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRGHalf;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRGHalf
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRGHalf;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRGHalf
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat RFloat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRFloat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRFloat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRFloat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRFloat
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat RHalf
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRHalf;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRHalf
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRHalf;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRHalf
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat R8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FR8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFR8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FR8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFR8
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat ARGBInt
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGBInt;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGBInt
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FARGBInt;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFARGBInt
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat RGInt
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRGInt;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRGInt
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRGInt;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRGInt
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat RInt
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRInt;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRInt
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRInt;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRInt
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat BGRA32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FBGRA32;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFBGRA32
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FBGRA32;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFBGRA32
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat RGB111110Float
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRGB111110Float;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRGB111110Float
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRGB111110Float;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRGB111110Float
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat RG32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRG32;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRG32
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRG32;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRG32
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat RGBAUShort
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRGBAUShort;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRGBAUShort
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRGBAUShort;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRGBAUShort
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat RG16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRG16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRG16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FRG16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFRG16
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat BGRA10101010_XR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FBGRA10101010_XR;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFBGRA10101010_XR
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FBGRA10101010_XR;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFBGRA10101010_XR
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat BGR101010_XR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FBGR101010_XR;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFBGR101010_XR
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FBGR101010_XR;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFBGR101010_XR
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat R16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FR16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFR16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_FR16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RFR16
 		{
 			get
 			{

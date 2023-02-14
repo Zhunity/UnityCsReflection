@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.PlayModeStateChange
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PlayModeStateChange EnteredEditMode
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPlayModeStateChange r_FEnteredEditMode;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPlayModeStateChange RFEnteredEditMode
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPlayModeStateChange r_FEnteredEditMode;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPlayModeStateChange RFEnteredEditMode
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PlayModeStateChange ExitingEditMode
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPlayModeStateChange r_FExitingEditMode;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPlayModeStateChange RFExitingEditMode
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPlayModeStateChange r_FExitingEditMode;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPlayModeStateChange RFExitingEditMode
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PlayModeStateChange EnteredPlayMode
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPlayModeStateChange r_FEnteredPlayMode;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPlayModeStateChange RFEnteredPlayMode
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPlayModeStateChange r_FEnteredPlayMode;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPlayModeStateChange RFEnteredPlayMode
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PlayModeStateChange ExitingPlayMode
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPlayModeStateChange r_FExitingPlayMode;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPlayModeStateChange RFExitingPlayMode
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPlayModeStateChange r_FExitingPlayMode;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPlayModeStateChange RFExitingPlayMode
 		{
 			get
 			{

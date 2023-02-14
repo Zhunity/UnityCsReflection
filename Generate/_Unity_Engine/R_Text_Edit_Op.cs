@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.TextEditOp
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveLeft
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveRight
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveUp
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveUp;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveUp
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveUp;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveUp
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveDown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveDown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveDown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveDown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveDown
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveLineStart
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveLineStart;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveLineStart
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveLineStart;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveLineStart
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveLineEnd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveLineEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveLineEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveLineEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveLineEnd
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveTextStart
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveTextStart;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveTextStart
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveTextStart;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveTextStart
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveTextEnd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveTextEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveTextEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveTextEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveTextEnd
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MovePageUp
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMovePageUp;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMovePageUp
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMovePageUp;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMovePageUp
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MovePageDown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMovePageDown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMovePageDown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMovePageDown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMovePageDown
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveGraphicalLineStart
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveGraphicalLineStart;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveGraphicalLineStart
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveGraphicalLineStart;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveGraphicalLineStart
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveGraphicalLineEnd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveGraphicalLineEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveGraphicalLineEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveGraphicalLineEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveGraphicalLineEnd
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveWordLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveWordLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveWordLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveWordLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveWordLeft
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveWordRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveWordRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveWordRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveWordRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveWordRight
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveParagraphForward
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveParagraphForward;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveParagraphForward
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveParagraphForward;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveParagraphForward
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveParagraphBackward
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveParagraphBackward;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveParagraphBackward
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveParagraphBackward;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveParagraphBackward
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveToStartOfNextWord
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveToStartOfNextWord;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveToStartOfNextWord
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveToStartOfNextWord;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveToStartOfNextWord
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp MoveToEndOfPreviousWord
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveToEndOfPreviousWord;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveToEndOfPreviousWord
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FMoveToEndOfPreviousWord;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFMoveToEndOfPreviousWord
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp Delete
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FDelete;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFDelete
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FDelete;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFDelete
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp Backspace
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FBackspace;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFBackspace
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FBackspace;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFBackspace
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp DeleteWordBack
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FDeleteWordBack;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFDeleteWordBack
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FDeleteWordBack;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFDeleteWordBack
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp DeleteWordForward
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FDeleteWordForward;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFDeleteWordForward
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FDeleteWordForward;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFDeleteWordForward
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp DeleteLineBack
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FDeleteLineBack;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFDeleteLineBack
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FDeleteLineBack;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFDeleteLineBack
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp Cut
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FCut;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFCut
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FCut;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFCut
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp Paste
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FPaste;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFPaste
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FPaste;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFPaste
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp ScrollStart
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FScrollStart;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFScrollStart
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FScrollStart;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFScrollStart
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp ScrollEnd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FScrollEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFScrollEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FScrollEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFScrollEnd
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp ScrollPageUp
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FScrollPageUp;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFScrollPageUp
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FScrollPageUp;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFScrollPageUp
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditOp ScrollPageDown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp r_FScrollPageDown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp RFScrollPageDown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp r_FScrollPageDown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp RFScrollPageDown
 		{
 			get
 			{

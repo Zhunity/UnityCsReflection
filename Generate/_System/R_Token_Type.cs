@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.TokenType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType NumberToken
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FNumberToken;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFNumberToken
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FNumberToken;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFNumberToken
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType YearNumberToken
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FYearNumberToken;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFYearNumberToken
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FYearNumberToken;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFYearNumberToken
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType Am
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FAm;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFAm
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FAm;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFAm
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType Pm
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FPm;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFPm
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FPm;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFPm
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType MonthToken
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FMonthToken;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFMonthToken
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FMonthToken;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFMonthToken
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType EndOfString
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FEndOfString;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFEndOfString
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FEndOfString;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFEndOfString
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType DayOfWeekToken
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FDayOfWeekToken;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFDayOfWeekToken
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FDayOfWeekToken;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFDayOfWeekToken
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType TimeZoneToken
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FTimeZoneToken;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFTimeZoneToken
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FTimeZoneToken;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFTimeZoneToken
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType EraToken
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FEraToken;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFEraToken
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FEraToken;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFEraToken
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType DateWordToken
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FDateWordToken;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFDateWordToken
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FDateWordToken;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFDateWordToken
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType UnknownToken
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FUnknownToken;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFUnknownToken
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FUnknownToken;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFUnknownToken
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType HebrewNumber
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FHebrewNumber;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFHebrewNumber
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FHebrewNumber;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFHebrewNumber
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType JapaneseEraToken
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FJapaneseEraToken;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFJapaneseEraToken
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FJapaneseEraToken;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFJapaneseEraToken
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType TEraToken
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FTEraToken;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFTEraToken
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FTEraToken;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFTEraToken
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType IgnorableSymbol
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FIgnorableSymbol;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFIgnorableSymbol
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FIgnorableSymbol;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFIgnorableSymbol
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_Unk
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_Unk;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_Unk
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_Unk;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_Unk
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_End
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_End;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_End
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_End;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_End
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_Space
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_Space;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_Space
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_Space;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_Space
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_Am
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_Am;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_Am
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_Am;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_Am
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_Pm
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_Pm;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_Pm
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_Pm;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_Pm
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_Date
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_Date;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_Date
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_Date;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_Date
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_Time
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_Time;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_Time
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_Time;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_Time
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_YearSuff
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_YearSuff;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_YearSuff
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_YearSuff;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_YearSuff
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_MonthSuff
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_MonthSuff;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_MonthSuff
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_MonthSuff;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_MonthSuff
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_DaySuff
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_DaySuff;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_DaySuff
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_DaySuff;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_DaySuff
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_HourSuff
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_HourSuff;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_HourSuff
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_HourSuff;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_HourSuff
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_MinuteSuff
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_MinuteSuff;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_MinuteSuff
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_MinuteSuff;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_MinuteSuff
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_SecondSuff
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_SecondSuff;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_SecondSuff
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_SecondSuff;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_SecondSuff
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_LocalTimeMark
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_LocalTimeMark;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_LocalTimeMark
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_LocalTimeMark;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_LocalTimeMark
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SEP_DateOrOffset
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSEP_DateOrOffset;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSEP_DateOrOffset
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSEP_DateOrOffset;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSEP_DateOrOffset
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType RegularTokenMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FRegularTokenMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFRegularTokenMask
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FRegularTokenMask;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFRegularTokenMask
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TokenType SeparatorTokenMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTokenType r_FSeparatorTokenMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RTokenType RFSeparatorTokenMask
+		protected static Hvak.Editor.Refleaction.RSystem.RTokenType r_FSeparatorTokenMask;
+		public static Hvak.Editor.Refleaction.RSystem.RTokenType RFSeparatorTokenMask
 		{
 			get
 			{

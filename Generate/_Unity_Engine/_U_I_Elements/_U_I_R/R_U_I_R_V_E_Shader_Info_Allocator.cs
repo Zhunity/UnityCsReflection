@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BaseShaderInfoStorage m_Storage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBaseShaderInfoStorage r_Fm_Storage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBaseShaderInfoStorage RFm_Storage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBaseShaderInfoStorage r_Fm_Storage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBaseShaderInfoStorage RFm_Storage
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BitmapAllocator32 m_TransformAllocator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 r_Fm_TransformAllocator;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 RFm_TransformAllocator
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 r_Fm_TransformAllocator;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 RFm_TransformAllocator
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BitmapAllocator32 m_ClipRectAllocator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 r_Fm_ClipRectAllocator;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 RFm_ClipRectAllocator
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 r_Fm_ClipRectAllocator;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 RFm_ClipRectAllocator
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BitmapAllocator32 m_OpacityAllocator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 r_Fm_OpacityAllocator;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 RFm_OpacityAllocator
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 r_Fm_OpacityAllocator;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 RFm_OpacityAllocator
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BitmapAllocator32 m_ColorAllocator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 r_Fm_ColorAllocator;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 RFm_ColorAllocator
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 r_Fm_ColorAllocator;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 RFm_ColorAllocator
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BitmapAllocator32 m_TextSettingsAllocator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 r_Fm_TextSettingsAllocator;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 RFm_TextSettingsAllocator
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 r_Fm_TextSettingsAllocator;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 RFm_TextSettingsAllocator
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_StorageReallyCreated
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_StorageReallyCreated;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_StorageReallyCreated
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_StorageReallyCreated;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_StorageReallyCreated
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_VertexTexturingEnabled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_VertexTexturingEnabled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_VertexTexturingEnabled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_VertexTexturingEnabled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_VertexTexturingEnabled
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[UnityEngine.UIElements.UIR.Transform3x4] m_Transforms
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> r_Fm_Transforms;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> RFm_Transforms
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> r_Fm_Transforms;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> RFm_Transforms
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[UnityEngine.Vector4] m_ClipRects
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector4> r_Fm_ClipRects;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector4> RFm_ClipRects
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> r_Fm_ClipRects;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> RFm_ClipRects
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector2Int identityTransformTexel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_FidentityTransformTexel;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RFidentityTransformTexel
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_FidentityTransformTexel;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RFidentityTransformTexel
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector2Int infiniteClipRectTexel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_FinfiniteClipRectTexel;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RFinfiniteClipRectTexel
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_FinfiniteClipRectTexel;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RFinfiniteClipRectTexel
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector2Int fullOpacityTexel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_FfullOpacityTexel;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RFfullOpacityTexel
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_FfullOpacityTexel;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RFfullOpacityTexel
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector2Int clearColorTexel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_FclearColorTexel;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RFclearColorTexel
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_FclearColorTexel;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RFclearColorTexel
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector2Int defaultTextCoreSettingsTexel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_FdefaultTextCoreSettingsTexel;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RFdefaultTextCoreSettingsTexel
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_FdefaultTextCoreSettingsTexel;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RFdefaultTextCoreSettingsTexel
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Matrix4x4 identityTransformValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FidentityTransformValue;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFidentityTransformValue
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FidentityTransformValue;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFidentityTransformValue
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector4 identityTransformRow0Value
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_FidentityTransformRow0Value;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFidentityTransformRow0Value
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_FidentityTransformRow0Value;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFidentityTransformRow0Value
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector4 identityTransformRow1Value
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_FidentityTransformRow1Value;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFidentityTransformRow1Value
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_FidentityTransformRow1Value;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFidentityTransformRow1Value
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector4 identityTransformRow2Value
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_FidentityTransformRow2Value;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFidentityTransformRow2Value
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_FidentityTransformRow2Value;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFidentityTransformRow2Value
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector4 infiniteClipRectValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_FinfiniteClipRectValue;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFinfiniteClipRectValue
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_FinfiniteClipRectValue;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFinfiniteClipRectValue
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector4 fullOpacityValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_FfullOpacityValue;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFfullOpacityValue
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_FfullOpacityValue;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFfullOpacityValue
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector4 clearColorValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_FclearColorValue;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFclearColorValue
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_FclearColorValue;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFclearColorValue
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.TextCoreSettings defaultTextCoreSettingsValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings r_FdefaultTextCoreSettingsValue;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings RFdefaultTextCoreSettingsValue
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings r_FdefaultTextCoreSettingsValue;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings RFdefaultTextCoreSettingsValue
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BMPAlloc identityTransform
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FidentityTransform;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFidentityTransform
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FidentityTransform;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFidentityTransform
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BMPAlloc infiniteClipRect
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FinfiniteClipRect;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFinfiniteClipRect
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FinfiniteClipRect;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFinfiniteClipRect
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BMPAlloc fullOpacity
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FfullOpacity;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFfullOpacity
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FfullOpacity;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFfullOpacity
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BMPAlloc clearColor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FclearColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFclearColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FclearColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFclearColor
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BMPAlloc defaultTextCoreSettings
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FdefaultTextCoreSettings;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFdefaultTextCoreSettings
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FdefaultTextCoreSettings;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFdefaultTextCoreSettings
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 pageWidth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_PpageWidth;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RPpageWidth
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_PpageWidth;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RPpageWidth
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 pageHeight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_PpageHeight;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RPpageHeight
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_PpageHeight;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RPpageHeight
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.UIElements.UIR.Transform3x4] transformConstants
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> r_PtransformConstants;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> RPtransformConstants
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> r_PtransformConstants;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> RPtransformConstants
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.Vector4] clipRectConstants
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RVector4> r_PclipRectConstants;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RVector4> RPclipRectConstants
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RVector4> r_PclipRectConstants;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RVector4> RPclipRectConstants
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Texture atlas
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture r_Patlas;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture RPatlas
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_Patlas;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture RPatlas
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean internalAtlasCreated
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PinternalAtlasCreated;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPinternalAtlasCreated
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PinternalAtlasCreated;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPinternalAtlasCreated
 		{
 			get
 			{
@@ -1168,19 +1168,19 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public static UnityEngine.Vector2Int AllocToTexelCoord(ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 @allocator, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+        public static UnityEngine.Vector2Int AllocToTexelCoord(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 @allocator, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@allocator.Value, @alloc.Value};
             var ___result = RMAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc.Invoke(___genericsType, ___parameters);
-			@allocator = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32(___parameters[0]);
+			@allocator = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32(___parameters[0]);
 
             return (UnityEngine.Vector2Int)___result;
         }
 
 
-        public static System.Int32 AllocToConstantBufferIndex(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+        public static System.Int32 AllocToConstantBufferIndex(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1191,13 +1191,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public static System.Boolean AtlasRectMatchesPage(ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 @allocator, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @defAlloc, UnityEngine.RectInt @atlasRect)
+        public static System.Boolean AtlasRectMatchesPage(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 @allocator, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @defAlloc, UnityEngine.RectInt @atlasRect)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@allocator.Value, @defAlloc.Value, @atlasRect};
             var ___result = RMAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt.Invoke(___genericsType, ___parameters);
-			@allocator = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32(___parameters[0]);
+			@allocator = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32(___parameters[0]);
 
             return (System.Boolean)___result;
         }
@@ -1247,62 +1247,62 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocTransform()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocTransform()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAllocTransform.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocClipRect()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocClipRect()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAllocClipRect.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocOpacity()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocOpacity()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAllocOpacity.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocColor()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocColor()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAllocColor.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocTextCoreSettings(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings @settings)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocTextCoreSettings(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings @settings)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@settings.Value};
             var ___result = RMAllocTextCoreSettings_TextCoreSettings.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
         }
 
 
-        public virtual void SetTransformValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Matrix4x4 @xform)
+        public virtual void SetTransformValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Matrix4x4 @xform)
         {
 
             var ___genericsType = new Type[] {};
@@ -1313,7 +1313,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void SetClipRectValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Vector4 @clipRect)
+        public virtual void SetClipRectValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Vector4 @clipRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -1324,7 +1324,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void SetOpacityValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, System.Single @opacity)
+        public virtual void SetOpacityValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, System.Single @opacity)
         {
 
             var ___genericsType = new Type[] {};
@@ -1335,7 +1335,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void SetColorValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Color @color)
+        public virtual void SetColorValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Color @color)
         {
 
             var ___genericsType = new Type[] {};
@@ -1346,7 +1346,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void SetTextCoreSettingValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings @settings)
+        public virtual void SetTextCoreSettingValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings @settings)
         {
 
             var ___genericsType = new Type[] {};
@@ -1357,7 +1357,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void FreeTransform(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+        public virtual void FreeTransform(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1368,7 +1368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void FreeClipRect(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+        public virtual void FreeClipRect(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1379,7 +1379,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void FreeOpacity(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+        public virtual void FreeOpacity(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1390,7 +1390,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void FreeColor(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+        public virtual void FreeColor(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1401,7 +1401,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void FreeTextCoreSettings(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+        public virtual void FreeTextCoreSettings(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1412,7 +1412,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual UnityEngine.Color32 TransformAllocToVertexData(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+        public virtual UnityEngine.Color32 TransformAllocToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1423,7 +1423,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual UnityEngine.Color32 ClipRectAllocToVertexData(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+        public virtual UnityEngine.Color32 ClipRectAllocToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1434,7 +1434,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual UnityEngine.Color32 OpacityAllocToVertexData(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+        public virtual UnityEngine.Color32 OpacityAllocToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1445,7 +1445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual UnityEngine.Color32 ColorAllocToVertexData(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+        public virtual UnityEngine.Color32 ColorAllocToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1456,7 +1456,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual UnityEngine.Color32 TextCoreSettingsToVertexData(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+        public virtual UnityEngine.Color32 TextCoreSettingsToVertexData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};

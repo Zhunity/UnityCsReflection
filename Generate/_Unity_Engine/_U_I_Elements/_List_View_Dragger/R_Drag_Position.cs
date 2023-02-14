@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RListViewDragger
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 insertAtIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FinsertAtIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFinsertAtIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FinsertAtIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFinsertAtIndex
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ReusableCollectionItem recycledItem
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem r_FrecycledItem;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem RFrecycledItem
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem r_FrecycledItem;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem RFrecycledItem
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DragAndDropPosition dragAndDropPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragAndDropPosition r_FdragAndDropPosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragAndDropPosition RFdragAndDropPosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragAndDropPosition r_FdragAndDropPosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragAndDropPosition RFdragAndDropPosition
 		{
 			get
 			{
@@ -201,7 +201,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RListViewDragger.RDragPosition @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RListViewDragger.RDragPosition @other)
         {
 
             var ___genericsType = new Type[] {};

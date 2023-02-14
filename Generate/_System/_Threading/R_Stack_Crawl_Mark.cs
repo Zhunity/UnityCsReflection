@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.StackCrawlMark
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.StackCrawlMark LookForMe
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark r_FLookForMe;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark RFLookForMe
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark r_FLookForMe;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark RFLookForMe
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.StackCrawlMark LookForMyCaller
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark r_FLookForMyCaller;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark RFLookForMyCaller
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark r_FLookForMyCaller;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark RFLookForMyCaller
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.StackCrawlMark LookForMyCallersCaller
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark r_FLookForMyCallersCaller;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark RFLookForMyCallersCaller
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark r_FLookForMyCallersCaller;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark RFLookForMyCallersCaller
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.StackCrawlMark LookForThread
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark r_FLookForThread;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark RFLookForThread
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark r_FLookForThread;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark RFLookForThread
 		{
 			get
 			{

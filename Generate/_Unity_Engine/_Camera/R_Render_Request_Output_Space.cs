@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RCamera
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestOutputSpace ScreenSpace
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FScreenSpace;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFScreenSpace
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FScreenSpace;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFScreenSpace
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestOutputSpace UV0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV0;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV0
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV0;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV0
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestOutputSpace UV1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV1
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestOutputSpace UV2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV2
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestOutputSpace UV3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV3
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestOutputSpace UV4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV4
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestOutputSpace UV5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV5
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestOutputSpace UV6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV6
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestOutputSpace UV7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV7
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestOutputSpace UV8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_FUV8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFUV8
 		{
 			get
 			{

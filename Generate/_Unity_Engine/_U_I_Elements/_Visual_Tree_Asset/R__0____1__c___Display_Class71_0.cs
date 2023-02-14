@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RVisualTreeAsset
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementAsset asset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset r_Fasset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset RFasset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset r_Fasset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset RFasset
 		{
 			get
 			{

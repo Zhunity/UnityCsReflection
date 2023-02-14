@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RBaseSlider<TValueType>
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BaseSlider`1+SliderKey[TValueType] None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField>.RSliderKey r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField>.RSliderKey RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField>.RSliderKey r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField>.RSliderKey RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BaseSlider`1+SliderKey[TValueType] Lowest
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField>.RSliderKey r_FLowest;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField>.RSliderKey RFLowest
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField>.RSliderKey r_FLowest;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField>.RSliderKey RFLowest
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BaseSlider`1+SliderKey[TValueType] LowerPage
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField>.RSliderKey r_FLowerPage;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField>.RSliderKey RFLowerPage
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField>.RSliderKey r_FLowerPage;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField>.RSliderKey RFLowerPage
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BaseSlider`1+SliderKey[TValueType] Lower
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField>.RSliderKey r_FLower;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField>.RSliderKey RFLower
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField>.RSliderKey r_FLower;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField>.RSliderKey RFLower
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BaseSlider`1+SliderKey[TValueType] Higher
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField>.RSliderKey r_FHigher;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField>.RSliderKey RFHigher
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField>.RSliderKey r_FHigher;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField>.RSliderKey RFHigher
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BaseSlider`1+SliderKey[TValueType] HigherPage
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField>.RSliderKey r_FHigherPage;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField>.RSliderKey RFHigherPage
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField>.RSliderKey r_FHigherPage;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField>.RSliderKey RFHigherPage
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BaseSlider`1+SliderKey[TValueType] Highest
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField>.RSliderKey r_FHighest;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField>.RSliderKey RFHighest
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField>.RSliderKey r_FHighest;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField>.RSliderKey RFHighest
 		{
 			get
 			{

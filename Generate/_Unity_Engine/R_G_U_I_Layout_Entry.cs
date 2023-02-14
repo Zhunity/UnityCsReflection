@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.GUILayoutEntry
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single minWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FminWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFminWidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FminWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFminWidth
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single maxWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FmaxWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFmaxWidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FmaxWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFmaxWidth
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single minHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FminHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFminHeight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FminHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFminHeight
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single maxHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FmaxHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFmaxHeight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FmaxHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFmaxHeight
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rect rect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_Frect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RFrect
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_Frect;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFrect
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 stretchWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FstretchWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFstretchWidth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FstretchWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFstretchWidth
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 stretchHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FstretchHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFstretchHeight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FstretchHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFstretchHeight
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean consideredForMargin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FconsideredForMargin;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFconsideredForMargin
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FconsideredForMargin;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFconsideredForMargin
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUIStyle m_Style
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle r_Fm_Style;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle RFm_Style
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle r_Fm_Style;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle RFm_Style
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rect kDummyRect
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRect r_FkDummyRect;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRect RFkDummyRect
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRect r_FkDummyRect;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRect RFkDummyRect
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 indent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Findent;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFindent
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Findent;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFindent
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUIStyle style
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle r_Pstyle;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle RPstyle
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle r_Pstyle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle RPstyle
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 marginLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmarginLeft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmarginLeft
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmarginLeft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmarginLeft
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 marginRight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmarginRight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmarginRight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmarginRight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmarginRight
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 marginTop
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmarginTop;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmarginTop
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmarginTop;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmarginTop
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 marginBottom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmarginBottom;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmarginBottom
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmarginBottom;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmarginBottom
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 marginHorizontal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmarginHorizontal;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmarginHorizontal
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmarginHorizontal;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmarginHorizontal
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 marginVertical
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmarginVertical;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmarginVertical
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmarginVertical;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmarginVertical
 		{
 			get
 			{

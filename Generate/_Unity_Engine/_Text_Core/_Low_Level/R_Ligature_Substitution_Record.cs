@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
 	/// UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32[] m_ComponentGlyphIDs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_Fm_ComponentGlyphIDs;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> RFm_ComponentGlyphIDs
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fm_ComponentGlyphIDs;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> RFm_ComponentGlyphIDs
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32 m_LigatureGlyphID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_LigatureGlyphID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_LigatureGlyphID
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_LigatureGlyphID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_LigatureGlyphID
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32[] componentGlyphIDs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_PcomponentGlyphIDs;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> RPcomponentGlyphIDs
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RUInt32> r_PcomponentGlyphIDs;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RUInt32> RPcomponentGlyphIDs
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32 ligatureGlyphID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PligatureGlyphID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPligatureGlyphID
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PligatureGlyphID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPligatureGlyphID
 		{
 			get
 			{

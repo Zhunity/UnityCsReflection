@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Experimental.Rendering.RayTracingInstanceTriangleCullingConfig
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.String[] optionalDoubleSidedShaderKeywords
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FoptionalDoubleSidedShaderKeywords;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFoptionalDoubleSidedShaderKeywords
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FoptionalDoubleSidedShaderKeywords;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFoptionalDoubleSidedShaderKeywords
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Boolean frontTriangleCounterClockwise
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FfrontTriangleCounterClockwise;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFfrontTriangleCounterClockwise
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FfrontTriangleCounterClockwise;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFfrontTriangleCounterClockwise
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Boolean checkDoubleSidedGIMaterial
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FcheckDoubleSidedGIMaterial;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFcheckDoubleSidedGIMaterial
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FcheckDoubleSidedGIMaterial;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFcheckDoubleSidedGIMaterial
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Boolean forceDoubleSided
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FforceDoubleSided;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFforceDoubleSided
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FforceDoubleSided;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFforceDoubleSided
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 {
 	/// <summary>
 	/// System.Security.Cryptography.HashAlgorithm
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Boolean _disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_disposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_disposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_disposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_disposed
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Int32 HashSizeValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FHashSizeValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFHashSizeValue
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FHashSizeValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFHashSizeValue
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] HashValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_FHashValue;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFHashValue
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_FHashValue;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFHashValue
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Int32 State
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFState
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFState
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Int32 HashSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PHashSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPHashSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PHashSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPHashSize
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Byte[] Hash
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_PHash;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPHash
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_PHash;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPHash
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Int32 InputBlockSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PInputBlockSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPInputBlockSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PInputBlockSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPInputBlockSize
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Int32 OutputBlockSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_POutputBlockSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPOutputBlockSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_POutputBlockSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPOutputBlockSize
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Boolean CanTransformMultipleBlocks
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PCanTransformMultipleBlocks;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPCanTransformMultipleBlocks
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PCanTransformMultipleBlocks;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPCanTransformMultipleBlocks
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Boolean CanReuseTransform
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PCanReuseTransform;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPCanReuseTransform
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PCanReuseTransform;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPCanReuseTransform
 		{
 			get
 			{
@@ -640,7 +640,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean TryComputeHash(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @source, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        public virtual System.Boolean TryComputeHash(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @source, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
         {
 			@bytesWritten = default;
 
@@ -785,7 +785,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual void HashCore(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @source)
+        public virtual void HashCore(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @source)
         {
 
             var ___genericsType = new Type[] {};
@@ -796,7 +796,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean TryHashFinal(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        public virtual System.Boolean TryHashFinal(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
         {
 			@bytesWritten = default;
 

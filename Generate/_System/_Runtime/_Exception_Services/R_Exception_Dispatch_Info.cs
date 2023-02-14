@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
 {
 	/// <summary>
 	/// System.Runtime.ExceptionServices.ExceptionDispatchInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
 		/// <summary>
 		/// System.Exception m_Exception
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RException r_Fm_Exception;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RException RFm_Exception
+		protected Hvak.Editor.Refleaction.RSystem.RException r_Fm_Exception;
+		public virtual Hvak.Editor.Refleaction.RSystem.RException RFm_Exception
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
 		/// <summary>
 		/// System.Object m_stackTrace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fm_stackTrace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFm_stackTrace
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fm_stackTrace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFm_stackTrace
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
 		/// <summary>
 		/// System.Object BinaryStackTraceArray
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PBinaryStackTraceArray;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPBinaryStackTraceArray
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PBinaryStackTraceArray;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPBinaryStackTraceArray
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
 		/// <summary>
 		/// System.Exception SourceException
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RException r_PSourceException;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RException RPSourceException
+		protected Hvak.Editor.Refleaction.RSystem.RException r_PSourceException;
+		public virtual Hvak.Editor.Refleaction.RSystem.RException RPSourceException
 		{
 			get
 			{

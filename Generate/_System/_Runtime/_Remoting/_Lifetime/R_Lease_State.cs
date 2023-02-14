@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Lifetime.LeaseState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.Runtime.Remoting.Lifetime.LeaseState Null
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_FNull;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RFNull
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_FNull;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RFNull
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.Runtime.Remoting.Lifetime.LeaseState Initial
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_FInitial;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RFInitial
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_FInitial;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RFInitial
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.Runtime.Remoting.Lifetime.LeaseState Active
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_FActive;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RFActive
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_FActive;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RFActive
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.Runtime.Remoting.Lifetime.LeaseState Renewing
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_FRenewing;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RFRenewing
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_FRenewing;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RFRenewing
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.Runtime.Remoting.Lifetime.LeaseState Expired
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_FExpired;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RFExpired
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_FExpired;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RFExpired
 		{
 			get
 			{

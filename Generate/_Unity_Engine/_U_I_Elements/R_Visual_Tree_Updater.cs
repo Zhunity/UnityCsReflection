@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.VisualTreeUpdater
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BaseVisualElementPanel m_Panel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel r_Fm_Panel;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel RFm_Panel
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel r_Fm_Panel;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel RFm_Panel
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualTreeUpdater+UpdaterArray m_UpdaterArray
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdater.RUpdaterArray r_Fm_UpdaterArray;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdater.RUpdaterArray RFm_UpdaterArray
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdater.RUpdaterArray r_Fm_UpdaterArray;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdater.RUpdaterArray RFm_UpdaterArray
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IVisualTreeEditorUpdater <visualTreeEditorUpdater>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeEditorUpdater r_F__0__visualTreeEditorUpdater__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeEditorUpdater RF__0__visualTreeEditorUpdater__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeEditorUpdater r_F__0__visualTreeEditorUpdater__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeEditorUpdater RF__0__visualTreeEditorUpdater__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IVisualTreeEditorUpdater visualTreeEditorUpdater
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeEditorUpdater r_PvisualTreeEditorUpdater;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeEditorUpdater RPvisualTreeEditorUpdater
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeEditorUpdater r_PvisualTreeEditorUpdater;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeEditorUpdater RPvisualTreeEditorUpdater
 		{
 			get
 			{
@@ -374,7 +374,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UpdateVisualTreePhase(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase @phase)
+        public virtual void UpdateVisualTreePhase(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase @phase)
         {
 
             var ___genericsType = new Type[] {};
@@ -385,7 +385,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ve, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @versionChangeType)
+        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @versionChangeType)
         {
 
             var ___genericsType = new Type[] {};
@@ -407,7 +407,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetUpdater(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater @updater, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase @phase)
+        public virtual void SetUpdater(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater @updater, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase @phase)
         {
 
             var ___genericsType = new Type[] {};
@@ -418,7 +418,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetUpdater<T>(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase @phase) where T : new()
+        public virtual void SetUpdater<T>(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase @phase) where T : new()
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -429,14 +429,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater GetUpdater(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase @phase)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater GetUpdater(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase @phase)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@phase.Value};
             var ___result = RMGetUpdater_VisualTreeUpdatePhase.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater(___result);
         }
 
 

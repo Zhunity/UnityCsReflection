@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngineInternal
+namespace Hvak.Editor.Refleaction.RUnityEngineInternal
 {
 	/// <summary>
 	/// UnityEngineInternal.LightmapType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngineInternal
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngineInternal
 		/// <summary>
 		/// UnityEngineInternal.LightmapType NoLightmap
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngineInternal.RLightmapType r_FNoLightmap;
-		public static SMFrame.Editor.Refleaction.RUnityEngineInternal.RLightmapType RFNoLightmap
+		protected static Hvak.Editor.Refleaction.RUnityEngineInternal.RLightmapType r_FNoLightmap;
+		public static Hvak.Editor.Refleaction.RUnityEngineInternal.RLightmapType RFNoLightmap
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngineInternal
 		/// <summary>
 		/// UnityEngineInternal.LightmapType StaticLightmap
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngineInternal.RLightmapType r_FStaticLightmap;
-		public static SMFrame.Editor.Refleaction.RUnityEngineInternal.RLightmapType RFStaticLightmap
+		protected static Hvak.Editor.Refleaction.RUnityEngineInternal.RLightmapType r_FStaticLightmap;
+		public static Hvak.Editor.Refleaction.RUnityEngineInternal.RLightmapType RFStaticLightmap
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngineInternal
 		/// <summary>
 		/// UnityEngineInternal.LightmapType DynamicLightmap
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngineInternal.RLightmapType r_FDynamicLightmap;
-		public static SMFrame.Editor.Refleaction.RUnityEngineInternal.RLightmapType RFDynamicLightmap
+		protected static Hvak.Editor.Refleaction.RUnityEngineInternal.RLightmapType r_FDynamicLightmap;
+		public static Hvak.Editor.Refleaction.RUnityEngineInternal.RLightmapType RFDynamicLightmap
 		{
 			get
 			{

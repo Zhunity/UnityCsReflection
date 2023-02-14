@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
+namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
 	/// UnityEngine.Yoga.YogaFlexDirection
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaFlexDirection Column
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection r_FColumn;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection RFColumn
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection r_FColumn;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection RFColumn
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaFlexDirection ColumnReverse
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection r_FColumnReverse;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection RFColumnReverse
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection r_FColumnReverse;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection RFColumnReverse
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaFlexDirection Row
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection r_FRow;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection RFRow
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection r_FRow;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection RFRow
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaFlexDirection RowReverse
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection r_FRowReverse;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection RFRowReverse
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection r_FRowReverse;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaFlexDirection RFRowReverse
 		{
 			get
 			{

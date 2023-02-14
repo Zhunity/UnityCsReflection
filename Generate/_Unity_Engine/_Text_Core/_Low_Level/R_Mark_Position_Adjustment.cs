@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
 	/// UnityEngine.TextCore.LowLevel.MarkPositionAdjustment
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_XPositionAdjustment
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_XPositionAdjustment;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_XPositionAdjustment
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_XPositionAdjustment;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_XPositionAdjustment
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_YPositionAdjustment
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_YPositionAdjustment;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_YPositionAdjustment
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_YPositionAdjustment;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_YPositionAdjustment
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single xPositionAdjustment
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PxPositionAdjustment;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPxPositionAdjustment
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PxPositionAdjustment;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPxPositionAdjustment
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single yPositionAdjustment
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PyPositionAdjustment;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPyPositionAdjustment
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PyPositionAdjustment;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPyPositionAdjustment
 		{
 			get
 			{

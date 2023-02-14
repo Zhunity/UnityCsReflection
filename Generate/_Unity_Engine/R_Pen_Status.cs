@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.PenStatus
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.PenStatus None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RPenStatus r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RPenStatus RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RPenStatus r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RPenStatus RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.PenStatus Contact
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RPenStatus r_FContact;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RPenStatus RFContact
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RPenStatus r_FContact;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RPenStatus RFContact
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.PenStatus Barrel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RPenStatus r_FBarrel;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RPenStatus RFBarrel
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RPenStatus r_FBarrel;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RPenStatus RFBarrel
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.PenStatus Inverted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RPenStatus r_FInverted;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RPenStatus RFInverted
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RPenStatus r_FInverted;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RPenStatus RFInverted
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.PenStatus Eraser
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RPenStatus r_FEraser;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RPenStatus RFEraser
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RPenStatus r_FEraser;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RPenStatus RFEraser
 		{
 			get
 			{

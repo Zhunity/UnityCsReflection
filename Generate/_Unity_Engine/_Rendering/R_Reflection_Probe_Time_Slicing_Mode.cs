@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.ReflectionProbeTimeSlicingMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeTimeSlicingMode AllFacesAtOnce
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeTimeSlicingMode r_FAllFacesAtOnce;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeTimeSlicingMode RFAllFacesAtOnce
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeTimeSlicingMode r_FAllFacesAtOnce;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeTimeSlicingMode RFAllFacesAtOnce
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeTimeSlicingMode IndividualFaces
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeTimeSlicingMode r_FIndividualFaces;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeTimeSlicingMode RFIndividualFaces
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeTimeSlicingMode r_FIndividualFaces;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeTimeSlicingMode RFIndividualFaces
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeTimeSlicingMode NoTimeSlicing
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeTimeSlicingMode r_FNoTimeSlicing;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeTimeSlicingMode RFNoTimeSlicing
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeTimeSlicingMode r_FNoTimeSlicing;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeTimeSlicingMode RFNoTimeSlicing
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
+namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
 	/// System.Text.RegularExpressions.Match
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.GroupCollection _groupcoll
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RGroupCollection r_F_groupcoll;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RGroupCollection RF_groupcoll
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RGroupCollection r_F_groupcoll;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RGroupCollection RF_groupcoll
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Regex _regex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex r_F_regex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex RF_regex
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex r_F_regex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex RF_regex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _textbeg
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_textbeg;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_textbeg
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_textbeg;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_textbeg
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _textpos
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_textpos;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_textpos
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_textpos;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_textpos
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _textend
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_textend;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_textend
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_textend;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_textend
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _textstart
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_textstart;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_textstart
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_textstart;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_textstart
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[][] _matches
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32>> r_F_matches;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32>> RF_matches
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32>> r_F_matches;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32>> RF_matches
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[] _matchcount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_F_matchcount;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RF_matchcount
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_F_matchcount;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RF_matchcount
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean _balancing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_balancing;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_balancing
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_balancing;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_balancing
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Match <Empty>k__BackingField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch r_F__0__Empty__1__k__BackingField;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch RF__0__Empty__1__k__BackingField
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch r_F__0__Empty__1__k__BackingField;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch RF__0__Empty__1__k__BackingField
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[] _caps
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_F_caps;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RF_caps
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_F_caps;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RF_caps
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _capcount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_capcount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_capcount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_capcount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_capcount
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.CaptureCollection _capcoll
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RCaptureCollection r_F_capcoll;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RCaptureCollection RF_capcoll
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RCaptureCollection r_F_capcoll;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RCaptureCollection RF_capcoll
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Match Empty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch r_PEmpty;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch RPEmpty
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch r_PEmpty;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch RPEmpty
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.GroupCollection Groups
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RGroupCollection r_PGroups;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RGroupCollection RPGroups
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RGroupCollection r_PGroups;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RGroupCollection RPGroups
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean Success
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PSuccess;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPSuccess
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PSuccess;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPSuccess
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.CaptureCollection Captures
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RCaptureCollection r_PCaptures;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RCaptureCollection RPCaptures
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RCaptureCollection r_PCaptures;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RCaptureCollection RPCaptures
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Int32 Index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPIndex
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLength
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PText;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPText
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PText;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPText
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPValue
 		{
 			get
 			{
@@ -793,25 +793,25 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> GroupToStringImpl(System.Int32 @groupnum)
+        public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> GroupToStringImpl(System.Int32 @groupnum)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@groupnum};
             var ___result = RMGroupToStringImpl_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> LastGroupToStringImpl()
+        public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> LastGroupToStringImpl()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMLastGroupToStringImpl.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>(___result);
         }
 
 
@@ -914,25 +914,25 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> GetLeftSubstring()
+        public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> GetLeftSubstring()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetLeftSubstring.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> GetRightSubstring()
+        public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> GetRightSubstring()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetRightSubstring.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>(___result);
         }
 
 

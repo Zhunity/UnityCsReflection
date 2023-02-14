@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
+namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
 	/// System.Collections.Generic.ValueListBuilder`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Span`1[T] _span
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RField> r_F_span;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RField> RF_span
+		protected Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RField> r_F_span;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RField> RF_span
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// T[] _arrayFromPool
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RField> r_F_arrayFromPool;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RField> RF_arrayFromPool
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RField> r_F_arrayFromPool;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RField> RF_arrayFromPool
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _pos
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_pos;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_pos
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_pos;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_pos
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLength
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// T& Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPItem_Int32
+		protected Hvak.Editor.Refleaction.RProperty r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RProperty RPItem_Int32
 		{
 			get
 			{
@@ -295,14 +295,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RType> AsSpan()
+        public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType> AsSpan()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAsSpan.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.BlendShapeBufferRange
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt32 m_StartIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_StartIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_StartIndex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_StartIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_StartIndex
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt32 m_EndIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_EndIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_EndIndex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_EndIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_EndIndex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 startIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PstartIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPstartIndex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PstartIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPstartIndex
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 endIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PendIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPendIndex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PendIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPendIndex
 		{
 			get
 			{

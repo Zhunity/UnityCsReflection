@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.GenericAcl
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Byte AclRevision
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RByte r_FAclRevision;
-		public static SMFrame.Editor.Refleaction.RSystem.RByte RFAclRevision
+		protected static Hvak.Editor.Refleaction.RSystem.RByte r_FAclRevision;
+		public static Hvak.Editor.Refleaction.RSystem.RByte RFAclRevision
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Byte AclRevisionDS
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RByte r_FAclRevisionDS;
-		public static SMFrame.Editor.Refleaction.RSystem.RByte RFAclRevisionDS
+		protected static Hvak.Editor.Refleaction.RSystem.RByte r_FAclRevisionDS;
+		public static Hvak.Editor.Refleaction.RSystem.RByte RFAclRevisionDS
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 MaxBinaryLength
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMaxBinaryLength;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMaxBinaryLength
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMaxBinaryLength;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMaxBinaryLength
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 BinaryLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PBinaryLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPBinaryLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PBinaryLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPBinaryLength
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCount
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsSynchronized
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsSynchronized;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsSynchronized
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsSynchronized;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsSynchronized
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.GenericAce Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAce r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAce RPItem_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAce r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAce RPItem_Int32
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Byte Revision
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_PRevision;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RPRevision
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_PRevision;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RPRevision
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Object SyncRoot
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSyncRoot;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSyncRoot
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSyncRoot;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSyncRoot
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RCamera
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+GateFitMode Vertical
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode r_FVertical;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode RFVertical
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode r_FVertical;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode RFVertical
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+GateFitMode Horizontal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode r_FHorizontal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode RFHorizontal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode r_FHorizontal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode RFHorizontal
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+GateFitMode Fill
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode r_FFill;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode RFFill
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode r_FFill;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode RFFill
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+GateFitMode Overscan
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode r_FOverscan;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode RFOverscan
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode r_FOverscan;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode RFOverscan
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+GateFitMode None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode RFNone
 		{
 			get
 			{

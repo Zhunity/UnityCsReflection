@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
+namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
 	/// System.Text.RegularExpressions.RegexCompilationInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String _pattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_pattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_pattern
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_pattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_pattern
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String _name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_name;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_name
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_name;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_name
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String _nspace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_nspace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_nspace
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_nspace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_nspace
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.TimeSpan _matchTimeout
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_F_matchTimeout;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RTimeSpan RF_matchTimeout
+		protected Hvak.Editor.Refleaction.RSystem.RTimeSpan r_F_matchTimeout;
+		public virtual Hvak.Editor.Refleaction.RSystem.RTimeSpan RF_matchTimeout
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean <IsPublic>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__IsPublic__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__IsPublic__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__IsPublic__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__IsPublic__1__k__BackingField
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions <Options>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_F__0__Options__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RF__0__Options__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_F__0__Options__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RF__0__Options__1__k__BackingField
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean IsPublic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsPublic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsPublic
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsPublic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsPublic
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.TimeSpan MatchTimeout
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_PMatchTimeout;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RTimeSpan RPMatchTimeout
+		protected Hvak.Editor.Refleaction.RSystem.RTimeSpan r_PMatchTimeout;
+		public virtual Hvak.Editor.Refleaction.RSystem.RTimeSpan RPMatchTimeout
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Namespace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PNamespace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPNamespace
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PNamespace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPNamespace
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions Options
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_POptions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RPOptions
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_POptions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RPOptions
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Pattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PPattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPPattern
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PPattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPPattern
 		{
 			get
 			{

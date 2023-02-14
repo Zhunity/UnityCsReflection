@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSelectorPart
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Value
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Value
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorType m_Type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_Fm_Type;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFm_Type
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_Fm_Type;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFm_Type
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Object tempData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_FtempData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFtempData
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_FtempData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFtempData
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPvalue
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPvalue
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorType type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_Ptype;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RPtype
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_Ptype;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RPtype
 		{
 			get
 			{
@@ -346,80 +346,80 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateClass(System.String @className)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateClass(System.String @className)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@className};
             var ___result = RMCreateClass_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreatePseudoClass(System.String @className)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreatePseudoClass(System.String @className)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@className};
             var ___result = RMCreatePseudoClass_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateId(System.String @Id)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateId(System.String @Id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@Id};
             var ___result = RMCreateId_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateType(System.Type @t)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateType(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t};
             var ___result = RMCreateType_Type.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateType(System.String @typeName)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateType(System.String @typeName)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@typeName};
             var ___result = RMCreateType_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreatePredicate(System.Object @predicate)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreatePredicate(System.Object @predicate)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@predicate};
             var ___result = RMCreatePredicate_Object.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateWildCard()
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart CreateWildCard()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMCreateWildCard.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart(___result);
         }
 
 

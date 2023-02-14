@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.TextureEntry
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Texture source
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture r_Fsource;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture RFsource
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_Fsource;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture RFsource
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.TextureId actual
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId r_Factual;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId RFactual
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId r_Factual;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId RFactual
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean replaced
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Freplaced;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFreplaced
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Freplaced;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFreplaced
 		{
 			get
 			{

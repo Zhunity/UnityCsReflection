@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.CommandType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.CommandType Draw
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FDraw;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFDraw
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FDraw;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFDraw
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.CommandType ImmediateCull
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FImmediateCull;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFImmediateCull
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FImmediateCull;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFImmediateCull
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.CommandType Immediate
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FImmediate;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFImmediate
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FImmediate;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFImmediate
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.CommandType PushView
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPushView;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPushView
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPushView;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPushView
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.CommandType PopView
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPopView;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPopView
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPopView;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPopView
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.CommandType PushScissor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPushScissor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPushScissor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPushScissor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPushScissor
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.CommandType PopScissor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPopScissor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPopScissor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPopScissor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPopScissor
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.CommandType PushRenderTexture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPushRenderTexture;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPushRenderTexture
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPushRenderTexture;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPushRenderTexture
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.CommandType PopRenderTexture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPopRenderTexture;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPopRenderTexture
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPopRenderTexture;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPopRenderTexture
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.CommandType BlitToPreviousRT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FBlitToPreviousRT;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFBlitToPreviousRT
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FBlitToPreviousRT;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFBlitToPreviousRT
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.CommandType PushDefaultMaterial
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPushDefaultMaterial;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPushDefaultMaterial
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPushDefaultMaterial;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPushDefaultMaterial
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.CommandType PopDefaultMaterial
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPopDefaultMaterial;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPopDefaultMaterial
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType r_FPopDefaultMaterial;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCommandType RFPopDefaultMaterial
 		{
 			get
 			{

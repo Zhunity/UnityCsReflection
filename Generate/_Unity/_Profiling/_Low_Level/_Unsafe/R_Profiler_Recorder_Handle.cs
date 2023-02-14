@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
+namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 {
 	/// <summary>
 	/// Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.UInt64 k_InvalidHandle
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RUInt64 r_Fk_InvalidHandle;
-		public static SMFrame.Editor.Refleaction.RSystem.RUInt64 RFk_InvalidHandle
+		protected static Hvak.Editor.Refleaction.RSystem.RUInt64 r_Fk_InvalidHandle;
+		public static Hvak.Editor.Refleaction.RSystem.RUInt64 RFk_InvalidHandle
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.UInt64 handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_Fhandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFhandle
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_Fhandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFhandle
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// Boolean Valid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPValid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPValid
 		{
 			get
 			{

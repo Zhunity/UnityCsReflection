@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
+namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 {
 	/// <summary>
 	/// System.Threading.Tasks.Sources.ValueTaskSourceStatus
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 		/// <summary>
 		/// System.Threading.Tasks.Sources.ValueTaskSourceStatus Pending
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus r_FPending;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus RFPending
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus r_FPending;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus RFPending
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 		/// <summary>
 		/// System.Threading.Tasks.Sources.ValueTaskSourceStatus Succeeded
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus r_FSucceeded;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus RFSucceeded
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus r_FSucceeded;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus RFSucceeded
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 		/// <summary>
 		/// System.Threading.Tasks.Sources.ValueTaskSourceStatus Faulted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus r_FFaulted;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus RFFaulted
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus r_FFaulted;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus RFFaulted
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 		/// <summary>
 		/// System.Threading.Tasks.Sources.ValueTaskSourceStatus Canceled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus r_FCanceled;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus RFCanceled
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus r_FCanceled;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceStatus RFCanceled
 		{
 			get
 			{

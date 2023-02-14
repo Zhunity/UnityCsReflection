@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.AssetBundleNameGUI
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.GUIContent kAssetBundleName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_FkAssetBundleName;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RFkAssetBundleName
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_FkAssetBundleName;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RFkAssetBundleName
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 kAssetBundleNameFieldIdHash
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FkAssetBundleNameFieldIdHash;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFkAssetBundleNameFieldIdHash
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FkAssetBundleNameFieldIdHash;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFkAssetBundleNameFieldIdHash
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 kAssetBundleVariantFieldIdHash
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FkAssetBundleVariantFieldIdHash;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFkAssetBundleVariantFieldIdHash
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FkAssetBundleVariantFieldIdHash;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFkAssetBundleVariantFieldIdHash
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_ShowAssetBundleNameTextField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_ShowAssetBundleNameTextField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_ShowAssetBundleNameTextField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_ShowAssetBundleNameTextField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_ShowAssetBundleNameTextField
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_ShowAssetBundleVariantTextField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_ShowAssetBundleVariantTextField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_ShowAssetBundleVariantTextField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_ShowAssetBundleVariantTextField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_ShowAssetBundleVariantTextField
 		{
 			get
 			{

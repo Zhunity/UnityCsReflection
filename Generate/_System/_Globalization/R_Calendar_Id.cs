@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.CalendarId
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.UInt16 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt16 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt16 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RUInt16 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt16 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId UNINITIALIZED_VALUE
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FUNINITIALIZED_VALUE;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFUNINITIALIZED_VALUE
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FUNINITIALIZED_VALUE;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFUNINITIALIZED_VALUE
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId GREGORIAN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FGREGORIAN;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFGREGORIAN
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FGREGORIAN;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFGREGORIAN
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId GREGORIAN_US
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FGREGORIAN_US;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFGREGORIAN_US
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FGREGORIAN_US;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFGREGORIAN_US
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId JAPAN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FJAPAN;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFJAPAN
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FJAPAN;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFJAPAN
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId TAIWAN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FTAIWAN;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFTAIWAN
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FTAIWAN;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFTAIWAN
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId KOREA
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FKOREA;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFKOREA
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FKOREA;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFKOREA
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId HIJRI
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FHIJRI;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFHIJRI
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FHIJRI;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFHIJRI
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId THAI
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FTHAI;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFTHAI
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FTHAI;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFTHAI
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId HEBREW
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FHEBREW;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFHEBREW
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FHEBREW;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFHEBREW
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId GREGORIAN_ME_FRENCH
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FGREGORIAN_ME_FRENCH;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFGREGORIAN_ME_FRENCH
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FGREGORIAN_ME_FRENCH;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFGREGORIAN_ME_FRENCH
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId GREGORIAN_ARABIC
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FGREGORIAN_ARABIC;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFGREGORIAN_ARABIC
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FGREGORIAN_ARABIC;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFGREGORIAN_ARABIC
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId GREGORIAN_XLIT_ENGLISH
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FGREGORIAN_XLIT_ENGLISH;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFGREGORIAN_XLIT_ENGLISH
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FGREGORIAN_XLIT_ENGLISH;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFGREGORIAN_XLIT_ENGLISH
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId GREGORIAN_XLIT_FRENCH
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FGREGORIAN_XLIT_FRENCH;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFGREGORIAN_XLIT_FRENCH
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FGREGORIAN_XLIT_FRENCH;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFGREGORIAN_XLIT_FRENCH
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId JULIAN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FJULIAN;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFJULIAN
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FJULIAN;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFJULIAN
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId JAPANESELUNISOLAR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FJAPANESELUNISOLAR;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFJAPANESELUNISOLAR
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FJAPANESELUNISOLAR;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFJAPANESELUNISOLAR
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId CHINESELUNISOLAR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FCHINESELUNISOLAR;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFCHINESELUNISOLAR
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FCHINESELUNISOLAR;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFCHINESELUNISOLAR
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId SAKA
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FSAKA;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFSAKA
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FSAKA;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFSAKA
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId LUNAR_ETO_CHN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FLUNAR_ETO_CHN;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFLUNAR_ETO_CHN
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FLUNAR_ETO_CHN;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFLUNAR_ETO_CHN
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId LUNAR_ETO_KOR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FLUNAR_ETO_KOR;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFLUNAR_ETO_KOR
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FLUNAR_ETO_KOR;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFLUNAR_ETO_KOR
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId LUNAR_ETO_ROKUYOU
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FLUNAR_ETO_ROKUYOU;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFLUNAR_ETO_ROKUYOU
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FLUNAR_ETO_ROKUYOU;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFLUNAR_ETO_ROKUYOU
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId KOREANLUNISOLAR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FKOREANLUNISOLAR;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFKOREANLUNISOLAR
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FKOREANLUNISOLAR;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFKOREANLUNISOLAR
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId TAIWANLUNISOLAR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FTAIWANLUNISOLAR;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFTAIWANLUNISOLAR
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FTAIWANLUNISOLAR;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFTAIWANLUNISOLAR
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId PERSIAN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FPERSIAN;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFPERSIAN
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FPERSIAN;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFPERSIAN
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId UMALQURA
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FUMALQURA;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFUMALQURA
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FUMALQURA;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFUMALQURA
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarId LAST_CALENDAR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FLAST_CALENDAR;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFLAST_CALENDAR
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId r_FLAST_CALENDAR;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId RFLAST_CALENDAR
 		{
 			get
 			{

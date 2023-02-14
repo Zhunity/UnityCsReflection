@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.DecoratorDrawer
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.PropertyAttribute m_Attribute
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RPropertyAttribute r_Fm_Attribute;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RPropertyAttribute RFm_Attribute
+		protected Hvak.Editor.Refleaction.RUnityEngine.RPropertyAttribute r_Fm_Attribute;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RPropertyAttribute RFm_Attribute
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.PropertyAttribute attribute
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RPropertyAttribute r_Pattribute;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RPropertyAttribute RPattribute
+		protected Hvak.Editor.Refleaction.RUnityEngine.RPropertyAttribute r_Pattribute;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RPropertyAttribute RPattribute
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
+namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 {public partial class RUnityOAuth
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String <AuthCode>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__AuthCode__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__AuthCode__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__AuthCode__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__AuthCode__1__k__BackingField
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.Exception <Exception>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RException r_F__0__Exception__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RException RF__0__Exception__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RException r_F__0__Exception__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RException RF__0__Exception__1__k__BackingField
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String AuthCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PAuthCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPAuthCode
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PAuthCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPAuthCode
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.Exception Exception
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RException r_PException;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RException RPException
+		protected Hvak.Editor.Refleaction.RSystem.RException r_PException;
+		public virtual Hvak.Editor.Refleaction.RSystem.RException RPException
 		{
 			get
 			{

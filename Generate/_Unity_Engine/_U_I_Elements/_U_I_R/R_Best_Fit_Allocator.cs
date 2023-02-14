@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.BestFitAllocator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 <totalSize>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_F__0__totalSize__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RF__0__totalSize__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_F__0__totalSize__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RF__0__totalSize__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BestFitAllocator+Block m_FirstBlock
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock r_Fm_FirstBlock;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock RFm_FirstBlock
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock r_Fm_FirstBlock;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock RFm_FirstBlock
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BestFitAllocator+Block m_FirstAvailableBlock
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock r_Fm_FirstAvailableBlock;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock RFm_FirstAvailableBlock
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock r_Fm_FirstAvailableBlock;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock RFm_FirstAvailableBlock
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BestFitAllocator+BlockPool m_BlockPool
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlockPool r_Fm_BlockPool;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlockPool RFm_BlockPool
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlockPool r_Fm_BlockPool;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlockPool RFm_BlockPool
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_HighWatermark
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_HighWatermark;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_HighWatermark
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_HighWatermark;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_HighWatermark
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UInt32 totalSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PtotalSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPtotalSize
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PtotalSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPtotalSize
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UInt32 highWatermark
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PhighWatermark;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPhighWatermark
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PhighWatermark;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPhighWatermark
 		{
 			get
 			{
@@ -352,18 +352,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc Allocate(System.UInt32 @size)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc Allocate(System.UInt32 @size)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@size};
             var ___result = RMAllocate_UInt32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc(___result);
         }
 
 
-        public virtual void Free(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @alloc)
+        public virtual void Free(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -374,40 +374,40 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock CoalesceBlockWithPrevious(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock @block)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock CoalesceBlockWithPrevious(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock @block)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@block.Value};
             var ___result = RMCoalesceBlockWithPrevious_Block.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics GatherStatistics()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics GatherStatistics()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGatherStatistics.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock BestFitFindAvailableBlock(System.UInt32 @size)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock BestFitFindAvailableBlock(System.UInt32 @size)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@size};
             var ___result = RMBestFitFindAvailableBlock_UInt32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock(___result);
         }
 
 
-        public virtual void SplitBlock(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock @block, System.UInt32 @size)
+        public virtual void SplitBlock(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock @block, System.UInt32 @size)
         {
 
             var ___genericsType = new Type[] {};

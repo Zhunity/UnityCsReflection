@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.GradientRemap
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 origIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_ForigIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RForigIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_ForigIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RForigIndex
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 destIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FdestIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFdestIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FdestIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFdestIndex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.RectInt location
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRectInt r_Flocation;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRectInt RFlocation
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRectInt r_Flocation;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRectInt RFlocation
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.GradientRemap next
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap r_Fnext;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap RFnext
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap r_Fnext;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap RFnext
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.TextureId atlas
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId r_Fatlas;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId RFatlas
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId r_Fatlas;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId RFatlas
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.GradientRemap poolNext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap r_FpoolNext;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap RFpoolNext
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap r_FpoolNext;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap RFpoolNext
 		{
 			get
 			{

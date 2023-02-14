@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 {
 	/// <summary>
 	/// System.Runtime.InteropServices.VarEnum
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_EMPTY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_EMPTY;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_EMPTY
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_EMPTY;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_EMPTY
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_NULL
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_NULL;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_NULL
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_NULL;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_NULL
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_I2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_I2;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_I2
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_I2;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_I2
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_I4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_I4;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_I4
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_I4;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_I4
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_R4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_R4;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_R4
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_R4;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_R4
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_R8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_R8;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_R8
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_R8;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_R8
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_CY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_CY;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_CY
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_CY;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_CY
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_DATE
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_DATE;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_DATE
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_DATE;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_DATE
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_BSTR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_BSTR;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_BSTR
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_BSTR;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_BSTR
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_DISPATCH
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_DISPATCH;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_DISPATCH
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_DISPATCH;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_DISPATCH
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_ERROR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_ERROR;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_ERROR
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_ERROR;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_ERROR
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_BOOL
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_BOOL;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_BOOL
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_BOOL;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_BOOL
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_VARIANT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_VARIANT;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_VARIANT
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_VARIANT;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_VARIANT
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_UNKNOWN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_UNKNOWN;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_UNKNOWN
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_UNKNOWN;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_UNKNOWN
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_DECIMAL
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_DECIMAL;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_DECIMAL
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_DECIMAL;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_DECIMAL
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_I1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_I1;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_I1
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_I1;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_I1
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_UI1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_UI1;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_UI1
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_UI1;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_UI1
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_UI2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_UI2;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_UI2
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_UI2;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_UI2
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_UI4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_UI4;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_UI4
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_UI4;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_UI4
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_I8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_I8;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_I8
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_I8;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_I8
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_UI8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_UI8;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_UI8
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_UI8;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_UI8
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_INT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_INT;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_INT
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_INT;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_INT
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_UINT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_UINT;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_UINT
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_UINT;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_UINT
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_VOID
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_VOID;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_VOID
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_VOID;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_VOID
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_HRESULT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_HRESULT;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_HRESULT
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_HRESULT;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_HRESULT
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_PTR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_PTR;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_PTR
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_PTR;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_PTR
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_SAFEARRAY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_SAFEARRAY;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_SAFEARRAY
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_SAFEARRAY;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_SAFEARRAY
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_CARRAY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_CARRAY;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_CARRAY
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_CARRAY;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_CARRAY
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_USERDEFINED
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_USERDEFINED;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_USERDEFINED
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_USERDEFINED;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_USERDEFINED
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_LPSTR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_LPSTR;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_LPSTR
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_LPSTR;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_LPSTR
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_LPWSTR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_LPWSTR;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_LPWSTR
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_LPWSTR;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_LPWSTR
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_RECORD
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_RECORD;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_RECORD
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_RECORD;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_RECORD
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_FILETIME
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_FILETIME;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_FILETIME
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_FILETIME;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_FILETIME
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_BLOB
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_BLOB;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_BLOB
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_BLOB;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_BLOB
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_STREAM
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_STREAM;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_STREAM
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_STREAM;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_STREAM
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_STORAGE
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_STORAGE;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_STORAGE
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_STORAGE;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_STORAGE
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_STREAMED_OBJECT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_STREAMED_OBJECT;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_STREAMED_OBJECT
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_STREAMED_OBJECT;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_STREAMED_OBJECT
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_STORED_OBJECT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_STORED_OBJECT;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_STORED_OBJECT
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_STORED_OBJECT;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_STORED_OBJECT
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_BLOB_OBJECT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_BLOB_OBJECT;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_BLOB_OBJECT
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_BLOB_OBJECT;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_BLOB_OBJECT
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_CF
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_CF;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_CF
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_CF;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_CF
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_CLSID
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_CLSID;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_CLSID
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_CLSID;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_CLSID
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_VECTOR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_VECTOR;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_VECTOR
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_VECTOR;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_VECTOR
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_ARRAY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_ARRAY;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_ARRAY
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_ARRAY;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_ARRAY
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum VT_BYREF
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_BYREF;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_BYREF
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FVT_BYREF;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFVT_BYREF
 		{
 			get
 			{

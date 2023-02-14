@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.PackageStatus
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageStatus Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus RFUnknown
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus r_FUnknown;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageStatus Unavailable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus r_FUnavailable;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus RFUnavailable
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus r_FUnavailable;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus RFUnavailable
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageStatus InProgress
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus r_FInProgress;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus RFInProgress
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus r_FInProgress;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus RFInProgress
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageStatus Error
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus r_FError;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus RFError
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus r_FError;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus RFError
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageStatus Available
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus r_FAvailable;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus RFAvailable
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus r_FAvailable;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageStatus RFAvailable
 		{
 			get
 			{

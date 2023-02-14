@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RVisualTreeAsset
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String path
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fpath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fpath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpath
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String typeFullName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FtypeFullName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFtypeFullName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FtypeFullName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFtypeFullName
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Object asset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RObject r_Fasset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RObject RFasset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RObject r_Fasset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RObject RFasset
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Type m_CachedType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_Fm_CachedType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFm_CachedType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_Fm_CachedType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFm_CachedType
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Type type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_Ptype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPtype
+		protected Hvak.Editor.Refleaction.RSystem.RType r_Ptype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPtype
 		{
 			get
 			{

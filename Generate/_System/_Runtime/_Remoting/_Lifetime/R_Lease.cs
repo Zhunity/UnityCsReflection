@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Lifetime.Lease
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.DateTime _leaseExpireTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDateTime r_F_leaseExpireTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDateTime RF_leaseExpireTime
+		protected Hvak.Editor.Refleaction.RSystem.RDateTime r_F_leaseExpireTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDateTime RF_leaseExpireTime
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.Runtime.Remoting.Lifetime.LeaseState _currentState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_F_currentState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RF_currentState
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_F_currentState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RF_currentState
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.TimeSpan _initialLeaseTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_F_initialLeaseTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RTimeSpan RF_initialLeaseTime
+		protected Hvak.Editor.Refleaction.RSystem.RTimeSpan r_F_initialLeaseTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RTimeSpan RF_initialLeaseTime
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.TimeSpan _renewOnCallTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_F_renewOnCallTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RTimeSpan RF_renewOnCallTime
+		protected Hvak.Editor.Refleaction.RSystem.RTimeSpan r_F_renewOnCallTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RTimeSpan RF_renewOnCallTime
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.TimeSpan _sponsorshipTimeout
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_F_sponsorshipTimeout;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RTimeSpan RF_sponsorshipTimeout
+		protected Hvak.Editor.Refleaction.RSystem.RTimeSpan r_F_sponsorshipTimeout;
+		public virtual Hvak.Editor.Refleaction.RSystem.RTimeSpan RF_sponsorshipTimeout
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.Collections.ArrayList _sponsors
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_F_sponsors;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RF_sponsors
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_F_sponsors;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RF_sponsors
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.Collections.Queue _renewingSponsors
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RQueue r_F_renewingSponsors;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RQueue RF_renewingSponsors
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RQueue r_F_renewingSponsors;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RQueue RF_renewingSponsors
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.Runtime.Remoting.Lifetime.Lease+RenewalDelegate _renewalDelegate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLease.RRenewalDelegate r_F_renewalDelegate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLease.RRenewalDelegate RF_renewalDelegate
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLease.RRenewalDelegate r_F_renewalDelegate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLease.RRenewalDelegate RF_renewalDelegate
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.TimeSpan CurrentLeaseTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_PCurrentLeaseTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RTimeSpan RPCurrentLeaseTime
+		protected Hvak.Editor.Refleaction.RSystem.RTimeSpan r_PCurrentLeaseTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RTimeSpan RPCurrentLeaseTime
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.Runtime.Remoting.Lifetime.LeaseState CurrentState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_PCurrentState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RPCurrentState
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState r_PCurrentState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLeaseState RPCurrentState
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.TimeSpan InitialLeaseTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_PInitialLeaseTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RTimeSpan RPInitialLeaseTime
+		protected Hvak.Editor.Refleaction.RSystem.RTimeSpan r_PInitialLeaseTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RTimeSpan RPInitialLeaseTime
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.TimeSpan RenewOnCallTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_PRenewOnCallTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RTimeSpan RPRenewOnCallTime
+		protected Hvak.Editor.Refleaction.RSystem.RTimeSpan r_PRenewOnCallTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RTimeSpan RPRenewOnCallTime
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.TimeSpan SponsorshipTimeout
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_PSponsorshipTimeout;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RTimeSpan RPSponsorshipTimeout
+		protected Hvak.Editor.Refleaction.RSystem.RTimeSpan r_PSponsorshipTimeout;
+		public virtual Hvak.Editor.Refleaction.RSystem.RTimeSpan RPSponsorshipTimeout
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.Runtime.Remoting.ServerIdentity ObjectIdentity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
 		{
 			get
 			{
@@ -678,7 +678,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
+        public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
         {
 			@IsClient = default;
 
@@ -687,7 +687,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
             var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
         }
 
 

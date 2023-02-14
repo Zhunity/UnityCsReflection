@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.TypeNameKind
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeNameKind Name
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeNameKind r_FName;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeNameKind RFName
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeNameKind r_FName;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeNameKind RFName
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeNameKind ToString
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeNameKind r_FToString;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeNameKind RFToString
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeNameKind r_FToString;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeNameKind RFToString
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeNameKind SerializationName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeNameKind r_FSerializationName;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeNameKind RFSerializationName
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeNameKind r_FSerializationName;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeNameKind RFSerializationName
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeNameKind FullName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeNameKind r_FFullName;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeNameKind RFFullName
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeNameKind r_FFullName;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeNameKind RFFullName
 		{
 			get
 			{

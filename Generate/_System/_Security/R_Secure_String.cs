@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 {
 	/// <summary>
 	/// System.Security.SecureString
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Int32 BlockSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FBlockSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFBlockSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FBlockSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFBlockSize
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Int32 MaxSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMaxSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMaxSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMaxSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMaxSize
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Int32 length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Flength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Flength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlength
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Boolean disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fdisposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFdisposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fdisposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFdisposed
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Boolean read_only
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fread_only;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFread_only
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fread_only;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFread_only
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Byte[] data
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_Fdata;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFdata
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_Fdata;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFdata
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLength
 		{
 			get
 			{

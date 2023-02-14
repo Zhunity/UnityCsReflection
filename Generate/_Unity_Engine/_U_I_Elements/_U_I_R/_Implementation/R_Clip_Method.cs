@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.Implementation.ClipMethod
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Implementation.ClipMethod Undetermined
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod r_FUndetermined;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod RFUndetermined
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod r_FUndetermined;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod RFUndetermined
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Implementation.ClipMethod NotClipped
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod r_FNotClipped;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod RFNotClipped
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod r_FNotClipped;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod RFNotClipped
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Implementation.ClipMethod Scissor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod r_FScissor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod RFScissor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod r_FScissor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod RFScissor
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Implementation.ClipMethod ShaderDiscard
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod r_FShaderDiscard;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod RFShaderDiscard
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod r_FShaderDiscard;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod RFShaderDiscard
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Implementation.ClipMethod Stencil
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod r_FStencil;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod RFStencil
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod r_FStencil;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RClipMethod RFStencil
 		{
 			get
 			{

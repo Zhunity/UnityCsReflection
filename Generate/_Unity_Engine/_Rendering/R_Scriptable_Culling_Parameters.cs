@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.ScriptableCullingParameters
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_IsOrthographic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_IsOrthographic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_IsOrthographic
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_IsOrthographic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_IsOrthographic
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.LODParameters m_LODParameters
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLODParameters r_Fm_LODParameters;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLODParameters RFm_LODParameters
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLODParameters r_Fm_LODParameters;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLODParameters RFm_LODParameters
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 k_MaximumCullingPlaneCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_MaximumCullingPlaneCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_MaximumCullingPlaneCount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_MaximumCullingPlaneCount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_MaximumCullingPlaneCount
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 maximumCullingPlaneCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FmaximumCullingPlaneCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFmaximumCullingPlaneCount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FmaximumCullingPlaneCount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFmaximumCullingPlaneCount
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ScriptableCullingParameters+<m_CullingPlanes>e__FixedBuffer m_CullingPlanes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RScriptableCullingParameters.R__0__m_CullingPlanes__1__e__FixedBuffer r_Fm_CullingPlanes;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RScriptableCullingParameters.R__0__m_CullingPlanes__1__e__FixedBuffer RFm_CullingPlanes
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RScriptableCullingParameters.R__0__m_CullingPlanes__1__e__FixedBuffer r_Fm_CullingPlanes;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RScriptableCullingParameters.R__0__m_CullingPlanes__1__e__FixedBuffer RFm_CullingPlanes
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_CullingPlaneCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_CullingPlaneCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_CullingPlaneCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_CullingPlaneCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_CullingPlaneCount
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 m_CullingMask
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_CullingMask;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_CullingMask
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_CullingMask;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_CullingMask
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt64 m_SceneMask
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_Fm_SceneMask;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFm_SceneMask
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_Fm_SceneMask;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFm_SceneMask
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt64 m_ViewID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_Fm_ViewID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFm_ViewID
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_Fm_ViewID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFm_ViewID
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 k_LayerCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_LayerCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_LayerCount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_LayerCount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_LayerCount
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 layerCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FlayerCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFlayerCount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FlayerCount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFlayerCount
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ScriptableCullingParameters+<m_LayerFarCullDistances>e__FixedBuffer m_LayerFarCullDistances
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RScriptableCullingParameters.R__0__m_LayerFarCullDistances__1__e__FixedBuffer r_Fm_LayerFarCullDistances;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RScriptableCullingParameters.R__0__m_LayerFarCullDistances__1__e__FixedBuffer RFm_LayerFarCullDistances
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RScriptableCullingParameters.R__0__m_LayerFarCullDistances__1__e__FixedBuffer r_Fm_LayerFarCullDistances;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RScriptableCullingParameters.R__0__m_LayerFarCullDistances__1__e__FixedBuffer RFm_LayerFarCullDistances
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_LayerCull
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_LayerCull;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_LayerCull
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_LayerCull;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_LayerCull
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Matrix4x4 m_CullingMatrix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Fm_CullingMatrix;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFm_CullingMatrix
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Fm_CullingMatrix;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFm_CullingMatrix
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Vector3 m_Origin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Origin;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFm_Origin
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Origin;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFm_Origin
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single m_ShadowDistance
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_ShadowDistance;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_ShadowDistance
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_ShadowDistance;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_ShadowDistance
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single m_ShadowNearPlaneOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_ShadowNearPlaneOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_ShadowNearPlaneOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_ShadowNearPlaneOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_ShadowNearPlaneOffset
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CullingOptions m_CullingOptions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_Fm_CullingOptions;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFm_CullingOptions
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_Fm_CullingOptions;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFm_CullingOptions
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeSortingCriteria m_ReflectionProbeSortingCriteria
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria r_Fm_ReflectionProbeSortingCriteria;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria RFm_ReflectionProbeSortingCriteria
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria r_Fm_ReflectionProbeSortingCriteria;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria RFm_ReflectionProbeSortingCriteria
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraProperties m_CameraProperties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties r_Fm_CameraProperties;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties RFm_CameraProperties
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties r_Fm_CameraProperties;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties RFm_CameraProperties
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single m_AccurateOcclusionThreshold
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_AccurateOcclusionThreshold;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_AccurateOcclusionThreshold
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_AccurateOcclusionThreshold;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_AccurateOcclusionThreshold
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_MaximumPortalCullingJobs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_MaximumPortalCullingJobs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_MaximumPortalCullingJobs
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_MaximumPortalCullingJobs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_MaximumPortalCullingJobs
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 k_CullingJobCountLowerLimit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_CullingJobCountLowerLimit;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_CullingJobCountLowerLimit
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_CullingJobCountLowerLimit;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_CullingJobCountLowerLimit
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 k_CullingJobCountUpperLimit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_CullingJobCountUpperLimit;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_CullingJobCountUpperLimit
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_CullingJobCountUpperLimit;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_CullingJobCountUpperLimit
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Matrix4x4 m_StereoViewMatrix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Fm_StereoViewMatrix;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFm_StereoViewMatrix
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Fm_StereoViewMatrix;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFm_StereoViewMatrix
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Matrix4x4 m_StereoProjectionMatrix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Fm_StereoProjectionMatrix;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFm_StereoProjectionMatrix
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Fm_StereoProjectionMatrix;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFm_StereoProjectionMatrix
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single m_StereoSeparationDistance
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_StereoSeparationDistance;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_StereoSeparationDistance
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_StereoSeparationDistance;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_StereoSeparationDistance
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_maximumVisibleLights
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_maximumVisibleLights;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_maximumVisibleLights
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_maximumVisibleLights;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_maximumVisibleLights
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Boolean m_ConservativeEnclosingSphere
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_ConservativeEnclosingSphere;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_ConservativeEnclosingSphere
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_ConservativeEnclosingSphere;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_ConservativeEnclosingSphere
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_NumIterationsEnclosingSphere
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_NumIterationsEnclosingSphere;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_NumIterationsEnclosingSphere
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_NumIterationsEnclosingSphere;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_NumIterationsEnclosingSphere
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 maximumVisibleLights
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmaximumVisibleLights;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmaximumVisibleLights
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmaximumVisibleLights;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmaximumVisibleLights
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean conservativeEnclosingSphere
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PconservativeEnclosingSphere;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPconservativeEnclosingSphere
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PconservativeEnclosingSphere;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPconservativeEnclosingSphere
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 numIterationsEnclosingSphere
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PnumIterationsEnclosingSphere;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPnumIterationsEnclosingSphere
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PnumIterationsEnclosingSphere;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPnumIterationsEnclosingSphere
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 cullingPlaneCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PcullingPlaneCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPcullingPlaneCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PcullingPlaneCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPcullingPlaneCount
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean isOrthographic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisOrthographic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisOrthographic
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisOrthographic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisOrthographic
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.LODParameters lodParameters
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLODParameters r_PlodParameters;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLODParameters RPlodParameters
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLODParameters r_PlodParameters;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLODParameters RPlodParameters
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UInt32 cullingMask
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PcullingMask;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPcullingMask
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PcullingMask;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPcullingMask
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Matrix4x4 cullingMatrix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PcullingMatrix;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPcullingMatrix
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PcullingMatrix;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPcullingMatrix
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Vector3 origin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Porigin;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPorigin
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Porigin;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPorigin
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single shadowDistance
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PshadowDistance;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPshadowDistance
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PshadowDistance;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPshadowDistance
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single shadowNearPlaneOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PshadowNearPlaneOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPshadowNearPlaneOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PshadowNearPlaneOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPshadowNearPlaneOffset
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CullingOptions cullingOptions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_PcullingOptions;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RPcullingOptions
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_PcullingOptions;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RPcullingOptions
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeSortingCriteria reflectionProbeSortingCriteria
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria r_PreflectionProbeSortingCriteria;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria RPreflectionProbeSortingCriteria
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria r_PreflectionProbeSortingCriteria;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria RPreflectionProbeSortingCriteria
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraProperties cameraProperties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties r_PcameraProperties;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties RPcameraProperties
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties r_PcameraProperties;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties RPcameraProperties
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Matrix4x4 stereoViewMatrix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PstereoViewMatrix;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPstereoViewMatrix
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PstereoViewMatrix;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPstereoViewMatrix
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Matrix4x4 stereoProjectionMatrix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PstereoProjectionMatrix;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPstereoProjectionMatrix
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PstereoProjectionMatrix;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPstereoProjectionMatrix
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single stereoSeparationDistance
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PstereoSeparationDistance;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPstereoSeparationDistance
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PstereoSeparationDistance;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPstereoSeparationDistance
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single accurateOcclusionThreshold
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PaccurateOcclusionThreshold;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPaccurateOcclusionThreshold
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PaccurateOcclusionThreshold;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPaccurateOcclusionThreshold
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 maximumPortalCullingJobs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmaximumPortalCullingJobs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmaximumPortalCullingJobs
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmaximumPortalCullingJobs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmaximumPortalCullingJobs
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 cullingJobsLowerLimit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_PcullingJobsLowerLimit;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RPcullingJobsLowerLimit
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_PcullingJobsLowerLimit;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RPcullingJobsLowerLimit
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 cullingJobsUpperLimit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_PcullingJobsUpperLimit;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RPcullingJobsUpperLimit
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_PcullingJobsUpperLimit;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RPcullingJobsUpperLimit
 		{
 			get
 			{

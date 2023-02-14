@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.GenericParameterAttributes
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.GenericParameterAttributes None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.GenericParameterAttributes VarianceMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FVarianceMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFVarianceMask
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FVarianceMask;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFVarianceMask
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.GenericParameterAttributes Covariant
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FCovariant;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFCovariant
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FCovariant;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFCovariant
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.GenericParameterAttributes Contravariant
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FContravariant;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFContravariant
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FContravariant;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFContravariant
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.GenericParameterAttributes SpecialConstraintMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FSpecialConstraintMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFSpecialConstraintMask
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FSpecialConstraintMask;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFSpecialConstraintMask
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.GenericParameterAttributes ReferenceTypeConstraint
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FReferenceTypeConstraint;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFReferenceTypeConstraint
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FReferenceTypeConstraint;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFReferenceTypeConstraint
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.GenericParameterAttributes NotNullableValueTypeConstraint
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FNotNullableValueTypeConstraint;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFNotNullableValueTypeConstraint
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FNotNullableValueTypeConstraint;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFNotNullableValueTypeConstraint
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.GenericParameterAttributes DefaultConstructorConstraint
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FDefaultConstructorConstraint;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFDefaultConstructorConstraint
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes r_FDefaultConstructorConstraint;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RGenericParameterAttributes RFDefaultConstructorConstraint
 		{
 			get
 			{

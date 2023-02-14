@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.DownloadState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState Connecting
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FConnecting;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFConnecting
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FConnecting;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFConnecting
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState DownloadRequested
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FDownloadRequested;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFDownloadRequested
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FDownloadRequested;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFDownloadRequested
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState Downloading
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FDownloading;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFDownloading
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FDownloading;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFDownloading
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState Pausing
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FPausing;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFPausing
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FPausing;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFPausing
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState Paused
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FPaused;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFPaused
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FPaused;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFPaused
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState ResumeRequested
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FResumeRequested;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFResumeRequested
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FResumeRequested;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFResumeRequested
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState Completed
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FCompleted;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFCompleted
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FCompleted;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFCompleted
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState Decrypting
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FDecrypting;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFDecrypting
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FDecrypting;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFDecrypting
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState Aborted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FAborted;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFAborted
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FAborted;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFAborted
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState AbortRequsted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FAbortRequsted;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFAbortRequsted
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FAbortRequsted;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFAbortRequsted
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState Error
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FError;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFError
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FError;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFError
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState InProgress
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FInProgress;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFInProgress
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FInProgress;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFInProgress
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState InPause
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FInPause;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFInPause
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FInPause;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFInPause
 		{
 			get
 			{

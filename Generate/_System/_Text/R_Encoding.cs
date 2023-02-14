@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText
+namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
 	/// System.Text.Encoding
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding defaultEncoding
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_FdefaultEncoding;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RFdefaultEncoding
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_FdefaultEncoding;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RFdefaultEncoding
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding unicodeEncoding
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_FunicodeEncoding;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RFunicodeEncoding
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_FunicodeEncoding;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RFunicodeEncoding
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding bigEndianUnicode
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_FbigEndianUnicode;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RFbigEndianUnicode
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_FbigEndianUnicode;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RFbigEndianUnicode
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding utf7Encoding
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_Futf7Encoding;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RFutf7Encoding
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_Futf7Encoding;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RFutf7Encoding
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding utf8Encoding
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_Futf8Encoding;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RFutf8Encoding
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_Futf8Encoding;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RFutf8Encoding
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding utf32Encoding
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_Futf32Encoding;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RFutf32Encoding
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_Futf32Encoding;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RFutf32Encoding
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding asciiEncoding
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_FasciiEncoding;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RFasciiEncoding
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_FasciiEncoding;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RFasciiEncoding
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding latin1Encoding
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_Flatin1Encoding;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RFlatin1Encoding
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_Flatin1Encoding;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RFlatin1Encoding
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,System.Text.Encoding] encodings
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RSystem.RText.REncoding> r_Fencodings;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RSystem.RText.REncoding> RFencodings
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RText.REncoding> r_Fencodings;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RText.REncoding> RFencodings
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 MIMECONTF_MAILNEWS
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMIMECONTF_MAILNEWS;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMIMECONTF_MAILNEWS
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMIMECONTF_MAILNEWS;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMIMECONTF_MAILNEWS
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 MIMECONTF_BROWSER
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMIMECONTF_BROWSER;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMIMECONTF_BROWSER
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMIMECONTF_BROWSER;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMIMECONTF_BROWSER
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 MIMECONTF_SAVABLE_MAILNEWS
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMIMECONTF_SAVABLE_MAILNEWS;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMIMECONTF_SAVABLE_MAILNEWS
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMIMECONTF_SAVABLE_MAILNEWS;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMIMECONTF_SAVABLE_MAILNEWS
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 MIMECONTF_SAVABLE_BROWSER
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMIMECONTF_SAVABLE_BROWSER;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMIMECONTF_SAVABLE_BROWSER
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMIMECONTF_SAVABLE_BROWSER;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMIMECONTF_SAVABLE_BROWSER
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageDefault
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageDefault;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageDefault
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageDefault;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageDefault
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageNoOEM
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageNoOEM;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageNoOEM
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageNoOEM;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageNoOEM
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageNoMac
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageNoMac;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageNoMac
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageNoMac;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageNoMac
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageNoThread
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageNoThread;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageNoThread
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageNoThread;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageNoThread
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageNoSymbol
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageNoSymbol;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageNoSymbol
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageNoSymbol;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageNoSymbol
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageUnicode
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageUnicode;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageUnicode
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageUnicode;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageUnicode
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageBigEndian
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageBigEndian;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageBigEndian
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageBigEndian;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageBigEndian
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageWindows1252
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageWindows1252;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageWindows1252
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageWindows1252;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageWindows1252
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageMacGB2312
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageMacGB2312;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageMacGB2312
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageMacGB2312;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageMacGB2312
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageGB2312
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageGB2312;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageGB2312
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageGB2312;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageGB2312
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageMacKorean
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageMacKorean;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageMacKorean
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageMacKorean;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageMacKorean
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageDLLKorean
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageDLLKorean;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageDLLKorean
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageDLLKorean;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageDLLKorean
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISO2022JP
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISO2022JP;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISO2022JP
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISO2022JP;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISO2022JP
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISO2022JPESC
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISO2022JPESC;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISO2022JPESC
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISO2022JPESC;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISO2022JPESC
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISO2022JPSISO
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISO2022JPSISO;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISO2022JPSISO
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISO2022JPSISO;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISO2022JPSISO
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISOKorean
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISOKorean;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISOKorean
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISOKorean;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISOKorean
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISOSimplifiedCN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISOSimplifiedCN;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISOSimplifiedCN
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISOSimplifiedCN;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISOSimplifiedCN
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 EUCJP
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FEUCJP;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFEUCJP
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FEUCJP;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFEUCJP
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ChineseHZ
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FChineseHZ;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFChineseHZ
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FChineseHZ;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFChineseHZ
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 DuplicateEUCCN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDuplicateEUCCN;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDuplicateEUCCN
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDuplicateEUCCN;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDuplicateEUCCN
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 EUCCN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FEUCCN;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFEUCCN
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FEUCCN;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFEUCCN
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 EUCKR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FEUCKR;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFEUCKR
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FEUCKR;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFEUCKR
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageASCII
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageASCII;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageASCII
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageASCII;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageASCII
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISO_8859_1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISO_8859_1;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISO_8859_1
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISO_8859_1;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISO_8859_1
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIAssemese
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISCIIAssemese;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISCIIAssemese
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISCIIAssemese;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISCIIAssemese
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIBengali
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISCIIBengali;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISCIIBengali
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISCIIBengali;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISCIIBengali
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIDevanagari
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISCIIDevanagari;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISCIIDevanagari
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISCIIDevanagari;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISCIIDevanagari
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIGujarathi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISCIIGujarathi;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISCIIGujarathi
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISCIIGujarathi;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISCIIGujarathi
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIKannada
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISCIIKannada;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISCIIKannada
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISCIIKannada;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISCIIKannada
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIMalayalam
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISCIIMalayalam;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISCIIMalayalam
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISCIIMalayalam;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISCIIMalayalam
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIOriya
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISCIIOriya;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISCIIOriya
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISCIIOriya;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISCIIOriya
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIPanjabi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISCIIPanjabi;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISCIIPanjabi
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISCIIPanjabi;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISCIIPanjabi
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIITamil
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISCIITamil;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISCIITamil
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISCIITamil;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISCIITamil
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIITelugu
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISCIITelugu;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISCIITelugu
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISCIITelugu;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISCIITelugu
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 GB18030
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FGB18030;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFGB18030
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FGB18030;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFGB18030
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISO_8859_8I
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISO_8859_8I;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISO_8859_8I
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISO_8859_8I;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISO_8859_8I
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISO_8859_8_Visual
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FISO_8859_8_Visual;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFISO_8859_8_Visual
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FISO_8859_8_Visual;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFISO_8859_8_Visual
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ENC50229
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FENC50229;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFENC50229
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FENC50229;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFENC50229
 		{
 			get
 			{
@@ -881,8 +881,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageUTF7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageUTF7;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageUTF7
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageUTF7;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageUTF7
 		{
 			get
 			{
@@ -898,8 +898,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageUTF8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageUTF8;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageUTF8
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageUTF8;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageUTF8
 		{
 			get
 			{
@@ -915,8 +915,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageUTF32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageUTF32;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageUTF32
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageUTF32;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageUTF32
 		{
 			get
 			{
@@ -932,8 +932,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageUTF32BE
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCodePageUTF32BE;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCodePageUTF32BE
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCodePageUTF32BE;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCodePageUTF32BE
 		{
 			get
 			{
@@ -949,8 +949,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 m_codePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_codePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_codePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_codePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_codePage
 		{
 			get
 			{
@@ -966,8 +966,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Globalization.CodePageDataItem dataItem
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCodePageDataItem r_FdataItem;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCodePageDataItem RFdataItem
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RCodePageDataItem r_FdataItem;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RCodePageDataItem RFdataItem
 		{
 			get
 			{
@@ -983,8 +983,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean m_deserializedFromEverett
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_deserializedFromEverett;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_deserializedFromEverett
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_deserializedFromEverett;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_deserializedFromEverett
 		{
 			get
 			{
@@ -1000,8 +1000,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean m_isReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_isReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_isReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_isReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_isReadOnly
 		{
 			get
 			{
@@ -1017,8 +1017,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.EncoderFallback encoderFallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallback r_FencoderFallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallback RFencoderFallback
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoderFallback r_FencoderFallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoderFallback RFencoderFallback
 		{
 			get
 			{
@@ -1034,8 +1034,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.DecoderFallback decoderFallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RDecoderFallback r_FdecoderFallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RDecoderFallback RFdecoderFallback
+		protected Hvak.Editor.Refleaction.RSystem.RText.RDecoderFallback r_FdecoderFallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RDecoderFallback RFdecoderFallback
 		{
 			get
 			{
@@ -1051,8 +1051,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Object s_InternalSyncObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RObject r_Fs_InternalSyncObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RObject RFs_InternalSyncObject
+		protected static Hvak.Editor.Refleaction.RSystem.RObject r_Fs_InternalSyncObject;
+		public static Hvak.Editor.Refleaction.RSystem.RObject RFs_InternalSyncObject
 		{
 			get
 			{
@@ -1068,8 +1068,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Object InternalSyncObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RObject r_PInternalSyncObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RObject RPInternalSyncObject
+		protected static Hvak.Editor.Refleaction.RSystem.RObject r_PInternalSyncObject;
+		public static Hvak.Editor.Refleaction.RSystem.RObject RPInternalSyncObject
 		{
 			get
 			{
@@ -1085,8 +1085,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.ReadOnlySpan`1[System.Byte] Preamble
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> r_PPreamble;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> RPPreamble
+		protected Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> r_PPreamble;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> RPPreamble
 		{
 			get
 			{
@@ -1102,8 +1102,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String BodyName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PBodyName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPBodyName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PBodyName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPBodyName
 		{
 			get
 			{
@@ -1119,8 +1119,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String EncodingName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PEncodingName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPEncodingName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PEncodingName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPEncodingName
 		{
 			get
 			{
@@ -1136,8 +1136,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String HeaderName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PHeaderName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPHeaderName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PHeaderName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPHeaderName
 		{
 			get
 			{
@@ -1153,8 +1153,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String WebName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PWebName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPWebName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PWebName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPWebName
 		{
 			get
 			{
@@ -1170,8 +1170,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 WindowsCodePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PWindowsCodePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPWindowsCodePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PWindowsCodePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPWindowsCodePage
 		{
 			get
 			{
@@ -1187,8 +1187,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean IsBrowserDisplay
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsBrowserDisplay;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsBrowserDisplay
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsBrowserDisplay;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsBrowserDisplay
 		{
 			get
 			{
@@ -1204,8 +1204,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean IsBrowserSave
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsBrowserSave;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsBrowserSave
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsBrowserSave;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsBrowserSave
 		{
 			get
 			{
@@ -1221,8 +1221,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean IsMailNewsDisplay
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsMailNewsDisplay;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsMailNewsDisplay
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsMailNewsDisplay;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsMailNewsDisplay
 		{
 			get
 			{
@@ -1238,8 +1238,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean IsMailNewsSave
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsMailNewsSave;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsMailNewsSave
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsMailNewsSave;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsMailNewsSave
 		{
 			get
 			{
@@ -1255,8 +1255,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean IsSingleByte
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsSingleByte;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsSingleByte
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsSingleByte;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsSingleByte
 		{
 			get
 			{
@@ -1272,8 +1272,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.EncoderFallback EncoderFallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallback r_PEncoderFallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallback RPEncoderFallback
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoderFallback r_PEncoderFallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoderFallback RPEncoderFallback
 		{
 			get
 			{
@@ -1289,8 +1289,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.DecoderFallback DecoderFallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RDecoderFallback r_PDecoderFallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RDecoderFallback RPDecoderFallback
+		protected Hvak.Editor.Refleaction.RSystem.RText.RDecoderFallback r_PDecoderFallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RDecoderFallback RPDecoderFallback
 		{
 			get
 			{
@@ -1306,8 +1306,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsReadOnly
 		{
 			get
 			{
@@ -1323,8 +1323,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding ASCII
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_PASCII;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RPASCII
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_PASCII;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RPASCII
 		{
 			get
 			{
@@ -1340,8 +1340,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding Latin1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_PLatin1;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RPLatin1
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_PLatin1;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RPLatin1
 		{
 			get
 			{
@@ -1357,8 +1357,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 CodePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCodePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCodePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCodePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCodePage
 		{
 			get
 			{
@@ -1374,8 +1374,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_PDefault;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RPDefault
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_PDefault;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RPDefault
 		{
 			get
 			{
@@ -1391,8 +1391,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding Unicode
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_PUnicode;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RPUnicode
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_PUnicode;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RPUnicode
 		{
 			get
 			{
@@ -1408,8 +1408,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding BigEndianUnicode
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_PBigEndianUnicode;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RPBigEndianUnicode
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_PBigEndianUnicode;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RPBigEndianUnicode
 		{
 			get
 			{
@@ -1425,8 +1425,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding UTF7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_PUTF7;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RPUTF7
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_PUTF7;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RPUTF7
 		{
 			get
 			{
@@ -1442,8 +1442,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding UTF8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_PUTF8;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RPUTF8
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_PUTF8;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RPUTF8
 		{
 			get
 			{
@@ -1459,8 +1459,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding UTF32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_PUTF32;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.REncoding RPUTF32
+		protected static Hvak.Editor.Refleaction.RSystem.RText.REncoding r_PUTF32;
+		public static Hvak.Editor.Refleaction.RSystem.RText.REncoding RPUTF32
 		{
 			get
 			{
@@ -2945,7 +2945,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public unsafe virtual System.Int32 GetByteCount(System.Char* @chars, System.Int32 @count, SMFrame.Editor.Refleaction.RSystem.RText.REncoderNLS @encoder)
+        public unsafe virtual System.Int32 GetByteCount(System.Char* @chars, System.Int32 @count, Hvak.Editor.Refleaction.RSystem.RText.REncoderNLS @encoder)
         {
 
             var ___genericsType = new Type[] {};
@@ -3011,7 +3011,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public unsafe virtual System.Int32 GetBytes(System.Char* @chars, System.Int32 @charCount, System.Byte* @bytes, System.Int32 @byteCount, SMFrame.Editor.Refleaction.RSystem.RText.REncoderNLS @encoder)
+        public unsafe virtual System.Int32 GetBytes(System.Char* @chars, System.Int32 @charCount, System.Byte* @bytes, System.Int32 @byteCount, Hvak.Editor.Refleaction.RSystem.RText.REncoderNLS @encoder)
         {
 
             var ___genericsType = new Type[] {};
@@ -3066,7 +3066,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public unsafe virtual System.Int32 GetCharCount(System.Byte* @bytes, System.Int32 @count, SMFrame.Editor.Refleaction.RSystem.RText.RDecoderNLS @decoder)
+        public unsafe virtual System.Int32 GetCharCount(System.Byte* @bytes, System.Int32 @count, Hvak.Editor.Refleaction.RSystem.RText.RDecoderNLS @decoder)
         {
 
             var ___genericsType = new Type[] {};
@@ -3121,7 +3121,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public unsafe virtual System.Int32 GetChars(System.Byte* @bytes, System.Int32 @byteCount, System.Char* @chars, System.Int32 @charCount, SMFrame.Editor.Refleaction.RSystem.RText.RDecoderNLS @decoder)
+        public unsafe virtual System.Int32 GetChars(System.Byte* @bytes, System.Int32 @byteCount, System.Char* @chars, System.Int32 @charCount, Hvak.Editor.Refleaction.RSystem.RText.RDecoderNLS @decoder)
         {
 
             var ___genericsType = new Type[] {};
@@ -3143,7 +3143,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetChars(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @bytes, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RChar> @chars)
+        public virtual System.Int32 GetChars(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars)
         {
 
             var ___genericsType = new Type[] {};
@@ -3154,7 +3154,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.String GetString(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @bytes)
+        public virtual System.String GetString(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3330,7 +3330,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void ThrowBytesOverflow(SMFrame.Editor.Refleaction.RSystem.RText.REncoderNLS @encoder, System.Boolean @nothingEncoded)
+        public virtual void ThrowBytesOverflow(Hvak.Editor.Refleaction.RSystem.RText.REncoderNLS @encoder, System.Boolean @nothingEncoded)
         {
 
             var ___genericsType = new Type[] {};
@@ -3352,7 +3352,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void ThrowCharsOverflow(SMFrame.Editor.Refleaction.RSystem.RText.RDecoderNLS @decoder, System.Boolean @nothingDecoded)
+        public virtual void ThrowCharsOverflow(Hvak.Editor.Refleaction.RSystem.RText.RDecoderNLS @decoder, System.Boolean @nothingDecoded)
         {
 
             var ___genericsType = new Type[] {};
@@ -3363,7 +3363,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetCharCount(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @bytes)
+        public virtual System.Int32 GetCharCount(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3374,7 +3374,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetByteCount(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @chars)
+        public virtual System.Int32 GetByteCount(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars)
         {
 
             var ___genericsType = new Type[] {};
@@ -3385,7 +3385,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetBytes(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @chars, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @bytes)
+        public virtual System.Int32 GetBytes(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes)
         {
 
             var ___genericsType = new Type[] {};

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.EventModifiers
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.EventModifiers None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.EventModifiers Shift
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers r_FShift;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers RFShift
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers r_FShift;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers RFShift
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.EventModifiers Control
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers r_FControl;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers RFControl
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers r_FControl;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers RFControl
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.EventModifiers Alt
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers r_FAlt;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers RFAlt
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers r_FAlt;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers RFAlt
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.EventModifiers Command
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers r_FCommand;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers RFCommand
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers r_FCommand;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers RFCommand
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.EventModifiers Numeric
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers r_FNumeric;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers RFNumeric
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers r_FNumeric;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers RFNumeric
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.EventModifiers CapsLock
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers r_FCapsLock;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers RFCapsLock
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers r_FCapsLock;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers RFCapsLock
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.EventModifiers FunctionKey
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers r_FFunctionKey;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers RFFunctionKey
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers r_FFunctionKey;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REventModifiers RFFunctionKey
 		{
 			get
 			{

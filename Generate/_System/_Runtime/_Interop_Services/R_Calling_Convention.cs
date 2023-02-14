@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 {
 	/// <summary>
 	/// System.Runtime.InteropServices.CallingConvention
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.CallingConvention Winapi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention r_FWinapi;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention RFWinapi
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention r_FWinapi;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention RFWinapi
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.CallingConvention Cdecl
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention r_FCdecl;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention RFCdecl
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention r_FCdecl;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention RFCdecl
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.CallingConvention StdCall
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention r_FStdCall;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention RFStdCall
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention r_FStdCall;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention RFStdCall
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.CallingConvention ThisCall
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention r_FThisCall;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention RFThisCall
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention r_FThisCall;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention RFThisCall
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.CallingConvention FastCall
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention r_FFastCall;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention RFFastCall
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention r_FFastCall;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention RFFastCall
 		{
 			get
 			{

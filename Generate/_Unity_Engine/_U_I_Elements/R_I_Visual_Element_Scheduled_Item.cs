@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.IVisualElementScheduledItem
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement element
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Pelement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPelement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Pelement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPelement
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isActive
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisActive;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisActive
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisActive;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisActive
 		{
 			get
 			{

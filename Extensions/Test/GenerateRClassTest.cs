@@ -9,10 +9,10 @@ using System.Reflection;
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
-using SMFrame.Editor.Refleaction.RSystem.RReflection;
+using Hvak.Editor.Refleaction.RSystem.RReflection;
 using UnityEngine.UI;
 
-namespace SMFrame.Editor.Refleaction
+namespace Hvak.Editor.Refleaction
 {
 
 	public class ATestGenericMethod
@@ -144,7 +144,7 @@ namespace SMFrame.Editor.Refleaction
 			// 1. 类中类
 			var type = typeof(s.ins);
             //         Debug.Log(type.Name + "  " + type.FullName + "  " + type.ToString());
-            //         Debug.Log(ReflectionUtils.GetType(" SMFrame.Editor.Refleaction.GenerateRClass+s+ins"));
+            //         Debug.Log(ReflectionUtils.GetType(" Hvak.Editor.Refleaction.GenerateRClass+s+ins"));
 
             //// 2.泛型
             //type = typeof(Dictionary<,>);

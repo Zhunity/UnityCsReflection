@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class RGuid
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles AllowParenthesis
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FAllowParenthesis;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFAllowParenthesis
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FAllowParenthesis;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFAllowParenthesis
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles AllowBraces
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FAllowBraces;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFAllowBraces
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FAllowBraces;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFAllowBraces
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles AllowDashes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FAllowDashes;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFAllowDashes
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FAllowDashes;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFAllowDashes
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles AllowHexPrefix
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FAllowHexPrefix;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFAllowHexPrefix
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FAllowHexPrefix;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFAllowHexPrefix
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles RequireParenthesis
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FRequireParenthesis;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFRequireParenthesis
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FRequireParenthesis;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFRequireParenthesis
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles RequireBraces
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FRequireBraces;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFRequireBraces
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FRequireBraces;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFRequireBraces
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles RequireDashes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FRequireDashes;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFRequireDashes
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FRequireDashes;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFRequireDashes
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles RequireHexPrefix
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FRequireHexPrefix;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFRequireHexPrefix
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FRequireHexPrefix;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFRequireHexPrefix
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles HexFormat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FHexFormat;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFHexFormat
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FHexFormat;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFHexFormat
 		{
 			get
 			{
@@ -203,8 +203,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles NumberFormat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FNumberFormat;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFNumberFormat
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FNumberFormat;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFNumberFormat
 		{
 			get
 			{
@@ -220,8 +220,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles DigitFormat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FDigitFormat;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFDigitFormat
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FDigitFormat;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFDigitFormat
 		{
 			get
 			{
@@ -237,8 +237,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles BraceFormat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FBraceFormat;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFBraceFormat
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FBraceFormat;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFBraceFormat
 		{
 			get
 			{
@@ -254,8 +254,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles ParenthesisFormat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FParenthesisFormat;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFParenthesisFormat
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FParenthesisFormat;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFParenthesisFormat
 		{
 			get
 			{
@@ -271,8 +271,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidStyles Any
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FAny;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFAny
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles r_FAny;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidStyles RFAny
 		{
 			get
 			{

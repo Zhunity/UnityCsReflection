@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
+namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
 	/// System.Text.RegularExpressions.RegexBoyerMoore
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[] Positive
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_FPositive;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFPositive
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_FPositive;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFPositive
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[] NegativeASCII
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_FNegativeASCII;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFNegativeASCII
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_FNegativeASCII;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFNegativeASCII
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[][] NegativeUnicode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32>> r_FNegativeUnicode;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32>> RFNegativeUnicode
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32>> r_FNegativeUnicode;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32>> RFNegativeUnicode
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Pattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FPattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFPattern
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FPattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFPattern
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 LowASCII
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FLowASCII;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFLowASCII
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FLowASCII;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFLowASCII
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 HighASCII
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FHighASCII;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFHighASCII
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FHighASCII;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFHighASCII
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean RightToLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FRightToLeft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFRightToLeft
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FRightToLeft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFRightToLeft
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean CaseInsensitive
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FCaseInsensitive;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFCaseInsensitive
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FCaseInsensitive;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFCaseInsensitive
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Globalization.CultureInfo _culture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo r_F_culture;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo RF_culture
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo r_F_culture;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo RF_culture
 		{
 			get
 			{

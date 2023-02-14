@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.AsyncLocalValueChangedArgs`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// T <PreviousValue>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_F__0__PreviousValue__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RField RF__0__PreviousValue__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RField r_F__0__PreviousValue__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RField RF__0__PreviousValue__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// T <CurrentValue>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_F__0__CurrentValue__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RField RF__0__CurrentValue__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RField r_F__0__CurrentValue__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RField RF__0__CurrentValue__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean <ThreadContextChanged>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__ThreadContextChanged__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__ThreadContextChanged__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__ThreadContextChanged__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__ThreadContextChanged__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// T PreviousValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PPreviousValue;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPPreviousValue
+		protected Hvak.Editor.Refleaction.RProperty r_PPreviousValue;
+		public virtual Hvak.Editor.Refleaction.RProperty RPPreviousValue
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// T CurrentValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PCurrentValue;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPCurrentValue
+		protected Hvak.Editor.Refleaction.RProperty r_PCurrentValue;
+		public virtual Hvak.Editor.Refleaction.RProperty RPCurrentValue
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean ThreadContextChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PThreadContextChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPThreadContextChanged
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PThreadContextChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPThreadContextChanged
 		{
 			get
 			{

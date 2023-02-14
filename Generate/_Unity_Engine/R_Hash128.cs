@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Hash128
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt64 u64_0
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_Fu64_0;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFu64_0
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_Fu64_0;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFu64_0
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt64 u64_1
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_Fu64_1;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFu64_1
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_Fu64_1;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFu64_1
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt64 kConst
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RUInt64 r_FkConst;
-		public static SMFrame.Editor.Refleaction.RSystem.RUInt64 RFkConst
+		protected static Hvak.Editor.Refleaction.RSystem.RUInt64 r_FkConst;
+		public static Hvak.Editor.Refleaction.RSystem.RUInt64 RFkConst
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisValid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisValid
 		{
 			get
 			{
@@ -953,7 +953,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Hash128 Compute<T>(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @data) where T : struct
+        public static UnityEngine.Hash128 Compute<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -964,7 +964,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Hash128 Compute<T>(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
+        public static UnityEngine.Hash128 Compute<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -975,7 +975,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Hash128 Compute<T>(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @data) where T : struct
+        public static UnityEngine.Hash128 Compute<T>(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -986,7 +986,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Hash128 Compute<T>(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
+        public static UnityEngine.Hash128 Compute<T>(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -997,7 +997,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Hash128 Compute<T>(SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RType> @data) where T : struct
+        public static UnityEngine.Hash128 Compute<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1008,7 +1008,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Hash128 Compute<T>(SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
+        public static UnityEngine.Hash128 Compute<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1019,13 +1019,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Hash128 Compute<T>(ref SMFrame.Editor.Refleaction.RType @val) where T : struct
+        public static UnityEngine.Hash128 Compute<T>(ref Hvak.Editor.Refleaction.RType @val) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@val.Value};
             var ___result = RMCompute_GT_Ref_T.Invoke(___genericsType, ___parameters);
-			@val = new SMFrame.Editor.Refleaction.RType(___parameters[0]);
+			@val = new Hvak.Editor.Refleaction.RType(___parameters[0]);
 
             return (UnityEngine.Hash128)___result;
         }
@@ -1075,7 +1075,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Append<T>(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @data) where T : struct
+        public virtual void Append<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1086,7 +1086,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Append<T>(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
+        public virtual void Append<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1097,7 +1097,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Append<T>(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @data) where T : struct
+        public virtual void Append<T>(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1108,7 +1108,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Append<T>(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
+        public virtual void Append<T>(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1119,7 +1119,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Append<T>(SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RType> @data) where T : struct
+        public virtual void Append<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1130,7 +1130,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Append<T>(SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
+        public virtual void Append<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1141,13 +1141,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Append<T>(ref SMFrame.Editor.Refleaction.RType @val) where T : struct
+        public virtual void Append<T>(ref Hvak.Editor.Refleaction.RType @val) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@val.Value};
             var ___result = RMAppend_GT_Ref_T.Invoke(___genericsType, ___parameters);
-			@val = new SMFrame.Editor.Refleaction.RType(___parameters[0]);
+			@val = new Hvak.Editor.Refleaction.RType(___parameters[0]);
 
             
         }

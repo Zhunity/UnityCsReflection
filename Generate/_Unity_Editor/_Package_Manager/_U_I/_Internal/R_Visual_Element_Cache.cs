@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.VisualElementCache
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.VisualElement] m_Cache
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_Fm_Cache;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RFm_Cache
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_Fm_Cache;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RFm_Cache
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_Root
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_Root;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_Root
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_Root;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_Root
 		{
 			get
 			{

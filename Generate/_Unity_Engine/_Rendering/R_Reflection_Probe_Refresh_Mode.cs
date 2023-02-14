@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.ReflectionProbeRefreshMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeRefreshMode OnAwake
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeRefreshMode r_FOnAwake;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeRefreshMode RFOnAwake
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeRefreshMode r_FOnAwake;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeRefreshMode RFOnAwake
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeRefreshMode EveryFrame
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeRefreshMode r_FEveryFrame;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeRefreshMode RFEveryFrame
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeRefreshMode r_FEveryFrame;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeRefreshMode RFEveryFrame
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeRefreshMode ViaScripting
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeRefreshMode r_FViaScripting;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeRefreshMode RFViaScripting
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeRefreshMode r_FViaScripting;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeRefreshMode RFViaScripting
 		{
 			get
 			{

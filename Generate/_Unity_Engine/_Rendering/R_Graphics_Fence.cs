@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.GraphicsFence
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_Version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Version
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Version
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.GraphicsFenceType m_FenceType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RGraphicsFenceType r_Fm_FenceType;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RGraphicsFenceType RFm_FenceType
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RGraphicsFenceType r_Fm_FenceType;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RGraphicsFenceType RFm_FenceType
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean passed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Ppassed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPpassed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Ppassed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPpassed
 		{
 			get
 			{

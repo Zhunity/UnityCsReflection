@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
+namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 {
 	/// <summary>
 	/// System.Diagnostics.StackFrame
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int32 OFFSET_UNKNOWN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FOFFSET_UNKNOWN;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFOFFSET_UNKNOWN
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FOFFSET_UNKNOWN;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFOFFSET_UNKNOWN
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int32 ilOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FilOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFilOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FilOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFilOffset
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int32 nativeOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FnativeOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFnativeOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FnativeOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFnativeOffset
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int64 methodAddress
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_FmethodAddress;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFmethodAddress
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_FmethodAddress;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFmethodAddress
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.UInt32 methodIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FmethodIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFmethodIndex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FmethodIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFmethodIndex
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Reflection.MethodBase methodBase
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodBase r_FmethodBase;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodBase RFmethodBase
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RMethodBase r_FmethodBase;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RMethodBase RFmethodBase
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.String fileName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FfileName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFfileName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FfileName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFfileName
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int32 lineNumber
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FlineNumber;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlineNumber
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FlineNumber;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlineNumber
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int32 columnNumber
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcolumnNumber;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcolumnNumber
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcolumnNumber;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcolumnNumber
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.String internalMethodName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FinternalMethodName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFinternalMethodName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FinternalMethodName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFinternalMethodName
 		{
 			get
 			{

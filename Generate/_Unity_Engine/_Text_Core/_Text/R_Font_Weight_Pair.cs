@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.FontWeightPair
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset regularTypeface
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_FregularTypeface;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RFregularTypeface
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_FregularTypeface;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RFregularTypeface
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset italicTypeface
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_FitalicTypeface;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RFitalicTypeface
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_FitalicTypeface;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RFitalicTypeface
 		{
 			get
 			{

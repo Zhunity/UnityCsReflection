@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class REventBase
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+LifeCycleStatus None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+LifeCycleStatus PropagationStopped
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FPropagationStopped;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFPropagationStopped
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FPropagationStopped;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFPropagationStopped
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+LifeCycleStatus ImmediatePropagationStopped
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FImmediatePropagationStopped;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFImmediatePropagationStopped
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FImmediatePropagationStopped;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFImmediatePropagationStopped
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+LifeCycleStatus DefaultPrevented
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FDefaultPrevented;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFDefaultPrevented
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FDefaultPrevented;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFDefaultPrevented
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+LifeCycleStatus Dispatching
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FDispatching;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFDispatching
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FDispatching;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFDispatching
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+LifeCycleStatus Pooled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FPooled;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFPooled
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FPooled;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFPooled
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+LifeCycleStatus IMGUIEventIsValid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FIMGUIEventIsValid;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFIMGUIEventIsValid
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FIMGUIEventIsValid;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFIMGUIEventIsValid
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+LifeCycleStatus StopDispatch
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FStopDispatch;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFStopDispatch
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FStopDispatch;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFStopDispatch
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+LifeCycleStatus PropagateToIMGUI
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FPropagateToIMGUI;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFPropagateToIMGUI
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FPropagateToIMGUI;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFPropagateToIMGUI
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+LifeCycleStatus Dispatched
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FDispatched;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFDispatched
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FDispatched;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFDispatched
 		{
 			get
 			{
@@ -203,8 +203,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+LifeCycleStatus Processed
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FProcessed;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFProcessed
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FProcessed;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFProcessed
 		{
 			get
 			{
@@ -220,8 +220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+LifeCycleStatus ProcessedByFocusController
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FProcessedByFocusController;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFProcessedByFocusController
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus r_FProcessedByFocusController;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.RLifeCycleStatus RFProcessedByFocusController
 		{
 			get
 			{

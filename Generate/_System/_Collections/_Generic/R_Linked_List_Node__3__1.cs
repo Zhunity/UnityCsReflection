@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
+namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
 	/// System.Collections.Generic.LinkedListNode`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.LinkedList`1[T] list
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<SMFrame.Editor.Refleaction.RField> r_Flist;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<SMFrame.Editor.Refleaction.RField> RFlist
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<Hvak.Editor.Refleaction.RField> r_Flist;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<Hvak.Editor.Refleaction.RField> RFlist
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.LinkedListNode`1[T] next
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<SMFrame.Editor.Refleaction.RField> r_Fnext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<SMFrame.Editor.Refleaction.RField> RFnext
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<Hvak.Editor.Refleaction.RField> r_Fnext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<Hvak.Editor.Refleaction.RField> RFnext
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.LinkedListNode`1[T] prev
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<SMFrame.Editor.Refleaction.RField> r_Fprev;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<SMFrame.Editor.Refleaction.RField> RFprev
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<Hvak.Editor.Refleaction.RField> r_Fprev;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<Hvak.Editor.Refleaction.RField> RFprev
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// T item
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_Fitem;
-		public virtual SMFrame.Editor.Refleaction.RField RFitem
+		protected Hvak.Editor.Refleaction.RField r_Fitem;
+		public virtual Hvak.Editor.Refleaction.RField RFitem
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.LinkedList`1[T] List
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<SMFrame.Editor.Refleaction.RProperty> r_PList;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<SMFrame.Editor.Refleaction.RProperty> RPList
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<Hvak.Editor.Refleaction.RProperty> r_PList;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<Hvak.Editor.Refleaction.RProperty> RPList
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.LinkedListNode`1[T] Next
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<SMFrame.Editor.Refleaction.RProperty> r_PNext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<SMFrame.Editor.Refleaction.RProperty> RPNext
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<Hvak.Editor.Refleaction.RProperty> r_PNext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<Hvak.Editor.Refleaction.RProperty> RPNext
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.LinkedListNode`1[T] Previous
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<SMFrame.Editor.Refleaction.RProperty> r_PPrevious;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<SMFrame.Editor.Refleaction.RProperty> RPPrevious
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<Hvak.Editor.Refleaction.RProperty> r_PPrevious;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<Hvak.Editor.Refleaction.RProperty> RPPrevious
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// T Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPValue
+		protected Hvak.Editor.Refleaction.RProperty r_PValue;
+		public virtual Hvak.Editor.Refleaction.RProperty RPValue
 		{
 			get
 			{

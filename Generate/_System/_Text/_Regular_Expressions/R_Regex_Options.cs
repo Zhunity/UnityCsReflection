@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
+namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
 	/// System.Text.RegularExpressions.RegexOptions
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions IgnoreCase
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FIgnoreCase;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFIgnoreCase
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FIgnoreCase;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFIgnoreCase
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions Multiline
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FMultiline;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFMultiline
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FMultiline;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFMultiline
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions ExplicitCapture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FExplicitCapture;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFExplicitCapture
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FExplicitCapture;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFExplicitCapture
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions Compiled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FCompiled;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFCompiled
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FCompiled;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFCompiled
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions Singleline
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FSingleline;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFSingleline
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FSingleline;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFSingleline
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions IgnorePatternWhitespace
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FIgnorePatternWhitespace;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFIgnorePatternWhitespace
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FIgnorePatternWhitespace;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFIgnorePatternWhitespace
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions RightToLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FRightToLeft;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFRightToLeft
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FRightToLeft;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFRightToLeft
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions ECMAScript
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FECMAScript;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFECMAScript
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FECMAScript;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFECMAScript
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions CultureInvariant
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FCultureInvariant;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFCultureInvariant
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_FCultureInvariant;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFCultureInvariant
 		{
 			get
 			{

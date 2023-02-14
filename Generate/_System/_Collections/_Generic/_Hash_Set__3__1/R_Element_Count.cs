@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
+namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {public partial class RHashSet<T>
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 uniqueCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FuniqueCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFuniqueCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FuniqueCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFuniqueCount
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 unfoundCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FunfoundCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFunfoundCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FunfoundCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFunfoundCount
 		{
 			get
 			{

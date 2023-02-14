@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
+namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {public partial class RDictionary<TKey, TValue>
 {
 	public partial class RValueCollection
@@ -18,8 +18,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[TKey,TValue] _dictionary
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RField, SMFrame.Editor.Refleaction.RField> r_F_dictionary;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RField, SMFrame.Editor.Refleaction.RField> RF_dictionary
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RField, Hvak.Editor.Refleaction.RField> r_F_dictionary;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RField, Hvak.Editor.Refleaction.RField> RF_dictionary
 		{
 			get
 			{
@@ -35,8 +35,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_index;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_index
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_index;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_index
 		{
 			get
 			{
@@ -52,8 +52,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_version
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_version
 		{
 			get
 			{
@@ -69,8 +69,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// TValue _currentValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_F_currentValue;
-		public virtual SMFrame.Editor.Refleaction.RField RF_currentValue
+		protected Hvak.Editor.Refleaction.RField r_F_currentValue;
+		public virtual Hvak.Editor.Refleaction.RField RF_currentValue
 		{
 			get
 			{
@@ -86,8 +86,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// TValue Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PCurrent;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPCurrent
+		protected Hvak.Editor.Refleaction.RProperty r_PCurrent;
+		public virtual Hvak.Editor.Refleaction.RProperty RPCurrent
 		{
 			get
 			{
@@ -103,8 +103,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Object System.Collections.IEnumerator.Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
 		{
 			get
 			{

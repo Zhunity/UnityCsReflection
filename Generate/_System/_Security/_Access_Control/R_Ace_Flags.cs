@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.AceFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Byte value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags ObjectInherit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FObjectInherit;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFObjectInherit
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FObjectInherit;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFObjectInherit
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags ContainerInherit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FContainerInherit;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFContainerInherit
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FContainerInherit;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFContainerInherit
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags NoPropagateInherit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FNoPropagateInherit;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFNoPropagateInherit
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FNoPropagateInherit;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFNoPropagateInherit
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags InheritOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FInheritOnly;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFInheritOnly
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FInheritOnly;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFInheritOnly
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags InheritanceFlags
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FInheritanceFlags;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFInheritanceFlags
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FInheritanceFlags;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFInheritanceFlags
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags Inherited
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FInherited;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFInherited
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FInherited;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFInherited
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags SuccessfulAccess
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FSuccessfulAccess;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFSuccessfulAccess
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FSuccessfulAccess;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFSuccessfulAccess
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags FailedAccess
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FFailedAccess;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFFailedAccess
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FFailedAccess;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFFailedAccess
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags AuditFlags
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FAuditFlags;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFAuditFlags
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_FAuditFlags;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RFAuditFlags
 		{
 			get
 			{

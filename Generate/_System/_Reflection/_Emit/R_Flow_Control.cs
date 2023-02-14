@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.FlowControl
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.FlowControl Branch
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FBranch;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFBranch
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FBranch;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFBranch
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.FlowControl Break
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FBreak;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFBreak
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FBreak;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFBreak
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.FlowControl Call
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FCall;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFCall
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FCall;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFCall
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.FlowControl Cond_Branch
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FCond_Branch;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFCond_Branch
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FCond_Branch;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFCond_Branch
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.FlowControl Meta
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FMeta;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFMeta
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FMeta;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFMeta
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.FlowControl Next
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FNext;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFNext
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FNext;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFNext
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.FlowControl Phi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FPhi;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFPhi
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FPhi;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFPhi
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.FlowControl Return
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FReturn;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFReturn
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FReturn;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFReturn
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.FlowControl Throw
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FThrow;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFThrow
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_FThrow;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RFThrow
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.CancellationToken
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.CancellationTokenSource _source
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource r_F_source;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource RF_source
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource r_F_source;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource RF_source
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Action`1[System.Object] s_actionToActionObjShunt
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RObject> r_Fs_actionToActionObjShunt;
-		public static SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RObject> RFs_actionToActionObjShunt
+		protected static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RObject> r_Fs_actionToActionObjShunt;
+		public static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RObject> RFs_actionToActionObjShunt
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.CancellationToken None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationToken r_PNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationToken RPNone
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationToken r_PNone;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationToken RPNone
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsCancellationRequested
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCancellationRequested;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCancellationRequested
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCancellationRequested;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCancellationRequested
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean CanBeCanceled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PCanBeCanceled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPCanBeCanceled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PCanBeCanceled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPCanBeCanceled
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.WaitHandle WaitHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RWaitHandle r_PWaitHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RWaitHandle RPWaitHandle
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RWaitHandle r_PWaitHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RWaitHandle RPWaitHandle
 		{
 			get
 			{

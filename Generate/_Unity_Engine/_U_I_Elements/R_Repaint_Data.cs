@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.RepaintData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Matrix4x4 <currentOffset>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_F__0__currentOffset__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RF__0__currentOffset__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_F__0__currentOffset__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RF__0__currentOffset__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 <mousePosition>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_F__0__mousePosition__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RF__0__mousePosition__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_F__0__mousePosition__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RF__0__mousePosition__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Rect <currentWorldClip>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_F__0__currentWorldClip__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RF__0__currentWorldClip__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_F__0__currentWorldClip__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RF__0__currentWorldClip__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Event <repaintEvent>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.REvent r_F__0__repaintEvent__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.REvent RF__0__repaintEvent__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.REvent r_F__0__repaintEvent__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.REvent RF__0__repaintEvent__1__k__BackingField
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Matrix4x4 currentOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PcurrentOffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPcurrentOffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PcurrentOffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPcurrentOffset
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 mousePosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PmousePosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPmousePosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PmousePosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPmousePosition
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Rect currentWorldClip
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_PcurrentWorldClip;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RPcurrentWorldClip
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_PcurrentWorldClip;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RPcurrentWorldClip
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Event repaintEvent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.REvent r_PrepaintEvent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.REvent RPrepaintEvent
+		protected Hvak.Editor.Refleaction.RUnityEngine.REvent r_PrepaintEvent;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.REvent RPrepaintEvent
 		{
 			get
 			{

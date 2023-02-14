@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.GUIContent
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String m_Text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Text;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Text
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Text;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Text
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Texture m_Image
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture r_Fm_Image;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture RFm_Image
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_Fm_Image;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture RFm_Image
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String m_Tooltip
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Tooltip;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Tooltip
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Tooltip;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Tooltip
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Action OnTextChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_FOnTextChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RFOnTextChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_FOnTextChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFOnTextChanged
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUIContent s_Text
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_Fs_Text;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RFs_Text
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_Fs_Text;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RFs_Text
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUIContent s_Image
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_Fs_Image;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RFs_Image
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_Fs_Image;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RFs_Image
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUIContent s_TextImage
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_Fs_TextImage;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RFs_TextImage
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_Fs_TextImage;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RFs_TextImage
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUIContent none
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_Fnone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RFnone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_Fnone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RFnone
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtext
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtext
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Texture image
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture r_Pimage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture RPimage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_Pimage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture RPimage
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String tooltip
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptooltip;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtooltip
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptooltip;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtooltip
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 hash
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Phash;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPhash
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Phash;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPhash
 		{
 			get
 			{

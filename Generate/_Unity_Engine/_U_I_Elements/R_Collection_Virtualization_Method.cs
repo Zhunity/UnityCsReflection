@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.CollectionVirtualizationMethod
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.CollectionVirtualizationMethod FixedHeight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RCollectionVirtualizationMethod r_FFixedHeight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RCollectionVirtualizationMethod RFFixedHeight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RCollectionVirtualizationMethod r_FFixedHeight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RCollectionVirtualizationMethod RFFixedHeight
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.CollectionVirtualizationMethod DynamicHeight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RCollectionVirtualizationMethod r_FDynamicHeight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RCollectionVirtualizationMethod RFDynamicHeight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RCollectionVirtualizationMethod r_FDynamicHeight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RCollectionVirtualizationMethod RFDynamicHeight
 		{
 			get
 			{

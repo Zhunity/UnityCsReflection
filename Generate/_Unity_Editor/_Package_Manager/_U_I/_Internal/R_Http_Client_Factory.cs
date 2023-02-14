@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.HttpClientFactory
@@ -182,25 +182,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient GetASyncHTTPClient(System.String @url)
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient GetASyncHTTPClient(System.String @url)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@url};
             var ___result = RMGetASyncHTTPClient_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient PostASyncHTTPClient(System.String @url, System.String @postData)
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient PostASyncHTTPClient(System.String @url, System.String @postData)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@url, @postData};
             var ___result = RMPostASyncHTTPClient_String_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient(___result);
         }
 
 

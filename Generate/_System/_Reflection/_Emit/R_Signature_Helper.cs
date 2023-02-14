@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.SignatureHelper
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.ModuleBuilder module
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RModuleBuilder r_Fmodule;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RModuleBuilder RFmodule
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RModuleBuilder r_Fmodule;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RModuleBuilder RFmodule
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Type[] arguments
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RType> r_Farguments;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RType> RFarguments
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RType> r_Farguments;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RType> RFarguments
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.SignatureHelper+SignatureHelperType type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType r_Ftype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType RFtype
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType r_Ftype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType RFtype
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Type returnType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_FreturnType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFreturnType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_FreturnType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFreturnType
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.CallingConventions callConv
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RCallingConventions r_FcallConv;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RCallingConventions RFcallConv
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RCallingConventions r_FcallConv;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RCallingConventions RFcallConv
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Runtime.InteropServices.CallingConvention unmanagedCallConv
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention r_FunmanagedCallConv;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention RFunmanagedCallConv
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention r_FunmanagedCallConv;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCallingConvention RFunmanagedCallConv
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Type[][] modreqs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RType>> r_Fmodreqs;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RType>> RFmodreqs
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RType>> r_Fmodreqs;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RType>> RFmodreqs
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Type[][] modopts
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RType>> r_Fmodopts;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RType>> RFmodopts
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RType>> r_Fmodopts;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RType>> RFmodopts
 		{
 			get
 			{

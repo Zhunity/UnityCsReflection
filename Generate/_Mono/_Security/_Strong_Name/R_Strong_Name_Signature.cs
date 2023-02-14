@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RMono.RSecurity
+namespace Hvak.Editor.Refleaction.RMono.RSecurity
 {public partial class RStrongName
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Byte[] hash
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_Fhash;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFhash
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_Fhash;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFhash
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Byte[] signature
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_Fsignature;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFsignature
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_Fsignature;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFsignature
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.UInt32 signaturePosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FsignaturePosition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFsignaturePosition
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FsignaturePosition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFsignaturePosition
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.UInt32 signatureLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FsignatureLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFsignatureLength
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FsignatureLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFsignatureLength
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.UInt32 metadataPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FmetadataPosition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFmetadataPosition
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FmetadataPosition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFmetadataPosition
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.UInt32 metadataLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FmetadataLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFmetadataLength
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FmetadataLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFmetadataLength
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Byte cliFlag
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_FcliFlag;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFcliFlag
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_FcliFlag;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFcliFlag
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.UInt32 cliFlagPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FcliFlagPosition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFcliFlagPosition
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FcliFlagPosition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFcliFlagPosition
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// Byte[] Hash
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_PHash;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPHash
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_PHash;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPHash
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// Byte[] Signature
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_PSignature;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPSignature
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_PSignature;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPSignature
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// UInt32 MetadataPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PMetadataPosition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPMetadataPosition
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PMetadataPosition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPMetadataPosition
 		{
 			get
 			{
@@ -203,8 +203,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// UInt32 MetadataLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PMetadataLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPMetadataLength
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PMetadataLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPMetadataLength
 		{
 			get
 			{
@@ -220,8 +220,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// UInt32 SignaturePosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PSignaturePosition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPSignaturePosition
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PSignaturePosition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPSignaturePosition
 		{
 			get
 			{
@@ -237,8 +237,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// UInt32 SignatureLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PSignatureLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPSignatureLength
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PSignatureLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPSignatureLength
 		{
 			get
 			{
@@ -254,8 +254,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// Byte CliFlag
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_PCliFlag;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RPCliFlag
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_PCliFlag;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RPCliFlag
 		{
 			get
 			{
@@ -271,8 +271,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// UInt32 CliFlagPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PCliFlagPosition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPCliFlagPosition
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PCliFlagPosition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPCliFlagPosition
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
+namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 {
 	/// <summary>
 	/// UnityEditor.Overlays.OverlayAttribute
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Type m_EditorWindowType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_Fm_EditorWindowType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFm_EditorWindowType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_Fm_EditorWindowType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFm_EditorWindowType
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String m_Id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Id;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Id
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Id;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Id
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String m_UssName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_UssName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_UssName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_UssName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_UssName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean m_DefaultDisplay
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_DefaultDisplay;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_DefaultDisplay
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_DefaultDisplay;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_DefaultDisplay
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String m_DisplayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_DisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_DisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_DisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_DisplayName
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.DockZone m_DefaultDockZone
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_Fm_DefaultDockZone;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFm_DefaultDockZone
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_Fm_DefaultDockZone;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFm_DefaultDockZone
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.DockPosition m_DefaultDockPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockPosition r_Fm_DefaultDockPosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockPosition RFm_DefaultDockPosition
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockPosition r_Fm_DefaultDockPosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockPosition RFm_DefaultDockPosition
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Int32 m_DefaultDockIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_DefaultDockIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_DefaultDockIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_DefaultDockIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_DefaultDockIndex
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.Layout m_DefaultLayout
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_Fm_DefaultLayout;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFm_DefaultLayout
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_Fm_DefaultLayout;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFm_DefaultLayout
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Type editorWindowType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PeditorWindowType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPeditorWindowType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PeditorWindowType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPeditorWindowType
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPid
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPid
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PdisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPdisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PdisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPdisplayName
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String ussName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PussName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPussName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PussName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPussName
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean defaultDisplay
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PdefaultDisplay;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdefaultDisplay
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdefaultDisplay;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdefaultDisplay
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.DockZone defaultDockZone
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_PdefaultDockZone;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RPdefaultDockZone
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_PdefaultDockZone;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RPdefaultDockZone
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.DockPosition defaultDockPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockPosition r_PdefaultDockPosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockPosition RPdefaultDockPosition
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockPosition r_PdefaultDockPosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockPosition RPdefaultDockPosition
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Int32 defaultDockIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PdefaultDockIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPdefaultDockIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PdefaultDockIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPdefaultDockIndex
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.Layout defaultLayout
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_PdefaultLayout;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RPdefaultLayout
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_PdefaultLayout;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RPdefaultLayout
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Object TypeId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PTypeId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPTypeId
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PTypeId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPTypeId
 		{
 			get
 			{

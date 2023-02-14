@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.WindowAction
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFid
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFid
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.WindowAction+ExecuteHandler executeHandler
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction.RExecuteHandler r_FexecuteHandler;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction.RExecuteHandler RFexecuteHandler
+		protected Hvak.Editor.Refleaction.RUnityEditor.RWindowAction.RExecuteHandler r_FexecuteHandler;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RWindowAction.RExecuteHandler RFexecuteHandler
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Object userData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_FuserData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFuserData
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_FuserData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFuserData
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.WindowAction+ValidateHandler validateHandler
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction.RValidateHandler r_FvalidateHandler;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction.RValidateHandler RFvalidateHandler
+		protected Hvak.Editor.Refleaction.RUnityEditor.RWindowAction.RValidateHandler r_FvalidateHandler;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RWindowAction.RValidateHandler RFvalidateHandler
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String menuPath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FmenuPath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFmenuPath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FmenuPath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFmenuPath
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Nullable`1[System.Single] width
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RSingle> r_Fwidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RSingle> RFwidth
+		protected Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RSingle> r_Fwidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RSingle> RFwidth
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Texture2D icon
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_Ficon;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RFicon
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Ficon;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RFicon
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.WindowAction+DrawHandler drawHandler
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction.RDrawHandler r_FdrawHandler;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction.RDrawHandler RFdrawHandler
+		protected Hvak.Editor.Refleaction.RUnityEditor.RWindowAction.RDrawHandler r_FdrawHandler;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RWindowAction.RDrawHandler RFdrawHandler
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 priority
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fpriority;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFpriority
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fpriority;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpriority
 		{
 			get
 			{
@@ -335,36 +335,36 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction CreateWindowMenuItem(System.String @id, SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction.RExecuteHandler @executeHandler, System.String @menuPath)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RWindowAction CreateWindowMenuItem(System.String @id, Hvak.Editor.Refleaction.RUnityEditor.RWindowAction.RExecuteHandler @executeHandler, System.String @menuPath)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id, @executeHandler.Value, @menuPath};
             var ___result = RMCreateWindowMenuItem_String_ExecuteHandler_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RWindowAction(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction CreateWindowActionButton(System.String @id, SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction.RExecuteHandler @executeHandler, System.String @menuPath, System.Single @width, UnityEngine.Texture2D @icon)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RWindowAction CreateWindowActionButton(System.String @id, Hvak.Editor.Refleaction.RUnityEditor.RWindowAction.RExecuteHandler @executeHandler, System.String @menuPath, System.Single @width, UnityEngine.Texture2D @icon)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id, @executeHandler.Value, @menuPath, @width, @icon};
             var ___result = RMCreateWindowActionButton_String_ExecuteHandler_String_Single_Texture2D.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RWindowAction(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction CreateWindowActionButton(System.String @id, SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction.RExecuteHandler @executeHandler, System.String @menuPath, System.Single @width, SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction.RDrawHandler @drawHandler)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RWindowAction CreateWindowActionButton(System.String @id, Hvak.Editor.Refleaction.RUnityEditor.RWindowAction.RExecuteHandler @executeHandler, System.String @menuPath, System.Single @width, Hvak.Editor.Refleaction.RUnityEditor.RWindowAction.RDrawHandler @drawHandler)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id, @executeHandler.Value, @menuPath, @width, @drawHandler.Value};
             var ___result = RMCreateWindowActionButton_String_ExecuteHandler_String_Single_DrawHandler.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RWindowAction(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RWindowAction(___result);
         }
 
 

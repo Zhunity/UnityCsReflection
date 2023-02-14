@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.Boolean
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean m_value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_value
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_value
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 True
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FTrue;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFTrue
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FTrue;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFTrue
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 False
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FFalse;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFFalse
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FFalse;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFFalse
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String TrueLiteral
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FTrueLiteral;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFTrueLiteral
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FTrueLiteral;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFTrueLiteral
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String FalseLiteral
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FFalseLiteral;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFFalseLiteral
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FFalseLiteral;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFFalseLiteral
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String TrueString
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FTrueString;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFTrueString
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FTrueString;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFTrueString
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String FalseString
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FFalseString;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFFalseString
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FFalseString;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFFalseString
 		{
 			get
 			{
@@ -725,7 +725,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean TryFormat(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten)
+        public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten)
         {
 			@charsWritten = default;
 
@@ -793,7 +793,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean Parse(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @value)
+        public static System.Boolean Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -817,7 +817,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean TryParse(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @value, out System.Boolean @result)
+        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value, out System.Boolean @result)
         {
 			@result = default;
 
@@ -830,14 +830,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> TrimWhiteSpaceAndNull(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @value)
+        public static Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> TrimWhiteSpaceAndNull(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value.Value};
             var ___result = RMTrimWhiteSpaceAndNull_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>(___result);
         }
 
 

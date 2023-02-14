@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
+namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 {public partial class RProfilerRecorder
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorder+ControlOptions Start
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions r_FStart;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions RFStart
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions r_FStart;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions RFStart
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorder+ControlOptions Stop
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions r_FStop;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions RFStop
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions r_FStop;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions RFStop
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorder+ControlOptions Reset
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions r_FReset;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions RFReset
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions r_FReset;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions RFReset
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorder+ControlOptions Release
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions r_FRelease;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions RFRelease
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions r_FRelease;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions RFRelease
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorder+ControlOptions SetFilterToCurrentThread
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions r_FSetFilterToCurrentThread;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions RFSetFilterToCurrentThread
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions r_FSetFilterToCurrentThread;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions RFSetFilterToCurrentThread
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorder+ControlOptions SetToCollectFromAllThreads
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions r_FSetToCollectFromAllThreads;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions RFSetToCollectFromAllThreads
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions r_FSetToCollectFromAllThreads;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions RFSetToCollectFromAllThreads
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.CancellationTokenRegistration
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.CancellationCallbackInfo m_callbackInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo r_Fm_callbackInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo RFm_callbackInfo
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo r_Fm_callbackInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo RFm_callbackInfo
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SparselyPopulatedArrayAddInfo`1[System.Threading.CancellationCallbackInfo] m_registrationInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayAddInfo<SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo> r_Fm_registrationInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayAddInfo<SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo> RFm_registrationInfo
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayAddInfo<Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo> r_Fm_registrationInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayAddInfo<Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo> RFm_registrationInfo
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.CancellationToken Token
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationToken r_PToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationToken RPToken
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationToken r_PToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationToken RPToken
 		{
 			get
 			{

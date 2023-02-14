@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Quaternion
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single x
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fx;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFx
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fx;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFx
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single y
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fy;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFy
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fy;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFy
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single z
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fz;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFz
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fz;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFz
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single w
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fw;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFw
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fw;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFw
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Quaternion identityQuaternion
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RQuaternion r_FidentityQuaternion;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RQuaternion RFidentityQuaternion
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RQuaternion r_FidentityQuaternion;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RQuaternion RFidentityQuaternion
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single kEpsilon
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_FkEpsilon;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFkEpsilon
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_FkEpsilon;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFkEpsilon
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPItem_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPItem_Int32
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Quaternion identity
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RQuaternion r_Pidentity;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RQuaternion RPidentity
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RQuaternion r_Pidentity;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RQuaternion RPidentity
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 eulerAngles
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_PeulerAngles;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPeulerAngles
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_PeulerAngles;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPeulerAngles
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Quaternion normalized
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RQuaternion r_Pnormalized;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RQuaternion RPnormalized
+		protected Hvak.Editor.Refleaction.RUnityEngine.RQuaternion r_Pnormalized;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RQuaternion RPnormalized
 		{
 			get
 			{

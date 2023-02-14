@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.AuthorizationRuleCollection
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AuthorizationRule Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuthorizationRule r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuthorizationRule RPItem_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuthorizationRule r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuthorizationRule RPItem_Int32
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Collections.ArrayList InnerList
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_PInnerList;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RPInnerList
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_PInnerList;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RPInnerList
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCount
 		{
 			get
 			{

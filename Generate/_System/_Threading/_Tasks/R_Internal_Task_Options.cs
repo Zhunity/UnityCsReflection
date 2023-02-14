@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
+namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
 	/// System.Threading.Tasks.InternalTaskOptions
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.InternalTaskOptions None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.InternalTaskOptions InternalOptionsMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions r_FInternalOptionsMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions RFInternalOptionsMask
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions r_FInternalOptionsMask;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions RFInternalOptionsMask
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.InternalTaskOptions ContinuationTask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions r_FContinuationTask;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions RFContinuationTask
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions r_FContinuationTask;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions RFContinuationTask
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.InternalTaskOptions PromiseTask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions r_FPromiseTask;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions RFPromiseTask
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions r_FPromiseTask;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions RFPromiseTask
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.InternalTaskOptions LazyCancellation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions r_FLazyCancellation;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions RFLazyCancellation
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions r_FLazyCancellation;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions RFLazyCancellation
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.InternalTaskOptions QueuedByRuntime
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions r_FQueuedByRuntime;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions RFQueuedByRuntime
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions r_FQueuedByRuntime;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions RFQueuedByRuntime
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.InternalTaskOptions DoNotDispose
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions r_FDoNotDispose;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions RFDoNotDispose
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions r_FDoNotDispose;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions RFDoNotDispose
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.ShadowSamplingMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShadowSamplingMode CompareDepths
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode r_FCompareDepths;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode RFCompareDepths
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode r_FCompareDepths;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode RFCompareDepths
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShadowSamplingMode RawDepth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode r_FRawDepth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode RFRawDepth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode r_FRawDepth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode RFRawDepth
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShadowSamplingMode None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode RFNone
 		{
 			get
 			{

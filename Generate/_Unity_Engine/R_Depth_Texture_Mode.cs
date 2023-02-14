@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.DepthTextureMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.DepthTextureMode None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RDepthTextureMode r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RDepthTextureMode RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RDepthTextureMode r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RDepthTextureMode RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.DepthTextureMode Depth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RDepthTextureMode r_FDepth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RDepthTextureMode RFDepth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RDepthTextureMode r_FDepth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RDepthTextureMode RFDepth
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.DepthTextureMode DepthNormals
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RDepthTextureMode r_FDepthNormals;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RDepthTextureMode RFDepthNormals
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RDepthTextureMode r_FDepthNormals;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RDepthTextureMode RFDepthNormals
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.DepthTextureMode MotionVectors
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RDepthTextureMode r_FMotionVectors;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RDepthTextureMode RFMotionVectors
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RDepthTextureMode r_FMotionVectors;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RDepthTextureMode RFMotionVectors
 		{
 			get
 			{

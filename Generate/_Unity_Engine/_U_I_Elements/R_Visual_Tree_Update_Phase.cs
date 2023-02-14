@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.VisualTreeUpdatePhase
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualTreeUpdatePhase ViewData
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FViewData;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFViewData
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FViewData;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFViewData
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualTreeUpdatePhase Bindings
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FBindings;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFBindings
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FBindings;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFBindings
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualTreeUpdatePhase Animation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FAnimation;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFAnimation
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FAnimation;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFAnimation
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualTreeUpdatePhase Styles
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FStyles;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFStyles
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FStyles;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFStyles
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualTreeUpdatePhase Layout
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FLayout;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFLayout
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FLayout;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFLayout
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualTreeUpdatePhase TransformClip
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FTransformClip;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFTransformClip
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FTransformClip;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFTransformClip
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualTreeUpdatePhase Repaint
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FRepaint;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFRepaint
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FRepaint;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFRepaint
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualTreeUpdatePhase Count
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FCount;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFCount
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase r_FCount;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase RFCount
 		{
 			get
 			{

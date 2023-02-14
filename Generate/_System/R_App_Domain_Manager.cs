@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.AppDomainManager
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Runtime.Hosting.ApplicationActivator _activator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting.RApplicationActivator r_F_activator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting.RApplicationActivator RF_activator
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RHosting.RApplicationActivator r_F_activator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RHosting.RApplicationActivator RF_activator
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.AppDomainManagerInitializationOptions _flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions r_F_flags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions RF_flags
+		protected Hvak.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions r_F_flags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions RF_flags
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Runtime.Hosting.ApplicationActivator ApplicationActivator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting.RApplicationActivator r_PApplicationActivator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting.RApplicationActivator RPApplicationActivator
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RHosting.RApplicationActivator r_PApplicationActivator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RHosting.RApplicationActivator RPApplicationActivator
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Reflection.Assembly EntryAssembly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly r_PEntryAssembly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly RPEntryAssembly
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly r_PEntryAssembly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly RPEntryAssembly
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Threading.HostExecutionContextManager HostExecutionContextManager
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RHostExecutionContextManager r_PHostExecutionContextManager;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RHostExecutionContextManager RPHostExecutionContextManager
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RHostExecutionContextManager r_PHostExecutionContextManager;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RHostExecutionContextManager RPHostExecutionContextManager
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Security.HostSecurityManager HostSecurityManager
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManager r_PHostSecurityManager;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManager RPHostSecurityManager
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManager r_PHostSecurityManager;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManager RPHostSecurityManager
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.AppDomainManagerInitializationOptions InitializationFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions r_PInitializationFlags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions RPInitializationFlags
+		protected Hvak.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions r_PInitializationFlags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions RPInitializationFlags
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Runtime.Remoting.ServerIdentity ObjectIdentity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
 		{
 			get
 			{
@@ -464,7 +464,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
+        public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
         {
 			@IsClient = default;
 
@@ -473,7 +473,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
         }
 
 

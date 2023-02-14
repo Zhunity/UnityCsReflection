@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.BackgroundRepeat
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Repeat x
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat r_Fx;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat RFx
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat r_Fx;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat RFx
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Repeat y
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat r_Fy;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat RFy
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat r_Fy;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat RFy
 		{
 			get
 			{

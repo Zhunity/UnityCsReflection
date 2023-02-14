@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {public partial class RPackageImage
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageImage+ImageType Main
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType r_FMain;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType RFMain
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType r_FMain;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType RFMain
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageImage+ImageType Screenshot
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType r_FScreenshot;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType RFScreenshot
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType r_FScreenshot;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType RFScreenshot
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageImage+ImageType Sketchfab
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType r_FSketchfab;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType RFSketchfab
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType r_FSketchfab;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType RFSketchfab
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageImage+ImageType Youtube
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType r_FYoutube;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType RFYoutube
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType r_FYoutube;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType RFYoutube
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageImage+ImageType Vimeo
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType r_FVimeo;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType RFVimeo
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType r_FVimeo;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType RFVimeo
 		{
 			get
 			{

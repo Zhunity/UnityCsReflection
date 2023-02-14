@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.PointerType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.PointerType Mouse
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RPointerType r_FMouse;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RPointerType RFMouse
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RPointerType r_FMouse;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RPointerType RFMouse
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.PointerType Touch
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RPointerType r_FTouch;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RPointerType RFTouch
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RPointerType r_FTouch;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RPointerType RFTouch
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.PointerType Pen
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RPointerType r_FPen;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RPointerType RFPen
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RPointerType r_FPen;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RPointerType RFPen
 		{
 			get
 			{

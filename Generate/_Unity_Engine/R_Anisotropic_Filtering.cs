@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.AnisotropicFiltering
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.AnisotropicFiltering Disable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RAnisotropicFiltering r_FDisable;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RAnisotropicFiltering RFDisable
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RAnisotropicFiltering r_FDisable;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RAnisotropicFiltering RFDisable
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.AnisotropicFiltering Enable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RAnisotropicFiltering r_FEnable;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RAnisotropicFiltering RFEnable
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RAnisotropicFiltering r_FEnable;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RAnisotropicFiltering RFEnable
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.AnisotropicFiltering ForceEnable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RAnisotropicFiltering r_FForceEnable;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RAnisotropicFiltering RFForceEnable
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RAnisotropicFiltering r_FForceEnable;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RAnisotropicFiltering RFForceEnable
 		{
 			get
 			{

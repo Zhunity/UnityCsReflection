@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {public partial class RUIRenderDevice
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.UIRenderDevice+AllocationStatistics+PageStatistics[] pages
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocationStatistics.RPageStatistics> r_Fpages;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocationStatistics.RPageStatistics> RFpages
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocationStatistics.RPageStatistics> r_Fpages;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocationStatistics.RPageStatistics> RFpages
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32[] freesDeferred
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_FfreesDeferred;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFfreesDeferred
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_FfreesDeferred;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFfreesDeferred
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean completeInit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FcompleteInit;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFcompleteInit
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FcompleteInit;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFcompleteInit
 		{
 			get
 			{

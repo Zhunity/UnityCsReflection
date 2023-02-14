@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.MeshHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Alloc allocVerts
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc r_FallocVerts;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc RFallocVerts
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc r_FallocVerts;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc RFallocVerts
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Alloc allocIndices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc r_FallocIndices;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc RFallocIndices
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc r_FallocIndices;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc RFallocIndices
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 triangleCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FtriangleCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFtriangleCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FtriangleCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFtriangleCount
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Page allocPage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage r_FallocPage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage RFallocPage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage r_FallocPage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage RFallocPage
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 allocTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FallocTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFallocTime
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FallocTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFallocTime
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 updateAllocID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FupdateAllocID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFupdateAllocID
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FupdateAllocID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFupdateAllocID
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.MeshHandle poolNext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle r_FpoolNext;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle RFpoolNext
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle r_FpoolNext;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle RFpoolNext
 		{
 			get
 			{

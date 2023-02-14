@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.ButtonDisableCondition
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Func`1[System.Boolean] m_Condition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_Fm_Condition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFm_Condition
+		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RBoolean> r_Fm_Condition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RBoolean> RFm_Condition
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String <tooltip>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__tooltip__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__tooltip__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__tooltip__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__tooltip__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Nullable`1[System.Boolean] m_Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_Fm_Value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFm_Value
+		protected Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RBoolean> r_Fm_Value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RBoolean> RFm_Value
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String tooltip
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptooltip;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtooltip
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptooltip;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtooltip
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPvalue
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPvalue
 		{
 			get
 			{

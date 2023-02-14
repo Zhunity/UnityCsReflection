@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSelector
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorPart[] m_Parts
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart> r_Fm_Parts;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart> RFm_Parts
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart> r_Fm_Parts;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart> RFm_Parts
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorRelationship m_PreviousRelationship
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship r_Fm_PreviousRelationship;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship RFm_PreviousRelationship
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship r_Fm_PreviousRelationship;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship RFm_PreviousRelationship
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 pseudoStateMask
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FpseudoStateMask;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFpseudoStateMask
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FpseudoStateMask;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpseudoStateMask
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 negatedPseudoStateMask
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FnegatedPseudoStateMask;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFnegatedPseudoStateMask
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FnegatedPseudoStateMask;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFnegatedPseudoStateMask
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorPart[] parts
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart> r_Pparts;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart> RPparts
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart> r_Pparts;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart> RPparts
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorRelationship previousRelationship
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship r_PpreviousRelationship;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship RPpreviousRelationship
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship r_PpreviousRelationship;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship RPpreviousRelationship
 		{
 			get
 			{

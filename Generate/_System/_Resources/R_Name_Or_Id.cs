@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RResources
+namespace Hvak.Editor.Refleaction.RSystem.RResources
 {
 	/// <summary>
 	/// System.Resources.NameOrId
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFname
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFid
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFid
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// Boolean IsName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsName
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// Int32 Id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPId
 		{
 			get
 			{

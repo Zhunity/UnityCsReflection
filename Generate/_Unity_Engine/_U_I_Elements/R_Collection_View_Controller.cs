@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.CollectionViewController
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BaseVerticalCollectionView m_View
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVerticalCollectionView r_Fm_View;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVerticalCollectionView RFm_View
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVerticalCollectionView r_Fm_View;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVerticalCollectionView RFm_View
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.IList m_ItemsSource
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RIList r_Fm_ItemsSource;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RIList RFm_ItemsSource
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RIList r_Fm_ItemsSource;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RIList RFm_ItemsSource
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action itemsSourceChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_FitemsSourceChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RFitemsSourceChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_FitemsSourceChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFitemsSourceChanged
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action`2[System.Int32,System.Int32] itemIndexChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RSystem.RInt32> r_FitemIndexChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RSystem.RInt32> RFitemIndexChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RInt32> r_FitemIndexChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RInt32> RFitemIndexChanged
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.IList itemsSource
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RIList r_PitemsSource;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RIList RPitemsSource
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RIList r_PitemsSource;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RIList RPitemsSource
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BaseVerticalCollectionView view
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVerticalCollectionView r_Pview;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVerticalCollectionView RPview
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVerticalCollectionView r_Pview;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVerticalCollectionView RPview
 		{
 			get
 			{
@@ -689,7 +689,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InvokeMakeItem(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem)
+        public virtual void InvokeMakeItem(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem)
         {
 
             var ___genericsType = new Type[] {};
@@ -700,7 +700,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InvokeBindItem(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem, System.Int32 @index)
+        public virtual void InvokeBindItem(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -711,7 +711,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InvokeUnbindItem(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem, System.Int32 @index)
+        public virtual void InvokeUnbindItem(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -722,7 +722,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InvokeDestroyItem(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem)
+        public virtual void InvokeDestroyItem(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem)
         {
 
             var ___genericsType = new Type[] {};

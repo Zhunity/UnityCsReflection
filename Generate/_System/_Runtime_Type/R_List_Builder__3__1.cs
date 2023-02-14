@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class RRuntimeType
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// T[] _items
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RField> r_F_items;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RField> RF_items
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RField> r_F_items;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RField> RF_items
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// T _item
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_F_item;
-		public virtual SMFrame.Editor.Refleaction.RField RF_item
+		protected Hvak.Editor.Refleaction.RField r_F_item;
+		public virtual Hvak.Editor.Refleaction.RField RF_item
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_count;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_count
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_count;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_count
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _capacity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_capacity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_capacity
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_capacity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_capacity
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// T Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPItem_Int32
+		protected Hvak.Editor.Refleaction.RProperty r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RProperty RPItem_Int32
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCount
 		{
 			get
 			{

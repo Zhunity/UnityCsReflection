@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 {
 	/// <summary>
 	/// System.Security.Cryptography.HashAlgorithmName
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.String _name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_name;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_name
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_name;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_name
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.HashAlgorithmName MD5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_PMD5;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RPMD5
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_PMD5;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RPMD5
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.HashAlgorithmName SHA1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_PSHA1;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RPSHA1
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_PSHA1;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RPSHA1
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.HashAlgorithmName SHA256
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_PSHA256;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RPSHA256
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_PSHA256;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RPSHA256
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.HashAlgorithmName SHA384
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_PSHA384;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RPSHA384
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_PSHA384;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RPSHA384
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.HashAlgorithmName SHA512
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_PSHA512;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RPSHA512
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_PSHA512;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RPSHA512
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{

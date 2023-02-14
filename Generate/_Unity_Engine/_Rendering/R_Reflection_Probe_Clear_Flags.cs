@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.ReflectionProbeClearFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeClearFlags Skybox
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeClearFlags r_FSkybox;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeClearFlags RFSkybox
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeClearFlags r_FSkybox;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeClearFlags RFSkybox
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeClearFlags SolidColor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeClearFlags r_FSolidColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeClearFlags RFSolidColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeClearFlags r_FSolidColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeClearFlags RFSolidColor
 		{
 			get
 			{

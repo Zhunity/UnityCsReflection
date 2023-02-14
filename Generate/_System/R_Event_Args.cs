@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.EventArgs
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.EventArgs Empty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.REventArgs r_FEmpty;
-		public static SMFrame.Editor.Refleaction.RSystem.REventArgs RFEmpty
+		protected static Hvak.Editor.Refleaction.RSystem.REventArgs r_FEmpty;
+		public static Hvak.Editor.Refleaction.RSystem.REventArgs RFEmpty
 		{
 			get
 			{

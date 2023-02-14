@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleValueFunction
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueFunction Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction RFUnknown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction r_FUnknown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueFunction Var
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction r_FVar;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction RFVar
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction r_FVar;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction RFVar
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueFunction Env
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction r_FEnv;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction RFEnv
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction r_FEnv;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction RFEnv
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueFunction LinearGradient
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction r_FLinearGradient;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction RFLinearGradient
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction r_FLinearGradient;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueFunction RFLinearGradient
 		{
 			get
 			{

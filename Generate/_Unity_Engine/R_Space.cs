@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Space
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Space World
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RSpace r_FWorld;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RSpace RFWorld
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RSpace r_FWorld;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RSpace RFWorld
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Space Self
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RSpace r_FSelf;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RSpace RFSelf
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RSpace r_FSelf;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RSpace RFSelf
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleValueType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType Invalid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FInvalid;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFInvalid
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FInvalid;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFInvalid
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType Keyword
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FKeyword;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFKeyword
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FKeyword;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFKeyword
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType Float
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FFloat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFFloat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FFloat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFFloat
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType Dimension
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FDimension;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFDimension
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FDimension;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFDimension
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType Color
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFColor
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType ResourcePath
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FResourcePath;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFResourcePath
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FResourcePath;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFResourcePath
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType AssetReference
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FAssetReference;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFAssetReference
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FAssetReference;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFAssetReference
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType Enum
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FEnum;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFEnum
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FEnum;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFEnum
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType Variable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FVariable;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFVariable
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FVariable;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFVariable
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType String
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FString;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFString
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FString;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFString
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType Function
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FFunction;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFFunction
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FFunction;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFFunction
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType CommaSeparator
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FCommaSeparator;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFCommaSeparator
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FCommaSeparator;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFCommaSeparator
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType ScalableImage
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FScalableImage;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFScalableImage
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FScalableImage;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFScalableImage
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType MissingAssetReference
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FMissingAssetReference;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFMissingAssetReference
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_FMissingAssetReference;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFMissingAssetReference
 		{
 			get
 			{

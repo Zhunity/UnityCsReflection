@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Messaging.CallContextSecurityData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Security.Principal.IPrincipal _principal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal r_F_principal;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal RF_principal
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal r_F_principal;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal RF_principal
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Security.Principal.IPrincipal Principal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal r_PPrincipal;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal RPPrincipal
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal r_PPrincipal;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal RPPrincipal
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Boolean HasInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasInfo
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasInfo
 		{
 			get
 			{

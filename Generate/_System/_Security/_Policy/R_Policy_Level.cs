@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 {
 	/// <summary>
 	/// System.Security.Policy.PolicyLevel
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String label
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Flabel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFlabel
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Flabel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFlabel
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.CodeGroup root_code_group
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RCodeGroup r_Froot_code_group;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RCodeGroup RFroot_code_group
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RCodeGroup r_Froot_code_group;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RCodeGroup RFroot_code_group
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Collections.ArrayList full_trust_assemblies
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_Ffull_trust_assemblies;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RFfull_trust_assemblies
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_Ffull_trust_assemblies;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RFfull_trust_assemblies
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Collections.ArrayList named_permission_sets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_Fnamed_permission_sets;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RFnamed_permission_sets
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_Fnamed_permission_sets;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RFnamed_permission_sets
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String _location
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_location;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_location
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_location;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_location
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.PolicyLevelType _type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType r_F_type;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType RF_type
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType r_F_type;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType RF_type
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Collections.Hashtable fullNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable r_FfullNames;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable RFfullNames
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_FfullNames;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RFfullNames
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.SecurityElement xml
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RSecurityElement r_Fxml;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RSecurityElement RFxml
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityElement r_Fxml;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityElement RFxml
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Collections.IList FullTrustAssemblies
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RIList r_PFullTrustAssemblies;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RIList RPFullTrustAssemblies
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RIList r_PFullTrustAssemblies;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RIList RPFullTrustAssemblies
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String Label
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PLabel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPLabel
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PLabel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPLabel
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Collections.IList NamedPermissionSets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RIList r_PNamedPermissionSets;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RIList RPNamedPermissionSets
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RIList r_PNamedPermissionSets;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RIList RPNamedPermissionSets
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.CodeGroup RootCodeGroup
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RCodeGroup r_PRootCodeGroup;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RCodeGroup RPRootCodeGroup
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RCodeGroup r_PRootCodeGroup;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RCodeGroup RPRootCodeGroup
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String StoreLocation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PStoreLocation;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPStoreLocation
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PStoreLocation;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPStoreLocation
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.PolicyLevelType Type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType r_PType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType RPType
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType r_PType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType RPType
 		{
 			get
 			{

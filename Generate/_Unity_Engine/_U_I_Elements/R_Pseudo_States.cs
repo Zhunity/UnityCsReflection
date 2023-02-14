@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.PseudoStates
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PseudoStates Active
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates r_FActive;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates RFActive
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates r_FActive;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates RFActive
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PseudoStates Hover
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates r_FHover;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates RFHover
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates r_FHover;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates RFHover
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PseudoStates Checked
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates r_FChecked;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates RFChecked
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates r_FChecked;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates RFChecked
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PseudoStates Disabled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates r_FDisabled;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates RFDisabled
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates r_FDisabled;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates RFDisabled
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PseudoStates Focus
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates r_FFocus;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates RFFocus
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates r_FFocus;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates RFFocus
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PseudoStates Root
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates r_FRoot;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates RFRoot
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates r_FRoot;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates RFRoot
 		{
 			get
 			{

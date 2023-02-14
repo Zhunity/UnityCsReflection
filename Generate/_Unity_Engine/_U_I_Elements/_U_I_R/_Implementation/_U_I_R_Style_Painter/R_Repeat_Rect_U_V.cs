@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 {public partial class RUIRStylePainter
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.Rect rect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_Frect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RFrect
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_Frect;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFrect
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.Rect uv
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_Fuv;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RFuv
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_Fuv;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFuv
 		{
 			get
 			{

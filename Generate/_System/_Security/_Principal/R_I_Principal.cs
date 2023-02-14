@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 {
 	/// <summary>
 	/// System.Security.Principal.IPrincipal
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.IIdentity Identity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIIdentity r_PIdentity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIIdentity RPIdentity
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIIdentity r_PIdentity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIIdentity RPIdentity
 		{
 			get
 			{

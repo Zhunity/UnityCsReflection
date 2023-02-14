@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 {
 	/// <summary>
 	/// System.Security.Policy.PolicyStatementAttribute
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.PolicyStatementAttribute All
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute r_FAll;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute RFAll
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute r_FAll;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute RFAll
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.PolicyStatementAttribute Exclusive
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute r_FExclusive;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute RFExclusive
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute r_FExclusive;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute RFExclusive
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.PolicyStatementAttribute LevelFinal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute r_FLevelFinal;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute RFLevelFinal
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute r_FLevelFinal;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute RFLevelFinal
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.PolicyStatementAttribute Nothing
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute r_FNothing;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute RFNothing
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute r_FNothing;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute RFNothing
 		{
 			get
 			{

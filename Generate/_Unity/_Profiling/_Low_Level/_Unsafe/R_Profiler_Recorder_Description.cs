@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
+namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 {
 	/// <summary>
 	/// Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory category
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_Fcategory;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RFcategory
+		protected Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_Fcategory;
+		public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RFcategory
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Profiling.LowLevel.MarkerFlags flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_Fflags;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFflags
+		protected Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_Fflags;
+		public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFflags
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType dataType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FdataType;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFdataType
+		protected Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FdataType;
+		public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFdataType
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarkerDataUnit unitType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_FunitType;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RFunitType
+		protected Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_FunitType;
+		public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RFunitType
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 reserved0
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Freserved0;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFreserved0
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Freserved0;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFreserved0
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 nameUtf8Len
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FnameUtf8Len;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFnameUtf8Len
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FnameUtf8Len;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFnameUtf8Len
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Byte* nameUtf8
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RSystem.RByte> r_FnameUtf8;
-		public virtual SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RSystem.RByte> RFnameUtf8
+		protected Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RSystem.RByte> r_FnameUtf8;
+		public virtual Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RSystem.RByte> RFnameUtf8
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Category
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PCategory;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPCategory
+		protected Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PCategory;
+		public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPCategory
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Profiling.LowLevel.MarkerFlags Flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_PFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RPFlags
+		protected Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_PFlags;
+		public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RPFlags
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType DataType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_PDataType;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RPDataType
+		protected Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_PDataType;
+		public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RPDataType
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarkerDataUnit UnitType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_PUnitType;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RPUnitType
+		protected Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_PUnitType;
+		public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RPUnitType
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// Int32 NameUtf8Len
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PNameUtf8Len;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPNameUtf8Len
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PNameUtf8Len;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPNameUtf8Len
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// Byte* NameUtf8
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyPointer<SMFrame.Editor.Refleaction.RSystem.RByte> r_PNameUtf8;
-		public virtual SMFrame.Editor.Refleaction.RPropertyPointer<SMFrame.Editor.Refleaction.RSystem.RByte> RPNameUtf8
+		protected Hvak.Editor.Refleaction.RPropertyPointer<Hvak.Editor.Refleaction.RSystem.RByte> r_PNameUtf8;
+		public virtual Hvak.Editor.Refleaction.RPropertyPointer<Hvak.Editor.Refleaction.RSystem.RByte> RPNameUtf8
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.PropagationPaths
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ObjectPool`1[UnityEngine.UIElements.PropagationPaths] s_Pool
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RObjectPool<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths> r_Fs_Pool;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RObjectPool<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths> RFs_Pool
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RObjectPool<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths> r_Fs_Pool;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RObjectPool<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths> RFs_Pool
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualElement] trickleDownPath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_FtrickleDownPath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RFtrickleDownPath
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_FtrickleDownPath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RFtrickleDownPath
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualElement] targetElements
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_FtargetElements;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RFtargetElements
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_FtargetElements;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RFtargetElements
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualElement] bubbleUpPath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_FbubbleUpPath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RFbubbleUpPath
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_FbubbleUpPath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RFbubbleUpPath
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 k_DefaultPropagationDepth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_DefaultPropagationDepth;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_DefaultPropagationDepth
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_DefaultPropagationDepth;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_DefaultPropagationDepth
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 k_DefaultTargetCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_DefaultTargetCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_DefaultTargetCount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_DefaultTargetCount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_DefaultTargetCount
 		{
 			get
 			{
@@ -284,25 +284,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths Copy(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths Copy(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@paths.Value};
             var ___result = RMCopy_PropagationPaths.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths Build(UnityEngine.UIElements.VisualElement @elem, UnityEngine.UIElements.EventBase @evt)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths Build(UnityEngine.UIElements.VisualElement @elem, UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@elem, @evt};
             var ___result = RMBuild_VisualElement_EventBase.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths(___result);
         }
 
 

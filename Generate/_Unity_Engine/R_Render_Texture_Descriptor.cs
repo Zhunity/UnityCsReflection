@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.RenderTextureDescriptor
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 <width>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__width__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__width__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__width__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__width__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 <height>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__height__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__height__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__height__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__height__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 <msaaSamples>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__msaaSamples__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__msaaSamples__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__msaaSamples__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__msaaSamples__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 <volumeDepth>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__volumeDepth__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__volumeDepth__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__volumeDepth__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__volumeDepth__1__k__BackingField
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 <mipCount>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__mipCount__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__mipCount__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__mipCount__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__mipCount__1__k__BackingField
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.GraphicsFormat _graphicsFormat
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_F_graphicsFormat;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RF_graphicsFormat
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_F_graphicsFormat;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RF_graphicsFormat
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.GraphicsFormat <stencilFormat>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_F__0__stencilFormat__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RF__0__stencilFormat__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_F__0__stencilFormat__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RF__0__stencilFormat__1__k__BackingField
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.GraphicsFormat <depthStencilFormat>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_F__0__depthStencilFormat__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RF__0__depthStencilFormat__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_F__0__depthStencilFormat__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RF__0__depthStencilFormat__1__k__BackingField
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.TextureDimension <dimension>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_F__0__dimension__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RF__0__dimension__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_F__0__dimension__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RF__0__dimension__1__k__BackingField
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.ShadowSamplingMode <shadowSamplingMode>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode r_F__0__shadowSamplingMode__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode RF__0__shadowSamplingMode__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode r_F__0__shadowSamplingMode__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode RF__0__shadowSamplingMode__1__k__BackingField
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.VRTextureUsage <vrUsage>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVRTextureUsage r_F__0__vrUsage__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVRTextureUsage RF__0__vrUsage__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVRTextureUsage r_F__0__vrUsage__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVRTextureUsage RF__0__vrUsage__1__k__BackingField
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureCreationFlags _flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_F_flags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RF_flags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_F_flags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RF_flags
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureMemoryless <memoryless>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureMemoryless r_F__0__memoryless__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureMemoryless RF__0__memoryless__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureMemoryless r_F__0__memoryless__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureMemoryless RF__0__memoryless__1__k__BackingField
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 width
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pwidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPwidth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pwidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPwidth
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 height
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pheight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPheight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pheight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPheight
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 msaaSamples
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmsaaSamples;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmsaaSamples
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmsaaSamples;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmsaaSamples
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 volumeDepth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PvolumeDepth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPvolumeDepth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PvolumeDepth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPvolumeDepth
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 mipCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmipCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmipCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmipCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmipCount
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.GraphicsFormat graphicsFormat
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_PgraphicsFormat;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RPgraphicsFormat
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_PgraphicsFormat;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RPgraphicsFormat
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.GraphicsFormat stencilFormat
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_PstencilFormat;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RPstencilFormat
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_PstencilFormat;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RPstencilFormat
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.GraphicsFormat depthStencilFormat
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_PdepthStencilFormat;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RPdepthStencilFormat
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_PdepthStencilFormat;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RPdepthStencilFormat
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat colorFormat
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_PcolorFormat;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RPcolorFormat
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_PcolorFormat;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RPcolorFormat
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean sRGB
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PsRGB;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPsRGB
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PsRGB;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPsRGB
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 depthBufferBits
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PdepthBufferBits;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPdepthBufferBits
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PdepthBufferBits;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPdepthBufferBits
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.TextureDimension dimension
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_Pdimension;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RPdimension
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_Pdimension;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RPdimension
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.ShadowSamplingMode shadowSamplingMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode r_PshadowSamplingMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode RPshadowSamplingMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode r_PshadowSamplingMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowSamplingMode RPshadowSamplingMode
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.VRTextureUsage vrUsage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVRTextureUsage r_PvrUsage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVRTextureUsage RPvrUsage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVRTextureUsage r_PvrUsage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVRTextureUsage RPvrUsage
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureCreationFlags flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_Pflags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RPflags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_Pflags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RPflags
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureMemoryless memoryless
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureMemoryless r_Pmemoryless;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureMemoryless RPmemoryless
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureMemoryless r_Pmemoryless;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureMemoryless RPmemoryless
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean useMipMap
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PuseMipMap;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPuseMipMap
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PuseMipMap;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPuseMipMap
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean autoGenerateMips
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PautoGenerateMips;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPautoGenerateMips
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PautoGenerateMips;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPautoGenerateMips
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean enableRandomWrite
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PenableRandomWrite;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPenableRandomWrite
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PenableRandomWrite;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPenableRandomWrite
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean bindMS
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PbindMS;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPbindMS
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PbindMS;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPbindMS
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean createdFromScript
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PcreatedFromScript;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPcreatedFromScript
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcreatedFromScript;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcreatedFromScript
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean useDynamicScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PuseDynamicScale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPuseDynamicScale
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PuseDynamicScale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPuseDynamicScale
 		{
 			get
 			{

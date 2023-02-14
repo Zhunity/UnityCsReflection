@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RIO
+namespace Hvak.Editor.Refleaction.RSystem.RIO
 {
 	/// <summary>
 	/// System.IO.FileAccess
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAccess Read
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAccess r_FRead;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAccess RFRead
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAccess r_FRead;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAccess RFRead
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAccess Write
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAccess r_FWrite;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAccess RFWrite
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAccess r_FWrite;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAccess RFWrite
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAccess ReadWrite
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAccess r_FReadWrite;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAccess RFReadWrite
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAccess r_FReadWrite;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAccess RFReadWrite
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StylePropertyName
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StylePropertyId <id>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_F__0__id__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RF__0__id__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_F__0__id__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RF__0__id__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String <name>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__name__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__name__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__name__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__name__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StylePropertyId id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_Pid;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RPid
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_Pid;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RPid
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -301,14 +301,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId StylePropertyIdFromString(System.String @name)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId StylePropertyIdFromString(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
             var ___result = RMStylePropertyIdFromString_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId(___result);
         }
 
 

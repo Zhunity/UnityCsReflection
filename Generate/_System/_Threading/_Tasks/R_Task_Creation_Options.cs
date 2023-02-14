@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
+namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
 	/// System.Threading.Tasks.TaskCreationOptions
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskCreationOptions None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskCreationOptions PreferFairness
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_FPreferFairness;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFPreferFairness
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_FPreferFairness;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFPreferFairness
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskCreationOptions LongRunning
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_FLongRunning;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFLongRunning
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_FLongRunning;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFLongRunning
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskCreationOptions AttachedToParent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_FAttachedToParent;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFAttachedToParent
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_FAttachedToParent;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFAttachedToParent
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskCreationOptions DenyChildAttach
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_FDenyChildAttach;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFDenyChildAttach
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_FDenyChildAttach;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFDenyChildAttach
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskCreationOptions HideScheduler
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_FHideScheduler;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFHideScheduler
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_FHideScheduler;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFHideScheduler
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskCreationOptions RunContinuationsAsynchronously
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_FRunContinuationsAsynchronously;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFRunContinuationsAsynchronously
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_FRunContinuationsAsynchronously;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFRunContinuationsAsynchronously
 		{
 			get
 			{

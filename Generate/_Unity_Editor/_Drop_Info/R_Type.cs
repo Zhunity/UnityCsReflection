@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {public partial class RDropInfo
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DropInfo+Type Tab
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RDropInfo.RType r_FTab;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RDropInfo.RType RFTab
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RDropInfo.RType r_FTab;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RDropInfo.RType RFTab
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DropInfo+Type Pane
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RDropInfo.RType r_FPane;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RDropInfo.RType RFPane
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RDropInfo.RType r_FPane;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RDropInfo.RType RFPane
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DropInfo+Type Window
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RDropInfo.RType r_FWindow;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RDropInfo.RType RFWindow
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RDropInfo.RType r_FWindow;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RDropInfo.RType RFWindow
 		{
 			get
 			{

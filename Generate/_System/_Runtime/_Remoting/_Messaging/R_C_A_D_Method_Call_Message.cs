@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Messaging.CADMethodCallMessage
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String _uri
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_uri;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_uri
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_uri;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_uri
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Object[] _args
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RObject> r_F_args;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RObject> RF_args
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RObject> r_F_args;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RObject> RF_args
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Byte[] _serializedArgs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_F_serializedArgs;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RF_serializedArgs
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_F_serializedArgs;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RF_serializedArgs
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Int32 _propertyCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_propertyCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_propertyCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_propertyCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_propertyCount
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.CADArgHolder _callContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADArgHolder r_F_callContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADArgHolder RF_callContext
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADArgHolder r_F_callContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADArgHolder RF_callContext
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Byte[] serializedMethod
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_FserializedMethod;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFserializedMethod
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_FserializedMethod;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFserializedMethod
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String Uri
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PUri;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPUri
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PUri;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPUri
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Int32 PropertiesCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PPropertiesCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPPropertiesCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PPropertiesCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPPropertiesCount
 		{
 			get
 			{
@@ -437,14 +437,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADMethodCallMessage Create(System.Runtime.Remoting.Messaging.IMessage @callMsg)
+        public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADMethodCallMessage Create(System.Runtime.Remoting.Messaging.IMessage @callMsg)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@callMsg};
             var ___result = RMCreate_IMessage.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADMethodCallMessage(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADMethodCallMessage(___result);
         }
 
 

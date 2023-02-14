@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.TextOverflowMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextOverflowMode Overflow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FOverflow;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFOverflow
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FOverflow;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFOverflow
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextOverflowMode Ellipsis
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FEllipsis;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFEllipsis
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FEllipsis;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFEllipsis
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextOverflowMode Masking
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FMasking;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFMasking
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FMasking;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFMasking
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextOverflowMode Truncate
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FTruncate;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFTruncate
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FTruncate;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFTruncate
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextOverflowMode ScrollRect
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FScrollRect;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFScrollRect
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FScrollRect;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFScrollRect
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextOverflowMode Page
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FPage;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFPage
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FPage;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFPage
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextOverflowMode Linked
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FLinked;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFLinked
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FLinked;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFLinked
 		{
 			get
 			{

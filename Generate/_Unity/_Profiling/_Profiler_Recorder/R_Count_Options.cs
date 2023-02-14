@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
+namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 {public partial class RProfilerRecorder
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorder+CountOptions Count
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions r_FCount;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions RFCount
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions r_FCount;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions RFCount
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorder+CountOptions MaxCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions r_FMaxCount;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions RFMaxCount
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions r_FMaxCount;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions RFMaxCount
 		{
 			get
 			{

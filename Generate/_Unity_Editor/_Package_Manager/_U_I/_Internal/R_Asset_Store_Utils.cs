@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.AssetStoreUtils
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_InvalidJSONErrorMessage
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_InvalidJSONErrorMessage;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_InvalidJSONErrorMessage
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_InvalidJSONErrorMessage;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_InvalidJSONErrorMessage
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_ServerErrorMessage
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_ServerErrorMessage;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_ServerErrorMessage
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_ServerErrorMessage;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_ServerErrorMessage
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.UnityConnectProxy m_UnityConnect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy r_Fm_UnityConnect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy RFm_UnityConnect
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy r_Fm_UnityConnect;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy RFm_UnityConnect
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String assetStoreUrl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PassetStoreUrl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPassetStoreUrl
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PassetStoreUrl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPassetStoreUrl
 		{
 			get
 			{
@@ -369,7 +369,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	    {
 	    }
 
-        public virtual void ResolveDependencies(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect)
+        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect)
         {
 
             var ___genericsType = new Type[] {};
@@ -380,7 +380,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public static System.Collections.Generic.Dictionary<System.String, System.Object> ParseResponseAsDictionary(SMFrame.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient @request)
+        public static System.Collections.Generic.Dictionary<System.String, System.Object> ParseResponseAsDictionary(Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient @request)
         {
 
             var ___genericsType = new Type[] {};

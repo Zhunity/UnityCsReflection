@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.CameraProperties
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 k_NumLayers
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_NumLayers;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_NumLayers
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_NumLayers;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_NumLayers
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rect screenRect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_FscreenRect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RFscreenRect
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_FscreenRect;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFscreenRect
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Vector3 viewDir
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_FviewDir;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFviewDir
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_FviewDir;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFviewDir
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single projectionNear
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FprojectionNear;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFprojectionNear
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FprojectionNear;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFprojectionNear
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single projectionFar
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FprojectionFar;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFprojectionFar
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FprojectionFar;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFprojectionFar
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single cameraNear
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FcameraNear;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFcameraNear
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FcameraNear;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFcameraNear
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single cameraFar
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FcameraFar;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFcameraFar
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FcameraFar;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFcameraFar
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single cameraAspect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FcameraAspect;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFcameraAspect
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FcameraAspect;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFcameraAspect
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Matrix4x4 cameraToWorld
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FcameraToWorld;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFcameraToWorld
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FcameraToWorld;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFcameraToWorld
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Matrix4x4 actualWorldToClip
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FactualWorldToClip;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFactualWorldToClip
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FactualWorldToClip;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFactualWorldToClip
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Matrix4x4 cameraClipToWorld
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FcameraClipToWorld;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFcameraClipToWorld
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FcameraClipToWorld;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFcameraClipToWorld
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Matrix4x4 cameraWorldToClip
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FcameraWorldToClip;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFcameraWorldToClip
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FcameraWorldToClip;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFcameraWorldToClip
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Matrix4x4 implicitProjection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FimplicitProjection;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFimplicitProjection
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FimplicitProjection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFimplicitProjection
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Matrix4x4 stereoWorldToClipLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FstereoWorldToClipLeft;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFstereoWorldToClipLeft
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FstereoWorldToClipLeft;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFstereoWorldToClipLeft
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Matrix4x4 stereoWorldToClipRight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FstereoWorldToClipRight;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFstereoWorldToClipRight
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FstereoWorldToClipRight;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFstereoWorldToClipRight
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Matrix4x4 worldToCamera
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FworldToCamera;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFworldToCamera
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_FworldToCamera;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFworldToCamera
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Vector3 up
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fup;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFup
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fup;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFup
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Vector3 right
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fright;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFright
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fright;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFright
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Vector3 transformDirection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_FtransformDirection;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFtransformDirection
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_FtransformDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFtransformDirection
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Vector3 cameraEuler
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_FcameraEuler;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFcameraEuler
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_FcameraEuler;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFcameraEuler
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Vector3 velocity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fvelocity;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFvelocity
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fvelocity;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFvelocity
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single farPlaneWorldSpaceLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FfarPlaneWorldSpaceLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFfarPlaneWorldSpaceLength
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FfarPlaneWorldSpaceLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFfarPlaneWorldSpaceLength
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 rendererCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FrendererCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFrendererCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FrendererCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFrendererCount
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 k_PlaneCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_PlaneCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_PlaneCount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_PlaneCount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_PlaneCount
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraProperties+<m_ShadowCullPlanes>e__FixedBuffer m_ShadowCullPlanes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties.R__0__m_ShadowCullPlanes__1__e__FixedBuffer r_Fm_ShadowCullPlanes;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties.R__0__m_ShadowCullPlanes__1__e__FixedBuffer RFm_ShadowCullPlanes
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties.R__0__m_ShadowCullPlanes__1__e__FixedBuffer r_Fm_ShadowCullPlanes;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties.R__0__m_ShadowCullPlanes__1__e__FixedBuffer RFm_ShadowCullPlanes
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraProperties+<m_CameraCullPlanes>e__FixedBuffer m_CameraCullPlanes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties.R__0__m_CameraCullPlanes__1__e__FixedBuffer r_Fm_CameraCullPlanes;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties.R__0__m_CameraCullPlanes__1__e__FixedBuffer RFm_CameraCullPlanes
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties.R__0__m_CameraCullPlanes__1__e__FixedBuffer r_Fm_CameraCullPlanes;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties.R__0__m_CameraCullPlanes__1__e__FixedBuffer RFm_CameraCullPlanes
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single baseFarDistance
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FbaseFarDistance;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFbaseFarDistance
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FbaseFarDistance;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFbaseFarDistance
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Vector3 shadowCullCenter
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_FshadowCullCenter;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFshadowCullCenter
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_FshadowCullCenter;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFshadowCullCenter
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraProperties+<layerCullDistances>e__FixedBuffer layerCullDistances
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties.R__0__layerCullDistances__1__e__FixedBuffer r_FlayerCullDistances;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties.R__0__layerCullDistances__1__e__FixedBuffer RFlayerCullDistances
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties.R__0__layerCullDistances__1__e__FixedBuffer r_FlayerCullDistances;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraProperties.R__0__layerCullDistances__1__e__FixedBuffer RFlayerCullDistances
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 layerCullSpherical
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FlayerCullSpherical;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlayerCullSpherical
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FlayerCullSpherical;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlayerCullSpherical
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CoreCameraValues coreCameraValues
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues r_FcoreCameraValues;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues RFcoreCameraValues
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues r_FcoreCameraValues;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues RFcoreCameraValues
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 cameraType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FcameraType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFcameraType
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FcameraType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFcameraType
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 projectionIsOblique
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FprojectionIsOblique;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFprojectionIsOblique
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FprojectionIsOblique;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFprojectionIsOblique
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 isImplicitProjectionMatrix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FisImplicitProjectionMatrix;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFisImplicitProjectionMatrix
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FisImplicitProjectionMatrix;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFisImplicitProjectionMatrix
 		{
 			get
 			{

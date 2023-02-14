@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 {
 	/// <summary>
 	/// System.Runtime.Remoting.IRemotingTypeInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.String TypeName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PTypeName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPTypeName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PTypeName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPTypeName
 		{
 			get
 			{

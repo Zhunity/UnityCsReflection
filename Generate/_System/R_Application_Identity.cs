@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.ApplicationIdentity
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _fullName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_fullName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_fullName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_fullName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_fullName
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _codeBase
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_codeBase;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_codeBase
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_codeBase;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_codeBase
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String CodeBase
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PCodeBase;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPCodeBase
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PCodeBase;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPCodeBase
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String FullName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PFullName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPFullName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PFullName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPFullName
 		{
 			get
 			{

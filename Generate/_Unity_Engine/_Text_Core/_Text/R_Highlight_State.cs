@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.HighlightState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Color32 color
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor32 r_Fcolor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor32 RFcolor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_Fcolor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor32 RFcolor
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.Offset padding
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset r_Fpadding;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset RFpadding
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset r_Fpadding;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset RFpadding
 		{
 			get
 			{
@@ -216,7 +216,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	    {
 	    }
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RHighlightState @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RHighlightState @rhs)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RHighlightState @lhs, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RHighlightState @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -227,7 +227,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RHighlightState @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RHighlightState @rhs)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RHighlightState @lhs, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RHighlightState @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RHighlightState @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RHighlightState @other)
         {
 
             var ___genericsType = new Type[] {};

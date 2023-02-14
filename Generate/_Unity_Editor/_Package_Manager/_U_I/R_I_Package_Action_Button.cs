@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.IPackageActionButton
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtext
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtext
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// UnityEngine.Texture2D icon
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_Picon;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RPicon
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Picon;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RPicon
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String tooltip
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptooltip;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtooltip
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptooltip;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtooltip
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.Action`1[UnityEditor.PackageManager.UI.PackageSelectionArgs] action
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RPackageSelectionArgs> r_Paction;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RPackageSelectionArgs> RPaction
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RPackageSelectionArgs> r_Paction;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RPackageSelectionArgs> RPaction
 		{
 			get
 			{
@@ -114,14 +114,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionDropdownItem AddDropdownItem()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionDropdownItem AddDropdownItem()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAddDropdownItem.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionDropdownItem(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionDropdownItem(___result);
         }
 
 

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.ResourceLocation
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ResourceLocation ContainedInAnotherAssembly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceLocation r_FContainedInAnotherAssembly;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceLocation RFContainedInAnotherAssembly
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RResourceLocation r_FContainedInAnotherAssembly;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RResourceLocation RFContainedInAnotherAssembly
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ResourceLocation ContainedInManifestFile
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceLocation r_FContainedInManifestFile;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceLocation RFContainedInManifestFile
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RResourceLocation r_FContainedInManifestFile;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RResourceLocation RFContainedInManifestFile
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ResourceLocation Embedded
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceLocation r_FEmbedded;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceLocation RFEmbedded
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RResourceLocation r_FEmbedded;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RResourceLocation RFEmbedded
 		{
 			get
 			{

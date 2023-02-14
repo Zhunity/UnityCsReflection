@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {public partial class RCustomAttributeData
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.Assembly assembly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly r_Fassembly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly RFassembly
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly r_Fassembly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly RFassembly
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.IntPtr data
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fdata;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFdata
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fdata;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFdata
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.UInt32 data_length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fdata_length;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFdata_length
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fdata_length;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFdata_length
 		{
 			get
 			{

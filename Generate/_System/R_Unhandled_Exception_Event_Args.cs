@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.UnhandledExceptionEventArgs
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Object _exception
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F_exception;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF_exception
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F_exception;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF_exception
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean _isTerminating
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_isTerminating;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_isTerminating
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_isTerminating;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_isTerminating
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Object ExceptionObject
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PExceptionObject;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPExceptionObject
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PExceptionObject;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPExceptionObject
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsTerminating
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsTerminating;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsTerminating
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsTerminating;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsTerminating
 		{
 			get
 			{

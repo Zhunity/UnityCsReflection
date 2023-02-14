@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.DayOfWeek
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.DayOfWeek Sunday
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDayOfWeek r_FSunday;
-		public static SMFrame.Editor.Refleaction.RSystem.RDayOfWeek RFSunday
+		protected static Hvak.Editor.Refleaction.RSystem.RDayOfWeek r_FSunday;
+		public static Hvak.Editor.Refleaction.RSystem.RDayOfWeek RFSunday
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.DayOfWeek Monday
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDayOfWeek r_FMonday;
-		public static SMFrame.Editor.Refleaction.RSystem.RDayOfWeek RFMonday
+		protected static Hvak.Editor.Refleaction.RSystem.RDayOfWeek r_FMonday;
+		public static Hvak.Editor.Refleaction.RSystem.RDayOfWeek RFMonday
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.DayOfWeek Tuesday
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDayOfWeek r_FTuesday;
-		public static SMFrame.Editor.Refleaction.RSystem.RDayOfWeek RFTuesday
+		protected static Hvak.Editor.Refleaction.RSystem.RDayOfWeek r_FTuesday;
+		public static Hvak.Editor.Refleaction.RSystem.RDayOfWeek RFTuesday
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.DayOfWeek Wednesday
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDayOfWeek r_FWednesday;
-		public static SMFrame.Editor.Refleaction.RSystem.RDayOfWeek RFWednesday
+		protected static Hvak.Editor.Refleaction.RSystem.RDayOfWeek r_FWednesday;
+		public static Hvak.Editor.Refleaction.RSystem.RDayOfWeek RFWednesday
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.DayOfWeek Thursday
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDayOfWeek r_FThursday;
-		public static SMFrame.Editor.Refleaction.RSystem.RDayOfWeek RFThursday
+		protected static Hvak.Editor.Refleaction.RSystem.RDayOfWeek r_FThursday;
+		public static Hvak.Editor.Refleaction.RSystem.RDayOfWeek RFThursday
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.DayOfWeek Friday
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDayOfWeek r_FFriday;
-		public static SMFrame.Editor.Refleaction.RSystem.RDayOfWeek RFFriday
+		protected static Hvak.Editor.Refleaction.RSystem.RDayOfWeek r_FFriday;
+		public static Hvak.Editor.Refleaction.RSystem.RDayOfWeek RFFriday
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.DayOfWeek Saturday
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDayOfWeek r_FSaturday;
-		public static SMFrame.Editor.Refleaction.RSystem.RDayOfWeek RFSaturday
+		protected static Hvak.Editor.Refleaction.RSystem.RDayOfWeek r_FSaturday;
+		public static Hvak.Editor.Refleaction.RSystem.RDayOfWeek RFSaturday
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
+namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
 	/// UnityEngine.Yoga.YogaMeasureMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaMeasureMode Undefined
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode r_FUndefined;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode RFUndefined
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode r_FUndefined;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode RFUndefined
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaMeasureMode Exactly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode r_FExactly;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode RFExactly
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode r_FExactly;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode RFExactly
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaMeasureMode AtMost
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode r_FAtMost;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode RFAtMost
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode r_FAtMost;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode RFAtMost
 		{
 			get
 			{

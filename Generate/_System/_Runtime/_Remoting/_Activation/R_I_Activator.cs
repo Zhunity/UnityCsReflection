@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Activation.IActivator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Runtime.Remoting.Activation.ActivatorLevel Level
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel r_PLevel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel RPLevel
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel r_PLevel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel RPLevel
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Runtime.Remoting.Activation.IActivator NextActivator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RIActivator r_PNextActivator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RIActivator RPNextActivator
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RIActivator r_PNextActivator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RIActivator RPNextActivator
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.ObjectPool`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Stack`1[T] m_Stack
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<SMFrame.Editor.Refleaction.RField> r_Fm_Stack;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<SMFrame.Editor.Refleaction.RField> RFm_Stack
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<Hvak.Editor.Refleaction.RField> r_Fm_Stack;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<Hvak.Editor.Refleaction.RField> RFm_Stack
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_MaxSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_MaxSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_MaxSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_MaxSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_MaxSize
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Func`1[T] CreateFunc
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RField> r_FCreateFunc;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RField> RFCreateFunc
+		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RField> r_FCreateFunc;
+		public virtual Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RField> RFCreateFunc
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 maxSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmaxSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmaxSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmaxSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmaxSize
 		{
 			get
 			{

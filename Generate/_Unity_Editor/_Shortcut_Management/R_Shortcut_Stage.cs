@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RShortcutManagement
+namespace Hvak.Editor.Refleaction.RUnityEditor.RShortcutManagement
 {
 	/// <summary>
 	/// UnityEditor.ShortcutManagement.ShortcutStage
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RShortcutManagement
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RShortcutManagement
 		/// <summary>
 		/// UnityEditor.ShortcutManagement.ShortcutStage Begin
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RShortcutManagement.RShortcutStage r_FBegin;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RShortcutManagement.RShortcutStage RFBegin
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RShortcutManagement.RShortcutStage r_FBegin;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RShortcutManagement.RShortcutStage RFBegin
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RShortcutManagement
 		/// <summary>
 		/// UnityEditor.ShortcutManagement.ShortcutStage End
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RShortcutManagement.RShortcutStage r_FEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RShortcutManagement.RShortcutStage RFEnd
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RShortcutManagement.RShortcutStage r_FEnd;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RShortcutManagement.RShortcutStage RFEnd
 		{
 			get
 			{

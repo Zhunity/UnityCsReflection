@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class RDecimal
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 uflags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fuflags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFuflags
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fuflags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFuflags
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 uhi
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fuhi;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFuhi
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fuhi;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFuhi
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 ulo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fulo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFulo
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fulo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFulo
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 umid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fumid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFumid
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fumid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFumid
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 ulomidLE
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_FulomidLE;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFulomidLE
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_FulomidLE;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFulomidLE
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 SignMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FSignMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RUInt32 RFSignMask
+		protected static Hvak.Editor.Refleaction.RSystem.RUInt32 r_FSignMask;
+		public static Hvak.Editor.Refleaction.RSystem.RUInt32 RFSignMask
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 ScaleMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FScaleMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RUInt32 RFScaleMask
+		protected static Hvak.Editor.Refleaction.RSystem.RUInt32 r_FScaleMask;
+		public static Hvak.Editor.Refleaction.RSystem.RUInt32 RFScaleMask
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 DEC_SCALE_MAX
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDEC_SCALE_MAX;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDEC_SCALE_MAX
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDEC_SCALE_MAX;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDEC_SCALE_MAX
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 TenToPowerNine
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FTenToPowerNine;
-		public static SMFrame.Editor.Refleaction.RSystem.RUInt32 RFTenToPowerNine
+		protected static Hvak.Editor.Refleaction.RSystem.RUInt32 r_FTenToPowerNine;
+		public static Hvak.Editor.Refleaction.RSystem.RUInt32 RFTenToPowerNine
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 TenToPowerEighteen
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RUInt64 r_FTenToPowerEighteen;
-		public static SMFrame.Editor.Refleaction.RSystem.RUInt64 RFTenToPowerEighteen
+		protected static Hvak.Editor.Refleaction.RSystem.RUInt64 r_FTenToPowerEighteen;
+		public static Hvak.Editor.Refleaction.RSystem.RUInt64 RFTenToPowerEighteen
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 MaxInt32Scale
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMaxInt32Scale;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMaxInt32Scale
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMaxInt32Scale;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMaxInt32Scale
 		{
 			get
 			{
@@ -203,8 +203,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 MaxInt64Scale
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMaxInt64Scale;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMaxInt64Scale
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMaxInt64Scale;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMaxInt64Scale
 		{
 			get
 			{
@@ -220,8 +220,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32[] s_powers10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_Fs_powers10;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> RFs_powers10
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fs_powers10;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> RFs_powers10
 		{
 			get
 			{
@@ -237,8 +237,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64[] s_ulongPowers10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt64> r_Fs_ulongPowers10;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt64> RFs_ulongPowers10
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt64> r_Fs_ulongPowers10;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt64> RFs_ulongPowers10
 		{
 			get
 			{
@@ -254,8 +254,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double[] s_doublePowers10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RDouble> r_Fs_doublePowers10;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RDouble> RFs_doublePowers10
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RDouble> r_Fs_doublePowers10;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RDouble> RFs_doublePowers10
 		{
 			get
 			{
@@ -271,8 +271,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Decimal+DecCalc+PowerOvfl[] PowerOvflValues
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RPowerOvfl> r_FPowerOvflValues;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RPowerOvfl> RFPowerOvflValues
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RPowerOvfl> r_FPowerOvflValues;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RPowerOvfl> RFPowerOvflValues
 		{
 			get
 			{
@@ -288,8 +288,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt32 High
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PHigh;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPHigh
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PHigh;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPHigh
 		{
 			get
 			{
@@ -305,8 +305,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt32 Low
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PLow;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPLow
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PLow;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPLow
 		{
 			get
 			{
@@ -322,8 +322,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt32 Mid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PMid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPMid
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PMid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPMid
 		{
 			get
 			{
@@ -339,8 +339,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsNegative
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsNegative;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsNegative
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsNegative;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsNegative
 		{
 			get
 			{
@@ -356,8 +356,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Scale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PScale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPScale
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PScale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPScale
 		{
 			get
 			{
@@ -373,8 +373,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt64 Low64
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_PLow64;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RPLow64
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_PLow64;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RPLow64
 		{
 			get
 			{
@@ -1084,25 +1084,25 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void UInt64x64To128(System.UInt64 @a, System.UInt64 @b, ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @result)
+        public static void UInt64x64To128(System.UInt64 @a, System.UInt64 @b, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @result)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @result.Value};
             var ___result = RMUInt64x64To128_UInt64_UInt64_Ref_DecCalc.Invoke(___genericsType, ___parameters);
-			@result = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[2]);
+			@result = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[2]);
 
             
         }
 
 
-        public static System.UInt32 Div96By32(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @den)
+        public static System.UInt32 Div96By32(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @den)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bufNum.Value, @den};
             var ___result = RMDiv96By32_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
-			@bufNum = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[0]);
+			@bufNum = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[0]);
 
             return (System.UInt32)___result;
         }
@@ -1135,56 +1135,56 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.UInt32 Div96By64(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt64 @den)
+        public static System.UInt32 Div96By64(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt64 @den)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bufNum.Value, @den};
             var ___result = RMDiv96By64_Ref_Buf12_UInt64.Invoke(___genericsType, ___parameters);
-			@bufNum = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[0]);
+			@bufNum = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[0]);
 
             return (System.UInt32)___result;
         }
 
 
-        public static System.UInt32 Div128By96(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf16 @bufNum, ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufDen)
+        public static System.UInt32 Div128By96(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf16 @bufNum, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufDen)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bufNum.Value, @bufDen.Value};
             var ___result = RMDiv128By96_Ref_Buf16_Ref_Buf12.Invoke(___genericsType, ___parameters);
-			@bufNum = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf16(___parameters[0]);
-			@bufDen = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[1]);
+			@bufNum = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf16(___parameters[0]);
+			@bufDen = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[1]);
 
             return (System.UInt32)___result;
         }
 
 
-        public static System.UInt32 IncreaseScale(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @power)
+        public static System.UInt32 IncreaseScale(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @power)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bufNum.Value, @power};
             var ___result = RMIncreaseScale_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
-			@bufNum = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[0]);
+			@bufNum = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[0]);
 
             return (System.UInt32)___result;
         }
 
 
-        public static void IncreaseScale64(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @power)
+        public static void IncreaseScale64(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @power)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bufNum.Value, @power};
             var ___result = RMIncreaseScale64_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
-			@bufNum = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[0]);
+			@bufNum = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[0]);
 
             
         }
 
 
-        public unsafe static System.Int32 ScaleResult(SMFrame.Editor.Refleaction.RTypePointer<SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf24> @bufRes, System.UInt32 @hiRes, System.Int32 @scale)
+        public unsafe static System.Int32 ScaleResult(Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf24> @bufRes, System.UInt32 @hiRes, System.Int32 @scale)
         {
 
             var ___genericsType = new Type[] {};
@@ -1221,62 +1221,62 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 OverflowUnscale(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufQuo, System.Int32 @scale, System.Boolean @sticky)
+        public static System.Int32 OverflowUnscale(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufQuo, System.Int32 @scale, System.Boolean @sticky)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bufQuo.Value, @scale, @sticky};
             var ___result = RMOverflowUnscale_Ref_Buf12_Int32_Boolean.Invoke(___genericsType, ___parameters);
-			@bufQuo = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[0]);
+			@bufQuo = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[0]);
 
             return (System.Int32)___result;
         }
 
 
-        public static System.Int32 SearchScale(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufQuo, System.Int32 @scale)
+        public static System.Int32 SearchScale(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufQuo, System.Int32 @scale)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bufQuo.Value, @scale};
             var ___result = RMSearchScale_Ref_Buf12_Int32.Invoke(___genericsType, ___parameters);
-			@bufQuo = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[0]);
+			@bufQuo = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[0]);
 
             return (System.Int32)___result;
         }
 
 
-        public static System.Boolean Add32To96(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @value)
+        public static System.Boolean Add32To96(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bufNum.Value, @value};
             var ___result = RMAdd32To96_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
-			@bufNum = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[0]);
+			@bufNum = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RBuf12(___parameters[0]);
 
             return (System.Boolean)___result;
         }
 
 
-        public static void DecAddSub(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2, System.Boolean @sign)
+        public static void DecAddSub(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2, System.Boolean @sign)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d1.Value, @d2.Value, @sign};
             var ___result = RMDecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean.Invoke(___genericsType, ___parameters);
-			@d1 = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
-			@d2 = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[1]);
+			@d1 = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
+			@d2 = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[1]);
 
             
         }
 
 
-        public static System.Int64 VarCyFromDec(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @pdecIn)
+        public static System.Int64 VarCyFromDec(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @pdecIn)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pdecIn.Value};
             var ___result = RMVarCyFromDec_Ref_DecCalc.Invoke(___genericsType, ___parameters);
-			@pdecIn = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
+			@pdecIn = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
 
             return (System.Int64)___result;
         }
@@ -1304,40 +1304,40 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void VarDecMul(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2)
+        public static void VarDecMul(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d1.Value, @d2.Value};
             var ___result = RMVarDecMul_Ref_DecCalc_Ref_DecCalc.Invoke(___genericsType, ___parameters);
-			@d1 = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
-			@d2 = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[1]);
+			@d1 = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
+			@d2 = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[1]);
 
             
         }
 
 
-        public static void VarDecFromR4(System.Single @input, out SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @result)
+        public static void VarDecFromR4(System.Single @input, out Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @result)
         {
 			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @result.Value};
             var ___result = RMVarDecFromR4_Single_Out_DecCalc.Invoke(___genericsType, ___parameters);
-			@result = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[1]);
+			@result = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[1]);
 
             
         }
 
 
-        public static void VarDecFromR8(System.Double @input, out SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @result)
+        public static void VarDecFromR8(System.Double @input, out Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @result)
         {
 			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @result.Value};
             var ___result = RMVarDecFromR8_Double_Out_DecCalc.Invoke(___genericsType, ___parameters);
-			@result = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[1]);
+			@result = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[1]);
 
             
         }
@@ -1376,64 +1376,64 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void VarDecDiv(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2)
+        public static void VarDecDiv(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d1.Value, @d2.Value};
             var ___result = RMVarDecDiv_Ref_DecCalc_Ref_DecCalc.Invoke(___genericsType, ___parameters);
-			@d1 = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
-			@d2 = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[1]);
+			@d1 = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
+			@d2 = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[1]);
 
             
         }
 
 
-        public static void VarDecMod(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2)
+        public static void VarDecMod(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d1.Value, @d2.Value};
             var ___result = RMVarDecMod_Ref_DecCalc_Ref_DecCalc.Invoke(___genericsType, ___parameters);
-			@d1 = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
-			@d2 = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[1]);
+			@d1 = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
+			@d2 = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[1]);
 
             
         }
 
 
-        public static void VarDecModFull(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2, System.Int32 @scale)
+        public static void VarDecModFull(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d1, ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d2, System.Int32 @scale)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d1.Value, @d2.Value, @scale};
             var ___result = RMVarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32.Invoke(___genericsType, ___parameters);
-			@d1 = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
-			@d2 = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[1]);
+			@d1 = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
+			@d2 = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[1]);
 
             
         }
 
 
-        public static void InternalRound(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d, System.UInt32 @scale, SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode @mode)
+        public static void InternalRound(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @d, System.UInt32 @scale, Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode @mode)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d.Value, @scale, @mode.Value};
             var ___result = RMInternalRound_Ref_DecCalc_UInt32_RoundingMode.Invoke(___genericsType, ___parameters);
-			@d = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
+			@d = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
 
             
         }
 
 
-        public static System.UInt32 DecDivMod1E9(ref SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc @value)
+        public static System.UInt32 DecDivMod1E9(ref Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value.Value};
             var ___result = RMDecDivMod1E9_Ref_DecCalc.Invoke(___genericsType, ___parameters);
-			@value = new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
+			@value = new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___parameters[0]);
 
             return (System.UInt32)___result;
         }

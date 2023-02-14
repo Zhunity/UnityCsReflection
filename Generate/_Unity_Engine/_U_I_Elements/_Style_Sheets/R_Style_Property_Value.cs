@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSheets.StylePropertyValue
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheet sheet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_Fsheet;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RFsheet
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_Fsheet;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RFsheet
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueHandle handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle r_Fhandle;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle RFhandle
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle r_Fhandle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle RFhandle
 		{
 			get
 			{

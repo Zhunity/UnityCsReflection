@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {public partial class RCultureInfo
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 ansi
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fansi;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFansi
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fansi;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFansi
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 ebcdic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Febcdic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFebcdic
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Febcdic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFebcdic
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 mac
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fmac;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFmac
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fmac;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFmac
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 oem
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Foem;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFoem
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Foem;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFoem
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean right_to_left
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fright_to_left;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFright_to_left
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fright_to_left;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFright_to_left
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Byte list_sep
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Flist_sep;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFlist_sep
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Flist_sep;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFlist_sep
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText
+namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
 	/// System.Text.EncodingProvider
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Object s_InternalSyncObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RObject r_Fs_InternalSyncObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RObject RFs_InternalSyncObject
+		protected static Hvak.Editor.Refleaction.RSystem.RObject r_Fs_InternalSyncObject;
+		public static Hvak.Editor.Refleaction.RSystem.RObject RFs_InternalSyncObject
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.EncodingProvider[] s_providers
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RText.REncodingProvider> r_Fs_providers;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RText.REncodingProvider> RFs_providers
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RText.REncodingProvider> r_Fs_providers;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RText.REncodingProvider> RFs_providers
 		{
 			get
 			{

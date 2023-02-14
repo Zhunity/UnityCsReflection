@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.ByReference`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr _value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_F_value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RF_value
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_F_value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RF_value
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// T& Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPValue
+		protected Hvak.Editor.Refleaction.RProperty r_PValue;
+		public virtual Hvak.Editor.Refleaction.RProperty RPValue
 		{
 			get
 			{

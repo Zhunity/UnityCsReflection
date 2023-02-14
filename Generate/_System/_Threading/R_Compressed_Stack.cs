@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.CompressedStack
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Collections.ArrayList _list
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_F_list;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RF_list
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_F_list;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RF_list
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Collections.IList List
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RIList r_PList;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RIList RPList
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RIList r_PList;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RIList RPList
 		{
 			get
 			{

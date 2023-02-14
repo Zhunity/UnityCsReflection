@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.ColorSpace
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ColorSpace Uninitialized
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColorSpace r_FUninitialized;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColorSpace RFUninitialized
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColorSpace r_FUninitialized;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColorSpace RFUninitialized
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ColorSpace Gamma
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColorSpace r_FGamma;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColorSpace RFGamma
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColorSpace r_FGamma;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColorSpace RFGamma
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ColorSpace Linear
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColorSpace r_FLinear;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColorSpace RFLinear
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColorSpace r_FLinear;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColorSpace RFLinear
 		{
 			get
 			{

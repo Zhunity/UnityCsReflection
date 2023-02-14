@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.CoreCameraValues
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 filterMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FfilterMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfilterMode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FfilterMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfilterMode
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 cullingMask
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FcullingMask;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFcullingMask
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FcullingMask;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFcullingMask
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 instanceID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FinstanceID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFinstanceID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FinstanceID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFinstanceID
 		{
 			get
 			{
@@ -233,7 +233,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 	    {
 	    }
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -266,7 +266,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @left, SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @right)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @left, Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -277,7 +277,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @left, SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @right)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @left, Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @right)
         {
 
             var ___genericsType = new Type[] {};

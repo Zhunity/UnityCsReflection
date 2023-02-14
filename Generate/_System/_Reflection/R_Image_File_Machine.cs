@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.ImageFileMachine
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ImageFileMachine I386
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RImageFileMachine r_FI386;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RImageFileMachine RFI386
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RImageFileMachine r_FI386;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RImageFileMachine RFI386
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ImageFileMachine IA64
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RImageFileMachine r_FIA64;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RImageFileMachine RFIA64
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RImageFileMachine r_FIA64;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RImageFileMachine RFIA64
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ImageFileMachine AMD64
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RImageFileMachine r_FAMD64;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RImageFileMachine RFAMD64
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RImageFileMachine r_FAMD64;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RImageFileMachine RFAMD64
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ImageFileMachine ARM
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RImageFileMachine r_FARM;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RImageFileMachine RFARM
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RImageFileMachine r_FARM;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RImageFileMachine RFARM
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
 	/// UnityEngine.TextCore.LowLevel.MultipleSubstitutionRecord
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32 m_TargetGlyphID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_TargetGlyphID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_TargetGlyphID
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_TargetGlyphID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_TargetGlyphID
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32[] m_SubstituteGlyphIDs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_Fm_SubstituteGlyphIDs;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> RFm_SubstituteGlyphIDs
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fm_SubstituteGlyphIDs;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> RFm_SubstituteGlyphIDs
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32 targetGlyphID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PtargetGlyphID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPtargetGlyphID
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PtargetGlyphID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPtargetGlyphID
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32[] substituteGlyphIDs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_PsubstituteGlyphIDs;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> RPsubstituteGlyphIDs
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RUInt32> r_PsubstituteGlyphIDs;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RUInt32> RPsubstituteGlyphIDs
 		{
 			get
 			{

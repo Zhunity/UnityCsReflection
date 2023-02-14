@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.Char
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Char m_value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RChar r_Fm_value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RChar RFm_value
+		protected Hvak.Editor.Refleaction.RSystem.RChar r_Fm_value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RChar RFm_value
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Char MaxValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RChar r_FMaxValue;
-		public static SMFrame.Editor.Refleaction.RSystem.RChar RFMaxValue
+		protected static Hvak.Editor.Refleaction.RSystem.RChar r_FMaxValue;
+		public static Hvak.Editor.Refleaction.RSystem.RChar RFMaxValue
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Char MinValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RChar r_FMinValue;
-		public static SMFrame.Editor.Refleaction.RSystem.RChar RFMinValue
+		protected static Hvak.Editor.Refleaction.RSystem.RChar r_FMinValue;
+		public static Hvak.Editor.Refleaction.RSystem.RChar RFMinValue
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Byte[] s_categoryForLatin1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_Fs_categoryForLatin1;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFs_categoryForLatin1
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_Fs_categoryForLatin1;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFs_categoryForLatin1
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 UNICODE_PLANE00_END
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FUNICODE_PLANE00_END;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFUNICODE_PLANE00_END
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FUNICODE_PLANE00_END;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFUNICODE_PLANE00_END
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 UNICODE_PLANE01_START
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FUNICODE_PLANE01_START;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFUNICODE_PLANE01_START
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FUNICODE_PLANE01_START;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFUNICODE_PLANE01_START
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 UNICODE_PLANE16_END
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FUNICODE_PLANE16_END;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFUNICODE_PLANE16_END
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FUNICODE_PLANE16_END;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFUNICODE_PLANE16_END
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 HIGH_SURROGATE_START
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FHIGH_SURROGATE_START;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFHIGH_SURROGATE_START
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FHIGH_SURROGATE_START;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFHIGH_SURROGATE_START
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 LOW_SURROGATE_END
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FLOW_SURROGATE_END;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFLOW_SURROGATE_END
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FLOW_SURROGATE_END;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFLOW_SURROGATE_END
 		{
 			get
 			{

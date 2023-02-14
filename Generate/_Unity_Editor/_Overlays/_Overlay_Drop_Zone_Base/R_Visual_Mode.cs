@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
+namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 {public partial class ROverlayDropZoneBase
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayDropZoneBase+VisualMode Insert
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode r_FInsert;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode RFInsert
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode r_FInsert;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode RFInsert
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayDropZoneBase+VisualMode AddToStart
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode r_FAddToStart;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode RFAddToStart
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode r_FAddToStart;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode RFAddToStart
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayDropZoneBase+VisualMode AddToEnd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode r_FAddToEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode RFAddToEnd
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode r_FAddToEnd;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode RFAddToEnd
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayDropZoneBase+VisualMode Custom
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode r_FCustom;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode RFCustom
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode r_FCustom;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode RFCustom
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayDropZoneBase+VisualMode Disabled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode r_FDisabled;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode RFDisabled
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode r_FDisabled;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase.RVisualMode RFDisabled
 		{
 			get
 			{

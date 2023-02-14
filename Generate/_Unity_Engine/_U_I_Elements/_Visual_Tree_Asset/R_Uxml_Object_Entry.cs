@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RVisualTreeAsset
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 parentId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FparentId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFparentId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FparentId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFparentId
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.UxmlObjectAsset] uxmlObjectAssets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUxmlObjectAsset> r_FuxmlObjectAssets;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUxmlObjectAsset> RFuxmlObjectAssets
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUxmlObjectAsset> r_FuxmlObjectAssets;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUxmlObjectAsset> RFuxmlObjectAssets
 		{
 			get
 			{

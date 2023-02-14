@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
+namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
 	/// System.Text.RegularExpressions.MatchCollection
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Regex _regex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex r_F_regex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex RF_regex
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex r_F_regex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex RF_regex
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Text.RegularExpressions.Match] _matches
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch> r_F_matches;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch> RF_matches
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch> r_F_matches;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch> RF_matches
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean _done
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_done;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_done
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_done;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_done
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String _input
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_input;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_input
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_input;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_input
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _beginning
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_beginning;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_beginning
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_beginning;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_beginning
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_length;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_length
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_length;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_length
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _startat
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_startat;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_startat
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_startat;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_startat
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _prevlen
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_prevlen;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_prevlen
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_prevlen;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_prevlen
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsReadOnly
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCount
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Match Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch RPItem_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch RPItem_Int32
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean IsSynchronized
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsSynchronized;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsSynchronized
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsSynchronized;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsSynchronized
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Object SyncRoot
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSyncRoot;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSyncRoot
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSyncRoot;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSyncRoot
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Match System.Collections.Generic.IList<System.Text.RegularExpressions.Match>.Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch r_PSystem__2__Collections__2__Generic__2__IList__0__System__2__Text__2__RegularExpressions__2__Match__1____2__Item_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch RPSystem__2__Collections__2__Generic__2__IList__0__System__2__Text__2__RegularExpressions__2__Match__1____2__Item_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch r_PSystem__2__Collections__2__Generic__2__IList__0__System__2__Text__2__RegularExpressions__2__Match__1____2__Item_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch RPSystem__2__Collections__2__Generic__2__IList__0__System__2__Text__2__RegularExpressions__2__Match__1____2__Item_Int32
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean System.Collections.IList.IsFixedSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PSystem__2__Collections__2__IList__2__IsFixedSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPSystem__2__Collections__2__IList__2__IsFixedSize
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PSystem__2__Collections__2__IList__2__IsFixedSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPSystem__2__Collections__2__IList__2__IsFixedSize
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Object System.Collections.IList.Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IList__2__Item_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IList__2__Item_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IList__2__Item_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IList__2__Item_Int32
 		{
 			get
 			{

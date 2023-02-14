@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleTranslate
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Translate m_Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTranslate r_Fm_Value;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTranslate RFm_Value
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTranslate r_Fm_Value;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTranslate RFm_Value
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleKeyword m_Keyword
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_Fm_Keyword;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFm_Keyword
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_Fm_Keyword;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFm_Keyword
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Translate value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTranslate r_Pvalue;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTranslate RPvalue
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTranslate r_Pvalue;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTranslate RPvalue
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleKeyword keyword
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_Pkeyword;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RPkeyword
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_Pkeyword;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RPkeyword
 		{
 			get
 			{

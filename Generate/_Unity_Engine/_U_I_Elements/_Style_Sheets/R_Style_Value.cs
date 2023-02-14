@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSheets.StyleValue
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StylePropertyId id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_Fid;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RFid
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_Fid;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RFid
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleKeyword keyword
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_Fkeyword;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFkeyword
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_Fkeyword;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFkeyword
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Single number
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fnumber;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFnumber
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fnumber;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFnumber
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.Length length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_Flength;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFlength
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_Flength;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFlength
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.Color color
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFcolor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFcolor
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Runtime.InteropServices.GCHandle resource
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle r_Fresource;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle RFresource
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle r_Fresource;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle RFresource
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.BackgroundPosition position
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition r_Fposition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition RFposition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition r_Fposition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition RFposition
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.BackgroundRepeat repeat
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundRepeat r_Frepeat;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundRepeat RFrepeat
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundRepeat r_Frepeat;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundRepeat RFrepeat
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Messaging.IMessage
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Collections.IDictionary Properties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RIDictionary r_PProperties;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RIDictionary RPProperties
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RIDictionary r_PProperties;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RIDictionary RPProperties
 		{
 			get
 			{

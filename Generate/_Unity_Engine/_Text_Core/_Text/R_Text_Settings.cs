@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.TextSettings
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_Version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Version
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Version
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset m_DefaultFontAsset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_Fm_DefaultFontAsset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RFm_DefaultFontAsset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_Fm_DefaultFontAsset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RFm_DefaultFontAsset
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_DefaultFontAssetPath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_DefaultFontAssetPath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_DefaultFontAssetPath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_DefaultFontAssetPath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_DefaultFontAssetPath
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.FontAsset] m_FallbackFontAssets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset> r_Fm_FallbackFontAssets;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset> RFm_FallbackFontAssets
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset> r_Fm_FallbackFontAssets;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset> RFm_FallbackFontAssets
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean m_MatchMaterialPreset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_MatchMaterialPreset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_MatchMaterialPreset
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_MatchMaterialPreset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_MatchMaterialPreset
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_MissingCharacterUnicode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_MissingCharacterUnicode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_MissingCharacterUnicode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_MissingCharacterUnicode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_MissingCharacterUnicode
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean m_ClearDynamicDataOnBuild
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_ClearDynamicDataOnBuild;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_ClearDynamicDataOnBuild
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_ClearDynamicDataOnBuild;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_ClearDynamicDataOnBuild
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.SpriteAsset m_DefaultSpriteAsset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset r_Fm_DefaultSpriteAsset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset RFm_DefaultSpriteAsset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset r_Fm_DefaultSpriteAsset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset RFm_DefaultSpriteAsset
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_DefaultSpriteAssetPath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_DefaultSpriteAssetPath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_DefaultSpriteAssetPath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_DefaultSpriteAssetPath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_DefaultSpriteAssetPath
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.SpriteAsset] m_FallbackSpriteAssets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset> r_Fm_FallbackSpriteAssets;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset> RFm_FallbackSpriteAssets
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset> r_Fm_FallbackSpriteAssets;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset> RFm_FallbackSpriteAssets
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32 m_MissingSpriteCharacterUnicode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_MissingSpriteCharacterUnicode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_MissingSpriteCharacterUnicode
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_MissingSpriteCharacterUnicode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_MissingSpriteCharacterUnicode
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextStyleSheet m_DefaultStyleSheet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyleSheet r_Fm_DefaultStyleSheet;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyleSheet RFm_DefaultStyleSheet
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyleSheet r_Fm_DefaultStyleSheet;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyleSheet RFm_DefaultStyleSheet
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_StyleSheetsResourcePath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_StyleSheetsResourcePath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_StyleSheetsResourcePath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_StyleSheetsResourcePath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_StyleSheetsResourcePath
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_DefaultColorGradientPresetsPath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_DefaultColorGradientPresetsPath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_DefaultColorGradientPresetsPath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_DefaultColorGradientPresetsPath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_DefaultColorGradientPresetsPath
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.UnicodeLineBreakingRules m_UnicodeLineBreakingRules
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RUnicodeLineBreakingRules r_Fm_UnicodeLineBreakingRules;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RUnicodeLineBreakingRules RFm_UnicodeLineBreakingRules
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RUnicodeLineBreakingRules r_Fm_UnicodeLineBreakingRules;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RUnicodeLineBreakingRules RFm_UnicodeLineBreakingRules
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean m_UseModernHangulLineBreakingRules
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_UseModernHangulLineBreakingRules;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_UseModernHangulLineBreakingRules
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_UseModernHangulLineBreakingRules;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_UseModernHangulLineBreakingRules
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean m_DisplayWarnings
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_DisplayWarnings;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_DisplayWarnings
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_DisplayWarnings;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_DisplayWarnings
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.TextCore.Text.FontAsset] m_FontLookup
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset> r_Fm_FontLookup;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset> RFm_FontLookup
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset> r_Fm_FontLookup;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset> RFm_FontLookup
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.TextSettings+FontReferenceMap] m_FontReferences
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextSettings.RFontReferenceMap> r_Fm_FontReferences;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextSettings.RFontReferenceMap> RFm_FontReferences
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextSettings.RFontReferenceMap> r_Fm_FontReferences;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextSettings.RFontReferenceMap> RFm_FontReferences
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pversion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPversion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pversion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPversion
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset defaultFontAsset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_PdefaultFontAsset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RPdefaultFontAsset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_PdefaultFontAsset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RPdefaultFontAsset
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String defaultFontAssetPath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PdefaultFontAssetPath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPdefaultFontAssetPath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PdefaultFontAssetPath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPdefaultFontAssetPath
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.FontAsset] fallbackFontAssets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset> r_PfallbackFontAssets;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset> RPfallbackFontAssets
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset> r_PfallbackFontAssets;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset> RPfallbackFontAssets
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Boolean matchMaterialPreset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PmatchMaterialPreset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPmatchMaterialPreset
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PmatchMaterialPreset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPmatchMaterialPreset
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 missingCharacterUnicode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmissingCharacterUnicode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmissingCharacterUnicode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmissingCharacterUnicode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmissingCharacterUnicode
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Boolean clearDynamicDataOnBuild
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PclearDynamicDataOnBuild;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPclearDynamicDataOnBuild
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PclearDynamicDataOnBuild;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPclearDynamicDataOnBuild
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.SpriteAsset defaultSpriteAsset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset r_PdefaultSpriteAsset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset RPdefaultSpriteAsset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset r_PdefaultSpriteAsset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset RPdefaultSpriteAsset
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String defaultSpriteAssetPath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PdefaultSpriteAssetPath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPdefaultSpriteAssetPath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PdefaultSpriteAssetPath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPdefaultSpriteAssetPath
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.SpriteAsset] fallbackSpriteAssets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset> r_PfallbackSpriteAssets;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset> RPfallbackSpriteAssets
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset> r_PfallbackSpriteAssets;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset> RPfallbackSpriteAssets
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UInt32 missingSpriteCharacterUnicode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PmissingSpriteCharacterUnicode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPmissingSpriteCharacterUnicode
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PmissingSpriteCharacterUnicode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPmissingSpriteCharacterUnicode
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextStyleSheet defaultStyleSheet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyleSheet r_PdefaultStyleSheet;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyleSheet RPdefaultStyleSheet
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyleSheet r_PdefaultStyleSheet;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyleSheet RPdefaultStyleSheet
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String styleSheetsResourcePath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PstyleSheetsResourcePath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPstyleSheetsResourcePath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PstyleSheetsResourcePath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPstyleSheetsResourcePath
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String defaultColorGradientPresetsPath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PdefaultColorGradientPresetsPath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPdefaultColorGradientPresetsPath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PdefaultColorGradientPresetsPath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPdefaultColorGradientPresetsPath
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.UnicodeLineBreakingRules lineBreakingRules
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RUnicodeLineBreakingRules r_PlineBreakingRules;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RUnicodeLineBreakingRules RPlineBreakingRules
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RUnicodeLineBreakingRules r_PlineBreakingRules;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RUnicodeLineBreakingRules RPlineBreakingRules
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Boolean useModernHangulLineBreakingRules
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PuseModernHangulLineBreakingRules;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPuseModernHangulLineBreakingRules
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PuseModernHangulLineBreakingRules;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPuseModernHangulLineBreakingRules
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Boolean displayWarnings
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PdisplayWarnings;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdisplayWarnings
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdisplayWarnings;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdisplayWarnings
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{

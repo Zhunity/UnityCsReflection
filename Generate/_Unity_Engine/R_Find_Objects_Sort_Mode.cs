@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.FindObjectsSortMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.FindObjectsSortMode None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RFindObjectsSortMode r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RFindObjectsSortMode RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RFindObjectsSortMode r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RFindObjectsSortMode RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.FindObjectsSortMode InstanceID
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RFindObjectsSortMode r_FInstanceID;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RFindObjectsSortMode RFInstanceID
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RFindObjectsSortMode r_FInstanceID;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RFindObjectsSortMode RFInstanceID
 		{
 			get
 			{

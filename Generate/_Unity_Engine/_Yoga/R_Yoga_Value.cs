@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
+namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
 	/// UnityEngine.Yoga.YogaValue
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Single value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFvalue
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFvalue
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaUnit unit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit r_Funit;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit RFunit
+		protected Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit r_Funit;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit RFunit
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaUnit Unit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit r_PUnit;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit RPUnit
+		protected Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit r_PUnit;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit RPUnit
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPValue
 		{
 			get
 			{
@@ -318,18 +318,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue Point(System.Single @value)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue Point(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMPoint_Single.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue(___result);
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -362,58 +362,58 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue Undefined()
+        public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue Undefined()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMUndefined.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue Auto()
+        public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue Auto()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAuto.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue Percent(System.Single @value)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue Percent(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMPercent_Single.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue op_Implicit(System.Single @pointValue)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue op_Implicit(System.Single @pointValue)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pointValue};
             var ___result = RMop_Implicit_Single.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue MarshalValue(SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue @value)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue MarshalValue(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value.Value};
             var ___result = RMMarshalValue_YogaValue.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue(___result);
         }
 
 

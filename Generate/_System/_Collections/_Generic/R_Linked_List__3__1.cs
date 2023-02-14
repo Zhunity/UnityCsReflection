@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
+namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
 	/// System.Collections.Generic.LinkedList`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.LinkedListNode`1[T] head
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<SMFrame.Editor.Refleaction.RField> r_Fhead;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<SMFrame.Editor.Refleaction.RField> RFhead
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<Hvak.Editor.Refleaction.RField> r_Fhead;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<Hvak.Editor.Refleaction.RField> RFhead
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fcount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fcount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcount
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fversion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFversion
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fversion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFversion
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Object _syncRoot
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F_syncRoot;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF_syncRoot
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F_syncRoot;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF_syncRoot
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Runtime.Serialization.SerializationInfo _siInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationInfo r_F_siInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationInfo RF_siInfo
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationInfo r_F_siInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationInfo RF_siInfo
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String VersionName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FVersionName;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFVersionName
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FVersionName;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFVersionName
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String CountName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FCountName;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFCountName
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FCountName;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFCountName
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String ValuesName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FValuesName;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFValuesName
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FValuesName;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFValuesName
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCount
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.LinkedListNode`1[T] First
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<SMFrame.Editor.Refleaction.RProperty> r_PFirst;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<SMFrame.Editor.Refleaction.RProperty> RPFirst
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<Hvak.Editor.Refleaction.RProperty> r_PFirst;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<Hvak.Editor.Refleaction.RProperty> RPFirst
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.LinkedListNode`1[T] Last
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<SMFrame.Editor.Refleaction.RProperty> r_PLast;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<SMFrame.Editor.Refleaction.RProperty> RPLast
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<Hvak.Editor.Refleaction.RProperty> r_PLast;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedListNode<Hvak.Editor.Refleaction.RProperty> RPLast
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Boolean System.Collections.Generic.ICollection<T>.IsReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Boolean System.Collections.ICollection.IsSynchronized
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PSystem__2__Collections__2__ICollection__2__IsSynchronized;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPSystem__2__Collections__2__ICollection__2__IsSynchronized
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PSystem__2__Collections__2__ICollection__2__IsSynchronized;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPSystem__2__Collections__2__ICollection__2__IsSynchronized
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Object System.Collections.ICollection.SyncRoot
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__ICollection__2__SyncRoot;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__ICollection__2__SyncRoot
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__ICollection__2__SyncRoot;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__ICollection__2__SyncRoot
 		{
 			get
 			{
@@ -1016,14 +1016,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<SMFrame.Editor.Refleaction.RType>.REnumerator GetEnumerator()
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<SMFrame.Editor.Refleaction.RType>.REnumerator(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<Hvak.Editor.Refleaction.RType>.REnumerator(___result);
         }
 
 

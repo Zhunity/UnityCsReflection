@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses Clipping
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses r_FClipping;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses RFClipping
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses r_FClipping;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses RFClipping
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses Opacity
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses r_FOpacity;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses RFOpacity
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses r_FOpacity;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses RFOpacity
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses Color
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses r_FColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses RFColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses r_FColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses RFColor
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses TransformSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses r_FTransformSize;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses RFTransformSize
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses r_FTransformSize;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses RFTransformSize
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses Visuals
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses r_FVisuals;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses RFVisuals
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses r_FVisuals;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses RFVisuals
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses Count
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses r_FCount;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses RFCount
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses r_FCount;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypeClasses RFCount
 		{
 			get
 			{

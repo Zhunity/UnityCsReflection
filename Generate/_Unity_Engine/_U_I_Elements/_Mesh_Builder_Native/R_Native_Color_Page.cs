@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RMeshBuilderNative
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 isValid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FisValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFisValid
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FisValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFisValid
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color32 pageAndID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor32 r_FpageAndID;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor32 RFpageAndID
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_FpageAndID;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor32 RFpageAndID
 		{
 			get
 			{

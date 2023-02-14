@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.SphericalHarmonicsL2
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr0
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshr0;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshr0
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshr0;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshr0
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr1
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshr1;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshr1
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshr1;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshr1
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshr2;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshr2
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshr2;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshr2
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr3
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshr3;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshr3
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshr3;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshr3
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr4
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshr4;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshr4
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshr4;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshr4
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr5
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshr5;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshr5
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshr5;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshr5
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr6
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshr6;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshr6
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshr6;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshr6
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr7
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshr7;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshr7
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshr7;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshr7
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr8
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshr8;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshr8
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshr8;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshr8
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg0
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshg0;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshg0
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshg0;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshg0
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg1
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshg1;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshg1
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshg1;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshg1
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshg2;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshg2
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshg2;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshg2
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg3
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshg3;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshg3
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshg3;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshg3
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg4
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshg4;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshg4
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshg4;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshg4
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg5
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshg5;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshg5
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshg5;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshg5
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg6
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshg6;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshg6
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshg6;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshg6
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg7
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshg7;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshg7
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshg7;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshg7
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg8
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshg8;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshg8
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshg8;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshg8
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb0
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshb0;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshb0
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshb0;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshb0
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb1
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshb1;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshb1
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshb1;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshb1
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshb2;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshb2
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshb2;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshb2
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb3
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshb3;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshb3
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshb3;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshb3
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb4
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshb4;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshb4
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshb4;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshb4
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb5
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshb5;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshb5
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshb5;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshb5
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb6
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshb6;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshb6
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshb6;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshb6
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb7
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshb7;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshb7
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshb7;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshb7
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb8
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fshb8;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFshb8
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fshb8;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFshb8
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single Item [Int32, Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PItem_Int32_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPItem_Int32_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PItem_Int32_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPItem_Int32_Int32
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleRule
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleProperty[] m_Properties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty> r_Fm_Properties;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty> RFm_Properties
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty> r_Fm_Properties;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty> RFm_Properties
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 line
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fline;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFline
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fline;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFline
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 customPropertiesCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcustomPropertiesCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcustomPropertiesCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcustomPropertiesCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcustomPropertiesCount
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleProperty[] properties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty> r_Pproperties;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty> RPproperties
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty> r_Pproperties;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty> RPproperties
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.TextureDimension
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.TextureDimension Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFUnknown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FUnknown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.TextureDimension None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFNone
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.TextureDimension Any
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FAny;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFAny
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FAny;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFAny
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.TextureDimension Tex2D
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FTex2D;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFTex2D
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FTex2D;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFTex2D
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.TextureDimension Tex3D
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FTex3D;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFTex3D
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FTex3D;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFTex3D
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.TextureDimension Cube
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FCube;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFCube
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FCube;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFCube
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.TextureDimension Tex2DArray
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FTex2DArray;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFTex2DArray
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FTex2DArray;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFTex2DArray
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.TextureDimension CubeArray
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FCubeArray;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFCubeArray
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_FCubeArray;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RFCubeArray
 		{
 			get
 			{

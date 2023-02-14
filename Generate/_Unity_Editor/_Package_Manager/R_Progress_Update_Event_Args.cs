@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.ProgressUpdateEventArgs
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[UnityEditor.PackageManager.PackageProgress] entries
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageProgress> r_Fentries;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageProgress> RFentries
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageProgress> r_Fentries;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageProgress> RFentries
 		{
 			get
 			{

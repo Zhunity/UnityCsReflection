@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.GUIStyleState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUIStyle m_SourceStyle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle r_Fm_SourceStyle;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle RFm_SourceStyle
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle r_Fm_SourceStyle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle RFm_SourceStyle
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Texture2D background
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_Pbackground;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RPbackground
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Pbackground;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RPbackground
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color textColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_PtextColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RPtextColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_PtextColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RPtextColor
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Texture2D[] scaledBackgrounds
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D> r_PscaledBackgrounds;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D> RPscaledBackgrounds
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RTexture2D> r_PscaledBackgrounds;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RTexture2D> RPscaledBackgrounds
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.String
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 StackallocIntBufferSizeLimit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FStackallocIntBufferSizeLimit;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFStackallocIntBufferSizeLimit
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FStackallocIntBufferSizeLimit;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFStackallocIntBufferSizeLimit
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 PROBABILISTICMAP_BLOCK_INDEX_MASK
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FPROBABILISTICMAP_BLOCK_INDEX_MASK;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFPROBABILISTICMAP_BLOCK_INDEX_MASK
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FPROBABILISTICMAP_BLOCK_INDEX_MASK;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFPROBABILISTICMAP_BLOCK_INDEX_MASK
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 PROBABILISTICMAP_BLOCK_INDEX_SHIFT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FPROBABILISTICMAP_BLOCK_INDEX_SHIFT;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFPROBABILISTICMAP_BLOCK_INDEX_SHIFT
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FPROBABILISTICMAP_BLOCK_INDEX_SHIFT;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFPROBABILISTICMAP_BLOCK_INDEX_SHIFT
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 PROBABILISTICMAP_SIZE
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FPROBABILISTICMAP_SIZE;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFPROBABILISTICMAP_SIZE
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FPROBABILISTICMAP_SIZE;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFPROBABILISTICMAP_SIZE
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _stringLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_stringLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_stringLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_stringLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_stringLength
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Char _firstChar
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RChar r_F_firstChar;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RChar RF_firstChar
+		protected Hvak.Editor.Refleaction.RSystem.RChar r_F_firstChar;
+		public virtual Hvak.Editor.Refleaction.RSystem.RChar RF_firstChar
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String Empty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FEmpty;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFEmpty
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FEmpty;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFEmpty
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLength
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Char Chars [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RChar r_PChars_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RChar RPChars_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RChar r_PChars_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RChar RPChars_Int32
 		{
 			get
 			{
@@ -4523,7 +4523,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 CompareOrdinal(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @strA, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @strB)
+        public static System.Int32 CompareOrdinal(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @strA, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @strB)
         {
 
             var ___genericsType = new Type[] {};
@@ -4985,7 +4985,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.String FormatHelper(System.IFormatProvider @provider, System.String @format, SMFrame.Editor.Refleaction.RSystem.RParamsArray @args)
+        public static System.String FormatHelper(System.IFormatProvider @provider, System.String @format, Hvak.Editor.Refleaction.RSystem.RParamsArray @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -5260,7 +5260,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String ReplaceHelper(System.Int32 @oldValueLength, System.String @newValue, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RInt32> @indices)
+        public virtual System.String ReplaceHelper(System.Int32 @oldValueLength, System.String @newValue, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @indices)
         {
 
             var ___genericsType = new Type[] {};
@@ -5337,7 +5337,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String[] SplitInternal(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @separators, System.Int32 @count, System.StringSplitOptions @options)
+        public virtual System.String[] SplitInternal(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @separators, System.Int32 @count, System.StringSplitOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -5414,7 +5414,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String[] SplitKeepEmptyEntries(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RInt32> @sepList, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RInt32> @lengthList, System.Int32 @defaultLength, System.Int32 @count)
+        public virtual System.String[] SplitKeepEmptyEntries(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @sepList, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @lengthList, System.Int32 @defaultLength, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -5425,7 +5425,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String[] SplitOmitEmptyEntries(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RInt32> @sepList, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RInt32> @lengthList, System.Int32 @defaultLength, System.Int32 @count)
+        public virtual System.String[] SplitOmitEmptyEntries(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @sepList, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @lengthList, System.Int32 @defaultLength, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -5436,38 +5436,38 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void MakeSeparatorList(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @separators, ref SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<SMFrame.Editor.Refleaction.RSystem.RInt32> @sepListBuilder)
+        public virtual void MakeSeparatorList(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @separators, ref Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32> @sepListBuilder)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@separators.Value, @sepListBuilder.Value};
             var ___result = RMMakeSeparatorList_ReadOnlySpan_d_Char_p__Ref_ValueListBuilder_d_Int32_p_.Invoke(___genericsType, ___parameters);
-			@sepListBuilder = new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<SMFrame.Editor.Refleaction.RSystem.RInt32>(___parameters[1]);
+			@sepListBuilder = new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>(___parameters[1]);
 
             
         }
 
 
-        public virtual void MakeSeparatorList(System.String @separator, ref SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<SMFrame.Editor.Refleaction.RSystem.RInt32> @sepListBuilder)
+        public virtual void MakeSeparatorList(System.String @separator, ref Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32> @sepListBuilder)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@separator, @sepListBuilder.Value};
             var ___result = RMMakeSeparatorList_String_Ref_ValueListBuilder_d_Int32_p_.Invoke(___genericsType, ___parameters);
-			@sepListBuilder = new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<SMFrame.Editor.Refleaction.RSystem.RInt32>(___parameters[1]);
+			@sepListBuilder = new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>(___parameters[1]);
 
             
         }
 
 
-        public virtual void MakeSeparatorList(System.String[] @separators, ref SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<SMFrame.Editor.Refleaction.RSystem.RInt32> @sepListBuilder, ref SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<SMFrame.Editor.Refleaction.RSystem.RInt32> @lengthListBuilder)
+        public virtual void MakeSeparatorList(System.String[] @separators, ref Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32> @sepListBuilder, ref Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32> @lengthListBuilder)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@separators, @sepListBuilder.Value, @lengthListBuilder.Value};
             var ___result = RMMakeSeparatorList_StringArray_Ref_ValueListBuilder_d_Int32_p__Ref_ValueListBuilder_d_Int32_p_.Invoke(___genericsType, ___parameters);
-			@sepListBuilder = new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<SMFrame.Editor.Refleaction.RSystem.RInt32>(___parameters[1]);
-			@lengthListBuilder = new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<SMFrame.Editor.Refleaction.RSystem.RInt32>(___parameters[2]);
+			@sepListBuilder = new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>(___parameters[1]);
+			@lengthListBuilder = new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>(___parameters[2]);
 
             
         }
@@ -5671,7 +5671,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String TrimWhiteSpaceHelper(SMFrame.Editor.Refleaction.RSystem.RString.RTrimType @trimType)
+        public virtual System.String TrimWhiteSpaceHelper(Hvak.Editor.Refleaction.RSystem.RString.RTrimType @trimType)
         {
 
             var ___genericsType = new Type[] {};
@@ -5682,7 +5682,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public unsafe virtual System.String TrimHelper(System.Char* @trimChars, System.Int32 @trimCharsLength, SMFrame.Editor.Refleaction.RSystem.RString.RTrimType @trimType)
+        public unsafe virtual System.String TrimHelper(System.Char* @trimChars, System.Int32 @trimCharsLength, Hvak.Editor.Refleaction.RSystem.RString.RTrimType @trimType)
         {
 
             var ___genericsType = new Type[] {};
@@ -5858,7 +5858,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public unsafe static void InitializeProbabilisticMap(System.UInt32* @charMap, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @anyOf)
+        public unsafe static void InitializeProbabilisticMap(System.UInt32* @charMap, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @anyOf)
         {
 
             var ___genericsType = new Type[] {};
@@ -6210,7 +6210,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.String Ctor(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @value)
+        public static System.String Ctor(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6232,14 +6232,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> op_Implicit(System.String @value)
+        public static Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> op_Implicit(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMop_Implicit_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>(___result);
         }
 
 
@@ -6969,7 +6969,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String CreateString(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @value)
+        public virtual System.String CreateString(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
         {
 
             var ___genericsType = new Type[] {};

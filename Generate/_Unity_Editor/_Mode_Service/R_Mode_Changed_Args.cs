@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {public partial class RModeService
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 prevIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FprevIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFprevIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FprevIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFprevIndex
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 nextIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FnextIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFnextIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FnextIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFnextIndex
 		{
 			get
 			{

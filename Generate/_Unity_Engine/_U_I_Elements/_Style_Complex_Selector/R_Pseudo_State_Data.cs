@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RStyleComplexSelector
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PseudoStates state
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates r_Fstate;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates RFstate
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates r_Fstate;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPseudoStates RFstate
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean negate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fnegate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFnegate
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fnegate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFnegate
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleProperty
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Name;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Name
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Name;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Name
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_Line
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Line;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Line
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Line;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Line
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueHandle[] m_Values
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> r_Fm_Values;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> RFm_Values
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> r_Fm_Values;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> RFm_Values
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean isCustomProperty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisCustomProperty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisCustomProperty
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisCustomProperty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisCustomProperty
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean requireVariableResolve
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FrequireVariableResolve;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFrequireVariableResolve
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FrequireVariableResolve;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFrequireVariableResolve
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 line
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pline;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPline
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pline;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPline
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueHandle[] values
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> r_Pvalues;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> RPvalues
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> r_Pvalues;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> RPvalues
 		{
 			get
 			{

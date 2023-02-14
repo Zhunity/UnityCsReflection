@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.PackingSize
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.PackingSize Unspecified
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FUnspecified;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFUnspecified
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FUnspecified;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFUnspecified
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.PackingSize Size1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize1;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize1
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize1;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize1
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.PackingSize Size2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize2;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize2
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize2;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize2
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.PackingSize Size4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize4;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize4
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize4;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize4
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.PackingSize Size8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize8;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize8
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize8;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize8
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.PackingSize Size16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize16;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize16
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize16;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize16
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.PackingSize Size32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize32;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize32
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize32;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize32
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.PackingSize Size64
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize64;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize64
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize64;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize64
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.PackingSize Size128
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize128;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize128
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize r_FSize128;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPackingSize RFSize128
 		{
 			get
 			{

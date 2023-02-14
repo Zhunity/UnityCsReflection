@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RCamera
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+MonoOrStereoscopicEye Left
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye r_FLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye RFLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye r_FLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye RFLeft
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+MonoOrStereoscopicEye Right
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye r_FRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye RFRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye r_FRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye RFRight
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+MonoOrStereoscopicEye Mono
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye r_FMono;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye RFMono
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye r_FMono;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye RFMono
 		{
 			get
 			{

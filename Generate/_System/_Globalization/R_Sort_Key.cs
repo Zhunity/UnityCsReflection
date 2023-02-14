@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.SortKey
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String source
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fsource;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFsource
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fsource;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFsource
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Byte[] key
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_Fkey;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFkey
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_Fkey;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFkey
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareOptions options
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_Foptions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFoptions
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_Foptions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFoptions
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 lcid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Flcid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlcid
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Flcid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlcid
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String OriginalString
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_POriginalString;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPOriginalString
+		protected Hvak.Editor.Refleaction.RSystem.RString r_POriginalString;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPOriginalString
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Byte[] KeyData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_PKeyData;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPKeyData
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_PKeyData;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPKeyData
 		{
 			get
 			{

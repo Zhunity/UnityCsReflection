@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.IPackage
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String productId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PproductId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPproductId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PproductId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPproductId
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PdisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPdisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PdisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPdisplayName
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String productDescription
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PproductDescription;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPproductDescription
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PproductDescription;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPproductDescription
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String publisherName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PpublisherName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPpublisherName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PpublisherName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpublisherName
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String publisherLink
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PpublisherLink;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPpublisherLink
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PpublisherLink;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpublisherLink
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String latestReleaseNotes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PlatestReleaseNotes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPlatestReleaseNotes
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PlatestReleaseNotes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPlatestReleaseNotes
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Nullable`1[System.DateTime] purchasedTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RDateTime> r_PpurchasedTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RDateTime> RPpurchasedTime
+		protected Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RDateTime> r_PpurchasedTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RDateTime> RPpurchasedTime
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.IVersionList versions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIVersionList r_Pversions;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIVersionList RPversions
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIVersionList r_Pversions;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIVersionList RPversions
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageState state
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageState r_Pstate;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageState RPstate
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageState r_Pstate;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageState RPstate
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageProgress progress
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageProgress r_Pprogress;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageProgress RPprogress
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageProgress r_Pprogress;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageProgress RPprogress
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[System.String] labels
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RSystem.RString> r_Plabels;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RSystem.RString> RPlabels
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RString> r_Plabels;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RString> RPlabels
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.PackageImage] images
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage> r_Pimages;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage> RPimages
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage> r_Pimages;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage> RPimages
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.PackageLink] links
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink> r_Plinks;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink> RPlinks
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink> r_Plinks;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink> RPlinks
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isDiscoverable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisDiscoverable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisDiscoverable
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDiscoverable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDiscoverable
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.UIError] errors
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> r_Perrors;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> RPerrors
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> r_Perrors;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> RPerrors
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean hasEntitlements
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasEntitlements;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasEntitlements
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasEntitlements;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasEntitlements
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean hasEntitlementsError
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasEntitlementsError;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasEntitlementsError
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasEntitlementsError;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasEntitlementsError
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Nullable`1[System.DateTime] firstPublishedDate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RDateTime> r_PfirstPublishedDate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RDateTime> RPfirstPublishedDate
+		protected Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RDateTime> r_PfirstPublishedDate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RDateTime> RPfirstPublishedDate
 		{
 			get
 			{
@@ -403,7 +403,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	    {
 	    }
 
-        public virtual System.Boolean Is(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageType @type)
+        public virtual System.Boolean Is(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -414,7 +414,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void AddError(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
+        public virtual void AddError(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
         {
 
             var ___genericsType = new Type[] {};
@@ -425,7 +425,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void ClearErrors(SMFrame.Editor.Refleaction.RSystem.RPredicate<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @match)
+        public virtual void ClearErrors(Hvak.Editor.Refleaction.RSystem.RPredicate<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @match)
         {
 
             var ___genericsType = new Type[] {};

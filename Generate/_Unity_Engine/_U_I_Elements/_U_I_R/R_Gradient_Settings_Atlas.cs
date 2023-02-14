@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.GradientSettingsAtlas
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker s_MarkerWrite
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerWrite;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerWrite
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerWrite;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerWrite
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker s_MarkerCommit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerCommit;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerCommit
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerCommit;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerCommit
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Length;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Length
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Length;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Length
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_ElemWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_ElemWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_ElemWidth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_ElemWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_ElemWidth
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BestFitAllocator m_Allocator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator r_Fm_Allocator;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator RFm_Allocator
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator r_Fm_Allocator;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator RFm_Allocator
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Texture2D m_Atlas
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_Fm_Atlas;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RFm_Atlas
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Fm_Atlas;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RFm_Atlas
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.GradientSettingsAtlas+RawTexture m_RawAtlas
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientSettingsAtlas.RRawTexture r_Fm_RawAtlas;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientSettingsAtlas.RRawTexture RFm_RawAtlas
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientSettingsAtlas.RRawTexture r_Fm_RawAtlas;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientSettingsAtlas.RRawTexture RFm_RawAtlas
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 s_TextureCounter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fs_TextureCounter;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFs_TextureCounter
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_TextureCounter;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_TextureCounter
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <MustCommit>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__MustCommit__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__MustCommit__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__MustCommit__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__MustCommit__1__k__BackingField
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Plength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPlength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Plength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPlength
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdisposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdisposed
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Texture2D atlas
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_Patlas;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RPatlas
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Patlas;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RPatlas
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean MustCommit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PMustCommit;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPMustCommit
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PMustCommit;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPMustCommit
 		{
 			get
 			{
@@ -538,18 +538,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc Add(System.Int32 @count)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc Add(System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@count};
             var ___result = RMAdd_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc(___result);
         }
 
 
-        public virtual void Remove(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @alloc)
+        public virtual void Remove(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -560,7 +560,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void Write(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @alloc, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RGradientSettings> @settings, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap @remap)
+        public virtual void Write(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @alloc, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RGradientSettings> @settings, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap @remap)
         {
 
             var ___genericsType = new Type[] {};

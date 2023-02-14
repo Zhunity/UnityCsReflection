@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.CancellationCallbackInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Action`1[System.Object] Callback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RObject> r_FCallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RObject> RFCallback
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RObject> r_FCallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RObject> RFCallback
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Object StateForCallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_FStateForCallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFStateForCallback
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_FStateForCallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFStateForCallback
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext TargetExecutionContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_FTargetExecutionContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext RFTargetExecutionContext
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_FTargetExecutionContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext RFTargetExecutionContext
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.CancellationTokenSource CancellationTokenSource
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource r_FCancellationTokenSource;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource RFCancellationTokenSource
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource r_FCancellationTokenSource;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource RFCancellationTokenSource
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ContextCallback s_executionContextCallback
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RContextCallback r_Fs_executionContextCallback;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RContextCallback RFs_executionContextCallback
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RContextCallback r_Fs_executionContextCallback;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RContextCallback RFs_executionContextCallback
 		{
 			get
 			{

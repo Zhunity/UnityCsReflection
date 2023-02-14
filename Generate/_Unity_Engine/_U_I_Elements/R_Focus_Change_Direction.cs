@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.FocusChangeDirection
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FocusChangeDirection <unspecified>k__BackingField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection r_F__0__unspecified__1__k__BackingField;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection RF__0__unspecified__1__k__BackingField
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection r_F__0__unspecified__1__k__BackingField;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection RF__0__unspecified__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FocusChangeDirection <none>k__BackingField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection r_F__0__none__1__k__BackingField;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection RF__0__none__1__k__BackingField
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection r_F__0__none__1__k__BackingField;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection RF__0__none__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FocusChangeDirection <lastValue>k__BackingField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection r_F__0__lastValue__1__k__BackingField;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection RF__0__lastValue__1__k__BackingField
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection r_F__0__lastValue__1__k__BackingField;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection RF__0__lastValue__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Value
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Value
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FocusChangeDirection unspecified
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection r_Punspecified;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection RPunspecified
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection r_Punspecified;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection RPunspecified
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FocusChangeDirection none
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection r_Pnone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection RPnone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection r_Pnone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection RPnone
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FocusChangeDirection lastValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection r_PlastValue;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection RPlastValue
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection r_PlastValue;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusChangeDirection RPlastValue
 		{
 			get
 			{

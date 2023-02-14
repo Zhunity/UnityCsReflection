@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.VectorImageRenderInfoPool
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCount
 		{
 			get
 			{
@@ -210,18 +210,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo Get()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo Get()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGet.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo(___result);
         }
 
 
-        public virtual void Return(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo @item)
+        public virtual void Return(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo @item)
         {
 
             var ___genericsType = new Type[] {};

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.Nullable`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean hasValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FhasValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFhasValue
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FhasValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFhasValue
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// T value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RField RFvalue
+		protected Hvak.Editor.Refleaction.RField r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RField RFvalue
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean HasValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasValue
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasValue
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// T Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPValue
+		protected Hvak.Editor.Refleaction.RProperty r_PValue;
+		public virtual Hvak.Editor.Refleaction.RProperty RPValue
 		{
 			get
 			{
@@ -318,25 +318,25 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RType GetValueOrDefault()
+        public virtual Hvak.Editor.Refleaction.RType GetValueOrDefault()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetValueOrDefault.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RType(___result);
+            return new Hvak.Editor.Refleaction.RType(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RType GetValueOrDefault(SMFrame.Editor.Refleaction.RType @defaultValue)
+        public virtual Hvak.Editor.Refleaction.RType GetValueOrDefault(Hvak.Editor.Refleaction.RType @defaultValue)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@defaultValue.Value};
             var ___result = RMGetValueOrDefault_T.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RType(___result);
+            return new Hvak.Editor.Refleaction.RType(___result);
         }
 
 
@@ -373,29 +373,29 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RType> op_Implicit(SMFrame.Editor.Refleaction.RType @value)
+        public static Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> op_Implicit(Hvak.Editor.Refleaction.RType @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value.Value};
             var ___result = RMop_Implicit_T.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RType op_Explicit(SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RType> @value)
+        public static Hvak.Editor.Refleaction.RType op_Explicit(Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value.Value};
             var ___result = RMop_Explicit_Nullable_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RType(___result);
+            return new Hvak.Editor.Refleaction.RType(___result);
         }
 
 
-        public static System.Object Box(SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RType> @o)
+        public static System.Object Box(Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -406,25 +406,25 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RType> Unbox(System.Object @o)
+        public static Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> Unbox(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@o};
             var ___result = RMUnbox_Object.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RType> UnboxExact(System.Object @o)
+        public static Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType> UnboxExact(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@o};
             var ___result = RMUnboxExact_Object.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 

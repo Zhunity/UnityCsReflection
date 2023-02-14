@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.VertexFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.VertexFlags IsSolid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FIsSolid;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFIsSolid
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FIsSolid;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFIsSolid
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.VertexFlags IsText
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FIsText;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFIsText
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FIsText;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFIsText
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.VertexFlags IsTextured
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FIsTextured;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFIsTextured
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FIsTextured;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFIsTextured
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.VertexFlags IsDynamic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FIsDynamic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFIsDynamic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FIsDynamic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFIsDynamic
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.VertexFlags IsSvgGradients
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FIsSvgGradients;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFIsSvgGradients
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FIsSvgGradients;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFIsSvgGradients
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.VertexFlags LastType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FLastType;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFLastType
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FLastType;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFLastType
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.VertexFlags IsGraphViewEdge
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FIsGraphViewEdge;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFIsGraphViewEdge
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FIsGraphViewEdge;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFIsGraphViewEdge
 		{
 			get
 			{

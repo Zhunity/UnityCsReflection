@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
+namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 {
 	/// <summary>
 	/// UnityEditor.Scripting.ScriptCompilation.SemVersion
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		/// <summary>
 		/// System.Boolean <IsInitialized>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__IsInitialized__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__IsInitialized__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__IsInitialized__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__IsInitialized__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		/// <summary>
 		/// System.Int32 <Major>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__Major__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__Major__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__Major__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__Major__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		/// <summary>
 		/// System.Int32 <Minor>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__Minor__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__Minor__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__Minor__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__Minor__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		/// <summary>
 		/// System.Int32 <Patch>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__Patch__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__Patch__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__Patch__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__Patch__1__k__BackingField
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		/// <summary>
 		/// System.String <Prerelease>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__Prerelease__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__Prerelease__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__Prerelease__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__Prerelease__1__k__BackingField
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		/// <summary>
 		/// System.String <Build>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__Build__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__Build__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__Build__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__Build__1__k__BackingField
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		/// <summary>
 		/// UnityEditor.Scripting.ScriptCompilation.SemVersionTypeTraits <VersionTypeTraits>k__BackingField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersionTypeTraits r_F__0__VersionTypeTraits__1__k__BackingField;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersionTypeTraits RF__0__VersionTypeTraits__1__k__BackingField
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersionTypeTraits r_F__0__VersionTypeTraits__1__k__BackingField;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersionTypeTraits RF__0__VersionTypeTraits__1__k__BackingField
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		/// <summary>
 		/// Boolean IsInitialized
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsInitialized;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsInitialized
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsInitialized;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsInitialized
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		/// <summary>
 		/// Int32 Major
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMajor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMajor
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMajor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMajor
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		/// <summary>
 		/// Int32 Minor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMinor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMinor
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMinor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMinor
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		/// <summary>
 		/// Int32 Patch
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PPatch;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPPatch
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PPatch;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPPatch
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		/// <summary>
 		/// System.String Prerelease
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PPrerelease;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPPrerelease
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PPrerelease;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPPrerelease
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		/// <summary>
 		/// System.String Build
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PBuild;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPBuild
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PBuild;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPBuild
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 		/// <summary>
 		/// UnityEditor.Scripting.ScriptCompilation.SemVersionTypeTraits VersionTypeTraits
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersionTypeTraits r_PVersionTypeTraits;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersionTypeTraits RPVersionTypeTraits
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersionTypeTraits r_PVersionTypeTraits;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersionTypeTraits RPVersionTypeTraits
 		{
 			get
 			{
@@ -590,7 +590,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 	    {
 	    }
 
-        public static System.Int32 Compare(SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @versionA, SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @versionB)
+        public static System.Int32 Compare(Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @versionA, Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @versionB)
         {
 
             var ___genericsType = new Type[] {};
@@ -601,7 +601,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @left, SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @right)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @left, Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -612,7 +612,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @left, SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @right)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @left, Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -623,7 +623,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
         }
 
 
-        public static System.Boolean op_GreaterThan(SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @left, SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @right)
+        public static System.Boolean op_GreaterThan(Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @left, Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -634,7 +634,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
         }
 
 
-        public static System.Boolean op_GreaterThanOrEqual(SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @left, SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @right)
+        public static System.Boolean op_GreaterThanOrEqual(Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @left, Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -645,7 +645,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
         }
 
 
-        public static System.Boolean op_LessThan(SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @left, SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @right)
+        public static System.Boolean op_LessThan(Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @left, Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -656,7 +656,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
         }
 
 
-        public static System.Boolean op_LessThanOrEqual(SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @left, SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @right)
+        public static System.Boolean op_LessThanOrEqual(Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @left, Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -678,7 +678,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
         }
 
 
-        public virtual System.Int32 CompareTo(SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @other)
+        public virtual System.Int32 CompareTo(Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -700,7 +700,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -744,25 +744,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion Parse(System.String @version, System.Boolean @strict)
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion Parse(System.String @version, System.Boolean @strict)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@version, @strict};
             var ___result = RMParse_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RIVersionTypeTraits GetVersionTypeTraits()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RIVersionTypeTraits GetVersionTypeTraits()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetVersionTypeTraits.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RIVersionTypeTraits(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RIVersionTypeTraits(___result);
         }
 
 

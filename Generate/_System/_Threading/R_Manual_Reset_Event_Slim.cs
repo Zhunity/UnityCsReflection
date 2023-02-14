@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.ManualResetEventSlim
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 DEFAULT_SPIN_SP
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDEFAULT_SPIN_SP;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDEFAULT_SPIN_SP
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDEFAULT_SPIN_SP;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDEFAULT_SPIN_SP
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Object m_lock
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fm_lock;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFm_lock
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fm_lock;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFm_lock
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ManualResetEvent m_eventObj
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RManualResetEvent r_Fm_eventObj;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RManualResetEvent RFm_eventObj
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RManualResetEvent r_Fm_eventObj;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RManualResetEvent RFm_eventObj
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 m_combinedState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_combinedState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_combinedState
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_combinedState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_combinedState
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 SignalledState_BitMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSignalledState_BitMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSignalledState_BitMask
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSignalledState_BitMask;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSignalledState_BitMask
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 SignalledState_ShiftCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSignalledState_ShiftCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSignalledState_ShiftCount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSignalledState_ShiftCount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSignalledState_ShiftCount
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 Dispose_BitMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDispose_BitMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDispose_BitMask
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDispose_BitMask;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDispose_BitMask
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 SpinCountState_BitMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSpinCountState_BitMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSpinCountState_BitMask
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSpinCountState_BitMask;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSpinCountState_BitMask
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 SpinCountState_ShiftCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSpinCountState_ShiftCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSpinCountState_ShiftCount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSpinCountState_ShiftCount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSpinCountState_ShiftCount
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 SpinCountState_MaxValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSpinCountState_MaxValue;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSpinCountState_MaxValue
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSpinCountState_MaxValue;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSpinCountState_MaxValue
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 NumWaitersState_BitMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNumWaitersState_BitMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNumWaitersState_BitMask
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNumWaitersState_BitMask;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNumWaitersState_BitMask
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 NumWaitersState_ShiftCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNumWaitersState_ShiftCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNumWaitersState_ShiftCount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNumWaitersState_ShiftCount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNumWaitersState_ShiftCount
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 NumWaitersState_MaxValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNumWaitersState_MaxValue;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNumWaitersState_MaxValue
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNumWaitersState_MaxValue;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNumWaitersState_MaxValue
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Action`1[System.Object] s_cancellationTokenCallback
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RObject> r_Fs_cancellationTokenCallback;
-		public static SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RObject> RFs_cancellationTokenCallback
+		protected static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RObject> r_Fs_cancellationTokenCallback;
+		public static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RObject> RFs_cancellationTokenCallback
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.WaitHandle WaitHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RWaitHandle r_PWaitHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RWaitHandle RPWaitHandle
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RWaitHandle r_PWaitHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RWaitHandle RPWaitHandle
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsSet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsSet;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsSet
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsSet;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsSet
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 SpinCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PSpinCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPSpinCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PSpinCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPSpinCount
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 Waiters
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PWaiters;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPWaiters
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PWaiters;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPWaiters
 		{
 			get
 			{

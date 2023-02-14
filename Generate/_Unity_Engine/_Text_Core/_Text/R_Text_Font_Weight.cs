@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.TextFontWeight
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextFontWeight Thin
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FThin;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFThin
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FThin;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFThin
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextFontWeight ExtraLight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FExtraLight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFExtraLight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FExtraLight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFExtraLight
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextFontWeight Light
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FLight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFLight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FLight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFLight
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextFontWeight Regular
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FRegular;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFRegular
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FRegular;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFRegular
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextFontWeight Medium
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FMedium;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFMedium
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FMedium;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFMedium
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextFontWeight SemiBold
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FSemiBold;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFSemiBold
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FSemiBold;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFSemiBold
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextFontWeight Bold
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FBold;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFBold
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FBold;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFBold
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextFontWeight Heavy
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FHeavy;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFHeavy
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FHeavy;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFHeavy
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextFontWeight Black
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FBlack;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFBlack
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FBlack;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFBlack
 		{
 			get
 			{

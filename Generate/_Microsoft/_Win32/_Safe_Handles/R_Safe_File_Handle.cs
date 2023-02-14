@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
+namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 {
 	/// <summary>
 	/// Microsoft.Win32.SafeHandles.SafeFileHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 		/// <summary>
 		/// System.IntPtr handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fhandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFhandle
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fhandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFhandle
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 		/// <summary>
 		/// Boolean IsInvalid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsInvalid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsInvalid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsInvalid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsInvalid
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 		/// <summary>
 		/// Boolean IsClosed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsClosed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsClosed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsClosed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsClosed
 		{
 			get
 			{

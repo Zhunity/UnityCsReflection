@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.ResolveEventArgs
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String <Name>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__Name__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__Name__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__Name__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__Name__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Reflection.Assembly <RequestingAssembly>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly r_F__0__RequestingAssembly__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly RF__0__RequestingAssembly__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly r_F__0__RequestingAssembly__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly RF__0__RequestingAssembly__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Reflection.Assembly RequestingAssembly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly r_PRequestingAssembly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly RPRequestingAssembly
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly r_PRequestingAssembly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly RPRequestingAssembly
 		{
 			get
 			{

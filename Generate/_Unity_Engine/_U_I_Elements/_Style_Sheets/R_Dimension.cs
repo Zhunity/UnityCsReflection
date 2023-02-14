@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSheets.Dimension
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Dimension+Unit unit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_Funit;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFunit
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_Funit;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFunit
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Single value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFvalue
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFvalue
 		{
 			get
 			{
@@ -300,7 +300,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension @rhs)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -311,7 +311,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension @rhs)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -322,7 +322,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension @other)
         {
 
             var ___genericsType = new Type[] {};

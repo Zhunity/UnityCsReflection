@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.ExecutionContextSwitcher
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext+Reader outerEC
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader r_FouterEC;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader RFouterEC
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader r_FouterEC;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader RFouterEC
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean outerECBelongsToScope
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FouterECBelongsToScope;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFouterECBelongsToScope
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FouterECBelongsToScope;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFouterECBelongsToScope
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Object hecsw
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fhecsw;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFhecsw
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fhecsw;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFhecsw
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.Thread thread
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RThread r_Fthread;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RThread RFthread
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RThread r_Fthread;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RThread RFthread
 		{
 			get
 			{

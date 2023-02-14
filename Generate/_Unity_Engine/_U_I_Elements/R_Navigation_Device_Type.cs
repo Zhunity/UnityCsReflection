@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.NavigationDeviceType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.NavigationDeviceType Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType RFUnknown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType r_FUnknown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.NavigationDeviceType Keyboard
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType r_FKeyboard;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType RFKeyboard
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType r_FKeyboard;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType RFKeyboard
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.NavigationDeviceType NonKeyboard
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType r_FNonKeyboard;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType RFNonKeyboard
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType r_FNonKeyboard;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType RFNonKeyboard
 		{
 			get
 			{

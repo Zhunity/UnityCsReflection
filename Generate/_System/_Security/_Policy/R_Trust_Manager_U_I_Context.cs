@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 {
 	/// <summary>
 	/// System.Security.Policy.TrustManagerUIContext
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.TrustManagerUIContext Install
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext r_FInstall;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext RFInstall
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext r_FInstall;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext RFInstall
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.TrustManagerUIContext Upgrade
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext r_FUpgrade;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext RFUpgrade
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext r_FUpgrade;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext RFUpgrade
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.TrustManagerUIContext Run
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext r_FRun;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext RFRun
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext r_FRun;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext RFRun
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.StackBehaviour
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Pop0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPop0;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPop0
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPop0;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPop0
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Pop1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPop1;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPop1
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPop1;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPop1
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Pop1_pop1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPop1_pop1;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPop1_pop1
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPop1_pop1;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPop1_pop1
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopi;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopi
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopi;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopi
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popi_pop1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopi_pop1;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopi_pop1
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopi_pop1;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopi_pop1
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popi_popi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopi_popi;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopi_popi
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopi_popi;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopi_popi
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popi_popi8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopi_popi8;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopi_popi8
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopi_popi8;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopi_popi8
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popi_popi_popi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopi_popi_popi;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopi_popi_popi
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopi_popi_popi;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopi_popi_popi
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popi_popr4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopi_popr4;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopi_popr4
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopi_popr4;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopi_popr4
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popi_popr8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopi_popr8;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopi_popr8
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopi_popr8;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopi_popr8
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popref
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popref_pop1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_pop1;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_pop1
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_pop1;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_pop1
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popref_popi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_popi;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_popi
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_popi;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_popi
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popref_popi_popi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_popi_popi;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_popi_popi
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_popi_popi;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_popi_popi
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popref_popi_popi8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_popi_popi8;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_popi_popi8
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_popi_popi8;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_popi_popi8
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popref_popi_popr4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_popi_popr4;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_popi_popr4
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_popi_popr4;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_popi_popr4
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popref_popi_popr8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_popi_popr8;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_popi_popr8
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_popi_popr8;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_popi_popr8
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popref_popi_popref
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_popi_popref;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_popi_popref
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_popi_popref;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_popi_popref
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Push0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPush0;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPush0
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPush0;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPush0
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Push1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPush1;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPush1
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPush1;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPush1
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Push1_push1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPush1_push1;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPush1_push1
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPush1_push1;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPush1_push1
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Pushi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPushi;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPushi
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPushi;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPushi
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Pushi8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPushi8;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPushi8
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPushi8;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPushi8
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Pushr4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPushr4;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPushr4
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPushr4;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPushr4
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Pushr8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPushr8;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPushr8
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPushr8;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPushr8
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Pushref
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPushref;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPushref
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPushref;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPushref
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Varpop
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FVarpop;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFVarpop
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FVarpop;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFVarpop
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Varpush
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FVarpush;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFVarpush
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FVarpush;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFVarpush
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour Popref_popi_pop1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_popi_pop1;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_popi_pop1
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_FPopref_popi_pop1;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RFPopref_popi_pop1
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.RefEmitPermissionSet
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Security.Permissions.SecurityAction action
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_Faction;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFaction
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_Faction;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFaction
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String pset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fpset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpset
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fpset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpset
 		{
 			get
 			{

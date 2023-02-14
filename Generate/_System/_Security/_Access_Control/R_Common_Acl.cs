@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.CommonAcl
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 default_capacity
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fdefault_capacity;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFdefault_capacity
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fdefault_capacity;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFdefault_capacity
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Boolean is_aefa
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fis_aefa;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFis_aefa
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fis_aefa;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFis_aefa
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Boolean is_canonical
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fis_canonical;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFis_canonical
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fis_canonical;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFis_canonical
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Boolean is_container
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fis_container;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFis_container
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fis_container;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFis_container
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Boolean is_ds
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fis_ds;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFis_ds
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fis_ds;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFis_ds
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.RawAcl raw_acl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl r_Fraw_acl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl RFraw_acl
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl r_Fraw_acl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl RFraw_acl
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 BinaryLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PBinaryLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPBinaryLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PBinaryLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPBinaryLength
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCount
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsCanonical
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCanonical;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCanonical
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCanonical;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCanonical
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsContainer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsContainer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsContainer
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsContainer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsContainer
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsDS
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsDS;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsDS
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsDS;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsDS
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsAefa
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsAefa;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsAefa
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsAefa;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsAefa
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Byte Revision
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_PRevision;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RPRevision
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_PRevision;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RPRevision
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.GenericAce Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAce r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAce RPItem_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAce r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAce RPItem_Int32
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsSynchronized
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsSynchronized;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsSynchronized
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsSynchronized;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsSynchronized
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Object SyncRoot
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSyncRoot;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSyncRoot
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSyncRoot;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSyncRoot
 		{
 			get
 			{
@@ -1127,7 +1127,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void RemoveAces<T>(SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RCommonAcl.RRemoveAcesCallback<SMFrame.Editor.Refleaction.RType> @callback) where T : System.Security.AccessControl.GenericAce
+        public virtual void RemoveAces<T>(Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RCommonAcl.RRemoveAcesCallback<Hvak.Editor.Refleaction.RType> @callback) where T : System.Security.AccessControl.GenericAce
         {
 
             var ___genericsType = new Type[] {typeof(T)};

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 {public partial class RUIRStylePainter
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean needsClosing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FneedsClosing;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFneedsClosing
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FneedsClosing;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFneedsClosing
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean popViewMatrix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FpopViewMatrix;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFpopViewMatrix
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FpopViewMatrix;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFpopViewMatrix
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean popScissorClip
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FpopScissorClip;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFpopScissorClip
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FpopScissorClip;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFpopScissorClip
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean blitAndPopRenderTexture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FblitAndPopRenderTexture;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFblitAndPopRenderTexture
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FblitAndPopRenderTexture;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFblitAndPopRenderTexture
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean PopDefaultMaterial
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FPopDefaultMaterial;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFPopDefaultMaterial
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FPopDefaultMaterial;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFPopDefaultMaterial
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderChainCommand clipUnregisterDrawCommand
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand r_FclipUnregisterDrawCommand;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand RFclipUnregisterDrawCommand
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand r_FclipUnregisterDrawCommand;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand RFclipUnregisterDrawCommand
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.UIElements.Vertex] clipperRegisterVertices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> r_FclipperRegisterVertices;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> RFclipperRegisterVertices
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> r_FclipperRegisterVertices;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> RFclipperRegisterVertices
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[System.UInt16] clipperRegisterIndices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RSystem.RUInt16> r_FclipperRegisterIndices;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RSystem.RUInt16> RFclipperRegisterIndices
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> r_FclipperRegisterIndices;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> RFclipperRegisterIndices
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Int32 clipperRegisterIndexOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FclipperRegisterIndexOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFclipperRegisterIndexOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FclipperRegisterIndexOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFclipperRegisterIndexOffset
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Int32 maskStencilRef
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FmaskStencilRef;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFmaskStencilRef
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FmaskStencilRef;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFmaskStencilRef
 		{
 			get
 			{

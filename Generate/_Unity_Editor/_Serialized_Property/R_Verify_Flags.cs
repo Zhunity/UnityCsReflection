@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {public partial class RSerializedProperty
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedProperty+VerifyFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedProperty.RVerifyFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedProperty.RVerifyFlags RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty.RVerifyFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty.RVerifyFlags RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedProperty+VerifyFlags IteratorNotAtEnd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedProperty.RVerifyFlags r_FIteratorNotAtEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedProperty.RVerifyFlags RFIteratorNotAtEnd
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty.RVerifyFlags r_FIteratorNotAtEnd;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty.RVerifyFlags RFIteratorNotAtEnd
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.FieldAttributes
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes FieldAccessMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FFieldAccessMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFFieldAccessMask
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FFieldAccessMask;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFFieldAccessMask
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes PrivateScope
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FPrivateScope;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFPrivateScope
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FPrivateScope;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFPrivateScope
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes Private
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FPrivate;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFPrivate
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FPrivate;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFPrivate
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes FamANDAssem
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FFamANDAssem;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFFamANDAssem
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FFamANDAssem;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFFamANDAssem
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes Assembly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FAssembly;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFAssembly
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FAssembly;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFAssembly
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes Family
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FFamily;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFFamily
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FFamily;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFFamily
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes FamORAssem
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FFamORAssem;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFFamORAssem
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FFamORAssem;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFFamORAssem
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes Public
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FPublic;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFPublic
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FPublic;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFPublic
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes Static
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FStatic;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFStatic
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FStatic;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFStatic
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes InitOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FInitOnly;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFInitOnly
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FInitOnly;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFInitOnly
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes Literal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FLiteral;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFLiteral
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FLiteral;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFLiteral
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes NotSerialized
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FNotSerialized;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFNotSerialized
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FNotSerialized;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFNotSerialized
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes SpecialName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FSpecialName;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFSpecialName
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FSpecialName;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFSpecialName
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes PinvokeImpl
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FPinvokeImpl;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFPinvokeImpl
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FPinvokeImpl;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFPinvokeImpl
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes RTSpecialName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FRTSpecialName;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFRTSpecialName
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FRTSpecialName;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFRTSpecialName
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes HasFieldMarshal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FHasFieldMarshal;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFHasFieldMarshal
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FHasFieldMarshal;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFHasFieldMarshal
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes HasDefault
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FHasDefault;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFHasDefault
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FHasDefault;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFHasDefault
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes HasFieldRVA
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FHasFieldRVA;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFHasFieldRVA
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FHasFieldRVA;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFHasFieldRVA
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes ReservedMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FReservedMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFReservedMask
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_FReservedMask;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFReservedMask
 		{
 			get
 			{

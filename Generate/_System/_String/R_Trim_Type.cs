@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class RString
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String+TrimType Head
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString.RTrimType r_FHead;
-		public static SMFrame.Editor.Refleaction.RSystem.RString.RTrimType RFHead
+		protected static Hvak.Editor.Refleaction.RSystem.RString.RTrimType r_FHead;
+		public static Hvak.Editor.Refleaction.RSystem.RString.RTrimType RFHead
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String+TrimType Tail
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString.RTrimType r_FTail;
-		public static SMFrame.Editor.Refleaction.RSystem.RString.RTrimType RFTail
+		protected static Hvak.Editor.Refleaction.RSystem.RString.RTrimType r_FTail;
+		public static Hvak.Editor.Refleaction.RSystem.RString.RTrimType RFTail
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String+TrimType Both
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString.RTrimType r_FBoth;
-		public static SMFrame.Editor.Refleaction.RSystem.RString.RTrimType RFBoth
+		protected static Hvak.Editor.Refleaction.RSystem.RString.RTrimType r_FBoth;
+		public static Hvak.Editor.Refleaction.RSystem.RString.RTrimType RFBoth
 		{
 			get
 			{

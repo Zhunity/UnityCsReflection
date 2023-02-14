@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Bounds
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 m_Center
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Center;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFm_Center
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Center;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFm_Center
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 m_Extents
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Extents;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFm_Extents
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Extents;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFm_Extents
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 center
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Pcenter;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPcenter
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Pcenter;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPcenter
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Psize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPsize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Psize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPsize
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 extents
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Pextents;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPextents
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Pextents;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPextents
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 min
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Pmin;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPmin
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Pmin;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPmin
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 max
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Pmax;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPmax
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Pmax;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPmax
 		{
 			get
 			{

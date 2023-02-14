@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.ITextEdition
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean multiline
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pmultiline;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPmultiline
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pmultiline;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPmultiline
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisReadOnly
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 maxLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmaxLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmaxLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmaxLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmaxLength
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isDelayed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisDelayed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisDelayed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDelayed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDelayed
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Func`2[System.Char,System.Boolean] AcceptCharacter
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RChar, SMFrame.Editor.Refleaction.RSystem.RBoolean> r_PAcceptCharacter;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RChar, SMFrame.Editor.Refleaction.RSystem.RBoolean> RPAcceptCharacter
+		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RChar, Hvak.Editor.Refleaction.RSystem.RBoolean> r_PAcceptCharacter;
+		public virtual Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RChar, Hvak.Editor.Refleaction.RSystem.RBoolean> RPAcceptCharacter
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action`1[System.Boolean] UpdateScrollOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_PUpdateScrollOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RBoolean> RPUpdateScrollOffset
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> r_PUpdateScrollOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> RPUpdateScrollOffset
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action UpdateValueFromText
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_PUpdateValueFromText;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RPUpdateValueFromText
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_PUpdateValueFromText;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RPUpdateValueFromText
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action UpdateTextFromValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_PUpdateTextFromValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RPUpdateTextFromValue
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_PUpdateTextFromValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RPUpdateTextFromValue
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action MoveFocusToCompositeRoot
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_PMoveFocusToCompositeRoot;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RPMoveFocusToCompositeRoot
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_PMoveFocusToCompositeRoot;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RPMoveFocusToCompositeRoot
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Char maskChar
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RChar r_PmaskChar;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RChar RPmaskChar
+		protected Hvak.Editor.Refleaction.RSystem.RChar r_PmaskChar;
+		public virtual Hvak.Editor.Refleaction.RSystem.RChar RPmaskChar
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isPassword
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisPassword;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisPassword
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisPassword;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisPassword
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean autoCorrection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PautoCorrection;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPautoCorrection
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PautoCorrection;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPautoCorrection
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean hideMobileInput
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhideMobileInput;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhideMobileInput
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhideMobileInput;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhideMobileInput
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboard touchScreenKeyboard
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard r_PtouchScreenKeyboard;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard RPtouchScreenKeyboard
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard r_PtouchScreenKeyboard;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard RPtouchScreenKeyboard
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType keyboardType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_PkeyboardType;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RPkeyboardType
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_PkeyboardType;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RPkeyboardType
 		{
 			get
 			{

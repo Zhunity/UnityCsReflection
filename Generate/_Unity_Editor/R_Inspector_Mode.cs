@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.InspectorMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.InspectorMode Normal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode r_FNormal;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode RFNormal
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode r_FNormal;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode RFNormal
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.InspectorMode Debug
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode r_FDebug;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode RFDebug
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode r_FDebug;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode RFDebug
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.InspectorMode DebugInternal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode r_FDebugInternal;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode RFDebugInternal
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode r_FDebugInternal;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode RFDebugInternal
 		{
 			get
 			{

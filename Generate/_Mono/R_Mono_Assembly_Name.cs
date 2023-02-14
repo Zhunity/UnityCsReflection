@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RMono
+namespace Hvak.Editor.Refleaction.RMono
 {
 	/// <summary>
 	/// Mono.MonoAssemblyName
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.Int32 MONO_PUBLIC_KEY_TOKEN_LENGTH
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMONO_PUBLIC_KEY_TOKEN_LENGTH;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMONO_PUBLIC_KEY_TOKEN_LENGTH
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMONO_PUBLIC_KEY_TOKEN_LENGTH;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMONO_PUBLIC_KEY_TOKEN_LENGTH
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.IntPtr name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFname
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFname
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.IntPtr culture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fculture;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFculture
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fculture;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFculture
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.IntPtr hash_value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fhash_value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFhash_value
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fhash_value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFhash_value
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.IntPtr public_key
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fpublic_key;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFpublic_key
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fpublic_key;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFpublic_key
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// Mono.MonoAssemblyName+<public_key_token>e__FixedBuffer public_key_token
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RMono.RMonoAssemblyName.R__0__public_key_token__1__e__FixedBuffer r_Fpublic_key_token;
-		public virtual SMFrame.Editor.Refleaction.RMono.RMonoAssemblyName.R__0__public_key_token__1__e__FixedBuffer RFpublic_key_token
+		protected Hvak.Editor.Refleaction.RMono.RMonoAssemblyName.R__0__public_key_token__1__e__FixedBuffer r_Fpublic_key_token;
+		public virtual Hvak.Editor.Refleaction.RMono.RMonoAssemblyName.R__0__public_key_token__1__e__FixedBuffer RFpublic_key_token
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt32 hash_alg
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fhash_alg;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFhash_alg
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fhash_alg;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFhash_alg
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt32 hash_len
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fhash_len;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFhash_len
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fhash_len;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFhash_len
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt32 flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fflags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFflags
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fflags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFflags
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt16 major
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt16 r_Fmajor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt16 RFmajor
+		protected Hvak.Editor.Refleaction.RSystem.RUInt16 r_Fmajor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt16 RFmajor
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt16 minor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt16 r_Fminor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt16 RFminor
+		protected Hvak.Editor.Refleaction.RSystem.RUInt16 r_Fminor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt16 RFminor
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt16 build
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt16 r_Fbuild;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt16 RFbuild
+		protected Hvak.Editor.Refleaction.RSystem.RUInt16 r_Fbuild;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt16 RFbuild
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt16 revision
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt16 r_Frevision;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt16 RFrevision
+		protected Hvak.Editor.Refleaction.RSystem.RUInt16 r_Frevision;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt16 RFrevision
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt16 arch
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt16 r_Farch;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt16 RFarch
+		protected Hvak.Editor.Refleaction.RSystem.RUInt16 r_Farch;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt16 RFarch
 		{
 			get
 			{

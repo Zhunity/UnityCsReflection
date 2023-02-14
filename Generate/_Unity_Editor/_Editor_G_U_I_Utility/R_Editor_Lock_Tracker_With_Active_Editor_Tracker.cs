@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {public partial class REditorGUIUtility
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.ActiveEditorTracker m_Tracker
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RActiveEditorTracker r_Fm_Tracker;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RActiveEditorTracker RFm_Tracker
+		protected Hvak.Editor.Refleaction.RUnityEditor.RActiveEditorTracker r_Fm_Tracker;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RActiveEditorTracker RFm_Tracker
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.EditorGUIUtility+EditorLockTracker+LockStateEvent lockStateChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.REditorGUIUtility.REditorLockTracker.RLockStateEvent r_FlockStateChanged;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.REditorGUIUtility.REditorLockTracker.RLockStateEvent RFlockStateChanged
+		protected Hvak.Editor.Refleaction.RUnityEditor.REditorGUIUtility.REditorLockTracker.RLockStateEvent r_FlockStateChanged;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.REditorGUIUtility.REditorLockTracker.RLockStateEvent RFlockStateChanged
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isLocked
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisLocked;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisLocked
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisLocked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisLocked
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.ActiveEditorTracker tracker
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RActiveEditorTracker r_Ptracker;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RActiveEditorTracker RPtracker
+		protected Hvak.Editor.Refleaction.RUnityEditor.RActiveEditorTracker r_Ptracker;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RActiveEditorTracker RPtracker
 		{
 			get
 			{

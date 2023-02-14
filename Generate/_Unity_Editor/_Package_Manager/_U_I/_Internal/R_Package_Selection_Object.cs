@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.PackageSelectionObject
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FdisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFdisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FdisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFdisplayName
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String packageUniqueId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpackageUniqueId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpackageUniqueId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpackageUniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpackageUniqueId
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String versionUniqueId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FversionUniqueId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFversionUniqueId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FversionUniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFversionUniqueId
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String uniqueId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PuniqueId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPuniqueId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PuniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPuniqueId
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{

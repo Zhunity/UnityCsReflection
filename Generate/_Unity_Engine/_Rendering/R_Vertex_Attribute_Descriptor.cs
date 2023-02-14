@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.VertexAttributeDescriptor
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute <attribute>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_F__0__attribute__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RF__0__attribute__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_F__0__attribute__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RF__0__attribute__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat <format>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_F__0__format__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RF__0__format__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_F__0__format__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RF__0__format__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 <dimension>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__dimension__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__dimension__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__dimension__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__dimension__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 <stream>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__stream__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__stream__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__stream__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__stream__1__k__BackingField
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute attribute
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_Pattribute;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RPattribute
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_Pattribute;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RPattribute
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat format
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_Pformat;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RPformat
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_Pformat;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RPformat
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 dimension
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pdimension;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPdimension
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pdimension;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPdimension
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 stream
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pstream;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPstream
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pstream;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPstream
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RCamera
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode m_CameraRenderMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_Fm_CameraRenderMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFm_CameraRenderMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_Fm_CameraRenderMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFm_CameraRenderMode
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTexture m_ResultRT
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderTexture r_Fm_ResultRT;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderTexture RFm_ResultRT
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderTexture r_Fm_ResultRT;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderTexture RFm_ResultRT
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestOutputSpace m_OutputSpace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_Fm_OutputSpace;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFm_OutputSpace
+		protected Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_Fm_OutputSpace;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RFm_OutputSpace
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisValid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisValid
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// RenderRequestMode mode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_Pmode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RPmode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_Pmode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RPmode
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTexture result
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderTexture r_Presult;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderTexture RPresult
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderTexture r_Presult;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderTexture RPresult
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// RenderRequestOutputSpace outputSpace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_PoutputSpace;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RPoutputSpace
+		protected Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace r_PoutputSpace;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestOutputSpace RPoutputSpace
 		{
 			get
 			{

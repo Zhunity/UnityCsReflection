@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.BlendShapeBufferLayout
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.BlendShapeBufferLayout PerShape
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RBlendShapeBufferLayout r_FPerShape;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RBlendShapeBufferLayout RFPerShape
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RBlendShapeBufferLayout r_FPerShape;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RBlendShapeBufferLayout RFPerShape
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.BlendShapeBufferLayout PerVertex
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RBlendShapeBufferLayout r_FPerVertex;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RBlendShapeBufferLayout RFPerVertex
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RBlendShapeBufferLayout r_FPerVertex;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RBlendShapeBufferLayout RFPerVertex
 		{
 			get
 			{

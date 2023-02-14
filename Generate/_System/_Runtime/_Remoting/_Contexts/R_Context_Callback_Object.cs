@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Contexts.ContextCallbackObject
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Runtime.Remoting.ServerIdentity ObjectIdentity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
 		{
 			get
 			{
@@ -261,7 +261,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
+        public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
         {
 			@IsClient = default;
 
@@ -270,7 +270,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
         }
 
 

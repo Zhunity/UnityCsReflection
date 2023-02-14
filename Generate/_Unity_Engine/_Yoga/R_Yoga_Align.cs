@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
+namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
 	/// UnityEngine.Yoga.YogaAlign
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaAlign Auto
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FAuto;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFAuto
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FAuto;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFAuto
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaAlign FlexStart
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FFlexStart;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFFlexStart
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FFlexStart;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFFlexStart
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaAlign Center
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FCenter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFCenter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FCenter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFCenter
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaAlign FlexEnd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FFlexEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFFlexEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FFlexEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFFlexEnd
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaAlign Stretch
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FStretch;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFStretch
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FStretch;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFStretch
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaAlign Baseline
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FBaseline;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFBaseline
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FBaseline;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFBaseline
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaAlign SpaceBetween
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FSpaceBetween;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFSpaceBetween
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FSpaceBetween;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFSpaceBetween
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaAlign SpaceAround
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FSpaceAround;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFSpaceAround
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign r_FSpaceAround;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaAlign RFSpaceAround
 		{
 			get
 			{

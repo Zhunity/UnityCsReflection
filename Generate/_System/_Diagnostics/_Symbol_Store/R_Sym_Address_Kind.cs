@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
+namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 {
 	/// <summary>
 	/// System.Diagnostics.SymbolStore.SymAddressKind
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// System.Diagnostics.SymbolStore.SymAddressKind ILOffset
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FILOffset;
-		public static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFILOffset
+		protected static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FILOffset;
+		public static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFILOffset
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// System.Diagnostics.SymbolStore.SymAddressKind NativeRVA
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeRVA;
-		public static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeRVA
+		protected static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeRVA;
+		public static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeRVA
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// System.Diagnostics.SymbolStore.SymAddressKind NativeRegister
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeRegister;
-		public static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeRegister
+		protected static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeRegister;
+		public static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeRegister
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// System.Diagnostics.SymbolStore.SymAddressKind NativeRegisterRelative
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeRegisterRelative;
-		public static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeRegisterRelative
+		protected static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeRegisterRelative;
+		public static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeRegisterRelative
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// System.Diagnostics.SymbolStore.SymAddressKind NativeOffset
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeOffset;
-		public static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeOffset
+		protected static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeOffset;
+		public static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeOffset
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// System.Diagnostics.SymbolStore.SymAddressKind NativeRegisterRegister
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeRegisterRegister;
-		public static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeRegisterRegister
+		protected static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeRegisterRegister;
+		public static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeRegisterRegister
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// System.Diagnostics.SymbolStore.SymAddressKind NativeRegisterStack
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeRegisterStack;
-		public static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeRegisterStack
+		protected static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeRegisterStack;
+		public static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeRegisterStack
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// System.Diagnostics.SymbolStore.SymAddressKind NativeStackRegister
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeStackRegister;
-		public static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeStackRegister
+		protected static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeStackRegister;
+		public static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeStackRegister
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// System.Diagnostics.SymbolStore.SymAddressKind BitField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FBitField;
-		public static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFBitField
+		protected static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FBitField;
+		public static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFBitField
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// System.Diagnostics.SymbolStore.SymAddressKind NativeSectionOffset
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeSectionOffset;
-		public static SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeSectionOffset
+		protected static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind r_FNativeSectionOffset;
+		public static Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RSymAddressKind RFNativeSectionOffset
 		{
 			get
 			{

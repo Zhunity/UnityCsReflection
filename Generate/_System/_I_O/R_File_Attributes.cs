@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RIO
+namespace Hvak.Editor.Refleaction.RSystem.RIO
 {
 	/// <summary>
 	/// System.IO.FileAttributes
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes ReadOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FReadOnly;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFReadOnly
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FReadOnly;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFReadOnly
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes Hidden
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FHidden;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFHidden
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FHidden;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFHidden
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes System
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FSystem;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFSystem
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FSystem;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFSystem
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes Directory
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FDirectory;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFDirectory
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FDirectory;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFDirectory
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes Archive
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FArchive;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFArchive
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FArchive;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFArchive
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes Device
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FDevice;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFDevice
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FDevice;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFDevice
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes Normal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FNormal;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFNormal
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FNormal;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFNormal
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes Temporary
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FTemporary;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFTemporary
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FTemporary;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFTemporary
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes SparseFile
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FSparseFile;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFSparseFile
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FSparseFile;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFSparseFile
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes ReparsePoint
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FReparsePoint;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFReparsePoint
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FReparsePoint;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFReparsePoint
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes Compressed
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FCompressed;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFCompressed
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FCompressed;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFCompressed
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes Offline
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FOffline;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFOffline
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FOffline;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFOffline
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes NotContentIndexed
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FNotContentIndexed;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFNotContentIndexed
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FNotContentIndexed;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFNotContentIndexed
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes Encrypted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FEncrypted;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFEncrypted
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FEncrypted;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFEncrypted
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes IntegrityStream
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FIntegrityStream;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFIntegrityStream
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FIntegrityStream;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFIntegrityStream
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAttributes NoScrubData
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FNoScrubData;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RFNoScrubData
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_FNoScrubData;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RFNoScrubData
 		{
 			get
 			{

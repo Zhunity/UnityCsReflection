@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.WeakReference
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean isLongReference
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisLongReference;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisLongReference
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisLongReference;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisLongReference
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Runtime.InteropServices.GCHandle gcHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle r_FgcHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle RFgcHandle
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle r_FgcHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle RFgcHandle
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsAlive
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsAlive;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsAlive
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsAlive;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsAlive
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Object Target
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PTarget;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPTarget
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PTarget;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPTarget
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean TrackResurrection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PTrackResurrection;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPTrackResurrection
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PTrackResurrection;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPTrackResurrection
 		{
 			get
 			{

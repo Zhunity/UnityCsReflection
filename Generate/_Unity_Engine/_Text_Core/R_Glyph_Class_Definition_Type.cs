@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 {
 	/// <summary>
 	/// UnityEngine.TextCore.GlyphClassDefinitionType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UnityEngine.TextCore.GlyphClassDefinitionType Undefined
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_FUndefined;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RFUndefined
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_FUndefined;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RFUndefined
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UnityEngine.TextCore.GlyphClassDefinitionType Base
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_FBase;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RFBase
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_FBase;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RFBase
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UnityEngine.TextCore.GlyphClassDefinitionType Ligature
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_FLigature;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RFLigature
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_FLigature;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RFLigature
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UnityEngine.TextCore.GlyphClassDefinitionType Mark
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_FMark;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RFMark
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_FMark;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RFMark
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UnityEngine.TextCore.GlyphClassDefinitionType Component
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_FComponent;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RFComponent
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_FComponent;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RFComponent
 		{
 			get
 			{

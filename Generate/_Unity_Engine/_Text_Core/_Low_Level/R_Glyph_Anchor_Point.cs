@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
 	/// UnityEngine.TextCore.LowLevel.GlyphAnchorPoint
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_XCoordinate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_XCoordinate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_XCoordinate
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_XCoordinate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_XCoordinate
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_YCoordinate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_YCoordinate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_YCoordinate
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_YCoordinate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_YCoordinate
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single xCoordinate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PxCoordinate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPxCoordinate
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PxCoordinate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPxCoordinate
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single yCoordinate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PyCoordinate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPyCoordinate
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PyCoordinate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPyCoordinate
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.LinkInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 hashCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FhashCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFhashCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FhashCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFhashCode
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 linkIdFirstCharacterIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FlinkIdFirstCharacterIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlinkIdFirstCharacterIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FlinkIdFirstCharacterIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlinkIdFirstCharacterIndex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 linkIdLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FlinkIdLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlinkIdLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FlinkIdLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlinkIdLength
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 linkTextfirstCharacterIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FlinkTextfirstCharacterIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlinkTextfirstCharacterIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FlinkTextfirstCharacterIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlinkTextfirstCharacterIndex
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 linkTextLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FlinkTextLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlinkTextLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FlinkTextLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlinkTextLength
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Char[] linkId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> r_FlinkId;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> RFlinkId
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> r_FlinkId;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> RFlinkId
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_LinkIdString
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_LinkIdString;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_LinkIdString
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_LinkIdString;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_LinkIdString
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_LinkTextString
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_LinkTextString;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_LinkTextString
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_LinkTextString;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_LinkTextString
 		{
 			get
 			{
@@ -329,7 +329,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.String GetLinkText(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo @textInfo)
+        public virtual System.String GetLinkText(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo @textInfo)
         {
 
             var ___genericsType = new Type[] {};

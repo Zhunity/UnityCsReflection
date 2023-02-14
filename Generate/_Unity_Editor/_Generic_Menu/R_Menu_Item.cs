@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {public partial class RGenericMenu
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.GUIContent content
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_Fcontent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RFcontent
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_Fcontent;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RFcontent
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean separator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fseparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFseparator
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fseparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFseparator
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean on
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fon;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFon
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fon;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFon
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.GenericMenu+MenuFunction func
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction r_Ffunc;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction RFfunc
+		protected Hvak.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction r_Ffunc;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction RFfunc
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.GenericMenu+MenuFunction2 func2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction2 r_Ffunc2;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction2 RFfunc2
+		protected Hvak.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction2 r_Ffunc2;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction2 RFfunc2
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Object userData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_FuserData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFuserData
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_FuserData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFuserData
 		{
 			get
 			{

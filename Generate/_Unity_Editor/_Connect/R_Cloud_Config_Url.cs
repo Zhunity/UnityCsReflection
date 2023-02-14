@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
+namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 {
 	/// <summary>
 	/// UnityEditor.Connect.CloudConfigUrl
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// UnityEditor.Connect.CloudConfigUrl CloudCore
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudCore;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudCore
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudCore;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudCore
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// UnityEditor.Connect.CloudConfigUrl CloudCollab
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudCollab;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudCollab
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudCollab;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudCollab
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// UnityEditor.Connect.CloudConfigUrl CloudWebauth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudWebauth;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudWebauth
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudWebauth;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudWebauth
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// UnityEditor.Connect.CloudConfigUrl CloudLogin
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudLogin;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudLogin
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudLogin;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudLogin
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// UnityEditor.Connect.CloudConfigUrl CloudLicense
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudLicense;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudLicense
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudLicense;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudLicense
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// UnityEditor.Connect.CloudConfigUrl CloudActivation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudActivation;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudActivation
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudActivation;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudActivation
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// UnityEditor.Connect.CloudConfigUrl CloudIdentity
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudIdentity;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudIdentity
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudIdentity;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudIdentity
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// UnityEditor.Connect.CloudConfigUrl CloudPortal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudPortal;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudPortal
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudPortal;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudPortal
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// UnityEditor.Connect.CloudConfigUrl CloudPerfEvents
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudPerfEvents;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudPerfEvents
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudPerfEvents;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudPerfEvents
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// UnityEditor.Connect.CloudConfigUrl CloudAdsDashboard
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudAdsDashboard;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudAdsDashboard
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudAdsDashboard;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudAdsDashboard
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// UnityEditor.Connect.CloudConfigUrl CloudServicesDashboard
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudServicesDashboard;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudServicesDashboard
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudServicesDashboard;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudServicesDashboard
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// UnityEditor.Connect.CloudConfigUrl CloudPackagesApi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudPackagesApi;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudPackagesApi
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudPackagesApi;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudPackagesApi
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// UnityEditor.Connect.CloudConfigUrl CloudPackagesKey
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudPackagesKey;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudPackagesKey
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudPackagesKey;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudPackagesKey
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// UnityEditor.Connect.CloudConfigUrl CloudAssetStoreUrl
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudAssetStoreUrl;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudAssetStoreUrl
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl r_FCloudAssetStoreUrl;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl RFCloudAssetStoreUrl
 		{
 			get
 			{

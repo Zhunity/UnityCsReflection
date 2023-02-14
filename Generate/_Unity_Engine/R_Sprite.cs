@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Sprite
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Bounds bounds
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RBounds r_Pbounds;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RBounds RPbounds
+		protected Hvak.Editor.Refleaction.RUnityEngine.RBounds r_Pbounds;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RBounds RPbounds
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rect rect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_Prect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RPrect
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_Prect;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RPrect
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector4 border
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_Pborder;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RPborder
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_Pborder;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RPborder
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Texture2D texture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_Ptexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RPtexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Ptexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RPtexture
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single pixelsPerUnit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PpixelsPerUnit;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPpixelsPerUnit
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PpixelsPerUnit;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPpixelsPerUnit
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single spriteAtlasTextureScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PspriteAtlasTextureScale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPspriteAtlasTextureScale
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PspriteAtlasTextureScale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPspriteAtlasTextureScale
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Texture2D associatedAlphaSplitTexture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_PassociatedAlphaSplitTexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RPassociatedAlphaSplitTexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_PassociatedAlphaSplitTexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RPassociatedAlphaSplitTexture
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2 pivot
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Ppivot;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPpivot
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Ppivot;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPpivot
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean packed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Ppacked;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPpacked
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Ppacked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPpacked
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.SpritePackingMode packingMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RSpritePackingMode r_PpackingMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RSpritePackingMode RPpackingMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RSpritePackingMode r_PpackingMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RSpritePackingMode RPpackingMode
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.SpritePackingRotation packingRotation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RSpritePackingRotation r_PpackingRotation;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RSpritePackingRotation RPpackingRotation
+		protected Hvak.Editor.Refleaction.RUnityEngine.RSpritePackingRotation r_PpackingRotation;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RSpritePackingRotation RPpackingRotation
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rect textureRect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_PtextureRect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RPtextureRect
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_PtextureRect;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RPtextureRect
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2 textureRectOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PtextureRectOffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPtextureRectOffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PtextureRectOffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPtextureRectOffset
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2[] vertices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector2> r_Pvertices;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector2> RPvertices
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RVector2> r_Pvertices;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RVector2> RPvertices
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt16[] triangles
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RUInt16> r_Ptriangles;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RUInt16> RPtriangles
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RUInt16> r_Ptriangles;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RUInt16> RPtriangles
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2[] uv
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector2> r_Puv;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector2> RPuv
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RVector2> r_Puv;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RVector2> RPuv
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleDataRef`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleDataRef`1+RefCounted[T] m_Ref
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RField>.RRefCounted r_Fm_Ref;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RField>.RRefCounted RFm_Ref
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RField>.RRefCounted r_Fm_Ref;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RField>.RRefCounted RFm_Ref
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 refCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PrefCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPrefCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PrefCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPrefCount
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt32 id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Pid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPid
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Pid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPid
 		{
 			get
 			{
@@ -352,14 +352,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RType> Acquire()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType> Acquire()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAcquire.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -374,7 +374,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void CopyFrom(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RType> @other)
+        public virtual void CopyFrom(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -385,36 +385,36 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RType Read()
+        public virtual Hvak.Editor.Refleaction.RType Read()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMRead.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RType(___result);
+            return new Hvak.Editor.Refleaction.RType(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RType Write()
+        public virtual Hvak.Editor.Refleaction.RType Write()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMWrite.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RType(___result);
+            return new Hvak.Editor.Refleaction.RType(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RType> Create()
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType> Create()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMCreate.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -429,7 +429,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RType> @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RType> @rhs)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType> @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType> @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -440,7 +440,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RType> @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RType> @rhs)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType> @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType> @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -451,7 +451,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RType> @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -473,7 +473,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean ReferenceEquals(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RType> @other)
+        public virtual System.Boolean ReferenceEquals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType> @other)
         {
 
             var ___genericsType = new Type[] {};

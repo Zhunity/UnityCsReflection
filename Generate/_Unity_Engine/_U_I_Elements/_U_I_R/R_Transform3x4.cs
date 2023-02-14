@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.Transform3x4
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector4 v0
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_Fv0;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFv0
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_Fv0;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFv0
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector4 v1
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_Fv1;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFv1
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_Fv1;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFv1
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector4 v2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_Fv2;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFv2
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_Fv2;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFv2
 		{
 			get
 			{

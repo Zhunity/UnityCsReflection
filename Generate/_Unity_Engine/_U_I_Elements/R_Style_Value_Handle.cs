@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleValueHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType m_ValueType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_Fm_ValueType;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFm_ValueType
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_Fm_ValueType;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RFm_ValueType
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 valueIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FvalueIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalueIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FvalueIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalueIndex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueType valueType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_PvalueType;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RPvalueType
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType r_PvalueType;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType RPvalueType
 		{
 			get
 			{

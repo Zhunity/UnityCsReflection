@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
+namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
 	/// System.Threading.Tasks.ITaskCompletionAction
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean InvokeMayRunArbitraryCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PInvokeMayRunArbitraryCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPInvokeMayRunArbitraryCode
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PInvokeMayRunArbitraryCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPInvokeMayRunArbitraryCode
 		{
 			get
 			{

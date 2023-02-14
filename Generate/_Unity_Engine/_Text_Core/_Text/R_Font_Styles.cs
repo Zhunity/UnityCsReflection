@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.FontStyles
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontStyles Normal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FNormal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFNormal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FNormal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFNormal
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontStyles Bold
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FBold;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFBold
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FBold;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFBold
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontStyles Italic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FItalic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFItalic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FItalic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFItalic
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontStyles Underline
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FUnderline;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFUnderline
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FUnderline;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFUnderline
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontStyles LowerCase
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FLowerCase;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFLowerCase
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FLowerCase;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFLowerCase
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontStyles UpperCase
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FUpperCase;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFUpperCase
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FUpperCase;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFUpperCase
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontStyles SmallCaps
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FSmallCaps;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFSmallCaps
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FSmallCaps;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFSmallCaps
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontStyles Strikethrough
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FStrikethrough;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFStrikethrough
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FStrikethrough;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFStrikethrough
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontStyles Superscript
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FSuperscript;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFSuperscript
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FSuperscript;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFSuperscript
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontStyles Subscript
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FSubscript;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFSubscript
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FSubscript;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFSubscript
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontStyles Highlight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FHighlight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFHighlight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FHighlight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFHighlight
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
+namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
 	/// System.Threading.Tasks.TaskExceptionHolder
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Boolean s_failFastOnUnobservedException
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fs_failFastOnUnobservedException;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RFs_failFastOnUnobservedException
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_Fs_failFastOnUnobservedException;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RFs_failFastOnUnobservedException
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.Task m_task
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask r_Fm_task;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask RFm_task
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask r_Fm_task;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask RFm_task
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Collections.Generic.LowLevelListWithIList`1[System.Runtime.ExceptionServices.ExceptionDispatchInfo] m_faultExceptions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLowLevelListWithIList<SMFrame.Editor.Refleaction.RSystem.RRuntime.RExceptionServices.RExceptionDispatchInfo> r_Fm_faultExceptions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLowLevelListWithIList<SMFrame.Editor.Refleaction.RSystem.RRuntime.RExceptionServices.RExceptionDispatchInfo> RFm_faultExceptions
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLowLevelListWithIList<Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices.RExceptionDispatchInfo> r_Fm_faultExceptions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLowLevelListWithIList<Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices.RExceptionDispatchInfo> RFm_faultExceptions
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Runtime.ExceptionServices.ExceptionDispatchInfo m_cancellationException
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RExceptionServices.RExceptionDispatchInfo r_Fm_cancellationException;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RExceptionServices.RExceptionDispatchInfo RFm_cancellationException
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices.RExceptionDispatchInfo r_Fm_cancellationException;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices.RExceptionDispatchInfo RFm_cancellationException
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Boolean m_isHandled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_isHandled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_isHandled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_isHandled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_isHandled
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean ContainsFaultList
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PContainsFaultList;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPContainsFaultList
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PContainsFaultList;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPContainsFaultList
 		{
 			get
 			{

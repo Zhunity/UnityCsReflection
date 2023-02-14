@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
+namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 {
 	/// <summary>
 	/// System.Diagnostics.StackTrace
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int32 METHODS_TO_SKIP
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMETHODS_TO_SKIP;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMETHODS_TO_SKIP
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMETHODS_TO_SKIP;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMETHODS_TO_SKIP
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.String prefix
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fprefix;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFprefix
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fprefix;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFprefix
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Diagnostics.StackFrame[] frames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RStackFrame> r_Fframes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RStackFrame> RFframes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RDiagnostics.RStackFrame> r_Fframes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RDiagnostics.RStackFrame> RFframes
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Diagnostics.StackTrace[] captured_traces
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace> r_Fcaptured_traces;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace> RFcaptured_traces
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace> r_Fcaptured_traces;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace> RFcaptured_traces
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Boolean debug_info
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fdebug_info;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFdebug_info
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fdebug_info;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFdebug_info
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Boolean isAotidSet
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisAotidSet;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RFisAotidSet
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_FisAotidSet;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RFisAotidSet
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.String aotid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Faotid;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFaotid
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Faotid;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFaotid
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// Int32 FrameCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PFrameCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPFrameCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PFrameCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPFrameCount
 		{
 			get
 			{
@@ -527,7 +527,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
         }
 
 
-        public virtual System.String ToString(SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace.RTraceFormat @traceFormat)
+        public virtual System.String ToString(Hvak.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace.RTraceFormat @traceFormat)
         {
 
             var ___genericsType = new Type[] {};

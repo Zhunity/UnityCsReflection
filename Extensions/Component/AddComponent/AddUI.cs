@@ -1,4 +1,4 @@
-﻿using SMFrame.Editor.Extension;
+﻿using Hvak.Editor.Extension;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -8,7 +8,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-namespace SMFrame.Editor
+namespace Hvak.Editor
 {
 	/// <summary>
 	/// 创建UI组件

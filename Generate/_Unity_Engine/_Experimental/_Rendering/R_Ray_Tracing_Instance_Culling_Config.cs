@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingFlags flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags r_Fflags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags RFflags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags r_Fflags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags RFflags
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Vector3 sphereCenter
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_FsphereCenter;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFsphereCenter
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_FsphereCenter;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFsphereCenter
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Single sphereRadius
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FsphereRadius;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFsphereRadius
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FsphereRadius;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFsphereRadius
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Plane[] planes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RPlane> r_Fplanes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RPlane> RFplanes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RPlane> r_Fplanes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RPlane> RFplanes
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingTest[] instanceTests
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingTest> r_FinstanceTests;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingTest> RFinstanceTests
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingTest> r_FinstanceTests;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingTest> RFinstanceTests
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingMaterialTest materialTest
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingMaterialTest r_FmaterialTest;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingMaterialTest RFmaterialTest
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingMaterialTest r_FmaterialTest;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingMaterialTest RFmaterialTest
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceMaterialConfig transparentMaterialConfig
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceMaterialConfig r_FtransparentMaterialConfig;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceMaterialConfig RFtransparentMaterialConfig
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceMaterialConfig r_FtransparentMaterialConfig;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceMaterialConfig RFtransparentMaterialConfig
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceMaterialConfig alphaTestedMaterialConfig
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceMaterialConfig r_FalphaTestedMaterialConfig;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceMaterialConfig RFalphaTestedMaterialConfig
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceMaterialConfig r_FalphaTestedMaterialConfig;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceMaterialConfig RFalphaTestedMaterialConfig
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingSubMeshFlagsConfig subMeshFlagsConfig
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlagsConfig r_FsubMeshFlagsConfig;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlagsConfig RFsubMeshFlagsConfig
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlagsConfig r_FsubMeshFlagsConfig;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlagsConfig RFsubMeshFlagsConfig
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceTriangleCullingConfig triangleCullingConfig
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceTriangleCullingConfig r_FtriangleCullingConfig;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceTriangleCullingConfig RFtriangleCullingConfig
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceTriangleCullingConfig r_FtriangleCullingConfig;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceTriangleCullingConfig RFtriangleCullingConfig
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.LODParameters lodParameters
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLODParameters r_FlodParameters;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLODParameters RFlodParameters
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLODParameters r_FlodParameters;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLODParameters RFlodParameters
 		{
 			get
 			{

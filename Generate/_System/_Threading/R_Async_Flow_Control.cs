@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.AsyncFlowControl
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean useEC
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FuseEC;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFuseEC
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FuseEC;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFuseEC
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext _ec
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_F_ec;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext RF_ec
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_F_ec;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext RF_ec
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.Thread _thread
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RThread r_F_thread;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RThread RF_thread
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RThread r_F_thread;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RThread RF_thread
 		{
 			get
 			{

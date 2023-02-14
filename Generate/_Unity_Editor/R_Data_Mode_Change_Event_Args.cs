@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.DataModeChangeEventArgs
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode nextDataMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RDataMode r_FnextDataMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RDataMode RFnextDataMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_FnextDataMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataMode RFnextDataMode
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean changedThroughUI
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FchangedThroughUI;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFchangedThroughUI
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FchangedThroughUI;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFchangedThroughUI
 		{
 			get
 			{

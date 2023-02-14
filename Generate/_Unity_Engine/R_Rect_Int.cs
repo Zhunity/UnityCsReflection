@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.RectInt
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_XMin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_XMin;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_XMin
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_XMin;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_XMin
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_YMin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_YMin;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_YMin
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_YMin;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_YMin
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_Width
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Width;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Width
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Width;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Width
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_Height
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Height;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Height
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Height;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Height
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 x
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Px;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPx
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Px;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPx
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 y
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Py;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPy
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Py;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPy
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2 center
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Pcenter;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPcenter
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Pcenter;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPcenter
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int min
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Pmin;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RPmin
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Pmin;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RPmin
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int max
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Pmax;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RPmax
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Pmax;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RPmax
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 width
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pwidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPwidth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pwidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPwidth
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 height
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pheight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPheight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pheight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPheight
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 xMin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PxMin;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPxMin
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PxMin;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPxMin
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 yMin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PyMin;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPyMin
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PyMin;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPyMin
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 xMax
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PxMax;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPxMax
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PxMax;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPxMax
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 yMax
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PyMax;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPyMax
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PyMax;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPyMax
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int position
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Pposition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RPposition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Pposition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RPposition
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Psize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RPsize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Psize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RPsize
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// PositionEnumerator allPositionsWithin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRectInt.RPositionEnumerator r_PallPositionsWithin;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRectInt.RPositionEnumerator RPallPositionsWithin
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRectInt.RPositionEnumerator r_PallPositionsWithin;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRectInt.RPositionEnumerator RPallPositionsWithin
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.TextureRegistry
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.TextureRegistry+TextureInfo] m_Textures
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry.RTextureInfo> r_Fm_Textures;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry.RTextureInfo> RFm_Textures
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry.RTextureInfo> r_Fm_Textures;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry.RTextureInfo> RFm_Textures
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[UnityEngine.Texture,UnityEngine.UIElements.TextureId] m_TextureToId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RTexture, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId> r_Fm_TextureToId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RTexture, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId> RFm_TextureToId
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RTexture, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId> r_Fm_TextureToId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RTexture, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId> RFm_TextureToId
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Stack`1[UnityEngine.UIElements.TextureId] m_FreeIds
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId> r_Fm_FreeIds;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId> RFm_FreeIds
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId> r_Fm_FreeIds;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId> RFm_FreeIds
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 maxTextures
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FmaxTextures;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFmaxTextures
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FmaxTextures;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFmaxTextures
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextureRegistry <instance>k__BackingField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry r_F__0__instance__1__k__BackingField;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry RF__0__instance__1__k__BackingField
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry r_F__0__instance__1__k__BackingField;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry RF__0__instance__1__k__BackingField
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextureRegistry instance
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry r_Pinstance;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry RPinstance
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry r_Pinstance;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry RPinstance
 		{
 			get
 			{
@@ -386,7 +386,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual UnityEngine.Texture GetTexture(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
+        public virtual UnityEngine.Texture GetTexture(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -397,18 +397,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId AllocAndAcquireDynamic()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId AllocAndAcquireDynamic()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAllocAndAcquireDynamic.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___result);
         }
 
 
-        public virtual void UpdateDynamic(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, UnityEngine.Texture @texture)
+        public virtual void UpdateDynamic(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, UnityEngine.Texture @texture)
         {
 
             var ___genericsType = new Type[] {};
@@ -419,29 +419,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId AllocAndAcquire(UnityEngine.Texture @texture, System.Boolean @dynamic)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId AllocAndAcquire(UnityEngine.Texture @texture, System.Boolean @dynamic)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@texture, @dynamic};
             var ___result = RMAllocAndAcquire_Texture_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId Acquire(UnityEngine.Texture @tex)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId Acquire(UnityEngine.Texture @tex)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tex};
             var ___result = RMAcquire_Texture.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___result);
         }
 
 
-        public virtual void Acquire(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
+        public virtual void Acquire(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -452,7 +452,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Release(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
+        public virtual void Release(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -463,25 +463,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId TextureToId(UnityEngine.Texture @texture)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId TextureToId(UnityEngine.Texture @texture)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@texture};
             var ___result = RMTextureToId_Texture.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry.RStatistics GatherStatistics()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry.RStatistics GatherStatistics()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGatherStatistics.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry.RStatistics(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry.RStatistics(___result);
         }
 
 

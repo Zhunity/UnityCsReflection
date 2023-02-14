@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
+namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
 	/// System.Collections.Generic.LowLevelListWithIList`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// T[] _items
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RField> r_F_items;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RField> RF_items
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RField> r_F_items;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RField> RF_items
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_size;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_size
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_size;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_size
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_version
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_version
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Boolean System.Collections.Generic.ICollection<T>.IsReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Int32 Capacity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCapacity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCapacity
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCapacity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCapacity
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCount
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// T Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPItem_Int32
+		protected Hvak.Editor.Refleaction.RProperty r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RProperty RPItem_Int32
 		{
 			get
 			{

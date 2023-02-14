@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RVisualElement
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String k_InvalidHierarchyChangeMsg
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_InvalidHierarchyChangeMsg;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_InvalidHierarchyChangeMsg
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_InvalidHierarchyChangeMsg;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_InvalidHierarchyChangeMsg
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_Owner
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_Owner;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_Owner
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_Owner;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_Owner
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement parent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Pparent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPparent
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Pparent;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPparent
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualElement] children
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_Pchildren;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RPchildren
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_Pchildren;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RPchildren
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 childCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PchildCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPchildCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PchildCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPchildCount
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPItem_Int32
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPItem_Int32
 		{
 			get
 			{
@@ -790,7 +790,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -823,7 +823,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @x, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @y)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @x, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -834,7 +834,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @x, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @y)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @x, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RHierarchy @y)
         {
 
             var ___genericsType = new Type[] {};

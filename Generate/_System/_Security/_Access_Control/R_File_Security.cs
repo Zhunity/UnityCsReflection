@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.FileSecurity
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.CommonSecurityDescriptor descriptor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RCommonSecurityDescriptor r_Fdescriptor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RCommonSecurityDescriptor RFdescriptor
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RCommonSecurityDescriptor r_Fdescriptor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RCommonSecurityDescriptor RFdescriptor
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Type AccessRightType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PAccessRightType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPAccessRightType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PAccessRightType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPAccessRightType
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Type AccessRuleType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PAccessRuleType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPAccessRuleType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PAccessRuleType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPAccessRuleType
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Type AuditRuleType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PAuditRuleType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPAuditRuleType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PAuditRuleType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPAuditRuleType
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ResourceType ResourceType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_PResourceType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RPResourceType
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_PResourceType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RPResourceType
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean AreAccessRulesCanonical
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PAreAccessRulesCanonical;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPAreAccessRulesCanonical
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PAreAccessRulesCanonical;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPAreAccessRulesCanonical
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean AreAccessRulesProtected
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PAreAccessRulesProtected;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPAreAccessRulesProtected
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PAreAccessRulesProtected;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPAreAccessRulesProtected
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean AreAuditRulesCanonical
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PAreAuditRulesCanonical;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPAreAuditRulesCanonical
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PAreAuditRulesCanonical;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPAreAuditRulesCanonical
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean AreAuditRulesProtected
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PAreAuditRulesProtected;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPAreAuditRulesProtected
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PAreAuditRulesProtected;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPAreAuditRulesProtected
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlSections AccessControlSectionsModified
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections r_PAccessControlSectionsModified;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections RPAccessControlSectionsModified
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections r_PAccessControlSectionsModified;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections RPAccessControlSectionsModified
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean AccessRulesModified
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PAccessRulesModified;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPAccessRulesModified
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PAccessRulesModified;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPAccessRulesModified
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean AuditRulesModified
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PAuditRulesModified;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPAuditRulesModified
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PAuditRulesModified;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPAuditRulesModified
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean GroupModified
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PGroupModified;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPGroupModified
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PGroupModified;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPGroupModified
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsContainer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsContainer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsContainer
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsContainer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsContainer
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsDS
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsDS;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsDS
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsDS;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsDS
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean OwnerModified
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_POwnerModified;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPOwnerModified
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_POwnerModified;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPOwnerModified
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RResources
+namespace Hvak.Editor.Refleaction.RSystem.RResources
 {
 	/// <summary>
 	/// System.Resources.Win32VersionResource
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String[] WellKnownProperties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FWellKnownProperties;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFWellKnownProperties
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FWellKnownProperties;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFWellKnownProperties
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int64 signature
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fsignature;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFsignature
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fsignature;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFsignature
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 struct_version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fstruct_version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFstruct_version
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fstruct_version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFstruct_version
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int64 file_version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Ffile_version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFfile_version
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Ffile_version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFfile_version
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int64 product_version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fproduct_version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFproduct_version
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fproduct_version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFproduct_version
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 file_flags_mask
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ffile_flags_mask;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfile_flags_mask
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ffile_flags_mask;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfile_flags_mask
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 file_flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ffile_flags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfile_flags
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ffile_flags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfile_flags
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 file_os
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ffile_os;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfile_os
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ffile_os;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfile_os
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 file_type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ffile_type;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfile_type
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ffile_type;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfile_type
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 file_subtype
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ffile_subtype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfile_subtype
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ffile_subtype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfile_subtype
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int64 file_date
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Ffile_date;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFfile_date
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Ffile_date;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFfile_date
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 file_lang
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ffile_lang;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfile_lang
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ffile_lang;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfile_lang
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 file_codepage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ffile_codepage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfile_codepage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ffile_codepage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfile_codepage
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Collections.Hashtable properties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable r_Fproperties;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable RFproperties
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_Fproperties;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RFproperties
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String Version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPVersion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPVersion
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String Item [System.String]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PItem_String;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPItem_String
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PItem_String;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPItem_String
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String Comments
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PComments;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPComments
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PComments;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPComments
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String CompanyName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PCompanyName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPCompanyName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PCompanyName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPCompanyName
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String LegalCopyright
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PLegalCopyright;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPLegalCopyright
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PLegalCopyright;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPLegalCopyright
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String LegalTrademarks
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PLegalTrademarks;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPLegalTrademarks
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PLegalTrademarks;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPLegalTrademarks
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String OriginalFilename
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_POriginalFilename;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPOriginalFilename
+		protected Hvak.Editor.Refleaction.RSystem.RString r_POriginalFilename;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPOriginalFilename
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String ProductName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PProductName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPProductName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PProductName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPProductName
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String ProductVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PProductVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPProductVersion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PProductVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPProductVersion
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String InternalName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PInternalName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPInternalName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PInternalName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPInternalName
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String FileDescription
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PFileDescription;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPFileDescription
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PFileDescription;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPFileDescription
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// Int32 FileLanguage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PFileLanguage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPFileLanguage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PFileLanguage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPFileLanguage
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String FileVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PFileVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPFileVersion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PFileVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPFileVersion
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType ResourceType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_PResourceType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RPResourceType
+		protected Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_PResourceType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RPResourceType
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.NameOrId Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RResources.RNameOrId r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RResources.RNameOrId RPName
+		protected Hvak.Editor.Refleaction.RSystem.RResources.RNameOrId r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RResources.RNameOrId RPName
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.NameOrId Type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RResources.RNameOrId r_PType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RResources.RNameOrId RPType
+		protected Hvak.Editor.Refleaction.RSystem.RResources.RNameOrId r_PType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RResources.RNameOrId RPType
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// Int32 Language
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLanguage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLanguage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLanguage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLanguage
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RBuffers
+namespace Hvak.Editor.Refleaction.RSystem.RBuffers
 {
 	/// <summary>
 	/// System.Buffers.MemoryHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RBuffers
 		/// <summary>
 		/// System.Void* _pointer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RField> r_F_pointer;
-		public virtual SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RField> RF_pointer
+		protected Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RField> r_F_pointer;
+		public virtual Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RField> RF_pointer
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RBuffers
 		/// <summary>
 		/// System.Runtime.InteropServices.GCHandle _handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle r_F_handle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle RF_handle
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle r_F_handle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle RF_handle
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RBuffers
 		/// <summary>
 		/// System.Buffers.IPinnable _pinnable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBuffers.RIPinnable r_F_pinnable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBuffers.RIPinnable RF_pinnable
+		protected Hvak.Editor.Refleaction.RSystem.RBuffers.RIPinnable r_F_pinnable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBuffers.RIPinnable RF_pinnable
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RBuffers
 		/// <summary>
 		/// Void* Pointer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyPointer<SMFrame.Editor.Refleaction.RProperty> r_PPointer;
-		public virtual SMFrame.Editor.Refleaction.RPropertyPointer<SMFrame.Editor.Refleaction.RProperty> RPPointer
+		protected Hvak.Editor.Refleaction.RPropertyPointer<Hvak.Editor.Refleaction.RProperty> r_PPointer;
+		public virtual Hvak.Editor.Refleaction.RPropertyPointer<Hvak.Editor.Refleaction.RProperty> RPPointer
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
+namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {public partial class RRegex
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions _options
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_F_options;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RF_options
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_F_options;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RF_options
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String _cultureKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_cultureKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_cultureKey
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_cultureKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_cultureKey
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String _pattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_pattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_pattern
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_pattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_pattern
 		{
 			get
 			{
@@ -246,7 +246,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -257,7 +257,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @left, SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @right)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @left, Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -268,7 +268,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @left, SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @right)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @left, Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @right)
         {
 
             var ___genericsType = new Type[] {};

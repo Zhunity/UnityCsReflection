@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
 	/// UnityEngine.TextCore.LowLevel.GlyphValueRecord
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_XPlacement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_XPlacement;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_XPlacement
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_XPlacement;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_XPlacement
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_YPlacement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_YPlacement;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_YPlacement
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_YPlacement;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_YPlacement
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_XAdvance
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_XAdvance;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_XAdvance
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_XAdvance;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_XAdvance
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_YAdvance
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_YAdvance;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_YAdvance
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_YAdvance;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_YAdvance
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single xPlacement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PxPlacement;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPxPlacement
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PxPlacement;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPxPlacement
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single yPlacement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PyPlacement;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPyPlacement
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PyPlacement;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPyPlacement
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single xAdvance
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PxAdvance;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPxAdvance
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PxAdvance;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPxAdvance
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single yAdvance
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PyAdvance;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPyAdvance
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PyAdvance;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPyAdvance
 		{
 			get
 			{

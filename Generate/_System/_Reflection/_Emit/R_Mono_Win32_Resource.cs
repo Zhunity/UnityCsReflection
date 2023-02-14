@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.MonoWin32Resource
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 res_type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fres_type;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFres_type
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fres_type;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFres_type
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 res_id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fres_id;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFres_id
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fres_id;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFres_id
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 lang_id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Flang_id;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlang_id
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Flang_id;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlang_id
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte[] data
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_Fdata;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFdata
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_Fdata;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFdata
 		{
 			get
 			{

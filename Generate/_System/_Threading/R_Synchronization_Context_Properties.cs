@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.SynchronizationContextProperties
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SynchronizationContextProperties None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContextProperties r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContextProperties RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContextProperties r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContextProperties RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SynchronizationContextProperties RequireWaitNotification
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContextProperties r_FRequireWaitNotification;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContextProperties RFRequireWaitNotification
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContextProperties r_FRequireWaitNotification;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContextProperties RFRequireWaitNotification
 		{
 			get
 			{

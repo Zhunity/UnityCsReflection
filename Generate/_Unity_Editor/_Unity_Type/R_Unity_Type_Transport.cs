@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {public partial class RUnityType
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.UInt32 runtimeTypeIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FruntimeTypeIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFruntimeTypeIndex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FruntimeTypeIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFruntimeTypeIndex
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.UInt32 descendantCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FdescendantCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFdescendantCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FdescendantCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFdescendantCount
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.UInt32 baseClassIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FbaseClassIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFbaseClassIndex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FbaseClassIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFbaseClassIndex
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String className
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FclassName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFclassName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FclassName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFclassName
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String classNamespace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FclassNamespace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFclassNamespace
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FclassNamespace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFclassNamespace
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String module
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fmodule;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFmodule
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fmodule;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFmodule
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 persistentTypeID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FpersistentTypeID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFpersistentTypeID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FpersistentTypeID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpersistentTypeID
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.UInt32 flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fflags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFflags
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fflags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFflags
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 {
 	/// <summary>
 	/// System.Runtime.InteropServices.GCHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.IntPtr handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fhandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFhandle
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fhandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFhandle
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// Boolean IsAllocated
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsAllocated;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsAllocated
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsAllocated;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsAllocated
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Object Target
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PTarget;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPTarget
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PTarget;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPTarget
 		{
 			get
 			{

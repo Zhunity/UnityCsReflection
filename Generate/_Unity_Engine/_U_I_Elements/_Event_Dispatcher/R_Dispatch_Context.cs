@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class REventDispatcher
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.UInt32 m_GateCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_GateCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_GateCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_GateCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_GateCount
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Queue`1[UnityEngine.UIElements.EventDispatcher+EventRecord] m_Queue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RQueue<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.REventRecord> r_Fm_Queue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RQueue<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.REventRecord> RFm_Queue
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RQueue<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.REventRecord> r_Fm_Queue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RQueue<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.REventRecord> RFm_Queue
 		{
 			get
 			{

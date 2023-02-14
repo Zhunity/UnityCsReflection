@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 {
 	/// <summary>
 	/// System.Security.PolicyLevelType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.PolicyLevelType AppDomain
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType r_FAppDomain;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType RFAppDomain
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType r_FAppDomain;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType RFAppDomain
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.PolicyLevelType Enterprise
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType r_FEnterprise;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType RFEnterprise
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType r_FEnterprise;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType RFEnterprise
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.PolicyLevelType Machine
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType r_FMachine;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType RFMachine
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType r_FMachine;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType RFMachine
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.PolicyLevelType User
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType r_FUser;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType RFUser
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType r_FUser;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicyLevelType RFUser
 		{
 			get
 			{

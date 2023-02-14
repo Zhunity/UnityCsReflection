@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.AssetStoreCachePathProxy
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action`1[UnityEditorInternal.AssetStoreCachePathManager+CachePathConfig] onConfigChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig> r_FonConfigChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig> RFonConfigChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig> r_FonConfigChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig> RFonConfigChanged
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditorInternal.AssetStoreCachePathManager+CachePathConfig m_CurrentConfig
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig r_Fm_CurrentConfig;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig RFm_CurrentConfig
+		protected Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig r_Fm_CurrentConfig;
+		public virtual Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig RFm_CurrentConfig
 		{
 			get
 			{
@@ -250,47 +250,47 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig GetDefaultConfig()
+        public virtual Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig GetDefaultConfig()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetDefaultConfig.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig GetConfig()
+        public virtual Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig GetConfig()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetConfig.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus SetConfig(System.String @path)
+        public virtual Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus SetConfig(System.String @path)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@path};
             var ___result = RMSetConfig_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus ResetConfig()
+        public virtual Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus ResetConfig()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMResetConfig.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus(___result);
         }
 
 

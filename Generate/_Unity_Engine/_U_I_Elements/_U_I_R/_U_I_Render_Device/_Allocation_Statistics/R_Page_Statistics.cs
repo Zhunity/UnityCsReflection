@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {public partial class RUIRenderDevice
 {
 	public partial class RAllocationStatistics
@@ -18,8 +18,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.HeapStatistics vertices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics r_Fvertices;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics RFvertices
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics r_Fvertices;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics RFvertices
 		{
 			get
 			{
@@ -35,8 +35,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.HeapStatistics indices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics r_Findices;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics RFindices
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics r_Findices;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics RFindices
 		{
 			get
 			{

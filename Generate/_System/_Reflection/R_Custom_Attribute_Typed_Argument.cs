@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.CustomAttributeTypedArgument
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Type <ArgumentType>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_F__0__ArgumentType__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RF__0__ArgumentType__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RType r_F__0__ArgumentType__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RF__0__ArgumentType__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Object <Value>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F__0__Value__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF__0__Value__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F__0__Value__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF__0__Value__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Type ArgumentType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PArgumentType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPArgumentType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PArgumentType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPArgumentType
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Object Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPValue
 		{
 			get
 			{

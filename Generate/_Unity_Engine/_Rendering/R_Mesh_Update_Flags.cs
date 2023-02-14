@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.MeshUpdateFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.MeshUpdateFlags Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags r_FDefault;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags RFDefault
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags r_FDefault;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags RFDefault
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.MeshUpdateFlags DontValidateIndices
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags r_FDontValidateIndices;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags RFDontValidateIndices
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags r_FDontValidateIndices;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags RFDontValidateIndices
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.MeshUpdateFlags DontResetBoneBounds
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags r_FDontResetBoneBounds;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags RFDontResetBoneBounds
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags r_FDontResetBoneBounds;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags RFDontResetBoneBounds
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.MeshUpdateFlags DontNotifyMeshUsers
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags r_FDontNotifyMeshUsers;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags RFDontNotifyMeshUsers
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags r_FDontNotifyMeshUsers;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags RFDontNotifyMeshUsers
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.MeshUpdateFlags DontRecalculateBounds
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags r_FDontRecalculateBounds;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags RFDontRecalculateBounds
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags r_FDontRecalculateBounds;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RMeshUpdateFlags RFDontRecalculateBounds
 		{
 			get
 			{

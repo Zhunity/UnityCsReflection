@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RGUILayoutUtility
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFid
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFid
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutGroup topLevel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutGroup r_FtopLevel;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutGroup RFtopLevel
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutGroup r_FtopLevel;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutGroup RFtopLevel
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngineInternal.GenericStack layoutGroups
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngineInternal.RGenericStack r_FlayoutGroups;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngineInternal.RGenericStack RFlayoutGroups
+		protected Hvak.Editor.Refleaction.RUnityEngineInternal.RGenericStack r_FlayoutGroups;
+		public virtual Hvak.Editor.Refleaction.RUnityEngineInternal.RGenericStack RFlayoutGroups
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutGroup windows
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutGroup r_Fwindows;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutGroup RFwindows
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutGroup r_Fwindows;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutGroup RFwindows
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
+namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 {public partial class RAdvancedDropdownState
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Int32 itemId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FitemId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFitemId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FitemId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFitemId
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Int32 selectedIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FselectedIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFselectedIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FselectedIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFselectedIndex
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEngine.Vector2 scroll
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Fscroll;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFscroll
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fscroll;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFscroll
 		{
 			get
 			{

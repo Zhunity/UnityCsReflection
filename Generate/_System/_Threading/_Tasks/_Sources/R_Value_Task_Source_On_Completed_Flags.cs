@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
+namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 {
 	/// <summary>
 	/// System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 		/// <summary>
 		/// System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceOnCompletedFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceOnCompletedFlags RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceOnCompletedFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceOnCompletedFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 		/// <summary>
 		/// System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags UseSchedulingContext
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceOnCompletedFlags r_FUseSchedulingContext;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceOnCompletedFlags RFUseSchedulingContext
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceOnCompletedFlags r_FUseSchedulingContext;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceOnCompletedFlags RFUseSchedulingContext
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 		/// <summary>
 		/// System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags FlowExecutionContext
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceOnCompletedFlags r_FFlowExecutionContext;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceOnCompletedFlags RFFlowExecutionContext
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceOnCompletedFlags r_FFlowExecutionContext;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources.RValueTaskSourceOnCompletedFlags RFFlowExecutionContext
 		{
 			get
 			{

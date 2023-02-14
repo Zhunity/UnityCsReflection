@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.TextInputSource
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextInputSource TextInputBox
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource r_FTextInputBox;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource RFTextInputBox
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource r_FTextInputBox;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource RFTextInputBox
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextInputSource SetText
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource r_FSetText;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource RFSetText
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource r_FSetText;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource RFSetText
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextInputSource SetTextArray
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource r_FSetTextArray;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource RFSetTextArray
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource r_FSetTextArray;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource RFSetTextArray
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextInputSource TextString
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource r_FTextString;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource RFTextString
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource r_FTextString;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource RFTextString
 		{
 			get
 			{

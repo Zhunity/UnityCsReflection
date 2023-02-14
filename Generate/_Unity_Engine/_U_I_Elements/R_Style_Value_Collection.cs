@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleValueCollection
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSheets.StyleValue] m_Values
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue> r_Fm_Values;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue> RFm_Values
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue> r_Fm_Values;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue> RFm_Values
 		{
 			get
 			{
@@ -335,7 +335,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual UnityEngine.UIElements.StyleLength GetStyleLength(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleLength GetStyleLength(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -346,7 +346,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleFloat GetStyleFloat(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleFloat GetStyleFloat(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -357,7 +357,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleInt GetStyleInt(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleInt GetStyleInt(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -368,7 +368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleColor GetStyleColor(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleColor GetStyleColor(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -379,7 +379,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleBackground GetStyleBackground(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleBackground GetStyleBackground(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -390,7 +390,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -401,7 +401,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -412,7 +412,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleFont GetStyleFont(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleFont GetStyleFont(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -423,7 +423,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleFontDefinition GetStyleFontDefinition(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleFontDefinition GetStyleFontDefinition(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -434,19 +434,19 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
+        public virtual System.Boolean TryGetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @value.Value};
             var ___result = RMTryGetStyleValue_StylePropertyId_Ref_StyleValue.Invoke(___genericsType, ___parameters);
-			@value = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue(___parameters[1]);
+			@value = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue(___parameters[1]);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual void SetStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
+        public virtual void SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
         {
 
             var ___genericsType = new Type[] {};

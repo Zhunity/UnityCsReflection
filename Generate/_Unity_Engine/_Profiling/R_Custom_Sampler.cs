@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
+namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
 {
 	/// <summary>
 	/// UnityEngine.Profiling.CustomSampler
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// UnityEngine.Profiling.CustomSampler s_InvalidCustomSampler
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RProfiling.RCustomSampler r_Fs_InvalidCustomSampler;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RProfiling.RCustomSampler RFs_InvalidCustomSampler
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RProfiling.RCustomSampler r_Fs_InvalidCustomSampler;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RProfiling.RCustomSampler RFs_InvalidCustomSampler
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisValid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisValid
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{

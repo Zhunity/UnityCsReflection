@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.WordInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 firstCharacterIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FfirstCharacterIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfirstCharacterIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FfirstCharacterIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfirstCharacterIndex
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 lastCharacterIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FlastCharacterIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlastCharacterIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FlastCharacterIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlastCharacterIndex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 characterCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcharacterCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcharacterCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcharacterCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcharacterCount
 		{
 			get
 			{

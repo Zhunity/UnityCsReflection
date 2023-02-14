@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.AsyncGPUReadbackRequest
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_Version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Version
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Version
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean done
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pdone;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdone
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pdone;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdone
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean hasError
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasError;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasError
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasError;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasError
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 layerCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PlayerCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPlayerCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PlayerCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPlayerCount
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 layerDataSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PlayerDataSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPlayerDataSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PlayerDataSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPlayerDataSize
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 width
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pwidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPwidth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pwidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPwidth
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 height
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pheight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPheight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pheight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPheight
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 depth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pdepth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPdepth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pdepth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPdepth
 		{
 			get
 			{
@@ -765,14 +765,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> GetData<T>(System.Int32 @layer) where T : struct
+        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> GetData<T>(System.Int32 @layer) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@layer};
             var ___result = RMGetData_GT_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 

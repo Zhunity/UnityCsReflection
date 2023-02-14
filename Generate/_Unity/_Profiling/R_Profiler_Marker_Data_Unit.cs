@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
+namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 {
 	/// <summary>
 	/// Unity.Profiling.ProfilerMarkerDataUnit
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.Byte value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarkerDataUnit Undefined
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_FUndefined;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RFUndefined
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_FUndefined;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RFUndefined
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarkerDataUnit TimeNanoseconds
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_FTimeNanoseconds;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RFTimeNanoseconds
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_FTimeNanoseconds;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RFTimeNanoseconds
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarkerDataUnit Bytes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_FBytes;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RFBytes
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_FBytes;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RFBytes
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarkerDataUnit Count
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_FCount;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RFCount
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_FCount;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RFCount
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarkerDataUnit Percent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_FPercent;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RFPercent
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_FPercent;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RFPercent
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarkerDataUnit FrequencyHz
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_FFrequencyHz;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RFFrequencyHz
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_FFrequencyHz;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RFFrequencyHz
 		{
 			get
 			{

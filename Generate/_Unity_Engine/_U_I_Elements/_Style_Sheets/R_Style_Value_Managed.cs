@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSheets.StyleValueManaged
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StylePropertyId id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_Fid;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RFid
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_Fid;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RFid
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleKeyword keyword
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_Fkeyword;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFkeyword
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_Fkeyword;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFkeyword
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Object value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFvalue
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFvalue
 		{
 			get
 			{

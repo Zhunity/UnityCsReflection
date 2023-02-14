@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 {public partial class RIllogicalCallContext
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IllogicalCallContext m_ctx
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext r_Fm_ctx;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext RFm_ctx
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext r_Fm_ctx;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext RFm_ctx
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Boolean IsNull
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsNull;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsNull
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsNull;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsNull
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Object HostContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PHostContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPHostContext
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PHostContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPHostContext
 		{
 			get
 			{

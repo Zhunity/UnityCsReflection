@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.Lock
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Object _lock
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F_lock;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF_lock
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F_lock;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF_lock
 		{
 			get
 			{

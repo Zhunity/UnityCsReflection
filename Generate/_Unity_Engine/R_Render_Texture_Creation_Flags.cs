@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.RenderTextureCreationFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureCreationFlags MipMap
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FMipMap;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFMipMap
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FMipMap;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFMipMap
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureCreationFlags AutoGenerateMips
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FAutoGenerateMips;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFAutoGenerateMips
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FAutoGenerateMips;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFAutoGenerateMips
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureCreationFlags SRGB
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FSRGB;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFSRGB
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FSRGB;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFSRGB
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureCreationFlags EyeTexture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FEyeTexture;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFEyeTexture
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FEyeTexture;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFEyeTexture
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureCreationFlags EnableRandomWrite
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FEnableRandomWrite;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFEnableRandomWrite
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FEnableRandomWrite;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFEnableRandomWrite
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureCreationFlags CreatedFromScript
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FCreatedFromScript;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFCreatedFromScript
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FCreatedFromScript;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFCreatedFromScript
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureCreationFlags AllowVerticalFlip
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FAllowVerticalFlip;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFAllowVerticalFlip
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FAllowVerticalFlip;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFAllowVerticalFlip
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureCreationFlags NoResolvedColorSurface
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FNoResolvedColorSurface;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFNoResolvedColorSurface
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FNoResolvedColorSurface;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFNoResolvedColorSurface
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureCreationFlags DynamicallyScalable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FDynamicallyScalable;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFDynamicallyScalable
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FDynamicallyScalable;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFDynamicallyScalable
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureCreationFlags BindMS
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FBindMS;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFBindMS
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags r_FBindMS;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureCreationFlags RFBindMS
 		{
 			get
 			{

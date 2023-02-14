@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.IndexFormat
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.IndexFormat UInt16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RIndexFormat r_FUInt16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RIndexFormat RFUInt16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RIndexFormat r_FUInt16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RIndexFormat RFUInt16
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.IndexFormat UInt32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RIndexFormat r_FUInt32;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RIndexFormat RFUInt32
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RIndexFormat r_FUInt32;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RIndexFormat RFUInt32
 		{
 			get
 			{

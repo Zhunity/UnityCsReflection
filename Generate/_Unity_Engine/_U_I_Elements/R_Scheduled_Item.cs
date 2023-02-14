@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.ScheduledItem
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Func`1[System.Boolean] timerUpdateStopCondition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_FtimerUpdateStopCondition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFtimerUpdateStopCondition
+		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RBoolean> r_FtimerUpdateStopCondition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RBoolean> RFtimerUpdateStopCondition
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Func`1[System.Boolean] OnceCondition
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_FOnceCondition;
-		public static SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFOnceCondition
+		protected static Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RBoolean> r_FOnceCondition;
+		public static Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RBoolean> RFOnceCondition
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Func`1[System.Boolean] ForeverCondition
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_FForeverCondition;
-		public static SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFForeverCondition
+		protected static Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RBoolean> r_FForeverCondition;
+		public static Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RBoolean> RFForeverCondition
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <startMs>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_F__0__startMs__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RF__0__startMs__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_F__0__startMs__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RF__0__startMs__1__k__BackingField
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <delayMs>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_F__0__delayMs__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RF__0__delayMs__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_F__0__delayMs__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RF__0__delayMs__1__k__BackingField
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <intervalMs>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_F__0__intervalMs__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RF__0__intervalMs__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_F__0__intervalMs__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RF__0__intervalMs__1__k__BackingField
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <endTimeMs>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_F__0__endTimeMs__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RF__0__endTimeMs__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_F__0__endTimeMs__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RF__0__endTimeMs__1__k__BackingField
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 startMs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PstartMs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPstartMs
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PstartMs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPstartMs
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 delayMs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PdelayMs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPdelayMs
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PdelayMs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPdelayMs
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 intervalMs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PintervalMs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPintervalMs
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PintervalMs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPintervalMs
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 endTimeMs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PendTimeMs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPendTimeMs
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PendTimeMs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPendTimeMs
 		{
 			get
 			{

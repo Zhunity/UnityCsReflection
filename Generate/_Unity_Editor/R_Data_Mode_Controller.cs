@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.DataModeController
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode[] k_DefaultModes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.RDataMode> r_Fk_DefaultModes;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.RDataMode> RFk_DefaultModes
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RDataMode> r_Fk_DefaultModes;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RDataMode> RFk_DefaultModes
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Action`1[UnityEditor.DataModeChangeEventArgs] dataModeChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RDataModeChangeEventArgs> r_FdataModeChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RDataModeChangeEventArgs> RFdataModeChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RDataModeChangeEventArgs> r_FdataModeChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RDataModeChangeEventArgs> RFdataModeChanged
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode m_DataMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RDataMode r_Fm_DataMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RDataMode RFm_DataMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_Fm_DataMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataMode RFm_DataMode
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode m_PreferredDataMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RDataMode r_Fm_PreferredDataMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RDataMode RFm_PreferredDataMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_Fm_PreferredDataMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataMode RFm_PreferredDataMode
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode[] m_SupportedDataModes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.RDataMode> r_Fm_SupportedDataModes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.RDataMode> RFm_SupportedDataModes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RDataMode> r_Fm_SupportedDataModes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RDataMode> RFm_SupportedDataModes
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean isAutomatic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisAutomatic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisAutomatic
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisAutomatic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisAutomatic
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.DataMode] m_DataModeSanitizationCache
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RDataMode> r_Fm_DataModeSanitizationCache;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RDataMode> RFm_DataModeSanitizationCache
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RDataMode> r_Fm_DataModeSanitizationCache;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RDataMode> RFm_DataModeSanitizationCache
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode dataMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RDataMode r_PdataMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RDataMode RPdataMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_PdataMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataMode RPdataMode
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode preferredDataMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RDataMode r_PpreferredDataMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RDataMode RPpreferredDataMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_PpreferredDataMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataMode RPpreferredDataMode
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.IList`1[UnityEditor.DataMode] supportedDataModes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RUnityEditor.RDataMode> r_PsupportedDataModes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RUnityEditor.RDataMode> RPsupportedDataModes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RUnityEditor.RDataMode> r_PsupportedDataModes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RUnityEditor.RDataMode> RPsupportedDataModes
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.Painter2D
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.MeshGenerationContext m_Ctx
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext r_Fm_Ctx;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext RFm_Ctx
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext r_Fm_Ctx;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext RFm_Ctx
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.DetachedAllocator m_DetachedAllocator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDetachedAllocator r_Fm_DetachedAllocator;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDetachedAllocator RFm_DetachedAllocator
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDetachedAllocator r_Fm_DetachedAllocator;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDetachedAllocator RFm_DetachedAllocator
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.SafeHandleAccess m_Handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RSafeHandleAccess r_Fm_Handle;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RSafeHandleAccess RFm_Handle
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RSafeHandleAccess r_Fm_Handle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RSafeHandleAccess RFm_Handle
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_Disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_Disposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_Disposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_Disposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_Disposed
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <isPainterActive>k__BackingField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__isPainterActive__1__k__BackingField;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__isPainterActive__1__k__BackingField
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__isPainterActive__1__k__BackingField;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__isPainterActive__1__k__BackingField
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single s_MaxArcRadius
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_Fs_MaxArcRadius;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFs_MaxArcRadius
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_Fs_MaxArcRadius;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFs_MaxArcRadius
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker s_StrokeMarker
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_StrokeMarker;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_StrokeMarker
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_StrokeMarker;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_StrokeMarker
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker s_FillMarker
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_FillMarker;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_FillMarker
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_FillMarker;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_FillMarker
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isDetached
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisDetached;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisDetached
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDetached;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDetached
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single lineWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PlineWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPlineWidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PlineWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPlineWidth
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color strokeColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_PstrokeColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RPstrokeColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_PstrokeColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RPstrokeColor
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Gradient strokeGradient
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGradient r_PstrokeGradient;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGradient RPstrokeGradient
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGradient r_PstrokeGradient;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGradient RPstrokeGradient
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color fillColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_PfillColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RPfillColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_PfillColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RPfillColor
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.LineJoin lineJoin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin r_PlineJoin;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin RPlineJoin
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin r_PlineJoin;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin RPlineJoin
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.LineCap lineCap
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLineCap r_PlineCap;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLineCap RPlineCap
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLineCap r_PlineCap;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLineCap RPlineCap
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single miterLimit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PmiterLimit;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPmiterLimit
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PmiterLimit;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPmiterLimit
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isPainterActive
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisPainterActive;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RPisPainterActive
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_PisPainterActive;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RPisPainterActive
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single maxArcRadius
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_PmaxArcRadius;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RPmaxArcRadius
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_PmaxArcRadius;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RPmaxArcRadius
 		{
 			get
 			{

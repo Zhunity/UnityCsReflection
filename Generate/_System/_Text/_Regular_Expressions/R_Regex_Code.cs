@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
+namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
 	/// System.Text.RegularExpressions.RegexCode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Onerep
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FOnerep;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFOnerep
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FOnerep;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFOnerep
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Notonerep
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNotonerep;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNotonerep
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNotonerep;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNotonerep
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Setrep
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSetrep;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSetrep
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSetrep;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSetrep
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Oneloop
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FOneloop;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFOneloop
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FOneloop;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFOneloop
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Notoneloop
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNotoneloop;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNotoneloop
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNotoneloop;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNotoneloop
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Setloop
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSetloop;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSetloop
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSetloop;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSetloop
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Onelazy
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FOnelazy;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFOnelazy
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FOnelazy;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFOnelazy
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Notonelazy
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNotonelazy;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNotonelazy
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNotonelazy;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNotonelazy
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Setlazy
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSetlazy;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSetlazy
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSetlazy;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSetlazy
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 One
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FOne;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFOne
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FOne;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFOne
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Notone
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNotone;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNotone
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNotone;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNotone
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Set
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSet;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSet
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSet;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSet
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Multi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMulti;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMulti
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMulti;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMulti
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Ref
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FRef;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFRef
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FRef;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFRef
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Bol
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FBol;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFBol
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FBol;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFBol
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Eol
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FEol;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFEol
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FEol;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFEol
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Boundary
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FBoundary;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFBoundary
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FBoundary;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFBoundary
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Nonboundary
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNonboundary;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNonboundary
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNonboundary;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNonboundary
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Beginning
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FBeginning;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFBeginning
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FBeginning;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFBeginning
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Start
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FStart;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFStart
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FStart;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFStart
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 EndZ
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FEndZ;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFEndZ
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FEndZ;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFEndZ
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 End
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FEnd;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFEnd
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FEnd;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFEnd
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Nothing
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNothing;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNothing
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNothing;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNothing
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Lazybranch
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FLazybranch;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFLazybranch
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FLazybranch;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFLazybranch
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Branchmark
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FBranchmark;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFBranchmark
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FBranchmark;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFBranchmark
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Lazybranchmark
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FLazybranchmark;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFLazybranchmark
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FLazybranchmark;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFLazybranchmark
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Nullcount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNullcount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNullcount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNullcount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNullcount
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Setcount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSetcount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSetcount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSetcount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSetcount
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Branchcount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FBranchcount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFBranchcount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FBranchcount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFBranchcount
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Lazybranchcount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FLazybranchcount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFLazybranchcount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FLazybranchcount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFLazybranchcount
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Nullmark
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNullmark;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNullmark
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNullmark;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNullmark
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Setmark
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSetmark;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSetmark
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSetmark;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSetmark
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Capturemark
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCapturemark;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCapturemark
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCapturemark;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCapturemark
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Getmark
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FGetmark;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFGetmark
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FGetmark;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFGetmark
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Setjump
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSetjump;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSetjump
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSetjump;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSetjump
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Backjump
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FBackjump;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFBackjump
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FBackjump;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFBackjump
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Forejump
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FForejump;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFForejump
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FForejump;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFForejump
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Testref
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FTestref;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFTestref
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FTestref;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFTestref
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Goto
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FGoto;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFGoto
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FGoto;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFGoto
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Prune
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FPrune;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFPrune
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FPrune;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFPrune
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Stop
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FStop;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFStop
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FStop;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFStop
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 ECMABoundary
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FECMABoundary;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFECMABoundary
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FECMABoundary;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFECMABoundary
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 NonECMABoundary
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNonECMABoundary;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNonECMABoundary
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNonECMABoundary;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNonECMABoundary
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Mask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMask
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMask;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMask
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Rtl
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FRtl;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFRtl
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FRtl;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFRtl
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Back
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FBack;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFBack
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FBack;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFBack
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Back2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FBack2;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFBack2
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FBack2;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFBack2
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Ci
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCi;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCi
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCi;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCi
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[] Codes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_FCodes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFCodes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_FCodes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFCodes
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String[] Strings
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FStrings;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFStrings
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FStrings;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFStrings
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 TrackCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FTrackCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFTrackCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FTrackCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFTrackCount
 		{
 			get
 			{
@@ -881,8 +881,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Collections.Hashtable Caps
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable r_FCaps;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable RFCaps
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_FCaps;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RFCaps
 		{
 			get
 			{
@@ -898,8 +898,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 CapSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCapSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFCapSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FCapSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFCapSize
 		{
 			get
 			{
@@ -915,8 +915,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Nullable`1[System.Text.RegularExpressions.RegexPrefix] FCPrefix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexPrefix> r_FFCPrefix;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexPrefix> RFFCPrefix
+		protected Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexPrefix> r_FFCPrefix;
+		public virtual Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexPrefix> RFFCPrefix
 		{
 			get
 			{
@@ -932,8 +932,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexBoyerMoore BMPrefix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexBoyerMoore r_FBMPrefix;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexBoyerMoore RFBMPrefix
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexBoyerMoore r_FBMPrefix;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexBoyerMoore RFBMPrefix
 		{
 			get
 			{
@@ -949,8 +949,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Anchors
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FAnchors;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFAnchors
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FAnchors;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFAnchors
 		{
 			get
 			{
@@ -966,8 +966,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean RightToLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FRightToLeft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFRightToLeft
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FRightToLeft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFRightToLeft
 		{
 			get
 			{

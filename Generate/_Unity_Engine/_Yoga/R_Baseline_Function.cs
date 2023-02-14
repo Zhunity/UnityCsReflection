@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
+namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
 	/// UnityEngine.Yoga.BaselineFunction
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Boolean HasSingleTarget
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasSingleTarget;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasSingleTarget
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasSingleTarget;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasSingleTarget
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Reflection.MethodInfo Method
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo r_PMethod;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo RPMethod
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo r_PMethod;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo RPMethod
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Object Target
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PTarget;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPTarget
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PTarget;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPTarget
 		{
 			get
 			{
@@ -403,7 +403,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 	    {
 	    }
 
-        public virtual System.Single Invoke(SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, System.Single @height)
+        public virtual System.Single Invoke(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, System.Single @height)
         {
 
             var ___genericsType = new Type[] {};
@@ -414,7 +414,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual System.IAsyncResult BeginInvoke(SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, System.Single @height, System.AsyncCallback @callback, System.Object @object)
+        public virtual System.IAsyncResult BeginInvoke(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, System.Single @height, System.AsyncCallback @callback, System.Object @object)
         {
 
             var ___genericsType = new Type[] {};

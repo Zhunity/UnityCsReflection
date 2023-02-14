@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.AsyncRequestNativeArrayData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Void* nativeArrayBuffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RField> r_FnativeArrayBuffer;
-		public virtual SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RField> RFnativeArrayBuffer
+		protected Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RField> r_FnativeArrayBuffer;
+		public virtual Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RField> RFnativeArrayBuffer
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int64 lengthInBytes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_FlengthInBytes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFlengthInBytes
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_FlengthInBytes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFlengthInBytes
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safetyHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle r_FsafetyHandle;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle RFsafetyHandle
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle r_FsafetyHandle;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle RFsafetyHandle
 		{
 			get
 			{
@@ -216,25 +216,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData CreateAndCheckAccess<T>(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @array) where T : struct
+        public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData CreateAndCheckAccess<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @array) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@array.Value};
             var ___result = RMCreateAndCheckAccess_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData CreateAndCheckAccess<T>(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RType> @array) where T : struct
+        public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData CreateAndCheckAccess<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> @array) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@array.Value};
             var ___result = RMCreateAndCheckAccess_GT_NativeSlice_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData(___result);
         }
 
 

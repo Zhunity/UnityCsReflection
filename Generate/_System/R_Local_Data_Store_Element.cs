@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.LocalDataStoreElement
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Object m_value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fm_value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFm_value
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fm_value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFm_value
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 m_cookie
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fm_cookie;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFm_cookie
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fm_cookie;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFm_cookie
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Object Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPValue
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int64 Cookie
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PCookie;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPCookie
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PCookie;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPCookie
 		{
 			get
 			{

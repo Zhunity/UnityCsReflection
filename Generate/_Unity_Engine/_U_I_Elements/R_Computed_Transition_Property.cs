@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.ComputedTransitionProperty
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StylePropertyId id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_Fid;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RFid
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_Fid;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RFid
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 durationMs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FdurationMs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFdurationMs
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FdurationMs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFdurationMs
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 delayMs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FdelayMs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFdelayMs
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FdelayMs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFdelayMs
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Func`2[System.Single,System.Single] easingCurve
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RSingle, SMFrame.Editor.Refleaction.RSystem.RSingle> r_FeasingCurve;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RSingle, SMFrame.Editor.Refleaction.RSystem.RSingle> RFeasingCurve
+		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RSingle, Hvak.Editor.Refleaction.RSystem.RSingle> r_FeasingCurve;
+		public virtual Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RSingle, Hvak.Editor.Refleaction.RSystem.RSingle> RFeasingCurve
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {
 	/// <summary>
 	/// System.Runtime.CompilerServices.ConditionalWeakTable`2
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Int32 INITIAL_SIZE
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FINITIAL_SIZE;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFINITIAL_SIZE
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FINITIAL_SIZE;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFINITIAL_SIZE
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Single LOAD_FACTOR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_FLOAD_FACTOR;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFLOAD_FACTOR
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_FLOAD_FACTOR;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFLOAD_FACTOR
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Single COMPACT_FACTOR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_FCOMPACT_FACTOR;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFCOMPACT_FACTOR
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_FCOMPACT_FACTOR;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFCOMPACT_FACTOR
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Single EXPAND_FACTOR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_FEXPAND_FACTOR;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFEXPAND_FACTOR
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_FEXPAND_FACTOR;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFEXPAND_FACTOR
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Runtime.CompilerServices.Ephemeron[] data
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.REphemeron> r_Fdata;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.REphemeron> RFdata
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.REphemeron> r_Fdata;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.REphemeron> RFdata
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Object _lock
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F_lock;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF_lock
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F_lock;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF_lock
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Int32 size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fsize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFsize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fsize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFsize
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Collections.Generic.ICollection`1[TKey] Keys
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<SMFrame.Editor.Refleaction.RProperty> r_PKeys;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<SMFrame.Editor.Refleaction.RProperty> RPKeys
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<Hvak.Editor.Refleaction.RProperty> r_PKeys;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<Hvak.Editor.Refleaction.RProperty> RPKeys
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Collections.Generic.ICollection`1[TValue] Values
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<SMFrame.Editor.Refleaction.RProperty> r_PValues;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<SMFrame.Editor.Refleaction.RProperty> RPValues
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<Hvak.Editor.Refleaction.RProperty> r_PValues;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<Hvak.Editor.Refleaction.RProperty> RPValues
 		{
 			get
 			{
@@ -606,7 +606,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public virtual TValue GetValue(TKey @key, SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConditionalWeakTable<SMFrame.Editor.Refleaction.RType, SMFrame.Editor.Refleaction.RType>.RCreateValueCallback @createValueCallback)
+        public virtual TValue GetValue(TKey @key, Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConditionalWeakTable<Hvak.Editor.Refleaction.RType, Hvak.Editor.Refleaction.RType>.RCreateValueCallback @createValueCallback)
         {
 
             var ___genericsType = new Type[] {};

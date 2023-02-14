@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 {
 	/// <summary>
 	/// System.Runtime.Serialization.SerializationInfoEnumerator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String[] _members
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_F_members;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RF_members
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_F_members;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RF_members
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Object[] _data
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RObject> r_F_data;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RObject> RF_data
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RObject> r_F_data;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RObject> RF_data
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Type[] _types
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RType> r_F_types;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RType> RF_types
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RType> r_F_types;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RType> RF_types
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Int32 _numItems
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_numItems;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_numItems
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_numItems;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_numItems
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Int32 _currItem
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_currItem;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_currItem
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_currItem;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_currItem
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Boolean _current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_current;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_current
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_current;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_current
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Object System.Collections.IEnumerator.Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Runtime.Serialization.SerializationEntry Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationEntry r_PCurrent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationEntry RPCurrent
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationEntry r_PCurrent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationEntry RPCurrent
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Object Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPValue
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Type ObjectType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PObjectType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPObjectType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PObjectType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPObjectType
 		{
 			get
 			{

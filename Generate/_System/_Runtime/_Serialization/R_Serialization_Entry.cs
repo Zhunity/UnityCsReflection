@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 {
 	/// <summary>
 	/// System.Runtime.Serialization.SerializationEntry
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String _name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_name;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_name
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_name;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_name
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Object _value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F_value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF_value
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F_value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF_value
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Type _type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_F_type;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RF_type
+		protected Hvak.Editor.Refleaction.RSystem.RType r_F_type;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RF_type
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Object Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPValue
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Type ObjectType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PObjectType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPObjectType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PObjectType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPObjectType
 		{
 			get
 			{

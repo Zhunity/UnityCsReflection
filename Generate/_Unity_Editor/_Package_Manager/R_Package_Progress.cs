@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.PackageProgress
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Name;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Name
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Name;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Name
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_Version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Version
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Version
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ProgressState m_State
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_Fm_State;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RFm_State
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_Fm_State;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RFm_State
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.UInt64 m_CurrentBytes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_Fm_CurrentBytes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFm_CurrentBytes
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_Fm_CurrentBytes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFm_CurrentBytes
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.UInt64 m_TotalBytes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_Fm_TotalBytes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFm_TotalBytes
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_Fm_TotalBytes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFm_TotalBytes
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pversion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPversion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pversion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPversion
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ProgressState state
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_Pstate;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RPstate
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_Pstate;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RPstate
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Nullable`1[UnityEditor.PackageManager.DownloadProgress] download
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RDownloadProgress> r_Pdownload;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RDownloadProgress> RPdownload
+		protected Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RDownloadProgress> r_Pdownload;
+		public virtual Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RDownloadProgress> RPdownload
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.InterfaceMapping
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Type TargetType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_FTargetType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFTargetType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_FTargetType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFTargetType
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Type InterfaceType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_FInterfaceType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFInterfaceType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_FInterfaceType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFInterfaceType
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodInfo[] TargetMethods
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo> r_FTargetMethods;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo> RFTargetMethods
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo> r_FTargetMethods;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo> RFTargetMethods
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodInfo[] InterfaceMethods
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo> r_FInterfaceMethods;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo> RFInterfaceMethods
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo> r_FInterfaceMethods;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo> RFInterfaceMethods
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RStyleVariableResolver
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleVariableResolver+Result Valid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult r_FValid;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult RFValid
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult r_FValid;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult RFValid
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleVariableResolver+Result Invalid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult r_FInvalid;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult RFInvalid
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult r_FInvalid;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult RFInvalid
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleVariableResolver+Result NotFound
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult r_FNotFound;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult RFNotFound
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult r_FNotFound;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult RFNotFound
 		{
 			get
 			{

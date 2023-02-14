@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
+namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 {
 	/// <summary>
 	/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 Read
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FRead;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFRead
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FRead;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFRead
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 Write
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FWrite;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFWrite
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FWrite;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFWrite
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 Dispose
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDispose;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDispose
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDispose;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDispose
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 ReadCheck
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FReadCheck;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFReadCheck
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FReadCheck;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFReadCheck
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 WriteCheck
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FWriteCheck;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFWriteCheck
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FWriteCheck;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFWriteCheck
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 DisposeCheck
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDisposeCheck;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDisposeCheck
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDisposeCheck;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDisposeCheck
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 ReadWriteDisposeCheck
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FReadWriteDisposeCheck;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFReadWriteDisposeCheck
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FReadWriteDisposeCheck;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFReadWriteDisposeCheck
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.IntPtr versionNode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_FversionNode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFversionNode
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_FversionNode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFversionNode
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fversion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFversion
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fversion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFversion
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 staticSafetyId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FstaticSafetyId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFstaticSafetyId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FstaticSafetyId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFstaticSafetyId
 		{
 			get
 			{

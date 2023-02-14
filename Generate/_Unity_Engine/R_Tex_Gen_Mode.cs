@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.TexGenMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TexGenMode None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTexGenMode r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTexGenMode RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTexGenMode r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTexGenMode RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TexGenMode SphereMap
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTexGenMode r_FSphereMap;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTexGenMode RFSphereMap
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTexGenMode r_FSphereMap;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTexGenMode RFSphereMap
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TexGenMode Object
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTexGenMode r_FObject;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTexGenMode RFObject
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTexGenMode r_FObject;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTexGenMode RFObject
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TexGenMode EyeLinear
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTexGenMode r_FEyeLinear;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTexGenMode RFEyeLinear
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTexGenMode r_FEyeLinear;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTexGenMode RFEyeLinear
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TexGenMode CubeReflect
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTexGenMode r_FCubeReflect;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTexGenMode RFCubeReflect
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTexGenMode r_FCubeReflect;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTexGenMode RFCubeReflect
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TexGenMode CubeNormal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTexGenMode r_FCubeNormal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTexGenMode RFCubeNormal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTexGenMode r_FCubeNormal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTexGenMode RFCubeNormal
 		{
 			get
 			{

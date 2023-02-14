@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.InlineStyleAccess
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StylePropertyReader s_StylePropertyReader
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader r_Fs_StylePropertyReader;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader RFs_StylePropertyReader
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader r_Fs_StylePropertyReader;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader RFs_StylePropertyReader
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSheets.StyleValueManaged] m_ValuesManaged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged> r_Fm_ValuesManaged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged> RFm_ValuesManaged
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged> r_Fm_ValuesManaged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged> RFm_ValuesManaged
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement <ve>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_F__0__ve__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RF__0__ve__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_F__0__ve__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RF__0__ve__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_HasInlineCursor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineCursor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineCursor
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineCursor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineCursor
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleCursor m_InlineCursor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleCursor r_Fm_InlineCursor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleCursor RFm_InlineCursor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleCursor r_Fm_InlineCursor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleCursor RFm_InlineCursor
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_HasInlineTextShadow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineTextShadow;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineTextShadow
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineTextShadow;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineTextShadow
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleTextShadow m_InlineTextShadow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTextShadow r_Fm_InlineTextShadow;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTextShadow RFm_InlineTextShadow
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTextShadow r_Fm_InlineTextShadow;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTextShadow RFm_InlineTextShadow
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_HasInlineTransformOrigin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineTransformOrigin;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineTransformOrigin
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineTransformOrigin;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineTransformOrigin
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleTransformOrigin m_InlineTransformOrigin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTransformOrigin r_Fm_InlineTransformOrigin;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTransformOrigin RFm_InlineTransformOrigin
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTransformOrigin r_Fm_InlineTransformOrigin;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTransformOrigin RFm_InlineTransformOrigin
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_HasInlineTranslate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineTranslate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineTranslate
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineTranslate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineTranslate
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleTranslate m_InlineTranslateOperation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTranslate r_Fm_InlineTranslateOperation;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTranslate RFm_InlineTranslateOperation
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTranslate r_Fm_InlineTranslateOperation;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTranslate RFm_InlineTranslateOperation
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_HasInlineRotate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineRotate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineRotate
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineRotate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineRotate
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleRotate m_InlineRotateOperation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRotate r_Fm_InlineRotateOperation;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRotate RFm_InlineRotateOperation
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRotate r_Fm_InlineRotateOperation;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRotate RFm_InlineRotateOperation
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_HasInlineScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineScale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineScale
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineScale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineScale
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleScale m_InlineScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleScale r_Fm_InlineScale;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleScale RFm_InlineScale
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleScale r_Fm_InlineScale;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleScale RFm_InlineScale
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_HasInlineBackgroundSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineBackgroundSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineBackgroundSize
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineBackgroundSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineBackgroundSize
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundSize m_InlineBackgroundSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundSize r_Fm_InlineBackgroundSize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundSize RFm_InlineBackgroundSize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundSize r_Fm_InlineBackgroundSize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundSize RFm_InlineBackgroundSize
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.InlineStyleAccess+InlineRule m_InlineRule
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInlineStyleAccess.RInlineRule r_Fm_InlineRule;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInlineStyleAccess.RInlineRule RFm_InlineRule
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInlineStyleAccess.RInlineRule r_Fm_InlineRule;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInlineStyleAccess.RInlineRule RFm_InlineRule
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSheets.StyleValue] m_Values
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue> r_Fm_Values;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue> RFm_Values
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue> r_Fm_Values;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue> RFm_Values
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Align] UnityEngine.UIElements.IStyle.alignContent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign> r_PUnityEngine__2__UIElements__2__IStyle__2__alignContent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign> RPUnityEngine__2__UIElements__2__IStyle__2__alignContent
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign> r_PUnityEngine__2__UIElements__2__IStyle__2__alignContent;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign> RPUnityEngine__2__UIElements__2__IStyle__2__alignContent
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Align] UnityEngine.UIElements.IStyle.alignItems
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign> r_PUnityEngine__2__UIElements__2__IStyle__2__alignItems;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign> RPUnityEngine__2__UIElements__2__IStyle__2__alignItems
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign> r_PUnityEngine__2__UIElements__2__IStyle__2__alignItems;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign> RPUnityEngine__2__UIElements__2__IStyle__2__alignItems
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Align] UnityEngine.UIElements.IStyle.alignSelf
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign> r_PUnityEngine__2__UIElements__2__IStyle__2__alignSelf;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign> RPUnityEngine__2__UIElements__2__IStyle__2__alignSelf
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign> r_PUnityEngine__2__UIElements__2__IStyle__2__alignSelf;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign> RPUnityEngine__2__UIElements__2__IStyle__2__alignSelf
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.backgroundColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__backgroundColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__backgroundColor
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackground UnityEngine.UIElements.IStyle.backgroundImage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackground r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundImage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackground RPUnityEngine__2__UIElements__2__IStyle__2__backgroundImage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackground r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundImage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackground RPUnityEngine__2__UIElements__2__IStyle__2__backgroundImage
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundPosition UnityEngine.UIElements.IStyle.backgroundPositionX
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundPosition r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundPosition RPUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundPosition r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundPosition RPUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundPosition UnityEngine.UIElements.IStyle.backgroundPositionY
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundPosition r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundPosition RPUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundPosition r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundPosition RPUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundRepeat UnityEngine.UIElements.IStyle.backgroundRepeat
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundRepeat r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundRepeat RPUnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundRepeat r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundRepeat RPUnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.borderBottomColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__borderBottomColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__borderBottomColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__borderBottomColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__borderBottomColor
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.borderBottomLeftRadius
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__borderBottomLeftRadius;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__borderBottomLeftRadius
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__borderBottomLeftRadius;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__borderBottomLeftRadius
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.borderBottomRightRadius
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__borderBottomRightRadius;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__borderBottomRightRadius
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__borderBottomRightRadius;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__borderBottomRightRadius
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.borderBottomWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__borderBottomWidth;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__borderBottomWidth
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__borderBottomWidth;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__borderBottomWidth
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.borderLeftColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__borderLeftColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__borderLeftColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__borderLeftColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__borderLeftColor
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.borderLeftWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__borderLeftWidth;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__borderLeftWidth
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__borderLeftWidth;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__borderLeftWidth
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.borderRightColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__borderRightColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__borderRightColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__borderRightColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__borderRightColor
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.borderRightWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__borderRightWidth;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__borderRightWidth
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__borderRightWidth;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__borderRightWidth
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.borderTopColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__borderTopColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__borderTopColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__borderTopColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__borderTopColor
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.borderTopLeftRadius
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__borderTopLeftRadius;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__borderTopLeftRadius
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__borderTopLeftRadius;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__borderTopLeftRadius
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.borderTopRightRadius
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__borderTopRightRadius;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__borderTopRightRadius
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__borderTopRightRadius;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__borderTopRightRadius
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.borderTopWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__borderTopWidth;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__borderTopWidth
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__borderTopWidth;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__borderTopWidth
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.bottom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__bottom;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__bottom
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__bottom;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__bottom
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.color
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__color;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__color
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__color;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__color
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.DisplayStyle] UnityEngine.UIElements.IStyle.display
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDisplayStyle> r_PUnityEngine__2__UIElements__2__IStyle__2__display;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDisplayStyle> RPUnityEngine__2__UIElements__2__IStyle__2__display
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDisplayStyle> r_PUnityEngine__2__UIElements__2__IStyle__2__display;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDisplayStyle> RPUnityEngine__2__UIElements__2__IStyle__2__display
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.flexBasis
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__flexBasis;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__flexBasis
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__flexBasis;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__flexBasis
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.FlexDirection] UnityEngine.UIElements.IStyle.flexDirection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection> r_PUnityEngine__2__UIElements__2__IStyle__2__flexDirection;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection> RPUnityEngine__2__UIElements__2__IStyle__2__flexDirection
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection> r_PUnityEngine__2__UIElements__2__IStyle__2__flexDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection> RPUnityEngine__2__UIElements__2__IStyle__2__flexDirection
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.flexGrow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__flexGrow;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__flexGrow
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__flexGrow;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__flexGrow
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.flexShrink
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__flexShrink;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__flexShrink
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__flexShrink;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__flexShrink
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Wrap] UnityEngine.UIElements.IStyle.flexWrap
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RWrap> r_PUnityEngine__2__UIElements__2__IStyle__2__flexWrap;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RWrap> RPUnityEngine__2__UIElements__2__IStyle__2__flexWrap
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RWrap> r_PUnityEngine__2__UIElements__2__IStyle__2__flexWrap;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RWrap> RPUnityEngine__2__UIElements__2__IStyle__2__flexWrap
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.fontSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__fontSize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__fontSize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__fontSize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__fontSize
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.height
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__height;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__height
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__height;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__height
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Justify] UnityEngine.UIElements.IStyle.justifyContent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RJustify> r_PUnityEngine__2__UIElements__2__IStyle__2__justifyContent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RJustify> RPUnityEngine__2__UIElements__2__IStyle__2__justifyContent
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RJustify> r_PUnityEngine__2__UIElements__2__IStyle__2__justifyContent;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RJustify> RPUnityEngine__2__UIElements__2__IStyle__2__justifyContent
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.left
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__left;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__left
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__left;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__left
 		{
 			get
 			{
@@ -881,8 +881,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.letterSpacing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__letterSpacing;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__letterSpacing
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__letterSpacing;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__letterSpacing
 		{
 			get
 			{
@@ -898,8 +898,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.marginBottom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__marginBottom;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__marginBottom
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__marginBottom;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__marginBottom
 		{
 			get
 			{
@@ -915,8 +915,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.marginLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__marginLeft;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__marginLeft
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__marginLeft;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__marginLeft
 		{
 			get
 			{
@@ -932,8 +932,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.marginRight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__marginRight;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__marginRight
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__marginRight;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__marginRight
 		{
 			get
 			{
@@ -949,8 +949,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.marginTop
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__marginTop;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__marginTop
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__marginTop;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__marginTop
 		{
 			get
 			{
@@ -966,8 +966,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.maxHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__maxHeight;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__maxHeight
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__maxHeight;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__maxHeight
 		{
 			get
 			{
@@ -983,8 +983,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.maxWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__maxWidth;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__maxWidth
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__maxWidth;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__maxWidth
 		{
 			get
 			{
@@ -1000,8 +1000,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.minHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__minHeight;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__minHeight
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__minHeight;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__minHeight
 		{
 			get
 			{
@@ -1017,8 +1017,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.minWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__minWidth;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__minWidth
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__minWidth;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__minWidth
 		{
 			get
 			{
@@ -1034,8 +1034,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.opacity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__opacity;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__opacity
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__opacity;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__opacity
 		{
 			get
 			{
@@ -1051,8 +1051,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Overflow] UnityEngine.UIElements.IStyle.overflow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.ROverflow> r_PUnityEngine__2__UIElements__2__IStyle__2__overflow;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.ROverflow> RPUnityEngine__2__UIElements__2__IStyle__2__overflow
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.ROverflow> r_PUnityEngine__2__UIElements__2__IStyle__2__overflow;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.ROverflow> RPUnityEngine__2__UIElements__2__IStyle__2__overflow
 		{
 			get
 			{
@@ -1068,8 +1068,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.paddingBottom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__paddingBottom;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__paddingBottom
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__paddingBottom;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__paddingBottom
 		{
 			get
 			{
@@ -1085,8 +1085,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.paddingLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__paddingLeft;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__paddingLeft
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__paddingLeft;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__paddingLeft
 		{
 			get
 			{
@@ -1102,8 +1102,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.paddingRight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__paddingRight;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__paddingRight
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__paddingRight;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__paddingRight
 		{
 			get
 			{
@@ -1119,8 +1119,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.paddingTop
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__paddingTop;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__paddingTop
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__paddingTop;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__paddingTop
 		{
 			get
 			{
@@ -1136,8 +1136,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Position] UnityEngine.UIElements.IStyle.position
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPosition> r_PUnityEngine__2__UIElements__2__IStyle__2__position;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPosition> RPUnityEngine__2__UIElements__2__IStyle__2__position
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPosition> r_PUnityEngine__2__UIElements__2__IStyle__2__position;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPosition> RPUnityEngine__2__UIElements__2__IStyle__2__position
 		{
 			get
 			{
@@ -1153,8 +1153,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.right
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__right;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__right
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__right;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__right
 		{
 			get
 			{
@@ -1170,8 +1170,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.TextOverflow] UnityEngine.UIElements.IStyle.textOverflow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflow> r_PUnityEngine__2__UIElements__2__IStyle__2__textOverflow;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflow> RPUnityEngine__2__UIElements__2__IStyle__2__textOverflow
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflow> r_PUnityEngine__2__UIElements__2__IStyle__2__textOverflow;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflow> RPUnityEngine__2__UIElements__2__IStyle__2__textOverflow
 		{
 			get
 			{
@@ -1187,8 +1187,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.top
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__top;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__top
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__top;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__top
 		{
 			get
 			{
@@ -1204,8 +1204,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleList`1[UnityEngine.UIElements.TimeValue] UnityEngine.UIElements.IStyle.transitionDelay
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> r_PUnityEngine__2__UIElements__2__IStyle__2__transitionDelay;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> RPUnityEngine__2__UIElements__2__IStyle__2__transitionDelay
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> r_PUnityEngine__2__UIElements__2__IStyle__2__transitionDelay;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> RPUnityEngine__2__UIElements__2__IStyle__2__transitionDelay
 		{
 			get
 			{
@@ -1221,8 +1221,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleList`1[UnityEngine.UIElements.TimeValue] UnityEngine.UIElements.IStyle.transitionDuration
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> r_PUnityEngine__2__UIElements__2__IStyle__2__transitionDuration;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> RPUnityEngine__2__UIElements__2__IStyle__2__transitionDuration
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> r_PUnityEngine__2__UIElements__2__IStyle__2__transitionDuration;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTimeValue> RPUnityEngine__2__UIElements__2__IStyle__2__transitionDuration
 		{
 			get
 			{
@@ -1238,8 +1238,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleList`1[UnityEngine.UIElements.StylePropertyName] UnityEngine.UIElements.IStyle.transitionProperty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStylePropertyName> r_PUnityEngine__2__UIElements__2__IStyle__2__transitionProperty;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStylePropertyName> RPUnityEngine__2__UIElements__2__IStyle__2__transitionProperty
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStylePropertyName> r_PUnityEngine__2__UIElements__2__IStyle__2__transitionProperty;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStylePropertyName> RPUnityEngine__2__UIElements__2__IStyle__2__transitionProperty
 		{
 			get
 			{
@@ -1255,8 +1255,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleList`1[UnityEngine.UIElements.EasingFunction] UnityEngine.UIElements.IStyle.transitionTimingFunction
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingFunction> r_PUnityEngine__2__UIElements__2__IStyle__2__transitionTimingFunction;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingFunction> RPUnityEngine__2__UIElements__2__IStyle__2__transitionTimingFunction
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingFunction> r_PUnityEngine__2__UIElements__2__IStyle__2__transitionTimingFunction;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingFunction> RPUnityEngine__2__UIElements__2__IStyle__2__transitionTimingFunction
 		{
 			get
 			{
@@ -1272,8 +1272,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.unityBackgroundImageTintColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundImageTintColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundImageTintColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundImageTintColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundImageTintColor
 		{
 			get
 			{
@@ -1289,8 +1289,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFont UnityEngine.UIElements.IStyle.unityFont
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFont r_PUnityEngine__2__UIElements__2__IStyle__2__unityFont;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFont RPUnityEngine__2__UIElements__2__IStyle__2__unityFont
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFont r_PUnityEngine__2__UIElements__2__IStyle__2__unityFont;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFont RPUnityEngine__2__UIElements__2__IStyle__2__unityFont
 		{
 			get
 			{
@@ -1306,8 +1306,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFontDefinition UnityEngine.UIElements.IStyle.unityFontDefinition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFontDefinition r_PUnityEngine__2__UIElements__2__IStyle__2__unityFontDefinition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFontDefinition RPUnityEngine__2__UIElements__2__IStyle__2__unityFontDefinition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFontDefinition r_PUnityEngine__2__UIElements__2__IStyle__2__unityFontDefinition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFontDefinition RPUnityEngine__2__UIElements__2__IStyle__2__unityFontDefinition
 		{
 			get
 			{
@@ -1323,8 +1323,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.FontStyle] UnityEngine.UIElements.IStyle.unityFontStyleAndWeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RFontStyle> r_PUnityEngine__2__UIElements__2__IStyle__2__unityFontStyleAndWeight;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RFontStyle> RPUnityEngine__2__UIElements__2__IStyle__2__unityFontStyleAndWeight
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RFontStyle> r_PUnityEngine__2__UIElements__2__IStyle__2__unityFontStyleAndWeight;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RFontStyle> RPUnityEngine__2__UIElements__2__IStyle__2__unityFontStyleAndWeight
 		{
 			get
 			{
@@ -1340,8 +1340,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.OverflowClipBox] UnityEngine.UIElements.IStyle.unityOverflowClipBox
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox> r_PUnityEngine__2__UIElements__2__IStyle__2__unityOverflowClipBox;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox> RPUnityEngine__2__UIElements__2__IStyle__2__unityOverflowClipBox
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox> r_PUnityEngine__2__UIElements__2__IStyle__2__unityOverflowClipBox;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox> RPUnityEngine__2__UIElements__2__IStyle__2__unityOverflowClipBox
 		{
 			get
 			{
@@ -1357,8 +1357,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.unityParagraphSpacing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__unityParagraphSpacing;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__unityParagraphSpacing
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__unityParagraphSpacing;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__unityParagraphSpacing
 		{
 			get
 			{
@@ -1374,8 +1374,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleInt UnityEngine.UIElements.IStyle.unitySliceBottom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceBottom;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt RPUnityEngine__2__UIElements__2__IStyle__2__unitySliceBottom
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceBottom;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt RPUnityEngine__2__UIElements__2__IStyle__2__unitySliceBottom
 		{
 			get
 			{
@@ -1391,8 +1391,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleInt UnityEngine.UIElements.IStyle.unitySliceLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceLeft;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt RPUnityEngine__2__UIElements__2__IStyle__2__unitySliceLeft
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceLeft;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt RPUnityEngine__2__UIElements__2__IStyle__2__unitySliceLeft
 		{
 			get
 			{
@@ -1408,8 +1408,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleInt UnityEngine.UIElements.IStyle.unitySliceRight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceRight;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt RPUnityEngine__2__UIElements__2__IStyle__2__unitySliceRight
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceRight;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt RPUnityEngine__2__UIElements__2__IStyle__2__unitySliceRight
 		{
 			get
 			{
@@ -1425,8 +1425,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.unitySliceScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceScale;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__unitySliceScale
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceScale;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__unitySliceScale
 		{
 			get
 			{
@@ -1442,8 +1442,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleInt UnityEngine.UIElements.IStyle.unitySliceTop
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceTop;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt RPUnityEngine__2__UIElements__2__IStyle__2__unitySliceTop
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceTop;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleInt RPUnityEngine__2__UIElements__2__IStyle__2__unitySliceTop
 		{
 			get
 			{
@@ -1459,8 +1459,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.TextAnchor] UnityEngine.UIElements.IStyle.unityTextAlign
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor> r_PUnityEngine__2__UIElements__2__IStyle__2__unityTextAlign;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor> RPUnityEngine__2__UIElements__2__IStyle__2__unityTextAlign
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor> r_PUnityEngine__2__UIElements__2__IStyle__2__unityTextAlign;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor> RPUnityEngine__2__UIElements__2__IStyle__2__unityTextAlign
 		{
 			get
 			{
@@ -1476,8 +1476,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.unityTextOutlineColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor r_PUnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleColor RPUnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineColor
 		{
 			get
 			{
@@ -1493,8 +1493,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.unityTextOutlineWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineWidth;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineWidth
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineWidth;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineWidth
 		{
 			get
 			{
@@ -1510,8 +1510,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.TextOverflowPosition] UnityEngine.UIElements.IStyle.unityTextOverflowPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition> r_PUnityEngine__2__UIElements__2__IStyle__2__unityTextOverflowPosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition> RPUnityEngine__2__UIElements__2__IStyle__2__unityTextOverflowPosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition> r_PUnityEngine__2__UIElements__2__IStyle__2__unityTextOverflowPosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition> RPUnityEngine__2__UIElements__2__IStyle__2__unityTextOverflowPosition
 		{
 			get
 			{
@@ -1527,8 +1527,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Visibility] UnityEngine.UIElements.IStyle.visibility
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisibility> r_PUnityEngine__2__UIElements__2__IStyle__2__visibility;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisibility> RPUnityEngine__2__UIElements__2__IStyle__2__visibility
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisibility> r_PUnityEngine__2__UIElements__2__IStyle__2__visibility;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisibility> RPUnityEngine__2__UIElements__2__IStyle__2__visibility
 		{
 			get
 			{
@@ -1544,8 +1544,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.WhiteSpace] UnityEngine.UIElements.IStyle.whiteSpace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RWhiteSpace> r_PUnityEngine__2__UIElements__2__IStyle__2__whiteSpace;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RWhiteSpace> RPUnityEngine__2__UIElements__2__IStyle__2__whiteSpace
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RWhiteSpace> r_PUnityEngine__2__UIElements__2__IStyle__2__whiteSpace;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RWhiteSpace> RPUnityEngine__2__UIElements__2__IStyle__2__whiteSpace
 		{
 			get
 			{
@@ -1561,8 +1561,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.width
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__width;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__width
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__width;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__width
 		{
 			get
 			{
@@ -1578,8 +1578,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.wordSpacing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__wordSpacing;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__wordSpacing
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength r_PUnityEngine__2__UIElements__2__IStyle__2__wordSpacing;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleLength RPUnityEngine__2__UIElements__2__IStyle__2__wordSpacing
 		{
 			get
 			{
@@ -1595,8 +1595,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement ve
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Pve;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPve
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Pve;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPve
 		{
 			get
 			{
@@ -1612,8 +1612,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// InlineRule inlineRule
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInlineStyleAccess.RInlineRule r_PinlineRule;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInlineStyleAccess.RInlineRule RPinlineRule
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInlineStyleAccess.RInlineRule r_PinlineRule;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInlineStyleAccess.RInlineRule RPinlineRule
 		{
 			get
 			{
@@ -1629,8 +1629,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleCursor UnityEngine.UIElements.IStyle.cursor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleCursor r_PUnityEngine__2__UIElements__2__IStyle__2__cursor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleCursor RPUnityEngine__2__UIElements__2__IStyle__2__cursor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleCursor r_PUnityEngine__2__UIElements__2__IStyle__2__cursor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleCursor RPUnityEngine__2__UIElements__2__IStyle__2__cursor
 		{
 			get
 			{
@@ -1646,8 +1646,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleTextShadow UnityEngine.UIElements.IStyle.textShadow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTextShadow r_PUnityEngine__2__UIElements__2__IStyle__2__textShadow;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTextShadow RPUnityEngine__2__UIElements__2__IStyle__2__textShadow
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTextShadow r_PUnityEngine__2__UIElements__2__IStyle__2__textShadow;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTextShadow RPUnityEngine__2__UIElements__2__IStyle__2__textShadow
 		{
 			get
 			{
@@ -1663,8 +1663,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundSize UnityEngine.UIElements.IStyle.backgroundSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundSize r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundSize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundSize RPUnityEngine__2__UIElements__2__IStyle__2__backgroundSize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundSize r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundSize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundSize RPUnityEngine__2__UIElements__2__IStyle__2__backgroundSize
 		{
 			get
 			{
@@ -1680,8 +1680,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleTransformOrigin UnityEngine.UIElements.IStyle.transformOrigin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTransformOrigin r_PUnityEngine__2__UIElements__2__IStyle__2__transformOrigin;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTransformOrigin RPUnityEngine__2__UIElements__2__IStyle__2__transformOrigin
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTransformOrigin r_PUnityEngine__2__UIElements__2__IStyle__2__transformOrigin;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTransformOrigin RPUnityEngine__2__UIElements__2__IStyle__2__transformOrigin
 		{
 			get
 			{
@@ -1697,8 +1697,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleTranslate UnityEngine.UIElements.IStyle.translate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTranslate r_PUnityEngine__2__UIElements__2__IStyle__2__translate;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTranslate RPUnityEngine__2__UIElements__2__IStyle__2__translate
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTranslate r_PUnityEngine__2__UIElements__2__IStyle__2__translate;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTranslate RPUnityEngine__2__UIElements__2__IStyle__2__translate
 		{
 			get
 			{
@@ -1714,8 +1714,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleRotate UnityEngine.UIElements.IStyle.rotate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRotate r_PUnityEngine__2__UIElements__2__IStyle__2__rotate;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRotate RPUnityEngine__2__UIElements__2__IStyle__2__rotate
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRotate r_PUnityEngine__2__UIElements__2__IStyle__2__rotate;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRotate RPUnityEngine__2__UIElements__2__IStyle__2__rotate
 		{
 			get
 			{
@@ -1731,8 +1731,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleScale UnityEngine.UIElements.IStyle.scale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleScale r_PUnityEngine__2__UIElements__2__IStyle__2__scale;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleScale RPUnityEngine__2__UIElements__2__IStyle__2__scale
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleScale r_PUnityEngine__2__UIElements__2__IStyle__2__scale;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleScale RPUnityEngine__2__UIElements__2__IStyle__2__scale
 		{
 			get
 			{
@@ -1748,8 +1748,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.ScaleMode] UnityEngine.UIElements.IStyle.unityBackgroundScaleMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RScaleMode> r_PUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RUnityEngine.RScaleMode> RPUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RScaleMode> r_PUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RScaleMode> RPUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode
 		{
 			get
 			{
@@ -2794,7 +2794,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetInlineRule(UnityEngine.UIElements.StyleSheet @sheet, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule @rule)
+        public virtual void SetInlineRule(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -2805,7 +2805,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean IsValueSet(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual System.Boolean IsValueSet(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -2816,19 +2816,19 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ApplyInlineStyles(ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle)
+        public virtual void ApplyInlineStyles(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computedStyle.Value};
             var ___result = RMApplyInlineStyles_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
-			@computedStyle = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle(___parameters[0]);
+			@computedStyle = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle(___parameters[0]);
 
             
         }
 
 
-        public virtual UnityEngine.UIElements.StyleList<T> GetStyleList<T>(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleList<T> GetStyleList<T>(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -2839,7 +2839,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetStyleValueManaged(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged @value)
+        public virtual void SetStyleValueManaged(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2850,19 +2850,19 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetStyleValueManaged(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged @value)
+        public virtual System.Boolean TryGetStyleValueManaged(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @value.Value};
             var ___result = RMTryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged.Invoke(___genericsType, ___parameters);
-			@value = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged(___parameters[1]);
+			@value = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged(___parameters[1]);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual System.Boolean SetStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleBackgroundPosition @inlineValue)
+        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleBackgroundPosition @inlineValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -2873,7 +2873,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SetStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleBackgroundRepeat @inlineValue)
+        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleBackgroundRepeat @inlineValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -2884,7 +2884,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SetStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleLength @inlineValue)
+        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleLength @inlineValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -2895,7 +2895,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SetStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleFloat @inlineValue)
+        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleFloat @inlineValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -2906,7 +2906,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SetStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleInt @inlineValue)
+        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleInt @inlineValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -2917,7 +2917,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SetStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleColor @inlineValue)
+        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleColor @inlineValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -2928,7 +2928,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SetStyleValue<T>(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RType> @inlineValue) where T : struct, System.IConvertible
+        public virtual System.Boolean SetStyleValue<T>(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RType> @inlineValue) where T : struct, System.IConvertible
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -2939,7 +2939,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SetStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleBackground @inlineValue)
+        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleBackground @inlineValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -2950,7 +2950,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SetStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleFontDefinition @inlineValue)
+        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleFontDefinition @inlineValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -2961,7 +2961,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SetStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleFont @inlineValue)
+        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleFont @inlineValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -2972,7 +2972,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SetStyleValue<T>(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleList<T> @inlineValue)
+        public virtual System.Boolean SetStyleValue<T>(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleList<T> @inlineValue)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3137,7 +3137,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ApplyStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
+        public virtual void ApplyStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3148,7 +3148,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ApplyStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged @value)
+        public virtual void ApplyStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3159,7 +3159,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean RemoveInlineStyle(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual System.Boolean RemoveInlineStyle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -3170,13 +3170,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ApplyFromComputedStyle(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @newStyle)
+        public virtual void ApplyFromComputedStyle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @newStyle)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @newStyle.Value};
             var ___result = RMApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
-			@newStyle = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
+			@newStyle = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             
         }
@@ -3266,7 +3266,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleLength GetStyleLength(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleLength GetStyleLength(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -3277,7 +3277,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleFloat GetStyleFloat(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleFloat GetStyleFloat(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -3288,7 +3288,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleInt GetStyleInt(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleInt GetStyleInt(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -3299,7 +3299,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleColor GetStyleColor(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleColor GetStyleColor(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -3310,7 +3310,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleBackground GetStyleBackground(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleBackground GetStyleBackground(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -3321,7 +3321,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -3332,7 +3332,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -3343,7 +3343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleFont GetStyleFont(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleFont GetStyleFont(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -3354,7 +3354,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleFontDefinition GetStyleFontDefinition(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual UnityEngine.UIElements.StyleFontDefinition GetStyleFontDefinition(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -3365,19 +3365,19 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
+        public virtual System.Boolean TryGetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @value.Value};
             var ___result = RMTryGetStyleValue_StylePropertyId_Ref_StyleValue.Invoke(___genericsType, ___parameters);
-			@value = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue(___parameters[1]);
+			@value = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue(___parameters[1]);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual void SetStyleValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
+        public virtual void SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
         {
 
             var ___genericsType = new Type[] {};

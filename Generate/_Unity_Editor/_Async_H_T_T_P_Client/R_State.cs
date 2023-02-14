@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {public partial class RAsyncHTTPClient
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.AsyncHTTPClient+State INIT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FINIT;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFINIT
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FINIT;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFINIT
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.AsyncHTTPClient+State CONNECTING
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FCONNECTING;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFCONNECTING
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FCONNECTING;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFCONNECTING
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.AsyncHTTPClient+State CONNECTED
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FCONNECTED;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFCONNECTED
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FCONNECTED;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFCONNECTED
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.AsyncHTTPClient+State UPLOADING
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FUPLOADING;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFUPLOADING
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FUPLOADING;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFUPLOADING
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.AsyncHTTPClient+State DOWNLOADING
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FDOWNLOADING;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFDOWNLOADING
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FDOWNLOADING;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFDOWNLOADING
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.AsyncHTTPClient+State CONFIRMING
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FCONFIRMING;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFCONFIRMING
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FCONFIRMING;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFCONFIRMING
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.AsyncHTTPClient+State DONE_OK
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FDONE_OK;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFDONE_OK
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FDONE_OK;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFDONE_OK
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.AsyncHTTPClient+State DONE_FAILED
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FDONE_FAILED;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFDONE_FAILED
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FDONE_FAILED;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFDONE_FAILED
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.AsyncHTTPClient+State ABORTED
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FABORTED;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFABORTED
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FABORTED;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFABORTED
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.AsyncHTTPClient+State TIMEOUT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FTIMEOUT;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFTIMEOUT
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_FTIMEOUT;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RFTIMEOUT
 		{
 			get
 			{

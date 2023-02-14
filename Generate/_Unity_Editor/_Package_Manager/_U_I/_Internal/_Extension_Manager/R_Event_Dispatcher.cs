@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {public partial class RExtensionManager
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_ExtensionErrorMessage
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_ExtensionErrorMessage;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_ExtensionErrorMessage
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_ExtensionErrorMessage;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_ExtensionErrorMessage
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.IWindow m_Window
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow r_Fm_Window;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow RFm_Window
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow r_Fm_Window;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow RFm_Window
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.Tuple`2[UnityEditor.PackageManager.UI.Internal.IPackage,UnityEditor.PackageManager.UI.Internal.IPackageVersion] m_DelayedPackageSelection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RTuple<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage, SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion> r_Fm_DelayedPackageSelection;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RTuple<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage, SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion> RFm_DelayedPackageSelection
+		protected Hvak.Editor.Refleaction.RUnityEditor.RTuple<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion> r_Fm_DelayedPackageSelection;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RTuple<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion> RFm_DelayedPackageSelection
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Type,System.Object] m_HandlerObjects
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RType, SMFrame.Editor.Refleaction.RSystem.RObject> r_Fm_HandlerObjects;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RType, SMFrame.Editor.Refleaction.RSystem.RObject> RFm_HandlerObjects
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RType, Hvak.Editor.Refleaction.RSystem.RObject> r_Fm_HandlerObjects;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RType, Hvak.Editor.Refleaction.RSystem.RObject> RFm_HandlerObjects
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.PackageManager.UI.IWindowCreatedHandler] m_WindowCreatedHandlers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowCreatedHandler> r_Fm_WindowCreatedHandlers;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowCreatedHandler> RFm_WindowCreatedHandlers
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowCreatedHandler> r_Fm_WindowCreatedHandlers;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowCreatedHandler> RFm_WindowCreatedHandlers
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.PackageManager.UI.IWindowDestroyHandler] m_WindowDestroyHandlers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowDestroyHandler> r_Fm_WindowDestroyHandlers;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowDestroyHandler> RFm_WindowDestroyHandlers
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowDestroyHandler> r_Fm_WindowDestroyHandlers;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowDestroyHandler> RFm_WindowDestroyHandlers
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.PackageManager.UI.IPackageSelectionChangedHandler] m_PackageSelectionChangedHandlers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageSelectionChangedHandler> r_Fm_PackageSelectionChangedHandlers;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageSelectionChangedHandler> RFm_PackageSelectionChangedHandlers
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageSelectionChangedHandler> r_Fm_PackageSelectionChangedHandlers;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageSelectionChangedHandler> RFm_PackageSelectionChangedHandlers
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.PackageManager.UI.IWindowCreatedHandler] windowCreatedHandlers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowCreatedHandler> r_PwindowCreatedHandlers;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowCreatedHandler> RPwindowCreatedHandlers
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowCreatedHandler> r_PwindowCreatedHandlers;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowCreatedHandler> RPwindowCreatedHandlers
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.PackageManager.UI.IWindowDestroyHandler] windowDestroyHandlers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowDestroyHandler> r_PwindowDestroyHandlers;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowDestroyHandler> RPwindowDestroyHandlers
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowDestroyHandler> r_PwindowDestroyHandlers;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindowDestroyHandler> RPwindowDestroyHandlers
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.PackageManager.UI.IPackageSelectionChangedHandler] packageSelectionChangedHandlers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageSelectionChangedHandler> r_PpackageSelectionChangedHandlers;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageSelectionChangedHandler> RPpackageSelectionChangedHandlers
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageSelectionChangedHandler> r_PpackageSelectionChangedHandlers;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageSelectionChangedHandler> RPpackageSelectionChangedHandlers
 		{
 			get
 			{
@@ -382,7 +382,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void SendWindowCreatedEvent(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow @window)
+        public virtual void SendWindowCreatedEvent(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow @window)
         {
 
             var ___genericsType = new Type[] {};
@@ -404,7 +404,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void SendPackageSelectionChangedEvent(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
+        public virtual void SendPackageSelectionChangedEvent(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
         {
 
             var ___genericsType = new Type[] {};

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSheets.MatchResult
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.MatchResultErrorCode errorCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode r_FerrorCode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode RFerrorCode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode r_FerrorCode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode RFerrorCode
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.String errorValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FerrorValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFerrorValue
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FerrorValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFerrorValue
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Boolean success
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Psuccess;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPsuccess
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Psuccess;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPsuccess
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
+namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
 	/// System.Collections.Generic.IList`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// T Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPItem_Int32
+		protected Hvak.Editor.Refleaction.RProperty r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RProperty RPItem_Int32
 		{
 			get
 			{

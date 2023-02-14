@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplier
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// System.Int32 Infinity
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FInfinity;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFInfinity
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FInfinity;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFInfinity
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplierType m_Type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplierType r_Fm_Type;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplierType RFm_Type
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplierType r_Fm_Type;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplierType RFm_Type
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// System.Int32 min
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fmin;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFmin
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fmin;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFmin
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// System.Int32 max
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fmax;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFmax
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fmax;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFmax
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplierType type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplierType r_Ptype;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplierType RPtype
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplierType r_Ptype;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplierType RPtype
 		{
 			get
 			{
@@ -233,7 +233,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 	    {
 	    }
 
-        public virtual void SetType(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplierType @value)
+        public virtual void SetType(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplierType @value)
         {
 
             var ___genericsType = new Type[] {};

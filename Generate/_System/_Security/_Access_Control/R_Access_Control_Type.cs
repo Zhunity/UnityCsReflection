@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.AccessControlType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlType Allow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlType r_FAllow;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlType RFAllow
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlType r_FAllow;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlType RFAllow
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlType Deny
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlType r_FDeny;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlType RFDeny
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlType r_FDeny;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlType RFDeny
 		{
 			get
 			{

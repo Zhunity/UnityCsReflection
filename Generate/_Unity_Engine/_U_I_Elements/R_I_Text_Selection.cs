@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.ITextSelection
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isSelectable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisSelectable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisSelectable
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisSelectable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisSelectable
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color cursorColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_PcursorColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RPcursorColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_PcursorColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RPcursorColor
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 cursorIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PcursorIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPcursorIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PcursorIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPcursorIndex
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean doubleClickSelectsWord
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PdoubleClickSelectsWord;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdoubleClickSelectsWord
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdoubleClickSelectsWord;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdoubleClickSelectsWord
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 selectIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PselectIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPselectIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PselectIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPselectIndex
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color selectionColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_PselectionColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RPselectionColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_PselectionColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RPselectionColor
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean tripleClickSelectsLine
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PtripleClickSelectsLine;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPtripleClickSelectsLine
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PtripleClickSelectsLine;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPtripleClickSelectsLine
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean selectAllOnFocus
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PselectAllOnFocus;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPselectAllOnFocus
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PselectAllOnFocus;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPselectAllOnFocus
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean selectAllOnMouseUp
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PselectAllOnMouseUp;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPselectAllOnMouseUp
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PselectAllOnMouseUp;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPselectAllOnMouseUp
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 cursorPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PcursorPosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPcursorPosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PcursorPosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPcursorPosition
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single lineHeightAtCursorPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PlineHeightAtCursorPosition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPlineHeightAtCursorPosition
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PlineHeightAtCursorPosition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPlineHeightAtCursorPosition
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single cursorWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PcursorWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPcursorWidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PcursorWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPcursorWidth
 		{
 			get
 			{

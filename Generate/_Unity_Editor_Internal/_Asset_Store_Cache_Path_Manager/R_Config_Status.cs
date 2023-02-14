@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
+namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 {public partial class RAssetStoreCachePathManager
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEditorInternal.AssetStoreCachePathManager+ConfigStatus Success
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_FSuccess;
-		public static SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RFSuccess
+		protected static Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_FSuccess;
+		public static Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RFSuccess
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEditorInternal.AssetStoreCachePathManager+ConfigStatus InvalidPath
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_FInvalidPath;
-		public static SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RFInvalidPath
+		protected static Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_FInvalidPath;
+		public static Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RFInvalidPath
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEditorInternal.AssetStoreCachePathManager+ConfigStatus ReadOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_FReadOnly;
-		public static SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RFReadOnly
+		protected static Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_FReadOnly;
+		public static Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RFReadOnly
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEditorInternal.AssetStoreCachePathManager+ConfigStatus EnvironmentOverride
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_FEnvironmentOverride;
-		public static SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RFEnvironmentOverride
+		protected static Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_FEnvironmentOverride;
+		public static Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RFEnvironmentOverride
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEditorInternal.AssetStoreCachePathManager+ConfigStatus NotFound
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_FNotFound;
-		public static SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RFNotFound
+		protected static Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_FNotFound;
+		public static Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RFNotFound
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEditorInternal.AssetStoreCachePathManager+ConfigStatus Failed
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_FFailed;
-		public static SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RFFailed
+		protected static Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_FFailed;
+		public static Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RFFailed
 		{
 			get
 			{

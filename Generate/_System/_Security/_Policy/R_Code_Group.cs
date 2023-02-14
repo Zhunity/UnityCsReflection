@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 {
 	/// <summary>
 	/// System.Security.Policy.CodeGroup
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.PolicyStatement m_policy
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement r_Fm_policy;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement RFm_policy
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement r_Fm_policy;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement RFm_policy
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.IMembershipCondition m_membershipCondition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RIMembershipCondition r_Fm_membershipCondition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RIMembershipCondition RFm_membershipCondition
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RIMembershipCondition r_Fm_membershipCondition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RIMembershipCondition RFm_membershipCondition
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String m_description
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_description;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_description
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_description;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_description
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String m_name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_name;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_name
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_name;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_name
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Collections.ArrayList m_children
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_Fm_children;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RFm_children
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_Fm_children;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RFm_children
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String MergeLogic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PMergeLogic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPMergeLogic
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PMergeLogic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPMergeLogic
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.PolicyStatement PolicyStatement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement r_PPolicyStatement;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement RPPolicyStatement
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement r_PPolicyStatement;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement RPPolicyStatement
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String Description
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PDescription;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPDescription
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PDescription;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPDescription
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.IMembershipCondition MembershipCondition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RIMembershipCondition r_PMembershipCondition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RIMembershipCondition RPMembershipCondition
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RIMembershipCondition r_PMembershipCondition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RIMembershipCondition RPMembershipCondition
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Collections.IList Children
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RIList r_PChildren;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RIList RPChildren
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RIList r_PChildren;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RIList RPChildren
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String AttributeString
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PAttributeString;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPAttributeString
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PAttributeString;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPAttributeString
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String PermissionSetName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PPermissionSetName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPPermissionSetName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PPermissionSetName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPPermissionSetName
 		{
 			get
 			{

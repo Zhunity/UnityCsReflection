@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.PackageRegistrationEventArgs
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[UnityEditor.PackageManager.PackageInfo] <added>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_F__0__added__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RF__0__added__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_F__0__added__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RF__0__added__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[UnityEditor.PackageManager.PackageInfo] <removed>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_F__0__removed__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RF__0__removed__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_F__0__removed__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RF__0__removed__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[UnityEditor.PackageManager.PackageInfo] <changedFrom>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_F__0__changedFrom__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RF__0__changedFrom__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_F__0__changedFrom__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RF__0__changedFrom__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[UnityEditor.PackageManager.PackageInfo] <changedTo>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_F__0__changedTo__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RF__0__changedTo__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_F__0__changedTo__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RF__0__changedTo__1__k__BackingField
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[UnityEditor.PackageManager.PackageInfo] added
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_Padded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RPadded
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_Padded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RPadded
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[UnityEditor.PackageManager.PackageInfo] removed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_Premoved;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RPremoved
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_Premoved;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RPremoved
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[UnityEditor.PackageManager.PackageInfo] changedFrom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_PchangedFrom;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RPchangedFrom
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_PchangedFrom;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RPchangedFrom
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[UnityEditor.PackageManager.PackageInfo] changedTo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_PchangedTo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RPchangedTo
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_PchangedTo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RPchangedTo
 		{
 			get
 			{

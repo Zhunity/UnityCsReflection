@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.MonoTypeInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String full_name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ffull_name;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFfull_name
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ffull_name;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFfull_name
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Reflection.RuntimeConstructorInfo default_ctor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeConstructorInfo r_Fdefault_ctor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeConstructorInfo RFdefault_ctor
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeConstructorInfo r_Fdefault_ctor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeConstructorInfo RFdefault_ctor
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.TextEditorEventHandler
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextElement textElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement r_FtextElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement RFtextElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement r_FtextElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement RFtextElement
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.TextEditingUtilities editingUtilities
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextEditingUtilities r_FeditingUtilities;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextEditingUtilities RFeditingUtilities
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextEditingUtilities r_FeditingUtilities;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextEditingUtilities RFeditingUtilities
 		{
 			get
 			{

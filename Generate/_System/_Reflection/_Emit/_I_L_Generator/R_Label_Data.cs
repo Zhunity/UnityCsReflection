@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {public partial class RILGenerator
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 addr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Faddr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFaddr
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Faddr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFaddr
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 maxStack
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FmaxStack;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFmaxStack
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FmaxStack;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFmaxStack
 		{
 			get
 			{

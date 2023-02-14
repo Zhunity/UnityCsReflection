@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.ShaderKeywordType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderKeywordType None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderKeywordType BuiltinDefault
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType r_FBuiltinDefault;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType RFBuiltinDefault
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType r_FBuiltinDefault;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType RFBuiltinDefault
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderKeywordType BuiltinExtra
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType r_FBuiltinExtra;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType RFBuiltinExtra
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType r_FBuiltinExtra;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType RFBuiltinExtra
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderKeywordType BuiltinAutoStripped
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType r_FBuiltinAutoStripped;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType RFBuiltinAutoStripped
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType r_FBuiltinAutoStripped;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType RFBuiltinAutoStripped
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderKeywordType UserDefined
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType r_FUserDefined;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType RFUserDefined
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType r_FUserDefined;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType RFUserDefined
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderKeywordType Plugin
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType r_FPlugin;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType RFPlugin
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType r_FPlugin;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType RFPlugin
 		{
 			get
 			{

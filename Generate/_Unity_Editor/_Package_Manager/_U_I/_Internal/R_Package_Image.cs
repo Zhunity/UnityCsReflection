@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.PackageImage
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageImage+ImageType type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType r_Ftype;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType RFtype
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType r_Ftype;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage.RImageType RFtype
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String thumbnailUrl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FthumbnailUrl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFthumbnailUrl
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FthumbnailUrl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFthumbnailUrl
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String url
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Furl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFurl
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Furl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFurl
 		{
 			get
 			{

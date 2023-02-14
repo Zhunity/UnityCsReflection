@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RTextureRegistry
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Texture texture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture r_Ftexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture RFtexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_Ftexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture RFtexture
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean dynamic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fdynamic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFdynamic
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fdynamic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFdynamic
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 refCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FrefCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFrefCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FrefCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFrefCount
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RCollections
+namespace Hvak.Editor.Refleaction.RUnity.RCollections
 {public partial class RNativeArray<T>
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[T] m_Array
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RField> r_Fm_Array;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RField> RFm_Array
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RField> r_Fm_Array;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RField> RFm_Array
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// System.Int32 m_Index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Index;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Index
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Index;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Index
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// T Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PCurrent;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPCurrent
+		protected Hvak.Editor.Refleaction.RProperty r_PCurrent;
+		public virtual Hvak.Editor.Refleaction.RProperty RPCurrent
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// System.Object System.Collections.IEnumerator.Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
 		{
 			get
 			{

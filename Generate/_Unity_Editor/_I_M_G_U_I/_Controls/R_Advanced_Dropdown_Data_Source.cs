@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
+namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 {
 	/// <summary>
 	/// UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String kSearchHeader
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FkSearchHeader;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFkSearchHeader
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FkSearchHeader;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFkSearchHeader
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownItem m_MainTree
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_Fm_MainTree;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem RFm_MainTree
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_Fm_MainTree;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem RFm_MainTree
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownItem m_SearchTree
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_Fm_SearchTree;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem RFm_SearchTree
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_Fm_SearchTree;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem RFm_SearchTree
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] m_SelectedIDs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fm_SelectedIDs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RInt32> RFm_SelectedIDs
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_SelectedIDs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> RFm_SelectedIDs
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.IMGUI.Controls.AdvancedDropdownItem] m_SearchableElements
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> r_Fm_SearchableElements;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> RFm_SearchableElements
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> r_Fm_SearchableElements;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> RFm_SearchableElements
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource+SearchMatchItemHandler searchMatchItem
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource.RSearchMatchItemHandler r_FsearchMatchItem;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource.RSearchMatchItemHandler RFsearchMatchItem
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource.RSearchMatchItemHandler r_FsearchMatchItem;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource.RSearchMatchItemHandler RFsearchMatchItem
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Collections.Generic.IComparer`1[UnityEditor.IMGUI.Controls.AdvancedDropdownItem] searchMatchItemComparer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIComparer<SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> r_FsearchMatchItemComparer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIComparer<SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> RFsearchMatchItemComparer
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIComparer<Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> r_FsearchMatchItemComparer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIComparer<Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> RFsearchMatchItemComparer
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownItem mainTree
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_PmainTree;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem RPmainTree
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_PmainTree;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem RPmainTree
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownItem searchTree
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_PsearchTree;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem RPsearchTree
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_PsearchTree;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem RPsearchTree
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] selectedIDs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RInt32> r_PselectedIDs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RInt32> RPselectedIDs
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> r_PselectedIDs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> RPselectedIDs
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownItem root
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_Proot;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem RProot
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_Proot;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem RProot
 		{
 			get
 			{

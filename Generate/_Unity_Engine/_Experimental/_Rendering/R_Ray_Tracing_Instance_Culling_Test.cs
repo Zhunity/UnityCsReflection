@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingTest
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.UInt32 instanceMask
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FinstanceMask;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFinstanceMask
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FinstanceMask;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFinstanceMask
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 layerMask
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FlayerMask;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlayerMask
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FlayerMask;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlayerMask
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 shadowCastingModeMask
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FshadowCastingModeMask;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFshadowCastingModeMask
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FshadowCastingModeMask;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFshadowCastingModeMask
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Boolean allowOpaqueMaterials
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FallowOpaqueMaterials;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFallowOpaqueMaterials
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FallowOpaqueMaterials;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFallowOpaqueMaterials
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Boolean allowTransparentMaterials
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FallowTransparentMaterials;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFallowTransparentMaterials
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FallowTransparentMaterials;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFallowTransparentMaterials
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Boolean allowAlphaTestedMaterials
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FallowAlphaTestedMaterials;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFallowAlphaTestedMaterials
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FallowAlphaTestedMaterials;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFallowAlphaTestedMaterials
 		{
 			get
 			{

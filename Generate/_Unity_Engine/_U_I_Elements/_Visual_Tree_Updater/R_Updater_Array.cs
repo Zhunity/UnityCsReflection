@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RVisualTreeUpdater
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IVisualTreeUpdater[] m_VisualTreeUpdaters
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater> r_Fm_VisualTreeUpdaters;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater> RFm_VisualTreeUpdaters
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater> r_Fm_VisualTreeUpdaters;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater> RFm_VisualTreeUpdaters
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IVisualTreeUpdater Item [UnityEngine.UIElements.VisualTreeUpdatePhase]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater r_PItem_VisualTreeUpdatePhase;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater RPItem_VisualTreeUpdatePhase
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater r_PItem_VisualTreeUpdatePhase;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater RPItem_VisualTreeUpdatePhase
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IVisualTreeUpdater Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater RPItem_Int32
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater RPItem_Int32
 		{
 			get
 			{

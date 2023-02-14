@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Event = SMFrame.Editor.Refleaction.REvent;
+using Event = Hvak.Editor.Refleaction.REvent;
 using System;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
+namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
 {
 	public partial class RAddComponentWindow
 	{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.CompareOptions
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareOptions None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareOptions IgnoreCase
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FIgnoreCase;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFIgnoreCase
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FIgnoreCase;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFIgnoreCase
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareOptions IgnoreNonSpace
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FIgnoreNonSpace;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFIgnoreNonSpace
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FIgnoreNonSpace;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFIgnoreNonSpace
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareOptions IgnoreSymbols
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FIgnoreSymbols;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFIgnoreSymbols
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FIgnoreSymbols;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFIgnoreSymbols
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareOptions IgnoreKanaType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FIgnoreKanaType;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFIgnoreKanaType
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FIgnoreKanaType;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFIgnoreKanaType
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareOptions IgnoreWidth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FIgnoreWidth;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFIgnoreWidth
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FIgnoreWidth;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFIgnoreWidth
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareOptions OrdinalIgnoreCase
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FOrdinalIgnoreCase;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFOrdinalIgnoreCase
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FOrdinalIgnoreCase;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFOrdinalIgnoreCase
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareOptions StringSort
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FStringSort;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFStringSort
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FStringSort;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFStringSort
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareOptions Ordinal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FOrdinal;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFOrdinal
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FOrdinal;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFOrdinal
 		{
 			get
 			{

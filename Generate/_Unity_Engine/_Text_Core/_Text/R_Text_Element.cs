@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.TextElement
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextElementType m_ElementType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextElementType r_Fm_ElementType;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextElementType RFm_ElementType
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextElementType r_Fm_ElementType;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextElementType RFm_ElementType
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32 m_Unicode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_Unicode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_Unicode
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_Unicode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_Unicode
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAsset m_TextAsset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAsset r_Fm_TextAsset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAsset RFm_TextAsset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAsset r_Fm_TextAsset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAsset RFm_TextAsset
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Glyph m_Glyph
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyph r_Fm_Glyph;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyph RFm_Glyph
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyph r_Fm_Glyph;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyph RFm_Glyph
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32 m_GlyphIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_GlyphIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_GlyphIndex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_GlyphIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_GlyphIndex
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single m_Scale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Scale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Scale
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Scale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Scale
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextElementType elementType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextElementType r_PelementType;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextElementType RPelementType
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextElementType r_PelementType;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextElementType RPelementType
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UInt32 unicode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Punicode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPunicode
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Punicode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPunicode
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAsset textAsset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAsset r_PtextAsset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAsset RPtextAsset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAsset r_PtextAsset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAsset RPtextAsset
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Glyph glyph
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyph r_Pglyph;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyph RPglyph
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyph r_Pglyph;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyph RPglyph
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UInt32 glyphIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PglyphIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPglyphIndex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PglyphIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPglyphIndex
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single scale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pscale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPscale
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pscale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPscale
 		{
 			get
 			{

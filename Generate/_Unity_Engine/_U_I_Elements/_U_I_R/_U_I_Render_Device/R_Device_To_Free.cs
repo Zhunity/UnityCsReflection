@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {public partial class RUIRenderDevice
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fhandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFhandle
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fhandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFhandle
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Page page
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage r_Fpage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage RFpage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage r_Fpage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage RFpage
 		{
 			get
 			{

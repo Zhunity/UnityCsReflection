@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.TypeCode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode Empty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FEmpty;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFEmpty
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FEmpty;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFEmpty
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode Object
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFObject
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FObject;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFObject
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode DBNull
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FDBNull;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFDBNull
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FDBNull;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFDBNull
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode Boolean
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FBoolean;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFBoolean
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FBoolean;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFBoolean
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode Char
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FChar;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFChar
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FChar;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFChar
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode SByte
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FSByte;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFSByte
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FSByte;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFSByte
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode Byte
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FByte;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFByte
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FByte;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFByte
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode Int16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FInt16;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFInt16
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FInt16;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFInt16
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode UInt16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FUInt16;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFUInt16
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FUInt16;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFUInt16
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode Int32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FInt32;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFInt32
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FInt32;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFInt32
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode UInt32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FUInt32;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFUInt32
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FUInt32;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFUInt32
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode Int64
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FInt64;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFInt64
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FInt64;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFInt64
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode UInt64
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FUInt64;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFUInt64
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FUInt64;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFUInt64
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode Single
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FSingle;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFSingle
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FSingle;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFSingle
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode Double
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FDouble;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFDouble
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FDouble;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFDouble
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode Decimal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FDecimal;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFDecimal
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FDecimal;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFDecimal
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode DateTime
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FDateTime;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFDateTime
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FDateTime;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFDateTime
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeCode String
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeCode r_FString;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeCode RFString
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeCode r_FString;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeCode RFString
 		{
 			get
 			{

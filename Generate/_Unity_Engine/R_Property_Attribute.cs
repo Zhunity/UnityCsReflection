@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.PropertyAttribute
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 <order>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__order__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__order__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__order__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__order__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 order
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Porder;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPorder
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Porder;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPorder
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Object TypeId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PTypeId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPTypeId
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PTypeId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPTypeId
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RResources
+namespace Hvak.Editor.Refleaction.RSystem.RResources
 {
 	/// <summary>
 	/// System.Resources.Win32Resource
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.NameOrId type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RResources.RNameOrId r_Ftype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RResources.RNameOrId RFtype
+		protected Hvak.Editor.Refleaction.RSystem.RResources.RNameOrId r_Ftype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RResources.RNameOrId RFtype
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.NameOrId name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RResources.RNameOrId r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RResources.RNameOrId RFname
+		protected Hvak.Editor.Refleaction.RSystem.RResources.RNameOrId r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RResources.RNameOrId RFname
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 language
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Flanguage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlanguage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Flanguage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlanguage
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType ResourceType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_PResourceType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RPResourceType
+		protected Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_PResourceType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RPResourceType
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.NameOrId Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RResources.RNameOrId r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RResources.RNameOrId RPName
+		protected Hvak.Editor.Refleaction.RSystem.RResources.RNameOrId r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RResources.RNameOrId RPName
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.NameOrId Type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RResources.RNameOrId r_PType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RResources.RNameOrId RPType
+		protected Hvak.Editor.Refleaction.RSystem.RResources.RNameOrId r_PType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RResources.RNameOrId RPType
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// Int32 Language
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLanguage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLanguage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLanguage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLanguage
 		{
 			get
 			{

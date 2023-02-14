@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.ClientProxy
@@ -419,14 +419,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RAddScopedRegistryRequest AddScopedRegistry(System.String @registryName, System.String @url, System.String[] @scopes)
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RAddScopedRegistryRequest AddScopedRegistry(System.String @registryName, System.String @url, System.String[] @scopes)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@registryName, @url, @scopes};
             var ___result = RMAddScopedRegistry_String_String_StringArray.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RAddScopedRegistryRequest(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RAddScopedRegistryRequest(___result);
         }
 
 
@@ -441,14 +441,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RGetRegistriesRequest GetRegistries()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RGetRegistriesRequest GetRegistries()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetRegistries.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RGetRegistriesRequest(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RGetRegistriesRequest(___result);
         }
 
 
@@ -474,14 +474,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RRemoveScopedRegistryRequest RemoveScopedRegistry(System.String @registryName)
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RRemoveScopedRegistryRequest RemoveScopedRegistry(System.String @registryName)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@registryName};
             var ___result = RMRemoveScopedRegistry_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RRemoveScopedRegistryRequest(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RRemoveScopedRegistryRequest(___result);
         }
 
 
@@ -507,47 +507,47 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RUpdateScopedRegistryRequest UpdateScopedRegistry(System.String @registryName, SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUpdateScopedRegistryOptions @options)
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RUpdateScopedRegistryRequest UpdateScopedRegistry(System.String @registryName, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUpdateScopedRegistryOptions @options)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@registryName, @options.Value};
             var ___result = RMUpdateScopedRegistry_String_UpdateScopedRegistryOptions.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RUpdateScopedRegistryRequest(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RUpdateScopedRegistryRequest(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RGetCacheRootRequest GetCacheRoot()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RGetCacheRootRequest GetCacheRoot()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetCacheRoot.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RGetCacheRootRequest(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RGetCacheRootRequest(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RSetCacheRootRequest SetCacheRoot(System.String @path)
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RSetCacheRootRequest SetCacheRoot(System.String @path)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@path};
             var ___result = RMSetCacheRoot_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RSetCacheRootRequest(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RSetCacheRootRequest(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RClearCacheRootRequest ClearCacheRoot()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RClearCacheRootRequest ClearCacheRoot()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMClearCacheRoot.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RClearCacheRootRequest(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RClearCacheRootRequest(___result);
         }
 
 

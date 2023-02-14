@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 {
 	/// <summary>
 	/// System.Security.Policy.Evidence
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Boolean _locked
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_locked;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_locked
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_locked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_locked
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Collections.ArrayList hostEvidenceList
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_FhostEvidenceList;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RFhostEvidenceList
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_FhostEvidenceList;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RFhostEvidenceList
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Collections.ArrayList assemblyEvidenceList
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_FassemblyEvidenceList;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RFassemblyEvidenceList
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_FassemblyEvidenceList;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RFassemblyEvidenceList
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCount
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsReadOnly
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean IsSynchronized
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsSynchronized;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsSynchronized
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsSynchronized;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsSynchronized
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean Locked
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PLocked;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPLocked
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PLocked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPLocked
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Object SyncRoot
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSyncRoot;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSyncRoot
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSyncRoot;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSyncRoot
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Collections.ArrayList HostEvidenceList
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_PHostEvidenceList;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RPHostEvidenceList
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_PHostEvidenceList;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RPHostEvidenceList
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Collections.ArrayList AssemblyEvidenceList
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_PAssemblyEvidenceList;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RPAssemblyEvidenceList
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_PAssemblyEvidenceList;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RPAssemblyEvidenceList
 		{
 			get
 			{

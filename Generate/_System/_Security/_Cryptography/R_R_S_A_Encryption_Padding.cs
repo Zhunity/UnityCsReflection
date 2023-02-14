@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 {
 	/// <summary>
 	/// System.Security.Cryptography.RSAEncryptionPadding
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPadding s_pkcs1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_Fs_pkcs1;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RFs_pkcs1
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_Fs_pkcs1;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RFs_pkcs1
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPadding s_oaepSHA1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_Fs_oaepSHA1;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RFs_oaepSHA1
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_Fs_oaepSHA1;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RFs_oaepSHA1
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPadding s_oaepSHA256
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_Fs_oaepSHA256;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RFs_oaepSHA256
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_Fs_oaepSHA256;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RFs_oaepSHA256
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPadding s_oaepSHA384
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_Fs_oaepSHA384;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RFs_oaepSHA384
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_Fs_oaepSHA384;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RFs_oaepSHA384
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPadding s_oaepSHA512
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_Fs_oaepSHA512;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RFs_oaepSHA512
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_Fs_oaepSHA512;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RFs_oaepSHA512
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPaddingMode _mode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode r_F_mode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode RF_mode
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode r_F_mode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode RF_mode
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.HashAlgorithmName _oaepHashAlgorithm
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_F_oaepHashAlgorithm;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RF_oaepHashAlgorithm
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_F_oaepHashAlgorithm;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RF_oaepHashAlgorithm
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPadding Pkcs1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_PPkcs1;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RPPkcs1
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_PPkcs1;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RPPkcs1
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPadding OaepSHA1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_POaepSHA1;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RPOaepSHA1
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_POaepSHA1;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RPOaepSHA1
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPadding OaepSHA256
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_POaepSHA256;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RPOaepSHA256
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_POaepSHA256;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RPOaepSHA256
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPadding OaepSHA384
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_POaepSHA384;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RPOaepSHA384
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_POaepSHA384;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RPOaepSHA384
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPadding OaepSHA512
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_POaepSHA512;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RPOaepSHA512
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding r_POaepSHA512;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPadding RPOaepSHA512
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPaddingMode Mode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode r_PMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode RPMode
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode r_PMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode RPMode
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.HashAlgorithmName OaepHashAlgorithm
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_POaepHashAlgorithm;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RPOaepHashAlgorithm
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_POaepHashAlgorithm;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RPOaepHashAlgorithm
 		{
 			get
 			{

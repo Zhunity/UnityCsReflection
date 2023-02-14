@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.SplitterState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 defaultSplitSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FdefaultSplitSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFdefaultSplitSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FdefaultSplitSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFdefaultSplitSize
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 ID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFID
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single splitterInitialOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FsplitterInitialOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFsplitterInitialOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FsplitterInitialOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFsplitterInitialOffset
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 currentActiveSplitter
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcurrentActiveSplitter;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcurrentActiveSplitter
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcurrentActiveSplitter;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcurrentActiveSplitter
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single[] realSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RSingle> r_FrealSizes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RSingle> RFrealSizes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RSingle> r_FrealSizes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RSingle> RFrealSizes
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single[] relativeSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RSingle> r_FrelativeSizes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RSingle> RFrelativeSizes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RSingle> r_FrelativeSizes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RSingle> RFrelativeSizes
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single[] minSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RSingle> r_FminSizes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RSingle> RFminSizes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RSingle> r_FminSizes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RSingle> RFminSizes
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single[] maxSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RSingle> r_FmaxSizes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RSingle> RFmaxSizes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RSingle> r_FmaxSizes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RSingle> RFmaxSizes
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single lastTotalSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FlastTotalSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFlastTotalSize
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FlastTotalSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFlastTotalSize
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single splitSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FsplitSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFsplitSize
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FsplitSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFsplitSize
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single xOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FxOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFxOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FxOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFxOffset
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_Version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Version
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Version
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32[] oldRealSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_FoldRealSizes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFoldRealSizes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_FoldRealSizes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFoldRealSizes
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32[] oldMinSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_FoldMinSizes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFoldMinSizes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_FoldMinSizes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFoldMinSizes
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32[] oldMaxSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_FoldMaxSizes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFoldMaxSizes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_FoldMaxSizes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFoldMaxSizes
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 oldSplitSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FoldSplitSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFoldSplitSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FoldSplitSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFoldSplitSize
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Converter`2[System.Int32,System.Single] s_ConverterDelegate
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RConverter<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RSystem.RSingle> r_Fs_ConverterDelegate;
-		public static SMFrame.Editor.Refleaction.RSystem.RConverter<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RSystem.RSingle> RFs_ConverterDelegate
+		protected static Hvak.Editor.Refleaction.RSystem.RConverter<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RSingle> r_Fs_ConverterDelegate;
+		public static Hvak.Editor.Refleaction.RSystem.RConverter<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RSingle> RFs_ConverterDelegate
 		{
 			get
 			{
@@ -686,47 +686,47 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitterState FromAbsolute(System.Single[] @realSizes, System.Single[] @minSizes, System.Single[] @maxSizes)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RSplitterState FromAbsolute(System.Single[] @realSizes, System.Single[] @minSizes, System.Single[] @maxSizes)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@realSizes, @minSizes, @maxSizes};
             var ___result = RMFromAbsolute_SingleArray_SingleArray_SingleArray.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RSplitterState(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RSplitterState(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@relativeSizes};
             var ___result = RMFromRelative_SingleArray.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RSplitterState(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RSplitterState(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes, System.Single[] @minSizes, System.Single[] @maxSizes)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes, System.Single[] @minSizes, System.Single[] @maxSizes)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@relativeSizes, @minSizes, @maxSizes};
             var ___result = RMFromRelative_SingleArray_SingleArray_SingleArray.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RSplitterState(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RSplitterState(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes, System.Single[] @minSizes, System.Single[] @maxSizes, System.Int32 @splitSize)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes, System.Single[] @minSizes, System.Single[] @maxSizes, System.Int32 @splitSize)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@relativeSizes, @minSizes, @maxSizes, @splitSize};
             var ___result = RMFromRelative_SingleArray_SingleArray_SingleArray_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RSplitterState(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RSplitterState(___result);
         }
 
 

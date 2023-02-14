@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UxmlObjectAsset
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_Properties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> r_Fm_Properties;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> RFm_Properties
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_Properties;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFm_Properties
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String fullTypeName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PfullTypeName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPfullTypeName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PfullTypeName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPfullTypeName
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPid
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPid
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 orderInDocument
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PorderInDocument;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPorderInDocument
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PorderInDocument;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPorderInDocument
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 parentId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PparentId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPparentId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PparentId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPparentId
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleVariableContext
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleVariableContext none
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext r_Fnone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext RFnone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext r_Fnone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext RFnone
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_VariableHash
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_VariableHash;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_VariableHash
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_VariableHash;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_VariableHash
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleVariable] m_Variables
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable> r_Fm_Variables;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable> RFm_Variables
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable> r_Fm_Variables;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable> RFm_Variables
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] m_SortedHash
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fm_SortedHash;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RInt32> RFm_SortedHash
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_SortedHash;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> RFm_SortedHash
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleVariable] variables
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable> r_Pvariables;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable> RPvariables
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable> r_Pvariables;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable> RPvariables
 		{
 			get
 			{
@@ -301,7 +301,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void Add(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable @sv)
+        public virtual void Add(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable @sv)
         {
 
             var ___genericsType = new Type[] {};
@@ -312,7 +312,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AddInitialRange(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext @other)
+        public virtual void AddInitialRange(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -334,14 +334,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryFindVariable(System.String @name, out SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable @v)
+        public virtual System.Boolean TryFindVariable(System.String @name, out Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable @v)
         {
 			@v = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @v.Value};
             var ___result = RMTryFindVariable_String_Out_StyleVariable.Invoke(___genericsType, ___parameters);
-			@v = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable(___parameters[1]);
+			@v = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable(___parameters[1]);
 
             return (System.Boolean)___result;
         }

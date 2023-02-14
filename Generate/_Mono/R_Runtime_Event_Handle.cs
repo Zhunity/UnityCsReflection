@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RMono
+namespace Hvak.Editor.Refleaction.RMono
 {
 	/// <summary>
 	/// Mono.RuntimeEventHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.IntPtr value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFvalue
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFvalue
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// IntPtr Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RPValue
 		{
 			get
 			{
@@ -227,7 +227,7 @@ namespace SMFrame.Editor.Refleaction.RMono
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RMono.RRuntimeEventHandle @handle)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RMono.RRuntimeEventHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -249,7 +249,7 @@ namespace SMFrame.Editor.Refleaction.RMono
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RMono.RRuntimeEventHandle @left, SMFrame.Editor.Refleaction.RMono.RRuntimeEventHandle @right)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RMono.RRuntimeEventHandle @left, Hvak.Editor.Refleaction.RMono.RRuntimeEventHandle @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RMono
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RMono.RRuntimeEventHandle @left, SMFrame.Editor.Refleaction.RMono.RRuntimeEventHandle @right)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RMono.RRuntimeEventHandle @left, Hvak.Editor.Refleaction.RMono.RRuntimeEventHandle @right)
         {
 
             var ___genericsType = new Type[] {};

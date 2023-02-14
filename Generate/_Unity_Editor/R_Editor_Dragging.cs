@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.EditorDragging
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String k_DraggingModeKey
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_DraggingModeKey;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_DraggingModeKey
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_DraggingModeKey;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_DraggingModeKey
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.IPropertyView m_InspectorWindow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIPropertyView r_Fm_InspectorWindow;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIPropertyView RFm_InspectorWindow
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIPropertyView r_Fm_InspectorWindow;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIPropertyView RFm_InspectorWindow
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_TargetAbove
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_TargetAbove;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_TargetAbove
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_TargetAbove;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_TargetAbove
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_TargetIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_TargetIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_TargetIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_TargetIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_TargetIndex
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_LastIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_LastIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_LastIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_LastIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_LastIndex
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_BottomAreaDropIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_BottomAreaDropIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_BottomAreaDropIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_BottomAreaDropIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_BottomAreaDropIndex
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Rect m_BottomArea
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_Fm_BottomArea;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RFm_BottomArea
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_Fm_BottomArea;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFm_BottomArea
 		{
 			get
 			{

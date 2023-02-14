@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
+namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 {
 	/// <summary>
 	/// Unity.Collections.LowLevel.Unsafe.EnforceJobResult
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.EnforceJobResult AllJobsAlreadySynced
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.REnforceJobResult r_FAllJobsAlreadySynced;
-		public static SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.REnforceJobResult RFAllJobsAlreadySynced
+		protected static Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.REnforceJobResult r_FAllJobsAlreadySynced;
+		public static Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.REnforceJobResult RFAllJobsAlreadySynced
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.EnforceJobResult DidSyncRunningJobs
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.REnforceJobResult r_FDidSyncRunningJobs;
-		public static SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.REnforceJobResult RFDidSyncRunningJobs
+		protected static Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.REnforceJobResult r_FDidSyncRunningJobs;
+		public static Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.REnforceJobResult RFDidSyncRunningJobs
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.EnforceJobResult HandleWasAlreadyDeallocated
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.REnforceJobResult r_FHandleWasAlreadyDeallocated;
-		public static SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.REnforceJobResult RFHandleWasAlreadyDeallocated
+		protected static Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.REnforceJobResult r_FHandleWasAlreadyDeallocated;
+		public static Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.REnforceJobResult RFHandleWasAlreadyDeallocated
 		{
 			get
 			{

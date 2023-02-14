@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
 	/// UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord m_FirstAdjustmentRecord
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord r_Fm_FirstAdjustmentRecord;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord RFm_FirstAdjustmentRecord
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord r_Fm_FirstAdjustmentRecord;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord RFm_FirstAdjustmentRecord
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord m_SecondAdjustmentRecord
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord r_Fm_SecondAdjustmentRecord;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord RFm_SecondAdjustmentRecord
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord r_Fm_SecondAdjustmentRecord;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord RFm_SecondAdjustmentRecord
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags m_FeatureLookupFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags r_Fm_FeatureLookupFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags RFm_FeatureLookupFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags r_Fm_FeatureLookupFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags RFm_FeatureLookupFlags
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord firstAdjustmentRecord
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord r_PfirstAdjustmentRecord;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord RPfirstAdjustmentRecord
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord r_PfirstAdjustmentRecord;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord RPfirstAdjustmentRecord
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord secondAdjustmentRecord
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord r_PsecondAdjustmentRecord;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord RPsecondAdjustmentRecord
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord r_PsecondAdjustmentRecord;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAdjustmentRecord RPsecondAdjustmentRecord
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags featureLookupFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags r_PfeatureLookupFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags RPfeatureLookupFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags r_PfeatureLookupFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags RPfeatureLookupFlags
 		{
 			get
 			{

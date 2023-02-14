@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.AssetStoreProductInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFid
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFid
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String packageName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpackageName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpackageName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpackageName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpackageName
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String description
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fdescription;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFdescription
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fdescription;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFdescription
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String publisherName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpublisherName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpublisherName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpublisherName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpublisherName
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String category
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fcategory;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFcategory
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fcategory;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFcategory
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String versionString
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FversionString;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFversionString
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FversionString;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFversionString
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String versionId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FversionId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFversionId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FversionId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFversionId
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String publishedDate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpublishedDate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpublishedDate
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpublishedDate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpublishedDate
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FdisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFdisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FdisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFdisplayName
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String state
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fstate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFstate
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fstate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFstate
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String publishNotes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpublishNotes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpublishNotes
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpublishNotes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpublishNotes
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String firstPublishedDate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FfirstPublishedDate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFfirstPublishedDate
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FfirstPublishedDate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFfirstPublishedDate
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String publisherLink
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpublisherLink;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpublisherLink
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpublisherLink;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpublisherLink
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageLink assetStoreLink
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink r_FassetStoreLink;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink RFassetStoreLink
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink r_FassetStoreLink;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink RFassetStoreLink
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] supportedVersions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> r_FsupportedVersions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> RFsupportedVersions
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_FsupportedVersions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFsupportedVersions
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.PackageManager.UI.Internal.PackageImage] images
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage> r_Fimages;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage> RFimages
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage> r_Fimages;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage> RFimages
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.PackageManager.UI.Internal.PackageLink] links
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink> r_Flinks;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink> RFlinks
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink> r_Flinks;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink> RFlinks
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.PackageManager.UI.Internal.PackageSizeInfo] sizeInfos
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSizeInfo> r_FsizeInfos;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSizeInfo> RFsizeInfos
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSizeInfo> r_FsizeInfos;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSizeInfo> RFsizeInfos
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.AssetStoreUtils m_AssetStoreUtils
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils r_Fm_AssetStoreUtils;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils RFm_AssetStoreUtils
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils r_Fm_AssetStoreUtils;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils RFm_AssetStoreUtils
 		{
 			get
 			{
@@ -607,7 +607,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	    {
 	    }
 
-        public virtual void ResolveDependencies(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils)
+        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils)
         {
 
             var ___genericsType = new Type[] {};
@@ -618,14 +618,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo ParseProductInfo(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, System.String @productId, System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo ParseProductInfo(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, System.String @productId, System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assetStoreUtils.Value, @productId, @productDetail};
             var ___result = RMParseProductInfo_AssetStoreUtils_String_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo(___result);
         }
 
 
@@ -640,62 +640,62 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage> GetImagesFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage> GetImagesFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@productDetail};
             var ___result = RMGetImagesFromProductDetails_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageImage>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink> GetLinksFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink> GetLinksFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@productDetail};
             var ___result = RMGetLinksFromProductDetails_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink GetAssetStoreLinkFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink GetAssetStoreLinkFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@productDetail};
             var ___result = RMGetAssetStoreLinkFromProductDetails_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSizeInfo> GetSizeInfoFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSizeInfo> GetSizeInfoFromProductDetails(System.Collections.Generic.IDictionary<System.String, System.Object> @productDetail)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@productDetail};
             var ___result = RMGetSizeInfoFromProductDetails_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSizeInfo>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSizeInfo>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink GetPackageLink(System.String @name, System.String @url, System.String @analyticsEventName)
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink GetPackageLink(System.String @name, System.String @url, System.String @analyticsEventName)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @url, @analyticsEventName};
             var ___result = RMGetPackageLink_String_String_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink(___result);
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo @other)
         {
 
             var ___genericsType = new Type[] {};

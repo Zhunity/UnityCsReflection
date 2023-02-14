@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.VectorImageManager
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.UIR.VectorImageManager] instances
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageManager> r_Finstances;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageManager> RFinstances
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageManager> r_Finstances;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageManager> RFinstances
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker s_MarkerRegister
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerRegister;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerRegister
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerRegister;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerRegister
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker s_MarkerUnregister
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerUnregister;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerUnregister
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerUnregister;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerUnregister
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.AtlasBase m_Atlas
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAtlasBase r_Fm_Atlas;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAtlasBase RFm_Atlas
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAtlasBase r_Fm_Atlas;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAtlasBase RFm_Atlas
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[UnityEngine.UIElements.VectorImage,UnityEngine.UIElements.UIR.VectorImageRenderInfo] m_Registered
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo> r_Fm_Registered;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo> RFm_Registered
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo> r_Fm_Registered;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo> RFm_Registered
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.VectorImageRenderInfoPool m_RenderInfoPool
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfoPool r_Fm_RenderInfoPool;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfoPool RFm_RenderInfoPool
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfoPool r_Fm_RenderInfoPool;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfoPool RFm_RenderInfoPool
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.GradientRemapPool m_GradientRemapPool
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemapPool r_Fm_GradientRemapPool;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemapPool RFm_GradientRemapPool
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemapPool r_Fm_GradientRemapPool;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemapPool RFm_GradientRemapPool
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.GradientSettingsAtlas m_GradientSettingsAtlas
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientSettingsAtlas r_Fm_GradientSettingsAtlas;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientSettingsAtlas RFm_GradientSettingsAtlas
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientSettingsAtlas r_Fm_GradientSettingsAtlas;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientSettingsAtlas RFm_GradientSettingsAtlas
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_LoggedExhaustedSettingsAtlas
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_LoggedExhaustedSettingsAtlas;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_LoggedExhaustedSettingsAtlas
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_LoggedExhaustedSettingsAtlas;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_LoggedExhaustedSettingsAtlas
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Texture2D atlas
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_Patlas;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RPatlas
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Patlas;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RPatlas
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdisposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdisposed
 		{
 			get
 			{
@@ -515,14 +515,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap AddUser(UnityEngine.UIElements.VectorImage @vi, UnityEngine.UIElements.VisualElement @context)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap AddUser(UnityEngine.UIElements.VectorImage @vi, UnityEngine.UIElements.VisualElement @context)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vi, @context};
             var ___result = RMAddUser_VectorImage_VisualElement.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap(___result);
         }
 
 
@@ -537,18 +537,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo Register(UnityEngine.UIElements.VectorImage @vi, UnityEngine.UIElements.VisualElement @context)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo Register(UnityEngine.UIElements.VectorImage @vi, UnityEngine.UIElements.VisualElement @context)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vi, @context};
             var ___result = RMRegister_VectorImage_VisualElement.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo(___result);
         }
 
 
-        public virtual void Unregister(UnityEngine.UIElements.VectorImage @vi, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo @renderInfo)
+        public virtual void Unregister(UnityEngine.UIElements.VectorImage @vi, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo @renderInfo)
         {
 
             var ___genericsType = new Type[] {};

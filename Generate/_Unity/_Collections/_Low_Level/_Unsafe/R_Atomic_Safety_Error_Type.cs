@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
+namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 {
 	/// <summary>
 	/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyErrorType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyErrorType Deallocated
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyErrorType r_FDeallocated;
-		public static SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyErrorType RFDeallocated
+		protected static Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyErrorType r_FDeallocated;
+		public static Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyErrorType RFDeallocated
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyErrorType DeallocatedFromJob
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyErrorType r_FDeallocatedFromJob;
-		public static SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyErrorType RFDeallocatedFromJob
+		protected static Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyErrorType r_FDeallocatedFromJob;
+		public static Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyErrorType RFDeallocatedFromJob
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyErrorType NotAllocatedFromJob
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyErrorType r_FNotAllocatedFromJob;
-		public static SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyErrorType RFNotAllocatedFromJob
+		protected static Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyErrorType r_FNotAllocatedFromJob;
+		public static Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyErrorType RFNotAllocatedFromJob
 		{
 			get
 			{

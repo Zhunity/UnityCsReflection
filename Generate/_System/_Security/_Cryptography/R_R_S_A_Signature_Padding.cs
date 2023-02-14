@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 {
 	/// <summary>
 	/// System.Security.Cryptography.RSASignaturePadding
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSASignaturePadding s_pkcs1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding r_Fs_pkcs1;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding RFs_pkcs1
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding r_Fs_pkcs1;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding RFs_pkcs1
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSASignaturePadding s_pss
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding r_Fs_pss;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding RFs_pss
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding r_Fs_pss;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding RFs_pss
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSASignaturePaddingMode _mode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePaddingMode r_F_mode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePaddingMode RF_mode
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePaddingMode r_F_mode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePaddingMode RF_mode
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSASignaturePadding Pkcs1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding r_PPkcs1;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding RPPkcs1
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding r_PPkcs1;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding RPPkcs1
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSASignaturePadding Pss
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding r_PPss;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding RPPss
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding r_PPss;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePadding RPPss
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSASignaturePaddingMode Mode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePaddingMode r_PMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePaddingMode RPMode
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePaddingMode r_PMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSASignaturePaddingMode RPMode
 		{
 			get
 			{

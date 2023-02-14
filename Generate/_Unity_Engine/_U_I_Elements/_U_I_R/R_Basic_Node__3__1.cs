@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.BasicNode`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BasicNode`1[T] next
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<SMFrame.Editor.Refleaction.RField> r_Fnext;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<SMFrame.Editor.Refleaction.RField> RFnext
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<Hvak.Editor.Refleaction.RField> r_Fnext;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<Hvak.Editor.Refleaction.RField> RFnext
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// T data
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_Fdata;
-		public virtual SMFrame.Editor.Refleaction.RField RFdata
+		protected Hvak.Editor.Refleaction.RField r_Fdata;
+		public virtual Hvak.Editor.Refleaction.RField RFdata
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BasicNode`1[T] poolNext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<SMFrame.Editor.Refleaction.RField> r_FpoolNext;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<SMFrame.Editor.Refleaction.RField> RFpoolNext
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<Hvak.Editor.Refleaction.RField> r_FpoolNext;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<Hvak.Editor.Refleaction.RField> RFpoolNext
 		{
 			get
 			{
@@ -199,13 +199,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual void AppendTo(ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<SMFrame.Editor.Refleaction.RType> @first)
+        public virtual void AppendTo(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<Hvak.Editor.Refleaction.RType> @first)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@first.Value};
             var ___result = RMAppendTo_Ref_BasicNode_d_T_p_.Invoke(___genericsType, ___parameters);
-			@first = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<SMFrame.Editor.Refleaction.RType>(___parameters[0]);
+			@first = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<Hvak.Editor.Refleaction.RType>(___parameters[0]);
 
             
         }

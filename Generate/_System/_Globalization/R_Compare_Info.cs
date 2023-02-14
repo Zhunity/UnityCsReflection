@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.CompareInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareOptions ValidIndexMaskOffFlags
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FValidIndexMaskOffFlags;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFValidIndexMaskOffFlags
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FValidIndexMaskOffFlags;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFValidIndexMaskOffFlags
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareOptions ValidCompareMaskOffFlags
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FValidCompareMaskOffFlags;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFValidCompareMaskOffFlags
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FValidCompareMaskOffFlags;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFValidCompareMaskOffFlags
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareOptions ValidHashCodeOfStringMaskOffFlags
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FValidHashCodeOfStringMaskOffFlags;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFValidHashCodeOfStringMaskOffFlags
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FValidHashCodeOfStringMaskOffFlags;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFValidHashCodeOfStringMaskOffFlags
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareOptions ValidSortkeyCtorMaskOffFlags
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FValidSortkeyCtorMaskOffFlags;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFValidSortkeyCtorMaskOffFlags
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions r_FValidSortkeyCtorMaskOffFlags;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareOptions RFValidSortkeyCtorMaskOffFlags
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CompareInfo Invariant
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareInfo r_FInvariant;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareInfo RFInvariant
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareInfo r_FInvariant;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareInfo RFInvariant
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_name;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_name
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_name;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_name
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String _sortName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_sortName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_sortName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_sortName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_sortName
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.SortVersion m_SortVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RSortVersion r_Fm_SortVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RSortVersion RFm_SortVersion
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RSortVersion r_Fm_SortVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RSortVersion RFm_SortVersion
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 culture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fculture;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFculture
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fculture;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFculture
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.ISimpleCollator collator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RISimpleCollator r_Fcollator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RISimpleCollator RFcollator
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RISimpleCollator r_Fcollator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RISimpleCollator RFcollator
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.Globalization.ISimpleCollator] collators
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RGlobalization.RISimpleCollator> r_Fcollators;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RGlobalization.RISimpleCollator> RFcollators
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RGlobalization.RISimpleCollator> r_Fcollators;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RGlobalization.RISimpleCollator> RFcollators
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean managedCollation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_FmanagedCollation;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RFmanagedCollation
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_FmanagedCollation;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RFmanagedCollation
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean managedCollationChecked
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_FmanagedCollationChecked;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RFmanagedCollationChecked
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_FmanagedCollationChecked;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RFmanagedCollationChecked
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.SortVersion Version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RSortVersion r_PVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RSortVersion RPVersion
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RSortVersion r_PVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RSortVersion RPVersion
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 LCID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLCID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLCID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLCID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLCID
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean UseManagedCollation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_PUseManagedCollation;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RPUseManagedCollation
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_PUseManagedCollation;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RPUseManagedCollation
 		{
 			get
 			{
@@ -2080,7 +2080,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Int32 InvariantIndexOf(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @source, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @value, System.Boolean @ignoreCase)
+        public static System.Int32 InvariantIndexOf(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value, System.Boolean @ignoreCase)
         {
 
             var ___genericsType = new Type[] {};
@@ -2278,7 +2278,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 Compare(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @string1, System.String @string2, System.Globalization.CompareOptions @options)
+        public virtual System.Int32 Compare(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @string1, System.String @string2, System.Globalization.CompareOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -2289,7 +2289,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 CompareOptionNone(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @string1, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @string2)
+        public virtual System.Int32 CompareOptionNone(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @string1, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @string2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2300,7 +2300,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 CompareOptionIgnoreCase(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @string1, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @string2)
+        public virtual System.Int32 CompareOptionIgnoreCase(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @string1, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @string2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2366,7 +2366,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Int32 CompareOrdinalIgnoreCase(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @strA, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @strB)
+        public static System.Int32 CompareOrdinalIgnoreCase(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @strA, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @strB)
         {
 
             var ___genericsType = new Type[] {};
@@ -2388,7 +2388,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean IsPrefix(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @source, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @prefix, System.Globalization.CompareOptions @options)
+        public virtual System.Boolean IsPrefix(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @prefix, System.Globalization.CompareOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -2421,7 +2421,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean IsSuffix(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @source, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @suffix, System.Globalization.CompareOptions @options)
+        public virtual System.Boolean IsSuffix(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @suffix, System.Globalization.CompareOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -2575,7 +2575,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 IndexOfOrdinal(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @source, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @value, System.Boolean @ignoreCase)
+        public virtual System.Int32 IndexOfOrdinal(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value, System.Boolean @ignoreCase)
         {
 
             var ___genericsType = new Type[] {};
@@ -2586,7 +2586,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 IndexOf(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @source, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @value, System.Globalization.CompareOptions @options)
+        public virtual System.Int32 IndexOf(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value, System.Globalization.CompareOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -2850,14 +2850,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RISimpleCollator GetCollator()
+        public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RISimpleCollator GetCollator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetCollator.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RGlobalization.RISimpleCollator(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RGlobalization.RISimpleCollator(___result);
         }
 
 
@@ -3037,7 +3037,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public unsafe virtual System.Int32 IndexOfCore(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @source, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @target, System.Globalization.CompareOptions @options, System.Int32* @matchLengthPtr)
+        public unsafe virtual System.Int32 IndexOfCore(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @target, System.Globalization.CompareOptions @options, System.Int32* @matchLengthPtr)
         {
 
             var ___genericsType = new Type[] {};
@@ -3048,7 +3048,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 IndexOfOrdinalCore(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @source, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @value, System.Boolean @ignoreCase)
+        public virtual System.Int32 IndexOfOrdinalCore(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value, System.Boolean @ignoreCase)
         {
 
             var ___genericsType = new Type[] {};
@@ -3059,7 +3059,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 CompareString(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @string1, System.String @string2, System.Globalization.CompareOptions @options)
+        public virtual System.Int32 CompareString(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @string1, System.String @string2, System.Globalization.CompareOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -3070,7 +3070,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 CompareString(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @string1, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @string2, System.Globalization.CompareOptions @options)
+        public virtual System.Int32 CompareString(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @string1, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @string2, System.Globalization.CompareOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -3114,7 +3114,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean StartsWith(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @source, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @prefix, System.Globalization.CompareOptions @options)
+        public virtual System.Boolean StartsWith(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @prefix, System.Globalization.CompareOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -3136,7 +3136,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean EndsWith(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @source, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @suffix, System.Globalization.CompareOptions @options)
+        public virtual System.Boolean EndsWith(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @suffix, System.Globalization.CompareOptions @options)
         {
 
             var ___genericsType = new Type[] {};

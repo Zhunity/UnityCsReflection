@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.ILExceptionInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.ILExceptionBlock[] handlers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RILExceptionBlock> r_Fhandlers;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RILExceptionBlock> RFhandlers
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILExceptionBlock> r_Fhandlers;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILExceptionBlock> RFhandlers
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 start
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fstart;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFstart
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fstart;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFstart
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 len
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Flen;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlen
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Flen;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlen
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.Label end
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RLabel r_Fend;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RLabel RFend
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RLabel r_Fend;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RLabel RFend
 		{
 			get
 			{

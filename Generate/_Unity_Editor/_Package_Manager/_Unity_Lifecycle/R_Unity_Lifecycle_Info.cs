@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UnityLifecycle.UnityLifecycleInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycl
 		/// <summary>
 		/// System.String m_Version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Version
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Version
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycl
 		/// <summary>
 		/// System.String m_NextVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_NextVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_NextVersion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_NextVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_NextVersion
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycl
 		/// <summary>
 		/// System.String m_RecommendedVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_RecommendedVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_RecommendedVersion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_RecommendedVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_RecommendedVersion
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycl
 		/// <summary>
 		/// System.Boolean m_IsDeprecated
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_IsDeprecated;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_IsDeprecated
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsDeprecated;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsDeprecated
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycl
 		/// <summary>
 		/// System.String m_DeprecationMessage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_DeprecationMessage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_DeprecationMessage
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_DeprecationMessage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_DeprecationMessage
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycl
 		/// <summary>
 		/// System.String version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pversion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPversion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pversion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPversion
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycl
 		/// <summary>
 		/// System.String nextVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PnextVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPnextVersion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PnextVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPnextVersion
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycl
 		/// <summary>
 		/// System.String recommendedVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PrecommendedVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPrecommendedVersion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PrecommendedVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPrecommendedVersion
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycl
 		/// <summary>
 		/// Boolean isDeprecated
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisDeprecated;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisDeprecated
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDeprecated;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDeprecated
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycl
 		/// <summary>
 		/// System.String deprecationMessage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PdeprecationMessage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPdeprecationMessage
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PdeprecationMessage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPdeprecationMessage
 		{
 			get
 			{

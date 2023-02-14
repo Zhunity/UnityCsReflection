@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.ExceptionHandler
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 m_exceptionClass
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_exceptionClass;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_exceptionClass
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_exceptionClass;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_exceptionClass
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 m_tryStartOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_tryStartOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_tryStartOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_tryStartOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_tryStartOffset
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 m_tryEndOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_tryEndOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_tryEndOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_tryEndOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_tryEndOffset
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 m_filterOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_filterOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_filterOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_filterOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_filterOffset
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 m_handlerStartOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_handlerStartOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_handlerStartOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_handlerStartOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_handlerStartOffset
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 m_handlerEndOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_handlerEndOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_handlerEndOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_handlerEndOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_handlerEndOffset
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.ExceptionHandlingClauseOptions m_kind
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_Fm_kind;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RFm_kind
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_Fm_kind;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RFm_kind
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 ExceptionTypeToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PExceptionTypeToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPExceptionTypeToken
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PExceptionTypeToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPExceptionTypeToken
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 TryOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PTryOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPTryOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PTryOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPTryOffset
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 TryLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PTryLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPTryLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PTryLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPTryLength
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 FilterOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PFilterOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPFilterOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PFilterOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPFilterOffset
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 HandlerOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PHandlerOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPHandlerOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PHandlerOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPHandlerOffset
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 HandlerLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PHandlerLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPHandlerLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PHandlerLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPHandlerLength
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.ExceptionHandlingClauseOptions Kind
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_PKind;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RPKind
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_PKind;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RPKind
 		{
 			get
 			{

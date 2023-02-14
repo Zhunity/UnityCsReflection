@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int64 productId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_FproductId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFproductId
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_FproductId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFproductId
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String purchasedTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpurchasedTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpurchasedTime
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpurchasedTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpurchasedTime
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FdisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFdisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FdisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFdisplayName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] tags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> r_Ftags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> RFtags
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Ftags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFtags
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean isHidden
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisHidden;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisHidden
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisHidden;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisHidden
 		{
 			get
 			{
@@ -250,18 +250,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo ParsePurchaseInfo(System.Collections.Generic.IDictionary<System.String, System.Object> @rawInfo)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo ParsePurchaseInfo(System.Collections.Generic.IDictionary<System.String, System.Object> @rawInfo)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rawInfo};
             var ___result = RMParsePurchaseInfo_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo(___result);
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo @other)
         {
 
             var ___genericsType = new Type[] {};

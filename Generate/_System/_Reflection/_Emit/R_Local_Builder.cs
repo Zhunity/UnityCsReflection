@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.LocalBuilder
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFname
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.ILGenerator ilgen
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RILGenerator r_Filgen;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RILGenerator RFilgen
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILGenerator r_Filgen;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILGenerator RFilgen
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 startOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FstartOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFstartOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FstartOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFstartOffset
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 endOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FendOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFendOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FendOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFendOffset
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Type type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_Ftype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFtype
+		protected Hvak.Editor.Refleaction.RSystem.RType r_Ftype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFtype
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Boolean is_pinned
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fis_pinned;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFis_pinned
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fis_pinned;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFis_pinned
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.UInt16 position
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt16 r_Fposition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt16 RFposition
+		protected Hvak.Editor.Refleaction.RSystem.RUInt16 r_Fposition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt16 RFposition
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Type LocalType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PLocalType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPLocalType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PLocalType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPLocalType
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Boolean IsPinned
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsPinned;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsPinned
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsPinned;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsPinned
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 LocalIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLocalIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLocalIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLocalIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLocalIndex
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 StartOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PStartOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPStartOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PStartOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPStartOffset
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 EndOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PEndOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPEndOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PEndOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPEndOffset
 		{
 			get
 			{

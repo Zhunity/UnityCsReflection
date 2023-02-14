@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {public partial class RPageCapability
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FdisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFdisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FdisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFdisplayName
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String orderBy
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_ForderBy;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RForderBy
+		protected Hvak.Editor.Refleaction.RSystem.RString r_ForderBy;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RForderBy
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PageCapability+Order order
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageCapability.ROrder r_Forder;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageCapability.ROrder RForder
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageCapability.ROrder r_Forder;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageCapability.ROrder RForder
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.GradientColorKey
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color color
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFcolor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFcolor
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single time
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Ftime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFtime
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Ftime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFtime
 		{
 			get
 			{

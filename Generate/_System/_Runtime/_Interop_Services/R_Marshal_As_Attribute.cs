@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 {
 	/// <summary>
 	/// System.Runtime.InteropServices.MarshalAsAttribute
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.String MarshalCookie
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FMarshalCookie;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFMarshalCookie
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FMarshalCookie;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFMarshalCookie
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.String MarshalType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FMarshalType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFMarshalType
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FMarshalType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFMarshalType
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Type MarshalTypeRef
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_FMarshalTypeRef;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFMarshalTypeRef
+		protected Hvak.Editor.Refleaction.RSystem.RType r_FMarshalTypeRef;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFMarshalTypeRef
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Type SafeArrayUserDefinedSubType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_FSafeArrayUserDefinedSubType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFSafeArrayUserDefinedSubType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_FSafeArrayUserDefinedSubType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFSafeArrayUserDefinedSubType
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType utype
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_Futype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFutype
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_Futype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFutype
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType ArraySubType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FArraySubType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFArraySubType
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FArraySubType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFArraySubType
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.VarEnum SafeArraySubType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FSafeArraySubType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFSafeArraySubType
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum r_FSafeArraySubType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RVarEnum RFSafeArraySubType
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 SizeConst
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSizeConst;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFSizeConst
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FSizeConst;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFSizeConst
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 IidParameterIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FIidParameterIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFIidParameterIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FIidParameterIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFIidParameterIndex
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int16 SizeParamIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt16 r_FSizeParamIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt16 RFSizeParamIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt16 r_FSizeParamIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt16 RFSizeParamIndex
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RPValue
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Object TypeId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PTypeId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPTypeId
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PTypeId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPTypeId
 		{
 			get
 			{

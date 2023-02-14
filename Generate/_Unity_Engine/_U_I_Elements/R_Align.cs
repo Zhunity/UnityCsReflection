@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.Align
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Align Auto
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign r_FAuto;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign RFAuto
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign r_FAuto;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign RFAuto
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Align FlexStart
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign r_FFlexStart;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign RFFlexStart
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign r_FFlexStart;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign RFFlexStart
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Align Center
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign r_FCenter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign RFCenter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign r_FCenter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign RFCenter
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Align FlexEnd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign r_FFlexEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign RFFlexEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign r_FFlexEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign RFFlexEnd
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Align Stretch
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign r_FStretch;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAlign RFStretch
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign r_FStretch;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAlign RFStretch
 		{
 			get
 			{

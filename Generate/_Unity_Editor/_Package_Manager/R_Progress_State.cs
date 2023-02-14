@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.ProgressState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ProgressState Pending
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_FPending;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RFPending
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_FPending;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RFPending
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ProgressState Downloading
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_FDownloading;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RFDownloading
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_FDownloading;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RFDownloading
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ProgressState Caching
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_FCaching;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RFCaching
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_FCaching;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RFCaching
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ProgressState Installing
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_FInstalling;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RFInstalling
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_FInstalling;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RFInstalling
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ProgressState Ready
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_FReady;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RFReady
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_FReady;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RFReady
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ProgressState Error
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_FError;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RFError
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState r_FError;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressState RFError
 		{
 			get
 			{

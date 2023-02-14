@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.IPreviewable
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Object target
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RObject r_Ptarget;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RObject RPtarget
+		protected Hvak.Editor.Refleaction.RUnityEngine.RObject r_Ptarget;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RObject RPtarget
 		{
 			get
 			{

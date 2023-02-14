@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.AtlasPopulationMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.AtlasPopulationMode Static
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RAtlasPopulationMode r_FStatic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RAtlasPopulationMode RFStatic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RAtlasPopulationMode r_FStatic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RAtlasPopulationMode RFStatic
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.AtlasPopulationMode Dynamic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RAtlasPopulationMode r_FDynamic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RAtlasPopulationMode RFDynamic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RAtlasPopulationMode r_FDynamic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RAtlasPopulationMode RFDynamic
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.AtlasPopulationMode DynamicOS
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RAtlasPopulationMode r_FDynamicOS;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RAtlasPopulationMode RFDynamicOS
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RAtlasPopulationMode r_FDynamicOS;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RAtlasPopulationMode RFDynamicOS
 		{
 			get
 			{

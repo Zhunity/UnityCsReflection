@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
+namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 {
 	/// <summary>
 	/// UnityEditor.Overlays.SnapCorner
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.SnapCorner TopLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner r_FTopLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner RFTopLeft
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner r_FTopLeft;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner RFTopLeft
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.SnapCorner TopRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner r_FTopRight;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner RFTopRight
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner r_FTopRight;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner RFTopRight
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.SnapCorner BottomLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner r_FBottomLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner RFBottomLeft
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner r_FBottomLeft;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner RFBottomLeft
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.SnapCorner BottomRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner r_FBottomRight;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner RFBottomRight
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner r_FBottomRight;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner RFBottomRight
 		{
 			get
 			{

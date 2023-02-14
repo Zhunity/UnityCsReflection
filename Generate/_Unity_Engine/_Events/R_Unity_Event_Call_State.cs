@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
+namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 {
 	/// <summary>
 	/// UnityEngine.Events.UnityEventCallState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// UnityEngine.Events.UnityEventCallState Off
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RUnityEventCallState r_FOff;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RUnityEventCallState RFOff
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REvents.RUnityEventCallState r_FOff;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REvents.RUnityEventCallState RFOff
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// UnityEngine.Events.UnityEventCallState EditorAndRuntime
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RUnityEventCallState r_FEditorAndRuntime;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RUnityEventCallState RFEditorAndRuntime
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REvents.RUnityEventCallState r_FEditorAndRuntime;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REvents.RUnityEventCallState RFEditorAndRuntime
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// UnityEngine.Events.UnityEventCallState RuntimeOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RUnityEventCallState r_FRuntimeOnly;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RUnityEventCallState RFRuntimeOnly
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REvents.RUnityEventCallState r_FRuntimeOnly;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REvents.RUnityEventCallState RFRuntimeOnly
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.MotionVectorGenerationMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MotionVectorGenerationMode Camera
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode r_FCamera;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode RFCamera
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode r_FCamera;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode RFCamera
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MotionVectorGenerationMode Object
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode r_FObject;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode RFObject
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode r_FObject;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode RFObject
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MotionVectorGenerationMode ForceNoMotion
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode r_FForceNoMotion;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode RFForceNoMotion
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode r_FForceNoMotion;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode RFForceNoMotion
 		{
 			get
 			{

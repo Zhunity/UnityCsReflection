@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.ExecutionContext
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SynchronizationContext _syncContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_F_syncContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RF_syncContext
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_F_syncContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RF_syncContext
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SynchronizationContext _syncContextNoFlow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_F_syncContextNoFlow;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RF_syncContextNoFlow
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_F_syncContextNoFlow;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RF_syncContextNoFlow
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.LogicalCallContext _logicalCallContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext r_F_logicalCallContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext RF_logicalCallContext
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext r_F_logicalCallContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext RF_logicalCallContext
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IllogicalCallContext _illogicalCallContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext r_F_illogicalCallContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext RF_illogicalCallContext
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext r_F_illogicalCallContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext RF_illogicalCallContext
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext+Flags _flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags r_F_flags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags RF_flags
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags r_F_flags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags RF_flags
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Threading.IAsyncLocal,System.Object] _localValues
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal, SMFrame.Editor.Refleaction.RSystem.RObject> r_F_localValues;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal, SMFrame.Editor.Refleaction.RSystem.RObject> RF_localValues
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal, Hvak.Editor.Refleaction.RSystem.RObject> r_F_localValues;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal, Hvak.Editor.Refleaction.RSystem.RObject> RF_localValues
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Threading.IAsyncLocal] _localChangeNotifications
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal> r_F_localChangeNotifications;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal> RF_localChangeNotifications
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal> r_F_localChangeNotifications;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal> RF_localChangeNotifications
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext s_dummyDefaultEC
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_Fs_dummyDefaultEC;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext RFs_dummyDefaultEC
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_Fs_dummyDefaultEC;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext RFs_dummyDefaultEC
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_FDefault;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext RFDefault
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_FDefault;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext RFDefault
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean isNewCapture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisNewCapture;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisNewCapture
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisNewCapture;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisNewCapture
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean isFlowSuppressed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisFlowSuppressed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisFlowSuppressed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisFlowSuppressed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisFlowSuppressed
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext PreAllocatedDefault
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_PPreAllocatedDefault;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext RPPreAllocatedDefault
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_PPreAllocatedDefault;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext RPPreAllocatedDefault
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsPreAllocatedDefault
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsPreAllocatedDefault;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsPreAllocatedDefault
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsPreAllocatedDefault;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsPreAllocatedDefault
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.LogicalCallContext LogicalCallContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext r_PLogicalCallContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext RPLogicalCallContext
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext r_PLogicalCallContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext RPLogicalCallContext
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IllogicalCallContext IllogicalCallContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext r_PIllogicalCallContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext RPIllogicalCallContext
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext r_PIllogicalCallContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext RPIllogicalCallContext
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SynchronizationContext SynchronizationContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_PSynchronizationContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RPSynchronizationContext
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_PSynchronizationContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RPSynchronizationContext
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SynchronizationContext SynchronizationContextNoFlow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_PSynchronizationContextNoFlow;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RPSynchronizationContextNoFlow
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_PSynchronizationContextNoFlow;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RPSynchronizationContextNoFlow
 		{
 			get
 			{
@@ -811,7 +811,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 	    {
 	    }
 
-        public static System.Object GetLocalValue(SMFrame.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal @local)
+        public static System.Object GetLocalValue(Hvak.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal @local)
         {
 
             var ___genericsType = new Type[] {};
@@ -822,7 +822,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void SetLocalValue(SMFrame.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal @local, System.Object @newValue, System.Boolean @needChangeNotifications)
+        public static void SetLocalValue(Hvak.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal @local, System.Object @newValue, System.Boolean @needChangeNotifications)
         {
 
             var ___genericsType = new Type[] {};
@@ -899,7 +899,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void RunInternal<TState>(System.Threading.ExecutionContext @executionContext, SMFrame.Editor.Refleaction.RSystem.RThreading.RContextCallback<SMFrame.Editor.Refleaction.RType> @callback, ref TState @state)
+        public static void RunInternal<TState>(System.Threading.ExecutionContext @executionContext, Hvak.Editor.Refleaction.RSystem.RThreading.RContextCallback<Hvak.Editor.Refleaction.RType> @callback, ref TState @state)
         {
 
             var ___genericsType = new Type[] {typeof(TState)};
@@ -911,7 +911,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void RunInternal<TState>(System.Threading.ExecutionContext @executionContext, SMFrame.Editor.Refleaction.RSystem.RThreading.RContextCallback<SMFrame.Editor.Refleaction.RType> @callback, ref TState @state, System.Boolean @preserveSyncCtx)
+        public static void RunInternal<TState>(System.Threading.ExecutionContext @executionContext, Hvak.Editor.Refleaction.RSystem.RThreading.RContextCallback<Hvak.Editor.Refleaction.RType> @callback, ref TState @state, System.Boolean @preserveSyncCtx)
         {
 
             var ___genericsType = new Type[] {typeof(TState)};
@@ -923,38 +923,38 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void EstablishCopyOnWriteScope(ref SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher @ecsw)
+        public static void EstablishCopyOnWriteScope(ref Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher @ecsw)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ecsw.Value};
             var ___result = RMEstablishCopyOnWriteScope_Ref_ExecutionContextSwitcher.Invoke(___genericsType, ___parameters);
-			@ecsw = new SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher(___parameters[0]);
+			@ecsw = new Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher(___parameters[0]);
 
             
         }
 
 
-        public static void EstablishCopyOnWriteScope(System.Threading.Thread @currentThread, System.Boolean @knownNullWindowsIdentity, ref SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher @ecsw)
+        public static void EstablishCopyOnWriteScope(System.Threading.Thread @currentThread, System.Boolean @knownNullWindowsIdentity, ref Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher @ecsw)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@currentThread, @knownNullWindowsIdentity, @ecsw.Value};
             var ___result = RMEstablishCopyOnWriteScope_Thread_Boolean_Ref_ExecutionContextSwitcher.Invoke(___genericsType, ___parameters);
-			@ecsw = new SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher(___parameters[2]);
+			@ecsw = new Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher(___parameters[2]);
 
             
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher SetExecutionContext(System.Threading.ExecutionContext @executionContext, System.Boolean @preserveSyncCtx)
+        public static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher SetExecutionContext(System.Threading.ExecutionContext @executionContext, System.Boolean @preserveSyncCtx)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@executionContext, @preserveSyncCtx};
             var ___result = RMSetExecutionContext_ExecutionContext_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher(___result);
         }
 
 
@@ -1035,13 +1035,13 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Threading.ExecutionContext Capture(ref SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions @options)
+        public static System.Threading.ExecutionContext Capture(ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions @options)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@stackMark.Value, @options.Value};
             var ___result = RMCapture_Ref_StackCrawlMark_CaptureOptions.Invoke(___genericsType, ___parameters);
-			@stackMark = new SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[0]);
+			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[0]);
 
             return (System.Threading.ExecutionContext)___result;
         }

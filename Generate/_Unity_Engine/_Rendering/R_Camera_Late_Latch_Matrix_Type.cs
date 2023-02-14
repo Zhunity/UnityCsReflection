@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.CameraLateLatchMatrixType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraLateLatchMatrixType View
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType r_FView;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType RFView
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType r_FView;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType RFView
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraLateLatchMatrixType InverseView
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType r_FInverseView;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType RFInverseView
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType r_FInverseView;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType RFInverseView
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraLateLatchMatrixType ViewProjection
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType r_FViewProjection;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType RFViewProjection
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType r_FViewProjection;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType RFViewProjection
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraLateLatchMatrixType InverseViewProjection
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType r_FInverseViewProjection;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType RFInverseViewProjection
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType r_FInverseViewProjection;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCameraLateLatchMatrixType RFInverseViewProjection
 		{
 			get
 			{

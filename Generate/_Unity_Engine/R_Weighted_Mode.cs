@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.WeightedMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.WeightedMode None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RWeightedMode r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RWeightedMode RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RWeightedMode r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RWeightedMode RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.WeightedMode In
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RWeightedMode r_FIn;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RWeightedMode RFIn
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RWeightedMode r_FIn;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RWeightedMode RFIn
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.WeightedMode Out
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RWeightedMode r_FOut;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RWeightedMode RFOut
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RWeightedMode r_FOut;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RWeightedMode RFOut
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.WeightedMode Both
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RWeightedMode r_FBoth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RWeightedMode RFBoth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RWeightedMode r_FBoth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RWeightedMode RFBoth
 		{
 			get
 			{

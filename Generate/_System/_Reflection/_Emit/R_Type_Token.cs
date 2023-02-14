@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.TypeToken
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 tokValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FtokValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFtokValue
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FtokValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFtokValue
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.TypeToken Empty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RTypeToken r_FEmpty;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RTypeToken RFEmpty
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RTypeToken r_FEmpty;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RTypeToken RFEmpty
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 Token
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPToken
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPToken
 		{
 			get
 			{

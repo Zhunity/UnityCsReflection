@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RClampedDragger<T>
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ClampedDragger`1+DragDirection[T] None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<SMFrame.Editor.Refleaction.RField>.RDragDirection r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<SMFrame.Editor.Refleaction.RField>.RDragDirection RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<Hvak.Editor.Refleaction.RField>.RDragDirection r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<Hvak.Editor.Refleaction.RField>.RDragDirection RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ClampedDragger`1+DragDirection[T] LowToHigh
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<SMFrame.Editor.Refleaction.RField>.RDragDirection r_FLowToHigh;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<SMFrame.Editor.Refleaction.RField>.RDragDirection RFLowToHigh
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<Hvak.Editor.Refleaction.RField>.RDragDirection r_FLowToHigh;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<Hvak.Editor.Refleaction.RField>.RDragDirection RFLowToHigh
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ClampedDragger`1+DragDirection[T] HighToLow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<SMFrame.Editor.Refleaction.RField>.RDragDirection r_FHighToLow;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<SMFrame.Editor.Refleaction.RField>.RDragDirection RFHighToLow
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<Hvak.Editor.Refleaction.RField>.RDragDirection r_FHighToLow;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<Hvak.Editor.Refleaction.RField>.RDragDirection RFHighToLow
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ClampedDragger`1+DragDirection[T] Free
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<SMFrame.Editor.Refleaction.RField>.RDragDirection r_FFree;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<SMFrame.Editor.Refleaction.RField>.RDragDirection RFFree
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<Hvak.Editor.Refleaction.RField>.RDragDirection r_FFree;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<Hvak.Editor.Refleaction.RField>.RDragDirection RFFree
 		{
 			get
 			{

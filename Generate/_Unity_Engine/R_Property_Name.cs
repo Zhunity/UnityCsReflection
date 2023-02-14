@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.PropertyName
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFid
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFid
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 conflictIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FconflictIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFconflictIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FconflictIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFconflictIndex
 		{
 			get
 			{

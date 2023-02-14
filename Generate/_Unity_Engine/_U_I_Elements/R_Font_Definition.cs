@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.FontDefinition
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Font m_Font
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RFont r_Fm_Font;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RFont RFm_Font
+		protected Hvak.Editor.Refleaction.RUnityEngine.RFont r_Fm_Font;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RFont RFm_Font
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset m_FontAsset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_Fm_FontAsset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RFm_FontAsset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_Fm_FontAsset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RFm_FontAsset
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Font font
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RFont r_Pfont;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RFont RPfont
+		protected Hvak.Editor.Refleaction.RUnityEngine.RFont r_Pfont;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RFont RPfont
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset fontAsset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_PfontAsset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RPfontAsset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_PfontAsset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RPfontAsset
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[System.Type] allowedAssetTypes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RSystem.RType> r_PallowedAssetTypes;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RSystem.RType> RPallowedAssetTypes
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RType> r_PallowedAssetTypes;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RType> RPallowedAssetTypes
 		{
 			get
 			{

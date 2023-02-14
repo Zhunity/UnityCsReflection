@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.RareData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Cursor cursor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RCursor r_Fcursor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RCursor RFcursor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RCursor r_Fcursor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RCursor RFcursor
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextOverflow textOverflow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflow r_FtextOverflow;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflow RFtextOverflow
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflow r_FtextOverflow;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflow RFtextOverflow
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color unityBackgroundImageTintColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_FunityBackgroundImageTintColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFunityBackgroundImageTintColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_FunityBackgroundImageTintColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFunityBackgroundImageTintColor
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.OverflowClipBox unityOverflowClipBox
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox r_FunityOverflowClipBox;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox RFunityOverflowClipBox
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox r_FunityOverflowClipBox;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox RFunityOverflowClipBox
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 unitySliceBottom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FunitySliceBottom;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFunitySliceBottom
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FunitySliceBottom;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFunitySliceBottom
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 unitySliceLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FunitySliceLeft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFunitySliceLeft
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FunitySliceLeft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFunitySliceLeft
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 unitySliceRight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FunitySliceRight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFunitySliceRight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FunitySliceRight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFunitySliceRight
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single unitySliceScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FunitySliceScale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFunitySliceScale
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FunitySliceScale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFunitySliceScale
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 unitySliceTop
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FunitySliceTop;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFunitySliceTop
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FunitySliceTop;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFunitySliceTop
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextOverflowPosition unityTextOverflowPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition r_FunityTextOverflowPosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition RFunityTextOverflowPosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition r_FunityTextOverflowPosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition RFunityTextOverflowPosition
 		{
 			get
 			{
@@ -386,30 +386,30 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRareData Copy()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRareData Copy()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRareData(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRareData(___result);
         }
 
 
-        public virtual void CopyFrom(ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRareData @other)
+        public virtual void CopyFrom(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRareData @other)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other.Value};
             var ___result = RMCopyFrom_Ref_RareData.Invoke(___genericsType, ___parameters);
-			@other = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRareData(___parameters[0]);
+			@other = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRareData(___parameters[0]);
 
             
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRareData @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRareData @rhs)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRareData @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRareData @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -420,7 +420,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRareData @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRareData @rhs)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRareData @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRareData @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -431,7 +431,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRareData @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRareData @other)
         {
 
             var ___genericsType = new Type[] {};

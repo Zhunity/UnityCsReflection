@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.NativeStatusCode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeStatusCode InQueue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_FInQueue;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RFInQueue
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_FInQueue;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RFInQueue
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeStatusCode InProgress
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_FInProgress;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RFInProgress
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_FInProgress;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RFInProgress
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeStatusCode Done
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_FDone;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RFDone
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_FDone;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RFDone
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeStatusCode Error
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_FError;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RFError
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_FError;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RFError
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeStatusCode NotFound
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_FNotFound;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RFNotFound
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_FNotFound;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RFNotFound
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeStatusCode Cancelled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_FCancelled;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RFCancelled
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_FCancelled;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RFCancelled
 		{
 			get
 			{

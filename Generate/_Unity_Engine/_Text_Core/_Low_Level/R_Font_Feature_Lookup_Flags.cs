@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
 	/// UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags IgnoreLigatures
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags r_FIgnoreLigatures;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags RFIgnoreLigatures
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags r_FIgnoreLigatures;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags RFIgnoreLigatures
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags IgnoreSpacingAdjustments
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags r_FIgnoreSpacingAdjustments;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags RFIgnoreSpacingAdjustments
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags r_FIgnoreSpacingAdjustments;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontFeatureLookupFlags RFIgnoreSpacingAdjustments
 		{
 			get
 			{

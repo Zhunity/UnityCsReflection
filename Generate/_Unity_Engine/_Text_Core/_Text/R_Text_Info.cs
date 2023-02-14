@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.TextInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector2 s_InfinityVectorPositive
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Fs_InfinityVectorPositive;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFs_InfinityVectorPositive
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fs_InfinityVectorPositive;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFs_InfinityVectorPositive
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector2 s_InfinityVectorNegative
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Fs_InfinityVectorNegative;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFs_InfinityVectorNegative
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fs_InfinityVectorNegative;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFs_InfinityVectorNegative
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 characterCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcharacterCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcharacterCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcharacterCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcharacterCount
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 spriteCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FspriteCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFspriteCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FspriteCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFspriteCount
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 spaceCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FspaceCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFspaceCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FspaceCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFspaceCount
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 wordCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FwordCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFwordCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FwordCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFwordCount
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 linkCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FlinkCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlinkCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FlinkCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlinkCount
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 lineCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FlineCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlineCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FlineCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlineCount
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 pageCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FpageCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFpageCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FpageCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpageCount
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 materialCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FmaterialCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFmaterialCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FmaterialCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFmaterialCount
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextElementInfo[] textElementInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextElementInfo> r_FtextElementInfo;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextElementInfo> RFtextElementInfo
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextElementInfo> r_FtextElementInfo;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextElementInfo> RFtextElementInfo
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.WordInfo[] wordInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RWordInfo> r_FwordInfo;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RWordInfo> RFwordInfo
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RWordInfo> r_FwordInfo;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RWordInfo> RFwordInfo
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.LinkInfo[] linkInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RLinkInfo> r_FlinkInfo;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RLinkInfo> RFlinkInfo
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RLinkInfo> r_FlinkInfo;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RLinkInfo> RFlinkInfo
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.LineInfo[] lineInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RLineInfo> r_FlineInfo;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RLineInfo> RFlineInfo
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RLineInfo> r_FlineInfo;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RLineInfo> RFlineInfo
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.PageInfo[] pageInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RPageInfo> r_FpageInfo;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RPageInfo> RFpageInfo
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RPageInfo> r_FpageInfo;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RPageInfo> RFpageInfo
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.MeshInfo[] meshInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RMeshInfo> r_FmeshInfo;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RMeshInfo> RFmeshInfo
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RMeshInfo> r_FmeshInfo;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RMeshInfo> RFmeshInfo
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean isDirty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisDirty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisDirty
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisDirty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisDirty
 		{
 			get
 			{

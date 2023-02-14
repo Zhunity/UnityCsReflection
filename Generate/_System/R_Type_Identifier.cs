@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.TypeIdentifier
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String InternalName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PInternalName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPInternalName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PInternalName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPInternalName
 		{
 			get
 			{

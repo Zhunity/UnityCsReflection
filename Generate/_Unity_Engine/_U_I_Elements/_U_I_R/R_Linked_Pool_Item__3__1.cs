@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.LinkedPoolItem`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// T poolNext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_FpoolNext;
-		public virtual SMFrame.Editor.Refleaction.RField RFpoolNext
+		protected Hvak.Editor.Refleaction.RField r_FpoolNext;
+		public virtual Hvak.Editor.Refleaction.RField RFpoolNext
 		{
 			get
 			{

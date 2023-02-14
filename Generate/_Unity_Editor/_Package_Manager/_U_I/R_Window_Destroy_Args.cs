@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.WindowDestroyArgs
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.IWindow <window>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow r_F__0__window__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow RF__0__window__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow r_F__0__window__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow RF__0__window__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.IWindow window
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow r_Pwindow;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow RPwindow
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow r_Pwindow;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow RPwindow
 		{
 			get
 			{

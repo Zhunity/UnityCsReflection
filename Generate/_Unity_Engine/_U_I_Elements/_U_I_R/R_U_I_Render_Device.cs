@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.UIRenderDevice
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 k_MaxQueuedFrameCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fk_MaxQueuedFrameCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RUInt32 RFk_MaxQueuedFrameCount
+		protected static Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fk_MaxQueuedFrameCount;
+		public static Hvak.Editor.Refleaction.RSystem.RUInt32 RFk_MaxQueuedFrameCount
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 k_PruneEmptyPageFrameCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_PruneEmptyPageFrameCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_PruneEmptyPageFrameCount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_PruneEmptyPageFrameCount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_PruneEmptyPageFrameCount
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_MockDevice
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_MockDevice;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_MockDevice
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_MockDevice;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_MockDevice
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr m_DefaultStencilState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_DefaultStencilState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_DefaultStencilState
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_DefaultStencilState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_DefaultStencilState
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr m_VertexDecl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_VertexDecl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_VertexDecl
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_VertexDecl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_VertexDecl
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Page m_FirstPage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage r_Fm_FirstPage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage RFm_FirstPage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage r_Fm_FirstPage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage RFm_FirstPage
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_NextPageVertexCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_NextPageVertexCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_NextPageVertexCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_NextPageVertexCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_NextPageVertexCount
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_LargeMeshVertexCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_LargeMeshVertexCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_LargeMeshVertexCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_LargeMeshVertexCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_LargeMeshVertexCount
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Single m_IndexToVertexCountRatio
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_IndexToVertexCountRatio;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_IndexToVertexCountRatio
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_IndexToVertexCountRatio;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_IndexToVertexCountRatio
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Collections.Generic.List`1[UnityEngine.UIElements.UIR.UIRenderDevice+AllocToFree]] m_DeferredFrees
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToFree>> r_Fm_DeferredFrees;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToFree>> RFm_DeferredFrees
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToFree>> r_Fm_DeferredFrees;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToFree>> RFm_DeferredFrees
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Collections.Generic.List`1[UnityEngine.UIElements.UIR.UIRenderDevice+AllocToUpdate]] m_Updates
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate>> r_Fm_Updates;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate>> RFm_Updates
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate>> r_Fm_Updates;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate>> RFm_Updates
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32[] m_Fences
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_Fm_Fences;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> RFm_Fences
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fm_Fences;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> RFm_Fences
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.MaterialPropertyBlock m_StandardMatProps
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyBlock r_Fm_StandardMatProps;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyBlock RFm_StandardMatProps
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyBlock r_Fm_StandardMatProps;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyBlock RFm_StandardMatProps
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_FrameIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_FrameIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_FrameIndex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_FrameIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_FrameIndex
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_NextUpdateID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_NextUpdateID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_NextUpdateID
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_NextUpdateID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_NextUpdateID
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.UIRenderDevice+DrawStatistics m_DrawStats
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDrawStatistics r_Fm_DrawStats;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDrawStatistics RFm_DrawStats
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDrawStatistics r_Fm_DrawStats;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDrawStatistics RFm_DrawStats
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.LinkedPool`1[UnityEngine.UIElements.UIR.MeshHandle] m_MeshHandles
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RLinkedPool<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle> r_Fm_MeshHandles;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RLinkedPool<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle> RFm_MeshHandles
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RLinkedPool<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle> r_Fm_MeshHandles;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RLinkedPool<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle> RFm_MeshHandles
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.DrawParams m_DrawParams
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDrawParams r_Fm_DrawParams;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDrawParams RFm_DrawParams
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDrawParams r_Fm_DrawParams;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDrawParams RFm_DrawParams
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.TextureSlotManager m_TextureSlotManager
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextureSlotManager r_Fm_TextureSlotManager;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextureSlotManager RFm_TextureSlotManager
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextureSlotManager r_Fm_TextureSlotManager;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextureSlotManager RFm_TextureSlotManager
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.LinkedList`1[UnityEngine.UIElements.UIR.UIRenderDevice+DeviceToFree] m_DeviceFreeQueue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDeviceToFree> r_Fm_DeviceFreeQueue;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDeviceToFree> RFm_DeviceFreeQueue
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDeviceToFree> r_Fm_DeviceFreeQueue;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLinkedList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDeviceToFree> RFm_DeviceFreeQueue
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_ActiveDeviceCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_ActiveDeviceCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_ActiveDeviceCount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_ActiveDeviceCount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFm_ActiveDeviceCount
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_SubscribedToNotifications
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_SubscribedToNotifications;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_SubscribedToNotifications
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_SubscribedToNotifications;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RFm_SubscribedToNotifications
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_SynchronousFree
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_SynchronousFree;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_SynchronousFree
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_SynchronousFree;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RFm_SynchronousFree
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 s_GradientSettingsTexID
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fs_GradientSettingsTexID;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFs_GradientSettingsTexID
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_GradientSettingsTexID;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_GradientSettingsTexID
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 s_ShaderInfoTexID
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fs_ShaderInfoTexID;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFs_ShaderInfoTexID
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_ShaderInfoTexID;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_ShaderInfoTexID
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 s_TransformsPropID
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fs_TransformsPropID;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFs_TransformsPropID
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_TransformsPropID;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_TransformsPropID
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 s_ClipRectsPropID
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fs_ClipRectsPropID;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFs_ClipRectsPropID
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_ClipRectsPropID;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_ClipRectsPropID
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker s_MarkerAllocate
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerAllocate;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerAllocate
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerAllocate;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerAllocate
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker s_MarkerFree
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerFree;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerFree
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerFree;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerFree
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker s_MarkerAdvanceFrame
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerAdvanceFrame;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerAdvanceFrame
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerAdvanceFrame;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerAdvanceFrame
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker s_MarkerFence
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerFence;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerFence
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerFence;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerFence
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker s_MarkerBeforeDraw
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerBeforeDraw;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerBeforeDraw
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_MarkerBeforeDraw;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_MarkerBeforeDraw
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Nullable`1[System.Boolean] s_VertexTexturingIsAvailable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_Fs_VertexTexturingIsAvailable;
-		public static SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFs_VertexTexturingIsAvailable
+		protected static Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RBoolean> r_Fs_VertexTexturingIsAvailable;
+		public static Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RBoolean> RFs_VertexTexturingIsAvailable
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.String k_VertexTexturingIsAvailableTag
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_VertexTexturingIsAvailableTag;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_VertexTexturingIsAvailableTag
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_VertexTexturingIsAvailableTag;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_VertexTexturingIsAvailableTag
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.String k_VertexTexturingIsAvailableTrue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_VertexTexturingIsAvailableTrue;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_VertexTexturingIsAvailableTrue
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_VertexTexturingIsAvailableTrue;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_VertexTexturingIsAvailableTrue
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Nullable`1[System.Boolean] s_ShaderModelIs35
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_Fs_ShaderModelIs35;
-		public static SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFs_ShaderModelIs35
+		protected static Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RBoolean> r_Fs_ShaderModelIs35;
+		public static Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RBoolean> RFs_ShaderModelIs35
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.String k_ShaderModelIs35Tag
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_ShaderModelIs35Tag;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_ShaderModelIs35Tag
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_ShaderModelIs35Tag;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_ShaderModelIs35Tag
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.String k_ShaderModelIs35True
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_ShaderModelIs35True;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_ShaderModelIs35True
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_ShaderModelIs35True;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_ShaderModelIs35True
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 <maxVerticesPerPage>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_F__0__maxVerticesPerPage__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RF__0__maxVerticesPerPage__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_F__0__maxVerticesPerPage__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RF__0__maxVerticesPerPage__1__k__BackingField
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <breakBatches>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__breakBatches__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__breakBatches__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__breakBatches__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__breakBatches__1__k__BackingField
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Func`1[UnityEngine.Shader] getEditorShader
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RUnityEngine.RShader> r_FgetEditorShader;
-		public static SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RUnityEngine.RShader> RFgetEditorShader
+		protected static Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RUnityEngine.RShader> r_FgetEditorShader;
+		public static Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RUnityEngine.RShader> RFgetEditorShader
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Texture2D s_DefaultShaderInfoTexFloat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_Fs_DefaultShaderInfoTexFloat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RFs_DefaultShaderInfoTexFloat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Fs_DefaultShaderInfoTexFloat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RFs_DefaultShaderInfoTexFloat
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Texture2D s_DefaultShaderInfoTexARGB8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_Fs_DefaultShaderInfoTexARGB8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RFs_DefaultShaderInfoTexARGB8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Fs_DefaultShaderInfoTexARGB8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RFs_DefaultShaderInfoTexARGB8
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UInt32 maxVerticesPerPage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PmaxVerticesPerPage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPmaxVerticesPerPage
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PmaxVerticesPerPage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPmaxVerticesPerPage
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean breakBatches
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PbreakBatches;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPbreakBatches
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PbreakBatches;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPbreakBatches
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Texture2D defaultShaderInfoTexFloat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_PdefaultShaderInfoTexFloat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RPdefaultShaderInfoTexFloat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_PdefaultShaderInfoTexFloat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RPdefaultShaderInfoTexFloat
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Texture2D defaultShaderInfoTexARGB8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_PdefaultShaderInfoTexARGB8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RPdefaultShaderInfoTexARGB8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_PdefaultShaderInfoTexARGB8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RPdefaultShaderInfoTexARGB8
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean vertexTexturingIsAvailable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_PvertexTexturingIsAvailable;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RPvertexTexturingIsAvailable
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_PvertexTexturingIsAvailable;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RPvertexTexturingIsAvailable
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean shaderModelIs35
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_PshaderModelIs35;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RPshaderModelIs35
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_PshaderModelIs35;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RPshaderModelIs35
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean fullyCreated
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PfullyCreated;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPfullyCreated
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PfullyCreated;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPfullyCreated
 		{
 			get
 			{
@@ -881,8 +881,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdisposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdisposed
 		{
 			get
 			{
@@ -1648,7 +1648,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle Allocate(System.UInt32 @vertexCount, System.UInt32 @indexCount, out SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle Allocate(System.UInt32 @vertexCount, System.UInt32 @indexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset)
         {
 			@vertexData = default;
 			@indexData = default;
@@ -1657,28 +1657,28 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset};
             var ___result = RMAllocate_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16.Invoke(___genericsType, ___parameters);
-			@vertexData = new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[2]);
-			@indexData = new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RSystem.RUInt16>(___parameters[3]);
+			@vertexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[2]);
+			@indexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>(___parameters[3]);
 			@indexOffset = (System.UInt16)___parameters[4];
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle(___result);
         }
 
 
-        public virtual void Update(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, out SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData)
+        public virtual void Update(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData)
         {
 			@vertexData = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mesh.Value, @vertexCount, @vertexData.Value};
             var ___result = RMUpdate_MeshHandle_UInt32_Out_NativeSlice_d_Vertex_p_.Invoke(___genericsType, ___parameters);
-			@vertexData = new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[2]);
+			@vertexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[2]);
 
             
         }
 
 
-        public virtual void Update(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, System.UInt32 @indexCount, out SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset)
+        public virtual void Update(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, System.UInt32 @indexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset)
         {
 			@vertexData = default;
 			@indexData = default;
@@ -1687,15 +1687,15 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mesh.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset};
             var ___result = RMUpdate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16.Invoke(___genericsType, ___parameters);
-			@vertexData = new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[3]);
-			@indexData = new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RSystem.RUInt16>(___parameters[4]);
+			@vertexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[3]);
+			@indexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>(___parameters[4]);
 			@indexOffset = (System.UInt16)___parameters[5];
 
             
         }
 
 
-        public virtual void UpdateCopyBackIndices(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.Boolean @copyBackIndices)
+        public virtual void UpdateCopyBackIndices(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.Boolean @copyBackIndices)
         {
 
             var ___genericsType = new Type[] {};
@@ -1706,31 +1706,31 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate> ActiveUpdatesForMeshHandle(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh)
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate> ActiveUpdatesForMeshHandle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mesh.Value};
             var ___result = RMActiveUpdatesForMeshHandle_MeshHandle.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate>(___result);
         }
 
 
-        public virtual System.Boolean TryAllocFromPage(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage @page, System.UInt32 @vertexCount, System.UInt32 @indexCount, ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @va, ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @ia, System.Boolean @shortLived)
+        public virtual System.Boolean TryAllocFromPage(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage @page, System.UInt32 @vertexCount, System.UInt32 @indexCount, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @va, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @ia, System.Boolean @shortLived)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@page.Value, @vertexCount, @indexCount, @va.Value, @ia.Value, @shortLived};
             var ___result = RMTryAllocFromPage_Page_UInt32_UInt32_Ref_Alloc_Ref_Alloc_Boolean.Invoke(___genericsType, ___parameters);
-			@va = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc(___parameters[3]);
-			@ia = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc(___parameters[4]);
+			@va = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc(___parameters[3]);
+			@ia = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc(___parameters[4]);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual void Allocate(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @meshHandle, System.UInt32 @vertexCount, System.UInt32 @indexCount, out SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RSystem.RUInt16> @indexData, System.Boolean @shortLived)
+        public virtual void Allocate(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @meshHandle, System.UInt32 @vertexCount, System.UInt32 @indexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indexData, System.Boolean @shortLived)
         {
 			@vertexData = default;
 			@indexData = default;
@@ -1738,14 +1738,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@meshHandle.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @shortLived};
             var ___result = RMAllocate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Boolean.Invoke(___genericsType, ___parameters);
-			@vertexData = new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[3]);
-			@indexData = new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RSystem.RUInt16>(___parameters[4]);
+			@vertexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[3]);
+			@indexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>(___parameters[4]);
 
             
         }
 
 
-        public virtual void UpdateAfterGPUUsedData(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, System.UInt32 @indexCount, out SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset, out SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate @allocToUpdate, System.Boolean @copyBackIndices)
+        public virtual void UpdateAfterGPUUsedData(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, System.UInt32 @indexCount, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @vertexData, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset, out Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate @allocToUpdate, System.Boolean @copyBackIndices)
         {
 			@vertexData = default;
 			@indexData = default;
@@ -1755,16 +1755,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mesh.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset, @allocToUpdate.Value, @copyBackIndices};
             var ___result = RMUpdateAfterGPUUsedData_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16_Out_AllocToUpdate_Boolean.Invoke(___genericsType, ___parameters);
-			@vertexData = new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[3]);
-			@indexData = new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RSystem.RUInt16>(___parameters[4]);
+			@vertexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[3]);
+			@indexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>(___parameters[4]);
 			@indexOffset = (System.UInt16)___parameters[5];
-			@allocToUpdate = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate(___parameters[6]);
+			@allocToUpdate = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate(___parameters[6]);
 
             
         }
 
 
-        public virtual void Free(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh)
+        public virtual void Free(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh)
         {
 
             var ___genericsType = new Type[] {};
@@ -1786,42 +1786,42 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public unsafe static SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RType> PtrToSlice<T>(void* @p, System.Int32 @count) where T : struct
+        public unsafe static Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> PtrToSlice<T>(void* @p, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{Pointer.Box(@p, typeof(void)), @count};
             var ___result = RMPtrToSlice_GT_VoidPointer_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
-        public virtual void ApplyDrawCommandState(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @cmd, System.Int32 @textureSlot, UnityEngine.Material @newMat, System.Boolean @newMatDiffers, ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState @st)
+        public virtual void ApplyDrawCommandState(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @cmd, System.Int32 @textureSlot, UnityEngine.Material @newMat, System.Boolean @newMatDiffers, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState @st)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cmd.Value, @textureSlot, @newMat, @newMatDiffers, @st.Value};
             var ___result = RMApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState.Invoke(___genericsType, ___parameters);
-			@st = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState(___parameters[4]);
+			@st = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState(___parameters[4]);
 
             
         }
 
 
-        public virtual void ApplyBatchState(ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState @st, System.Boolean @allowMaterialChange)
+        public virtual void ApplyBatchState(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState @st, System.Boolean @allowMaterialChange)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@st.Value, @allowMaterialChange};
             var ___result = RMApplyBatchState_Ref_EvaluationState_Boolean.Invoke(___genericsType, ___parameters);
-			@st = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState(___parameters[0]);
+			@st = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState(___parameters[0]);
 
             
         }
 
 
-        public virtual void EvaluateChain(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @head, UnityEngine.Material @initialMat, UnityEngine.Material @defaultMat, UnityEngine.Texture @gradientSettings, UnityEngine.Texture @shaderInfo, System.Single @pixelsPerPoint, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> @transforms, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RVector4> @clipRects, UnityEngine.MaterialPropertyBlock @stateMatProps, System.Boolean @allowMaterialChange, ref System.Exception @immediateException)
+        public virtual void EvaluateChain(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @head, UnityEngine.Material @initialMat, UnityEngine.Material @defaultMat, UnityEngine.Texture @gradientSettings, UnityEngine.Texture @shaderInfo, System.Single @pixelsPerPoint, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> @transforms, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RVector4> @clipRects, UnityEngine.MaterialPropertyBlock @stateMatProps, System.Boolean @allowMaterialChange, ref System.Exception @immediateException)
         {
 
             var ___genericsType = new Type[] {};
@@ -1844,7 +1844,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public unsafe virtual void KickRanges(SMFrame.Editor.Refleaction.RTypePointer<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDrawBufferRange> @ranges, ref System.Int32 @rangesReady, ref System.Int32 @rangesStart, System.Int32 @rangesCount, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage @curPage)
+        public unsafe virtual void KickRanges(Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDrawBufferRange> @ranges, ref System.Int32 @rangesReady, ref System.Int32 @rangesStart, System.Int32 @rangesCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage @curPage)
         {
 
             var ___genericsType = new Type[] {};
@@ -1857,7 +1857,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void DrawRanges<I, T>(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUtility.RGPUBuffer<SMFrame.Editor.Refleaction.RType> @ib, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUtility.RGPUBuffer<SMFrame.Editor.Refleaction.RType> @vb, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDrawBufferRange> @ranges) where I : struct where T : struct
+        public virtual void DrawRanges<I, T>(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUtility.RGPUBuffer<Hvak.Editor.Refleaction.RType> @ib, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUtility.RGPUBuffer<Hvak.Editor.Refleaction.RType> @vb, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RDrawBufferRange> @ranges) where I : struct where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(I), typeof(T)};
@@ -1945,25 +1945,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocationStatistics GatherAllocationStatistics()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocationStatistics GatherAllocationStatistics()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGatherAllocationStatistics.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocationStatistics(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocationStatistics(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDrawStatistics GatherDrawStatistics()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDrawStatistics GatherDrawStatistics()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGatherDrawStatistics.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDrawStatistics(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDrawStatistics(___result);
         }
 
 

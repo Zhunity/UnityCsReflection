@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.ActivationContext
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ApplicationIdentity _appid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity r_F_appid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity RF_appid
+		protected Hvak.Editor.Refleaction.RSystem.RApplicationIdentity r_F_appid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RApplicationIdentity RF_appid
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ActivationContext+ContextForm _form
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RActivationContext.RContextForm r_F_form;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RActivationContext.RContextForm RF_form
+		protected Hvak.Editor.Refleaction.RSystem.RActivationContext.RContextForm r_F_form;
+		public virtual Hvak.Editor.Refleaction.RSystem.RActivationContext.RContextForm RF_form
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean _disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_disposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_disposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_disposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_disposed
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// ContextForm Form
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RActivationContext.RContextForm r_PForm;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RActivationContext.RContextForm RPForm
+		protected Hvak.Editor.Refleaction.RSystem.RActivationContext.RContextForm r_PForm;
+		public virtual Hvak.Editor.Refleaction.RSystem.RActivationContext.RContextForm RPForm
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ApplicationIdentity Identity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity r_PIdentity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity RPIdentity
+		protected Hvak.Editor.Refleaction.RSystem.RApplicationIdentity r_PIdentity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RApplicationIdentity RPIdentity
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Byte[] ApplicationManifestBytes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_PApplicationManifestBytes;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPApplicationManifestBytes
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_PApplicationManifestBytes;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPApplicationManifestBytes
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Byte[] DeploymentManifestBytes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_PDeploymentManifestBytes;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPDeploymentManifestBytes
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_PDeploymentManifestBytes;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPDeploymentManifestBytes
 		{
 			get
 			{

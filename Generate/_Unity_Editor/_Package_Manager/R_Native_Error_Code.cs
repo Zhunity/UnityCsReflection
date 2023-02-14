@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.NativeErrorCode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeErrorCode Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFUnknown
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FUnknown;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeErrorCode NotFound
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FNotFound;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFNotFound
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FNotFound;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFNotFound
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeErrorCode Forbidden
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FForbidden;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFForbidden
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FForbidden;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFForbidden
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeErrorCode InvalidParameter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FInvalidParameter;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFInvalidParameter
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FInvalidParameter;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFInvalidParameter
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeErrorCode Conflict
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FConflict;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFConflict
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FConflict;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFConflict
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeErrorCode AggregateError
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FAggregateError;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFAggregateError
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FAggregateError;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFAggregateError
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeErrorCode Cancelled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FCancelled;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFCancelled
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FCancelled;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFCancelled
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeErrorCode Success
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FSuccess;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFSuccess
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_FSuccess;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFSuccess
 		{
 			get
 			{

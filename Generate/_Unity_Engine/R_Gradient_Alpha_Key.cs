@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.GradientAlphaKey
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single alpha
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Falpha;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFalpha
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Falpha;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFalpha
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single time
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Ftime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFtime
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Ftime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFtime
 		{
 			get
 			{

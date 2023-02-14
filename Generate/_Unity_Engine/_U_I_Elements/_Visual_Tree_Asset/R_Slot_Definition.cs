@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RVisualTreeAsset
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFname
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 insertionPointId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FinsertionPointId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFinsertionPointId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FinsertionPointId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFinsertionPointId
 		{
 			get
 			{

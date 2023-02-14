@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.DTSubString
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ReadOnlySpan`1[System.Char] s
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> r_Fs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> RFs
+		protected Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> r_Fs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> RFs
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Findex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFindex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Findex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFindex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Flength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Flength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlength
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.DTSubStringType type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDTSubStringType r_Ftype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDTSubStringType RFtype
+		protected Hvak.Editor.Refleaction.RSystem.RDTSubStringType r_Ftype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDTSubStringType RFtype
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Char Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RChar r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RChar RPItem_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RChar r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RChar RPItem_Int32
 		{
 			get
 			{

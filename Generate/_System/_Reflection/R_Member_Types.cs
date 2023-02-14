@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.MemberTypes
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MemberTypes Constructor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FConstructor;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFConstructor
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FConstructor;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFConstructor
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MemberTypes Event
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FEvent;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFEvent
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FEvent;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFEvent
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MemberTypes Field
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FField;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFField
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FField;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFField
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MemberTypes Method
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FMethod;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFMethod
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FMethod;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFMethod
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MemberTypes Property
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FProperty;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFProperty
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FProperty;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFProperty
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MemberTypes TypeInfo
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FTypeInfo;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFTypeInfo
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FTypeInfo;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFTypeInfo
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MemberTypes Custom
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FCustom;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFCustom
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FCustom;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFCustom
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MemberTypes NestedType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FNestedType;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFNestedType
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FNestedType;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFNestedType
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MemberTypes All
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FAll;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFAll
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_FAll;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes RFAll
 		{
 			get
 			{

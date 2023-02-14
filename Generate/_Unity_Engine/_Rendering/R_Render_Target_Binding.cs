@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.RenderTargetBinding
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderTargetIdentifier[] m_ColorRenderTargets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier> r_Fm_ColorRenderTargets;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier> RFm_ColorRenderTargets
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier> r_Fm_ColorRenderTargets;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier> RFm_ColorRenderTargets
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderTargetIdentifier m_DepthRenderTarget
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier r_Fm_DepthRenderTarget;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier RFm_DepthRenderTarget
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier r_Fm_DepthRenderTarget;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier RFm_DepthRenderTarget
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferLoadAction[] m_ColorLoadActions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction> r_Fm_ColorLoadActions;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction> RFm_ColorLoadActions
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction> r_Fm_ColorLoadActions;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction> RFm_ColorLoadActions
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferStoreAction[] m_ColorStoreActions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction> r_Fm_ColorStoreActions;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction> RFm_ColorStoreActions
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction> r_Fm_ColorStoreActions;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction> RFm_ColorStoreActions
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferLoadAction m_DepthLoadAction
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction r_Fm_DepthLoadAction;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction RFm_DepthLoadAction
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction r_Fm_DepthLoadAction;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction RFm_DepthLoadAction
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferStoreAction m_DepthStoreAction
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction r_Fm_DepthStoreAction;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction RFm_DepthStoreAction
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction r_Fm_DepthStoreAction;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction RFm_DepthStoreAction
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderTargetFlags m_Flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags r_Fm_Flags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags RFm_Flags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags r_Fm_Flags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags RFm_Flags
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderTargetIdentifier[] colorRenderTargets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier> r_PcolorRenderTargets;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier> RPcolorRenderTargets
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier> r_PcolorRenderTargets;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier> RPcolorRenderTargets
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderTargetIdentifier depthRenderTarget
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier r_PdepthRenderTarget;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier RPdepthRenderTarget
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier r_PdepthRenderTarget;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetIdentifier RPdepthRenderTarget
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferLoadAction[] colorLoadActions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction> r_PcolorLoadActions;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction> RPcolorLoadActions
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction> r_PcolorLoadActions;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction> RPcolorLoadActions
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferStoreAction[] colorStoreActions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction> r_PcolorStoreActions;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction> RPcolorStoreActions
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction> r_PcolorStoreActions;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction> RPcolorStoreActions
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferLoadAction depthLoadAction
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction r_PdepthLoadAction;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction RPdepthLoadAction
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction r_PdepthLoadAction;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction RPdepthLoadAction
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferStoreAction depthStoreAction
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction r_PdepthStoreAction;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction RPdepthStoreAction
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction r_PdepthStoreAction;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction RPdepthStoreAction
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderTargetFlags flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags r_Pflags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags RPflags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags r_Pflags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags RPflags
 		{
 			get
 			{

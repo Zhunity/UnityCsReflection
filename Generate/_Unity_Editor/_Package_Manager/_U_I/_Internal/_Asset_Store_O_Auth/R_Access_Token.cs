@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {public partial class RAssetStoreOAuth
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String tokenType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FtokenType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFtokenType
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FtokenType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFtokenType
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String refreshToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FrefreshToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFrefreshToken
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FrefreshToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFrefreshToken
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String user
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fuser;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFuser
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fuser;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFuser
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FdisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFdisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FdisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFdisplayName
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String accessToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FaccessToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFaccessToken
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FaccessToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFaccessToken
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String expiresIn
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PexpiresIn;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPexpiresIn
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PexpiresIn;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPexpiresIn
 		{
 			get
 			{

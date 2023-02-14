@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.LocalVariableInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Type type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_Ftype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFtype
+		protected Hvak.Editor.Refleaction.RSystem.RType r_Ftype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFtype
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Boolean is_pinned
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fis_pinned;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFis_pinned
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fis_pinned;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFis_pinned
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.UInt16 position
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt16 r_Fposition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt16 RFposition
+		protected Hvak.Editor.Refleaction.RSystem.RUInt16 r_Fposition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt16 RFposition
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsPinned
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsPinned;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsPinned
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsPinned;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsPinned
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 LocalIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLocalIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLocalIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLocalIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLocalIndex
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Type LocalType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PLocalType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPLocalType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PLocalType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPLocalType
 		{
 			get
 			{

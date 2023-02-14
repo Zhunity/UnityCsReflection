@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
 	/// UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32 m_GlyphIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_GlyphIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_GlyphIndex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_GlyphIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_GlyphIndex
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphValueRecord m_GlyphValueRecord
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphValueRecord r_Fm_GlyphValueRecord;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphValueRecord RFm_GlyphValueRecord
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphValueRecord r_Fm_GlyphValueRecord;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphValueRecord RFm_GlyphValueRecord
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32 glyphIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PglyphIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPglyphIndex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PglyphIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPglyphIndex
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphValueRecord glyphValueRecord
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphValueRecord r_PglyphValueRecord;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphValueRecord RPglyphValueRecord
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphValueRecord r_PglyphValueRecord;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphValueRecord RPglyphValueRecord
 		{
 			get
 			{

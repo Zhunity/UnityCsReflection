@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {public partial class REditorGUI
 {
 	public partial class RVUMeter
@@ -18,8 +18,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single lastValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FlastValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFlastValue
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FlastValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFlastValue
 		{
 			get
 			{
@@ -35,8 +35,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single peakValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FpeakValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFpeakValue
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FpeakValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFpeakValue
 		{
 			get
 			{
@@ -52,8 +52,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single peakValueTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FpeakValueTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFpeakValueTime
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FpeakValueTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFpeakValueTime
 		{
 			get
 			{

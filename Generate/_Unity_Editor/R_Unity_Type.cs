@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.UnityType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String <name>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__name__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__name__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__name__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__name__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String <nativeNamespace>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__nativeNamespace__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__nativeNamespace__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__nativeNamespace__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__nativeNamespace__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String <module>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__module__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__module__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__module__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__module__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 <persistentTypeID>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__persistentTypeID__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__persistentTypeID__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__persistentTypeID__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__persistentTypeID__1__k__BackingField
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.UnityType <baseClass>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RUnityType r_F__0__baseClass__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RUnityType RF__0__baseClass__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEditor.RUnityType r_F__0__baseClass__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RUnityType RF__0__baseClass__1__k__BackingField
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.UnityTypeFlags <flags>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RUnityTypeFlags r_F__0__flags__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RUnityTypeFlags RF__0__flags__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEditor.RUnityTypeFlags r_F__0__flags__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RUnityTypeFlags RF__0__flags__1__k__BackingField
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.UInt32 runtimeTypeIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FruntimeTypeIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFruntimeTypeIndex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FruntimeTypeIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFruntimeTypeIndex
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.UInt32 descendantCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FdescendantCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFdescendantCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FdescendantCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFdescendantCount
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.UnityType[] ms_types
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.RUnityType> r_Fms_types;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.RUnityType> RFms_types
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RUnityType> r_Fms_types;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RUnityType> RFms_types
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[UnityEditor.UnityType] ms_typesReadOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RUnityType> r_Fms_typesReadOnly;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RUnityType> RFms_typesReadOnly
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RUnityType> r_Fms_typesReadOnly;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RUnityType> RFms_typesReadOnly
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,UnityEditor.UnityType] ms_idToType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RUnityEditor.RUnityType> r_Fms_idToType;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RUnityEditor.RUnityType> RFms_idToType
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RUnityEditor.RUnityType> r_Fms_idToType;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RUnityEditor.RUnityType> RFms_idToType
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEditor.UnityType] ms_nameToType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEditor.RUnityType> r_Fms_nameToType;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEditor.RUnityType> RFms_nameToType
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEditor.RUnityType> r_Fms_nameToType;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEditor.RUnityType> RFms_nameToType
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String nativeNamespace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PnativeNamespace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPnativeNamespace
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PnativeNamespace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPnativeNamespace
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String module
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pmodule;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPmodule
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pmodule;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPmodule
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 persistentTypeID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PpersistentTypeID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPpersistentTypeID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PpersistentTypeID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPpersistentTypeID
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.UnityType baseClass
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RUnityType r_PbaseClass;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RUnityType RPbaseClass
+		protected Hvak.Editor.Refleaction.RUnityEditor.RUnityType r_PbaseClass;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RUnityType RPbaseClass
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.UnityTypeFlags flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RUnityTypeFlags r_Pflags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RUnityTypeFlags RPflags
+		protected Hvak.Editor.Refleaction.RUnityEditor.RUnityTypeFlags r_Pflags;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RUnityTypeFlags RPflags
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isAbstract
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisAbstract;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisAbstract
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisAbstract;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisAbstract
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isSealed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisSealed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisSealed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisSealed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisSealed
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isEditorOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisEditorOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisEditorOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisEditorOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisEditorOnly
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String qualifiedName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PqualifiedName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPqualifiedName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PqualifiedName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPqualifiedName
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasNativeNamespace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasNativeNamespace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasNativeNamespace
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasNativeNamespace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasNativeNamespace
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UInt32 TypeCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PTypeCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RUInt32 RPTypeCount
+		protected static Hvak.Editor.Refleaction.RSystem.RUInt32 r_PTypeCount;
+		public static Hvak.Editor.Refleaction.RSystem.RUInt32 RPTypeCount
 		{
 			get
 			{
@@ -658,18 +658,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEditor.RUnityType.RUnityTypeTransport> Internal_GetAllTypes()
+        public static Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RUnityType.RUnityTypeTransport> Internal_GetAllTypes()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMInternal_GetAllTypes.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEditor.RUnityType.RUnityTypeTransport>(___result);
+            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RUnityType.RUnityTypeTransport>(___result);
         }
 
 
-        public virtual System.Boolean IsDerivedFrom(SMFrame.Editor.Refleaction.RUnityEditor.RUnityType @baseClass)
+        public virtual System.Boolean IsDerivedFrom(Hvak.Editor.Refleaction.RUnityEditor.RUnityType @baseClass)
         {
 
             var ___genericsType = new Type[] {};
@@ -680,58 +680,58 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RUnityType FindTypeByPersistentTypeID(System.Int32 @persistentTypeId)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RUnityType FindTypeByPersistentTypeID(System.Int32 @persistentTypeId)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@persistentTypeId};
             var ___result = RMFindTypeByPersistentTypeID_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RUnityType(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RUnityType(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RUnityType GetTypeByRuntimeTypeIndex(System.UInt32 @index)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RUnityType GetTypeByRuntimeTypeIndex(System.UInt32 @index)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RMGetTypeByRuntimeTypeIndex_UInt32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RUnityType(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RUnityType(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RUnityType FindTypeByName(System.String @name)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RUnityType FindTypeByName(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
             var ___result = RMFindTypeByName_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RUnityType(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RUnityType(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RUnityType FindTypeByNameCaseInsensitive(System.String @name)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RUnityType FindTypeByNameCaseInsensitive(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
             var ___result = RMFindTypeByNameCaseInsensitive_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RUnityType(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RUnityType(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RUnityType> GetTypes()
+        public static Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RUnityType> GetTypes()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetTypes.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RUnityEditor.RUnityType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RUnityEditor.RUnityType>(___result);
         }
 
 

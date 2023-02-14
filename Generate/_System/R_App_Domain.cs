@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.AppDomain
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr _mono_app_domain
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_F_mono_app_domain;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RF_mono_app_domain
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_F_mono_app_domain;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RF_mono_app_domain
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _process_guid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_F_process_guid;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RF_process_guid
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_F_process_guid;
+		public static Hvak.Editor.Refleaction.RSystem.RString RF_process_guid
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.Object] type_resolve_in_progress
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RObject> r_Ftype_resolve_in_progress;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RObject> RFtype_resolve_in_progress
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RObject> r_Ftype_resolve_in_progress;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RObject> RFtype_resolve_in_progress
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.Object] assembly_resolve_in_progress
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RObject> r_Fassembly_resolve_in_progress;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RObject> RFassembly_resolve_in_progress
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RObject> r_Fassembly_resolve_in_progress;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RObject> RFassembly_resolve_in_progress
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.Object] assembly_resolve_in_progress_refonly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RObject> r_Fassembly_resolve_in_progress_refonly;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RObject> RFassembly_resolve_in_progress_refonly
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RObject> r_Fassembly_resolve_in_progress_refonly;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RObject> RFassembly_resolve_in_progress_refonly
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Security.Policy.Evidence _evidence
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.REvidence r_F_evidence;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.REvidence RF_evidence
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.REvidence r_F_evidence;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.REvidence RF_evidence
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Security.PermissionSet _granted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissionSet r_F_granted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissionSet RF_granted
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissionSet r_F_granted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissionSet RF_granted
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Security.Principal.PrincipalPolicy _principalPolicy
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy r_F_principalPolicy;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy RF_principalPolicy
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy r_F_principalPolicy;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy RF_principalPolicy
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Security.Principal.IPrincipal _principal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal r_F_principal;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal RF_principal
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal r_F_principal;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal RF_principal
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.AppDomain default_domain
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RAppDomain r_Fdefault_domain;
-		public static SMFrame.Editor.Refleaction.RSystem.RAppDomain RFdefault_domain
+		protected static Hvak.Editor.Refleaction.RSystem.RAppDomain r_Fdefault_domain;
+		public static Hvak.Editor.Refleaction.RSystem.RAppDomain RFdefault_domain
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.AssemblyLoadEventHandler AssemblyLoad
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAssemblyLoadEventHandler r_FAssemblyLoad;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAssemblyLoadEventHandler RFAssemblyLoad
+		protected Hvak.Editor.Refleaction.RSystem.RAssemblyLoadEventHandler r_FAssemblyLoad;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAssemblyLoadEventHandler RFAssemblyLoad
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ResolveEventHandler AssemblyResolve
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RResolveEventHandler r_FAssemblyResolve;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RResolveEventHandler RFAssemblyResolve
+		protected Hvak.Editor.Refleaction.RSystem.RResolveEventHandler r_FAssemblyResolve;
+		public virtual Hvak.Editor.Refleaction.RSystem.RResolveEventHandler RFAssemblyResolve
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.EventHandler DomainUnload
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.REventHandler r_FDomainUnload;
-		public virtual SMFrame.Editor.Refleaction.RSystem.REventHandler RFDomainUnload
+		protected Hvak.Editor.Refleaction.RSystem.REventHandler r_FDomainUnload;
+		public virtual Hvak.Editor.Refleaction.RSystem.REventHandler RFDomainUnload
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.EventHandler ProcessExit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.REventHandler r_FProcessExit;
-		public virtual SMFrame.Editor.Refleaction.RSystem.REventHandler RFProcessExit
+		protected Hvak.Editor.Refleaction.RSystem.REventHandler r_FProcessExit;
+		public virtual Hvak.Editor.Refleaction.RSystem.REventHandler RFProcessExit
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ResolveEventHandler ResourceResolve
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RResolveEventHandler r_FResourceResolve;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RResolveEventHandler RFResourceResolve
+		protected Hvak.Editor.Refleaction.RSystem.RResolveEventHandler r_FResourceResolve;
+		public virtual Hvak.Editor.Refleaction.RSystem.RResolveEventHandler RFResourceResolve
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ResolveEventHandler TypeResolve
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RResolveEventHandler r_FTypeResolve;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RResolveEventHandler RFTypeResolve
+		protected Hvak.Editor.Refleaction.RSystem.RResolveEventHandler r_FTypeResolve;
+		public virtual Hvak.Editor.Refleaction.RSystem.RResolveEventHandler RFTypeResolve
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UnhandledExceptionEventHandler UnhandledException
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUnhandledExceptionEventHandler r_FUnhandledException;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUnhandledExceptionEventHandler RFUnhandledException
+		protected Hvak.Editor.Refleaction.RSystem.RUnhandledExceptionEventHandler r_FUnhandledException;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUnhandledExceptionEventHandler RFUnhandledException
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.EventHandler`1[System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs] FirstChanceException
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.REventHandler<SMFrame.Editor.Refleaction.RSystem.RRuntime.RExceptionServices.RFirstChanceExceptionEventArgs> r_FFirstChanceException;
-		public virtual SMFrame.Editor.Refleaction.RSystem.REventHandler<SMFrame.Editor.Refleaction.RSystem.RRuntime.RExceptionServices.RFirstChanceExceptionEventArgs> RFFirstChanceException
+		protected Hvak.Editor.Refleaction.RSystem.REventHandler<Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices.RFirstChanceExceptionEventArgs> r_FFirstChanceException;
+		public virtual Hvak.Editor.Refleaction.RSystem.REventHandler<Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices.RFirstChanceExceptionEventArgs> RFFirstChanceException
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.AppDomainManager _domain_manager
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAppDomainManager r_F_domain_manager;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAppDomainManager RF_domain_manager
+		protected Hvak.Editor.Refleaction.RSystem.RAppDomainManager r_F_domain_manager;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAppDomainManager RF_domain_manager
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ResolveEventHandler ReflectionOnlyAssemblyResolve
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RResolveEventHandler r_FReflectionOnlyAssemblyResolve;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RResolveEventHandler RFReflectionOnlyAssemblyResolve
+		protected Hvak.Editor.Refleaction.RSystem.RResolveEventHandler r_FReflectionOnlyAssemblyResolve;
+		public virtual Hvak.Editor.Refleaction.RSystem.RResolveEventHandler RFReflectionOnlyAssemblyResolve
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ActivationContext _activation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RActivationContext r_F_activation;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RActivationContext RF_activation
+		protected Hvak.Editor.Refleaction.RSystem.RActivationContext r_F_activation;
+		public virtual Hvak.Editor.Refleaction.RSystem.RActivationContext RF_activation
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ApplicationIdentity _applicationIdentity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity r_F_applicationIdentity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity RF_applicationIdentity
+		protected Hvak.Editor.Refleaction.RSystem.RApplicationIdentity r_F_applicationIdentity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RApplicationIdentity RF_applicationIdentity
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] compatibility_switch
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> r_Fcompatibility_switch;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> RFcompatibility_switch
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fcompatibility_switch;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFcompatibility_switch
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.AppDomainSetup SetupInformationNoCopy
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAppDomainSetup r_PSetupInformationNoCopy;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAppDomainSetup RPSetupInformationNoCopy
+		protected Hvak.Editor.Refleaction.RSystem.RAppDomainSetup r_PSetupInformationNoCopy;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAppDomainSetup RPSetupInformationNoCopy
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.AppDomainSetup SetupInformation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAppDomainSetup r_PSetupInformation;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAppDomainSetup RPSetupInformation
+		protected Hvak.Editor.Refleaction.RSystem.RAppDomainSetup r_PSetupInformation;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAppDomainSetup RPSetupInformation
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Security.Policy.ApplicationTrust ApplicationTrust
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RApplicationTrust r_PApplicationTrust;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RApplicationTrust RPApplicationTrust
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RApplicationTrust r_PApplicationTrust;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RApplicationTrust RPApplicationTrust
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String BaseDirectory
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PBaseDirectory;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPBaseDirectory
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PBaseDirectory;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPBaseDirectory
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String RelativeSearchPath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PRelativeSearchPath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPRelativeSearchPath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PRelativeSearchPath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPRelativeSearchPath
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String DynamicDirectory
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PDynamicDirectory;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPDynamicDirectory
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PDynamicDirectory;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPDynamicDirectory
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean ShadowCopyFiles
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PShadowCopyFiles;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPShadowCopyFiles
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PShadowCopyFiles;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPShadowCopyFiles
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String FriendlyName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PFriendlyName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPFriendlyName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PFriendlyName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPFriendlyName
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Security.Policy.Evidence Evidence
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.REvidence r_PEvidence;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.REvidence RPEvidence
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.REvidence r_PEvidence;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.REvidence RPEvidence
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Security.Principal.IPrincipal DefaultPrincipal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal r_PDefaultPrincipal;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal RPDefaultPrincipal
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal r_PDefaultPrincipal;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal RPDefaultPrincipal
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Security.PermissionSet GrantedPermissionSet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissionSet r_PGrantedPermissionSet;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissionSet RPGrantedPermissionSet
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissionSet r_PGrantedPermissionSet;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissionSet RPGrantedPermissionSet
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Security.PermissionSet PermissionSet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissionSet r_PPermissionSet;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissionSet RPPermissionSet
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissionSet r_PPermissionSet;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissionSet RPPermissionSet
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.AppDomain CurrentDomain
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RAppDomain r_PCurrentDomain;
-		public static SMFrame.Editor.Refleaction.RSystem.RAppDomain RPCurrentDomain
+		protected static Hvak.Editor.Refleaction.RSystem.RAppDomain r_PCurrentDomain;
+		public static Hvak.Editor.Refleaction.RSystem.RAppDomain RPCurrentDomain
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.AppDomain DefaultDomain
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RAppDomain r_PDefaultDomain;
-		public static SMFrame.Editor.Refleaction.RSystem.RAppDomain RPDefaultDomain
+		protected static Hvak.Editor.Refleaction.RSystem.RAppDomain r_PDefaultDomain;
+		public static Hvak.Editor.Refleaction.RSystem.RAppDomain RPDefaultDomain
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsHomogenous
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsHomogenous;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsHomogenous
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsHomogenous;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsHomogenous
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsFullyTrusted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsFullyTrusted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsFullyTrusted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsFullyTrusted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsFullyTrusted
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.AppDomainManager DomainManager
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAppDomainManager r_PDomainManager;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAppDomainManager RPDomainManager
+		protected Hvak.Editor.Refleaction.RSystem.RAppDomainManager r_PDomainManager;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAppDomainManager RPDomainManager
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ActivationContext ActivationContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RActivationContext r_PActivationContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RActivationContext RPActivationContext
+		protected Hvak.Editor.Refleaction.RSystem.RActivationContext r_PActivationContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RActivationContext RPActivationContext
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ApplicationIdentity ApplicationIdentity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity r_PApplicationIdentity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity RPApplicationIdentity
+		protected Hvak.Editor.Refleaction.RSystem.RApplicationIdentity r_PApplicationIdentity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RApplicationIdentity RPApplicationIdentity
 		{
 			get
 			{
@@ -881,8 +881,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPId
 		{
 			get
 			{
@@ -898,8 +898,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean MonitoringIsEnabled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_PMonitoringIsEnabled;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RPMonitoringIsEnabled
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_PMonitoringIsEnabled;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RPMonitoringIsEnabled
 		{
 			get
 			{
@@ -915,8 +915,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int64 MonitoringSurvivedMemorySize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PMonitoringSurvivedMemorySize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPMonitoringSurvivedMemorySize
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PMonitoringSurvivedMemorySize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPMonitoringSurvivedMemorySize
 		{
 			get
 			{
@@ -932,8 +932,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int64 MonitoringSurvivedProcessMemorySize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt64 r_PMonitoringSurvivedProcessMemorySize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt64 RPMonitoringSurvivedProcessMemorySize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt64 r_PMonitoringSurvivedProcessMemorySize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt64 RPMonitoringSurvivedProcessMemorySize
 		{
 			get
 			{
@@ -949,8 +949,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int64 MonitoringTotalAllocatedMemorySize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PMonitoringTotalAllocatedMemorySize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPMonitoringTotalAllocatedMemorySize
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PMonitoringTotalAllocatedMemorySize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPMonitoringTotalAllocatedMemorySize
 		{
 			get
 			{
@@ -966,8 +966,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TimeSpan MonitoringTotalProcessorTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_PMonitoringTotalProcessorTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RTimeSpan RPMonitoringTotalProcessorTime
+		protected Hvak.Editor.Refleaction.RSystem.RTimeSpan r_PMonitoringTotalProcessorTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RTimeSpan RPMonitoringTotalProcessorTime
 		{
 			get
 			{
@@ -983,8 +983,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Runtime.Remoting.ServerIdentity ObjectIdentity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
 		{
 			get
 			{
@@ -4117,13 +4117,13 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly LoadAssembly(System.String @assemblyRef, System.Security.Policy.Evidence @securityEvidence, System.Boolean @refOnly, ref SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
+        public virtual System.Reflection.Assembly LoadAssembly(System.String @assemblyRef, System.Security.Policy.Evidence @securityEvidence, System.Boolean @refOnly, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assemblyRef, @securityEvidence, @refOnly, @stackMark.Value};
             var ___result = RMLoadAssembly_String_Evidence_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
-			@stackMark = new SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[3]);
+			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[3]);
 
             return (System.Reflection.Assembly)___result;
         }
@@ -4140,13 +4140,13 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly LoadSatellite(System.Reflection.AssemblyName @assemblyRef, System.Boolean @throwOnError, ref SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
+        public virtual System.Reflection.Assembly LoadSatellite(System.Reflection.AssemblyName @assemblyRef, System.Boolean @throwOnError, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assemblyRef, @throwOnError, @stackMark.Value};
             var ___result = RMLoadSatellite_AssemblyName_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
-			@stackMark = new SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[2]);
+			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[2]);
 
             return (System.Reflection.Assembly)___result;
         }
@@ -4185,13 +4185,13 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly Load(System.String @assemblyString, System.Security.Policy.Evidence @assemblySecurity, System.Boolean @refonly, ref SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
+        public virtual System.Reflection.Assembly Load(System.String @assemblyString, System.Security.Policy.Evidence @assemblySecurity, System.Boolean @refonly, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assemblyString, @assemblySecurity, @refonly, @stackMark.Value};
             var ___result = RMLoad_String_Evidence_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
-			@stackMark = new SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[3]);
+			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[3]);
 
             return (System.Reflection.Assembly)___result;
         }
@@ -4747,7 +4747,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void ProcessMessageInDomain(System.Byte[] @arrRequest, SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADMethodCallMessage @cadMsg, out System.Byte[] @arrResponse, out SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADMethodReturnMessage @cadMrm)
+        public virtual void ProcessMessageInDomain(System.Byte[] @arrRequest, Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADMethodCallMessage @cadMsg, out System.Byte[] @arrResponse, out Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADMethodReturnMessage @cadMrm)
         {
 			@arrResponse = default;
 			@cadMrm = default;
@@ -4756,7 +4756,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@arrRequest, @cadMsg.Value, @arrResponse, @cadMrm.Value};
             var ___result = RMProcessMessageInDomain_ByteArray_CADMethodCallMessage_Out_ByteArray_Out_CADMethodReturnMessage.Invoke(___genericsType, ___parameters);
 			@arrResponse = (System.Byte[])___parameters[2];
-			@cadMrm = new SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADMethodReturnMessage(___parameters[3]);
+			@cadMrm = new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADMethodReturnMessage(___parameters[3]);
 
             
         }
@@ -4918,14 +4918,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RBoolean> IsCompatibilitySwitchSet(System.String @value)
+        public virtual Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RBoolean> IsCompatibilitySwitchSet(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMIsCompatibilitySwitchSet_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RBoolean>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RBoolean>(___result);
         }
 
 
@@ -4940,7 +4940,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
+        public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
         {
 			@IsClient = default;
 
@@ -4949,7 +4949,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
         }
 
 

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleComplexSelector
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Hashes ancestorHashes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHashes r_FancestorHashes;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHashes RFancestorHashes
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHashes r_FancestorHashes;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHashes RFancestorHashes
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_Specificity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Specificity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Specificity
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Specificity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Specificity
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleRule <rule>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule r_F__0__rule__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule RF__0__rule__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule r_F__0__rule__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule RF__0__rule__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_isSimple
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_isSimple;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_isSimple
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_isSimple;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_isSimple
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelector[] m_Selectors
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelector> r_Fm_Selectors;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelector> RFm_Selectors
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelector> r_Fm_Selectors;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelector> RFm_Selectors
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 ruleIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FruleIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFruleIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FruleIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFruleIndex
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleComplexSelector nextInTable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleComplexSelector r_FnextInTable;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleComplexSelector RFnextInTable
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleComplexSelector r_FnextInTable;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleComplexSelector RFnextInTable
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 orderInStyleSheet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_ForderInStyleSheet;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RForderInStyleSheet
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_ForderInStyleSheet;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RForderInStyleSheet
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.StyleComplexSelector+PseudoStateData] s_PseudoStates
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleComplexSelector.RPseudoStateData> r_Fs_PseudoStates;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleComplexSelector.RPseudoStateData> RFs_PseudoStates
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleComplexSelector.RPseudoStateData> r_Fs_PseudoStates;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleComplexSelector.RPseudoStateData> RFs_PseudoStates
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSelectorPart] m_HashList
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart> r_Fm_HashList;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart> RFm_HashList
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart> r_Fm_HashList;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart> RFm_HashList
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 specificity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pspecificity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPspecificity
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pspecificity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPspecificity
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleRule rule
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule r_Prule;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule RPrule
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule r_Prule;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule RPrule
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isSimple
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisSimple;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisSimple
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisSimple;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisSimple
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelector[] selectors
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelector> r_Pselectors;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelector> RPselectors
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelector> r_Pselectors;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelector> RPselectors
 		{
 			get
 			{
@@ -498,7 +498,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Int32 StyleSelectorPartCompare(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart @x, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart @y)
+        public static System.Int32 StyleSelectorPartCompare(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart @x, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart @y)
         {
 
             var ___genericsType = new Type[] {};

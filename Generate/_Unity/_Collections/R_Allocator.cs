@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RCollections
+namespace Hvak.Editor.Refleaction.RUnity.RCollections
 {
 	/// <summary>
 	/// Unity.Collections.Allocator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// Unity.Collections.Allocator Invalid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator r_FInvalid;
-		public static SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator RFInvalid
+		protected static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator r_FInvalid;
+		public static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator RFInvalid
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// Unity.Collections.Allocator None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator RFNone
+		protected static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator r_FNone;
+		public static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator RFNone
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// Unity.Collections.Allocator Temp
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator r_FTemp;
-		public static SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator RFTemp
+		protected static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator r_FTemp;
+		public static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator RFTemp
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// Unity.Collections.Allocator TempJob
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator r_FTempJob;
-		public static SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator RFTempJob
+		protected static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator r_FTempJob;
+		public static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator RFTempJob
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// Unity.Collections.Allocator Persistent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator r_FPersistent;
-		public static SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator RFPersistent
+		protected static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator r_FPersistent;
+		public static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator RFPersistent
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// Unity.Collections.Allocator AudioKernel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator r_FAudioKernel;
-		public static SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator RFAudioKernel
+		protected static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator r_FAudioKernel;
+		public static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator RFAudioKernel
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// Unity.Collections.Allocator FirstUserIndex
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator r_FFirstUserIndex;
-		public static SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator RFFirstUserIndex
+		protected static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator r_FFirstUserIndex;
+		public static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator RFFirstUserIndex
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
+namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
 	/// UnityEngine.Yoga.YogaWrap
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaWrap NoWrap
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaWrap r_FNoWrap;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaWrap RFNoWrap
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaWrap r_FNoWrap;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaWrap RFNoWrap
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaWrap Wrap
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaWrap r_FWrap;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaWrap RFWrap
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaWrap r_FWrap;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaWrap RFWrap
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaWrap WrapReverse
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaWrap r_FWrapReverse;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaWrap RFWrapReverse
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaWrap r_FWrapReverse;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaWrap RFWrapReverse
 		{
 			get
 			{

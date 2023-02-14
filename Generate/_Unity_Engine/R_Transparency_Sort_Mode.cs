@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.TransparencySortMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TransparencySortMode Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTransparencySortMode r_FDefault;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTransparencySortMode RFDefault
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTransparencySortMode r_FDefault;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTransparencySortMode RFDefault
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TransparencySortMode Perspective
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTransparencySortMode r_FPerspective;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTransparencySortMode RFPerspective
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTransparencySortMode r_FPerspective;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTransparencySortMode RFPerspective
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TransparencySortMode Orthographic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTransparencySortMode r_FOrthographic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTransparencySortMode RFOrthographic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTransparencySortMode r_FOrthographic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTransparencySortMode RFOrthographic
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TransparencySortMode CustomAxis
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTransparencySortMode r_FCustomAxis;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTransparencySortMode RFCustomAxis
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTransparencySortMode r_FCustomAxis;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTransparencySortMode RFCustomAxis
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
+namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 {
 	/// <summary>
 	/// Unity.Profiling.ProfilerRecorder
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.UInt64 handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_Fhandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFhandle
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_Fhandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFhandle
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderOptions SharedRecorder
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FSharedRecorder;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFSharedRecorder
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FSharedRecorder;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFSharedRecorder
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Boolean Valid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPValid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPValid
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType DataType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_PDataType;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RPDataType
+		protected Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_PDataType;
+		public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RPDataType
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarkerDataUnit UnitType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_PUnitType;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RPUnitType
+		protected Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit r_PUnitType;
+		public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarkerDataUnit RPUnitType
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Int64 CurrentValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PCurrentValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPCurrentValue
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PCurrentValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPCurrentValue
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Double CurrentValueAsDouble
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDouble r_PCurrentValueAsDouble;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDouble RPCurrentValueAsDouble
+		protected Hvak.Editor.Refleaction.RSystem.RDouble r_PCurrentValueAsDouble;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDouble RPCurrentValueAsDouble
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Int64 LastValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PLastValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPLastValue
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PLastValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPLastValue
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Double LastValueAsDouble
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDouble r_PLastValueAsDouble;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDouble RPLastValueAsDouble
+		protected Hvak.Editor.Refleaction.RSystem.RDouble r_PLastValueAsDouble;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDouble RPLastValueAsDouble
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Int32 Capacity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCapacity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCapacity
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCapacity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCapacity
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCount
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Boolean IsRunning
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsRunning;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsRunning
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsRunning;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsRunning
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Boolean WrappedAround
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PWrappedAround;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPWrappedAround
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PWrappedAround;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPWrappedAround
 		{
 			get
 			{
@@ -1260,7 +1260,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static void Control(Unity.Profiling.ProfilerRecorder @handle, SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions @options)
+        public static void Control(Unity.Profiling.ProfilerRecorder @handle, Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -1337,7 +1337,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Int32 GetCount(Unity.Profiling.ProfilerRecorder @handle, SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions @countOptions)
+        public static System.Int32 GetCount(Unity.Profiling.ProfilerRecorder @handle, Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions @countOptions)
         {
 
             var ___genericsType = new Type[] {};
@@ -1461,7 +1461,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static void Control_Injected(ref Unity.Profiling.ProfilerRecorder @handle, SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions @options)
+        public static void Control_Injected(ref Unity.Profiling.ProfilerRecorder @handle, Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RControlOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -1545,7 +1545,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Int32 GetCount_Injected(ref Unity.Profiling.ProfilerRecorder @handle, SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions @countOptions)
+        public static System.Int32 GetCount_Injected(ref Unity.Profiling.ProfilerRecorder @handle, Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder.RCountOptions @countOptions)
         {
 
             var ___genericsType = new Type[] {};

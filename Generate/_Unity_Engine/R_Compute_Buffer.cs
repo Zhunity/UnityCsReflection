@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.ComputeBuffer
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle m_Safety
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle r_Fm_Safety;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle RFm_Safety
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle r_Fm_Safety;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle RFm_Safety
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pcount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPcount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pcount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPcount
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 stride
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pstride;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPstride
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pstride;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPstride
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferMode usage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferMode r_Pusage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferMode RPusage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferMode r_Pusage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferMode RPusage
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -808,7 +808,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetData<T>(SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RType> @data) where T : struct
+        public virtual void SetData<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -819,7 +819,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetData<T>(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @data) where T : struct
+        public virtual void SetData<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -841,7 +841,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetData<T>(SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
+        public virtual void SetData<T>(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -852,7 +852,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetData<T>(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
+        public virtual void SetData<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -929,14 +929,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> BeginWrite<T>(System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
+        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> BeginWrite<T>(System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@computeBufferStartIndex, @count};
             var ___result = RMBeginWrite_GT_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 

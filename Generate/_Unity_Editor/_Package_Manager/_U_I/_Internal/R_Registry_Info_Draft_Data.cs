@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.RegistryInfoDraftData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_RegistryName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_RegistryName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_RegistryName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_RegistryName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_RegistryName
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_Url
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Url;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Url
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Url;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Url
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_Scopes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> r_Fm_Scopes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> RFm_Scopes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_Scopes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFm_Scopes
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int32 m_SelectedScopeIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_SelectedScopeIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_SelectedScopeIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_SelectedScopeIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_SelectedScopeIndex
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String url
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Purl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPurl
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Purl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPurl
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[System.String] scopes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RSystem.RString> r_Pscopes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RSystem.RString> RPscopes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RSystem.RString> r_Pscopes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RSystem.RString> RPscopes
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[System.String] sanitizedScopes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RSystem.RString> r_PsanitizedScopes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RSystem.RString> RPsanitizedScopes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RSystem.RString> r_PsanitizedScopes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RSystem.RString> RPsanitizedScopes
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Int32 selectedScopeIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PselectedScopeIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPselectedScopeIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PselectedScopeIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPselectedScopeIndex
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{
@@ -403,7 +403,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	    {
 	    }
 
-        public virtual void RevertChanges(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoOriginalData @original)
+        public virtual void RevertChanges(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoOriginalData @original)
         {
 
             var ___genericsType = new Type[] {};

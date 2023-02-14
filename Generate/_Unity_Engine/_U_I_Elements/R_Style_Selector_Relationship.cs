@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSelectorRelationship
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorRelationship None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorRelationship Child
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship r_FChild;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship RFChild
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship r_FChild;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship RFChild
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorRelationship Descendent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship r_FDescendent;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship RFDescendent
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship r_FDescendent;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorRelationship RFDescendent
 		{
 			get
 			{

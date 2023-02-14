@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 {
 	/// <summary>
 	/// System.Runtime.Serialization.SerializationInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Int32 defaultSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FdefaultSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFdefaultSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FdefaultSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFdefaultSize
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String s_mscorlibAssemblySimpleName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fs_mscorlibAssemblySimpleName;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFs_mscorlibAssemblySimpleName
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fs_mscorlibAssemblySimpleName;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFs_mscorlibAssemblySimpleName
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String s_mscorlibFileName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fs_mscorlibFileName;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFs_mscorlibFileName
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fs_mscorlibFileName;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFs_mscorlibFileName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String[] m_members
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_Fm_members;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFm_members
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_members;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFm_members
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Object[] m_data
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RObject> r_Fm_data;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RObject> RFm_data
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RObject> r_Fm_data;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RObject> RFm_data
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Type[] m_types
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RType> r_Fm_types;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RType> RFm_types
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RType> r_Fm_types;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RType> RFm_types
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.Int32] m_nameToIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fm_nameToIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RInt32> RFm_nameToIndex
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_nameToIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RInt32> RFm_nameToIndex
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Int32 m_currMember
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_currMember;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_currMember
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_currMember;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_currMember
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Runtime.Serialization.IFormatterConverter m_converter
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RIFormatterConverter r_Fm_converter;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RIFormatterConverter RFm_converter
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RIFormatterConverter r_Fm_converter;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RIFormatterConverter RFm_converter
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String m_fullTypeName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_fullTypeName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_fullTypeName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_fullTypeName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_fullTypeName
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String m_assemName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_assemName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_assemName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_assemName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_assemName
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Type objectType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_FobjectType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFobjectType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_FobjectType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFobjectType
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Boolean isFullTypeNameSetExplicit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisFullTypeNameSetExplicit;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisFullTypeNameSetExplicit
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisFullTypeNameSetExplicit;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisFullTypeNameSetExplicit
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Boolean isAssemblyNameSetExplicit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisAssemblyNameSetExplicit;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisAssemblyNameSetExplicit
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisAssemblyNameSetExplicit;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisAssemblyNameSetExplicit
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Boolean requireSameTokenInPartialTrust
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FrequireSameTokenInPartialTrust;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFrequireSameTokenInPartialTrust
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FrequireSameTokenInPartialTrust;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFrequireSameTokenInPartialTrust
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String FullTypeName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PFullTypeName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPFullTypeName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PFullTypeName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPFullTypeName
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String AssemblyName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PAssemblyName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPAssemblyName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PAssemblyName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPAssemblyName
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// Int32 MemberCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMemberCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMemberCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMemberCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMemberCount
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Type ObjectType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PObjectType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPObjectType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PObjectType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPObjectType
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// Boolean IsFullTypeNameSetExplicit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsFullTypeNameSetExplicit;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsFullTypeNameSetExplicit
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsFullTypeNameSetExplicit;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsFullTypeNameSetExplicit
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// Boolean IsAssemblyNameSetExplicit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsAssemblyNameSetExplicit;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsAssemblyNameSetExplicit
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsAssemblyNameSetExplicit;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsAssemblyNameSetExplicit
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String[] MemberNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> r_PMemberNames;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> RPMemberNames
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> r_PMemberNames;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> RPMemberNames
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Object[] MemberValues
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RObject> r_PMemberValues;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RObject> RPMemberValues
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RObject> r_PMemberValues;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RObject> RPMemberValues
 		{
 			get
 			{

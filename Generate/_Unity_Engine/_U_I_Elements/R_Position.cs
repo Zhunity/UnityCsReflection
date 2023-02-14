@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.Position
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Position Relative
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPosition r_FRelative;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPosition RFRelative
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPosition r_FRelative;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPosition RFRelative
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Position Absolute
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPosition r_FAbsolute;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPosition RFAbsolute
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPosition r_FAbsolute;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPosition RFAbsolute
 		{
 			get
 			{

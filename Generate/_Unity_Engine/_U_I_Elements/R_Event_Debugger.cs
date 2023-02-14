@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.EventDebugger
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IPanelDebug m_PanelDebug
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebug r_Fm_PanelDebug;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebug RFm_PanelDebug
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebug r_Fm_PanelDebug;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebug RFm_PanelDebug
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <isReplaying>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__isReplaying__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__isReplaying__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__isReplaying__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__isReplaying__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single <playbackSpeed>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_F__0__playbackSpeed__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RF__0__playbackSpeed__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_F__0__playbackSpeed__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RF__0__playbackSpeed__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <isPlaybackPaused>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__isPlaybackPaused__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__isPlaybackPaused__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__isPlaybackPaused__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__isPlaybackPaused__1__k__BackingField
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[UnityEngine.UIElements.IPanel,System.Collections.Generic.List`1[UnityEngine.UIElements.EventDebuggerCallTrace]] m_EventCalledObjects
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerCallTrace>> r_Fm_EventCalledObjects;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerCallTrace>> RFm_EventCalledObjects
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerCallTrace>> r_Fm_EventCalledObjects;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerCallTrace>> RFm_EventCalledObjects
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[UnityEngine.UIElements.IPanel,System.Collections.Generic.List`1[UnityEngine.UIElements.EventDebuggerDefaultActionTrace]] m_EventDefaultActionObjects
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerDefaultActionTrace>> r_Fm_EventDefaultActionObjects;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerDefaultActionTrace>> RFm_EventDefaultActionObjects
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerDefaultActionTrace>> r_Fm_EventDefaultActionObjects;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerDefaultActionTrace>> RFm_EventDefaultActionObjects
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[UnityEngine.UIElements.IPanel,System.Collections.Generic.List`1[UnityEngine.UIElements.EventDebuggerPathTrace]] m_EventPathObjects
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerPathTrace>> r_Fm_EventPathObjects;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerPathTrace>> RFm_EventPathObjects
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerPathTrace>> r_Fm_EventPathObjects;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerPathTrace>> RFm_EventPathObjects
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[UnityEngine.UIElements.IPanel,System.Collections.Generic.List`1[UnityEngine.UIElements.EventDebuggerTrace]] m_EventProcessedEvents
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace>> r_Fm_EventProcessedEvents;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace>> RFm_EventProcessedEvents
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace>> r_Fm_EventProcessedEvents;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace>> RFm_EventProcessedEvents
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[UnityEngine.UIElements.IPanel,System.Collections.Generic.Stack`1[UnityEngine.UIElements.EventDebuggerTrace]] m_StackOfProcessedEvent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace>> r_Fm_StackOfProcessedEvent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace>> RFm_StackOfProcessedEvent
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace>> r_Fm_StackOfProcessedEvent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace>> RFm_StackOfProcessedEvent
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[UnityEngine.UIElements.IPanel,System.Collections.Generic.Dictionary`2[System.Int64,System.Int32]] m_EventTypeProcessedCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt64, SMFrame.Editor.Refleaction.RSystem.RInt32>> r_Fm_EventTypeProcessedCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt64, SMFrame.Editor.Refleaction.RSystem.RInt32>> RFm_EventTypeProcessedCount
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt64, Hvak.Editor.Refleaction.RSystem.RInt32>> r_Fm_EventTypeProcessedCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt64, Hvak.Editor.Refleaction.RSystem.RInt32>> RFm_EventTypeProcessedCount
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[UnityEngine.UIElements.IPanel,System.Int64] m_ModificationCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, SMFrame.Editor.Refleaction.RSystem.RInt64> r_Fm_ModificationCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, SMFrame.Editor.Refleaction.RSystem.RInt64> RFm_ModificationCount
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, Hvak.Editor.Refleaction.RSystem.RInt64> r_Fm_ModificationCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel, Hvak.Editor.Refleaction.RSystem.RInt64> RFm_ModificationCount
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_Log
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_Log;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_Log
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_Log;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_Log
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <suspended>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__suspended__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__suspended__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__suspended__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__suspended__1__k__BackingField
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IPanel panel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel r_Ppanel;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel RPpanel
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel r_Ppanel;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel RPpanel
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IPanelDebug panelDebug
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebug r_PpanelDebug;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebug RPpanelDebug
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebug r_PpanelDebug;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanelDebug RPpanelDebug
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isReplaying
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisReplaying;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisReplaying
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisReplaying;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisReplaying
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single playbackSpeed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PplaybackSpeed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPplaybackSpeed
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PplaybackSpeed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPplaybackSpeed
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isPlaybackPaused
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisPlaybackPaused;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisPlaybackPaused
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisPlaybackPaused;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisPlaybackPaused
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int64,System.Int32] eventTypeProcessedCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt64, SMFrame.Editor.Refleaction.RSystem.RInt32> r_PeventTypeProcessedCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt64, SMFrame.Editor.Refleaction.RSystem.RInt32> RPeventTypeProcessedCount
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt64, Hvak.Editor.Refleaction.RSystem.RInt32> r_PeventTypeProcessedCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt64, Hvak.Editor.Refleaction.RSystem.RInt32> RPeventTypeProcessedCount
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean suspended
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Psuspended;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPsuspended
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Psuspended;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPsuspended
 		{
 			get
 			{
@@ -1013,7 +1013,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void LogPropagationPaths(UnityEngine.UIElements.EventBase @evt, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
+        public static void LogPropagationPaths(UnityEngine.UIElements.EventBase @evt, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
         {
 
             var ___genericsType = new Type[] {};
@@ -1024,7 +1024,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void LogPropagationPathsInternal(UnityEngine.UIElements.EventBase @evt, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
+        public virtual void LogPropagationPathsInternal(UnityEngine.UIElements.EventBase @evt, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
         {
 
             var ___genericsType = new Type[] {};
@@ -1035,47 +1035,47 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerCallTrace> GetCalls(UnityEngine.UIElements.IPanel @panel, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerCallTrace> GetCalls(UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@panel, @evt.Value};
             var ___result = RMGetCalls_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerCallTrace>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerCallTrace>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerDefaultActionTrace> GetDefaultActions(UnityEngine.UIElements.IPanel @panel, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerDefaultActionTrace> GetDefaultActions(UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@panel, @evt.Value};
             var ___result = RMGetDefaultActions_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerDefaultActionTrace>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerDefaultActionTrace>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerPathTrace> GetPropagationPaths(UnityEngine.UIElements.IPanel @panel, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerPathTrace> GetPropagationPaths(UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@panel, @evt.Value};
             var ___result = RMGetPropagationPaths_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerPathTrace>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerPathTrace>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace> GetBeginEndProcessedEvents(UnityEngine.UIElements.IPanel @panel, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace> GetBeginEndProcessedEvents(UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@panel, @evt.Value};
             var ___result = RMGetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerTrace>(___result);
         }
 
 
@@ -1101,7 +1101,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SaveReplaySessionFromSelection(System.String @path, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventList)
+        public virtual void SaveReplaySessionFromSelection(System.String @path, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventList)
         {
 
             var ___genericsType = new Type[] {};
@@ -1112,18 +1112,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerRecordList LoadReplaySession(System.String @path)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerRecordList LoadReplaySession(System.String @path)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@path};
             var ___result = RMLoadReplaySession_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerRecordList(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerRecordList(___result);
         }
 
 
-        public virtual System.Collections.IEnumerator ReplayEvents(SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases, System.Action<System.Int32, System.Int32> @refreshList)
+        public virtual System.Collections.IEnumerator ReplayEvents(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases, System.Action<System.Int32, System.Int32> @refreshList)
         {
 
             var ___genericsType = new Type[] {};
@@ -1145,7 +1145,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Collections.IEnumerator DoReplayEvents(SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases, System.Action<System.Int32, System.Int32> @refreshList)
+        public virtual System.Collections.IEnumerator DoReplayEvents(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases, System.Action<System.Int32, System.Int32> @refreshList)
         {
 
             var ___genericsType = new Type[] {};
@@ -1156,14 +1156,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebugger.RHistogramRecord> ComputeHistogram(SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases)
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebugger.RHistogramRecord> ComputeHistogram(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eventBases.Value};
             var ___result = RMComputeHistogram_List_d_EventDebuggerEventRecord_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebugger.RHistogramRecord>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebugger.RHistogramRecord>(___result);
         }
 
 
@@ -1189,7 +1189,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AddPropagationPaths(UnityEngine.UIElements.EventBase @evt, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
+        public virtual void AddPropagationPaths(UnityEngine.UIElements.EventBase @evt, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
         {
 
             var ___genericsType = new Type[] {};

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.ColorGradientMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.ColorGradientMode Single
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode r_FSingle;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode RFSingle
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode r_FSingle;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode RFSingle
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.ColorGradientMode HorizontalGradient
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode r_FHorizontalGradient;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode RFHorizontalGradient
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode r_FHorizontalGradient;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode RFHorizontalGradient
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.ColorGradientMode VerticalGradient
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode r_FVerticalGradient;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode RFVerticalGradient
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode r_FVerticalGradient;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode RFVerticalGradient
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.ColorGradientMode FourCornersGradient
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode r_FFourCornersGradient;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode RFFourCornersGradient
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode r_FFourCornersGradient;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RColorGradientMode RFFourCornersGradient
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.Scale
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector3 m_Scale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Scale;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFm_Scale
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Scale;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFm_Scale
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_IsNone
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_IsNone;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_IsNone
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsNone;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector3 value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Pvalue;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPvalue
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Pvalue;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPvalue
 		{
 			get
 			{

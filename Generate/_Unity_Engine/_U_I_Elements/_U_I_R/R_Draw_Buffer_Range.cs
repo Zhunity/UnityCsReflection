@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.DrawBufferRange
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 firstIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FfirstIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfirstIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FfirstIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfirstIndex
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 indexCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FindexCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFindexCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FindexCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFindexCount
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 minIndexVal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FminIndexVal;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFminIndexVal
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FminIndexVal;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFminIndexVal
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 vertsReferenced
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FvertsReferenced;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvertsReferenced
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FvertsReferenced;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvertsReferenced
 		{
 			get
 			{

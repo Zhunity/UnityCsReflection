@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.PackageLink
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFname
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String url
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Furl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFurl
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Furl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFurl
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String analyticsEventName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FanalyticsEventName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFanalyticsEventName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FanalyticsEventName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFanalyticsEventName
 		{
 			get
 			{

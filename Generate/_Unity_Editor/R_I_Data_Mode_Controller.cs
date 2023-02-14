@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.IDataModeController
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode dataMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RDataMode r_PdataMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RDataMode RPdataMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_PdataMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataMode RPdataMode
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.RuntimeFieldHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFvalue
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFvalue
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// IntPtr Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RPValue
 		{
 			get
 			{
@@ -406,7 +406,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void SetValue(SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo @field, System.Object @obj, System.Object @value, SMFrame.Editor.Refleaction.RSystem.RRuntimeType @fieldType, System.Reflection.FieldAttributes @fieldAttr, SMFrame.Editor.Refleaction.RSystem.RRuntimeType @declaringType, ref System.Boolean @domainInitialized)
+        public static void SetValue(Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo @field, System.Object @obj, System.Object @value, Hvak.Editor.Refleaction.RSystem.RRuntimeType @fieldType, System.Reflection.FieldAttributes @fieldAttr, Hvak.Editor.Refleaction.RSystem.RRuntimeType @declaringType, ref System.Boolean @domainInitialized)
         {
 
             var ___genericsType = new Type[] {};
@@ -418,7 +418,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public unsafe static System.Object GetValueDirect(SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo @field, SMFrame.Editor.Refleaction.RSystem.RRuntimeType @fieldType, void* @pTypedRef, SMFrame.Editor.Refleaction.RSystem.RRuntimeType @contextType)
+        public unsafe static System.Object GetValueDirect(Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo @field, Hvak.Editor.Refleaction.RSystem.RRuntimeType @fieldType, void* @pTypedRef, Hvak.Editor.Refleaction.RSystem.RRuntimeType @contextType)
         {
 
             var ___genericsType = new Type[] {};
@@ -429,7 +429,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public unsafe static void SetValueDirect(SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo @field, SMFrame.Editor.Refleaction.RSystem.RRuntimeType @fieldType, void* @pTypedRef, System.Object @value, SMFrame.Editor.Refleaction.RSystem.RRuntimeType @contextType)
+        public unsafe static void SetValueDirect(Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo @field, Hvak.Editor.Refleaction.RSystem.RRuntimeType @fieldType, void* @pTypedRef, System.Object @value, Hvak.Editor.Refleaction.RSystem.RRuntimeType @contextType)
         {
 
             var ___genericsType = new Type[] {};

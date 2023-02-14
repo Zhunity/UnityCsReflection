@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.IPackageSelectionChangedHandler
@@ -46,7 +46,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	    {
 	    }
 
-        public virtual void OnPackageSelectionChanged(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RPackageSelectionArgs @args)
+        public virtual void OnPackageSelectionChanged(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RPackageSelectionArgs @args)
         {
 
             var ___genericsType = new Type[] {};

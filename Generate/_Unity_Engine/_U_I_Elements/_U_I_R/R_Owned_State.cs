@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.OwnedState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Byte value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.OwnedState Inherited
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.ROwnedState r_FInherited;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.ROwnedState RFInherited
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.ROwnedState r_FInherited;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.ROwnedState RFInherited
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.OwnedState Owned
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.ROwnedState r_FOwned;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.ROwnedState RFOwned
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.ROwnedState r_FOwned;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.ROwnedState RFOwned
 		{
 			get
 			{

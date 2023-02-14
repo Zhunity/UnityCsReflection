@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.BackgroundPosition
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BackgroundPositionKeyword keyword
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword r_Fkeyword;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword RFkeyword
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword r_Fkeyword;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword RFkeyword
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Length offset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_Foffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFoffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_Foffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFoffset
 		{
 			get
 			{

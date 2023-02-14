@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.IMouseEvent
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.EventModifiers modifiers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers r_Pmodifiers;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers RPmodifiers
+		protected Hvak.Editor.Refleaction.RUnityEngine.REventModifiers r_Pmodifiers;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.REventModifiers RPmodifiers
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 mousePosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PmousePosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPmousePosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PmousePosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPmousePosition
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 localMousePosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PlocalMousePosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPlocalMousePosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PlocalMousePosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPlocalMousePosition
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 mouseDelta
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PmouseDelta;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPmouseDelta
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PmouseDelta;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPmouseDelta
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 clickCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PclickCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPclickCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PclickCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPclickCount
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 button
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pbutton;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPbutton
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pbutton;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPbutton
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 pressedButtons
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PpressedButtons;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPpressedButtons
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PpressedButtons;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPpressedButtons
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean shiftKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PshiftKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPshiftKey
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PshiftKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPshiftKey
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean ctrlKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PctrlKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPctrlKey
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PctrlKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPctrlKey
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean commandKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PcommandKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPcommandKey
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcommandKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcommandKey
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean altKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PaltKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPaltKey
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PaltKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPaltKey
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean actionKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PactionKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPactionKey
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PactionKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPactionKey
 		{
 			get
 			{

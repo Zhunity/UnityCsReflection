@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RGraphicsBuffer
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer+Target Vertex
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FVertex;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFVertex
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FVertex;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFVertex
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer+Target Index
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FIndex;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFIndex
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FIndex;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFIndex
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer+Target CopySource
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FCopySource;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFCopySource
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FCopySource;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFCopySource
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer+Target CopyDestination
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FCopyDestination;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFCopyDestination
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FCopyDestination;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFCopyDestination
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer+Target Structured
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FStructured;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFStructured
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FStructured;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFStructured
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer+Target Raw
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FRaw;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFRaw
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FRaw;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFRaw
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer+Target Append
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FAppend;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFAppend
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FAppend;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFAppend
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer+Target Counter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FCounter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFCounter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FCounter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFCounter
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer+Target IndirectArguments
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FIndirectArguments;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFIndirectArguments
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FIndirectArguments;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFIndirectArguments
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer+Target Constant
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FConstant;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFConstant
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget r_FConstant;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget RFConstant
 		{
 			get
 			{

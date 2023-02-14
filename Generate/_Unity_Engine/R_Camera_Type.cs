@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.CameraType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CameraType Game
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCameraType r_FGame;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCameraType RFGame
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCameraType r_FGame;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCameraType RFGame
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CameraType SceneView
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCameraType r_FSceneView;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCameraType RFSceneView
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCameraType r_FSceneView;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCameraType RFSceneView
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CameraType Preview
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCameraType r_FPreview;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCameraType RFPreview
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCameraType r_FPreview;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCameraType RFPreview
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CameraType VR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCameraType r_FVR;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCameraType RFVR
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCameraType r_FVR;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCameraType RFVR
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CameraType Reflection
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCameraType r_FReflection;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCameraType RFReflection
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCameraType r_FReflection;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCameraType RFReflection
 		{
 			get
 			{

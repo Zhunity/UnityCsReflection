@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.KeyboardNavigationOperation
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.KeyboardNavigationOperation None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.KeyboardNavigationOperation SelectAll
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FSelectAll;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFSelectAll
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FSelectAll;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFSelectAll
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.KeyboardNavigationOperation Cancel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FCancel;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFCancel
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FCancel;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFCancel
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.KeyboardNavigationOperation Submit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FSubmit;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFSubmit
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FSubmit;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFSubmit
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.KeyboardNavigationOperation Previous
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FPrevious;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFPrevious
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FPrevious;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFPrevious
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.KeyboardNavigationOperation Next
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FNext;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFNext
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FNext;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFNext
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.KeyboardNavigationOperation PageUp
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FPageUp;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFPageUp
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FPageUp;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFPageUp
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.KeyboardNavigationOperation PageDown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FPageDown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFPageDown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FPageDown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFPageDown
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.KeyboardNavigationOperation Begin
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FBegin;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFBegin
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FBegin;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFBegin
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.KeyboardNavigationOperation End
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFEnd
 		{
 			get
 			{

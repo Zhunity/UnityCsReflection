@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.IWindow
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.PackageSelectionArgs activeSelection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RPackageSelectionArgs r_PactiveSelection;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RPackageSelectionArgs RPactiveSelection
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RPackageSelectionArgs r_PactiveSelection;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RPackageSelectionArgs RPactiveSelection
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.IMenu addMenu
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenu r_PaddMenu;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenu RPaddMenu
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenu r_PaddMenu;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenu RPaddMenu
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.IMenu advancedMenu
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenu r_PadvancedMenu;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenu RPadvancedMenu
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenu r_PadvancedMenu;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenu RPadvancedMenu
 		{
 			get
 			{
@@ -159,36 +159,36 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIDetailsExtension AddDetailsExtension()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIDetailsExtension AddDetailsExtension()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAddDetailsExtension.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIDetailsExtension(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIDetailsExtension(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionMenu AddPackageActionMenu()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionMenu AddPackageActionMenu()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAddPackageActionMenu.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionMenu(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionMenu(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionButton AddPackageActionButton()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionButton AddPackageActionButton()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAddPackageActionButton.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionButton(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionButton(___result);
         }
 
 

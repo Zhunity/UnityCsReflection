@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class RActivationContext
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ActivationContext+ContextForm Loose
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RActivationContext.RContextForm r_FLoose;
-		public static SMFrame.Editor.Refleaction.RSystem.RActivationContext.RContextForm RFLoose
+		protected static Hvak.Editor.Refleaction.RSystem.RActivationContext.RContextForm r_FLoose;
+		public static Hvak.Editor.Refleaction.RSystem.RActivationContext.RContextForm RFLoose
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ActivationContext+ContextForm StoreBounded
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RActivationContext.RContextForm r_FStoreBounded;
-		public static SMFrame.Editor.Refleaction.RSystem.RActivationContext.RContextForm RFStoreBounded
+		protected static Hvak.Editor.Refleaction.RSystem.RActivationContext.RContextForm r_FStoreBounded;
+		public static Hvak.Editor.Refleaction.RSystem.RActivationContext.RContextForm RFStoreBounded
 		{
 			get
 			{

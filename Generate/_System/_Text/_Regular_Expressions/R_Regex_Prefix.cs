@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
+namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
 	/// System.Text.RegularExpressions.RegexPrefix
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean <CaseInsensitive>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__CaseInsensitive__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__CaseInsensitive__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__CaseInsensitive__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__CaseInsensitive__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexPrefix <Empty>k__BackingField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexPrefix r_F__0__Empty__1__k__BackingField;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexPrefix RF__0__Empty__1__k__BackingField
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexPrefix r_F__0__Empty__1__k__BackingField;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexPrefix RF__0__Empty__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String <Prefix>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__Prefix__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__Prefix__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__Prefix__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__Prefix__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean CaseInsensitive
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PCaseInsensitive;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPCaseInsensitive
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PCaseInsensitive;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPCaseInsensitive
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexPrefix Empty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexPrefix r_PEmpty;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexPrefix RPEmpty
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexPrefix r_PEmpty;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexPrefix RPEmpty
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Prefix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PPrefix;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPPrefix
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PPrefix;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPPrefix
 		{
 			get
 			{

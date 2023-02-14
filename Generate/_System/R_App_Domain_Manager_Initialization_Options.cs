@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.AppDomainManagerInitializationOptions
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.AppDomainManagerInitializationOptions None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.AppDomainManagerInitializationOptions RegisterWithHost
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions r_FRegisterWithHost;
-		public static SMFrame.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions RFRegisterWithHost
+		protected static Hvak.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions r_FRegisterWithHost;
+		public static Hvak.Editor.Refleaction.RSystem.RAppDomainManagerInitializationOptions RFRegisterWithHost
 		{
 			get
 			{

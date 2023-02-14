@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.PageCapability
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean requireUserLoggedIn
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FrequireUserLoggedIn;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFrequireUserLoggedIn
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FrequireUserLoggedIn;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFrequireUserLoggedIn
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean requireNetwork
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FrequireNetwork;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFrequireNetwork
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FrequireNetwork;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFrequireNetwork
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean supportFilters
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FsupportFilters;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFsupportFilters
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FsupportFilters;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFsupportFilters
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean supportLocalReordering
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FsupportLocalReordering;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFsupportLocalReordering
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FsupportLocalReordering;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFsupportLocalReordering
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PageCapability+Ordering[] orderingValues
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageCapability.ROrdering> r_ForderingValues;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageCapability.ROrdering> RForderingValues
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageCapability.ROrdering> r_ForderingValues;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageCapability.ROrdering> RForderingValues
 		{
 			get
 			{

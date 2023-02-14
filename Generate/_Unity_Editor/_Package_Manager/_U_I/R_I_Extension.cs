@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.IExtension
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// Int32 priority
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ppriority;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPpriority
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ppriority;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPpriority
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// Boolean visible
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPvisible
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPvisible
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Penabled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPenabled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Penabled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPenabled
 		{
 			get
 			{

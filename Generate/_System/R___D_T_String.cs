@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.__DTString
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ReadOnlySpan`1[System.Char] Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> r_FValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> RFValue
+		protected Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> r_FValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> RFValue
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 Index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFIndex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Char m_current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RChar r_Fm_current;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RChar RFm_current
+		protected Hvak.Editor.Refleaction.RSystem.RChar r_Fm_current;
+		public virtual Hvak.Editor.Refleaction.RSystem.RChar RFm_current
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Globalization.CompareInfo m_info
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareInfo r_Fm_info;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareInfo RFm_info
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareInfo r_Fm_info;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareInfo RFm_info
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean m_checkDigitToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_checkDigitToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_checkDigitToken
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_checkDigitToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_checkDigitToken
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Char[] WhiteSpaceChecks
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> r_FWhiteSpaceChecks;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> RFWhiteSpaceChecks
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> r_FWhiteSpaceChecks;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> RFWhiteSpaceChecks
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLength
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Globalization.CompareInfo CompareInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareInfo r_PCompareInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCompareInfo RPCompareInfo
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareInfo r_PCompareInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RCompareInfo RPCompareInfo
 		{
 			get
 			{
@@ -657,7 +657,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void GetRegularToken(out SMFrame.Editor.Refleaction.RSystem.RTokenType @tokenType, out System.Int32 @tokenValue, System.Globalization.DateTimeFormatInfo @dtfi)
+        public virtual void GetRegularToken(out Hvak.Editor.Refleaction.RSystem.RTokenType @tokenType, out System.Int32 @tokenValue, System.Globalization.DateTimeFormatInfo @dtfi)
         {
 			@tokenType = default;
 			@tokenValue = default;
@@ -665,14 +665,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tokenType.Value, @tokenValue, @dtfi};
             var ___result = RMGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo.Invoke(___genericsType, ___parameters);
-			@tokenType = new SMFrame.Editor.Refleaction.RSystem.RTokenType(___parameters[0]);
+			@tokenType = new Hvak.Editor.Refleaction.RSystem.RTokenType(___parameters[0]);
 			@tokenValue = (System.Int32)___parameters[1];
 
             
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RTokenType GetSeparatorToken(System.Globalization.DateTimeFormatInfo @dtfi, out System.Int32 @indexBeforeSeparator, out System.Char @charBeforeSeparator)
+        public virtual Hvak.Editor.Refleaction.RSystem.RTokenType GetSeparatorToken(System.Globalization.DateTimeFormatInfo @dtfi, out System.Int32 @indexBeforeSeparator, out System.Char @charBeforeSeparator)
         {
 			@indexBeforeSeparator = default;
 			@charBeforeSeparator = default;
@@ -683,7 +683,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			@indexBeforeSeparator = (System.Int32)___parameters[1];
 			@charBeforeSeparator = (System.Char)___parameters[2];
 
-            return new SMFrame.Editor.Refleaction.RSystem.RTokenType(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RTokenType(___result);
         }
 
 
@@ -843,18 +843,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RDTSubString GetSubString()
+        public virtual Hvak.Editor.Refleaction.RSystem.RDTSubString GetSubString()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetSubString.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RDTSubString(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RDTSubString(___result);
         }
 
 
-        public virtual void ConsumeSubString(SMFrame.Editor.Refleaction.RSystem.RDTSubString @sub)
+        public virtual void ConsumeSubString(Hvak.Editor.Refleaction.RSystem.RDTSubString @sub)
         {
 
             var ___genericsType = new Type[] {};

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
+namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 {
 	/// <summary>
 	/// UnityEditor.Overlays.DockZone
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.DockZone LeftToolbar
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_FLeftToolbar;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFLeftToolbar
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_FLeftToolbar;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFLeftToolbar
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.DockZone RightToolbar
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_FRightToolbar;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFRightToolbar
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_FRightToolbar;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFRightToolbar
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.DockZone TopToolbar
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_FTopToolbar;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFTopToolbar
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_FTopToolbar;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFTopToolbar
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.DockZone BottomToolbar
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_FBottomToolbar;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFBottomToolbar
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_FBottomToolbar;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFBottomToolbar
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.DockZone LeftColumn
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_FLeftColumn;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFLeftColumn
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_FLeftColumn;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFLeftColumn
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.DockZone RightColumn
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_FRightColumn;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFRightColumn
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_FRightColumn;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFRightColumn
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.DockZone Floating
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_FFloating;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFFloating
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_FFloating;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RFFloating
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.HostExecutionContext
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Object _state
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F_state;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF_state
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F_state;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF_state
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Object State
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPState
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPState
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.ResolveTokenError
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ResolveTokenError OutOfRange
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError r_FOutOfRange;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError RFOutOfRange
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError r_FOutOfRange;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError RFOutOfRange
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ResolveTokenError BadTable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError r_FBadTable;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError RFBadTable
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError r_FBadTable;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError RFBadTable
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ResolveTokenError Other
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError r_FOther;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError RFOther
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError r_FOther;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError RFOther
 		{
 			get
 			{

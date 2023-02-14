@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.ManipulatorActivationFilter
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.MouseButton <button>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMouseButton r_F__0__button__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMouseButton RF__0__button__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMouseButton r_F__0__button__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMouseButton RF__0__button__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.EventModifiers <modifiers>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers r_F__0__modifiers__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers RF__0__modifiers__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.REventModifiers r_F__0__modifiers__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.REventModifiers RF__0__modifiers__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <clickCount>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__clickCount__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__clickCount__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__clickCount__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__clickCount__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.MouseButton button
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMouseButton r_Pbutton;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMouseButton RPbutton
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMouseButton r_Pbutton;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMouseButton RPbutton
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.EventModifiers modifiers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers r_Pmodifiers;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers RPmodifiers
+		protected Hvak.Editor.Refleaction.RUnityEngine.REventModifiers r_Pmodifiers;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.REventModifiers RPmodifiers
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 clickCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PclickCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPclickCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PclickCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPclickCount
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.StringComparison
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.StringComparison CurrentCulture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RStringComparison r_FCurrentCulture;
-		public static SMFrame.Editor.Refleaction.RSystem.RStringComparison RFCurrentCulture
+		protected static Hvak.Editor.Refleaction.RSystem.RStringComparison r_FCurrentCulture;
+		public static Hvak.Editor.Refleaction.RSystem.RStringComparison RFCurrentCulture
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.StringComparison CurrentCultureIgnoreCase
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RStringComparison r_FCurrentCultureIgnoreCase;
-		public static SMFrame.Editor.Refleaction.RSystem.RStringComparison RFCurrentCultureIgnoreCase
+		protected static Hvak.Editor.Refleaction.RSystem.RStringComparison r_FCurrentCultureIgnoreCase;
+		public static Hvak.Editor.Refleaction.RSystem.RStringComparison RFCurrentCultureIgnoreCase
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.StringComparison InvariantCulture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RStringComparison r_FInvariantCulture;
-		public static SMFrame.Editor.Refleaction.RSystem.RStringComparison RFInvariantCulture
+		protected static Hvak.Editor.Refleaction.RSystem.RStringComparison r_FInvariantCulture;
+		public static Hvak.Editor.Refleaction.RSystem.RStringComparison RFInvariantCulture
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.StringComparison InvariantCultureIgnoreCase
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RStringComparison r_FInvariantCultureIgnoreCase;
-		public static SMFrame.Editor.Refleaction.RSystem.RStringComparison RFInvariantCultureIgnoreCase
+		protected static Hvak.Editor.Refleaction.RSystem.RStringComparison r_FInvariantCultureIgnoreCase;
+		public static Hvak.Editor.Refleaction.RSystem.RStringComparison RFInvariantCultureIgnoreCase
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.StringComparison Ordinal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RStringComparison r_FOrdinal;
-		public static SMFrame.Editor.Refleaction.RSystem.RStringComparison RFOrdinal
+		protected static Hvak.Editor.Refleaction.RSystem.RStringComparison r_FOrdinal;
+		public static Hvak.Editor.Refleaction.RSystem.RStringComparison RFOrdinal
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.StringComparison OrdinalIgnoreCase
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RStringComparison r_FOrdinalIgnoreCase;
-		public static SMFrame.Editor.Refleaction.RSystem.RStringComparison RFOrdinalIgnoreCase
+		protected static Hvak.Editor.Refleaction.RSystem.RStringComparison r_FOrdinalIgnoreCase;
+		public static Hvak.Editor.Refleaction.RSystem.RStringComparison RFOrdinalIgnoreCase
 		{
 			get
 			{

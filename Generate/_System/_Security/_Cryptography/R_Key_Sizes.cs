@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 {
 	/// <summary>
 	/// System.Security.Cryptography.KeySizes
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Int32 m_minSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_minSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_minSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_minSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_minSize
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Int32 m_maxSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_maxSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_maxSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_maxSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_maxSize
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Int32 m_skipSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_skipSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_skipSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_skipSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_skipSize
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Int32 MinSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMinSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMinSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMinSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMinSize
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Int32 MaxSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMaxSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMaxSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMaxSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMaxSize
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Int32 SkipSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PSkipSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPSkipSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PSkipSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPSkipSize
 		{
 			get
 			{

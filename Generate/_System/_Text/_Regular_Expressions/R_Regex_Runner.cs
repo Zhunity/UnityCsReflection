@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
+namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
 	/// System.Text.RegularExpressions.RegexRunner
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 runtextbeg
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fruntextbeg;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFruntextbeg
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fruntextbeg;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFruntextbeg
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 runtextend
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fruntextend;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFruntextend
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fruntextend;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFruntextend
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 runtextstart
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fruntextstart;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFruntextstart
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fruntextstart;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFruntextstart
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String runtext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fruntext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFruntext
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fruntext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFruntext
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 runtextpos
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fruntextpos;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFruntextpos
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fruntextpos;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFruntextpos
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[] runtrack
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fruntrack;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFruntrack
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fruntrack;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFruntrack
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 runtrackpos
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fruntrackpos;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFruntrackpos
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fruntrackpos;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFruntrackpos
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[] runstack
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Frunstack;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFrunstack
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_Frunstack;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFrunstack
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 runstackpos
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Frunstackpos;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFrunstackpos
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Frunstackpos;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFrunstackpos
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[] runcrawl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fruncrawl;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFruncrawl
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fruncrawl;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFruncrawl
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 runcrawlpos
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fruncrawlpos;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFruncrawlpos
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fruncrawlpos;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFruncrawlpos
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 runtrackcount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fruntrackcount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFruntrackcount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fruntrackcount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFruntrackcount
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Match runmatch
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch r_Frunmatch;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch RFrunmatch
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch r_Frunmatch;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RMatch RFrunmatch
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Regex runregex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex r_Frunregex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex RFrunregex
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex r_Frunregex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex RFrunregex
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _timeout
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_timeout;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_timeout
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_timeout;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_timeout
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean _ignoreTimeout
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_ignoreTimeout;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_ignoreTimeout
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_ignoreTimeout;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_ignoreTimeout
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _timeoutOccursAt
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_timeoutOccursAt;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_timeoutOccursAt
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_timeoutOccursAt;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_timeoutOccursAt
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 TimeoutCheckFrequency
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FTimeoutCheckFrequency;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFTimeoutCheckFrequency
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FTimeoutCheckFrequency;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFTimeoutCheckFrequency
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _timeoutChecksToSkip
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_timeoutChecksToSkip;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_timeoutChecksToSkip
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_timeoutChecksToSkip;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_timeoutChecksToSkip
 		{
 			get
 			{

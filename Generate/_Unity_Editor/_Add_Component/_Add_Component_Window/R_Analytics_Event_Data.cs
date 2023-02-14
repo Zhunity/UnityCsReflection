@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
+namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
 {public partial class RAddComponentWindow
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFname
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String filter
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ffilter;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFfilter
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ffilter;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFfilter
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.Boolean isNewScript
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisNewScript;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisNewScript
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisNewScript;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisNewScript
 		{
 			get
 			{

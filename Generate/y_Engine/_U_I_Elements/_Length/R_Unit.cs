@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RLength
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Length+Unit Pixel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit r_FPixel;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit RFPixel
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit r_FPixel;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit RFPixel
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Length+Unit Percent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit r_FPercent;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit RFPercent
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit r_FPercent;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit RFPercent
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Length+Unit Auto
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit r_FAuto;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit RFAuto
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit r_FAuto;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit RFAuto
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Length+Unit None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength.RUnit RFNone
 		{
 			get
 			{

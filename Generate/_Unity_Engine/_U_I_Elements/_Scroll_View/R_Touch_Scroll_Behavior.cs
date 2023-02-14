@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RScrollView
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollView+TouchScrollBehavior Unrestricted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollBehavior r_FUnrestricted;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollBehavior RFUnrestricted
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollBehavior r_FUnrestricted;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollBehavior RFUnrestricted
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollView+TouchScrollBehavior Elastic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollBehavior r_FElastic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollBehavior RFElastic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollBehavior r_FElastic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollBehavior RFElastic
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollView+TouchScrollBehavior Clamped
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollBehavior r_FClamped;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollBehavior RFClamped
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollBehavior r_FClamped;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView.RTouchScrollBehavior RFClamped
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.Extents
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector2 min
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Fmin;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFmin
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fmin;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFmin
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector2 max
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Fmax;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFmax
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fmax;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFmax
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 {
 	/// <summary>
 	/// System.Security.Policy.PolicyStatement
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.PermissionSet perms
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissionSet r_Fperms;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissionSet RFperms
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissionSet r_Fperms;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissionSet RFperms
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.PolicyStatementAttribute attrs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute r_Fattrs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute RFattrs
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute r_Fattrs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute RFattrs
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.PermissionSet PermissionSet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissionSet r_PPermissionSet;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissionSet RPPermissionSet
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissionSet r_PPermissionSet;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissionSet RPPermissionSet
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.PolicyStatementAttribute Attributes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute r_PAttributes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute RPAttributes
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute r_PAttributes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatementAttribute RPAttributes
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String AttributeString
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PAttributeString;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPAttributeString
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PAttributeString;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPAttributeString
 		{
 			get
 			{

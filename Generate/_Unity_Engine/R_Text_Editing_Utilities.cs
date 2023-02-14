@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.TextEditingUtilities
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectingUtilities m_TextSelectingUtility
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities r_Fm_TextSelectingUtility;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities RFm_TextSelectingUtility
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities r_Fm_TextSelectingUtility;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities RFm_TextSelectingUtility
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextHandle m_TextHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextHandle r_Fm_TextHandle;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextHandle RFm_TextHandle
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextHandle r_Fm_TextHandle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextHandle RFm_TextHandle
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_CursorIndexSavedState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_CursorIndexSavedState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_CursorIndexSavedState
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_CursorIndexSavedState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_CursorIndexSavedState
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean isCompositionActive
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisCompositionActive;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisCompositionActive
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisCompositionActive;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisCompositionActive
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean m_UpdateImeWindowPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_UpdateImeWindowPosition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_UpdateImeWindowPosition
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_UpdateImeWindowPosition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_UpdateImeWindowPosition
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean multiline
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fmultiline;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFmultiline
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fmultiline;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFmultiline
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String m_Text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Text;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Text
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Text;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Text
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[UnityEngine.Event,UnityEngine.TextEditOp] s_KeyEditOps
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.REvent, SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp> r_Fs_KeyEditOps;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RUnityEngine.REvent, SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp> RFs_KeyEditOps
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.REvent, Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp> r_Fs_KeyEditOps;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.REvent, Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp> RFs_KeyEditOps
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean hasSelection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasSelection;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasSelection
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasSelection;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasSelection
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String SelectedText
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PSelectedText;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPSelectedText
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PSelectedText;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPSelectedText
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 m_iAltCursorPos
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pm_iAltCursorPos;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPm_iAltCursorPos
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pm_iAltCursorPos;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPm_iAltCursorPos
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean revealCursor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PrevealCursor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPrevealCursor
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PrevealCursor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPrevealCursor
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 cursorIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PcursorIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPcursorIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PcursorIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPcursorIndex
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 selectIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PselectIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPselectIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PselectIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPselectIndex
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtext
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtext
 		{
 			get
 			{
@@ -888,7 +888,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void PerformOperation(SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp @operation)
+        public virtual void PerformOperation(Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp @operation)
         {
 
             var ___genericsType = new Type[] {};
@@ -899,7 +899,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void MapKey(System.String @key, SMFrame.Editor.Refleaction.RUnityEngine.RTextEditOp @action)
+        public static void MapKey(System.String @key, Hvak.Editor.Refleaction.RUnityEngine.RTextEditOp @action)
         {
 
             var ___genericsType = new Type[] {};

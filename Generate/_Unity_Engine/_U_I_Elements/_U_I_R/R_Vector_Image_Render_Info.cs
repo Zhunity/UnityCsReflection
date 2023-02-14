@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.VectorImageRenderInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 useCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FuseCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFuseCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FuseCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFuseCount
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.GradientRemap firstGradientRemap
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap r_FfirstGradientRemap;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap RFfirstGradientRemap
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap r_FfirstGradientRemap;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGradientRemap RFfirstGradientRemap
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Alloc gradientSettingsAlloc
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc r_FgradientSettingsAlloc;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc RFgradientSettingsAlloc
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc r_FgradientSettingsAlloc;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc RFgradientSettingsAlloc
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.VectorImageRenderInfo poolNext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo r_FpoolNext;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo RFpoolNext
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo r_FpoolNext;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo RFpoolNext
 		{
 			get
 			{

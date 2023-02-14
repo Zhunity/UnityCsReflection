@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.NativePagedList`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 k_PoolCapacity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_PoolCapacity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_PoolCapacity
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_PoolCapacity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFk_PoolCapacity
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.List`1[Unity.Collections.NativeArray`1[T]] m_Pages
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RField>> r_Fm_Pages;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RField>> RFm_Pages
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RField>> r_Fm_Pages;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RField>> RFm_Pages
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[T] m_CurrentPage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RField> r_Fm_CurrentPage;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RField> RFm_CurrentPage
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RField> r_Fm_CurrentPage;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RField> RFm_CurrentPage
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_CurrentPageCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_CurrentPageCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_CurrentPageCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_CurrentPageCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_CurrentPageCount
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.List`1[Unity.Collections.NativeSlice`1[T]] m_Enumerator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RField>> r_Fm_Enumerator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RField>> RFm_Enumerator
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RField>> r_Fm_Enumerator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RField>> RFm_Enumerator
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdisposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdisposed
 		{
 			get
 			{
@@ -352,19 +352,19 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual void Add(ref SMFrame.Editor.Refleaction.RType @data)
+        public virtual void Add(ref Hvak.Editor.Refleaction.RType @data)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data.Value};
             var ___result = RMAdd_Ref_T.Invoke(___genericsType, ___parameters);
-			@data = new SMFrame.Editor.Refleaction.RType(___parameters[0]);
+			@data = new Hvak.Editor.Refleaction.RType(___parameters[0]);
 
             
         }
 
 
-        public virtual void Add(SMFrame.Editor.Refleaction.RType @data)
+        public virtual void Add(Hvak.Editor.Refleaction.RType @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -375,14 +375,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RType>> GetPages()
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>> GetPages()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetPages.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RType>>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 

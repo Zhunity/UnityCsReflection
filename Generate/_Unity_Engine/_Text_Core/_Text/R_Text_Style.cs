@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.TextStyle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextStyle k_NormalStyle
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyle r_Fk_NormalStyle;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyle RFk_NormalStyle
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyle r_Fk_NormalStyle;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyle RFk_NormalStyle
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Name;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Name
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Name;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Name
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_HashCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_HashCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_HashCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_HashCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_HashCode
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_OpeningDefinition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_OpeningDefinition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_OpeningDefinition
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_OpeningDefinition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_OpeningDefinition
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_ClosingDefinition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_ClosingDefinition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_ClosingDefinition
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_ClosingDefinition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_ClosingDefinition
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32[] m_OpeningTagArray
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_Fm_OpeningTagArray;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> RFm_OpeningTagArray
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fm_OpeningTagArray;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> RFm_OpeningTagArray
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32[] m_ClosingTagArray
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_Fm_ClosingTagArray;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> RFm_ClosingTagArray
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fm_ClosingTagArray;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> RFm_ClosingTagArray
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32[] m_OpeningTagUnicodeArray
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_Fm_OpeningTagUnicodeArray;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> RFm_OpeningTagUnicodeArray
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fm_OpeningTagUnicodeArray;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> RFm_OpeningTagUnicodeArray
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32[] m_ClosingTagUnicodeArray
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_Fm_ClosingTagUnicodeArray;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> RFm_ClosingTagUnicodeArray
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fm_ClosingTagUnicodeArray;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RUInt32> RFm_ClosingTagUnicodeArray
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextStyle NormalStyle
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyle r_PNormalStyle;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyle RPNormalStyle
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyle r_PNormalStyle;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyle RPNormalStyle
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 hashCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PhashCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPhashCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PhashCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPhashCode
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String styleOpeningDefinition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PstyleOpeningDefinition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPstyleOpeningDefinition
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PstyleOpeningDefinition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPstyleOpeningDefinition
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String styleClosingDefinition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PstyleClosingDefinition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPstyleClosingDefinition
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PstyleClosingDefinition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPstyleClosingDefinition
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UInt32[] styleOpeningTagArray
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_PstyleOpeningTagArray;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> RPstyleOpeningTagArray
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RUInt32> r_PstyleOpeningTagArray;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RUInt32> RPstyleOpeningTagArray
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UInt32[] styleClosingTagArray
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_PstyleClosingTagArray;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RUInt32> RPstyleClosingTagArray
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RUInt32> r_PstyleClosingTagArray;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RUInt32> RPstyleClosingTagArray
 		{
 			get
 			{

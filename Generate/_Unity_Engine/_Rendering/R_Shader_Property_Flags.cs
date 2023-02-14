@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.ShaderPropertyFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyFlags HideInInspector
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FHideInInspector;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFHideInInspector
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FHideInInspector;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFHideInInspector
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyFlags PerRendererData
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FPerRendererData;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFPerRendererData
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FPerRendererData;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFPerRendererData
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyFlags NoScaleOffset
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FNoScaleOffset;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFNoScaleOffset
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FNoScaleOffset;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFNoScaleOffset
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyFlags Normal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FNormal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFNormal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FNormal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFNormal
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyFlags HDR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FHDR;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFHDR
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FHDR;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFHDR
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyFlags Gamma
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FGamma;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFGamma
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FGamma;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFGamma
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyFlags NonModifiableTextureData
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FNonModifiableTextureData;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFNonModifiableTextureData
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FNonModifiableTextureData;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFNonModifiableTextureData
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyFlags MainTexture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FMainTexture;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFMainTexture
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FMainTexture;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFMainTexture
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyFlags MainColor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FMainColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFMainColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags r_FMainColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyFlags RFMainColor
 		{
 			get
 			{

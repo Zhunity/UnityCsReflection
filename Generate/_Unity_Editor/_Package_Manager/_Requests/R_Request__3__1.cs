@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.Requests.Request`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 		/// <summary>
 		/// System.Boolean m_ResultFetched
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_ResultFetched;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_ResultFetched
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_ResultFetched;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_ResultFetched
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 		/// <summary>
 		/// T m_Result
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_Fm_Result;
-		public virtual SMFrame.Editor.Refleaction.RField RFm_Result
+		protected Hvak.Editor.Refleaction.RField r_Fm_Result;
+		public virtual Hvak.Editor.Refleaction.RField RFm_Result
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 		/// <summary>
 		/// T Result
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PResult;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPResult
+		protected Hvak.Editor.Refleaction.RProperty r_PResult;
+		public virtual Hvak.Editor.Refleaction.RProperty RPResult
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeStatusCode NativeStatus
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_PNativeStatus;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RPNativeStatus
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_PNativeStatus;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RPNativeStatus
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 		/// <summary>
 		/// Int64 Id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPId
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPId
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 		/// <summary>
 		/// UnityEditor.PackageManager.StatusCode Status
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode r_PStatus;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode RPStatus
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode r_PStatus;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode RPStatus
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 		/// <summary>
 		/// UnityEditor.PackageManager.Error Error
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RError r_PError;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RError RPError
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RError r_PError;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RError RPError
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.LocalDataStoreHolder
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.LocalDataStore m_Store
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RLocalDataStore r_Fm_Store;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RLocalDataStore RFm_Store
+		protected Hvak.Editor.Refleaction.RSystem.RLocalDataStore r_Fm_Store;
+		public virtual Hvak.Editor.Refleaction.RSystem.RLocalDataStore RFm_Store
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.LocalDataStore Store
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RLocalDataStore r_PStore;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RLocalDataStore RPStore
+		protected Hvak.Editor.Refleaction.RSystem.RLocalDataStore r_PStore;
+		public virtual Hvak.Editor.Refleaction.RSystem.RLocalDataStore RPStore
 		{
 			get
 			{

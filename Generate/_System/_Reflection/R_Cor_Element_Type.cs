@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.CorElementType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Byte value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType End
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FEnd;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFEnd
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FEnd;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFEnd
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType Void
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FVoid;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFVoid
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FVoid;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFVoid
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType Boolean
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FBoolean;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFBoolean
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FBoolean;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFBoolean
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType Char
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FChar;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFChar
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FChar;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFChar
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType I1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FI1;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFI1
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FI1;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFI1
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType U1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FU1;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFU1
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FU1;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFU1
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType I2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FI2;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFI2
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FI2;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFI2
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType U2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FU2;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFU2
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FU2;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFU2
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType I4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FI4;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFI4
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FI4;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFI4
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType U4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FU4;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFU4
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FU4;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFU4
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType I8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FI8;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFI8
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FI8;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFI8
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType U8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FU8;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFU8
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FU8;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFU8
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType R4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FR4;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFR4
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FR4;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFR4
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType R8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FR8;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFR8
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FR8;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFR8
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType String
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FString;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFString
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FString;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFString
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType Ptr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FPtr;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFPtr
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FPtr;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFPtr
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ByRef
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FByRef;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFByRef
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FByRef;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFByRef
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ValueType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FValueType;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFValueType
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FValueType;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFValueType
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType Class
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FClass;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFClass
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FClass;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFClass
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType Var
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FVar;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFVar
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FVar;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFVar
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType Array
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FArray;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFArray
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FArray;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFArray
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType GenericInst
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FGenericInst;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFGenericInst
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FGenericInst;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFGenericInst
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType TypedByRef
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FTypedByRef;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFTypedByRef
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FTypedByRef;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFTypedByRef
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType I
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FI;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFI
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FI;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFI
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType U
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FU;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFU
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FU;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFU
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType FnPtr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FFnPtr;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFFnPtr
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FFnPtr;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFFnPtr
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType Object
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFObject
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FObject;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFObject
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType SzArray
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FSzArray;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFSzArray
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FSzArray;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFSzArray
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType MVar
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FMVar;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFMVar
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FMVar;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFMVar
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType CModReqd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FCModReqd;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFCModReqd
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FCModReqd;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFCModReqd
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType CModOpt
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FCModOpt;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFCModOpt
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FCModOpt;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFCModOpt
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType Internal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FInternal;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFInternal
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FInternal;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFInternal
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType Max
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FMax;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFMax
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FMax;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFMax
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType Modifier
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FModifier;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFModifier
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FModifier;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFModifier
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType Sentinel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FSentinel;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFSentinel
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FSentinel;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFSentinel
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType Pinned
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FPinned;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFPinned
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FPinned;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFPinned
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_END
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_END;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_END
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_END;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_END
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_VOID
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_VOID;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_VOID
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_VOID;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_VOID
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_BOOLEAN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_BOOLEAN;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_BOOLEAN
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_BOOLEAN;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_BOOLEAN
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_CHAR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_CHAR;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_CHAR
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_CHAR;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_CHAR
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_I1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_I1;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_I1
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_I1;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_I1
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_U1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_U1;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_U1
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_U1;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_U1
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_I2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_I2;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_I2
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_I2;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_I2
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_U2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_U2;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_U2
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_U2;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_U2
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_I4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_I4;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_I4
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_I4;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_I4
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_U4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_U4;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_U4
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_U4;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_U4
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_I8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_I8;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_I8
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_I8;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_I8
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_U8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_U8;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_U8
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_U8;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_U8
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_R4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_R4;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_R4
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_R4;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_R4
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_R8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_R8;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_R8
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_R8;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_R8
 		{
 			get
 			{
@@ -881,8 +881,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_STRING
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_STRING;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_STRING
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_STRING;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_STRING
 		{
 			get
 			{
@@ -898,8 +898,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_PTR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_PTR;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_PTR
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_PTR;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_PTR
 		{
 			get
 			{
@@ -915,8 +915,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_BYREF
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_BYREF;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_BYREF
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_BYREF;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_BYREF
 		{
 			get
 			{
@@ -932,8 +932,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_VALUETYPE
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_VALUETYPE;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_VALUETYPE
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_VALUETYPE;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_VALUETYPE
 		{
 			get
 			{
@@ -949,8 +949,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_CLASS
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_CLASS;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_CLASS
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_CLASS;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_CLASS
 		{
 			get
 			{
@@ -966,8 +966,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_VAR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_VAR;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_VAR
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_VAR;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_VAR
 		{
 			get
 			{
@@ -983,8 +983,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_ARRAY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_ARRAY;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_ARRAY
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_ARRAY;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_ARRAY
 		{
 			get
 			{
@@ -1000,8 +1000,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_GENERICINST
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_GENERICINST;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_GENERICINST
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_GENERICINST;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_GENERICINST
 		{
 			get
 			{
@@ -1017,8 +1017,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_TYPEDBYREF
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_TYPEDBYREF;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_TYPEDBYREF
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_TYPEDBYREF;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_TYPEDBYREF
 		{
 			get
 			{
@@ -1034,8 +1034,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_I
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_I;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_I
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_I;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_I
 		{
 			get
 			{
@@ -1051,8 +1051,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_U
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_U;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_U
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_U;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_U
 		{
 			get
 			{
@@ -1068,8 +1068,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_FNPTR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_FNPTR;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_FNPTR
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_FNPTR;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_FNPTR
 		{
 			get
 			{
@@ -1085,8 +1085,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_OBJECT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_OBJECT;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_OBJECT
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_OBJECT;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_OBJECT
 		{
 			get
 			{
@@ -1102,8 +1102,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_SZARRAY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_SZARRAY;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_SZARRAY
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_SZARRAY;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_SZARRAY
 		{
 			get
 			{
@@ -1119,8 +1119,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_MVAR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_MVAR;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_MVAR
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_MVAR;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_MVAR
 		{
 			get
 			{
@@ -1136,8 +1136,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_CMOD_REQD
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_CMOD_REQD;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_CMOD_REQD
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_CMOD_REQD;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_CMOD_REQD
 		{
 			get
 			{
@@ -1153,8 +1153,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_CMOD_OPT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_CMOD_OPT;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_CMOD_OPT
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_CMOD_OPT;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_CMOD_OPT
 		{
 			get
 			{
@@ -1170,8 +1170,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_INTERNAL
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_INTERNAL;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_INTERNAL
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_INTERNAL;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_INTERNAL
 		{
 			get
 			{
@@ -1187,8 +1187,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_MAX
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_MAX;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_MAX
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_MAX;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_MAX
 		{
 			get
 			{
@@ -1204,8 +1204,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_MODIFIER
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_MODIFIER;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_MODIFIER
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_MODIFIER;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_MODIFIER
 		{
 			get
 			{
@@ -1221,8 +1221,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_SENTINEL
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_SENTINEL;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_SENTINEL
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_SENTINEL;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_SENTINEL
 		{
 			get
 			{
@@ -1238,8 +1238,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CorElementType ELEMENT_TYPE_PINNED
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_PINNED;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_PINNED
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType r_FELEMENT_TYPE_PINNED;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType RFELEMENT_TYPE_PINNED
 		{
 			get
 			{

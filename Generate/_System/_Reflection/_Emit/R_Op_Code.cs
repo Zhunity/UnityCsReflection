@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.OpCode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte op1
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fop1;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFop1
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fop1;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFop1
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte op2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fop2;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFop2
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fop2;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFop2
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte push
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fpush;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFpush
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fpush;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFpush
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte pop
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fpop;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFpop
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fpop;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFpop
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fsize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFsize
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fsize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFsize
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Ftype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFtype
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Ftype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFtype
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte args
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fargs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFargs
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fargs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFargs
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte flow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fflow;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFflow
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fflow;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFflow
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 Size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPSize
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OpCodeType OpCodeType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType r_POpCodeType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType RPOpCodeType
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType r_POpCodeType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType RPOpCodeType
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType OperandType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_POperandType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RPOperandType
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_POperandType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RPOperandType
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.FlowControl FlowControl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_PFlowControl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RPFlowControl
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl r_PFlowControl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RFlowControl RPFlowControl
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour StackBehaviourPop
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_PStackBehaviourPop;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RPStackBehaviourPop
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_PStackBehaviourPop;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RPStackBehaviourPop
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.StackBehaviour StackBehaviourPush
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_PStackBehaviourPush;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RPStackBehaviourPush
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour r_PStackBehaviourPush;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RStackBehaviour RPStackBehaviourPush
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int16 Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt16 r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt16 RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RInt16 r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt16 RPValue
 		{
 			get
 			{

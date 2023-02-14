@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
+namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 {
 	/// <summary>
 	/// UnityEditor.Overlays.SaveData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Int32 k_InvalidIndex
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_InvalidIndex;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_InvalidIndex
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_InvalidIndex;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_InvalidIndex
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.DockPosition dockPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockPosition r_FdockPosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RDockPosition RFdockPosition
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockPosition r_FdockPosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockPosition RFdockPosition
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String containerId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FcontainerId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFcontainerId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FcontainerId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFcontainerId
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean floating
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Ffloating;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFfloating
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Ffloating;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFfloating
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean collapsed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fcollapsed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFcollapsed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fcollapsed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFcollapsed
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean displayed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fdisplayed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFdisplayed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fdisplayed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFdisplayed
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEngine.Vector2 snapOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_FsnapOffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFsnapOffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_FsnapOffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFsnapOffset
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEngine.Vector2 snapOffsetDelta
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_FsnapOffsetDelta;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFsnapOffsetDelta
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_FsnapOffsetDelta;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFsnapOffsetDelta
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.SnapCorner snapCorner
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner r_FsnapCorner;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner RFsnapCorner
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner r_FsnapCorner;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner RFsnapCorner
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFid
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFid
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Int32 index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Findex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFindex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Findex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFindex
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.Layout layout
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_Flayout;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFlayout
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_Flayout;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFlayout
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEngine.Vector2 size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Fsize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFsize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fsize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFsize
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean sizeOverriden
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FsizeOverriden;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFsizeOverriden
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FsizeOverriden;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFsizeOverriden
 		{
 			get
 			{
@@ -386,7 +386,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 	    {
 	    }
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData @other)
         {
 
             var ___genericsType = new Type[] {};

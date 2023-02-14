@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections
+namespace Hvak.Editor.Refleaction.RSystem.RCollections
 {
 	/// <summary>
 	/// System.Collections.KeyValuePairs
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Object _key
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F_key;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF_key
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F_key;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF_key
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Object _value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F_value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF_value
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F_value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF_value
 		{
 			get
 			{

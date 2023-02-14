@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.PackageSizeInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_SupportedUnityVersionString
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_SupportedUnityVersionString;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_SupportedUnityVersionString
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_SupportedUnityVersionString;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_SupportedUnityVersionString
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.Scripting.ScriptCompilation.SemVersion m_SupportedUnityVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion r_Fm_SupportedUnityVersion;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion RFm_SupportedUnityVersion
+		protected Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion r_Fm_SupportedUnityVersion;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion RFm_SupportedUnityVersion
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.UInt64 assetCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_FassetCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFassetCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_FassetCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFassetCount
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.UInt64 downloadSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_FdownloadSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFdownloadSize
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_FdownloadSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFdownloadSize
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.Scripting.ScriptCompilation.SemVersion supportedUnityVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion r_PsupportedUnityVersion;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion RPsupportedUnityVersion
+		protected Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion r_PsupportedUnityVersion;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion RPsupportedUnityVersion
 		{
 			get
 			{

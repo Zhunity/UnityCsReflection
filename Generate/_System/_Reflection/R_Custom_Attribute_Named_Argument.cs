@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.CustomAttributeNamedArgument
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CustomAttributeTypedArgument <TypedValue>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument r_F__0__TypedValue__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument RF__0__TypedValue__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument r_F__0__TypedValue__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument RF__0__TypedValue__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Boolean <IsField>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__IsField__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__IsField__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__IsField__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__IsField__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String <MemberName>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__MemberName__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__MemberName__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__MemberName__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__MemberName__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Type _attributeType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_F_attributeType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RF_attributeType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_F_attributeType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RF_attributeType
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MemberInfo _lazyMemberInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberInfo r_F_lazyMemberInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberInfo RF_lazyMemberInfo
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RMemberInfo r_F_lazyMemberInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RMemberInfo RF_lazyMemberInfo
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CustomAttributeTypedArgument TypedValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument r_PTypedValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument RPTypedValue
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument r_PTypedValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument RPTypedValue
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsField
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String MemberName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PMemberName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPMemberName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PMemberName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPMemberName
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MemberInfo MemberInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberInfo r_PMemberInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberInfo RPMemberInfo
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RMemberInfo r_PMemberInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RMemberInfo RPMemberInfo
 		{
 			get
 			{

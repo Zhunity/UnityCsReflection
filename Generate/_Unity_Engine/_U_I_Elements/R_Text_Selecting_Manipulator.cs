@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.TextSelectingManipulator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.TextSelectingUtilities m_SelectingUtilities
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities r_Fm_SelectingUtilities;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities RFm_SelectingUtilities
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities r_Fm_SelectingUtilities;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities RFm_SelectingUtilities
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean selectAllOnMouseUp
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FselectAllOnMouseUp;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFselectAllOnMouseUp
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FselectAllOnMouseUp;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFselectAllOnMouseUp
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextElement m_TextElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement r_Fm_TextElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement RFm_TextElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement r_Fm_TextElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement RFm_TextElement
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 m_ClickStartPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Fm_ClickStartPosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFm_ClickStartPosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fm_ClickStartPosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFm_ClickStartPosition
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_Dragged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_Dragged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_Dragged
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_Dragged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_Dragged
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_IsClicking
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_IsClicking;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_IsClicking
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsClicking;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsClicking
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 k_DragThresholdSqr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_DragThresholdSqr;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_DragThresholdSqr
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_DragThresholdSqr;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_DragThresholdSqr
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Event m_ImguiEvent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.REvent r_Fm_ImguiEvent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.REvent RFm_ImguiEvent
+		protected Hvak.Editor.Refleaction.RUnityEngine.REvent r_Fm_ImguiEvent;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.REvent RFm_ImguiEvent
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isClicking
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisClicking;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisClicking
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisClicking;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisClicking
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 cursorIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PcursorIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPcursorIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PcursorIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPcursorIndex
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 selectIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PselectIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPselectIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PselectIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPselectIndex
 		{
 			get
 			{

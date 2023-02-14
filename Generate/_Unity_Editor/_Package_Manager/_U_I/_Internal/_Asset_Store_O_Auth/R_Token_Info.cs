@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {public partial class RAssetStoreOAuth
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String sub
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fsub;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFsub
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fsub;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFsub
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String scopes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fscopes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFscopes
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fscopes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFscopes
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String clientId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FclientId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFclientId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FclientId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFclientId
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String ipAddress
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FipAddress;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFipAddress
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FipAddress;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFipAddress
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String accessToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FaccessToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFaccessToken
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FaccessToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFaccessToken
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String expiresIn
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PexpiresIn;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPexpiresIn
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PexpiresIn;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPexpiresIn
 		{
 			get
 			{

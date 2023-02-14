@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
+namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 {public partial class RScene
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// UnityEngine.SceneManagement.Scene+LoadingState NotLoaded
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState r_FNotLoaded;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState RFNotLoaded
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState r_FNotLoaded;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState RFNotLoaded
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// UnityEngine.SceneManagement.Scene+LoadingState Loading
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState r_FLoading;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState RFLoading
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState r_FLoading;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState RFLoading
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// UnityEngine.SceneManagement.Scene+LoadingState Loaded
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState r_FLoaded;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState RFLoaded
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState r_FLoaded;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState RFLoaded
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// UnityEngine.SceneManagement.Scene+LoadingState Unloading
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState r_FUnloading;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState RFUnloading
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState r_FUnloading;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState RFUnloading
 		{
 			get
 			{

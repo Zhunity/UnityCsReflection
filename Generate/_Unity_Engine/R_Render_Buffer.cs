@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.RenderBuffer
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_RenderTextureInstanceID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_RenderTextureInstanceID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_RenderTextureInstanceID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_RenderTextureInstanceID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_RenderTextureInstanceID
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_BufferPtr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_BufferPtr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_BufferPtr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_BufferPtr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_BufferPtr
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferLoadAction loadAction
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction r_PloadAction;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction RPloadAction
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction r_PloadAction;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction RPloadAction
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferStoreAction storeAction
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction r_PstoreAction;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction RPstoreAction
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction r_PstoreAction;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction RPstoreAction
 		{
 			get
 			{

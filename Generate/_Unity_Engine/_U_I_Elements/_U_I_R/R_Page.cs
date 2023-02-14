@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.Page
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Page+DataSet`1[UnityEngine.UIElements.Vertex] vertices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage.RDataSet<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> r_Fvertices;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage.RDataSet<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> RFvertices
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage.RDataSet<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> r_Fvertices;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage.RDataSet<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> RFvertices
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Page+DataSet`1[System.UInt16] indices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage.RDataSet<SMFrame.Editor.Refleaction.RSystem.RUInt16> r_Findices;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage.RDataSet<SMFrame.Editor.Refleaction.RSystem.RUInt16> RFindices
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage.RDataSet<Hvak.Editor.Refleaction.RSystem.RUInt16> r_Findices;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage.RDataSet<Hvak.Editor.Refleaction.RSystem.RUInt16> RFindices
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Page next
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage r_Fnext;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage RFnext
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage r_Fnext;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage RFnext
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 framesEmpty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FframesEmpty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFframesEmpty
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FframesEmpty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFframesEmpty
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdisposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdisposed
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean isEmpty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisEmpty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisEmpty
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisEmpty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisEmpty
 		{
 			get
 			{

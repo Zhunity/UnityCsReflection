@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class RArraySegment<T>
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// T[] _array
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RField> r_F_array;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RField> RF_array
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RField> r_F_array;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RField> RF_array
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _start
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_start;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_start
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_start;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_start
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _end
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_end;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_end
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_end;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_end
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_current;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_current
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_current;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_current
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// T Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PCurrent;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPCurrent
+		protected Hvak.Editor.Refleaction.RProperty r_PCurrent;
+		public virtual Hvak.Editor.Refleaction.RProperty RPCurrent
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Object System.Collections.IEnumerator.Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
 		{
 			get
 			{

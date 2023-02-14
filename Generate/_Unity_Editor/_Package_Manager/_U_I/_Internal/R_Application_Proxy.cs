@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.ApplicationProxy
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean m_CheckingCompilation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_CheckingCompilation;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_CheckingCompilation
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_CheckingCompilation;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_CheckingCompilation
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean m_IsInternetReachable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_IsInternetReachable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_IsInternetReachable
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsInternetReachable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsInternetReachable
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Double m_LastInternetCheck
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDouble r_Fm_LastInternetCheck;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDouble RFm_LastInternetCheck
+		protected Hvak.Editor.Refleaction.RSystem.RDouble r_Fm_LastInternetCheck;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDouble RFm_LastInternetCheck
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action`1[System.Boolean] onInternetReachabilityChange
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_FonInternetReachabilityChange;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFonInternetReachabilityChange
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> r_FonInternetReachabilityChange;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> RFonInternetReachabilityChange
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action onFinishCompiling
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_FonFinishCompiling;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RFonFinishCompiling
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_FonFinishCompiling;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFonFinishCompiling
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action`1[UnityEditor.PlayModeStateChange] onPlayModeStateChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPlayModeStateChange> r_FonPlayModeStateChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPlayModeStateChange> RFonPlayModeStateChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPlayModeStateChange> r_FonPlayModeStateChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPlayModeStateChange> RFonPlayModeStateChanged
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action update
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_Fupdate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RFupdate
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_Fupdate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFupdate
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String userAppDataPath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PuserAppDataPath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPuserAppDataPath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PuserAppDataPath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPuserAppDataPath
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isInternetReachable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisInternetReachable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisInternetReachable
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisInternetReachable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisInternetReachable
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isBatchMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisBatchMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisBatchMode
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisBatchMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisBatchMode
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isUpmRunning
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisUpmRunning;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisUpmRunning
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisUpmRunning;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisUpmRunning
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isCompiling
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisCompiling;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisCompiling
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisCompiling;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisCompiling
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String unityVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PunityVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPunityVersion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PunityVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPunityVersion
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String shortUnityVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PshortUnityVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPshortUnityVersion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PshortUnityVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPshortUnityVersion
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isDeveloperBuild
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisDeveloperBuild;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisDeveloperBuild
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDeveloperBuild;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDeveloperBuild
 		{
 			get
 			{

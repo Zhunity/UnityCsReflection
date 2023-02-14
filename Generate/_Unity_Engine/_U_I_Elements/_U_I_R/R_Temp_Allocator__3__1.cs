@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.TempAllocator`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_ExcessMinCapacity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_ExcessMinCapacity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_ExcessMinCapacity
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_ExcessMinCapacity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_ExcessMinCapacity
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_ExcessMaxCapacity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_ExcessMaxCapacity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_ExcessMaxCapacity
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_ExcessMaxCapacity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_ExcessMaxCapacity
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.TempAllocator`1+Page[T] m_Pool
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<SMFrame.Editor.Refleaction.RField>.RPage r_Fm_Pool;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<SMFrame.Editor.Refleaction.RField>.RPage RFm_Pool
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RField>.RPage r_Fm_Pool;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RField>.RPage RFm_Pool
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.UIR.TempAllocator`1+Page[T]] m_Excess
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<SMFrame.Editor.Refleaction.RField>.RPage> r_Fm_Excess;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<SMFrame.Editor.Refleaction.RField>.RPage> RFm_Excess
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RField>.RPage> r_Fm_Excess;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RField>.RPage> RFm_Excess
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_NextExcessSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_NextExcessSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_NextExcessSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_NextExcessSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_NextExcessSize
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdisposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdisposed
 		{
 			get
 			{
@@ -374,14 +374,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RType> Alloc(System.Int32 @count)
+        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> Alloc(System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@count};
             var ___result = RMAlloc_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -407,14 +407,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<SMFrame.Editor.Refleaction.RType>.RStatistics GatherStatistics()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RType>.RStatistics GatherStatistics()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGatherStatistics.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<SMFrame.Editor.Refleaction.RType>.RStatistics(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RType>.RStatistics(___result);
         }
 
 

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
 	/// UnityEngine.TextCore.LowLevel.FontEngineError
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError Success
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FSuccess;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFSuccess
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FSuccess;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFSuccess
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError Invalid_File_Path
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_File_Path;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_File_Path
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_File_Path;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_File_Path
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError Invalid_File_Format
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_File_Format;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_File_Format
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_File_Format;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_File_Format
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError Invalid_File_Structure
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_File_Structure;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_File_Structure
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_File_Structure;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_File_Structure
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError Invalid_File
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_File;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_File
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_File;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_File
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError Invalid_Table
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_Table;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_Table
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_Table;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_Table
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError Invalid_Glyph_Index
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_Glyph_Index;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_Glyph_Index
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_Glyph_Index;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_Glyph_Index
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError Invalid_Character_Code
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_Character_Code;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_Character_Code
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_Character_Code;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_Character_Code
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError Invalid_Pixel_Size
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_Pixel_Size;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_Pixel_Size
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_Pixel_Size;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_Pixel_Size
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError Invalid_Library
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_Library;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_Library
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_Library;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_Library
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError Invalid_Face
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_Face;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_Face
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_Face;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_Face
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError Invalid_Library_or_Face
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_Library_or_Face;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_Library_or_Face
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_Library_or_Face;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_Library_or_Face
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError Atlas_Generation_Cancelled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FAtlas_Generation_Cancelled;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFAtlas_Generation_Cancelled
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FAtlas_Generation_Cancelled;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFAtlas_Generation_Cancelled
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError Invalid_SharedTextureData
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_SharedTextureData;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_SharedTextureData
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FInvalid_SharedTextureData;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFInvalid_SharedTextureData
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.FontEngineError OpenTypeLayoutLookup_Mismatch
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FOpenTypeLayoutLookup_Mismatch;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFOpenTypeLayoutLookup_Mismatch
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FOpenTypeLayoutLookup_Mismatch;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFOpenTypeLayoutLookup_Mismatch
 		{
 			get
 			{

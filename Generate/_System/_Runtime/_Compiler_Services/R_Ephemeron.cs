@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {
 	/// <summary>
 	/// System.Runtime.CompilerServices.Ephemeron
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Object key
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fkey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFkey
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fkey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFkey
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Object value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFvalue
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFvalue
 		{
 			get
 			{

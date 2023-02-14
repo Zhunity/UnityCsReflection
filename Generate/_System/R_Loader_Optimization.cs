@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.LoaderOptimization
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.LoaderOptimization DisallowBindings
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RLoaderOptimization r_FDisallowBindings;
-		public static SMFrame.Editor.Refleaction.RSystem.RLoaderOptimization RFDisallowBindings
+		protected static Hvak.Editor.Refleaction.RSystem.RLoaderOptimization r_FDisallowBindings;
+		public static Hvak.Editor.Refleaction.RSystem.RLoaderOptimization RFDisallowBindings
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.LoaderOptimization DomainMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RLoaderOptimization r_FDomainMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RLoaderOptimization RFDomainMask
+		protected static Hvak.Editor.Refleaction.RSystem.RLoaderOptimization r_FDomainMask;
+		public static Hvak.Editor.Refleaction.RSystem.RLoaderOptimization RFDomainMask
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.LoaderOptimization MultiDomain
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RLoaderOptimization r_FMultiDomain;
-		public static SMFrame.Editor.Refleaction.RSystem.RLoaderOptimization RFMultiDomain
+		protected static Hvak.Editor.Refleaction.RSystem.RLoaderOptimization r_FMultiDomain;
+		public static Hvak.Editor.Refleaction.RSystem.RLoaderOptimization RFMultiDomain
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.LoaderOptimization MultiDomainHost
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RLoaderOptimization r_FMultiDomainHost;
-		public static SMFrame.Editor.Refleaction.RSystem.RLoaderOptimization RFMultiDomainHost
+		protected static Hvak.Editor.Refleaction.RSystem.RLoaderOptimization r_FMultiDomainHost;
+		public static Hvak.Editor.Refleaction.RSystem.RLoaderOptimization RFMultiDomainHost
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.LoaderOptimization NotSpecified
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RLoaderOptimization r_FNotSpecified;
-		public static SMFrame.Editor.Refleaction.RSystem.RLoaderOptimization RFNotSpecified
+		protected static Hvak.Editor.Refleaction.RSystem.RLoaderOptimization r_FNotSpecified;
+		public static Hvak.Editor.Refleaction.RSystem.RLoaderOptimization RFNotSpecified
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.LoaderOptimization SingleDomain
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RLoaderOptimization r_FSingleDomain;
-		public static SMFrame.Editor.Refleaction.RSystem.RLoaderOptimization RFSingleDomain
+		protected static Hvak.Editor.Refleaction.RSystem.RLoaderOptimization r_FSingleDomain;
+		public static Hvak.Editor.Refleaction.RSystem.RLoaderOptimization RFSingleDomain
 		{
 			get
 			{

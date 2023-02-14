@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.ReusableCollectionItem
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 UndefinedIndex
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FUndefinedIndex;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFUndefinedIndex
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FUndefinedIndex;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFUndefinedIndex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement <bindableElement>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_F__0__bindableElement__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RF__0__bindableElement__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_F__0__bindableElement__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RF__0__bindableElement__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Experimental.ValueAnimation`1[UnityEngine.UIElements.Experimental.StyleValues] <animator>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RValueAnimation<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RStyleValues> r_F__0__animator__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RValueAnimation<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RStyleValues> RF__0__animator__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RValueAnimation<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RStyleValues> r_F__0__animator__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RValueAnimation<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RStyleValues> RF__0__animator__1__k__BackingField
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <index>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__index__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__index__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__index__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__index__1__k__BackingField
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <id>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__id__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__id__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__id__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__id__1__k__BackingField
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <isDragGhost>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__isDragGhost__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__isDragGhost__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__isDragGhost__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__isDragGhost__1__k__BackingField
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action`1[UnityEngine.UIElements.ReusableCollectionItem] onGeometryChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem> r_FonGeometryChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem> RFonGeometryChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem> r_FonGeometryChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem> RFonGeometryChanged
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCallback`1[UnityEngine.UIElements.GeometryChangedEvent] m_GeometryChangedEventCallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCallback<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RGeometryChangedEvent> r_Fm_GeometryChangedEventCallback;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCallback<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RGeometryChangedEvent> RFm_GeometryChangedEventCallback
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCallback<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RGeometryChangedEvent> r_Fm_GeometryChangedEventCallback;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCallback<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RGeometryChangedEvent> RFm_GeometryChangedEventCallback
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement rootElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_ProotElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RProotElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_ProotElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RProotElement
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement bindableElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PbindableElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPbindableElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PbindableElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPbindableElement
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Experimental.ValueAnimation`1[UnityEngine.UIElements.Experimental.StyleValues] animator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RValueAnimation<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RStyleValues> r_Panimator;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RValueAnimation<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RStyleValues> RPanimator
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RValueAnimation<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RStyleValues> r_Panimator;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RValueAnimation<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RStyleValues> RPanimator
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pindex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPindex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pindex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPindex
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPid
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPid
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isDragGhost
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisDragGhost;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisDragGhost
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDragGhost;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDragGhost
 		{
 			get
 			{

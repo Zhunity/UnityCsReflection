@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Font
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Action`1[UnityEngine.Font] textureRebuilt
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEngine.RFont> r_FtextureRebuilt;
-		public static SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEngine.RFont> RFtextureRebuilt
+		protected static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RFont> r_FtextureRebuilt;
+		public static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RFont> RFtextureRebuilt
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Font+FontTextureRebuildCallback m_FontTextureRebuildCallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RFont.RFontTextureRebuildCallback r_Fm_FontTextureRebuildCallback;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RFont.RFontTextureRebuildCallback RFm_FontTextureRebuildCallback
+		protected Hvak.Editor.Refleaction.RUnityEngine.RFont.RFontTextureRebuildCallback r_Fm_FontTextureRebuildCallback;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RFont.RFontTextureRebuildCallback RFm_FontTextureRebuildCallback
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Material material
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_Pmaterial;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RPmaterial
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_Pmaterial;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RPmaterial
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String[] fontNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> r_PfontNames;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> RPfontNames
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> r_PfontNames;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> RPfontNames
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean dynamic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pdynamic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdynamic
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pdynamic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdynamic
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 ascent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pascent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPascent
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pascent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPascent
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 fontSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PfontSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPfontSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PfontSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPfontSize
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CharacterInfo[] characterInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RCharacterInfo> r_PcharacterInfo;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RCharacterInfo> RPcharacterInfo
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RCharacterInfo> r_PcharacterInfo;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RCharacterInfo> RPcharacterInfo
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 lineHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PlineHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPlineHeight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PlineHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPlineHeight
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// FontTextureRebuildCallback textureRebuildCallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RFont.RFontTextureRebuildCallback r_PtextureRebuildCallback;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RFont.RFontTextureRebuildCallback RPtextureRebuildCallback
+		protected Hvak.Editor.Refleaction.RUnityEngine.RFont.RFontTextureRebuildCallback r_PtextureRebuildCallback;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RFont.RFontTextureRebuildCallback RPtextureRebuildCallback
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{

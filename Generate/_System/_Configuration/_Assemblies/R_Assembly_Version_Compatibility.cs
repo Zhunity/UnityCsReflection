@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
+namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 {
 	/// <summary>
 	/// System.Configuration.Assemblies.AssemblyVersionCompatibility
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 		/// <summary>
 		/// System.Configuration.Assemblies.AssemblyVersionCompatibility SameMachine
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility r_FSameMachine;
-		public static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility RFSameMachine
+		protected static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility r_FSameMachine;
+		public static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility RFSameMachine
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 		/// <summary>
 		/// System.Configuration.Assemblies.AssemblyVersionCompatibility SameProcess
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility r_FSameProcess;
-		public static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility RFSameProcess
+		protected static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility r_FSameProcess;
+		public static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility RFSameProcess
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 		/// <summary>
 		/// System.Configuration.Assemblies.AssemblyVersionCompatibility SameDomain
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility r_FSameDomain;
-		public static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility RFSameDomain
+		protected static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility r_FSameDomain;
+		public static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility RFSameDomain
 		{
 			get
 			{

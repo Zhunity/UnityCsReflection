@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
+namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
 	/// System.Collections.Generic.KeyValuePair`2
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// TKey key
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_Fkey;
-		public virtual SMFrame.Editor.Refleaction.RField RFkey
+		protected Hvak.Editor.Refleaction.RField r_Fkey;
+		public virtual Hvak.Editor.Refleaction.RField RFkey
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// TValue value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RField RFvalue
+		protected Hvak.Editor.Refleaction.RField r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RField RFvalue
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// TKey Key
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PKey;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPKey
+		protected Hvak.Editor.Refleaction.RProperty r_PKey;
+		public virtual Hvak.Editor.Refleaction.RProperty RPKey
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// TValue Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPValue
+		protected Hvak.Editor.Refleaction.RProperty r_PValue;
+		public virtual Hvak.Editor.Refleaction.RProperty RPValue
 		{
 			get
 			{

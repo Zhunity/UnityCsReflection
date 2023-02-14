@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
+namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {public partial class RRegex
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Regex+CachedCodeEntry Next
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry r_FNext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry RFNext
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry r_FNext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry RFNext
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Regex+CachedCodeEntry Previous
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry r_FPrevious;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry RFPrevious
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry r_FPrevious;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry RFPrevious
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Regex+CachedCodeEntryKey Key
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey r_FKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey RFKey
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey r_FKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey RFKey
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexCode Code
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexCode r_FCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexCode RFCode
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexCode r_FCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexCode RFCode
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Collections.Hashtable Caps
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable r_FCaps;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable RFCaps
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_FCaps;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RFCaps
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Collections.Hashtable Capnames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable r_FCapnames;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable RFCapnames
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_FCapnames;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RFCapnames
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String[] Capslist
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FCapslist;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFCapslist
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FCapslist;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFCapslist
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexRunnerFactory Factory
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunnerFactory r_FFactory;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunnerFactory RFFactory
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunnerFactory r_FFactory;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunnerFactory RFFactory
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Capsize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCapsize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFCapsize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FCapsize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFCapsize
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.ExclusiveReference Runnerref
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RExclusiveReference r_FRunnerref;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RExclusiveReference RFRunnerref
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RExclusiveReference r_FRunnerref;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RExclusiveReference RFRunnerref
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.WeakReference`1[System.Text.RegularExpressions.RegexReplacement] ReplRef
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RWeakReference<SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement> r_FReplRef;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RWeakReference<SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement> RFReplRef
+		protected Hvak.Editor.Refleaction.RSystem.RWeakReference<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement> r_FReplRef;
+		public virtual Hvak.Editor.Refleaction.RSystem.RWeakReference<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement> RFReplRef
 		{
 			get
 			{

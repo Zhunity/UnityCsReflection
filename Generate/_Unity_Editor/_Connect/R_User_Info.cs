@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
+namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 {
 	/// <summary>
 	/// UnityEditor.Connect.UserInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.Boolean m_Valid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_Valid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_Valid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_Valid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_Valid
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String m_UserId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_UserId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_UserId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_UserId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_UserId
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String m_UserName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_UserName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_UserName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_UserName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_UserName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String m_DisplayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_DisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_DisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_DisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_DisplayName
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String m_PrimaryOrg
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_PrimaryOrg;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_PrimaryOrg
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PrimaryOrg;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PrimaryOrg
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String m_OrganizationForeignKeys
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_OrganizationForeignKeys;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_OrganizationForeignKeys
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_OrganizationForeignKeys;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_OrganizationForeignKeys
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String[] m_OrganizationNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_Fm_OrganizationNames;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFm_OrganizationNames
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_OrganizationNames;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFm_OrganizationNames
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String m_AccessToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_AccessToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_AccessToken
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_AccessToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_AccessToken
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.Int32 m_Whitelisted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Whitelisted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Whitelisted
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Whitelisted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Whitelisted
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// Boolean valid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pvalid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPvalid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvalid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPvalid
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String userId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PuserId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPuserId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PuserId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPuserId
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String userName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PuserName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPuserName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PuserName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPuserName
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PdisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPdisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PdisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPdisplayName
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String primaryOrg
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PprimaryOrg;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPprimaryOrg
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PprimaryOrg;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPprimaryOrg
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// Boolean whitelisted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pwhitelisted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPwhitelisted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pwhitelisted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPwhitelisted
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String organizationForeignKeys
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PorganizationForeignKeys;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPorganizationForeignKeys
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PorganizationForeignKeys;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPorganizationForeignKeys
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String accessToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PaccessToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPaccessToken
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PaccessToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPaccessToken
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RConnect
 		/// <summary>
 		/// System.String[] organizationNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> r_PorganizationNames;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> RPorganizationNames
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> r_PorganizationNames;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> RPorganizationNames
 		{
 			get
 			{

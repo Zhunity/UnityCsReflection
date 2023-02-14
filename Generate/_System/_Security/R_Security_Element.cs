@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 {
 	/// <summary>
 	/// System.Security.SecurityElement
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ftext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFtext
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ftext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFtext
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String tag
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ftag;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFtag
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ftag;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFtag
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Collections.ArrayList attributes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_Fattributes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RFattributes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_Fattributes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RFattributes
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Collections.ArrayList children
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_Fchildren;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RFchildren
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_Fchildren;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RFchildren
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Char[] invalid_tag_chars
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> r_Finvalid_tag_chars;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> RFinvalid_tag_chars
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> r_Finvalid_tag_chars;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> RFinvalid_tag_chars
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Char[] invalid_text_chars
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> r_Finvalid_text_chars;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> RFinvalid_text_chars
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> r_Finvalid_text_chars;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> RFinvalid_text_chars
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Char[] invalid_attr_name_chars
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> r_Finvalid_attr_name_chars;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> RFinvalid_attr_name_chars
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> r_Finvalid_attr_name_chars;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> RFinvalid_attr_name_chars
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Char[] invalid_attr_value_chars
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> r_Finvalid_attr_value_chars;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> RFinvalid_attr_value_chars
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> r_Finvalid_attr_value_chars;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> RFinvalid_attr_value_chars
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Char[] invalid_chars
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> r_Finvalid_chars;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> RFinvalid_chars
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> r_Finvalid_chars;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> RFinvalid_chars
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Collections.Hashtable Attributes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable r_PAttributes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable RPAttributes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_PAttributes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RPAttributes
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Collections.ArrayList Children
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_PChildren;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RPChildren
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_PChildren;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RPChildren
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String Tag
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PTag;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPTag
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PTag;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPTag
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String Text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PText;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPText
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PText;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPText
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String m_strTag
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pm_strTag;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPm_strTag
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pm_strTag;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPm_strTag
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String m_strText
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pm_strText;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPm_strText
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pm_strText;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPm_strText
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Collections.ArrayList m_lAttributes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_Pm_lAttributes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RPm_lAttributes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_Pm_lAttributes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RPm_lAttributes
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Collections.ArrayList InternalChildren
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_PInternalChildren;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RPInternalChildren
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_PInternalChildren;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RPInternalChildren
 		{
 			get
 			{
@@ -886,14 +886,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RSecurityElement.RSecurityAttribute GetAttribute(System.String @name)
+        public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityElement.RSecurityAttribute GetAttribute(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
             var ___result = RMGetAttribute_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RSecurity.RSecurityElement.RSecurityAttribute(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityElement.RSecurityAttribute(___result);
         }
 
 

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.MouseLeaveEvent
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.EventModifiers modifiers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers r_Pmodifiers;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.REventModifiers RPmodifiers
+		protected Hvak.Editor.Refleaction.RUnityEngine.REventModifiers r_Pmodifiers;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.REventModifiers RPmodifiers
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 mousePosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PmousePosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPmousePosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PmousePosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPmousePosition
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 localMousePosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PlocalMousePosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPlocalMousePosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PlocalMousePosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPlocalMousePosition
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 mouseDelta
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PmouseDelta;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPmouseDelta
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PmouseDelta;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPmouseDelta
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 clickCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PclickCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPclickCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PclickCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPclickCount
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 button
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pbutton;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPbutton
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pbutton;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPbutton
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 pressedButtons
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PpressedButtons;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPpressedButtons
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PpressedButtons;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPpressedButtons
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean shiftKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PshiftKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPshiftKey
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PshiftKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPshiftKey
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean ctrlKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PctrlKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPctrlKey
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PctrlKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPctrlKey
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean commandKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PcommandKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPcommandKey
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcommandKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcommandKey
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean altKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PaltKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPaltKey
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PaltKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPaltKey
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean actionKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PactionKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPactionKey
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PactionKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPactionKey
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IEventHandler currentTarget
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler r_PcurrentTarget;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler RPcurrentTarget
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler r_PcurrentTarget;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler RPcurrentTarget
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 eventTypeId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PeventTypeId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPeventTypeId
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PeventTypeId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPeventTypeId
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory eventCategory
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_PeventCategory;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RPeventCategory
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_PeventCategory;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RPeventCategory
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 timestamp
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Ptimestamp;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPtimestamp
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Ptimestamp;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPtimestamp
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt64 eventId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_PeventId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RPeventId
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_PeventId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RPeventId
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt64 triggerEventId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_PtriggerEventId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RPtriggerEventId
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_PtriggerEventId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RPtriggerEventId
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// EventPropagation propagation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation r_Ppropagation;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation RPpropagation
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation r_Ppropagation;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation RPpropagation
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PropagationPaths path
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths r_Ppath;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths RPpath
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths r_Ppath;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths RPpath
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean bubbles
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pbubbles;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPbubbles
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pbubbles;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPbubbles
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean tricklesDown
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PtricklesDown;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPtricklesDown
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PtricklesDown;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPtricklesDown
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean bubblesOrTricklesDown
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PbubblesOrTricklesDown;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPbubblesOrTricklesDown
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PbubblesOrTricklesDown;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPbubblesOrTricklesDown
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean skipDisabledElements
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PskipDisabledElements;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPskipDisabledElements
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PskipDisabledElements;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPskipDisabledElements
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean ignoreCompositeRoots
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PignoreCompositeRoots;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPignoreCompositeRoots
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PignoreCompositeRoots;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPignoreCompositeRoots
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IEventHandler leafTarget
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler r_PleafTarget;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler RPleafTarget
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler r_PleafTarget;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler RPleafTarget
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IEventHandler target
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler r_Ptarget;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler RPtarget
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler r_Ptarget;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler RPtarget
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.IEventHandler] skipElements
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler> r_PskipElements;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler> RPskipElements
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler> r_PskipElements;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler> RPskipElements
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isPropagationStopped
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisPropagationStopped;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisPropagationStopped
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisPropagationStopped;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisPropagationStopped
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isImmediatePropagationStopped
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisImmediatePropagationStopped;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisImmediatePropagationStopped
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisImmediatePropagationStopped;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisImmediatePropagationStopped
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isDefaultPrevented
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisDefaultPrevented;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisDefaultPrevented
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDefaultPrevented;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDefaultPrevented
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PropagationPhase propagationPhase
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_PpropagationPhase;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RPpropagationPhase
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_PpropagationPhase;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RPpropagationPhase
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean dispatch
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pdispatch;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdispatch
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pdispatch;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdispatch
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean processed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pprocessed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPprocessed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pprocessed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPprocessed
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean processedByFocusController
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PprocessedByFocusController;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPprocessedByFocusController
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PprocessedByFocusController;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPprocessedByFocusController
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean stopDispatch
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PstopDispatch;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPstopDispatch
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PstopDispatch;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPstopDispatch
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean propagateToIMGUI
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PpropagateToIMGUI;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPpropagateToIMGUI
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PpropagateToIMGUI;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPpropagateToIMGUI
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Event imguiEvent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.REvent r_PimguiEvent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.REvent RPimguiEvent
+		protected Hvak.Editor.Refleaction.RUnityEngine.REvent r_PimguiEvent;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.REvent RPimguiEvent
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 originalMousePosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PoriginalMousePosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPoriginalMousePosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PoriginalMousePosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPoriginalMousePosition
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventDebugger eventLogger
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebugger r_PeventLogger;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebugger RPeventLogger
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebugger r_PeventLogger;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebugger RPeventLogger
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean log
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Plog;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPlog
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Plog;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPlog
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean pooled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Ppooled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPpooled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Ppooled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPpooled
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.IStylePropertyAnimationSystem
@@ -420,7 +420,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, System.Single @startValue, System.Single @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, System.Single @startValue, System.Single @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -431,7 +431,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, System.Int32 @startValue, System.Int32 @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, System.Int32 @startValue, System.Int32 @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -442,7 +442,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.Length @startValue, UnityEngine.UIElements.Length @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.Length @startValue, UnityEngine.UIElements.Length @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -453,7 +453,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.Color @startValue, UnityEngine.Color @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.Color @startValue, UnityEngine.Color @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -464,7 +464,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartAnimationEnum(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, System.Int32 @startValue, System.Int32 @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartAnimationEnum(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, System.Int32 @startValue, System.Int32 @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -475,7 +475,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.Background @startValue, UnityEngine.UIElements.Background @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.Background @startValue, UnityEngine.UIElements.Background @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -486,7 +486,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.FontDefinition @startValue, UnityEngine.UIElements.FontDefinition @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.FontDefinition @startValue, UnityEngine.UIElements.FontDefinition @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -497,7 +497,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.Font @startValue, UnityEngine.Font @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.Font @startValue, UnityEngine.Font @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -508,7 +508,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.TextShadow @startValue, UnityEngine.UIElements.TextShadow @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.TextShadow @startValue, UnityEngine.UIElements.TextShadow @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -519,7 +519,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.Scale @startValue, UnityEngine.UIElements.Scale @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.Scale @startValue, UnityEngine.UIElements.Scale @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.TransformOrigin @startValue, UnityEngine.UIElements.TransformOrigin @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.TransformOrigin @startValue, UnityEngine.UIElements.TransformOrigin @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -541,7 +541,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.Translate @startValue, UnityEngine.UIElements.Translate @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.Translate @startValue, UnityEngine.UIElements.Translate @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -552,7 +552,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.Rotate @startValue, UnityEngine.UIElements.Rotate @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.Rotate @startValue, UnityEngine.UIElements.Rotate @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -563,7 +563,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.BackgroundPosition @startValue, UnityEngine.UIElements.BackgroundPosition @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.BackgroundPosition @startValue, UnityEngine.UIElements.BackgroundPosition @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -574,7 +574,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.BackgroundRepeat @startValue, UnityEngine.UIElements.BackgroundRepeat @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.BackgroundRepeat @startValue, UnityEngine.UIElements.BackgroundRepeat @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -585,7 +585,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.BackgroundSize @startValue, UnityEngine.UIElements.BackgroundSize @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
+        public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, UnityEngine.UIElements.BackgroundSize @startValue, UnityEngine.UIElements.BackgroundSize @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -618,7 +618,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void CancelAnimation(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual void CancelAnimation(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -629,7 +629,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasRunningAnimation(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual System.Boolean HasRunningAnimation(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -640,7 +640,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UpdateAnimation(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
+        public virtual void UpdateAnimation(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -651,7 +651,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void GetAllAnimations(UnityEngine.UIElements.VisualElement @owner, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId> @propertyIds)
+        public virtual void GetAllAnimations(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId> @propertyIds)
         {
 
             var ___genericsType = new Type[] {};

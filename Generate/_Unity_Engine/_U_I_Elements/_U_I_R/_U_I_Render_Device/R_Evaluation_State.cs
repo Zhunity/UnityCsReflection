@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {public partial class RUIRenderDevice
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.MaterialPropertyBlock stateMatProps
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyBlock r_FstateMatProps;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyBlock RFstateMatProps
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyBlock r_FstateMatProps;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyBlock RFstateMatProps
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Material defaultMat
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_FdefaultMat;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RFdefaultMat
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_FdefaultMat;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RFdefaultMat
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.State curState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RState r_FcurState;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RState RFcurState
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RState r_FcurState;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RState RFcurState
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Page curPage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage r_FcurPage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage RFcurPage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage r_FcurPage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage RFcurPage
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean mustApplyMaterial
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FmustApplyMaterial;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFmustApplyMaterial
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FmustApplyMaterial;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFmustApplyMaterial
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean mustApplyCommonBlock
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FmustApplyCommonBlock;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFmustApplyCommonBlock
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FmustApplyCommonBlock;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFmustApplyCommonBlock
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean mustApplyStateBlock
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FmustApplyStateBlock;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFmustApplyStateBlock
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FmustApplyStateBlock;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFmustApplyStateBlock
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean mustApplyStencil
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FmustApplyStencil;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFmustApplyStencil
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FmustApplyStencil;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFmustApplyStencil
 		{
 			get
 			{

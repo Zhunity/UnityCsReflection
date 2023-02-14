@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.ThreadAbortException
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.String _message
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_message;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_message
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_message;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_message
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 _HResult
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_HResult;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_HResult
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_HResult;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_HResult
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Diagnostics.StackTrace[] captured_traces
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace> r_Fcaptured_traces;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace> RFcaptured_traces
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace> r_Fcaptured_traces;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace> RFcaptured_traces
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Object ExceptionState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PExceptionState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPExceptionState
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PExceptionState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPExceptionState
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.String Message
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PMessage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPMessage
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PMessage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPMessage
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Collections.IDictionary Data
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RIDictionary r_PData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RIDictionary RPData
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RIDictionary r_PData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RIDictionary RPData
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Exception InnerException
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RException r_PInnerException;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RException RPInnerException
+		protected Hvak.Editor.Refleaction.RSystem.RException r_PInnerException;
+		public virtual Hvak.Editor.Refleaction.RSystem.RException RPInnerException
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Reflection.MethodBase TargetSite
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodBase r_PTargetSite;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodBase RPTargetSite
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RMethodBase r_PTargetSite;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RMethodBase RPTargetSite
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.String StackTrace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PStackTrace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPStackTrace
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PStackTrace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPStackTrace
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.String HelpLink
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PHelpLink;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPHelpLink
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PHelpLink;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPHelpLink
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.String Source
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PSource;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPSource
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PSource;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPSource
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.String RemoteStackTrace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PRemoteStackTrace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPRemoteStackTrace
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PRemoteStackTrace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPRemoteStackTrace
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 HResult
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PHResult;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPHResult
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PHResult;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPHResult
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsTransient
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsTransient;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsTransient
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsTransient;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsTransient
 		{
 			get
 			{

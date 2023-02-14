@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.PackageSource
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageSource Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource RFUnknown
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource r_FUnknown;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageSource Registry
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource r_FRegistry;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource RFRegistry
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource r_FRegistry;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource RFRegistry
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageSource BuiltIn
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource r_FBuiltIn;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource RFBuiltIn
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource r_FBuiltIn;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource RFBuiltIn
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageSource Embedded
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource r_FEmbedded;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource RFEmbedded
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource r_FEmbedded;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource RFEmbedded
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageSource Local
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource r_FLocal;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource RFLocal
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource r_FLocal;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource RFLocal
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageSource Git
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource r_FGit;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource RFGit
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource r_FGit;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource RFGit
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageSource LocalTarball
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource r_FLocalTarball;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource RFLocalTarball
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource r_FLocalTarball;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageSource RFLocalTarball
 		{
 			get
 			{

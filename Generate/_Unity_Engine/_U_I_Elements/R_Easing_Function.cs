@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.EasingFunction
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode m_Mode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_Fm_Mode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFm_Mode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_Fm_Mode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFm_Mode
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode mode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_Pmode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RPmode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_Pmode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RPmode
 		{
 			get
 			{

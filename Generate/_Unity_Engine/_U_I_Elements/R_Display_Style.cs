@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.DisplayStyle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DisplayStyle Flex
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDisplayStyle r_FFlex;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDisplayStyle RFFlex
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDisplayStyle r_FFlex;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDisplayStyle RFFlex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DisplayStyle None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDisplayStyle r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDisplayStyle RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDisplayStyle r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDisplayStyle RFNone
 		{
 			get
 			{

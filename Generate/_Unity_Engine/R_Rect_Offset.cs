@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.RectOffset
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Object m_SourceStyle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fm_SourceStyle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFm_SourceStyle
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fm_SourceStyle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFm_SourceStyle
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 left
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pleft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPleft
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pleft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPleft
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 right
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pright;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPright
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pright;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPright
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 top
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ptop;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPtop
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ptop;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPtop
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 bottom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pbottom;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPbottom
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pbottom;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPbottom
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 horizontal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Phorizontal;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPhorizontal
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Phorizontal;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPhorizontal
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 vertical
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pvertical;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPvertical
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pvertical;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPvertical
 		{
 			get
 			{

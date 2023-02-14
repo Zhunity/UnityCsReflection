@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections
+namespace Hvak.Editor.Refleaction.RSystem.RCollections
 {
 	/// <summary>
 	/// System.Collections.IList
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Object Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPItem_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPItem_Int32
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsReadOnly
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Boolean IsFixedSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsFixedSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsFixedSize
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsFixedSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsFixedSize
 		{
 			get
 			{

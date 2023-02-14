@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.ErrorCode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ErrorCode Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode RFUnknown
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode r_FUnknown;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ErrorCode NotFound
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode r_FNotFound;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode RFNotFound
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode r_FNotFound;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode RFNotFound
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ErrorCode Forbidden
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode r_FForbidden;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode RFForbidden
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode r_FForbidden;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode RFForbidden
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ErrorCode InvalidParameter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode r_FInvalidParameter;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode RFInvalidParameter
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode r_FInvalidParameter;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode RFInvalidParameter
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ErrorCode Conflict
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode r_FConflict;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode RFConflict
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode r_FConflict;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode RFConflict
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ErrorCode AggregateError
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode r_FAggregateError;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode RFAggregateError
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode r_FAggregateError;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode RFAggregateError
 		{
 			get
 			{

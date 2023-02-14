@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.GPUFence
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean passed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Ppassed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPpassed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Ppassed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPpassed
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {public partial class RPopupList
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.PopupList+ListElement] m_ListElements
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPopupList.RListElement> r_Fm_ListElements;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPopupList.RListElement> RFm_ListElements
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPopupList.RListElement> r_Fm_ListElements;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPopupList.RListElement> RFm_ListElements
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_CloseOnSelection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_CloseOnSelection;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_CloseOnSelection
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_CloseOnSelection;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_CloseOnSelection
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_AllowCustom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_AllowCustom;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_AllowCustom
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_AllowCustom;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_AllowCustom
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_EnableAutoCompletion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_EnableAutoCompletion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_EnableAutoCompletion
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_EnableAutoCompletion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_EnableAutoCompletion
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_SortAlphabetically
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_SortAlphabetically;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_SortAlphabetically
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_SortAlphabetically;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_SortAlphabetically
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PopupList+OnSelectCallback m_OnSelectCallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPopupList.ROnSelectCallback r_Fm_OnSelectCallback;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPopupList.ROnSelectCallback RFm_OnSelectCallback
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPopupList.ROnSelectCallback r_Fm_OnSelectCallback;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPopupList.ROnSelectCallback RFm_OnSelectCallback
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_MaxCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_MaxCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_MaxCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_MaxCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_MaxCount
 		{
 			get
 			{
@@ -393,25 +393,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEditor.RPopupList.RListElement> BuildQuery(System.String @prefix)
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPopupList.RListElement> BuildQuery(System.String @prefix)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@prefix};
             var ___result = RMBuildQuery_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEditor.RPopupList.RListElement>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPopupList.RListElement>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEditor.RPopupList.RListElement> GetFilteredList(System.String @prefix)
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPopupList.RListElement> GetFilteredList(System.String @prefix)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@prefix};
             var ___result = RMGetFilteredList_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEditor.RPopupList.RListElement>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPopupList.RListElement>(___result);
         }
 
 
@@ -437,14 +437,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPopupList.RListElement NewOrMatchingElement(System.String @label)
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPopupList.RListElement NewOrMatchingElement(System.String @label)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@label};
             var ___result = RMNewOrMatchingElement_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPopupList.RListElement(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPopupList.RListElement(___result);
         }
 
 

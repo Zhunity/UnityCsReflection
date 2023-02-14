@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Gradient
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GradientColorKey[] colorKeys
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RGradientColorKey> r_PcolorKeys;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RGradientColorKey> RPcolorKeys
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RGradientColorKey> r_PcolorKeys;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RGradientColorKey> RPcolorKeys
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GradientAlphaKey[] alphaKeys
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RGradientAlphaKey> r_PalphaKeys;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RGradientAlphaKey> RPalphaKeys
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RGradientAlphaKey> r_PalphaKeys;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RGradientAlphaKey> RPalphaKeys
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GradientMode mode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGradientMode r_Pmode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGradientMode RPmode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGradientMode r_Pmode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGradientMode RPmode
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ColorSpace colorSpace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColorSpace r_PcolorSpace;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColorSpace RPcolorSpace
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColorSpace r_PcolorSpace;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColorSpace RPcolorSpace
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color constantColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_PconstantColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RPconstantColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_PconstantColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RPconstantColor
 		{
 			get
 			{

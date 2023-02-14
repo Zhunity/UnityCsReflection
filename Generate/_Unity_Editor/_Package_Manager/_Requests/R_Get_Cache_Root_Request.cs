@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.Requests.GetCacheRootRequest
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 		/// <summary>
 		/// UnityEditor.PackageManager.CacheRootConfig Result
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RCacheRootConfig r_PResult;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RCacheRootConfig RPResult
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RCacheRootConfig r_PResult;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RCacheRootConfig RPResult
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeStatusCode NativeStatus
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_PNativeStatus;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RPNativeStatus
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode r_PNativeStatus;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeStatusCode RPNativeStatus
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 		/// <summary>
 		/// Int64 Id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPId
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPId
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 		/// <summary>
 		/// UnityEditor.PackageManager.StatusCode Status
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode r_PStatus;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode RPStatus
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode r_PStatus;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode RPStatus
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 		/// <summary>
 		/// UnityEditor.PackageManager.Error Error
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RError r_PError;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RError RPError
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RError r_PError;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RError RPError
 		{
 			get
 			{
@@ -284,25 +284,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RCacheRootConfig GetResult()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RCacheRootConfig GetResult()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetResult.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RCacheRootConfig(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RCacheRootConfig(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RCacheRootConfig GetOperationData(System.Int64 @operationId)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RCacheRootConfig GetOperationData(System.Int64 @operationId)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@operationId};
             var ___result = RMGetOperationData_Int64.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RCacheRootConfig(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RCacheRootConfig(___result);
         }
 
 

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RGUILayoutOption
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type fixedWidth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FfixedWidth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFfixedWidth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FfixedWidth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFfixedWidth
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type fixedHeight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FfixedHeight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFfixedHeight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FfixedHeight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFfixedHeight
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type minWidth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FminWidth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFminWidth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FminWidth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFminWidth
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type maxWidth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FmaxWidth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFmaxWidth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FmaxWidth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFmaxWidth
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type minHeight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FminHeight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFminHeight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FminHeight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFminHeight
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type maxHeight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FmaxHeight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFmaxHeight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FmaxHeight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFmaxHeight
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type stretchWidth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FstretchWidth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFstretchWidth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FstretchWidth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFstretchWidth
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type stretchHeight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FstretchHeight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFstretchHeight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FstretchHeight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFstretchHeight
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type alignStart
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FalignStart;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFalignStart
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FalignStart;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFalignStart
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type alignMiddle
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FalignMiddle;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFalignMiddle
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FalignMiddle;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFalignMiddle
 		{
 			get
 			{
@@ -203,8 +203,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type alignEnd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FalignEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFalignEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FalignEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFalignEnd
 		{
 			get
 			{
@@ -220,8 +220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type alignJustify
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FalignJustify;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFalignJustify
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FalignJustify;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFalignJustify
 		{
 			get
 			{
@@ -237,8 +237,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type equalSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FequalSize;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFequalSize
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_FequalSize;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFequalSize
 		{
 			get
 			{
@@ -254,8 +254,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type spacing
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_Fspacing;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFspacing
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_Fspacing;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFspacing
 		{
 			get
 			{

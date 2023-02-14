@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.EventWaitHandleRights
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.EventWaitHandleRights Modify
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights r_FModify;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights RFModify
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights r_FModify;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights RFModify
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.EventWaitHandleRights Delete
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights r_FDelete;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights RFDelete
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights r_FDelete;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights RFDelete
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.EventWaitHandleRights ReadPermissions
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights r_FReadPermissions;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights RFReadPermissions
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights r_FReadPermissions;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights RFReadPermissions
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.EventWaitHandleRights ChangePermissions
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights r_FChangePermissions;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights RFChangePermissions
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights r_FChangePermissions;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights RFChangePermissions
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.EventWaitHandleRights TakeOwnership
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights r_FTakeOwnership;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights RFTakeOwnership
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights r_FTakeOwnership;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights RFTakeOwnership
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.EventWaitHandleRights Synchronize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights r_FSynchronize;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights RFSynchronize
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights r_FSynchronize;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights RFSynchronize
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.EventWaitHandleRights FullControl
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights r_FFullControl;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights RFFullControl
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights r_FFullControl;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.REventWaitHandleRights RFFullControl
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.IAsyncResult
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Threading.WaitHandle AsyncWaitHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RWaitHandle r_PAsyncWaitHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RWaitHandle RPAsyncWaitHandle
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RWaitHandle r_PAsyncWaitHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RWaitHandle RPAsyncWaitHandle
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Object AsyncState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PAsyncState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPAsyncState
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PAsyncState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPAsyncState
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean CompletedSynchronously
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PCompletedSynchronously;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPCompletedSynchronously
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PCompletedSynchronously;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPCompletedSynchronously
 		{
 			get
 			{

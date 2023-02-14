@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.DateTimeFormatFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeFormatFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeFormatFlags UseGenitiveMonth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FUseGenitiveMonth;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFUseGenitiveMonth
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FUseGenitiveMonth;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFUseGenitiveMonth
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeFormatFlags UseLeapYearMonth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FUseLeapYearMonth;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFUseLeapYearMonth
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FUseLeapYearMonth;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFUseLeapYearMonth
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeFormatFlags UseSpacesInMonthNames
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FUseSpacesInMonthNames;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFUseSpacesInMonthNames
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FUseSpacesInMonthNames;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFUseSpacesInMonthNames
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeFormatFlags UseHebrewRule
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FUseHebrewRule;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFUseHebrewRule
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FUseHebrewRule;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFUseHebrewRule
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeFormatFlags UseSpacesInDayNames
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FUseSpacesInDayNames;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFUseSpacesInDayNames
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FUseSpacesInDayNames;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFUseSpacesInDayNames
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeFormatFlags UseDigitPrefixInTokens
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FUseDigitPrefixInTokens;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFUseDigitPrefixInTokens
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FUseDigitPrefixInTokens;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFUseDigitPrefixInTokens
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeFormatFlags NotInitialized
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FNotInitialized;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFNotInitialized
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags r_FNotInitialized;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeFormatFlags RFNotInitialized
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections
+namespace Hvak.Editor.Refleaction.RSystem.RCollections
 {public partial class RHashtable
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Object key
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fkey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFkey
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fkey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFkey
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Object val
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fval;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFval
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fval;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFval
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 hash_coll
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fhash_coll;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFhash_coll
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fhash_coll;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFhash_coll
 		{
 			get
 			{

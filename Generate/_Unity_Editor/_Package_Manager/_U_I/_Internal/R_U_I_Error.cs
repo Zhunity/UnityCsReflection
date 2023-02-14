@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.UIError
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_EntitlementErrorMessage
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_EntitlementErrorMessage;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_EntitlementErrorMessage
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_EntitlementErrorMessage;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_EntitlementErrorMessage
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_InvalidSignatureWarningMessage
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_InvalidSignatureWarningMessage;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_InvalidSignatureWarningMessage
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_InvalidSignatureWarningMessage;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_InvalidSignatureWarningMessage
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_UnsignedUnityPackageWarningMessage
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_UnsignedUnityPackageWarningMessage;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_UnsignedUnityPackageWarningMessage
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_UnsignedUnityPackageWarningMessage;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_UnsignedUnityPackageWarningMessage
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_ReadMoreDocsUrl
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_ReadMoreDocsUrl;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_ReadMoreDocsUrl
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_ReadMoreDocsUrl;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_ReadMoreDocsUrl
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.UIError k_EntitlementError
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError r_Fk_EntitlementError;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError RFk_EntitlementError
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError r_Fk_EntitlementError;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError RFk_EntitlementError
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.UIError k_EntitlementWarning
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError r_Fk_EntitlementWarning;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError RFk_EntitlementWarning
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError r_Fk_EntitlementWarning;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError RFk_EntitlementWarning
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.UIError k_InvalidSignatureWarning
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError r_Fk_InvalidSignatureWarning;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError RFk_InvalidSignatureWarning
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError r_Fk_InvalidSignatureWarning;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError RFk_InvalidSignatureWarning
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.UIError k_UnsignedUnityPackageWarning
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError r_Fk_UnsignedUnityPackageWarning;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError RFk_UnsignedUnityPackageWarning
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError r_Fk_UnsignedUnityPackageWarning;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError RFk_UnsignedUnityPackageWarning
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode m_ErrorCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_Fm_ErrorCode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFm_ErrorCode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_Fm_ErrorCode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFm_ErrorCode
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_Message
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Message;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Message
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Message;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Message
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.UIError+Attribute m_Attribute
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError.RAttribute r_Fm_Attribute;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError.RAttribute RFm_Attribute
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError.RAttribute r_Fm_Attribute;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError.RAttribute RFm_Attribute
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int32 m_OperationErrorCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_OperationErrorCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_OperationErrorCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_OperationErrorCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_OperationErrorCode
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_ReadMoreUrl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_ReadMoreUrl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_ReadMoreUrl
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_ReadMoreUrl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_ReadMoreUrl
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String readMoreURL
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PreadMoreURL;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPreadMoreURL
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PreadMoreURL;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPreadMoreURL
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode errorCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_PerrorCode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RPerrorCode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_PerrorCode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RPerrorCode
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String message
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pmessage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPmessage
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pmessage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPmessage
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Int32 operationErrorCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PoperationErrorCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPoperationErrorCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PoperationErrorCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPoperationErrorCode
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Attribute attribute
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError.RAttribute r_Pattribute;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError.RAttribute RPattribute
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError.RAttribute r_Pattribute;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError.RAttribute RPattribute
 		{
 			get
 			{
@@ -454,7 +454,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	    {
 	    }
 
-        public virtual System.Boolean HasAttribute(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError.RAttribute @attribute)
+        public virtual System.Boolean HasAttribute(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError.RAttribute @attribute)
         {
 
             var ___genericsType = new Type[] {};

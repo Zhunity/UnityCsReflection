@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.DataMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode Disabled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RDataMode r_FDisabled;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RDataMode RFDisabled
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_FDisabled;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RDataMode RFDisabled
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode Authoring
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RDataMode r_FAuthoring;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RDataMode RFAuthoring
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_FAuthoring;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RDataMode RFAuthoring
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode Mixed
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RDataMode r_FMixed;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RDataMode RFMixed
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_FMixed;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RDataMode RFMixed
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode Runtime
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RDataMode r_FRuntime;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RDataMode RFRuntime
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_FRuntime;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RDataMode RFRuntime
 		{
 			get
 			{

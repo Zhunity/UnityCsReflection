@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 {
 	/// <summary>
 	/// System.Security.SecurityRuleSet
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Byte value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.SecurityRuleSet None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RSecurityRuleSet r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RSecurityRuleSet RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityRuleSet r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityRuleSet RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.SecurityRuleSet Level1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RSecurityRuleSet r_FLevel1;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RSecurityRuleSet RFLevel1
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityRuleSet r_FLevel1;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityRuleSet RFLevel1
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.SecurityRuleSet Level2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RSecurityRuleSet r_FLevel2;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RSecurityRuleSet RFLevel2
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityRuleSet r_FLevel2;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityRuleSet RFLevel2
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RCamera
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode ObjectId
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FObjectId;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFObjectId
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FObjectId;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFObjectId
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode Depth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FDepth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFDepth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FDepth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFDepth
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode VertexNormal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FVertexNormal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFVertexNormal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FVertexNormal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFVertexNormal
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode WorldPosition
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FWorldPosition;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFWorldPosition
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FWorldPosition;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFWorldPosition
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode EntityId
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FEntityId;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFEntityId
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FEntityId;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFEntityId
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode BaseColor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FBaseColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFBaseColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FBaseColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFBaseColor
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode SpecularColor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FSpecularColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFSpecularColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FSpecularColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFSpecularColor
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode Metallic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FMetallic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFMetallic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FMetallic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFMetallic
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode Emission
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FEmission;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFEmission
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FEmission;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFEmission
 		{
 			get
 			{
@@ -203,8 +203,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode Normal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FNormal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFNormal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FNormal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFNormal
 		{
 			get
 			{
@@ -220,8 +220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode Smoothness
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FSmoothness;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFSmoothness
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FSmoothness;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFSmoothness
 		{
 			get
 			{
@@ -237,8 +237,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode Occlusion
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FOcclusion;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFOcclusion
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FOcclusion;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFOcclusion
 		{
 			get
 			{
@@ -254,8 +254,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+RenderRequestMode DiffuseColor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FDiffuseColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFDiffuseColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode r_FDiffuseColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RRenderRequestMode RFDiffuseColor
 		{
 			get
 			{

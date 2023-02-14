@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Lifetime.ISponsor

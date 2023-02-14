@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Messaging.LogicalCallContext
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Type s_callContextType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RType r_Fs_callContextType;
-		public static SMFrame.Editor.Refleaction.RSystem.RType RFs_callContextType
+		protected static Hvak.Editor.Refleaction.RSystem.RType r_Fs_callContextType;
+		public static Hvak.Editor.Refleaction.RSystem.RType RFs_callContextType
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String s_CorrelationMgrSlotName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fs_CorrelationMgrSlotName;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFs_CorrelationMgrSlotName
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fs_CorrelationMgrSlotName;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFs_CorrelationMgrSlotName
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Collections.Hashtable m_Datastore
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable r_Fm_Datastore;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable RFm_Datastore
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_Fm_Datastore;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RFm_Datastore
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.CallContextRemotingData m_RemotingData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextRemotingData r_Fm_RemotingData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextRemotingData RFm_RemotingData
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextRemotingData r_Fm_RemotingData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextRemotingData RFm_RemotingData
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.CallContextSecurityData m_SecurityData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextSecurityData r_Fm_SecurityData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextSecurityData RFm_SecurityData
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextSecurityData r_Fm_SecurityData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextSecurityData RFm_SecurityData
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Object m_HostContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fm_HostContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFm_HostContext
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fm_HostContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFm_HostContext
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Boolean m_IsCorrelationMgr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_IsCorrelationMgr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_IsCorrelationMgr
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsCorrelationMgr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsCorrelationMgr
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.Header[] _sendHeaders
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RHeader> r_F_sendHeaders;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RHeader> RF_sendHeaders
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RHeader> r_F_sendHeaders;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RHeader> RF_sendHeaders
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.Header[] _recvHeaders
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RHeader> r_F_recvHeaders;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RHeader> RF_recvHeaders
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RHeader> r_F_recvHeaders;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RHeader> RF_recvHeaders
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Boolean HasInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasInfo
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasInfo
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Boolean HasUserData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasUserData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasUserData
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasUserData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasUserData
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.CallContextRemotingData RemotingData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextRemotingData r_PRemotingData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextRemotingData RPRemotingData
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextRemotingData r_PRemotingData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextRemotingData RPRemotingData
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.CallContextSecurityData SecurityData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextSecurityData r_PSecurityData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextSecurityData RPSecurityData
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextSecurityData r_PSecurityData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCallContextSecurityData RPSecurityData
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Object HostContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PHostContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPHostContext
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PHostContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPHostContext
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Collections.Hashtable Datastore
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable r_PDatastore;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable RPDatastore
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_PDatastore;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RPDatastore
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Security.Principal.IPrincipal Principal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal r_PPrincipal;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal RPPrincipal
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal r_PPrincipal;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RIPrincipal RPPrincipal
 		{
 			get
 			{

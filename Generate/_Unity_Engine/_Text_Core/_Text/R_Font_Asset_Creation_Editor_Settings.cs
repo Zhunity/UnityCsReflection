@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.FontAssetCreationEditorSettings
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String sourceFontFileGUID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FsourceFontFileGUID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFsourceFontFileGUID
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FsourceFontFileGUID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFsourceFontFileGUID
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 faceIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FfaceIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfaceIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FfaceIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfaceIndex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 pointSizeSamplingMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FpointSizeSamplingMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFpointSizeSamplingMode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FpointSizeSamplingMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpointSizeSamplingMode
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 pointSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FpointSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFpointSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FpointSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpointSize
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 padding
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fpadding;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFpadding
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fpadding;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpadding
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 paddingMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FpaddingMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFpaddingMode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FpaddingMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpaddingMode
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 packingMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FpackingMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFpackingMode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FpackingMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpackingMode
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 atlasWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FatlasWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFatlasWidth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FatlasWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFatlasWidth
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 atlasHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FatlasHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFatlasHeight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FatlasHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFatlasHeight
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 characterSetSelectionMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcharacterSetSelectionMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcharacterSetSelectionMode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcharacterSetSelectionMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcharacterSetSelectionMode
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String characterSequence
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FcharacterSequence;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFcharacterSequence
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FcharacterSequence;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFcharacterSequence
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String referencedFontAssetGUID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FreferencedFontAssetGUID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFreferencedFontAssetGUID
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FreferencedFontAssetGUID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFreferencedFontAssetGUID
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String referencedTextAssetGUID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FreferencedTextAssetGUID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFreferencedTextAssetGUID
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FreferencedTextAssetGUID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFreferencedTextAssetGUID
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 fontStyle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FfontStyle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfontStyle
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FfontStyle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfontStyle
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single fontStyleModifier
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FfontStyleModifier;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFfontStyleModifier
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FfontStyleModifier;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFfontStyleModifier
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 renderMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FrenderMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFrenderMode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FrenderMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFrenderMode
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean includeFontFeatures
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FincludeFontFeatures;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFincludeFontFeatures
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FincludeFontFeatures;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFincludeFontFeatures
 		{
 			get
 			{

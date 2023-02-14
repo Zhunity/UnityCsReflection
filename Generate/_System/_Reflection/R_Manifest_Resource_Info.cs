@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.ManifestResourceInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.Assembly <ReferencedAssembly>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly r_F__0__ReferencedAssembly__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly RF__0__ReferencedAssembly__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly r_F__0__ReferencedAssembly__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly RF__0__ReferencedAssembly__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String <FileName>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__FileName__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__FileName__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__FileName__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__FileName__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ResourceLocation <ResourceLocation>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceLocation r_F__0__ResourceLocation__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceLocation RF__0__ResourceLocation__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RResourceLocation r_F__0__ResourceLocation__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RResourceLocation RF__0__ResourceLocation__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.Assembly ReferencedAssembly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly r_PReferencedAssembly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly RPReferencedAssembly
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly r_PReferencedAssembly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly RPReferencedAssembly
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String FileName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PFileName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPFileName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PFileName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPFileName
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ResourceLocation ResourceLocation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceLocation r_PResourceLocation;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceLocation RPResourceLocation
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RResourceLocation r_PResourceLocation;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RResourceLocation RPResourceLocation
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.InspectorWindow
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.InspectorWindow] m_AllInspectors
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RInspectorWindow> r_Fm_AllInspectors;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RInspectorWindow> RFm_AllInspectors
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RInspectorWindow> r_Fm_AllInspectors;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RInspectorWindow> RFm_AllInspectors
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean s_AllOptimizedGUIBlocksNeedsRebuild
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fs_AllOptimizedGUIBlocksNeedsRebuild;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RFs_AllOptimizedGUIBlocksNeedsRebuild
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_Fs_AllOptimizedGUIBlocksNeedsRebuild;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RFs_AllOptimizedGUIBlocksNeedsRebuild
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.EditorGUIUtility+EditorLockTrackerWithActiveEditorTracker m_LockTracker
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.REditorGUIUtility.REditorLockTrackerWithActiveEditorTracker r_Fm_LockTracker;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.REditorGUIUtility.REditorLockTrackerWithActiveEditorTracker RFm_LockTracker
+		protected Hvak.Editor.Refleaction.RUnityEditor.REditorGUIUtility.REditorLockTrackerWithActiveEditorTracker r_Fm_LockTracker;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.REditorGUIUtility.REditorLockTrackerWithActiveEditorTracker RFm_LockTracker
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PreviewWindow m_PreviewWindow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPreviewWindow r_Fm_PreviewWindow;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPreviewWindow RFm_PreviewWindow
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPreviewWindow r_Fm_PreviewWindow;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPreviewWindow RFm_PreviewWindow
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[UnityEditor.DataMode] m_UserSupportedDataModes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RUnityEditor.RDataMode> r_Fm_UserSupportedDataModes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RUnityEditor.RDataMode> RFm_UserSupportedDataModes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEditor.RDataMode> r_Fm_UserSupportedDataModes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEditor.RDataMode> RFm_UserSupportedDataModes
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.UIElements.IMGUIContainer m_TrackerResetter
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIMGUIContainer r_Fm_TrackerResetter;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIMGUIContainer RFm_TrackerResetter
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIMGUIContainer r_Fm_TrackerResetter;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIMGUIContainer RFm_TrackerResetter
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int64 m_LastUpdateWhilePlayingAnimation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fm_LastUpdateWhilePlayingAnimation;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFm_LastUpdateWhilePlayingAnimation
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fm_LastUpdateWhilePlayingAnimation;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFm_LastUpdateWhilePlayingAnimation
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.Object] m_ObjectsLockedBeforeSerialization
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RObject> r_Fm_ObjectsLockedBeforeSerialization;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RObject> RFm_ObjectsLockedBeforeSerialization
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RObject> r_Fm_ObjectsLockedBeforeSerialization;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RObject> RFm_ObjectsLockedBeforeSerialization
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] m_InstanceIDsLockedBeforeSerialization
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fm_InstanceIDsLockedBeforeSerialization;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RInt32> RFm_InstanceIDsLockedBeforeSerialization
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_InstanceIDsLockedBeforeSerialization;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> RFm_InstanceIDsLockedBeforeSerialization
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PreviewResizer m_PreviewResizer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPreviewResizer r_Fm_PreviewResizer;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPreviewResizer RFm_PreviewResizer
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPreviewResizer r_Fm_PreviewResizer;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPreviewResizer RFm_PreviewResizer
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.LabelGUI m_LabelGUI
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RLabelGUI r_Fm_LabelGUI;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RLabelGUI RFm_LabelGUI
+		protected Hvak.Editor.Refleaction.RUnityEditor.RLabelGUI r_Fm_LabelGUI;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RLabelGUI RFm_LabelGUI
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_LastInspectedObjectInstanceID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_LastInspectedObjectInstanceID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_LastInspectedObjectInstanceID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_LastInspectedObjectInstanceID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_LastInspectedObjectInstanceID
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single m_LastVerticalScrollValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_LastVerticalScrollValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_LastVerticalScrollValue
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_LastVerticalScrollValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_LastVerticalScrollValue
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String m_GlobalObjectId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_GlobalObjectId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_GlobalObjectId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_GlobalObjectId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_GlobalObjectId
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.InspectorMode m_InspectorMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode r_Fm_InspectorMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode RFm_InspectorMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode r_Fm_InspectorMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode RFm_InspectorMode
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_LastInitialEditorInstanceID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_LastInitialEditorInstanceID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_LastInitialEditorInstanceID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_LastInitialEditorInstanceID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_LastInitialEditorInstanceID
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Component[] m_ComponentsInPrefabSource
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RComponent> r_Fm_ComponentsInPrefabSource;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RComponent> RFm_ComponentsInPrefabSource
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RComponent> r_Fm_ComponentsInPrefabSource;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RComponent> RFm_ComponentsInPrefabSource
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[UnityEngine.Component] m_RemovedComponents
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RUnityEngine.RComponent> r_Fm_RemovedComponents;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RUnityEngine.RComponent> RFm_RemovedComponents
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RComponent> r_Fm_RemovedComponents;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RComponent> RFm_RemovedComponents
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[UnityEngine.Component] m_SuppressedComponents
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RUnityEngine.RComponent> r_Fm_SuppressedComponents;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RUnityEngine.RComponent> RFm_SuppressedComponents
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RComponent> r_Fm_SuppressedComponents;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RComponent> RFm_SuppressedComponents
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.List`1[UnityEngine.Component]] m_RemovedComponentDict
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RComponent>> r_Fm_RemovedComponentDict;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RComponent>> RFm_RemovedComponentDict
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RComponent>> r_Fm_RemovedComponentDict;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RComponent>> RFm_RemovedComponentDict
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.Component] m_AdditionalRemovedComponents
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RComponent> r_Fm_AdditionalRemovedComponents;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RComponent> RFm_AdditionalRemovedComponents
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RComponent> r_Fm_AdditionalRemovedComponents;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RComponent> RFm_AdditionalRemovedComponents
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_ResetKeyboardControl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_ResetKeyboardControl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_ResetKeyboardControl
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_ResetKeyboardControl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_ResetKeyboardControl
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_OpenAddComponentMenu
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_OpenAddComponentMenu;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_OpenAddComponentMenu
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_OpenAddComponentMenu;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_OpenAddComponentMenu
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.ActiveEditorTracker m_Tracker
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RActiveEditorTracker r_Fm_Tracker;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RActiveEditorTracker RFm_Tracker
+		protected Hvak.Editor.Refleaction.RUnityEditor.RActiveEditorTracker r_Fm_Tracker;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RActiveEditorTracker RFm_Tracker
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.AssetBundleNameGUI m_AssetBundleNameGUI
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RAssetBundleNameGUI r_Fm_AssetBundleNameGUI;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RAssetBundleNameGUI RFm_AssetBundleNameGUI
+		protected Hvak.Editor.Refleaction.RUnityEditor.RAssetBundleNameGUI r_Fm_AssetBundleNameGUI;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RAssetBundleNameGUI RFm_AssetBundleNameGUI
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.TypeSelectionList m_TypeSelectionList
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RTypeSelectionList r_Fm_TypeSelectionList;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RTypeSelectionList RFm_TypeSelectionList
+		protected Hvak.Editor.Refleaction.RUnityEditor.RTypeSelectionList r_Fm_TypeSelectionList;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RTypeSelectionList RFm_TypeSelectionList
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Double m_lastRenderedTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDouble r_Fm_lastRenderedTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDouble RFm_lastRenderedTime
+		protected Hvak.Editor.Refleaction.RSystem.RDouble r_Fm_lastRenderedTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDouble RFm_lastRenderedTime
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.IPreviewable] m_Previews
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RIPreviewable> r_Fm_Previews;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RIPreviewable> RFm_Previews
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable> r_Fm_Previews;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable> RFm_Previews
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Type,System.Collections.Generic.List`1[System.Type]] m_PreviewableTypes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RType, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RType>> r_Fm_PreviewableTypes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RType, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RType>> RFm_PreviewableTypes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RType, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RType>> r_Fm_PreviewableTypes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RType, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RType>> RFm_PreviewableTypes
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.IPreviewable m_SelectedPreview
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIPreviewable r_Fm_SelectedPreview;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIPreviewable RFm_SelectedPreview
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable r_Fm_SelectedPreview;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable RFm_SelectedPreview
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_EditorsElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_EditorsElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_EditorsElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_EditorsElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_EditorsElement
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_RemovedPrefabComponentsElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_RemovedPrefabComponentsElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_RemovedPrefabComponentsElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_RemovedPrefabComponentsElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_RemovedPrefabComponentsElement
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_PreviewAndLabelElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_PreviewAndLabelElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_PreviewAndLabelElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_PreviewAndLabelElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_PreviewAndLabelElement
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_VersionControlElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_VersionControlElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_VersionControlElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_VersionControlElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_VersionControlElement
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_MultiEditLabel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_MultiEditLabel;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_MultiEditLabel
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_MultiEditLabel;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_MultiEditLabel
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollView m_ScrollView
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView r_Fm_ScrollView;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView RFm_ScrollView
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView r_Fm_ScrollView;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollView RFm_ScrollView
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_TrackerResetInserted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_TrackerResetInserted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_TrackerResetInserted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_TrackerResetInserted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_TrackerResetInserted
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_FirstInitialize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_FirstInitialize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_FirstInitialize
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_FirstInitialize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_FirstInitialize
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single m_PreviousFooterHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_PreviousFooterHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_PreviousFooterHeight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_PreviousFooterHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_PreviousFooterHeight
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_PreviousPreviewExpandedState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_PreviousPreviewExpandedState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_PreviousPreviewExpandedState
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_PreviousPreviewExpandedState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_PreviousPreviewExpandedState
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_HasPreview
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_HasPreview;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_HasPreview
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasPreview;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasPreview
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] m_DrawnSelection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fm_DrawnSelection;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RInt32> RFm_DrawnSelection
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_DrawnSelection;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RInt32> RFm_DrawnSelection
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.GUIContent m_TitleContent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_Fm_TitleContent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RFm_TitleContent
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_Fm_TitleContent;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RFm_TitleContent
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Rect m_Pos
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_Fm_Pos;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RFm_Pos
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_Fm_Pos;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFm_Pos
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataModeController m_SerializedDataModeController
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RDataModeController r_Fm_SerializedDataModeController;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RDataModeController RFm_SerializedDataModeController
+		protected Hvak.Editor.Refleaction.RUnityEditor.RDataModeController r_Fm_SerializedDataModeController;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataModeController RFm_SerializedDataModeController
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.HostView m_Parent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RHostView r_Fm_Parent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RHostView RFm_Parent
+		protected Hvak.Editor.Refleaction.RUnityEditor.RHostView r_Fm_Parent;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RHostView RFm_Parent
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.GUIContent m_Notification
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_Fm_Notification;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RFm_Notification
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_Fm_Notification;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RFm_Notification
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single m_FadeoutTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_FadeoutTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_FadeoutTime
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_FadeoutTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_FadeoutTime
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isLocked
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisLocked;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisLocked
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisLocked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisLocked
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isVisible
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisVisible;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisVisible
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisVisible;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisVisible
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean sharedTrackerInUse
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PsharedTrackerInUse;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPsharedTrackerInUse
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PsharedTrackerInUse;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPsharedTrackerInUse
 		{
 			get
 			{
@@ -881,8 +881,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement editorsElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PeditorsElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPeditorsElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PeditorsElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPeditorsElement
 		{
 			get
 			{
@@ -898,8 +898,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement previewAndLabelElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PpreviewAndLabelElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPpreviewAndLabelElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PpreviewAndLabelElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPpreviewAndLabelElement
 		{
 			get
 			{
@@ -915,8 +915,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement versionControlElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PversionControlElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPversionControlElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PversionControlElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPversionControlElement
 		{
 			get
 			{
@@ -932,8 +932,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.GUIView parent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RGUIView r_Pparent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RGUIView RPparent
+		protected Hvak.Editor.Refleaction.RUnityEditor.RGUIView r_Pparent;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RGUIView RPparent
 		{
 			get
 			{
@@ -949,8 +949,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] editorsWithImportedObjectLabel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RInt32> r_PeditorsWithImportedObjectLabel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RInt32> RPeditorsWithImportedObjectLabel
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RInt32> r_PeditorsWithImportedObjectLabel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RInt32> RPeditorsWithImportedObjectLabel
 		{
 			get
 			{
@@ -966,8 +966,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.EditorDragging editorDragging
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.REditorDragging r_PeditorDragging;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.REditorDragging RPeditorDragging
+		protected Hvak.Editor.Refleaction.RUnityEditor.REditorDragging r_PeditorDragging;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.REditorDragging RPeditorDragging
 		{
 			get
 			{
@@ -983,8 +983,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 inspectorElementModeOverride
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PinspectorElementModeOverride;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPinspectorElementModeOverride
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PinspectorElementModeOverride;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPinspectorElementModeOverride
 		{
 			get
 			{
@@ -1000,8 +1000,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.Editor lastInteractedEditor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.REditor r_PlastInteractedEditor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.REditor RPlastInteractedEditor
+		protected Hvak.Editor.Refleaction.RUnityEditor.REditor r_PlastInteractedEditor;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.REditor RPlastInteractedEditor
 		{
 			get
 			{
@@ -1017,8 +1017,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.InspectorMode inspectorMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode r_PinspectorMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode RPinspectorMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode r_PinspectorMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode RPinspectorMode
 		{
 			get
 			{
@@ -1034,8 +1034,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.ActiveEditorTracker tracker
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RActiveEditorTracker r_Ptracker;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RActiveEditorTracker RPtracker
+		protected Hvak.Editor.Refleaction.RUnityEditor.RActiveEditorTracker r_Ptracker;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RActiveEditorTracker RPtracker
 		{
 			get
 			{
@@ -1051,8 +1051,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Rect bottomAreaDropRectangle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_PbottomAreaDropRectangle;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RPbottomAreaDropRectangle
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_PbottomAreaDropRectangle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RPbottomAreaDropRectangle
 		{
 			get
 			{
@@ -1068,8 +1068,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Rect scrollViewportRect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_PscrollViewportRect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RPscrollViewportRect
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_PscrollViewportRect;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RPscrollViewportRect
 		{
 			get
 			{
@@ -1085,8 +1085,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.IDataModeController dataModeController
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIDataModeController r_PdataModeController;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIDataModeController RPdataModeController
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIDataModeController r_PdataModeController;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIDataModeController RPdataModeController
 		{
 			get
 			{
@@ -1102,8 +1102,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement baseRootVisualElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PbaseRootVisualElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPbaseRootVisualElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PbaseRootVisualElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPbaseRootVisualElement
 		{
 			get
 			{
@@ -1119,8 +1119,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement rootVisualElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_ProotVisualElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RProotVisualElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_ProotVisualElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RProotVisualElement
 		{
 			get
 			{
@@ -1136,8 +1136,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean liveReloadPreferenceDefault
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PliveReloadPreferenceDefault;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPliveReloadPreferenceDefault
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PliveReloadPreferenceDefault;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPliveReloadPreferenceDefault
 		{
 			get
 			{
@@ -1153,8 +1153,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isUIToolkitWindow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisUIToolkitWindow;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisUIToolkitWindow
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisUIToolkitWindow;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisUIToolkitWindow
 		{
 			get
 			{
@@ -1170,8 +1170,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayCanvas overlayCanvas
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayCanvas r_PoverlayCanvas;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayCanvas RPoverlayCanvas
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayCanvas r_PoverlayCanvas;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayCanvas RPoverlayCanvas
 		{
 			get
 			{
@@ -1187,8 +1187,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.UIElements.SerializableJsonDictionary viewDataDictionary
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RUIElements.RSerializableJsonDictionary r_PviewDataDictionary;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RUIElements.RSerializableJsonDictionary RPviewDataDictionary
+		protected Hvak.Editor.Refleaction.RUnityEditor.RUIElements.RSerializableJsonDictionary r_PviewDataDictionary;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RUIElements.RSerializableJsonDictionary RPviewDataDictionary
 		{
 			get
 			{
@@ -1204,8 +1204,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean wantsMouseMove
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PwantsMouseMove;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPwantsMouseMove
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PwantsMouseMove;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPwantsMouseMove
 		{
 			get
 			{
@@ -1221,8 +1221,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean wantsMouseEnterLeaveWindow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PwantsMouseEnterLeaveWindow;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPwantsMouseEnterLeaveWindow
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PwantsMouseEnterLeaveWindow;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPwantsMouseEnterLeaveWindow
 		{
 			get
 			{
@@ -1238,8 +1238,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean wantsLessLayoutEvents
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PwantsLessLayoutEvents;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPwantsLessLayoutEvents
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PwantsLessLayoutEvents;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPwantsLessLayoutEvents
 		{
 			get
 			{
@@ -1255,8 +1255,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean autoRepaintOnSceneChange
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PautoRepaintOnSceneChange;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPautoRepaintOnSceneChange
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PautoRepaintOnSceneChange;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPautoRepaintOnSceneChange
 		{
 			get
 			{
@@ -1272,8 +1272,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean maximized
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pmaximized;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPmaximized
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pmaximized;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPmaximized
 		{
 			get
 			{
@@ -1289,8 +1289,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasFocus
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasFocus;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasFocus
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasFocus;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasFocus
 		{
 			get
 			{
@@ -1306,8 +1306,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean docked
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pdocked;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdocked
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pdocked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdocked
 		{
 			get
 			{
@@ -1323,8 +1323,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean disableInputEvents
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PdisableInputEvents;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdisableInputEvents
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdisableInputEvents;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdisableInputEvents
 		{
 			get
 			{
@@ -1340,8 +1340,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasUnsavedChanges
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasUnsavedChanges;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasUnsavedChanges
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasUnsavedChanges;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasUnsavedChanges
 		{
 			get
 			{
@@ -1357,8 +1357,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String saveChangesMessage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PsaveChangesMessage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPsaveChangesMessage
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PsaveChangesMessage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPsaveChangesMessage
 		{
 			get
 			{
@@ -1374,8 +1374,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Vector2 minSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PminSize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPminSize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PminSize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPminSize
 		{
 			get
 			{
@@ -1391,8 +1391,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Vector2 maxSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PmaxSize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPmaxSize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PmaxSize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPmaxSize
 		{
 			get
 			{
@@ -1408,8 +1408,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String title
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptitle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtitle
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptitle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtitle
 		{
 			get
 			{
@@ -1425,8 +1425,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.GUIContent titleContent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_PtitleContent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RPtitleContent
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_PtitleContent;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RPtitleContent
 		{
 			get
 			{
@@ -1442,8 +1442,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 depthBufferBits
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PdepthBufferBits;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPdepthBufferBits
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PdepthBufferBits;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPdepthBufferBits
 		{
 			get
 			{
@@ -1459,8 +1459,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 antiAliasing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PantiAliasing;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPantiAliasing
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PantiAliasing;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPantiAliasing
 		{
 			get
 			{
@@ -1476,8 +1476,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 antiAlias
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PantiAlias;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPantiAlias
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PantiAlias;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPantiAlias
 		{
 			get
 			{
@@ -1493,8 +1493,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Rect position
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_Pposition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RPposition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_Pposition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RPposition
 		{
 			get
 			{
@@ -1510,8 +1510,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -1527,8 +1527,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{
@@ -3975,14 +3975,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RInspectorWindow> GetInspectors()
+        public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RInspectorWindow> GetInspectors()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetInspectors.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RInspectorWindow>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RInspectorWindow>(___result);
         }
 
 
@@ -3997,14 +3997,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEditor.RInspectorWindow> GetAllInspectorWindows()
+        public static Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RInspectorWindow> GetAllInspectorWindows()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetAllInspectorWindows.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEditor.RInspectorWindow>(___result);
+            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RInspectorWindow>(___result);
         }
 
 
@@ -4206,7 +4206,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean AddInspectorWindow(SMFrame.Editor.Refleaction.RUnityEditor.RInspectorWindow @window)
+        public static System.Boolean AddInspectorWindow(Hvak.Editor.Refleaction.RUnityEditor.RInspectorWindow @window)
         {
 
             var ___genericsType = new Type[] {};
@@ -4217,7 +4217,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void RemoveInspectorWindow(SMFrame.Editor.Refleaction.RUnityEditor.RInspectorWindow @window)
+        public static void RemoveInspectorWindow(Hvak.Editor.Refleaction.RUnityEditor.RInspectorWindow @window)
         {
 
             var ___genericsType = new Type[] {};
@@ -4558,25 +4558,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIPreviewable GetEditorThatControlsPreview(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEditor.RIPreviewable> @editors)
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable GetEditorThatControlsPreview(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable> @editors)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@editors.Value};
             var ___result = RMGetEditorThatControlsPreview_IPreviewableArray.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RIPreviewable(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEditor.RIPreviewable> GetEditorsWithPreviews(UnityEditor.Editor[] @editors)
+        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable> GetEditorsWithPreviews(UnityEditor.Editor[] @editors)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@editors};
             var ___result = RMGetEditorsWithPreviews_EditorArray.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEditor.RIPreviewable>(___result);
+            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable>(___result);
         }
 
 
@@ -4646,14 +4646,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RDataModeController GetDataModeController_Internal()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataModeController GetDataModeController_Internal()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetDataModeController_Internal.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RDataModeController(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RDataModeController(___result);
         }
 
 
@@ -4668,14 +4668,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary GetViewDataDictionary()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary GetViewDataDictionary()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetViewDataDictionary.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary(___result);
         }
 
 
@@ -4943,7 +4943,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void ShowPopupWithMode(SMFrame.Editor.Refleaction.RUnityEditor.RShowMode @mode, System.Boolean @giveFocus)
+        public virtual void ShowPopupWithMode(Hvak.Editor.Refleaction.RUnityEditor.RShowMode @mode, System.Boolean @giveFocus)
         {
 
             var ___genericsType = new Type[] {};
@@ -4954,7 +4954,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void ShowWithMode(SMFrame.Editor.Refleaction.RUnityEditor.RShowMode @mode)
+        public virtual void ShowWithMode(Hvak.Editor.Refleaction.RUnityEditor.RShowMode @mode)
         {
 
             var ___genericsType = new Type[] {};
@@ -4976,7 +4976,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder)
+        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder)
         {
 
             var ___genericsType = new Type[] {};
@@ -4987,7 +4987,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder, SMFrame.Editor.Refleaction.RUnityEditor.RShowMode @mode)
+        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder, Hvak.Editor.Refleaction.RUnityEditor.RShowMode @mode)
         {
 
             var ___genericsType = new Type[] {};
@@ -4998,7 +4998,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder, SMFrame.Editor.Refleaction.RUnityEditor.RShowMode @mode, System.Boolean @giveFocus)
+        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder, Hvak.Editor.Refleaction.RUnityEditor.RShowMode @mode, System.Boolean @giveFocus)
         {
 
             var ___genericsType = new Type[] {};
@@ -5009,7 +5009,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEngine.Rect ShowAsDropDownFitToScreen(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder)
+        public virtual UnityEngine.Rect ShowAsDropDownFitToScreen(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation> @locationPriorityOrder)
         {
 
             var ___genericsType = new Type[] {};

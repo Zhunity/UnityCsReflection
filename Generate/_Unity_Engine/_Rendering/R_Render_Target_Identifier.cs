@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.RenderTargetIdentifier
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 AllDepthSlices
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FAllDepthSlices;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFAllDepthSlices
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FAllDepthSlices;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFAllDepthSlices
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.BuiltinRenderTextureType m_Type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RBuiltinRenderTextureType r_Fm_Type;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RBuiltinRenderTextureType RFm_Type
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RBuiltinRenderTextureType r_Fm_Type;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RBuiltinRenderTextureType RFm_Type
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_NameID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_NameID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_NameID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_NameID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_NameID
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_InstanceID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_InstanceID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_InstanceID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_InstanceID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_InstanceID
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.IntPtr m_BufferPointer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_BufferPointer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_BufferPointer
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_BufferPointer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_BufferPointer
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_MipLevel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_MipLevel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_MipLevel
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_MipLevel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_MipLevel
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.CubemapFace m_CubeFace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace r_Fm_CubeFace;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace RFm_CubeFace
+		protected Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace r_Fm_CubeFace;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace RFm_CubeFace
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_DepthSlice
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_DepthSlice;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_DepthSlice
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_DepthSlice;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_DepthSlice
 		{
 			get
 			{

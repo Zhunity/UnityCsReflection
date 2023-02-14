@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.FileSystemRights
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights ListDirectory
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FListDirectory;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFListDirectory
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FListDirectory;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFListDirectory
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights ReadData
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FReadData;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFReadData
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FReadData;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFReadData
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights CreateFiles
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FCreateFiles;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFCreateFiles
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FCreateFiles;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFCreateFiles
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights WriteData
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FWriteData;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFWriteData
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FWriteData;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFWriteData
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights AppendData
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FAppendData;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFAppendData
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FAppendData;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFAppendData
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights CreateDirectories
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FCreateDirectories;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFCreateDirectories
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FCreateDirectories;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFCreateDirectories
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights ReadExtendedAttributes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FReadExtendedAttributes;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFReadExtendedAttributes
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FReadExtendedAttributes;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFReadExtendedAttributes
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights WriteExtendedAttributes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FWriteExtendedAttributes;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFWriteExtendedAttributes
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FWriteExtendedAttributes;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFWriteExtendedAttributes
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights ExecuteFile
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FExecuteFile;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFExecuteFile
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FExecuteFile;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFExecuteFile
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights Traverse
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FTraverse;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFTraverse
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FTraverse;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFTraverse
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights DeleteSubdirectoriesAndFiles
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FDeleteSubdirectoriesAndFiles;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFDeleteSubdirectoriesAndFiles
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FDeleteSubdirectoriesAndFiles;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFDeleteSubdirectoriesAndFiles
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights ReadAttributes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FReadAttributes;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFReadAttributes
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FReadAttributes;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFReadAttributes
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights WriteAttributes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FWriteAttributes;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFWriteAttributes
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FWriteAttributes;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFWriteAttributes
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights Write
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FWrite;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFWrite
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FWrite;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFWrite
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights Delete
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FDelete;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFDelete
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FDelete;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFDelete
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights ReadPermissions
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FReadPermissions;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFReadPermissions
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FReadPermissions;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFReadPermissions
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights Read
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FRead;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFRead
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FRead;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFRead
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights ReadAndExecute
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FReadAndExecute;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFReadAndExecute
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FReadAndExecute;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFReadAndExecute
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights Modify
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FModify;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFModify
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FModify;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFModify
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights ChangePermissions
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FChangePermissions;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFChangePermissions
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FChangePermissions;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFChangePermissions
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights TakeOwnership
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FTakeOwnership;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFTakeOwnership
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FTakeOwnership;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFTakeOwnership
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights Synchronize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FSynchronize;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFSynchronize
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FSynchronize;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFSynchronize
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights FullControl
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FFullControl;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFFullControl
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights r_FFullControl;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RFileSystemRights RFFullControl
 		{
 			get
 			{

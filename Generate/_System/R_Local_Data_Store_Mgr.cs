@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.LocalDataStoreMgr
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 InitialSlotTableSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FInitialSlotTableSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFInitialSlotTableSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FInitialSlotTableSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFInitialSlotTableSize
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 SlotTableDoubleThreshold
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSlotTableDoubleThreshold;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSlotTableDoubleThreshold
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSlotTableDoubleThreshold;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSlotTableDoubleThreshold
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 LargeSlotTableSizeIncrease
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FLargeSlotTableSizeIncrease;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFLargeSlotTableSizeIncrease
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FLargeSlotTableSizeIncrease;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFLargeSlotTableSizeIncrease
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean[] m_SlotInfoTable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_Fm_SlotInfoTable;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFm_SlotInfoTable
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RBoolean> r_Fm_SlotInfoTable;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RBoolean> RFm_SlotInfoTable
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 m_FirstAvailableSlot
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_FirstAvailableSlot;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_FirstAvailableSlot
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_FirstAvailableSlot;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_FirstAvailableSlot
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.LocalDataStore] m_ManagedLocalDataStores
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RLocalDataStore> r_Fm_ManagedLocalDataStores;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RLocalDataStore> RFm_ManagedLocalDataStores
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RLocalDataStore> r_Fm_ManagedLocalDataStores;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RLocalDataStore> RFm_ManagedLocalDataStores
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.LocalDataStoreSlot] m_KeyToSlotMap
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreSlot> r_Fm_KeyToSlotMap;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreSlot> RFm_KeyToSlotMap
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RLocalDataStoreSlot> r_Fm_KeyToSlotMap;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RLocalDataStoreSlot> RFm_KeyToSlotMap
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 m_CookieGenerator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fm_CookieGenerator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFm_CookieGenerator
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fm_CookieGenerator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFm_CookieGenerator
 		{
 			get
 			{
@@ -420,18 +420,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreHolder CreateLocalDataStore()
+        public virtual Hvak.Editor.Refleaction.RSystem.RLocalDataStoreHolder CreateLocalDataStore()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMCreateLocalDataStore.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreHolder(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RLocalDataStoreHolder(___result);
         }
 
 
-        public virtual void DeleteLocalDataStore(SMFrame.Editor.Refleaction.RSystem.RLocalDataStore @store)
+        public virtual void DeleteLocalDataStore(Hvak.Editor.Refleaction.RSystem.RLocalDataStore @store)
         {
 
             var ___genericsType = new Type[] {};

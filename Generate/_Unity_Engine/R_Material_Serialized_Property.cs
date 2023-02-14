@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.MaterialSerializedProperty
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialSerializedProperty None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialSerializedProperty LightmapFlags
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty r_FLightmapFlags;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty RFLightmapFlags
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty r_FLightmapFlags;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty RFLightmapFlags
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialSerializedProperty EnableInstancingVariants
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty r_FEnableInstancingVariants;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty RFEnableInstancingVariants
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty r_FEnableInstancingVariants;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty RFEnableInstancingVariants
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialSerializedProperty DoubleSidedGI
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty r_FDoubleSidedGI;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty RFDoubleSidedGI
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty r_FDoubleSidedGI;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty RFDoubleSidedGI
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialSerializedProperty CustomRenderQueue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty r_FCustomRenderQueue;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty RFCustomRenderQueue
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty r_FCustomRenderQueue;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty RFCustomRenderQueue
 		{
 			get
 			{

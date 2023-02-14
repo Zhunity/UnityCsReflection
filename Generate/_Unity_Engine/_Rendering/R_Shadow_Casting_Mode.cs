@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.ShadowCastingMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShadowCastingMode Off
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode r_FOff;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode RFOff
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode r_FOff;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode RFOff
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShadowCastingMode On
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode r_FOn;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode RFOn
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode r_FOn;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode RFOn
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShadowCastingMode TwoSided
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode r_FTwoSided;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode RFTwoSided
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode r_FTwoSided;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode RFTwoSided
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShadowCastingMode ShadowsOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode r_FShadowsOnly;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode RFShadowsOnly
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode r_FShadowsOnly;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode RFShadowsOnly
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.IPackageVersion
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PdisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPdisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PdisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPdisplayName
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String versionString
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PversionString;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPversionString
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PversionString;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPversionString
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String uniqueId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PuniqueId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPuniqueId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PuniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPuniqueId
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String packageUniqueId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PpackageUniqueId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPpackageUniqueId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PpackageUniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpackageUniqueId
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.IPackage package
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackage r_Ppackage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackage RPpackage
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackage r_Ppackage;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackage RPpackage
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// Boolean isInstalled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisInstalled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisInstalled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisInstalled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisInstalled
 		{
 			get
 			{

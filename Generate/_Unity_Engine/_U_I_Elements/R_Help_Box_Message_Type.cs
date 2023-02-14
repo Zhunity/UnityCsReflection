@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.HelpBoxMessageType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.HelpBoxMessageType None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.HelpBoxMessageType Info
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType r_FInfo;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType RFInfo
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType r_FInfo;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType RFInfo
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.HelpBoxMessageType Warning
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType r_FWarning;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType RFWarning
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType r_FWarning;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType RFWarning
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.HelpBoxMessageType Error
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType r_FError;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType RFError
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType r_FError;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBoxMessageType RFError
 		{
 			get
 			{

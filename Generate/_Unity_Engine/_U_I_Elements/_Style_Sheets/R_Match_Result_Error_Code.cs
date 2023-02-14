@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSheets.MatchResultErrorCode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.MatchResultErrorCode None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.MatchResultErrorCode Syntax
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode r_FSyntax;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode RFSyntax
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode r_FSyntax;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode RFSyntax
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.MatchResultErrorCode EmptyValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode r_FEmptyValue;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode RFEmptyValue
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode r_FEmptyValue;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode RFEmptyValue
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.MatchResultErrorCode ExpectedEndOfValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode r_FExpectedEndOfValue;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode RFExpectedEndOfValue
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode r_FExpectedEndOfValue;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResultErrorCode RFExpectedEndOfValue
 		{
 			get
 			{

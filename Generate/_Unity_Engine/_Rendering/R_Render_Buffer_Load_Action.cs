@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.RenderBufferLoadAction
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferLoadAction Load
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction r_FLoad;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction RFLoad
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction r_FLoad;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction RFLoad
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferLoadAction Clear
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction r_FClear;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction RFClear
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction r_FClear;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction RFClear
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferLoadAction DontCare
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction r_FDontCare;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction RFDontCare
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction r_FDontCare;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferLoadAction RFDontCare
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.AccessControlModification
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlModification Add
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification r_FAdd;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification RFAdd
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification r_FAdd;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification RFAdd
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlModification Set
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification r_FSet;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification RFSet
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification r_FSet;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification RFSet
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlModification Reset
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification r_FReset;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification RFReset
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification r_FReset;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification RFReset
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlModification Remove
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification r_FRemove;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification RFRemove
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification r_FRemove;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification RFRemove
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlModification RemoveAll
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification r_FRemoveAll;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification RFRemoveAll
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification r_FRemoveAll;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification RFRemoveAll
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlModification RemoveSpecific
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification r_FRemoveSpecific;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification RFRemoveSpecific
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification r_FRemoveSpecific;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlModification RFRemoveSpecific
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.WrapMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.WrapMode Once
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode r_FOnce;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode RFOnce
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RWrapMode r_FOnce;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RWrapMode RFOnce
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.WrapMode Loop
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode r_FLoop;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode RFLoop
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RWrapMode r_FLoop;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RWrapMode RFLoop
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.WrapMode PingPong
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode r_FPingPong;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode RFPingPong
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RWrapMode r_FPingPong;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RWrapMode RFPingPong
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.WrapMode Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode r_FDefault;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode RFDefault
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RWrapMode r_FDefault;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RWrapMode RFDefault
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.WrapMode ClampForever
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode r_FClampForever;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode RFClampForever
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RWrapMode r_FClampForever;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RWrapMode RFClampForever
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.WrapMode Clamp
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode r_FClamp;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode RFClamp
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RWrapMode r_FClamp;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RWrapMode RFClamp
 		{
 			get
 			{

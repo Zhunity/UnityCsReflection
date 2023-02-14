@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.WeakReference`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Runtime.InteropServices.GCHandle handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle r_Fhandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle RFhandle
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle r_Fhandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RGCHandle RFhandle
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean trackResurrection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FtrackResurrection;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFtrackResurrection
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FtrackResurrection;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFtrackResurrection
 		{
 			get
 			{

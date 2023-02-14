@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.SinglePassStereoMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.SinglePassStereoMode None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.SinglePassStereoMode SideBySide
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode r_FSideBySide;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode RFSideBySide
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode r_FSideBySide;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode RFSideBySide
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.SinglePassStereoMode Instancing
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode r_FInstancing;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode RFInstancing
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode r_FInstancing;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode RFInstancing
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.SinglePassStereoMode Multiview
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode r_FMultiview;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode RFMultiview
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode r_FMultiview;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSinglePassStereoMode RFMultiview
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RRectInt
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int _min
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_F_min;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RF_min
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_F_min;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RF_min
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int _max
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_F_max;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RF_max
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_F_max;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RF_max
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int _current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_F_current;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RF_current
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_F_current;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RF_current
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_PCurrent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RPCurrent
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_PCurrent;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RPCurrent
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Object System.Collections.IEnumerator.Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
 		{
 			get
 			{
@@ -286,14 +286,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRectInt.RPositionEnumerator GetEnumerator()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RRectInt.RPositionEnumerator GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RRectInt.RPositionEnumerator(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RRectInt.RPositionEnumerator(___result);
         }
 
 

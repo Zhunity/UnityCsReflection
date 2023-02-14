@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RCamera
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+GateFitMode <mode>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode r_F__0__mode__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode RF__0__mode__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode r_F__0__mode__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode RF__0__mode__1__k__BackingField
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single <aspect>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_F__0__aspect__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RF__0__aspect__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_F__0__aspect__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RF__0__aspect__1__k__BackingField
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// GateFitMode mode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode r_Pmode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode RPmode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode r_Pmode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RCamera.RGateFitMode RPmode
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single aspect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Paspect;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPaspect
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Paspect;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPaspect
 		{
 			get
 			{

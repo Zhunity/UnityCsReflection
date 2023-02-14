@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {public partial class RSplitView
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SplitView+ViewEdge None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SplitView+ViewEdge Left
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFLeft
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FLeft;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFLeft
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SplitView+ViewEdge Bottom
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FBottom;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFBottom
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FBottom;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFBottom
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SplitView+ViewEdge Top
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FTop;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFTop
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FTop;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFTop
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SplitView+ViewEdge Right
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FRight;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFRight
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FRight;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFRight
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SplitView+ViewEdge BottomLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FBottomLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFBottomLeft
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FBottomLeft;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFBottomLeft
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SplitView+ViewEdge BottomRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FBottomRight;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFBottomRight
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FBottomRight;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFBottomRight
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SplitView+ViewEdge TopLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FTopLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFTopLeft
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FTopLeft;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFTopLeft
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SplitView+ViewEdge TopRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FTopRight;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFTopRight
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FTopRight;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFTopRight
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SplitView+ViewEdge FitsVertical
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FFitsVertical;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFFitsVertical
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FFitsVertical;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFFitsVertical
 		{
 			get
 			{
@@ -203,8 +203,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SplitView+ViewEdge FitsHorizontal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FFitsHorizontal;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFFitsHorizontal
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FFitsHorizontal;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFFitsHorizontal
 		{
 			get
 			{
@@ -220,8 +220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SplitView+ViewEdge Before
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FBefore;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFBefore
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FBefore;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFBefore
 		{
 			get
 			{
@@ -237,8 +237,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SplitView+ViewEdge After
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FAfter;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFAfter
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge r_FAfter;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSplitView.RViewEdge RFAfter
 		{
 			get
 			{

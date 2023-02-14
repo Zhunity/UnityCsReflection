@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.ResourceLoader
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_TemplateRoot
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_TemplateRoot;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_TemplateRoot
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_TemplateRoot;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_TemplateRoot
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int32[] s_ResolvedDarkStyleSheetIds
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fs_ResolvedDarkStyleSheetIds;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFs_ResolvedDarkStyleSheetIds
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fs_ResolvedDarkStyleSheetIds;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFs_ResolvedDarkStyleSheetIds
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int32[] s_ResolvedLightStyleSheetIds
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fs_ResolvedLightStyleSheetIds;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFs_ResolvedLightStyleSheetIds
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fs_ResolvedLightStyleSheetIds;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFs_ResolvedLightStyleSheetIds
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int32[] m_SerializedResolvedDarkStyleSheetIds
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fm_SerializedResolvedDarkStyleSheetIds;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFm_SerializedResolvedDarkStyleSheetIds
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_SerializedResolvedDarkStyleSheetIds;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFm_SerializedResolvedDarkStyleSheetIds
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int32[] m_SerializedResolvedLightStyleSheetIds
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fm_SerializedResolvedLightStyleSheetIds;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFm_SerializedResolvedLightStyleSheetIds
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_SerializedResolvedLightStyleSheetIds;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFm_SerializedResolvedLightStyleSheetIds
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int32 m_NestedGetTemplateDepth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_NestedGetTemplateDepth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_NestedGetTemplateDepth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_NestedGetTemplateDepth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_NestedGetTemplateDepth
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.ApplicationProxy m_ApplicationProxy
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy r_Fm_ApplicationProxy;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy RFm_ApplicationProxy
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy r_Fm_ApplicationProxy;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy RFm_ApplicationProxy
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String lightOrDarkTheme
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_PlightOrDarkTheme;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RPlightOrDarkTheme
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_PlightOrDarkTheme;
+		public static Hvak.Editor.Refleaction.RSystem.RString RPlightOrDarkTheme
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Int32[] resolvedStyleSheetIds
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_PresolvedStyleSheetIds;
-		public static SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RPresolvedStyleSheetIds
+		protected static Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_PresolvedStyleSheetIds;
+		public static Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RInt32> RPresolvedStyleSheetIds
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheet packageManagerCommonStyleSheet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_PpackageManagerCommonStyleSheet;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RPpackageManagerCommonStyleSheet
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_PpackageManagerCommonStyleSheet;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RPpackageManagerCommonStyleSheet
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheet packageManagerWindowStyleSheet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_PpackageManagerWindowStyleSheet;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RPpackageManagerWindowStyleSheet
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_PpackageManagerWindowStyleSheet;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RPpackageManagerWindowStyleSheet
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheet filtersDropdownStyleSheet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_PfiltersDropdownStyleSheet;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RPfiltersDropdownStyleSheet
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_PfiltersDropdownStyleSheet;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RPfiltersDropdownStyleSheet
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheet inputDropdownStyleSheet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_PinputDropdownStyleSheet;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RPinputDropdownStyleSheet
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_PinputDropdownStyleSheet;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RPinputDropdownStyleSheet
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheet inProgressDropdownStyleSheet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_PinProgressDropdownStyleSheet;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RPinProgressDropdownStyleSheet
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_PinProgressDropdownStyleSheet;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RPinProgressDropdownStyleSheet
 		{
 			get
 			{
@@ -578,7 +578,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual UnityEngine.UIElements.StyleSheet FindResolvedStyleSheetFromType(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RResourceLoader.RStyleSheetType @styleSheetType)
+        public virtual UnityEngine.UIElements.StyleSheet FindResolvedStyleSheetFromType(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RResourceLoader.RStyleSheetType @styleSheetType)
         {
 
             var ___genericsType = new Type[] {};
@@ -589,7 +589,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual UnityEngine.UIElements.StyleSheet ResolveStyleSheets(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RResourceLoader.RStyleSheetType @styleSheetType, System.String[] @styleSheetPaths)
+        public virtual UnityEngine.UIElements.StyleSheet ResolveStyleSheets(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RResourceLoader.RStyleSheetType @styleSheetType, System.String[] @styleSheetPaths)
         {
 
             var ___genericsType = new Type[] {};
@@ -600,7 +600,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual UnityEngine.UIElements.StyleSheet ResolveStyleSheets(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RResourceLoader.RStyleSheetType @styleSheetType, UnityEngine.UIElements.StyleSheet[] @styleSheets)
+        public virtual UnityEngine.UIElements.StyleSheet ResolveStyleSheets(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RResourceLoader.RStyleSheetType @styleSheetType, UnityEngine.UIElements.StyleSheet[] @styleSheets)
         {
 
             var ___genericsType = new Type[] {};
@@ -611,7 +611,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void ResolveDependencies(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @applicationProxy)
+        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @applicationProxy)
         {
 
             var ___genericsType = new Type[] {};

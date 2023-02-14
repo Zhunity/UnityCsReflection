@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.EventAttributes
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.EventAttributes None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REventAttributes r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REventAttributes RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REventAttributes r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REventAttributes RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.EventAttributes SpecialName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REventAttributes r_FSpecialName;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REventAttributes RFSpecialName
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REventAttributes r_FSpecialName;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REventAttributes RFSpecialName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.EventAttributes RTSpecialName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REventAttributes r_FRTSpecialName;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REventAttributes RFRTSpecialName
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REventAttributes r_FRTSpecialName;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REventAttributes RFRTSpecialName
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.EventAttributes ReservedMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REventAttributes r_FReservedMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REventAttributes RFReservedMask
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REventAttributes r_FReservedMask;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REventAttributes RFReservedMask
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.AsyncLocal`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Action`1[System.Threading.AsyncLocalValueChangedArgs`1[T]] m_valueChangedHandler
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RThreading.RAsyncLocalValueChangedArgs<SMFrame.Editor.Refleaction.RField>> r_Fm_valueChangedHandler;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RThreading.RAsyncLocalValueChangedArgs<SMFrame.Editor.Refleaction.RField>> RFm_valueChangedHandler
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RThreading.RAsyncLocalValueChangedArgs<Hvak.Editor.Refleaction.RField>> r_Fm_valueChangedHandler;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RThreading.RAsyncLocalValueChangedArgs<Hvak.Editor.Refleaction.RField>> RFm_valueChangedHandler
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// T Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPValue
+		protected Hvak.Editor.Refleaction.RProperty r_PValue;
+		public virtual Hvak.Editor.Refleaction.RProperty RPValue
 		{
 			get
 			{

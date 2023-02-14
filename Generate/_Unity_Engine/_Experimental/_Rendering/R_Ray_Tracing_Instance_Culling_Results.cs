@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceMaterialCRC[] materialsCRC
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceMaterialCRC> r_FmaterialsCRC;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceMaterialCRC> RFmaterialsCRC
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceMaterialCRC> r_FmaterialsCRC;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceMaterialCRC> RFmaterialsCRC
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Boolean transformsChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FtransformsChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFtransformsChanged
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FtransformsChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFtransformsChanged
 		{
 			get
 			{

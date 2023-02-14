@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.TextOverflowPosition
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextOverflowPosition End
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition r_FEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition RFEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition r_FEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition RFEnd
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextOverflowPosition Start
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition r_FStart;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition RFStart
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition r_FStart;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition RFStart
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextOverflowPosition Middle
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition r_FMiddle;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition RFMiddle
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition r_FMiddle;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextOverflowPosition RFMiddle
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {public partial class RPage
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Utility+GPUBuffer`1[T] gpuData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUtility.RGPUBuffer<SMFrame.Editor.Refleaction.RField> r_FgpuData;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUtility.RGPUBuffer<SMFrame.Editor.Refleaction.RField> RFgpuData
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUtility.RGPUBuffer<Hvak.Editor.Refleaction.RField> r_FgpuData;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUtility.RGPUBuffer<Hvak.Editor.Refleaction.RField> RFgpuData
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[T] cpuData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RField> r_FcpuData;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RField> RFcpuData
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RField> r_FcpuData;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RField> RFcpuData
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[UnityEngine.UIElements.UIR.GfxUpdateBufferRange] updateRanges
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGfxUpdateBufferRange> r_FupdateRanges;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGfxUpdateBufferRange> RFupdateRanges
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGfxUpdateBufferRange> r_FupdateRanges;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGfxUpdateBufferRange> RFupdateRanges
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.GPUBufferAllocator allocator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGPUBufferAllocator r_Fallocator;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGPUBufferAllocator RFallocator
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGPUBufferAllocator r_Fallocator;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGPUBufferAllocator RFallocator
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_UpdateRangePoolSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_UpdateRangePoolSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_UpdateRangePoolSize
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_UpdateRangePoolSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_UpdateRangePoolSize
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_ElemStride
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_ElemStride;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_ElemStride
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_ElemStride;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_ElemStride
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_UpdateRangeMin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_UpdateRangeMin;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_UpdateRangeMin
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_UpdateRangeMin;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_UpdateRangeMin
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_UpdateRangeMax
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_UpdateRangeMax;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_UpdateRangeMax
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_UpdateRangeMax;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_UpdateRangeMax
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_UpdateRangesEnqueued
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_UpdateRangesEnqueued;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_UpdateRangesEnqueued
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_UpdateRangesEnqueued;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_UpdateRangesEnqueued
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_UpdateRangesBatchStart
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_UpdateRangesBatchStart;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_UpdateRangesBatchStart
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_UpdateRangesBatchStart;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_UpdateRangesBatchStart
 		{
 			get
 			{
@@ -203,8 +203,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_UpdateRangesSaturated
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_UpdateRangesSaturated;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_UpdateRangesSaturated
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_UpdateRangesSaturated;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_UpdateRangesSaturated
 		{
 			get
 			{
@@ -220,8 +220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdisposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdisposed
 		{
 			get
 			{

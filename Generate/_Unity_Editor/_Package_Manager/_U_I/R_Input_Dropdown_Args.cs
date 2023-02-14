@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.InputDropdownArgs
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String title
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ftitle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFtitle
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ftitle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFtitle
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.Nullable`1[UnityEngine.UIElements.Background] icon
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackground> r_Ficon;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackground> RFicon
+		protected Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackground> r_Ficon;
+		public virtual Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackground> RFicon
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String iconUssClass
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FiconUssClass;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFiconUssClass
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FiconUssClass;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFiconUssClass
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String placeholderText
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FplaceholderText;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFplaceholderText
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FplaceholderText;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFplaceholderText
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String submitButtonText
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FsubmitButtonText;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFsubmitButtonText
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FsubmitButtonText;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFsubmitButtonText
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String defaultValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FdefaultValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFdefaultValue
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FdefaultValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFdefaultValue
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.Action`1[System.String] onInputSubmitted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RString> r_FonInputSubmitted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RString> RFonInputSubmitted
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RString> r_FonInputSubmitted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RString> RFonInputSubmitted
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.Nullable`1[UnityEngine.Vector2] windowSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RUnityEngine.RVector2> r_FwindowSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RUnityEngine.RVector2> RFwindowSize
+		protected Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RUnityEngine.RVector2> r_FwindowSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RUnityEngine.RVector2> RFwindowSize
 		{
 			get
 			{

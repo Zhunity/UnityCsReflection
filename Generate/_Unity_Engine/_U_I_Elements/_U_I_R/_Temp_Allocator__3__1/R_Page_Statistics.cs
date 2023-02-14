@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {public partial class RTempAllocator<T>
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fsize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFsize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fsize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFsize
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 used
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fused;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFused
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fused;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFused
 		{
 			get
 			{

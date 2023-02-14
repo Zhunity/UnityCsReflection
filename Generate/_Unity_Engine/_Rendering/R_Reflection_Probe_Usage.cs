@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.ReflectionProbeUsage
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeUsage Off
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage r_FOff;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage RFOff
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage r_FOff;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage RFOff
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeUsage BlendProbes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage r_FBlendProbes;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage RFBlendProbes
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage r_FBlendProbes;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage RFBlendProbes
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeUsage BlendProbesAndSkybox
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage r_FBlendProbesAndSkybox;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage RFBlendProbesAndSkybox
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage r_FBlendProbesAndSkybox;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage RFBlendProbesAndSkybox
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeUsage Simple
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage r_FSimple;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage RFSimple
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage r_FSimple;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage RFSimple
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.UnityConnectProxy
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean m_IsUserInfoReady
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_IsUserInfoReady;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_IsUserInfoReady
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsUserInfoReady;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsUserInfoReady
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean m_HasAccessToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_HasAccessToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_HasAccessToken
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasAccessToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasAccessToken
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_UserId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_UserId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_UserId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_UserId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_UserId
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action`2[System.Boolean,System.Boolean] onUserLoginStateChange
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RBoolean, SMFrame.Editor.Refleaction.RSystem.RBoolean> r_FonUserLoginStateChange;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RBoolean, SMFrame.Editor.Refleaction.RSystem.RBoolean> RFonUserLoginStateChange
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean, Hvak.Editor.Refleaction.RSystem.RBoolean> r_FonUserLoginStateChange;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean, Hvak.Editor.Refleaction.RSystem.RBoolean> RFonUserLoginStateChange
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isUserInfoReady
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisUserInfoReady;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisUserInfoReady
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisUserInfoReady;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisUserInfoReady
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isUserLoggedIn
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisUserLoggedIn;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisUserLoggedIn
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisUserLoggedIn;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisUserLoggedIn
 		{
 			get
 			{
@@ -374,7 +374,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual System.String GetConfigurationURL(SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl @config)
+        public virtual System.String GetConfigurationURL(Hvak.Editor.Refleaction.RUnityEditor.RConnect.RCloudConfigUrl @config)
         {
 
             var ___genericsType = new Type[] {};
@@ -407,7 +407,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void OnUserStateChanged(SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RUserInfo @newInfo)
+        public virtual void OnUserStateChanged(Hvak.Editor.Refleaction.RUnityEditor.RConnect.RUserInfo @newInfo)
         {
 
             var ___genericsType = new Type[] {};

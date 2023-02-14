@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class RGuid
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+ParseFailureKind None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+ParseFailureKind ArgumentNull
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind r_FArgumentNull;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind RFArgumentNull
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind r_FArgumentNull;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind RFArgumentNull
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+ParseFailureKind Format
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind r_FFormat;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind RFFormat
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind r_FFormat;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind RFFormat
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+ParseFailureKind FormatWithParameter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind r_FFormatWithParameter;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind RFFormatWithParameter
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind r_FFormatWithParameter;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind RFFormatWithParameter
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+ParseFailureKind NativeException
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind r_FNativeException;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind RFNativeException
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind r_FNativeException;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind RFNativeException
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+ParseFailureKind FormatWithInnerException
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind r_FFormatWithInnerException;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind RFFormatWithInnerException
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind r_FFormatWithInnerException;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind RFFormatWithInnerException
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RDragEventsProcessor
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DragEventsProcessor+DragState None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragEventsProcessor.RDragState r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragEventsProcessor.RDragState RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragEventsProcessor.RDragState r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragEventsProcessor.RDragState RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DragEventsProcessor+DragState CanStartDrag
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragEventsProcessor.RDragState r_FCanStartDrag;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragEventsProcessor.RDragState RFCanStartDrag
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragEventsProcessor.RDragState r_FCanStartDrag;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragEventsProcessor.RDragState RFCanStartDrag
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DragEventsProcessor+DragState Dragging
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragEventsProcessor.RDragState r_FDragging;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragEventsProcessor.RDragState RFDragging
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragEventsProcessor.RDragState r_FDragging;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragEventsProcessor.RDragState RFDragging
 		{
 			get
 			{

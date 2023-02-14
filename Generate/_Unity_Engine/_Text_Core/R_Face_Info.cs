@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 {
 	/// <summary>
 	/// UnityEngine.TextCore.FaceInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Int32 m_FaceIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_FaceIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_FaceIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_FaceIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_FaceIndex
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.String m_FamilyName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_FamilyName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_FamilyName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_FamilyName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_FamilyName
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.String m_StyleName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_StyleName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_StyleName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_StyleName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_StyleName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Int32 m_PointSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_PointSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_PointSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_PointSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_PointSize
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_Scale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Scale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Scale
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Scale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Scale
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Int32 m_UnitsPerEM
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_UnitsPerEM;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_UnitsPerEM
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_UnitsPerEM;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_UnitsPerEM
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_LineHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_LineHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_LineHeight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_LineHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_LineHeight
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_AscentLine
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_AscentLine;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_AscentLine
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_AscentLine;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_AscentLine
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_CapLine
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_CapLine;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_CapLine
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_CapLine;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_CapLine
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_MeanLine
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_MeanLine;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_MeanLine
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_MeanLine;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_MeanLine
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_Baseline
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Baseline;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Baseline
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Baseline;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Baseline
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_DescentLine
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_DescentLine;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_DescentLine
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_DescentLine;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_DescentLine
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_SuperscriptOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_SuperscriptOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_SuperscriptOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_SuperscriptOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_SuperscriptOffset
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_SuperscriptSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_SuperscriptSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_SuperscriptSize
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_SuperscriptSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_SuperscriptSize
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_SubscriptOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_SubscriptOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_SubscriptOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_SubscriptOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_SubscriptOffset
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_SubscriptSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_SubscriptSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_SubscriptSize
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_SubscriptSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_SubscriptSize
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_UnderlineOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_UnderlineOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_UnderlineOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_UnderlineOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_UnderlineOffset
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_UnderlineThickness
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_UnderlineThickness;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_UnderlineThickness
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_UnderlineThickness;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_UnderlineThickness
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_StrikethroughOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_StrikethroughOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_StrikethroughOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_StrikethroughOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_StrikethroughOffset
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_StrikethroughThickness
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_StrikethroughThickness;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_StrikethroughThickness
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_StrikethroughThickness;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_StrikethroughThickness
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_TabWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_TabWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_TabWidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_TabWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_TabWidth
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Int32 faceIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PfaceIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPfaceIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PfaceIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPfaceIndex
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.String familyName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PfamilyName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPfamilyName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PfamilyName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPfamilyName
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.String styleName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PstyleName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPstyleName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PstyleName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPstyleName
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Int32 pointSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PpointSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPpointSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PpointSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPpointSize
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single scale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pscale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPscale
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pscale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPscale
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Int32 unitsPerEM
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PunitsPerEM;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPunitsPerEM
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PunitsPerEM;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPunitsPerEM
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single lineHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PlineHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPlineHeight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PlineHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPlineHeight
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single ascentLine
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PascentLine;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPascentLine
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PascentLine;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPascentLine
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single capLine
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PcapLine;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPcapLine
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PcapLine;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPcapLine
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single meanLine
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PmeanLine;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPmeanLine
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PmeanLine;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPmeanLine
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single baseline
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pbaseline;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPbaseline
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pbaseline;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPbaseline
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single descentLine
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PdescentLine;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPdescentLine
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PdescentLine;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPdescentLine
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single superscriptOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PsuperscriptOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPsuperscriptOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PsuperscriptOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPsuperscriptOffset
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single superscriptSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PsuperscriptSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPsuperscriptSize
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PsuperscriptSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPsuperscriptSize
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single subscriptOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PsubscriptOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPsubscriptOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PsubscriptOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPsubscriptOffset
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single subscriptSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PsubscriptSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPsubscriptSize
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PsubscriptSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPsubscriptSize
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single underlineOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PunderlineOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPunderlineOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PunderlineOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPunderlineOffset
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single underlineThickness
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PunderlineThickness;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPunderlineThickness
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PunderlineThickness;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPunderlineThickness
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single strikethroughOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PstrikethroughOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPstrikethroughOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PstrikethroughOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPstrikethroughOffset
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single strikethroughThickness
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PstrikethroughThickness;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPstrikethroughThickness
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PstrikethroughThickness;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPstrikethroughThickness
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single tabWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PtabWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPtabWidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PtabWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPtabWidth
 		{
 			get
 			{

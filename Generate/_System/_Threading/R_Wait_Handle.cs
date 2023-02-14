@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.WaitHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 WaitTimeout
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FWaitTimeout;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFWaitTimeout
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FWaitTimeout;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFWaitTimeout
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 MAX_WAITHANDLES
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMAX_WAITHANDLES;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMAX_WAITHANDLES
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMAX_WAITHANDLES;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMAX_WAITHANDLES
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr waitHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_FwaitHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFwaitHandle
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_FwaitHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFwaitHandle
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Microsoft.Win32.SafeHandles.SafeWaitHandle safeWaitHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeWaitHandle r_FsafeWaitHandle;
-		public virtual SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeWaitHandle RFsafeWaitHandle
+		protected Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeWaitHandle r_FsafeWaitHandle;
+		public virtual Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeWaitHandle RFsafeWaitHandle
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean hasThreadAffinity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FhasThreadAffinity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFhasThreadAffinity
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FhasThreadAffinity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFhasThreadAffinity
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 WAIT_OBJECT_0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FWAIT_OBJECT_0;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFWAIT_OBJECT_0
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FWAIT_OBJECT_0;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFWAIT_OBJECT_0
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 WAIT_ABANDONED
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FWAIT_ABANDONED;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFWAIT_ABANDONED
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FWAIT_ABANDONED;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFWAIT_ABANDONED
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 WAIT_FAILED
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FWAIT_FAILED;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFWAIT_FAILED
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FWAIT_FAILED;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFWAIT_FAILED
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 ERROR_TOO_MANY_POSTS
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FERROR_TOO_MANY_POSTS;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFERROR_TOO_MANY_POSTS
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FERROR_TOO_MANY_POSTS;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFERROR_TOO_MANY_POSTS
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 ERROR_NOT_OWNED_BY_CALLER
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FERROR_NOT_OWNED_BY_CALLER;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFERROR_NOT_OWNED_BY_CALLER
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FERROR_NOT_OWNED_BY_CALLER;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFERROR_NOT_OWNED_BY_CALLER
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr InvalidHandle
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIntPtr r_FInvalidHandle;
-		public static SMFrame.Editor.Refleaction.RSystem.RIntPtr RFInvalidHandle
+		protected static Hvak.Editor.Refleaction.RSystem.RIntPtr r_FInvalidHandle;
+		public static Hvak.Editor.Refleaction.RSystem.RIntPtr RFInvalidHandle
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 MaxWaitHandles
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMaxWaitHandles;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMaxWaitHandles
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMaxWaitHandles;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMaxWaitHandles
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// IntPtr Handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_PHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RPHandle
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_PHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RPHandle
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Microsoft.Win32.SafeHandles.SafeWaitHandle SafeWaitHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeWaitHandle r_PSafeWaitHandle;
-		public virtual SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeWaitHandle RPSafeWaitHandle
+		protected Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeWaitHandle r_PSafeWaitHandle;
+		public virtual Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeWaitHandle RPSafeWaitHandle
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Runtime.Remoting.ServerIdentity ObjectIdentity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
 		{
 			get
 			{
@@ -1423,7 +1423,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
+        public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
         {
 			@IsClient = default;
 
@@ -1432,7 +1432,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
         }
 
 

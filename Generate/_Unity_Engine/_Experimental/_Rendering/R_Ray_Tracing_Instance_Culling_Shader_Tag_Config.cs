@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingShaderTagConfig
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderTagId tagId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderTagId r_FtagId;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderTagId RFtagId
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderTagId r_FtagId;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderTagId RFtagId
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderTagId tagValueId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderTagId r_FtagValueId;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderTagId RFtagValueId
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderTagId r_FtagValueId;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderTagId RFtagValueId
 		{
 			get
 			{

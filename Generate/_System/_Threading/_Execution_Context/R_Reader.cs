@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {public partial class RExecutionContext
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext m_ec
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_Fm_ec;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext RFm_ec
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_Fm_ec;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext RFm_ec
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsNull
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsNull;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsNull
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsNull;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsNull
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsFlowSuppressed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsFlowSuppressed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsFlowSuppressed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsFlowSuppressed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsFlowSuppressed
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SynchronizationContext SynchronizationContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_PSynchronizationContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RPSynchronizationContext
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_PSynchronizationContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RPSynchronizationContext
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SynchronizationContext SynchronizationContextNoFlow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_PSynchronizationContextNoFlow;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RPSynchronizationContextNoFlow
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_PSynchronizationContextNoFlow;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RPSynchronizationContextNoFlow
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Reader LogicalCallContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext.RReader r_PLogicalCallContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext.RReader RPLogicalCallContext
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext.RReader r_PLogicalCallContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext.RReader RPLogicalCallContext
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Reader IllogicalCallContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext.RReader r_PIllogicalCallContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext.RReader RPIllogicalCallContext
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext.RReader r_PIllogicalCallContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext.RReader RPIllogicalCallContext
 		{
 			get
 			{
@@ -376,7 +376,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean IsSame(SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader @other)
+        public virtual System.Boolean IsSame(Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -387,7 +387,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Object GetLocalValue(SMFrame.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal @local)
+        public virtual System.Object GetLocalValue(Hvak.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal @local)
         {
 
             var ___genericsType = new Type[] {};

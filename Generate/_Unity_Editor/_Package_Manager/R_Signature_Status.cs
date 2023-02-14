@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.SignatureStatus
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.SignatureStatus Unchecked
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus r_FUnchecked;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus RFUnchecked
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus r_FUnchecked;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus RFUnchecked
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.SignatureStatus Valid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus r_FValid;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus RFValid
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus r_FValid;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus RFValid
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.SignatureStatus Invalid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus r_FInvalid;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus RFInvalid
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus r_FInvalid;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus RFInvalid
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.SignatureStatus Unsigned
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus r_FUnsigned;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus RFUnsigned
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus r_FUnsigned;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus RFUnsigned
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.SignatureStatus Error
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus r_FError;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus RFError
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus r_FError;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus RFError
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.NativeResourceType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.NativeResourceType None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.NativeResourceType Unmanaged
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType r_FUnmanaged;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType RFUnmanaged
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType r_FUnmanaged;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType RFUnmanaged
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.NativeResourceType Assembly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType r_FAssembly;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType RFAssembly
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType r_FAssembly;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType RFAssembly
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.NativeResourceType Explicit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType r_FExplicit;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType RFExplicit
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType r_FExplicit;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RNativeResourceType RFExplicit
 		{
 			get
 			{

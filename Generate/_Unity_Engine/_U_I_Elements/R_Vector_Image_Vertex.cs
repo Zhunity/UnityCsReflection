@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.VectorImageVertex
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector3 position
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fposition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFposition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fposition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFposition
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color32 tint
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor32 r_Ftint;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor32 RFtint
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_Ftint;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor32 RFtint
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 uv
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Fuv;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFuv
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fuv;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFuv
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.UInt32 settingIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FsettingIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFsettingIndex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FsettingIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFsettingIndex
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color32 flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor32 r_Fflags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor32 RFflags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_Fflags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor32 RFflags
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector4 circle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_Fcircle;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFcircle
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_Fcircle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFcircle
 		{
 			get
 			{

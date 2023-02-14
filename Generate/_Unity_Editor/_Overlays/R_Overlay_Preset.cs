@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
+namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 {
 	/// <summary>
 	/// UnityEditor.Overlays.OverlayPreset
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String m_RawWindowType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_RawWindowType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_RawWindowType
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_RawWindowType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_RawWindowType
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.SaveData[] m_SaveData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData> r_Fm_SaveData;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData> RFm_SaveData
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData> r_Fm_SaveData;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData> RFm_SaveData
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Type m_TargetType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_Fm_TargetType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFm_TargetType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_Fm_TargetType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFm_TargetType
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Type targetWindowType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PtargetWindowType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPtargetWindowType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PtargetWindowType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPtargetWindowType
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.SaveData[] saveData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData> r_PsaveData;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData> RPsaveData
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData> r_PsaveData;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData> RPsaveData
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{

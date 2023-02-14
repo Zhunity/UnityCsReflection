@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 {
 	/// <summary>
 	/// UnityEngine.TextCore.GlyphMetrics
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_Width
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Width;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Width
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Width;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Width
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_Height
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Height;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Height
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Height;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Height
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_HorizontalBearingX
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_HorizontalBearingX;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_HorizontalBearingX
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_HorizontalBearingX;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_HorizontalBearingX
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_HorizontalBearingY
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_HorizontalBearingY;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_HorizontalBearingY
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_HorizontalBearingY;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_HorizontalBearingY
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_HorizontalAdvance
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_HorizontalAdvance;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_HorizontalAdvance
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_HorizontalAdvance;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_HorizontalAdvance
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single width
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pwidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPwidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pwidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPwidth
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single height
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pheight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPheight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pheight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPheight
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single horizontalBearingX
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PhorizontalBearingX;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPhorizontalBearingX
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PhorizontalBearingX;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPhorizontalBearingX
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single horizontalBearingY
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PhorizontalBearingY;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPhorizontalBearingY
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PhorizontalBearingY;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPhorizontalBearingY
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single horizontalAdvance
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PhorizontalAdvance;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPhorizontalAdvance
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PhorizontalAdvance;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPhorizontalAdvance
 		{
 			get
 			{

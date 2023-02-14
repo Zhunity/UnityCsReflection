@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
+namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
 {
 	/// <summary>
 	/// UnityEngine.Profiling.Recorder
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderOptions s_RecorderDefaultOptions
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_Fs_RecorderDefaultOptions;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFs_RecorderDefaultOptions
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_Fs_RecorderDefaultOptions;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFs_RecorderDefaultOptions
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// UnityEngine.Profiling.Recorder s_InvalidRecorder
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RProfiling.RRecorder r_Fs_InvalidRecorder;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RProfiling.RRecorder RFs_InvalidRecorder
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RProfiling.RRecorder r_Fs_InvalidRecorder;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RProfiling.RRecorder RFs_InvalidRecorder
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorder m_RecorderCPU
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder r_Fm_RecorderCPU;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder RFm_RecorderCPU
+		protected Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder r_Fm_RecorderCPU;
+		public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder RFm_RecorderCPU
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorder m_RecorderGPU
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder r_Fm_RecorderGPU;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder RFm_RecorderGPU
+		protected Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder r_Fm_RecorderGPU;
+		public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorder RFm_RecorderGPU
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisValid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisValid
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Penabled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPenabled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Penabled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPenabled
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Int64 elapsedNanoseconds
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PelapsedNanoseconds;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPelapsedNanoseconds
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PelapsedNanoseconds;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPelapsedNanoseconds
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Int64 gpuElapsedNanoseconds
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PgpuElapsedNanoseconds;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPgpuElapsedNanoseconds
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PgpuElapsedNanoseconds;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPgpuElapsedNanoseconds
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Int32 sampleBlockCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PsampleBlockCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPsampleBlockCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PsampleBlockCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPsampleBlockCount
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Int32 gpuSampleBlockCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PgpuSampleBlockCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPgpuSampleBlockCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PgpuSampleBlockCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPgpuSampleBlockCount
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.Offset
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single m_Left
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Left;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Left
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Left;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Left
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single m_Right
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Right;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Right
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Right;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Right
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single m_Top
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Top;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Top
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Top;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Top
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single m_Bottom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Bottom;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Bottom
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Bottom;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Bottom
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.Offset k_ZeroOffset
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset r_Fk_ZeroOffset;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset RFk_ZeroOffset
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset r_Fk_ZeroOffset;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset RFk_ZeroOffset
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single left
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pleft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPleft
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pleft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPleft
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single right
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pright;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPright
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pright;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPright
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single top
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Ptop;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPtop
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Ptop;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPtop
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single bottom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pbottom;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPbottom
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pbottom;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPbottom
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single horizontal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Phorizontal;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPhorizontal
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Phorizontal;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPhorizontal
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single vertical
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pvertical;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPvertical
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pvertical;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPvertical
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.Offset zero
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset r_Pzero;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset RPzero
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset r_Pzero;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset RPzero
 		{
 			get
 			{
@@ -403,7 +403,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	    {
 	    }
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset @rhs)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset @lhs, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -414,7 +414,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset @rhs)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset @lhs, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -425,14 +425,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset op_Multiply(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset @a, System.Single @b)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset op_Multiply(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset @a, System.Single @b)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a.Value, @b};
             var ___result = RMop_Multiply_Offset_Single.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset(___result);
         }
 
 
@@ -458,7 +458,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset @other)
         {
 
             var ___genericsType = new Type[] {};

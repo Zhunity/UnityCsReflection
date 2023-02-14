@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.MethodImplAttributes
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes CodeTypeMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FCodeTypeMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFCodeTypeMask
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FCodeTypeMask;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFCodeTypeMask
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes IL
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FIL;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFIL
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FIL;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFIL
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes Native
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FNative;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFNative
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FNative;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFNative
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes OPTIL
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FOPTIL;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFOPTIL
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FOPTIL;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFOPTIL
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes Runtime
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FRuntime;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFRuntime
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FRuntime;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFRuntime
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes ManagedMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FManagedMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFManagedMask
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FManagedMask;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFManagedMask
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes Unmanaged
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FUnmanaged;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFUnmanaged
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FUnmanaged;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFUnmanaged
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes Managed
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FManaged;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFManaged
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FManaged;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFManaged
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes ForwardRef
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FForwardRef;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFForwardRef
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FForwardRef;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFForwardRef
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes PreserveSig
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FPreserveSig;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFPreserveSig
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FPreserveSig;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFPreserveSig
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes InternalCall
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FInternalCall;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFInternalCall
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FInternalCall;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFInternalCall
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes Synchronized
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FSynchronized;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFSynchronized
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FSynchronized;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFSynchronized
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes NoInlining
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FNoInlining;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFNoInlining
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FNoInlining;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFNoInlining
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes AggressiveInlining
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FAggressiveInlining;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFAggressiveInlining
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FAggressiveInlining;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFAggressiveInlining
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes NoOptimization
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FNoOptimization;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFNoOptimization
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FNoOptimization;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFNoOptimization
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes MaxMethodImplVal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FMaxMethodImplVal;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFMaxMethodImplVal
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FMaxMethodImplVal;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFMaxMethodImplVal
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MethodImplAttributes SecurityMitigations
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FSecurityMitigations;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFSecurityMitigations
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes r_FSecurityMitigations;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RMethodImplAttributes RFSecurityMitigations
 		{
 			get
 			{

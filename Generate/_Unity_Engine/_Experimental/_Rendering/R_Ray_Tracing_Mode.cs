@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Experimental.Rendering.RayTracingMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingMode Off
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode r_FOff;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode RFOff
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode r_FOff;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode RFOff
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingMode Static
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode r_FStatic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode RFStatic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode r_FStatic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode RFStatic
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingMode DynamicTransform
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode r_FDynamicTransform;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode RFDynamicTransform
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode r_FDynamicTransform;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode RFDynamicTransform
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingMode DynamicGeometry
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode r_FDynamicGeometry;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode RFDynamicGeometry
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode r_FDynamicGeometry;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode RFDynamicGeometry
 		{
 			get
 			{

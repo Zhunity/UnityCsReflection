@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.UIntPtr
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UIntPtr Zero
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RUIntPtr r_FZero;
-		public static SMFrame.Editor.Refleaction.RSystem.RUIntPtr RFZero
+		protected static Hvak.Editor.Refleaction.RSystem.RUIntPtr r_FZero;
+		public static Hvak.Editor.Refleaction.RSystem.RUIntPtr RFZero
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Void* _pointer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RField> r_F_pointer;
-		public virtual SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RField> RF_pointer
+		protected Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RField> r_F_pointer;
+		public virtual Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RField> RF_pointer
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Size
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_PSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RPSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_PSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RPSize
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections
+namespace Hvak.Editor.Refleaction.RSystem.RCollections
 {
 	/// <summary>
 	/// System.Collections.IHashCodeProvider

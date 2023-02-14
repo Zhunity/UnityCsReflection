@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.SynchronisationStageFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.SynchronisationStageFlags VertexProcessing
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags r_FVertexProcessing;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags RFVertexProcessing
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags r_FVertexProcessing;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags RFVertexProcessing
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.SynchronisationStageFlags PixelProcessing
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags r_FPixelProcessing;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags RFPixelProcessing
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags r_FPixelProcessing;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags RFPixelProcessing
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.SynchronisationStageFlags ComputeProcessing
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags r_FComputeProcessing;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags RFComputeProcessing
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags r_FComputeProcessing;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags RFComputeProcessing
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.SynchronisationStageFlags AllGPUOperations
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags r_FAllGPUOperations;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags RFAllGPUOperations
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags r_FAllGPUOperations;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RSynchronisationStageFlags RFAllGPUOperations
 		{
 			get
 			{

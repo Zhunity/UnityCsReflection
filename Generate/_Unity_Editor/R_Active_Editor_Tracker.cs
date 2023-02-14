@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.ActiveEditorTracker
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.MonoReloadableIntPtrClear m_Property
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RMonoReloadableIntPtrClear r_Fm_Property;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RMonoReloadableIntPtrClear RFm_Property
+		protected Hvak.Editor.Refleaction.RUnityEditor.RMonoReloadableIntPtrClear r_Fm_Property;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RMonoReloadableIntPtrClear RFm_Property
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Action editorTrackerRebuilt
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RAction r_FeditorTrackerRebuilt;
-		public static SMFrame.Editor.Refleaction.RSystem.RAction RFeditorTrackerRebuilt
+		protected static Hvak.Editor.Refleaction.RSystem.RAction r_FeditorTrackerRebuilt;
+		public static Hvak.Editor.Refleaction.RSystem.RAction RFeditorTrackerRebuilt
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.Editor[] activeEditors
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEditor.REditor> r_PactiveEditors;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEditor.REditor> RPactiveEditors
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEditor.REditor> r_PactiveEditors;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEditor.REditor> RPactiveEditors
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isDirty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisDirty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisDirty
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDirty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDirty
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isLocked
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisLocked;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisLocked
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisLocked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisLocked
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasUnsavedChanges
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasUnsavedChanges;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasUnsavedChanges
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasUnsavedChanges;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasUnsavedChanges
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean delayFlushDirtyRebuild
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_PdelayFlushDirtyRebuild;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RPdelayFlushDirtyRebuild
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_PdelayFlushDirtyRebuild;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RPdelayFlushDirtyRebuild
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.InspectorMode inspectorMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode r_PinspectorMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode RPinspectorMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode r_PinspectorMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode RPinspectorMode
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasComponentsWhichCannotBeMultiEdited
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasComponentsWhichCannotBeMultiEdited;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasComponentsWhichCannotBeMultiEdited
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasComponentsWhichCannotBeMultiEdited;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasComponentsWhichCannotBeMultiEdited
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode dataMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RDataMode r_PdataMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RDataMode RPdataMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_PdataMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataMode RPdataMode
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.ActiveEditorTracker sharedTracker
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RActiveEditorTracker r_PsharedTracker;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RActiveEditorTracker RPsharedTracker
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RActiveEditorTracker r_PsharedTracker;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RActiveEditorTracker RPsharedTracker
 		{
 			get
 			{

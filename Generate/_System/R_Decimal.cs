@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.Decimal
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 SignMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSignMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSignMask
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSignMask;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSignMask
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 ScaleMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FScaleMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFScaleMask
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FScaleMask;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFScaleMask
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 ScaleShift
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FScaleShift;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFScaleShift
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FScaleShift;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFScaleShift
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Decimal Zero
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDecimal r_FZero;
-		public static SMFrame.Editor.Refleaction.RSystem.RDecimal RFZero
+		protected static Hvak.Editor.Refleaction.RSystem.RDecimal r_FZero;
+		public static Hvak.Editor.Refleaction.RSystem.RDecimal RFZero
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Decimal One
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDecimal r_FOne;
-		public static SMFrame.Editor.Refleaction.RSystem.RDecimal RFOne
+		protected static Hvak.Editor.Refleaction.RSystem.RDecimal r_FOne;
+		public static Hvak.Editor.Refleaction.RSystem.RDecimal RFOne
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Decimal MinusOne
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDecimal r_FMinusOne;
-		public static SMFrame.Editor.Refleaction.RSystem.RDecimal RFMinusOne
+		protected static Hvak.Editor.Refleaction.RSystem.RDecimal r_FMinusOne;
+		public static Hvak.Editor.Refleaction.RSystem.RDecimal RFMinusOne
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Decimal MaxValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDecimal r_FMaxValue;
-		public static SMFrame.Editor.Refleaction.RSystem.RDecimal RFMaxValue
+		protected static Hvak.Editor.Refleaction.RSystem.RDecimal r_FMaxValue;
+		public static Hvak.Editor.Refleaction.RSystem.RDecimal RFMaxValue
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Decimal MinValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDecimal r_FMinValue;
-		public static SMFrame.Editor.Refleaction.RSystem.RDecimal RFMinValue
+		protected static Hvak.Editor.Refleaction.RSystem.RDecimal r_FMinValue;
+		public static Hvak.Editor.Refleaction.RSystem.RDecimal RFMinValue
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fflags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFflags
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fflags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFflags
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 hi
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fhi;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFhi
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fhi;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFhi
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 lo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Flo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlo
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Flo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlo
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 mid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fmid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFmid
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fmid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFmid
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 ulomidLE
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_FulomidLE;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFulomidLE
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_FulomidLE;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFulomidLE
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt32 High
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PHigh;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPHigh
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PHigh;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPHigh
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt32 Low
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PLow;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPLow
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PLow;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPLow
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt32 Mid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PMid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPMid
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PMid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPMid
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsNegative
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsNegative;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsNegative
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsNegative;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsNegative
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Scale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PScale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPScale
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PScale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPScale
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt64 Low64
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_PLow64;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RPLow64
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_PLow64;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RPLow64
 		{
 			get
 			{
@@ -2137,7 +2137,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc AsMutable(ref System.Decimal @d)
+        public static Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc AsMutable(ref System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2145,7 +2145,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___result = RMAsMutable_Ref_Decimal.Invoke(___genericsType, ___parameters);
 			@d = (System.Decimal)___parameters[0];
 
-            return new SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___result);
         }
 
 
@@ -2382,7 +2382,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean TryFormat(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider)
+        public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider)
         {
 			@charsWritten = default;
 
@@ -2439,7 +2439,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Parse(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider)
+        public static System.Decimal Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -2463,7 +2463,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean TryParse(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @s, out System.Decimal @result)
+        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, out System.Decimal @result)
         {
 			@result = default;
 
@@ -2489,7 +2489,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean TryParse(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider, out System.Decimal @result)
+        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider, out System.Decimal @result)
         {
 			@result = default;
 

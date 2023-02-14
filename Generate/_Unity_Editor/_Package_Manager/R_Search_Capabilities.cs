@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.SearchCapabilities
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.SearchCapabilities None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.SearchCapabilities Classification
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities r_FClassification;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities RFClassification
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities r_FClassification;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities RFClassification
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.SearchCapabilities Ordering
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities r_FOrdering;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities RFOrdering
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities r_FOrdering;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities RFOrdering
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.SearchCapabilities Pagination
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities r_FPagination;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities RFPagination
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities r_FPagination;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities RFPagination
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.SearchCapabilities All
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities r_FAll;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities RFAll
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities r_FAll;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSearchCapabilities RFAll
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.PreviewResizer
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single s_DraggedPreviewSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_Fs_DraggedPreviewSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFs_DraggedPreviewSize
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_Fs_DraggedPreviewSize;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFs_DraggedPreviewSize
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single s_CachedPreviewSizeWhileDragging
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_Fs_CachedPreviewSizeWhileDragging;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFs_CachedPreviewSizeWhileDragging
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_Fs_CachedPreviewSizeWhileDragging;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFs_CachedPreviewSizeWhileDragging
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single s_MouseDownLocation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_Fs_MouseDownLocation;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFs_MouseDownLocation
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_Fs_MouseDownLocation;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFs_MouseDownLocation
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single s_MouseDownValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_Fs_MouseDownValue;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFs_MouseDownValue
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_Fs_MouseDownValue;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFs_MouseDownValue
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean s_MouseDragged
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fs_MouseDragged;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RFs_MouseDragged
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_Fs_MouseDragged;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RFs_MouseDragged
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single m_CachedPref
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_CachedPref;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_CachedPref
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_CachedPref;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_CachedPref
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_ControlHash
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_ControlHash;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_ControlHash
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_ControlHash;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_ControlHash
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String m_PrefName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_PrefName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_PrefName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PrefName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PrefName
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_Id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Id;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Id
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Id;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Id
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean <localFrame>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__localFrame__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__localFrame__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__localFrame__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__localFrame__1__k__BackingField
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.UIElements.IMGUIContainer m_Container
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIMGUIContainer r_Fm_Container;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIMGUIContainer RFm_Container
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIMGUIContainer r_Fm_Container;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIMGUIContainer RFm_Container
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single containerMinimumHeightExpanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FcontainerMinimumHeightExpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFcontainerMinimumHeightExpanded
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FcontainerMinimumHeightExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFcontainerMinimumHeightExpanded
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single m_ContainerMinimumHeightCollapsed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_ContainerMinimumHeightCollapsed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_ContainerMinimumHeightCollapsed
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_ContainerMinimumHeightCollapsed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_ContainerMinimumHeightCollapsed
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPid
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPid
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean localFrame
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PlocalFrame;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPlocalFrame
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PlocalFrame;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPlocalFrame
 		{
 			get
 			{

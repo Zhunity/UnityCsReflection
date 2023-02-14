@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.LocalDataStoreSlot
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.LocalDataStoreMgr m_mgr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreMgr r_Fm_mgr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreMgr RFm_mgr
+		protected Hvak.Editor.Refleaction.RSystem.RLocalDataStoreMgr r_Fm_mgr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RLocalDataStoreMgr RFm_mgr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 m_slot
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_slot;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_slot
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_slot;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_slot
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 m_cookie
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fm_cookie;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFm_cookie
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fm_cookie;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFm_cookie
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.LocalDataStoreMgr Manager
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreMgr r_PManager;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreMgr RPManager
+		protected Hvak.Editor.Refleaction.RSystem.RLocalDataStoreMgr r_PManager;
+		public virtual Hvak.Editor.Refleaction.RSystem.RLocalDataStoreMgr RPManager
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Slot
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PSlot;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPSlot
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PSlot;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPSlot
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int64 Cookie
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PCookie;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPCookie
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PCookie;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPCookie
 		{
 			get
 			{

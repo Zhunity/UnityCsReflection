@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.TextureMapping
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextureMapping Character
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping r_FCharacter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping RFCharacter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping r_FCharacter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping RFCharacter
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextureMapping Line
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping r_FLine;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping RFLine
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping r_FLine;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping RFLine
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextureMapping Paragraph
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping r_FParagraph;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping RFParagraph
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping r_FParagraph;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping RFParagraph
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextureMapping MatchAspect
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping r_FMatchAspect;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping RFMatchAspect
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping r_FMatchAspect;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping RFMatchAspect
 		{
 			get
 			{

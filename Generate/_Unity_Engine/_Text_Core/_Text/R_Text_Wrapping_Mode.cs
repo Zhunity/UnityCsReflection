@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.TextWrappingMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextWrappingMode NoWrap
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode r_FNoWrap;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode RFNoWrap
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode r_FNoWrap;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode RFNoWrap
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextWrappingMode Normal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode r_FNormal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode RFNormal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode r_FNormal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode RFNormal
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextWrappingMode PreserveWhitespace
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode r_FPreserveWhitespace;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode RFPreserveWhitespace
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode r_FPreserveWhitespace;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode RFPreserveWhitespace
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextWrappingMode PreserveWhitespaceNoWrap
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode r_FPreserveWhitespaceNoWrap;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode RFPreserveWhitespaceNoWrap
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode r_FPreserveWhitespaceNoWrap;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode RFPreserveWhitespaceNoWrap
 		{
 			get
 			{

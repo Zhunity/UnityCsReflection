@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.ParameterAttributes
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ParameterAttributes None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ParameterAttributes In
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FIn;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFIn
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FIn;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFIn
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ParameterAttributes Out
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FOut;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFOut
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FOut;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFOut
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ParameterAttributes Lcid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FLcid;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFLcid
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FLcid;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFLcid
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ParameterAttributes Retval
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FRetval;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFRetval
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FRetval;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFRetval
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ParameterAttributes Optional
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FOptional;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFOptional
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FOptional;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFOptional
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ParameterAttributes HasDefault
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FHasDefault;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFHasDefault
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FHasDefault;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFHasDefault
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ParameterAttributes HasFieldMarshal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FHasFieldMarshal;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFHasFieldMarshal
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FHasFieldMarshal;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFHasFieldMarshal
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ParameterAttributes Reserved3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FReserved3;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFReserved3
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FReserved3;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFReserved3
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ParameterAttributes Reserved4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FReserved4;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFReserved4
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FReserved4;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFReserved4
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ParameterAttributes ReservedMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FReservedMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFReservedMask
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes r_FReservedMask;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RParameterAttributes RFReservedMask
 		{
 			get
 			{

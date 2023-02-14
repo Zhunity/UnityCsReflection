@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText
+namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
 	/// System.Text.DecoderFallback
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.DecoderFallback s_replacementFallback
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RDecoderFallback r_Fs_replacementFallback;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RDecoderFallback RFs_replacementFallback
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RDecoderFallback r_Fs_replacementFallback;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RDecoderFallback RFs_replacementFallback
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.DecoderFallback s_exceptionFallback
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RDecoderFallback r_Fs_exceptionFallback;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RDecoderFallback RFs_exceptionFallback
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RDecoderFallback r_Fs_exceptionFallback;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RDecoderFallback RFs_exceptionFallback
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.DecoderFallback ReplacementFallback
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RDecoderFallback r_PReplacementFallback;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RDecoderFallback RPReplacementFallback
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RDecoderFallback r_PReplacementFallback;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RDecoderFallback RPReplacementFallback
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.DecoderFallback ExceptionFallback
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RDecoderFallback r_PExceptionFallback;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RDecoderFallback RPExceptionFallback
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RDecoderFallback r_PExceptionFallback;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RDecoderFallback RPExceptionFallback
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 MaxCharCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMaxCharCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMaxCharCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMaxCharCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMaxCharCount
 		{
 			get
 			{

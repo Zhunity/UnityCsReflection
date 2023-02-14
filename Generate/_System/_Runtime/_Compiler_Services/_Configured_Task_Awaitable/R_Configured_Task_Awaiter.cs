@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {public partial class RConfiguredTaskAwaitable
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Threading.Tasks.Task m_task
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask r_Fm_task;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask RFm_task
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask r_Fm_task;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask RFm_task
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Boolean m_continueOnCapturedContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_continueOnCapturedContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_continueOnCapturedContext
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_continueOnCapturedContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_continueOnCapturedContext
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
 		{
 			get
 			{

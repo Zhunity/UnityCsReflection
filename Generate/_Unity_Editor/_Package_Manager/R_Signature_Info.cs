@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.SignatureInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.SignatureStatus m_Status
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus r_Fm_Status;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus RFm_Status
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus r_Fm_Status;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus RFm_Status
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_Reason
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Reason;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Reason
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Reason;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Reason
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.SignatureStatus status
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus r_Pstatus;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus RPstatus
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus r_Pstatus;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureStatus RPstatus
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String reason
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Preason;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPreason
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Preason;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPreason
 		{
 			get
 			{

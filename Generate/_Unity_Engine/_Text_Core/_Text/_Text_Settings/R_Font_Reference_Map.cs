@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {public partial class RTextSettings
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Font font
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RFont r_Ffont;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RFont RFfont
+		protected Hvak.Editor.Refleaction.RUnityEngine.RFont r_Ffont;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RFont RFfont
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset fontAsset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_FfontAsset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RFfontAsset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_FfontAsset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RFfontAsset
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
+namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
 	/// System.Threading.Tasks.TaskScheduler
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Runtime.CompilerServices.ConditionalWeakTable`2[System.Threading.Tasks.TaskScheduler,System.Object] s_activeTaskSchedulers
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConditionalWeakTable<SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler, SMFrame.Editor.Refleaction.RSystem.RObject> r_Fs_activeTaskSchedulers;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConditionalWeakTable<SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler, SMFrame.Editor.Refleaction.RSystem.RObject> RFs_activeTaskSchedulers
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConditionalWeakTable<Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler, Hvak.Editor.Refleaction.RSystem.RObject> r_Fs_activeTaskSchedulers;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConditionalWeakTable<Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler, Hvak.Editor.Refleaction.RSystem.RObject> RFs_activeTaskSchedulers
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskScheduler s_defaultTaskScheduler
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_Fs_defaultTaskScheduler;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RFs_defaultTaskScheduler
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_Fs_defaultTaskScheduler;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RFs_defaultTaskScheduler
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 s_taskSchedulerIdCounter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fs_taskSchedulerIdCounter;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFs_taskSchedulerIdCounter
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_taskSchedulerIdCounter;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_taskSchedulerIdCounter
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 m_taskSchedulerId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_taskSchedulerId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_taskSchedulerId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_taskSchedulerId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_taskSchedulerId
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.EventHandler`1[System.Threading.Tasks.UnobservedTaskExceptionEventArgs] _unobservedTaskException
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.REventHandler<SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RUnobservedTaskExceptionEventArgs> r_F_unobservedTaskException;
-		public static SMFrame.Editor.Refleaction.RSystem.REventHandler<SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RUnobservedTaskExceptionEventArgs> RF_unobservedTaskException
+		protected static Hvak.Editor.Refleaction.RSystem.REventHandler<Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RUnobservedTaskExceptionEventArgs> r_F_unobservedTaskException;
+		public static Hvak.Editor.Refleaction.RSystem.REventHandler<Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RUnobservedTaskExceptionEventArgs> RF_unobservedTaskException
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Lock _unobservedTaskExceptionLockObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RLock r_F_unobservedTaskExceptionLockObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RLock RF_unobservedTaskExceptionLockObject
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RLock r_F_unobservedTaskExceptionLockObject;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RLock RF_unobservedTaskExceptionLockObject
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Int32 MaximumConcurrencyLevel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMaximumConcurrencyLevel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMaximumConcurrencyLevel
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMaximumConcurrencyLevel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMaximumConcurrencyLevel
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean RequiresAtomicStartTransition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PRequiresAtomicStartTransition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPRequiresAtomicStartTransition
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PRequiresAtomicStartTransition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPRequiresAtomicStartTransition
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskScheduler Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_PDefault;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RPDefault
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_PDefault;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RPDefault
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskScheduler Current
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_PCurrent;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RPCurrent
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_PCurrent;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RPCurrent
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskScheduler InternalCurrent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_PInternalCurrent;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RPInternalCurrent
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_PInternalCurrent;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RPInternalCurrent
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Int32 Id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPId
 		{
 			get
 			{

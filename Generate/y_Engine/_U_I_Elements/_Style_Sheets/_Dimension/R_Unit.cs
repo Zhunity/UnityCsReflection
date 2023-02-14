@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 {public partial class RDimension
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Dimension+Unit Unitless
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FUnitless;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFUnitless
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FUnitless;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFUnitless
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Dimension+Unit Pixel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FPixel;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFPixel
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FPixel;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFPixel
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Dimension+Unit Percent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FPercent;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFPercent
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FPercent;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFPercent
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Dimension+Unit Second
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FSecond;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFSecond
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FSecond;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFSecond
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Dimension+Unit Millisecond
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FMillisecond;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFMillisecond
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FMillisecond;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFMillisecond
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Dimension+Unit Degree
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FDegree;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFDegree
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FDegree;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFDegree
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Dimension+Unit Gradian
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FGradian;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFGradian
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FGradian;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFGradian
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Dimension+Unit Radian
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FRadian;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFRadian
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FRadian;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFRadian
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Dimension+Unit Turn
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FTurn;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFTurn
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit r_FTurn;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension.RUnit RFTurn
 		{
 			get
 			{

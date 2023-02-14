@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
+namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
 	/// System.Collections.Generic.InsertionBehavior
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Byte value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.InsertionBehavior None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RInsertionBehavior r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RInsertionBehavior RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RInsertionBehavior r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RInsertionBehavior RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.InsertionBehavior OverwriteExisting
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RInsertionBehavior r_FOverwriteExisting;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RInsertionBehavior RFOverwriteExisting
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RInsertionBehavior r_FOverwriteExisting;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RInsertionBehavior RFOverwriteExisting
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.InsertionBehavior ThrowOnExisting
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RInsertionBehavior r_FThrowOnExisting;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RInsertionBehavior RFThrowOnExisting
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RInsertionBehavior r_FThrowOnExisting;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RInsertionBehavior RFThrowOnExisting
 		{
 			get
 			{

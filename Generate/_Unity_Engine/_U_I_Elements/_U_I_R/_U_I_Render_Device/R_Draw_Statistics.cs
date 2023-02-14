@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {public partial class RUIRenderDevice
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 currentFrameIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcurrentFrameIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcurrentFrameIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcurrentFrameIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcurrentFrameIndex
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 totalIndices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FtotalIndices;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFtotalIndices
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FtotalIndices;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFtotalIndices
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 commandCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FcommandCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFcommandCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FcommandCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFcommandCount
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 drawCommandCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FdrawCommandCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFdrawCommandCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FdrawCommandCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFdrawCommandCount
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 materialSetCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FmaterialSetCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFmaterialSetCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FmaterialSetCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFmaterialSetCount
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 drawRangeCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FdrawRangeCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFdrawRangeCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FdrawRangeCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFdrawRangeCount
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 drawRangeCallCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FdrawRangeCallCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFdrawRangeCallCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FdrawRangeCallCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFdrawRangeCallCount
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 immediateDraws
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FimmediateDraws;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFimmediateDraws
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FimmediateDraws;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFimmediateDraws
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 stencilRefChanges
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FstencilRefChanges;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFstencilRefChanges
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FstencilRefChanges;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFstencilRefChanges
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.LightProbeUsage
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.LightProbeUsage Off
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage r_FOff;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage RFOff
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage r_FOff;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage RFOff
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.LightProbeUsage BlendProbes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage r_FBlendProbes;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage RFBlendProbes
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage r_FBlendProbes;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage RFBlendProbes
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.LightProbeUsage UseProxyVolume
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage r_FUseProxyVolume;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage RFUseProxyVolume
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage r_FUseProxyVolume;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage RFUseProxyVolume
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.LightProbeUsage CustomProvided
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage r_FCustomProvided;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage RFCustomProvided
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage r_FCustomProvided;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage RFCustomProvided
 		{
 			get
 			{

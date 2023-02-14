@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.CancellationTokenSource
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.CancellationTokenSource s_canceledSource
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource r_Fs_canceledSource;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource RFs_canceledSource
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource r_Fs_canceledSource;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource RFs_canceledSource
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.CancellationTokenSource s_neverCanceledSource
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource r_Fs_neverCanceledSource;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource RFs_neverCanceledSource
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource r_Fs_neverCanceledSource;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource RFs_neverCanceledSource
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 s_nLists
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fs_nLists;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFs_nLists
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_nLists;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_nLists
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ManualResetEvent _kernelEvent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RManualResetEvent r_F_kernelEvent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RManualResetEvent RF_kernelEvent
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RManualResetEvent r_F_kernelEvent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RManualResetEvent RF_kernelEvent
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SparselyPopulatedArray`1[System.Threading.CancellationCallbackInfo][] _registeredCallbacksLists
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArray<SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo>> r_F_registeredCallbacksLists;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArray<SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo>> RF_registeredCallbacksLists
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArray<Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo>> r_F_registeredCallbacksLists;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArray<Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo>> RF_registeredCallbacksLists
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 CannotBeCanceled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCannotBeCanceled;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCannotBeCanceled
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCannotBeCanceled;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCannotBeCanceled
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 NotCanceledState
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNotCanceledState;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNotCanceledState
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNotCanceledState;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNotCanceledState
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 NotifyingState
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNotifyingState;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNotifyingState
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNotifyingState;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNotifyingState
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 NotifyingCompleteState
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNotifyingCompleteState;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNotifyingCompleteState
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNotifyingCompleteState;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNotifyingCompleteState
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 _state
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_state;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_state
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_state;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_state
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 _threadIDExecutingCallbacks
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_threadIDExecutingCallbacks;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_threadIDExecutingCallbacks
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_threadIDExecutingCallbacks;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_threadIDExecutingCallbacks
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean _disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_disposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_disposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_disposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_disposed
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.CancellationCallbackInfo _executingCallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo r_F_executingCallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo RF_executingCallback
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo r_F_executingCallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo RF_executingCallback
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.Timer _timer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTimer r_F_timer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTimer RF_timer
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTimer r_F_timer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTimer RF_timer
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.TimerCallback s_timerCallback
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTimerCallback r_Fs_timerCallback;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTimerCallback RFs_timerCallback
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTimerCallback r_Fs_timerCallback;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTimerCallback RFs_timerCallback
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsCancellationRequested
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCancellationRequested;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCancellationRequested
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCancellationRequested;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCancellationRequested
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsCancellationCompleted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCancellationCompleted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCancellationCompleted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCancellationCompleted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCancellationCompleted
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsDisposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsDisposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsDisposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsDisposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsDisposed
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 ThreadIDExecutingCallbacks
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PThreadIDExecutingCallbacks;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPThreadIDExecutingCallbacks
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PThreadIDExecutingCallbacks;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPThreadIDExecutingCallbacks
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.CancellationToken Token
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationToken r_PToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationToken RPToken
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationToken r_PToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationToken RPToken
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean CanBeCanceled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PCanBeCanceled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPCanBeCanceled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PCanBeCanceled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPCanBeCanceled
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.WaitHandle WaitHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RWaitHandle r_PWaitHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RWaitHandle RPWaitHandle
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RWaitHandle r_PWaitHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RWaitHandle RPWaitHandle
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.CancellationCallbackInfo ExecutingCallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo r_PExecutingCallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo RPExecutingCallback
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo r_PExecutingCallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo RPExecutingCallback
 		{
 			get
 			{
@@ -999,7 +999,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void CancellationCallbackCoreWork(SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackCoreWorkArguments @args)
+        public virtual void CancellationCallbackCoreWork(Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackCoreWorkArguments @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -1043,7 +1043,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void WaitForCallbackToComplete(SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo @callbackInfo)
+        public virtual void WaitForCallbackToComplete(Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo @callbackInfo)
         {
 
             var ___genericsType = new Type[] {};

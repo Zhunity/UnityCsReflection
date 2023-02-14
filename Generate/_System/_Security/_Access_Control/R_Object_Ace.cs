@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.ObjectAce
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Guid object_ace_type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGuid r_Fobject_ace_type;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGuid RFobject_ace_type
+		protected Hvak.Editor.Refleaction.RSystem.RGuid r_Fobject_ace_type;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGuid RFobject_ace_type
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Guid inherited_object_type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGuid r_Finherited_object_type;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGuid RFinherited_object_type
+		protected Hvak.Editor.Refleaction.RSystem.RGuid r_Finherited_object_type;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGuid RFinherited_object_type
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ObjectAceFlags object_ace_flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags r_Fobject_ace_flags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags RFobject_ace_flags
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags r_Fobject_ace_flags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags RFobject_ace_flags
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 BinaryLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PBinaryLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPBinaryLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PBinaryLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPBinaryLength
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Guid InheritedObjectAceType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGuid r_PInheritedObjectAceType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGuid RPInheritedObjectAceType
+		protected Hvak.Editor.Refleaction.RSystem.RGuid r_PInheritedObjectAceType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGuid RPInheritedObjectAceType
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean InheritedObjectAceTypePresent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PInheritedObjectAceTypePresent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPInheritedObjectAceTypePresent
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PInheritedObjectAceTypePresent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPInheritedObjectAceTypePresent
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ObjectAceFlags ObjectAceFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags r_PObjectAceFlags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags RPObjectAceFlags
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags r_PObjectAceFlags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags RPObjectAceFlags
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Guid ObjectAceType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGuid r_PObjectAceType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGuid RPObjectAceType
+		protected Hvak.Editor.Refleaction.RSystem.RGuid r_PObjectAceType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGuid RPObjectAceType
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean ObjectAceTypePresent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PObjectAceTypePresent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPObjectAceTypePresent
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PObjectAceTypePresent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPObjectAceTypePresent
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceQualifier AceQualifier
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier r_PAceQualifier;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier RPAceQualifier
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier r_PAceQualifier;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier RPAceQualifier
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsCallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCallback
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCallback
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 OpaqueLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_POpaqueLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPOpaqueLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_POpaqueLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPOpaqueLength
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 AccessMask
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PAccessMask;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPAccessMask
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PAccessMask;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPAccessMask
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.Principal.SecurityIdentifier SecurityIdentifier
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier r_PSecurityIdentifier;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier RPSecurityIdentifier
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier r_PSecurityIdentifier;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier RPSecurityIdentifier
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags AceFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_PAceFlags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RPAceFlags
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags r_PAceFlags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceFlags RPAceFlags
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType AceType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_PAceType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RPAceType
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_PAceType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RPAceType
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AuditFlags AuditFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags r_PAuditFlags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags RPAuditFlags
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags r_PAuditFlags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags RPAuditFlags
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.InheritanceFlags InheritanceFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RInheritanceFlags r_PInheritanceFlags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RInheritanceFlags RPInheritanceFlags
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RInheritanceFlags r_PInheritanceFlags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RInheritanceFlags RPInheritanceFlags
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsInherited
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsInherited;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsInherited
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsInherited;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsInherited
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.PropagationFlags PropagationFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RPropagationFlags r_PPropagationFlags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RPropagationFlags RPPropagationFlags
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RPropagationFlags r_PPropagationFlags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RPropagationFlags RPPropagationFlags
 		{
 			get
 			{

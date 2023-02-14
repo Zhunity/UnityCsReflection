@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.MaterialGlobalIlluminationFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialGlobalIlluminationFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialGlobalIlluminationFlags RealtimeEmissive
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags r_FRealtimeEmissive;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags RFRealtimeEmissive
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags r_FRealtimeEmissive;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags RFRealtimeEmissive
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialGlobalIlluminationFlags BakedEmissive
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags r_FBakedEmissive;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags RFBakedEmissive
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags r_FBakedEmissive;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags RFBakedEmissive
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialGlobalIlluminationFlags EmissiveIsBlack
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags r_FEmissiveIsBlack;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags RFEmissiveIsBlack
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags r_FEmissiveIsBlack;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags RFEmissiveIsBlack
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialGlobalIlluminationFlags AnyEmissive
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags r_FAnyEmissive;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags RFAnyEmissive
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags r_FAnyEmissive;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags RFAnyEmissive
 		{
 			get
 			{

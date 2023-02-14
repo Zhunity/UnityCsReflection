@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.VersionChangeType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType Bindings
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FBindings;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFBindings
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FBindings;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFBindings
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType ViewData
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FViewData;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFViewData
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FViewData;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFViewData
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType Hierarchy
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FHierarchy;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFHierarchy
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FHierarchy;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFHierarchy
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType Layout
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FLayout;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFLayout
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FLayout;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFLayout
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType StyleSheet
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FStyleSheet;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFStyleSheet
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FStyleSheet;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFStyleSheet
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType Styles
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FStyles;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFStyles
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FStyles;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFStyles
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType Overflow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FOverflow;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFOverflow
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FOverflow;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFOverflow
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType BorderRadius
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FBorderRadius;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFBorderRadius
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FBorderRadius;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFBorderRadius
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType BorderWidth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FBorderWidth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFBorderWidth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FBorderWidth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFBorderWidth
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType Transform
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FTransform;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFTransform
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FTransform;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFTransform
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType Size
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FSize;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFSize
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FSize;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFSize
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType Repaint
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FRepaint;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFRepaint
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FRepaint;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFRepaint
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType Opacity
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FOpacity;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFOpacity
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FOpacity;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFOpacity
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType Color
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFColor
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType RenderHints
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FRenderHints;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFRenderHints
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FRenderHints;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFRenderHints
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType TransitionProperty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FTransitionProperty;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFTransitionProperty
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FTransitionProperty;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFTransitionProperty
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType EventCallbackCategories
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FEventCallbackCategories;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFEventCallbackCategories
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FEventCallbackCategories;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFEventCallbackCategories
 		{
 			get
 			{

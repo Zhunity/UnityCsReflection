@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.PropertyModification
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Object target
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RObject r_Ftarget;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RObject RFtarget
+		protected Hvak.Editor.Refleaction.RUnityEngine.RObject r_Ftarget;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RObject RFtarget
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String propertyPath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpropertyPath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpropertyPath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpropertyPath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpropertyPath
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFvalue
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFvalue
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Object objectReference
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RObject r_FobjectReference;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RObject RFobjectReference
+		protected Hvak.Editor.Refleaction.RUnityEngine.RObject r_FobjectReference;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RObject RFobjectReference
 		{
 			get
 			{

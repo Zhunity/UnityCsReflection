@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.TextAsset
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_Version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Version
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Version
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_InstanceID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_InstanceID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_InstanceID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_InstanceID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_InstanceID
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_HashCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_HashCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_HashCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_HashCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_HashCode
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Material m_Material
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_Fm_Material;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RFm_Material
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_Fm_Material;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RFm_Material
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_MaterialHashCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_MaterialHashCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_MaterialHashCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_MaterialHashCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_MaterialHashCode
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pversion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPversion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pversion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPversion
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 instanceID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PinstanceID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPinstanceID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PinstanceID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPinstanceID
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 hashCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PhashCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPhashCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PhashCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPhashCode
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Material material
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_Pmaterial;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RPmaterial
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_Pmaterial;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RPmaterial
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 materialHashCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmaterialHashCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmaterialHashCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmaterialHashCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmaterialHashCode
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{

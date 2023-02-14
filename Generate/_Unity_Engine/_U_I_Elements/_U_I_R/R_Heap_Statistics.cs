@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.HeapStatistics
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 numAllocs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FnumAllocs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFnumAllocs
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FnumAllocs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFnumAllocs
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 totalSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FtotalSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFtotalSize
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FtotalSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFtotalSize
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 allocatedSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FallocatedSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFallocatedSize
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FallocatedSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFallocatedSize
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 freeSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FfreeSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFfreeSize
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FfreeSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFfreeSize
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 largestAvailableBlock
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FlargestAvailableBlock;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFlargestAvailableBlock
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FlargestAvailableBlock;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFlargestAvailableBlock
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 availableBlocksCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FavailableBlocksCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFavailableBlocksCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FavailableBlocksCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFavailableBlocksCount
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 blockCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FblockCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFblockCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FblockCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFblockCount
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 highWatermark
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FhighWatermark;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFhighWatermark
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FhighWatermark;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFhighWatermark
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Single fragmentation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Ffragmentation;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFfragmentation
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Ffragmentation;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFfragmentation
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.HeapStatistics[] subAllocators
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics> r_FsubAllocators;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics> RFsubAllocators
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics> r_FsubAllocators;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics> RFsubAllocators
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.TextureFormat
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat Alpha8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FAlpha8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFAlpha8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FAlpha8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFAlpha8
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ARGB4444
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FARGB4444;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFARGB4444
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FARGB4444;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFARGB4444
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RGB24
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGB24;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGB24
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGB24;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGB24
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RGBA32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGBA32;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGBA32
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGBA32;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGBA32
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ARGB32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FARGB32;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFARGB32
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FARGB32;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFARGB32
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RGB565
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGB565;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGB565
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGB565;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGB565
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat R16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FR16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFR16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FR16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFR16
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat DXT1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FDXT1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFDXT1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FDXT1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFDXT1
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat DXT5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FDXT5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFDXT5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FDXT5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFDXT5
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RGBA4444
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGBA4444;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGBA4444
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGBA4444;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGBA4444
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat BGRA32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FBGRA32;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFBGRA32
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FBGRA32;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFBGRA32
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RHalf
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRHalf;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRHalf
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRHalf;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRHalf
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RGHalf
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGHalf;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGHalf
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGHalf;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGHalf
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RGBAHalf
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGBAHalf;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGBAHalf
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGBAHalf;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGBAHalf
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RFloat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRFloat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRFloat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRFloat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRFloat
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RGFloat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGFloat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGFloat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGFloat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGFloat
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RGBAFloat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGBAFloat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGBAFloat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGBAFloat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGBAFloat
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat YUY2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FYUY2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFYUY2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FYUY2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFYUY2
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RGB9e5Float
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGB9e5Float;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGB9e5Float
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGB9e5Float;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGB9e5Float
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat BC4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FBC4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFBC4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FBC4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFBC4
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat BC5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FBC5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFBC5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FBC5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFBC5
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat BC6H
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FBC6H;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFBC6H
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FBC6H;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFBC6H
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat BC7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FBC7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFBC7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FBC7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFBC7
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat DXT1Crunched
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FDXT1Crunched;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFDXT1Crunched
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FDXT1Crunched;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFDXT1Crunched
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat DXT5Crunched
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FDXT5Crunched;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFDXT5Crunched
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FDXT5Crunched;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFDXT5Crunched
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat PVRTC_RGB2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_RGB2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_RGB2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_RGB2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_RGB2
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat PVRTC_RGBA2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_RGBA2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_RGBA2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_RGBA2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_RGBA2
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat PVRTC_RGB4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_RGB4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_RGB4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_RGB4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_RGB4
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat PVRTC_RGBA4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_RGBA4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_RGBA4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_RGBA4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_RGBA4
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ETC_RGB4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC_RGB4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC_RGB4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC_RGB4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC_RGB4
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ATC_RGB4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FATC_RGB4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFATC_RGB4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FATC_RGB4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFATC_RGB4
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ATC_RGBA8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FATC_RGBA8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFATC_RGBA8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FATC_RGBA8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFATC_RGBA8
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat EAC_R
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FEAC_R;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFEAC_R
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FEAC_R;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFEAC_R
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat EAC_R_SIGNED
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FEAC_R_SIGNED;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFEAC_R_SIGNED
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FEAC_R_SIGNED;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFEAC_R_SIGNED
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat EAC_RG
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FEAC_RG;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFEAC_RG
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FEAC_RG;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFEAC_RG
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat EAC_RG_SIGNED
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FEAC_RG_SIGNED;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFEAC_RG_SIGNED
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FEAC_RG_SIGNED;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFEAC_RG_SIGNED
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ETC2_RGB
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC2_RGB;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC2_RGB
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC2_RGB;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC2_RGB
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ETC2_RGBA1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC2_RGBA1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC2_RGBA1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC2_RGBA1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC2_RGBA1
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ETC2_RGBA8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC2_RGBA8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC2_RGBA8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC2_RGBA8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC2_RGBA8
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_4x4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_4x4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_4x4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_4x4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_4x4
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_5x5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_5x5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_5x5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_5x5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_5x5
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_6x6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_6x6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_6x6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_6x6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_6x6
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_8x8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_8x8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_8x8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_8x8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_8x8
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_10x10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_10x10;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_10x10
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_10x10;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_10x10
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_12x12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_12x12;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_12x12
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_12x12;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_12x12
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ETC_RGB4_3DS
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC_RGB4_3DS;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC_RGB4_3DS
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC_RGB4_3DS;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC_RGB4_3DS
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ETC_RGBA8_3DS
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC_RGBA8_3DS;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC_RGBA8_3DS
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC_RGBA8_3DS;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC_RGBA8_3DS
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RG16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRG16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRG16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRG16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRG16
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat R8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FR8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFR8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FR8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFR8
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ETC_RGB4Crunched
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC_RGB4Crunched;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC_RGB4Crunched
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC_RGB4Crunched;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC_RGB4Crunched
 		{
 			get
 			{
@@ -881,8 +881,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ETC2_RGBA8Crunched
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC2_RGBA8Crunched;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC2_RGBA8Crunched
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FETC2_RGBA8Crunched;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFETC2_RGBA8Crunched
 		{
 			get
 			{
@@ -898,8 +898,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_HDR_4x4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_HDR_4x4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_HDR_4x4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_HDR_4x4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_HDR_4x4
 		{
 			get
 			{
@@ -915,8 +915,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_HDR_5x5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_HDR_5x5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_HDR_5x5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_HDR_5x5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_HDR_5x5
 		{
 			get
 			{
@@ -932,8 +932,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_HDR_6x6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_HDR_6x6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_HDR_6x6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_HDR_6x6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_HDR_6x6
 		{
 			get
 			{
@@ -949,8 +949,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_HDR_8x8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_HDR_8x8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_HDR_8x8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_HDR_8x8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_HDR_8x8
 		{
 			get
 			{
@@ -966,8 +966,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_HDR_10x10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_HDR_10x10;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_HDR_10x10
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_HDR_10x10;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_HDR_10x10
 		{
 			get
 			{
@@ -983,8 +983,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_HDR_12x12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_HDR_12x12;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_HDR_12x12
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_HDR_12x12;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_HDR_12x12
 		{
 			get
 			{
@@ -1000,8 +1000,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RG32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRG32;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRG32
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRG32;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRG32
 		{
 			get
 			{
@@ -1017,8 +1017,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RGB48
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGB48;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGB48
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGB48;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGB48
 		{
 			get
 			{
@@ -1034,8 +1034,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat RGBA64
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGBA64;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGBA64
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FRGBA64;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFRGBA64
 		{
 			get
 			{
@@ -1051,8 +1051,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_RGB_4x4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGB_4x4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGB_4x4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGB_4x4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGB_4x4
 		{
 			get
 			{
@@ -1068,8 +1068,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_RGB_5x5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGB_5x5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGB_5x5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGB_5x5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGB_5x5
 		{
 			get
 			{
@@ -1085,8 +1085,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_RGB_6x6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGB_6x6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGB_6x6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGB_6x6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGB_6x6
 		{
 			get
 			{
@@ -1102,8 +1102,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_RGB_8x8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGB_8x8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGB_8x8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGB_8x8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGB_8x8
 		{
 			get
 			{
@@ -1119,8 +1119,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_RGB_10x10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGB_10x10;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGB_10x10
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGB_10x10;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGB_10x10
 		{
 			get
 			{
@@ -1136,8 +1136,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_RGB_12x12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGB_12x12;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGB_12x12
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGB_12x12;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGB_12x12
 		{
 			get
 			{
@@ -1153,8 +1153,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_RGBA_4x4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGBA_4x4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGBA_4x4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGBA_4x4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGBA_4x4
 		{
 			get
 			{
@@ -1170,8 +1170,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_RGBA_5x5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGBA_5x5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGBA_5x5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGBA_5x5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGBA_5x5
 		{
 			get
 			{
@@ -1187,8 +1187,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_RGBA_6x6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGBA_6x6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGBA_6x6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGBA_6x6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGBA_6x6
 		{
 			get
 			{
@@ -1204,8 +1204,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_RGBA_8x8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGBA_8x8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGBA_8x8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGBA_8x8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGBA_8x8
 		{
 			get
 			{
@@ -1221,8 +1221,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_RGBA_10x10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGBA_10x10;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGBA_10x10
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGBA_10x10;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGBA_10x10
 		{
 			get
 			{
@@ -1238,8 +1238,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat ASTC_RGBA_12x12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGBA_12x12;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGBA_12x12
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FASTC_RGBA_12x12;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFASTC_RGBA_12x12
 		{
 			get
 			{
@@ -1255,8 +1255,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat PVRTC_2BPP_RGB
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_2BPP_RGB;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_2BPP_RGB
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_2BPP_RGB;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_2BPP_RGB
 		{
 			get
 			{
@@ -1272,8 +1272,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat PVRTC_2BPP_RGBA
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_2BPP_RGBA;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_2BPP_RGBA
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_2BPP_RGBA;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_2BPP_RGBA
 		{
 			get
 			{
@@ -1289,8 +1289,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat PVRTC_4BPP_RGB
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_4BPP_RGB;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_4BPP_RGB
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_4BPP_RGB;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_4BPP_RGB
 		{
 			get
 			{
@@ -1306,8 +1306,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureFormat PVRTC_4BPP_RGBA
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_4BPP_RGBA;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_4BPP_RGBA
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat r_FPVRTC_4BPP_RGBA;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureFormat RFPVRTC_4BPP_RGBA
 		{
 			get
 			{

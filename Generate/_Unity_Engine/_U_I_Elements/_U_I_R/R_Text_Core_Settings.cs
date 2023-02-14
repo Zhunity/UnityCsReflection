@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.TextCoreSettings
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Color faceColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_FfaceColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFfaceColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_FfaceColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFfaceColor
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Color outlineColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_FoutlineColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFoutlineColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_FoutlineColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFoutlineColor
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Single outlineWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FoutlineWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFoutlineWidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FoutlineWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFoutlineWidth
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Color underlayColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_FunderlayColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFunderlayColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_FunderlayColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFunderlayColor
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector2 underlayOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_FunderlayOffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFunderlayOffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_FunderlayOffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFunderlayOffset
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Single underlaySoftness
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FunderlaySoftness;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFunderlaySoftness
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FunderlaySoftness;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFunderlaySoftness
 		{
 			get
 			{
@@ -261,7 +261,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings @other)
         {
 
             var ___genericsType = new Type[] {};

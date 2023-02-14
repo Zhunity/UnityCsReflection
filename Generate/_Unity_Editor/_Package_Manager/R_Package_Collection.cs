@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.PackageCollection
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageInfo[] m_PackageList
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_Fm_PackageList;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RFm_PackageList
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_Fm_PackageList;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RFm_PackageList
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.Error m_Error
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RError r_Fm_Error;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RError RFm_Error
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RError r_Fm_Error;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RError RFm_Error
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Boolean m_HasError
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_HasError;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_HasError
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasError;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasError
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.Error error
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RError r_Perror;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RError RPerror
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RError r_Perror;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RError RPerror
 		{
 			get
 			{

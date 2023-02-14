@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
 		{
 			get
 			{
@@ -844,7 +844,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public static System.IntPtr Create(SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings @desc)
+        public static System.IntPtr Create(Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings @desc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1175,13 +1175,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public static System.IntPtr Create_Injected(ref SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings @desc)
+        public static System.IntPtr Create_Injected(ref Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings @desc)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@desc.Value};
             var ___result = RMCreate_Injected_Ref_RASSettings.Invoke(___genericsType, ___parameters);
-			@desc = new SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings(___parameters[0]);
+			@desc = new Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings(___parameters[0]);
 
             return (System.IntPtr)___result;
         }

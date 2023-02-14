@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class RDecimal
 {
 	public partial class RDecCalc
@@ -18,8 +18,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -35,8 +35,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Decimal+DecCalc+RoundingMode ToEven
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode r_FToEven;
-		public static SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode RFToEven
+		protected static Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode r_FToEven;
+		public static Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode RFToEven
 		{
 			get
 			{
@@ -52,8 +52,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Decimal+DecCalc+RoundingMode AwayFromZero
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode r_FAwayFromZero;
-		public static SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode RFAwayFromZero
+		protected static Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode r_FAwayFromZero;
+		public static Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode RFAwayFromZero
 		{
 			get
 			{
@@ -69,8 +69,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Decimal+DecCalc+RoundingMode Truncate
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode r_FTruncate;
-		public static SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode RFTruncate
+		protected static Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode r_FTruncate;
+		public static Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode RFTruncate
 		{
 			get
 			{
@@ -86,8 +86,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Decimal+DecCalc+RoundingMode Floor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode r_FFloor;
-		public static SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode RFFloor
+		protected static Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode r_FFloor;
+		public static Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode RFFloor
 		{
 			get
 			{
@@ -103,8 +103,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Decimal+DecCalc+RoundingMode Ceiling
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode r_FCeiling;
-		public static SMFrame.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode RFCeiling
+		protected static Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode r_FCeiling;
+		public static Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc.RRoundingMode RFCeiling
 		{
 			get
 			{

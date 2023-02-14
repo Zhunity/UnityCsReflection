@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class REventBase
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+EventPropagation None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+EventPropagation Bubbles
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation r_FBubbles;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation RFBubbles
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation r_FBubbles;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation RFBubbles
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+EventPropagation TricklesDown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation r_FTricklesDown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation RFTricklesDown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation r_FTricklesDown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation RFTricklesDown
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+EventPropagation Cancellable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation r_FCancellable;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation RFCancellable
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation r_FCancellable;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation RFCancellable
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+EventPropagation SkipDisabledElements
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation r_FSkipDisabledElements;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation RFSkipDisabledElements
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation r_FSkipDisabledElements;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation RFSkipDisabledElements
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase+EventPropagation IgnoreCompositeRoots
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation r_FIgnoreCompositeRoots;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation RFIgnoreCompositeRoots
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation r_FIgnoreCompositeRoots;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase.REventPropagation RFIgnoreCompositeRoots
 		{
 			get
 			{

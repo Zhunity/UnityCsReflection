@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {public partial class RTimer
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.Timer+Scheduler instance
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTimer.RScheduler r_Finstance;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTimer.RScheduler RFinstance
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTimer.RScheduler r_Finstance;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTimer.RScheduler RFinstance
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean needReSort
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FneedReSort;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFneedReSort
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FneedReSort;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFneedReSort
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Threading.Timer] list
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RThreading.RTimer> r_Flist;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RThreading.RTimer> RFlist
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RThreading.RTimer> r_Flist;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RThreading.RTimer> RFlist
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int64 current_next_run
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fcurrent_next_run;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFcurrent_next_run
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fcurrent_next_run;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFcurrent_next_run
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ManualResetEvent changed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RManualResetEvent r_Fchanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RManualResetEvent RFchanged
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RManualResetEvent r_Fchanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RManualResetEvent RFchanged
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Scheduler Instance
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTimer.RScheduler r_PInstance;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTimer.RScheduler RPInstance
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTimer.RScheduler r_PInstance;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTimer.RScheduler RPInstance
 		{
 			get
 			{

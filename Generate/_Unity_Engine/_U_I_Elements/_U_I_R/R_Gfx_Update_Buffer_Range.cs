@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.GfxUpdateBufferRange
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 offsetFromWriteStart
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FoffsetFromWriteStart;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFoffsetFromWriteStart
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FoffsetFromWriteStart;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFoffsetFromWriteStart
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fsize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFsize
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fsize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFsize
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UIntPtr source
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUIntPtr r_Fsource;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUIntPtr RFsource
+		protected Hvak.Editor.Refleaction.RSystem.RUIntPtr r_Fsource;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUIntPtr RFsource
 		{
 			get
 			{

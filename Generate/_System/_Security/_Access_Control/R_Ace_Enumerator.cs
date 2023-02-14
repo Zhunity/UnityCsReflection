@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.AceEnumerator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.GenericAcl owner
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAcl r_Fowner;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAcl RFowner
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAcl r_Fowner;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAcl RFowner
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fcurrent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcurrent
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fcurrent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcurrent
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.GenericAce Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAce r_PCurrent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAce RPCurrent
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAce r_PCurrent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAce RPCurrent
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Object System.Collections.IEnumerator.Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
 		{
 			get
 			{

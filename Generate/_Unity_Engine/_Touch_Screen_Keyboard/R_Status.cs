@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RTouchScreenKeyboard
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboard+Status Visible
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus r_FVisible;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus RFVisible
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus r_FVisible;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus RFVisible
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboard+Status Done
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus r_FDone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus RFDone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus r_FDone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus RFDone
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboard+Status Canceled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus r_FCanceled;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus RFCanceled
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus r_FCanceled;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus RFCanceled
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboard+Status LostFocus
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus r_FLostFocus;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus RFLostFocus
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus r_FLostFocus;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus RFLostFocus
 		{
 			get
 			{

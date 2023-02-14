@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSheets.ImageSource
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.Texture2D texture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_Ftexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RFtexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Ftexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RFtexture
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.Sprite sprite
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RSprite r_Fsprite;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RSprite RFsprite
+		protected Hvak.Editor.Refleaction.RUnityEngine.RSprite r_Fsprite;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RSprite RFsprite
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.VectorImage vectorImage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage r_FvectorImage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage RFvectorImage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage r_FvectorImage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage RFvectorImage
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.RenderTexture renderTexture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderTexture r_FrenderTexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderTexture RFrenderTexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderTexture r_FrenderTexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderTexture RFrenderTexture
 		{
 			get
 			{

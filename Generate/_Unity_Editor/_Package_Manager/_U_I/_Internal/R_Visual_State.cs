@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.VisualState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String packageUniqueId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpackageUniqueId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpackageUniqueId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpackageUniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpackageUniqueId
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String groupName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FgroupName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFgroupName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FgroupName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFgroupName
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean visible
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fvisible;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFvisible
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fvisible;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFvisible
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean lockedByDefault
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FlockedByDefault;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFlockedByDefault
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FlockedByDefault;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFlockedByDefault
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean userUnlocked
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FuserUnlocked;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFuserUnlocked
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FuserUnlocked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFuserUnlocked
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isLocked
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisLocked;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisLocked
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisLocked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisLocked
 		{
 			get
 			{
@@ -267,7 +267,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	    {
 	    }
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -278,14 +278,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState Clone()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState Clone()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState(___result);
         }
 
 

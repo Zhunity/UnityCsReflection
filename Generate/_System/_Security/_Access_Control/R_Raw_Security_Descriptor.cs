@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.RawSecurityDescriptor
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags control_flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_Fcontrol_flags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFcontrol_flags
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_Fcontrol_flags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFcontrol_flags
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.Principal.SecurityIdentifier owner_sid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier r_Fowner_sid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier RFowner_sid
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier r_Fowner_sid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier RFowner_sid
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.Principal.SecurityIdentifier group_sid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier r_Fgroup_sid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier RFgroup_sid
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier r_Fgroup_sid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier RFgroup_sid
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.RawAcl system_acl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl r_Fsystem_acl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl RFsystem_acl
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl r_Fsystem_acl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl RFsystem_acl
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.RawAcl discretionary_acl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl r_Fdiscretionary_acl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl RFdiscretionary_acl
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl r_Fdiscretionary_acl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl RFdiscretionary_acl
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Byte resourcemgr_control
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fresourcemgr_control;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFresourcemgr_control
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fresourcemgr_control;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFresourcemgr_control
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags ControlFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_PControlFlags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RPControlFlags
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_PControlFlags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RPControlFlags
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.RawAcl DiscretionaryAcl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl r_PDiscretionaryAcl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl RPDiscretionaryAcl
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl r_PDiscretionaryAcl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl RPDiscretionaryAcl
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.Principal.SecurityIdentifier Group
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier r_PGroup;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier RPGroup
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier r_PGroup;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier RPGroup
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.Principal.SecurityIdentifier Owner
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier r_POwner;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier RPOwner
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier r_POwner;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier RPOwner
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Byte ResourceManagerControl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_PResourceManagerControl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RPResourceManagerControl
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_PResourceManagerControl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RPResourceManagerControl
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.RawAcl SystemAcl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl r_PSystemAcl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl RPSystemAcl
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl r_PSystemAcl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RRawAcl RPSystemAcl
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.GenericAcl InternalDacl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAcl r_PInternalDacl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAcl RPInternalDacl
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAcl r_PInternalDacl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAcl RPInternalDacl
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.GenericAcl InternalSacl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAcl r_PInternalSacl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAcl RPInternalSacl
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAcl r_PInternalSacl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RGenericAcl RPInternalSacl
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Byte InternalReservedField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_PInternalReservedField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RPInternalReservedField
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_PInternalReservedField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RPInternalReservedField
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 BinaryLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PBinaryLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPBinaryLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PBinaryLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPBinaryLength
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean DaclIsUnmodifiedAefa
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PDaclIsUnmodifiedAefa;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPDaclIsUnmodifiedAefa
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PDaclIsUnmodifiedAefa;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPDaclIsUnmodifiedAefa
 		{
 			get
 			{

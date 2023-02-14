@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.PropertyDrawer
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.PropertyAttribute m_Attribute
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RPropertyAttribute r_Fm_Attribute;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RPropertyAttribute RFm_Attribute
+		protected Hvak.Editor.Refleaction.RUnityEngine.RPropertyAttribute r_Fm_Attribute;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RPropertyAttribute RFm_Attribute
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Reflection.FieldInfo m_FieldInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldInfo r_Fm_FieldInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldInfo RFm_FieldInfo
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RFieldInfo r_Fm_FieldInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RFieldInfo RFm_FieldInfo
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String m_PreferredLabel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_PreferredLabel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_PreferredLabel
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PreferredLabel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PreferredLabel
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.PropertyAttribute attribute
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RPropertyAttribute r_Pattribute;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RPropertyAttribute RPattribute
+		protected Hvak.Editor.Refleaction.RUnityEngine.RPropertyAttribute r_Pattribute;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RPropertyAttribute RPattribute
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Reflection.FieldInfo fieldInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldInfo r_PfieldInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldInfo RPfieldInfo
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RFieldInfo r_PfieldInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RFieldInfo RPfieldInfo
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String preferredLabel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PpreferredLabel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPpreferredLabel
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PpreferredLabel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpreferredLabel
 		{
 			get
 			{

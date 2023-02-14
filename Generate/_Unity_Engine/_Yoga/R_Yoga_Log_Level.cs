@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
+namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
 	/// UnityEngine.Yoga.YogaLogLevel
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaLogLevel Error
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel r_FError;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel RFError
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel r_FError;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel RFError
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaLogLevel Warn
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel r_FWarn;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel RFWarn
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel r_FWarn;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel RFWarn
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaLogLevel Info
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel r_FInfo;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel RFInfo
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel r_FInfo;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel RFInfo
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaLogLevel Debug
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel r_FDebug;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel RFDebug
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel r_FDebug;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel RFDebug
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaLogLevel Verbose
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel r_FVerbose;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel RFVerbose
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel r_FVerbose;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel RFVerbose
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaLogLevel Fatal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel r_FFatal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel RFFatal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel r_FFatal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel RFFatal
 		{
 			get
 			{

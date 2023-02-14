@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 {
 	/// <summary>
 	/// System.Security.Cryptography.PbeParameters
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.PbeEncryptionAlgorithm <EncryptionAlgorithm>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm r_F__0__EncryptionAlgorithm__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm RF__0__EncryptionAlgorithm__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm r_F__0__EncryptionAlgorithm__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm RF__0__EncryptionAlgorithm__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.HashAlgorithmName <HashAlgorithm>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_F__0__HashAlgorithm__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RF__0__HashAlgorithm__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_F__0__HashAlgorithm__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RF__0__HashAlgorithm__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Int32 <IterationCount>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__IterationCount__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__IterationCount__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__IterationCount__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__IterationCount__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.PbeEncryptionAlgorithm EncryptionAlgorithm
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm r_PEncryptionAlgorithm;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm RPEncryptionAlgorithm
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm r_PEncryptionAlgorithm;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm RPEncryptionAlgorithm
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.HashAlgorithmName HashAlgorithm
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_PHashAlgorithm;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RPHashAlgorithm
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName r_PHashAlgorithm;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RHashAlgorithmName RPHashAlgorithm
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Int32 IterationCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PIterationCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPIterationCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PIterationCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPIterationCount
 		{
 			get
 			{

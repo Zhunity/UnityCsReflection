@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RDropdownMenuAction
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DropdownMenuAction+Status None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DropdownMenuAction+Status Normal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus r_FNormal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus RFNormal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus r_FNormal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus RFNormal
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DropdownMenuAction+Status Disabled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus r_FDisabled;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus RFDisabled
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus r_FDisabled;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus RFDisabled
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DropdownMenuAction+Status Checked
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus r_FChecked;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus RFChecked
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus r_FChecked;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus RFChecked
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DropdownMenuAction+Status Hidden
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus r_FHidden;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus RFHidden
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus r_FHidden;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus RFHidden
 		{
 			get
 			{

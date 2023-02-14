@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.AuditFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AuditFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AuditFlags Success
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags r_FSuccess;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags RFSuccess
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags r_FSuccess;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags RFSuccess
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AuditFlags Failure
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags r_FFailure;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags RFFailure
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags r_FFailure;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAuditFlags RFFailure
 		{
 			get
 			{

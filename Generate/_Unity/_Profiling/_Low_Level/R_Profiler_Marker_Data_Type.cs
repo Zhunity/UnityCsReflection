@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
+namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 {
 	/// <summary>
 	/// Unity.Profiling.LowLevel.ProfilerMarkerDataType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// System.Byte value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType InstanceId
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FInstanceId;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFInstanceId
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FInstanceId;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFInstanceId
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType Int32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FInt32;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFInt32
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FInt32;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFInt32
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType UInt32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FUInt32;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFUInt32
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FUInt32;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFUInt32
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType Int64
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FInt64;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFInt64
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FInt64;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFInt64
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType UInt64
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FUInt64;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFUInt64
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FUInt64;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFUInt64
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType Float
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FFloat;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFFloat
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FFloat;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFFloat
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType Double
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FDouble;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFDouble
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FDouble;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFDouble
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType String16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FString16;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFString16
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FString16;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFString16
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType Blob8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FBlob8;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFBlob8
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FBlob8;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFBlob8
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType GfxResourceId
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FGfxResourceId;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFGfxResourceId
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FGfxResourceId;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFGfxResourceId
 		{
 			get
 			{

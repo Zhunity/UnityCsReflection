@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Contexts.DynamicPropertyCollection
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Collections.ArrayList _properties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_F_properties;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RF_properties
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_F_properties;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RF_properties
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Boolean HasProperties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasProperties;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasProperties
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasProperties;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasProperties
 		{
 			get
 			{

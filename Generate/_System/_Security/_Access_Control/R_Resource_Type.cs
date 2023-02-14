@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.ResourceType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ResourceType Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFUnknown
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FUnknown;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ResourceType FileObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FFileObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFFileObject
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FFileObject;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFFileObject
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ResourceType Service
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FService;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFService
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FService;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFService
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ResourceType Printer
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FPrinter;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFPrinter
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FPrinter;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFPrinter
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ResourceType RegistryKey
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FRegistryKey;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFRegistryKey
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FRegistryKey;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFRegistryKey
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ResourceType LMShare
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FLMShare;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFLMShare
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FLMShare;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFLMShare
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ResourceType KernelObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FKernelObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFKernelObject
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FKernelObject;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFKernelObject
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ResourceType WindowObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FWindowObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFWindowObject
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FWindowObject;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFWindowObject
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ResourceType DSObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FDSObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFDSObject
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FDSObject;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFDSObject
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ResourceType DSObjectAll
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FDSObjectAll;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFDSObjectAll
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FDSObjectAll;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFDSObjectAll
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ResourceType ProviderDefined
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FProviderDefined;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFProviderDefined
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FProviderDefined;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFProviderDefined
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ResourceType WmiGuidObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FWmiGuidObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFWmiGuidObject
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FWmiGuidObject;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFWmiGuidObject
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ResourceType RegistryWow6432Key
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FRegistryWow6432Key;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFRegistryWow6432Key
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType r_FRegistryWow6432Key;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RResourceType RFRegistryWow6432Key
 		{
 			get
 			{

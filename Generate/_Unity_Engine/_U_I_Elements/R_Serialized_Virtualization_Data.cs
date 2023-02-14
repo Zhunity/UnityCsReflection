@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.SerializedVirtualizationData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 scrollOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_FscrollOffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFscrollOffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_FscrollOffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFscrollOffset
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 firstVisibleIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FfirstVisibleIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfirstVisibleIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FfirstVisibleIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfirstVisibleIndex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single contentPadding
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FcontentPadding;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFcontentPadding
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FcontentPadding;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFcontentPadding
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single contentHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FcontentHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFcontentHeight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FcontentHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFcontentHeight
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 anchoredItemIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FanchoredItemIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFanchoredItemIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FanchoredItemIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFanchoredItemIndex
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single anchorOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FanchorOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFanchorOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FanchorOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFanchorOffset
 		{
 			get
 			{

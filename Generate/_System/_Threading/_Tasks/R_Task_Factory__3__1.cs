@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
+namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
 	/// System.Threading.Tasks.TaskFactory`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.CancellationToken m_defaultCancellationToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationToken r_Fm_defaultCancellationToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationToken RFm_defaultCancellationToken
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationToken r_Fm_defaultCancellationToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationToken RFm_defaultCancellationToken
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskScheduler m_defaultScheduler
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_Fm_defaultScheduler;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RFm_defaultScheduler
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_Fm_defaultScheduler;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RFm_defaultScheduler
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskCreationOptions m_defaultCreationOptions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_Fm_defaultCreationOptions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFm_defaultCreationOptions
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_Fm_defaultCreationOptions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RFm_defaultCreationOptions
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions m_defaultContinuationOptions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_Fm_defaultContinuationOptions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFm_defaultContinuationOptions
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_Fm_defaultContinuationOptions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFm_defaultContinuationOptions
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskScheduler DefaultScheduler
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_PDefaultScheduler;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RPDefaultScheduler
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_PDefaultScheduler;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RPDefaultScheduler
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.CancellationToken CancellationToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationToken r_PCancellationToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationToken RPCancellationToken
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationToken r_PCancellationToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationToken RPCancellationToken
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskScheduler Scheduler
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_PScheduler;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RPScheduler
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_PScheduler;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RPScheduler
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskCreationOptions CreationOptions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_PCreationOptions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RPCreationOptions
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_PCreationOptions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RPCreationOptions
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions ContinuationOptions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_PContinuationOptions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RPContinuationOptions
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_PContinuationOptions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RPContinuationOptions
 		{
 			get
 			{

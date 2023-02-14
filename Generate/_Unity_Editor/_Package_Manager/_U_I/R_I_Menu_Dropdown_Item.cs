@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.IMenuDropdownItem
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// Boolean isChecked
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisChecked;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisChecked
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisChecked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisChecked
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtext
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtext
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// Boolean insertSeparatorBefore
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PinsertSeparatorBefore;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPinsertSeparatorBefore
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PinsertSeparatorBefore;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPinsertSeparatorBefore
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.Action action
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_Paction;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RPaction
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_Paction;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RPaction
 		{
 			get
 			{

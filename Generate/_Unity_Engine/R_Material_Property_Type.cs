@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.MaterialPropertyType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialPropertyType Float
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyType r_FFloat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyType RFFloat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyType r_FFloat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyType RFFloat
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialPropertyType Int
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyType r_FInt;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyType RFInt
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyType r_FInt;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyType RFInt
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialPropertyType Vector
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyType r_FVector;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyType RFVector
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyType r_FVector;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyType RFVector
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialPropertyType Matrix
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyType r_FMatrix;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyType RFMatrix
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyType r_FMatrix;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyType RFMatrix
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialPropertyType Texture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyType r_FTexture;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyType RFTexture
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyType r_FTexture;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyType RFTexture
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialPropertyType ConstantBuffer
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyType r_FConstantBuffer;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyType RFConstantBuffer
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyType r_FConstantBuffer;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyType RFConstantBuffer
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialPropertyType ComputeBuffer
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyType r_FComputeBuffer;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyType RFComputeBuffer
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyType r_FComputeBuffer;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyType RFComputeBuffer
 		{
 			get
 			{

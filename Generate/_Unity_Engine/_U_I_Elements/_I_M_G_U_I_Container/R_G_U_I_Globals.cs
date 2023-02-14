@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RIMGUIContainer
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Matrix4x4 matrix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Fmatrix;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFmatrix
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Fmatrix;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFmatrix
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color color
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFcolor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFcolor
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color contentColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_FcontentColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFcontentColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_FcontentColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFcontentColor
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color backgroundColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_FbackgroundColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFbackgroundColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_FbackgroundColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFbackgroundColor
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean enabled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fenabled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFenabled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fenabled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFenabled
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean changed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fchanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFchanged
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fchanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFchanged
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 displayIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FdisplayIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFdisplayIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FdisplayIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFdisplayIndex
 		{
 			get
 			{

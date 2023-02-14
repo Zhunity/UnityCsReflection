@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {
 	/// <summary>
 	/// System.Runtime.CompilerServices.ValueTaskAwaiter
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Action`1[System.Object] s_invokeActionDelegate
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RObject> r_Fs_invokeActionDelegate;
-		public static SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RObject> RFs_invokeActionDelegate
+		protected static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RObject> r_Fs_invokeActionDelegate;
+		public static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RObject> RFs_invokeActionDelegate
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Threading.Tasks.ValueTask _value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RValueTask r_F_value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RValueTask RF_value
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RValueTask r_F_value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RValueTask RF_value
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
 		{
 			get
 			{

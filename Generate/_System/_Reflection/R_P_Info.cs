@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.PInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInfo Attributes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInfo r_FAttributes;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInfo RFAttributes
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInfo r_FAttributes;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInfo RFAttributes
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInfo GetMethod
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInfo r_FGetMethod;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInfo RFGetMethod
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInfo r_FGetMethod;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInfo RFGetMethod
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInfo SetMethod
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInfo r_FSetMethod;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInfo RFSetMethod
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInfo r_FSetMethod;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInfo RFSetMethod
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInfo ReflectedType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInfo r_FReflectedType;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInfo RFReflectedType
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInfo r_FReflectedType;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInfo RFReflectedType
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInfo DeclaringType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInfo r_FDeclaringType;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInfo RFDeclaringType
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInfo r_FDeclaringType;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInfo RFDeclaringType
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInfo Name
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInfo r_FName;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInfo RFName
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInfo r_FName;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInfo RFName
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.CultureData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sAM1159
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FsAM1159;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFsAM1159
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FsAM1159;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFsAM1159
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sPM2359
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FsPM2359;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFsPM2359
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FsPM2359;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFsPM2359
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sTimeSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FsTimeSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFsTimeSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FsTimeSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFsTimeSeparator
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saLongTimes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaLongTimes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaLongTimes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaLongTimes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaLongTimes
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saShortTimes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaShortTimes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaShortTimes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaShortTimes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaShortTimes
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iFirstDayOfWeek
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FiFirstDayOfWeek;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFiFirstDayOfWeek
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FiFirstDayOfWeek;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFiFirstDayOfWeek
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iFirstWeekOfYear
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FiFirstWeekOfYear;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFiFirstWeekOfYear
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FiFirstWeekOfYear;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFiFirstWeekOfYear
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32[] waCalendars
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_FwaCalendars;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFwaCalendars
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_FwaCalendars;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFwaCalendars
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarData[] calendars
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarData> r_Fcalendars;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarData> RFcalendars
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData> r_Fcalendars;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData> RFcalendars
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sISO639Language
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FsISO639Language;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFsISO639Language
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FsISO639Language;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFsISO639Language
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sRealName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FsRealName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFsRealName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FsRealName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFsRealName
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean bUseOverrides
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FbUseOverrides;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFbUseOverrides
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FbUseOverrides;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFbUseOverrides
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 calendarId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcalendarId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcalendarId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcalendarId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcalendarId
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 numberIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FnumberIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFnumberIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FnumberIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFnumberIndex
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iDefaultAnsiCodePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FiDefaultAnsiCodePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFiDefaultAnsiCodePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FiDefaultAnsiCodePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFiDefaultAnsiCodePage
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iDefaultOemCodePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FiDefaultOemCodePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFiDefaultOemCodePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FiDefaultOemCodePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFiDefaultOemCodePage
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iDefaultMacCodePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FiDefaultMacCodePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFiDefaultMacCodePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FiDefaultMacCodePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFiDefaultMacCodePage
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iDefaultEbcdicCodePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FiDefaultEbcdicCodePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFiDefaultEbcdicCodePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FiDefaultEbcdicCodePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFiDefaultEbcdicCodePage
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean isRightToLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisRightToLeft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisRightToLeft
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisRightToLeft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisRightToLeft
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sListSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FsListSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFsListSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FsListSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFsListSeparator
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CultureData s_Invariant
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureData r_Fs_Invariant;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureData RFs_Invariant
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData r_Fs_Invariant;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData RFs_Invariant
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CultureData Invariant
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureData r_PInvariant;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureData RPInvariant
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData r_PInvariant;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData RPInvariant
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] LongTimes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> r_PLongTimes;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> RPLongTimes
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> r_PLongTimes;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> RPLongTimes
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] ShortTimes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> r_PShortTimes;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> RPShortTimes
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> r_PShortTimes;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> RPShortTimes
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String SISO639LANGNAME
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PSISO639LANGNAME;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPSISO639LANGNAME
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PSISO639LANGNAME;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPSISO639LANGNAME
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 IFIRSTDAYOFWEEK
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PIFIRSTDAYOFWEEK;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPIFIRSTDAYOFWEEK
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PIFIRSTDAYOFWEEK;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPIFIRSTDAYOFWEEK
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 IFIRSTWEEKOFYEAR
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PIFIRSTWEEKOFYEAR;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPIFIRSTWEEKOFYEAR
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PIFIRSTWEEKOFYEAR;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPIFIRSTWEEKOFYEAR
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String SAM1159
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PSAM1159;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPSAM1159
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PSAM1159;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPSAM1159
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String SPM2359
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PSPM2359;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPSPM2359
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PSPM2359;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPSPM2359
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String TimeSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PTimeSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPTimeSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PTimeSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPTimeSeparator
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32[] CalendarIds
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_PCalendarIds;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RPCalendarIds
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_PCalendarIds;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RInt32> RPCalendarIds
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsInvariantCulture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsInvariantCulture;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsInvariantCulture
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsInvariantCulture;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsInvariantCulture
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CultureName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PCultureName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPCultureName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PCultureName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPCultureName
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String SCOMPAREINFO
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PSCOMPAREINFO;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPSCOMPAREINFO
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PSCOMPAREINFO;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPSCOMPAREINFO
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String STEXTINFO
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PSTEXTINFO;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPSTEXTINFO
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PSTEXTINFO;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPSTEXTINFO
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 ILANGUAGE
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PILANGUAGE;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPILANGUAGE
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PILANGUAGE;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPILANGUAGE
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 IDEFAULTANSICODEPAGE
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PIDEFAULTANSICODEPAGE;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPIDEFAULTANSICODEPAGE
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PIDEFAULTANSICODEPAGE;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPIDEFAULTANSICODEPAGE
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 IDEFAULTOEMCODEPAGE
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PIDEFAULTOEMCODEPAGE;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPIDEFAULTOEMCODEPAGE
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PIDEFAULTOEMCODEPAGE;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPIDEFAULTOEMCODEPAGE
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 IDEFAULTMACCODEPAGE
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PIDEFAULTMACCODEPAGE;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPIDEFAULTMACCODEPAGE
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PIDEFAULTMACCODEPAGE;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPIDEFAULTMACCODEPAGE
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 IDEFAULTEBCDICCODEPAGE
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PIDEFAULTEBCDICCODEPAGE;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPIDEFAULTEBCDICCODEPAGE
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PIDEFAULTEBCDICCODEPAGE;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPIDEFAULTEBCDICCODEPAGE
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsRightToLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsRightToLeft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsRightToLeft
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsRightToLeft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsRightToLeft
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String SLIST
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PSLIST;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPSLIST
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PSLIST;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPSLIST
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean UseUserOverride
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PUseUserOverride;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPUseUserOverride
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PUseUserOverride;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPUseUserOverride
 		{
 			get
 			{
@@ -1457,36 +1457,36 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureData GetCultureData(System.String @cultureName, System.Boolean @useUserOverride)
+        public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData GetCultureData(System.String @cultureName, System.Boolean @useUserOverride)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cultureName, @useUserOverride};
             var ___result = RMGetCultureData_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureData(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureData GetCultureData(System.String @cultureName, System.Boolean @useUserOverride, System.Int32 @datetimeIndex, System.Int32 @calendarId, System.Int32 @numberIndex, System.String @iso2lang, System.Int32 @ansiCodePage, System.Int32 @oemCodePage, System.Int32 @macCodePage, System.Int32 @ebcdicCodePage, System.Boolean @rightToLeft, System.String @listSeparator)
+        public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData GetCultureData(System.String @cultureName, System.Boolean @useUserOverride, System.Int32 @datetimeIndex, System.Int32 @calendarId, System.Int32 @numberIndex, System.String @iso2lang, System.Int32 @ansiCodePage, System.Int32 @oemCodePage, System.Int32 @macCodePage, System.Int32 @ebcdicCodePage, System.Boolean @rightToLeft, System.String @listSeparator)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cultureName, @useUserOverride, @datetimeIndex, @calendarId, @numberIndex, @iso2lang, @ansiCodePage, @oemCodePage, @macCodePage, @ebcdicCodePage, @rightToLeft, @listSeparator};
             var ___result = RMGetCultureData_String_Boolean_Int32_Int32_Int32_String_Int32_Int32_Int32_Int32_Boolean_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureData(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureData GetCultureData(System.Int32 @culture, System.Boolean @bUseUserOverride)
+        public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData GetCultureData(System.Int32 @culture, System.Boolean @bUseUserOverride)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@culture, @bUseUserOverride};
             var ___result = RMGetCultureData_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureData(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData(___result);
         }
 
 
@@ -1501,25 +1501,25 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarData GetCalendar(System.Int32 @calendarId)
+        public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData GetCalendar(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@calendarId};
             var ___result = RMGetCalendar_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarData(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId> GetCalendarIds()
+        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId> GetCalendarIds()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetCalendarIds.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarId>(___result);
+            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId>(___result);
         }
 
 
@@ -1831,13 +1831,13 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public unsafe static System.Byte* fill_number_data(System.Int32 @index, ref SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureData.RNumberFormatEntryManaged @nfe)
+        public unsafe static System.Byte* fill_number_data(System.Int32 @index, ref Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData.RNumberFormatEntryManaged @nfe)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @nfe.Value};
             var ___result = RMfill_number_data_Int32_Ref_NumberFormatEntryManaged.Invoke(___genericsType, ___parameters);
-			@nfe = new SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureData.RNumberFormatEntryManaged(___parameters[1]);
+			@nfe = new Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData.RNumberFormatEntryManaged(___parameters[1]);
 
             return (System.Byte*)Pointer.Unbox(___result);
         }

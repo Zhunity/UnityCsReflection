@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.IAsyncHTTPClient
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtext
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtext
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Byte[] bytes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_Pbytes;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPbytes
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_Pbytes;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPbytes
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Texture2D texture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_Ptexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RPtexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Ptexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RPtexture
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// State state
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_Pstate;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RPstate
+		protected Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState r_Pstate;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RState RPstate
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 responseCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PresponseCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPresponseCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PresponseCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPresponseCode
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String tag
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptag;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtag
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptag;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtag
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.String] header
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RString> r_Pheader;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RString> RPheader
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RString> r_Pheader;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RString> RPheader
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.String] responseHeader
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RString> r_PresponseHeader;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RString> RPresponseHeader
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RString> r_PresponseHeader;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RString> RPresponseHeader
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String postData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PpostData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPpostData
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PpostData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpostData
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.String] postDictionary
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RString> r_PpostDictionary;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RSystem.RString> RPpostDictionary
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RString> r_PpostDictionary;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RString> RPpostDictionary
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// DoneCallback doneCallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RDoneCallback r_PdoneCallback;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RDoneCallback RPdoneCallback
+		protected Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RDoneCallback r_PdoneCallback;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RAsyncHTTPClient.RDoneCallback RPdoneCallback
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String url
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Purl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPurl
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Purl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPurl
 		{
 			get
 			{

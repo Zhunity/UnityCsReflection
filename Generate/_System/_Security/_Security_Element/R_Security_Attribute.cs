@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 {public partial class RSecurityElement
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String _name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_name;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_name
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_name;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_name
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String _value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_value
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_value
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPValue
 		{
 			get
 			{

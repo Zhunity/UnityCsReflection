@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.CubemapFace
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CubemapFace Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace RFUnknown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace r_FUnknown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CubemapFace PositiveX
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace r_FPositiveX;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace RFPositiveX
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace r_FPositiveX;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace RFPositiveX
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CubemapFace NegativeX
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace r_FNegativeX;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace RFNegativeX
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace r_FNegativeX;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace RFNegativeX
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CubemapFace PositiveY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace r_FPositiveY;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace RFPositiveY
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace r_FPositiveY;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace RFPositiveY
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CubemapFace NegativeY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace r_FNegativeY;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace RFNegativeY
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace r_FNegativeY;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace RFNegativeY
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CubemapFace PositiveZ
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace r_FPositiveZ;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace RFPositiveZ
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace r_FPositiveZ;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace RFPositiveZ
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CubemapFace NegativeZ
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace r_FNegativeZ;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCubemapFace RFNegativeZ
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace r_FNegativeZ;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCubemapFace RFNegativeZ
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleKeyword
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleKeyword Undefined
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_FUndefined;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFUndefined
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_FUndefined;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFUndefined
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleKeyword Null
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_FNull;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFNull
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_FNull;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFNull
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleKeyword Auto
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_FAuto;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFAuto
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_FAuto;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFAuto
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleKeyword None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFNone
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleKeyword Initial
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_FInitial;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFInitial
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_FInitial;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFInitial
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {public partial class RUtility
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr buffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fbuffer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFbuffer
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fbuffer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFbuffer
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 elemCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FelemCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFelemCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FelemCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFelemCount
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 elemStride
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FelemStride;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFelemStride
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FelemStride;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFelemStride
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 ElementStride
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PElementStride;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPElementStride
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PElementStride;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPElementStride
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCount
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// IntPtr BufferPointer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_PBufferPointer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RPBufferPointer
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_PBufferPointer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RPBufferPointer
 		{
 			get
 			{
@@ -280,7 +280,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void UpdateRanges(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGfxUpdateBufferRange> @ranges, System.Int32 @rangesMin, System.Int32 @rangesMax)
+        public virtual void UpdateRanges(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RGfxUpdateBufferRange> @ranges, System.Int32 @rangesMin, System.Int32 @rangesMax)
         {
 
             var ___genericsType = new Type[] {};

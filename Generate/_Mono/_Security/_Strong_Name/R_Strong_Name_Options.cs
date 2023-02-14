@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RMono.RSecurity
+namespace Hvak.Editor.Refleaction.RMono.RSecurity
 {public partial class RStrongName
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// Mono.Security.StrongName+StrongNameOptions Metadata
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameOptions r_FMetadata;
-		public static SMFrame.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameOptions RFMetadata
+		protected static Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameOptions r_FMetadata;
+		public static Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameOptions RFMetadata
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// Mono.Security.StrongName+StrongNameOptions Signature
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameOptions r_FSignature;
-		public static SMFrame.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameOptions RFSignature
+		protected static Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameOptions r_FSignature;
+		public static Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameOptions RFSignature
 		{
 			get
 			{

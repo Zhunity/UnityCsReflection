@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.RuntimeMethodHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFvalue
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFvalue
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// IntPtr Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RPValue
 		{
 			get
 			{
@@ -389,7 +389,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.String ConstructInstantiation(SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeMethodInfo @method, SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags @format)
+        public static System.String ConstructInstantiation(Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeMethodInfo @method, Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags @format)
         {
 
             var ___genericsType = new Type[] {};

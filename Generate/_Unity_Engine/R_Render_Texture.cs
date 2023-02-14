@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.RenderTexture
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 width
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pwidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPwidth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pwidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPwidth
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 height
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pheight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPheight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pheight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPheight
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.TextureDimension dimension
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_Pdimension;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RPdimension
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension r_Pdimension;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RTextureDimension RPdimension
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.GraphicsFormat graphicsFormat
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_PgraphicsFormat;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RPgraphicsFormat
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_PgraphicsFormat;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RPgraphicsFormat
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean useMipMap
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PuseMipMap;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPuseMipMap
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PuseMipMap;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPuseMipMap
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean sRGB
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PsRGB;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPsRGB
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PsRGB;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPsRGB
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.VRTextureUsage vrUsage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVRTextureUsage r_PvrUsage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVRTextureUsage RPvrUsage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVRTextureUsage r_PvrUsage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVRTextureUsage RPvrUsage
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureMemoryless memorylessMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureMemoryless r_PmemorylessMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureMemoryless RPmemorylessMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureMemoryless r_PmemorylessMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureMemoryless RPmemorylessMode
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureFormat format
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_Pformat;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RPformat
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat r_Pformat;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureFormat RPformat
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.GraphicsFormat stencilFormat
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_PstencilFormat;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RPstencilFormat
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_PstencilFormat;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RPstencilFormat
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.GraphicsFormat depthStencilFormat
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_PdepthStencilFormat;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RPdepthStencilFormat
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_PdepthStencilFormat;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RPdepthStencilFormat
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean autoGenerateMips
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PautoGenerateMips;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPautoGenerateMips
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PautoGenerateMips;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPautoGenerateMips
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 volumeDepth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PvolumeDepth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPvolumeDepth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PvolumeDepth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPvolumeDepth
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 antiAliasing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PantiAliasing;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPantiAliasing
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PantiAliasing;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPantiAliasing
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean bindTextureMS
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PbindTextureMS;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPbindTextureMS
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PbindTextureMS;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPbindTextureMS
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean enableRandomWrite
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PenableRandomWrite;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPenableRandomWrite
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PenableRandomWrite;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPenableRandomWrite
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean useDynamicScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PuseDynamicScale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPuseDynamicScale
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PuseDynamicScale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPuseDynamicScale
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isPowerOfTwo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisPowerOfTwo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisPowerOfTwo
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisPowerOfTwo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisPowerOfTwo
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTexture active
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTexture r_Pactive;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTexture RPactive
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTexture r_Pactive;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTexture RPactive
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderBuffer colorBuffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderBuffer r_PcolorBuffer;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderBuffer RPcolorBuffer
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderBuffer r_PcolorBuffer;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderBuffer RPcolorBuffer
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderBuffer depthBuffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderBuffer r_PdepthBuffer;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderBuffer RPdepthBuffer
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderBuffer r_PdepthBuffer;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderBuffer RPdepthBuffer
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 depth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pdepth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPdepth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pdepth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPdepth
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureDescriptor descriptor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureDescriptor r_Pdescriptor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureDescriptor RPdescriptor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureDescriptor r_Pdescriptor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureDescriptor RPdescriptor
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean generateMips
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PgenerateMips;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPgenerateMips
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PgenerateMips;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPgenerateMips
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isCubemap
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisCubemap;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisCubemap
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisCubemap;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisCubemap
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isVolume
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisVolume;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisVolume
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisVolume;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisVolume
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_Penabled;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RPenabled
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_Penabled;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RPenabled
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 mipmapCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmipmapCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmipmapCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmipmapCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmipmapCount
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isReadable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisReadable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisReadable
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisReadable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisReadable
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureWrapMode wrapMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_PwrapMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode RPwrapMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_PwrapMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode RPwrapMode
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureWrapMode wrapModeU
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_PwrapModeU;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode RPwrapModeU
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_PwrapModeU;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode RPwrapModeU
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureWrapMode wrapModeV
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_PwrapModeV;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode RPwrapModeV
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_PwrapModeV;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode RPwrapModeV
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureWrapMode wrapModeW
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_PwrapModeW;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode RPwrapModeW
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_PwrapModeW;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode RPwrapModeW
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.FilterMode filterMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RFilterMode r_PfilterMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RFilterMode RPfilterMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RFilterMode r_PfilterMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RFilterMode RPfilterMode
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 anisoLevel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PanisoLevel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPanisoLevel
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PanisoLevel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPanisoLevel
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single mipMapBias
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PmipMapBias;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPmipMapBias
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PmipMapBias;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPmipMapBias
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2 texelSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PtexelSize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPtexelSize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PtexelSize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPtexelSize
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 updateCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PupdateCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPupdateCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PupdateCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPupdateCount
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ColorSpace activeTextureColorSpace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColorSpace r_PactiveTextureColorSpace;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColorSpace RPactiveTextureColorSpace
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColorSpace r_PactiveTextureColorSpace;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColorSpace RPactiveTextureColorSpace
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isDataSRGB
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisDataSRGB;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisDataSRGB
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDataSRGB;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDataSRGB
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Hash128 imageContentsHash
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHash128 r_PimageContentsHash;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHash128 RPimageContentsHash
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHash128 r_PimageContentsHash;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHash128 RPimageContentsHash
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{
@@ -2260,7 +2260,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ConvertToEquirect(UnityEngine.RenderTexture @equirect, SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
+        public virtual void ConvertToEquirect(UnityEngine.RenderTexture @equirect, Hvak.Editor.Refleaction.RUnityEngine.RCamera.RMonoOrStereoscopicEye @eye)
         {
 
             var ___genericsType = new Type[] {};

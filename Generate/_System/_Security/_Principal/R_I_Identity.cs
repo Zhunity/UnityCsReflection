@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 {
 	/// <summary>
 	/// System.Security.Principal.IIdentity
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.String AuthenticationType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PAuthenticationType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPAuthenticationType
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PAuthenticationType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPAuthenticationType
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// Boolean IsAuthenticated
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsAuthenticated;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsAuthenticated
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsAuthenticated;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsAuthenticated
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.CombineInstance
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_MeshInstanceID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_MeshInstanceID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_MeshInstanceID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_MeshInstanceID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_MeshInstanceID
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_SubMeshIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_SubMeshIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_SubMeshIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_SubMeshIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_SubMeshIndex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Matrix4x4 m_Transform
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Fm_Transform;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFm_Transform
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Fm_Transform;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFm_Transform
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector4 m_LightmapScaleOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_Fm_LightmapScaleOffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFm_LightmapScaleOffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_Fm_LightmapScaleOffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFm_LightmapScaleOffset
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector4 m_RealtimeLightmapScaleOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_Fm_RealtimeLightmapScaleOffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFm_RealtimeLightmapScaleOffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_Fm_RealtimeLightmapScaleOffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFm_RealtimeLightmapScaleOffset
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Mesh mesh
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMesh r_Pmesh;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMesh RPmesh
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMesh r_Pmesh;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMesh RPmesh
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 subMeshIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PsubMeshIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPsubMeshIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PsubMeshIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPsubMeshIndex
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Matrix4x4 transform
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Ptransform;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPtransform
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Ptransform;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPtransform
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector4 lightmapScaleOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_PlightmapScaleOffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RPlightmapScaleOffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_PlightmapScaleOffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RPlightmapScaleOffset
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector4 realtimeLightmapScaleOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_PrealtimeLightmapScaleOffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RPrealtimeLightmapScaleOffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_PrealtimeLightmapScaleOffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RPrealtimeLightmapScaleOffset
 		{
 			get
 			{

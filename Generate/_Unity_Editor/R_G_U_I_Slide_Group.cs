@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.GUISlideGroup
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.GUISlideGroup current
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RGUISlideGroup r_Fcurrent;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RGUISlideGroup RFcurrent
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RGUISlideGroup r_Fcurrent;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RGUISlideGroup RFcurrent
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.Rect] animIDs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RUnityEngine.RRect> r_FanimIDs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RUnityEngine.RRect> RFanimIDs
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RUnityEngine.RRect> r_FanimIDs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RUnityEngine.RRect> RFanimIDs
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kLerp
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_FkLerp;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFkLerp
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_FkLerp;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFkLerp
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kSnap
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_FkSnap;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFkSnap
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_FkSnap;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFkSnap
 		{
 			get
 			{

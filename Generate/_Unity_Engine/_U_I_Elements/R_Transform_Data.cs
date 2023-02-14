@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.TransformData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Rotate rotate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRotate r_Frotate;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRotate RFrotate
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRotate r_Frotate;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRotate RFrotate
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Scale scale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScale r_Fscale;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScale RFscale
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScale r_Fscale;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScale RFscale
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TransformOrigin transformOrigin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransformOrigin r_FtransformOrigin;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransformOrigin RFtransformOrigin
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransformOrigin r_FtransformOrigin;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransformOrigin RFtransformOrigin
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Translate translate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTranslate r_Ftranslate;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTranslate RFtranslate
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTranslate r_Ftranslate;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTranslate RFtranslate
 		{
 			get
 			{
@@ -284,30 +284,30 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData Copy()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData Copy()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData(___result);
         }
 
 
-        public virtual void CopyFrom(ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData @other)
+        public virtual void CopyFrom(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData @other)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other.Value};
             var ___result = RMCopyFrom_Ref_TransformData.Invoke(___genericsType, ___parameters);
-			@other = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData(___parameters[0]);
+			@other = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData(___parameters[0]);
 
             
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData @rhs)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -318,7 +318,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData @rhs)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -329,7 +329,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransformData @other)
         {
 
             var ___genericsType = new Type[] {};

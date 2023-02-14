@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.AccessControlSections
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlSections None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlSections Audit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections r_FAudit;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections RFAudit
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections r_FAudit;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections RFAudit
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlSections Access
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections r_FAccess;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections RFAccess
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections r_FAccess;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections RFAccess
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlSections Owner
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections r_FOwner;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections RFOwner
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections r_FOwner;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections RFOwner
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlSections Group
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections r_FGroup;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections RFGroup
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections r_FGroup;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections RFGroup
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlSections All
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections r_FAll;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections RFAll
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections r_FAll;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAccessControlSections RFAll
 		{
 			get
 			{

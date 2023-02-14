@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Activation.ActivatorLevel
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Runtime.Remoting.Activation.ActivatorLevel Construction
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel r_FConstruction;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel RFConstruction
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel r_FConstruction;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel RFConstruction
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Runtime.Remoting.Activation.ActivatorLevel Context
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel r_FContext;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel RFContext
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel r_FContext;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel RFContext
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Runtime.Remoting.Activation.ActivatorLevel AppDomain
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel r_FAppDomain;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel RFAppDomain
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel r_FAppDomain;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel RFAppDomain
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Runtime.Remoting.Activation.ActivatorLevel Process
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel r_FProcess;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel RFProcess
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel r_FProcess;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel RFProcess
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Runtime.Remoting.Activation.ActivatorLevel Machine
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel r_FMachine;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel RFMachine
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel r_FMachine;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RActivatorLevel RFMachine
 		{
 			get
 			{

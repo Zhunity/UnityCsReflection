@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.TouchScreenKeyboard
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean <disableInPlaceEditing>k__BackingField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__disableInPlaceEditing__1__k__BackingField;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__disableInPlaceEditing__1__k__BackingField
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__disableInPlaceEditing__1__k__BackingField;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__disableInPlaceEditing__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isSupported
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisSupported;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RPisSupported
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_PisSupported;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RPisSupported
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean disableInPlaceEditing
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_PdisableInPlaceEditing;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RPdisableInPlaceEditing
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_PdisableInPlaceEditing;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RPdisableInPlaceEditing
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isInPlaceEditingAllowed
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisInPlaceEditingAllowed;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RPisInPlaceEditingAllowed
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_PisInPlaceEditingAllowed;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RPisInPlaceEditingAllowed
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isRequiredToForceOpen
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisRequiredToForceOpen;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RPisRequiredToForceOpen
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_PisRequiredToForceOpen;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RPisRequiredToForceOpen
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtext
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtext
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean hideInput
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhideInput;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RPhideInput
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_PhideInput;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RPhideInput
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean active
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pactive;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPactive
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pactive;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPactive
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean done
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pdone;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdone
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pdone;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdone
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean wasCanceled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PwasCanceled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPwasCanceled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PwasCanceled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPwasCanceled
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Status status
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus r_Pstatus;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus RPstatus
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus r_Pstatus;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard.RStatus RPstatus
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 characterLimit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PcharacterLimit;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPcharacterLimit
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PcharacterLimit;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPcharacterLimit
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean canGetSelection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PcanGetSelection;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPcanGetSelection
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcanGetSelection;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcanGetSelection
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean canSetSelection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PcanSetSelection;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPcanSetSelection
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcanSetSelection;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcanSetSelection
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RangeInt selection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRangeInt r_Pselection;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRangeInt RPselection
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRangeInt r_Pselection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRangeInt RPselection
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_Ptype;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RPtype
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_Ptype;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RPtype
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 targetDisplay
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PtargetDisplay;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPtargetDisplay
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PtargetDisplay;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPtargetDisplay
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rect area
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRect r_Parea;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRect RParea
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRect r_Parea;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRect RParea
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean visible
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RPvisible
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RPvisible
 		{
 			get
 			{
@@ -793,13 +793,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.IntPtr TouchScreenKeyboard_InternalConstructorHelper(ref SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard_InternalConstructorHelperArguments @arguments, System.String @text, System.String @textPlaceholder)
+        public static System.IntPtr TouchScreenKeyboard_InternalConstructorHelper(ref Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard_InternalConstructorHelperArguments @arguments, System.String @text, System.String @textPlaceholder)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@arguments.Value, @text, @textPlaceholder};
             var ___result = RMTouchScreenKeyboard_InternalConstructorHelper_Ref_TouchScreenKeyboard_InternalConstructorHelperArguments_String_String.Invoke(___genericsType, ___parameters);
-			@arguments = new SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard_InternalConstructorHelperArguments(___parameters[0]);
+			@arguments = new Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard_InternalConstructorHelperArguments(___parameters[0]);
 
             return (System.IntPtr)___result;
         }

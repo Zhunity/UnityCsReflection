@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.DrawStates
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 controlId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcontrolId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcontrolId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcontrolId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcontrolId
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean isHover
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisHover;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisHover
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisHover;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisHover
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean isActive
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisActive;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisActive
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisActive;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisActive
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean on
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fon;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFon
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fon;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFon
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean hasKeyboardFocus
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FhasKeyboardFocus;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFhasKeyboardFocus
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FhasKeyboardFocus;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFhasKeyboardFocus
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean hasTextInput
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FhasTextInput;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFhasTextInput
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FhasTextInput;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFhasTextInput
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean drawSelectionAsComposition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FdrawSelectionAsComposition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFdrawSelectionAsComposition
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FdrawSelectionAsComposition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFdrawSelectionAsComposition
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 cursorFirst
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcursorFirst;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcursorFirst
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcursorFirst;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcursorFirst
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 cursorLast
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcursorLast;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcursorLast
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcursorLast;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcursorLast
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color cursorColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_FcursorColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFcursorColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_FcursorColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFcursorColor
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color selectionColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_FselectionColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFselectionColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_FselectionColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFselectionColor
 		{
 			get
 			{

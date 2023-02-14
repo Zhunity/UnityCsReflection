@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Messaging.CallContextRemotingData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String _logicalCallID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_logicalCallID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_logicalCallID
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_logicalCallID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_logicalCallID
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String LogicalCallID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PLogicalCallID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPLogicalCallID
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PLogicalCallID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPLogicalCallID
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Boolean HasInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasInfo
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasInfo
 		{
 			get
 			{

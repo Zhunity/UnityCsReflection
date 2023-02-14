@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.TimeUnit
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TimeUnit Second
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTimeUnit r_FSecond;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTimeUnit RFSecond
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTimeUnit r_FSecond;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTimeUnit RFSecond
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TimeUnit Millisecond
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTimeUnit r_FMillisecond;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTimeUnit RFMillisecond
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTimeUnit r_FMillisecond;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTimeUnit RFMillisecond
 		{
 			get
 			{

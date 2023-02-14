@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 {
 	/// <summary>
 	/// System.Runtime.InteropServices.UnmanagedType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType Bool
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FBool;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFBool
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FBool;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFBool
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType I1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FI1;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFI1
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FI1;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFI1
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType U1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FU1;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFU1
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FU1;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFU1
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType I2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FI2;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFI2
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FI2;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFI2
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType U2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FU2;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFU2
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FU2;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFU2
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType I4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FI4;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFI4
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FI4;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFI4
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType U4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FU4;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFU4
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FU4;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFU4
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType I8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FI8;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFI8
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FI8;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFI8
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType U8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FU8;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFU8
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FU8;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFU8
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType R4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FR4;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFR4
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FR4;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFR4
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType R8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FR8;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFR8
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FR8;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFR8
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType Currency
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FCurrency;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFCurrency
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FCurrency;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFCurrency
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType BStr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FBStr;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFBStr
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FBStr;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFBStr
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType LPStr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FLPStr;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFLPStr
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FLPStr;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFLPStr
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType LPWStr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FLPWStr;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFLPWStr
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FLPWStr;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFLPWStr
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType LPTStr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FLPTStr;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFLPTStr
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FLPTStr;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFLPTStr
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType ByValTStr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FByValTStr;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFByValTStr
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FByValTStr;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFByValTStr
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType IUnknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FIUnknown;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFIUnknown
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FIUnknown;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFIUnknown
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType IDispatch
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FIDispatch;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFIDispatch
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FIDispatch;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFIDispatch
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType Struct
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FStruct;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFStruct
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FStruct;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFStruct
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType Interface
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FInterface;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFInterface
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FInterface;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFInterface
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType SafeArray
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FSafeArray;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFSafeArray
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FSafeArray;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFSafeArray
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType ByValArray
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FByValArray;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFByValArray
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FByValArray;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFByValArray
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType SysInt
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FSysInt;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFSysInt
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FSysInt;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFSysInt
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType SysUInt
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FSysUInt;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFSysUInt
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FSysUInt;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFSysUInt
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType VBByRefStr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FVBByRefStr;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFVBByRefStr
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FVBByRefStr;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFVBByRefStr
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType AnsiBStr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FAnsiBStr;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFAnsiBStr
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FAnsiBStr;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFAnsiBStr
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType TBStr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FTBStr;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFTBStr
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FTBStr;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFTBStr
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType VariantBool
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FVariantBool;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFVariantBool
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FVariantBool;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFVariantBool
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType FunctionPtr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FFunctionPtr;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFFunctionPtr
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FFunctionPtr;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFFunctionPtr
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType AsAny
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FAsAny;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFAsAny
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FAsAny;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFAsAny
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType LPArray
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FLPArray;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFLPArray
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FLPArray;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFLPArray
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType LPStruct
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FLPStruct;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFLPStruct
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FLPStruct;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFLPStruct
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType CustomMarshaler
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FCustomMarshaler;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFCustomMarshaler
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FCustomMarshaler;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFCustomMarshaler
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType Error
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FError;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFError
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FError;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFError
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType IInspectable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FIInspectable;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFIInspectable
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FIInspectable;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFIInspectable
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType HString
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FHString;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFHString
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FHString;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFHString
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType LPUTF8Str
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FLPUTF8Str;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFLPUTF8Str
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_FLPUTF8Str;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFLPUTF8Str
 		{
 			get
 			{

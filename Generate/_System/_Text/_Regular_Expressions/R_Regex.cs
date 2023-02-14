@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
+namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
 	/// System.Text.RegularExpressions.Regex
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 CacheDictionarySwitchLimit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCacheDictionarySwitchLimit;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCacheDictionarySwitchLimit
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCacheDictionarySwitchLimit;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCacheDictionarySwitchLimit
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 s_cacheSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fs_cacheSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFs_cacheSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_cacheSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_cacheSize
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Text.RegularExpressions.Regex+CachedCodeEntryKey,System.Text.RegularExpressions.Regex+CachedCodeEntry] s_cache
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey, SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry> r_Fs_cache;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey, SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry> RFs_cache
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey, Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry> r_Fs_cache;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey, Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry> RFs_cache
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 s_cacheCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fs_cacheCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFs_cacheCount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_cacheCount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_cacheCount
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Regex+CachedCodeEntry s_cacheFirst
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry r_Fs_cacheFirst;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry RFs_cacheFirst
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry r_Fs_cacheFirst;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry RFs_cacheFirst
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Regex+CachedCodeEntry s_cacheLast
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry r_Fs_cacheLast;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry RFs_cacheLast
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry r_Fs_cacheLast;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry RFs_cacheLast
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.TimeSpan s_maximumMatchTimeout
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_Fs_maximumMatchTimeout;
-		public static SMFrame.Editor.Refleaction.RSystem.RTimeSpan RFs_maximumMatchTimeout
+		protected static Hvak.Editor.Refleaction.RSystem.RTimeSpan r_Fs_maximumMatchTimeout;
+		public static Hvak.Editor.Refleaction.RSystem.RTimeSpan RFs_maximumMatchTimeout
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String DefaultMatchTimeout_ConfigKeyName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FDefaultMatchTimeout_ConfigKeyName;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFDefaultMatchTimeout_ConfigKeyName
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FDefaultMatchTimeout_ConfigKeyName;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFDefaultMatchTimeout_ConfigKeyName
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.TimeSpan s_defaultMatchTimeout
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_Fs_defaultMatchTimeout;
-		public static SMFrame.Editor.Refleaction.RSystem.RTimeSpan RFs_defaultMatchTimeout
+		protected static Hvak.Editor.Refleaction.RSystem.RTimeSpan r_Fs_defaultMatchTimeout;
+		public static Hvak.Editor.Refleaction.RSystem.RTimeSpan RFs_defaultMatchTimeout
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.TimeSpan InfiniteMatchTimeout
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_FInfiniteMatchTimeout;
-		public static SMFrame.Editor.Refleaction.RSystem.RTimeSpan RFInfiniteMatchTimeout
+		protected static Hvak.Editor.Refleaction.RSystem.RTimeSpan r_FInfiniteMatchTimeout;
+		public static Hvak.Editor.Refleaction.RSystem.RTimeSpan RFInfiniteMatchTimeout
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.TimeSpan internalMatchTimeout
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_FinternalMatchTimeout;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RTimeSpan RFinternalMatchTimeout
+		protected Hvak.Editor.Refleaction.RSystem.RTimeSpan r_FinternalMatchTimeout;
+		public virtual Hvak.Editor.Refleaction.RSystem.RTimeSpan RFinternalMatchTimeout
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 MaxOptionShift
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMaxOptionShift;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMaxOptionShift
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMaxOptionShift;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMaxOptionShift
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String pattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fpattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpattern
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fpattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpattern
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions roptions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_Froptions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFroptions
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_Froptions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RFroptions
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexRunnerFactory factory
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunnerFactory r_Ffactory;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunnerFactory RFfactory
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunnerFactory r_Ffactory;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunnerFactory RFfactory
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Collections.Hashtable caps
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable r_Fcaps;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable RFcaps
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_Fcaps;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RFcaps
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Collections.Hashtable capnames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable r_Fcapnames;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable RFcapnames
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_Fcapnames;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RFcapnames
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String[] capslist
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_Fcapslist;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFcapslist
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_Fcapslist;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFcapslist
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 capsize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fcapsize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcapsize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fcapsize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcapsize
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.ExclusiveReference _runnerref
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RExclusiveReference r_F_runnerref;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RExclusiveReference RF_runnerref
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RExclusiveReference r_F_runnerref;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RExclusiveReference RF_runnerref
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.WeakReference`1[System.Text.RegularExpressions.RegexReplacement] _replref
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RWeakReference<SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement> r_F_replref;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RWeakReference<SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement> RF_replref
+		protected Hvak.Editor.Refleaction.RSystem.RWeakReference<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement> r_F_replref;
+		public virtual Hvak.Editor.Refleaction.RSystem.RWeakReference<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement> RF_replref
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexCode _code
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexCode r_F_code;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexCode RF_code
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexCode r_F_code;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexCode RF_code
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean _refsInitialized
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_refsInitialized;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_refsInitialized
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_refsInitialized;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_refsInitialized
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Int32 CacheSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCacheSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RPCacheSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_PCacheSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RPCacheSize
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.TimeSpan MatchTimeout
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RTimeSpan r_PMatchTimeout;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RTimeSpan RPMatchTimeout
+		protected Hvak.Editor.Refleaction.RSystem.RTimeSpan r_PMatchTimeout;
+		public virtual Hvak.Editor.Refleaction.RSystem.RTimeSpan RPMatchTimeout
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Collections.IDictionary Caps
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RIDictionary r_PCaps;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RIDictionary RPCaps
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RIDictionary r_PCaps;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RIDictionary RPCaps
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Collections.IDictionary CapNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RIDictionary r_PCapNames;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RIDictionary RPCapNames
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RIDictionary r_PCapNames;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RIDictionary RPCapNames
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions Options
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_POptions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RPOptions
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions r_POptions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexOptions RPOptions
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean RightToLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PRightToLeft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPRightToLeft
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PRightToLeft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPRightToLeft
 		{
 			get
 			{
@@ -1644,25 +1644,25 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry GetCachedCode(SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key, System.Boolean @isToAdd)
+        public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry GetCachedCode(Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key, System.Boolean @isToAdd)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key.Value, @isToAdd};
             var ___result = RMGetCachedCode_CachedCodeEntryKey_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry GetCachedCodeEntryInternal(SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key, System.Boolean @isToAdd)
+        public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry GetCachedCodeEntryInternal(Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key, System.Boolean @isToAdd)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key.Value, @isToAdd};
             var ___result = RMGetCachedCodeEntryInternal_CachedCodeEntryKey_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___result);
         }
 
 
@@ -1677,40 +1677,40 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Boolean TryGetCacheValue(SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key, out SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry @entry)
+        public static System.Boolean TryGetCacheValue(Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key, out Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry @entry)
         {
 			@entry = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key.Value, @entry.Value};
             var ___result = RMTryGetCacheValue_CachedCodeEntryKey_Out_CachedCodeEntry.Invoke(___genericsType, ___parameters);
-			@entry = new SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___parameters[1]);
+			@entry = new Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___parameters[1]);
 
             return (System.Boolean)___result;
         }
 
 
-        public static System.Boolean TryGetCacheValueSmall(SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key, out SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry @entry)
+        public static System.Boolean TryGetCacheValueSmall(Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key, out Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry @entry)
         {
 			@entry = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key.Value, @entry.Value};
             var ___result = RMTryGetCacheValueSmall_CachedCodeEntryKey_Out_CachedCodeEntry.Invoke(___genericsType, ___parameters);
-			@entry = new SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___parameters[1]);
+			@entry = new Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___parameters[1]);
 
             return (System.Boolean)___result;
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry LookupCachedAndPromote(SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key)
+        public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry LookupCachedAndPromote(Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key.Value};
             var ___result = RMLookupCachedAndPromote_CachedCodeEntryKey.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___result);
         }
 
 
@@ -2143,7 +2143,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Text.RegularExpressions.RegexRunnerFactory Compile(SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexCode @code, System.Text.RegularExpressions.RegexOptions @roptions)
+        public virtual System.Text.RegularExpressions.RegexRunnerFactory Compile(Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexCode @code, System.Text.RegularExpressions.RegexOptions @roptions)
         {
 
             var ___genericsType = new Type[] {};

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RTemplateAsset
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_ElementName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_ElementName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_ElementName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_ElementName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_ElementName
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_AttributeName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_AttributeName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_AttributeName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_AttributeName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_AttributeName
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Value
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Value
 		{
 			get
 			{

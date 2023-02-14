@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Object
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_CachedPtr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_CachedPtr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_CachedPtr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_CachedPtr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_CachedPtr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_InstanceID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_InstanceID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_InstanceID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_InstanceID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_InstanceID
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String m_UnityRuntimeErrorString
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_UnityRuntimeErrorString;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_UnityRuntimeErrorString
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_UnityRuntimeErrorString;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_UnityRuntimeErrorString
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 OffsetOfInstanceIDInCPlusPlusObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FOffsetOfInstanceIDInCPlusPlusObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFOffsetOfInstanceIDInCPlusPlusObject
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FOffsetOfInstanceIDInCPlusPlusObject;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFOffsetOfInstanceIDInCPlusPlusObject
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String objectIsNullMessage
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FobjectIsNullMessage;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFobjectIsNullMessage
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FobjectIsNullMessage;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFobjectIsNullMessage
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String cloneDestroyedMessage
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FcloneDestroyedMessage;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFcloneDestroyedMessage
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FcloneDestroyedMessage;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFcloneDestroyedMessage
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{

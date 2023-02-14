@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 {public partial class RUIRStylePainter
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.UIElements.Vertex] vertices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> r_Fvertices;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> RFvertices
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> r_Fvertices;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> RFvertices
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[System.UInt16] indices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RSystem.RUInt16> r_Findices;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RSystem.RUInt16> RFindices
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> r_Findices;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16> RFindices
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.Material material
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_Fmaterial;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RFmaterial
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_Fmaterial;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RFmaterial
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Single fontTexSDFScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FfontTexSDFScale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFfontTexSDFScale
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FfontTexSDFScale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFfontTexSDFScale
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.UIElements.TextureId texture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId r_Ftexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId RFtexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId r_Ftexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId RFtexture
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderChainCommand customCommand
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand r_FcustomCommand;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand RFcustomCommand
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand r_FcustomCommand;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand RFcustomCommand
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BMPAlloc clipRectID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FclipRectID;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFclipRectID
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FclipRectID;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFclipRectID
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.VertexFlags addFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FaddFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFaddFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags r_FaddFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags RFaddFlags
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean uvIsDisplacement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FuvIsDisplacement;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFuvIsDisplacement
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FuvIsDisplacement;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFuvIsDisplacement
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean isTextEntry
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisTextEntry;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisTextEntry
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisTextEntry;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisTextEntry
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean isClipRegisterEntry
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisClipRegisterEntry;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisClipRegisterEntry
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisClipRegisterEntry;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisClipRegisterEntry
 		{
 			get
 			{
@@ -203,8 +203,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Int32 stencilRef
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FstencilRef;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFstencilRef
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FstencilRef;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFstencilRef
 		{
 			get
 			{
@@ -220,8 +220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Int32 maskDepth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FmaskDepth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFmaskDepth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FmaskDepth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFmaskDepth
 		{
 			get
 			{

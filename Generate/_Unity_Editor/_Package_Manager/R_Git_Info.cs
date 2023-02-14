@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.GitInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_Hash
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Hash;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Hash
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Hash;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Hash
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_Revision
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Revision;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Revision
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Revision;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Revision
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String hash
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Phash;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPhash
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Phash;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPhash
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String revision
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Prevision;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPrevision
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Prevision;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPrevision
 		{
 			get
 			{

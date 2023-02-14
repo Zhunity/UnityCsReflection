@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RMeshBuilderNative
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Rect rect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_Frect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RFrect
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_Frect;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFrect
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Rect subRect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_FsubRect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RFsubRect
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_FsubRect;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFsubRect
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Rect uv
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_Fuv;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RFuv
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_Fuv;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFuv
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Rect uvRegion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_FuvRegion;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RFuvRegion
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_FuvRegion;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFuvRegion
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color color
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFcolor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFcolor
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.ScaleMode scaleMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RScaleMode r_FscaleMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RScaleMode RFscaleMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RScaleMode r_FscaleMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RScaleMode RFscaleMode
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 topLeftRadius
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_FtopLeftRadius;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFtopLeftRadius
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_FtopLeftRadius;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFtopLeftRadius
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 topRightRadius
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_FtopRightRadius;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFtopRightRadius
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_FtopRightRadius;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFtopRightRadius
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 bottomRightRadius
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_FbottomRightRadius;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFbottomRightRadius
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_FbottomRightRadius;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFbottomRightRadius
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 bottomLeftRadius
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_FbottomLeftRadius;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFbottomLeftRadius
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_FbottomLeftRadius;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFbottomLeftRadius
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 contentSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_FcontentSize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFcontentSize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_FcontentSize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFcontentSize
 		{
 			get
 			{
@@ -203,8 +203,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 textureSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_FtextureSize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFtextureSize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_FtextureSize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFtextureSize
 		{
 			get
 			{
@@ -220,8 +220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single texturePixelsPerPoint
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FtexturePixelsPerPoint;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFtexturePixelsPerPoint
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FtexturePixelsPerPoint;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFtexturePixelsPerPoint
 		{
 			get
 			{
@@ -237,8 +237,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 leftSlice
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FleftSlice;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFleftSlice
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FleftSlice;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFleftSlice
 		{
 			get
 			{
@@ -254,8 +254,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 topSlice
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FtopSlice;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFtopSlice
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FtopSlice;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFtopSlice
 		{
 			get
 			{
@@ -271,8 +271,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 rightSlice
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FrightSlice;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFrightSlice
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FrightSlice;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFrightSlice
 		{
 			get
 			{
@@ -288,8 +288,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 bottomSlice
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FbottomSlice;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFbottomSlice
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FbottomSlice;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFbottomSlice
 		{
 			get
 			{
@@ -305,8 +305,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single sliceScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FsliceScale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFsliceScale
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FsliceScale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFsliceScale
 		{
 			get
 			{
@@ -322,8 +322,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.MeshBuilderNative+NativeColorPage colorPage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeColorPage r_FcolorPage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeColorPage RFcolorPage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeColorPage r_FcolorPage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeColorPage RFcolorPage
 		{
 			get
 			{

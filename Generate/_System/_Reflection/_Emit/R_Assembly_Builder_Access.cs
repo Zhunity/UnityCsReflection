@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.AssemblyBuilderAccess
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.AssemblyBuilderAccess Run
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess r_FRun;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess RFRun
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess r_FRun;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess RFRun
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.AssemblyBuilderAccess Save
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess r_FSave;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess RFSave
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess r_FSave;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess RFSave
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.AssemblyBuilderAccess RunAndSave
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess r_FRunAndSave;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess RFRunAndSave
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess r_FRunAndSave;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess RFRunAndSave
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.AssemblyBuilderAccess ReflectionOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess r_FReflectionOnly;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess RFReflectionOnly
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess r_FReflectionOnly;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess RFReflectionOnly
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.AssemblyBuilderAccess RunAndCollect
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess r_FRunAndCollect;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess RFRunAndCollect
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess r_FRunAndCollect;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RAssemblyBuilderAccess RFRunAndCollect
 		{
 			get
 			{

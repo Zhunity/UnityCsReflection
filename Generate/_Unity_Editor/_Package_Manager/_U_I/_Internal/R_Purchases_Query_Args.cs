@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.PurchasesQueryArgs
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int32 startIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FstartIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFstartIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FstartIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFstartIndex
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int64 limit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Flimit;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFlimit
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Flimit;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFlimit
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] productIds
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> r_FproductIds;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> RFproductIds
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_FproductIds;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFproductIds
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean isReverseOrder
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisReverseOrder;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisReverseOrder
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisReverseOrder;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisReverseOrder
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String searchText
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PsearchText;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPsearchText
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PsearchText;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPsearchText
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String status
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pstatus;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPstatus
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pstatus;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPstatus
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean downloadedOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PdownloadedOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdownloadedOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdownloadedOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdownloadedOnly
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean updateAvailableOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PupdateAvailableOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPupdateAvailableOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PupdateAvailableOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPupdateAvailableOnly
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean subscriptionBasedOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PsubscriptionBasedOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPsubscriptionBasedOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PsubscriptionBasedOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPsubscriptionBasedOnly
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] categories
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> r_Pcategories;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> RPcategories
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Pcategories;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RPcategories
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] labels
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> r_Plabels;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> RPlabels
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Plabels;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RPlabels
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String orderBy
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PorderBy;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPorderBy
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PorderBy;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPorderBy
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isFilterSet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisFilterSet;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisFilterSet
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisFilterSet;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisFilterSet
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isOrderSet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisOrderSet;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisOrderSet
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisOrderSet;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisOrderSet
 		{
 			get
 			{
@@ -403,18 +403,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPurchasesQueryArgs Clone()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPurchasesQueryArgs Clone()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPurchasesQueryArgs(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPurchasesQueryArgs(___result);
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageFilters @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageFilters @other)
         {
 
             var ___genericsType = new Type[] {};

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
+namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 {
 	/// <summary>
 	/// System.Diagnostics.SymbolStore.ISymbolWriter

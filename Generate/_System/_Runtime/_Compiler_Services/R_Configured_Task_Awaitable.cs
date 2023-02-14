@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {
 	/// <summary>
 	/// System.Runtime.CompilerServices.ConfiguredTaskAwaitable
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Runtime.CompilerServices.ConfiguredTaskAwaitable+ConfiguredTaskAwaiter m_configuredTaskAwaiter
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConfiguredTaskAwaitable.RConfiguredTaskAwaiter r_Fm_configuredTaskAwaiter;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConfiguredTaskAwaitable.RConfiguredTaskAwaiter RFm_configuredTaskAwaiter
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConfiguredTaskAwaitable.RConfiguredTaskAwaiter r_Fm_configuredTaskAwaiter;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConfiguredTaskAwaitable.RConfiguredTaskAwaiter RFm_configuredTaskAwaiter
 		{
 			get
 			{
@@ -165,14 +165,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConfiguredTaskAwaitable.RConfiguredTaskAwaiter GetAwaiter()
+        public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConfiguredTaskAwaitable.RConfiguredTaskAwaiter GetAwaiter()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetAwaiter.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConfiguredTaskAwaitable.RConfiguredTaskAwaiter(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConfiguredTaskAwaitable.RConfiguredTaskAwaiter(___result);
         }
 
 

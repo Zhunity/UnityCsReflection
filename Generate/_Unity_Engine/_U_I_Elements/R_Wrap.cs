@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.Wrap
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Wrap NoWrap
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RWrap r_FNoWrap;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RWrap RFNoWrap
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RWrap r_FNoWrap;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RWrap RFNoWrap
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Wrap Wrap
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RWrap r_FWrap;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RWrap RFWrap
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RWrap r_FWrap;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RWrap RFWrap
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Wrap WrapReverse
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RWrap r_FWrapReverse;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RWrap RFWrapReverse
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RWrap r_FWrapReverse;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RWrap RFWrapReverse
 		{
 			get
 			{

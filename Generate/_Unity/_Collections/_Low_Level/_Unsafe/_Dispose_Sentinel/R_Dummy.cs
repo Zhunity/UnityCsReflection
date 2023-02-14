@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
+namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 {public partial class RDisposeSentinel
 {
 	
@@ -150,14 +150,14 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RDisposeSentinel.RDummy op_Implicit(SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RDisposeSentinel.RDummy.RClass @value)
+        public static Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RDisposeSentinel.RDummy op_Implicit(Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RDisposeSentinel.RDummy.RClass @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value.Value};
             var ___result = RMop_Implicit_Class.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RDisposeSentinel.RDummy(___result);
+            return new Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RDisposeSentinel.RDummy(___result);
         }
 
 

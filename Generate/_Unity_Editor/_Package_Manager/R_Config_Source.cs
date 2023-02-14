@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.ConfigSource
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ConfigSource Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFUnknown
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_FUnknown;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ConfigSource Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_FDefault;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFDefault
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_FDefault;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFDefault
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ConfigSource Global
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_FGlobal;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFGlobal
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_FGlobal;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFGlobal
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ConfigSource User
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_FUser;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFUser
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_FUser;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFUser
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ConfigSource Project
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_FProject;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFProject
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_FProject;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFProject
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ConfigSource Environment
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_FEnvironment;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFEnvironment
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_FEnvironment;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFEnvironment
 		{
 			get
 			{

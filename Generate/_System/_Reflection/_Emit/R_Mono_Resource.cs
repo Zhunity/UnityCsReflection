@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.MonoResource
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte[] data
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_Fdata;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFdata
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_Fdata;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFdata
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFname
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String filename
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ffilename;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFfilename
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ffilename;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFfilename
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.ResourceAttributes attrs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceAttributes r_Fattrs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceAttributes RFattrs
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RResourceAttributes r_Fattrs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RResourceAttributes RFattrs
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 offset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Foffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFoffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Foffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFoffset
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.IO.Stream stream
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIO.RStream r_Fstream;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIO.RStream RFstream
+		protected Hvak.Editor.Refleaction.RSystem.RIO.RStream r_Fstream;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIO.RStream RFstream
 		{
 			get
 			{

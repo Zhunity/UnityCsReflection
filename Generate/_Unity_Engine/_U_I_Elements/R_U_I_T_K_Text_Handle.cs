@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UITKTextHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 <MeasuredSizes>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_F__0__MeasuredSizes__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RF__0__MeasuredSizes__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_F__0__MeasuredSizes__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RF__0__MeasuredSizes__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 <RoundedSizes>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_F__0__RoundedSizes__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RF__0__RoundedSizes__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_F__0__RoundedSizes__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RF__0__RoundedSizes__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextElement m_TextElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement r_Fm_TextElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement RFm_TextElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement r_Fm_TextElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement RFm_TextElement
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean isOverridingCursor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisOverridingCursor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisOverridingCursor
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisOverridingCursor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisOverridingCursor
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 currentLinkIDHash
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcurrentLinkIDHash;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcurrentLinkIDHash
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcurrentLinkIDHash;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcurrentLinkIDHash
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean hasLinkTag
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FhasLinkTag;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFhasLinkTag
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FhasLinkTag;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFhasLinkTag
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean hasATag
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FhasATag;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFhasATag
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FhasATag;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFhasATag
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextGenerationSettings textGenerationSettings
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings r_FtextGenerationSettings;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings RFtextGenerationSettings
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings r_FtextGenerationSettings;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings RFtextGenerationSettings
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 MeasuredSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PMeasuredSizes;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPMeasuredSizes
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PMeasuredSizes;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPMeasuredSizes
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 RoundedSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PRoundedSizes;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPRoundedSizes
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PRoundedSizes;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPRoundedSizes
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextInfo textInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo r_PtextInfo;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo RPtextInfo
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo r_PtextInfo;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo RPtextInfo
 		{
 			get
 			{
@@ -1037,14 +1037,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo Update()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo Update()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo(___result);
         }
 
 
@@ -1158,18 +1158,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode GetTextOverflowMode()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode GetTextOverflowMode()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetTextOverflowMode.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode(___result);
         }
 
 
-        public virtual void ConvertUssToTextGenerationSettings(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
+        public virtual void ConvertUssToTextGenerationSettings(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1411,7 +1411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Single ComputeTextWidth(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
+        public virtual System.Single ComputeTextWidth(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1422,7 +1422,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Single ComputeTextHeight(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
+        public virtual System.Single ComputeTextHeight(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1433,7 +1433,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UpdatePreferredValues(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
+        public virtual void UpdatePreferredValues(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1444,25 +1444,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo Update(System.String @newText)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo Update(System.String @newText)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newText};
             var ___result = RMUpdate_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo Update(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo Update(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tgs.Value};
             var ___result = RMUpdate_TextGenerationSettings.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo(___result);
         }
 
 

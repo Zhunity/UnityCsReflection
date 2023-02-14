@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.Double
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double m_value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDouble r_Fm_value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDouble RFm_value
+		protected Hvak.Editor.Refleaction.RSystem.RDouble r_Fm_value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDouble RFm_value
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double MinValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDouble r_FMinValue;
-		public static SMFrame.Editor.Refleaction.RSystem.RDouble RFMinValue
+		protected static Hvak.Editor.Refleaction.RSystem.RDouble r_FMinValue;
+		public static Hvak.Editor.Refleaction.RSystem.RDouble RFMinValue
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double MaxValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDouble r_FMaxValue;
-		public static SMFrame.Editor.Refleaction.RSystem.RDouble RFMaxValue
+		protected static Hvak.Editor.Refleaction.RSystem.RDouble r_FMaxValue;
+		public static Hvak.Editor.Refleaction.RSystem.RDouble RFMaxValue
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double Epsilon
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDouble r_FEpsilon;
-		public static SMFrame.Editor.Refleaction.RSystem.RDouble RFEpsilon
+		protected static Hvak.Editor.Refleaction.RSystem.RDouble r_FEpsilon;
+		public static Hvak.Editor.Refleaction.RSystem.RDouble RFEpsilon
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double NegativeInfinity
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDouble r_FNegativeInfinity;
-		public static SMFrame.Editor.Refleaction.RSystem.RDouble RFNegativeInfinity
+		protected static Hvak.Editor.Refleaction.RSystem.RDouble r_FNegativeInfinity;
+		public static Hvak.Editor.Refleaction.RSystem.RDouble RFNegativeInfinity
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double PositiveInfinity
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDouble r_FPositiveInfinity;
-		public static SMFrame.Editor.Refleaction.RSystem.RDouble RFPositiveInfinity
+		protected static Hvak.Editor.Refleaction.RSystem.RDouble r_FPositiveInfinity;
+		public static Hvak.Editor.Refleaction.RSystem.RDouble RFPositiveInfinity
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double NaN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDouble r_FNaN;
-		public static SMFrame.Editor.Refleaction.RSystem.RDouble RFNaN
+		protected static Hvak.Editor.Refleaction.RSystem.RDouble r_FNaN;
+		public static Hvak.Editor.Refleaction.RSystem.RDouble RFNaN
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double NegativeZero
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDouble r_FNegativeZero;
-		public static SMFrame.Editor.Refleaction.RSystem.RDouble RFNegativeZero
+		protected static Hvak.Editor.Refleaction.RSystem.RDouble r_FNegativeZero;
+		public static Hvak.Editor.Refleaction.RSystem.RDouble RFNegativeZero
 		{
 			get
 			{
@@ -1319,7 +1319,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean TryFormat(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider)
+        public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider)
         {
 			@charsWritten = default;
 
@@ -1376,7 +1376,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Double Parse(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider)
+        public static System.Double Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -1400,7 +1400,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean TryParse(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @s, out System.Double @result)
+        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, out System.Double @result)
         {
 			@result = default;
 
@@ -1426,7 +1426,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean TryParse(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider, out System.Double @result)
+        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider, out System.Double @result)
         {
 			@result = default;
 
@@ -1439,7 +1439,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean TryParse(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.Globalization.NumberFormatInfo @info, out System.Double @result)
+        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.Globalization.NumberFormatInfo @info, out System.Double @result)
         {
 			@result = default;
 

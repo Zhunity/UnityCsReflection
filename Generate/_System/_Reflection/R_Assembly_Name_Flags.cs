@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.AssemblyNameFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.AssemblyNameFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.AssemblyNameFlags PublicKey
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags r_FPublicKey;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags RFPublicKey
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags r_FPublicKey;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags RFPublicKey
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.AssemblyNameFlags EnableJITcompileOptimizer
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags r_FEnableJITcompileOptimizer;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags RFEnableJITcompileOptimizer
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags r_FEnableJITcompileOptimizer;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags RFEnableJITcompileOptimizer
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.AssemblyNameFlags EnableJITcompileTracking
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags r_FEnableJITcompileTracking;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags RFEnableJITcompileTracking
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags r_FEnableJITcompileTracking;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags RFEnableJITcompileTracking
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.AssemblyNameFlags Retargetable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags r_FRetargetable;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags RFRetargetable
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags r_FRetargetable;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags RFRetargetable
 		{
 			get
 			{

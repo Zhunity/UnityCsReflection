@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.AceQualifier
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceQualifier AccessAllowed
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier r_FAccessAllowed;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier RFAccessAllowed
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier r_FAccessAllowed;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier RFAccessAllowed
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceQualifier AccessDenied
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier r_FAccessDenied;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier RFAccessDenied
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier r_FAccessDenied;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier RFAccessDenied
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceQualifier SystemAudit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier r_FSystemAudit;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier RFSystemAudit
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier r_FSystemAudit;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier RFSystemAudit
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceQualifier SystemAlarm
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier r_FSystemAlarm;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier RFSystemAlarm
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier r_FSystemAlarm;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceQualifier RFSystemAlarm
 		{
 			get
 			{

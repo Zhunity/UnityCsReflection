@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class RGuid
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidParseThrowStyle None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidParseThrowStyle All
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle r_FAll;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle RFAll
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle r_FAll;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle RFAll
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidParseThrowStyle AllButOverflow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle r_FAllButOverflow;
-		public static SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle RFAllButOverflow
+		protected static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle r_FAllButOverflow;
+		public static Hvak.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle RFAllButOverflow
 		{
 			get
 			{

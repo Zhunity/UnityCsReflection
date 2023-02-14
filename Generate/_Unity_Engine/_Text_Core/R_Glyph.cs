@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Glyph
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.UInt32 m_Index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_Index;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_Index
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_Index;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_Index
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UnityEngine.TextCore.GlyphMetrics m_Metrics
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphMetrics r_Fm_Metrics;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphMetrics RFm_Metrics
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphMetrics r_Fm_Metrics;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphMetrics RFm_Metrics
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UnityEngine.TextCore.GlyphRect m_GlyphRect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect r_Fm_GlyphRect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect RFm_GlyphRect
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect r_Fm_GlyphRect;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect RFm_GlyphRect
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_Scale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Scale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Scale
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Scale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Scale
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Int32 m_AtlasIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_AtlasIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_AtlasIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_AtlasIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_AtlasIndex
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UnityEngine.TextCore.GlyphClassDefinitionType m_ClassDefinitionType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_Fm_ClassDefinitionType;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RFm_ClassDefinitionType
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_Fm_ClassDefinitionType;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RFm_ClassDefinitionType
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UInt32 index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Pindex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPindex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Pindex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPindex
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UnityEngine.TextCore.GlyphMetrics metrics
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphMetrics r_Pmetrics;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphMetrics RPmetrics
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphMetrics r_Pmetrics;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphMetrics RPmetrics
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UnityEngine.TextCore.GlyphRect glyphRect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect r_PglyphRect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect RPglyphRect
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect r_PglyphRect;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect RPglyphRect
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single scale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pscale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPscale
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pscale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPscale
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Int32 atlasIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PatlasIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPatlasIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PatlasIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPatlasIndex
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UnityEngine.TextCore.GlyphClassDefinitionType classDefinitionType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_PclassDefinitionType;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RPclassDefinitionType
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_PclassDefinitionType;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RPclassDefinitionType
 		{
 			get
 			{

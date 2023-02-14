@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingFlags EnableSphereCulling
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags r_FEnableSphereCulling;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags RFEnableSphereCulling
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags r_FEnableSphereCulling;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags RFEnableSphereCulling
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingFlags EnablePlaneCulling
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags r_FEnablePlaneCulling;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags RFEnablePlaneCulling
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags r_FEnablePlaneCulling;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags RFEnablePlaneCulling
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingFlags EnableLODCulling
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags r_FEnableLODCulling;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags RFEnableLODCulling
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags r_FEnableLODCulling;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags RFEnableLODCulling
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingFlags ComputeMaterialsCRC
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags r_FComputeMaterialsCRC;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags RFComputeMaterialsCRC
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags r_FComputeMaterialsCRC;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags RFComputeMaterialsCRC
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingFlags IgnoreReflectionProbes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags r_FIgnoreReflectionProbes;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags RFIgnoreReflectionProbes
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags r_FIgnoreReflectionProbes;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingFlags RFIgnoreReflectionProbes
 		{
 			get
 			{

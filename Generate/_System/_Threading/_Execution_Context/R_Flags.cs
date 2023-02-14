@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {public partial class RExecutionContext
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext+Flags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext+Flags IsNewCapture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags r_FIsNewCapture;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags RFIsNewCapture
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags r_FIsNewCapture;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags RFIsNewCapture
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext+Flags IsFlowSuppressed
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags r_FIsFlowSuppressed;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags RFIsFlowSuppressed
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags r_FIsFlowSuppressed;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags RFIsFlowSuppressed
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext+Flags IsPreAllocatedDefault
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags r_FIsPreAllocatedDefault;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags RFIsPreAllocatedDefault
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags r_FIsPreAllocatedDefault;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RFlags RFIsPreAllocatedDefault
 		{
 			get
 			{

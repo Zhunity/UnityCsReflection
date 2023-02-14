@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.CalendarWeekRule
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarWeekRule FirstDay
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarWeekRule r_FFirstDay;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarWeekRule RFFirstDay
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarWeekRule r_FFirstDay;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarWeekRule RFFirstDay
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarWeekRule FirstFullWeek
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarWeekRule r_FFirstFullWeek;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarWeekRule RFFirstFullWeek
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarWeekRule r_FFirstFullWeek;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarWeekRule RFFirstFullWeek
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarWeekRule FirstFourDayWeek
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarWeekRule r_FFirstFourDayWeek;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarWeekRule RFFirstFourDayWeek
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarWeekRule r_FFirstFourDayWeek;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarWeekRule RFFirstFourDayWeek
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText
+namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
 	/// System.Text.EncoderFallbackBuffer
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Char* charStart
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RSystem.RChar> r_FcharStart;
-		public virtual SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RSystem.RChar> RFcharStart
+		protected Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RSystem.RChar> r_FcharStart;
+		public virtual Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RSystem.RChar> RFcharStart
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Char* charEnd
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RSystem.RChar> r_FcharEnd;
-		public virtual SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RSystem.RChar> RFcharEnd
+		protected Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RSystem.RChar> r_FcharEnd;
+		public virtual Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RSystem.RChar> RFcharEnd
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.EncoderNLS encoder
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoderNLS r_Fencoder;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoderNLS RFencoder
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoderNLS r_Fencoder;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoderNLS RFencoder
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean setEncoder
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FsetEncoder;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFsetEncoder
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FsetEncoder;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFsetEncoder
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean bUsedEncoder
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FbUsedEncoder;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFbUsedEncoder
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FbUsedEncoder;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFbUsedEncoder
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean bFallingBack
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FbFallingBack;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFbFallingBack
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FbFallingBack;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFbFallingBack
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 iRecursionCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FiRecursionCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFiRecursionCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FiRecursionCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFiRecursionCount
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 iMaxRecursion
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FiMaxRecursion;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFiMaxRecursion
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FiMaxRecursion;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFiMaxRecursion
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 Remaining
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PRemaining;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPRemaining
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PRemaining;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPRemaining
 		{
 			get
 			{
@@ -520,7 +520,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public unsafe virtual void InternalInitialize(System.Char* @charStart, System.Char* @charEnd, SMFrame.Editor.Refleaction.RSystem.RText.REncoderNLS @encoder, System.Boolean @setEncoder)
+        public unsafe virtual void InternalInitialize(System.Char* @charStart, System.Char* @charEnd, Hvak.Editor.Refleaction.RSystem.RText.REncoderNLS @encoder, System.Boolean @setEncoder)
         {
 
             var ___genericsType = new Type[] {};

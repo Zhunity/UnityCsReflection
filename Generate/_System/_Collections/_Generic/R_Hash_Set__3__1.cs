@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
+namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
 	/// System.Collections.Generic.HashSet`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 Lower31BitMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FLower31BitMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFLower31BitMask
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FLower31BitMask;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFLower31BitMask
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 StackAllocThreshold
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FStackAllocThreshold;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFStackAllocThreshold
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FStackAllocThreshold;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFStackAllocThreshold
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 ShrinkThreshold
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FShrinkThreshold;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFShrinkThreshold
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FShrinkThreshold;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFShrinkThreshold
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String CapacityName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FCapacityName;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFCapacityName
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FCapacityName;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFCapacityName
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String ElementsName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FElementsName;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFElementsName
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FElementsName;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFElementsName
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String ComparerName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FComparerName;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFComparerName
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FComparerName;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFComparerName
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String VersionName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FVersionName;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFVersionName
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FVersionName;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFVersionName
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32[] _buckets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_F_buckets;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RF_buckets
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_F_buckets;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RF_buckets
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1+Slot[T][] _slots
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RField>.RSlot> r_F_slots;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RField>.RSlot> RF_slots
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RField>.RSlot> r_F_slots;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RField>.RSlot> RF_slots
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_count;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_count
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_count;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_count
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _lastIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_lastIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_lastIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_lastIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_lastIndex
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _freeList
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_freeList;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_freeList
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_freeList;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_freeList
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.IEqualityComparer`1[T] _comparer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEqualityComparer<SMFrame.Editor.Refleaction.RField> r_F_comparer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEqualityComparer<SMFrame.Editor.Refleaction.RField> RF_comparer
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEqualityComparer<Hvak.Editor.Refleaction.RField> r_F_comparer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEqualityComparer<Hvak.Editor.Refleaction.RField> RF_comparer
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_version
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_version
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Runtime.Serialization.SerializationInfo _siInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationInfo r_F_siInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationInfo RF_siInfo
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationInfo r_F_siInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationInfo RF_siInfo
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCount
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Boolean System.Collections.Generic.ICollection<T>.IsReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.IEqualityComparer`1[T] Comparer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEqualityComparer<SMFrame.Editor.Refleaction.RProperty> r_PComparer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEqualityComparer<SMFrame.Editor.Refleaction.RProperty> RPComparer
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEqualityComparer<Hvak.Editor.Refleaction.RProperty> r_PComparer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEqualityComparer<Hvak.Editor.Refleaction.RProperty> RPComparer
 		{
 			get
 			{
@@ -1285,14 +1285,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RType>.REnumerator GetEnumerator()
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RType>.REnumerator(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.REnumerator(___result);
         }
 
 
@@ -1685,14 +1685,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RType>.RElementCount CheckUniqueAndUnfoundElements(System.Collections.Generic.IEnumerable<T> @other, System.Boolean @returnIfUnfound)
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.RElementCount CheckUniqueAndUnfoundElements(System.Collections.Generic.IEnumerable<T> @other, System.Boolean @returnIfUnfound)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other, @returnIfUnfound};
             var ___result = RMCheckUniqueAndUnfoundElements_IEnumerable_d_T_p__Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RType>.RElementCount(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.RElementCount(___result);
         }
 
 

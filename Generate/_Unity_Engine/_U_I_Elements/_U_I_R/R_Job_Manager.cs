@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.JobManager
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.NativePagedList`1[UnityEngine.UIElements.UIR.NudgeJobData] m_NudgeJobs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNativePagedList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNudgeJobData> r_Fm_NudgeJobs;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNativePagedList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNudgeJobData> RFm_NudgeJobs
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNativePagedList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNudgeJobData> r_Fm_NudgeJobs;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNativePagedList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNudgeJobData> RFm_NudgeJobs
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.NativePagedList`1[UnityEngine.UIElements.UIR.ConvertMeshJobData] m_ConvertMeshJobs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNativePagedList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RConvertMeshJobData> r_Fm_ConvertMeshJobs;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNativePagedList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RConvertMeshJobData> RFm_ConvertMeshJobs
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNativePagedList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RConvertMeshJobData> r_Fm_ConvertMeshJobs;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNativePagedList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RConvertMeshJobData> RFm_ConvertMeshJobs
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.NativePagedList`1[UnityEngine.UIElements.UIR.CopyClosingMeshJobData] m_CopyClosingMeshJobs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNativePagedList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCopyClosingMeshJobData> r_Fm_CopyClosingMeshJobs;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNativePagedList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCopyClosingMeshJobData> RFm_CopyClosingMeshJobs
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNativePagedList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCopyClosingMeshJobData> r_Fm_CopyClosingMeshJobs;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNativePagedList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCopyClosingMeshJobData> RFm_CopyClosingMeshJobs
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.JobMerger m_JobMerger
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RJobMerger r_Fm_JobMerger;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RJobMerger RFm_JobMerger
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RJobMerger r_Fm_JobMerger;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RJobMerger RFm_JobMerger
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdisposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdisposed
 		{
 			get
 			{
@@ -369,37 +369,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual void Add(ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNudgeJobData @job)
+        public virtual void Add(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNudgeJobData @job)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job.Value};
             var ___result = RMAdd_Ref_NudgeJobData.Invoke(___genericsType, ___parameters);
-			@job = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNudgeJobData(___parameters[0]);
+			@job = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNudgeJobData(___parameters[0]);
 
             
         }
 
 
-        public virtual void Add(ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RConvertMeshJobData @job)
+        public virtual void Add(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RConvertMeshJobData @job)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job.Value};
             var ___result = RMAdd_Ref_ConvertMeshJobData.Invoke(___genericsType, ___parameters);
-			@job = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RConvertMeshJobData(___parameters[0]);
+			@job = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RConvertMeshJobData(___parameters[0]);
 
             
         }
 
 
-        public virtual void Add(ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCopyClosingMeshJobData @job)
+        public virtual void Add(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCopyClosingMeshJobData @job)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job.Value};
             var ___result = RMAdd_Ref_CopyClosingMeshJobData.Invoke(___genericsType, ___parameters);
-			@job = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCopyClosingMeshJobData(___parameters[0]);
+			@job = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCopyClosingMeshJobData(___parameters[0]);
 
             
         }

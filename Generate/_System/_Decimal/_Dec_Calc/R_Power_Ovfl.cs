@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class RDecimal
 {
 	public partial class RDecCalc
@@ -18,8 +18,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 Hi
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FHi;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFHi
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FHi;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFHi
 		{
 			get
 			{
@@ -35,8 +35,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 MidLo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_FMidLo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFMidLo
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_FMidLo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFMidLo
 		{
 			get
 			{

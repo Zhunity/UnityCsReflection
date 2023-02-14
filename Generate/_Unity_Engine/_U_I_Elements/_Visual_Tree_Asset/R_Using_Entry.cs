@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RVisualTreeAsset
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.IComparer`1[UnityEngine.UIElements.VisualTreeAsset+UsingEntry] comparer
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIComparer<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry> r_Fcomparer;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIComparer<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry> RFcomparer
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIComparer<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry> r_Fcomparer;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIComparer<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry> RFcomparer
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String alias
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Falias;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFalias
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Falias;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFalias
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String path
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fpath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fpath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpath
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualTreeAsset asset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset r_Fasset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset RFasset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset r_Fasset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset RFasset
 		{
 			get
 			{

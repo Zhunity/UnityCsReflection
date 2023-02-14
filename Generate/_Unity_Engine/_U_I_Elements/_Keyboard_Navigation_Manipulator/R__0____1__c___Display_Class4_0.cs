@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RKeyboardNavigationManipulator
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.KeyDownEvent evt
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyDownEvent r_Fevt;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyDownEvent RFevt
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyDownEvent r_Fevt;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyDownEvent RFevt
 		{
 			get
 			{

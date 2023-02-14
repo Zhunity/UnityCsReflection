@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.VertexAttribute
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute Position
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FPosition;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFPosition
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FPosition;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFPosition
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute Normal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FNormal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFNormal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FNormal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFNormal
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute Tangent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTangent;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTangent
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTangent;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTangent
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute Color
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFColor
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute TexCoord0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord0;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord0
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord0;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord0
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute TexCoord1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord1
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute TexCoord2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord2
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute TexCoord3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord3
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute TexCoord4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord4
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute TexCoord5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord5
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute TexCoord6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord6
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute TexCoord7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FTexCoord7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFTexCoord7
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute BlendWeight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FBlendWeight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFBlendWeight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FBlendWeight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFBlendWeight
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute BlendIndices
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FBlendIndices;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFBlendIndices
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute r_FBlendIndices;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttribute RFBlendIndices
 		{
 			get
 			{

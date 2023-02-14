@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.StereoTargetEyeMask
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.StereoTargetEyeMask None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.StereoTargetEyeMask Left
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask r_FLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask RFLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask r_FLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask RFLeft
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.StereoTargetEyeMask Right
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask r_FRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask RFRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask r_FRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask RFRight
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.StereoTargetEyeMask Both
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask r_FBoth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask RFBoth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask r_FBoth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RStereoTargetEyeMask RFBoth
 		{
 			get
 			{

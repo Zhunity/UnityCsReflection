@@ -4,23 +4,23 @@ using UnityEngine;
 using UnityEditor.PackageManager;
 using System;
 using System.Reflection;
-using SMFrame;
+using Hvak;
 #if UNITY_EDITOR
 using UnityEditor;
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 #endif
 using Object = UnityEngine.Object;
 using System.Linq;
-using SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI;
+using Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI;
 
-namespace SMFrame.Editor.Extension
+namespace Hvak.Editor.Extension
 {
 	/// <summary>
 	/// package manager一键更新
 	/// </summary>
 	public class PackageManager : Singleton<PackageManager>
 	{
-		RPackageManagerWindow packageWindow = new RPackageManagerWindow();
+		RPackageManagerWindow packageManagerWindow = new RPackageManagerWindow();
 
 
 		public void Init()
@@ -30,10 +30,10 @@ namespace SMFrame.Editor.Extension
 
 		public void Update()
 		{
-			var window = Resources.FindObjectsOfTypeAll(packageWindow.type).FirstOrDefault();
+			var window = RPackageManagerWindow.RPinstance.Value;
 			if (window != null)
 			{
-				packageWindow.SetInstance(window);
+				packageManagerWindow.SetInstance(window);
 			}
 		}
 	}

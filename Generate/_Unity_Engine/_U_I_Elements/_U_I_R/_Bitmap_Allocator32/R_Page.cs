@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {public partial class RBitmapAllocator32
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt16 x
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt16 r_Fx;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt16 RFx
+		protected Hvak.Editor.Refleaction.RSystem.RUInt16 r_Fx;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt16 RFx
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt16 y
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt16 r_Fy;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt16 RFy
+		protected Hvak.Editor.Refleaction.RSystem.RUInt16 r_Fy;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt16 RFy
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 freeSlots
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FfreeSlots;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfreeSlots
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FfreeSlots;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfreeSlots
 		{
 			get
 			{

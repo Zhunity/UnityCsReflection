@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.PopupLocation
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PopupLocation Below
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation r_FBelow;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation RFBelow
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation r_FBelow;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation RFBelow
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PopupLocation BelowAlignLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation r_FBelowAlignLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation RFBelowAlignLeft
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation r_FBelowAlignLeft;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation RFBelowAlignLeft
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PopupLocation Above
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation r_FAbove;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation RFAbove
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation r_FAbove;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation RFAbove
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PopupLocation AboveAlignLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation r_FAboveAlignLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation RFAboveAlignLeft
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation r_FAboveAlignLeft;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation RFAboveAlignLeft
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PopupLocation Left
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation r_FLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation RFLeft
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation r_FLeft;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation RFLeft
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PopupLocation Right
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation r_FRight;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation RFRight
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation r_FRight;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation RFRight
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PopupLocation Overlay
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation r_FOverlay;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation RFOverlay
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation r_FOverlay;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation RFOverlay
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PopupLocation BelowAlignRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation r_FBelowAlignRight;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation RFBelowAlignRight
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation r_FBelowAlignRight;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation RFBelowAlignRight
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PopupLocation AboveAlignRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation r_FAboveAlignRight;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPopupLocation RFAboveAlignRight
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation r_FAboveAlignRight;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPopupLocation RFAboveAlignRight
 		{
 			get
 			{

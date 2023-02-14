@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RIO
+namespace Hvak.Editor.Refleaction.RSystem.RIO
 {
 	/// <summary>
 	/// System.IO.FileStream
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 DefaultBufferSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDefaultBufferSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDefaultBufferSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDefaultBufferSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDefaultBufferSize
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Byte[] buf_recycle
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_Fbuf_recycle;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFbuf_recycle
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_Fbuf_recycle;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFbuf_recycle
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Object buf_recycle_lock
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RObject r_Fbuf_recycle_lock;
-		public static SMFrame.Editor.Refleaction.RSystem.RObject RFbuf_recycle_lock
+		protected static Hvak.Editor.Refleaction.RSystem.RObject r_Fbuf_recycle_lock;
+		public static Hvak.Editor.Refleaction.RSystem.RObject RFbuf_recycle_lock
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Byte[] buf
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_Fbuf;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFbuf
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_Fbuf;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFbuf
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFname
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Microsoft.Win32.SafeHandles.SafeFileHandle safeHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle r_FsafeHandle;
-		public virtual SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle RFsafeHandle
+		protected Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle r_FsafeHandle;
+		public virtual Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle RFsafeHandle
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Boolean isExposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisExposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisExposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisExposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisExposed
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int64 append_startpos
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fappend_startpos;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFappend_startpos
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fappend_startpos;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFappend_startpos
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.FileAccess access
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIO.RFileAccess r_Faccess;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIO.RFileAccess RFaccess
+		protected Hvak.Editor.Refleaction.RSystem.RIO.RFileAccess r_Faccess;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIO.RFileAccess RFaccess
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Boolean owner
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fowner;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFowner
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fowner;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFowner
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Boolean async
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fasync;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFasync
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fasync;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFasync
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Boolean canseek
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fcanseek;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFcanseek
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fcanseek;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFcanseek
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Boolean anonymous
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fanonymous;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFanonymous
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fanonymous;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFanonymous
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Boolean buf_dirty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fbuf_dirty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFbuf_dirty
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fbuf_dirty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFbuf_dirty
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 buf_size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fbuf_size;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFbuf_size
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fbuf_size;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFbuf_size
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 buf_length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fbuf_length;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFbuf_length
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fbuf_length;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFbuf_length
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 buf_offset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fbuf_offset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFbuf_offset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fbuf_offset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFbuf_offset
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int64 buf_start
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fbuf_start;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFbuf_start
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fbuf_start;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFbuf_start
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean CanRead
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PCanRead;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPCanRead
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PCanRead;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPCanRead
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean CanWrite
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PCanWrite;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPCanWrite
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PCanWrite;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPCanWrite
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean CanSeek
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PCanSeek;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPCanSeek
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PCanSeek;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPCanSeek
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsAsync
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsAsync;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsAsync
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsAsync;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsAsync
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Int64 Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPLength
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Int64 Position
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PPosition;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPPosition
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PPosition;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPPosition
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// IntPtr Handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_PHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RPHandle
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_PHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RPHandle
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Microsoft.Win32.SafeHandles.SafeFileHandle SafeFileHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle r_PSafeFileHandle;
-		public virtual SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle RPSafeFileHandle
+		protected Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle r_PSafeFileHandle;
+		public virtual Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafeFileHandle RPSafeFileHandle
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean CanTimeout
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PCanTimeout;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPCanTimeout
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PCanTimeout;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPCanTimeout
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Int32 ReadTimeout
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PReadTimeout;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPReadTimeout
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PReadTimeout;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPReadTimeout
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Int32 WriteTimeout
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PWriteTimeout;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPWriteTimeout
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PWriteTimeout;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPWriteTimeout
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Runtime.Remoting.ServerIdentity ObjectIdentity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
 		{
 			get
 			{
@@ -2256,7 +2256,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Int32 Read(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @buffer)
+        public virtual System.Int32 Read(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -2267,7 +2267,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @buffer)
+        public virtual void Write(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -2322,7 +2322,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
+        public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
         {
 			@IsClient = default;
 
@@ -2331,7 +2331,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
             var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
         }
 
 

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Material
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Shader shader
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RShader r_Pshader;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RShader RPshader
+		protected Hvak.Editor.Refleaction.RUnityEngine.RShader r_Pshader;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RShader RPshader
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color color
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Pcolor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RPcolor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_Pcolor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RPcolor
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Texture mainTexture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture r_PmainTexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture RPmainTexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_PmainTexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture RPmainTexture
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2 mainTextureOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PmainTextureOffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPmainTextureOffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PmainTextureOffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPmainTextureOffset
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2 mainTextureScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PmainTextureScale;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPmainTextureScale
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PmainTextureScale;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPmainTextureScale
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 renderQueue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PrenderQueue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPrenderQueue
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PrenderQueue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPrenderQueue
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 rawRenderQueue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PrawRenderQueue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPrawRenderQueue
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PrawRenderQueue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPrawRenderQueue
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.LocalKeyword[] enabledKeywords
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeyword> r_PenabledKeywords;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeyword> RPenabledKeywords
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeyword> r_PenabledKeywords;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeyword> RPenabledKeywords
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MaterialGlobalIlluminationFlags globalIlluminationFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags r_PglobalIlluminationFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags RPglobalIlluminationFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags r_PglobalIlluminationFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterialGlobalIlluminationFlags RPglobalIlluminationFlags
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean doubleSidedGI
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PdoubleSidedGI;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdoubleSidedGI
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdoubleSidedGI;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdoubleSidedGI
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean enableInstancing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PenableInstancing;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPenableInstancing
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PenableInstancing;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPenableInstancing
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 passCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PpassCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPpassCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PpassCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPpassCount
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String[] shaderKeywords
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> r_PshaderKeywords;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> RPshaderKeywords
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> r_PshaderKeywords;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> RPshaderKeywords
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Material parent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_Pparent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RPparent
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_Pparent;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RPparent
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isVariant
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisVariant;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisVariant
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisVariant;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisVariant
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 overrideCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PoverrideCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPoverrideCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PoverrideCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPoverrideCount
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 lockCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PlockCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPlockCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PlockCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPlockCount
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{
@@ -5707,7 +5707,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPropertyLock_Serialized(SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, System.Boolean @value)
+        public virtual void SetPropertyLock_Serialized(Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5718,7 +5718,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ApplyPropertyOverride_Serialized(UnityEngine.Material @destination, SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, System.Boolean @recordUndo)
+        public virtual void ApplyPropertyOverride_Serialized(UnityEngine.Material @destination, Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, System.Boolean @recordUndo)
         {
 
             var ___genericsType = new Type[] {};
@@ -5729,7 +5729,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RevertPropertyOverride_Serialized(SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property)
+        public virtual void RevertPropertyOverride_Serialized(Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property)
         {
 
             var ___genericsType = new Type[] {};
@@ -5740,7 +5740,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetPropertyState_Serialized(SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, out System.Boolean @isOverriden, out System.Boolean @isLockedInChildren, out System.Boolean @isLockedByAncestor)
+        public virtual void GetPropertyState_Serialized(Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, out System.Boolean @isOverriden, out System.Boolean @isLockedInChildren, out System.Boolean @isLockedByAncestor)
         {
 			@isOverriden = default;
 			@isLockedInChildren = default;
@@ -5757,7 +5757,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPropertyLock(SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, System.Boolean @value)
+        public virtual void SetPropertyLock(Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5768,7 +5768,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ApplyPropertyOverride(UnityEngine.Material @destination, SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, System.Boolean @recordUndo)
+        public virtual void ApplyPropertyOverride(UnityEngine.Material @destination, Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, System.Boolean @recordUndo)
         {
 
             var ___genericsType = new Type[] {};
@@ -5779,7 +5779,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RevertPropertyOverride(SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property)
+        public virtual void RevertPropertyOverride(Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property)
         {
 
             var ___genericsType = new Type[] {};
@@ -5790,7 +5790,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetPropertyState(SMFrame.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @propertyName, out System.Boolean @isOverriden, out System.Boolean @isLockedInChildren, out System.Boolean @isLockedByAncestor)
+        public virtual void GetPropertyState(Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @propertyName, out System.Boolean @isOverriden, out System.Boolean @isLockedInChildren, out System.Boolean @isLockedByAncestor)
         {
 			@isOverriden = default;
 			@isLockedInChildren = default;

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.SpritePackingRotation
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.SpritePackingRotation None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RSpritePackingRotation r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RSpritePackingRotation RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RSpritePackingRotation r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RSpritePackingRotation RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.SpritePackingRotation FlipHorizontal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RSpritePackingRotation r_FFlipHorizontal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RSpritePackingRotation RFFlipHorizontal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RSpritePackingRotation r_FFlipHorizontal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RSpritePackingRotation RFFlipHorizontal
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.SpritePackingRotation FlipVertical
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RSpritePackingRotation r_FFlipVertical;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RSpritePackingRotation RFFlipVertical
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RSpritePackingRotation r_FFlipVertical;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RSpritePackingRotation RFFlipVertical
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.SpritePackingRotation Rotate180
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RSpritePackingRotation r_FRotate180;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RSpritePackingRotation RFRotate180
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RSpritePackingRotation r_FRotate180;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RSpritePackingRotation RFRotate180
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.SpritePackingRotation Any
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RSpritePackingRotation r_FAny;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RSpritePackingRotation RFAny
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RSpritePackingRotation r_FAny;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RSpritePackingRotation RFAny
 		{
 			get
 			{

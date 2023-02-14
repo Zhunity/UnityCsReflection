@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RNiceIO
+namespace Hvak.Editor.Refleaction.RNiceIO
 {
 	/// <summary>
 	/// NiceIO.SlashMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// NiceIO.SlashMode Native
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RNiceIO.RSlashMode r_FNative;
-		public static SMFrame.Editor.Refleaction.RNiceIO.RSlashMode RFNative
+		protected static Hvak.Editor.Refleaction.RNiceIO.RSlashMode r_FNative;
+		public static Hvak.Editor.Refleaction.RNiceIO.RSlashMode RFNative
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// NiceIO.SlashMode Forward
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RNiceIO.RSlashMode r_FForward;
-		public static SMFrame.Editor.Refleaction.RNiceIO.RSlashMode RFForward
+		protected static Hvak.Editor.Refleaction.RNiceIO.RSlashMode r_FForward;
+		public static Hvak.Editor.Refleaction.RNiceIO.RSlashMode RFForward
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// NiceIO.SlashMode Backward
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RNiceIO.RSlashMode r_FBackward;
-		public static SMFrame.Editor.Refleaction.RNiceIO.RSlashMode RFBackward
+		protected static Hvak.Editor.Refleaction.RNiceIO.RSlashMode r_FBackward;
+		public static Hvak.Editor.Refleaction.RNiceIO.RSlashMode RFBackward
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.AuthorInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Name;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Name
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Name;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Name
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_Email
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Email;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Email
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Email;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Email
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_Url
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Url;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Url
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Url;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Url
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String email
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pemail;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPemail
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pemail;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPemail
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String url
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Purl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPurl
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Purl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPurl
 		{
 			get
 			{

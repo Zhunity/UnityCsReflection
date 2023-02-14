@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.OverflowClipBox
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.OverflowClipBox PaddingBox
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox r_FPaddingBox;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox RFPaddingBox
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox r_FPaddingBox;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox RFPaddingBox
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.OverflowClipBox ContentBox
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox r_FContentBox;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox RFContentBox
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox r_FContentBox;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox RFContentBox
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.LODParameters
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_IsOrthographic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_IsOrthographic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_IsOrthographic
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_IsOrthographic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_IsOrthographic
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Vector3 m_CameraPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_CameraPosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFm_CameraPosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_CameraPosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFm_CameraPosition
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single m_FieldOfView
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_FieldOfView;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_FieldOfView
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_FieldOfView;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_FieldOfView
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single m_OrthoSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_OrthoSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_OrthoSize
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_OrthoSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_OrthoSize
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_CameraPixelHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_CameraPixelHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_CameraPixelHeight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_CameraPixelHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_CameraPixelHeight
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean isOrthographic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisOrthographic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisOrthographic
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisOrthographic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisOrthographic
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Vector3 cameraPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_PcameraPosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPcameraPosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_PcameraPosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPcameraPosition
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single fieldOfView
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PfieldOfView;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPfieldOfView
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PfieldOfView;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPfieldOfView
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single orthoSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PorthoSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPorthoSize
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PorthoSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPorthoSize
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 cameraPixelHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PcameraPixelHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPcameraPixelHeight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PcameraPixelHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPcameraPixelHeight
 		{
 			get
 			{

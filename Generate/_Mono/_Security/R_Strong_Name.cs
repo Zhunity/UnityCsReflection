@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RMono.RSecurity
+namespace Hvak.Editor.Refleaction.RMono.RSecurity
 {
 	/// <summary>
 	/// Mono.Security.StrongName
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Security.Cryptography.RSA rsa
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSA r_Frsa;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSA RFrsa
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSA r_Frsa;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSA RFrsa
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Byte[] publicKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_FpublicKey;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFpublicKey
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_FpublicKey;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFpublicKey
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Byte[] keyToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_FkeyToken;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFkeyToken
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_FkeyToken;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFkeyToken
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.String tokenAlgorithm
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FtokenAlgorithm;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFtokenAlgorithm
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FtokenAlgorithm;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFtokenAlgorithm
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Object lockObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RObject r_FlockObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RObject RFlockObject
+		protected static Hvak.Editor.Refleaction.RSystem.RObject r_FlockObject;
+		public static Hvak.Editor.Refleaction.RSystem.RObject RFlockObject
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Boolean initialized
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_Finitialized;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RFinitialized
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_Finitialized;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RFinitialized
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// Boolean CanSign
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PCanSign;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPCanSign
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PCanSign;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPCanSign
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Security.Cryptography.RSA RSA
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSA r_PRSA;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSA RPRSA
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSA r_PRSA;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSA RPRSA
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// Byte[] PublicKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_PPublicKey;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPPublicKey
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_PPublicKey;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPPublicKey
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// Byte[] PublicKeyToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_PPublicKeyToken;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPPublicKeyToken
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_PPublicKeyToken;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPPublicKeyToken
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.String TokenAlgorithm
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PTokenAlgorithm;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPTokenAlgorithm
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PTokenAlgorithm;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPTokenAlgorithm
 		{
 			get
 			{
@@ -600,14 +600,14 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
         }
 
 
-        public static SMFrame.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature Error(System.String @a)
+        public static Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature Error(System.String @a)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a};
             var ___result = RMError_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature(___result);
+            return new Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature(___result);
         }
 
 
@@ -622,14 +622,14 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature StrongHash(System.IO.Stream @stream, SMFrame.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameOptions @options)
+        public virtual Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature StrongHash(System.IO.Stream @stream, Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameOptions @options)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@stream, @options.Value};
             var ___result = RMStrongHash_Stream_StrongNameOptions.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature(___result);
+            return new Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature(___result);
         }
 
 

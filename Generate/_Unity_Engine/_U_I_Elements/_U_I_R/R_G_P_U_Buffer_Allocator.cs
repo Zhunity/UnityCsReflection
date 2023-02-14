@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.GPUBufferAllocator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BestFitAllocator m_Low
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator r_Fm_Low;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator RFm_Low
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator r_Fm_Low;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator RFm_Low
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BestFitAllocator m_High
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator r_Fm_High;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator RFm_High
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator r_Fm_High;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator RFm_High
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean isEmpty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisEmpty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisEmpty
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisEmpty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisEmpty
 		{
 			get
 			{
@@ -250,18 +250,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc Allocate(System.UInt32 @size, System.Boolean @shortLived)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc Allocate(System.UInt32 @size, System.Boolean @shortLived)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@size, @shortLived};
             var ___result = RMAllocate_UInt32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc(___result);
         }
 
 
-        public virtual void Free(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @alloc)
+        public virtual void Free(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -272,14 +272,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics GatherStatistics()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics GatherStatistics()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGatherStatistics.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RHeapStatistics(___result);
         }
 
 

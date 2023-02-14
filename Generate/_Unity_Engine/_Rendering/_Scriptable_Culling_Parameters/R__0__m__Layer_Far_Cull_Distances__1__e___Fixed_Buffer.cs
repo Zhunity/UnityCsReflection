@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {public partial class RScriptableCullingParameters
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single FixedElementField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FFixedElementField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFFixedElementField
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FFixedElementField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFFixedElementField
 		{
 			get
 			{

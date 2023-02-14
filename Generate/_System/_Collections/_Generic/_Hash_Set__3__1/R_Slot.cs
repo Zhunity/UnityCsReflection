@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
+namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {public partial class RHashSet<T>
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 hashCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FhashCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFhashCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FhashCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFhashCode
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 next
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fnext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFnext
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fnext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFnext
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// T value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RField RFvalue
+		protected Hvak.Editor.Refleaction.RField r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RField RFvalue
 		{
 			get
 			{

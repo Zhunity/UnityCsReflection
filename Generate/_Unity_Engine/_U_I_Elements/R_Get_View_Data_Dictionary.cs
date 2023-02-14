@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.GetViewDataDictionary
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean HasSingleTarget
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasSingleTarget;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasSingleTarget
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasSingleTarget;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasSingleTarget
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Reflection.MethodInfo Method
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo r_PMethod;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo RPMethod
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo r_PMethod;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo RPMethod
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Object Target
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PTarget;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPTarget
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PTarget;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPTarget
 		{
 			get
 			{
@@ -403,14 +403,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary Invoke()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary Invoke()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMInvoke.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary(___result);
         }
 
 
@@ -425,14 +425,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary EndInvoke(System.IAsyncResult @result)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary EndInvoke(System.IAsyncResult @result)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result};
             var ___result = RMEndInvoke_IAsyncResult.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary(___result);
         }
 
 

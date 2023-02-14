@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.RenderBufferStoreAction
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferStoreAction Store
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction r_FStore;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction RFStore
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction r_FStore;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction RFStore
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferStoreAction Resolve
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction r_FResolve;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction RFResolve
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction r_FResolve;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction RFResolve
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferStoreAction StoreAndResolve
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction r_FStoreAndResolve;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction RFStoreAndResolve
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction r_FStoreAndResolve;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction RFStoreAndResolve
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferStoreAction DontCare
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction r_FDontCare;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction RFDontCare
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction r_FDontCare;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderBufferStoreAction RFDontCare
 		{
 			get
 			{

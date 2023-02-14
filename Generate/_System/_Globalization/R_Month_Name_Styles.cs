@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.MonthNameStyles
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.MonthNameStyles Regular
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RMonthNameStyles r_FRegular;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RMonthNameStyles RFRegular
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RMonthNameStyles r_FRegular;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RMonthNameStyles RFRegular
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.MonthNameStyles Genitive
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RMonthNameStyles r_FGenitive;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RMonthNameStyles RFGenitive
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RMonthNameStyles r_FGenitive;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RMonthNameStyles RFGenitive
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.MonthNameStyles LeapYear
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RMonthNameStyles r_FLeapYear;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RMonthNameStyles RFLeapYear
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RMonthNameStyles r_FLeapYear;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RMonthNameStyles RFLeapYear
 		{
 			get
 			{

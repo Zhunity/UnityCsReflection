@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
+namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 {
 	/// <summary>
 	/// Unity.Profiling.ProfilerMarker
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// IntPtr Handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_PHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RPHandle
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_PHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RPHandle
 		{
 			get
 			{
@@ -295,14 +295,14 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker.RAutoScope Auto()
+        public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker.RAutoScope Auto()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAuto.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker.RAutoScope(___result);
+            return new Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker.RAutoScope(___result);
         }
 
 

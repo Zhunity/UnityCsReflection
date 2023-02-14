@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.RuntimeTypeHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFvalue
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFvalue
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// IntPtr Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RPValue
 		{
 			get
 			{
@@ -1018,7 +1018,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Reflection.TypeAttributes GetAttributes(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Reflection.TypeAttributes GetAttributes(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1040,7 +1040,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 GetMetadataToken(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Int32 GetMetadataToken(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1051,7 +1051,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 GetToken(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Int32 GetToken(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1062,7 +1062,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Type GetGenericTypeDefinition_impl(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Type GetGenericTypeDefinition_impl(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1073,7 +1073,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Type GetGenericTypeDefinition(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Type GetGenericTypeDefinition(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1084,7 +1084,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean HasProxyAttribute(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean HasProxyAttribute(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1095,7 +1095,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsPrimitive(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean IsPrimitive(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1106,7 +1106,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsByRef(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean IsByRef(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1117,7 +1117,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsPointer(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean IsPointer(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1128,7 +1128,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsArray(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean IsArray(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1139,7 +1139,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsSzArray(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean IsSzArray(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1150,7 +1150,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean HasElementType(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean HasElementType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1161,18 +1161,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType GetCorElementType(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType GetCorElementType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type.Value};
             var ___result = RMGetCorElementType_RuntimeType.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReflection.RCorElementType(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReflection.RCorElementType(___result);
         }
 
 
-        public static System.Boolean HasInstantiation(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean HasInstantiation(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1183,7 +1183,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsComObject(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean IsComObject(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1194,7 +1194,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsInstanceOfType(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type, System.Object @o)
+        public static System.Boolean IsInstanceOfType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type, System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -1205,7 +1205,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean HasReferences(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean HasReferences(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1216,7 +1216,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsComObject(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type, System.Boolean @isGenericCOM)
+        public static System.Boolean IsComObject(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type, System.Boolean @isGenericCOM)
         {
 
             var ___genericsType = new Type[] {};
@@ -1227,7 +1227,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsContextful(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean IsContextful(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1238,7 +1238,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsEquivalentTo(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @rtType1, SMFrame.Editor.Refleaction.RSystem.RRuntimeType @rtType2)
+        public static System.Boolean IsEquivalentTo(Hvak.Editor.Refleaction.RSystem.RRuntimeType @rtType1, Hvak.Editor.Refleaction.RSystem.RRuntimeType @rtType2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1249,7 +1249,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsInterface(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean IsInterface(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1260,7 +1260,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 GetArrayRank(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Int32 GetArrayRank(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1271,40 +1271,40 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly GetAssembly(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly GetAssembly(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type.Value};
             var ___result = RMGetAssembly_RuntimeType.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RRuntimeType GetElementType(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static Hvak.Editor.Refleaction.RSystem.RRuntimeType GetElementType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type.Value};
             var ___result = RMGetElementType_RuntimeType.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntimeType(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntimeType(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeModule GetModule(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeModule GetModule(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type.Value};
             var ___result = RMGetModule_RuntimeType.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeModule(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeModule(___result);
         }
 
 
-        public static System.Boolean IsGenericVariable(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean IsGenericVariable(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1315,18 +1315,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RRuntimeType GetBaseType(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static Hvak.Editor.Refleaction.RSystem.RRuntimeType GetBaseType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type.Value};
             var ___result = RMGetBaseType_RuntimeType.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntimeType(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntimeType(___result);
         }
 
 
-        public static System.Boolean CanCastTo(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type, SMFrame.Editor.Refleaction.RSystem.RRuntimeType @target)
+        public static System.Boolean CanCastTo(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type, Hvak.Editor.Refleaction.RSystem.RRuntimeType @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -1348,7 +1348,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsGenericTypeDefinition(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean IsGenericTypeDefinition(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1359,7 +1359,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.IntPtr GetGenericParameterInfo(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.IntPtr GetGenericParameterInfo(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1370,7 +1370,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsSubclassOf(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @childType, SMFrame.Editor.Refleaction.RSystem.RRuntimeType @baseType)
+        public static System.Boolean IsSubclassOf(Hvak.Editor.Refleaction.RSystem.RRuntimeType @childType, Hvak.Editor.Refleaction.RSystem.RRuntimeType @baseType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1392,7 +1392,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsByRefLike(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean IsByRefLike(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1403,7 +1403,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsTypeDefinition(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean IsTypeDefinition(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1414,27 +1414,27 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RRuntimeType internal_from_name(System.String @name, ref SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, System.Reflection.Assembly @callerAssembly, System.Boolean @throwOnError, System.Boolean @ignoreCase, System.Boolean @reflectionOnly)
+        public static Hvak.Editor.Refleaction.RSystem.RRuntimeType internal_from_name(System.String @name, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, System.Reflection.Assembly @callerAssembly, System.Boolean @throwOnError, System.Boolean @ignoreCase, System.Boolean @reflectionOnly)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @stackMark.Value, @callerAssembly, @throwOnError, @ignoreCase, @reflectionOnly};
             var ___result = RMinternal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-			@stackMark = new SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[1]);
+			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[1]);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntimeType(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntimeType(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RRuntimeType GetTypeByName(System.String @typeName, System.Boolean @throwOnError, System.Boolean @ignoreCase, System.Boolean @reflectionOnly, ref SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, System.Boolean @loadTypeFromPartialName)
+        public static Hvak.Editor.Refleaction.RSystem.RRuntimeType GetTypeByName(System.String @typeName, System.Boolean @throwOnError, System.Boolean @ignoreCase, System.Boolean @reflectionOnly, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark, System.Boolean @loadTypeFromPartialName)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@typeName, @throwOnError, @ignoreCase, @reflectionOnly, @stackMark.Value, @loadTypeFromPartialName};
             var ___result = RMGetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean.Invoke(___genericsType, ___parameters);
-			@stackMark = new SMFrame.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[4]);
+			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[4]);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntimeType(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntimeType(___result);
         }
 
 

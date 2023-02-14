@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.RotationOrder
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RotationOrder OrderXYZ
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder r_FOrderXYZ;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder RFOrderXYZ
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder r_FOrderXYZ;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder RFOrderXYZ
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RotationOrder OrderXZY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder r_FOrderXZY;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder RFOrderXZY
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder r_FOrderXZY;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder RFOrderXZY
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RotationOrder OrderYZX
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder r_FOrderYZX;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder RFOrderYZX
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder r_FOrderYZX;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder RFOrderYZX
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RotationOrder OrderYXZ
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder r_FOrderYXZ;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder RFOrderYXZ
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder r_FOrderYXZ;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder RFOrderYXZ
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RotationOrder OrderZXY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder r_FOrderZXY;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder RFOrderZXY
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder r_FOrderZXY;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder RFOrderZXY
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RotationOrder OrderZYX
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder r_FOrderZYX;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder RFOrderZYX
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder r_FOrderZYX;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder RFOrderZYX
 		{
 			get
 			{

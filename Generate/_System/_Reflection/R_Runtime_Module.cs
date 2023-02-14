@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.RuntimeModule
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.IntPtr _impl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_F_impl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RF_impl
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_F_impl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RF_impl
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.Assembly assembly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly r_Fassembly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly RFassembly
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly r_Fassembly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly RFassembly
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String fqname
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ffqname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFfqname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ffqname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFfqname
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFname
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String scopename
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fscopename;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFscopename
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fscopename;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFscopename
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Boolean is_resource
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fis_resource;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFis_resource
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fis_resource;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFis_resource
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 token
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ftoken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFtoken
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ftoken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFtoken
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.Assembly Assembly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly r_PAssembly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RAssembly RPAssembly
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly r_PAssembly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RAssembly RPAssembly
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String ScopeName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PScopeName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPScopeName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PScopeName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPScopeName
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 MDStreamVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMDStreamVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMDStreamVersion
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMDStreamVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMDStreamVersion
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Guid ModuleVersionId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGuid r_PModuleVersionId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGuid RPModuleVersionId
+		protected Hvak.Editor.Refleaction.RSystem.RGuid r_PModuleVersionId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGuid RPModuleVersionId
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String FullyQualifiedName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PFullyQualifiedName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPFullyQualifiedName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PFullyQualifiedName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPFullyQualifiedName
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 MetadataToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMetadataToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMetadataToken
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMetadataToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMetadataToken
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// IntPtr MonoModule
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_PMonoModule;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RPMonoModule
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_PMonoModule;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RPMonoModule
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.ModuleHandle ModuleHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RModuleHandle r_PModuleHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RModuleHandle RPModuleHandle
+		protected Hvak.Editor.Refleaction.RSystem.RModuleHandle r_PModuleHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RModuleHandle RPModuleHandle
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[System.Reflection.CustomAttributeData] CustomAttributes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeData> r_PCustomAttributes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeData> RPCustomAttributes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeData> r_PCustomAttributes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeData> RPCustomAttributes
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Guid MvId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGuid r_PMvId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGuid RPMvId
+		protected Hvak.Editor.Refleaction.RSystem.RGuid r_PMvId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGuid RPMvId
 		{
 			get
 			{
@@ -1718,14 +1718,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly GetRuntimeAssembly()
+        public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly GetRuntimeAssembly()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetRuntimeAssembly.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly(___result);
         }
 
 
@@ -1740,7 +1740,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Exception resolve_token_exception(System.String @name, System.Int32 @metadataToken, SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError @error, System.String @tokenType)
+        public static System.Exception resolve_token_exception(System.String @name, System.Int32 @metadataToken, Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError @error, System.String @tokenType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1828,79 +1828,79 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.IntPtr ResolveTypeToken(System.IntPtr @module, System.Int32 @token, System.IntPtr[] @type_args, System.IntPtr[] @method_args, out SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError @error)
+        public static System.IntPtr ResolveTypeToken(System.IntPtr @module, System.Int32 @token, System.IntPtr[] @type_args, System.IntPtr[] @method_args, out Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError @error)
         {
 			@error = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
             var ___result = RMResolveTypeToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
-			@error = new SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
+			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
 
             return (System.IntPtr)___result;
         }
 
 
-        public static System.IntPtr ResolveMethodToken(System.IntPtr @module, System.Int32 @token, System.IntPtr[] @type_args, System.IntPtr[] @method_args, out SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError @error)
+        public static System.IntPtr ResolveMethodToken(System.IntPtr @module, System.Int32 @token, System.IntPtr[] @type_args, System.IntPtr[] @method_args, out Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError @error)
         {
 			@error = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
             var ___result = RMResolveMethodToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
-			@error = new SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
+			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
 
             return (System.IntPtr)___result;
         }
 
 
-        public static System.IntPtr ResolveFieldToken(System.IntPtr @module, System.Int32 @token, System.IntPtr[] @type_args, System.IntPtr[] @method_args, out SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError @error)
+        public static System.IntPtr ResolveFieldToken(System.IntPtr @module, System.Int32 @token, System.IntPtr[] @type_args, System.IntPtr[] @method_args, out Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError @error)
         {
 			@error = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
             var ___result = RMResolveFieldToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
-			@error = new SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
+			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
 
             return (System.IntPtr)___result;
         }
 
 
-        public static System.String ResolveStringToken(System.IntPtr @module, System.Int32 @token, out SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError @error)
+        public static System.String ResolveStringToken(System.IntPtr @module, System.Int32 @token, out Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError @error)
         {
 			@error = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @error.Value};
             var ___result = RMResolveStringToken_IntPtr_Int32_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
-			@error = new SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[2]);
+			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[2]);
 
             return (System.String)___result;
         }
 
 
-        public static System.Reflection.MemberInfo ResolveMemberToken(System.IntPtr @module, System.Int32 @token, System.IntPtr[] @type_args, System.IntPtr[] @method_args, out SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError @error)
+        public static System.Reflection.MemberInfo ResolveMemberToken(System.IntPtr @module, System.Int32 @token, System.IntPtr[] @type_args, System.IntPtr[] @method_args, out Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError @error)
         {
 			@error = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
             var ___result = RMResolveMemberToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
-			@error = new SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
+			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
 
             return (System.Reflection.MemberInfo)___result;
         }
 
 
-        public static System.Byte[] ResolveSignature(System.IntPtr @module, System.Int32 @metadataToken, out SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError @error)
+        public static System.Byte[] ResolveSignature(System.IntPtr @module, System.Int32 @metadataToken, out Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError @error)
         {
 			@error = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @metadataToken, @error.Value};
             var ___result = RMResolveSignature_IntPtr_Int32_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
-			@error = new SMFrame.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[2]);
+			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[2]);
 
             return (System.Byte[])___result;
         }

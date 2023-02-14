@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.TimerState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <start>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_F__0__start__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RF__0__start__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_F__0__start__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RF__0__start__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <now>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_F__0__now__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RF__0__now__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_F__0__now__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RF__0__now__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 start
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Pstart;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPstart
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Pstart;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPstart
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 now
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Pnow;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPnow
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Pnow;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPnow
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 deltaTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PdeltaTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPdeltaTime
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PdeltaTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPdeltaTime
 		{
 			get
 			{

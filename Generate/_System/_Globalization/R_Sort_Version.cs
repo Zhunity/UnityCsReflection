@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.SortVersion
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_NlsVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_NlsVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_NlsVersion
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_NlsVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_NlsVersion
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Guid m_SortId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGuid r_Fm_SortId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGuid RFm_SortId
+		protected Hvak.Editor.Refleaction.RSystem.RGuid r_Fm_SortId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGuid RFm_SortId
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 FullVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PFullVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPFullVersion
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PFullVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPFullVersion
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Guid SortId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGuid r_PSortId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGuid RPSortId
+		protected Hvak.Editor.Refleaction.RSystem.RGuid r_PSortId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGuid RPSortId
 		{
 			get
 			{

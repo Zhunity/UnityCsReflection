@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
+namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
 	/// System.Threading.Tasks.UnobservedTaskExceptionEventArgs
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.AggregateException m_exception
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAggregateException r_Fm_exception;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAggregateException RFm_exception
+		protected Hvak.Editor.Refleaction.RSystem.RAggregateException r_Fm_exception;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAggregateException RFm_exception
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Boolean m_observed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_observed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_observed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_observed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_observed
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean Observed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PObserved;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPObserved
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PObserved;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPObserved
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.AggregateException Exception
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAggregateException r_PException;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAggregateException RPException
+		protected Hvak.Editor.Refleaction.RSystem.RAggregateException r_PException;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAggregateException RPException
 		{
 			get
 			{

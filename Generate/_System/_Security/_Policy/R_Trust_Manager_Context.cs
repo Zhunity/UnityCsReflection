@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 {
 	/// <summary>
 	/// System.Security.Policy.TrustManagerContext
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Boolean _ignorePersistedDecision
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_ignorePersistedDecision;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_ignorePersistedDecision
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_ignorePersistedDecision;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_ignorePersistedDecision
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Boolean _noPrompt
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_noPrompt;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_noPrompt
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_noPrompt;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_noPrompt
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Boolean _keepAlive
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_keepAlive;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_keepAlive
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_keepAlive;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_keepAlive
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Boolean _persist
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_persist;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_persist
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_persist;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_persist
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.ApplicationIdentity _previousId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity r_F_previousId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity RF_previousId
+		protected Hvak.Editor.Refleaction.RSystem.RApplicationIdentity r_F_previousId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RApplicationIdentity RF_previousId
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.TrustManagerUIContext _ui
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext r_F_ui;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext RF_ui
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext r_F_ui;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext RF_ui
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean IgnorePersistedDecision
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIgnorePersistedDecision;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIgnorePersistedDecision
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIgnorePersistedDecision;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIgnorePersistedDecision
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean KeepAlive
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PKeepAlive;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPKeepAlive
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PKeepAlive;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPKeepAlive
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean NoPrompt
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PNoPrompt;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPNoPrompt
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PNoPrompt;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPNoPrompt
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean Persist
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PPersist;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPPersist
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PPersist;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPPersist
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.ApplicationIdentity PreviousApplicationIdentity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity r_PPreviousApplicationIdentity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity RPPreviousApplicationIdentity
+		protected Hvak.Editor.Refleaction.RSystem.RApplicationIdentity r_PPreviousApplicationIdentity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RApplicationIdentity RPPreviousApplicationIdentity
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.TrustManagerUIContext UIContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext r_PUIContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext RPUIContext
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext r_PUIContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RTrustManagerUIContext RPUIContext
 		{
 			get
 			{

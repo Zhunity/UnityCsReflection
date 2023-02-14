@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RTextureRegistry
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 freeIdsCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FfreeIdsCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfreeIdsCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FfreeIdsCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfreeIdsCount
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 createdIdsCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcreatedIdsCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcreatedIdsCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcreatedIdsCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcreatedIdsCount
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 allocatedIdsTotalCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FallocatedIdsTotalCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFallocatedIdsTotalCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FallocatedIdsTotalCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFallocatedIdsTotalCount
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 allocatedIdsDynamicCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FallocatedIdsDynamicCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFallocatedIdsDynamicCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FallocatedIdsDynamicCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFallocatedIdsDynamicCount
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 allocatedIdsStaticCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FallocatedIdsStaticCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFallocatedIdsStaticCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FallocatedIdsStaticCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFallocatedIdsStaticCount
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 availableIdsCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FavailableIdsCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFavailableIdsCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FavailableIdsCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFavailableIdsCount
 		{
 			get
 			{

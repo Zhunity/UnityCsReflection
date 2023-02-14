@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Shader
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderHardwareTier globalShaderHardwareTier
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderHardwareTier r_PglobalShaderHardwareTier;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderHardwareTier RPglobalShaderHardwareTier
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderHardwareTier r_PglobalShaderHardwareTier;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderHardwareTier RPglobalShaderHardwareTier
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 maximumChunksOverride
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmaximumChunksOverride;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RPmaximumChunksOverride
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_PmaximumChunksOverride;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RPmaximumChunksOverride
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 maximumLOD
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmaximumLOD;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmaximumLOD
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmaximumLOD;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmaximumLOD
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 globalMaximumLOD
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_PglobalMaximumLOD;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RPglobalMaximumLOD
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_PglobalMaximumLOD;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RPglobalMaximumLOD
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isSupported
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisSupported;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisSupported
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisSupported;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisSupported
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String globalRenderPipeline
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_PglobalRenderPipeline;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RPglobalRenderPipeline
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_PglobalRenderPipeline;
+		public static Hvak.Editor.Refleaction.RSystem.RString RPglobalRenderPipeline
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.GlobalKeyword[] enabledGlobalKeywords
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RGlobalKeyword> r_PenabledGlobalKeywords;
-		public static SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RGlobalKeyword> RPenabledGlobalKeywords
+		protected static Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RGlobalKeyword> r_PenabledGlobalKeywords;
+		public static Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RGlobalKeyword> RPenabledGlobalKeywords
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.GlobalKeyword[] globalKeywords
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RGlobalKeyword> r_PglobalKeywords;
-		public static SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RGlobalKeyword> RPglobalKeywords
+		protected static Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RGlobalKeyword> r_PglobalKeywords;
+		public static Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RGlobalKeyword> RPglobalKeywords
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.LocalKeywordSpace keywordSpace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeywordSpace r_PkeywordSpace;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeywordSpace RPkeywordSpace
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeywordSpace r_PkeywordSpace;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeywordSpace RPkeywordSpace
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 renderQueue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PrenderQueue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPrenderQueue
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PrenderQueue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPrenderQueue
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.DisableBatchingType disableBatching
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RDisableBatchingType r_PdisableBatching;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RDisableBatchingType RPdisableBatching
+		protected Hvak.Editor.Refleaction.RUnityEngine.RDisableBatchingType r_PdisableBatching;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RDisableBatchingType RPdisableBatching
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 passCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PpassCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPpassCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PpassCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPpassCount
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 subshaderCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PsubshaderCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPsubshaderCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PsubshaderCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPsubshaderCount
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String customEditor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PcustomEditor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPcustomEditor
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PcustomEditor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPcustomEditor
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{

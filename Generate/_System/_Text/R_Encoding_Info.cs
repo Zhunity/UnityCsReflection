@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText
+namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
 	/// System.Text.EncodingInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 iCodePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FiCodePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFiCodePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FiCodePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFiCodePage
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String strEncodingName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FstrEncodingName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFstrEncodingName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FstrEncodingName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFstrEncodingName
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String strDisplayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FstrDisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFstrDisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FstrDisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFstrDisplayName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 CodePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCodePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCodePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCodePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCodePage
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String DisplayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PDisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPDisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PDisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPDisplayName
 		{
 			get
 			{

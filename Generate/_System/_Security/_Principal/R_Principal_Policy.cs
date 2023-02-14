@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 {
 	/// <summary>
 	/// System.Security.Principal.PrincipalPolicy
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.PrincipalPolicy UnauthenticatedPrincipal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy r_FUnauthenticatedPrincipal;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy RFUnauthenticatedPrincipal
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy r_FUnauthenticatedPrincipal;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy RFUnauthenticatedPrincipal
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.PrincipalPolicy NoPrincipal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy r_FNoPrincipal;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy RFNoPrincipal
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy r_FNoPrincipal;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy RFNoPrincipal
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.PrincipalPolicy WindowsPrincipal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy r_FWindowsPrincipal;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy RFWindowsPrincipal
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy r_FWindowsPrincipal;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RPrincipalPolicy RFWindowsPrincipal
 		{
 			get
 			{

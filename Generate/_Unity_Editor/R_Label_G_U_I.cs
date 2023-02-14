@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.LabelGUI
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[UnityEngine.Object] m_CurrentAssetsSet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RUnityEngine.RObject> r_Fm_CurrentAssetsSet;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RUnityEngine.RObject> RFm_CurrentAssetsSet
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RObject> r_Fm_CurrentAssetsSet;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RObject> RFm_CurrentAssetsSet
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PopupList+InputData m_AssetLabels
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPopupList.RInputData r_Fm_AssetLabels;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPopupList.RInputData RFm_AssetLabels
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPopupList.RInputData r_Fm_AssetLabels;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPopupList.RInputData RFm_AssetLabels
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String m_ChangedLabel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_ChangedLabel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_ChangedLabel
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_ChangedLabel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_ChangedLabel
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_CurrentChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_CurrentChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_CurrentChanged
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_CurrentChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_CurrentChanged
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_ChangeWasAdd
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_ChangeWasAdd;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_ChangeWasAdd
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_ChangeWasAdd;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_ChangeWasAdd
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_IgnoreNextAssetLabelsChangedCall
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_IgnoreNextAssetLabelsChangedCall;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_IgnoreNextAssetLabelsChangedCall
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IgnoreNextAssetLabelsChangedCall;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IgnoreNextAssetLabelsChangedCall
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Action`1[UnityEngine.Object] s_AssetLabelsForObjectChangedDelegates
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEngine.RObject> r_Fs_AssetLabelsForObjectChangedDelegates;
-		public static SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEngine.RObject> RFs_AssetLabelsForObjectChangedDelegates
+		protected static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RObject> r_Fs_AssetLabelsForObjectChangedDelegates;
+		public static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RObject> RFs_AssetLabelsForObjectChangedDelegates
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 s_MaxShownLabels
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fs_MaxShownLabels;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFs_MaxShownLabels
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_MaxShownLabels;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_MaxShownLabels
 		{
 			get
 			{
@@ -520,7 +520,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void AssetLabelListCallback(SMFrame.Editor.Refleaction.RUnityEditor.RPopupList.RListElement @element)
+        public virtual void AssetLabelListCallback(Hvak.Editor.Refleaction.RUnityEditor.RPopupList.RListElement @element)
         {
 
             var ___genericsType = new Type[] {};

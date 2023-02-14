@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.ScrollViewMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollViewMode Vertical
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollViewMode r_FVertical;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollViewMode RFVertical
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollViewMode r_FVertical;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollViewMode RFVertical
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollViewMode Horizontal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollViewMode r_FHorizontal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollViewMode RFHorizontal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollViewMode r_FHorizontal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollViewMode RFHorizontal
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollViewMode VerticalAndHorizontal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollViewMode r_FVerticalAndHorizontal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollViewMode RFVerticalAndHorizontal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollViewMode r_FVerticalAndHorizontal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollViewMode RFVerticalAndHorizontal
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 {
 	/// <summary>
 	/// System.Runtime.InteropServices.StructLayoutAttribute
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 DEFAULT_PACKING_SIZE
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDEFAULT_PACKING_SIZE;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDEFAULT_PACKING_SIZE
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDEFAULT_PACKING_SIZE;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDEFAULT_PACKING_SIZE
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.LayoutKind _val
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RLayoutKind r_F_val;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RLayoutKind RF_val
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RLayoutKind r_F_val;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RLayoutKind RF_val
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 Pack
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FPack;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFPack
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FPack;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFPack
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 Size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFSize
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.CharSet CharSet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet r_FCharSet;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet RFCharSet
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet r_FCharSet;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet RFCharSet
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.LayoutKind Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RLayoutKind r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RLayoutKind RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RLayoutKind r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RLayoutKind RPValue
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Object TypeId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PTypeId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPTypeId
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PTypeId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPTypeId
 		{
 			get
 			{
@@ -318,7 +318,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 	    {
 	    }
 
-        public static System.Runtime.InteropServices.StructLayoutAttribute GetCustomAttribute(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Runtime.InteropServices.StructLayoutAttribute GetCustomAttribute(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -329,7 +329,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static System.Boolean IsDefined(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type)
+        public static System.Boolean IsDefined(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};

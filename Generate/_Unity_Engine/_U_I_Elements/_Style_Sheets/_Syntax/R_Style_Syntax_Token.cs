@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenType type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenType r_Ftype;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenType RFtype
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenType r_Ftype;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenType RFtype
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ftext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFtext
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ftext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFtext
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// System.Int32 number
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fnumber;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFnumber
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fnumber;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFnumber
 		{
 			get
 			{

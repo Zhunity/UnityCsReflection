@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.DebuggerEventDispatchingStrategy
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IGlobalPanelDebugger s_GlobalPanelDebug
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIGlobalPanelDebugger r_Fs_GlobalPanelDebug;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIGlobalPanelDebugger RFs_GlobalPanelDebug
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIGlobalPanelDebugger r_Fs_GlobalPanelDebug;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIGlobalPanelDebugger RFs_GlobalPanelDebug
 		{
 			get
 			{

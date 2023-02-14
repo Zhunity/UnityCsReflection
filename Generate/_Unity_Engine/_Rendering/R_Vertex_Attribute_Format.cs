@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.VertexAttributeFormat
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat Float32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FFloat32;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFFloat32
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FFloat32;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFFloat32
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat Float16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FFloat16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFFloat16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FFloat16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFFloat16
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat UNorm8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FUNorm8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFUNorm8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FUNorm8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFUNorm8
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat SNorm8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FSNorm8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFSNorm8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FSNorm8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFSNorm8
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat UNorm16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FUNorm16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFUNorm16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FUNorm16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFUNorm16
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat SNorm16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FSNorm16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFSNorm16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FSNorm16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFSNorm16
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat UInt8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FUInt8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFUInt8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FUInt8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFUInt8
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat SInt8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FSInt8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFSInt8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FSInt8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFSInt8
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat UInt16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FUInt16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFUInt16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FUInt16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFUInt16
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat SInt16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FSInt16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFSInt16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FSInt16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFSInt16
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat UInt32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FUInt32;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFUInt32
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FUInt32;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFUInt32
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat SInt32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FSInt32;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFSInt32
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat r_FSInt32;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RVertexAttributeFormat RFSInt32
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.HideFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags HideInHierarchy
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_FHideInHierarchy;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RFHideInHierarchy
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_FHideInHierarchy;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RFHideInHierarchy
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags HideInInspector
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_FHideInInspector;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RFHideInInspector
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_FHideInInspector;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RFHideInInspector
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags DontSaveInEditor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_FDontSaveInEditor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RFDontSaveInEditor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_FDontSaveInEditor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RFDontSaveInEditor
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags NotEditable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_FNotEditable;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RFNotEditable
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_FNotEditable;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RFNotEditable
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags DontSaveInBuild
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_FDontSaveInBuild;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RFDontSaveInBuild
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_FDontSaveInBuild;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RFDontSaveInBuild
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags DontUnloadUnusedAsset
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_FDontUnloadUnusedAsset;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RFDontUnloadUnusedAsset
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_FDontUnloadUnusedAsset;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RFDontUnloadUnusedAsset
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags DontSave
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_FDontSave;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RFDontSave
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_FDontSave;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RFDontSave
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags HideAndDontSave
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_FHideAndDontSave;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RFHideAndDontSave
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_FHideAndDontSave;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RFHideAndDontSave
 		{
 			get
 			{

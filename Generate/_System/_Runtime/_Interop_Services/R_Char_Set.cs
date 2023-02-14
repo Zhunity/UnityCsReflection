@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 {
 	/// <summary>
 	/// System.Runtime.InteropServices.CharSet
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.CharSet None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.CharSet Ansi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet r_FAnsi;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet RFAnsi
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet r_FAnsi;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet RFAnsi
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.CharSet Unicode
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet r_FUnicode;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet RFUnicode
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet r_FUnicode;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet RFUnicode
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Runtime.InteropServices.CharSet Auto
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet r_FAuto;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet RFAuto
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet r_FAuto;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RCharSet RFAuto
 		{
 			get
 			{

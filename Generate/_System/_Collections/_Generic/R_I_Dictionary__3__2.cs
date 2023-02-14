@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
+namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
 	/// System.Collections.Generic.IDictionary`2
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// TValue Item [TKey]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PItem_TKey;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPItem_TKey
+		protected Hvak.Editor.Refleaction.RProperty r_PItem_TKey;
+		public virtual Hvak.Editor.Refleaction.RProperty RPItem_TKey
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.ICollection`1[TKey] Keys
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<SMFrame.Editor.Refleaction.RProperty> r_PKeys;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<SMFrame.Editor.Refleaction.RProperty> RPKeys
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<Hvak.Editor.Refleaction.RProperty> r_PKeys;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<Hvak.Editor.Refleaction.RProperty> RPKeys
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.ICollection`1[TValue] Values
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<SMFrame.Editor.Refleaction.RProperty> r_PValues;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<SMFrame.Editor.Refleaction.RProperty> RPValues
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<Hvak.Editor.Refleaction.RProperty> r_PValues;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RICollection<Hvak.Editor.Refleaction.RProperty> RPValues
 		{
 			get
 			{

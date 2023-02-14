@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.CultureTypes
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CultureTypes NeutralCultures
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FNeutralCultures;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFNeutralCultures
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FNeutralCultures;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFNeutralCultures
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CultureTypes SpecificCultures
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FSpecificCultures;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFSpecificCultures
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FSpecificCultures;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFSpecificCultures
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CultureTypes InstalledWin32Cultures
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FInstalledWin32Cultures;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFInstalledWin32Cultures
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FInstalledWin32Cultures;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFInstalledWin32Cultures
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CultureTypes AllCultures
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FAllCultures;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFAllCultures
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FAllCultures;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFAllCultures
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CultureTypes UserCustomCulture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FUserCustomCulture;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFUserCustomCulture
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FUserCustomCulture;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFUserCustomCulture
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CultureTypes ReplacementCultures
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FReplacementCultures;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFReplacementCultures
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FReplacementCultures;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFReplacementCultures
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CultureTypes WindowsOnlyCultures
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FWindowsOnlyCultures;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFWindowsOnlyCultures
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FWindowsOnlyCultures;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFWindowsOnlyCultures
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CultureTypes FrameworkCultures
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FFrameworkCultures;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFFrameworkCultures
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes r_FFrameworkCultures;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureTypes RFFrameworkCultures
 		{
 			get
 			{

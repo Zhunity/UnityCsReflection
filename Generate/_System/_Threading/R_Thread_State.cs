@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.ThreadState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadState Running
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState r_FRunning;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState RFRunning
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState r_FRunning;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState RFRunning
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadState StopRequested
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState r_FStopRequested;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState RFStopRequested
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState r_FStopRequested;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState RFStopRequested
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadState SuspendRequested
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState r_FSuspendRequested;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState RFSuspendRequested
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState r_FSuspendRequested;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState RFSuspendRequested
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadState Background
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState r_FBackground;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState RFBackground
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState r_FBackground;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState RFBackground
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadState Unstarted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState r_FUnstarted;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState RFUnstarted
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState r_FUnstarted;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState RFUnstarted
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadState Stopped
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState r_FStopped;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState RFStopped
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState r_FStopped;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState RFStopped
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadState WaitSleepJoin
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState r_FWaitSleepJoin;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState RFWaitSleepJoin
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState r_FWaitSleepJoin;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState RFWaitSleepJoin
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadState Suspended
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState r_FSuspended;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState RFSuspended
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState r_FSuspended;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState RFSuspended
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadState AbortRequested
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState r_FAbortRequested;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState RFAbortRequested
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState r_FAbortRequested;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState RFAbortRequested
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadState Aborted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState r_FAborted;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadState RFAborted
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState r_FAborted;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadState RFAborted
 		{
 			get
 			{

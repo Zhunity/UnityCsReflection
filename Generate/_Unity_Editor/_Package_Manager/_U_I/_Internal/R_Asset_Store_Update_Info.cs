@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String productId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FproductId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFproductId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FproductId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFproductId
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String uploadId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FuploadId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFuploadId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FuploadId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFuploadId
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo+UpdateStatus updateStatus
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUpdateInfo.RUpdateStatus r_FupdateStatus;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUpdateInfo.RUpdateStatus RFupdateStatus
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUpdateInfo.RUpdateStatus r_FupdateStatus;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUpdateInfo.RUpdateStatus RFupdateStatus
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean updateInfoFetched
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PupdateInfoFetched;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPupdateInfoFetched
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PupdateInfoFetched;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPupdateInfoFetched
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean canUpdateOrDowngrade
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PcanUpdateOrDowngrade;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPcanUpdateOrDowngrade
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcanUpdateOrDowngrade;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcanUpdateOrDowngrade
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean canUpdate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PcanUpdate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPcanUpdate
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcanUpdate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcanUpdate
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean canDowngrade
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PcanDowngrade;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPcanDowngrade
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcanDowngrade;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcanDowngrade
 		{
 			get
 			{

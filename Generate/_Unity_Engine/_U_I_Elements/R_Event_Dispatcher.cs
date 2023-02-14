@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.EventDispatcher
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ClickDetector m_ClickDetector
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClickDetector r_Fm_ClickDetector;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClickDetector RFm_ClickDetector
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClickDetector r_Fm_ClickDetector;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClickDetector RFm_ClickDetector
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.IEventDispatchingStrategy] m_DispatchingStrategies
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventDispatchingStrategy> r_Fm_DispatchingStrategies;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventDispatchingStrategy> RFm_DispatchingStrategies
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventDispatchingStrategy> r_Fm_DispatchingStrategies;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventDispatchingStrategy> RFm_DispatchingStrategies
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ObjectPool`1[System.Collections.Generic.Queue`1[UnityEngine.UIElements.EventDispatcher+EventRecord]] k_EventQueuePool
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RObjectPool<SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RQueue<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.REventRecord>> r_Fk_EventQueuePool;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RObjectPool<SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RQueue<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.REventRecord>> RFk_EventQueuePool
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RObjectPool<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RQueue<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.REventRecord>> r_Fk_EventQueuePool;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RObjectPool<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RQueue<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.REventRecord>> RFk_EventQueuePool
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Queue`1[UnityEngine.UIElements.EventDispatcher+EventRecord] m_Queue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RQueue<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.REventRecord> r_Fm_Queue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RQueue<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.REventRecord> RFm_Queue
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RQueue<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.REventRecord> r_Fm_Queue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RQueue<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.REventRecord> RFm_Queue
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PointerDispatchState <pointerState>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPointerDispatchState r_F__0__pointerState__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPointerDispatchState RF__0__pointerState__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPointerDispatchState r_F__0__pointerState__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPointerDispatchState RF__0__pointerState__1__k__BackingField
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.UInt32 m_GateCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_GateCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_GateCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_GateCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_GateCount
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Stack`1[UnityEngine.UIElements.EventDispatcher+DispatchContext] m_DispatchContexts
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.RDispatchContext> r_Fm_DispatchContexts;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.RDispatchContext> RFm_DispatchContexts
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.RDispatchContext> r_Fm_DispatchContexts;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher.RDispatchContext> RFm_DispatchContexts
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventDispatcher s_EditorEventDispatcher
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher r_Fs_EditorEventDispatcher;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher RFs_EditorEventDispatcher
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher r_Fs_EditorEventDispatcher;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher RFs_EditorEventDispatcher
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DebuggerEventDispatchingStrategy m_DebuggerEventDispatchingStrategy
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDebuggerEventDispatchingStrategy r_Fm_DebuggerEventDispatchingStrategy;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDebuggerEventDispatchingStrategy RFm_DebuggerEventDispatchingStrategy
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDebuggerEventDispatchingStrategy r_Fm_DebuggerEventDispatchingStrategy;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDebuggerEventDispatchingStrategy RFm_DebuggerEventDispatchingStrategy
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IEventDispatchingStrategy[] s_EditorStrategies
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventDispatchingStrategy> r_Fs_EditorStrategies;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventDispatchingStrategy> RFs_EditorStrategies
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventDispatchingStrategy> r_Fs_EditorStrategies;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventDispatchingStrategy> RFs_EditorStrategies
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_Immediate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_Immediate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_Immediate
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_Immediate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_Immediate
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <processingEvents>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__processingEvents__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__processingEvents__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__processingEvents__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__processingEvents__1__k__BackingField
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PointerDispatchState pointerState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPointerDispatchState r_PpointerState;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPointerDispatchState RPpointerState
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPointerDispatchState r_PpointerState;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPointerDispatchState RPpointerState
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventDispatcher editorDispatcher
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher r_PeditorDispatcher;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher RPeditorDispatcher
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher r_PeditorDispatcher;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDispatcher RPeditorDispatcher
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean dispatchImmediately
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PdispatchImmediately;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdispatchImmediately
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdispatchImmediately;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdispatchImmediately
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean processingEvents
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PprocessingEvents;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPprocessingEvents
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PprocessingEvents;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPprocessingEvents
 		{
 			get
 			{
@@ -612,7 +612,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.EventDispatcher CreateForRuntime(SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventDispatchingStrategy> @strategies)
+        public static UnityEngine.UIElements.EventDispatcher CreateForRuntime(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventDispatchingStrategy> @strategies)
         {
 
             var ___genericsType = new Type[] {};
@@ -623,7 +623,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Dispatch(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
+        public virtual void Dispatch(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
         {
 
             var ___genericsType = new Type[] {};

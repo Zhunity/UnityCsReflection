@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.GUILayoutOption
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_Ftype;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFtype
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType r_Ftype;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutOption.RType RFtype
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Object value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFvalue
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFvalue
 		{
 			get
 			{

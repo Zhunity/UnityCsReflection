@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.PropagationPhase
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PropagationPhase None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PropagationPhase TrickleDown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_FTrickleDown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RFTrickleDown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_FTrickleDown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RFTrickleDown
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PropagationPhase AtTarget
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_FAtTarget;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RFAtTarget
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_FAtTarget;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RFAtTarget
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PropagationPhase DefaultActionAtTarget
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_FDefaultActionAtTarget;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RFDefaultActionAtTarget
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_FDefaultActionAtTarget;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RFDefaultActionAtTarget
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PropagationPhase BubbleUp
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_FBubbleUp;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RFBubbleUp
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_FBubbleUp;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RFBubbleUp
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PropagationPhase DefaultAction
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_FDefaultAction;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RFDefaultAction
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_FDefaultAction;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RFDefaultAction
 		{
 			get
 			{

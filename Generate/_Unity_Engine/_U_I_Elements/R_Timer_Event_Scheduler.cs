@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.TimerEventScheduler
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.ScheduledItem] m_ScheduledItems
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem> r_Fm_ScheduledItems;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem> RFm_ScheduledItems
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem> r_Fm_ScheduledItems;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem> RFm_ScheduledItems
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_TransactionMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_TransactionMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_TransactionMode
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_TransactionMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_TransactionMode
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.ScheduledItem] m_ScheduleTransactions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem> r_Fm_ScheduleTransactions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem> RFm_ScheduleTransactions
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem> r_Fm_ScheduleTransactions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem> RFm_ScheduleTransactions
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[UnityEngine.UIElements.ScheduledItem] m_UnscheduleTransactions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem> r_Fm_UnscheduleTransactions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem> RFm_UnscheduleTransactions
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem> r_Fm_UnscheduleTransactions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem> RFm_UnscheduleTransactions
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean disableThrottling
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FdisableThrottling;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFdisableThrottling
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FdisableThrottling;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFdisableThrottling
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_LastUpdatedIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_LastUpdatedIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_LastUpdatedIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_LastUpdatedIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_LastUpdatedIndex
 		{
 			get
 			{
@@ -369,7 +369,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void Schedule(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem @item)
+        public virtual void Schedule(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -380,36 +380,36 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem ScheduleOnce(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem ScheduleOnce(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@timerUpdateEvent, @delayMs};
             var ___result = RMScheduleOnce_Action_d_TimerState_p__Int64.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem ScheduleUntil(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs, System.Int64 @intervalMs, System.Func<System.Boolean> @stopCondition)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem ScheduleUntil(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs, System.Int64 @intervalMs, System.Func<System.Boolean> @stopCondition)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@timerUpdateEvent, @delayMs, @intervalMs, @stopCondition};
             var ___result = RMScheduleUntil_Action_d_TimerState_p__Int64_Int64_Func_d_Boolean_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem ScheduleForDuration(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs, System.Int64 @intervalMs, System.Int64 @durationMs)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem ScheduleForDuration(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs, System.Int64 @intervalMs, System.Int64 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@timerUpdateEvent, @delayMs, @intervalMs, @durationMs};
             var ___result = RMScheduleForDuration_Action_d_TimerState_p__Int64_Int64_Int64.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem(___result);
         }
 
 
@@ -424,7 +424,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Unschedule(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem @item)
+        public virtual void Unschedule(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -435,7 +435,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean PrivateUnSchedule(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem @sItem)
+        public virtual System.Boolean PrivateUnSchedule(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem @sItem)
         {
 
             var ___genericsType = new Type[] {};

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.BitmapAllocator32
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 kPageWidth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FkPageWidth;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFkPageWidth
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FkPageWidth;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFkPageWidth
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_PageHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_PageHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_PageHeight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_PageHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_PageHeight
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.UIR.BitmapAllocator32+Page] m_Pages
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32.RPage> r_Fm_Pages;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32.RPage> RFm_Pages
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32.RPage> r_Fm_Pages;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32.RPage> RFm_Pages
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.UInt32] m_AllocMap
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_Fm_AllocMap;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RUInt32> RFm_AllocMap
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fm_AllocMap;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RUInt32> RFm_AllocMap
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_EntryWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_EntryWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_EntryWidth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_EntryWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_EntryWidth
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_EntryHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_EntryHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_EntryHeight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_EntryHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_EntryHeight
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 entryWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PentryWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPentryWidth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PentryWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPentryWidth
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 entryHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PentryHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPentryHeight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PentryHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPentryHeight
 		{
 			get
 			{
@@ -391,18 +391,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc Allocate(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBaseShaderInfoStorage @storage)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc Allocate(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBaseShaderInfoStorage @storage)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@storage.Value};
             var ___result = RMAllocate_BaseShaderInfoStorage.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
         }
 
 
-        public virtual void Free(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+        public virtual void Free(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};

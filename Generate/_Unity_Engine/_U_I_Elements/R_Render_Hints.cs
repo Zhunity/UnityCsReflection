@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.RenderHints
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.RenderHints None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.RenderHints GroupTransform
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FGroupTransform;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFGroupTransform
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FGroupTransform;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFGroupTransform
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.RenderHints BoneTransform
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FBoneTransform;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFBoneTransform
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FBoneTransform;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFBoneTransform
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.RenderHints ClipWithScissors
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FClipWithScissors;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFClipWithScissors
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FClipWithScissors;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFClipWithScissors
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.RenderHints MaskContainer
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FMaskContainer;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFMaskContainer
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FMaskContainer;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFMaskContainer
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.RenderHints DynamicColor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDynamicColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDynamicColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDynamicColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDynamicColor
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.RenderHints DirtyOffset
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDirtyOffset;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDirtyOffset
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDirtyOffset;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDirtyOffset
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.RenderHints DirtyGroupTransform
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDirtyGroupTransform;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDirtyGroupTransform
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDirtyGroupTransform;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDirtyGroupTransform
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.RenderHints DirtyBoneTransform
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDirtyBoneTransform;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDirtyBoneTransform
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDirtyBoneTransform;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDirtyBoneTransform
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.RenderHints DirtyClipWithScissors
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDirtyClipWithScissors;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDirtyClipWithScissors
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDirtyClipWithScissors;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDirtyClipWithScissors
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.RenderHints DirtyMaskContainer
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDirtyMaskContainer;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDirtyMaskContainer
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDirtyMaskContainer;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDirtyMaskContainer
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.RenderHints DirtyAll
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDirtyAll;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDirtyAll
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDirtyAll;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDirtyAll
 		{
 			get
 			{

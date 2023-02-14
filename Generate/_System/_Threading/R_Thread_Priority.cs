@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.ThreadPriority
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadPriority Lowest
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadPriority r_FLowest;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadPriority RFLowest
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadPriority r_FLowest;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadPriority RFLowest
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadPriority BelowNormal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadPriority r_FBelowNormal;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadPriority RFBelowNormal
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadPriority r_FBelowNormal;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadPriority RFBelowNormal
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadPriority Normal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadPriority r_FNormal;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadPriority RFNormal
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadPriority r_FNormal;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadPriority RFNormal
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadPriority AboveNormal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadPriority r_FAboveNormal;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadPriority RFAboveNormal
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadPriority r_FAboveNormal;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadPriority RFAboveNormal
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ThreadPriority Highest
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadPriority r_FHighest;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RThreadPriority RFHighest
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadPriority r_FHighest;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RThreadPriority RFHighest
 		{
 			get
 			{

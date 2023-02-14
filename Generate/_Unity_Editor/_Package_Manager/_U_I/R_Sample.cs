@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Sample
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String k_CopySamplesFilesTitle
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_CopySamplesFilesTitle;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_CopySamplesFilesTitle
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_CopySamplesFilesTitle;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_CopySamplesFilesTitle
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String <displayName>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__displayName__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__displayName__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__displayName__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__displayName__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String <description>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__description__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__description__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__description__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__description__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String <resolvedPath>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__resolvedPath__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__resolvedPath__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__resolvedPath__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__resolvedPath__1__k__BackingField
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String <importPath>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__importPath__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__importPath__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__importPath__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__importPath__1__k__BackingField
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.Boolean <interactiveImport>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__interactiveImport__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__interactiveImport__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__interactiveImport__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__interactiveImport__1__k__BackingField
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.IOProxy m_IOProxy
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy r_Fm_IOProxy;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy RFm_IOProxy
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy r_Fm_IOProxy;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy RFm_IOProxy
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.AssetDatabaseProxy m_AssetDatabase
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetDatabaseProxy r_Fm_AssetDatabase;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetDatabaseProxy RFm_AssetDatabase
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetDatabaseProxy r_Fm_AssetDatabase;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetDatabaseProxy RFm_AssetDatabase
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_PreviousImports
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> r_Fm_PreviousImports;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> RFm_PreviousImports
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_PreviousImports;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFm_PreviousImports
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String m_Size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Size;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Size
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Size;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Size
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PdisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPdisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PdisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPdisplayName
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String description
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pdescription;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPdescription
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pdescription;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPdescription
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String resolvedPath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PresolvedPath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPresolvedPath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PresolvedPath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPresolvedPath
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String importPath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PimportPath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPimportPath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PimportPath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPimportPath
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// Boolean interactiveImport
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PinteractiveImport;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPinteractiveImport
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PinteractiveImport;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPinteractiveImport
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// Boolean isImported
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisImported;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisImported
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisImported;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisImported
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] previousImports
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> r_PpreviousImports;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> RPpreviousImports
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_PpreviousImports;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RPpreviousImports
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Psize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPsize
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Psize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPsize
 		{
 			get
 			{
@@ -488,7 +488,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	    {
 	    }
 
-        public static System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.UI.Sample> FindByPackage(UnityEditor.PackageManager.PackageInfo @package, SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmCache @upmCache, SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @ioProxy, SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetDatabaseProxy @assetDatabaseProxy)
+        public static System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.UI.Sample> FindByPackage(UnityEditor.PackageManager.PackageInfo @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmCache @upmCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @ioProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetDatabaseProxy @assetDatabaseProxy)
         {
 
             var ___genericsType = new Type[] {};
@@ -510,7 +510,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
         }
 
 
-        public virtual System.Boolean Import(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RSample.RImportOptions @options)
+        public virtual System.Boolean Import(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RSample.RImportOptions @options)
         {
 
             var ___genericsType = new Type[] {};

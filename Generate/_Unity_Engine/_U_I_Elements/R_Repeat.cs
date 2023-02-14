@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.Repeat
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Repeat NoRepeat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat r_FNoRepeat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat RFNoRepeat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat r_FNoRepeat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat RFNoRepeat
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Repeat Space
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat r_FSpace;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat RFSpace
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat r_FSpace;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat RFSpace
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Repeat Round
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat r_FRound;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat RFRound
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat r_FRound;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat RFRound
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Repeat Repeat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat r_FRepeat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat RFRepeat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat r_FRepeat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRepeat RFRepeat
 		{
 			get
 			{

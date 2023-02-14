@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.ShaderPropertyType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyType Color
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType r_FColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType RFColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType r_FColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType RFColor
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyType Vector
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType r_FVector;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType RFVector
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType r_FVector;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType RFVector
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyType Float
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType r_FFloat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType RFFloat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType r_FFloat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType RFFloat
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyType Range
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType r_FRange;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType RFRange
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType r_FRange;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType RFRange
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyType Texture
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType r_FTexture;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType RFTexture
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType r_FTexture;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType RFTexture
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderPropertyType Int
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType r_FInt;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType RFInt
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType r_FInt;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderPropertyType RFInt
 		{
 			get
 			{

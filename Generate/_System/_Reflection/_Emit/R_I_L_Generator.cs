@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.ILGenerator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte[] code
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_Fcode;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFcode
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_Fcode;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFcode
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 code_len
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fcode_len;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcode_len
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fcode_len;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcode_len
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 max_stack
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fmax_stack;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFmax_stack
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fmax_stack;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFmax_stack
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 cur_stack
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fcur_stack;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcur_stack
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fcur_stack;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcur_stack
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.LocalBuilder[] locals
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RLocalBuilder> r_Flocals;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RLocalBuilder> RFlocals
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RLocalBuilder> r_Flocals;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RLocalBuilder> RFlocals
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.ILExceptionInfo[] ex_handlers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RILExceptionInfo> r_Fex_handlers;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RILExceptionInfo> RFex_handlers
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILExceptionInfo> r_Fex_handlers;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILExceptionInfo> RFex_handlers
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 num_token_fixups
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fnum_token_fixups;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFnum_token_fixups
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fnum_token_fixups;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFnum_token_fixups
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.ILTokenInfo[] token_fixups
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RILTokenInfo> r_Ftoken_fixups;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RILTokenInfo> RFtoken_fixups
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILTokenInfo> r_Ftoken_fixups;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILTokenInfo> RFtoken_fixups
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.ILGenerator+LabelData[] labels
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RILGenerator.RLabelData> r_Flabels;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RILGenerator.RLabelData> RFlabels
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILGenerator.RLabelData> r_Flabels;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILGenerator.RLabelData> RFlabels
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 num_labels
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fnum_labels;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFnum_labels
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fnum_labels;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFnum_labels
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.ILGenerator+LabelFixup[] fixups
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RILGenerator.RLabelFixup> r_Ffixups;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RILGenerator.RLabelFixup> RFfixups
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILGenerator.RLabelFixup> r_Ffixups;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILGenerator.RLabelFixup> RFfixups
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 num_fixups
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fnum_fixups;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFnum_fixups
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fnum_fixups;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFnum_fixups
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Module module
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RModule r_Fmodule;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RModule RFmodule
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RModule r_Fmodule;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RModule RFmodule
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 cur_block
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fcur_block;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcur_block
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fcur_block;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcur_block
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Collections.Stack open_blocks
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RStack r_Fopen_blocks;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RStack RFopen_blocks
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RStack r_Fopen_blocks;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RStack RFopen_blocks
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.TokenGenerator token_gen
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RTokenGenerator r_Ftoken_gen;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RTokenGenerator RFtoken_gen
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RTokenGenerator r_Ftoken_gen;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RTokenGenerator RFtoken_gen
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 defaultFixupSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FdefaultFixupSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFdefaultFixupSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FdefaultFixupSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFdefaultFixupSize
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 defaultLabelsSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FdefaultLabelsSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFdefaultLabelsSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FdefaultLabelsSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFdefaultLabelsSize
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 defaultExceptionStackSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FdefaultExceptionStackSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFdefaultExceptionStackSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FdefaultExceptionStackSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFdefaultExceptionStackSize
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Collections.ArrayList sequencePointLists
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList r_FsequencePointLists;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RArrayList RFsequencePointLists
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList r_FsequencePointLists;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RArrayList RFsequencePointLists
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.SequencePointList currentSequence
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RSequencePointList r_FcurrentSequence;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RSequencePointList RFcurrentSequence
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RSequencePointList r_FcurrentSequence;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RSequencePointList RFcurrentSequence
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Boolean HasDebugInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasDebugInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasDebugInfo
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasDebugInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasDebugInfo
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.TokenGenerator TokenGenerator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RTokenGenerator r_PTokenGenerator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RTokenGenerator RPTokenGenerator
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RTokenGenerator r_PTokenGenerator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RTokenGenerator RPTokenGenerator
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 ILOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PILOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPILOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PILOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPILOffset
 		{
 			get
 			{
@@ -2099,7 +2099,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void SetExceptionHandlers(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RILExceptionInfo> @exHandlers)
+        public virtual void SetExceptionHandlers(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILExceptionInfo> @exHandlers)
         {
 
             var ___genericsType = new Type[] {};
@@ -2110,7 +2110,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void SetTokenFixups(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RILTokenInfo> @tokenFixups)
+        public virtual void SetTokenFixups(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RILTokenInfo> @tokenFixups)
         {
 
             var ___genericsType = new Type[] {};

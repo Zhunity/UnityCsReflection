@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.SparselyPopulatedArrayAddInfo`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SparselyPopulatedArrayFragment`1[T] _source
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<SMFrame.Editor.Refleaction.RField> r_F_source;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<SMFrame.Editor.Refleaction.RField> RF_source
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<Hvak.Editor.Refleaction.RField> r_F_source;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<Hvak.Editor.Refleaction.RField> RF_source
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 _index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_index;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_index
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_index;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_index
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SparselyPopulatedArrayFragment`1[T] Source
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<SMFrame.Editor.Refleaction.RProperty> r_PSource;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<SMFrame.Editor.Refleaction.RProperty> RPSource
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<Hvak.Editor.Refleaction.RProperty> r_PSource;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<Hvak.Editor.Refleaction.RProperty> RPSource
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 Index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPIndex
 		{
 			get
 			{

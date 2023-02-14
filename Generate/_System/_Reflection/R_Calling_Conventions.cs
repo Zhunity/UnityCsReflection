@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.CallingConventions
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CallingConventions Standard
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCallingConventions r_FStandard;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCallingConventions RFStandard
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCallingConventions r_FStandard;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCallingConventions RFStandard
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CallingConventions VarArgs
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCallingConventions r_FVarArgs;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCallingConventions RFVarArgs
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCallingConventions r_FVarArgs;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCallingConventions RFVarArgs
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CallingConventions Any
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCallingConventions r_FAny;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCallingConventions RFAny
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCallingConventions r_FAny;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCallingConventions RFAny
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CallingConventions HasThis
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCallingConventions r_FHasThis;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCallingConventions RFHasThis
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCallingConventions r_FHasThis;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCallingConventions RFHasThis
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CallingConventions ExplicitThis
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RCallingConventions r_FExplicitThis;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RCallingConventions RFExplicitThis
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RCallingConventions r_FExplicitThis;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RCallingConventions RFExplicitThis
 		{
 			get
 			{

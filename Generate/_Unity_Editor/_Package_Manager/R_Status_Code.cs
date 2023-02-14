@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.StatusCode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.StatusCode InProgress
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode r_FInProgress;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode RFInProgress
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode r_FInProgress;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode RFInProgress
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.StatusCode Success
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode r_FSuccess;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode RFSuccess
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode r_FSuccess;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode RFSuccess
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.StatusCode Failure
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode r_FFailure;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode RFFailure
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode r_FFailure;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RStatusCode RFFailure
 		{
 			get
 			{

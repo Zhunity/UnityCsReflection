@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 {
 	/// <summary>
 	/// UnityEngine.UIElements.Experimental.StyleValues
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueCollection m_StyleValues
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueCollection r_Fm_StyleValues;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueCollection RFm_StyleValues
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueCollection r_Fm_StyleValues;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueCollection RFm_StyleValues
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single top
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Ptop;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPtop
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Ptop;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPtop
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single left
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pleft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPleft
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pleft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPleft
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single width
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pwidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPwidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pwidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPwidth
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single height
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pheight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPheight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pheight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPheight
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single right
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pright;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPright
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pright;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPright
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single bottom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pbottom;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPbottom
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pbottom;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPbottom
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// UnityEngine.Color color
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Pcolor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RPcolor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_Pcolor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RPcolor
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// UnityEngine.Color backgroundColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_PbackgroundColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RPbackgroundColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_PbackgroundColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RPbackgroundColor
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// UnityEngine.Color unityBackgroundImageTintColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_PunityBackgroundImageTintColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RPunityBackgroundImageTintColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_PunityBackgroundImageTintColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RPunityBackgroundImageTintColor
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// UnityEngine.Color borderColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_PborderColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RPborderColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_PborderColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RPborderColor
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single marginLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PmarginLeft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPmarginLeft
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PmarginLeft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPmarginLeft
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single marginTop
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PmarginTop;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPmarginTop
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PmarginTop;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPmarginTop
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single marginRight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PmarginRight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPmarginRight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PmarginRight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPmarginRight
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single marginBottom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PmarginBottom;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPmarginBottom
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PmarginBottom;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPmarginBottom
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single paddingLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PpaddingLeft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPpaddingLeft
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PpaddingLeft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPpaddingLeft
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single paddingTop
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PpaddingTop;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPpaddingTop
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PpaddingTop;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPpaddingTop
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single paddingRight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PpaddingRight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPpaddingRight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PpaddingRight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPpaddingRight
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single paddingBottom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PpaddingBottom;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPpaddingBottom
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PpaddingBottom;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPpaddingBottom
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderLeftWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PborderLeftWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPborderLeftWidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PborderLeftWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPborderLeftWidth
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderRightWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PborderRightWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPborderRightWidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PborderRightWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPborderRightWidth
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderTopWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PborderTopWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPborderTopWidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PborderTopWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPborderTopWidth
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderBottomWidth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PborderBottomWidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPborderBottomWidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PborderBottomWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPborderBottomWidth
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderTopLeftRadius
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PborderTopLeftRadius;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPborderTopLeftRadius
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PborderTopLeftRadius;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPborderTopLeftRadius
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderTopRightRadius
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PborderTopRightRadius;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPborderTopRightRadius
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PborderTopRightRadius;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPborderTopRightRadius
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderBottomLeftRadius
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PborderBottomLeftRadius;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPborderBottomLeftRadius
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PborderBottomLeftRadius;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPborderBottomLeftRadius
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderBottomRightRadius
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PborderBottomRightRadius;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPborderBottomRightRadius
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PborderBottomRightRadius;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPborderBottomRightRadius
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single opacity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Popacity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPopacity
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Popacity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPopacity
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single flexGrow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PflexGrow;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPflexGrow
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PflexGrow;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPflexGrow
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single flexShrink
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PflexShrink;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPflexShrink
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PflexShrink;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPflexShrink
 		{
 			get
 			{
@@ -692,7 +692,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 	    {
 	    }
 
-        public virtual void SetValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, System.Single @value)
+        public virtual void SetValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -703,7 +703,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual void SetValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.Color @value)
+        public virtual void SetValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -714,14 +714,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueCollection Values()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueCollection Values()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMValues.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueCollection(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueCollection(___result);
         }
 
 

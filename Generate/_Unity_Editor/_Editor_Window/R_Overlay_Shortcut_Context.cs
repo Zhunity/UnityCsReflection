@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {public partial class REditorWindow
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.EditorWindow editorWindow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.REditorWindow r_FeditorWindow;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.REditorWindow RFeditorWindow
+		protected Hvak.Editor.Refleaction.RUnityEditor.REditorWindow r_FeditorWindow;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.REditorWindow RFeditorWindow
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean active
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pactive;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPactive
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pactive;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPactive
 		{
 			get
 			{

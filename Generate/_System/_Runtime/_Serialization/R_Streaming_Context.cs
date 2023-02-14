@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 {
 	/// <summary>
 	/// System.Runtime.Serialization.StreamingContext
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Object m_additionalContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fm_additionalContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFm_additionalContext
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fm_additionalContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFm_additionalContext
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Runtime.Serialization.StreamingContextStates m_state
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContextStates r_Fm_state;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContextStates RFm_state
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContextStates r_Fm_state;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContextStates RFm_state
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Object Context
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPContext
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPContext
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Runtime.Serialization.StreamingContextStates State
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContextStates r_PState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContextStates RPState
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContextStates r_PState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContextStates RPState
 		{
 			get
 			{

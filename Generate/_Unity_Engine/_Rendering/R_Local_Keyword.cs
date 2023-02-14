@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.LocalKeyword
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.LocalKeywordSpace m_SpaceInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeywordSpace r_Fm_SpaceInfo;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeywordSpace RFm_SpaceInfo
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeywordSpace r_Fm_SpaceInfo;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLocalKeywordSpace RFm_SpaceInfo
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.String m_Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Name;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Name
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Name;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Name
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 m_Index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_Index;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_Index
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_Index;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_Index
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean isDynamic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisDynamic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisDynamic
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDynamic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDynamic
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean isOverridable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisOverridable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisOverridable
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisOverridable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisOverridable
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisValid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisValid
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderKeywordType type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType r_Ptype;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType RPtype
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType r_Ptype;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShaderKeywordType RPtype
 		{
 			get
 			{

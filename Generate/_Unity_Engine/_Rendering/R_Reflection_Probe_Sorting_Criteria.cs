@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.ReflectionProbeSortingCriteria
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeSortingCriteria None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeSortingCriteria Importance
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria r_FImportance;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria RFImportance
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria r_FImportance;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria RFImportance
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeSortingCriteria Size
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria r_FSize;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria RFSize
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria r_FSize;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria RFSize
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeSortingCriteria ImportanceThenSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria r_FImportanceThenSize;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria RFImportanceThenSize
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria r_FImportanceThenSize;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeSortingCriteria RFImportanceThenSize
 		{
 			get
 			{

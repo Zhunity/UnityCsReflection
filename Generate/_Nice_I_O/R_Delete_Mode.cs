@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RNiceIO
+namespace Hvak.Editor.Refleaction.RNiceIO
 {
 	/// <summary>
 	/// NiceIO.DeleteMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// NiceIO.DeleteMode Normal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RNiceIO.RDeleteMode r_FNormal;
-		public static SMFrame.Editor.Refleaction.RNiceIO.RDeleteMode RFNormal
+		protected static Hvak.Editor.Refleaction.RNiceIO.RDeleteMode r_FNormal;
+		public static Hvak.Editor.Refleaction.RNiceIO.RDeleteMode RFNormal
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// NiceIO.DeleteMode Soft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RNiceIO.RDeleteMode r_FSoft;
-		public static SMFrame.Editor.Refleaction.RNiceIO.RDeleteMode RFSoft
+		protected static Hvak.Editor.Refleaction.RNiceIO.RDeleteMode r_FSoft;
+		public static Hvak.Editor.Refleaction.RNiceIO.RDeleteMode RFSoft
 		{
 			get
 			{

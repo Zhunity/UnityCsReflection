@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.NumberFormatInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberFormatInfo invariantInfo
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberFormatInfo r_FinvariantInfo;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberFormatInfo RFinvariantInfo
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberFormatInfo r_FinvariantInfo;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberFormatInfo RFinvariantInfo
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32[] numberGroupSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_FnumberGroupSizes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFnumberGroupSizes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_FnumberGroupSizes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFnumberGroupSizes
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32[] currencyGroupSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_FcurrencyGroupSizes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFcurrencyGroupSizes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_FcurrencyGroupSizes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFcurrencyGroupSizes
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32[] percentGroupSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_FpercentGroupSizes;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFpercentGroupSizes
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_FpercentGroupSizes;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFpercentGroupSizes
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String positiveSign
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpositiveSign;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpositiveSign
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpositiveSign;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpositiveSign
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String negativeSign
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FnegativeSign;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFnegativeSign
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FnegativeSign;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFnegativeSign
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String numberDecimalSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FnumberDecimalSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFnumberDecimalSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FnumberDecimalSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFnumberDecimalSeparator
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String numberGroupSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FnumberGroupSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFnumberGroupSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FnumberGroupSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFnumberGroupSeparator
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String currencyGroupSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FcurrencyGroupSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFcurrencyGroupSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FcurrencyGroupSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFcurrencyGroupSeparator
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String currencyDecimalSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FcurrencyDecimalSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFcurrencyDecimalSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FcurrencyDecimalSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFcurrencyDecimalSeparator
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String currencySymbol
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FcurrencySymbol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFcurrencySymbol
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FcurrencySymbol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFcurrencySymbol
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String ansiCurrencySymbol
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FansiCurrencySymbol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFansiCurrencySymbol
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FansiCurrencySymbol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFansiCurrencySymbol
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String nanSymbol
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FnanSymbol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFnanSymbol
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FnanSymbol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFnanSymbol
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String positiveInfinitySymbol
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpositiveInfinitySymbol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpositiveInfinitySymbol
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpositiveInfinitySymbol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpositiveInfinitySymbol
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String negativeInfinitySymbol
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FnegativeInfinitySymbol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFnegativeInfinitySymbol
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FnegativeInfinitySymbol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFnegativeInfinitySymbol
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String percentDecimalSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpercentDecimalSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpercentDecimalSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpercentDecimalSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpercentDecimalSeparator
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String percentGroupSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpercentGroupSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpercentGroupSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpercentGroupSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpercentGroupSeparator
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String percentSymbol
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpercentSymbol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpercentSymbol
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpercentSymbol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpercentSymbol
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String perMilleSymbol
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FperMilleSymbol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFperMilleSymbol
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FperMilleSymbol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFperMilleSymbol
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] nativeDigits
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FnativeDigits;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFnativeDigits
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FnativeDigits;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFnativeDigits
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_dataItem
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_dataItem;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_dataItem
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_dataItem;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_dataItem
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 numberDecimalDigits
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FnumberDecimalDigits;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFnumberDecimalDigits
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FnumberDecimalDigits;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFnumberDecimalDigits
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 currencyDecimalDigits
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcurrencyDecimalDigits;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcurrencyDecimalDigits
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcurrencyDecimalDigits;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcurrencyDecimalDigits
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 currencyPositivePattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcurrencyPositivePattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcurrencyPositivePattern
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcurrencyPositivePattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcurrencyPositivePattern
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 currencyNegativePattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcurrencyNegativePattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcurrencyNegativePattern
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcurrencyNegativePattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcurrencyNegativePattern
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 numberNegativePattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FnumberNegativePattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFnumberNegativePattern
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FnumberNegativePattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFnumberNegativePattern
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 percentPositivePattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FpercentPositivePattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFpercentPositivePattern
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FpercentPositivePattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpercentPositivePattern
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 percentNegativePattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FpercentNegativePattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFpercentNegativePattern
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FpercentNegativePattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpercentNegativePattern
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 percentDecimalDigits
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FpercentDecimalDigits;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFpercentDecimalDigits
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FpercentDecimalDigits;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpercentDecimalDigits
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 digitSubstitution
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FdigitSubstitution;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFdigitSubstitution
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FdigitSubstitution;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFdigitSubstitution
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean isReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisReadOnly
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean m_useUserOverride
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_useUserOverride;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_useUserOverride
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_useUserOverride;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_useUserOverride
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean m_isInvariant
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_isInvariant;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_isInvariant
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_isInvariant;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_isInvariant
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean validForParseAsNumber
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FvalidForParseAsNumber;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFvalidForParseAsNumber
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FvalidForParseAsNumber;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFvalidForParseAsNumber
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean validForParseAsCurrency
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FvalidForParseAsCurrency;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFvalidForParseAsCurrency
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FvalidForParseAsCurrency;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFvalidForParseAsCurrency
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles InvalidNumberStyles
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FInvalidNumberStyles;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFInvalidNumberStyles
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FInvalidNumberStyles;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFInvalidNumberStyles
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberFormatInfo InvariantInfo
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberFormatInfo r_PInvariantInfo;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberFormatInfo RPInvariantInfo
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberFormatInfo r_PInvariantInfo;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberFormatInfo RPInvariantInfo
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 CurrencyDecimalDigits
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCurrencyDecimalDigits;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCurrencyDecimalDigits
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCurrencyDecimalDigits;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCurrencyDecimalDigits
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CurrencyDecimalSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PCurrencyDecimalSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPCurrencyDecimalSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PCurrencyDecimalSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPCurrencyDecimalSeparator
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsReadOnly
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32[] CurrencyGroupSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_PCurrencyGroupSizes;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RPCurrencyGroupSizes
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_PCurrencyGroupSizes;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RInt32> RPCurrencyGroupSizes
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32[] NumberGroupSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_PNumberGroupSizes;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RPNumberGroupSizes
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_PNumberGroupSizes;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RInt32> RPNumberGroupSizes
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32[] PercentGroupSizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_PPercentGroupSizes;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RPPercentGroupSizes
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_PPercentGroupSizes;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RInt32> RPPercentGroupSizes
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CurrencyGroupSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PCurrencyGroupSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPCurrencyGroupSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PCurrencyGroupSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPCurrencyGroupSeparator
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CurrencySymbol
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PCurrencySymbol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPCurrencySymbol
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PCurrencySymbol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPCurrencySymbol
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberFormatInfo CurrentInfo
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberFormatInfo r_PCurrentInfo;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberFormatInfo RPCurrentInfo
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberFormatInfo r_PCurrentInfo;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberFormatInfo RPCurrentInfo
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String NaNSymbol
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PNaNSymbol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPNaNSymbol
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PNaNSymbol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPNaNSymbol
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 CurrencyNegativePattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCurrencyNegativePattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCurrencyNegativePattern
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCurrencyNegativePattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCurrencyNegativePattern
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 NumberNegativePattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PNumberNegativePattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPNumberNegativePattern
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PNumberNegativePattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPNumberNegativePattern
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 PercentPositivePattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PPercentPositivePattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPPercentPositivePattern
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PPercentPositivePattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPPercentPositivePattern
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 PercentNegativePattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PPercentNegativePattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPPercentNegativePattern
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PPercentNegativePattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPPercentNegativePattern
 		{
 			get
 			{
@@ -881,8 +881,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String NegativeInfinitySymbol
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PNegativeInfinitySymbol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPNegativeInfinitySymbol
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PNegativeInfinitySymbol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPNegativeInfinitySymbol
 		{
 			get
 			{
@@ -898,8 +898,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String NegativeSign
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PNegativeSign;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPNegativeSign
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PNegativeSign;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPNegativeSign
 		{
 			get
 			{
@@ -915,8 +915,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 NumberDecimalDigits
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PNumberDecimalDigits;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPNumberDecimalDigits
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PNumberDecimalDigits;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPNumberDecimalDigits
 		{
 			get
 			{
@@ -932,8 +932,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String NumberDecimalSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PNumberDecimalSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPNumberDecimalSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PNumberDecimalSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPNumberDecimalSeparator
 		{
 			get
 			{
@@ -949,8 +949,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String NumberGroupSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PNumberGroupSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPNumberGroupSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PNumberGroupSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPNumberGroupSeparator
 		{
 			get
 			{
@@ -966,8 +966,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 CurrencyPositivePattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCurrencyPositivePattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCurrencyPositivePattern
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCurrencyPositivePattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCurrencyPositivePattern
 		{
 			get
 			{
@@ -983,8 +983,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String PositiveInfinitySymbol
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PPositiveInfinitySymbol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPPositiveInfinitySymbol
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PPositiveInfinitySymbol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPPositiveInfinitySymbol
 		{
 			get
 			{
@@ -1000,8 +1000,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String PositiveSign
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PPositiveSign;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPPositiveSign
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PPositiveSign;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPPositiveSign
 		{
 			get
 			{
@@ -1017,8 +1017,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 PercentDecimalDigits
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PPercentDecimalDigits;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPPercentDecimalDigits
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PPercentDecimalDigits;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPPercentDecimalDigits
 		{
 			get
 			{
@@ -1034,8 +1034,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String PercentDecimalSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PPercentDecimalSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPPercentDecimalSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PPercentDecimalSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPPercentDecimalSeparator
 		{
 			get
 			{
@@ -1051,8 +1051,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String PercentGroupSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PPercentGroupSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPPercentGroupSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PPercentGroupSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPPercentGroupSeparator
 		{
 			get
 			{
@@ -1068,8 +1068,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String PercentSymbol
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PPercentSymbol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPPercentSymbol
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PPercentSymbol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPPercentSymbol
 		{
 			get
 			{
@@ -1085,8 +1085,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String PerMilleSymbol
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PPerMilleSymbol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPPerMilleSymbol
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PPerMilleSymbol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPPerMilleSymbol
 		{
 			get
 			{
@@ -1102,8 +1102,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] NativeDigits
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> r_PNativeDigits;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> RPNativeDigits
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> r_PNativeDigits;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> RPNativeDigits
 		{
 			get
 			{
@@ -1119,8 +1119,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DigitShapes DigitSubstitution
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDigitShapes r_PDigitSubstitution;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDigitShapes RPDigitSubstitution
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RDigitShapes r_PDigitSubstitution;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RDigitShapes RPDigitSubstitution
 		{
 			get
 			{

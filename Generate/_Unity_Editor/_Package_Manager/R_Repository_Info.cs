@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.RepositoryInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_Type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Type;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Type
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Type;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Type
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_Url
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Url;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Url
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Url;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Url
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_Revision
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Revision;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Revision
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Revision;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Revision
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_Path
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Path;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Path
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Path;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Path
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtype
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtype
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String url
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Purl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPurl
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Purl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPurl
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String revision
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Prevision;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPrevision
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Prevision;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPrevision
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String path
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ppath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPpath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ppath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpath
 		{
 			get
 			{

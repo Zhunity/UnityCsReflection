@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RBaseVerticalCollectionView
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BaseVerticalCollectionView <>4__this
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVerticalCollectionView r_F__0____1__4__this;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVerticalCollectionView RF__0____1__4__this
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVerticalCollectionView r_F__0____1__4__this;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVerticalCollectionView RF__0____1__4__this
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean shiftKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FshiftKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFshiftKey
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FshiftKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFshiftKey
 		{
 			get
 			{

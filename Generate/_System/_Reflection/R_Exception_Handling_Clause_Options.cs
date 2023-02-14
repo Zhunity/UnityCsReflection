@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.ExceptionHandlingClauseOptions
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ExceptionHandlingClauseOptions Clause
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_FClause;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RFClause
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_FClause;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RFClause
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ExceptionHandlingClauseOptions Filter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_FFilter;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RFFilter
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_FFilter;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RFFilter
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ExceptionHandlingClauseOptions Finally
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_FFinally;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RFFinally
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_FFinally;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RFFinally
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ExceptionHandlingClauseOptions Fault
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_FFault;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RFFault
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_FFault;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RFFault
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.CameraClearFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CameraClearFlags Skybox
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCameraClearFlags r_FSkybox;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCameraClearFlags RFSkybox
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCameraClearFlags r_FSkybox;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCameraClearFlags RFSkybox
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CameraClearFlags Color
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCameraClearFlags r_FColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCameraClearFlags RFColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCameraClearFlags r_FColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCameraClearFlags RFColor
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CameraClearFlags SolidColor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCameraClearFlags r_FSolidColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCameraClearFlags RFSolidColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCameraClearFlags r_FSolidColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCameraClearFlags RFSolidColor
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CameraClearFlags Depth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCameraClearFlags r_FDepth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCameraClearFlags RFDepth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCameraClearFlags r_FDepth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCameraClearFlags RFDepth
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.CameraClearFlags Nothing
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCameraClearFlags r_FNothing;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCameraClearFlags RFNothing
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCameraClearFlags r_FNothing;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCameraClearFlags RFNothing
 		{
 			get
 			{

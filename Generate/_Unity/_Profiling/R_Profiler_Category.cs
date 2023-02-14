@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
+namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 {
 	/// <summary>
 	/// Unity.Profiling.ProfilerCategory
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.UInt16 m_CategoryId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt16 r_Fm_CategoryId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt16 RFm_CategoryId
+		protected Hvak.Editor.Refleaction.RSystem.RUInt16 r_Fm_CategoryId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt16 RFm_CategoryId
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// UnityEngine.Color32 Color
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor32 r_PColor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor32 RPColor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_PColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor32 RPColor
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Render
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PRender;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPRender
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PRender;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPRender
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Scripts
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PScripts;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPScripts
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PScripts;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPScripts
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Gui
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PGui;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPGui
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PGui;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPGui
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Physics
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PPhysics;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPPhysics
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PPhysics;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPPhysics
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Physics2D
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PPhysics2D;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPPhysics2D
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PPhysics2D;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPPhysics2D
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Animation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PAnimation;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPAnimation
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PAnimation;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPAnimation
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Ai
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PAi;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPAi
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PAi;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPAi
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Audio
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PAudio;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPAudio
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PAudio;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPAudio
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Video
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PVideo;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPVideo
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PVideo;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPVideo
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Particles
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PParticles;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPParticles
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PParticles;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPParticles
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Lighting
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PLighting;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPLighting
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PLighting;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPLighting
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Network
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PNetwork;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPNetwork
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PNetwork;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPNetwork
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Loading
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PLoading;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPLoading
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PLoading;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPLoading
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Vr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PVr;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPVr
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PVr;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPVr
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Input
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PInput;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPInput
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PInput;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPInput
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Memory
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PMemory;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPMemory
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PMemory;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPMemory
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory VirtualTexturing
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PVirtualTexturing;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPVirtualTexturing
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PVirtualTexturing;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPVirtualTexturing
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory FileIO
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PFileIO;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPFileIO
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PFileIO;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPFileIO
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Internal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PInternal;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPInternal
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PInternal;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPInternal
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Any
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PAny;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPAny
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PAny;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPAny
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory GPU
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PGPU;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPGPU
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PGPU;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPGPU
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.TextShadow
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 offset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Foffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFoffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Foffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFoffset
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single blurRadius
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FblurRadius;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFblurRadius
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FblurRadius;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFblurRadius
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color color
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFcolor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFcolor
 		{
 			get
 			{

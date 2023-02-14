@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.ChainBuilderStats
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 elementsAdded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FelementsAdded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFelementsAdded
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FelementsAdded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFelementsAdded
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 elementsRemoved
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FelementsRemoved;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFelementsRemoved
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FelementsRemoved;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFelementsRemoved
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 recursiveClipUpdates
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveClipUpdates;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFrecursiveClipUpdates
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveClipUpdates;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFrecursiveClipUpdates
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 recursiveClipUpdatesExpanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveClipUpdatesExpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFrecursiveClipUpdatesExpanded
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveClipUpdatesExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFrecursiveClipUpdatesExpanded
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 nonRecursiveClipUpdates
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FnonRecursiveClipUpdates;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFnonRecursiveClipUpdates
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FnonRecursiveClipUpdates;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFnonRecursiveClipUpdates
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 recursiveTransformUpdates
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveTransformUpdates;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFrecursiveTransformUpdates
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveTransformUpdates;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFrecursiveTransformUpdates
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 recursiveTransformUpdatesExpanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveTransformUpdatesExpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFrecursiveTransformUpdatesExpanded
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveTransformUpdatesExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFrecursiveTransformUpdatesExpanded
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 recursiveOpacityUpdates
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveOpacityUpdates;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFrecursiveOpacityUpdates
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveOpacityUpdates;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFrecursiveOpacityUpdates
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 recursiveOpacityUpdatesExpanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveOpacityUpdatesExpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFrecursiveOpacityUpdatesExpanded
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveOpacityUpdatesExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFrecursiveOpacityUpdatesExpanded
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 opacityIdUpdates
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FopacityIdUpdates;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFopacityIdUpdates
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FopacityIdUpdates;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFopacityIdUpdates
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 colorUpdates
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FcolorUpdates;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFcolorUpdates
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FcolorUpdates;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFcolorUpdates
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 colorUpdatesExpanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FcolorUpdatesExpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFcolorUpdatesExpanded
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FcolorUpdatesExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFcolorUpdatesExpanded
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 recursiveVisualUpdates
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveVisualUpdates;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFrecursiveVisualUpdates
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveVisualUpdates;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFrecursiveVisualUpdates
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 recursiveVisualUpdatesExpanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveVisualUpdatesExpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFrecursiveVisualUpdatesExpanded
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FrecursiveVisualUpdatesExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFrecursiveVisualUpdatesExpanded
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 nonRecursiveVisualUpdates
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FnonRecursiveVisualUpdates;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFnonRecursiveVisualUpdates
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FnonRecursiveVisualUpdates;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFnonRecursiveVisualUpdates
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 dirtyProcessed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FdirtyProcessed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFdirtyProcessed
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FdirtyProcessed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFdirtyProcessed
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 nudgeTransformed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FnudgeTransformed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFnudgeTransformed
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FnudgeTransformed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFnudgeTransformed
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 boneTransformed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FboneTransformed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFboneTransformed
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FboneTransformed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFboneTransformed
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 skipTransformed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FskipTransformed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFskipTransformed
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FskipTransformed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFskipTransformed
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 visualUpdateTransformed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FvisualUpdateTransformed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFvisualUpdateTransformed
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FvisualUpdateTransformed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFvisualUpdateTransformed
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 updatedMeshAllocations
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FupdatedMeshAllocations;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFupdatedMeshAllocations
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FupdatedMeshAllocations;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFupdatedMeshAllocations
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 newMeshAllocations
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FnewMeshAllocations;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFnewMeshAllocations
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FnewMeshAllocations;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFnewMeshAllocations
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 groupTransformElementsChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FgroupTransformElementsChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFgroupTransformElementsChanged
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FgroupTransformElementsChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFgroupTransformElementsChanged
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 immedateRenderersActive
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FimmedateRenderersActive;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFimmedateRenderersActive
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FimmedateRenderersActive;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFimmedateRenderersActive
 		{
 			get
 			{

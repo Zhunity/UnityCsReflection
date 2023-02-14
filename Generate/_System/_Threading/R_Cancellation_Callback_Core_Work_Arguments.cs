@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.CancellationCallbackCoreWorkArguments
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SparselyPopulatedArrayFragment`1[System.Threading.CancellationCallbackInfo] _currArrayFragment
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo> r_F_currArrayFragment;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo> RF_currArrayFragment
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo> r_F_currArrayFragment;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationCallbackInfo> RF_currArrayFragment
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 _currArrayIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_currArrayIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_currArrayIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_currArrayIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_currArrayIndex
 		{
 			get
 			{

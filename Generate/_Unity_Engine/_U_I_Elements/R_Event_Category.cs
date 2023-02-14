@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.EventCategory
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FDefault;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFDefault
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FDefault;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFDefault
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory Pointer
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FPointer;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFPointer
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FPointer;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFPointer
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory PointerMove
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FPointerMove;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFPointerMove
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FPointerMove;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFPointerMove
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory EnterLeave
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FEnterLeave;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFEnterLeave
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FEnterLeave;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFEnterLeave
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory EnterLeaveWindow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FEnterLeaveWindow;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFEnterLeaveWindow
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FEnterLeaveWindow;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFEnterLeaveWindow
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory Keyboard
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FKeyboard;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFKeyboard
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FKeyboard;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFKeyboard
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory Geometry
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FGeometry;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFGeometry
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FGeometry;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFGeometry
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory Style
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FStyle;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFStyle
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FStyle;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFStyle
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory ChangeValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FChangeValue;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFChangeValue
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FChangeValue;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFChangeValue
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory Bind
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FBind;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFBind
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FBind;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFBind
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory Focus
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FFocus;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFFocus
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FFocus;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFFocus
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory ChangePanel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FChangePanel;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFChangePanel
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FChangePanel;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFChangePanel
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory StyleTransition
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FStyleTransition;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFStyleTransition
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FStyleTransition;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFStyleTransition
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory Navigation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FNavigation;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFNavigation
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FNavigation;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFNavigation
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory Command
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FCommand;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFCommand
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FCommand;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFCommand
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory Tooltip
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FTooltip;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFTooltip
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FTooltip;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFTooltip
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventCategory IMGUI
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FIMGUI;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFIMGUI
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FIMGUI;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFIMGUI
 		{
 			get
 			{

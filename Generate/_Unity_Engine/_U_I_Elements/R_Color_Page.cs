@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.ColorPage
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean isValid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisValid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisValid
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color32 pageAndID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor32 r_FpageAndID;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor32 RFpageAndID
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_FpageAndID;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor32 RFpageAndID
 		{
 			get
 			{
@@ -199,25 +199,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RColorPage Init(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain @renderChain, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RColorPage Init(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain @renderChain, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@renderChain.Value, @alloc.Value};
             var ___result = RMInit_RenderChain_BMPAlloc.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RColorPage(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RColorPage(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeColorPage ToNativeColorPage()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeColorPage ToNativeColorPage()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMToNativeColorPage.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeColorPage(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeColorPage(___result);
         }
 
 

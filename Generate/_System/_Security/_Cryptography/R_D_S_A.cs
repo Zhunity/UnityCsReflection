@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 {
 	/// <summary>
 	/// System.Security.Cryptography.DSA
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Int32 KeySizeValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FKeySizeValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFKeySizeValue
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FKeySizeValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFKeySizeValue
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.KeySizes[] LegalKeySizesValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RKeySizes> r_FLegalKeySizesValue;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RKeySizes> RFLegalKeySizesValue
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RKeySizes> r_FLegalKeySizesValue;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RKeySizes> RFLegalKeySizesValue
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Int32 KeySize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PKeySize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPKeySize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PKeySize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPKeySize
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.KeySizes[] LegalKeySizes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RKeySizes> r_PLegalKeySizes;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RKeySizes> RPLegalKeySizes
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RKeySizes> r_PLegalKeySizes;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RKeySizes> RPLegalKeySizes
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.String SignatureAlgorithm
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PSignatureAlgorithm;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPSignatureAlgorithm
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PSignatureAlgorithm;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPSignatureAlgorithm
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.String KeyExchangeAlgorithm
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PKeyExchangeAlgorithm;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPKeyExchangeAlgorithm
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PKeyExchangeAlgorithm;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPKeyExchangeAlgorithm
 		{
 			get
 			{
@@ -1133,7 +1133,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean TryCreateSignature(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @hash, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        public virtual System.Boolean TryCreateSignature(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @hash, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
         {
 			@bytesWritten = default;
 
@@ -1146,7 +1146,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean TryHashData(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @data, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @destination, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, out System.Int32 @bytesWritten)
+        public virtual System.Boolean TryHashData(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @data, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, out System.Int32 @bytesWritten)
         {
 			@bytesWritten = default;
 
@@ -1159,7 +1159,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean TrySignData(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @data, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @destination, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, out System.Int32 @bytesWritten)
+        public virtual System.Boolean TrySignData(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @data, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, out System.Int32 @bytesWritten)
         {
 			@bytesWritten = default;
 
@@ -1172,7 +1172,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean VerifyData(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @data, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
+        public virtual System.Boolean VerifyData(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @data, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -1183,7 +1183,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean VerifySignature(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @hash, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @signature)
+        public virtual System.Boolean VerifySignature(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @hash, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @signature)
         {
 
             var ___genericsType = new Type[] {};
@@ -1227,7 +1227,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Byte[] ExportEncryptedPkcs8PrivateKey(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @passwordBytes, System.Security.Cryptography.PbeParameters @pbeParameters)
+        public virtual System.Byte[] ExportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @passwordBytes, System.Security.Cryptography.PbeParameters @pbeParameters)
         {
 
             var ___genericsType = new Type[] {};
@@ -1238,7 +1238,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Byte[] ExportEncryptedPkcs8PrivateKey(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @password, System.Security.Cryptography.PbeParameters @pbeParameters)
+        public virtual System.Byte[] ExportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @password, System.Security.Cryptography.PbeParameters @pbeParameters)
         {
 
             var ___genericsType = new Type[] {};
@@ -1271,7 +1271,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual void ImportEncryptedPkcs8PrivateKey(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @passwordBytes, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
+        public virtual void ImportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @passwordBytes, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
         {
 			@bytesRead = default;
 
@@ -1284,7 +1284,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual void ImportEncryptedPkcs8PrivateKey(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @password, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
+        public virtual void ImportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @password, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
         {
 			@bytesRead = default;
 
@@ -1297,7 +1297,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual void ImportPkcs8PrivateKey(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
+        public virtual void ImportPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
         {
 			@bytesRead = default;
 
@@ -1310,7 +1310,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual void ImportSubjectPublicKeyInfo(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
+        public virtual void ImportSubjectPublicKeyInfo(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @source, out System.Int32 @bytesRead)
         {
 			@bytesRead = default;
 
@@ -1323,7 +1323,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean TryExportEncryptedPkcs8PrivateKey(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @passwordBytes, System.Security.Cryptography.PbeParameters @pbeParameters, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        public virtual System.Boolean TryExportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @passwordBytes, System.Security.Cryptography.PbeParameters @pbeParameters, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
         {
 			@bytesWritten = default;
 
@@ -1336,7 +1336,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean TryExportEncryptedPkcs8PrivateKey(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @password, System.Security.Cryptography.PbeParameters @pbeParameters, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        public virtual System.Boolean TryExportEncryptedPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @password, System.Security.Cryptography.PbeParameters @pbeParameters, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
         {
 			@bytesWritten = default;
 
@@ -1349,7 +1349,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean TryExportPkcs8PrivateKey(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        public virtual System.Boolean TryExportPkcs8PrivateKey(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
         {
 			@bytesWritten = default;
 
@@ -1362,7 +1362,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean TryExportSubjectPublicKeyInfo(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        public virtual System.Boolean TryExportSubjectPublicKeyInfo(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @destination, out System.Int32 @bytesWritten)
         {
 			@bytesWritten = default;
 

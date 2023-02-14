@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFid
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFid
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String versionString
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FversionString;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFversionString
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FversionString;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFversionString
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String versionId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FversionId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFversionId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FversionId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFversionId
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String uploadId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FuploadId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFuploadId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FuploadId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFuploadId
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String publishedDate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpublishedDate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpublishedDate
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpublishedDate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpublishedDate
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String supportedVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FsupportedVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFsupportedVersion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FsupportedVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFsupportedVersion
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String packagePath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpackagePath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpackagePath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpackagePath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpackagePath
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String publishNotes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpublishNotes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpublishNotes
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpublishNotes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpublishNotes
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String firstPublishedDate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FfirstPublishedDate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFfirstPublishedDate
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FfirstPublishedDate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFfirstPublishedDate
 		{
 			get
 			{
@@ -318,14 +318,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo ParseLocalInfo(UnityEditor.PackageInfo @localInfo)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo ParseLocalInfo(UnityEditor.PackageInfo @localInfo)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@localInfo};
             var ___result = RMParseLocalInfo_PackageInfo.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo(___result);
         }
 
 

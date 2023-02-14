@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.ComputeBufferMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferMode Immutable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferMode r_FImmutable;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferMode RFImmutable
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferMode r_FImmutable;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferMode RFImmutable
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferMode Dynamic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferMode r_FDynamic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferMode RFDynamic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferMode r_FDynamic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferMode RFDynamic
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferMode Circular
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferMode r_FCircular;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferMode RFCircular
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferMode r_FCircular;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferMode RFCircular
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferMode StreamOut
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferMode r_FStreamOut;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferMode RFStreamOut
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferMode r_FStreamOut;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferMode RFStreamOut
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferMode SubUpdates
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferMode r_FSubUpdates;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferMode RFSubUpdates
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferMode r_FSubUpdates;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferMode RFSubUpdates
 		{
 			get
 			{

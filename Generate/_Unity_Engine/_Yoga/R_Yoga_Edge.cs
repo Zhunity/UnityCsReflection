@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
+namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
 	/// UnityEngine.Yoga.YogaEdge
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaEdge Left
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFLeft
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaEdge Top
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FTop;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFTop
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FTop;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFTop
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaEdge Right
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFRight
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaEdge Bottom
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FBottom;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFBottom
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FBottom;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFBottom
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaEdge Start
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FStart;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFStart
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FStart;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFStart
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaEdge End
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFEnd
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaEdge Horizontal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FHorizontal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFHorizontal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FHorizontal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFHorizontal
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaEdge Vertical
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FVertical;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFVertical
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FVertical;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFVertical
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaEdge All
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FAll;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFAll
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge r_FAll;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaEdge RFAll
 		{
 			get
 			{

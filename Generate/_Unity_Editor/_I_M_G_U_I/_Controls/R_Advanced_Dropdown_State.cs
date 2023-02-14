@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
+namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 {
 	/// <summary>
 	/// UnityEditor.IMGUI.Controls.AdvancedDropdownState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownState+AdvancedDropdownItemState[] states
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState> r_Fstates;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState> RFstates
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState> r_Fstates;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState> RFstates
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownState+AdvancedDropdownItemState m_LastSelectedState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState r_Fm_LastSelectedState;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState RFm_LastSelectedState
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState r_Fm_LastSelectedState;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState RFm_LastSelectedState
 		{
 			get
 			{
@@ -318,14 +318,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState GetStateForItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item)
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState GetStateForItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@item};
             var ___result = RMGetStateForItem_AdvancedDropdownItem.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState(___result);
         }
 
 

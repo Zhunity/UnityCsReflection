@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.CustomAttributeData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ConstructorInfo ctorInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RConstructorInfo r_FctorInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RConstructorInfo RFctorInfo
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RConstructorInfo r_FctorInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RConstructorInfo RFctorInfo
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Collections.Generic.IList`1[System.Reflection.CustomAttributeTypedArgument] ctorArgs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument> r_FctorArgs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument> RFctorArgs
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument> r_FctorArgs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument> RFctorArgs
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Collections.Generic.IList`1[System.Reflection.CustomAttributeNamedArgument] namedArgs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeNamedArgument> r_FnamedArgs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeNamedArgument> RFnamedArgs
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeNamedArgument> r_FnamedArgs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeNamedArgument> RFnamedArgs
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.CustomAttributeData+LazyCAttrData lazyData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeData.RLazyCAttrData r_FlazyData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeData.RLazyCAttrData RFlazyData
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeData.RLazyCAttrData r_FlazyData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeData.RLazyCAttrData RFlazyData
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ConstructorInfo Constructor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RConstructorInfo r_PConstructor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RConstructorInfo RPConstructor
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RConstructorInfo r_PConstructor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RConstructorInfo RPConstructor
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Collections.Generic.IList`1[System.Reflection.CustomAttributeTypedArgument] ConstructorArguments
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument> r_PConstructorArguments;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument> RPConstructorArguments
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument> r_PConstructorArguments;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeTypedArgument> RPConstructorArguments
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Collections.Generic.IList`1[System.Reflection.CustomAttributeNamedArgument] NamedArguments
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeNamedArgument> r_PNamedArguments;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeNamedArgument> RPNamedArguments
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeNamedArgument> r_PNamedArguments;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeNamedArgument> RPNamedArguments
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Type AttributeType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PAttributeType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPAttributeType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PAttributeType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPAttributeType
 		{
 			get
 			{
@@ -451,7 +451,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributesInternal(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @target)
+        public static System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributesInternal(Hvak.Editor.Refleaction.RSystem.RRuntimeType @target)
         {
 
             var ___genericsType = new Type[] {};

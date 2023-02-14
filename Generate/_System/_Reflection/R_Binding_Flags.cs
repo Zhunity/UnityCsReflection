@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.BindingFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FDefault;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFDefault
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FDefault;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFDefault
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags IgnoreCase
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FIgnoreCase;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFIgnoreCase
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FIgnoreCase;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFIgnoreCase
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags DeclaredOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FDeclaredOnly;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFDeclaredOnly
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FDeclaredOnly;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFDeclaredOnly
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags Instance
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FInstance;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFInstance
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FInstance;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFInstance
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags Static
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FStatic;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFStatic
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FStatic;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFStatic
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags Public
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FPublic;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFPublic
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FPublic;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFPublic
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags NonPublic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FNonPublic;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFNonPublic
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FNonPublic;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFNonPublic
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags FlattenHierarchy
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FFlattenHierarchy;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFFlattenHierarchy
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FFlattenHierarchy;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFFlattenHierarchy
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags InvokeMethod
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FInvokeMethod;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFInvokeMethod
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FInvokeMethod;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFInvokeMethod
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags CreateInstance
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FCreateInstance;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFCreateInstance
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FCreateInstance;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFCreateInstance
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags GetField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FGetField;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFGetField
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FGetField;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFGetField
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags SetField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FSetField;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFSetField
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FSetField;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFSetField
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags GetProperty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FGetProperty;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFGetProperty
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FGetProperty;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFGetProperty
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags SetProperty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FSetProperty;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFSetProperty
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FSetProperty;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFSetProperty
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags PutDispProperty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FPutDispProperty;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFPutDispProperty
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FPutDispProperty;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFPutDispProperty
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags PutRefDispProperty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FPutRefDispProperty;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFPutRefDispProperty
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FPutRefDispProperty;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFPutRefDispProperty
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags ExactBinding
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FExactBinding;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFExactBinding
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FExactBinding;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFExactBinding
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags SuppressChangeType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FSuppressChangeType;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFSuppressChangeType
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FSuppressChangeType;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFSuppressChangeType
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags OptionalParamBinding
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FOptionalParamBinding;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFOptionalParamBinding
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FOptionalParamBinding;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFOptionalParamBinding
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags IgnoreReturn
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FIgnoreReturn;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFIgnoreReturn
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FIgnoreReturn;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFIgnoreReturn
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags DoNotWrapExceptions
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FDoNotWrapExceptions;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFDoNotWrapExceptions
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_FDoNotWrapExceptions;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RFDoNotWrapExceptions
 		{
 			get
 			{

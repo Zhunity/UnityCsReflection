@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.Justify
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Justify FlexStart
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RJustify r_FFlexStart;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RJustify RFFlexStart
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RJustify r_FFlexStart;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RJustify RFFlexStart
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Justify Center
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RJustify r_FCenter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RJustify RFCenter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RJustify r_FCenter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RJustify RFCenter
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Justify FlexEnd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RJustify r_FFlexEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RJustify RFFlexEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RJustify r_FFlexEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RJustify RFFlexEnd
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Justify SpaceBetween
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RJustify r_FSpaceBetween;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RJustify RFSpaceBetween
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RJustify r_FSpaceBetween;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RJustify RFSpaceBetween
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Justify SpaceAround
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RJustify r_FSpaceAround;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RJustify RFSpaceAround
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RJustify r_FSpaceAround;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RJustify RFSpaceAround
 		{
 			get
 			{

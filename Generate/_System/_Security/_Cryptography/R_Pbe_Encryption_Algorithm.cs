@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 {
 	/// <summary>
 	/// System.Security.Cryptography.PbeEncryptionAlgorithm
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.PbeEncryptionAlgorithm Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm RFUnknown
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm r_FUnknown;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.PbeEncryptionAlgorithm Aes128Cbc
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm r_FAes128Cbc;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm RFAes128Cbc
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm r_FAes128Cbc;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm RFAes128Cbc
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.PbeEncryptionAlgorithm Aes192Cbc
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm r_FAes192Cbc;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm RFAes192Cbc
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm r_FAes192Cbc;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm RFAes192Cbc
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.PbeEncryptionAlgorithm Aes256Cbc
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm r_FAes256Cbc;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm RFAes256Cbc
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm r_FAes256Cbc;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm RFAes256Cbc
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.PbeEncryptionAlgorithm TripleDes3KeyPkcs12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm r_FTripleDes3KeyPkcs12;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm RFTripleDes3KeyPkcs12
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm r_FTripleDes3KeyPkcs12;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RPbeEncryptionAlgorithm RFTripleDes3KeyPkcs12
 		{
 			get
 			{

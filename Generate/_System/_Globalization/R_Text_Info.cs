@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.TextInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_listSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_listSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_listSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_listSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_listSeparator
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean m_isReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_isReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_isReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_isReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_isReadOnly
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_cultureName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_cultureName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_cultureName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_cultureName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_cultureName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CultureData m_cultureData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureData r_Fm_cultureData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureData RFm_cultureData
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData r_Fm_cultureData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData RFm_cultureData
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_textInfoName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_textInfoName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_textInfoName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_textInfoName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_textInfoName
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Nullable`1[System.Boolean] m_IsAsciiCasingSameAsInvariant
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_Fm_IsAsciiCasingSameAsInvariant;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFm_IsAsciiCasingSameAsInvariant
+		protected Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RBoolean> r_Fm_IsAsciiCasingSameAsInvariant;
+		public virtual Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RBoolean> RFm_IsAsciiCasingSameAsInvariant
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.TextInfo s_Invariant
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RTextInfo r_Fs_Invariant;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RTextInfo RFs_Invariant
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RTextInfo r_Fs_Invariant;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RTextInfo RFs_Invariant
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String customCultureName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FcustomCultureName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFcustomCultureName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FcustomCultureName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFcustomCultureName
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_nDataItem
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_nDataItem;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_nDataItem
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_nDataItem;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_nDataItem
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean m_useUserOverride
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_useUserOverride;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_useUserOverride
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_useUserOverride;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_useUserOverride
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_win32LangID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_win32LangID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_win32LangID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_win32LangID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_win32LangID
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 wordSeparatorMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FwordSeparatorMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFwordSeparatorMask
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FwordSeparatorMask;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFwordSeparatorMask
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.TextInfo Invariant
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RTextInfo r_PInvariant;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RTextInfo RPInvariant
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RTextInfo r_PInvariant;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RTextInfo RPInvariant
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 ANSICodePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PANSICodePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPANSICodePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PANSICodePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPANSICodePage
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 OEMCodePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_POEMCodePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPOEMCodePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_POEMCodePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPOEMCodePage
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 MacCodePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMacCodePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMacCodePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMacCodePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMacCodePage
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 EBCDICCodePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PEBCDICCodePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPEBCDICCodePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PEBCDICCodePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPEBCDICCodePage
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 LCID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLCID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLCID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLCID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLCID
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CultureName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PCultureName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPCultureName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PCultureName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPCultureName
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsReadOnly
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String ListSeparator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PListSeparator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPListSeparator
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PListSeparator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPListSeparator
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsAsciiCasingSameAsInvariant
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsAsciiCasingSameAsInvariant;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsAsciiCasingSameAsInvariant
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsAsciiCasingSameAsInvariant;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsAsciiCasingSameAsInvariant
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsRightToLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsRightToLeft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsRightToLeft
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsRightToLeft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsRightToLeft
 		{
 			get
 			{
@@ -1562,7 +1562,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void ToLowerAsciiInvariant(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @source, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RChar> @destination)
+        public virtual void ToLowerAsciiInvariant(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination)
         {
 
             var ___genericsType = new Type[] {};
@@ -1573,7 +1573,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void ToUpperAsciiInvariant(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @source, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RChar> @destination)
+        public virtual void ToUpperAsciiInvariant(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination)
         {
 
             var ___genericsType = new Type[] {};
@@ -1584,7 +1584,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void ChangeCase(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @source, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RChar> @destination, System.Boolean @toUpper)
+        public virtual void ChangeCase(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @source, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, System.Boolean @toUpper)
         {
 
             var ___genericsType = new Type[] {};

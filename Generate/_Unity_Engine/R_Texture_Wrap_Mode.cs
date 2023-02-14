@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.TextureWrapMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureWrapMode Repeat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_FRepeat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode RFRepeat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_FRepeat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode RFRepeat
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureWrapMode Clamp
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_FClamp;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode RFClamp
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_FClamp;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode RFClamp
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureWrapMode Mirror
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_FMirror;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode RFMirror
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_FMirror;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode RFMirror
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextureWrapMode MirrorOnce
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_FMirrorOnce;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextureWrapMode RFMirrorOnce
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_FMirrorOnce;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode RFMirrorOnce
 		{
 			get
 			{

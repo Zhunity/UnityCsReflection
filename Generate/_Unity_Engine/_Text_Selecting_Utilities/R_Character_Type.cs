@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RTextSelectingUtilities
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectingUtilities+CharacterType LetterLike
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType r_FLetterLike;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType RFLetterLike
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType r_FLetterLike;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType RFLetterLike
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectingUtilities+CharacterType Symbol
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType r_FSymbol;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType RFSymbol
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType r_FSymbol;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType RFSymbol
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectingUtilities+CharacterType Symbol2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType r_FSymbol2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType RFSymbol2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType r_FSymbol2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType RFSymbol2
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectingUtilities+CharacterType WhiteSpace
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType r_FWhiteSpace;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType RFWhiteSpace
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType r_FWhiteSpace;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType RFWhiteSpace
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectingUtilities+CharacterType NewLine
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType r_FNewLine;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType RFNewLine
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType r_FNewLine;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectingUtilities.RCharacterType RFNewLine
 		{
 			get
 			{

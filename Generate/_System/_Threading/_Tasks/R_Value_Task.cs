@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
+namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
 	/// System.Threading.Tasks.ValueTask
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.Task s_canceledTask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask r_Fs_canceledTask;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask RFs_canceledTask
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask r_Fs_canceledTask;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask RFs_canceledTask
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Object _obj
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F_obj;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF_obj
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F_obj;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF_obj
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int16 _token
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt16 r_F_token;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt16 RF_token
+		protected Hvak.Editor.Refleaction.RSystem.RInt16 r_F_token;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt16 RF_token
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Boolean _continueOnCapturedContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_continueOnCapturedContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_continueOnCapturedContext
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_continueOnCapturedContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_continueOnCapturedContext
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.Task CompletedTask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask r_PCompletedTask;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask RPCompletedTask
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask r_PCompletedTask;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask RPCompletedTask
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsCompletedSuccessfully
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCompletedSuccessfully;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCompletedSuccessfully
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCompletedSuccessfully;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCompletedSuccessfully
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsFaulted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsFaulted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsFaulted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsFaulted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsFaulted
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsCanceled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCanceled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCanceled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCanceled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCanceled
 		{
 			get
 			{

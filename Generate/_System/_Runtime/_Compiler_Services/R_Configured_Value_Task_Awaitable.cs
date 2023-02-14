@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {
 	/// <summary>
 	/// System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Threading.Tasks.ValueTask _value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RValueTask r_F_value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RValueTask RF_value
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RValueTask r_F_value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RValueTask RF_value
 		{
 			get
 			{
@@ -165,14 +165,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConfiguredValueTaskAwaitable.RConfiguredValueTaskAwaiter GetAwaiter()
+        public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConfiguredValueTaskAwaitable.RConfiguredValueTaskAwaiter GetAwaiter()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetAwaiter.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConfiguredValueTaskAwaitable.RConfiguredValueTaskAwaiter(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConfiguredValueTaskAwaitable.RConfiguredValueTaskAwaiter(___result);
         }
 
 

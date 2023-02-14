@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText
+namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
 	/// System.Text.NormalizationForm
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.NormalizationForm FormC
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RNormalizationForm r_FFormC;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RNormalizationForm RFFormC
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RNormalizationForm r_FFormC;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RNormalizationForm RFFormC
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.NormalizationForm FormD
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RNormalizationForm r_FFormD;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RNormalizationForm RFFormD
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RNormalizationForm r_FFormD;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RNormalizationForm RFFormD
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.NormalizationForm FormKC
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RNormalizationForm r_FFormKC;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RNormalizationForm RFFormKC
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RNormalizationForm r_FFormKC;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RNormalizationForm RFFormKC
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.NormalizationForm FormKD
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RText.RNormalizationForm r_FFormKD;
-		public static SMFrame.Editor.Refleaction.RSystem.RText.RNormalizationForm RFFormKD
+		protected static Hvak.Editor.Refleaction.RSystem.RText.RNormalizationForm r_FFormKD;
+		public static Hvak.Editor.Refleaction.RSystem.RText.RNormalizationForm RFFormKD
 		{
 			get
 			{

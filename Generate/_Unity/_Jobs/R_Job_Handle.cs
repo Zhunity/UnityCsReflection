@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RJobs
+namespace Hvak.Editor.Refleaction.RUnity.RJobs
 {
 	/// <summary>
 	/// Unity.Jobs.JobHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 		/// <summary>
 		/// System.UInt64 jobGroup
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_FjobGroup;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFjobGroup
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_FjobGroup;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFjobGroup
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 		/// <summary>
 		/// System.Int32 version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fversion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFversion
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fversion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFversion
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 		/// <summary>
 		/// System.Int32 debugVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FdebugVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFdebugVersion
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FdebugVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFdebugVersion
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 		/// <summary>
 		/// System.IntPtr debugInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_FdebugInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFdebugInfo
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_FdebugInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFdebugInfo
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
 		{
 			get
 			{
@@ -645,7 +645,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public static void CompleteAll(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RUnity.RJobs.RJobHandle> @jobs)
+        public static void CompleteAll(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnity.RJobs.RJobHandle> @jobs)
         {
 
             var ___genericsType = new Type[] {};
@@ -724,7 +724,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public static Unity.Jobs.JobHandle CombineDependencies(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RUnity.RJobs.RJobHandle> @jobs)
+        public static Unity.Jobs.JobHandle CombineDependencies(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnity.RJobs.RJobHandle> @jobs)
         {
 
             var ___genericsType = new Type[] {};
@@ -735,7 +735,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public static Unity.Jobs.JobHandle CombineDependencies(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnity.RJobs.RJobHandle> @jobs)
+        public static Unity.Jobs.JobHandle CombineDependencies(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnity.RJobs.RJobHandle> @jobs)
         {
 
             var ___genericsType = new Type[] {};

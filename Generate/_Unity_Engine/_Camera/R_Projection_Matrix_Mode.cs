@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RCamera
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+ProjectionMatrixMode Explicit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RProjectionMatrixMode r_FExplicit;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RProjectionMatrixMode RFExplicit
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RProjectionMatrixMode r_FExplicit;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RProjectionMatrixMode RFExplicit
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+ProjectionMatrixMode Implicit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RProjectionMatrixMode r_FImplicit;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RProjectionMatrixMode RFImplicit
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RProjectionMatrixMode r_FImplicit;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RProjectionMatrixMode RFImplicit
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+ProjectionMatrixMode PhysicalPropertiesBased
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RProjectionMatrixMode r_FPhysicalPropertiesBased;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RProjectionMatrixMode RFPhysicalPropertiesBased
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RProjectionMatrixMode r_FPhysicalPropertiesBased;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RProjectionMatrixMode RFPhysicalPropertiesBased
 		{
 			get
 			{

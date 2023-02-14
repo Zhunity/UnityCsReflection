@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections
+namespace Hvak.Editor.Refleaction.RSystem.RCollections
 {
 	/// <summary>
 	/// System.Collections.IDictionaryEnumerator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Object Key
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPKey
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPKey
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Object Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPValue
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Collections.DictionaryEntry Entry
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RDictionaryEntry r_PEntry;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RDictionaryEntry RPEntry
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RDictionaryEntry r_PEntry;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RDictionaryEntry RPEntry
 		{
 			get
 			{

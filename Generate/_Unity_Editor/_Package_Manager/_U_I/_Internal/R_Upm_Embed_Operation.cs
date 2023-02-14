@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.UpmEmbedOperation
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.Requests.EmbedRequest m_Request
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.REmbedRequest r_Fm_Request;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.REmbedRequest RFm_Request
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.REmbedRequest r_Fm_Request;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.REmbedRequest RFm_Request
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean m_IsCompleted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_IsCompleted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_IsCompleted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsCompleted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsCompleted
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_PackageName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_PackageName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_PackageName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PackageName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PackageName
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_PackageId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_PackageId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_PackageId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PackageId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PackageId
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_PackageUniqueId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_PackageUniqueId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_PackageUniqueId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PackageUniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PackageUniqueId
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int64 m_Timestamp
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fm_Timestamp;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFm_Timestamp
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fm_Timestamp;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFm_Timestamp
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int64 m_LastSuccessTimestamp
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fm_LastSuccessTimestamp;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFm_LastSuccessTimestamp
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fm_LastSuccessTimestamp;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFm_LastSuccessTimestamp
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean m_OfflineMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_OfflineMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_OfflineMode
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_OfflineMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_OfflineMode
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean m_LogErrorInConsole
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_LogErrorInConsole;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_LogErrorInConsole
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_LogErrorInConsole;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_LogErrorInConsole
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.ClientProxy m_ClientProxy
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RClientProxy r_Fm_ClientProxy;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RClientProxy RFm_ClientProxy
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RClientProxy r_Fm_ClientProxy;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RClientProxy RFm_ClientProxy
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.ApplicationProxy m_ApplicationProxy
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy r_Fm_ApplicationProxy;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy RFm_ApplicationProxy
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy r_Fm_ApplicationProxy;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy RFm_ApplicationProxy
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.RefreshOptions refreshOptions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRefreshOptions r_PrefreshOptions;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRefreshOptions RPrefreshOptions
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRefreshOptions r_PrefreshOptions;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRefreshOptions RPrefreshOptions
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String operationErrorMessage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PoperationErrorMessage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPoperationErrorMessage
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PoperationErrorMessage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPoperationErrorMessage
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isInProgress
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisInProgress;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisInProgress
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisInProgress;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisInProgress
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String packageName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PpackageName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPpackageName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PpackageName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpackageName
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String packageId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PpackageId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPpackageId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PpackageId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpackageId
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String packageUniqueId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PpackageUniqueId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPpackageUniqueId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PpackageUniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpackageUniqueId
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String versionUniqueId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PversionUniqueId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPversionUniqueId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PversionUniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPversionUniqueId
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Int64 timestamp
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Ptimestamp;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPtimestamp
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Ptimestamp;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPtimestamp
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Int64 lastSuccessTimestamp
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PlastSuccessTimestamp;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPlastSuccessTimestamp
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PlastSuccessTimestamp;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPlastSuccessTimestamp
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isOfflineMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisOfflineMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisOfflineMode
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisOfflineMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisOfflineMode
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean logErrorInConsole
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PlogErrorInConsole;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPlogErrorInConsole
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PlogErrorInConsole;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPlogErrorInConsole
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isInPause
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisInPause;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisInPause
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisInPause;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisInPause
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isProgressVisible
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisProgressVisible;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisProgressVisible
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisProgressVisible;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisProgressVisible
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isProgressTrackable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisProgressTrackable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisProgressTrackable
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisProgressTrackable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisProgressTrackable
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Single progressPercentage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PprogressPercentage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPprogressPercentage
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PprogressPercentage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPprogressPercentage
 		{
 			get
 			{
@@ -843,7 +843,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void ResolveDependencies(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RClientProxy @clientProxy, SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @applicationProxy)
+        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RClientProxy @clientProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @applicationProxy)
         {
 
             var ___genericsType = new Type[] {};

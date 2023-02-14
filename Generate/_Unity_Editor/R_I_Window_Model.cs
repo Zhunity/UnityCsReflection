@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.IWindowModel
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Vector2 size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Psize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPsize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Psize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPsize
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.EventInterests eventInterests
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.REventInterests r_PeventInterests;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.REventInterests RPeventInterests
+		protected Hvak.Editor.Refleaction.RUnityEngine.REventInterests r_PeventInterests;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.REventInterests RPeventInterests
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Action onGUIHandler
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_PonGUIHandler;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RPonGUIHandler
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_PonGUIHandler;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RPonGUIHandler
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.IWindowBackend windowBackend
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIWindowBackend r_PwindowBackend;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIWindowBackend RPwindowBackend
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIWindowBackend r_PwindowBackend;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIWindowBackend RPwindowBackend
 		{
 			get
 			{

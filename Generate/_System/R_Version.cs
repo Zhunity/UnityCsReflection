@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.Version
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _Major
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_Major;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_Major
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_Major;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_Major
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _Minor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_Minor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_Minor
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_Minor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_Minor
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _Build
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_Build;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_Build
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_Build;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_Build
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _Revision
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_Revision;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_Revision
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_Revision;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_Revision
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Major
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMajor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMajor
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMajor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMajor
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Minor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMinor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMinor
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMinor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMinor
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Build
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PBuild;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPBuild
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PBuild;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPBuild
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Revision
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PRevision;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPRevision
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PRevision;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPRevision
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int16 MajorRevision
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt16 r_PMajorRevision;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt16 RPMajorRevision
+		protected Hvak.Editor.Refleaction.RSystem.RInt16 r_PMajorRevision;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt16 RPMajorRevision
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int16 MinorRevision
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt16 r_PMinorRevision;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt16 RPMinorRevision
+		protected Hvak.Editor.Refleaction.RSystem.RInt16 r_PMinorRevision;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt16 RPMinorRevision
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 DefaultFormatFieldCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PDefaultFormatFieldCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPDefaultFormatFieldCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PDefaultFormatFieldCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPDefaultFormatFieldCount
 		{
 			get
 			{
@@ -763,7 +763,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean TryFormat(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten)
+        public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten)
         {
 			@charsWritten = default;
 
@@ -776,7 +776,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean TryFormat(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RChar> @destination, System.Int32 @fieldCount, out System.Int32 @charsWritten)
+        public virtual System.Boolean TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, System.Int32 @fieldCount, out System.Int32 @charsWritten)
         {
 			@charsWritten = default;
 
@@ -789,7 +789,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean System__2__ISpanFormattable__2__TryFormat(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider)
+        public virtual System.Boolean System__2__ISpanFormattable__2__TryFormat(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, out System.Int32 @charsWritten, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @format, System.IFormatProvider @provider)
         {
 			@charsWritten = default;
 
@@ -824,7 +824,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Version Parse(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @input)
+        public static System.Version Parse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input)
         {
 
             var ___genericsType = new Type[] {};
@@ -848,7 +848,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean TryParse(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @input, out System.Version @result)
+        public static System.Boolean TryParse(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, out System.Version @result)
         {
 			@result = default;
 
@@ -861,7 +861,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Version ParseVersion(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @input, System.Boolean @throwOnFailure)
+        public static System.Version ParseVersion(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @input, System.Boolean @throwOnFailure)
         {
 
             var ___genericsType = new Type[] {};
@@ -872,7 +872,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean TryParseComponent(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @component, System.String @componentName, System.Boolean @throwOnFailure, out System.Int32 @parsedComponent)
+        public static System.Boolean TryParseComponent(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @component, System.String @componentName, System.Boolean @throwOnFailure, out System.Int32 @parsedComponent)
         {
 			@parsedComponent = default;
 

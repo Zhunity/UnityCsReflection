@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.EventDebuggerDefaultActionTrace
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PropagationPhase <phase>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_F__0__phase__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RF__0__phase__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_F__0__phase__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RF__0__phase__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.PropagationPhase phase
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_Pphase;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RPphase
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase r_Pphase;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPhase RPphase
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String targetName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PtargetName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtargetName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PtargetName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtargetName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventDebuggerEventRecord eventBase
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord r_PeventBase;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord RPeventBase
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord r_PeventBase;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventDebuggerEventRecord RPeventBase
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IEventHandler focusedElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler r_PfocusedElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler RPfocusedElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler r_PfocusedElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler RPfocusedElement
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IEventHandler mouseCapture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler r_PmouseCapture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler RPmouseCapture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler r_PmouseCapture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIEventHandler RPmouseCapture
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 duration
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Pduration;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPduration
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Pduration;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPduration
 		{
 			get
 			{

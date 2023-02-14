@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.ILTokenInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.MemberInfo member
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberInfo r_Fmember;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberInfo RFmember
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RMemberInfo r_Fmember;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RMemberInfo RFmember
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 code_pos
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fcode_pos;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcode_pos
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fcode_pos;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcode_pos
 		{
 			get
 			{

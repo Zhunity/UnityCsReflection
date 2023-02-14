@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class REventDispatcher
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase m_Event
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase r_Fm_Event;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase RFm_Event
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase r_Fm_Event;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase RFm_Event
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IPanel m_Panel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel r_Fm_Panel;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel RFm_Panel
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel r_Fm_Panel;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIPanel RFm_Panel
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Diagnostics.StackTrace m_StackTrace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace r_Fm_StackTrace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace RFm_StackTrace
+		protected Hvak.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace r_Fm_StackTrace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace RFm_StackTrace
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String stackTrace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PstackTrace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPstackTrace
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PstackTrace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPstackTrace
 		{
 			get
 			{

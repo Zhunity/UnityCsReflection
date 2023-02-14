@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.Alloc
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 start
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fstart;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFstart
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fstart;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFstart
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fsize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFsize
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fsize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFsize
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Object handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fhandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFhandle
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fhandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFhandle
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean shortLived
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FshortLived;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFshortLived
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FshortLived;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFshortLived
 		{
 			get
 			{

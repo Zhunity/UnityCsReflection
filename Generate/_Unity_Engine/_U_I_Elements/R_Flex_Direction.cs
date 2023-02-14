@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.FlexDirection
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FlexDirection Column
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection r_FColumn;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection RFColumn
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection r_FColumn;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection RFColumn
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FlexDirection ColumnReverse
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection r_FColumnReverse;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection RFColumnReverse
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection r_FColumnReverse;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection RFColumnReverse
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FlexDirection Row
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection r_FRow;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection RFRow
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection r_FRow;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection RFRow
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FlexDirection RowReverse
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection r_FRowReverse;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection RFRowReverse
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection r_FRowReverse;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFlexDirection RFRowReverse
 		{
 			get
 			{

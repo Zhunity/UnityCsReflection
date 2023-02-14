@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RIO
+namespace Hvak.Editor.Refleaction.RSystem.RIO
 {
 	/// <summary>
 	/// System.IO.SearchOption
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.SearchOption TopDirectoryOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RSearchOption r_FTopDirectoryOnly;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RSearchOption RFTopDirectoryOnly
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RSearchOption r_FTopDirectoryOnly;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RSearchOption RFTopDirectoryOnly
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.SearchOption AllDirectories
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RSearchOption r_FAllDirectories;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RSearchOption RFAllDirectories
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RSearchOption r_FAllDirectories;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RSearchOption RFAllDirectories
 		{
 			get
 			{

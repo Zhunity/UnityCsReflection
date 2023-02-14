@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
 {
 	/// <summary>
 	/// System.Security.Permissions.PermissionState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 		/// <summary>
 		/// System.Security.Permissions.PermissionState None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RPermissionState r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RPermissionState RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RPermissionState r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RPermissionState RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 		/// <summary>
 		/// System.Security.Permissions.PermissionState Unrestricted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RPermissionState r_FUnrestricted;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RPermissionState RFUnrestricted
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RPermissionState r_FUnrestricted;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RPermissionState RFUnrestricted
 		{
 			get
 			{

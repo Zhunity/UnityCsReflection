@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.SequencePointList
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Diagnostics.SymbolStore.ISymbolDocumentWriter doc
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RISymbolDocumentWriter r_Fdoc;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RISymbolDocumentWriter RFdoc
+		protected Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RISymbolDocumentWriter r_Fdoc;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RISymbolDocumentWriter RFdoc
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.SequencePoint[] points
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RSequencePoint> r_Fpoints;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RSequencePoint> RFpoints
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RSequencePoint> r_Fpoints;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RSequencePoint> RFpoints
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fcount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fcount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcount
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 arrayGrow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FarrayGrow;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFarrayGrow
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FarrayGrow;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFarrayGrow
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Diagnostics.SymbolStore.ISymbolDocumentWriter Document
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RISymbolDocumentWriter r_PDocument;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RISymbolDocumentWriter RPDocument
+		protected Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RISymbolDocumentWriter r_PDocument;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore.RISymbolDocumentWriter RPDocument
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 StartLine
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PStartLine;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPStartLine
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PStartLine;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPStartLine
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 EndLine
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PEndLine;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPEndLine
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PEndLine;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPEndLine
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 StartColumn
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PStartColumn;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPStartColumn
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PStartColumn;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPStartColumn
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 EndColumn
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PEndColumn;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPEndColumn
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PEndColumn;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPEndColumn
 		{
 			get
 			{

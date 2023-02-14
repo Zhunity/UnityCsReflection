@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Experimental.Rendering.TextureCreationFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.TextureCreationFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.TextureCreationFlags MipChain
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FMipChain;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFMipChain
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FMipChain;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFMipChain
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.TextureCreationFlags DontInitializePixels
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FDontInitializePixels;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFDontInitializePixels
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FDontInitializePixels;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFDontInitializePixels
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.TextureCreationFlags Crunch
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FCrunch;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFCrunch
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FCrunch;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFCrunch
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.TextureCreationFlags DontUploadUponCreate
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FDontUploadUponCreate;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFDontUploadUponCreate
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FDontUploadUponCreate;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFDontUploadUponCreate
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.TextureCreationFlags IgnoreMipmapLimit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FIgnoreMipmapLimit;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFIgnoreMipmapLimit
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FIgnoreMipmapLimit;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFIgnoreMipmapLimit
 		{
 			get
 			{

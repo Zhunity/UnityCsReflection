@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.DisableBatchingType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.DisableBatchingType False
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RDisableBatchingType r_FFalse;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RDisableBatchingType RFFalse
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RDisableBatchingType r_FFalse;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RDisableBatchingType RFFalse
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.DisableBatchingType True
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RDisableBatchingType r_FTrue;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RDisableBatchingType RFTrue
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RDisableBatchingType r_FTrue;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RDisableBatchingType RFTrue
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.DisableBatchingType WhenLODFading
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RDisableBatchingType r_FWhenLODFading;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RDisableBatchingType RFWhenLODFading
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RDisableBatchingType r_FWhenLODFading;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RDisableBatchingType RFWhenLODFading
 		{
 			get
 			{

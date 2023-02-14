@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.TextAlignment
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment TopLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FTopLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFTopLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FTopLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFTopLeft
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment TopCenter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FTopCenter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFTopCenter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FTopCenter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFTopCenter
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment TopRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FTopRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFTopRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FTopRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFTopRight
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment TopJustified
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FTopJustified;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFTopJustified
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FTopJustified;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFTopJustified
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment TopFlush
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FTopFlush;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFTopFlush
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FTopFlush;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFTopFlush
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment TopGeoAligned
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FTopGeoAligned;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFTopGeoAligned
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FTopGeoAligned;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFTopGeoAligned
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment MiddleLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMiddleLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMiddleLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMiddleLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMiddleLeft
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment MiddleCenter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMiddleCenter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMiddleCenter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMiddleCenter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMiddleCenter
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment MiddleRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMiddleRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMiddleRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMiddleRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMiddleRight
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment MiddleJustified
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMiddleJustified;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMiddleJustified
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMiddleJustified;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMiddleJustified
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment MiddleFlush
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMiddleFlush;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMiddleFlush
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMiddleFlush;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMiddleFlush
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment MiddleGeoAligned
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMiddleGeoAligned;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMiddleGeoAligned
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMiddleGeoAligned;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMiddleGeoAligned
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment BottomLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBottomLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBottomLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBottomLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBottomLeft
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment BottomCenter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBottomCenter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBottomCenter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBottomCenter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBottomCenter
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment BottomRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBottomRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBottomRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBottomRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBottomRight
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment BottomJustified
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBottomJustified;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBottomJustified
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBottomJustified;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBottomJustified
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment BottomFlush
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBottomFlush;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBottomFlush
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBottomFlush;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBottomFlush
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment BottomGeoAligned
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBottomGeoAligned;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBottomGeoAligned
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBottomGeoAligned;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBottomGeoAligned
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment BaselineLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBaselineLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBaselineLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBaselineLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBaselineLeft
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment BaselineCenter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBaselineCenter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBaselineCenter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBaselineCenter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBaselineCenter
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment BaselineRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBaselineRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBaselineRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBaselineRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBaselineRight
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment BaselineJustified
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBaselineJustified;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBaselineJustified
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBaselineJustified;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBaselineJustified
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment BaselineFlush
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBaselineFlush;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBaselineFlush
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBaselineFlush;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBaselineFlush
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment BaselineGeoAligned
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBaselineGeoAligned;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBaselineGeoAligned
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FBaselineGeoAligned;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFBaselineGeoAligned
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment MidlineLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMidlineLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMidlineLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMidlineLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMidlineLeft
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment MidlineCenter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMidlineCenter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMidlineCenter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMidlineCenter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMidlineCenter
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment MidlineRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMidlineRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMidlineRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMidlineRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMidlineRight
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment MidlineJustified
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMidlineJustified;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMidlineJustified
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMidlineJustified;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMidlineJustified
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment MidlineFlush
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMidlineFlush;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMidlineFlush
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMidlineFlush;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMidlineFlush
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment MidlineGeoAligned
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMidlineGeoAligned;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMidlineGeoAligned
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FMidlineGeoAligned;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFMidlineGeoAligned
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment CaplineLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FCaplineLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFCaplineLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FCaplineLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFCaplineLeft
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment CaplineCenter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FCaplineCenter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFCaplineCenter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FCaplineCenter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFCaplineCenter
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment CaplineRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FCaplineRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFCaplineRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FCaplineRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFCaplineRight
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment CaplineJustified
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FCaplineJustified;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFCaplineJustified
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FCaplineJustified;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFCaplineJustified
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment CaplineFlush
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FCaplineFlush;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFCaplineFlush
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FCaplineFlush;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFCaplineFlush
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment CaplineGeoAligned
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FCaplineGeoAligned;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFCaplineGeoAligned
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FCaplineGeoAligned;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFCaplineGeoAligned
 		{
 			get
 			{

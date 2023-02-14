@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.PortableExecutableKinds
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PortableExecutableKinds NotAPortableExecutableImage
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds r_FNotAPortableExecutableImage;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds RFNotAPortableExecutableImage
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds r_FNotAPortableExecutableImage;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds RFNotAPortableExecutableImage
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PortableExecutableKinds ILOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds r_FILOnly;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds RFILOnly
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds r_FILOnly;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds RFILOnly
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PortableExecutableKinds Required32Bit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds r_FRequired32Bit;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds RFRequired32Bit
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds r_FRequired32Bit;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds RFRequired32Bit
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PortableExecutableKinds PE32Plus
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds r_FPE32Plus;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds RFPE32Plus
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds r_FPE32Plus;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds RFPE32Plus
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PortableExecutableKinds Unmanaged32Bit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds r_FUnmanaged32Bit;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds RFUnmanaged32Bit
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds r_FUnmanaged32Bit;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds RFUnmanaged32Bit
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PortableExecutableKinds Preferred32Bit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds r_FPreferred32Bit;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds RFPreferred32Bit
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds r_FPreferred32Bit;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPortableExecutableKinds RFPreferred32Bit
 		{
 			get
 			{

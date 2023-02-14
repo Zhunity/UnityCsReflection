@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RCollections
+namespace Hvak.Editor.Refleaction.RUnity.RCollections
 {
 	/// <summary>
 	/// Unity.Collections.NativeArray`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// System.Void* m_Buffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RField> r_Fm_Buffer;
-		public virtual SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RField> RFm_Buffer
+		protected Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RField> r_Fm_Buffer;
+		public virtual Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RField> RFm_Buffer
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// System.Int32 m_Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Length;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Length
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Length;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Length
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// System.Int32 m_MinIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_MinIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_MinIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_MinIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_MinIndex
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// System.Int32 m_MaxIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_MaxIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_MaxIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_MaxIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_MaxIndex
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle m_Safety
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle r_Fm_Safety;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle RFm_Safety
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle r_Fm_Safety;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle RFm_Safety
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// System.Int32 s_staticSafetyId
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fs_staticSafetyId;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFs_staticSafetyId
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_staticSafetyId;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_staticSafetyId
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// Unity.Collections.Allocator m_AllocatorLabel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator r_Fm_AllocatorLabel;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RAllocator RFm_AllocatorLabel
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator r_Fm_AllocatorLabel;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator RFm_AllocatorLabel
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// Dummy& m_DisposeSentinel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RDisposeSentinel.RDummy r_Pm_DisposeSentinel;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RDisposeSentinel.RDummy RPm_DisposeSentinel
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RDisposeSentinel.RDummy r_Pm_DisposeSentinel;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RDisposeSentinel.RDummy RPm_DisposeSentinel
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLength
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// T Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPItem_Int32
+		protected Hvak.Editor.Refleaction.RProperty r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RProperty RPItem_Int32
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
 		/// <summary>
 		/// Boolean IsCreated
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCreated;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCreated
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCreated;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCreated
 		{
 			get
 			{
@@ -1344,14 +1344,14 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Allocate(System.Int32 @length, Unity.Collections.Allocator @allocator, out SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @array)
+        public static void Allocate(System.Int32 @length, Unity.Collections.Allocator @allocator, out Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @array)
         {
 			@array = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@length, @allocator, @array.Value};
             var ___result = RMAllocate_Int32_Allocator_Out_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-			@array = new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>(___parameters[2]);
+			@array = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___parameters[2]);
 
             
         }
@@ -1423,7 +1423,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public virtual void CopyFrom(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @array)
+        public virtual void CopyFrom(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @array)
         {
 
             var ___genericsType = new Type[] {};
@@ -1434,7 +1434,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public virtual void CopyFrom(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @array)
+        public virtual void CopyFrom(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @array)
         {
 
             var ___genericsType = new Type[] {};
@@ -1445,7 +1445,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public virtual void CopyTo(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @array)
+        public virtual void CopyTo(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @array)
         {
 
             var ___genericsType = new Type[] {};
@@ -1456,7 +1456,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public virtual void CopyTo(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @array)
+        public virtual void CopyTo(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @array)
         {
 
             var ___genericsType = new Type[] {};
@@ -1467,14 +1467,14 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> ToArray()
+        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> ToArray()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMToArray.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -1489,25 +1489,25 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>.REnumerator GetEnumerator()
+        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>.REnumerator(___result);
+            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.REnumerator(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<SMFrame.Editor.Refleaction.RType> System__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator()
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RType> System__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -1522,7 +1522,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1555,7 +1555,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @left, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @right)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @left, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -1566,7 +1566,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @left, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @right)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @left, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -1577,7 +1577,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @src, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @dst)
+        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst)
         {
 
             var ___genericsType = new Type[] {};
@@ -1588,7 +1588,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>.RReadOnly @src, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @dst)
+        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst)
         {
 
             var ___genericsType = new Type[] {};
@@ -1599,7 +1599,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @src, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @dst)
+        public static void Copy(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst)
         {
 
             var ___genericsType = new Type[] {};
@@ -1610,7 +1610,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @src, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @dst)
+        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst)
         {
 
             var ___genericsType = new Type[] {};
@@ -1621,7 +1621,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>.RReadOnly @src, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @dst)
+        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst)
         {
 
             var ___genericsType = new Type[] {};
@@ -1632,7 +1632,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @src, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @length)
+        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1643,7 +1643,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>.RReadOnly @src, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @length)
+        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1654,7 +1654,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @src, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @length)
+        public static void Copy(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1665,7 +1665,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @src, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @length)
+        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1676,7 +1676,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>.RReadOnly @src, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @length)
+        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1687,7 +1687,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1698,7 +1698,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>.RReadOnly @src, System.Int32 @srcIndex, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1709,7 +1709,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+        public static void Copy(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1720,7 +1720,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1731,7 +1731,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void Copy(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>.RReadOnly @src, System.Int32 @srcIndex, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+        public static void Copy(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1742,7 +1742,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void CopySafe(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+        public static void CopySafe(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1753,7 +1753,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void CopySafe(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>.RReadOnly @src, System.Int32 @srcIndex, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+        public static void CopySafe(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1764,7 +1764,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void CopySafe(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+        public static void CopySafe(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1775,7 +1775,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void CopySafe(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+        public static void CopySafe(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1786,7 +1786,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void CopySafe(SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>.RReadOnly @src, System.Int32 @srcIndex, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
+        public static void CopySafe(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @src, System.Int32 @srcIndex, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @dst, System.Int32 @dstIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1797,7 +1797,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public static void CheckCopyPtr(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RType> @ptr)
+        public static void CheckCopyPtr(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @ptr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1852,18 +1852,18 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RType ReinterpretLoad<U>(System.Int32 @sourceIndex) where U : struct
+        public virtual Hvak.Editor.Refleaction.RType ReinterpretLoad<U>(System.Int32 @sourceIndex) where U : struct
         {
 
             var ___genericsType = new Type[] {typeof(U)};
             var ___parameters = new object[]{@sourceIndex};
             var ___result = RMReinterpretLoad_GU_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RType(___result);
+            return new Hvak.Editor.Refleaction.RType(___result);
         }
 
 
-        public virtual void ReinterpretStore<U>(System.Int32 @destIndex, SMFrame.Editor.Refleaction.RType @data) where U : struct
+        public virtual void ReinterpretStore<U>(System.Int32 @destIndex, Hvak.Editor.Refleaction.RType @data) where U : struct
         {
 
             var ___genericsType = new Type[] {typeof(U)};
@@ -1874,14 +1874,14 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> InternalReinterpret<U>(System.Int32 @length) where U : struct
+        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> InternalReinterpret<U>(System.Int32 @length) where U : struct
         {
 
             var ___genericsType = new Type[] {typeof(U)};
             var ___parameters = new object[]{@length};
             var ___result = RMInternalReinterpret_GU_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -1896,14 +1896,14 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> Reinterpret<U>() where U : struct
+        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> Reinterpret<U>() where U : struct
         {
 
             var ___genericsType = new Type[] {typeof(U)};
             var ___parameters = new object[]{};
             var ___result = RMReinterpret_GU.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -1918,14 +1918,14 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> Reinterpret<U>(System.Int32 @expectedTypeSize) where U : struct
+        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> Reinterpret<U>(System.Int32 @expectedTypeSize) where U : struct
         {
 
             var ___genericsType = new Type[] {typeof(U)};
             var ___parameters = new object[]{@expectedTypeSize};
             var ___result = RMReinterpret_GU_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -1940,58 +1940,58 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> GetSubArray(System.Int32 @start, System.Int32 @length)
+        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> GetSubArray(System.Int32 @start, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@start, @length};
             var ___result = RMGetSubArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>.RReadOnly AsReadOnly()
+        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly AsReadOnly()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAsReadOnly.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType>.RReadOnly(___result);
+            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType> AsSpan()
+        public virtual Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> AsSpan()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAsSpan.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RType> AsReadOnlySpan()
+        public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType> AsReadOnlySpan()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAsReadOnlySpan.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType> op_Implicit(in SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeArray<SMFrame.Editor.Refleaction.RType> @source)
+        public static Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> op_Implicit(in Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @source)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source.Value};
             var ___result = RMop_Implicit_In_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.PropertyHandler
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.PropertyDrawer] m_PropertyDrawers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPropertyDrawer> r_Fm_PropertyDrawers;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RPropertyDrawer> RFm_PropertyDrawers
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPropertyDrawer> r_Fm_PropertyDrawers;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RPropertyDrawer> RFm_PropertyDrawers
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.DecoratorDrawer] m_DecoratorDrawers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RDecoratorDrawer> r_Fm_DecoratorDrawers;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RDecoratorDrawer> RFm_DecoratorDrawers
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RDecoratorDrawer> r_Fm_DecoratorDrawers;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RDecoratorDrawer> RFm_DecoratorDrawers
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String tooltip
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ftooltip;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFtooltip
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ftooltip;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFtooltip
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean <skipDecoratorDrawers>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__skipDecoratorDrawers__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__skipDecoratorDrawers__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__skipDecoratorDrawers__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__skipDecoratorDrawers__1__k__BackingField
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_NestingLevel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_NestingLevel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_NestingLevel
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_NestingLevel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_NestingLevel
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEditorInternal.ReorderableListWrapper] s_reorderableLists
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEditorInternal.RReorderableListWrapper> r_Fs_reorderableLists;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEditorInternal.RReorderableListWrapper> RFs_reorderableLists
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEditorInternal.RReorderableListWrapper> r_Fs_reorderableLists;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEditorInternal.RReorderableListWrapper> RFs_reorderableLists
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 s_LastInspectionTarget
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fs_LastInspectionTarget;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFs_LastInspectionTarget
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_LastInspectionTarget;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_LastInspectionTarget
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 s_LastInspectorNumComponents
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fs_LastInspectorNumComponents;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFs_LastInspectorNumComponents
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_LastInspectorNumComponents;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_LastInspectorNumComponents
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.ContextMenuItemAttribute] contextMenuItems
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RContextMenuItemAttribute> r_FcontextMenuItems;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RContextMenuItemAttribute> RFcontextMenuItems
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RContextMenuItemAttribute> r_FcontextMenuItems;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RContextMenuItemAttribute> RFcontextMenuItems
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.Component] s_CachedComponents
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RComponent> r_Fs_CachedComponents;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RComponent> RFs_CachedComponents
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RComponent> r_Fs_CachedComponents;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RComponent> RFs_CachedComponents
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasPropertyDrawer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasPropertyDrawer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasPropertyDrawer
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasPropertyDrawer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasPropertyDrawer
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PropertyDrawer propertyDrawer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPropertyDrawer r_PpropertyDrawer;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPropertyDrawer RPpropertyDrawer
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPropertyDrawer r_PpropertyDrawer;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPropertyDrawer RPpropertyDrawer
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.DecoratorDrawer] decoratorDrawers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RDecoratorDrawer> r_PdecoratorDrawers;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RDecoratorDrawer> RPdecoratorDrawers
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RDecoratorDrawer> r_PdecoratorDrawers;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RDecoratorDrawer> RPdecoratorDrawers
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean skipDecoratorDrawers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PskipDecoratorDrawers;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPskipDecoratorDrawers
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PskipDecoratorDrawers;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPskipDecoratorDrawers
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isCurrentlyNested
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisCurrentlyNested;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisCurrentlyNested
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisCurrentlyNested;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisCurrentlyNested
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean empty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pempty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPempty
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pempty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPempty
 		{
 			get
 			{
@@ -885,25 +885,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext ApplyNestingContext(System.Int32 @nestingLevel)
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext ApplyNestingContext(System.Int32 @nestingLevel)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nestingLevel};
             var ___result = RMApplyNestingContext_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext IncrementNestingContext()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext IncrementNestingContext()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMIncrementNestingContext.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext(___result);
         }
 
 

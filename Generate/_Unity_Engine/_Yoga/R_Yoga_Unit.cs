@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
+namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
 	/// UnityEngine.Yoga.YogaUnit
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaUnit Undefined
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit r_FUndefined;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit RFUndefined
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit r_FUndefined;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit RFUndefined
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaUnit Point
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit r_FPoint;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit RFPoint
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit r_FPoint;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit RFPoint
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaUnit Percent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit r_FPercent;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit RFPercent
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit r_FPercent;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit RFPercent
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaUnit Auto
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit r_FAuto;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit RFAuto
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit r_FAuto;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaUnit RFAuto
 		{
 			get
 			{

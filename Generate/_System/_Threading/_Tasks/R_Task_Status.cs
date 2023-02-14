@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
+namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
 	/// System.Threading.Tasks.TaskStatus
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskStatus Created
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FCreated;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFCreated
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FCreated;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFCreated
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskStatus WaitingForActivation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FWaitingForActivation;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFWaitingForActivation
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FWaitingForActivation;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFWaitingForActivation
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskStatus WaitingToRun
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FWaitingToRun;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFWaitingToRun
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FWaitingToRun;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFWaitingToRun
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskStatus Running
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FRunning;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFRunning
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FRunning;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFRunning
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskStatus WaitingForChildrenToComplete
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FWaitingForChildrenToComplete;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFWaitingForChildrenToComplete
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FWaitingForChildrenToComplete;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFWaitingForChildrenToComplete
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskStatus RanToCompletion
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FRanToCompletion;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFRanToCompletion
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FRanToCompletion;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFRanToCompletion
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskStatus Canceled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FCanceled;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFCanceled
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FCanceled;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFCanceled
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskStatus Faulted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FFaulted;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFFaulted
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_FFaulted;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RFFaulted
 		{
 			get
 			{

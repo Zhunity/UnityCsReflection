@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.UnmanagedMarshal
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fcount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fcount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcount
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType t
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_Ft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFt
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_Ft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFt
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType tbase
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_Ftbase;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFtbase
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_Ftbase;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RFtbase
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String guid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fguid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFguid
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fguid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFguid
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String mcookie
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fmcookie;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFmcookie
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fmcookie;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFmcookie
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String marshaltype
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fmarshaltype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFmarshaltype
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fmarshaltype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFmarshaltype
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Type marshaltyperef
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_Fmarshaltyperef;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFmarshaltyperef
+		protected Hvak.Editor.Refleaction.RSystem.RType r_Fmarshaltyperef;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFmarshaltyperef
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 param_num
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fparam_num;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFparam_num
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fparam_num;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFparam_num
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Boolean has_size
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fhas_size;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFhas_size
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fhas_size;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFhas_size
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType BaseType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_PBaseType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RPBaseType
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_PBaseType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RPBaseType
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 ElementCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PElementCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPElementCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PElementCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPElementCount
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Runtime.InteropServices.UnmanagedType GetUnmanagedType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_PGetUnmanagedType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RPGetUnmanagedType
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType r_PGetUnmanagedType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices.RUnmanagedType RPGetUnmanagedType
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Guid IIDGuid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGuid r_PIIDGuid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGuid RPIIDGuid
+		protected Hvak.Editor.Refleaction.RSystem.RGuid r_PIIDGuid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGuid RPIIDGuid
 		{
 			get
 			{

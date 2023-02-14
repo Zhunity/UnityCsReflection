@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RMesh
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Mesh+SafetyHandleIndex BonesPerVertexArray
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex r_FBonesPerVertexArray;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex RFBonesPerVertexArray
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex r_FBonesPerVertexArray;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex RFBonesPerVertexArray
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Mesh+SafetyHandleIndex BonesWeightsArray
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex r_FBonesWeightsArray;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex RFBonesWeightsArray
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex r_FBonesWeightsArray;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex RFBonesWeightsArray
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Mesh+SafetyHandleIndex BindposeArray
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex r_FBindposeArray;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex RFBindposeArray
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex r_FBindposeArray;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex RFBindposeArray
 		{
 			get
 			{

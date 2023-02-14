@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class RGuid
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid _parsedGuid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGuid r_F_parsedGuid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGuid RF_parsedGuid
+		protected Hvak.Editor.Refleaction.RSystem.RGuid r_F_parsedGuid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGuid RF_parsedGuid
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+GuidParseThrowStyle _throwStyle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle r_F_throwStyle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle RF_throwStyle
+		protected Hvak.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle r_F_throwStyle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle RF_throwStyle
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Guid+ParseFailureKind _failure
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind r_F_failure;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind RF_failure
+		protected Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind r_F_failure;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind RF_failure
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _failureMessageID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_failureMessageID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_failureMessageID
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_failureMessageID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_failureMessageID
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Object _failureMessageFormatArgument
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F_failureMessageFormatArgument;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF_failureMessageFormatArgument
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F_failureMessageFormatArgument;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF_failureMessageFormatArgument
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _failureArgumentName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_failureArgumentName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_failureArgumentName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_failureArgumentName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_failureArgumentName
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Exception _innerException
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RException r_F_innerException;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RException RF_innerException
+		protected Hvak.Editor.Refleaction.RSystem.RException r_F_innerException;
+		public virtual Hvak.Editor.Refleaction.RSystem.RException RF_innerException
 		{
 			get
 			{
@@ -354,7 +354,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual void Init(SMFrame.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle @canThrow)
+        public virtual void Init(Hvak.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle @canThrow)
         {
 
             var ___genericsType = new Type[] {};
@@ -376,7 +376,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetFailure(SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind @failure, System.String @failureMessageID)
+        public virtual void SetFailure(Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind @failure, System.String @failureMessageID)
         {
 
             var ___genericsType = new Type[] {};
@@ -387,7 +387,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetFailure(SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind @failure, System.String @failureMessageID, System.Object @failureMessageFormatArgument)
+        public virtual void SetFailure(Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind @failure, System.String @failureMessageID, System.Object @failureMessageFormatArgument)
         {
 
             var ___genericsType = new Type[] {};
@@ -398,7 +398,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetFailure(SMFrame.Editor.Refleaction.RSystem.RGuid.RParseFailureKind @failure, System.String @failureMessageID, System.Object @failureMessageFormatArgument, System.String @failureArgumentName, System.Exception @innerException)
+        public virtual void SetFailure(Hvak.Editor.Refleaction.RSystem.RGuid.RParseFailureKind @failure, System.String @failureMessageID, System.Object @failureMessageFormatArgument, System.String @failureArgumentName, System.Exception @innerException)
         {
 
             var ___genericsType = new Type[] {};

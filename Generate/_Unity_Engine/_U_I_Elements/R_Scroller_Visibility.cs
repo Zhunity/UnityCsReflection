@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.ScrollerVisibility
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollerVisibility Auto
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollerVisibility r_FAuto;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollerVisibility RFAuto
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollerVisibility r_FAuto;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollerVisibility RFAuto
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollerVisibility AlwaysVisible
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollerVisibility r_FAlwaysVisible;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollerVisibility RFAlwaysVisible
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollerVisibility r_FAlwaysVisible;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollerVisibility RFAlwaysVisible
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollerVisibility Hidden
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollerVisibility r_FHidden;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RScrollerVisibility RFHidden
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollerVisibility r_FHidden;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScrollerVisibility RFHidden
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.DetachedAllocator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.TempAllocator`1[UnityEngine.UIElements.Vertex] m_VertsPool
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> r_Fm_VertsPool;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> RFm_VertsPool
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> r_Fm_VertsPool;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> RFm_VertsPool
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.TempAllocator`1[System.UInt16] m_IndexPool
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<SMFrame.Editor.Refleaction.RSystem.RUInt16> r_Fm_IndexPool;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<SMFrame.Editor.Refleaction.RSystem.RUInt16> RFm_IndexPool
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RSystem.RUInt16> r_Fm_IndexPool;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RSystem.RUInt16> RFm_IndexPool
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.MeshWriteData] m_MeshWriteDataPool
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMeshWriteData> r_Fm_MeshWriteDataPool;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMeshWriteData> RFm_MeshWriteDataPool
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshWriteData> r_Fm_MeshWriteDataPool;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshWriteData> RFm_MeshWriteDataPool
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_MeshWriteDataCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_MeshWriteDataCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_MeshWriteDataCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_MeshWriteDataCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_MeshWriteDataCount
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_Disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_Disposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_Disposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_Disposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_Disposed
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.MeshWriteData] meshes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMeshWriteData> r_Pmeshes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMeshWriteData> RPmeshes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshWriteData> r_Pmeshes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshWriteData> RPmeshes
 		{
 			get
 			{

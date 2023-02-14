@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Experimental.Rendering.RayTracingInstanceMaterialCRC
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 instanceID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FinstanceID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFinstanceID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FinstanceID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFinstanceID
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 crc
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fcrc;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcrc
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fcrc;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcrc
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSheets.ScalableImage
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.Texture2D normalImage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_FnormalImage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RFnormalImage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_FnormalImage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RFnormalImage
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.Texture2D highResolutionImage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_FhighResolutionImage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RFhighResolutionImage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_FhighResolutionImage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RFhighResolutionImage
 		{
 			get
 			{

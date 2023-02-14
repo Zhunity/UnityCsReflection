@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
+namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
 	/// System.Text.RegularExpressions.ExclusiveReference
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexRunner _ref
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunner r_F_ref;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunner RF_ref
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunner r_F_ref;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunner RF_ref
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexRunner _obj
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunner r_F_obj;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunner RF_obj
+		protected Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunner r_F_obj;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexRunner RF_obj
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _locked
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_locked;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_locked
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_locked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_locked
 		{
 			get
 			{

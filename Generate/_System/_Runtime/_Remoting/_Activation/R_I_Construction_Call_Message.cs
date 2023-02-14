@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Activation.IConstructionCallMessage
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Type ActivationType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PActivationType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPActivationType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PActivationType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPActivationType
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.String ActivationTypeName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PActivationTypeName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPActivationTypeName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PActivationTypeName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPActivationTypeName
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Runtime.Remoting.Activation.IActivator Activator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RIActivator r_PActivator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RIActivator RPActivator
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RIActivator r_PActivator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation.RIActivator RPActivator
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Object[] CallSiteActivationAttributes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RObject> r_PCallSiteActivationAttributes;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RObject> RPCallSiteActivationAttributes
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RObject> r_PCallSiteActivationAttributes;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RObject> RPCallSiteActivationAttributes
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Collections.IList ContextProperties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RIList r_PContextProperties;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RIList RPContextProperties
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RIList r_PContextProperties;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RIList RPContextProperties
 		{
 			get
 			{

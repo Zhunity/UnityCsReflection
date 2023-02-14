@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.ReadOnlyMemory`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Object _object
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F_object;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF_object
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F_object;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF_object
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_index;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_index
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_index;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_index
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_length;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_length
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_length;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_length
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 RemoveFlagsBitMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FRemoveFlagsBitMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFRemoveFlagsBitMask
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FRemoveFlagsBitMask;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFRemoveFlagsBitMask
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ReadOnlyMemory`1[T] Empty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReadOnlyMemory<SMFrame.Editor.Refleaction.RProperty> r_PEmpty;
-		public static SMFrame.Editor.Refleaction.RSystem.RReadOnlyMemory<SMFrame.Editor.Refleaction.RProperty> RPEmpty
+		protected static Hvak.Editor.Refleaction.RSystem.RReadOnlyMemory<Hvak.Editor.Refleaction.RProperty> r_PEmpty;
+		public static Hvak.Editor.Refleaction.RSystem.RReadOnlyMemory<Hvak.Editor.Refleaction.RProperty> RPEmpty
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLength
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsEmpty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsEmpty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsEmpty
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsEmpty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsEmpty
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ReadOnlySpan`1[T] Span
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RProperty> r_PSpan;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RProperty> RPSpan
+		protected Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RProperty> r_PSpan;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RProperty> RPSpan
 		{
 			get
 			{

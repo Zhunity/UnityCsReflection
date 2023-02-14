@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.TextureId
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_Index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Index;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Index
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Index;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Index
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextureId invalid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId r_Finvalid;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId RFinvalid
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId r_Finvalid;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId RFinvalid
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pindex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPindex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pindex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPindex
 		{
 			get
 			{
@@ -300,7 +300,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -322,7 +322,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @left, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @right)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @left, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -333,7 +333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @left, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @right)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @left, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @right)
         {
 
             var ___genericsType = new Type[] {};

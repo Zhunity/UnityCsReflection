@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.AceType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Byte value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType AccessAllowed
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessAllowed;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessAllowed
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessAllowed;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessAllowed
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType AccessDenied
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessDenied;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessDenied
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessDenied;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessDenied
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType SystemAudit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAudit;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAudit
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAudit;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAudit
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType SystemAlarm
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAlarm;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAlarm
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAlarm;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAlarm
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType AccessAllowedCompound
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessAllowedCompound;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessAllowedCompound
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessAllowedCompound;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessAllowedCompound
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType AccessAllowedObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessAllowedObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessAllowedObject
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessAllowedObject;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessAllowedObject
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType AccessDeniedObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessDeniedObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessDeniedObject
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessDeniedObject;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessDeniedObject
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType SystemAuditObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAuditObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAuditObject
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAuditObject;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAuditObject
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType SystemAlarmObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAlarmObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAlarmObject
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAlarmObject;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAlarmObject
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType AccessAllowedCallback
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessAllowedCallback;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessAllowedCallback
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessAllowedCallback;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessAllowedCallback
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType AccessDeniedCallback
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessDeniedCallback;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessDeniedCallback
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessDeniedCallback;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessDeniedCallback
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType AccessAllowedCallbackObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessAllowedCallbackObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessAllowedCallbackObject
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessAllowedCallbackObject;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessAllowedCallbackObject
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType AccessDeniedCallbackObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessDeniedCallbackObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessDeniedCallbackObject
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FAccessDeniedCallbackObject;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFAccessDeniedCallbackObject
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType SystemAuditCallback
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAuditCallback;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAuditCallback
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAuditCallback;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAuditCallback
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType SystemAlarmCallback
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAlarmCallback;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAlarmCallback
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAlarmCallback;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAlarmCallback
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType SystemAuditCallbackObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAuditCallbackObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAuditCallbackObject
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAuditCallbackObject;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAuditCallbackObject
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType SystemAlarmCallbackObject
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAlarmCallbackObject;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAlarmCallbackObject
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FSystemAlarmCallbackObject;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFSystemAlarmCallbackObject
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AceType MaxDefinedAceType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FMaxDefinedAceType;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFMaxDefinedAceType
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType r_FMaxDefinedAceType;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RAceType RFMaxDefinedAceType
 		{
 			get
 			{

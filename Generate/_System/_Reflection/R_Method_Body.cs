@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.MethodBody
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ExceptionHandlingClause[] clauses
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClause> r_Fclauses;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClause> RFclauses
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClause> r_Fclauses;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClause> RFclauses
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.LocalVariableInfo[] locals
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.RLocalVariableInfo> r_Flocals;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RReflection.RLocalVariableInfo> RFlocals
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.RLocalVariableInfo> r_Flocals;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RReflection.RLocalVariableInfo> RFlocals
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Byte[] il
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_Fil;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFil
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_Fil;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFil
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Boolean init_locals
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Finit_locals;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFinit_locals
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Finit_locals;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFinit_locals
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 sig_token
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fsig_token;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFsig_token
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fsig_token;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFsig_token
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 max_stack
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fmax_stack;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFmax_stack
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fmax_stack;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFmax_stack
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Collections.Generic.IList`1[System.Reflection.ExceptionHandlingClause] ExceptionHandlingClauses
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClause> r_PExceptionHandlingClauses;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClause> RPExceptionHandlingClauses
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClause> r_PExceptionHandlingClauses;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClause> RPExceptionHandlingClauses
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Collections.Generic.IList`1[System.Reflection.LocalVariableInfo] LocalVariables
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RReflection.RLocalVariableInfo> r_PLocalVariables;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RReflection.RLocalVariableInfo> RPLocalVariables
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RReflection.RLocalVariableInfo> r_PLocalVariables;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RReflection.RLocalVariableInfo> RPLocalVariables
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean InitLocals
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PInitLocals;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPInitLocals
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PInitLocals;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPInitLocals
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 LocalSignatureMetadataToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLocalSignatureMetadataToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLocalSignatureMetadataToken
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLocalSignatureMetadataToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLocalSignatureMetadataToken
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 MaxStackSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMaxStackSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMaxStackSize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMaxStackSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMaxStackSize
 		{
 			get
 			{

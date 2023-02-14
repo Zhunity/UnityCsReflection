@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
+namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
 	/// UnityEngine.Yoga.YogaSize
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Single width
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fwidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFwidth
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fwidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFwidth
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Single height
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fheight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFheight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fheight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFheight
 		{
 			get
 			{

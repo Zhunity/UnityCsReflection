@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.ReflectionProbeBlendInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.ReflectionProbe probe
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RReflectionProbe r_Fprobe;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RReflectionProbe RFprobe
+		protected Hvak.Editor.Refleaction.RUnityEngine.RReflectionProbe r_Fprobe;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RReflectionProbe RFprobe
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single weight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fweight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFweight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fweight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFweight
 		{
 			get
 			{

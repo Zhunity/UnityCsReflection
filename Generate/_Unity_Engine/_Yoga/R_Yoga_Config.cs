@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
+namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
 	/// UnityEngine.Yoga.YogaConfig
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaConfig Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaConfig r_FDefault;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaConfig RFDefault
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaConfig r_FDefault;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaConfig RFDefault
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.IntPtr _ygConfig
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_F_ygConfig;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RF_ygConfig
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_F_ygConfig;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RF_ygConfig
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.Logger _logger
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RLogger r_F_logger;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RLogger RF_logger
+		protected Hvak.Editor.Refleaction.RUnityEngine.RYoga.RLogger r_F_logger;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RYoga.RLogger RF_logger
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// IntPtr Handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_PHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RPHandle
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_PHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RPHandle
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.Logger Logger
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RLogger r_PLogger;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RLogger RPLogger
+		protected Hvak.Editor.Refleaction.RUnityEngine.RYoga.RLogger r_PLogger;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RYoga.RLogger RPLogger
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Boolean UseWebDefaults
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PUseWebDefaults;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPUseWebDefaults
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PUseWebDefaults;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPUseWebDefaults
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single PointScaleFactor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PPointScaleFactor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPPointScaleFactor
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PPointScaleFactor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPPointScaleFactor
 		{
 			get
 			{
@@ -329,7 +329,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual void SetExperimentalFeatureEnabled(SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaExperimentalFeature @feature, System.Boolean @enabled)
+        public virtual void SetExperimentalFeatureEnabled(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaExperimentalFeature @feature, System.Boolean @enabled)
         {
 
             var ___genericsType = new Type[] {};
@@ -340,7 +340,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual System.Boolean IsExperimentalFeatureEnabled(SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaExperimentalFeature @feature)
+        public virtual System.Boolean IsExperimentalFeatureEnabled(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaExperimentalFeature @feature)
         {
 
             var ___genericsType = new Type[] {};
@@ -362,7 +362,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public static void SetDefaultLogger(SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RLogger @logger)
+        public static void SetDefaultLogger(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RLogger @logger)
         {
 
             var ___genericsType = new Type[] {};

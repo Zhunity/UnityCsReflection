@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSheets.StyleEnumType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType Align
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FAlign;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFAlign
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FAlign;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFAlign
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType BackgroundPositionKeyword
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FBackgroundPositionKeyword;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFBackgroundPositionKeyword
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FBackgroundPositionKeyword;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFBackgroundPositionKeyword
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType BackgroundSizeType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FBackgroundSizeType;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFBackgroundSizeType
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FBackgroundSizeType;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFBackgroundSizeType
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType DisplayStyle
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FDisplayStyle;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFDisplayStyle
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FDisplayStyle;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFDisplayStyle
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType EasingMode
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FEasingMode;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFEasingMode
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FEasingMode;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFEasingMode
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType FlexDirection
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FFlexDirection;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFFlexDirection
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FFlexDirection;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFFlexDirection
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType FontStyle
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FFontStyle;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFFontStyle
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FFontStyle;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFFontStyle
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType Justify
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FJustify;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFJustify
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FJustify;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFJustify
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType Overflow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FOverflow;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFOverflow
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FOverflow;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFOverflow
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType OverflowClipBox
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FOverflowClipBox;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFOverflowClipBox
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FOverflowClipBox;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFOverflowClipBox
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType OverflowInternal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FOverflowInternal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFOverflowInternal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FOverflowInternal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFOverflowInternal
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType Position
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FPosition;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFPosition
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FPosition;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFPosition
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType Repeat
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FRepeat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFRepeat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FRepeat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFRepeat
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType RepeatXY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FRepeatXY;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFRepeatXY
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FRepeatXY;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFRepeatXY
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType ScaleMode
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FScaleMode;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFScaleMode
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FScaleMode;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFScaleMode
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType TextAnchor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FTextAnchor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFTextAnchor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FTextAnchor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFTextAnchor
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType TextOverflow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FTextOverflow;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFTextOverflow
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FTextOverflow;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFTextOverflow
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType TextOverflowPosition
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FTextOverflowPosition;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFTextOverflowPosition
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FTextOverflowPosition;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFTextOverflowPosition
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType TransformOriginOffset
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FTransformOriginOffset;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFTransformOriginOffset
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FTransformOriginOffset;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFTransformOriginOffset
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType Visibility
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FVisibility;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFVisibility
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FVisibility;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFVisibility
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType WhiteSpace
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FWhiteSpace;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFWhiteSpace
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FWhiteSpace;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFWhiteSpace
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType Wrap
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FWrap;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFWrap
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FWrap;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFWrap
 		{
 			get
 			{

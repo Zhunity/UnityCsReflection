@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
+namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
 	/// UnityEngine.Yoga.MeasureFunction
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Boolean HasSingleTarget
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasSingleTarget;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasSingleTarget
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasSingleTarget;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasSingleTarget
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Reflection.MethodInfo Method
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo r_PMethod;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo RPMethod
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo r_PMethod;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo RPMethod
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Object Target
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PTarget;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPTarget
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PTarget;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPTarget
 		{
 			get
 			{
@@ -403,18 +403,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize Invoke(SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @widthMode, System.Single @height, SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @heightMode)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize Invoke(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @widthMode, System.Single @height, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @heightMode)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@node.Value, @width, @widthMode.Value, @height, @heightMode.Value};
             var ___result = RMInvoke_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize(___result);
         }
 
 
-        public virtual System.IAsyncResult BeginInvoke(SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @widthMode, System.Single @height, SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @heightMode, System.AsyncCallback @callback, System.Object @object)
+        public virtual System.IAsyncResult BeginInvoke(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @widthMode, System.Single @height, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @heightMode, System.AsyncCallback @callback, System.Object @object)
         {
 
             var ___genericsType = new Type[] {};
@@ -425,14 +425,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize EndInvoke(System.IAsyncResult @result)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize EndInvoke(System.IAsyncResult @result)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result};
             var ___result = RMEndInvoke_IAsyncResult.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize(___result);
         }
 
 

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.UnicodeLineBreakingRules
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.UnicodeLineBreakingRules s_Instance
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RUnicodeLineBreakingRules r_Fs_Instance;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RUnicodeLineBreakingRules RFs_Instance
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RUnicodeLineBreakingRules r_Fs_Instance;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RUnicodeLineBreakingRules RFs_Instance
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextAsset m_UnicodeLineBreakingRules
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextAsset r_Fm_UnicodeLineBreakingRules;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextAsset RFm_UnicodeLineBreakingRules
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextAsset r_Fm_UnicodeLineBreakingRules;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextAsset RFm_UnicodeLineBreakingRules
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextAsset m_LeadingCharacters
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextAsset r_Fm_LeadingCharacters;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextAsset RFm_LeadingCharacters
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextAsset r_Fm_LeadingCharacters;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextAsset RFm_LeadingCharacters
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextAsset m_FollowingCharacters
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextAsset r_Fm_FollowingCharacters;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextAsset RFm_FollowingCharacters
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextAsset r_Fm_FollowingCharacters;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextAsset RFm_FollowingCharacters
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean m_UseModernHangulLineBreakingRules
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_UseModernHangulLineBreakingRules;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_UseModernHangulLineBreakingRules
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_UseModernHangulLineBreakingRules;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_UseModernHangulLineBreakingRules
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.UInt32] s_LeadingCharactersLookup
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_Fs_LeadingCharactersLookup;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RUInt32> RFs_LeadingCharactersLookup
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fs_LeadingCharactersLookup;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> RFs_LeadingCharactersLookup
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.UInt32] s_FollowingCharactersLookup
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_Fs_FollowingCharactersLookup;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RUInt32> RFs_FollowingCharactersLookup
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fs_FollowingCharactersLookup;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> RFs_FollowingCharactersLookup
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextAsset lineBreakingRules
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextAsset r_PlineBreakingRules;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextAsset RPlineBreakingRules
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextAsset r_PlineBreakingRules;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextAsset RPlineBreakingRules
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextAsset leadingCharacters
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextAsset r_PleadingCharacters;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextAsset RPleadingCharacters
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextAsset r_PleadingCharacters;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextAsset RPleadingCharacters
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextAsset followingCharacters
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextAsset r_PfollowingCharacters;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextAsset RPfollowingCharacters
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextAsset r_PfollowingCharacters;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextAsset RPfollowingCharacters
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.UInt32] leadingCharactersLookup
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_PleadingCharactersLookup;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RUInt32> RPleadingCharactersLookup
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> r_PleadingCharactersLookup;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> RPleadingCharactersLookup
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.UInt32] followingCharactersLookup
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RUInt32> r_PfollowingCharactersLookup;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RUInt32> RPfollowingCharactersLookup
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> r_PfollowingCharactersLookup;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> RPfollowingCharactersLookup
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Boolean useModernHangulLineBreakingRules
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PuseModernHangulLineBreakingRules;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPuseModernHangulLineBreakingRules
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PuseModernHangulLineBreakingRules;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPuseModernHangulLineBreakingRules
 		{
 			get
 			{

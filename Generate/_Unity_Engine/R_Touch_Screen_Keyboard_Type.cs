@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.TouchScreenKeyboardType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FDefault;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFDefault
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FDefault;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFDefault
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType ASCIICapable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FASCIICapable;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFASCIICapable
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FASCIICapable;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFASCIICapable
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType NumbersAndPunctuation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FNumbersAndPunctuation;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFNumbersAndPunctuation
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FNumbersAndPunctuation;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFNumbersAndPunctuation
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType URL
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FURL;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFURL
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FURL;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFURL
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType NumberPad
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FNumberPad;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFNumberPad
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FNumberPad;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFNumberPad
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType PhonePad
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FPhonePad;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFPhonePad
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FPhonePad;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFPhonePad
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType NamePhonePad
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FNamePhonePad;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFNamePhonePad
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FNamePhonePad;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFNamePhonePad
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType EmailAddress
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FEmailAddress;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFEmailAddress
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FEmailAddress;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFEmailAddress
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType NintendoNetworkAccount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FNintendoNetworkAccount;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFNintendoNetworkAccount
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FNintendoNetworkAccount;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFNintendoNetworkAccount
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType Social
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FSocial;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFSocial
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FSocial;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFSocial
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType Search
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FSearch;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFSearch
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FSearch;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFSearch
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType DecimalPad
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FDecimalPad;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFDecimalPad
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FDecimalPad;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFDecimalPad
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TouchScreenKeyboardType OneTimeCode
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FOneTimeCode;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFOneTimeCode
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType r_FOneTimeCode;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboardType RFOneTimeCode
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.IOperation
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String packageUniqueId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PpackageUniqueId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPpackageUniqueId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PpackageUniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpackageUniqueId
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String versionUniqueId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PversionUniqueId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPversionUniqueId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PversionUniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPversionUniqueId
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Int64 timestamp
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Ptimestamp;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPtimestamp
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Ptimestamp;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPtimestamp
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Int64 lastSuccessTimestamp
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PlastSuccessTimestamp;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPlastSuccessTimestamp
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PlastSuccessTimestamp;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPlastSuccessTimestamp
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isOfflineMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisOfflineMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisOfflineMode
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisOfflineMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisOfflineMode
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isInProgress
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisInProgress;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisInProgress
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisInProgress;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisInProgress
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isInPause
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisInPause;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisInPause
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisInPause;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisInPause
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isProgressVisible
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisProgressVisible;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisProgressVisible
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisProgressVisible;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisProgressVisible
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isProgressTrackable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisProgressTrackable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisProgressTrackable
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisProgressTrackable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisProgressTrackable
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Single progressPercentage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PprogressPercentage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPprogressPercentage
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PprogressPercentage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPprogressPercentage
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.RefreshOptions refreshOptions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRefreshOptions r_PrefreshOptions;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRefreshOptions RPrefreshOptions
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRefreshOptions r_PrefreshOptions;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRefreshOptions RPrefreshOptions
 		{
 			get
 			{

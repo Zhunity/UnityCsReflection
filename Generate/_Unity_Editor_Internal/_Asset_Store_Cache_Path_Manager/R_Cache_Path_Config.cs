@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
+namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 {public partial class RAssetStoreCachePathManager
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.String m_Path
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Path;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Path
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Path;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Path
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.ConfigSource m_Source
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_Fm_Source;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFm_Source
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_Fm_Source;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFm_Source
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEditorInternal.AssetStoreCachePathManager+ConfigStatus m_Status
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_Fm_Status;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RFm_Status
+		protected Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_Fm_Status;
+		public virtual Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RFm_Status
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.String path
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ppath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPpath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ppath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpath
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.ConfigSource source
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_Psource;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RPsource
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_Psource;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RPsource
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// ConfigStatus status
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_Pstatus;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RPstatus
+		protected Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus r_Pstatus;
+		public virtual Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RConfigStatus RPstatus
 		{
 			get
 			{

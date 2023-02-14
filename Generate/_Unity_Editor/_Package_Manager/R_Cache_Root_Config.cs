@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.CacheRootConfig
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_Path
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Path;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Path
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Path;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Path
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ConfigSource m_Source
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_Fm_Source;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFm_Source
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_Fm_Source;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RFm_Source
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String path
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ppath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPpath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ppath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpath
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ConfigSource source
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_Psource;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RPsource
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource r_Psource;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RConfigSource RPsource
 		{
 			get
 			{

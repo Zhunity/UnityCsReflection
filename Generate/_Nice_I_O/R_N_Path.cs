@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RNiceIO
+namespace Hvak.Editor.Refleaction.RNiceIO
 {
 	/// <summary>
 	/// NiceIO.NPath
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// System.Boolean k_IsCaseSensitiveFileSystem
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fk_IsCaseSensitiveFileSystem;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RFk_IsCaseSensitiveFileSystem
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_Fk_IsCaseSensitiveFileSystem;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RFk_IsCaseSensitiveFileSystem
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// System.Boolean k_IsWindows
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fk_IsWindows;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RFk_IsWindows
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_Fk_IsWindows;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RFk_IsWindows
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// System.StringComparison PathStringComparison
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RStringComparison r_FPathStringComparison;
-		public static SMFrame.Editor.Refleaction.RSystem.RStringComparison RFPathStringComparison
+		protected static Hvak.Editor.Refleaction.RSystem.RStringComparison r_FPathStringComparison;
+		public static Hvak.Editor.Refleaction.RSystem.RStringComparison RFPathStringComparison
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// System.String _path
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_path;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_path
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_path;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_path
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// System.Int32 MethodImplOptions_AggressiveInlining
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMethodImplOptions_AggressiveInlining;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMethodImplOptions_AggressiveInlining
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMethodImplOptions_AggressiveInlining;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMethodImplOptions_AggressiveInlining
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// NiceIO.NPath Empty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RNiceIO.RNPath r_PEmpty;
-		public static SMFrame.Editor.Refleaction.RNiceIO.RNPath RPEmpty
+		protected static Hvak.Editor.Refleaction.RNiceIO.RNPath r_PEmpty;
+		public static Hvak.Editor.Refleaction.RNiceIO.RNPath RPEmpty
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// NiceIO.NPath Parent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RNiceIO.RNPath r_PParent;
-		public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath RPParent
+		protected Hvak.Editor.Refleaction.RNiceIO.RNPath r_PParent;
+		public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath RPParent
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// Boolean IsRelative
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsRelative;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsRelative
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsRelative;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsRelative
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// System.String FileName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PFileName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPFileName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PFileName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPFileName
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// System.String FileNameWithoutExtension
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PFileNameWithoutExtension;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPFileNameWithoutExtension
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PFileNameWithoutExtension;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPFileNameWithoutExtension
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// Int32 Depth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PDepth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPDepth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PDepth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPDepth
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// Boolean IsCurrentDir
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCurrentDir;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCurrentDir
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCurrentDir;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCurrentDir
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// System.String Extension
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PExtension;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPExtension
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PExtension;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPExtension
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// System.String UNCServerName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PUNCServerName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPUNCServerName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PUNCServerName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPUNCServerName
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// System.String DriveLetter
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PDriveLetter;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPDriveLetter
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PDriveLetter;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPDriveLetter
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// Boolean IsRoot
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsRoot;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsRoot
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsRoot;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsRoot
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// Boolean IsUNC
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsUNC;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsUNC
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsUNC;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsUNC
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// Boolean IsSymbolicLink
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsSymbolicLink;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsSymbolicLink
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsSymbolicLink;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsSymbolicLink
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// NiceIO.NPath CurrentDirectory
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RNiceIO.RNPath r_PCurrentDirectory;
-		public static SMFrame.Editor.Refleaction.RNiceIO.RNPath RPCurrentDirectory
+		protected static Hvak.Editor.Refleaction.RNiceIO.RNPath r_PCurrentDirectory;
+		public static Hvak.Editor.Refleaction.RNiceIO.RNPath RPCurrentDirectory
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// NiceIO.NPath HomeDirectory
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RNiceIO.RNPath r_PHomeDirectory;
-		public static SMFrame.Editor.Refleaction.RNiceIO.RNPath RPHomeDirectory
+		protected static Hvak.Editor.Refleaction.RNiceIO.RNPath r_PHomeDirectory;
+		public static Hvak.Editor.Refleaction.RNiceIO.RNPath RPHomeDirectory
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// NiceIO.NPath SystemTemp
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RNiceIO.RNPath r_PSystemTemp;
-		public static SMFrame.Editor.Refleaction.RNiceIO.RNPath RPSystemTemp
+		protected static Hvak.Editor.Refleaction.RNiceIO.RNPath r_PSystemTemp;
+		public static Hvak.Editor.Refleaction.RNiceIO.RNPath RPSystemTemp
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[NiceIO.NPath] RecursiveParents
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RNiceIO.RNPath> r_PRecursiveParents;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RNiceIO.RNPath> RPRecursiveParents
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RNiceIO.RNPath> r_PRecursiveParents;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RNiceIO.RNPath> RPRecursiveParents
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
 		/// <summary>
 		/// System.IO.FileAttributes Attributes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes r_PAttributes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIO.RFileAttributes RPAttributes
+		protected Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes r_PAttributes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIO.RFileAttributes RPAttributes
 		{
 			get
 			{
@@ -1947,69 +1947,69 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath Combine(System.String @append)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath Combine(System.String @append)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@append};
             var ___result = RMCombine_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath Combine(System.String @append1, System.String @append2)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath Combine(System.String @append1, System.String @append2)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@append1, @append2};
             var ___result = RMCombine_String_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath Combine(SMFrame.Editor.Refleaction.RNiceIO.RNPath @append)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath Combine(Hvak.Editor.Refleaction.RNiceIO.RNPath @append)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@append.Value};
             var ___result = RMCombine_NPath.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath Combine(SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath> @append)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath Combine(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath> @append)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@append.Value};
             var ___result = RMCombine_NPathArray.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath RelativeTo(SMFrame.Editor.Refleaction.RNiceIO.RNPath @path)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath RelativeTo(Hvak.Editor.Refleaction.RNiceIO.RNPath @path)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@path.Value};
             var ___result = RMRelativeTo_NPath.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath ChangeExtension(System.String @extension)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath ChangeExtension(System.String @extension)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@extension};
             var ___result = RMChangeExtension_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
@@ -2024,7 +2024,7 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual System.Boolean Exists(SMFrame.Editor.Refleaction.RNiceIO.RNPath @append)
+        public virtual System.Boolean Exists(Hvak.Editor.Refleaction.RNiceIO.RNPath @append)
         {
 
             var ___genericsType = new Type[] {};
@@ -2035,7 +2035,7 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual System.Boolean DirectoryExists(SMFrame.Editor.Refleaction.RNiceIO.RNPath @append)
+        public virtual System.Boolean DirectoryExists(Hvak.Editor.Refleaction.RNiceIO.RNPath @append)
         {
 
             var ___genericsType = new Type[] {};
@@ -2046,7 +2046,7 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual System.Boolean FileExists(SMFrame.Editor.Refleaction.RNiceIO.RNPath @append)
+        public virtual System.Boolean FileExists(Hvak.Editor.Refleaction.RNiceIO.RNPath @append)
         {
 
             var ___genericsType = new Type[] {};
@@ -2057,7 +2057,7 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual System.Boolean HasSameUNCServerName(SMFrame.Editor.Refleaction.RNiceIO.RNPath @other)
+        public virtual System.Boolean HasSameUNCServerName(Hvak.Editor.Refleaction.RNiceIO.RNPath @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -2068,7 +2068,7 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual System.Boolean HasSameDriveLetter(SMFrame.Editor.Refleaction.RNiceIO.RNPath @other)
+        public virtual System.Boolean HasSameDriveLetter(Hvak.Editor.Refleaction.RNiceIO.RNPath @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -2079,7 +2079,7 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual System.String InQuotes(SMFrame.Editor.Refleaction.RNiceIO.RSlashMode @slashMode)
+        public virtual System.String InQuotes(Hvak.Editor.Refleaction.RNiceIO.RSlashMode @slashMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -2101,7 +2101,7 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual System.String ToString(SMFrame.Editor.Refleaction.RNiceIO.RSlashMode @slashMode)
+        public virtual System.String ToString(Hvak.Editor.Refleaction.RNiceIO.RSlashMode @slashMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -2123,7 +2123,7 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RNiceIO.RNPath @p)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RNiceIO.RNPath @p)
         {
 
             var ___genericsType = new Type[] {};
@@ -2134,7 +2134,7 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RNiceIO.RNPath @a, SMFrame.Editor.Refleaction.RNiceIO.RNPath @b)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RNiceIO.RNPath @a, Hvak.Editor.Refleaction.RNiceIO.RNPath @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -2167,7 +2167,7 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RNiceIO.RNPath @a, SMFrame.Editor.Refleaction.RNiceIO.RNPath @b)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RNiceIO.RNPath @a, Hvak.Editor.Refleaction.RNiceIO.RNPath @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -2211,183 +2211,183 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath> Files(System.String @filter, System.Boolean @recurse)
+        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath> Files(System.String @filter, System.Boolean @recurse)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@filter, @recurse};
             var ___result = RMFiles_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath> Files(System.Boolean @recurse)
+        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath> Files(System.Boolean @recurse)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@recurse};
             var ___result = RMFiles_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath> Files(System.String[] @extensions, System.Boolean @recurse)
+        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath> Files(System.String[] @extensions, System.Boolean @recurse)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@extensions, @recurse};
             var ___result = RMFiles_StringArray_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath> Contents(System.String @filter, System.Boolean @recurse)
+        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath> Contents(System.String @filter, System.Boolean @recurse)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@filter, @recurse};
             var ___result = RMContents_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath> Contents(System.Boolean @recurse)
+        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath> Contents(System.Boolean @recurse)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@recurse};
             var ___result = RMContents_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath> Directories(System.String @filter, System.Boolean @recurse)
+        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath> Directories(System.String @filter, System.Boolean @recurse)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@filter, @recurse};
             var ___result = RMDirectories_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath> Directories(System.Boolean @recurse)
+        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath> Directories(System.Boolean @recurse)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@recurse};
             var ___result = RMDirectories_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath CreateFile()
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath CreateFile()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMCreateFile.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath CreateFile(SMFrame.Editor.Refleaction.RNiceIO.RNPath @file)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath CreateFile(Hvak.Editor.Refleaction.RNiceIO.RNPath @file)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@file.Value};
             var ___result = RMCreateFile_NPath.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath CreateDirectory()
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath CreateDirectory()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMCreateDirectory.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath CreateDirectory(SMFrame.Editor.Refleaction.RNiceIO.RNPath @directory)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath CreateDirectory(Hvak.Editor.Refleaction.RNiceIO.RNPath @directory)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@directory.Value};
             var ___result = RMCreateDirectory_NPath.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath CreateSymbolicLink(SMFrame.Editor.Refleaction.RNiceIO.RNPath @targetPath, System.Boolean @targetIsFile)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath CreateSymbolicLink(Hvak.Editor.Refleaction.RNiceIO.RNPath @targetPath, System.Boolean @targetIsFile)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@targetPath.Value, @targetIsFile};
             var ___result = RMCreateSymbolicLink_NPath_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath Copy(SMFrame.Editor.Refleaction.RNiceIO.RNPath @dest)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath Copy(Hvak.Editor.Refleaction.RNiceIO.RNPath @dest)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@dest.Value};
             var ___result = RMCopy_NPath.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath Copy(SMFrame.Editor.Refleaction.RNiceIO.RNPath @dest, SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RNiceIO.RNPath, SMFrame.Editor.Refleaction.RSystem.RBoolean> @fileFilter)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath Copy(Hvak.Editor.Refleaction.RNiceIO.RNPath @dest, Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RNiceIO.RNPath, Hvak.Editor.Refleaction.RSystem.RBoolean> @fileFilter)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@dest.Value, @fileFilter.Value};
             var ___result = RMCopy_NPath_Func_d_NPath_Boolean_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath MakeAbsolute(SMFrame.Editor.Refleaction.RNiceIO.RNPath @base)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath MakeAbsolute(Hvak.Editor.Refleaction.RNiceIO.RNPath @base)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@base.Value};
             var ___result = RMMakeAbsolute_NPath.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath CopyWithDeterminedDestination(SMFrame.Editor.Refleaction.RNiceIO.RNPath @destination, SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RNiceIO.RNPath, SMFrame.Editor.Refleaction.RSystem.RBoolean> @fileFilter)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath CopyWithDeterminedDestination(Hvak.Editor.Refleaction.RNiceIO.RNPath @destination, Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RNiceIO.RNPath, Hvak.Editor.Refleaction.RSystem.RBoolean> @fileFilter)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @fileFilter.Value};
             var ___result = RMCopyWithDeterminedDestination_NPath_Func_d_NPath_Boolean_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual void Delete(SMFrame.Editor.Refleaction.RNiceIO.RDeleteMode @deleteMode)
+        public virtual void Delete(Hvak.Editor.Refleaction.RNiceIO.RDeleteMode @deleteMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -2398,51 +2398,51 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath DeleteIfExists(SMFrame.Editor.Refleaction.RNiceIO.RDeleteMode @deleteMode)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath DeleteIfExists(Hvak.Editor.Refleaction.RNiceIO.RDeleteMode @deleteMode)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@deleteMode.Value};
             var ___result = RMDeleteIfExists_DeleteMode.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath DeleteContents()
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath DeleteContents()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMDeleteContents.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RNiceIO.RNPath CreateTempDirectory(System.String @prefix)
+        public static Hvak.Editor.Refleaction.RNiceIO.RNPath CreateTempDirectory(System.String @prefix)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@prefix};
             var ___result = RMCreateTempDirectory_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath Move(SMFrame.Editor.Refleaction.RNiceIO.RNPath @dest)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath Move(Hvak.Editor.Refleaction.RNiceIO.RNPath @dest)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@dest.Value};
             var ___result = RMMove_NPath.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public static System.IDisposable SetCurrentDirectory(SMFrame.Editor.Refleaction.RNiceIO.RNPath @directory)
+        public static System.IDisposable SetCurrentDirectory(Hvak.Editor.Refleaction.RNiceIO.RNPath @directory)
         {
 
             var ___genericsType = new Type[] {};
@@ -2464,51 +2464,51 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath EnsureDirectoryExists(SMFrame.Editor.Refleaction.RNiceIO.RNPath @append)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath EnsureDirectoryExists(Hvak.Editor.Refleaction.RNiceIO.RNPath @append)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@append.Value};
             var ___result = RMEnsureDirectoryExists_NPath.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath EnsureParentDirectoryExists()
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath EnsureParentDirectoryExists()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMEnsureParentDirectoryExists.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath FileMustExist()
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath FileMustExist()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMFileMustExist.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath DirectoryMustExist()
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath DirectoryMustExist()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMDirectoryMustExist.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual System.Boolean IsChildOf(SMFrame.Editor.Refleaction.RNiceIO.RNPath @potentialBasePath)
+        public virtual System.Boolean IsChildOf(Hvak.Editor.Refleaction.RNiceIO.RNPath @potentialBasePath)
         {
 
             var ___genericsType = new Type[] {};
@@ -2519,7 +2519,7 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual System.Boolean IsSameAsOrChildOf(SMFrame.Editor.Refleaction.RNiceIO.RNPath @potentialBasePath)
+        public virtual System.Boolean IsSameAsOrChildOf(Hvak.Editor.Refleaction.RNiceIO.RNPath @potentialBasePath)
         {
 
             var ___genericsType = new Type[] {};
@@ -2530,47 +2530,47 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath ParentContaining(SMFrame.Editor.Refleaction.RNiceIO.RNPath @needle)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath ParentContaining(Hvak.Editor.Refleaction.RNiceIO.RNPath @needle)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@needle.Value};
             var ___result = RMParentContaining_NPath.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath WriteAllText(System.String @contents)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath WriteAllText(System.String @contents)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@contents};
             var ___result = RMWriteAllText_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath ReplaceAllText(System.String @contents)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath ReplaceAllText(System.String @contents)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@contents};
             var ___result = RMReplaceAllText_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath WriteAllBytes(System.Byte[] @bytes)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath WriteAllBytes(System.Byte[] @bytes)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bytes};
             var ___result = RMWriteAllBytes_ByteArray.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
@@ -2596,14 +2596,14 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath WriteAllLines(System.String[] @contents)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath WriteAllLines(System.String[] @contents)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@contents};
             var ___result = RMWriteAllLines_StringArray.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
@@ -2618,29 +2618,29 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RNiceIO.RNPath> CopyFiles(SMFrame.Editor.Refleaction.RNiceIO.RNPath @destination, System.Boolean @recurse, SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RNiceIO.RNPath, SMFrame.Editor.Refleaction.RSystem.RBoolean> @fileFilter)
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RNiceIO.RNPath> CopyFiles(Hvak.Editor.Refleaction.RNiceIO.RNPath @destination, System.Boolean @recurse, Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RNiceIO.RNPath, Hvak.Editor.Refleaction.RSystem.RBoolean> @fileFilter)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @recurse, @fileFilter.Value};
             var ___result = RMCopyFiles_NPath_Boolean_Func_d_NPath_Boolean_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RNiceIO.RNPath> MoveFiles(SMFrame.Editor.Refleaction.RNiceIO.RNPath @destination, System.Boolean @recurse, SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RNiceIO.RNPath, SMFrame.Editor.Refleaction.RSystem.RBoolean> @fileFilter)
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RNiceIO.RNPath> MoveFiles(Hvak.Editor.Refleaction.RNiceIO.RNPath @destination, System.Boolean @recurse, Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RNiceIO.RNPath, Hvak.Editor.Refleaction.RSystem.RBoolean> @fileFilter)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @recurse, @fileFilter.Value};
             var ___result = RMMoveFiles_NPath_Boolean_Func_d_NPath_Boolean_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
-        public static System.Boolean AlwaysTrue(SMFrame.Editor.Refleaction.RNiceIO.RNPath @p)
+        public static System.Boolean AlwaysTrue(Hvak.Editor.Refleaction.RNiceIO.RNPath @p)
         {
 
             var ___genericsType = new Type[] {};
@@ -2651,25 +2651,25 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public static SMFrame.Editor.Refleaction.RNiceIO.RNPath op_Implicit(System.String @input)
+        public static Hvak.Editor.Refleaction.RNiceIO.RNPath op_Implicit(System.String @input)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input};
             var ___result = RMop_Implicit_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath SetLastWriteTimeUtc(System.DateTime @lastWriteTimeUtc)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath SetLastWriteTimeUtc(System.DateTime @lastWriteTimeUtc)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lastWriteTimeUtc};
             var ___result = RMSetLastWriteTimeUtc_DateTime.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
@@ -2695,7 +2695,7 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public static System.IDisposable WithFileSystem(SMFrame.Editor.Refleaction.RNiceIO.RNPath.RFileSystem @fileSystem)
+        public static System.IDisposable WithFileSystem(Hvak.Editor.Refleaction.RNiceIO.RNPath.RFileSystem @fileSystem)
         {
 
             var ___genericsType = new Type[] {};
@@ -2706,18 +2706,18 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath ResolveWithFileSystem()
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath ResolveWithFileSystem()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMResolveWithFileSystem.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 
-        public virtual System.String InQuotesResolved(SMFrame.Editor.Refleaction.RNiceIO.RSlashMode @slashMode)
+        public virtual System.String InQuotesResolved(Hvak.Editor.Refleaction.RNiceIO.RSlashMode @slashMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -2728,7 +2728,7 @@ namespace SMFrame.Editor.Refleaction.RNiceIO
         }
 
 
-        public static System.IDisposable WithFrozenCurrentDirectory(SMFrame.Editor.Refleaction.RNiceIO.RNPath @frozenCurrentDirectory)
+        public static System.IDisposable WithFrozenCurrentDirectory(Hvak.Editor.Refleaction.RNiceIO.RNPath @frozenCurrentDirectory)
         {
 
             var ___genericsType = new Type[] {};

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {public partial class RRenderChain
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Material standardMaterial
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_FstandardMaterial;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RFstandardMaterial
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_FstandardMaterial;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RFstandardMaterial
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Material initialMaterial
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_FinitialMaterial;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RFinitialMaterial
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_FinitialMaterial;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RFinitialMaterial
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.MaterialPropertyBlock matPropBlock
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyBlock r_FmatPropBlock;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterialPropertyBlock RFmatPropBlock
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyBlock r_FmatPropBlock;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterialPropertyBlock RFmatPropBlock
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderChainCommand firstCommand
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand r_FfirstCommand;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand RFfirstCommand
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand r_FfirstCommand;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand RFfirstCommand
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.UIRenderDevice device
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice r_Fdevice;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice RFdevice
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice r_Fdevice;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice RFdevice
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Texture vectorAtlas
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture r_FvectorAtlas;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture RFvectorAtlas
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_FvectorAtlas;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture RFvectorAtlas
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Texture shaderInfoAtlas
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture r_FshaderInfoAtlas;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture RFshaderInfoAtlas
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_FshaderInfoAtlas;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture RFshaderInfoAtlas
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Single dpiScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FdpiScale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFdpiScale
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FdpiScale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFdpiScale
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.UIElements.UIR.Transform3x4] transformConstants
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> r_FtransformConstants;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> RFtransformConstants
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> r_FtransformConstants;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTransform3x4> RFtransformConstants
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.Vector4] clipRectConstants
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RVector4> r_FclipRectConstants;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RNativeSlice<SMFrame.Editor.Refleaction.RUnityEngine.RVector4> RFclipRectConstants
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RVector4> r_FclipRectConstants;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RVector4> RFclipRectConstants
 		{
 			get
 			{

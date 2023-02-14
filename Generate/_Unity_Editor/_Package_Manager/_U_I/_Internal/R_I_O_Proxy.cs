@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.IOProxy
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String CurrentDirectory
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PCurrentDirectory;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPCurrentDirectory
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PCurrentDirectory;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPCurrentDirectory
 		{
 			get
 			{
@@ -694,14 +694,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RNiceIO.RNPath GetPackageAbsoluteDirectory(System.String @relativePath)
+        public virtual Hvak.Editor.Refleaction.RNiceIO.RNPath GetPackageAbsoluteDirectory(System.String @relativePath)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@relativePath};
             var ___result = RMGetPackageAbsoluteDirectory_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
         }
 
 

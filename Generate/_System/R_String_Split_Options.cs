@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.StringSplitOptions
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.StringSplitOptions None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RStringSplitOptions r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RStringSplitOptions RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RStringSplitOptions r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RStringSplitOptions RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.StringSplitOptions RemoveEmptyEntries
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RStringSplitOptions r_FRemoveEmptyEntries;
-		public static SMFrame.Editor.Refleaction.RSystem.RStringSplitOptions RFRemoveEmptyEntries
+		protected static Hvak.Editor.Refleaction.RSystem.RStringSplitOptions r_FRemoveEmptyEntries;
+		public static Hvak.Editor.Refleaction.RSystem.RStringSplitOptions RFRemoveEmptyEntries
 		{
 			get
 			{

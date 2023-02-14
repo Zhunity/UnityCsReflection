@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {public partial class RYieldAwaitable
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Threading.WaitCallback s_waitCallbackRunAction
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RWaitCallback r_Fs_waitCallbackRunAction;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RWaitCallback RFs_waitCallbackRunAction
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RWaitCallback r_Fs_waitCallbackRunAction;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RWaitCallback RFs_waitCallbackRunAction
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Threading.SendOrPostCallback s_sendOrPostCallbackRunAction
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RSendOrPostCallback r_Fs_sendOrPostCallbackRunAction;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RSendOrPostCallback RFs_sendOrPostCallbackRunAction
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RSendOrPostCallback r_Fs_sendOrPostCallbackRunAction;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RSendOrPostCallback RFs_sendOrPostCallbackRunAction
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
+namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
 {
 	/// <summary>
 	/// UnityEditor.StyleSheets.StyleState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// System.Int64 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState none
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fnone;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFnone
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fnone;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFnone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState all
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fall;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFall
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fall;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFall
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState normal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fnormal;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFnormal
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fnormal;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFnormal
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState active
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Factive;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFactive
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Factive;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFactive
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState anyLink
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FanyLink;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFanyLink
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FanyLink;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFanyLink
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState checked
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fchecked;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFchecked
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fchecked;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFchecked
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fdefault;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFdefault
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fdefault;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFdefault
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState defined
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fdefined;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFdefined
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fdefined;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFdefined
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState disabled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fdisabled;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFdisabled
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fdisabled;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFdisabled
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState empty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fempty;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFempty
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fempty;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFempty
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState enabled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fenabled;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFenabled
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fenabled;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFenabled
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState first
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Ffirst;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFfirst
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Ffirst;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFfirst
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState firstChild
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FfirstChild;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFfirstChild
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FfirstChild;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFfirstChild
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState firstOfType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FfirstOfType;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFfirstOfType
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FfirstOfType;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFfirstOfType
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState fullscreen
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Ffullscreen;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFfullscreen
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Ffullscreen;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFfullscreen
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState focus
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Ffocus;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFfocus
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Ffocus;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFfocus
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState focusVisible
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FfocusVisible;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFfocusVisible
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FfocusVisible;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFfocusVisible
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState host
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fhost;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFhost
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fhost;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFhost
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState hover
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fhover;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFhover
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fhover;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFhover
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState indeterminate
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Findeterminate;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFindeterminate
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Findeterminate;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFindeterminate
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState inRange
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FinRange;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFinRange
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FinRange;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFinRange
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState invalid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Finvalid;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFinvalid
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Finvalid;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFinvalid
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState lastChild
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FlastChild;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFlastChild
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FlastChild;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFlastChild
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState lastOfType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FlastOfType;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFlastOfType
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FlastOfType;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFlastOfType
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState link
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Flink;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFlink
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Flink;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFlink
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState onlyChild
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FonlyChild;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFonlyChild
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FonlyChild;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFonlyChild
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState onlyOfType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FonlyOfType;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFonlyOfType
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FonlyOfType;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFonlyOfType
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState optional
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Foptional;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFoptional
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Foptional;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFoptional
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState outOfRange
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FoutOfRange;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFoutOfRange
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FoutOfRange;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFoutOfRange
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState readOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FreadOnly;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFreadOnly
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FreadOnly;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFreadOnly
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState readWrite
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FreadWrite;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFreadWrite
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_FreadWrite;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFreadWrite
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState required
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Frequired;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFrequired
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Frequired;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFrequired
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState scope
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fscope;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFscope
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fscope;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFscope
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState target
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Ftarget;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFtarget
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Ftarget;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFtarget
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState valid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fvalid;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFvalid
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fvalid;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFvalid
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState visited
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fvisited;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFvisited
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fvisited;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFvisited
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState root
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Froot;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFroot
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Froot;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFroot
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState any
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fany;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFany
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState r_Fany;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState RFany
 		{
 			get
 			{

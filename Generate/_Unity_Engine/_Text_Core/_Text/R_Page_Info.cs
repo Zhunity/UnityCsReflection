@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.PageInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 firstCharacterIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FfirstCharacterIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfirstCharacterIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FfirstCharacterIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfirstCharacterIndex
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 lastCharacterIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FlastCharacterIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlastCharacterIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FlastCharacterIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlastCharacterIndex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single ascender
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fascender;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFascender
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fascender;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFascender
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single baseLine
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FbaseLine;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFbaseLine
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FbaseLine;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFbaseLine
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single descender
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fdescender;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFdescender
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fdescender;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFdescender
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
+namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
 	/// System.Collections.Generic.IEnumerator`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// T Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PCurrent;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPCurrent
+		protected Hvak.Editor.Refleaction.RProperty r_PCurrent;
+		public virtual Hvak.Editor.Refleaction.RProperty RPCurrent
 		{
 			get
 			{

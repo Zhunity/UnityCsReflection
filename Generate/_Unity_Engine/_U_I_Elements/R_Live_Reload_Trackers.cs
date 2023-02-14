@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.LiveReloadTrackers
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.LiveReloadTrackers Document
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLiveReloadTrackers r_FDocument;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLiveReloadTrackers RFDocument
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLiveReloadTrackers r_FDocument;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLiveReloadTrackers RFDocument
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.LiveReloadTrackers Text
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLiveReloadTrackers r_FText;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLiveReloadTrackers RFText
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLiveReloadTrackers r_FText;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLiveReloadTrackers RFText
 		{
 			get
 			{

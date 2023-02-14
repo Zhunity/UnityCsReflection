@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.FontStyle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.FontStyle Normal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RFontStyle r_FNormal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RFontStyle RFNormal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RFontStyle r_FNormal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RFontStyle RFNormal
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.FontStyle Bold
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RFontStyle r_FBold;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RFontStyle RFBold
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RFontStyle r_FBold;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RFontStyle RFBold
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.FontStyle Italic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RFontStyle r_FItalic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RFontStyle RFItalic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RFontStyle r_FItalic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RFontStyle RFItalic
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.FontStyle BoldAndItalic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RFontStyle r_FBoldAndItalic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RFontStyle RFBoldAndItalic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RFontStyle r_FBoldAndItalic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RFontStyle RFBoldAndItalic
 		{
 			get
 			{

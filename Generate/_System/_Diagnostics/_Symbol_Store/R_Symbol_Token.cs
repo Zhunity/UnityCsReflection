@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
+namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 {
 	/// <summary>
 	/// System.Diagnostics.SymbolStore.SymbolToken
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// System.Int32 _token
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_token;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_token
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_token;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_token
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.GraphicsFenceType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.GraphicsFenceType AsyncQueueSynchronisation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RGraphicsFenceType r_FAsyncQueueSynchronisation;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RGraphicsFenceType RFAsyncQueueSynchronisation
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RGraphicsFenceType r_FAsyncQueueSynchronisation;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RGraphicsFenceType RFAsyncQueueSynchronisation
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.GraphicsFenceType CPUSynchronisation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RGraphicsFenceType r_FCPUSynchronisation;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RGraphicsFenceType RFCPUSynchronisation
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RGraphicsFenceType r_FCPUSynchronisation;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RGraphicsFenceType RFCPUSynchronisation
 		{
 			get
 			{

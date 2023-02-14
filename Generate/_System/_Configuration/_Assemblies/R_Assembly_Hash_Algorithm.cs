@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
+namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 {
 	/// <summary>
 	/// System.Configuration.Assemblies.AssemblyHashAlgorithm
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 		/// <summary>
 		/// System.Configuration.Assemblies.AssemblyHashAlgorithm None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 		/// <summary>
 		/// System.Configuration.Assemblies.AssemblyHashAlgorithm MD5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_FMD5;
-		public static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RFMD5
+		protected static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_FMD5;
+		public static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RFMD5
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 		/// <summary>
 		/// System.Configuration.Assemblies.AssemblyHashAlgorithm SHA1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_FSHA1;
-		public static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RFSHA1
+		protected static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_FSHA1;
+		public static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RFSHA1
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 		/// <summary>
 		/// System.Configuration.Assemblies.AssemblyHashAlgorithm SHA256
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_FSHA256;
-		public static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RFSHA256
+		protected static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_FSHA256;
+		public static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RFSHA256
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 		/// <summary>
 		/// System.Configuration.Assemblies.AssemblyHashAlgorithm SHA384
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_FSHA384;
-		public static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RFSHA384
+		protected static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_FSHA384;
+		public static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RFSHA384
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 		/// <summary>
 		/// System.Configuration.Assemblies.AssemblyHashAlgorithm SHA512
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_FSHA512;
-		public static SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RFSHA512
+		protected static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_FSHA512;
+		public static Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RFSHA512
 		{
 			get
 			{

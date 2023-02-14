@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {public partial class RMeshBuilder
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData+Allocator alloc
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData.RAllocator r_Falloc;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData.RAllocator RFalloc
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData.RAllocator r_Falloc;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData.RAllocator RFalloc
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Texture texture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture r_Ftexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture RFtexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_Ftexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture RFtexture
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.TextureId svgTexture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId r_FsvgTexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId RFsvgTexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId r_FsvgTexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId RFsvgTexture
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Material material
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_Fmaterial;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RFmaterial
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_Fmaterial;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RFmaterial
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.MeshGenerationContext+MeshFlags flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext.RMeshFlags r_Fflags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext.RMeshFlags RFflags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext.RMeshFlags r_Fflags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext.RMeshFlags RFflags
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BMPAlloc colorAlloc
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FcolorAlloc;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFcolorAlloc
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FcolorAlloc;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFcolorAlloc
 		{
 			get
 			{

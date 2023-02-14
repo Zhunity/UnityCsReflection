@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.PanelClearSettings
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean clearDepthStencil
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FclearDepthStencil;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFclearDepthStencil
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FclearDepthStencil;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFclearDepthStencil
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean clearColor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FclearColor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFclearColor
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FclearColor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFclearColor
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Color color
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFcolor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFcolor
 		{
 			get
 			{

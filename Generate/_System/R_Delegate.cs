@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.Delegate
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr method_ptr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fmethod_ptr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFmethod_ptr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fmethod_ptr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFmethod_ptr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr invoke_impl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Finvoke_impl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFinvoke_impl
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Finvoke_impl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFinvoke_impl
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Object m_target
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fm_target;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFm_target
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fm_target;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFm_target
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr method
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fmethod;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFmethod
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fmethod;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFmethod
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr delegate_trampoline
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fdelegate_trampoline;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFdelegate_trampoline
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fdelegate_trampoline;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFdelegate_trampoline
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr extra_arg
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fextra_arg;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFextra_arg
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fextra_arg;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFextra_arg
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr method_code
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fmethod_code;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFmethod_code
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fmethod_code;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFmethod_code
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr interp_method
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Finterp_method;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFinterp_method
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Finterp_method;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFinterp_method
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr interp_invoke_impl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Finterp_invoke_impl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFinterp_invoke_impl
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Finterp_invoke_impl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFinterp_invoke_impl
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Reflection.MethodInfo method_info
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo r_Fmethod_info;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo RFmethod_info
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo r_Fmethod_info;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo RFmethod_info
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Reflection.MethodInfo original_method_info
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo r_Foriginal_method_info;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo RForiginal_method_info
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo r_Foriginal_method_info;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo RForiginal_method_info
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.DelegateData data
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDelegateData r_Fdata;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDelegateData RFdata
+		protected Hvak.Editor.Refleaction.RSystem.RDelegateData r_Fdata;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDelegateData RFdata
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean method_is_virtual
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fmethod_is_virtual;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFmethod_is_virtual
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fmethod_is_virtual;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFmethod_is_virtual
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Reflection.MethodInfo Method
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo r_PMethod;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodInfo RPMethod
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo r_PMethod;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RMethodInfo RPMethod
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Object Target
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PTarget;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPTarget
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PTarget;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPTarget
 		{
 			get
 			{
@@ -1394,7 +1394,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate CreateDelegateNoSecurityCheck(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @type, System.Object @firstArgument, System.Reflection.MethodInfo @method)
+        public static System.Delegate CreateDelegateNoSecurityCheck(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type, System.Object @firstArgument, System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};

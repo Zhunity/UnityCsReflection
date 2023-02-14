@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.TextHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector2 m_PreferredSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Fm_PreferredSize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFm_PreferredSize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fm_PreferredSize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFm_PreferredSize
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextInfo m_TextInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo r_Fm_TextInfo;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo RFm_TextInfo
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo r_Fm_TextInfo;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo RFm_TextInfo
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextInfo m_LayoutTextInfo
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo r_Fm_LayoutTextInfo;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo RFm_LayoutTextInfo
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo r_Fm_LayoutTextInfo;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo RFm_LayoutTextInfo
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_PreviousGenerationSettingsHash
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_PreviousGenerationSettingsHash;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_PreviousGenerationSettingsHash
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_PreviousGenerationSettingsHash;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_PreviousGenerationSettingsHash
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextGenerationSettings textGenerationSettings
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings r_FtextGenerationSettings;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings RFtextGenerationSettings
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings r_FtextGenerationSettings;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings RFtextGenerationSettings
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextGenerationSettings s_LayoutSettings
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings r_Fs_LayoutSettings;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings RFs_LayoutSettings
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings r_Fs_LayoutSettings;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings RFs_LayoutSettings
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean isDirty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisDirty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisDirty
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisDirty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisDirty
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextInfo textInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo r_PtextInfo;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo RPtextInfo
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo r_PtextInfo;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo RPtextInfo
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextInfo layoutTextInfo
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo r_PlayoutTextInfo;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo RPlayoutTextInfo
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo r_PlayoutTextInfo;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo RPlayoutTextInfo
 		{
 			get
 			{
@@ -985,7 +985,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Single ComputeTextWidth(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
+        public virtual System.Single ComputeTextWidth(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -996,7 +996,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Single ComputeTextHeight(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
+        public virtual System.Single ComputeTextHeight(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1007,7 +1007,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void UpdatePreferredValues(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
+        public virtual void UpdatePreferredValues(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1018,25 +1018,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo Update(System.String @newText)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo Update(System.String @newText)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newText};
             var ___result = RMUpdate_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo Update(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo Update(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tgs.Value};
             var ___result = RMUpdate_TextGenerationSettings.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo(___result);
         }
 
 

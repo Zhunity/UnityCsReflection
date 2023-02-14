@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.PropertyAttributes
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PropertyAttributes None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PropertyAttributes SpecialName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FSpecialName;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFSpecialName
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FSpecialName;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFSpecialName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PropertyAttributes RTSpecialName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FRTSpecialName;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFRTSpecialName
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FRTSpecialName;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFRTSpecialName
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PropertyAttributes HasDefault
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FHasDefault;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFHasDefault
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FHasDefault;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFHasDefault
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PropertyAttributes Reserved2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FReserved2;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFReserved2
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FReserved2;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFReserved2
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PropertyAttributes Reserved3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FReserved3;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFReserved3
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FReserved3;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFReserved3
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PropertyAttributes Reserved4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FReserved4;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFReserved4
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FReserved4;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFReserved4
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PropertyAttributes ReservedMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FReservedMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFReservedMask
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes r_FReservedMask;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPropertyAttributes RFReservedMask
 		{
 			get
 			{

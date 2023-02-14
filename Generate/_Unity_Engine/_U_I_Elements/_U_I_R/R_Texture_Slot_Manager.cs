@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.TextureSlotManager
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 k_SlotCount
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_SlotCount;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_SlotCount
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_SlotCount;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_SlotCount
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 k_SlotSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_SlotSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_SlotSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_SlotSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_SlotSize
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32[] slotIds
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_FslotIds;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFslotIds
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_FslotIds;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFslotIds
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 textureTableId
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FtextureTableId;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFtextureTableId
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FtextureTableId;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFtextureTableId
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.TextureId[] m_Textures
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId> r_Fm_Textures;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId> RFm_Textures
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId> r_Fm_Textures;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId> RFm_Textures
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32[] m_Tickets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fm_Tickets;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFm_Tickets
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_Tickets;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFm_Tickets
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_CurrentTicket
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_CurrentTicket;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_CurrentTicket
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_CurrentTicket;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_CurrentTicket
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_FirstUsedTicket
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_FirstUsedTicket;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_FirstUsedTicket
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_FirstUsedTicket;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_FirstUsedTicket
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector4[] m_GpuTextures
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector4> r_Fm_GpuTextures;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector4> RFm_GpuTextures
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> r_Fm_GpuTextures;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> RFm_GpuTextures
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 <FreeSlots>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__FreeSlots__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__FreeSlots__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__FreeSlots__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__FreeSlots__1__k__BackingField
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.TextureRegistry textureRegistry
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry r_FtextureRegistry;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry RFtextureRegistry
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry r_FtextureRegistry;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry RFtextureRegistry
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 FreeSlots
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PFreeSlots;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPFreeSlots
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PFreeSlots;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPFreeSlots
 		{
 			get
 			{
@@ -476,7 +476,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Int32 IndexOf(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
+        public virtual System.Int32 IndexOf(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -509,7 +509,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void Bind(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, System.Single @sdfScale, System.Int32 @slot, UnityEngine.MaterialPropertyBlock @mat)
+        public virtual void Bind(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, System.Single @sdfScale, System.Int32 @slot, UnityEngine.MaterialPropertyBlock @mat)
         {
 
             var ___genericsType = new Type[] {};
@@ -520,7 +520,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void SetGpuData(System.Int32 @slotIndex, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, System.Int32 @textureWidth, System.Int32 @textureHeight, System.Single @sdfScale)
+        public virtual void SetGpuData(System.Int32 @slotIndex, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, System.Int32 @textureWidth, System.Int32 @textureHeight, System.Single @sdfScale)
         {
 
             var ___genericsType = new Type[] {};

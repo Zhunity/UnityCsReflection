@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.CalendarData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 MAX_CALENDARS
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMAX_CALENDARS;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMAX_CALENDARS
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMAX_CALENDARS;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMAX_CALENDARS
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sNativeName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FsNativeName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFsNativeName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FsNativeName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFsNativeName
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saShortDates
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaShortDates;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaShortDates
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaShortDates;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaShortDates
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saYearMonths
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaYearMonths;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaYearMonths
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaYearMonths;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaYearMonths
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saLongDates
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaLongDates;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaLongDates
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaLongDates;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaLongDates
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sMonthDay
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FsMonthDay;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFsMonthDay
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FsMonthDay;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFsMonthDay
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saEraNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaEraNames;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaEraNames
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaEraNames;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaEraNames
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saAbbrevEraNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaAbbrevEraNames;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaAbbrevEraNames
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaAbbrevEraNames;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaAbbrevEraNames
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saAbbrevEnglishEraNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaAbbrevEnglishEraNames;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaAbbrevEnglishEraNames
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaAbbrevEnglishEraNames;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaAbbrevEnglishEraNames
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saDayNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaDayNames;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaDayNames
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaDayNames;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaDayNames
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saAbbrevDayNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaAbbrevDayNames;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaAbbrevDayNames
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaAbbrevDayNames;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaAbbrevDayNames
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saSuperShortDayNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaSuperShortDayNames;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaSuperShortDayNames
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaSuperShortDayNames;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaSuperShortDayNames
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saMonthNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaMonthNames;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaMonthNames
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaMonthNames;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaMonthNames
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saAbbrevMonthNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaAbbrevMonthNames;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaAbbrevMonthNames
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaAbbrevMonthNames;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaAbbrevMonthNames
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saMonthGenitiveNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaMonthGenitiveNames;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaMonthGenitiveNames
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaMonthGenitiveNames;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaMonthGenitiveNames
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saAbbrevMonthGenitiveNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaAbbrevMonthGenitiveNames;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaAbbrevMonthGenitiveNames
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaAbbrevMonthGenitiveNames;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaAbbrevMonthGenitiveNames
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saLeapYearMonthNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FsaLeapYearMonthNames;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFsaLeapYearMonthNames
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FsaLeapYearMonthNames;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFsaLeapYearMonthNames
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iTwoDigitYearMax
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FiTwoDigitYearMax;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFiTwoDigitYearMax
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FiTwoDigitYearMax;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFiTwoDigitYearMax
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iCurrentEra
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FiCurrentEra;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFiCurrentEra
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FiCurrentEra;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFiCurrentEra
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean bUseUserOverrides
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FbUseUserOverrides;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFbUseUserOverrides
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FbUseUserOverrides;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFbUseUserOverrides
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarData Invariant
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarData r_FInvariant;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarData RFInvariant
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData r_FInvariant;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData RFInvariant
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] HEBREW_MONTH_NAMES
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FHEBREW_MONTH_NAMES;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFHEBREW_MONTH_NAMES
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FHEBREW_MONTH_NAMES;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFHEBREW_MONTH_NAMES
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] HEBREW_LEAP_MONTH_NAMES
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FHEBREW_LEAP_MONTH_NAMES;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFHEBREW_LEAP_MONTH_NAMES
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FHEBREW_LEAP_MONTH_NAMES;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFHEBREW_LEAP_MONTH_NAMES
 		{
 			get
 			{
@@ -719,14 +719,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarData GetCalendarData(System.Int32 @calendarId)
+        public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData GetCalendarData(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@calendarId};
             var ___result = RMGetCalendarData_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarData(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData(___result);
         }
 
 
@@ -752,7 +752,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Boolean nativeGetCalendarData(SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarData @data, System.String @localeName, System.Int32 @calendarId)
+        public static System.Boolean nativeGetCalendarData(Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData @data, System.String @localeName, System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};

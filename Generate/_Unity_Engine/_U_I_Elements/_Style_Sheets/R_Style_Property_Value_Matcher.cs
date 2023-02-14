@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSheets.StylePropertyValueMatcher
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSheets.StylePropertyValue] m_Values
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> r_Fm_Values;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> RFm_Values
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> r_Fm_Values;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> RFm_Values
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StylePropertyValue current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue r_Pcurrent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue RPcurrent
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue r_Pcurrent;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue RPcurrent
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Int32 valueCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PvalueCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPvalueCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PvalueCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPvalueCount
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Boolean isCurrentVariable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisCurrentVariable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisCurrentVariable
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisCurrentVariable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisCurrentVariable
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Boolean isCurrentComma
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisCurrentComma;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisCurrentComma
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisCurrentComma;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisCurrentComma
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Boolean hasCurrent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasCurrent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasCurrent
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasCurrent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasCurrent
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Int32 currentIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PcurrentIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPcurrentIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PcurrentIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPcurrentIndex
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Int32 matchedVariableCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmatchedVariableCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmatchedVariableCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmatchedVariableCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmatchedVariableCount
 		{
 			get
 			{
@@ -573,14 +573,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResult Match(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression @exp, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> @values)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResult Match(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression @exp, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> @values)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@exp.Value, @values.Value};
             var ___result = RMMatch_Expression_List_d_StylePropertyValue_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResult(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResult(___result);
         }
 
 
@@ -760,7 +760,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual System.Boolean Match(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression @exp)
+        public virtual System.Boolean Match(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression @exp)
         {
 
             var ___genericsType = new Type[] {};

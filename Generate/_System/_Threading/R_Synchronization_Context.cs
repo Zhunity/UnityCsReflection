@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.SynchronizationContext
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SynchronizationContextProperties _props
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContextProperties r_F_props;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContextProperties RF_props
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContextProperties r_F_props;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContextProperties RF_props
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Type s_cachedPreparedType1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RType r_Fs_cachedPreparedType1;
-		public static SMFrame.Editor.Refleaction.RSystem.RType RFs_cachedPreparedType1
+		protected static Hvak.Editor.Refleaction.RSystem.RType r_Fs_cachedPreparedType1;
+		public static Hvak.Editor.Refleaction.RSystem.RType RFs_cachedPreparedType1
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Type s_cachedPreparedType2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RType r_Fs_cachedPreparedType2;
-		public static SMFrame.Editor.Refleaction.RSystem.RType RFs_cachedPreparedType2
+		protected static Hvak.Editor.Refleaction.RSystem.RType r_Fs_cachedPreparedType2;
+		public static Hvak.Editor.Refleaction.RSystem.RType RFs_cachedPreparedType2
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Type s_cachedPreparedType3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RType r_Fs_cachedPreparedType3;
-		public static SMFrame.Editor.Refleaction.RSystem.RType RFs_cachedPreparedType3
+		protected static Hvak.Editor.Refleaction.RSystem.RType r_Fs_cachedPreparedType3;
+		public static Hvak.Editor.Refleaction.RSystem.RType RFs_cachedPreparedType3
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Type s_cachedPreparedType4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RType r_Fs_cachedPreparedType4;
-		public static SMFrame.Editor.Refleaction.RSystem.RType RFs_cachedPreparedType4
+		protected static Hvak.Editor.Refleaction.RSystem.RType r_Fs_cachedPreparedType4;
+		public static Hvak.Editor.Refleaction.RSystem.RType RFs_cachedPreparedType4
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Type s_cachedPreparedType5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RType r_Fs_cachedPreparedType5;
-		public static SMFrame.Editor.Refleaction.RSystem.RType RFs_cachedPreparedType5
+		protected static Hvak.Editor.Refleaction.RSystem.RType r_Fs_cachedPreparedType5;
+		public static Hvak.Editor.Refleaction.RSystem.RType RFs_cachedPreparedType5
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SynchronizationContext Current
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_PCurrent;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RPCurrent
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_PCurrent;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RPCurrent
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SynchronizationContext CurrentNoFlow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_PCurrentNoFlow;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RPCurrentNoFlow
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_PCurrentNoFlow;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RPCurrentNoFlow
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SynchronizationContext CurrentExplicit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_PCurrentExplicit;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RPCurrentExplicit
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext r_PCurrentExplicit;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RSynchronizationContext RPCurrentExplicit
 		{
 			get
 			{

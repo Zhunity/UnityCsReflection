@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.ClickDetector
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.ClickDetector+ButtonClickStatus] m_ClickStatus
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClickDetector.RButtonClickStatus> r_Fm_ClickStatus;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClickDetector.RButtonClickStatus> RFm_ClickStatus
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClickDetector.RButtonClickStatus> r_Fm_ClickStatus;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClickDetector.RButtonClickStatus> RFm_ClickStatus
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <s_DoubleClickTime>k__BackingField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__s_DoubleClickTime__1__k__BackingField;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__s_DoubleClickTime__1__k__BackingField
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__s_DoubleClickTime__1__k__BackingField;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__s_DoubleClickTime__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 s_DoubleClickTime
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ps_DoubleClickTime;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RPs_DoubleClickTime
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Ps_DoubleClickTime;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RPs_DoubleClickTime
 		{
 			get
 			{

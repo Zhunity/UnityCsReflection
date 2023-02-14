@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.Label
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 label
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Flabel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlabel
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Flabel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlabel
 		{
 			get
 			{

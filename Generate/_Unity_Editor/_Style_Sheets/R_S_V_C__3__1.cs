@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
+namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
 {
 	/// <summary>
 	/// UnityEditor.StyleSheets.SVC`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// T m_Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_Fm_Value;
-		public virtual SMFrame.Editor.Refleaction.RField RFm_Value
+		protected Hvak.Editor.Refleaction.RField r_Fm_Value;
+		public virtual Hvak.Editor.Refleaction.RField RFm_Value
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// System.Int32 m_Key
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Key;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Key
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Key;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Key
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// System.Int32 m_Prop
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Prop;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Prop
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Prop;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Prop
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// UnityEditor.StyleSheets.StyleState[] m_States
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState> r_Fm_States;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState> RFm_States
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState> r_Fm_States;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RStyleState> RFm_States
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// System.Boolean m_Initialized
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_Initialized;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_Initialized
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_Initialized;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_Initialized
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// System.Func`1[T] m_LateInitHandler
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RField> r_Fm_LateInitHandler;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RField> RFm_LateInitHandler
+		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RField> r_Fm_LateInitHandler;
+		public virtual Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RField> RFm_LateInitHandler
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// T value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_Pvalue;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPvalue
+		protected Hvak.Editor.Refleaction.RProperty r_Pvalue;
+		public virtual Hvak.Editor.Refleaction.RProperty RPvalue
 		{
 			get
 			{
@@ -301,7 +301,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 	    {
 	    }
 
-        public static T op_Implicit(SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets.RSVC<SMFrame.Editor.Refleaction.RType> @sc)
+        public static T op_Implicit(Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RSVC<Hvak.Editor.Refleaction.RType> @sc)
         {
 
             var ___genericsType = new Type[] {};

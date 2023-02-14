@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.RendererList
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UIntPtr context
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUIntPtr r_Fcontext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUIntPtr RFcontext
+		protected Hvak.Editor.Refleaction.RSystem.RUIntPtr r_Fcontext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUIntPtr RFcontext
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Findex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFindex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Findex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFindex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 frame
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fframe;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFframe
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fframe;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFframe
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Ftype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFtype
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Ftype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFtype
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RendererList nullRendererList
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRendererList r_FnullRendererList;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRendererList RFnullRendererList
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRendererList r_FnullRendererList;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRendererList RFnullRendererList
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisValid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisValid
 		{
 			get
 			{

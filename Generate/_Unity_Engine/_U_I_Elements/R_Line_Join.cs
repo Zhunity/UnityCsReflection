@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.LineJoin
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.LineJoin Miter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin r_FMiter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin RFMiter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin r_FMiter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin RFMiter
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.LineJoin Bevel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin r_FBevel;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin RFBevel
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin r_FBevel;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin RFBevel
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.LineJoin Round
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin r_FRound;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin RFRound
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin r_FRound;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLineJoin RFRound
 		{
 			get
 			{

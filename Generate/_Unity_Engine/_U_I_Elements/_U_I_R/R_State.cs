@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.State
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Material material
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_Fmaterial;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RFmaterial
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_Fmaterial;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RFmaterial
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.TextureId texture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId r_Ftexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId RFtexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId r_Ftexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId RFtexture
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 stencilRef
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FstencilRef;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFstencilRef
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FstencilRef;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFstencilRef
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Single sdfScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FsdfScale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFsdfScale
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FsdfScale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFsdfScale
 		{
 			get
 			{

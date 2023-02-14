@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RIO
+namespace Hvak.Editor.Refleaction.RSystem.RIO
 {
 	/// <summary>
 	/// System.IO.BinaryWriter
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.BinaryWriter Null
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RBinaryWriter r_FNull;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RBinaryWriter RFNull
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RBinaryWriter r_FNull;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RBinaryWriter RFNull
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.Stream OutStream
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIO.RStream r_FOutStream;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIO.RStream RFOutStream
+		protected Hvak.Editor.Refleaction.RSystem.RIO.RStream r_FOutStream;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIO.RStream RFOutStream
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Byte[] _buffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_F_buffer;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RF_buffer
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_F_buffer;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RF_buffer
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Text.Encoding _encoding
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_F_encoding;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoding RF_encoding
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoding r_F_encoding;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoding RF_encoding
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Text.Encoder _encoder
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoder r_F_encoder;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoder RF_encoder
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoder r_F_encoder;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoder RF_encoder
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Boolean _leaveOpen
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_leaveOpen;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_leaveOpen
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_leaveOpen;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_leaveOpen
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Char[] _tmpOneCharBuffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> r_F_tmpOneCharBuffer;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> RF_tmpOneCharBuffer
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> r_F_tmpOneCharBuffer;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> RF_tmpOneCharBuffer
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Byte[] _largeByteBuffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_F_largeByteBuffer;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RF_largeByteBuffer
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_F_largeByteBuffer;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RF_largeByteBuffer
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 _maxChars
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_maxChars;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_maxChars
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_maxChars;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_maxChars
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 LargeByteBufferSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FLargeByteBufferSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFLargeByteBufferSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FLargeByteBufferSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFLargeByteBufferSize
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.Stream BaseStream
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIO.RStream r_PBaseStream;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIO.RStream RPBaseStream
+		protected Hvak.Editor.Refleaction.RSystem.RIO.RStream r_PBaseStream;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIO.RStream RPBaseStream
 		{
 			get
 			{
@@ -832,7 +832,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RByte> @buffer)
+        public virtual void Write(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RByte> @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -843,7 +843,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @buffer)
+        public virtual void Write(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @buffer)
         {
 
             var ___genericsType = new Type[] {};

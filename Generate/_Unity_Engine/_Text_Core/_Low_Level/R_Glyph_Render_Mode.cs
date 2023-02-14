@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
 	/// UnityEngine.TextCore.LowLevel.GlyphRenderMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode SMOOTH_HINTED
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSMOOTH_HINTED;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSMOOTH_HINTED
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSMOOTH_HINTED;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSMOOTH_HINTED
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode SMOOTH
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSMOOTH;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSMOOTH
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSMOOTH;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSMOOTH
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode COLOR_HINTED
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FCOLOR_HINTED;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFCOLOR_HINTED
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FCOLOR_HINTED;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFCOLOR_HINTED
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode COLOR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FCOLOR;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFCOLOR
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FCOLOR;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFCOLOR
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode RASTER_HINTED
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FRASTER_HINTED;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFRASTER_HINTED
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FRASTER_HINTED;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFRASTER_HINTED
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode RASTER
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FRASTER;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFRASTER
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FRASTER;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFRASTER
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode SDF
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSDF;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSDF
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSDF;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSDF
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode SDF8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSDF8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSDF8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSDF8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSDF8
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode SDF16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSDF16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSDF16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSDF16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSDF16
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode SDF32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSDF32;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSDF32
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSDF32;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSDF32
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode SDFAA_HINTED
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSDFAA_HINTED;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSDFAA_HINTED
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSDFAA_HINTED;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSDFAA_HINTED
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode SDFAA
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSDFAA;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSDFAA
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FSDFAA;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFSDFAA
 		{
 			get
 			{

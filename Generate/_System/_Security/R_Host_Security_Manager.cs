@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 {
 	/// <summary>
 	/// System.Security.HostSecurityManager
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.Policy.PolicyLevel DomainPolicy
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyLevel r_PDomainPolicy;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyLevel RPDomainPolicy
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyLevel r_PDomainPolicy;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyLevel RPDomainPolicy
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.HostSecurityManagerOptions Flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_PFlags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RPFlags
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_PFlags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RPFlags
 		{
 			get
 			{

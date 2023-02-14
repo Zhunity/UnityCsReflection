@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.LocalDataStore
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.LocalDataStoreElement[] m_DataTable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreElement> r_Fm_DataTable;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreElement> RFm_DataTable
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RLocalDataStoreElement> r_Fm_DataTable;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RLocalDataStoreElement> RFm_DataTable
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.LocalDataStoreMgr m_Manager
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreMgr r_Fm_Manager;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreMgr RFm_Manager
+		protected Hvak.Editor.Refleaction.RSystem.RLocalDataStoreMgr r_Fm_Manager;
+		public virtual Hvak.Editor.Refleaction.RSystem.RLocalDataStoreMgr RFm_Manager
 		{
 			get
 			{
@@ -294,14 +294,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreElement PopulateElement(System.LocalDataStoreSlot @slot)
+        public virtual Hvak.Editor.Refleaction.RSystem.RLocalDataStoreElement PopulateElement(System.LocalDataStoreSlot @slot)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@slot};
             var ___result = RMPopulateElement_LocalDataStoreSlot.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreElement(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RLocalDataStoreElement(___result);
         }
 
 

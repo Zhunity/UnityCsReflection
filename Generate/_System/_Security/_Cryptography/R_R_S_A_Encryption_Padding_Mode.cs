@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 {
 	/// <summary>
 	/// System.Security.Cryptography.RSAEncryptionPaddingMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPaddingMode Pkcs1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode r_FPkcs1;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode RFPkcs1
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode r_FPkcs1;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode RFPkcs1
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPaddingMode Oaep
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode r_FOaep;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode RFOaep
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode r_FOaep;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSAEncryptionPaddingMode RFOaep
 		{
 			get
 			{

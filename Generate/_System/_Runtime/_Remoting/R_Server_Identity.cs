@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 {
 	/// <summary>
 	/// System.Runtime.Remoting.ServerIdentity
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Type _objectType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_F_objectType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RF_objectType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_F_objectType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RF_objectType
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.MarshalByRefObject _serverObject
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RMarshalByRefObject r_F_serverObject;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RMarshalByRefObject RF_serverObject
+		protected Hvak.Editor.Refleaction.RSystem.RMarshalByRefObject r_F_serverObject;
+		public virtual Hvak.Editor.Refleaction.RSystem.RMarshalByRefObject RF_serverObject
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageSink _serverSink
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_F_serverSink;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RF_serverSink
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_F_serverSink;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RF_serverSink
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.Contexts.Context _context
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext r_F_context;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext RF_context
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext r_F_context;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext RF_context
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.Lifetime.Lease _lease
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLease r_F_lease;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLease RF_lease
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLease r_F_lease;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLease RF_lease
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.String _objectUri
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_objectUri;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_objectUri
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_objectUri;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_objectUri
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageSink _channelSink
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_F_channelSink;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RF_channelSink
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_F_channelSink;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RF_channelSink
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageSink _envoySink
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_F_envoySink;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RF_envoySink
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_F_envoySink;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RF_envoySink
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.ObjRef _objRef
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RObjRef r_F_objRef;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RObjRef RF_objRef
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RObjRef r_F_objRef;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RObjRef RF_objRef
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Type ObjectType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PObjectType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPObjectType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PObjectType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPObjectType
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.Lifetime.Lease Lease
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLease r_PLease;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLease RPLease
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLease r_PLease;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime.RLease RPLease
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.Contexts.Context Context
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext r_PContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext RPContext
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext r_PContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext RPContext
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// Boolean IsFromThisAppDomain
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsFromThisAppDomain;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsFromThisAppDomain
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsFromThisAppDomain;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsFromThisAppDomain
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageSink ChannelSink
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_PChannelSink;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RPChannelSink
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_PChannelSink;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RPChannelSink
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageSink EnvoySink
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_PEnvoySink;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RPEnvoySink
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_PEnvoySink;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RPEnvoySink
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.String ObjectUri
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PObjectUri;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPObjectUri
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PObjectUri;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPObjectUri
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// Boolean IsConnected
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsConnected;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsConnected
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsConnected;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsConnected
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// Boolean Disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PDisposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPDisposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PDisposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPDisposed
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.Contexts.DynamicPropertyCollection ClientDynamicProperties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection r_PClientDynamicProperties;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection RPClientDynamicProperties
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection r_PClientDynamicProperties;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection RPClientDynamicProperties
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.Contexts.DynamicPropertyCollection ServerDynamicProperties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection r_PServerDynamicProperties;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection RPServerDynamicProperties
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection r_PServerDynamicProperties;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection RPServerDynamicProperties
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// Boolean HasClientDynamicSinks
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasClientDynamicSinks;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasClientDynamicSinks
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasClientDynamicSinks;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasClientDynamicSinks
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// Boolean HasServerDynamicSinks
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasServerDynamicSinks;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasServerDynamicSinks
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasServerDynamicSinks;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasServerDynamicSinks
 		{
 			get
 			{

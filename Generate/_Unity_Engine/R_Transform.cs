@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Transform
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 position
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Pposition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPposition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Pposition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPposition
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 localPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_PlocalPosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPlocalPosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_PlocalPosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPlocalPosition
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 eulerAngles
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_PeulerAngles;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPeulerAngles
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_PeulerAngles;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPeulerAngles
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 localEulerAngles
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_PlocalEulerAngles;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPlocalEulerAngles
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_PlocalEulerAngles;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPlocalEulerAngles
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 right
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Pright;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPright
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Pright;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPright
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 up
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Pup;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPup
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Pup;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPup
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 forward
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Pforward;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPforward
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Pforward;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPforward
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Quaternion rotation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RQuaternion r_Protation;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RQuaternion RProtation
+		protected Hvak.Editor.Refleaction.RUnityEngine.RQuaternion r_Protation;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RQuaternion RProtation
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Quaternion localRotation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RQuaternion r_PlocalRotation;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RQuaternion RPlocalRotation
+		protected Hvak.Editor.Refleaction.RUnityEngine.RQuaternion r_PlocalRotation;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RQuaternion RPlocalRotation
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RotationOrder rotationOrder
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder r_ProtationOrder;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder RProtationOrder
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder r_ProtationOrder;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder RProtationOrder
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 localScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_PlocalScale;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPlocalScale
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_PlocalScale;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPlocalScale
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Transform parent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTransform r_Pparent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTransform RPparent
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTransform r_Pparent;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTransform RPparent
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Transform parentInternal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTransform r_PparentInternal;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTransform RPparentInternal
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTransform r_PparentInternal;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTransform RPparentInternal
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Matrix4x4 worldToLocalMatrix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PworldToLocalMatrix;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPworldToLocalMatrix
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PworldToLocalMatrix;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPworldToLocalMatrix
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Matrix4x4 localToWorldMatrix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PlocalToWorldMatrix;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPlocalToWorldMatrix
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PlocalToWorldMatrix;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPlocalToWorldMatrix
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Transform root
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTransform r_Proot;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTransform RProot
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTransform r_Proot;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTransform RProot
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 childCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PchildCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPchildCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PchildCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPchildCount
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 lossyScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_PlossyScale;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPlossyScale
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_PlossyScale;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPlossyScale
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean hasChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasChanged
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasChanged
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 hierarchyCapacity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PhierarchyCapacity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPhierarchyCapacity
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PhierarchyCapacity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPhierarchyCapacity
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 hierarchyCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PhierarchyCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPhierarchyCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PhierarchyCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPhierarchyCount
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean constrainProportionsScale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PconstrainProportionsScale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPconstrainProportionsScale
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PconstrainProportionsScale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPconstrainProportionsScale
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Transform transform
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTransform r_Ptransform;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTransform RPtransform
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTransform r_Ptransform;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTransform RPtransform
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GameObject gameObject
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGameObject r_PgameObject;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGameObject RPgameObject
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGameObject r_PgameObject;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGameObject RPgameObject
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String tag
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptag;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtag
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptag;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtag
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component rigidbody
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Prigidbody;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPrigidbody
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Prigidbody;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPrigidbody
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component rigidbody2D
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Prigidbody2D;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPrigidbody2D
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Prigidbody2D;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPrigidbody2D
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component camera
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Pcamera;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPcamera
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Pcamera;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPcamera
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component light
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Plight;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPlight
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Plight;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPlight
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component animation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Panimation;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPanimation
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Panimation;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPanimation
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component constantForce
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_PconstantForce;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPconstantForce
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_PconstantForce;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPconstantForce
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component renderer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Prenderer;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPrenderer
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Prenderer;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPrenderer
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component audio
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Paudio;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPaudio
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Paudio;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPaudio
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component networkView
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_PnetworkView;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPnetworkView
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_PnetworkView;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPnetworkView
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component collider
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Pcollider;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPcollider
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Pcollider;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPcollider
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component collider2D
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Pcollider2D;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPcollider2D
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Pcollider2D;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPcollider2D
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component hingeJoint
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_PhingeJoint;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPhingeJoint
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_PhingeJoint;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPhingeJoint
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component particleSystem
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_PparticleSystem;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPparticleSystem
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_PparticleSystem;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPparticleSystem
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{
@@ -3480,7 +3480,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual UnityEngine.Vector3 GetLocalEulerAngles(SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder @order)
+        public virtual UnityEngine.Vector3 GetLocalEulerAngles(Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder @order)
         {
 
             var ___genericsType = new Type[] {};
@@ -3491,7 +3491,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetLocalEulerAngles(UnityEngine.Vector3 @euler, SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder @order)
+        public virtual void SetLocalEulerAngles(UnityEngine.Vector3 @euler, Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder @order)
         {
 
             var ___genericsType = new Type[] {};
@@ -3524,7 +3524,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetRotationOrderInternal(SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder @rotationOrder)
+        public virtual void SetRotationOrderInternal(Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder @rotationOrder)
         {
 
             var ___genericsType = new Type[] {};
@@ -3862,7 +3862,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void TransformDirections(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @directions, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @transformedDirections)
+        public virtual void TransformDirections(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @directions, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @transformedDirections)
         {
 
             var ___genericsType = new Type[] {};
@@ -3873,7 +3873,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void TransformDirections(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @directions)
+        public virtual void TransformDirections(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @directions)
         {
 
             var ___genericsType = new Type[] {};
@@ -3917,7 +3917,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void InverseTransformDirections(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @directions, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @transformedDirections)
+        public virtual void InverseTransformDirections(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @directions, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @transformedDirections)
         {
 
             var ___genericsType = new Type[] {};
@@ -3928,7 +3928,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void InverseTransformDirections(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @directions)
+        public virtual void InverseTransformDirections(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @directions)
         {
 
             var ___genericsType = new Type[] {};
@@ -3972,7 +3972,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void TransformVectors(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @vectors, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @transformedVectors)
+        public virtual void TransformVectors(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @vectors, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @transformedVectors)
         {
 
             var ___genericsType = new Type[] {};
@@ -3983,7 +3983,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void TransformVectors(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @vectors)
+        public virtual void TransformVectors(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @vectors)
         {
 
             var ___genericsType = new Type[] {};
@@ -4027,7 +4027,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void InverseTransformVectors(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @vectors, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @transformedVectors)
+        public virtual void InverseTransformVectors(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @vectors, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @transformedVectors)
         {
 
             var ___genericsType = new Type[] {};
@@ -4038,7 +4038,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void InverseTransformVectors(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @vectors)
+        public virtual void InverseTransformVectors(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @vectors)
         {
 
             var ___genericsType = new Type[] {};
@@ -4082,7 +4082,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void TransformPoints(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @positions, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @transformedPositions)
+        public virtual void TransformPoints(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @positions, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @transformedPositions)
         {
 
             var ___genericsType = new Type[] {};
@@ -4093,7 +4093,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void TransformPoints(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @positions)
+        public virtual void TransformPoints(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @positions)
         {
 
             var ___genericsType = new Type[] {};
@@ -4137,7 +4137,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void InverseTransformPoints(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @positions, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @transformedPositions)
+        public virtual void InverseTransformPoints(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @positions, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @transformedPositions)
         {
 
             var ___genericsType = new Type[] {};
@@ -4148,7 +4148,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void InverseTransformPoints(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> @positions)
+        public virtual void InverseTransformPoints(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @positions)
         {
 
             var ___genericsType = new Type[] {};
@@ -4462,7 +4462,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetLocalEulerAngles_Injected(SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder @order, out UnityEngine.Vector3 @ret)
+        public virtual void GetLocalEulerAngles_Injected(Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder @order, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -4475,7 +4475,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetLocalEulerAngles_Injected(ref UnityEngine.Vector3 @euler, SMFrame.Editor.Refleaction.RUnityEngine.RRotationOrder @order)
+        public virtual void SetLocalEulerAngles_Injected(ref UnityEngine.Vector3 @euler, Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder @order)
         {
 
             var ___genericsType = new Type[] {};

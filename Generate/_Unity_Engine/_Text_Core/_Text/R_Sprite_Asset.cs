@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.SpriteAsset
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,System.Int32] m_NameLookup
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fm_NameLookup;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RSystem.RInt32> RFm_NameLookup
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_NameLookup;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RInt32> RFm_NameLookup
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,System.Int32] m_GlyphIndexLookup
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RUInt32, SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fm_GlyphIndexLookup;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RUInt32, SMFrame.Editor.Refleaction.RSystem.RInt32> RFm_GlyphIndexLookup
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RUInt32, Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_GlyphIndexLookup;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RUInt32, Hvak.Editor.Refleaction.RSystem.RInt32> RFm_GlyphIndexLookup
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.FaceInfo m_FaceInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RFaceInfo r_Fm_FaceInfo;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RFaceInfo RFm_FaceInfo
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RFaceInfo r_Fm_FaceInfo;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RFaceInfo RFm_FaceInfo
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Texture m_SpriteAtlasTexture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture r_Fm_SpriteAtlasTexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture RFm_SpriteAtlasTexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_Fm_SpriteAtlasTexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture RFm_SpriteAtlasTexture
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.SpriteCharacter] m_SpriteCharacterTable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> r_Fm_SpriteCharacterTable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> RFm_SpriteCharacterTable
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> r_Fm_SpriteCharacterTable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> RFm_SpriteCharacterTable
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.Text.SpriteCharacter] m_SpriteCharacterLookup
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RUInt32, SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> r_Fm_SpriteCharacterLookup;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RUInt32, SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> RFm_SpriteCharacterLookup
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RUInt32, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> r_Fm_SpriteCharacterLookup;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RUInt32, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> RFm_SpriteCharacterLookup
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.SpriteGlyph] m_SpriteGlyphTable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteGlyph> r_Fm_SpriteGlyphTable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteGlyph> RFm_SpriteGlyphTable
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteGlyph> r_Fm_SpriteGlyphTable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteGlyph> RFm_SpriteGlyphTable
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.Text.SpriteGlyph] m_SpriteGlyphLookup
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RUInt32, SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteGlyph> r_Fm_SpriteGlyphLookup;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RUInt32, SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteGlyph> RFm_SpriteGlyphLookup
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RUInt32, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteGlyph> r_Fm_SpriteGlyphLookup;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RUInt32, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteGlyph> RFm_SpriteGlyphLookup
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.SpriteAsset] fallbackSpriteAssets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset> r_FfallbackSpriteAssets;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset> RFfallbackSpriteAssets
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset> r_FfallbackSpriteAssets;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset> RFfallbackSpriteAssets
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean m_IsSpriteAssetLookupTablesDirty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_IsSpriteAssetLookupTablesDirty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_IsSpriteAssetLookupTablesDirty
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsSpriteAssetLookupTablesDirty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsSpriteAssetLookupTablesDirty
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] k_searchedSpriteAssets
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fk_searchedSpriteAssets;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RInt32> RFk_searchedSpriteAssets
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fk_searchedSpriteAssets;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RInt32> RFk_searchedSpriteAssets
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_Version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Version;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Version
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Version;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Version
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_InstanceID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_InstanceID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_InstanceID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_InstanceID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_InstanceID
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_HashCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_HashCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_HashCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_HashCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_HashCode
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Material m_Material
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_Fm_Material;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RFm_Material
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_Fm_Material;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RFm_Material
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_MaterialHashCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_MaterialHashCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_MaterialHashCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_MaterialHashCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_MaterialHashCode
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.FaceInfo faceInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RFaceInfo r_PfaceInfo;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RFaceInfo RPfaceInfo
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RFaceInfo r_PfaceInfo;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RFaceInfo RPfaceInfo
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Texture spriteSheet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture r_PspriteSheet;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture RPspriteSheet
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_PspriteSheet;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture RPspriteSheet
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.SpriteCharacter] spriteCharacterTable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> r_PspriteCharacterTable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> RPspriteCharacterTable
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> r_PspriteCharacterTable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> RPspriteCharacterTable
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.Text.SpriteCharacter] spriteCharacterLookupTable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RUInt32, SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> r_PspriteCharacterLookupTable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RUInt32, SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> RPspriteCharacterLookupTable
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RUInt32, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> r_PspriteCharacterLookupTable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RUInt32, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteCharacter> RPspriteCharacterLookupTable
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.TextCore.Text.SpriteGlyph] spriteGlyphTable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteGlyph> r_PspriteGlyphTable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteGlyph> RPspriteGlyphTable
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteGlyph> r_PspriteGlyphTable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteGlyph> RPspriteGlyphTable
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pversion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPversion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pversion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPversion
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 instanceID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PinstanceID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPinstanceID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PinstanceID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPinstanceID
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 hashCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PhashCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPhashCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PhashCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPhashCode
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Material material
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_Pmaterial;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RPmaterial
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_Pmaterial;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RPmaterial
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 materialHashCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmaterialHashCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmaterialHashCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmaterialHashCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmaterialHashCode
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{

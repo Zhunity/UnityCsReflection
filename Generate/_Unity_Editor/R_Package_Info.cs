@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.PackageInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String packagePath
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpackagePath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpackagePath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpackagePath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpackagePath
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String jsonInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FjsonInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFjsonInfo
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FjsonInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFjsonInfo
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String iconURL
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FiconURL;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFiconURL
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FiconURL;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFiconURL
 		{
 			get
 			{

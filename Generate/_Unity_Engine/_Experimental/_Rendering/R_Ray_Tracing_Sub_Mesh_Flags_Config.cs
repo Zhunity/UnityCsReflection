@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Experimental.Rendering.RayTracingSubMeshFlagsConfig
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags opaqueMaterials
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlags r_FopaqueMaterials;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlags RFopaqueMaterials
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlags r_FopaqueMaterials;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlags RFopaqueMaterials
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags transparentMaterials
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlags r_FtransparentMaterials;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlags RFtransparentMaterials
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlags r_FtransparentMaterials;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlags RFtransparentMaterials
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags alphaTestedMaterials
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlags r_FalphaTestedMaterials;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlags RFalphaTestedMaterials
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlags r_FalphaTestedMaterials;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingSubMeshFlags RFalphaTestedMaterials
 		{
 			get
 			{

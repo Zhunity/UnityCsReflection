@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.PropertyHandlerCache
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,UnityEditor.PropertyHandler] m_PropertyHandlers
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandler> r_Fm_PropertyHandlers;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandler> RFm_PropertyHandlers
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler> r_Fm_PropertyHandlers;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler> RFm_PropertyHandlers
 		{
 			get
 			{
@@ -233,18 +233,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandler GetHandler(UnityEditor.SerializedProperty @property)
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler GetHandler(UnityEditor.SerializedProperty @property)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@property};
             var ___result = RMGetHandler_SerializedProperty.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandler(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler(___result);
         }
 
 
-        public virtual void SetHandler(UnityEditor.SerializedProperty @property, SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandler @handler)
+        public virtual void SetHandler(UnityEditor.SerializedProperty @property, Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler @handler)
         {
 
             var ___genericsType = new Type[] {};

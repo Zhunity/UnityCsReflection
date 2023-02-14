@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.EasingMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode Ease
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEase;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEase
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEase;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEase
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseIn
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseIn;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseIn
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseIn;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseIn
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseOut
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseOut;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseOut
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseOut;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseOut
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseInOut
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInOut;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInOut
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInOut;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInOut
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode Linear
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FLinear;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFLinear
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FLinear;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFLinear
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseInSine
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInSine;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInSine
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInSine;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInSine
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseOutSine
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseOutSine;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseOutSine
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseOutSine;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseOutSine
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseInOutSine
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInOutSine;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInOutSine
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInOutSine;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInOutSine
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseInCubic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInCubic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInCubic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInCubic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInCubic
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseOutCubic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseOutCubic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseOutCubic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseOutCubic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseOutCubic
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseInOutCubic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInOutCubic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInOutCubic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInOutCubic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInOutCubic
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseInCirc
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInCirc;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInCirc
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInCirc;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInCirc
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseOutCirc
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseOutCirc;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseOutCirc
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseOutCirc;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseOutCirc
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseInOutCirc
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInOutCirc;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInOutCirc
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInOutCirc;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInOutCirc
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseInElastic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInElastic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInElastic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInElastic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInElastic
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseOutElastic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseOutElastic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseOutElastic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseOutElastic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseOutElastic
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseInOutElastic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInOutElastic;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInOutElastic
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInOutElastic;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInOutElastic
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseInBack
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInBack;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInBack
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInBack;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInBack
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseOutBack
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseOutBack;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseOutBack
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseOutBack;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseOutBack
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseInOutBack
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInOutBack;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInOutBack
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInOutBack;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInOutBack
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseInBounce
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInBounce;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInBounce
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInBounce;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInBounce
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseOutBounce
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseOutBounce;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseOutBounce
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseOutBounce;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseOutBounce
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode EaseInOutBounce
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInOutBounce;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInOutBounce
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode r_FEaseInOutBounce;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REasingMode RFEaseInOutBounce
 		{
 			get
 			{

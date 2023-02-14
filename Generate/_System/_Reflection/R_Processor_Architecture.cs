@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.ProcessorArchitecture
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ProcessorArchitecture None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ProcessorArchitecture MSIL
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_FMSIL;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RFMSIL
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_FMSIL;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RFMSIL
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ProcessorArchitecture X86
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_FX86;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RFX86
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_FX86;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RFX86
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ProcessorArchitecture IA64
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_FIA64;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RFIA64
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_FIA64;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RFIA64
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ProcessorArchitecture Amd64
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_FAmd64;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RFAmd64
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_FAmd64;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RFAmd64
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ProcessorArchitecture Arm
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_FArm;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RFArm
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_FArm;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RFArm
 		{
 			get
 			{

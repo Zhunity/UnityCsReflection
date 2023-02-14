@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Activation.IConstructionReturnMessage

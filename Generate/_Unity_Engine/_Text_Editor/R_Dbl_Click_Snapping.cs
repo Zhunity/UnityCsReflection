@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RTextEditor
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Byte value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditor+DblClickSnapping WORDS
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditor.RDblClickSnapping r_FWORDS;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditor.RDblClickSnapping RFWORDS
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditor.RDblClickSnapping r_FWORDS;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditor.RDblClickSnapping RFWORDS
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextEditor+DblClickSnapping PARAGRAPHS
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditor.RDblClickSnapping r_FPARAGRAPHS;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextEditor.RDblClickSnapping RFPARAGRAPHS
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextEditor.RDblClickSnapping r_FPARAGRAPHS;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextEditor.RDblClickSnapping RFPARAGRAPHS
 		{
 			get
 			{

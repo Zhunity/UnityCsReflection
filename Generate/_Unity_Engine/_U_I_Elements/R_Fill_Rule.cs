@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.FillRule
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FillRule NonZero
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFillRule r_FNonZero;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFillRule RFNonZero
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFillRule r_FNonZero;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFillRule RFNonZero
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FillRule OddEven
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFillRule r_FOddEven;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFillRule RFOddEven
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFillRule r_FOddEven;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFillRule RFOddEven
 		{
 			get
 			{

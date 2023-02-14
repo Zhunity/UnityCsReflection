@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
+namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 {
 	/// <summary>
 	/// Unity.Profiling.ProfilerRecorderSample
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.Int64 value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFvalue
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFvalue
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.Int64 count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fcount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFcount
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fcount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFcount
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.Int64 refValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_FrefValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFrefValue
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_FrefValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFrefValue
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Int64 Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPValue
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Int64 Count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPCount
 		{
 			get
 			{

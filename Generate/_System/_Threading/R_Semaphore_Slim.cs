@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.SemaphoreSlim
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 m_currentCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_currentCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_currentCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_currentCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_currentCount
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 m_maxCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_maxCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_maxCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_maxCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_maxCount
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 m_waitCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_waitCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_waitCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_waitCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_waitCount
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Object m_lockObj
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fm_lockObj;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFm_lockObj
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fm_lockObj;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFm_lockObj
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ManualResetEvent m_waitHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RManualResetEvent r_Fm_waitHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RManualResetEvent RFm_waitHandle
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RManualResetEvent r_Fm_waitHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RManualResetEvent RFm_waitHandle
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SemaphoreSlim+TaskNode m_asyncHead
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode r_Fm_asyncHead;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode RFm_asyncHead
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode r_Fm_asyncHead;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode RFm_asyncHead
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SemaphoreSlim+TaskNode m_asyncTail
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode r_Fm_asyncTail;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode RFm_asyncTail
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode r_Fm_asyncTail;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode RFm_asyncTail
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[System.Boolean] s_trueTask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_Fs_trueTask;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFs_trueTask
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask<Hvak.Editor.Refleaction.RSystem.RBoolean> r_Fs_trueTask;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask<Hvak.Editor.Refleaction.RSystem.RBoolean> RFs_trueTask
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[System.Boolean] s_falseTask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_Fs_falseTask;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFs_falseTask
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask<Hvak.Editor.Refleaction.RSystem.RBoolean> r_Fs_falseTask;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask<Hvak.Editor.Refleaction.RSystem.RBoolean> RFs_falseTask
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 NO_MAXIMUM
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FNO_MAXIMUM;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFNO_MAXIMUM
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FNO_MAXIMUM;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFNO_MAXIMUM
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Action`1[System.Object] s_cancellationTokenCanceledEventHandler
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RObject> r_Fs_cancellationTokenCanceledEventHandler;
-		public static SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RObject> RFs_cancellationTokenCanceledEventHandler
+		protected static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RObject> r_Fs_cancellationTokenCanceledEventHandler;
+		public static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RObject> RFs_cancellationTokenCanceledEventHandler
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 CurrentCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCurrentCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCurrentCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCurrentCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCurrentCount
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.WaitHandle AvailableWaitHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RWaitHandle r_PAvailableWaitHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RWaitHandle RPAvailableWaitHandle
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RWaitHandle r_PAvailableWaitHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RWaitHandle RPAvailableWaitHandle
 		{
 			get
 			{
@@ -903,18 +903,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode CreateAndAddAsyncWaiter()
+        public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode CreateAndAddAsyncWaiter()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMCreateAndAddAsyncWaiter.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode(___result);
         }
 
 
-        public virtual System.Boolean RemoveAsyncWaiter(SMFrame.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode @task)
+        public virtual System.Boolean RemoveAsyncWaiter(Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode @task)
         {
 
             var ___genericsType = new Type[] {};
@@ -925,7 +925,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Threading.Tasks.Task<System.Boolean> WaitUntilCountOrTimeoutAsync(SMFrame.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode @asyncWaiter, System.Int32 @millisecondsTimeout, System.Threading.CancellationToken @cancellationToken)
+        public virtual System.Threading.Tasks.Task<System.Boolean> WaitUntilCountOrTimeoutAsync(Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode @asyncWaiter, System.Int32 @millisecondsTimeout, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -958,7 +958,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void QueueWaiterTask(SMFrame.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode @waiterTask)
+        public static void QueueWaiterTask(Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode @waiterTask)
         {
 
             var ___genericsType = new Type[] {};

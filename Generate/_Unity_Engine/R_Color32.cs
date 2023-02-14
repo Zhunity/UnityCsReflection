@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Color32
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 rgba
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Frgba;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFrgba
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Frgba;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFrgba
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Byte r
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFr
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFr
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Byte g
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fg;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFg
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fg;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFg
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Byte b
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fb;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFb
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fb;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFb
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Byte a
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_Fa;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFa
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_Fa;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFa
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Byte Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RPItem_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RPItem_Int32
 		{
 			get
 			{

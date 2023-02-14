@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
+namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 {
 	/// <summary>
 	/// UnityEngine.SceneManagement.Scene
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// System.Int32 m_Handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Handle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Handle
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Handle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Handle
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Int32 handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Phandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPhandle
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Phandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPhandle
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// LoadingState loadingState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState r_PloadingState;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState RPloadingState
+		protected Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState r_PloadingState;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState RPloadingState
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// System.String guid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pguid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPguid
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pguid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPguid
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// System.String path
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ppath;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPpath
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ppath;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpath
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Boolean isLoaded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisLoaded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisLoaded
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisLoaded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisLoaded
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Int32 buildIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PbuildIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPbuildIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PbuildIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPbuildIndex
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Boolean isDirty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisDirty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisDirty
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDirty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDirty
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Int32 dirtyID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PdirtyID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPdirtyID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PdirtyID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPdirtyID
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Int32 rootCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_ProotCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RProotCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_ProotCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RProotCount
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Boolean isSubScene
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisSubScene;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisSubScene
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisSubScene;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisSubScene
 		{
 			get
 			{
@@ -791,14 +791,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState GetLoadingStateInternal(System.Int32 @sceneHandle)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState GetLoadingStateInternal(System.Int32 @sceneHandle)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sceneHandle};
             var ___result = RMGetLoadingStateInternal_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState(___result);
         }
 
 

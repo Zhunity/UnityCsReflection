@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.Focusable
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <focusable>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__focusable__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__focusable__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__focusable__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__focusable__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <tabIndex>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__tabIndex__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__tabIndex__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__tabIndex__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__tabIndex__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_DelegatesFocus
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_DelegatesFocus;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_DelegatesFocus
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_DelegatesFocus;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_DelegatesFocus
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_ExcludeFromFocusRing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_ExcludeFromFocusRing;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_ExcludeFromFocusRing
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_ExcludeFromFocusRing;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_ExcludeFromFocusRing
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean isIMGUIContainer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisIMGUIContainer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisIMGUIContainer
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisIMGUIContainer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisIMGUIContainer
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FocusController focusController
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFocusController r_PfocusController;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RFocusController RPfocusController
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusController r_PfocusController;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusController RPfocusController
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean focusable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pfocusable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPfocusable
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pfocusable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPfocusable
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 tabIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PtabIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPtabIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PtabIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPtabIndex
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean delegatesFocus
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PdelegatesFocus;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdelegatesFocus
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdelegatesFocus;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdelegatesFocus
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean excludeFromFocusRing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PexcludeFromFocusRing;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPexcludeFromFocusRing
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PexcludeFromFocusRing;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPexcludeFromFocusRing
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean canGrabFocus
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PcanGrabFocus;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPcanGrabFocus
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcanGrabFocus;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcanGrabFocus
 		{
 			get
 			{
@@ -853,7 +853,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RInvokePolicy @invokePolicy, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+        public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInvokePolicy @invokePolicy, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
         {
 
             var ___genericsType = new Type[] {typeof(TEventType)};
@@ -910,7 +910,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SendEvent(UnityEngine.UIElements.EventBase @e, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
+        public virtual void SendEvent(UnityEngine.UIElements.EventBase @e, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode @dispatchMode)
         {
 
             var ___genericsType = new Type[] {};

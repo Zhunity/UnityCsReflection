@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.Error
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeErrorCode m_ErrorCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_Fm_ErrorCode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFm_ErrorCode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode r_Fm_ErrorCode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RNativeErrorCode RFm_ErrorCode
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_Message
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Message;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Message
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Message;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Message
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.ErrorCode errorCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode r_PerrorCode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode RPerrorCode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode r_PerrorCode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RErrorCode RPerrorCode
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String message
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pmessage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPmessage
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pmessage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPmessage
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RClickDetector
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_Target
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_Target;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_Target
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_Target;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_Target
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector3 m_PointerDownPosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_PointerDownPosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFm_PointerDownPosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_PointerDownPosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFm_PointerDownPosition
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 m_LastPointerDownTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fm_LastPointerDownTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFm_LastPointerDownTime
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fm_LastPointerDownTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFm_LastPointerDownTime
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_ClickCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_ClickCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_ClickCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_ClickCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_ClickCount
 		{
 			get
 			{

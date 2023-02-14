@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.NudgeJobData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr src
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fsrc;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFsrc
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fsrc;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFsrc
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr dst
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fdst;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFdst
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fdst;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFdst
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fcount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fcount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcount
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr closingSrc
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_FclosingSrc;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFclosingSrc
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_FclosingSrc;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFclosingSrc
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr closingDst
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_FclosingDst;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFclosingDst
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_FclosingDst;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFclosingDst
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 closingCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FclosingCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFclosingCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FclosingCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFclosingCount
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Matrix4x4 transform
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Ftransform;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFtransform
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Ftransform;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFtransform
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 vertsBeforeUVDisplacement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FvertsBeforeUVDisplacement;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvertsBeforeUVDisplacement
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FvertsBeforeUVDisplacement;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvertsBeforeUVDisplacement
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 vertsAfterUVDisplacement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FvertsAfterUVDisplacement;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvertsAfterUVDisplacement
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FvertsAfterUVDisplacement;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvertsAfterUVDisplacement
 		{
 			get
 			{

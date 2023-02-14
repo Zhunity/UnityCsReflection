@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleSelectorType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorType Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFUnknown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FUnknown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorType Wildcard
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FWildcard;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFWildcard
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FWildcard;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFWildcard
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorType Type
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FType;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFType
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FType;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFType
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorType Class
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FClass;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFClass
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FClass;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFClass
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorType PseudoClass
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FPseudoClass;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFPseudoClass
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FPseudoClass;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFPseudoClass
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorType RecursivePseudoClass
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FRecursivePseudoClass;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFRecursivePseudoClass
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FRecursivePseudoClass;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFRecursivePseudoClass
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorType ID
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FID;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFID
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FID;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFID
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSelectorType Predicate
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FPredicate;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFPredicate
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType r_FPredicate;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorType RFPredicate
 		{
 			get
 			{

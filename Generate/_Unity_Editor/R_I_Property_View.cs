@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.IPropertyView
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.ActiveEditorTracker tracker
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RActiveEditorTracker r_Ptracker;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RActiveEditorTracker RPtracker
+		protected Hvak.Editor.Refleaction.RUnityEditor.RActiveEditorTracker r_Ptracker;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RActiveEditorTracker RPtracker
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.InspectorMode inspectorMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode r_PinspectorMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode RPinspectorMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode r_PinspectorMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode RPinspectorMode
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] editorsWithImportedObjectLabel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RInt32> r_PeditorsWithImportedObjectLabel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RSystem.RInt32> RPeditorsWithImportedObjectLabel
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RInt32> r_PeditorsWithImportedObjectLabel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RInt32> RPeditorsWithImportedObjectLabel
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.Editor lastInteractedEditor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.REditor r_PlastInteractedEditor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.REditor RPlastInteractedEditor
+		protected Hvak.Editor.Refleaction.RUnityEditor.REditor r_PlastInteractedEditor;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.REditor RPlastInteractedEditor
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.GUIView parent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RGUIView r_Pparent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RGUIView RPparent
+		protected Hvak.Editor.Refleaction.RUnityEditor.RGUIView r_Pparent;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RGUIView RPparent
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.EditorDragging editorDragging
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.REditorDragging r_PeditorDragging;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.REditorDragging RPeditorDragging
+		protected Hvak.Editor.Refleaction.RUnityEditor.REditorDragging r_PeditorDragging;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.REditorDragging RPeditorDragging
 		{
 			get
 			{

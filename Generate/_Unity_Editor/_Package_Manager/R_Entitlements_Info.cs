@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.EntitlementsInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Boolean m_IsAllowed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_IsAllowed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_IsAllowed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsAllowed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsAllowed
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.EntitlementLicensingModel m_LicensingModel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel r_Fm_LicensingModel;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel RFm_LicensingModel
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel r_Fm_LicensingModel;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel RFm_LicensingModel
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.Experimental.Licensing.EntitlementStatus m_Status
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus r_Fm_Status;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus RFm_Status
+		protected Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus r_Fm_Status;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus RFm_Status
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// Boolean isAllowed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisAllowed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisAllowed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisAllowed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisAllowed
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.PackageManager.EntitlementLicensingModel licensingModel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel r_PlicensingModel;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel RPlicensingModel
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel r_PlicensingModel;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel RPlicensingModel
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// UnityEditor.Experimental.Licensing.EntitlementStatus status
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus r_Pstatus;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus RPstatus
+		protected Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus r_Pstatus;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus RPstatus
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.BackgroundPositionKeyword
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BackgroundPositionKeyword Center
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword r_FCenter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword RFCenter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword r_FCenter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword RFCenter
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BackgroundPositionKeyword Top
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword r_FTop;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword RFTop
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword r_FTop;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword RFTop
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BackgroundPositionKeyword Bottom
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword r_FBottom;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword RFBottom
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword r_FBottom;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword RFBottom
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BackgroundPositionKeyword Left
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword r_FLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword RFLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword r_FLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword RFLeft
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BackgroundPositionKeyword Right
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword r_FRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword RFRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword r_FRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPositionKeyword RFRight
 		{
 			get
 			{

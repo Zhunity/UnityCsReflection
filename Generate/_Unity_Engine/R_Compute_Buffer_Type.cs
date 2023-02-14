@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.ComputeBufferType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferType Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FDefault;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType RFDefault
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FDefault;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType RFDefault
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferType Raw
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FRaw;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType RFRaw
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FRaw;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType RFRaw
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferType Append
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FAppend;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType RFAppend
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FAppend;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType RFAppend
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferType Counter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FCounter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType RFCounter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FCounter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType RFCounter
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferType Constant
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FConstant;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType RFConstant
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FConstant;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType RFConstant
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferType Structured
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FStructured;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType RFStructured
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FStructured;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType RFStructured
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferType DrawIndirect
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FDrawIndirect;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType RFDrawIndirect
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FDrawIndirect;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType RFDrawIndirect
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferType IndirectArguments
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FIndirectArguments;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType RFIndirectArguments
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FIndirectArguments;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType RFIndirectArguments
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ComputeBufferType GPUMemory
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FGPUMemory;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RComputeBufferType RFGPUMemory
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType r_FGPUMemory;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RComputeBufferType RFGPUMemory
 		{
 			get
 			{

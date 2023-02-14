@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.PEFileKinds
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.PEFileKinds Dll
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPEFileKinds r_FDll;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPEFileKinds RFDll
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPEFileKinds r_FDll;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPEFileKinds RFDll
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.PEFileKinds ConsoleApplication
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPEFileKinds r_FConsoleApplication;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPEFileKinds RFConsoleApplication
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPEFileKinds r_FConsoleApplication;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPEFileKinds RFConsoleApplication
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.PEFileKinds WindowApplication
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPEFileKinds r_FWindowApplication;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RPEFileKinds RFWindowApplication
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPEFileKinds r_FWindowApplication;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RPEFileKinds RFWindowApplication
 		{
 			get
 			{

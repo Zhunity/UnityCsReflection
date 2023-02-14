@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.SerializedPropertyNumericType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedPropertyNumericType Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFUnknown
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FUnknown;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedPropertyNumericType Int8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FInt8;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFInt8
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FInt8;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFInt8
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedPropertyNumericType UInt8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FUInt8;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFUInt8
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FUInt8;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFUInt8
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedPropertyNumericType Int16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FInt16;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFInt16
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FInt16;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFInt16
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedPropertyNumericType UInt16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FUInt16;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFUInt16
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FUInt16;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFUInt16
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedPropertyNumericType Int32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FInt32;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFInt32
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FInt32;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFInt32
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedPropertyNumericType UInt32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FUInt32;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFUInt32
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FUInt32;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFUInt32
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedPropertyNumericType Int64
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FInt64;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFInt64
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FInt64;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFInt64
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedPropertyNumericType UInt64
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FUInt64;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFUInt64
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FUInt64;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFUInt64
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedPropertyNumericType Float
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FFloat;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFFloat
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FFloat;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFFloat
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedPropertyNumericType Double
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FDouble;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFDouble
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_FDouble;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RFDouble
 		{
 			get
 			{

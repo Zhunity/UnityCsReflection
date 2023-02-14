@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {public partial class RPropertyHandler
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PropertyHandler m_Handler
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandler r_Fm_Handler;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandler RFm_Handler
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler r_Fm_Handler;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler RFm_Handler
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_NestingLevel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_NestingLevel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_NestingLevel
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_NestingLevel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_NestingLevel
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_OldNestingLevel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_OldNestingLevel;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_OldNestingLevel
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_OldNestingLevel;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_OldNestingLevel
 		{
 			get
 			{
@@ -252,14 +252,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext Get(SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandler @handler, System.Int32 @nestingLevel)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext Get(Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler @handler, System.Int32 @nestingLevel)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handler.Value, @nestingLevel};
             var ___result = RMGet_PropertyHandler_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext(___result);
         }
 
 

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.DragVisualMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DragVisualMode None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DragVisualMode Copy
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode r_FCopy;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode RFCopy
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode r_FCopy;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode RFCopy
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DragVisualMode Move
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode r_FMove;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode RFMove
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode r_FMove;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode RFMove
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DragVisualMode Rejected
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode r_FRejected;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode RFRejected
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode r_FRejected;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode RFRejected
 		{
 			get
 			{

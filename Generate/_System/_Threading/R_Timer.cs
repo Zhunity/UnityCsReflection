@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.Timer
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.TimerCallback callback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTimerCallback r_Fcallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTimerCallback RFcallback
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTimerCallback r_Fcallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTimerCallback RFcallback
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Object state
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fstate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFstate
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fstate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFstate
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int64 due_time_ms
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fdue_time_ms;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFdue_time_ms
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fdue_time_ms;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFdue_time_ms
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int64 period_ms
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fperiod_ms;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFperiod_ms
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fperiod_ms;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFperiod_ms
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int64 next_run
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fnext_run;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFnext_run
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fnext_run;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFnext_run
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean disposed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fdisposed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFdisposed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fdisposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFdisposed
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean is_dead
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fis_dead;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFis_dead
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fis_dead;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFis_dead
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean is_added
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fis_added;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFis_added
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fis_added;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFis_added
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int64 MaxValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt64 r_FMaxValue;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt64 RFMaxValue
+		protected static Hvak.Editor.Refleaction.RSystem.RInt64 r_FMaxValue;
+		public static Hvak.Editor.Refleaction.RSystem.RInt64 RFMaxValue
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Scheduler scheduler
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTimer.RScheduler r_Pscheduler;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTimer.RScheduler RPscheduler
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTimer.RScheduler r_Pscheduler;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTimer.RScheduler RPscheduler
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Runtime.Remoting.ServerIdentity ObjectIdentity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity r_PObjectIdentity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RServerIdentity RPObjectIdentity
 		{
 			get
 			{
@@ -711,7 +711,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
+        public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
         {
 			@IsClient = default;
 
@@ -720,7 +720,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
         }
 
 

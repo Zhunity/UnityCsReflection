@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {public partial class RConfiguredValueTaskAwaitable<TResult>
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Threading.Tasks.ValueTask`1[TResult] _value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RValueTask<SMFrame.Editor.Refleaction.RField> r_F_value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RValueTask<SMFrame.Editor.Refleaction.RField> RF_value
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RValueTask<Hvak.Editor.Refleaction.RField> r_F_value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RValueTask<Hvak.Editor.Refleaction.RField> RF_value
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {public partial class RUIRenderDevice
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFid
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFid
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 allocTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FallocTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFallocTime
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FallocTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFallocTime
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.MeshHandle meshHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle r_FmeshHandle;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle RFmeshHandle
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle r_FmeshHandle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle RFmeshHandle
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Alloc permAllocVerts
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc r_FpermAllocVerts;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc RFpermAllocVerts
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc r_FpermAllocVerts;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc RFpermAllocVerts
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Alloc permAllocIndices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc r_FpermAllocIndices;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc RFpermAllocIndices
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc r_FpermAllocIndices;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc RFpermAllocIndices
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Page permPage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage r_FpermPage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage RFpermPage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage r_FpermPage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage RFpermPage
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean copyBackIndices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FcopyBackIndices;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFcopyBackIndices
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FcopyBackIndices;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFcopyBackIndices
 		{
 			get
 			{

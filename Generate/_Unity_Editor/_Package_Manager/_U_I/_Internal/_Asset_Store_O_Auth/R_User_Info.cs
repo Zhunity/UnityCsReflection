@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {public partial class RAssetStoreOAuth
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFid
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFid
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String username
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fusername;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFusername
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fusername;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFusername
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String defaultOrganization
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FdefaultOrganization;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFdefaultOrganization
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FdefaultOrganization;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFdefaultOrganization
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+TokenInfo m_TokenInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo r_Fm_TokenInfo;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo RFm_TokenInfo
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo r_Fm_TokenInfo;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo RFm_TokenInfo
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisValid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisValid
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String accessToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PaccessToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPaccessToken
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PaccessToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPaccessToken
 		{
 			get
 			{

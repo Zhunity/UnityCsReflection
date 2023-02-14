@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.TextVertex
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector3 position
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fposition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFposition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fposition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFposition
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector4 uv
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_Fuv;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFuv
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_Fuv;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFuv
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector2 uv2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Fuv2;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFuv2
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fuv2;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFuv2
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Color32 color
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor32 r_Fcolor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor32 RFcolor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_Fcolor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor32 RFcolor
 		{
 			get
 			{

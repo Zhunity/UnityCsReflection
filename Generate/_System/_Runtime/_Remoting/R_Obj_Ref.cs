@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 {
 	/// <summary>
 	/// System.Runtime.Remoting.ObjRef
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.IChannelInfo channel_info
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIChannelInfo r_Fchannel_info;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIChannelInfo RFchannel_info
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIChannelInfo r_Fchannel_info;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIChannelInfo RFchannel_info
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.String uri
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Furi;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFuri
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Furi;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFuri
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.IRemotingTypeInfo typeInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIRemotingTypeInfo r_FtypeInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIRemotingTypeInfo RFtypeInfo
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIRemotingTypeInfo r_FtypeInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIRemotingTypeInfo RFtypeInfo
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.IEnvoyInfo envoyInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIEnvoyInfo r_FenvoyInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIEnvoyInfo RFenvoyInfo
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIEnvoyInfo r_FenvoyInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIEnvoyInfo RFenvoyInfo
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Int32 flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fflags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFflags
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fflags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFflags
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Type _serverType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_F_serverType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RF_serverType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_F_serverType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RF_serverType
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Int32 MarshalledObjectRef
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMarshalledObjectRef;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMarshalledObjectRef
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMarshalledObjectRef;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMarshalledObjectRef
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Int32 WellKnowObjectRef
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FWellKnowObjectRef;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFWellKnowObjectRef
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FWellKnowObjectRef;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFWellKnowObjectRef
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// Boolean IsReferenceToWellKnow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsReferenceToWellKnow;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsReferenceToWellKnow
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsReferenceToWellKnow;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsReferenceToWellKnow
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.IChannelInfo ChannelInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIChannelInfo r_PChannelInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIChannelInfo RPChannelInfo
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIChannelInfo r_PChannelInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIChannelInfo RPChannelInfo
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.IEnvoyInfo EnvoyInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIEnvoyInfo r_PEnvoyInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIEnvoyInfo RPEnvoyInfo
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIEnvoyInfo r_PEnvoyInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIEnvoyInfo RPEnvoyInfo
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.IRemotingTypeInfo TypeInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIRemotingTypeInfo r_PTypeInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIRemotingTypeInfo RPTypeInfo
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIRemotingTypeInfo r_PTypeInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIRemotingTypeInfo RPTypeInfo
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.String URI
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PURI;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPURI
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PURI;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPURI
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Type ServerType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PServerType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPServerType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PServerType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPServerType
 		{
 			get
 			{

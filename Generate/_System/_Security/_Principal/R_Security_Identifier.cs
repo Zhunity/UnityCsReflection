@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 {
 	/// <summary>
 	/// System.Security.Principal.SecurityIdentifier
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Byte[] buffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_Fbuffer;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFbuffer
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_Fbuffer;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFbuffer
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Int32 MaxBinaryLength
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMaxBinaryLength;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMaxBinaryLength
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMaxBinaryLength;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMaxBinaryLength
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Int32 MinBinaryLength
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMinBinaryLength;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMinBinaryLength
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMinBinaryLength;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMinBinaryLength
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.SecurityIdentifier AccountDomainSid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier r_PAccountDomainSid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier RPAccountDomainSid
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier r_PAccountDomainSid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RSecurityIdentifier RPAccountDomainSid
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// Int32 BinaryLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PBinaryLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPBinaryLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PBinaryLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPBinaryLength
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.String Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPValue
 		{
 			get
 			{

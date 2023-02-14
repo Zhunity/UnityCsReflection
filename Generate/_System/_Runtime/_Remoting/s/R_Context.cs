@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Contexts.Context
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Int32 domain_id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fdomain_id;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFdomain_id
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fdomain_id;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFdomain_id
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Int32 context_id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fcontext_id;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcontext_id
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fcontext_id;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcontext_id
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.UIntPtr static_data
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUIntPtr r_Fstatic_data;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUIntPtr RFstatic_data
+		protected Hvak.Editor.Refleaction.RSystem.RUIntPtr r_Fstatic_data;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUIntPtr RFstatic_data
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.UIntPtr data
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUIntPtr r_Fdata;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUIntPtr RFdata
+		protected Hvak.Editor.Refleaction.RSystem.RUIntPtr r_Fdata;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUIntPtr RFdata
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Object[] local_slots
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RObject> r_Flocal_slots;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RObject> RFlocal_slots
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RObject> r_Flocal_slots;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RObject> RFlocal_slots
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageSink default_server_context_sink
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_Fdefault_server_context_sink;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RFdefault_server_context_sink
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_Fdefault_server_context_sink;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RFdefault_server_context_sink
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageSink server_context_sink_chain
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_Fserver_context_sink_chain;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RFserver_context_sink_chain
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_Fserver_context_sink_chain;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RFserver_context_sink_chain
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageSink client_context_sink_chain
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_Fclient_context_sink_chain;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RFclient_context_sink_chain
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink r_Fclient_context_sink_chain;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIMessageSink RFclient_context_sink_chain
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Runtime.Remoting.Contexts.IContextProperty] context_properties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RIContextProperty> r_Fcontext_properties;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RIContextProperty> RFcontext_properties
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RIContextProperty> r_Fcontext_properties;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RIContextProperty> RFcontext_properties
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Int32 global_count
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fglobal_count;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFglobal_count
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fglobal_count;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFglobal_count
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.LocalDataStoreHolder _localDataStore
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreHolder r_F_localDataStore;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreHolder RF_localDataStore
+		protected Hvak.Editor.Refleaction.RSystem.RLocalDataStoreHolder r_F_localDataStore;
+		public virtual Hvak.Editor.Refleaction.RSystem.RLocalDataStoreHolder RF_localDataStore
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.LocalDataStoreMgr _localDataStoreMgr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreMgr r_F_localDataStoreMgr;
-		public static SMFrame.Editor.Refleaction.RSystem.RLocalDataStoreMgr RF_localDataStoreMgr
+		protected static Hvak.Editor.Refleaction.RSystem.RLocalDataStoreMgr r_F_localDataStoreMgr;
+		public static Hvak.Editor.Refleaction.RSystem.RLocalDataStoreMgr RF_localDataStoreMgr
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Runtime.Remoting.Contexts.DynamicPropertyCollection global_dynamic_properties
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection r_Fglobal_dynamic_properties;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection RFglobal_dynamic_properties
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection r_Fglobal_dynamic_properties;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection RFglobal_dynamic_properties
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Runtime.Remoting.Contexts.DynamicPropertyCollection context_dynamic_properties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection r_Fcontext_dynamic_properties;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection RFcontext_dynamic_properties
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection r_Fcontext_dynamic_properties;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection RFcontext_dynamic_properties
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Runtime.Remoting.Contexts.ContextCallbackObject callback_object
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContextCallbackObject r_Fcallback_object;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContextCallbackObject RFcallback_object
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContextCallbackObject r_Fcallback_object;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContextCallbackObject RFcallback_object
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Runtime.Remoting.Contexts.Context DefaultContext
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext r_PDefaultContext;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext RPDefaultContext
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext r_PDefaultContext;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RContext RPDefaultContext
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Int32 ContextID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PContextID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPContextID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PContextID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPContextID
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Runtime.Remoting.Contexts.IContextProperty[] ContextProperties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RIContextProperty> r_PContextProperties;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RIContextProperty> RPContextProperties
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RIContextProperty> r_PContextProperties;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RIContextProperty> RPContextProperties
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Boolean IsDefaultContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsDefaultContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsDefaultContext
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsDefaultContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsDefaultContext
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Boolean NeedsContextSink
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PNeedsContextSink;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPNeedsContextSink
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PNeedsContextSink;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPNeedsContextSink
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Boolean HasGlobalDynamicSinks
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasGlobalDynamicSinks;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasGlobalDynamicSinks
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasGlobalDynamicSinks;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RPHasGlobalDynamicSinks
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Boolean HasDynamicSinks
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasDynamicSinks;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasDynamicSinks
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasDynamicSinks;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasDynamicSinks
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Boolean HasExitSinks
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasExitSinks;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasExitSinks
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasExitSinks;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasExitSinks
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.LocalDataStore MyLocalStore
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RLocalDataStore r_PMyLocalStore;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RLocalDataStore RPMyLocalStore
+		protected Hvak.Editor.Refleaction.RSystem.RLocalDataStore r_PMyLocalStore;
+		public virtual Hvak.Editor.Refleaction.RSystem.RLocalDataStore RPMyLocalStore
 		{
 			get
 			{
@@ -985,14 +985,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection GetDynamicPropertyCollection(System.ContextBoundObject @obj, System.Runtime.Remoting.Contexts.Context @ctx)
+        public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection GetDynamicPropertyCollection(System.ContextBoundObject @obj, System.Runtime.Remoting.Contexts.Context @ctx)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @ctx};
             var ___result = RMGetDynamicPropertyCollection_ContextBoundObject_Context.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection(___result);
         }
 
 

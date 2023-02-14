@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.RTClearFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RTClearFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RTClearFlags Color
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFColor
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RTClearFlags Depth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FDepth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFDepth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FDepth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFDepth
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RTClearFlags Stencil
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FStencil;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFStencil
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FStencil;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFStencil
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RTClearFlags All
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FAll;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFAll
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FAll;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFAll
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RTClearFlags DepthStencil
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FDepthStencil;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFDepthStencil
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FDepthStencil;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFDepthStencil
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RTClearFlags ColorDepth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FColorDepth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFColorDepth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FColorDepth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFColorDepth
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RTClearFlags ColorStencil
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FColorStencil;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFColorStencil
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags r_FColorStencil;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRTClearFlags RFColorStencil
 		{
 			get
 			{

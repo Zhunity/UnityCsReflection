@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RVisualElement
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.StyleSheets.StylePropertyValue] m_CustomProperties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> r_Fm_CustomProperties;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> RFm_CustomProperties
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> r_Fm_CustomProperties;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> RFm_CustomProperties
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single m_DpiScaling
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_DpiScaling;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_DpiScaling
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_DpiScaling;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_DpiScaling
 		{
 			get
 			{
@@ -371,7 +371,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void SetContext(SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> @customProperties, System.Single @dpiScaling)
+        public virtual void SetContext(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> @customProperties, System.Single @dpiScaling)
         {
 
             var ___genericsType = new Type[] {};
@@ -499,20 +499,20 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetValue(System.String @propertyName, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType @valueType, out SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @customProp)
+        public virtual System.Boolean TryGetValue(System.String @propertyName, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType @valueType, out Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @customProp)
         {
 			@customProp = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@propertyName, @valueType.Value, @customProp.Value};
             var ___result = RMTryGetValue_String_StyleValueType_Out_StylePropertyValue.Invoke(___genericsType, ___parameters);
-			@customProp = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue(___parameters[2]);
+			@customProp = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue(___parameters[2]);
 
             return (System.Boolean)___result;
         }
 
 
-        public static void LogCustomPropertyWarning(System.String @propertyName, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType @valueType, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @customProp)
+        public static void LogCustomPropertyWarning(System.String @propertyName, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType @valueType, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @customProp)
         {
 
             var ___genericsType = new Type[] {};

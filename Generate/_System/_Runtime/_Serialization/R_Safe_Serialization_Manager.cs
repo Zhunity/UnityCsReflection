@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 {
 	/// <summary>
 	/// System.Runtime.Serialization.SafeSerializationManager
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Collections.Generic.IList`1[System.Object] m_serializedStates
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RObject> r_Fm_serializedStates;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RObject> RFm_serializedStates
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RObject> r_Fm_serializedStates;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RObject> RFm_serializedStates
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Runtime.Serialization.SerializationInfo m_savedSerializationInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationInfo r_Fm_savedSerializationInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationInfo RFm_savedSerializationInfo
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationInfo r_Fm_savedSerializationInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSerializationInfo RFm_savedSerializationInfo
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Object m_realObject
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fm_realObject;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFm_realObject
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fm_realObject;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFm_realObject
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.RuntimeType m_realType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntimeType r_Fm_realType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntimeType RFm_realType
+		protected Hvak.Editor.Refleaction.RSystem.RRuntimeType r_Fm_realType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntimeType RFm_realType
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.EventHandler`1[System.Runtime.Serialization.SafeSerializationEventArgs] SerializeObjectState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.REventHandler<SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSafeSerializationEventArgs> r_FSerializeObjectState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.REventHandler<SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSafeSerializationEventArgs> RFSerializeObjectState
+		protected Hvak.Editor.Refleaction.RSystem.REventHandler<Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSafeSerializationEventArgs> r_FSerializeObjectState;
+		public virtual Hvak.Editor.Refleaction.RSystem.REventHandler<Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RSafeSerializationEventArgs> RFSerializeObjectState
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String RealTypeSerializationName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FRealTypeSerializationName;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFRealTypeSerializationName
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FRealTypeSerializationName;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFRealTypeSerializationName
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// Boolean IsActive
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsActive;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsActive
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsActive;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsActive
 		{
 			get
 			{

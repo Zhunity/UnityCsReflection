@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.ExceptionHandlingClause
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Type catch_type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_Fcatch_type;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFcatch_type
+		protected Hvak.Editor.Refleaction.RSystem.RType r_Fcatch_type;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFcatch_type
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 filter_offset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ffilter_offset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfilter_offset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ffilter_offset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfilter_offset
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ExceptionHandlingClauseOptions flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_Fflags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RFflags
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_Fflags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RFflags
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 try_offset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ftry_offset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFtry_offset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ftry_offset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFtry_offset
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 try_length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ftry_length;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFtry_length
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ftry_length;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFtry_length
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 handler_offset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fhandler_offset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFhandler_offset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fhandler_offset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFhandler_offset
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 handler_length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fhandler_length;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFhandler_length
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fhandler_length;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFhandler_length
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Type CatchType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PCatchType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPCatchType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PCatchType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPCatchType
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 FilterOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PFilterOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPFilterOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PFilterOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPFilterOffset
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ExceptionHandlingClauseOptions Flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_PFlags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RPFlags
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions r_PFlags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RExceptionHandlingClauseOptions RPFlags
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 HandlerLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PHandlerLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPHandlerLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PHandlerLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPHandlerLength
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 HandlerOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PHandlerOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPHandlerOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PHandlerOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPHandlerOffset
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 TryLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PTryLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPTryLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PTryLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPTryLength
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 TryOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PTryOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPTryOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PTryOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPTryOffset
 		{
 			get
 			{

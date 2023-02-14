@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.DateTimeStyles
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeStyles None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeStyles AllowLeadingWhite
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FAllowLeadingWhite;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFAllowLeadingWhite
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FAllowLeadingWhite;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFAllowLeadingWhite
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeStyles AllowTrailingWhite
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FAllowTrailingWhite;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFAllowTrailingWhite
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FAllowTrailingWhite;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFAllowTrailingWhite
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeStyles AllowInnerWhite
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FAllowInnerWhite;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFAllowInnerWhite
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FAllowInnerWhite;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFAllowInnerWhite
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeStyles AllowWhiteSpaces
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FAllowWhiteSpaces;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFAllowWhiteSpaces
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FAllowWhiteSpaces;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFAllowWhiteSpaces
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeStyles NoCurrentDateDefault
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FNoCurrentDateDefault;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFNoCurrentDateDefault
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FNoCurrentDateDefault;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFNoCurrentDateDefault
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeStyles AdjustToUniversal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FAdjustToUniversal;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFAdjustToUniversal
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FAdjustToUniversal;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFAdjustToUniversal
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeStyles AssumeLocal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FAssumeLocal;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFAssumeLocal
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FAssumeLocal;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFAssumeLocal
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeStyles AssumeUniversal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FAssumeUniversal;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFAssumeUniversal
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FAssumeUniversal;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFAssumeUniversal
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.DateTimeStyles RoundtripKind
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FRoundtripKind;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFRoundtripKind
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles r_FRoundtripKind;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RDateTimeStyles RFRoundtripKind
 		{
 			get
 			{

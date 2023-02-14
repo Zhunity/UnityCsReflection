@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class RDecimal
 {
 	public partial class RDecCalc
@@ -18,8 +18,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 U0
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FU0;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFU0
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FU0;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFU0
 		{
 			get
 			{
@@ -35,8 +35,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 U1
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FU1;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFU1
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FU1;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFU1
 		{
 			get
 			{
@@ -52,8 +52,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 U2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FU2;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFU2
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FU2;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFU2
 		{
 			get
 			{
@@ -69,8 +69,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 U3
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FU3;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFU3
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FU3;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFU3
 		{
 			get
 			{
@@ -86,8 +86,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 ulo64LE
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_Fulo64LE;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFulo64LE
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_Fulo64LE;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFulo64LE
 		{
 			get
 			{
@@ -103,8 +103,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 uhigh64LE
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_Fuhigh64LE;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFuhigh64LE
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_Fuhigh64LE;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFuhigh64LE
 		{
 			get
 			{
@@ -120,8 +120,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt64 Low64
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_PLow64;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RPLow64
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_PLow64;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RPLow64
 		{
 			get
 			{
@@ -137,8 +137,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt64 High64
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_PHigh64;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RPHigh64
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_PHigh64;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RPHigh64
 		{
 			get
 			{

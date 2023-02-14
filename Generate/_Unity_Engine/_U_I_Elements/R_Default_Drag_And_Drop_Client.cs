@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.DefaultDragAndDropClient
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StartDragArgs m_StartDragArgs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStartDragArgs r_Fm_StartDragArgs;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStartDragArgs RFm_StartDragArgs
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStartDragArgs r_Fm_StartDragArgs;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStartDragArgs RFm_StartDragArgs
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Object userData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PuserData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPuserData
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PuserData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPuserData
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[UnityEngine.Object] unityObjectReferences
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEngine.RObject> r_PunityObjectReferences;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEngine.RObject> RPunityObjectReferences
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RObject> r_PunityObjectReferences;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RObject> RPunityObjectReferences
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IDragAndDropData data
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIDragAndDropData r_Pdata;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIDragAndDropData RPdata
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIDragAndDropData r_Pdata;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIDragAndDropData RPdata
 		{
 			get
 			{
@@ -267,7 +267,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void StartDrag(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStartDragArgs @args)
+        public virtual void StartDrag(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStartDragArgs @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -289,7 +289,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetVisualMode(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode @visualMode)
+        public virtual void SetVisualMode(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode @visualMode)
         {
 
             var ___genericsType = new Type[] {};

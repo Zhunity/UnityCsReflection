@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.TextSelectOp
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectLeft
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectRight
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectUp
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectUp;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectUp
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectUp;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectUp
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectDown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectDown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectDown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectDown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectDown
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectTextStart
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectTextStart;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectTextStart
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectTextStart;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectTextStart
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectTextEnd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectTextEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectTextEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectTextEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectTextEnd
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectPageUp
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectPageUp;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectPageUp
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectPageUp;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectPageUp
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectPageDown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectPageDown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectPageDown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectPageDown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectPageDown
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp ExpandSelectGraphicalLineStart
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FExpandSelectGraphicalLineStart;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFExpandSelectGraphicalLineStart
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FExpandSelectGraphicalLineStart;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFExpandSelectGraphicalLineStart
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp ExpandSelectGraphicalLineEnd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FExpandSelectGraphicalLineEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFExpandSelectGraphicalLineEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FExpandSelectGraphicalLineEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFExpandSelectGraphicalLineEnd
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectGraphicalLineStart
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectGraphicalLineStart;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectGraphicalLineStart
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectGraphicalLineStart;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectGraphicalLineStart
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectGraphicalLineEnd
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectGraphicalLineEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectGraphicalLineEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectGraphicalLineEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectGraphicalLineEnd
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectWordLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectWordLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectWordLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectWordLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectWordLeft
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectWordRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectWordRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectWordRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectWordRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectWordRight
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectToEndOfPreviousWord
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectToEndOfPreviousWord;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectToEndOfPreviousWord
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectToEndOfPreviousWord;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectToEndOfPreviousWord
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectToStartOfNextWord
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectToStartOfNextWord;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectToStartOfNextWord
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectToStartOfNextWord;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectToStartOfNextWord
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectParagraphBackward
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectParagraphBackward;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectParagraphBackward
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectParagraphBackward;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectParagraphBackward
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectParagraphForward
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectParagraphForward;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectParagraphForward
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectParagraphForward;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectParagraphForward
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp Copy
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FCopy;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFCopy
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FCopy;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFCopy
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectAll
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectAll;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectAll
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectAll;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectAll
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextSelectOp SelectNone
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp r_FSelectNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextSelectOp RFSelectNone
 		{
 			get
 			{

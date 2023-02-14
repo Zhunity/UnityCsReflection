@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.ContextMenuItemAttribute
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFname
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String function
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ffunction;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFfunction
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ffunction;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFfunction
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 order
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Porder;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPorder
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Porder;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPorder
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Object TypeId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PTypeId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPTypeId
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PTypeId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPTypeId
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {public partial class RExecutionContext
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext+CaptureOptions None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext+CaptureOptions IgnoreSyncCtx
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions r_FIgnoreSyncCtx;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions RFIgnoreSyncCtx
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions r_FIgnoreSyncCtx;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions RFIgnoreSyncCtx
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ExecutionContext+CaptureOptions OptimizeDefaultCase
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions r_FOptimizeDefaultCase;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions RFOptimizeDefaultCase
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions r_FOptimizeDefaultCase;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RCaptureOptions RFOptimizeDefaultCase
 		{
 			get
 			{

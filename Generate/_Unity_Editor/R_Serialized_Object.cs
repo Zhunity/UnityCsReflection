@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.SerializedObject
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.IntPtr m_NativeObjectPtr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_NativeObjectPtr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_NativeObjectPtr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_NativeObjectPtr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_NativeObjectPtr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Object targetObject
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RObject r_PtargetObject;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RObject RPtargetObject
+		protected Hvak.Editor.Refleaction.RUnityEngine.RObject r_PtargetObject;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RObject RPtargetObject
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Object[] targetObjects
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RObject> r_PtargetObjects;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RObject> RPtargetObjects
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RObject> r_PtargetObjects;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RObject> RPtargetObjects
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 targetObjectsCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PtargetObjectsCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPtargetObjectsCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PtargetObjectsCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPtargetObjectsCount
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Object context
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RObject r_Pcontext;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RObject RPcontext
+		protected Hvak.Editor.Refleaction.RUnityEngine.RObject r_Pcontext;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RObject RPcontext
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasModifiedProperties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasModifiedProperties;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasModifiedProperties
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasModifiedProperties;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasModifiedProperties
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.InspectorMode inspectorMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode r_PinspectorMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode RPinspectorMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode r_PinspectorMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode RPinspectorMode
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode inspectorDataMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RDataMode r_PinspectorDataMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RDataMode RPinspectorDataMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_PinspectorDataMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataMode RPinspectorDataMode
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isEditingMultipleObjects
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisEditingMultipleObjects;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisEditingMultipleObjects
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisEditingMultipleObjects;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisEditingMultipleObjects
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 maxArraySizeForMultiEditing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PmaxArraySizeForMultiEditing;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPmaxArraySizeForMultiEditing
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmaxArraySizeForMultiEditing;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPmaxArraySizeForMultiEditing
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisValid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisValid
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UInt32 objectVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PobjectVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPobjectVersion
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PobjectVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPobjectVersion
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean forceChildVisibility
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PforceChildVisibility;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPforceChildVisibility
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PforceChildVisibility;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPforceChildVisibility
 		{
 			get
 			{

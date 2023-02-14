@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText
+namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
 	/// System.Text.EncoderNLS
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Char _charLeftOver
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RChar r_F_charLeftOver;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RChar RF_charLeftOver
+		protected Hvak.Editor.Refleaction.RSystem.RChar r_F_charLeftOver;
+		public virtual Hvak.Editor.Refleaction.RSystem.RChar RF_charLeftOver
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding _encoding
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_F_encoding;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoding RF_encoding
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoding r_F_encoding;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoding RF_encoding
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean _mustFlush
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_mustFlush;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_mustFlush
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_mustFlush;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_mustFlush
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean _throwOnOverflow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_throwOnOverflow;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_throwOnOverflow
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_throwOnOverflow;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_throwOnOverflow
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 _charsUsed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_charsUsed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_charsUsed
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_charsUsed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_charsUsed
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.EncoderFallback _fallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallback r_F_fallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallback RF_fallback
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoderFallback r_F_fallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoderFallback RF_fallback
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.EncoderFallbackBuffer _fallbackBuffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer r_F_fallbackBuffer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer RF_fallbackBuffer
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer r_F_fallbackBuffer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer RF_fallbackBuffer
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.Encoding Encoding
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoding r_PEncoding;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoding RPEncoding
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoding r_PEncoding;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoding RPEncoding
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean MustFlush
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PMustFlush;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPMustFlush
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PMustFlush;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPMustFlush
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean HasState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasState
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasState
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.EncoderFallback Fallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallback r_PFallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallback RPFallback
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoderFallback r_PFallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoderFallback RPFallback
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.EncoderFallbackBuffer FallbackBuffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer r_PFallbackBuffer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer RPFallbackBuffer
+		protected Hvak.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer r_PFallbackBuffer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.REncoderFallbackBuffer RPFallbackBuffer
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean InternalHasFallbackBuffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PInternalHasFallbackBuffer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPInternalHasFallbackBuffer
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PInternalHasFallbackBuffer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPInternalHasFallbackBuffer
 		{
 			get
 			{
@@ -639,7 +639,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetByteCount(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @chars, System.Boolean @flush)
+        public virtual System.Int32 GetByteCount(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars, System.Boolean @flush)
         {
 
             var ___genericsType = new Type[] {};
@@ -650,7 +650,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetBytes(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @chars, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @bytes, System.Boolean @flush)
+        public virtual System.Int32 GetBytes(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes, System.Boolean @flush)
         {
 
             var ___genericsType = new Type[] {};
@@ -661,7 +661,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void Convert(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @chars, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RByte> @bytes, System.Boolean @flush, out System.Int32 @charsUsed, out System.Int32 @bytesUsed, out System.Boolean @completed)
+        public virtual void Convert(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @chars, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RByte> @bytes, System.Boolean @flush, out System.Int32 @charsUsed, out System.Int32 @bytesUsed, out System.Boolean @completed)
         {
 			@charsUsed = default;
 			@bytesUsed = default;

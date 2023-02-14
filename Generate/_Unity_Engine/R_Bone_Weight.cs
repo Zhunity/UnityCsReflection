@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.BoneWeight
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_Weight0
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Weight0;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Weight0
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Weight0;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Weight0
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_Weight1
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Weight1;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Weight1
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Weight1;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Weight1
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_Weight2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Weight2;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Weight2
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Weight2;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Weight2
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_Weight3
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Weight3;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Weight3
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Weight3;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Weight3
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_BoneIndex0
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_BoneIndex0;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_BoneIndex0
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_BoneIndex0;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_BoneIndex0
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_BoneIndex1
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_BoneIndex1;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_BoneIndex1
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_BoneIndex1;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_BoneIndex1
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_BoneIndex2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_BoneIndex2;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_BoneIndex2
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_BoneIndex2;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_BoneIndex2
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_BoneIndex3
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_BoneIndex3;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_BoneIndex3
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_BoneIndex3;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_BoneIndex3
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single weight0
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pweight0;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPweight0
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pweight0;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPweight0
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single weight1
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pweight1;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPweight1
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pweight1;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPweight1
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single weight2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pweight2;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPweight2
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pweight2;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPweight2
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single weight3
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pweight3;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPweight3
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pweight3;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPweight3
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 boneIndex0
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PboneIndex0;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPboneIndex0
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PboneIndex0;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPboneIndex0
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 boneIndex1
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PboneIndex1;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPboneIndex1
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PboneIndex1;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPboneIndex1
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 boneIndex2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PboneIndex2;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPboneIndex2
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PboneIndex2;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPboneIndex2
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 boneIndex3
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PboneIndex3;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPboneIndex3
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PboneIndex3;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPboneIndex3
 		{
 			get
 			{

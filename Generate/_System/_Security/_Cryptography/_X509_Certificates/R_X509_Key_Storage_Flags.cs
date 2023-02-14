@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates
 {
 	/// <summary>
 	/// System.Security.Cryptography.X509Certificates.X509KeyStorageFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509KeyStorageFlags DefaultKeySet
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags r_FDefaultKeySet;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags RFDefaultKeySet
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags r_FDefaultKeySet;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags RFDefaultKeySet
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509KeyStorageFlags UserKeySet
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags r_FUserKeySet;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags RFUserKeySet
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags r_FUserKeySet;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags RFUserKeySet
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509KeyStorageFlags MachineKeySet
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags r_FMachineKeySet;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags RFMachineKeySet
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags r_FMachineKeySet;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags RFMachineKeySet
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509KeyStorageFlags Exportable
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags r_FExportable;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags RFExportable
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags r_FExportable;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags RFExportable
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509KeyStorageFlags UserProtected
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags r_FUserProtected;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags RFUserProtected
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags r_FUserProtected;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags RFUserProtected
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509KeyStorageFlags PersistKeySet
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags r_FPersistKeySet;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags RFPersistKeySet
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags r_FPersistKeySet;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags RFPersistKeySet
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509KeyStorageFlags EphemeralKeySet
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags r_FEphemeralKeySet;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags RFEphemeralKeySet
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags r_FEphemeralKeySet;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509KeyStorageFlags RFEphemeralKeySet
 		{
 			get
 			{

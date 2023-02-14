@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Renderer
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector4 lightmapTilingOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_PlightmapTilingOffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RPlightmapTilingOffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_PlightmapTilingOffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RPlightmapTilingOffset
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Transform lightProbeAnchor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTransform r_PlightProbeAnchor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTransform RPlightProbeAnchor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTransform r_PlightProbeAnchor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTransform RPlightProbeAnchor
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean castShadows
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PcastShadows;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPcastShadows
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcastShadows;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcastShadows
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean motionVectors
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PmotionVectors;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPmotionVectors
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PmotionVectors;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPmotionVectors
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean useLightProbes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PuseLightProbes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPuseLightProbes
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PuseLightProbes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPuseLightProbes
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Bounds bounds
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RBounds r_Pbounds;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RBounds RPbounds
+		protected Hvak.Editor.Refleaction.RUnityEngine.RBounds r_Pbounds;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RBounds RPbounds
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Bounds localBounds
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RBounds r_PlocalBounds;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RBounds RPlocalBounds
+		protected Hvak.Editor.Refleaction.RUnityEngine.RBounds r_PlocalBounds;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RBounds RPlocalBounds
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Penabled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPenabled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Penabled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPenabled
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isVisible
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisVisible;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisVisible
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisVisible;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisVisible
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.ShadowCastingMode shadowCastingMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode r_PshadowCastingMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode RPshadowCastingMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode r_PshadowCastingMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RShadowCastingMode RPshadowCastingMode
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean receiveShadows
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PreceiveShadows;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPreceiveShadows
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PreceiveShadows;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPreceiveShadows
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean forceRenderingOff
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PforceRenderingOff;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPforceRenderingOff
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PforceRenderingOff;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPforceRenderingOff
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean staticShadowCaster
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PstaticShadowCaster;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPstaticShadowCaster
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PstaticShadowCaster;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPstaticShadowCaster
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.MotionVectorGenerationMode motionVectorGenerationMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode r_PmotionVectorGenerationMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode RPmotionVectorGenerationMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode r_PmotionVectorGenerationMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMotionVectorGenerationMode RPmotionVectorGenerationMode
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.LightProbeUsage lightProbeUsage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage r_PlightProbeUsage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage RPlightProbeUsage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage r_PlightProbeUsage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RLightProbeUsage RPlightProbeUsage
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Rendering.ReflectionProbeUsage reflectionProbeUsage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage r_PreflectionProbeUsage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage RPreflectionProbeUsage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage r_PreflectionProbeUsage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRendering.RReflectionProbeUsage RPreflectionProbeUsage
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 renderingLayerMask
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PrenderingLayerMask;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPrenderingLayerMask
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PrenderingLayerMask;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPrenderingLayerMask
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 rendererPriority
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PrendererPriority;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPrendererPriority
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PrendererPriority;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPrendererPriority
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingMode rayTracingMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode r_PrayTracingMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode RPrayTracingMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode r_PrayTracingMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingMode RPrayTracingMode
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String sortingLayerName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PsortingLayerName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPsortingLayerName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PsortingLayerName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPsortingLayerName
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 sortingLayerID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PsortingLayerID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPsortingLayerID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PsortingLayerID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPsortingLayerID
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 sortingOrder
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PsortingOrder;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPsortingOrder
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PsortingOrder;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPsortingOrder
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 sortingGroupID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PsortingGroupID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPsortingGroupID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PsortingGroupID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPsortingGroupID
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 sortingGroupOrder
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PsortingGroupOrder;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPsortingGroupOrder
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PsortingGroupOrder;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPsortingGroupOrder
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean allowOcclusionWhenDynamic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PallowOcclusionWhenDynamic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPallowOcclusionWhenDynamic
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PallowOcclusionWhenDynamic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPallowOcclusionWhenDynamic
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Transform staticBatchRootTransform
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTransform r_PstaticBatchRootTransform;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTransform RPstaticBatchRootTransform
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTransform r_PstaticBatchRootTransform;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTransform RPstaticBatchRootTransform
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 staticBatchIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PstaticBatchIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPstaticBatchIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PstaticBatchIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPstaticBatchIndex
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isPartOfStaticBatch
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisPartOfStaticBatch;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisPartOfStaticBatch
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisPartOfStaticBatch;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisPartOfStaticBatch
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Matrix4x4 worldToLocalMatrix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PworldToLocalMatrix;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPworldToLocalMatrix
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PworldToLocalMatrix;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPworldToLocalMatrix
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Matrix4x4 localToWorldMatrix
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PlocalToWorldMatrix;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPlocalToWorldMatrix
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_PlocalToWorldMatrix;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RPlocalToWorldMatrix
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GameObject lightProbeProxyVolumeOverride
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGameObject r_PlightProbeProxyVolumeOverride;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGameObject RPlightProbeProxyVolumeOverride
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGameObject r_PlightProbeProxyVolumeOverride;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGameObject RPlightProbeProxyVolumeOverride
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Transform probeAnchor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTransform r_PprobeAnchor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTransform RPprobeAnchor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTransform r_PprobeAnchor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTransform RPprobeAnchor
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 lightmapIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PlightmapIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPlightmapIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PlightmapIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPlightmapIndex
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 realtimeLightmapIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PrealtimeLightmapIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPrealtimeLightmapIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PrealtimeLightmapIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPrealtimeLightmapIndex
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector4 lightmapScaleOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_PlightmapScaleOffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RPlightmapScaleOffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_PlightmapScaleOffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RPlightmapScaleOffset
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector4 realtimeLightmapScaleOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_PrealtimeLightmapScaleOffset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RPrealtimeLightmapScaleOffset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_PrealtimeLightmapScaleOffset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RPrealtimeLightmapScaleOffset
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Material[] materials
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RMaterial> r_Pmaterials;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RMaterial> RPmaterials
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RMaterial> r_Pmaterials;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RMaterial> RPmaterials
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Material material
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_Pmaterial;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RPmaterial
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_Pmaterial;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RPmaterial
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Material sharedMaterial
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_PsharedMaterial;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RPsharedMaterial
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_PsharedMaterial;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RPsharedMaterial
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Material[] sharedMaterials
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RMaterial> r_PsharedMaterials;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RMaterial> RPsharedMaterials
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RMaterial> r_PsharedMaterials;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RMaterial> RPsharedMaterials
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Transform transform
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTransform r_Ptransform;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTransform RPtransform
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTransform r_Ptransform;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTransform RPtransform
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GameObject gameObject
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGameObject r_PgameObject;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGameObject RPgameObject
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGameObject r_PgameObject;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGameObject RPgameObject
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String tag
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptag;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtag
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptag;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtag
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component rigidbody
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Prigidbody;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPrigidbody
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Prigidbody;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPrigidbody
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component rigidbody2D
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Prigidbody2D;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPrigidbody2D
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Prigidbody2D;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPrigidbody2D
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component camera
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Pcamera;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPcamera
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Pcamera;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPcamera
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component light
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Plight;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPlight
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Plight;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPlight
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component animation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Panimation;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPanimation
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Panimation;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPanimation
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component constantForce
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_PconstantForce;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPconstantForce
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_PconstantForce;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPconstantForce
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component renderer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Prenderer;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPrenderer
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Prenderer;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPrenderer
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component audio
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Paudio;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPaudio
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Paudio;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPaudio
 		{
 			get
 			{
@@ -881,8 +881,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component networkView
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_PnetworkView;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPnetworkView
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_PnetworkView;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPnetworkView
 		{
 			get
 			{
@@ -898,8 +898,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component collider
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Pcollider;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPcollider
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Pcollider;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPcollider
 		{
 			get
 			{
@@ -915,8 +915,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component collider2D
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_Pcollider2D;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPcollider2D
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_Pcollider2D;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPcollider2D
 		{
 			get
 			{
@@ -932,8 +932,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component hingeJoint
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_PhingeJoint;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPhingeJoint
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_PhingeJoint;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPhingeJoint
 		{
 			get
 			{
@@ -949,8 +949,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Component particleSystem
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RComponent r_PparticleSystem;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RComponent RPparticleSystem
+		protected Hvak.Editor.Refleaction.RUnityEngine.RComponent r_PparticleSystem;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RComponent RPparticleSystem
 		{
 			get
 			{
@@ -966,8 +966,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -983,8 +983,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{
@@ -2883,7 +2883,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetLightmapIndex(SMFrame.Editor.Refleaction.RUnityEngineInternal.RLightmapType @lt)
+        public virtual System.Int32 GetLightmapIndex(Hvak.Editor.Refleaction.RUnityEngineInternal.RLightmapType @lt)
         {
 
             var ___genericsType = new Type[] {};
@@ -2894,7 +2894,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetLightmapIndex(System.Int32 @index, SMFrame.Editor.Refleaction.RUnityEngineInternal.RLightmapType @lt)
+        public virtual void SetLightmapIndex(System.Int32 @index, Hvak.Editor.Refleaction.RUnityEngineInternal.RLightmapType @lt)
         {
 
             var ___genericsType = new Type[] {};
@@ -2905,7 +2905,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector4 GetLightmapST(SMFrame.Editor.Refleaction.RUnityEngineInternal.RLightmapType @lt)
+        public virtual UnityEngine.Vector4 GetLightmapST(Hvak.Editor.Refleaction.RUnityEngineInternal.RLightmapType @lt)
         {
 
             var ___genericsType = new Type[] {};
@@ -2916,7 +2916,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetLightmapST(UnityEngine.Vector4 @st, SMFrame.Editor.Refleaction.RUnityEngineInternal.RLightmapType @lt)
+        public virtual void SetLightmapST(UnityEngine.Vector4 @st, Hvak.Editor.Refleaction.RUnityEngineInternal.RLightmapType @lt)
         {
 
             var ___genericsType = new Type[] {};
@@ -3103,7 +3103,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetLightmapST_Injected(SMFrame.Editor.Refleaction.RUnityEngineInternal.RLightmapType @lt, out UnityEngine.Vector4 @ret)
+        public virtual void GetLightmapST_Injected(Hvak.Editor.Refleaction.RUnityEngineInternal.RLightmapType @lt, out UnityEngine.Vector4 @ret)
         {
 			@ret = default;
 
@@ -3116,7 +3116,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetLightmapST_Injected(ref UnityEngine.Vector4 @st, SMFrame.Editor.Refleaction.RUnityEngineInternal.RLightmapType @lt)
+        public virtual void SetLightmapST_Injected(ref UnityEngine.Vector4 @st, Hvak.Editor.Refleaction.RUnityEngineInternal.RLightmapType @lt)
         {
 
             var ___genericsType = new Type[] {};

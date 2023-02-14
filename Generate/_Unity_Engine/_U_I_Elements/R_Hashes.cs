@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.Hashes
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 kSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FkSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFkSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FkSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFkSize
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Hashes+<hashes>e__FixedBuffer hashes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHashes.R__0__hashes__1__e__FixedBuffer r_Fhashes;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHashes.R__0__hashes__1__e__FixedBuffer RFhashes
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHashes.R__0__hashes__1__e__FixedBuffer r_Fhashes;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHashes.R__0__hashes__1__e__FixedBuffer RFhashes
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Vector2Int
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_X
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_X;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_X
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_X;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_X
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_Y
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Y;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Y
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Y;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Y
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int s_Zero
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Fs_Zero;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RFs_Zero
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Fs_Zero;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RFs_Zero
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int s_One
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Fs_One;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RFs_One
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Fs_One;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RFs_One
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int s_Up
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Fs_Up;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RFs_Up
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Fs_Up;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RFs_Up
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int s_Down
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Fs_Down;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RFs_Down
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Fs_Down;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RFs_Down
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int s_Left
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Fs_Left;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RFs_Left
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Fs_Left;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RFs_Left
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int s_Right
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Fs_Right;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RFs_Right
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Fs_Right;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RFs_Right
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 x
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Px;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPx
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Px;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPx
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 y
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Py;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPy
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Py;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPy
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPItem_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPItem_Int32
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single magnitude
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pmagnitude;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPmagnitude
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pmagnitude;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPmagnitude
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 sqrMagnitude
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PsqrMagnitude;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPsqrMagnitude
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PsqrMagnitude;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPsqrMagnitude
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int zero
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Pzero;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RPzero
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Pzero;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RPzero
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int one
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Pone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RPone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Pone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RPone
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int up
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Pup;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RPup
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Pup;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RPup
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int down
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Pdown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RPdown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Pdown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RPdown
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int left
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Pleft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RPleft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Pleft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RPleft
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector2Int right
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int r_Pright;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector2Int RPright
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int r_Pright;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector2Int RPright
 		{
 			get
 			{

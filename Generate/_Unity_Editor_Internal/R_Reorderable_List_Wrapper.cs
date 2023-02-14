@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
+namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 {
 	/// <summary>
 	/// UnityEditorInternal.ReorderableListWrapper
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEditorInternal.ReorderableList m_ReorderableList
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditorInternal.RReorderableList r_Fm_ReorderableList;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditorInternal.RReorderableList RFm_ReorderableList
+		protected Hvak.Editor.Refleaction.RUnityEditorInternal.RReorderableList r_Fm_ReorderableList;
+		public virtual Hvak.Editor.Refleaction.RUnityEditorInternal.RReorderableList RFm_ReorderableList
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Single m_HeaderHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_HeaderHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_HeaderHeight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_HeaderHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_HeaderHeight
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean m_Reorderable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_Reorderable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_Reorderable
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_Reorderable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_Reorderable
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean m_IsNotInPrefabContextModeWithOverrides
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_IsNotInPrefabContextModeWithOverrides;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_IsNotInPrefabContextModeWithOverrides
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsNotInPrefabContextModeWithOverrides;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsNotInPrefabContextModeWithOverrides
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEditor.SerializedProperty m_OriginalProperty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RSerializedProperty r_Fm_OriginalProperty;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RSerializedProperty RFm_OriginalProperty
+		protected Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty r_Fm_OriginalProperty;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty RFm_OriginalProperty
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEditor.SerializedProperty m_ArraySize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RSerializedProperty r_Fm_ArraySize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RSerializedProperty RFm_ArraySize
+		protected Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty r_Fm_ArraySize;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty RFm_ArraySize
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEngine.Rect s_ToolTipRect
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRect r_Fs_ToolTipRect;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRect RFs_ToolTipRect
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRect r_Fs_ToolTipRect;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRect RFs_ToolTipRect
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 m_LastArraySize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_LastArraySize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_LastArraySize
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_LastArraySize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_LastArraySize
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// UnityEditor.SerializedProperty Property
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RSerializedProperty r_PProperty;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RSerializedProperty RPProperty
+		protected Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty r_PProperty;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty RPProperty
 		{
 			get
 			{

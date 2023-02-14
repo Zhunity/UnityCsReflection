@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.AnimationCurve
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_Ptr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_Ptr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Keyframe[] keys
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RKeyframe> r_Pkeys;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RKeyframe> RPkeys
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RKeyframe> r_Pkeys;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RKeyframe> RPkeys
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Keyframe Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RKeyframe r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RKeyframe RPItem_Int32
+		protected Hvak.Editor.Refleaction.RUnityEngine.RKeyframe r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RKeyframe RPItem_Int32
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Plength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPlength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Plength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPlength
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.WrapMode preWrapMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode r_PpreWrapMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode RPpreWrapMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RWrapMode r_PpreWrapMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RWrapMode RPpreWrapMode
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.WrapMode postWrapMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode r_PpostWrapMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RWrapMode RPpostWrapMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RWrapMode r_PpostWrapMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RWrapMode RPpostWrapMode
 		{
 			get
 			{

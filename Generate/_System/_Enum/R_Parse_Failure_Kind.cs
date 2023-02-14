@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class REnum
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Enum+ParseFailureKind None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.REnum.RParseFailureKind r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.REnum.RParseFailureKind RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.REnum.RParseFailureKind r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.REnum.RParseFailureKind RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Enum+ParseFailureKind Argument
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.REnum.RParseFailureKind r_FArgument;
-		public static SMFrame.Editor.Refleaction.RSystem.REnum.RParseFailureKind RFArgument
+		protected static Hvak.Editor.Refleaction.RSystem.REnum.RParseFailureKind r_FArgument;
+		public static Hvak.Editor.Refleaction.RSystem.REnum.RParseFailureKind RFArgument
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Enum+ParseFailureKind ArgumentNull
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.REnum.RParseFailureKind r_FArgumentNull;
-		public static SMFrame.Editor.Refleaction.RSystem.REnum.RParseFailureKind RFArgumentNull
+		protected static Hvak.Editor.Refleaction.RSystem.REnum.RParseFailureKind r_FArgumentNull;
+		public static Hvak.Editor.Refleaction.RSystem.REnum.RParseFailureKind RFArgumentNull
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Enum+ParseFailureKind ArgumentWithParameter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.REnum.RParseFailureKind r_FArgumentWithParameter;
-		public static SMFrame.Editor.Refleaction.RSystem.REnum.RParseFailureKind RFArgumentWithParameter
+		protected static Hvak.Editor.Refleaction.RSystem.REnum.RParseFailureKind r_FArgumentWithParameter;
+		public static Hvak.Editor.Refleaction.RSystem.REnum.RParseFailureKind RFArgumentWithParameter
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Enum+ParseFailureKind UnhandledException
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.REnum.RParseFailureKind r_FUnhandledException;
-		public static SMFrame.Editor.Refleaction.RSystem.REnum.RParseFailureKind RFUnhandledException
+		protected static Hvak.Editor.Refleaction.RSystem.REnum.RParseFailureKind r_FUnhandledException;
+		public static Hvak.Editor.Refleaction.RSystem.REnum.RParseFailureKind RFUnhandledException
 		{
 			get
 			{

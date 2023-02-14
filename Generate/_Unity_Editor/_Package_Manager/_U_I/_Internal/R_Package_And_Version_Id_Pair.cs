@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String packageUniqueId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpackageUniqueId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpackageUniqueId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpackageUniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpackageUniqueId
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String versionUniqueId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FversionUniqueId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFversionUniqueId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FversionUniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFversionUniqueId
 		{
 			get
 			{

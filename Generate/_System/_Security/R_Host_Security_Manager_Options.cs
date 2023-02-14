@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 {
 	/// <summary>
 	/// System.Security.HostSecurityManagerOptions
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.HostSecurityManagerOptions None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.HostSecurityManagerOptions HostAppDomainEvidence
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_FHostAppDomainEvidence;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RFHostAppDomainEvidence
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_FHostAppDomainEvidence;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RFHostAppDomainEvidence
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.HostSecurityManagerOptions HostPolicyLevel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_FHostPolicyLevel;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RFHostPolicyLevel
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_FHostPolicyLevel;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RFHostPolicyLevel
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.HostSecurityManagerOptions HostAssemblyEvidence
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_FHostAssemblyEvidence;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RFHostAssemblyEvidence
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_FHostAssemblyEvidence;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RFHostAssemblyEvidence
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.HostSecurityManagerOptions HostDetermineApplicationTrust
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_FHostDetermineApplicationTrust;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RFHostDetermineApplicationTrust
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_FHostDetermineApplicationTrust;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RFHostDetermineApplicationTrust
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.HostSecurityManagerOptions HostResolvePolicy
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_FHostResolvePolicy;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RFHostResolvePolicy
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_FHostResolvePolicy;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RFHostResolvePolicy
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.HostSecurityManagerOptions AllFlags
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_FAllFlags;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RFAllFlags
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions r_FAllFlags;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RHostSecurityManagerOptions RFAllFlags
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.SequencePoint
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 Offset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFOffset
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 Line
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FLine;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFLine
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FLine;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFLine
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 Col
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFCol
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FCol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFCol
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 EndLine
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FEndLine;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFEndLine
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FEndLine;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFEndLine
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 EndCol
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FEndCol;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFEndCol
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FEndCol;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFEndCol
 		{
 			get
 			{

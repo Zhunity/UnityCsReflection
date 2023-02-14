@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RCamera
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+SceneViewFilterMode Off
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RSceneViewFilterMode r_FOff;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RSceneViewFilterMode RFOff
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RSceneViewFilterMode r_FOff;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RSceneViewFilterMode RFOff
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Camera+SceneViewFilterMode ShowFiltered
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RSceneViewFilterMode r_FShowFiltered;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RCamera.RSceneViewFilterMode RFShowFiltered
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RSceneViewFilterMode r_FShowFiltered;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RSceneViewFilterMode RFShowFiltered
 		{
 			get
 			{

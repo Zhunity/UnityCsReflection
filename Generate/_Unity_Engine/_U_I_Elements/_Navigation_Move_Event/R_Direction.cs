@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RNavigationMoveEvent
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.NavigationMoveEvent+Direction None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFNone
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.NavigationMoveEvent+Direction Left
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFLeft
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.NavigationMoveEvent+Direction Up
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FUp;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFUp
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FUp;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFUp
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.NavigationMoveEvent+Direction Right
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFRight
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.NavigationMoveEvent+Direction Down
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FDown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFDown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FDown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFDown
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.NavigationMoveEvent+Direction Next
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FNext;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFNext
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FNext;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFNext
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.NavigationMoveEvent+Direction Previous
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FPrevious;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFPrevious
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FPrevious;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFPrevious
 		{
 			get
 			{

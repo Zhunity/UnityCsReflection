@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.UnicodeCategory
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory UppercaseLetter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FUppercaseLetter;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFUppercaseLetter
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FUppercaseLetter;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFUppercaseLetter
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory LowercaseLetter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FLowercaseLetter;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFLowercaseLetter
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FLowercaseLetter;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFLowercaseLetter
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory TitlecaseLetter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FTitlecaseLetter;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFTitlecaseLetter
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FTitlecaseLetter;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFTitlecaseLetter
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory ModifierLetter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FModifierLetter;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFModifierLetter
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FModifierLetter;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFModifierLetter
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory OtherLetter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FOtherLetter;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFOtherLetter
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FOtherLetter;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFOtherLetter
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory NonSpacingMark
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FNonSpacingMark;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFNonSpacingMark
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FNonSpacingMark;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFNonSpacingMark
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory SpacingCombiningMark
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FSpacingCombiningMark;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFSpacingCombiningMark
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FSpacingCombiningMark;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFSpacingCombiningMark
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory EnclosingMark
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FEnclosingMark;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFEnclosingMark
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FEnclosingMark;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFEnclosingMark
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory DecimalDigitNumber
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FDecimalDigitNumber;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFDecimalDigitNumber
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FDecimalDigitNumber;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFDecimalDigitNumber
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory LetterNumber
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FLetterNumber;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFLetterNumber
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FLetterNumber;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFLetterNumber
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory OtherNumber
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FOtherNumber;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFOtherNumber
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FOtherNumber;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFOtherNumber
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory SpaceSeparator
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FSpaceSeparator;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFSpaceSeparator
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FSpaceSeparator;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFSpaceSeparator
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory LineSeparator
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FLineSeparator;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFLineSeparator
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FLineSeparator;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFLineSeparator
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory ParagraphSeparator
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FParagraphSeparator;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFParagraphSeparator
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FParagraphSeparator;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFParagraphSeparator
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory Control
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FControl;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFControl
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FControl;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFControl
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory Format
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FFormat;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFFormat
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FFormat;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFFormat
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory Surrogate
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FSurrogate;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFSurrogate
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FSurrogate;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFSurrogate
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory PrivateUse
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FPrivateUse;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFPrivateUse
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FPrivateUse;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFPrivateUse
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory ConnectorPunctuation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FConnectorPunctuation;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFConnectorPunctuation
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FConnectorPunctuation;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFConnectorPunctuation
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory DashPunctuation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FDashPunctuation;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFDashPunctuation
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FDashPunctuation;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFDashPunctuation
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory OpenPunctuation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FOpenPunctuation;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFOpenPunctuation
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FOpenPunctuation;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFOpenPunctuation
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory ClosePunctuation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FClosePunctuation;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFClosePunctuation
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FClosePunctuation;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFClosePunctuation
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory InitialQuotePunctuation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FInitialQuotePunctuation;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFInitialQuotePunctuation
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FInitialQuotePunctuation;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFInitialQuotePunctuation
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory FinalQuotePunctuation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FFinalQuotePunctuation;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFFinalQuotePunctuation
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FFinalQuotePunctuation;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFFinalQuotePunctuation
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory OtherPunctuation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FOtherPunctuation;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFOtherPunctuation
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FOtherPunctuation;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFOtherPunctuation
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory MathSymbol
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FMathSymbol;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFMathSymbol
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FMathSymbol;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFMathSymbol
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory CurrencySymbol
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FCurrencySymbol;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFCurrencySymbol
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FCurrencySymbol;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFCurrencySymbol
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory ModifierSymbol
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FModifierSymbol;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFModifierSymbol
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FModifierSymbol;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFModifierSymbol
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory OtherSymbol
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FOtherSymbol;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFOtherSymbol
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FOtherSymbol;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFOtherSymbol
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.UnicodeCategory OtherNotAssigned
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FOtherNotAssigned;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFOtherNotAssigned
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory r_FOtherNotAssigned;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RUnicodeCategory RFOtherNotAssigned
 		{
 			get
 			{

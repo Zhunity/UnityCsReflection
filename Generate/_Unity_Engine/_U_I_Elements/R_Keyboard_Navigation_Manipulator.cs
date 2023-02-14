@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.KeyboardNavigationManipulator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action`2[UnityEngine.UIElements.KeyboardNavigationOperation,UnityEngine.UIElements.EventBase] m_Action
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase> r_Fm_Action;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.REventBase> RFm_Action
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase> r_Fm_Action;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventBase> RFm_Action
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement target
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Ptarget;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPtarget
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Ptarget;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPtarget
 		{
 			get
 			{
@@ -378,13 +378,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.KeyboardNavigationOperation __0__OnKeyDown__1__g__GetOperation__5__4_0(ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass4_0 @_______)
+        public static UnityEngine.UIElements.KeyboardNavigationOperation __0__OnKeyDown__1__g__GetOperation__5__4_0(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass4_0 @_______)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_______.Value};
             var ___result = RM__0__OnKeyDown__1__g__GetOperation__5__4_0_Ref___0____1__c__DisplayClass4_0.Invoke(___genericsType, ___parameters);
-			@_______ = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass4_0(___parameters[0]);
+			@_______ = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass4_0(___parameters[0]);
 
             return (UnityEngine.UIElements.KeyboardNavigationOperation)___result;
         }

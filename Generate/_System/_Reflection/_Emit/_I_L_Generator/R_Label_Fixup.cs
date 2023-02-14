@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {public partial class RILGenerator
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 offset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Foffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFoffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Foffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFoffset
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 pos
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fpos;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFpos
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fpos;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpos
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 label_idx
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Flabel_idx;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlabel_idx
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Flabel_idx;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlabel_idx
 		{
 			get
 			{

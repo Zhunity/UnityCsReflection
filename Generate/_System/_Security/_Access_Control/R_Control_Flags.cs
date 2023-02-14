@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.ControlFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags OwnerDefaulted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FOwnerDefaulted;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFOwnerDefaulted
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FOwnerDefaulted;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFOwnerDefaulted
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags GroupDefaulted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FGroupDefaulted;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFGroupDefaulted
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FGroupDefaulted;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFGroupDefaulted
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags DiscretionaryAclPresent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FDiscretionaryAclPresent;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFDiscretionaryAclPresent
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FDiscretionaryAclPresent;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFDiscretionaryAclPresent
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags DiscretionaryAclDefaulted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FDiscretionaryAclDefaulted;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFDiscretionaryAclDefaulted
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FDiscretionaryAclDefaulted;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFDiscretionaryAclDefaulted
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags SystemAclPresent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FSystemAclPresent;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFSystemAclPresent
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FSystemAclPresent;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFSystemAclPresent
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags SystemAclDefaulted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FSystemAclDefaulted;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFSystemAclDefaulted
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FSystemAclDefaulted;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFSystemAclDefaulted
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags DiscretionaryAclUntrusted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FDiscretionaryAclUntrusted;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFDiscretionaryAclUntrusted
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FDiscretionaryAclUntrusted;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFDiscretionaryAclUntrusted
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags ServerSecurity
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FServerSecurity;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFServerSecurity
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FServerSecurity;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFServerSecurity
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags DiscretionaryAclAutoInheritRequired
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FDiscretionaryAclAutoInheritRequired;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFDiscretionaryAclAutoInheritRequired
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FDiscretionaryAclAutoInheritRequired;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFDiscretionaryAclAutoInheritRequired
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags SystemAclAutoInheritRequired
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FSystemAclAutoInheritRequired;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFSystemAclAutoInheritRequired
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FSystemAclAutoInheritRequired;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFSystemAclAutoInheritRequired
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags DiscretionaryAclAutoInherited
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FDiscretionaryAclAutoInherited;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFDiscretionaryAclAutoInherited
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FDiscretionaryAclAutoInherited;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFDiscretionaryAclAutoInherited
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags SystemAclAutoInherited
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FSystemAclAutoInherited;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFSystemAclAutoInherited
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FSystemAclAutoInherited;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFSystemAclAutoInherited
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags DiscretionaryAclProtected
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FDiscretionaryAclProtected;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFDiscretionaryAclProtected
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FDiscretionaryAclProtected;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFDiscretionaryAclProtected
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags SystemAclProtected
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FSystemAclProtected;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFSystemAclProtected
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FSystemAclProtected;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFSystemAclProtected
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags RMControlValid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FRMControlValid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFRMControlValid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FRMControlValid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFRMControlValid
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ControlFlags SelfRelative
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FSelfRelative;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFSelfRelative
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags r_FSelfRelative;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RControlFlags RFSelfRelative
 		{
 			get
 			{

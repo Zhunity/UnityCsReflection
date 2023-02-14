@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.OperandType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType InlineBrTarget
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineBrTarget;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineBrTarget
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineBrTarget;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineBrTarget
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType InlineField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineField;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineField
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineField;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType InlineI
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineI;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineI
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineI;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineI
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType InlineI8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineI8;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineI8
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineI8;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineI8
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType InlineMethod
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineMethod;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineMethod
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineMethod;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineMethod
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType InlineNone
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineNone
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineNone;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineNone
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType InlinePhi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlinePhi;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlinePhi
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlinePhi;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlinePhi
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType InlineR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineR;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineR
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineR;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineR
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType InlineSig
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineSig;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineSig
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineSig;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineSig
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType InlineString
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineString;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineString
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineString;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineString
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType InlineSwitch
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineSwitch;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineSwitch
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineSwitch;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineSwitch
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType InlineTok
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineTok;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineTok
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineTok;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineTok
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType InlineType
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineType;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineType
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineType;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineType
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType InlineVar
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineVar;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineVar
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FInlineVar;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFInlineVar
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType ShortInlineBrTarget
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FShortInlineBrTarget;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFShortInlineBrTarget
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FShortInlineBrTarget;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFShortInlineBrTarget
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType ShortInlineI
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FShortInlineI;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFShortInlineI
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FShortInlineI;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFShortInlineI
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType ShortInlineR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FShortInlineR;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFShortInlineR
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FShortInlineR;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFShortInlineR
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OperandType ShortInlineVar
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FShortInlineVar;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFShortInlineVar
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType r_FShortInlineVar;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROperandType RFShortInlineVar
 		{
 			get
 			{

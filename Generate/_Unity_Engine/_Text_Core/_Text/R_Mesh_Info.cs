@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.MeshInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Color32 k_DefaultColor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColor32 r_Fk_DefaultColor;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColor32 RFk_DefaultColor
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_Fk_DefaultColor;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColor32 RFk_DefaultColor
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector3 k_DefaultNormal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fk_DefaultNormal;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFk_DefaultNormal
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fk_DefaultNormal;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFk_DefaultNormal
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector4 k_DefaultTangent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_Fk_DefaultTangent;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFk_DefaultTangent
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_Fk_DefaultTangent;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFk_DefaultTangent
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Bounds k_DefaultBounds
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RBounds r_Fk_DefaultBounds;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RBounds RFk_DefaultBounds
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RBounds r_Fk_DefaultBounds;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RBounds RFk_DefaultBounds
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Mesh mesh
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMesh r_Fmesh;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMesh RFmesh
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMesh r_Fmesh;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMesh RFmesh
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 vertexCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FvertexCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvertexCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FvertexCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvertexCount
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector3[] vertices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> r_Fvertices;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> RFvertices
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector3> r_Fvertices;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector3> RFvertices
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector3[] normals
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> r_Fnormals;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector3> RFnormals
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector3> r_Fnormals;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector3> RFnormals
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector4[] tangents
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector4> r_Ftangents;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector4> RFtangents
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> r_Ftangents;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> RFtangents
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector4[] uvs0
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector4> r_Fuvs0;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector4> RFuvs0
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> r_Fuvs0;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> RFuvs0
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector2[] uvs2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector2> r_Fuvs2;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RVector2> RFuvs2
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector2> r_Fuvs2;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector2> RFuvs2
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Color32[] colors32
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RColor32> r_Fcolors32;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RColor32> RFcolors32
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RColor32> r_Fcolors32;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RColor32> RFcolors32
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32[] triangles
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Ftriangles;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RFtriangles
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_Ftriangles;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFtriangles
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Material material
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_Fmaterial;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RFmaterial
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_Fmaterial;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RFmaterial
 		{
 			get
 			{
@@ -543,7 +543,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void SortGeometry(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RVertexSortingOrder @order)
+        public virtual void SortGeometry(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RVertexSortingOrder @order)
         {
 
             var ___genericsType = new Type[] {};

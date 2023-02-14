@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 {
 	/// <summary>
 	/// System.Security.Principal.WellKnownSidType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType NullSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FNullSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFNullSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FNullSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFNullSid
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WorldSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWorldSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWorldSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWorldSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWorldSid
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType LocalSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FLocalSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFLocalSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FLocalSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFLocalSid
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType CreatorOwnerSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FCreatorOwnerSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFCreatorOwnerSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FCreatorOwnerSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFCreatorOwnerSid
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType CreatorGroupSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FCreatorGroupSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFCreatorGroupSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FCreatorGroupSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFCreatorGroupSid
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType CreatorOwnerServerSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FCreatorOwnerServerSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFCreatorOwnerServerSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FCreatorOwnerServerSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFCreatorOwnerServerSid
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType CreatorGroupServerSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FCreatorGroupServerSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFCreatorGroupServerSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FCreatorGroupServerSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFCreatorGroupServerSid
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType NTAuthoritySid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FNTAuthoritySid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFNTAuthoritySid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FNTAuthoritySid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFNTAuthoritySid
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType DialupSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FDialupSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFDialupSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FDialupSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFDialupSid
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType NetworkSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FNetworkSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFNetworkSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FNetworkSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFNetworkSid
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BatchSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBatchSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBatchSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBatchSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBatchSid
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType InteractiveSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FInteractiveSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFInteractiveSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FInteractiveSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFInteractiveSid
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType ServiceSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FServiceSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFServiceSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FServiceSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFServiceSid
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AnonymousSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAnonymousSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAnonymousSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAnonymousSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAnonymousSid
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType ProxySid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FProxySid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFProxySid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FProxySid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFProxySid
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType EnterpriseControllersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FEnterpriseControllersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFEnterpriseControllersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FEnterpriseControllersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFEnterpriseControllersSid
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType SelfSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FSelfSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFSelfSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FSelfSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFSelfSid
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AuthenticatedUserSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAuthenticatedUserSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAuthenticatedUserSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAuthenticatedUserSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAuthenticatedUserSid
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType RestrictedCodeSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FRestrictedCodeSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFRestrictedCodeSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FRestrictedCodeSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFRestrictedCodeSid
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType TerminalServerSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FTerminalServerSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFTerminalServerSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FTerminalServerSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFTerminalServerSid
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType RemoteLogonIdSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FRemoteLogonIdSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFRemoteLogonIdSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FRemoteLogonIdSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFRemoteLogonIdSid
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType LogonIdsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FLogonIdsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFLogonIdsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FLogonIdsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFLogonIdsSid
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType LocalSystemSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FLocalSystemSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFLocalSystemSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FLocalSystemSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFLocalSystemSid
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType LocalServiceSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FLocalServiceSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFLocalServiceSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FLocalServiceSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFLocalServiceSid
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType NetworkServiceSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FNetworkServiceSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFNetworkServiceSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FNetworkServiceSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFNetworkServiceSid
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinDomainSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinDomainSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinDomainSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinDomainSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinDomainSid
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinAdministratorsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinAdministratorsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinAdministratorsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinAdministratorsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinAdministratorsSid
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinUsersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinUsersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinUsersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinUsersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinUsersSid
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinGuestsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinGuestsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinGuestsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinGuestsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinGuestsSid
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinPowerUsersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinPowerUsersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinPowerUsersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinPowerUsersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinPowerUsersSid
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinAccountOperatorsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinAccountOperatorsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinAccountOperatorsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinAccountOperatorsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinAccountOperatorsSid
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinSystemOperatorsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinSystemOperatorsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinSystemOperatorsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinSystemOperatorsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinSystemOperatorsSid
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinPrintOperatorsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinPrintOperatorsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinPrintOperatorsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinPrintOperatorsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinPrintOperatorsSid
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinBackupOperatorsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinBackupOperatorsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinBackupOperatorsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinBackupOperatorsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinBackupOperatorsSid
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinReplicatorSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinReplicatorSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinReplicatorSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinReplicatorSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinReplicatorSid
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinPreWindows2000CompatibleAccessSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinPreWindows2000CompatibleAccessSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinPreWindows2000CompatibleAccessSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinPreWindows2000CompatibleAccessSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinPreWindows2000CompatibleAccessSid
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinRemoteDesktopUsersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinRemoteDesktopUsersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinRemoteDesktopUsersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinRemoteDesktopUsersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinRemoteDesktopUsersSid
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinNetworkConfigurationOperatorsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinNetworkConfigurationOperatorsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinNetworkConfigurationOperatorsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinNetworkConfigurationOperatorsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinNetworkConfigurationOperatorsSid
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AccountAdministratorSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountAdministratorSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountAdministratorSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountAdministratorSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountAdministratorSid
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AccountGuestSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountGuestSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountGuestSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountGuestSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountGuestSid
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AccountKrbtgtSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountKrbtgtSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountKrbtgtSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountKrbtgtSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountKrbtgtSid
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AccountDomainAdminsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountDomainAdminsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountDomainAdminsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountDomainAdminsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountDomainAdminsSid
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AccountDomainUsersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountDomainUsersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountDomainUsersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountDomainUsersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountDomainUsersSid
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AccountDomainGuestsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountDomainGuestsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountDomainGuestsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountDomainGuestsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountDomainGuestsSid
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AccountComputersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountComputersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountComputersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountComputersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountComputersSid
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AccountControllersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountControllersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountControllersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountControllersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountControllersSid
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AccountCertAdminsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountCertAdminsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountCertAdminsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountCertAdminsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountCertAdminsSid
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AccountSchemaAdminsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountSchemaAdminsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountSchemaAdminsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountSchemaAdminsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountSchemaAdminsSid
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AccountEnterpriseAdminsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountEnterpriseAdminsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountEnterpriseAdminsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountEnterpriseAdminsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountEnterpriseAdminsSid
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AccountPolicyAdminsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountPolicyAdminsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountPolicyAdminsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountPolicyAdminsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountPolicyAdminsSid
 		{
 			get
 			{
@@ -881,8 +881,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType AccountRasAndIasServersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountRasAndIasServersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountRasAndIasServersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FAccountRasAndIasServersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFAccountRasAndIasServersSid
 		{
 			get
 			{
@@ -898,8 +898,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType NtlmAuthenticationSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FNtlmAuthenticationSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFNtlmAuthenticationSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FNtlmAuthenticationSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFNtlmAuthenticationSid
 		{
 			get
 			{
@@ -915,8 +915,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType DigestAuthenticationSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FDigestAuthenticationSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFDigestAuthenticationSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FDigestAuthenticationSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFDigestAuthenticationSid
 		{
 			get
 			{
@@ -932,8 +932,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType SChannelAuthenticationSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FSChannelAuthenticationSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFSChannelAuthenticationSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FSChannelAuthenticationSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFSChannelAuthenticationSid
 		{
 			get
 			{
@@ -949,8 +949,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType ThisOrganizationSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FThisOrganizationSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFThisOrganizationSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FThisOrganizationSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFThisOrganizationSid
 		{
 			get
 			{
@@ -966,8 +966,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType OtherOrganizationSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FOtherOrganizationSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFOtherOrganizationSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FOtherOrganizationSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFOtherOrganizationSid
 		{
 			get
 			{
@@ -983,8 +983,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinIncomingForestTrustBuildersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinIncomingForestTrustBuildersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinIncomingForestTrustBuildersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinIncomingForestTrustBuildersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinIncomingForestTrustBuildersSid
 		{
 			get
 			{
@@ -1000,8 +1000,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinPerformanceMonitoringUsersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinPerformanceMonitoringUsersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinPerformanceMonitoringUsersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinPerformanceMonitoringUsersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinPerformanceMonitoringUsersSid
 		{
 			get
 			{
@@ -1017,8 +1017,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinPerformanceLoggingUsersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinPerformanceLoggingUsersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinPerformanceLoggingUsersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinPerformanceLoggingUsersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinPerformanceLoggingUsersSid
 		{
 			get
 			{
@@ -1034,8 +1034,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType BuiltinAuthorizationAccessSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinAuthorizationAccessSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinAuthorizationAccessSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FBuiltinAuthorizationAccessSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFBuiltinAuthorizationAccessSid
 		{
 			get
 			{
@@ -1051,8 +1051,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinBuiltinTerminalServerLicenseServersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinBuiltinTerminalServerLicenseServersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinBuiltinTerminalServerLicenseServersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinBuiltinTerminalServerLicenseServersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinBuiltinTerminalServerLicenseServersSid
 		{
 			get
 			{
@@ -1068,8 +1068,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType MaxDefined
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FMaxDefined;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFMaxDefined
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FMaxDefined;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFMaxDefined
 		{
 			get
 			{
@@ -1085,8 +1085,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinBuiltinDCOMUsersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinBuiltinDCOMUsersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinBuiltinDCOMUsersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinBuiltinDCOMUsersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinBuiltinDCOMUsersSid
 		{
 			get
 			{
@@ -1102,8 +1102,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinBuiltinIUsersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinBuiltinIUsersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinBuiltinIUsersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinBuiltinIUsersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinBuiltinIUsersSid
 		{
 			get
 			{
@@ -1119,8 +1119,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinIUserSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinIUserSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinIUserSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinIUserSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinIUserSid
 		{
 			get
 			{
@@ -1136,8 +1136,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinBuiltinCryptoOperatorsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinBuiltinCryptoOperatorsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinBuiltinCryptoOperatorsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinBuiltinCryptoOperatorsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinBuiltinCryptoOperatorsSid
 		{
 			get
 			{
@@ -1153,8 +1153,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinUntrustedLabelSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinUntrustedLabelSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinUntrustedLabelSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinUntrustedLabelSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinUntrustedLabelSid
 		{
 			get
 			{
@@ -1170,8 +1170,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinLowLabelSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinLowLabelSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinLowLabelSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinLowLabelSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinLowLabelSid
 		{
 			get
 			{
@@ -1187,8 +1187,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinMediumLabelSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinMediumLabelSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinMediumLabelSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinMediumLabelSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinMediumLabelSid
 		{
 			get
 			{
@@ -1204,8 +1204,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinHighLabelSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinHighLabelSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinHighLabelSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinHighLabelSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinHighLabelSid
 		{
 			get
 			{
@@ -1221,8 +1221,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinSystemLabelSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinSystemLabelSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinSystemLabelSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinSystemLabelSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinSystemLabelSid
 		{
 			get
 			{
@@ -1238,8 +1238,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinWriteRestrictedCodeSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinWriteRestrictedCodeSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinWriteRestrictedCodeSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinWriteRestrictedCodeSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinWriteRestrictedCodeSid
 		{
 			get
 			{
@@ -1255,8 +1255,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinCreatorOwnerRightsSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCreatorOwnerRightsSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCreatorOwnerRightsSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCreatorOwnerRightsSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCreatorOwnerRightsSid
 		{
 			get
 			{
@@ -1272,8 +1272,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinCacheablePrincipalsGroupSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCacheablePrincipalsGroupSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCacheablePrincipalsGroupSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCacheablePrincipalsGroupSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCacheablePrincipalsGroupSid
 		{
 			get
 			{
@@ -1289,8 +1289,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinNonCacheablePrincipalsGroupSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinNonCacheablePrincipalsGroupSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinNonCacheablePrincipalsGroupSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinNonCacheablePrincipalsGroupSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinNonCacheablePrincipalsGroupSid
 		{
 			get
 			{
@@ -1306,8 +1306,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinEnterpriseReadonlyControllersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinEnterpriseReadonlyControllersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinEnterpriseReadonlyControllersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinEnterpriseReadonlyControllersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinEnterpriseReadonlyControllersSid
 		{
 			get
 			{
@@ -1323,8 +1323,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinAccountReadonlyControllersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinAccountReadonlyControllersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinAccountReadonlyControllersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinAccountReadonlyControllersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinAccountReadonlyControllersSid
 		{
 			get
 			{
@@ -1340,8 +1340,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinBuiltinEventLogReadersGroup
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinBuiltinEventLogReadersGroup;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinBuiltinEventLogReadersGroup
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinBuiltinEventLogReadersGroup;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinBuiltinEventLogReadersGroup
 		{
 			get
 			{
@@ -1357,8 +1357,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinNewEnterpriseReadonlyControllersSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinNewEnterpriseReadonlyControllersSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinNewEnterpriseReadonlyControllersSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinNewEnterpriseReadonlyControllersSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinNewEnterpriseReadonlyControllersSid
 		{
 			get
 			{
@@ -1374,8 +1374,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinBuiltinCertSvcDComAccessGroup
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinBuiltinCertSvcDComAccessGroup;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinBuiltinCertSvcDComAccessGroup
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinBuiltinCertSvcDComAccessGroup;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinBuiltinCertSvcDComAccessGroup
 		{
 			get
 			{
@@ -1391,8 +1391,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinMediumPlusLabelSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinMediumPlusLabelSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinMediumPlusLabelSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinMediumPlusLabelSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinMediumPlusLabelSid
 		{
 			get
 			{
@@ -1408,8 +1408,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinLocalLogonSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinLocalLogonSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinLocalLogonSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinLocalLogonSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinLocalLogonSid
 		{
 			get
 			{
@@ -1425,8 +1425,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinConsoleLogonSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinConsoleLogonSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinConsoleLogonSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinConsoleLogonSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinConsoleLogonSid
 		{
 			get
 			{
@@ -1442,8 +1442,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinThisOrganizationCertificateSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinThisOrganizationCertificateSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinThisOrganizationCertificateSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinThisOrganizationCertificateSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinThisOrganizationCertificateSid
 		{
 			get
 			{
@@ -1459,8 +1459,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinApplicationPackageAuthoritySid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinApplicationPackageAuthoritySid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinApplicationPackageAuthoritySid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinApplicationPackageAuthoritySid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinApplicationPackageAuthoritySid
 		{
 			get
 			{
@@ -1476,8 +1476,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinBuiltinAnyPackageSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinBuiltinAnyPackageSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinBuiltinAnyPackageSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinBuiltinAnyPackageSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinBuiltinAnyPackageSid
 		{
 			get
 			{
@@ -1493,8 +1493,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinCapabilityInternetClientSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityInternetClientSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityInternetClientSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityInternetClientSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityInternetClientSid
 		{
 			get
 			{
@@ -1510,8 +1510,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinCapabilityInternetClientServerSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityInternetClientServerSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityInternetClientServerSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityInternetClientServerSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityInternetClientServerSid
 		{
 			get
 			{
@@ -1527,8 +1527,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinCapabilityPrivateNetworkClientServerSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityPrivateNetworkClientServerSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityPrivateNetworkClientServerSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityPrivateNetworkClientServerSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityPrivateNetworkClientServerSid
 		{
 			get
 			{
@@ -1544,8 +1544,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinCapabilityPicturesLibrarySid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityPicturesLibrarySid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityPicturesLibrarySid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityPicturesLibrarySid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityPicturesLibrarySid
 		{
 			get
 			{
@@ -1561,8 +1561,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinCapabilityVideosLibrarySid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityVideosLibrarySid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityVideosLibrarySid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityVideosLibrarySid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityVideosLibrarySid
 		{
 			get
 			{
@@ -1578,8 +1578,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinCapabilityMusicLibrarySid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityMusicLibrarySid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityMusicLibrarySid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityMusicLibrarySid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityMusicLibrarySid
 		{
 			get
 			{
@@ -1595,8 +1595,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinCapabilityDocumentsLibrarySid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityDocumentsLibrarySid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityDocumentsLibrarySid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityDocumentsLibrarySid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityDocumentsLibrarySid
 		{
 			get
 			{
@@ -1612,8 +1612,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinCapabilitySharedUserCertificatesSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilitySharedUserCertificatesSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilitySharedUserCertificatesSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilitySharedUserCertificatesSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilitySharedUserCertificatesSid
 		{
 			get
 			{
@@ -1629,8 +1629,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinCapabilityEnterpriseAuthenticationSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityEnterpriseAuthenticationSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityEnterpriseAuthenticationSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityEnterpriseAuthenticationSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityEnterpriseAuthenticationSid
 		{
 			get
 			{
@@ -1646,8 +1646,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Security.Principal.WellKnownSidType WinCapabilityRemovableStorageSid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityRemovableStorageSid;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityRemovableStorageSid
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType r_FWinCapabilityRemovableStorageSid;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal.RWellKnownSidType RFWinCapabilityRemovableStorageSid
 		{
 			get
 			{

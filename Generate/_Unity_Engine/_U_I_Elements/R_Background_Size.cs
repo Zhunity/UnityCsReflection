@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.BackgroundSize
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BackgroundSizeType m_SizeType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundSizeType r_Fm_SizeType;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundSizeType RFm_SizeType
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundSizeType r_Fm_SizeType;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundSizeType RFm_SizeType
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Length m_X
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_Fm_X;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFm_X
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_Fm_X;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFm_X
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Length m_Y
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_Fm_Y;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFm_Y
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_Fm_Y;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength RFm_Y
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BackgroundSizeType sizeType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundSizeType r_PsizeType;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundSizeType RPsizeType
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundSizeType r_PsizeType;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundSizeType RPsizeType
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Length x
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_Px;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength RPx
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_Px;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength RPx
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Length y
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_Py;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RLength RPy
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength r_Py;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLength RPy
 		{
 			get
 			{

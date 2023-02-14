@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.ImagePosition
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ImagePosition ImageLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RImagePosition r_FImageLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RImagePosition RFImageLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RImagePosition r_FImageLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RImagePosition RFImageLeft
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ImagePosition ImageAbove
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RImagePosition r_FImageAbove;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RImagePosition RFImageAbove
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RImagePosition r_FImageAbove;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RImagePosition RFImageAbove
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ImagePosition ImageOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RImagePosition r_FImageOnly;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RImagePosition RFImageOnly
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RImagePosition r_FImageOnly;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RImagePosition RFImageOnly
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ImagePosition TextOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RImagePosition r_FTextOnly;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RImagePosition RFTextOnly
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RImagePosition r_FTextOnly;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RImagePosition RFTextOnly
 		{
 			get
 			{

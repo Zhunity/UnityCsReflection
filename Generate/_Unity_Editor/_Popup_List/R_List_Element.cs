@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {public partial class RPopupList
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.GUIContent m_Content
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_Fm_Content;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RFm_Content
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_Fm_Content;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RFm_Content
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single m_FilterScore
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_FilterScore;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_FilterScore
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_FilterScore;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_FilterScore
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_Selected
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_Selected;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_Selected
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_Selected;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_Selected
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_WasSelected
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_WasSelected;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_WasSelected
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_WasSelected;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_WasSelected
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_PartiallySelected
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_PartiallySelected;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_PartiallySelected
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_PartiallySelected;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_PartiallySelected
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_Enabled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_Enabled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_Enabled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_Enabled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_Enabled
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String[] m_Types
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_Fm_Types;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFm_Types
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_Types;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFm_Types
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Single filterScore
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PfilterScore;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPfilterScore
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PfilterScore;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPfilterScore
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean selected
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pselected;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPselected
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pselected;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPselected
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Penabled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPenabled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Penabled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPenabled
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean partiallySelected
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PpartiallySelected;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPpartiallySelected
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PpartiallySelected;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPpartiallySelected
 		{
 			get
 			{
@@ -203,8 +203,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtext
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtext
 		{
 			get
 			{
@@ -220,8 +220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[System.String] types
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RSystem.RString> r_Ptypes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RSystem.RString> RPtypes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RString> r_Ptypes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RString> RPtypes
 		{
 			get
 			{

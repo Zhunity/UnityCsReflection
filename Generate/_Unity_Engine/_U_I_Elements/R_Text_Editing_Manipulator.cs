@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.TextEditingManipulator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextElement m_TextElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement r_Fm_TextElement;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement RFm_TextElement
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement r_Fm_TextElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement RFm_TextElement
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextEditorEventHandler editingEventHandler
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextEditorEventHandler r_FeditingEventHandler;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextEditorEventHandler RFeditingEventHandler
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextEditorEventHandler r_FeditingEventHandler;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextEditorEventHandler RFeditingEventHandler
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.TextEditingUtilities editingUtilities
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextEditingUtilities r_FeditingUtilities;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextEditingUtilities RFeditingUtilities
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextEditingUtilities r_FeditingUtilities;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextEditingUtilities RFeditingUtilities
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_TouchScreenTextFieldInitialized
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_TouchScreenTextFieldInitialized;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_TouchScreenTextFieldInitialized
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_TouchScreenTextFieldInitialized;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_TouchScreenTextFieldInitialized
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IVisualElementScheduledItem m_HardwareKeyboardPoller
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualElementScheduledItem r_Fm_HardwareKeyboardPoller;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualElementScheduledItem RFm_HardwareKeyboardPoller
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualElementScheduledItem r_Fm_HardwareKeyboardPoller;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualElementScheduledItem RFm_HardwareKeyboardPoller
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean touchScreenTextFieldChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PtouchScreenTextFieldChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPtouchScreenTextFieldChanged
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PtouchScreenTextFieldChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPtouchScreenTextFieldChanged
 		{
 			get
 			{

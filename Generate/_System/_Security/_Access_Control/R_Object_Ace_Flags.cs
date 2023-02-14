@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
 	/// System.Security.AccessControl.ObjectAceFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ObjectAceFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ObjectAceFlags ObjectAceTypePresent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags r_FObjectAceTypePresent;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags RFObjectAceTypePresent
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags r_FObjectAceTypePresent;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags RFObjectAceTypePresent
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.ObjectAceFlags InheritedObjectAceTypePresent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags r_FInheritedObjectAceTypePresent;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags RFInheritedObjectAceTypePresent
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags r_FInheritedObjectAceTypePresent;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl.RObjectAceFlags RFInheritedObjectAceTypePresent
 		{
 			get
 			{

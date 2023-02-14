@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
+namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 {
 	/// <summary>
 	/// Unity.Profiling.LowLevel.MarkerFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// System.UInt16 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt16 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt16 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RUInt16 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt16 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.MarkerFlags Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FDefault;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFDefault
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FDefault;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFDefault
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.MarkerFlags Script
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FScript;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFScript
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FScript;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFScript
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.MarkerFlags ScriptInvoke
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FScriptInvoke;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFScriptInvoke
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FScriptInvoke;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFScriptInvoke
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.MarkerFlags ScriptDeepProfiler
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FScriptDeepProfiler;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFScriptDeepProfiler
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FScriptDeepProfiler;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFScriptDeepProfiler
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.MarkerFlags AvailabilityEditor
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FAvailabilityEditor;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFAvailabilityEditor
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FAvailabilityEditor;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFAvailabilityEditor
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.MarkerFlags AvailabilityNonDevelopment
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FAvailabilityNonDevelopment;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFAvailabilityNonDevelopment
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FAvailabilityNonDevelopment;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFAvailabilityNonDevelopment
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.MarkerFlags Warning
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FWarning;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFWarning
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FWarning;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFWarning
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.MarkerFlags Counter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FCounter;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFCounter
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FCounter;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFCounter
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		/// <summary>
 		/// Unity.Profiling.LowLevel.MarkerFlags SampleGPU
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FSampleGPU;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFSampleGPU
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FSampleGPU;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFSampleGPU
 		{
 			get
 			{

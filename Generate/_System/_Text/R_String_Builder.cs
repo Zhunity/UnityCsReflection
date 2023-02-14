@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText
+namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
 	/// System.Text.StringBuilder
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Char[] m_ChunkChars
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> r_Fm_ChunkChars;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> RFm_ChunkChars
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> r_Fm_ChunkChars;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> RFm_ChunkChars
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Text.StringBuilder m_ChunkPrevious
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RText.RStringBuilder r_Fm_ChunkPrevious;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RText.RStringBuilder RFm_ChunkPrevious
+		protected Hvak.Editor.Refleaction.RSystem.RText.RStringBuilder r_Fm_ChunkPrevious;
+		public virtual Hvak.Editor.Refleaction.RSystem.RText.RStringBuilder RFm_ChunkPrevious
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 m_ChunkLength
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_ChunkLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_ChunkLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_ChunkLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_ChunkLength
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 m_ChunkOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_ChunkOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_ChunkOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_ChunkOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_ChunkOffset
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 m_MaxCapacity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_MaxCapacity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_MaxCapacity
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_MaxCapacity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_MaxCapacity
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 DefaultCapacity
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDefaultCapacity;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDefaultCapacity
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDefaultCapacity;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDefaultCapacity
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String CapacityField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FCapacityField;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFCapacityField
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FCapacityField;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFCapacityField
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String MaxCapacityField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FMaxCapacityField;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFMaxCapacityField
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FMaxCapacityField;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFMaxCapacityField
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String StringValueField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FStringValueField;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFStringValueField
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FStringValueField;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFStringValueField
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String ThreadIDField
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FThreadIDField;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFThreadIDField
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FThreadIDField;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFThreadIDField
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 MaxChunkSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMaxChunkSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMaxChunkSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMaxChunkSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMaxChunkSize
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 IndexLimit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FIndexLimit;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFIndexLimit
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FIndexLimit;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFIndexLimit
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 WidthLimit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FWidthLimit;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFWidthLimit
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FWidthLimit;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFWidthLimit
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 Capacity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCapacity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCapacity
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCapacity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCapacity
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 MaxCapacity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMaxCapacity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMaxCapacity
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMaxCapacity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMaxCapacity
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLength
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Char Chars [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RChar r_PChars_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RChar RPChars_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RChar r_PChars_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RChar RPChars_Int32
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Span`1[System.Char] RemainingCurrentChunk
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RChar> r_PRemainingCurrentChunk;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RChar> RPRemainingCurrentChunk
+		protected Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> r_PRemainingCurrentChunk;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> RPRemainingCurrentChunk
 		{
 			get
 			{
@@ -2171,7 +2171,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void CopyTo(System.Int32 @sourceIndex, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RChar> @destination, System.Int32 @count)
+        public virtual void CopyTo(System.Int32 @sourceIndex, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2380,7 +2380,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @value)
+        public virtual System.Text.StringBuilder Append(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2666,7 +2666,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32 @index, SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2776,7 +2776,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendFormatHelper(System.IFormatProvider @provider, System.String @format, SMFrame.Editor.Refleaction.RSystem.RParamsArray @args)
+        public virtual System.Text.StringBuilder AppendFormatHelper(System.IFormatProvider @provider, System.String @format, Hvak.Editor.Refleaction.RSystem.RParamsArray @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -2809,7 +2809,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RSystem.RChar> @span)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar> @span)
         {
 
             var ___genericsType = new Type[] {};
@@ -2921,7 +2921,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public static void ThreadSafeCopy(System.Char[] @source, System.Int32 @sourceIndex, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RSystem.RChar> @destination, System.Int32 @destinationIndex, System.Int32 @count)
+        public static void ThreadSafeCopy(System.Char[] @source, System.Int32 @sourceIndex, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RSystem.RChar> @destination, System.Int32 @destinationIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};

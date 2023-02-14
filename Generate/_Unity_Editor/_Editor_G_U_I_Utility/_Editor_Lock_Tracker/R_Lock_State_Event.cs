@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {public partial class REditorGUIUtility
 {
 	public partial class REditorLockTracker
@@ -916,14 +916,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall GetDelegate(System.Object @target, System.Reflection.MethodInfo @theFunction)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall GetDelegate(System.Object @target, System.Reflection.MethodInfo @theFunction)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target, @theFunction};
             var ___result = RMGetDelegate_Object_MethodInfo.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall(___result);
         }
 
 
@@ -982,7 +982,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Reflection.MethodInfo FindMethod(SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentCall @call)
+        public virtual System.Reflection.MethodInfo FindMethod(Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentCall @call)
         {
 
             var ___genericsType = new Type[] {};
@@ -1070,7 +1070,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void AddCall(SMFrame.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall @call)
+        public virtual void AddCall(Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall @call)
         {
 
             var ___genericsType = new Type[] {};
@@ -1103,14 +1103,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall> PrepareInvoke()
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall> PrepareInvoke()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMPrepareInvoke.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall>(___result);
         }
 
 

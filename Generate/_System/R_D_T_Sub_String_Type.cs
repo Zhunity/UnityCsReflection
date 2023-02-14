@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.DTSubStringType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.DTSubStringType Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDTSubStringType r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RSystem.RDTSubStringType RFUnknown
+		protected static Hvak.Editor.Refleaction.RSystem.RDTSubStringType r_FUnknown;
+		public static Hvak.Editor.Refleaction.RSystem.RDTSubStringType RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.DTSubStringType Invalid
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDTSubStringType r_FInvalid;
-		public static SMFrame.Editor.Refleaction.RSystem.RDTSubStringType RFInvalid
+		protected static Hvak.Editor.Refleaction.RSystem.RDTSubStringType r_FInvalid;
+		public static Hvak.Editor.Refleaction.RSystem.RDTSubStringType RFInvalid
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.DTSubStringType Number
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDTSubStringType r_FNumber;
-		public static SMFrame.Editor.Refleaction.RSystem.RDTSubStringType RFNumber
+		protected static Hvak.Editor.Refleaction.RSystem.RDTSubStringType r_FNumber;
+		public static Hvak.Editor.Refleaction.RSystem.RDTSubStringType RFNumber
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.DTSubStringType End
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDTSubStringType r_FEnd;
-		public static SMFrame.Editor.Refleaction.RSystem.RDTSubStringType RFEnd
+		protected static Hvak.Editor.Refleaction.RSystem.RDTSubStringType r_FEnd;
+		public static Hvak.Editor.Refleaction.RSystem.RDTSubStringType RFEnd
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.DTSubStringType Other
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RDTSubStringType r_FOther;
-		public static SMFrame.Editor.Refleaction.RSystem.RDTSubStringType RFOther
+		protected static Hvak.Editor.Refleaction.RSystem.RDTSubStringType r_FOther;
+		public static Hvak.Editor.Refleaction.RSystem.RDTSubStringType RFOther
 		{
 			get
 			{

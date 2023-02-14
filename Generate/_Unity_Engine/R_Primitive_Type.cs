@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.PrimitiveType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.PrimitiveType Sphere
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RPrimitiveType r_FSphere;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RPrimitiveType RFSphere
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RPrimitiveType r_FSphere;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RPrimitiveType RFSphere
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.PrimitiveType Capsule
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RPrimitiveType r_FCapsule;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RPrimitiveType RFCapsule
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RPrimitiveType r_FCapsule;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RPrimitiveType RFCapsule
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.PrimitiveType Cylinder
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RPrimitiveType r_FCylinder;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RPrimitiveType RFCylinder
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RPrimitiveType r_FCylinder;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RPrimitiveType RFCylinder
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.PrimitiveType Cube
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RPrimitiveType r_FCube;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RPrimitiveType RFCube
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RPrimitiveType r_FCube;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RPrimitiveType RFCube
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.PrimitiveType Plane
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RPrimitiveType r_FPlane;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RPrimitiveType RFPlane
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RPrimitiveType r_FPlane;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RPrimitiveType RFPlane
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.PrimitiveType Quad
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RPrimitiveType r_FQuad;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RPrimitiveType RFQuad
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RPrimitiveType r_FQuad;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RPrimitiveType RFQuad
 		{
 			get
 			{

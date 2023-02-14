@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.DropInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.IDropArea dropArea
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIDropArea r_FdropArea;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIDropArea RFdropArea
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIDropArea r_FdropArea;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIDropArea RFdropArea
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Object userData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_FuserData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFuserData
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_FuserData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFuserData
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DropInfo+Type type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RDropInfo.RType r_Ftype;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RDropInfo.RType RFtype
+		protected Hvak.Editor.Refleaction.RUnityEditor.RDropInfo.RType r_Ftype;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDropInfo.RType RFtype
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Rect rect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_Frect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RFrect
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_Frect;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFrect
 		{
 			get
 			{

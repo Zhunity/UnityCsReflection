@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 {
 	/// <summary>
 	/// System.Runtime.Serialization.SafeSerializationEventArgs
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Runtime.Serialization.StreamingContext m_streamingContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContext r_Fm_streamingContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContext RFm_streamingContext
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContext r_Fm_streamingContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContext RFm_streamingContext
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Object] m_serializedStates
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RObject> r_Fm_serializedStates;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RObject> RFm_serializedStates
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RObject> r_Fm_serializedStates;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RObject> RFm_serializedStates
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Collections.Generic.IList`1[System.Object] SerializedStates
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RObject> r_PSerializedStates;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RObject> RPSerializedStates
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RObject> r_PSerializedStates;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RObject> RPSerializedStates
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Runtime.Serialization.StreamingContext StreamingContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContext r_PStreamingContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContext RPStreamingContext
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContext r_PStreamingContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization.RStreamingContext RPStreamingContext
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.CullingOptions
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CullingOptions None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CullingOptions ForceEvenIfCameraIsNotActive
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FForceEvenIfCameraIsNotActive;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFForceEvenIfCameraIsNotActive
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FForceEvenIfCameraIsNotActive;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFForceEvenIfCameraIsNotActive
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CullingOptions OcclusionCull
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FOcclusionCull;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFOcclusionCull
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FOcclusionCull;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFOcclusionCull
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CullingOptions NeedsLighting
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FNeedsLighting;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFNeedsLighting
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FNeedsLighting;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFNeedsLighting
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CullingOptions NeedsReflectionProbes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FNeedsReflectionProbes;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFNeedsReflectionProbes
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FNeedsReflectionProbes;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFNeedsReflectionProbes
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CullingOptions Stereo
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FStereo;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFStereo
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FStereo;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFStereo
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CullingOptions DisablePerObjectCulling
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FDisablePerObjectCulling;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFDisablePerObjectCulling
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FDisablePerObjectCulling;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFDisablePerObjectCulling
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CullingOptions ShadowCasters
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FShadowCasters;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFShadowCasters
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions r_FShadowCasters;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCullingOptions RFShadowCasters
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.EditorWindowTitleAttribute
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String <title>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__title__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__title__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__title__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__title__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String <icon>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__icon__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__icon__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__icon__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__icon__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean <useTypeNameAsIconName>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__useTypeNameAsIconName__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__useTypeNameAsIconName__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__useTypeNameAsIconName__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__useTypeNameAsIconName__1__k__BackingField
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String title
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptitle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtitle
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptitle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtitle
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String icon
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Picon;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPicon
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Picon;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPicon
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean useTypeNameAsIconName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PuseTypeNameAsIconName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPuseTypeNameAsIconName
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PuseTypeNameAsIconName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPuseTypeNameAsIconName
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Object TypeId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PTypeId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPTypeId
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PTypeId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPTypeId
 		{
 			get
 			{

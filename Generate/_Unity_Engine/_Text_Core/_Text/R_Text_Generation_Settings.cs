@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
 	/// UnityEngine.TextCore.Text.TextGenerationSettings
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ftext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFtext
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ftext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFtext
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Rect screenRect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_FscreenRect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RFscreenRect
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_FscreenRect;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFscreenRect
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Vector4 margins
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector4 r_Fmargins;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector4 RFmargins
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_Fmargins;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFmargins
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single scale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fscale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFscale
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fscale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFscale
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset fontAsset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_FfontAsset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RFfontAsset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset r_FfontAsset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAsset RFfontAsset
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Material material
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMaterial r_Fmaterial;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMaterial RFmaterial
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_Fmaterial;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RFmaterial
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.SpriteAsset spriteAsset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset r_FspriteAsset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset RFspriteAsset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset r_FspriteAsset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RSpriteAsset RFspriteAsset
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextStyleSheet styleSheet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyleSheet r_FstyleSheet;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyleSheet RFstyleSheet
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyleSheet r_FstyleSheet;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextStyleSheet RFstyleSheet
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontStyles fontStyle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FfontStyle;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFfontStyle
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles r_FfontStyle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontStyles RFfontStyle
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextSettings textSettings
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextSettings r_FtextSettings;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextSettings RFtextSettings
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextSettings r_FtextSettings;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextSettings RFtextSettings
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextAlignment textAlignment
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FtextAlignment;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFtextAlignment
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment r_FtextAlignment;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextAlignment RFtextAlignment
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextOverflowMode overflowMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FoverflowMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFoverflowMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode r_FoverflowMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextOverflowMode RFoverflowMode
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean wordWrap
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FwordWrap;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFwordWrap
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FwordWrap;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFwordWrap
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single wordWrappingRatio
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FwordWrappingRatio;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFwordWrappingRatio
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FwordWrappingRatio;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFwordWrappingRatio
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.Color color
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RFcolor
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_Fcolor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFcolor
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextColorGradient fontColorGradient
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextColorGradient r_FfontColorGradient;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextColorGradient RFfontColorGradient
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextColorGradient r_FfontColorGradient;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextColorGradient RFfontColorGradient
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextColorGradient fontColorGradientPreset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextColorGradient r_FfontColorGradientPreset;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextColorGradient RFfontColorGradientPreset
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextColorGradient r_FfontColorGradientPreset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextColorGradient RFfontColorGradientPreset
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean tintSprites
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FtintSprites;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFtintSprites
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FtintSprites;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFtintSprites
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean overrideRichTextColors
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FoverrideRichTextColors;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFoverrideRichTextColors
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FoverrideRichTextColors;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFoverrideRichTextColors
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean shouldConvertToLinearSpace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FshouldConvertToLinearSpace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFshouldConvertToLinearSpace
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FshouldConvertToLinearSpace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFshouldConvertToLinearSpace
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single fontSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FfontSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFfontSize
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FfontSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFfontSize
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean autoSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FautoSize;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFautoSize
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FautoSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFautoSize
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single fontSizeMin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FfontSizeMin;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFfontSizeMin
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FfontSizeMin;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFfontSizeMin
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single fontSizeMax
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FfontSizeMax;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFfontSizeMax
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FfontSizeMax;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFfontSizeMax
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean enableKerning
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FenableKerning;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFenableKerning
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FenableKerning;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFenableKerning
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean richText
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FrichText;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFrichText
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FrichText;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFrichText
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean isRightToLeft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisRightToLeft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisRightToLeft
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisRightToLeft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisRightToLeft
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean extraPadding
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FextraPadding;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFextraPadding
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FextraPadding;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFextraPadding
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean parseControlCharacters
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FparseControlCharacters;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFparseControlCharacters
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FparseControlCharacters;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFparseControlCharacters
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean isOrthographic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisOrthographic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisOrthographic
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisOrthographic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisOrthographic
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean tagNoParsing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FtagNoParsing;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFtagNoParsing
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FtagNoParsing;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFtagNoParsing
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single characterSpacing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FcharacterSpacing;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFcharacterSpacing
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FcharacterSpacing;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFcharacterSpacing
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single wordSpacing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FwordSpacing;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFwordSpacing
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FwordSpacing;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFwordSpacing
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single lineSpacing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FlineSpacing;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFlineSpacing
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FlineSpacing;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFlineSpacing
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single paragraphSpacing
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FparagraphSpacing;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFparagraphSpacing
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FparagraphSpacing;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFparagraphSpacing
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single lineSpacingMax
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FlineSpacingMax;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFlineSpacingMax
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FlineSpacingMax;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFlineSpacingMax
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextWrappingMode textWrappingMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode r_FtextWrappingMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode RFtextWrappingMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode r_FtextWrappingMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextWrappingMode RFtextWrappingMode
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 maxVisibleCharacters
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FmaxVisibleCharacters;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFmaxVisibleCharacters
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FmaxVisibleCharacters;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFmaxVisibleCharacters
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 maxVisibleWords
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FmaxVisibleWords;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFmaxVisibleWords
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FmaxVisibleWords;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFmaxVisibleWords
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 maxVisibleLines
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FmaxVisibleLines;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFmaxVisibleLines
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FmaxVisibleLines;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFmaxVisibleLines
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 firstVisibleCharacter
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FfirstVisibleCharacter;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFfirstVisibleCharacter
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FfirstVisibleCharacter;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFfirstVisibleCharacter
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean useMaxVisibleDescender
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FuseMaxVisibleDescender;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFuseMaxVisibleDescender
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FuseMaxVisibleDescender;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFuseMaxVisibleDescender
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextFontWeight fontWeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FfontWeight;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFfontWeight
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight r_FfontWeight;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextFontWeight RFfontWeight
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 pageToDisplay
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FpageToDisplay;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFpageToDisplay
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FpageToDisplay;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpageToDisplay
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextureMapping horizontalMapping
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping r_FhorizontalMapping;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping RFhorizontalMapping
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping r_FhorizontalMapping;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping RFhorizontalMapping
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextureMapping verticalMapping
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping r_FverticalMapping;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping RFverticalMapping
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping r_FverticalMapping;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextureMapping RFverticalMapping
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single uvLineOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FuvLineOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFuvLineOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FuvLineOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFuvLineOffset
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.VertexSortingOrder geometrySortingOrder
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RVertexSortingOrder r_FgeometrySortingOrder;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RVertexSortingOrder RFgeometrySortingOrder
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RVertexSortingOrder r_FgeometrySortingOrder;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RVertexSortingOrder RFgeometrySortingOrder
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean inverseYAxis
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FinverseYAxis;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFinverseYAxis
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FinverseYAxis;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFinverseYAxis
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single charWidthMaxAdj
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FcharWidthMaxAdj;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFcharWidthMaxAdj
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FcharWidthMaxAdj;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFcharWidthMaxAdj
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextInputSource inputSource
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource r_FinputSource;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource RFinputSource
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource r_FinputSource;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInputSource RFinputSource
 		{
 			get
 			{
@@ -1049,7 +1049,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	    {
 	    }
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1082,7 +1082,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @left, SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @right)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @left, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -1093,7 +1093,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @left, SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @right)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @left, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @right)
         {
 
             var ___genericsType = new Type[] {};

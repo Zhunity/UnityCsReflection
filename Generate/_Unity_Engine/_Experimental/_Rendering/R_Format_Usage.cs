@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Experimental.Rendering.FormatUsage
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.FormatUsage Sample
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FSample;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFSample
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FSample;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFSample
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.FormatUsage Linear
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FLinear;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFLinear
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FLinear;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFLinear
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.FormatUsage Sparse
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FSparse;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFSparse
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FSparse;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFSparse
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.FormatUsage Render
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FRender;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFRender
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FRender;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFRender
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.FormatUsage Blend
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FBlend;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFBlend
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FBlend;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFBlend
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.FormatUsage GetPixels
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FGetPixels;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFGetPixels
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FGetPixels;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFGetPixels
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.FormatUsage SetPixels
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FSetPixels;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFSetPixels
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FSetPixels;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFSetPixels
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.FormatUsage SetPixels32
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FSetPixels32;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFSetPixels32
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FSetPixels32;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFSetPixels32
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.FormatUsage ReadPixels
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FReadPixels;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFReadPixels
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FReadPixels;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFReadPixels
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.FormatUsage LoadStore
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FLoadStore;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFLoadStore
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FLoadStore;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFLoadStore
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.FormatUsage MSAA2x
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FMSAA2x;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFMSAA2x
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FMSAA2x;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFMSAA2x
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.FormatUsage MSAA4x
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FMSAA4x;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFMSAA4x
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FMSAA4x;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFMSAA4x
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.FormatUsage MSAA8x
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FMSAA8x;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFMSAA8x
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FMSAA8x;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFMSAA8x
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.FormatUsage StencilSampling
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FStencilSampling;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFStencilSampling
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage r_FStencilSampling;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RFormatUsage RFStencilSampling
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
+namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 {
 	/// <summary>
 	/// UnityEngine.Events.PersistentListenerMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// UnityEngine.Events.PersistentListenerMode EventDefined
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode r_FEventDefined;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode RFEventDefined
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode r_FEventDefined;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode RFEventDefined
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// UnityEngine.Events.PersistentListenerMode Void
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode r_FVoid;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode RFVoid
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode r_FVoid;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode RFVoid
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// UnityEngine.Events.PersistentListenerMode Object
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode r_FObject;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode RFObject
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode r_FObject;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode RFObject
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// UnityEngine.Events.PersistentListenerMode Int
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode r_FInt;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode RFInt
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode r_FInt;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode RFInt
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// UnityEngine.Events.PersistentListenerMode Float
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode r_FFloat;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode RFFloat
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode r_FFloat;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode RFFloat
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// UnityEngine.Events.PersistentListenerMode String
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode r_FString;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode RFString
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode r_FString;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode RFString
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// UnityEngine.Events.PersistentListenerMode Bool
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode r_FBool;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode RFBool
+		protected static Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode r_FBool;
+		public static Hvak.Editor.Refleaction.RUnityEngine.REvents.RPersistentListenerMode RFBool
 		{
 			get
 			{

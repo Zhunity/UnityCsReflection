@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 {
 	/// <summary>
 	/// System.Runtime.InteropServices.SafeHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.IntPtr handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fhandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFhandle
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fhandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFhandle
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 _state
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_state;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_state
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_state;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_state
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Boolean _ownsHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_ownsHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_ownsHandle
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_ownsHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_ownsHandle
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Boolean _fullyInitialized
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_fullyInitialized;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_fullyInitialized
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_fullyInitialized;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_fullyInitialized
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 RefCount_Mask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FRefCount_Mask;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFRefCount_Mask
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FRefCount_Mask;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFRefCount_Mask
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 RefCount_One
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FRefCount_One;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFRefCount_One
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FRefCount_One;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFRefCount_One
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// Boolean IsClosed
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsClosed;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsClosed
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsClosed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsClosed
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// Boolean IsInvalid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsInvalid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsInvalid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsInvalid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsInvalid
 		{
 			get
 			{

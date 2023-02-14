@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.CharEnumerator
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _str
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_str;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_str
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_str;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_str
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _index
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_index;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_index
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_index;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_index
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Char _currentElement
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RChar r_F_currentElement;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RChar RF_currentElement
+		protected Hvak.Editor.Refleaction.RSystem.RChar r_F_currentElement;
+		public virtual Hvak.Editor.Refleaction.RSystem.RChar RF_currentElement
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Object System.Collections.IEnumerator.Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PSystem__2__Collections__2__IEnumerator__2__Current;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPSystem__2__Collections__2__IEnumerator__2__Current
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Char Current
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RChar r_PCurrent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RChar RPCurrent
+		protected Hvak.Editor.Refleaction.RSystem.RChar r_PCurrent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RChar RPCurrent
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {public partial class RCameraProperties
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Byte FixedElementField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByte r_FFixedElementField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByte RFFixedElementField
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_FFixedElementField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RFFixedElementField
 		{
 			get
 			{

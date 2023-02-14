@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.VisualElementFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags WorldTransformDirty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FWorldTransformDirty;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFWorldTransformDirty
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FWorldTransformDirty;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFWorldTransformDirty
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags WorldTransformInverseDirty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FWorldTransformInverseDirty;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFWorldTransformInverseDirty
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FWorldTransformInverseDirty;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFWorldTransformInverseDirty
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags WorldClipDirty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FWorldClipDirty;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFWorldClipDirty
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FWorldClipDirty;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFWorldClipDirty
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags BoundingBoxDirty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FBoundingBoxDirty;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFBoundingBoxDirty
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FBoundingBoxDirty;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFBoundingBoxDirty
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags WorldBoundingBoxDirty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FWorldBoundingBoxDirty;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFWorldBoundingBoxDirty
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FWorldBoundingBoxDirty;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFWorldBoundingBoxDirty
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags EventCallbackParentCategoriesDirty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FEventCallbackParentCategoriesDirty;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFEventCallbackParentCategoriesDirty
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FEventCallbackParentCategoriesDirty;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFEventCallbackParentCategoriesDirty
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags LayoutManual
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FLayoutManual;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFLayoutManual
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FLayoutManual;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFLayoutManual
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags CompositeRoot
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FCompositeRoot;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFCompositeRoot
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FCompositeRoot;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFCompositeRoot
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags RequireMeasureFunction
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FRequireMeasureFunction;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFRequireMeasureFunction
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FRequireMeasureFunction;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFRequireMeasureFunction
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags EnableViewDataPersistence
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FEnableViewDataPersistence;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFEnableViewDataPersistence
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FEnableViewDataPersistence;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFEnableViewDataPersistence
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags DisableClipping
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FDisableClipping;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFDisableClipping
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FDisableClipping;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFDisableClipping
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags NeedsAttachToPanelEvent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FNeedsAttachToPanelEvent;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFNeedsAttachToPanelEvent
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FNeedsAttachToPanelEvent;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFNeedsAttachToPanelEvent
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags HierarchyDisplayed
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FHierarchyDisplayed;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFHierarchyDisplayed
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FHierarchyDisplayed;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFHierarchyDisplayed
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags StyleInitialized
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FStyleInitialized;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFStyleInitialized
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FStyleInitialized;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFStyleInitialized
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags Init
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FInit;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFInit
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FInit;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFInit
 		{
 			get
 			{

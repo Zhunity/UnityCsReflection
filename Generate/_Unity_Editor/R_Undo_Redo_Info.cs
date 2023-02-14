@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.UndoRedoInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String undoName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FundoName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFundoName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FundoName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFundoName
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 undoGroup
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FundoGroup;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFundoGroup
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FundoGroup;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFundoGroup
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_IsRedo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_IsRedo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_IsRedo
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_IsRedo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_IsRedo
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isRedo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisRedo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisRedo
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisRedo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisRedo
 		{
 			get
 			{

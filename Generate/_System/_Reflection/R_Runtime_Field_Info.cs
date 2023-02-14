@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.RuntimeFieldInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.IntPtr klass
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fklass;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFklass
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fklass;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFklass
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.RuntimeFieldHandle fhandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntimeFieldHandle r_Ffhandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntimeFieldHandle RFfhandle
+		protected Hvak.Editor.Refleaction.RSystem.RRuntimeFieldHandle r_Ffhandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntimeFieldHandle RFfhandle
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFname
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Type type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_Ftype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFtype
+		protected Hvak.Editor.Refleaction.RSystem.RType r_Ftype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFtype
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes attrs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_Fattrs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFattrs
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_Fattrs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RFattrs
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.BindingFlags BindingFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_PBindingFlags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RBindingFlags RPBindingFlags
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags r_PBindingFlags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RBindingFlags RPBindingFlags
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.Module Module
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RModule r_PModule;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RModule RPModule
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RModule r_PModule;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RModule RPModule
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.RuntimeType ReflectedTypeInternal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntimeType r_PReflectedTypeInternal;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntimeType RPReflectedTypeInternal
+		protected Hvak.Editor.Refleaction.RSystem.RRuntimeType r_PReflectedTypeInternal;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntimeType RPReflectedTypeInternal
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.FieldAttributes Attributes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_PAttributes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RPAttributes
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes r_PAttributes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RFieldAttributes RPAttributes
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.RuntimeFieldHandle FieldHandle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntimeFieldHandle r_PFieldHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntimeFieldHandle RPFieldHandle
+		protected Hvak.Editor.Refleaction.RSystem.RRuntimeFieldHandle r_PFieldHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntimeFieldHandle RPFieldHandle
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Type FieldType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PFieldType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPFieldType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PFieldType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPFieldType
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Type ReflectedType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PReflectedType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPReflectedType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PReflectedType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPReflectedType
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Type DeclaringType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_PDeclaringType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPDeclaringType
+		protected Hvak.Editor.Refleaction.RSystem.RType r_PDeclaringType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPDeclaringType
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsSecurityTransparent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsSecurityTransparent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsSecurityTransparent
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsSecurityTransparent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsSecurityTransparent
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsSecurityCritical
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsSecurityCritical;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsSecurityCritical
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsSecurityCritical;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsSecurityCritical
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsSecuritySafeCritical
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsSecuritySafeCritical;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsSecuritySafeCritical
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsSecuritySafeCritical;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsSecuritySafeCritical
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 MetadataToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMetadataToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMetadataToken
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMetadataToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMetadataToken
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.MemberTypes MemberType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_PMemberType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RMemberTypes RPMemberType
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes r_PMemberType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RMemberTypes RPMemberType
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsInitOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsInitOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsInitOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsInitOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsInitOnly
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsLiteral
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsLiteral;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsLiteral
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsLiteral;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsLiteral
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsNotSerialized
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsNotSerialized;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsNotSerialized
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsNotSerialized;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsNotSerialized
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsPinvokeImpl
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsPinvokeImpl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsPinvokeImpl
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsPinvokeImpl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsPinvokeImpl
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsSpecialName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsSpecialName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsSpecialName
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsSpecialName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsSpecialName
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsStatic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsStatic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsStatic
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsStatic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsStatic
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsAssembly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsAssembly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsAssembly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsAssembly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsAssembly
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsFamily
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsFamily;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsFamily
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsFamily;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsFamily
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsFamilyAndAssembly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsFamilyAndAssembly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsFamilyAndAssembly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsFamilyAndAssembly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsFamilyAndAssembly
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsFamilyOrAssembly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsFamilyOrAssembly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsFamilyOrAssembly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsFamilyOrAssembly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsFamilyOrAssembly
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsPrivate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsPrivate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsPrivate
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsPrivate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsPrivate
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsPublic
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsPublic;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsPublic
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsPublic;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsPublic
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[System.Reflection.CustomAttributeData] CustomAttributes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeData> r_PCustomAttributes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RSystem.RReflection.RCustomAttributeData> RPCustomAttributes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeData> r_PCustomAttributes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RReflection.RCustomAttributeData> RPCustomAttributes
 		{
 			get
 			{
@@ -1253,25 +1253,25 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RRuntimeType GetDeclaringTypeInternal()
+        public virtual Hvak.Editor.Refleaction.RSystem.RRuntimeType GetDeclaringTypeInternal()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetDeclaringTypeInternal.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntimeType(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntimeType(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeModule GetRuntimeModule()
+        public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeModule GetRuntimeModule()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetRuntimeModule.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeModule(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeModule(___result);
         }
 
 
@@ -1319,7 +1319,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void SetValueDirect(SMFrame.Editor.Refleaction.RSystem.RTypedReference @obj, System.Object @value)
+        public virtual void SetValueDirect(Hvak.Editor.Refleaction.RSystem.RTypedReference @obj, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1330,7 +1330,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object GetValueDirect(SMFrame.Editor.Refleaction.RSystem.RTypedReference @obj)
+        public virtual System.Object GetValueDirect(Hvak.Editor.Refleaction.RSystem.RTypedReference @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1462,14 +1462,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo Clone(System.String @newName)
+        public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo Clone(System.String @newName)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newName};
             var ___result = RMClone_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo(___result);
         }
 
 
@@ -1528,7 +1528,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Int32 get_metadata_token(SMFrame.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo @monoField)
+        public static System.Int32 get_metadata_token(Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeFieldInfo @monoField)
         {
 
             var ___genericsType = new Type[] {};

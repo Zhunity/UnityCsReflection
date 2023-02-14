@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RVisualElement
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Type <type>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_F__0__type__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RF__0__type__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RType r_F__0__type__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RF__0__type__1__k__BackingField
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_FullTypeName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_FullTypeName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_FullTypeName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_FullTypeName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_FullTypeName
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_TypeName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_TypeName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_TypeName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_TypeName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_TypeName
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_TypeNamespace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_TypeNamespace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_TypeNamespace
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_TypeNamespace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_TypeNamespace
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Type type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_Ptype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RPtype
+		protected Hvak.Editor.Refleaction.RSystem.RType r_Ptype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RPtype
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String fullTypeName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PfullTypeName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPfullTypeName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PfullTypeName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPfullTypeName
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String typeName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PtypeName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtypeName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PtypeName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtypeName
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String typeNamespace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PtypeNamespace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtypeNamespace
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PtypeNamespace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtypeNamespace
 		{
 			get
 			{

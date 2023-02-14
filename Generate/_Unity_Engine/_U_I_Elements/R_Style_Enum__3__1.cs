@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleEnum`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// T m_Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_Fm_Value;
-		public virtual SMFrame.Editor.Refleaction.RField RFm_Value
+		protected Hvak.Editor.Refleaction.RField r_Fm_Value;
+		public virtual Hvak.Editor.Refleaction.RField RFm_Value
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleKeyword m_Keyword
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_Fm_Keyword;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFm_Keyword
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_Fm_Keyword;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RFm_Keyword
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// T value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_Pvalue;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPvalue
+		protected Hvak.Editor.Refleaction.RProperty r_Pvalue;
+		public virtual Hvak.Editor.Refleaction.RProperty RPvalue
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleKeyword keyword
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_Pkeyword;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RPkeyword
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword r_Pkeyword;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleKeyword RPkeyword
 		{
 			get
 			{
@@ -284,7 +284,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RType> @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RType> @rhs)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RType> @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RType> @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -295,7 +295,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RType> @lhs, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RType> @rhs)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RType> @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RType> @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -306,29 +306,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RType> op_Implicit(UnityEngine.UIElements.StyleKeyword @keyword)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RType> op_Implicit(UnityEngine.UIElements.StyleKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RMop_Implicit_StyleKeyword.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RType> op_Implicit(SMFrame.Editor.Refleaction.RType @v)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RType> op_Implicit(Hvak.Editor.Refleaction.RType @v)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@v.Value};
             var ___result = RMop_Implicit_T.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<SMFrame.Editor.Refleaction.RType> @other)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RType> @other)
         {
 
             var ___genericsType = new Type[] {};

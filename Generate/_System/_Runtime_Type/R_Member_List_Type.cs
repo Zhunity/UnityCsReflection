@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {public partial class RRuntimeType
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.RuntimeType+MemberListType All
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType r_FAll;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType RFAll
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType r_FAll;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType RFAll
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.RuntimeType+MemberListType CaseSensitive
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType r_FCaseSensitive;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType RFCaseSensitive
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType r_FCaseSensitive;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType RFCaseSensitive
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.RuntimeType+MemberListType CaseInsensitive
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType r_FCaseInsensitive;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType RFCaseInsensitive
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType r_FCaseInsensitive;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType RFCaseInsensitive
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.RuntimeType+MemberListType HandleToInfo
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType r_FHandleToInfo;
-		public static SMFrame.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType RFHandleToInfo
+		protected static Hvak.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType r_FHandleToInfo;
+		public static Hvak.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType RFHandleToInfo
 		{
 			get
 			{

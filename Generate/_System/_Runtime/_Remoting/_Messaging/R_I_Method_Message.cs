@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Messaging.IMethodMessage
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Int32 ArgCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PArgCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPArgCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PArgCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPArgCount
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Object[] Args
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RObject> r_PArgs;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RObject> RPArgs
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RObject> r_PArgs;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RObject> RPArgs
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Boolean HasVarArgs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasVarArgs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasVarArgs
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasVarArgs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasVarArgs
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.LogicalCallContext LogicalCallContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext r_PLogicalCallContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext RPLogicalCallContext
+		protected Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext r_PLogicalCallContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RLogicalCallContext RPLogicalCallContext
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Reflection.MethodBase MethodBase
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodBase r_PMethodBase;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RMethodBase RPMethodBase
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RMethodBase r_PMethodBase;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RMethodBase RPMethodBase
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String MethodName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PMethodName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPMethodName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PMethodName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPMethodName
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Object MethodSignature
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PMethodSignature;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPMethodSignature
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PMethodSignature;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPMethodSignature
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String TypeName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PTypeName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPTypeName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PTypeName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPTypeName
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String Uri
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PUri;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPUri
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PUri;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPUri
 		{
 			get
 			{

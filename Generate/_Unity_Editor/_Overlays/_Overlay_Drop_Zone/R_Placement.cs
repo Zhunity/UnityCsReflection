@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
+namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 {public partial class ROverlayDropZone
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayDropZone+Placement Before
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZone.RPlacement r_FBefore;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZone.RPlacement RFBefore
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZone.RPlacement r_FBefore;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZone.RPlacement RFBefore
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.OverlayDropZone+Placement After
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZone.RPlacement r_FAfter;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZone.RPlacement RFAfter
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZone.RPlacement r_FAfter;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZone.RPlacement RFAfter
 		{
 			get
 			{

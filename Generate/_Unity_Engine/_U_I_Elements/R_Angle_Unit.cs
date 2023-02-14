@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.AngleUnit
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.AngleUnit Degree
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit r_FDegree;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit RFDegree
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit r_FDegree;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit RFDegree
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.AngleUnit Gradian
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit r_FGradian;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit RFGradian
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit r_FGradian;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit RFGradian
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.AngleUnit Radian
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit r_FRadian;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit RFRadian
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit r_FRadian;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit RFRadian
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.AngleUnit Turn
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit r_FTurn;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit RFTurn
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit r_FTurn;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAngleUnit RFTurn
 		{
 			get
 			{

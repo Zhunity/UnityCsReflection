@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RMesh
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr* m_Ptrs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RSystem.RIntPtr> r_Fm_Ptrs;
-		public virtual SMFrame.Editor.Refleaction.RFieldPointer<SMFrame.Editor.Refleaction.RSystem.RIntPtr> RFm_Ptrs
+		protected Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RSystem.RIntPtr> r_Fm_Ptrs;
+		public virtual Hvak.Editor.Refleaction.RFieldPointer<Hvak.Editor.Refleaction.RSystem.RIntPtr> RFm_Ptrs
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Length;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Length
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Length;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Length
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_MinIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_MinIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_MinIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_MinIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_MinIndex
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_MaxIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_MaxIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_MaxIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_MaxIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_MaxIndex
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle m_Safety
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle r_Fm_Safety;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle RFm_Safety
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle r_Fm_Safety;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle RFm_Safety
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLength
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// MeshData Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMesh.RMeshData r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMesh.RMeshData RPItem_Int32
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMesh.RMeshData r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMesh.RMeshData RPItem_Int32
 		{
 			get
 			{

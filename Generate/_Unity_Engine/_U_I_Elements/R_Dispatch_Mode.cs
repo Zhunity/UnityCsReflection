@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.DispatchMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DispatchMode Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode r_FDefault;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode RFDefault
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode r_FDefault;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode RFDefault
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DispatchMode Queued
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode r_FQueued;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode RFQueued
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode r_FQueued;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode RFQueued
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.DispatchMode Immediate
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode r_FImmediate;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode RFImmediate
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode r_FImmediate;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDispatchMode RFImmediate
 		{
 			get
 			{

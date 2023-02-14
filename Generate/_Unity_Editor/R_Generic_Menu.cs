@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.GenericMenu
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.GenericMenu+MenuItem] m_MenuItems
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuItem> r_Fm_MenuItems;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuItem> RFm_MenuItems
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuItem> r_Fm_MenuItems;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuItem> RFm_MenuItems
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean <allowDuplicateNames>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__allowDuplicateNames__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__allowDuplicateNames__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__allowDuplicateNames__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__allowDuplicateNames__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean allowDuplicateNames
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PallowDuplicateNames;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPallowDuplicateNames
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PallowDuplicateNames;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPallowDuplicateNames
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.GenericMenu+MenuItem] menuItems
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuItem> r_PmenuItems;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuItem> RPmenuItems
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuItem> r_PmenuItems;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuItem> RPmenuItems
 		{
 			get
 			{
@@ -403,7 +403,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual void AddItem(UnityEngine.GUIContent @content, System.Boolean @on, SMFrame.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction @func)
+        public virtual void AddItem(UnityEngine.GUIContent @content, System.Boolean @on, Hvak.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction @func)
         {
 
             var ___genericsType = new Type[] {};
@@ -414,7 +414,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void AddItem(UnityEngine.GUIContent @content, System.Boolean @on, SMFrame.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction2 @func, System.Object @userData)
+        public virtual void AddItem(UnityEngine.GUIContent @content, System.Boolean @on, Hvak.Editor.Refleaction.RUnityEditor.RGenericMenu.RMenuFunction2 @func, System.Object @userData)
         {
 
             var ___genericsType = new Type[] {};

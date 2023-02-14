@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_OAuthUri
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_OAuthUri;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_OAuthUri
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_OAuthUri;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_OAuthUri
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_TokenInfoUri
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_TokenInfoUri;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_TokenInfoUri
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_TokenInfoUri;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_TokenInfoUri
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_UserInfoUri
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_UserInfoUri;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_UserInfoUri
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_UserInfoUri;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_UserInfoUri
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_ServiceId
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_ServiceId;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_ServiceId
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_ServiceId;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_ServiceId
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.IAsyncHTTPClient m_UserInfoRequest
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient r_Fm_UserInfoRequest;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient RFm_UserInfoRequest
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient r_Fm_UserInfoRequest;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient RFm_UserInfoRequest
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.IAsyncHTTPClient m_AccessTokenRequest
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient r_Fm_AccessTokenRequest;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient RFm_AccessTokenRequest
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient r_Fm_AccessTokenRequest;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient RFm_AccessTokenRequest
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.IAsyncHTTPClient m_TokenRequest
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient r_Fm_TokenRequest;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient RFm_TokenRequest
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient r_Fm_TokenRequest;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient RFm_TokenRequest
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean m_AuthCodeRequested
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_AuthCodeRequested;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_AuthCodeRequested
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_AuthCodeRequested;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_AuthCodeRequested
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+UserInfo m_UserInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo r_Fm_UserInfo;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo RFm_UserInfo
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo r_Fm_UserInfo;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo RFm_UserInfo
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_AuthCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_AuthCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_AuthCode
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_AuthCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_AuthCode
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+AccessToken m_AccessToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken r_Fm_AccessToken;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken RFm_AccessToken
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken r_Fm_AccessToken;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken RFm_AccessToken
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+TokenInfo m_TokenInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo r_Fm_TokenInfo;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo RFm_TokenInfo
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo r_Fm_TokenInfo;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo RFm_TokenInfo
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action`1[System.String] m_OnAuthCodeFetched
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RString> r_Fm_OnAuthCodeFetched;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RString> RFm_OnAuthCodeFetched
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_OnAuthCodeFetched;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RString> RFm_OnAuthCodeFetched
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+AccessToken] m_OnAccessTokenFetched
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken> r_Fm_OnAccessTokenFetched;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken> RFm_OnAccessTokenFetched
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken> r_Fm_OnAccessTokenFetched;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken> RFm_OnAccessTokenFetched
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+TokenInfo] m_OnTokenInfoFetched
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo> r_Fm_OnTokenInfoFetched;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo> RFm_OnTokenInfoFetched
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo> r_Fm_OnTokenInfoFetched;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo> RFm_OnTokenInfoFetched
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+UserInfo] m_OnUserInfoFetched
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo> r_Fm_OnUserInfoFetched;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo> RFm_OnUserInfoFetched
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo> r_Fm_OnUserInfoFetched;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo> RFm_OnUserInfoFetched
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.UIError] m_OnError
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> r_Fm_OnError;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> RFm_OnError
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> r_Fm_OnError;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> RFm_OnError
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_Host
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Host;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Host
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Host;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Host
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_Secret
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Secret;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Secret
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Secret;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Secret
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.UnityConnectProxy m_UnityConnect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy r_Fm_UnityConnect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy RFm_UnityConnect
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy r_Fm_UnityConnect;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy RFm_UnityConnect
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.UnityOAuthProxy m_UnityOAuth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityOAuthProxy r_Fm_UnityOAuth;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityOAuthProxy RFm_UnityOAuth
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityOAuthProxy r_Fm_UnityOAuth;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityOAuthProxy RFm_UnityOAuth
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.HttpClientFactory m_HttpClientFactory
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory r_Fm_HttpClientFactory;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory RFm_HttpClientFactory
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory r_Fm_HttpClientFactory;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory RFm_HttpClientFactory
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String host
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Phost;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPhost
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Phost;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPhost
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String secret
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Psecret;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPsecret
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Psecret;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPsecret
 		{
 			get
 			{
@@ -879,7 +879,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	    {
 	    }
 
-        public virtual void ResolveDependencies(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityOAuthProxy @unityOAuth, SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory @httpClientFactory)
+        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityOAuthProxy @unityOAuth, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory @httpClientFactory)
         {
 
             var ___genericsType = new Type[] {};
@@ -934,7 +934,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void FetchUserInfo(SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo> @doneCallback, SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallback)
+        public virtual void FetchUserInfo(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo> @doneCallback, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> @errorCallback)
         {
 
             var ___genericsType = new Type[] {};
@@ -956,7 +956,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void GetAccessToken(SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken> @doneCallback)
+        public virtual void GetAccessToken(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken> @doneCallback)
         {
 
             var ___genericsType = new Type[] {};
@@ -967,7 +967,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void GetAccessToken(SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken> @doneCallback, System.String @authCode, System.String @refreshToken)
+        public virtual void GetAccessToken(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RAccessToken> @doneCallback, System.String @authCode, System.String @refreshToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -978,7 +978,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void GetTokenInfo(SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo> @doneCallback)
+        public virtual void GetTokenInfo(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RTokenInfo> @doneCallback)
         {
 
             var ___genericsType = new Type[] {};
@@ -989,7 +989,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void GetUserInfo(SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo> @doneCallback)
+        public virtual void GetUserInfo(Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreOAuth.RUserInfo> @doneCallback)
         {
 
             var ___genericsType = new Type[] {};
@@ -1022,7 +1022,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void __0__GetAuthCode__1__b__46_0(SMFrame.Editor.Refleaction.RUnityEditor.RConnect.RUnityOAuth.RAuthCodeResponse @authCodeResponse)
+        public virtual void __0__GetAuthCode__1__b__46_0(Hvak.Editor.Refleaction.RUnityEditor.RConnect.RUnityOAuth.RAuthCodeResponse @authCodeResponse)
         {
 
             var ___genericsType = new Type[] {};
@@ -1033,7 +1033,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void __0__GetAccessToken__1__b__48_0(SMFrame.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient @httpClient)
+        public virtual void __0__GetAccessToken__1__b__48_0(Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient @httpClient)
         {
 
             var ___genericsType = new Type[] {};

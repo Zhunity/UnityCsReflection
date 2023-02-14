@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.DownloadProgress
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.UInt64 currentBytes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_FcurrentBytes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFcurrentBytes
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_FcurrentBytes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFcurrentBytes
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.UInt64 totalBytes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt64 r_FtotalBytes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt64 RFtotalBytes
+		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_FtotalBytes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFtotalBytes
 		{
 			get
 			{

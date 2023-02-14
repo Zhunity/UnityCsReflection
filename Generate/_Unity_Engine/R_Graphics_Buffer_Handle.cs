@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.GraphicsBufferHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt32 value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFvalue
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFvalue
 		{
 			get
 			{

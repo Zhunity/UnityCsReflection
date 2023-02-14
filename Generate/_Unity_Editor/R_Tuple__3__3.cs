@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.Tuple`3
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// T1 m_Item1
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_Fm_Item1;
-		public virtual SMFrame.Editor.Refleaction.RField RFm_Item1
+		protected Hvak.Editor.Refleaction.RField r_Fm_Item1;
+		public virtual Hvak.Editor.Refleaction.RField RFm_Item1
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// T2 m_Item2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_Fm_Item2;
-		public virtual SMFrame.Editor.Refleaction.RField RFm_Item2
+		protected Hvak.Editor.Refleaction.RField r_Fm_Item2;
+		public virtual Hvak.Editor.Refleaction.RField RFm_Item2
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// T3 m_Item3
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_Fm_Item3;
-		public virtual SMFrame.Editor.Refleaction.RField RFm_Item3
+		protected Hvak.Editor.Refleaction.RField r_Fm_Item3;
+		public virtual Hvak.Editor.Refleaction.RField RFm_Item3
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// T1 Item1
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PItem1;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPItem1
+		protected Hvak.Editor.Refleaction.RProperty r_PItem1;
+		public virtual Hvak.Editor.Refleaction.RProperty RPItem1
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// T2 Item2
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PItem2;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPItem2
+		protected Hvak.Editor.Refleaction.RProperty r_PItem2;
+		public virtual Hvak.Editor.Refleaction.RProperty RPItem2
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// T3 Item3
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PItem3;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPItem3
+		protected Hvak.Editor.Refleaction.RProperty r_PItem3;
+		public virtual Hvak.Editor.Refleaction.RProperty RPItem3
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 UnityEditor.ITuple.Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PUnityEditor__2__ITuple__2__Length;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPUnityEditor__2__ITuple__2__Length
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PUnityEditor__2__ITuple__2__Length;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPUnityEditor__2__ITuple__2__Length
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Object UnityEditor.ITuple.Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PUnityEditor__2__ITuple__2__Item_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPUnityEditor__2__ITuple__2__Item_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PUnityEditor__2__ITuple__2__Item_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPUnityEditor__2__ITuple__2__Item_Int32
 		{
 			get
 			{

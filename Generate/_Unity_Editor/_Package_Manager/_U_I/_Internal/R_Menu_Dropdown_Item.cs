@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.MenuDropdownItem
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Object <userData>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F__0__userData__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF__0__userData__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F__0__userData__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF__0__userData__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action m_Action
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_Fm_Action;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RFm_Action
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_Fm_Action;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFm_Action
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Object userData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PuserData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPuserData
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PuserData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPuserData
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action action
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_Paction;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RPaction
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_Paction;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RPaction
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean needRefresh
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PneedRefresh;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPneedRefresh
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PneedRefresh;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPneedRefresh
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean visible
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPvisible
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPvisible
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Penabled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPenabled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Penabled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPenabled
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean insertSeparatorBefore
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PinsertSeparatorBefore;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPinsertSeparatorBefore
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PinsertSeparatorBefore;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPinsertSeparatorBefore
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Func`2[UnityEngine.UIElements.DropdownMenuAction,UnityEngine.UIElements.DropdownMenuAction+Status] statusCallback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus> r_PstatusCallback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus> RPstatusCallback
+		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus> r_PstatusCallback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus> RPstatusCallback
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtext
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtext
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Int32 priority
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Ppriority;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPpriority
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Ppriority;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPpriority
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isChecked
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisChecked;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisChecked
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisChecked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisChecked
 		{
 			get
 			{

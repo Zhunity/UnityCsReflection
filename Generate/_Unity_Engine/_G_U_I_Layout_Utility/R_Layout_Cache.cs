@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {public partial class RGUILayoutUtility
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 <id>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F__0__id__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF__0__id__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F__0__id__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF__0__id__1__k__BackingField
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutGroup topLevel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutGroup r_FtopLevel;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutGroup RFtopLevel
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutGroup r_FtopLevel;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutGroup RFtopLevel
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngineInternal.GenericStack layoutGroups
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngineInternal.RGenericStack r_FlayoutGroups;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngineInternal.RGenericStack RFlayoutGroups
+		protected Hvak.Editor.Refleaction.RUnityEngineInternal.RGenericStack r_FlayoutGroups;
+		public virtual Hvak.Editor.Refleaction.RUnityEngineInternal.RGenericStack RFlayoutGroups
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.GUILayoutGroup windows
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutGroup r_Fwindows;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutGroup RFwindows
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutGroup r_Fwindows;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutGroup RFwindows
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPid
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPid
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// LayoutCacheState State
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutUtility.RLayoutCacheState r_PState;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutUtility.RLayoutCacheState RPState
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutUtility.RLayoutCacheState r_PState;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutUtility.RLayoutCacheState RPState
 		{
 			get
 			{
@@ -269,7 +269,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual void CopyState(SMFrame.Editor.Refleaction.RUnityEngine.RGUILayoutUtility.RLayoutCacheState @other)
+        public virtual void CopyState(Hvak.Editor.Refleaction.RUnityEngine.RGUILayoutUtility.RLayoutCacheState @other)
         {
 
             var ___genericsType = new Type[] {};

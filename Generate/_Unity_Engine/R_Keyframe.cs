@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Keyframe
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_Time
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Time;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Time
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Time;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Time
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Value;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Value
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Value;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Value
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_InTangent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_InTangent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_InTangent
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_InTangent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_InTangent
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_OutTangent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_OutTangent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_OutTangent
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_OutTangent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_OutTangent
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_TangentMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_TangentMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_TangentMode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_TangentMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_TangentMode
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_WeightedMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_WeightedMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_WeightedMode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_WeightedMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_WeightedMode
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_InWeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_InWeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_InWeight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_InWeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_InWeight
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_OutWeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_OutWeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_OutWeight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_OutWeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_OutWeight
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single time
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Ptime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPtime
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Ptime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPtime
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPvalue
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPvalue
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single inTangent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PinTangent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPinTangent
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PinTangent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPinTangent
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single outTangent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PoutTangent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPoutTangent
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PoutTangent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPoutTangent
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single inWeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PinWeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPinWeight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PinWeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPinWeight
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single outWeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PoutWeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPoutWeight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PoutWeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPoutWeight
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.WeightedMode weightedMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RWeightedMode r_PweightedMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RWeightedMode RPweightedMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RWeightedMode r_PweightedMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RWeightedMode RPweightedMode
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 tangentMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PtangentMode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPtangentMode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PtangentMode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPtangentMode
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 tangentModeInternal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PtangentModeInternal;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPtangentModeInternal
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PtangentModeInternal;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPtangentModeInternal
 		{
 			get
 			{

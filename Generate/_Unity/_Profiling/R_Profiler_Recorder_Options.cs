@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
+namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 {
 	/// <summary>
 	/// Unity.Profiling.ProfilerRecorderOptions
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderOptions None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFNone
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FNone;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderOptions StartImmediately
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FStartImmediately;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFStartImmediately
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FStartImmediately;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFStartImmediately
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderOptions KeepAliveDuringDomainReload
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FKeepAliveDuringDomainReload;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFKeepAliveDuringDomainReload
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FKeepAliveDuringDomainReload;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFKeepAliveDuringDomainReload
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderOptions CollectOnlyOnCurrentThread
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FCollectOnlyOnCurrentThread;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFCollectOnlyOnCurrentThread
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FCollectOnlyOnCurrentThread;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFCollectOnlyOnCurrentThread
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderOptions WrapAroundWhenCapacityReached
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FWrapAroundWhenCapacityReached;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFWrapAroundWhenCapacityReached
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FWrapAroundWhenCapacityReached;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFWrapAroundWhenCapacityReached
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderOptions SumAllSamplesInFrame
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FSumAllSamplesInFrame;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFSumAllSamplesInFrame
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FSumAllSamplesInFrame;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFSumAllSamplesInFrame
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderOptions GpuRecorder
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FGpuRecorder;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFGpuRecorder
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FGpuRecorder;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFGpuRecorder
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderOptions Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FDefault;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFDefault
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions r_FDefault;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerRecorderOptions RFDefault
 		{
 			get
 			{

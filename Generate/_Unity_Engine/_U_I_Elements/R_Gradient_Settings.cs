@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.GradientSettings
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.GradientType gradientType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RGradientType r_FgradientType;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RGradientType RFgradientType
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RGradientType r_FgradientType;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RGradientType RFgradientType
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.AddressMode addressMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAddressMode r_FaddressMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAddressMode RFaddressMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAddressMode r_FaddressMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAddressMode RFaddressMode
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 radialFocus
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_FradialFocus;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFradialFocus
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_FradialFocus;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFradialFocus
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.RectInt location
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRectInt r_Flocation;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRectInt RFlocation
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRectInt r_Flocation;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRectInt RFlocation
 		{
 			get
 			{

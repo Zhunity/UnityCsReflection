@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 {
 	/// <summary>
 	/// UnityEngine.TextCore.GlyphRect
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Int32 m_X
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_X;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_X
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_X;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_X
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Int32 m_Y
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Y;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Y
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Y;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Y
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Int32 m_Width
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Width;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Width
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Width;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Width
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Int32 m_Height
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Height;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Height
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Height;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Height
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UnityEngine.TextCore.GlyphRect s_ZeroGlyphRect
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect r_Fs_ZeroGlyphRect;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect RFs_ZeroGlyphRect
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect r_Fs_ZeroGlyphRect;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect RFs_ZeroGlyphRect
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Int32 x
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Px;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPx
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Px;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPx
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Int32 y
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Py;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPy
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Py;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPy
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Int32 width
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pwidth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPwidth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pwidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPwidth
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Int32 height
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pheight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPheight
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pheight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPheight
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UnityEngine.TextCore.GlyphRect zero
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect r_Pzero;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect RPzero
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect r_Pzero;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphRect RPzero
 		{
 			get
 			{

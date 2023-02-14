@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.HierarchyChangeType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.HierarchyChangeType Add
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType r_FAdd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType RFAdd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType r_FAdd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType RFAdd
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.HierarchyChangeType Remove
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType r_FRemove;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType RFRemove
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType r_FRemove;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType RFRemove
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.HierarchyChangeType Move
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType r_FMove;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType RFMove
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType r_FMove;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHierarchyChangeType RFMove
 		{
 			get
 			{

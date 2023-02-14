@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.FrustumPlanes
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single left
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fleft;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFleft
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fleft;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFleft
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single right
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fright;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFright
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fright;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFright
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single bottom
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fbottom;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFbottom
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fbottom;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFbottom
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single top
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Ftop;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFtop
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Ftop;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFtop
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single zNear
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FzNear;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFzNear
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FzNear;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFzNear
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single zFar
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FzFar;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFzFar
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FzFar;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFzFar
 		{
 			get
 			{

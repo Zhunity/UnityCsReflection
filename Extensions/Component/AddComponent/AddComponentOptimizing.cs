@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEditor;
 
-namespace SMFrame.Editor.Extension
+namespace Hvak.Editor.Extension
 {
 	/// <summary>
 	/// 组件优化

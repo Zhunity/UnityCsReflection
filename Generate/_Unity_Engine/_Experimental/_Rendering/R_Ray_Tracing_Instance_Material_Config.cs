@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Experimental.Rendering.RayTracingInstanceMaterialConfig
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 renderQueueLowerBound
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FrenderQueueLowerBound;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFrenderQueueLowerBound
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FrenderQueueLowerBound;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFrenderQueueLowerBound
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 renderQueueUpperBound
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FrenderQueueUpperBound;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFrenderQueueUpperBound
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FrenderQueueUpperBound;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFrenderQueueUpperBound
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingShaderTagConfig[] optionalShaderTags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingShaderTagConfig> r_FoptionalShaderTags;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingShaderTagConfig> RFoptionalShaderTags
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingShaderTagConfig> r_FoptionalShaderTags;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingInstanceCullingShaderTagConfig> RFoptionalShaderTags
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.String[] optionalShaderKeywords
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_FoptionalShaderKeywords;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RFoptionalShaderKeywords
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_FoptionalShaderKeywords;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFoptionalShaderKeywords
 		{
 			get
 			{

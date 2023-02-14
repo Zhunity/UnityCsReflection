@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
 {
 	/// <summary>
 	/// System.Security.Permissions.SecurityAction
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 		/// <summary>
 		/// System.Security.Permissions.SecurityAction Demand
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FDemand;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFDemand
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FDemand;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFDemand
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 		/// <summary>
 		/// System.Security.Permissions.SecurityAction Assert
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FAssert;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFAssert
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FAssert;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFAssert
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 		/// <summary>
 		/// System.Security.Permissions.SecurityAction Deny
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FDeny;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFDeny
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FDeny;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFDeny
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 		/// <summary>
 		/// System.Security.Permissions.SecurityAction PermitOnly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FPermitOnly;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFPermitOnly
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FPermitOnly;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFPermitOnly
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 		/// <summary>
 		/// System.Security.Permissions.SecurityAction LinkDemand
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FLinkDemand;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFLinkDemand
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FLinkDemand;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFLinkDemand
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 		/// <summary>
 		/// System.Security.Permissions.SecurityAction InheritanceDemand
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FInheritanceDemand;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFInheritanceDemand
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FInheritanceDemand;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFInheritanceDemand
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 		/// <summary>
 		/// System.Security.Permissions.SecurityAction RequestMinimum
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FRequestMinimum;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFRequestMinimum
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FRequestMinimum;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFRequestMinimum
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 		/// <summary>
 		/// System.Security.Permissions.SecurityAction RequestOptional
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FRequestOptional;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFRequestOptional
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FRequestOptional;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFRequestOptional
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 		/// <summary>
 		/// System.Security.Permissions.SecurityAction RequestRefuse
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FRequestRefuse;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFRequestRefuse
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction r_FRequestRefuse;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RSecurityAction RFRequestRefuse
 		{
 			get
 			{

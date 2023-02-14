@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.RenderTextureReadWrite
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureReadWrite Default
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureReadWrite r_FDefault;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureReadWrite RFDefault
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureReadWrite r_FDefault;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureReadWrite RFDefault
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureReadWrite Linear
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureReadWrite r_FLinear;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureReadWrite RFLinear
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureReadWrite r_FLinear;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureReadWrite RFLinear
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderTextureReadWrite sRGB
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureReadWrite r_FsRGB;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderTextureReadWrite RFsRGB
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureReadWrite r_FsRGB;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderTextureReadWrite RFsRGB
 		{
 			get
 			{

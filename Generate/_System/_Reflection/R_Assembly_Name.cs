@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.AssemblyName
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFname
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String codebase
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fcodebase;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFcodebase
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fcodebase;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFcodebase
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 major
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fmajor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFmajor
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fmajor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFmajor
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 minor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fminor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFminor
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fminor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFminor
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 build
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fbuild;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFbuild
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fbuild;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFbuild
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 revision
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Frevision;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFrevision
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Frevision;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFrevision
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Globalization.CultureInfo cultureinfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo r_Fcultureinfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo RFcultureinfo
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo r_Fcultureinfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo RFcultureinfo
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.AssemblyNameFlags flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags r_Fflags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags RFflags
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags r_Fflags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags RFflags
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Configuration.Assemblies.AssemblyHashAlgorithm hashalg
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_Fhashalg;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RFhashalg
+		protected Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_Fhashalg;
+		public virtual Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RFhashalg
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.StrongNameKeyPair keypair
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RStrongNameKeyPair r_Fkeypair;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RStrongNameKeyPair RFkeypair
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RStrongNameKeyPair r_Fkeypair;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RStrongNameKeyPair RFkeypair
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Byte[] publicKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_FpublicKey;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFpublicKey
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_FpublicKey;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFpublicKey
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Byte[] keyToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_FkeyToken;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RFkeyToken
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_FkeyToken;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RFkeyToken
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Configuration.Assemblies.AssemblyVersionCompatibility versioncompat
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility r_Fversioncompat;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility RFversioncompat
+		protected Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility r_Fversioncompat;
+		public virtual Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility RFversioncompat
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Version version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RVersion r_Fversion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RVersion RFversion
+		protected Hvak.Editor.Refleaction.RSystem.RVersion r_Fversion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RVersion RFversion
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ProcessorArchitecture processor_architecture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_Fprocessor_architecture;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RFprocessor_architecture
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_Fprocessor_architecture;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RFprocessor_architecture
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.AssemblyContentType contentType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyContentType r_FcontentType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyContentType RFcontentType
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyContentType r_FcontentType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyContentType RFcontentType
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ProcessorArchitecture ProcessorArchitecture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_PProcessorArchitecture;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RPProcessorArchitecture
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture r_PProcessorArchitecture;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RProcessorArchitecture RPProcessorArchitecture
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String CodeBase
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PCodeBase;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPCodeBase
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PCodeBase;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPCodeBase
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String EscapedCodeBase
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PEscapedCodeBase;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPEscapedCodeBase
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PEscapedCodeBase;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPEscapedCodeBase
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Globalization.CultureInfo CultureInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo r_PCultureInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo RPCultureInfo
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo r_PCultureInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo RPCultureInfo
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.AssemblyNameFlags Flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags r_PFlags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags RPFlags
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags r_PFlags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyNameFlags RPFlags
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String FullName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PFullName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPFullName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PFullName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPFullName
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Configuration.Assemblies.AssemblyHashAlgorithm HashAlgorithm
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_PHashAlgorithm;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RPHashAlgorithm
+		protected Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm r_PHashAlgorithm;
+		public virtual Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyHashAlgorithm RPHashAlgorithm
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.StrongNameKeyPair KeyPair
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RStrongNameKeyPair r_PKeyPair;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RStrongNameKeyPair RPKeyPair
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RStrongNameKeyPair r_PKeyPair;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RStrongNameKeyPair RPKeyPair
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Version Version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RVersion r_PVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RVersion RPVersion
+		protected Hvak.Editor.Refleaction.RSystem.RVersion r_PVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RVersion RPVersion
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Configuration.Assemblies.AssemblyVersionCompatibility VersionCompatibility
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility r_PVersionCompatibility;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility RPVersionCompatibility
+		protected Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility r_PVersionCompatibility;
+		public virtual Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies.RAssemblyVersionCompatibility RPVersionCompatibility
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsPublicKeyValid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsPublicKeyValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsPublicKeyValid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsPublicKeyValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsPublicKeyValid
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String CultureName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PCultureName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPCultureName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PCultureName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPCultureName
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.AssemblyContentType ContentType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyContentType r_PContentType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RAssemblyContentType RPContentType
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyContentType r_PContentType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RAssemblyContentType RPContentType
 		{
 			get
 			{
@@ -981,7 +981,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 	    {
 	    }
 
-        public static System.Boolean ParseAssemblyName(System.IntPtr @name, out SMFrame.Editor.Refleaction.RMono.RMonoAssemblyName @aname, out System.Boolean @is_version_definited, out System.Boolean @is_token_defined)
+        public static System.Boolean ParseAssemblyName(System.IntPtr @name, out Hvak.Editor.Refleaction.RMono.RMonoAssemblyName @aname, out System.Boolean @is_version_definited, out System.Boolean @is_token_defined)
         {
 			@aname = default;
 			@is_version_definited = default;
@@ -990,7 +990,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @aname.Value, @is_version_definited, @is_token_defined};
             var ___result = RMParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@aname = new SMFrame.Editor.Refleaction.RMono.RMonoAssemblyName(___parameters[1]);
+			@aname = new Hvak.Editor.Refleaction.RMono.RMonoAssemblyName(___parameters[1]);
 			@is_version_definited = (System.Boolean)___parameters[2];
 			@is_token_defined = (System.Boolean)___parameters[3];
 
@@ -1187,18 +1187,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public unsafe static SMFrame.Editor.Refleaction.RTypePointer<SMFrame.Editor.Refleaction.RMono.RMonoAssemblyName> GetNativeName(System.IntPtr @assembly_ptr)
+        public unsafe static Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RMono.RMonoAssemblyName> GetNativeName(System.IntPtr @assembly_ptr)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assembly_ptr};
             var ___result = RMGetNativeName_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RTypePointer<SMFrame.Editor.Refleaction.RMono.RMonoAssemblyName>(___result);
+            return new Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RMono.RMonoAssemblyName>(___result);
         }
 
 
-        public unsafe virtual void FillName(SMFrame.Editor.Refleaction.RTypePointer<SMFrame.Editor.Refleaction.RMono.RMonoAssemblyName> @native, System.String @codeBase, System.Boolean @addVersion, System.Boolean @addPublickey, System.Boolean @defaultToken, System.Boolean @assemblyRef)
+        public unsafe virtual void FillName(Hvak.Editor.Refleaction.RTypePointer<Hvak.Editor.Refleaction.RMono.RMonoAssemblyName> @native, System.String @codeBase, System.Boolean @addVersion, System.Boolean @addPublickey, System.Boolean @defaultToken, System.Boolean @assemblyRef)
         {
 
             var ___genericsType = new Type[] {};

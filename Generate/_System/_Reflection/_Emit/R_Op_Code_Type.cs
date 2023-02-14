@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
 	/// System.Reflection.Emit.OpCodeType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OpCodeType Annotation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType r_FAnnotation;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType RFAnnotation
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType r_FAnnotation;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType RFAnnotation
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OpCodeType Macro
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType r_FMacro;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType RFMacro
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType r_FMacro;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType RFMacro
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OpCodeType Nternal
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType r_FNternal;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType RFNternal
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType r_FNternal;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType RFNternal
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OpCodeType Objmodel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType r_FObjmodel;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType RFObjmodel
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType r_FObjmodel;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType RFObjmodel
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OpCodeType Prefix
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType r_FPrefix;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType RFPrefix
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType r_FPrefix;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType RFPrefix
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.OpCodeType Primitive
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType r_FPrimitive;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType RFPrimitive
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType r_FPrimitive;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.ROpCodeType RFPrimitive
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 {
 	/// <summary>
 	/// System.Security.Policy.ApplicationTrust
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.ApplicationIdentity _appid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity r_F_appid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity RF_appid
+		protected Hvak.Editor.Refleaction.RSystem.RApplicationIdentity r_F_appid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RApplicationIdentity RF_appid
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.PolicyStatement _defaultPolicy
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement r_F_defaultPolicy;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement RF_defaultPolicy
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement r_F_defaultPolicy;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement RF_defaultPolicy
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Object _xtranfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F_xtranfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF_xtranfo
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F_xtranfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF_xtranfo
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Boolean _trustrun
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_trustrun;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_trustrun
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_trustrun;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_trustrun
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Boolean _persist
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_persist;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_persist
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_persist;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_persist
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Collections.Generic.IList`1[System.Security.Policy.StrongName] fullTrustAssemblies
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RStrongName> r_FfullTrustAssemblies;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RStrongName> RFfullTrustAssemblies
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RStrongName> r_FfullTrustAssemblies;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RStrongName> RFfullTrustAssemblies
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.ApplicationIdentity ApplicationIdentity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity r_PApplicationIdentity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity RPApplicationIdentity
+		protected Hvak.Editor.Refleaction.RSystem.RApplicationIdentity r_PApplicationIdentity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RApplicationIdentity RPApplicationIdentity
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Policy.PolicyStatement DefaultGrantSet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement r_PDefaultGrantSet;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement RPDefaultGrantSet
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement r_PDefaultGrantSet;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RPolicyStatement RPDefaultGrantSet
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Object ExtraInfo
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PExtraInfo;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPExtraInfo
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PExtraInfo;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPExtraInfo
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean IsApplicationTrustedToRun
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsApplicationTrustedToRun;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsApplicationTrustedToRun
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsApplicationTrustedToRun;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsApplicationTrustedToRun
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean Persist
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PPersist;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPPersist
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PPersist;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPPersist
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Collections.Generic.IList`1[System.Security.Policy.StrongName] FullTrustAssemblies
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RStrongName> r_PFullTrustAssemblies;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy.RStrongName> RPFullTrustAssemblies
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RStrongName> r_PFullTrustAssemblies;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy.RStrongName> RPFullTrustAssemblies
 		{
 			get
 			{

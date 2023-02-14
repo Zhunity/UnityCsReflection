@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Messaging.Header
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String HeaderNamespace
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FHeaderNamespace;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFHeaderNamespace
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FHeaderNamespace;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFHeaderNamespace
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Boolean MustUnderstand
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FMustUnderstand;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFMustUnderstand
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FMustUnderstand;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFMustUnderstand
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Object Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_FValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFValue
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_FValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFValue
 		{
 			get
 			{

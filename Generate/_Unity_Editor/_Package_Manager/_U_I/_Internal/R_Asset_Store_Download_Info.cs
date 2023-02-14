@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean isValid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FisValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFisValid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisValid
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String categoryName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FcategoryName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFcategoryName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FcategoryName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFcategoryName
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String packageName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpackageName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpackageName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpackageName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpackageName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String publisherName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FpublisherName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFpublisherName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpublisherName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpublisherName
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String productId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FproductId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFproductId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FproductId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFproductId
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String key
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fkey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFkey
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fkey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFkey
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String url
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Furl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFurl
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Furl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFurl
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String errorMessage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_FerrorMessage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFerrorMessage
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FerrorMessage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFerrorMessage
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int32 errorCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FerrorCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFerrorCode
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FerrorCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFerrorCode
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String[] destination
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> r_Pdestination;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> RPdestination
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> r_Pdestination;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> RPdestination
 		{
 			get
 			{
@@ -318,14 +318,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreDownloadInfo ParseDownloadInfo(System.Collections.Generic.IDictionary<System.String, System.Object> @rawInfo)
+        public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreDownloadInfo ParseDownloadInfo(System.Collections.Generic.IDictionary<System.String, System.Object> @rawInfo)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rawInfo};
             var ___result = RMParseDownloadInfo_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreDownloadInfo(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreDownloadInfo(___result);
         }
 
 

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
+namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 {
 	/// <summary>
 	/// UnityEditor.Overlays.Layout
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.Layout HorizontalToolbar
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_FHorizontalToolbar;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFHorizontalToolbar
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_FHorizontalToolbar;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFHorizontalToolbar
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.Layout VerticalToolbar
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_FVerticalToolbar;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFVerticalToolbar
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_FVerticalToolbar;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFVerticalToolbar
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.Layout Panel
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_FPanel;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFPanel
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_FPanel;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFPanel
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEditor.Overlays.Layout All
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_FAll;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFAll
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_FAll;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFAll
 		{
 			get
 			{

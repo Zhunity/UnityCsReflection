@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StartDragArgs
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String <title>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__title__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__title__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__title__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__title__1__k__BackingField
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Object <userData>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F__0__userData__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF__0__userData__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F__0__userData__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF__0__userData__1__k__BackingField
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Hashtable m_GenericData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable r_Fm_GenericData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable RFm_GenericData
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_Fm_GenericData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RFm_GenericData
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[UnityEngine.Object] <unityObjectReferences>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEngine.RObject> r_F__0__unityObjectReferences__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEngine.RObject> RF__0__unityObjectReferences__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RObject> r_F__0__unityObjectReferences__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RObject> RF__0__unityObjectReferences__1__k__BackingField
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String title
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptitle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtitle
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptitle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtitle
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Object userData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PuserData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPuserData
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PuserData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPuserData
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Hashtable genericData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable r_PgenericData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable RPgenericData
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_PgenericData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RPgenericData
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[UnityEngine.Object] unityObjectReferences
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEngine.RObject> r_PunityObjectReferences;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEngine.RObject> RPunityObjectReferences
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RObject> r_PunityObjectReferences;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RObject> RPunityObjectReferences
 		{
 			get
 			{

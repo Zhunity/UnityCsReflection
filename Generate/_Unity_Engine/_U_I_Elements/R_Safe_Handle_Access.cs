@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.SafeHandleAccess
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.IntPtr m_Handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_Handle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_Handle
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_Handle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_Handle
 		{
 			get
 			{
@@ -193,7 +193,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.IntPtr op_Implicit(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RSafeHandleAccess @a)
+        public static System.IntPtr op_Implicit(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RSafeHandleAccess @a)
         {
 
             var ___genericsType = new Type[] {};

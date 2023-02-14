@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.IMenu
@@ -63,18 +63,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenuDropdownItem AddDropdownItem()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenuDropdownItem AddDropdownItem()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAddDropdownItem.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenuDropdownItem(___result);
+            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenuDropdownItem(___result);
         }
 
 
-        public virtual void ShowInputDropdown(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInputDropdownArgs @args)
+        public virtual void ShowInputDropdown(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInputDropdownArgs @args)
         {
 
             var ___genericsType = new Type[] {};

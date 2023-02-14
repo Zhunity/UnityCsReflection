@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.AssetStoreInfo
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String m_ProductId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_ProductId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_ProductId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_ProductId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_ProductId
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.String productId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PproductId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPproductId
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PproductId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPproductId
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
+namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 {
 	/// <summary>
 	/// UnityEditor.IMGUI.Controls.AdvancedDropdownGUI
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEngine.Vector2 s_IconSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Fs_IconSize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RFs_IconSize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fs_IconSize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFs_IconSize
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource m_DataSource
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource r_Fm_DataSource;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource RFm_DataSource
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource r_Fm_DataSource;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource RFm_DataSource
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEngine.Rect m_SearchRect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_Fm_SearchRect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RFm_SearchRect
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_Fm_SearchRect;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFm_SearchRect
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEngine.Rect m_HeaderRect
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRect r_Fm_HeaderRect;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRect RFm_HeaderRect
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_Fm_HeaderRect;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFm_HeaderRect
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownState <state>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState r_F__0__state__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState RF__0__state__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState r_F__0__state__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState RF__0__state__1__k__BackingField
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Single searchHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PsearchHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPsearchHeight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PsearchHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPsearchHeight
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Single headerHeight
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PheaderHeight;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPheaderHeight
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PheaderHeight;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPheaderHeight
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEngine.GUIStyle lineStyle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle r_PlineStyle;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIStyle RPlineStyle
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle r_PlineStyle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIStyle RPlineStyle
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEngine.Vector2 iconSize
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PiconSize;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPiconSize
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PiconSize;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPiconSize
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownState state
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState r_Pstate;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState RPstate
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState r_Pstate;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState RPstate
 		{
 			get
 			{
@@ -628,7 +628,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual UnityEngine.Vector2 CalculateContentSize(SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource @dataSource)
+        public virtual UnityEngine.Vector2 CalculateContentSize(Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource @dataSource)
         {
 
             var ___genericsType = new Type[] {};
@@ -639,7 +639,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.Single GetSelectionHeight(SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource @dataSource, UnityEngine.Rect @buttonRect)
+        public virtual System.Single GetSelectionHeight(Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource @dataSource, UnityEngine.Rect @buttonRect)
         {
 
             var ___genericsType = new Type[] {};

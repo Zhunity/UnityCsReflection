@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates
 {
 	/// <summary>
 	/// System.Security.Cryptography.X509Certificates.X509CertificateImpl
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Boolean IsValid
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsValid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsValid
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsValid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsValid
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// IntPtr Handle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_PHandle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RPHandle
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_PHandle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RPHandle
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String Issuer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PIssuer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPIssuer
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PIssuer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPIssuer
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String Subject
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PSubject;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPSubject
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PSubject;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPSubject
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String LegacyIssuer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PLegacyIssuer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPLegacyIssuer
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PLegacyIssuer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPLegacyIssuer
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String LegacySubject
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PLegacySubject;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPLegacySubject
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PLegacySubject;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPLegacySubject
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Byte[] RawData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_PRawData;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPRawData
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_PRawData;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPRawData
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.DateTime NotAfter
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDateTime r_PNotAfter;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDateTime RPNotAfter
+		protected Hvak.Editor.Refleaction.RSystem.RDateTime r_PNotAfter;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDateTime RPNotAfter
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.DateTime NotBefore
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDateTime r_PNotBefore;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDateTime RPNotBefore
+		protected Hvak.Editor.Refleaction.RSystem.RDateTime r_PNotBefore;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDateTime RPNotBefore
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Byte[] Thumbprint
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_PThumbprint;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPThumbprint
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_PThumbprint;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPThumbprint
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String KeyAlgorithm
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PKeyAlgorithm;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPKeyAlgorithm
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PKeyAlgorithm;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPKeyAlgorithm
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Byte[] KeyAlgorithmParameters
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_PKeyAlgorithmParameters;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPKeyAlgorithmParameters
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_PKeyAlgorithmParameters;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPKeyAlgorithmParameters
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Byte[] PublicKeyValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_PPublicKeyValue;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPPublicKeyValue
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_PPublicKeyValue;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPPublicKeyValue
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Byte[] SerialNumber
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_PSerialNumber;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPSerialNumber
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_PSerialNumber;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPSerialNumber
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Boolean HasPrivateKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasPrivateKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasPrivateKey
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasPrivateKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasPrivateKey
 		{
 			get
 			{
@@ -595,14 +595,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl Clone()
+        public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl Clone()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl(___result);
         }
 
 
@@ -617,7 +617,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.Boolean Equals(SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl @other, out System.Boolean @result)
+        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl @other, out System.Boolean @result)
         {
 			@result = default;
 
@@ -652,7 +652,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType @contentType, SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafePasswordHandle @password)
+        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType @contentType, Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles.RSafePasswordHandle @password)
         {
 
             var ___genericsType = new Type[] {};
@@ -663,14 +663,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl CopyWithPrivateKey(System.Security.Cryptography.RSA @privateKey)
+        public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl CopyWithPrivateKey(System.Security.Cryptography.RSA @privateKey)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@privateKey};
             var ___result = RMCopyWithPrivateKey_RSA.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl(___result);
         }
 
 

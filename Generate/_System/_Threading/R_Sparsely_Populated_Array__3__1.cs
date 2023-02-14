@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.SparselyPopulatedArray`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SparselyPopulatedArrayFragment`1[T] _head
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<SMFrame.Editor.Refleaction.RField> r_F_head;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<SMFrame.Editor.Refleaction.RField> RF_head
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<Hvak.Editor.Refleaction.RField> r_F_head;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<Hvak.Editor.Refleaction.RField> RF_head
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SparselyPopulatedArrayFragment`1[T] _tail
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<SMFrame.Editor.Refleaction.RField> r_F_tail;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<SMFrame.Editor.Refleaction.RField> RF_tail
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<Hvak.Editor.Refleaction.RField> r_F_tail;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<Hvak.Editor.Refleaction.RField> RF_tail
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.SparselyPopulatedArrayFragment`1[T] Tail
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<SMFrame.Editor.Refleaction.RProperty> r_PTail;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<SMFrame.Editor.Refleaction.RProperty> RPTail
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<Hvak.Editor.Refleaction.RProperty> r_PTail;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayFragment<Hvak.Editor.Refleaction.RProperty> RPTail
 		{
 			get
 			{
@@ -199,14 +199,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 	    {
 	    }
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayAddInfo<SMFrame.Editor.Refleaction.RType> Add(T @element)
+        public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayAddInfo<Hvak.Editor.Refleaction.RType> Add(T @element)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element};
             var ___result = RMAdd_T.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayAddInfo<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayAddInfo<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 

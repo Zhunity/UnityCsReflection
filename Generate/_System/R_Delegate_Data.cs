@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.DelegateData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Type target_type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RType r_Ftarget_type;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RType RFtarget_type
+		protected Hvak.Editor.Refleaction.RSystem.RType r_Ftarget_type;
+		public virtual Hvak.Editor.Refleaction.RSystem.RType RFtarget_type
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String method_name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fmethod_name;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFmethod_name
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fmethod_name;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFmethod_name
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean curried_first_arg
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fcurried_first_arg;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFcurried_first_arg
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fcurried_first_arg;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFcurried_first_arg
 		{
 			get
 			{

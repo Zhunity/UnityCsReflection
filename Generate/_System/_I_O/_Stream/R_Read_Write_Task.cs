@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RIO
+namespace Hvak.Editor.Refleaction.RSystem.RIO
 {public partial class RStream
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Boolean _isRead
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_isRead;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_isRead
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_isRead;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_isRead
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Boolean _apm
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_apm;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_apm
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_apm;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_apm
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.Stream _stream
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIO.RStream r_F_stream;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIO.RStream RF_stream
+		protected Hvak.Editor.Refleaction.RSystem.RIO.RStream r_F_stream;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIO.RStream RF_stream
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Byte[] _buffer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_F_buffer;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RF_buffer
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_F_buffer;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RF_buffer
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 _offset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_offset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_offset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_offset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_offset
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 _count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_count;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_count
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_count;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_count
 		{
 			get
 			{
@@ -118,8 +118,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.AsyncCallback _callback
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAsyncCallback r_F_callback;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAsyncCallback RF_callback
+		protected Hvak.Editor.Refleaction.RSystem.RAsyncCallback r_F_callback;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAsyncCallback RF_callback
 		{
 			get
 			{
@@ -135,8 +135,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Threading.ExecutionContext _context
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_F_context;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext RF_context
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_F_context;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext RF_context
 		{
 			get
 			{
@@ -152,8 +152,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Threading.ContextCallback s_invokeAsyncCallback
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RContextCallback r_Fs_invokeAsyncCallback;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RContextCallback RFs_invokeAsyncCallback
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RContextCallback r_Fs_invokeAsyncCallback;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RContextCallback RFs_invokeAsyncCallback
 		{
 			get
 			{
@@ -169,8 +169,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 m_result
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_result;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_result
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_result;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_result
 		{
 			get
 			{
@@ -186,8 +186,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Delegate m_action
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDelegate r_Fm_action;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDelegate RFm_action
+		protected Hvak.Editor.Refleaction.RSystem.RDelegate r_Fm_action;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDelegate RFm_action
 		{
 			get
 			{
@@ -203,8 +203,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Object m_stateObject
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fm_stateObject;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFm_stateObject
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fm_stateObject;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFm_stateObject
 		{
 			get
 			{
@@ -220,8 +220,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Threading.Tasks.TaskScheduler m_taskScheduler
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_Fm_taskScheduler;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RFm_taskScheduler
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_Fm_taskScheduler;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RFm_taskScheduler
 		{
 			get
 			{
@@ -237,8 +237,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Threading.Tasks.Task m_parent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask r_Fm_parent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask RFm_parent
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask r_Fm_parent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask RFm_parent
 		{
 			get
 			{
@@ -254,8 +254,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 m_stateFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_stateFlags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_stateFlags
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_stateFlags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_stateFlags
 		{
 			get
 			{
@@ -271,8 +271,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Threading.Tasks.Task+ContingentProperties m_contingentProperties
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask.RContingentProperties r_Fm_contingentProperties;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask.RContingentProperties RFm_contingentProperties
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask.RContingentProperties r_Fm_contingentProperties;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask.RContingentProperties RFm_contingentProperties
 		{
 			get
 			{
@@ -288,8 +288,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean System.Threading.Tasks.ITaskCompletionAction.InvokeMayRunArbitraryCode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PSystem__2__Threading__2__Tasks__2__ITaskCompletionAction__2__InvokeMayRunArbitraryCode;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPSystem__2__Threading__2__Tasks__2__ITaskCompletionAction__2__InvokeMayRunArbitraryCode
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PSystem__2__Threading__2__Tasks__2__ITaskCompletionAction__2__InvokeMayRunArbitraryCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPSystem__2__Threading__2__Tasks__2__ITaskCompletionAction__2__InvokeMayRunArbitraryCode
 		{
 			get
 			{
@@ -305,8 +305,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Int32 Result
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PResult;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPResult
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PResult;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPResult
 		{
 			get
 			{
@@ -322,8 +322,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Int32 ResultOnSuccess
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PResultOnSuccess;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPResultOnSuccess
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PResultOnSuccess;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPResultOnSuccess
 		{
 			get
 			{
@@ -339,8 +339,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Threading.Tasks.TaskCreationOptions Options
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_POptions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RPOptions
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_POptions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RPOptions
 		{
 			get
 			{
@@ -356,8 +356,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsWaitNotificationEnabledOrNotRanToCompletion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsWaitNotificationEnabledOrNotRanToCompletion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsWaitNotificationEnabledOrNotRanToCompletion
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsWaitNotificationEnabledOrNotRanToCompletion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsWaitNotificationEnabledOrNotRanToCompletion
 		{
 			get
 			{
@@ -373,8 +373,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean ShouldNotifyDebuggerOfWaitCompletion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PShouldNotifyDebuggerOfWaitCompletion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPShouldNotifyDebuggerOfWaitCompletion
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PShouldNotifyDebuggerOfWaitCompletion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPShouldNotifyDebuggerOfWaitCompletion
 		{
 			get
 			{
@@ -390,8 +390,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsWaitNotificationEnabled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsWaitNotificationEnabled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsWaitNotificationEnabled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsWaitNotificationEnabled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsWaitNotificationEnabled
 		{
 			get
 			{
@@ -407,8 +407,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Int32 Id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPId
 		{
 			get
 			{
@@ -424,8 +424,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.AggregateException Exception
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAggregateException r_PException;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAggregateException RPException
+		protected Hvak.Editor.Refleaction.RSystem.RAggregateException r_PException;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAggregateException RPException
 		{
 			get
 			{
@@ -441,8 +441,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Threading.Tasks.TaskStatus Status
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_PStatus;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RPStatus
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus r_PStatus;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskStatus RPStatus
 		{
 			get
 			{
@@ -458,8 +458,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsCanceled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCanceled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCanceled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCanceled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCanceled
 		{
 			get
 			{
@@ -475,8 +475,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsCancellationRequested
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCancellationRequested;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCancellationRequested
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCancellationRequested;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCancellationRequested
 		{
 			get
 			{
@@ -492,8 +492,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Threading.CancellationToken CancellationToken
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationToken r_PCancellationToken;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RCancellationToken RPCancellationToken
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationToken r_PCancellationToken;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationToken RPCancellationToken
 		{
 			get
 			{
@@ -509,8 +509,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsCancellationAcknowledged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCancellationAcknowledged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCancellationAcknowledged
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCancellationAcknowledged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCancellationAcknowledged
 		{
 			get
 			{
@@ -526,8 +526,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCompleted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCompleted
 		{
 			get
 			{
@@ -543,8 +543,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsCompletedSuccessfully
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsCompletedSuccessfully;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsCompletedSuccessfully
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsCompletedSuccessfully;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsCompletedSuccessfully
 		{
 			get
 			{
@@ -560,8 +560,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Threading.Tasks.TaskCreationOptions CreationOptions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_PCreationOptions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RPCreationOptions
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions r_PCreationOptions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskCreationOptions RPCreationOptions
 		{
 			get
 			{
@@ -577,8 +577,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Object AsyncState
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PAsyncState;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPAsyncState
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PAsyncState;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPAsyncState
 		{
 			get
 			{
@@ -594,8 +594,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Threading.Tasks.TaskScheduler ExecutingTaskScheduler
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_PExecutingTaskScheduler;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RPExecutingTaskScheduler
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler r_PExecutingTaskScheduler;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskScheduler RPExecutingTaskScheduler
 		{
 			get
 			{
@@ -611,8 +611,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Threading.ManualResetEventSlim CompletedEvent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RManualResetEventSlim r_PCompletedEvent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RManualResetEventSlim RPCompletedEvent
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RManualResetEventSlim r_PCompletedEvent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RManualResetEventSlim RPCompletedEvent
 		{
 			get
 			{
@@ -628,8 +628,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean ExceptionRecorded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PExceptionRecorded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPExceptionRecorded
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PExceptionRecorded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPExceptionRecorded
 		{
 			get
 			{
@@ -645,8 +645,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsFaulted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsFaulted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsFaulted
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsFaulted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsFaulted
 		{
 			get
 			{
@@ -662,8 +662,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Threading.ExecutionContext CapturedContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_PCapturedContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RExecutionContext RPCapturedContext
+		protected Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext r_PCapturedContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext RPCapturedContext
 		{
 			get
 			{
@@ -679,8 +679,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsExceptionObservedByParent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsExceptionObservedByParent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsExceptionObservedByParent
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsExceptionObservedByParent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsExceptionObservedByParent
 		{
 			get
 			{
@@ -696,8 +696,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsDelegateInvoked
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsDelegateInvoked;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsDelegateInvoked
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsDelegateInvoked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsDelegateInvoked
 		{
 			get
 			{
@@ -2944,7 +2944,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void TaskConstructorCore(System.Delegate @action, System.Object @state, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions @internalOptions, System.Threading.Tasks.TaskScheduler @scheduler)
+        public virtual void TaskConstructorCore(System.Delegate @action, System.Object @state, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions @internalOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {};
@@ -3121,14 +3121,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask.RContingentProperties EnsureContingentPropertiesInitialized(System.Boolean @needsProtection)
+        public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask.RContingentProperties EnsureContingentPropertiesInitialized(System.Boolean @needsProtection)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@needsProtection};
             var ___result = RMEnsureContingentPropertiesInitialized_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTask.RContingentProperties(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTask.RContingentProperties(___result);
         }
 
 
@@ -3671,7 +3671,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void AddCompletionAction(SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RITaskCompletionAction @action)
+        public virtual void AddCompletionAction(Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RITaskCompletionAction @action)
         {
 
             var ___genericsType = new Type[] {};

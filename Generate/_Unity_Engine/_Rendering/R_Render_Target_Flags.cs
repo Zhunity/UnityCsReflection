@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
 	/// UnityEngine.Rendering.RenderTargetFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderTargetFlags None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderTargetFlags ReadOnlyDepth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags r_FReadOnlyDepth;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags RFReadOnlyDepth
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags r_FReadOnlyDepth;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags RFReadOnlyDepth
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderTargetFlags ReadOnlyStencil
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags r_FReadOnlyStencil;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags RFReadOnlyStencil
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags r_FReadOnlyStencil;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags RFReadOnlyStencil
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.RenderTargetFlags ReadOnlyDepthStencil
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags r_FReadOnlyDepthStencil;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags RFReadOnlyDepthStencil
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags r_FReadOnlyDepthStencil;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RRenderTargetFlags RFReadOnlyDepthStencil
 		{
 			get
 			{

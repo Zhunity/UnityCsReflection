@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.PackageManagerProjectSettingsProxy
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action`1[System.Boolean] onEnablePreReleasePackagesChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_FonEnablePreReleasePackagesChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFonEnablePreReleasePackagesChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> r_FonEnablePreReleasePackagesChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> RFonEnablePreReleasePackagesChanged
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action`1[System.Boolean] onAdvancedSettingsFoldoutChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_FonAdvancedSettingsFoldoutChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFonAdvancedSettingsFoldoutChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> r_FonAdvancedSettingsFoldoutChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> RFonAdvancedSettingsFoldoutChanged
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action`1[System.Boolean] onScopedRegistriesSettingsFoldoutChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_FonScopedRegistriesSettingsFoldoutChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFonScopedRegistriesSettingsFoldoutChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> r_FonScopedRegistriesSettingsFoldoutChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> RFonScopedRegistriesSettingsFoldoutChanged
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action`1[System.Boolean] onSeeAllVersionsChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RBoolean> r_FonSeeAllVersionsChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RBoolean> RFonSeeAllVersionsChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> r_FonSeeAllVersionsChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> RFonSeeAllVersionsChanged
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action`1[System.Int64] onLoadAssetsChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RInt64> r_FonLoadAssetsChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RSystem.RInt64> RFonLoadAssetsChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RInt64> r_FonLoadAssetsChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RInt64> RFonLoadAssetsChanged
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action onInitializationFinished
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_FonInitializationFinished;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RFonInitializationFinished
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_FonInitializationFinished;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFonInitializationFinished
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean dismissPreviewPackagesInUse
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PdismissPreviewPackagesInUse;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdismissPreviewPackagesInUse
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdismissPreviewPackagesInUse;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdismissPreviewPackagesInUse
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean enablePreReleasePackages
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PenablePreReleasePackages;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPenablePreReleasePackages
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PenablePreReleasePackages;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPenablePreReleasePackages
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean advancedSettingsExpanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PadvancedSettingsExpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPadvancedSettingsExpanded
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PadvancedSettingsExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPadvancedSettingsExpanded
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean scopedRegistriesSettingsExpanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PscopedRegistriesSettingsExpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPscopedRegistriesSettingsExpanded
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PscopedRegistriesSettingsExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPscopedRegistriesSettingsExpanded
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean seeAllPackageVersions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PseeAllPackageVersions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPseeAllPackageVersions
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PseeAllPackageVersions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPseeAllPackageVersions
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Int64 loadAssets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_PloadAssets;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RPloadAssets
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PloadAssets;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPloadAssets
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean oneTimeWarningShown
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PoneTimeWarningShown;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPoneTimeWarningShown
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PoneTimeWarningShown;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPoneTimeWarningShown
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isUserAddingNewScopedRegistry
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisUserAddingNewScopedRegistry;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisUserAddingNewScopedRegistry
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisUserAddingNewScopedRegistry;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisUserAddingNewScopedRegistry
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.IList`1[UnityEditor.PackageManager.RegistryInfo] registries
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRegistryInfo> r_Pregistries;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRegistryInfo> RPregistries
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRegistryInfo> r_Pregistries;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRegistryInfo> RPregistries
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.RegistryInfo] scopedRegistries
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRegistryInfo> r_PscopedRegistries;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRegistryInfo> RPscopedRegistries
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRegistryInfo> r_PscopedRegistries;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRegistryInfo> RPscopedRegistries
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.RegistryInfoDraft registryInfoDraft
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoDraft r_PregistryInfoDraft;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoDraft RPregistryInfoDraft
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoDraft r_PregistryInfoDraft;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoDraft RPregistryInfoDraft
 		{
 			get
 			{

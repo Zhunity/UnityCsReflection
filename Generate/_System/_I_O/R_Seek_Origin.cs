@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RIO
+namespace Hvak.Editor.Refleaction.RSystem.RIO
 {
 	/// <summary>
 	/// System.IO.SeekOrigin
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.SeekOrigin Begin
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RSeekOrigin r_FBegin;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RSeekOrigin RFBegin
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RSeekOrigin r_FBegin;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RSeekOrigin RFBegin
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.SeekOrigin Current
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RSeekOrigin r_FCurrent;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RSeekOrigin RFCurrent
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RSeekOrigin r_FCurrent;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RSeekOrigin RFCurrent
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.IO.SeekOrigin End
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RIO.RSeekOrigin r_FEnd;
-		public static SMFrame.Editor.Refleaction.RSystem.RIO.RSeekOrigin RFEnd
+		protected static Hvak.Editor.Refleaction.RSystem.RIO.RSeekOrigin r_FEnd;
+		public static Hvak.Editor.Refleaction.RSystem.RIO.RSeekOrigin RFEnd
 		{
 			get
 			{

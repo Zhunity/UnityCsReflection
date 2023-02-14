@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.ResourceAttributes
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ResourceAttributes Public
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceAttributes r_FPublic;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceAttributes RFPublic
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RResourceAttributes r_FPublic;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RResourceAttributes RFPublic
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ResourceAttributes Private
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceAttributes r_FPrivate;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RResourceAttributes RFPrivate
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RResourceAttributes r_FPrivate;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RResourceAttributes RFPrivate
 		{
 			get
 			{

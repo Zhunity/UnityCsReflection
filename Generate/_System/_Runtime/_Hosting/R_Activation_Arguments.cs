@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RHosting
 {
 	/// <summary>
 	/// System.Runtime.Hosting.ActivationArguments
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 		/// <summary>
 		/// System.ActivationContext _context
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RActivationContext r_F_context;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RActivationContext RF_context
+		protected Hvak.Editor.Refleaction.RSystem.RActivationContext r_F_context;
+		public virtual Hvak.Editor.Refleaction.RSystem.RActivationContext RF_context
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 		/// <summary>
 		/// System.ApplicationIdentity _identity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity r_F_identity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity RF_identity
+		protected Hvak.Editor.Refleaction.RSystem.RApplicationIdentity r_F_identity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RApplicationIdentity RF_identity
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 		/// <summary>
 		/// System.String[] _data
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> r_F_data;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RString> RF_data
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_F_data;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RF_data
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 		/// <summary>
 		/// System.ActivationContext ActivationContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RActivationContext r_PActivationContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RActivationContext RPActivationContext
+		protected Hvak.Editor.Refleaction.RSystem.RActivationContext r_PActivationContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RActivationContext RPActivationContext
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 		/// <summary>
 		/// System.String[] ActivationData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> r_PActivationData;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RString> RPActivationData
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> r_PActivationData;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> RPActivationData
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 		/// <summary>
 		/// System.ApplicationIdentity ApplicationIdentity
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity r_PApplicationIdentity;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RApplicationIdentity RPApplicationIdentity
+		protected Hvak.Editor.Refleaction.RSystem.RApplicationIdentity r_PApplicationIdentity;
+		public virtual Hvak.Editor.Refleaction.RSystem.RApplicationIdentity RPApplicationIdentity
 		{
 			get
 			{

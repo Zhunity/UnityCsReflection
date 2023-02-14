@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.Enum
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Char[] enumSeperatorCharArray
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> r_FenumSeperatorCharArray;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> RFenumSeperatorCharArray
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> r_FenumSeperatorCharArray;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> RFenumSeperatorCharArray
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String enumSeperator
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FenumSeperator;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFenumSeperator
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FenumSeperator;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFenumSeperator
 		{
 			get
 			{
@@ -1219,14 +1219,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RSystem.REnum.RValuesAndNames GetCachedValuesAndNames(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @enumType, System.Boolean @getNames)
+        public static Hvak.Editor.Refleaction.RSystem.REnum.RValuesAndNames GetCachedValuesAndNames(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType, System.Boolean @getNames)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@enumType.Value, @getNames};
             var ___result = RMGetCachedValuesAndNames_RuntimeType_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.REnum.RValuesAndNames(___result);
+            return new Hvak.Editor.Refleaction.RSystem.REnum.RValuesAndNames(___result);
         }
 
 
@@ -1241,7 +1241,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.String InternalFormat(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @eT, System.Object @value)
+        public static System.String InternalFormat(Hvak.Editor.Refleaction.RSystem.RRuntimeType @eT, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1252,7 +1252,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.String InternalFlagsFormat(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @eT, System.Object @value)
+        public static System.String InternalFlagsFormat(Hvak.Editor.Refleaction.RSystem.RRuntimeType @eT, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1285,18 +1285,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RRuntimeType InternalGetUnderlyingType(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @enumType)
+        public static Hvak.Editor.Refleaction.RSystem.RRuntimeType InternalGetUnderlyingType(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@enumType.Value};
             var ___result = RMInternalGetUnderlyingType_RuntimeType.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntimeType(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntimeType(___result);
         }
 
 
-        public static System.Boolean GetEnumValuesAndNames(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @enumType, out System.UInt64[] @values, out System.String[] @names)
+        public static System.Boolean GetEnumValuesAndNames(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType, out System.UInt64[] @values, out System.String[] @names)
         {
 			@values = default;
 			@names = default;
@@ -1311,7 +1311,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Object InternalBoxEnum(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @enumType, System.Int64 @value)
+        public static System.Object InternalBoxEnum(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType, System.Int64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1322,27 +1322,27 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean TryParse<TEnum>(System.String @value, out SMFrame.Editor.Refleaction.RType @result) where TEnum : struct
+        public static System.Boolean TryParse<TEnum>(System.String @value, out Hvak.Editor.Refleaction.RType @result) where TEnum : struct
         {
 			@result = default;
 
             var ___genericsType = new Type[] {typeof(TEnum)};
             var ___parameters = new object[]{@value, @result.Value};
             var ___result = RMTryParse_GTEnum_String_Out_TEnum.Invoke(___genericsType, ___parameters);
-			@result = new SMFrame.Editor.Refleaction.RType(___parameters[1]);
+			@result = new Hvak.Editor.Refleaction.RType(___parameters[1]);
 
             return (System.Boolean)___result;
         }
 
 
-        public static System.Boolean TryParse<TEnum>(System.String @value, System.Boolean @ignoreCase, out SMFrame.Editor.Refleaction.RType @result) where TEnum : struct
+        public static System.Boolean TryParse<TEnum>(System.String @value, System.Boolean @ignoreCase, out Hvak.Editor.Refleaction.RType @result) where TEnum : struct
         {
 			@result = default;
 
             var ___genericsType = new Type[] {typeof(TEnum)};
             var ___parameters = new object[]{@value, @ignoreCase, @result.Value};
             var ___result = RMTryParse_GTEnum_String_Boolean_Out_TEnum.Invoke(___genericsType, ___parameters);
-			@result = new SMFrame.Editor.Refleaction.RType(___parameters[2]);
+			@result = new Hvak.Editor.Refleaction.RType(___parameters[2]);
 
             return (System.Boolean)___result;
         }
@@ -1370,13 +1370,13 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean TryParseEnum(System.Type @enumType, System.String @value, System.Boolean @ignoreCase, ref SMFrame.Editor.Refleaction.RSystem.REnum.REnumResult @parseResult)
+        public static System.Boolean TryParseEnum(System.Type @enumType, System.String @value, System.Boolean @ignoreCase, ref Hvak.Editor.Refleaction.RSystem.REnum.REnumResult @parseResult)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@enumType, @value, @ignoreCase, @parseResult.Value};
             var ___result = RMTryParseEnum_Type_String_Boolean_Ref_EnumResult.Invoke(___genericsType, ___parameters);
-			@parseResult = new SMFrame.Editor.Refleaction.RSystem.REnum.REnumResult(___parameters[3]);
+			@parseResult = new Hvak.Editor.Refleaction.RSystem.REnum.REnumResult(___parameters[3]);
 
             return (System.Boolean)___result;
         }
@@ -1404,7 +1404,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.UInt64[] InternalGetValues(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @enumType)
+        public static System.UInt64[] InternalGetValues(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1437,7 +1437,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.String[] InternalGetNames(SMFrame.Editor.Refleaction.RSystem.RRuntimeType @enumType)
+        public static System.String[] InternalGetNames(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1899,25 +1899,25 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static SMFrame.Editor.Refleaction.RType Parse<TEnum>(System.String @value) where TEnum : struct
+        public static Hvak.Editor.Refleaction.RType Parse<TEnum>(System.String @value) where TEnum : struct
         {
 
             var ___genericsType = new Type[] {typeof(TEnum)};
             var ___parameters = new object[]{@value};
             var ___result = RMParse_GTEnum_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RType(___result);
+            return new Hvak.Editor.Refleaction.RType(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RType Parse<TEnum>(System.String @value, System.Boolean @ignoreCase) where TEnum : struct
+        public static Hvak.Editor.Refleaction.RType Parse<TEnum>(System.String @value, System.Boolean @ignoreCase) where TEnum : struct
         {
 
             var ___genericsType = new Type[] {typeof(TEnum)};
             var ___parameters = new object[]{@value, @ignoreCase};
             var ___result = RMParse_GTEnum_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RType(___result);
+            return new Hvak.Editor.Refleaction.RType(___result);
         }
 
 

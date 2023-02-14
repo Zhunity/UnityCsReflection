@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.SelectionProxy
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Action onSelectionChanged
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_FonSelectionChanged;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RFonSelectionChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_FonSelectionChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFonSelectionChanged
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEngine.Object[] objects
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RObject> r_Pobjects;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RObject> RPobjects
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RObject> r_Pobjects;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RObject> RPobjects
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEngine.Object activeObject
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RObject r_PactiveObject;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RObject RPactiveObject
+		protected Hvak.Editor.Refleaction.RUnityEngine.RObject r_PactiveObject;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RObject RPactiveObject
 		{
 			get
 			{

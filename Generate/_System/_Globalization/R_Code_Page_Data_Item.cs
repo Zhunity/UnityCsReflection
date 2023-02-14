@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.CodePageDataItem
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_dataIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_dataIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_dataIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_dataIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_dataIndex
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_uiFamilyCodePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_uiFamilyCodePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_uiFamilyCodePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_uiFamilyCodePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_uiFamilyCodePage
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_webName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_webName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_webName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_webName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_webName
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_headerName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_headerName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_headerName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_headerName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_headerName
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_bodyName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_bodyName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_bodyName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_bodyName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_bodyName
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.UInt32 m_flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_flags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_flags
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_flags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_flags
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Char[] sep
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> r_Fsep;
-		public static SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RChar> RFsep
+		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> r_Fsep;
+		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RChar> RFsep
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String WebName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PWebName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPWebName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PWebName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPWebName
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 UIFamilyCodePage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PUIFamilyCodePage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPUIFamilyCodePage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PUIFamilyCodePage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPUIFamilyCodePage
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String HeaderName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PHeaderName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPHeaderName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PHeaderName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPHeaderName
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String BodyName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PBodyName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPBodyName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PBodyName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPBodyName
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// UInt32 Flags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PFlags;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPFlags
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PFlags;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPFlags
 		{
 			get
 			{

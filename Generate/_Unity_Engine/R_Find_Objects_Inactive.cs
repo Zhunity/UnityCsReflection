@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.FindObjectsInactive
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.FindObjectsInactive Exclude
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RFindObjectsInactive r_FExclude;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RFindObjectsInactive RFExclude
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RFindObjectsInactive r_FExclude;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RFindObjectsInactive RFExclude
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.FindObjectsInactive Include
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RFindObjectsInactive r_FInclude;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RFindObjectsInactive RFInclude
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RFindObjectsInactive r_FInclude;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RFindObjectsInactive RFInclude
 		{
 			get
 			{

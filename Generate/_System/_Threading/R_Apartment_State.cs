@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading
+namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
 	/// System.Threading.ApartmentState
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ApartmentState STA
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RApartmentState r_FSTA;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RApartmentState RFSTA
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RApartmentState r_FSTA;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RApartmentState RFSTA
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ApartmentState MTA
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RApartmentState r_FMTA;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RApartmentState RFMTA
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RApartmentState r_FMTA;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RApartmentState RFMTA
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.ApartmentState Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RApartmentState r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RApartmentState RFUnknown
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RApartmentState r_FUnknown;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RApartmentState RFUnknown
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
+namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
 	/// UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32 m_BaseGlyphID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_BaseGlyphID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_BaseGlyphID
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_BaseGlyphID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_BaseGlyphID
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphAnchorPoint m_BaseGlyphAnchorPoint
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAnchorPoint r_Fm_BaseGlyphAnchorPoint;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAnchorPoint RFm_BaseGlyphAnchorPoint
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAnchorPoint r_Fm_BaseGlyphAnchorPoint;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAnchorPoint RFm_BaseGlyphAnchorPoint
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32 m_MarkGlyphID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_MarkGlyphID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_MarkGlyphID
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_MarkGlyphID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_MarkGlyphID
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.MarkPositionAdjustment m_MarkPositionAdjustment
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RMarkPositionAdjustment r_Fm_MarkPositionAdjustment;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RMarkPositionAdjustment RFm_MarkPositionAdjustment
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RMarkPositionAdjustment r_Fm_MarkPositionAdjustment;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RMarkPositionAdjustment RFm_MarkPositionAdjustment
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32 baseGlyphID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PbaseGlyphID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPbaseGlyphID
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PbaseGlyphID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPbaseGlyphID
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphAnchorPoint baseGlyphAnchorPoint
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAnchorPoint r_PbaseGlyphAnchorPoint;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAnchorPoint RPbaseGlyphAnchorPoint
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAnchorPoint r_PbaseGlyphAnchorPoint;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphAnchorPoint RPbaseGlyphAnchorPoint
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32 markGlyphID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PmarkGlyphID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPmarkGlyphID
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PmarkGlyphID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPmarkGlyphID
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.MarkPositionAdjustment markPositionAdjustment
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RMarkPositionAdjustment r_PmarkPositionAdjustment;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RMarkPositionAdjustment RPmarkPositionAdjustment
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RMarkPositionAdjustment r_PmarkPositionAdjustment;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RMarkPositionAdjustment RPmarkPositionAdjustment
 		{
 			get
 			{

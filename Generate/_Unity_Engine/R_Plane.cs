@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Plane
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 size
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fsize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFsize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fsize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFsize
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 m_Normal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Normal;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFm_Normal
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Normal;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFm_Normal
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_Distance
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_Distance;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_Distance
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_Distance;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_Distance
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 normal
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Pnormal;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPnormal
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Pnormal;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPnormal
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single distance
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pdistance;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPdistance
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pdistance;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPdistance
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Plane flipped
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RPlane r_Pflipped;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RPlane RPflipped
+		protected Hvak.Editor.Refleaction.RUnityEngine.RPlane r_Pflipped;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RPlane RPflipped
 		{
 			get
 			{

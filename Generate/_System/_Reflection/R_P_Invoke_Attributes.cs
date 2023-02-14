@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.PInvokeAttributes
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes NoMangle
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FNoMangle;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFNoMangle
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FNoMangle;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFNoMangle
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes CharSetMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCharSetMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCharSetMask
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCharSetMask;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCharSetMask
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes CharSetNotSpec
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCharSetNotSpec;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCharSetNotSpec
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCharSetNotSpec;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCharSetNotSpec
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes CharSetAnsi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCharSetAnsi;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCharSetAnsi
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCharSetAnsi;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCharSetAnsi
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes CharSetUnicode
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCharSetUnicode;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCharSetUnicode
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCharSetUnicode;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCharSetUnicode
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes CharSetAuto
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCharSetAuto;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCharSetAuto
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCharSetAuto;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCharSetAuto
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes BestFitUseAssem
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FBestFitUseAssem;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFBestFitUseAssem
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FBestFitUseAssem;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFBestFitUseAssem
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes BestFitEnabled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FBestFitEnabled;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFBestFitEnabled
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FBestFitEnabled;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFBestFitEnabled
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes BestFitDisabled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FBestFitDisabled;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFBestFitDisabled
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FBestFitDisabled;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFBestFitDisabled
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes BestFitMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FBestFitMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFBestFitMask
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FBestFitMask;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFBestFitMask
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes ThrowOnUnmappableCharUseAssem
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FThrowOnUnmappableCharUseAssem;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFThrowOnUnmappableCharUseAssem
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FThrowOnUnmappableCharUseAssem;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFThrowOnUnmappableCharUseAssem
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes ThrowOnUnmappableCharEnabled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FThrowOnUnmappableCharEnabled;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFThrowOnUnmappableCharEnabled
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FThrowOnUnmappableCharEnabled;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFThrowOnUnmappableCharEnabled
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes ThrowOnUnmappableCharDisabled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FThrowOnUnmappableCharDisabled;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFThrowOnUnmappableCharDisabled
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FThrowOnUnmappableCharDisabled;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFThrowOnUnmappableCharDisabled
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes ThrowOnUnmappableCharMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FThrowOnUnmappableCharMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFThrowOnUnmappableCharMask
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FThrowOnUnmappableCharMask;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFThrowOnUnmappableCharMask
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes SupportsLastError
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FSupportsLastError;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFSupportsLastError
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FSupportsLastError;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFSupportsLastError
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes CallConvMask
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCallConvMask;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCallConvMask
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCallConvMask;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCallConvMask
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes CallConvWinapi
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCallConvWinapi;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCallConvWinapi
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCallConvWinapi;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCallConvWinapi
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes CallConvCdecl
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCallConvCdecl;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCallConvCdecl
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCallConvCdecl;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCallConvCdecl
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes CallConvStdcall
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCallConvStdcall;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCallConvStdcall
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCallConvStdcall;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCallConvStdcall
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes CallConvThiscall
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCallConvThiscall;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCallConvThiscall
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCallConvThiscall;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCallConvThiscall
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes CallConvFastcall
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCallConvFastcall;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCallConvFastcall
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FCallConvFastcall;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFCallConvFastcall
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.PInvokeAttributes MaxValue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FMaxValue;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFMaxValue
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes r_FMaxValue;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes RFMaxValue
 		{
 			get
 			{

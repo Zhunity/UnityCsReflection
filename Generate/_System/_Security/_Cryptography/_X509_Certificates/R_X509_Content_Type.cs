@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates
 {
 	/// <summary>
 	/// System.Security.Cryptography.X509Certificates.X509ContentType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509ContentType Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFUnknown
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FUnknown;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509ContentType Cert
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FCert;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFCert
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FCert;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFCert
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509ContentType SerializedCert
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FSerializedCert;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFSerializedCert
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FSerializedCert;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFSerializedCert
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509ContentType Pfx
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FPfx;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFPfx
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FPfx;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFPfx
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509ContentType Pkcs12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FPkcs12;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFPkcs12
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FPkcs12;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFPkcs12
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509ContentType SerializedStore
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FSerializedStore;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFSerializedStore
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FSerializedStore;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFSerializedStore
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509ContentType Pkcs7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FPkcs7;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFPkcs7
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FPkcs7;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFPkcs7
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509ContentType Authenticode
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FAuthenticode;
-		public static SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFAuthenticode
+		protected static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType r_FAuthenticode;
+		public static Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates.RX509ContentType RFAuthenticode
 		{
 			get
 			{

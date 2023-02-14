@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
+namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
 	/// System.Text.RegularExpressions.RegexReplacement
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Specials
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FSpecials;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFSpecials
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FSpecials;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFSpecials
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 LeftPortion
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FLeftPortion;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFLeftPortion
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FLeftPortion;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFLeftPortion
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 RightPortion
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FRightPortion;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFRightPortion
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FRightPortion;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFRightPortion
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 LastGroup
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FLastGroup;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFLastGroup
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FLastGroup;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFLastGroup
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 WholeString
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FWholeString;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFWholeString
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FWholeString;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFWholeString
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] _strings
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> r_F_strings;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> RF_strings
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_F_strings;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RF_strings
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] _rules
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RInt32> r_F_rules;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RInt32> RF_rules
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> r_F_rules;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> RF_rules
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String <Pattern>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__Pattern__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__Pattern__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__Pattern__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__Pattern__1__k__BackingField
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Pattern
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PPattern;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPPattern
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PPattern;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPPattern
 		{
 			get
 			{
@@ -369,14 +369,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement GetOrCreate(SMFrame.Editor.Refleaction.RSystem.RWeakReference<SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement> @replRef, System.String @replacement, System.Collections.Hashtable @caps, System.Int32 @capsize, System.Collections.Hashtable @capnames, System.Text.RegularExpressions.RegexOptions @roptions)
+        public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement GetOrCreate(Hvak.Editor.Refleaction.RSystem.RWeakReference<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement> @replRef, System.String @replacement, System.Collections.Hashtable @caps, System.Int32 @capsize, System.Collections.Hashtable @capnames, System.Text.RegularExpressions.RegexOptions @roptions)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@replRef.Value, @replacement, @caps, @capsize, @capnames, @roptions};
             var ___result = RMGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement(___result);
         }
 
 

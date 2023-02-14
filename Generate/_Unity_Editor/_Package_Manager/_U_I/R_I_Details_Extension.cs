@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.IDetailsExtension
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// Boolean expanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pexpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPexpanded
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pexpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPexpanded
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		/// <summary>
 		/// System.String title
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptitle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtitle
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptitle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtitle
 		{
 			get
 			{

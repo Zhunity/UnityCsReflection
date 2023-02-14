@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.VisualElementAnimationSystem
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[UnityEngine.UIElements.Experimental.IValueAnimationUpdate] m_Animations
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> r_Fm_Animations;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> RFm_Animations
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> r_Fm_Animations;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> RFm_Animations
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.Experimental.IValueAnimationUpdate] m_IterationList
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> r_Fm_IterationList;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> RFm_IterationList
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> r_Fm_IterationList;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> RFm_IterationList
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_HasNewAnimations
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_HasNewAnimations;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_HasNewAnimations
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasNewAnimations;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasNewAnimations
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_IterationListDirty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_IterationListDirty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_IterationListDirty
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IterationListDirty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IterationListDirty
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String s_Description
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fs_Description;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFs_Description
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fs_Description;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFs_Description
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker s_ProfilerMarker
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_ProfilerMarker;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_ProfilerMarker
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_ProfilerMarker;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_ProfilerMarker
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String s_StylePropertyAnimationDescription
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fs_StylePropertyAnimationDescription;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFs_StylePropertyAnimationDescription
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fs_StylePropertyAnimationDescription;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFs_StylePropertyAnimationDescription
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker s_StylePropertyAnimationProfilerMarker
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_StylePropertyAnimationProfilerMarker;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_StylePropertyAnimationProfilerMarker
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fs_StylePropertyAnimationProfilerMarker;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFs_StylePropertyAnimationProfilerMarker
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 lastUpdate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_FlastUpdate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFlastUpdate
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_FlastUpdate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFlastUpdate
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker profilerMarker
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_PprofilerMarker;
-		public virtual SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RPprofilerMarker
+		protected Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_PprofilerMarker;
+		public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RPprofilerMarker
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker stylePropertyAnimationProfilerMarker
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_PstylePropertyAnimationProfilerMarker;
-		public static SMFrame.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RPstylePropertyAnimationProfilerMarker
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_PstylePropertyAnimationProfilerMarker;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RPstylePropertyAnimationProfilerMarker
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BaseVisualElementPanel panel
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel r_Ppanel;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel RPpanel
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel r_Ppanel;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel RPpanel
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement visualTree
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PvisualTree;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPvisualTree
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PvisualTree;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPvisualTree
 		{
 			get
 			{
@@ -533,7 +533,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UnregisterAnimation(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate @anim)
+        public virtual void UnregisterAnimation(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate @anim)
         {
 
             var ___genericsType = new Type[] {};
@@ -544,7 +544,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UnregisterAnimations(SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> @anims)
+        public virtual void UnregisterAnimations(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> @anims)
         {
 
             var ___genericsType = new Type[] {};
@@ -555,7 +555,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterAnimation(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate @anim)
+        public virtual void RegisterAnimation(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate @anim)
         {
 
             var ___genericsType = new Type[] {};
@@ -566,7 +566,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterAnimations(SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> @anims)
+        public virtual void RegisterAnimations(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> @anims)
         {
 
             var ___genericsType = new Type[] {};
@@ -588,7 +588,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ve, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @versionChangeType)
+        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType @versionChangeType)
         {
 
             var ___genericsType = new Type[] {};

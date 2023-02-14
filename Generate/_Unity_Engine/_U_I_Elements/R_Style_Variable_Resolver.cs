@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.StyleVariableResolver
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 kMaxResolves
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FkMaxResolves;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFkMaxResolves
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FkMaxResolves;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFkMaxResolves
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser s_SyntaxParser
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxParser r_Fs_SyntaxParser;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxParser RFs_SyntaxParser
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxParser r_Fs_SyntaxParser;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxParser RFs_SyntaxParser
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StylePropertyValueMatcher m_Matcher
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValueMatcher r_Fm_Matcher;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValueMatcher RFm_Matcher
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValueMatcher r_Fm_Matcher;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValueMatcher RFm_Matcher
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSheets.StylePropertyValue] m_ResolvedValues
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> r_Fm_ResolvedValues;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> RFm_ResolvedValues
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> r_Fm_ResolvedValues;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> RFm_ResolvedValues
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Stack`1[System.String] m_ResolvedVarStack
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<SMFrame.Editor.Refleaction.RSystem.RString> r_Fm_ResolvedVarStack;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<SMFrame.Editor.Refleaction.RSystem.RString> RFm_ResolvedVarStack
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_ResolvedVarStack;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<Hvak.Editor.Refleaction.RSystem.RString> RFm_ResolvedVarStack
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleProperty m_Property
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty r_Fm_Property;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty RFm_Property
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty r_Fm_Property;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty RFm_Property
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Stack`1[UnityEngine.UIElements.StyleVariableResolver+ResolveContext] m_ContextStack
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResolveContext> r_Fm_ContextStack;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResolveContext> RFm_ContextStack
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResolveContext> r_Fm_ContextStack;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RStack<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResolveContext> RFm_ContextStack
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleVariableResolver+ResolveContext m_CurrentContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResolveContext r_Fm_CurrentContext;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResolveContext RFm_CurrentContext
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResolveContext r_Fm_CurrentContext;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResolveContext RFm_CurrentContext
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleVariableContext <variableContext>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext r_F__0__variableContext__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext RF__0__variableContext__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext r_F__0__variableContext__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext RF__0__variableContext__1__k__BackingField
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheet currentSheet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_PcurrentSheet;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RPcurrentSheet
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_PcurrentSheet;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RPcurrentSheet
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueHandle[] currentHandles
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> r_PcurrentHandles;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> RPcurrentHandles
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> r_PcurrentHandles;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> RPcurrentHandles
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSheets.StylePropertyValue] resolvedValues
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> r_PresolvedValues;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> RPresolvedValues
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> r_PresolvedValues;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> RPresolvedValues
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleVariableContext variableContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext r_PvariableContext;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext RPvariableContext
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext r_PvariableContext;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext RPvariableContext
 		{
 			get
 			{
@@ -522,7 +522,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void Init(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty @property, UnityEngine.UIElements.StyleSheet @sheet, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> @handles)
+        public virtual void Init(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty @property, UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> @handles)
         {
 
             var ___genericsType = new Type[] {};
@@ -533,7 +533,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PushContext(UnityEngine.UIElements.StyleSheet @sheet, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> @handles)
+        public virtual void PushContext(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> @handles)
         {
 
             var ___genericsType = new Type[] {};
@@ -555,7 +555,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AddValue(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle @handle)
+        public virtual void AddValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -578,7 +578,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult ResolveVarFunction(ref System.Int32 @index, System.Int32 @argc, System.String @varName)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult ResolveVarFunction(ref System.Int32 @index, System.Int32 @argc, System.String @varName)
         {
 
             var ___genericsType = new Type[] {};
@@ -586,7 +586,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMResolveVarFunction_Ref_Int32_Int32_String.Invoke(___genericsType, ___parameters);
 			@index = (System.Int32)___parameters[0];
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult(___result);
         }
 
 
@@ -601,18 +601,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult ResolveVariable(System.String @variableName)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult ResolveVariable(System.String @variableName)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@variableName};
             var ___result = RMResolveVariable_String.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult ResolveFallback(ref System.Int32 @index)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult ResolveFallback(ref System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -620,11 +620,11 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMResolveFallback_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@index = (System.Int32)___parameters[0];
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult(___result);
         }
 
 
-        public static void ParseVarFunction(UnityEngine.UIElements.StyleSheet @sheet, SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> @handles, ref System.Int32 @index, out System.Int32 @argCount, out System.String @variableName)
+        public static void ParseVarFunction(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> @handles, ref System.Int32 @index, out System.Int32 @argCount, out System.String @variableName)
         {
 			@argCount = default;
 			@variableName = default;

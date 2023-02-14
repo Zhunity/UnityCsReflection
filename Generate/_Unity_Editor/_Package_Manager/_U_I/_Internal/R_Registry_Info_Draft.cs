@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.RegistryInfoDraft
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean m_Modified
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_Modified;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_Modified
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_Modified;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_Modified
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_ErrorMessage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_ErrorMessage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_ErrorMessage
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_ErrorMessage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_ErrorMessage
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int32 m_UserModificationsInstanceId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_UserModificationsInstanceId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_UserModificationsInstanceId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_UserModificationsInstanceId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_UserModificationsInstanceId
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.RegistryInfoDraftData m_UserModifications
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoDraftData r_Fm_UserModifications;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoDraftData RFm_UserModifications
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoDraftData r_Fm_UserModifications;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoDraftData RFm_UserModifications
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int32 m_OriginalInstanceId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_OriginalInstanceId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_OriginalInstanceId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_OriginalInstanceId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_OriginalInstanceId
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.RegistryInfoOriginalData m_Original
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoOriginalData r_Fm_Original;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoOriginalData RFm_Original
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoOriginalData r_Fm_Original;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoOriginalData RFm_Original
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String url
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Purl;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPurl
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Purl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPurl
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Int32 selectedScopeIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PselectedScopeIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPselectedScopeIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PselectedScopeIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPselectedScopeIndex
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[System.String] scopes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RSystem.RString> r_Pscopes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RSystem.RString> RPscopes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RSystem.RString> r_Pscopes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RSystem.RString> RPscopes
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[System.String] sanitizedScopes
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RSystem.RString> r_PsanitizedScopes;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<SMFrame.Editor.Refleaction.RSystem.RString> RPsanitizedScopes
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RSystem.RString> r_PsanitizedScopes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel.RReadOnlyCollection<Hvak.Editor.Refleaction.RSystem.RString> RPsanitizedScopes
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String errorMessage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PerrorMessage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPerrorMessage
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PerrorMessage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPerrorMessage
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.RegistryInfoOriginalData original
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoOriginalData r_Poriginal;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoOriginalData RPoriginal
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoOriginalData r_Poriginal;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoOriginalData RPoriginal
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean hasUnsavedChanges
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasUnsavedChanges;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasUnsavedChanges
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasUnsavedChanges;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasUnsavedChanges
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean isUrlOrScopesUpdated
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisUrlOrScopesUpdated;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisUrlOrScopesUpdated
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisUrlOrScopesUpdated;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisUrlOrScopesUpdated
 		{
 			get
 			{

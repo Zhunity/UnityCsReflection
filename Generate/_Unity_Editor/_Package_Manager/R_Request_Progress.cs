@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.RequestProgress
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Action`1[UnityEditor.PackageManager.ProgressUpdateEventArgs] m_ProgressUpdate
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressUpdateEventArgs> r_Fm_ProgressUpdate;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressUpdateEventArgs> RFm_ProgressUpdate
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressUpdateEventArgs> r_Fm_ProgressUpdate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressUpdateEventArgs> RFm_ProgressUpdate
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Object m_SubscribeLock
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fm_SubscribeLock;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFm_SubscribeLock
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fm_SubscribeLock;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFm_SubscribeLock
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 		/// <summary>
 		/// System.Int64 m_OperationId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fm_OperationId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFm_OperationId
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fm_OperationId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFm_OperationId
 		{
 			get
 			{
@@ -284,7 +284,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
 	    {
 	    }
 
-        public static void SetProgressHandler(System.Int64 @operationId, SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequestProgress @requestProgress)
+        public static void SetProgressHandler(System.Int64 @operationId, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequestProgress @requestProgress)
         {
 
             var ___genericsType = new Type[] {};
@@ -306,18 +306,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
         }
 
 
-        public static SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageProgress> Internal_GetPackageProgressArray(System.IntPtr @nativeHandle)
+        public static Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageProgress> Internal_GetPackageProgressArray(System.IntPtr @nativeHandle)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nativeHandle};
             var ___result = RMInternal_GetPackageProgressArray_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RTypeArray<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageProgress>(___result);
+            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageProgress>(___result);
         }
 
 
-        public static void OnNativeProgress(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RRequestProgress @requestProgress, System.IntPtr @progressUpdatesPtr)
+        public static void OnNativeProgress(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequestProgress @requestProgress, System.IntPtr @progressUpdatesPtr)
         {
 
             var ___genericsType = new Type[] {};
@@ -328,7 +328,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager
         }
 
 
-        public virtual void InvokeProgressUpdated(SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressUpdateEventArgs @e)
+        public virtual void InvokeProgressUpdated(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RProgressUpdateEventArgs @e)
         {
 
             var ___genericsType = new Type[] {};

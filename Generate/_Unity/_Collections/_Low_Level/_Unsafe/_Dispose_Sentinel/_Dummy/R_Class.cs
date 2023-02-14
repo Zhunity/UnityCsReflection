@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
+namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 {public partial class RDisposeSentinel
 {
 	public partial class RDummy

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.RangeInt
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 start
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fstart;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFstart
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fstart;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFstart
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Flength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Flength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlength
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 end
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pend;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPend
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pend;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPend
 		{
 			get
 			{

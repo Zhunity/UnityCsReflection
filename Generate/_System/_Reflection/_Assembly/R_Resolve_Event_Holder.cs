@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {public partial class RAssembly
 {
 	
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ModuleResolveEventHandler ModuleResolve
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RReflection.RModuleResolveEventHandler r_FModuleResolve;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RReflection.RModuleResolveEventHandler RFModuleResolve
+		protected Hvak.Editor.Refleaction.RSystem.RReflection.RModuleResolveEventHandler r_FModuleResolve;
+		public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RModuleResolveEventHandler RFModuleResolve
 		{
 			get
 			{

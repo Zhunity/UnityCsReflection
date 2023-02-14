@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.Calendar
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int64 TicksPerMillisecond
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt64 r_FTicksPerMillisecond;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt64 RFTicksPerMillisecond
+		protected static Hvak.Editor.Refleaction.RSystem.RInt64 r_FTicksPerMillisecond;
+		public static Hvak.Editor.Refleaction.RSystem.RInt64 RFTicksPerMillisecond
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int64 TicksPerSecond
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt64 r_FTicksPerSecond;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt64 RFTicksPerSecond
+		protected static Hvak.Editor.Refleaction.RSystem.RInt64 r_FTicksPerSecond;
+		public static Hvak.Editor.Refleaction.RSystem.RInt64 RFTicksPerSecond
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int64 TicksPerMinute
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt64 r_FTicksPerMinute;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt64 RFTicksPerMinute
+		protected static Hvak.Editor.Refleaction.RSystem.RInt64 r_FTicksPerMinute;
+		public static Hvak.Editor.Refleaction.RSystem.RInt64 RFTicksPerMinute
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int64 TicksPerHour
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt64 r_FTicksPerHour;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt64 RFTicksPerHour
+		protected static Hvak.Editor.Refleaction.RSystem.RInt64 r_FTicksPerHour;
+		public static Hvak.Editor.Refleaction.RSystem.RInt64 RFTicksPerHour
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int64 TicksPerDay
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt64 r_FTicksPerDay;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt64 RFTicksPerDay
+		protected static Hvak.Editor.Refleaction.RSystem.RInt64 r_FTicksPerDay;
+		public static Hvak.Editor.Refleaction.RSystem.RInt64 RFTicksPerDay
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 MillisPerSecond
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMillisPerSecond;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMillisPerSecond
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMillisPerSecond;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMillisPerSecond
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 MillisPerMinute
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMillisPerMinute;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMillisPerMinute
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMillisPerMinute;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMillisPerMinute
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 MillisPerHour
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMillisPerHour;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMillisPerHour
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMillisPerHour;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMillisPerHour
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 MillisPerDay
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMillisPerDay;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMillisPerDay
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMillisPerDay;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMillisPerDay
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 DaysPerYear
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDaysPerYear;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDaysPerYear
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDaysPerYear;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDaysPerYear
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 DaysPer4Years
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDaysPer4Years;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDaysPer4Years
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDaysPer4Years;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDaysPer4Years
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 DaysPer100Years
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDaysPer100Years;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDaysPer100Years
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDaysPer100Years;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDaysPer100Years
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 DaysPer400Years
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDaysPer400Years;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDaysPer400Years
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDaysPer400Years;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDaysPer400Years
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 DaysTo10000
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FDaysTo10000;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFDaysTo10000
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FDaysTo10000;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFDaysTo10000
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int64 MaxMillis
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt64 r_FMaxMillis;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt64 RFMaxMillis
+		protected static Hvak.Editor.Refleaction.RSystem.RInt64 r_FMaxMillis;
+		public static Hvak.Editor.Refleaction.RSystem.RInt64 RFMaxMillis
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_GREGORIAN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_GREGORIAN;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_GREGORIAN
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_GREGORIAN;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_GREGORIAN
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_GREGORIAN_US
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_GREGORIAN_US;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_GREGORIAN_US
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_GREGORIAN_US;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_GREGORIAN_US
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_JAPAN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_JAPAN;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_JAPAN
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_JAPAN;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_JAPAN
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_TAIWAN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_TAIWAN;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_TAIWAN
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_TAIWAN;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_TAIWAN
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_KOREA
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_KOREA;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_KOREA
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_KOREA;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_KOREA
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_HIJRI
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_HIJRI;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_HIJRI
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_HIJRI;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_HIJRI
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_THAI
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_THAI;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_THAI
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_THAI;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_THAI
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_HEBREW
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_HEBREW;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_HEBREW
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_HEBREW;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_HEBREW
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_GREGORIAN_ME_FRENCH
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_GREGORIAN_ME_FRENCH;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_GREGORIAN_ME_FRENCH
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_GREGORIAN_ME_FRENCH;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_GREGORIAN_ME_FRENCH
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_GREGORIAN_ARABIC
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_GREGORIAN_ARABIC;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_GREGORIAN_ARABIC
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_GREGORIAN_ARABIC;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_GREGORIAN_ARABIC
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_GREGORIAN_XLIT_ENGLISH
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_GREGORIAN_XLIT_ENGLISH;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_GREGORIAN_XLIT_ENGLISH
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_GREGORIAN_XLIT_ENGLISH;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_GREGORIAN_XLIT_ENGLISH
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_GREGORIAN_XLIT_FRENCH
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_GREGORIAN_XLIT_FRENCH;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_GREGORIAN_XLIT_FRENCH
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_GREGORIAN_XLIT_FRENCH;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_GREGORIAN_XLIT_FRENCH
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_JULIAN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_JULIAN;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_JULIAN
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_JULIAN;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_JULIAN
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_JAPANESELUNISOLAR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_JAPANESELUNISOLAR;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_JAPANESELUNISOLAR
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_JAPANESELUNISOLAR;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_JAPANESELUNISOLAR
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_CHINESELUNISOLAR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_CHINESELUNISOLAR;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_CHINESELUNISOLAR
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_CHINESELUNISOLAR;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_CHINESELUNISOLAR
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_SAKA
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_SAKA;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_SAKA
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_SAKA;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_SAKA
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_LUNAR_ETO_CHN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_LUNAR_ETO_CHN;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_LUNAR_ETO_CHN
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_LUNAR_ETO_CHN;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_LUNAR_ETO_CHN
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_LUNAR_ETO_KOR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_LUNAR_ETO_KOR;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_LUNAR_ETO_KOR
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_LUNAR_ETO_KOR;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_LUNAR_ETO_KOR
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_LUNAR_ETO_ROKUYOU
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_LUNAR_ETO_ROKUYOU;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_LUNAR_ETO_ROKUYOU
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_LUNAR_ETO_ROKUYOU;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_LUNAR_ETO_ROKUYOU
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_KOREANLUNISOLAR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_KOREANLUNISOLAR;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_KOREANLUNISOLAR
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_KOREANLUNISOLAR;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_KOREANLUNISOLAR
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_TAIWANLUNISOLAR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_TAIWANLUNISOLAR;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_TAIWANLUNISOLAR
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_TAIWANLUNISOLAR;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_TAIWANLUNISOLAR
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_PERSIAN
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_PERSIAN;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_PERSIAN
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_PERSIAN;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_PERSIAN
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_UMALQURA
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCAL_UMALQURA;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCAL_UMALQURA
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCAL_UMALQURA;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCAL_UMALQURA
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_currentEraValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_currentEraValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_currentEraValue
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_currentEraValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_currentEraValue
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean m_isReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_isReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_isReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_isReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_isReadOnly
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CurrentEra
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FCurrentEra;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFCurrentEra
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FCurrentEra;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFCurrentEra
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 twoDigitYearMax
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FtwoDigitYearMax;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFtwoDigitYearMax
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FtwoDigitYearMax;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFtwoDigitYearMax
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.DateTime MinSupportedDateTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDateTime r_PMinSupportedDateTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDateTime RPMinSupportedDateTime
+		protected Hvak.Editor.Refleaction.RSystem.RDateTime r_PMinSupportedDateTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDateTime RPMinSupportedDateTime
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.DateTime MaxSupportedDateTime
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RDateTime r_PMaxSupportedDateTime;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RDateTime RPMaxSupportedDateTime
+		protected Hvak.Editor.Refleaction.RSystem.RDateTime r_PMaxSupportedDateTime;
+		public virtual Hvak.Editor.Refleaction.RSystem.RDateTime RPMaxSupportedDateTime
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 ID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPID
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 BaseCalendarID
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PBaseCalendarID;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPBaseCalendarID
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PBaseCalendarID;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPBaseCalendarID
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.CalendarAlgorithmType AlgorithmType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType r_PAlgorithmType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType RPAlgorithmType
+		protected Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType r_PAlgorithmType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarAlgorithmType RPAlgorithmType
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsReadOnly;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsReadOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsReadOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsReadOnly
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 CurrentEraValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PCurrentEraValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPCurrentEraValue
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PCurrentEraValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPCurrentEraValue
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32[] Eras
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RInt32> r_PEras;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RInt32> RPEras
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_PEras;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RInt32> RPEras
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 DaysInYearBeforeMinSupportedYear
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PDaysInYearBeforeMinSupportedYear;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPDaysInYearBeforeMinSupportedYear
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PDaysInYearBeforeMinSupportedYear;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPDaysInYearBeforeMinSupportedYear
 		{
 			get
 			{
@@ -881,8 +881,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 TwoDigitYearMax
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PTwoDigitYearMax;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPTwoDigitYearMax
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PTwoDigitYearMax;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPTwoDigitYearMax
 		{
 			get
 			{

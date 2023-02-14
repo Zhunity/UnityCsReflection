@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.TextAnchor
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextAnchor UpperLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor r_FUpperLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor RFUpperLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor r_FUpperLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor RFUpperLeft
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextAnchor UpperCenter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor r_FUpperCenter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor RFUpperCenter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor r_FUpperCenter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor RFUpperCenter
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextAnchor UpperRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor r_FUpperRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor RFUpperRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor r_FUpperRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor RFUpperRight
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextAnchor MiddleLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor r_FMiddleLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor RFMiddleLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor r_FMiddleLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor RFMiddleLeft
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextAnchor MiddleCenter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor r_FMiddleCenter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor RFMiddleCenter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor r_FMiddleCenter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor RFMiddleCenter
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextAnchor MiddleRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor r_FMiddleRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor RFMiddleRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor r_FMiddleRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor RFMiddleRight
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextAnchor LowerLeft
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor r_FLowerLeft;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor RFLowerLeft
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor r_FLowerLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor RFLowerLeft
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextAnchor LowerCenter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor r_FLowerCenter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor RFLowerCenter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor r_FLowerCenter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor RFLowerCenter
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.TextAnchor LowerRight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor r_FLowerRight;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RTextAnchor RFLowerRight
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor r_FLowerRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextAnchor RFLowerRight
 		{
 			get
 			{

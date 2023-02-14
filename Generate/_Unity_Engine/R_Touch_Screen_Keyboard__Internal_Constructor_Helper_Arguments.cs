@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt32 keyboardType
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_FkeyboardType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFkeyboardType
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FkeyboardType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFkeyboardType
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt32 autocorrection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fautocorrection;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFautocorrection
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fautocorrection;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFautocorrection
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt32 multiline
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fmultiline;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFmultiline
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fmultiline;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFmultiline
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt32 secure
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fsecure;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFsecure
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fsecure;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFsecure
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt32 alert
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Falert;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFalert
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Falert;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFalert
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 characterLimit
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FcharacterLimit;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFcharacterLimit
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FcharacterLimit;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFcharacterLimit
 		{
 			get
 			{

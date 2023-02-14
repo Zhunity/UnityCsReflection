@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RResources
+namespace Hvak.Editor.Refleaction.RSystem.RResources
 {
 	/// <summary>
 	/// System.Resources.Win32ResourceType
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_CURSOR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_CURSOR;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_CURSOR
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_CURSOR;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_CURSOR
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_FONT
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_FONT;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_FONT
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_FONT;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_FONT
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_BITMAP
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_BITMAP;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_BITMAP
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_BITMAP;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_BITMAP
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_ICON
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_ICON;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_ICON
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_ICON;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_ICON
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_MENU
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_MENU;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_MENU
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_MENU;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_MENU
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_DIALOG
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_DIALOG;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_DIALOG
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_DIALOG;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_DIALOG
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_STRING
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_STRING;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_STRING
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_STRING;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_STRING
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_FONTDIR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_FONTDIR;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_FONTDIR
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_FONTDIR;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_FONTDIR
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_ACCELERATOR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_ACCELERATOR;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_ACCELERATOR
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_ACCELERATOR;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_ACCELERATOR
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_RCDATA
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_RCDATA;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_RCDATA
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_RCDATA;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_RCDATA
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_MESSAGETABLE
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_MESSAGETABLE;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_MESSAGETABLE
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_MESSAGETABLE;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_MESSAGETABLE
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_GROUP_CURSOR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_GROUP_CURSOR;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_GROUP_CURSOR
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_GROUP_CURSOR;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_GROUP_CURSOR
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_GROUP_ICON
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_GROUP_ICON;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_GROUP_ICON
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_GROUP_ICON;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_GROUP_ICON
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_VERSION
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_VERSION;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_VERSION
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_VERSION;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_VERSION
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_DLGINCLUDE
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_DLGINCLUDE;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_DLGINCLUDE
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_DLGINCLUDE;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_DLGINCLUDE
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_PLUGPLAY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_PLUGPLAY;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_PLUGPLAY
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_PLUGPLAY;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_PLUGPLAY
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_VXD
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_VXD;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_VXD
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_VXD;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_VXD
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_ANICURSOR
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_ANICURSOR;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_ANICURSOR
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_ANICURSOR;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_ANICURSOR
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_ANIICON
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_ANIICON;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_ANIICON
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_ANIICON;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_ANIICON
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Resources.Win32ResourceType RT_HTML
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_HTML;
-		public static SMFrame.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_HTML
+		protected static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType r_FRT_HTML;
+		public static Hvak.Editor.Refleaction.RSystem.RResources.RWin32ResourceType RFRT_HTML
 		{
 			get
 			{

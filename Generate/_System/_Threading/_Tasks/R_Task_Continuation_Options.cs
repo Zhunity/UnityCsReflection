@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
+namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
 	/// System.Threading.Tasks.TaskContinuationOptions
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions PreferFairness
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FPreferFairness;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFPreferFairness
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FPreferFairness;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFPreferFairness
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions LongRunning
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FLongRunning;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFLongRunning
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FLongRunning;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFLongRunning
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions AttachedToParent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FAttachedToParent;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFAttachedToParent
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FAttachedToParent;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFAttachedToParent
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions DenyChildAttach
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FDenyChildAttach;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFDenyChildAttach
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FDenyChildAttach;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFDenyChildAttach
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions HideScheduler
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FHideScheduler;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFHideScheduler
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FHideScheduler;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFHideScheduler
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions LazyCancellation
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FLazyCancellation;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFLazyCancellation
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FLazyCancellation;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFLazyCancellation
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions RunContinuationsAsynchronously
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FRunContinuationsAsynchronously;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFRunContinuationsAsynchronously
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FRunContinuationsAsynchronously;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFRunContinuationsAsynchronously
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions NotOnRanToCompletion
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FNotOnRanToCompletion;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFNotOnRanToCompletion
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FNotOnRanToCompletion;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFNotOnRanToCompletion
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions NotOnFaulted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FNotOnFaulted;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFNotOnFaulted
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FNotOnFaulted;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFNotOnFaulted
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions NotOnCanceled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FNotOnCanceled;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFNotOnCanceled
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FNotOnCanceled;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFNotOnCanceled
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions OnlyOnRanToCompletion
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FOnlyOnRanToCompletion;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFOnlyOnRanToCompletion
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FOnlyOnRanToCompletion;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFOnlyOnRanToCompletion
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions OnlyOnFaulted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FOnlyOnFaulted;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFOnlyOnFaulted
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FOnlyOnFaulted;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFOnlyOnFaulted
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions OnlyOnCanceled
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FOnlyOnCanceled;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFOnlyOnCanceled
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FOnlyOnCanceled;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFOnlyOnCanceled
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Tasks.TaskContinuationOptions ExecuteSynchronously
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FExecuteSynchronously;
-		public static SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFExecuteSynchronously
+		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions r_FExecuteSynchronously;
+		public static Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RTaskContinuationOptions RFExecuteSynchronously
 		{
 			get
 			{

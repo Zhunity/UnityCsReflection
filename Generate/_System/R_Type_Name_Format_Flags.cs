@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.TypeNameFormatFlags
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeNameFormatFlags FormatBasic
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatBasic;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatBasic
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatBasic;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatBasic
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeNameFormatFlags FormatNamespace
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatNamespace;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatNamespace
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatNamespace;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatNamespace
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeNameFormatFlags FormatFullInst
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatFullInst;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatFullInst
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatFullInst;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatFullInst
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeNameFormatFlags FormatAssembly
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatAssembly;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatAssembly
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatAssembly;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatAssembly
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeNameFormatFlags FormatSignature
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatSignature;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatSignature
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatSignature;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatSignature
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeNameFormatFlags FormatNoVersion
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatNoVersion;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatNoVersion
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatNoVersion;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatNoVersion
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeNameFormatFlags FormatAngleBrackets
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatAngleBrackets;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatAngleBrackets
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatAngleBrackets;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatAngleBrackets
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeNameFormatFlags FormatStubInfo
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatStubInfo;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatStubInfo
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatStubInfo;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatStubInfo
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeNameFormatFlags FormatGenericParam
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatGenericParam;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatGenericParam
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatGenericParam;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatGenericParam
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeNameFormatFlags FormatSerialization
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatSerialization;
-		public static SMFrame.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatSerialization
+		protected static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags r_FFormatSerialization;
+		public static Hvak.Editor.Refleaction.RSystem.RTypeNameFormatFlags RFFormatSerialization
 		{
 			get
 			{

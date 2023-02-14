@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
+namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
 	/// UnityEngine.Yoga.YogaDisplay
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaDisplay Flex
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaDisplay r_FFlex;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaDisplay RFFlex
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaDisplay r_FFlex;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaDisplay RFFlex
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// UnityEngine.Yoga.YogaDisplay None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaDisplay r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RYoga.RYogaDisplay RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaDisplay r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaDisplay RFNone
 		{
 			get
 			{

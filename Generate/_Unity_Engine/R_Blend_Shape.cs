@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.BlendShape
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt32 m_FirstVertex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_FirstVertex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_FirstVertex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_FirstVertex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_FirstVertex
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt32 m_VertexCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_VertexCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_VertexCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_VertexCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_VertexCount
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean m_HasNormals
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_HasNormals;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_HasNormals
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasNormals;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasNormals
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean m_HasTangents
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_HasTangents;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_HasTangents
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasTangents;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasTangents
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 firstVertex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PfirstVertex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPfirstVertex
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PfirstVertex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPfirstVertex
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 vertexCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_PvertexCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPvertexCount
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PvertexCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPvertexCount
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean hasNormals
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasNormals;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasNormals
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasNormals;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasNormals
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean hasTangents
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasTangents;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasTangents
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasTangents;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasTangents
 		{
 			get
 			{

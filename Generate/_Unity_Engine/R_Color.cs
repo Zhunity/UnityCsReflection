@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Color
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single r
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFr
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFr
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single g
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fg;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFg
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fg;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFg
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single b
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fb;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFb
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fb;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFb
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single a
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fa;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFa
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fa;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFa
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color red
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Pred;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColor RPred
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColor r_Pred;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColor RPred
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color green
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Pgreen;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColor RPgreen
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColor r_Pgreen;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColor RPgreen
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color blue
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Pblue;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColor RPblue
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColor r_Pblue;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColor RPblue
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color white
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Pwhite;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColor RPwhite
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColor r_Pwhite;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColor RPwhite
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color black
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Pblack;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColor RPblack
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColor r_Pblack;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColor RPblack
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color yellow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Pyellow;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColor RPyellow
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColor r_Pyellow;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColor RPyellow
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color cyan
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Pcyan;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColor RPcyan
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColor r_Pcyan;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColor RPcyan
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color magenta
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Pmagenta;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColor RPmagenta
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColor r_Pmagenta;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColor RPmagenta
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color gray
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Pgray;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColor RPgray
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColor r_Pgray;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColor RPgray
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color grey
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Pgrey;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColor RPgrey
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColor r_Pgrey;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColor RPgrey
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color clear
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Pclear;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RColor RPclear
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RColor r_Pclear;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RColor RPclear
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single grayscale
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Pgrayscale;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPgrayscale
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pgrayscale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPgrayscale
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color linear
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Plinear;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RPlinear
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_Plinear;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RPlinear
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Color gamma
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor r_Pgamma;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor RPgamma
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_Pgamma;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RPgamma
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single maxColorComponent
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PmaxColorComponent;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPmaxColorComponent
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PmaxColorComponent;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPmaxColorComponent
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPItem_Int32
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPItem_Int32
 		{
 			get
 			{

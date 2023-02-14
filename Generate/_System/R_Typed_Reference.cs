@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.TypedReference
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.RuntimeTypeHandle type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RRuntimeTypeHandle r_Ftype;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RRuntimeTypeHandle RFtype
+		protected Hvak.Editor.Refleaction.RSystem.RRuntimeTypeHandle r_Ftype;
+		public virtual Hvak.Editor.Refleaction.RSystem.RRuntimeTypeHandle RFtype
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_FValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFValue
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_FValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFValue
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr Type
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_FType;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFType
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_FType;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFType
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsNull
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsNull;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsNull
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsNull;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsNull
 		{
 			get
 			{
@@ -318,18 +318,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public static SMFrame.Editor.Refleaction.RSystem.RTypedReference MakeTypedReference(System.Object @target, System.Reflection.FieldInfo[] @flds)
+        public static Hvak.Editor.Refleaction.RSystem.RTypedReference MakeTypedReference(System.Object @target, System.Reflection.FieldInfo[] @flds)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target, @flds};
             var ___result = RMMakeTypedReference_Object_FieldInfoArray.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RTypedReference(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RTypedReference(___result);
         }
 
 
-        public unsafe static void InternalMakeTypedReference(void* @result, System.Object @target, System.IntPtr[] @flds, SMFrame.Editor.Refleaction.RSystem.RRuntimeType @lastFieldType)
+        public unsafe static void InternalMakeTypedReference(void* @result, System.Object @target, System.IntPtr[] @flds, Hvak.Editor.Refleaction.RSystem.RRuntimeType @lastFieldType)
         {
 
             var ___genericsType = new Type[] {};
@@ -362,7 +362,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Object ToObject(SMFrame.Editor.Refleaction.RSystem.RTypedReference @value)
+        public static System.Object ToObject(Hvak.Editor.Refleaction.RSystem.RTypedReference @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -384,7 +384,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Type GetTargetType(SMFrame.Editor.Refleaction.RSystem.RTypedReference @value)
+        public static System.Type GetTargetType(Hvak.Editor.Refleaction.RSystem.RTypedReference @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -395,7 +395,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.RuntimeTypeHandle TargetTypeToken(SMFrame.Editor.Refleaction.RSystem.RTypedReference @value)
+        public static System.RuntimeTypeHandle TargetTypeToken(Hvak.Editor.Refleaction.RSystem.RTypedReference @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -406,7 +406,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void SetTypedReference(SMFrame.Editor.Refleaction.RSystem.RTypedReference @target, System.Object @value)
+        public static void SetTypedReference(Hvak.Editor.Refleaction.RSystem.RTypedReference @target, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};

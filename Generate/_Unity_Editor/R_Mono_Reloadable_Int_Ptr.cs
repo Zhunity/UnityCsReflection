@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.MonoReloadableIntPtr
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.IntPtr m_IntPtr
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fm_IntPtr;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFm_IntPtr
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fm_IntPtr;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFm_IntPtr
 		{
 			get
 			{

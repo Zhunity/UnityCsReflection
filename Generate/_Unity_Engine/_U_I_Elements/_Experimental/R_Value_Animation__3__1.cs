@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 {
 	/// <summary>
 	/// UnityEngine.UIElements.Experimental.ValueAnimation`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Int32 k_DefaultDurationMs
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_DefaultDurationMs;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_DefaultDurationMs
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_DefaultDurationMs;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_DefaultDurationMs
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Int32 k_DefaultMaxPoolSize
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fk_DefaultMaxPoolSize;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFk_DefaultMaxPoolSize
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_DefaultMaxPoolSize;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_DefaultMaxPoolSize
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Int64 m_StartTimeMs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fm_StartTimeMs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFm_StartTimeMs
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fm_StartTimeMs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFm_StartTimeMs
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Int32 m_DurationMs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_DurationMs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_DurationMs
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_DurationMs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_DurationMs
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Func`2[System.Single,System.Single] <easingCurve>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RSingle, SMFrame.Editor.Refleaction.RSystem.RSingle> r_F__0__easingCurve__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RSingle, SMFrame.Editor.Refleaction.RSystem.RSingle> RF__0__easingCurve__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RSingle, Hvak.Editor.Refleaction.RSystem.RSingle> r_F__0__easingCurve__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RSingle, Hvak.Editor.Refleaction.RSystem.RSingle> RF__0__easingCurve__1__k__BackingField
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Boolean <isRunning>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__isRunning__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__isRunning__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__isRunning__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__isRunning__1__k__BackingField
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Action <onAnimationCompleted>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_F__0__onAnimationCompleted__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RF__0__onAnimationCompleted__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_F__0__onAnimationCompleted__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RF__0__onAnimationCompleted__1__k__BackingField
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Boolean <autoRecycle>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__autoRecycle__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__autoRecycle__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__autoRecycle__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__autoRecycle__1__k__BackingField
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Boolean <recycled>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__recycled__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__recycled__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__recycled__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__recycled__1__k__BackingField
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// UnityEngine.UIElements.ObjectPool`1[UnityEngine.UIElements.Experimental.ValueAnimation`1[T]] sObjectPool
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RObjectPool<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RValueAnimation<SMFrame.Editor.Refleaction.RField>> r_FsObjectPool;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RObjectPool<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RValueAnimation<SMFrame.Editor.Refleaction.RField>> RFsObjectPool
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RObjectPool<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RValueAnimation<Hvak.Editor.Refleaction.RField>> r_FsObjectPool;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RObjectPool<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RValueAnimation<Hvak.Editor.Refleaction.RField>> RFsObjectPool
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement <owner>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_F__0__owner__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RF__0__owner__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_F__0__owner__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RF__0__owner__1__k__BackingField
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Action`2[UnityEngine.UIElements.VisualElement,T] <valueUpdated>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, SMFrame.Editor.Refleaction.RField> r_F__0__valueUpdated__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, SMFrame.Editor.Refleaction.RField> RF__0__valueUpdated__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, Hvak.Editor.Refleaction.RField> r_F__0__valueUpdated__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, Hvak.Editor.Refleaction.RField> RF__0__valueUpdated__1__k__BackingField
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Func`2[UnityEngine.UIElements.VisualElement,T] <initialValue>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, SMFrame.Editor.Refleaction.RField> r_F__0__initialValue__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, SMFrame.Editor.Refleaction.RField> RF__0__initialValue__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, Hvak.Editor.Refleaction.RField> r_F__0__initialValue__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, Hvak.Editor.Refleaction.RField> RF__0__initialValue__1__k__BackingField
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Func`4[T,T,System.Single,T] <interpolator>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RField, SMFrame.Editor.Refleaction.RField, SMFrame.Editor.Refleaction.RSystem.RSingle, SMFrame.Editor.Refleaction.RField> r_F__0__interpolator__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RField, SMFrame.Editor.Refleaction.RField, SMFrame.Editor.Refleaction.RSystem.RSingle, SMFrame.Editor.Refleaction.RField> RF__0__interpolator__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RField, Hvak.Editor.Refleaction.RField, Hvak.Editor.Refleaction.RSystem.RSingle, Hvak.Editor.Refleaction.RField> r_F__0__interpolator__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RField, Hvak.Editor.Refleaction.RField, Hvak.Editor.Refleaction.RSystem.RSingle, Hvak.Editor.Refleaction.RField> RF__0__interpolator__1__k__BackingField
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// T _from
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_F_from;
-		public virtual SMFrame.Editor.Refleaction.RField RF_from
+		protected Hvak.Editor.Refleaction.RField r_F_from;
+		public virtual Hvak.Editor.Refleaction.RField RF_from
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Boolean fromValueSet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FfromValueSet;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFfromValueSet
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FfromValueSet;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFfromValueSet
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// T <to>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_F__0__to__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RField RF__0__to__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RField r_F__0__to__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RField RF__0__to__1__k__BackingField
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Int32 durationMs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PdurationMs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPdurationMs
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PdurationMs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPdurationMs
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Func`2[System.Single,System.Single] easingCurve
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RSingle, SMFrame.Editor.Refleaction.RSystem.RSingle> r_PeasingCurve;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RSystem.RSingle, SMFrame.Editor.Refleaction.RSystem.RSingle> RPeasingCurve
+		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RSingle, Hvak.Editor.Refleaction.RSystem.RSingle> r_PeasingCurve;
+		public virtual Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RSingle, Hvak.Editor.Refleaction.RSystem.RSingle> RPeasingCurve
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Boolean isRunning
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisRunning;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisRunning
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisRunning;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisRunning
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Action onAnimationCompleted
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_PonAnimationCompleted;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RPonAnimationCompleted
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_PonAnimationCompleted;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RPonAnimationCompleted
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Boolean autoRecycle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PautoRecycle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPautoRecycle
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PautoRecycle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPautoRecycle
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Boolean recycled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Precycled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPrecycled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Precycled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPrecycled
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement owner
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Powner;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPowner
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Powner;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPowner
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Action`2[UnityEngine.UIElements.VisualElement,T] valueUpdated
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, SMFrame.Editor.Refleaction.RProperty> r_PvalueUpdated;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, SMFrame.Editor.Refleaction.RProperty> RPvalueUpdated
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, Hvak.Editor.Refleaction.RProperty> r_PvalueUpdated;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, Hvak.Editor.Refleaction.RProperty> RPvalueUpdated
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Func`2[UnityEngine.UIElements.VisualElement,T] initialValue
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, SMFrame.Editor.Refleaction.RProperty> r_PinitialValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, SMFrame.Editor.Refleaction.RProperty> RPinitialValue
+		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, Hvak.Editor.Refleaction.RProperty> r_PinitialValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, Hvak.Editor.Refleaction.RProperty> RPinitialValue
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Func`4[T,T,System.Single,T] interpolator
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RProperty, SMFrame.Editor.Refleaction.RProperty, SMFrame.Editor.Refleaction.RSystem.RSingle, SMFrame.Editor.Refleaction.RProperty> r_Pinterpolator;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RFunc<SMFrame.Editor.Refleaction.RProperty, SMFrame.Editor.Refleaction.RProperty, SMFrame.Editor.Refleaction.RSystem.RSingle, SMFrame.Editor.Refleaction.RProperty> RPinterpolator
+		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RProperty, Hvak.Editor.Refleaction.RProperty, Hvak.Editor.Refleaction.RSystem.RSingle, Hvak.Editor.Refleaction.RProperty> r_Pinterpolator;
+		public virtual Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RProperty, Hvak.Editor.Refleaction.RProperty, Hvak.Editor.Refleaction.RSystem.RSingle, Hvak.Editor.Refleaction.RProperty> RPinterpolator
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// T from
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_Pfrom;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPfrom
+		protected Hvak.Editor.Refleaction.RProperty r_Pfrom;
+		public virtual Hvak.Editor.Refleaction.RProperty RPfrom
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// T to
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_Pto;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPto
+		protected Hvak.Editor.Refleaction.RProperty r_Pto;
+		public virtual Hvak.Editor.Refleaction.RProperty RPto
 		{
 			get
 			{

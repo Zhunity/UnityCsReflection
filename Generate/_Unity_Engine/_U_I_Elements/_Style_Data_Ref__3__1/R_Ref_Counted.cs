@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class RStyleDataRef<T>
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.UInt32 m_NextId
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_NextId;
-		public static SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_NextId
+		protected static Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_NextId;
+		public static Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_NextId
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_RefCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_RefCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_RefCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_RefCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_RefCount
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.UInt32 m_Id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Fm_Id;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RFm_Id
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Fm_Id;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFm_Id
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// T value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RField r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RField RFvalue
+		protected Hvak.Editor.Refleaction.RField r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RField RFvalue
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 refCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PrefCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPrefCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PrefCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPrefCount
 		{
 			get
 			{
@@ -101,8 +101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt32 id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RUInt32 r_Pid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RUInt32 RPid
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Pid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPid
 		{
 			get
 			{
@@ -308,14 +308,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RType>.RRefCounted Copy()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType>.RRefCounted Copy()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<SMFrame.Editor.Refleaction.RType>.RRefCounted(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType>.RRefCounted(___result);
         }
 
 

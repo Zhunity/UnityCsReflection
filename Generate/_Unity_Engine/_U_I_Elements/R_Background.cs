@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.Background
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Texture2D m_Texture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_Fm_Texture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RFm_Texture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Fm_Texture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RFm_Texture
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Sprite m_Sprite
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RSprite r_Fm_Sprite;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RSprite RFm_Sprite
+		protected Hvak.Editor.Refleaction.RUnityEngine.RSprite r_Fm_Sprite;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RSprite RFm_Sprite
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.RenderTexture m_RenderTexture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderTexture r_Fm_RenderTexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderTexture RFm_RenderTexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderTexture r_Fm_RenderTexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderTexture RFm_RenderTexture
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VectorImage m_VectorImage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage r_Fm_VectorImage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage RFm_VectorImage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage r_Fm_VectorImage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage RFm_VectorImage
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Texture2D texture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_Ptexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RPtexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Ptexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RPtexture
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Sprite sprite
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RSprite r_Psprite;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RSprite RPsprite
+		protected Hvak.Editor.Refleaction.RUnityEngine.RSprite r_Psprite;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RSprite RPsprite
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.RenderTexture renderTexture
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RRenderTexture r_PrenderTexture;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RRenderTexture RPrenderTexture
+		protected Hvak.Editor.Refleaction.RUnityEngine.RRenderTexture r_PrenderTexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRenderTexture RPrenderTexture
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VectorImage vectorImage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage r_PvectorImage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage RPvectorImage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage r_PvectorImage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVectorImage RPvectorImage
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[System.Type] allowedAssetTypes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RSystem.RType> r_PallowedAssetTypes;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RSystem.RType> RPallowedAssetTypes
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RType> r_PallowedAssetTypes;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RType> RPallowedAssetTypes
 		{
 			get
 			{

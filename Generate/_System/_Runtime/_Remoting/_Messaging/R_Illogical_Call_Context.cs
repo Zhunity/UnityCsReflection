@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
+namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 {
 	/// <summary>
 	/// System.Runtime.Remoting.Messaging.IllogicalCallContext
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Collections.Hashtable m_Datastore
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable r_Fm_Datastore;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable RFm_Datastore
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_Fm_Datastore;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RFm_Datastore
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Object m_HostContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_Fm_HostContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RFm_HostContext
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_Fm_HostContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RFm_HostContext
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Collections.Hashtable Datastore
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable r_PDatastore;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RHashtable RPDatastore
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_PDatastore;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RPDatastore
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Object HostContext
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PHostContext;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPHostContext
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PHostContext;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPHostContext
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Boolean HasUserData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PHasUserData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPHasUserData
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PHasUserData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPHasUserData
 		{
 			get
 			{
@@ -317,14 +317,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext CreateCopy()
+        public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext CreateCopy()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMCreateCopy.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext(___result);
         }
 
 

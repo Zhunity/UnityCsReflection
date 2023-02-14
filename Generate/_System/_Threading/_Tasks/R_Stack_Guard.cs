@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
+namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
 	/// System.Threading.Tasks.StackGuard
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 m_inliningDepth
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_inliningDepth;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_inliningDepth
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_inliningDepth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_inliningDepth
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 MAX_UNCHECKED_INLINING_DEPTH
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RInt32 r_FMAX_UNCHECKED_INLINING_DEPTH;
-		public static SMFrame.Editor.Refleaction.RSystem.RInt32 RFMAX_UNCHECKED_INLINING_DEPTH
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FMAX_UNCHECKED_INLINING_DEPTH;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFMAX_UNCHECKED_INLINING_DEPTH
 		{
 			get
 			{

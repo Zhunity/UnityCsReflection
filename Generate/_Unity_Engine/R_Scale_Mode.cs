@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.ScaleMode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ScaleMode StretchToFill
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RScaleMode r_FStretchToFill;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RScaleMode RFStretchToFill
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RScaleMode r_FStretchToFill;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RScaleMode RFStretchToFill
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ScaleMode ScaleAndCrop
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RScaleMode r_FScaleAndCrop;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RScaleMode RFScaleAndCrop
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RScaleMode r_FScaleAndCrop;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RScaleMode RFScaleAndCrop
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.ScaleMode ScaleToFit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RScaleMode r_FScaleToFit;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RScaleMode RFScaleToFit
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RScaleMode r_FScaleToFit;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RScaleMode RFScaleToFit
 		{
 			get
 			{

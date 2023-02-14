@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.VRTextureUsage
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.VRTextureUsage None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVRTextureUsage r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVRTextureUsage RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVRTextureUsage r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVRTextureUsage RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.VRTextureUsage OneEye
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVRTextureUsage r_FOneEye;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVRTextureUsage RFOneEye
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVRTextureUsage r_FOneEye;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVRTextureUsage RFOneEye
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.VRTextureUsage TwoEyes
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVRTextureUsage r_FTwoEyes;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVRTextureUsage RFTwoEyes
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVRTextureUsage r_FTwoEyes;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVRTextureUsage RFTwoEyes
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.VRTextureUsage DeviceSpecific
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RVRTextureUsage r_FDeviceSpecific;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RVRTextureUsage RFDeviceSpecific
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RVRTextureUsage r_FDeviceSpecific;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RVRTextureUsage RFDeviceSpecific
 		{
 			get
 			{

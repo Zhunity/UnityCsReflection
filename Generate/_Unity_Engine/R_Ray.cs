@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.Ray
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 m_Origin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Origin;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFm_Origin
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Origin;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFm_Origin
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 m_Direction
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Direction;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFm_Direction
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Direction;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFm_Direction
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 origin
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Porigin;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPorigin
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Porigin;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPorigin
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 direction
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Pdirection;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPdirection
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Pdirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPdirection
 		{
 			get
 			{

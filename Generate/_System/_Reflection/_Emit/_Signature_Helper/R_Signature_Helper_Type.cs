@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
+namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {public partial class RSignatureHelper
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.SignatureHelper+SignatureHelperType HELPER_FIELD
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType r_FHELPER_FIELD;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType RFHELPER_FIELD
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType r_FHELPER_FIELD;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType RFHELPER_FIELD
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.SignatureHelper+SignatureHelperType HELPER_LOCAL
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType r_FHELPER_LOCAL;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType RFHELPER_LOCAL
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType r_FHELPER_LOCAL;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType RFHELPER_LOCAL
 		{
 			get
 			{
@@ -67,8 +67,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.SignatureHelper+SignatureHelperType HELPER_METHOD
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType r_FHELPER_METHOD;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType RFHELPER_METHOD
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType r_FHELPER_METHOD;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType RFHELPER_METHOD
 		{
 			get
 			{
@@ -84,8 +84,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Reflection.Emit.SignatureHelper+SignatureHelperType HELPER_PROPERTY
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType r_FHELPER_PROPERTY;
-		public static SMFrame.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType RFHELPER_PROPERTY
+		protected static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType r_FHELPER_PROPERTY;
+		public static Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RSignatureHelper.RSignatureHelperType RFHELPER_PROPERTY
 		{
 			get
 			{

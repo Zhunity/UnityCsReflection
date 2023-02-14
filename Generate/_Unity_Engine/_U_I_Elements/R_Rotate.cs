@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.Rotate
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Angle m_Angle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAngle r_Fm_Angle;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAngle RFm_Angle
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAngle r_Fm_Angle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAngle RFm_Angle
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector3 m_Axis
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Axis;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RFm_Axis
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fm_Axis;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFm_Axis
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_IsNone
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_IsNone;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_IsNone
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsNone;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsNone
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.Angle angle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAngle r_Pangle;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RAngle RPangle
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAngle r_Pangle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAngle RPangle
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector3 axis
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector3 r_Paxis;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector3 RPaxis
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Paxis;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector3 RPaxis
 		{
 			get
 			{

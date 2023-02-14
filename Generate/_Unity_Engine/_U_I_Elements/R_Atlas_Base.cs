@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.AtlasBase
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.TextureRegistry textureRegistry
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry r_FtextureRegistry;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry RFtextureRegistry
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry r_FtextureRegistry;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry RFtextureRegistry
 		{
 			get
 			{
@@ -369,7 +369,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Boolean TryGetAtlas(UnityEngine.UIElements.VisualElement @ctx, UnityEngine.Texture2D @src, out SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @atlas, out UnityEngine.RectInt @atlasRect)
+        public virtual System.Boolean TryGetAtlas(UnityEngine.UIElements.VisualElement @ctx, UnityEngine.Texture2D @src, out Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @atlas, out UnityEngine.RectInt @atlasRect)
         {
 			@atlas = default;
 			@atlasRect = default;
@@ -377,14 +377,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ctx, @src, @atlas.Value, @atlasRect};
             var ___result = RMTryGetAtlas_VisualElement_Texture2D_Out_TextureId_Out_RectInt.Invoke(___genericsType, ___parameters);
-			@atlas = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___parameters[2]);
+			@atlas = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___parameters[2]);
 			@atlasRect = (UnityEngine.RectInt)___parameters[3];
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual void ReturnAtlas(UnityEngine.UIElements.VisualElement @ctx, UnityEngine.Texture2D @src, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @atlas)
+        public virtual void ReturnAtlas(UnityEngine.UIElements.VisualElement @ctx, UnityEngine.Texture2D @src, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @atlas)
         {
 
             var ___genericsType = new Type[] {};
@@ -483,18 +483,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId AllocateDynamicTexture()
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId AllocateDynamicTexture()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAllocateDynamicTexture.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___result);
         }
 
 
-        public virtual void FreeDynamicTexture(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
+        public virtual void FreeDynamicTexture(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -505,7 +505,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetDynamicTexture(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, UnityEngine.Texture @texture)
+        public virtual void SetDynamicTexture(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, UnityEngine.Texture @texture)
         {
 
             var ___genericsType = new Type[] {};

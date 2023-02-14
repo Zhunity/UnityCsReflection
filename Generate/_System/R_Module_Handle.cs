@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.ModuleHandle
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_Fvalue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFvalue
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFvalue
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ModuleHandle EmptyHandle
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RModuleHandle r_FEmptyHandle;
-		public static SMFrame.Editor.Refleaction.RSystem.RModuleHandle RFEmptyHandle
+		protected static Hvak.Editor.Refleaction.RSystem.RModuleHandle r_FEmptyHandle;
+		public static Hvak.Editor.Refleaction.RSystem.RModuleHandle RFEmptyHandle
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// IntPtr Value
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_PValue;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RPValue
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_PValue;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RPValue
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 MDStreamVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PMDStreamVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPMDStreamVersion
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PMDStreamVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPMDStreamVersion
 		{
 			get
 			{

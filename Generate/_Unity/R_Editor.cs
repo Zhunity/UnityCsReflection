@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor
+namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
 	/// UnityEditor.Editor
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Object[] m_Targets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RObject> r_Fm_Targets;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RUnityEngine.RObject> RFm_Targets
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RObject> r_Fm_Targets;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RObject> RFm_Targets
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Object m_Context
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RObject r_Fm_Context;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RObject RFm_Context
+		protected Hvak.Editor.Refleaction.RUnityEngine.RObject r_Fm_Context;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RObject RFm_Context
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_IsDirty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_IsDirty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_IsDirty
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_IsDirty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_IsDirty
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_ReferenceTargetIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_ReferenceTargetIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_ReferenceTargetIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_ReferenceTargetIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_ReferenceTargetIndex
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PropertyHandlerCache m_PropertyHandlerCache
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandlerCache r_Fm_PropertyHandlerCache;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandlerCache RFm_PropertyHandlerCache
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandlerCache r_Fm_PropertyHandlerCache;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandlerCache RFm_PropertyHandlerCache
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.IPreviewable m_DummyPreview
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIPreviewable r_Fm_DummyPreview;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIPreviewable RFm_DummyPreview
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable r_Fm_DummyPreview;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable RFm_DummyPreview
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.AudioFilterGUI m_AudioFilterGUI
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RAudioFilterGUI r_Fm_AudioFilterGUI;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RAudioFilterGUI RFm_AudioFilterGUI
+		protected Hvak.Editor.Refleaction.RUnityEditor.RAudioFilterGUI r_Fm_AudioFilterGUI;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RAudioFilterGUI RFm_AudioFilterGUI
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedObject m_SerializedObject
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RSerializedObject r_Fm_SerializedObject;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RSerializedObject RFm_SerializedObject
+		protected Hvak.Editor.Refleaction.RUnityEditor.RSerializedObject r_Fm_SerializedObject;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RSerializedObject RFm_SerializedObject
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedProperty m_EnabledProperty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RSerializedProperty r_Fm_EnabledProperty;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RSerializedProperty RFm_EnabledProperty
+		protected Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty r_Fm_EnabledProperty;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty RFm_EnabledProperty
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.InspectorMode m_InspectorMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode r_Fm_InspectorMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode RFm_InspectorMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode r_Fm_InspectorMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode RFm_InspectorMode
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kLineHeight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_FkLineHeight;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFkLineHeight
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_FkLineHeight;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFkLineHeight
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean hideInspector
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_FhideInspector;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFhideInspector
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FhideInspector;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFhideInspector
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kImageSectionWidth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_FkImageSectionWidth;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFkImageSectionWidth
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_FkImageSectionWidth;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFkImageSectionWidth
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single k_WideModeMinWidth
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_Fk_WideModeMinWidth;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFk_WideModeMinWidth
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_Fk_WideModeMinWidth;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFk_WideModeMinWidth
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single k_HeaderHeight
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSingle r_Fk_HeaderHeight;
-		public static SMFrame.Editor.Refleaction.RSystem.RSingle RFk_HeaderHeight
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_Fk_HeaderHeight;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFk_HeaderHeight
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.Editor+OnEditorGUIDelegate OnPostIconGUI
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.REditor.ROnEditorGUIDelegate r_FOnPostIconGUI;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.REditor.ROnEditorGUIDelegate RFOnPostIconGUI
+		protected static Hvak.Editor.Refleaction.RUnityEditor.REditor.ROnEditorGUIDelegate r_FOnPostIconGUI;
+		public static Hvak.Editor.Refleaction.RUnityEditor.REditor.ROnEditorGUIDelegate RFOnPostIconGUI
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_AllowMultiObjectAccess
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_AllowMultiObjectAccess;
-		public static SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_AllowMultiObjectAccess
+		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_AllowMultiObjectAccess;
+		public static Hvak.Editor.Refleaction.RSystem.RBoolean RFm_AllowMultiObjectAccess
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_HasUnsavedChanges
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_HasUnsavedChanges;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_HasUnsavedChanges
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasUnsavedChanges;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasUnsavedChanges
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String <saveChangesMessage>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F__0__saveChangesMessage__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF__0__saveChangesMessage__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__saveChangesMessage__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__saveChangesMessage__1__k__BackingField
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean <firstInspectedEditor>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__firstInspectedEditor__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__firstInspectedEditor__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__firstInspectedEditor__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__firstInspectedEditor__1__k__BackingField
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.IPropertyView <propertyViewer>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIPropertyView r_F__0__propertyViewer__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIPropertyView RF__0__propertyViewer__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIPropertyView r_F__0__propertyViewer__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIPropertyView RF__0__propertyViewer__1__k__BackingField
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Action`1[UnityEditor.Editor] finishedDefaultHeaderGUI
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.REditor> r_FfinishedDefaultHeaderGUI;
-		public static SMFrame.Editor.Refleaction.RSystem.RAction<SMFrame.Editor.Refleaction.RUnityEditor.REditor> RFfinishedDefaultHeaderGUI
+		protected static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.REditor> r_FfinishedDefaultHeaderGUI;
+		public static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.REditor> RFfinishedDefaultHeaderGUI
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean <alwaysAllowExpansion>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F__0__alwaysAllowExpansion__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF__0__alwaysAllowExpansion__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__alwaysAllowExpansion__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__alwaysAllowExpansion__1__k__BackingField
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.InspectorMode inspectorMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode r_PinspectorMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RInspectorMode RPinspectorMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode r_PinspectorMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RInspectorMode RPinspectorMode
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.DataMode dataMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RDataMode r_PdataMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RDataMode RPdataMode
+		protected Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_PdataMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataMode RPdataMode
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasUnsavedChanges
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasUnsavedChanges;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasUnsavedChanges
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasUnsavedChanges;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasUnsavedChanges
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String saveChangesMessage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PsaveChangesMessage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPsaveChangesMessage
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PsaveChangesMessage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPsaveChangesMessage
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean firstInspectedEditor
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PfirstInspectedEditor;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPfirstInspectedEditor
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PfirstInspectedEditor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPfirstInspectedEditor
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.IPropertyView propertyViewer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIPropertyView r_PpropertyViewer;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIPropertyView RPpropertyViewer
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIPropertyView r_PpropertyViewer;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIPropertyView RPpropertyViewer
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean canEditMultipleObjects
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PcanEditMultipleObjects;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPcanEditMultipleObjects
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcanEditMultipleObjects;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcanEditMultipleObjects
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.IPreviewable preview
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RIPreviewable r_Ppreview;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RIPreviewable RPpreview
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable r_Ppreview;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIPreviewable RPpreview
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.PropertyHandlerCache propertyHandlerCache
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandlerCache r_PpropertyHandlerCache;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RPropertyHandlerCache RPpropertyHandlerCache
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandlerCache r_PpropertyHandlerCache;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandlerCache RPpropertyHandlerCache
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean UnityEditor.IToolModeOwner.areToolModesAvailable
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PUnityEditor__2__IToolModeOwner__2__areToolModesAvailable;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPUnityEditor__2__IToolModeOwner__2__areToolModesAvailable
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PUnityEditor__2__IToolModeOwner__2__areToolModesAvailable;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPUnityEditor__2__IToolModeOwner__2__areToolModesAvailable
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Object target
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RObject r_Ptarget;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RObject RPtarget
+		protected Hvak.Editor.Refleaction.RUnityEngine.RObject r_Ptarget;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RObject RPtarget
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Object[] targets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RObject> r_Ptargets;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RUnityEngine.RObject> RPtargets
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RObject> r_Ptargets;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RObject> RPtargets
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 referenceTargetIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PreferenceTargetIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPreferenceTargetIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PreferenceTargetIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPreferenceTargetIndex
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String targetTitle
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PtargetTitle;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtargetTitle
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PtargetTitle;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtargetTitle
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedObject serializedObject
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RSerializedObject r_PserializedObject;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RSerializedObject RPserializedObject
+		protected Hvak.Editor.Refleaction.RUnityEditor.RSerializedObject r_PserializedObject;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RSerializedObject RPserializedObject
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.SerializedProperty enabledProperty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEditor.RSerializedProperty r_PenabledProperty;
-		public virtual SMFrame.Editor.Refleaction.RUnityEditor.RSerializedProperty RPenabledProperty
+		protected Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty r_PenabledProperty;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RSerializedProperty RPenabledProperty
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isInspectorDirty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PisInspectorDirty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPisInspectorDirty
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisInspectorDirty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisInspectorDirty
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean alwaysAllowExpansion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PalwaysAllowExpansion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPalwaysAllowExpansion
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PalwaysAllowExpansion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPalwaysAllowExpansion
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{

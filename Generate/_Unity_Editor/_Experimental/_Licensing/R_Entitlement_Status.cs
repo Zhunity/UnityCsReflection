@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing
+namespace Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing
 {
 	/// <summary>
 	/// UnityEditor.Experimental.Licensing.EntitlementStatus
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing
 		/// <summary>
 		/// UnityEditor.Experimental.Licensing.EntitlementStatus Unknown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus r_FUnknown;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus RFUnknown
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus r_FUnknown;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus RFUnknown
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing
 		/// <summary>
 		/// UnityEditor.Experimental.Licensing.EntitlementStatus Granted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus r_FGranted;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus RFGranted
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus r_FGranted;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus RFGranted
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing
 		/// <summary>
 		/// UnityEditor.Experimental.Licensing.EntitlementStatus NotGranted
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus r_FNotGranted;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus RFNotGranted
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus r_FNotGranted;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus RFNotGranted
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing
 		/// <summary>
 		/// UnityEditor.Experimental.Licensing.EntitlementStatus Free
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus r_FFree;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus RFFree
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus r_FFree;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing.REntitlementStatus RFFree
 		{
 			get
 			{

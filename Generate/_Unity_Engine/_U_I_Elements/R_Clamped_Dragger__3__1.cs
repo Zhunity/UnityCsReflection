@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.ClampedDragger`1
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action dragging
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RAction r_Fdragging;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RAction RFdragging
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_Fdragging;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFdragging
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ClampedDragger`1+DragDirection[T] <dragDirection>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<SMFrame.Editor.Refleaction.RField>.RDragDirection r_F__0__dragDirection__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<SMFrame.Editor.Refleaction.RField>.RDragDirection RF__0__dragDirection__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<Hvak.Editor.Refleaction.RField>.RDragDirection r_F__0__dragDirection__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<Hvak.Editor.Refleaction.RField>.RDragDirection RF__0__dragDirection__1__k__BackingField
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BaseSlider`1[T] <slider>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField> r_F__0__slider__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RField> RF__0__slider__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField> r_F__0__slider__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RField> RF__0__slider__1__k__BackingField
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 <startMousePosition>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_F__0__startMousePosition__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RF__0__startMousePosition__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_F__0__startMousePosition__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RF__0__startMousePosition__1__k__BackingField
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// DragDirection dragDirection
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<SMFrame.Editor.Refleaction.RProperty>.RDragDirection r_PdragDirection;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<SMFrame.Editor.Refleaction.RProperty>.RDragDirection RPdragDirection
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<Hvak.Editor.Refleaction.RProperty>.RDragDirection r_PdragDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RClampedDragger<Hvak.Editor.Refleaction.RProperty>.RDragDirection RPdragDirection
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.BaseSlider`1[T] slider
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RProperty> r_Pslider;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<SMFrame.Editor.Refleaction.RProperty> RPslider
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RProperty> r_Pslider;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseSlider<Hvak.Editor.Refleaction.RProperty> RPslider
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 startMousePosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PstartMousePosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPstartMousePosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PstartMousePosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPstartMousePosition
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 delta
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_Pdelta;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPdelta
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Pdelta;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPdelta
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean active
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Pactive;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPactive
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pactive;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPactive
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 lastMousePosition
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RVector2 r_PlastMousePosition;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RVector2 RPlastMousePosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PlastMousePosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPlastMousePosition
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean acceptClicksIfDisabled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PacceptClicksIfDisabled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPacceptClicksIfDisabled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PacceptClicksIfDisabled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPacceptClicksIfDisabled
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.ManipulatorActivationFilter] activators
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RManipulatorActivationFilter> r_Pactivators;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RManipulatorActivationFilter> RPactivators
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RManipulatorActivationFilter> r_Pactivators;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RManipulatorActivationFilter> RPactivators
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement target
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Ptarget;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPtarget
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Ptarget;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPtarget
 		{
 			get
 			{

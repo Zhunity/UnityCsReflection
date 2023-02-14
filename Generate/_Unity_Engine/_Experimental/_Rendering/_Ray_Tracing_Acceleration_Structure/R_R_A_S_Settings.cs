@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
+namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {public partial class RRayTracingAccelerationStructure
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+ManagementMode managementMode
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RManagementMode r_FmanagementMode;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RManagementMode RFmanagementMode
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RManagementMode r_FmanagementMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RManagementMode RFmanagementMode
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RayTracingModeMask rayTracingModeMask
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRayTracingModeMask r_FrayTracingModeMask;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRayTracingModeMask RFrayTracingModeMask
+		protected Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRayTracingModeMask r_FrayTracingModeMask;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRayTracingModeMask RFrayTracingModeMask
 		{
 			get
 			{
@@ -50,8 +50,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 layerMask
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FlayerMask;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFlayerMask
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FlayerMask;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlayerMask
 		{
 			get
 			{

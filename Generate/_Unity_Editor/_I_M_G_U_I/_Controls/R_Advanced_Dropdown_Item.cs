@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
+namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 {
 	/// <summary>
 	/// UnityEditor.IMGUI.Controls.AdvancedDropdownItem
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String m_Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_Name;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_Name
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Name;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Name
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Int32 m_Id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_Id;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_Id
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Id;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_Id
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Int32 m_ElementIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_ElementIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_ElementIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_ElementIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_ElementIndex
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Boolean m_Enabled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_Enabled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_Enabled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_Enabled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_Enabled
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEngine.GUIContent m_Content
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_Fm_Content;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RFm_Content
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_Fm_Content;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RFm_Content
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.IMGUI.Controls.AdvancedDropdownItem] m_Children
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> r_Fm_Children;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> RFm_Children
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> r_Fm_Children;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> RFm_Children
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Object <userData>k__BackingField
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_F__0__userData__1__k__BackingField;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RF__0__userData__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_F__0__userData__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF__0__userData__1__k__BackingField
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownItem k_SeparatorItem
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_Fk_SeparatorItem;
-		public static SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem RFk_SeparatorItem
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_Fk_SeparatorItem;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem RFk_SeparatorItem
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEngine.GUIContent content
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent r_Pcontent;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RGUIContent RPcontent
+		protected Hvak.Editor.Refleaction.RUnityEngine.RGUIContent r_Pcontent;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGUIContent RPcontent
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String tooltip
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Ptooltip;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPtooltip
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Ptooltip;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtooltip
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PdisplayName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPdisplayName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PdisplayName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPdisplayName
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// UnityEngine.Texture2D icon
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D r_Picon;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RTexture2D RPicon
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Picon;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RPicon
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Int32 id
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Pid;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPid
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPid
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Int32 elementIndex
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PelementIndex;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPelementIndex
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PelementIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPelementIndex
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Penabled;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPenabled
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Penabled;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPenabled
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Object userData
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RObject r_PuserData;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RObject RPuserData
+		protected Hvak.Editor.Refleaction.RSystem.RObject r_PuserData;
+		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPuserData
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[UnityEditor.IMGUI.Controls.AdvancedDropdownItem] children
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> r_Pchildren;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> RPchildren
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> r_Pchildren;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> RPchildren
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean hasChildren
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PhasChildren;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPhasChildren
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasChildren;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasChildren
 		{
 			get
 			{

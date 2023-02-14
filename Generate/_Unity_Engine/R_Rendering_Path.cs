@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.RenderingPath
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderingPath UsePlayerSettings
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderingPath r_FUsePlayerSettings;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderingPath RFUsePlayerSettings
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderingPath r_FUsePlayerSettings;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderingPath RFUsePlayerSettings
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderingPath VertexLit
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderingPath r_FVertexLit;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderingPath RFVertexLit
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderingPath r_FVertexLit;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderingPath RFVertexLit
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderingPath Forward
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderingPath r_FForward;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderingPath RFForward
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderingPath r_FForward;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderingPath RFForward
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderingPath DeferredLighting
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderingPath r_FDeferredLighting;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderingPath RFDeferredLighting
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderingPath r_FDeferredLighting;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderingPath RFDeferredLighting
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.RenderingPath DeferredShading
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RRenderingPath r_FDeferredShading;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RRenderingPath RFDeferredShading
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RRenderingPath r_FDeferredShading;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RRenderingPath RFDeferredShading
 		{
 			get
 			{

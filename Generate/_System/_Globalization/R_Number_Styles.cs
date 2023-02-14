@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
+namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
 	/// System.Globalization.NumberStyles
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FNone;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFNone
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FNone;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles AllowLeadingWhite
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowLeadingWhite;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowLeadingWhite
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowLeadingWhite;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowLeadingWhite
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles AllowTrailingWhite
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowTrailingWhite;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowTrailingWhite
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowTrailingWhite;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowTrailingWhite
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles AllowLeadingSign
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowLeadingSign;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowLeadingSign
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowLeadingSign;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowLeadingSign
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles AllowTrailingSign
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowTrailingSign;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowTrailingSign
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowTrailingSign;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowTrailingSign
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles AllowParentheses
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowParentheses;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowParentheses
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowParentheses;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowParentheses
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles AllowDecimalPoint
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowDecimalPoint;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowDecimalPoint
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowDecimalPoint;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowDecimalPoint
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles AllowThousands
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowThousands;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowThousands
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowThousands;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowThousands
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles AllowExponent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowExponent;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowExponent
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowExponent;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowExponent
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles AllowCurrencySymbol
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowCurrencySymbol;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowCurrencySymbol
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowCurrencySymbol;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowCurrencySymbol
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles AllowHexSpecifier
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowHexSpecifier;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowHexSpecifier
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAllowHexSpecifier;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAllowHexSpecifier
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles Integer
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FInteger;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFInteger
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FInteger;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFInteger
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles HexNumber
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FHexNumber;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFHexNumber
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FHexNumber;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFHexNumber
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles Number
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FNumber;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFNumber
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FNumber;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFNumber
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles Float
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FFloat;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFFloat
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FFloat;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFFloat
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles Currency
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FCurrency;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFCurrency
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FCurrency;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFCurrency
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Globalization.NumberStyles Any
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAny;
-		public static SMFrame.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAny
+		protected static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles r_FAny;
+		public static Hvak.Editor.Refleaction.RSystem.RGlobalization.RNumberStyles RFAny
 		{
 			get
 			{

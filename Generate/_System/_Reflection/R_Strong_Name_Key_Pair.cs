@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RReflection
+namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
 	/// System.Reflection.StrongNameKeyPair
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Byte[] _publicKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_F_publicKey;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RF_publicKey
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_F_publicKey;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RF_publicKey
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String _keyPairContainer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_F_keyPairContainer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RF_keyPairContainer
+		protected Hvak.Editor.Refleaction.RSystem.RString r_F_keyPairContainer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RF_keyPairContainer
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Boolean _keyPairExported
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_F_keyPairExported;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RF_keyPairExported
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F_keyPairExported;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF_keyPairExported
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Byte[] _keyPairArray
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_F_keyPairArray;
-		public virtual SMFrame.Editor.Refleaction.RFieldArray<SMFrame.Editor.Refleaction.RSystem.RByte> RF_keyPairArray
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> r_F_keyPairArray;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RByte> RF_keyPairArray
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Security.Cryptography.RSA _rsa
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSA r_F_rsa;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSA RF_rsa
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSA r_F_rsa;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RRSA RF_rsa
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Byte[] PublicKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> r_PPublicKey;
-		public virtual SMFrame.Editor.Refleaction.RPropertyArray<SMFrame.Editor.Refleaction.RSystem.RByte> RPPublicKey
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> r_PPublicKey;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RByte> RPPublicKey
 		{
 			get
 			{
@@ -362,14 +362,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RMono.RSecurity.RStrongName StrongName()
+        public virtual Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName StrongName()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMStrongName.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RMono.RSecurity.RStrongName(___result);
+            return new Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName(___result);
         }
 
 

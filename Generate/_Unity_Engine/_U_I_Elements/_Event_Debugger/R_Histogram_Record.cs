@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {public partial class REventDebugger
 {
 	
@@ -16,8 +16,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 count
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fcount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFcount
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fcount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFcount
 		{
 			get
 			{
@@ -33,8 +33,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 duration
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt64 r_Fduration;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt64 RFduration
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fduration;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFduration
 		{
 			get
 			{

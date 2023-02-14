@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
+namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
 	/// UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_SkipRemoveConfirmationPrefs
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_SkipRemoveConfirmationPrefs;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_SkipRemoveConfirmationPrefs
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_SkipRemoveConfirmationPrefs;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_SkipRemoveConfirmationPrefs
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_SkipMultiSelectRemoveConfirmationPrefs
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_SkipMultiSelectRemoveConfirmationPrefs;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_SkipMultiSelectRemoveConfirmationPrefs
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_SkipMultiSelectRemoveConfirmationPrefs;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_SkipMultiSelectRemoveConfirmationPrefs
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_SkipDisableConfirmationPrefs
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_SkipDisableConfirmationPrefs;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_SkipDisableConfirmationPrefs
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_SkipDisableConfirmationPrefs;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_SkipDisableConfirmationPrefs
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_SplitterFlexGrowPrefs
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_SplitterFlexGrowPrefs;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_SplitterFlexGrowPrefs
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_SplitterFlexGrowPrefs;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_SplitterFlexGrowPrefs
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String k_LastUsedFilterPrefsPrefix
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_Fk_LastUsedFilterPrefsPrefix;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFk_LastUsedFilterPrefsPrefix
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_LastUsedFilterPrefsPrefix;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_LastUsedFilterPrefsPrefix
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Int32 m_NumItemsPerPage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_NumItemsPerPage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_NumItemsPerPage
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_NumItemsPerPage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_NumItemsPerPage
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean m_DependenciesExpanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_DependenciesExpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_DependenciesExpanded
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_DependenciesExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_DependenciesExpanded
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_SelectedFeatureDependency
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_SelectedFeatureDependency;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_SelectedFeatureDependency
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_SelectedFeatureDependency;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_SelectedFeatureDependency
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean m_SamplesExpanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_SamplesExpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_SamplesExpanded
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_SamplesExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_SamplesExpanded
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Boolean m_OverviewFoldoutExpanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_OverviewFoldoutExpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_OverviewFoldoutExpanded
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_OverviewFoldoutExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_OverviewFoldoutExpanded
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Single m_PackageDetailVerticalScrollOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_Fm_PackageDetailVerticalScrollOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFm_PackageDetailVerticalScrollOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_PackageDetailVerticalScrollOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_PackageDetailVerticalScrollOffset
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_SelectedPackageDetailsTabIdentifier
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_SelectedPackageDetailsTabIdentifier;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_SelectedPackageDetailsTabIdentifier
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_SelectedPackageDetailsTabIdentifier;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_SelectedPackageDetailsTabIdentifier
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_ExpandedDetailsExtensions
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> r_Fm_ExpandedDetailsExtensions;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> RFm_ExpandedDetailsExtensions
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_ExpandedDetailsExtensions;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFm_ExpandedDetailsExtensions
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String m_PackageDisplayedInVersionHistoryTab
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fm_PackageDisplayedInVersionHistoryTab;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFm_PackageDisplayedInVersionHistoryTab
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PackageDisplayedInVersionHistoryTab;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PackageDisplayedInVersionHistoryTab
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_ExpandedVersionHistoryItems
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> r_Fm_ExpandedVersionHistoryItems;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RString> RFm_ExpandedVersionHistoryItems
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_ExpandedVersionHistoryItems;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFm_ExpandedVersionHistoryItems
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String projectIdentifier
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_PprojectIdentifier;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RPprojectIdentifier
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_PprojectIdentifier;
+		public static Hvak.Editor.Refleaction.RSystem.RString RPprojectIdentifier
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String lastUsedFilterForProjectPerfs
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_PlastUsedFilterForProjectPerfs;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RPlastUsedFilterForProjectPerfs
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_PlastUsedFilterForProjectPerfs;
+		public static Hvak.Editor.Refleaction.RSystem.RString RPlastUsedFilterForProjectPerfs
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean skipRemoveConfirmation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PskipRemoveConfirmation;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPskipRemoveConfirmation
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PskipRemoveConfirmation;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPskipRemoveConfirmation
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean skipMultiSelectRemoveConfirmation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PskipMultiSelectRemoveConfirmation;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPskipMultiSelectRemoveConfirmation
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PskipMultiSelectRemoveConfirmation;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPskipMultiSelectRemoveConfirmation
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean skipDisableConfirmation
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PskipDisableConfirmation;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPskipDisableConfirmation
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PskipDisableConfirmation;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPskipDisableConfirmation
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Single splitterFlexGrow
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PsplitterFlexGrow;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPsplitterFlexGrow
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PsplitterFlexGrow;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPsplitterFlexGrow
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Nullable`1[UnityEditor.PackageManager.UI.Internal.PackageFilterTab] lastUsedPackageFilter
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab> r_PlastUsedPackageFilter;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab> RPlastUsedPackageFilter
+		protected Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab> r_PlastUsedPackageFilter;
+		public virtual Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab> RPlastUsedPackageFilter
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.Nullable`1[System.Int32] numItemsPerPage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RInt32> r_PnumItemsPerPage;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RNullable<SMFrame.Editor.Refleaction.RSystem.RInt32> RPnumItemsPerPage
+		protected Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RInt32> r_PnumItemsPerPage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RInt32> RPnumItemsPerPage
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean dependenciesExpanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PdependenciesExpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPdependenciesExpanded
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdependenciesExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdependenciesExpanded
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String selectedFeatureDependency
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PselectedFeatureDependency;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPselectedFeatureDependency
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PselectedFeatureDependency;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPselectedFeatureDependency
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean samplesExpanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PsamplesExpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPsamplesExpanded
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PsamplesExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPsamplesExpanded
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Boolean overviewFoldoutExpanded
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PoverviewFoldoutExpanded;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPoverviewFoldoutExpanded
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PoverviewFoldoutExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPoverviewFoldoutExpanded
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// Single packageDetailVerticalScrollOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_PpackageDetailVerticalScrollOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RPpackageDetailVerticalScrollOffset
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PpackageDetailVerticalScrollOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPpackageDetailVerticalScrollOffset
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String selectedPackageDetailsTabIdentifier
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PselectedPackageDetailsTabIdentifier;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPselectedPackageDetailsTabIdentifier
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PselectedPackageDetailsTabIdentifier;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPselectedPackageDetailsTabIdentifier
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		/// <summary>
 		/// System.String packageDisplayedInVersionHistoryTab
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PpackageDisplayedInVersionHistoryTab;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPpackageDisplayedInVersionHistoryTab
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PpackageDisplayedInVersionHistoryTab;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpackageDisplayedInVersionHistoryTab
 		{
 			get
 			{

@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
 	/// UnityEngine.UIElements.VisualTreeAsset
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String LinkedVEAInTemplatePropertyName
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RString r_FLinkedVEAInTemplatePropertyName;
-		public static SMFrame.Editor.Refleaction.RSystem.RString RFLinkedVEAInTemplatePropertyName
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_FLinkedVEAInTemplatePropertyName;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFLinkedVEAInTemplatePropertyName
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_ImportedWithErrors
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_ImportedWithErrors;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_ImportedWithErrors
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_ImportedWithErrors;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_ImportedWithErrors
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_ImportedWithWarnings
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_Fm_ImportedWithWarnings;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RFm_ImportedWithWarnings
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_ImportedWithWarnings;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_ImportedWithWarnings
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.VisualElement] s_TemporarySlotInsertionPoints
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_Fs_TemporarySlotInsertionPoints;
-		public static SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RString, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RFs_TemporarySlotInsertionPoints
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_Fs_TemporarySlotInsertionPoints;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RFs_TemporarySlotInsertionPoints
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualTreeAsset+UsingEntry] m_Usings
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry> r_Fm_Usings;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry> RFm_Usings
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry> r_Fm_Usings;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry> RFm_Usings
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheet inlineSheet
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_FinlineSheet;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RFinlineSheet
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_FinlineSheet;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RFinlineSheet
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualElementAsset] m_VisualElementAssets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset> r_Fm_VisualElementAssets;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset> RFm_VisualElementAssets
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset> r_Fm_VisualElementAssets;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset> RFm_VisualElementAssets
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.TemplateAsset] m_TemplateAssets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTemplateAsset> r_Fm_TemplateAssets;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTemplateAsset> RFm_TemplateAssets
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTemplateAsset> r_Fm_TemplateAssets;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTemplateAsset> RFm_TemplateAssets
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualTreeAsset+UxmlObjectEntry] m_UxmlObjectEntries
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry> r_Fm_UxmlObjectEntries;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry> RFm_UxmlObjectEntries
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry> r_Fm_UxmlObjectEntries;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry> RFm_UxmlObjectEntries
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] m_UxmlObjectIds
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RInt32> r_Fm_UxmlObjectIds;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RInt32> RFm_UxmlObjectIds
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_UxmlObjectIds;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> RFm_UxmlObjectIds
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualTreeAsset+AssetEntry] m_AssetEntries
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RAssetEntry> r_Fm_AssetEntries;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RAssetEntry> RFm_AssetEntries
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RAssetEntry> r_Fm_AssetEntries;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RAssetEntry> RFm_AssetEntries
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualTreeAsset+SlotDefinition] m_Slots
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RSlotDefinition> r_Fm_Slots;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RSlotDefinition> RFm_Slots
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RSlotDefinition> r_Fm_Slots;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RSlotDefinition> RFm_Slots
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_ContentContainerId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_ContentContainerId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_ContentContainerId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_ContentContainerId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_ContentContainerId
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_ContentHash
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fm_ContentHash;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFm_ContentHash
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_ContentHash;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_ContentHash
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean importedWithErrors
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PimportedWithErrors;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPimportedWithErrors
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PimportedWithErrors;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPimportedWithErrors
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean importedWithWarnings
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PimportedWithWarnings;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPimportedWithWarnings
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PimportedWithWarnings;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPimportedWithWarnings
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[UnityEngine.UIElements.VisualTreeAsset] templateDependencies
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset> r_PtemplateDependencies;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset> RPtemplateDependencies
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset> r_PtemplateDependencies;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset> RPtemplateDependencies
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[UnityEngine.UIElements.StyleSheet] stylesheets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet> r_Pstylesheets;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet> RPstylesheets
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet> r_Pstylesheets;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet> RPstylesheets
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualElementAsset] visualElementAssets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset> r_PvisualElementAssets;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset> RPvisualElementAssets
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset> r_PvisualElementAssets;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset> RPvisualElementAssets
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.TemplateAsset] templateAssets
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTemplateAsset> r_PtemplateAssets;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTemplateAsset> RPtemplateAssets
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTemplateAsset> r_PtemplateAssets;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTemplateAsset> RPtemplateAssets
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualTreeAsset+UxmlObjectEntry] uxmlObjectEntries
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry> r_PuxmlObjectEntries;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry> RPuxmlObjectEntries
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry> r_PuxmlObjectEntries;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry> RPuxmlObjectEntries
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] uxmlObjectIds
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RInt32> r_PuxmlObjectIds;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RSystem.RInt32> RPuxmlObjectIds
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> r_PuxmlObjectIds;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> RPuxmlObjectIds
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualTreeAsset+SlotDefinition] slots
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RSlotDefinition> r_Pslots;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RSlotDefinition> RPslots
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RSlotDefinition> r_Pslots;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RSlotDefinition> RPslots
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 contentContainerId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PcontentContainerId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPcontentContainerId
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PcontentContainerId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPcontentContainerId
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 contentHash
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PcontentHash;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPcontentHash
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PcontentHash;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPcontentHash
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Pname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPname
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.HideFlags hideFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RHideFlags r_PhideFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RHideFlags RPhideFlags
 		{
 			get
 			{
@@ -1162,7 +1162,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterUxmlObject(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUxmlObjectAsset @uxmlObjectAsset)
+        public virtual void RegisterUxmlObject(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUxmlObjectAsset @uxmlObjectAsset)
         {
 
             var ___genericsType = new Type[] {};
@@ -1217,25 +1217,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry GetUxmlObjectEntry(System.Int32 @id)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry GetUxmlObjectEntry(System.Int32 @id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id};
             var ___result = RMGetUxmlObjectEntry_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIBaseUxmlObjectFactory GetUxmlObjectFactory(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUxmlObjectAsset @uxmlObjectAsset)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIBaseUxmlObjectFactory GetUxmlObjectFactory(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUxmlObjectAsset @uxmlObjectAsset)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@uxmlObjectAsset.Value};
             var ___result = RMGetUxmlObjectFactory_UxmlObjectAsset.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RIBaseUxmlObjectFactory(___result);
+            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIBaseUxmlObjectFactory(___result);
         }
 
 
@@ -1309,7 +1309,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void CloneTree(UnityEngine.UIElements.VisualElement @target, System.Collections.Generic.Dictionary<System.String, UnityEngine.UIElements.VisualElement> @slotInsertionPoints, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RTemplateAsset.RAttributeOverride> @attributeOverrides)
+        public virtual void CloneTree(UnityEngine.UIElements.VisualElement @target, System.Collections.Generic.Dictionary<System.String, UnityEngine.UIElements.VisualElement> @slotInsertionPoints, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTemplateAsset.RAttributeOverride> @attributeOverrides)
         {
 
             var ___genericsType = new Type[] {};
@@ -1320,7 +1320,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement CloneSetupRecursively(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @root, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<SMFrame.Editor.Refleaction.RSystem.RInt32, SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset>> @idToChildren, UnityEngine.UIElements.CreationContext @context)
+        public virtual UnityEngine.UIElements.VisualElement CloneSetupRecursively(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @root, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset>> @idToChildren, UnityEngine.UIElements.CreationContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -1331,7 +1331,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Int32 CompareForOrder(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @a, SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @b)
+        public static System.Int32 CompareForOrder(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @a, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1421,7 +1421,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InsertUsingEntry(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry @entry)
+        public virtual void InsertUsingEntry(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry @entry)
         {
 
             var ___genericsType = new Type[] {};
@@ -1432,7 +1432,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.VisualElement Create(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.CreationContext @ctx)
+        public static UnityEngine.UIElements.VisualElement Create(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.CreationContext @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -1443,7 +1443,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void AssignClassListFromAssetToElement(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.VisualElement @element)
+        public static void AssignClassListFromAssetToElement(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.VisualElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -1454,7 +1454,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void AssignStyleSheetFromAssetToElement(SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.VisualElement @element)
+        public static void AssignStyleSheetFromAssetToElement(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.VisualElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -1487,13 +1487,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.VisualElement __0__Create__1__g__CreateError__5__71_0(ref SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass71_0 @_______)
+        public static UnityEngine.UIElements.VisualElement __0__Create__1__g__CreateError__5__71_0(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass71_0 @_______)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_______.Value};
             var ___result = RM__0__Create__1__g__CreateError__5__71_0_Ref___0____1__c__DisplayClass71_0.Invoke(___genericsType, ___parameters);
-			@_______ = new SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass71_0(___parameters[0]);
+			@_______ = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass71_0(___parameters[0]);
 
             return (UnityEngine.UIElements.VisualElement)___result;
         }

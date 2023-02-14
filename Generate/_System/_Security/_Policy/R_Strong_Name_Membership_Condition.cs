@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
+namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 {
 	/// <summary>
 	/// System.Security.Policy.StrongNameMembershipCondition
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Int32 version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fversion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFversion
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fversion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFversion
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Permissions.StrongNamePublicKeyBlob blob
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RStrongNamePublicKeyBlob r_Fblob;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RStrongNamePublicKeyBlob RFblob
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RStrongNamePublicKeyBlob r_Fblob;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RStrongNamePublicKeyBlob RFblob
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_Fname;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RFname
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fname;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFname
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Version assemblyVersion
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RVersion r_FassemblyVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RVersion RFassemblyVersion
+		protected Hvak.Editor.Refleaction.RSystem.RVersion r_FassemblyVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RVersion RFassemblyVersion
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RString RPName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Version Version
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RVersion r_PVersion;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RVersion RPVersion
+		protected Hvak.Editor.Refleaction.RSystem.RVersion r_PVersion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RVersion RPVersion
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Security.Permissions.StrongNamePublicKeyBlob PublicKey
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RStrongNamePublicKeyBlob r_PPublicKey;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions.RStrongNamePublicKeyBlob RPPublicKey
+		protected Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RStrongNamePublicKeyBlob r_PPublicKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions.RStrongNamePublicKeyBlob RPPublicKey
 		{
 			get
 			{

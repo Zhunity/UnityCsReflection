@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
+namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
 	/// UnityEngine.UIElements.UIR.ConvertMeshJobData
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr vertSrc
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_FvertSrc;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFvertSrc
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_FvertSrc;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFvertSrc
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr vertDst
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_FvertDst;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFvertDst
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_FvertDst;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFvertDst
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 vertCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FvertCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvertCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FvertCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvertCount
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Matrix4x4 transform
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Ftransform;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFtransform
+		protected Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 r_Ftransform;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4 RFtransform
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 transformUVs
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FtransformUVs;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFtransformUVs
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FtransformUVs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFtransformUVs
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Color32 xformClipPages
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor32 r_FxformClipPages;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor32 RFxformClipPages
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_FxformClipPages;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor32 RFxformClipPages
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Color32 ids
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor32 r_Fids;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor32 RFids
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_Fids;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor32 RFids
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Color32 addFlags
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor32 r_FaddFlags;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor32 RFaddFlags
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_FaddFlags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor32 RFaddFlags
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Color32 opacityPage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor32 r_FopacityPage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor32 RFopacityPage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_FopacityPage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor32 RFopacityPage
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Color32 textCoreSettingsPage
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RUnityEngine.RColor32 r_FtextCoreSettingsPage;
-		public virtual SMFrame.Editor.Refleaction.RUnityEngine.RColor32 RFtextCoreSettingsPage
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_FtextCoreSettingsPage;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor32 RFtextCoreSettingsPage
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 isText
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FisText;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFisText
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FisText;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFisText
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Single textureId
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RSingle r_FtextureId;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RSingle RFtextureId
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FtextureId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFtextureId
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr indexSrc
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_FindexSrc;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFindexSrc
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_FindexSrc;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFindexSrc
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr indexDst
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RIntPtr r_FindexDst;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RIntPtr RFindexDst
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_FindexDst;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFindexDst
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 indexCount
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FindexCount;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFindexCount
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FindexCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFindexCount
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 indexOffset
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FindexOffset;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFindexOffset
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FindexOffset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFindexOffset
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 flipIndices
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_FflipIndices;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFflipIndices
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FflipIndices;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFflipIndices
 		{
 			get
 			{

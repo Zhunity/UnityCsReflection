@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RUnityEngine
+namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
 	/// UnityEngine.KeyCode
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 value__
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RFvalue__
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fvalue__;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFvalue__
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode None
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FNone;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFNone
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FNone;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFNone
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Backspace
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FBackspace;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFBackspace
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FBackspace;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFBackspace
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Delete
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FDelete;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFDelete
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FDelete;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFDelete
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Tab
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FTab;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFTab
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FTab;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFTab
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Clear
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FClear;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFClear
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FClear;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFClear
 		{
 			get
 			{
@@ -116,8 +116,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Return
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FReturn;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFReturn
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FReturn;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFReturn
 		{
 			get
 			{
@@ -133,8 +133,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Pause
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FPause;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFPause
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FPause;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFPause
 		{
 			get
 			{
@@ -150,8 +150,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Escape
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FEscape;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFEscape
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FEscape;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFEscape
 		{
 			get
 			{
@@ -167,8 +167,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Space
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FSpace;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFSpace
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FSpace;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFSpace
 		{
 			get
 			{
@@ -184,8 +184,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Keypad0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad0;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad0
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad0;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad0
 		{
 			get
 			{
@@ -201,8 +201,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Keypad1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad1
 		{
 			get
 			{
@@ -218,8 +218,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Keypad2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad2
 		{
 			get
 			{
@@ -235,8 +235,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Keypad3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad3
 		{
 			get
 			{
@@ -252,8 +252,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Keypad4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad4
 		{
 			get
 			{
@@ -269,8 +269,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Keypad5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad5
 		{
 			get
 			{
@@ -286,8 +286,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Keypad6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad6
 		{
 			get
 			{
@@ -303,8 +303,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Keypad7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad7
 		{
 			get
 			{
@@ -320,8 +320,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Keypad8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad8
 		{
 			get
 			{
@@ -337,8 +337,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Keypad9
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad9;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad9
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypad9;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypad9
 		{
 			get
 			{
@@ -354,8 +354,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode KeypadPeriod
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypadPeriod;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypadPeriod
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypadPeriod;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypadPeriod
 		{
 			get
 			{
@@ -371,8 +371,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode KeypadDivide
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypadDivide;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypadDivide
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypadDivide;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypadDivide
 		{
 			get
 			{
@@ -388,8 +388,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode KeypadMultiply
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypadMultiply;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypadMultiply
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypadMultiply;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypadMultiply
 		{
 			get
 			{
@@ -405,8 +405,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode KeypadMinus
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypadMinus;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypadMinus
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypadMinus;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypadMinus
 		{
 			get
 			{
@@ -422,8 +422,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode KeypadPlus
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypadPlus;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypadPlus
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypadPlus;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypadPlus
 		{
 			get
 			{
@@ -439,8 +439,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode KeypadEnter
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypadEnter;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypadEnter
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypadEnter;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypadEnter
 		{
 			get
 			{
@@ -456,8 +456,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode KeypadEquals
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypadEquals;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypadEquals
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FKeypadEquals;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFKeypadEquals
 		{
 			get
 			{
@@ -473,8 +473,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode UpArrow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FUpArrow;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFUpArrow
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FUpArrow;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFUpArrow
 		{
 			get
 			{
@@ -490,8 +490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode DownArrow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FDownArrow;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFDownArrow
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FDownArrow;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFDownArrow
 		{
 			get
 			{
@@ -507,8 +507,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode RightArrow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightArrow;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFRightArrow
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightArrow;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFRightArrow
 		{
 			get
 			{
@@ -524,8 +524,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode LeftArrow
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftArrow;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftArrow
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftArrow;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftArrow
 		{
 			get
 			{
@@ -541,8 +541,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Insert
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FInsert;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFInsert
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FInsert;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFInsert
 		{
 			get
 			{
@@ -558,8 +558,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Home
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FHome;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFHome
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FHome;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFHome
 		{
 			get
 			{
@@ -575,8 +575,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode End
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FEnd;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFEnd
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FEnd;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFEnd
 		{
 			get
 			{
@@ -592,8 +592,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode PageUp
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FPageUp;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFPageUp
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FPageUp;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFPageUp
 		{
 			get
 			{
@@ -609,8 +609,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode PageDown
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FPageDown;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFPageDown
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FPageDown;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFPageDown
 		{
 			get
 			{
@@ -626,8 +626,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF1
 		{
 			get
 			{
@@ -643,8 +643,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF2
 		{
 			get
 			{
@@ -660,8 +660,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF3
 		{
 			get
 			{
@@ -677,8 +677,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF4
 		{
 			get
 			{
@@ -694,8 +694,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF5
 		{
 			get
 			{
@@ -711,8 +711,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF6
 		{
 			get
 			{
@@ -728,8 +728,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF7
 		{
 			get
 			{
@@ -745,8 +745,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF8
 		{
 			get
 			{
@@ -762,8 +762,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F9
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF9;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF9
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF9;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF9
 		{
 			get
 			{
@@ -779,8 +779,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF10;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF10
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF10;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF10
 		{
 			get
 			{
@@ -796,8 +796,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F11
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF11;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF11
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF11;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF11
 		{
 			get
 			{
@@ -813,8 +813,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF12;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF12
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF12;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF12
 		{
 			get
 			{
@@ -830,8 +830,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F13
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF13;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF13
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF13;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF13
 		{
 			get
 			{
@@ -847,8 +847,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F14
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF14;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF14
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF14;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF14
 		{
 			get
 			{
@@ -864,8 +864,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F15
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF15;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF15
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF15;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF15
 		{
 			get
 			{
@@ -881,8 +881,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Alpha0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha0;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha0
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha0;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha0
 		{
 			get
 			{
@@ -898,8 +898,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Alpha1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha1
 		{
 			get
 			{
@@ -915,8 +915,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Alpha2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha2
 		{
 			get
 			{
@@ -932,8 +932,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Alpha3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha3
 		{
 			get
 			{
@@ -949,8 +949,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Alpha4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha4
 		{
 			get
 			{
@@ -966,8 +966,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Alpha5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha5
 		{
 			get
 			{
@@ -983,8 +983,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Alpha6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha6
 		{
 			get
 			{
@@ -1000,8 +1000,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Alpha7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha7
 		{
 			get
 			{
@@ -1017,8 +1017,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Alpha8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha8
 		{
 			get
 			{
@@ -1034,8 +1034,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Alpha9
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha9;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha9
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FAlpha9;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFAlpha9
 		{
 			get
 			{
@@ -1051,8 +1051,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Exclaim
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FExclaim;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFExclaim
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FExclaim;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFExclaim
 		{
 			get
 			{
@@ -1068,8 +1068,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode DoubleQuote
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FDoubleQuote;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFDoubleQuote
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FDoubleQuote;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFDoubleQuote
 		{
 			get
 			{
@@ -1085,8 +1085,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Hash
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FHash;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFHash
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FHash;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFHash
 		{
 			get
 			{
@@ -1102,8 +1102,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Dollar
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FDollar;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFDollar
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FDollar;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFDollar
 		{
 			get
 			{
@@ -1119,8 +1119,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Percent
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FPercent;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFPercent
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FPercent;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFPercent
 		{
 			get
 			{
@@ -1136,8 +1136,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Ampersand
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FAmpersand;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFAmpersand
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FAmpersand;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFAmpersand
 		{
 			get
 			{
@@ -1153,8 +1153,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Quote
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FQuote;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFQuote
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FQuote;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFQuote
 		{
 			get
 			{
@@ -1170,8 +1170,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode LeftParen
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftParen;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftParen
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftParen;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftParen
 		{
 			get
 			{
@@ -1187,8 +1187,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode RightParen
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightParen;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFRightParen
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightParen;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFRightParen
 		{
 			get
 			{
@@ -1204,8 +1204,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Asterisk
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FAsterisk;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFAsterisk
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FAsterisk;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFAsterisk
 		{
 			get
 			{
@@ -1221,8 +1221,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Plus
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FPlus;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFPlus
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FPlus;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFPlus
 		{
 			get
 			{
@@ -1238,8 +1238,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Comma
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FComma;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFComma
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FComma;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFComma
 		{
 			get
 			{
@@ -1255,8 +1255,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Minus
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FMinus;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFMinus
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FMinus;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFMinus
 		{
 			get
 			{
@@ -1272,8 +1272,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Period
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FPeriod;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFPeriod
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FPeriod;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFPeriod
 		{
 			get
 			{
@@ -1289,8 +1289,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Slash
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FSlash;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFSlash
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FSlash;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFSlash
 		{
 			get
 			{
@@ -1306,8 +1306,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Colon
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FColon;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFColon
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FColon;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFColon
 		{
 			get
 			{
@@ -1323,8 +1323,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Semicolon
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FSemicolon;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFSemicolon
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FSemicolon;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFSemicolon
 		{
 			get
 			{
@@ -1340,8 +1340,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Less
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FLess;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFLess
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FLess;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFLess
 		{
 			get
 			{
@@ -1357,8 +1357,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Equals
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FEquals;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFEquals
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FEquals;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFEquals
 		{
 			get
 			{
@@ -1374,8 +1374,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Greater
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FGreater;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFGreater
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FGreater;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFGreater
 		{
 			get
 			{
@@ -1391,8 +1391,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Question
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FQuestion;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFQuestion
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FQuestion;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFQuestion
 		{
 			get
 			{
@@ -1408,8 +1408,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode At
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FAt;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFAt
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FAt;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFAt
 		{
 			get
 			{
@@ -1425,8 +1425,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode LeftBracket
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftBracket;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftBracket
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftBracket;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftBracket
 		{
 			get
 			{
@@ -1442,8 +1442,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Backslash
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FBackslash;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFBackslash
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FBackslash;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFBackslash
 		{
 			get
 			{
@@ -1459,8 +1459,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode RightBracket
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightBracket;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFRightBracket
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightBracket;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFRightBracket
 		{
 			get
 			{
@@ -1476,8 +1476,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Caret
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FCaret;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFCaret
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FCaret;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFCaret
 		{
 			get
 			{
@@ -1493,8 +1493,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Underscore
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FUnderscore;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFUnderscore
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FUnderscore;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFUnderscore
 		{
 			get
 			{
@@ -1510,8 +1510,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode BackQuote
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FBackQuote;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFBackQuote
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FBackQuote;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFBackQuote
 		{
 			get
 			{
@@ -1527,8 +1527,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode A
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FA;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFA
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FA;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFA
 		{
 			get
 			{
@@ -1544,8 +1544,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode B
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FB;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFB
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FB;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFB
 		{
 			get
 			{
@@ -1561,8 +1561,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode C
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FC;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFC
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FC;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFC
 		{
 			get
 			{
@@ -1578,8 +1578,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode D
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FD;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFD
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FD;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFD
 		{
 			get
 			{
@@ -1595,8 +1595,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode E
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FE;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFE
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FE;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFE
 		{
 			get
 			{
@@ -1612,8 +1612,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode F
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FF;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFF
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FF;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFF
 		{
 			get
 			{
@@ -1629,8 +1629,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode G
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FG;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFG
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FG;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFG
 		{
 			get
 			{
@@ -1646,8 +1646,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode H
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FH;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFH
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FH;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFH
 		{
 			get
 			{
@@ -1663,8 +1663,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode I
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FI;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFI
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FI;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFI
 		{
 			get
 			{
@@ -1680,8 +1680,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode J
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJ;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJ
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJ;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJ
 		{
 			get
 			{
@@ -1697,8 +1697,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode K
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FK;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFK
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FK;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFK
 		{
 			get
 			{
@@ -1714,8 +1714,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode L
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FL;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFL
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FL;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFL
 		{
 			get
 			{
@@ -1731,8 +1731,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode M
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FM;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFM
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FM;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFM
 		{
 			get
 			{
@@ -1748,8 +1748,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode N
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FN;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFN
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FN;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFN
 		{
 			get
 			{
@@ -1765,8 +1765,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode O
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FO;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFO
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FO;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFO
 		{
 			get
 			{
@@ -1782,8 +1782,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode P
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FP;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFP
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FP;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFP
 		{
 			get
 			{
@@ -1799,8 +1799,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Q
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FQ;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFQ
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FQ;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFQ
 		{
 			get
 			{
@@ -1816,8 +1816,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode R
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FR;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFR
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FR;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFR
 		{
 			get
 			{
@@ -1833,8 +1833,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode S
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FS;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFS
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FS;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFS
 		{
 			get
 			{
@@ -1850,8 +1850,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode T
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FT;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFT
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FT;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFT
 		{
 			get
 			{
@@ -1867,8 +1867,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode U
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FU;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFU
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FU;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFU
 		{
 			get
 			{
@@ -1884,8 +1884,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode V
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FV;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFV
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FV;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFV
 		{
 			get
 			{
@@ -1901,8 +1901,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode W
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FW;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFW
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FW;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFW
 		{
 			get
 			{
@@ -1918,8 +1918,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode X
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FX;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFX
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FX;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFX
 		{
 			get
 			{
@@ -1935,8 +1935,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Y
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FY;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFY
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FY;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFY
 		{
 			get
 			{
@@ -1952,8 +1952,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Z
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FZ;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFZ
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FZ;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFZ
 		{
 			get
 			{
@@ -1969,8 +1969,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode LeftCurlyBracket
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftCurlyBracket;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftCurlyBracket
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftCurlyBracket;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftCurlyBracket
 		{
 			get
 			{
@@ -1986,8 +1986,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Pipe
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FPipe;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFPipe
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FPipe;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFPipe
 		{
 			get
 			{
@@ -2003,8 +2003,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode RightCurlyBracket
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightCurlyBracket;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFRightCurlyBracket
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightCurlyBracket;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFRightCurlyBracket
 		{
 			get
 			{
@@ -2020,8 +2020,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Tilde
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FTilde;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFTilde
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FTilde;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFTilde
 		{
 			get
 			{
@@ -2037,8 +2037,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Numlock
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FNumlock;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFNumlock
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FNumlock;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFNumlock
 		{
 			get
 			{
@@ -2054,8 +2054,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode CapsLock
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FCapsLock;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFCapsLock
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FCapsLock;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFCapsLock
 		{
 			get
 			{
@@ -2071,8 +2071,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode ScrollLock
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FScrollLock;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFScrollLock
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FScrollLock;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFScrollLock
 		{
 			get
 			{
@@ -2088,8 +2088,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode RightShift
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightShift;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFRightShift
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightShift;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFRightShift
 		{
 			get
 			{
@@ -2105,8 +2105,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode LeftShift
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftShift;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftShift
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftShift;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftShift
 		{
 			get
 			{
@@ -2122,8 +2122,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode RightControl
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightControl;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFRightControl
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightControl;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFRightControl
 		{
 			get
 			{
@@ -2139,8 +2139,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode LeftControl
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftControl;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftControl
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftControl;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftControl
 		{
 			get
 			{
@@ -2156,8 +2156,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode RightAlt
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightAlt;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFRightAlt
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightAlt;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFRightAlt
 		{
 			get
 			{
@@ -2173,8 +2173,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode LeftAlt
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftAlt;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftAlt
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftAlt;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftAlt
 		{
 			get
 			{
@@ -2190,8 +2190,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode LeftMeta
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftMeta;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftMeta
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftMeta;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftMeta
 		{
 			get
 			{
@@ -2207,8 +2207,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode LeftCommand
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftCommand;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftCommand
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftCommand;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftCommand
 		{
 			get
 			{
@@ -2224,8 +2224,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode LeftApple
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftApple;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftApple
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftApple;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftApple
 		{
 			get
 			{
@@ -2241,8 +2241,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode LeftWindows
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftWindows;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftWindows
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FLeftWindows;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFLeftWindows
 		{
 			get
 			{
@@ -2258,8 +2258,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode RightMeta
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightMeta;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFRightMeta
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightMeta;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFRightMeta
 		{
 			get
 			{
@@ -2275,8 +2275,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode RightCommand
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightCommand;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFRightCommand
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightCommand;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFRightCommand
 		{
 			get
 			{
@@ -2292,8 +2292,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode RightApple
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightApple;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFRightApple
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightApple;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFRightApple
 		{
 			get
 			{
@@ -2309,8 +2309,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode RightWindows
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightWindows;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFRightWindows
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FRightWindows;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFRightWindows
 		{
 			get
 			{
@@ -2326,8 +2326,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode AltGr
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FAltGr;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFAltGr
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FAltGr;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFAltGr
 		{
 			get
 			{
@@ -2343,8 +2343,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Help
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FHelp;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFHelp
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FHelp;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFHelp
 		{
 			get
 			{
@@ -2360,8 +2360,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Print
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FPrint;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFPrint
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FPrint;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFPrint
 		{
 			get
 			{
@@ -2377,8 +2377,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode SysReq
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FSysReq;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFSysReq
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FSysReq;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFSysReq
 		{
 			get
 			{
@@ -2394,8 +2394,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Break
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FBreak;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFBreak
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FBreak;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFBreak
 		{
 			get
 			{
@@ -2411,8 +2411,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Menu
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FMenu;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFMenu
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FMenu;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFMenu
 		{
 			get
 			{
@@ -2428,8 +2428,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Mouse0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FMouse0;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFMouse0
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FMouse0;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFMouse0
 		{
 			get
 			{
@@ -2445,8 +2445,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Mouse1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FMouse1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFMouse1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FMouse1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFMouse1
 		{
 			get
 			{
@@ -2462,8 +2462,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Mouse2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FMouse2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFMouse2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FMouse2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFMouse2
 		{
 			get
 			{
@@ -2479,8 +2479,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Mouse3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FMouse3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFMouse3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FMouse3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFMouse3
 		{
 			get
 			{
@@ -2496,8 +2496,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Mouse4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FMouse4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFMouse4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FMouse4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFMouse4
 		{
 			get
 			{
@@ -2513,8 +2513,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Mouse5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FMouse5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFMouse5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FMouse5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFMouse5
 		{
 			get
 			{
@@ -2530,8 +2530,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Mouse6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FMouse6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFMouse6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FMouse6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFMouse6
 		{
 			get
 			{
@@ -2547,8 +2547,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton0;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton0
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton0;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton0
 		{
 			get
 			{
@@ -2564,8 +2564,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton1
 		{
 			get
 			{
@@ -2581,8 +2581,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton2
 		{
 			get
 			{
@@ -2598,8 +2598,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton3
 		{
 			get
 			{
@@ -2615,8 +2615,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton4
 		{
 			get
 			{
@@ -2632,8 +2632,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton5
 		{
 			get
 			{
@@ -2649,8 +2649,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton6
 		{
 			get
 			{
@@ -2666,8 +2666,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton7
 		{
 			get
 			{
@@ -2683,8 +2683,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton8
 		{
 			get
 			{
@@ -2700,8 +2700,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton9
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton9;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton9
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton9;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton9
 		{
 			get
 			{
@@ -2717,8 +2717,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton10;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton10
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton10;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton10
 		{
 			get
 			{
@@ -2734,8 +2734,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton11
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton11;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton11
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton11;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton11
 		{
 			get
 			{
@@ -2751,8 +2751,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton12;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton12
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton12;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton12
 		{
 			get
 			{
@@ -2768,8 +2768,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton13
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton13;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton13
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton13;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton13
 		{
 			get
 			{
@@ -2785,8 +2785,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton14
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton14;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton14
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton14;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton14
 		{
 			get
 			{
@@ -2802,8 +2802,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton15
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton15;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton15
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton15;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton15
 		{
 			get
 			{
@@ -2819,8 +2819,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton16
 		{
 			get
 			{
@@ -2836,8 +2836,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton17
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton17;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton17
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton17;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton17
 		{
 			get
 			{
@@ -2853,8 +2853,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton18
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton18;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton18
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton18;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton18
 		{
 			get
 			{
@@ -2870,8 +2870,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode JoystickButton19
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton19;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton19
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystickButton19;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystickButton19
 		{
 			get
 			{
@@ -2887,8 +2887,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button0;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button0
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button0;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button0
 		{
 			get
 			{
@@ -2904,8 +2904,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button1
 		{
 			get
 			{
@@ -2921,8 +2921,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button2
 		{
 			get
 			{
@@ -2938,8 +2938,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button3
 		{
 			get
 			{
@@ -2955,8 +2955,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button4
 		{
 			get
 			{
@@ -2972,8 +2972,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button5
 		{
 			get
 			{
@@ -2989,8 +2989,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button6
 		{
 			get
 			{
@@ -3006,8 +3006,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button7
 		{
 			get
 			{
@@ -3023,8 +3023,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button8
 		{
 			get
 			{
@@ -3040,8 +3040,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button9
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button9;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button9
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button9;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button9
 		{
 			get
 			{
@@ -3057,8 +3057,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button10;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button10
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button10;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button10
 		{
 			get
 			{
@@ -3074,8 +3074,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button11
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button11;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button11
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button11;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button11
 		{
 			get
 			{
@@ -3091,8 +3091,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button12;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button12
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button12;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button12
 		{
 			get
 			{
@@ -3108,8 +3108,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button13
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button13;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button13
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button13;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button13
 		{
 			get
 			{
@@ -3125,8 +3125,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button14
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button14;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button14
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button14;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button14
 		{
 			get
 			{
@@ -3142,8 +3142,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button15
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button15;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button15
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button15;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button15
 		{
 			get
 			{
@@ -3159,8 +3159,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button16
 		{
 			get
 			{
@@ -3176,8 +3176,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button17
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button17;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button17
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button17;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button17
 		{
 			get
 			{
@@ -3193,8 +3193,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button18
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button18;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button18
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button18;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button18
 		{
 			get
 			{
@@ -3210,8 +3210,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick1Button19
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button19;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button19
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick1Button19;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick1Button19
 		{
 			get
 			{
@@ -3227,8 +3227,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button0;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button0
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button0;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button0
 		{
 			get
 			{
@@ -3244,8 +3244,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button1
 		{
 			get
 			{
@@ -3261,8 +3261,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button2
 		{
 			get
 			{
@@ -3278,8 +3278,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button3
 		{
 			get
 			{
@@ -3295,8 +3295,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button4
 		{
 			get
 			{
@@ -3312,8 +3312,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button5
 		{
 			get
 			{
@@ -3329,8 +3329,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button6
 		{
 			get
 			{
@@ -3346,8 +3346,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button7
 		{
 			get
 			{
@@ -3363,8 +3363,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button8
 		{
 			get
 			{
@@ -3380,8 +3380,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button9
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button9;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button9
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button9;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button9
 		{
 			get
 			{
@@ -3397,8 +3397,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button10;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button10
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button10;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button10
 		{
 			get
 			{
@@ -3414,8 +3414,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button11
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button11;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button11
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button11;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button11
 		{
 			get
 			{
@@ -3431,8 +3431,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button12;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button12
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button12;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button12
 		{
 			get
 			{
@@ -3448,8 +3448,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button13
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button13;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button13
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button13;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button13
 		{
 			get
 			{
@@ -3465,8 +3465,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button14
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button14;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button14
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button14;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button14
 		{
 			get
 			{
@@ -3482,8 +3482,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button15
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button15;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button15
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button15;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button15
 		{
 			get
 			{
@@ -3499,8 +3499,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button16
 		{
 			get
 			{
@@ -3516,8 +3516,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button17
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button17;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button17
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button17;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button17
 		{
 			get
 			{
@@ -3533,8 +3533,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button18
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button18;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button18
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button18;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button18
 		{
 			get
 			{
@@ -3550,8 +3550,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick2Button19
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button19;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button19
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick2Button19;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick2Button19
 		{
 			get
 			{
@@ -3567,8 +3567,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button0;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button0
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button0;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button0
 		{
 			get
 			{
@@ -3584,8 +3584,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button1
 		{
 			get
 			{
@@ -3601,8 +3601,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button2
 		{
 			get
 			{
@@ -3618,8 +3618,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button3
 		{
 			get
 			{
@@ -3635,8 +3635,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button4
 		{
 			get
 			{
@@ -3652,8 +3652,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button5
 		{
 			get
 			{
@@ -3669,8 +3669,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button6
 		{
 			get
 			{
@@ -3686,8 +3686,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button7
 		{
 			get
 			{
@@ -3703,8 +3703,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button8
 		{
 			get
 			{
@@ -3720,8 +3720,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button9
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button9;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button9
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button9;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button9
 		{
 			get
 			{
@@ -3737,8 +3737,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button10;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button10
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button10;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button10
 		{
 			get
 			{
@@ -3754,8 +3754,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button11
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button11;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button11
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button11;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button11
 		{
 			get
 			{
@@ -3771,8 +3771,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button12;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button12
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button12;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button12
 		{
 			get
 			{
@@ -3788,8 +3788,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button13
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button13;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button13
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button13;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button13
 		{
 			get
 			{
@@ -3805,8 +3805,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button14
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button14;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button14
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button14;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button14
 		{
 			get
 			{
@@ -3822,8 +3822,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button15
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button15;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button15
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button15;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button15
 		{
 			get
 			{
@@ -3839,8 +3839,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button16
 		{
 			get
 			{
@@ -3856,8 +3856,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button17
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button17;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button17
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button17;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button17
 		{
 			get
 			{
@@ -3873,8 +3873,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button18
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button18;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button18
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button18;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button18
 		{
 			get
 			{
@@ -3890,8 +3890,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick3Button19
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button19;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button19
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick3Button19;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick3Button19
 		{
 			get
 			{
@@ -3907,8 +3907,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button0;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button0
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button0;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button0
 		{
 			get
 			{
@@ -3924,8 +3924,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button1
 		{
 			get
 			{
@@ -3941,8 +3941,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button2
 		{
 			get
 			{
@@ -3958,8 +3958,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button3
 		{
 			get
 			{
@@ -3975,8 +3975,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button4
 		{
 			get
 			{
@@ -3992,8 +3992,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button5
 		{
 			get
 			{
@@ -4009,8 +4009,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button6
 		{
 			get
 			{
@@ -4026,8 +4026,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button7
 		{
 			get
 			{
@@ -4043,8 +4043,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button8
 		{
 			get
 			{
@@ -4060,8 +4060,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button9
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button9;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button9
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button9;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button9
 		{
 			get
 			{
@@ -4077,8 +4077,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button10;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button10
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button10;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button10
 		{
 			get
 			{
@@ -4094,8 +4094,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button11
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button11;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button11
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button11;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button11
 		{
 			get
 			{
@@ -4111,8 +4111,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button12;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button12
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button12;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button12
 		{
 			get
 			{
@@ -4128,8 +4128,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button13
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button13;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button13
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button13;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button13
 		{
 			get
 			{
@@ -4145,8 +4145,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button14
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button14;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button14
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button14;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button14
 		{
 			get
 			{
@@ -4162,8 +4162,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button15
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button15;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button15
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button15;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button15
 		{
 			get
 			{
@@ -4179,8 +4179,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button16
 		{
 			get
 			{
@@ -4196,8 +4196,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button17
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button17;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button17
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button17;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button17
 		{
 			get
 			{
@@ -4213,8 +4213,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button18
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button18;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button18
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button18;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button18
 		{
 			get
 			{
@@ -4230,8 +4230,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick4Button19
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button19;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button19
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick4Button19;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick4Button19
 		{
 			get
 			{
@@ -4247,8 +4247,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button0;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button0
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button0;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button0
 		{
 			get
 			{
@@ -4264,8 +4264,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button1
 		{
 			get
 			{
@@ -4281,8 +4281,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button2
 		{
 			get
 			{
@@ -4298,8 +4298,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button3
 		{
 			get
 			{
@@ -4315,8 +4315,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button4
 		{
 			get
 			{
@@ -4332,8 +4332,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button5
 		{
 			get
 			{
@@ -4349,8 +4349,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button6
 		{
 			get
 			{
@@ -4366,8 +4366,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button7
 		{
 			get
 			{
@@ -4383,8 +4383,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button8
 		{
 			get
 			{
@@ -4400,8 +4400,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button9
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button9;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button9
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button9;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button9
 		{
 			get
 			{
@@ -4417,8 +4417,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button10;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button10
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button10;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button10
 		{
 			get
 			{
@@ -4434,8 +4434,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button11
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button11;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button11
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button11;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button11
 		{
 			get
 			{
@@ -4451,8 +4451,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button12;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button12
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button12;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button12
 		{
 			get
 			{
@@ -4468,8 +4468,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button13
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button13;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button13
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button13;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button13
 		{
 			get
 			{
@@ -4485,8 +4485,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button14
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button14;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button14
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button14;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button14
 		{
 			get
 			{
@@ -4502,8 +4502,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button15
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button15;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button15
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button15;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button15
 		{
 			get
 			{
@@ -4519,8 +4519,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button16
 		{
 			get
 			{
@@ -4536,8 +4536,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button17
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button17;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button17
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button17;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button17
 		{
 			get
 			{
@@ -4553,8 +4553,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button18
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button18;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button18
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button18;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button18
 		{
 			get
 			{
@@ -4570,8 +4570,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick5Button19
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button19;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button19
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick5Button19;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick5Button19
 		{
 			get
 			{
@@ -4587,8 +4587,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button0;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button0
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button0;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button0
 		{
 			get
 			{
@@ -4604,8 +4604,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button1
 		{
 			get
 			{
@@ -4621,8 +4621,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button2
 		{
 			get
 			{
@@ -4638,8 +4638,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button3
 		{
 			get
 			{
@@ -4655,8 +4655,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button4
 		{
 			get
 			{
@@ -4672,8 +4672,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button5
 		{
 			get
 			{
@@ -4689,8 +4689,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button6
 		{
 			get
 			{
@@ -4706,8 +4706,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button7
 		{
 			get
 			{
@@ -4723,8 +4723,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button8
 		{
 			get
 			{
@@ -4740,8 +4740,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button9
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button9;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button9
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button9;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button9
 		{
 			get
 			{
@@ -4757,8 +4757,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button10;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button10
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button10;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button10
 		{
 			get
 			{
@@ -4774,8 +4774,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button11
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button11;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button11
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button11;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button11
 		{
 			get
 			{
@@ -4791,8 +4791,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button12;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button12
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button12;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button12
 		{
 			get
 			{
@@ -4808,8 +4808,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button13
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button13;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button13
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button13;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button13
 		{
 			get
 			{
@@ -4825,8 +4825,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button14
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button14;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button14
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button14;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button14
 		{
 			get
 			{
@@ -4842,8 +4842,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button15
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button15;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button15
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button15;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button15
 		{
 			get
 			{
@@ -4859,8 +4859,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button16
 		{
 			get
 			{
@@ -4876,8 +4876,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button17
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button17;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button17
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button17;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button17
 		{
 			get
 			{
@@ -4893,8 +4893,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button18
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button18;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button18
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button18;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button18
 		{
 			get
 			{
@@ -4910,8 +4910,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick6Button19
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button19;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button19
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick6Button19;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick6Button19
 		{
 			get
 			{
@@ -4927,8 +4927,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button0;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button0
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button0;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button0
 		{
 			get
 			{
@@ -4944,8 +4944,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button1
 		{
 			get
 			{
@@ -4961,8 +4961,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button2
 		{
 			get
 			{
@@ -4978,8 +4978,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button3
 		{
 			get
 			{
@@ -4995,8 +4995,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button4
 		{
 			get
 			{
@@ -5012,8 +5012,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button5
 		{
 			get
 			{
@@ -5029,8 +5029,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button6
 		{
 			get
 			{
@@ -5046,8 +5046,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button7
 		{
 			get
 			{
@@ -5063,8 +5063,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button8
 		{
 			get
 			{
@@ -5080,8 +5080,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button9
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button9;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button9
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button9;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button9
 		{
 			get
 			{
@@ -5097,8 +5097,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button10;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button10
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button10;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button10
 		{
 			get
 			{
@@ -5114,8 +5114,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button11
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button11;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button11
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button11;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button11
 		{
 			get
 			{
@@ -5131,8 +5131,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button12;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button12
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button12;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button12
 		{
 			get
 			{
@@ -5148,8 +5148,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button13
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button13;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button13
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button13;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button13
 		{
 			get
 			{
@@ -5165,8 +5165,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button14
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button14;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button14
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button14;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button14
 		{
 			get
 			{
@@ -5182,8 +5182,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button15
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button15;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button15
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button15;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button15
 		{
 			get
 			{
@@ -5199,8 +5199,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button16
 		{
 			get
 			{
@@ -5216,8 +5216,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button17
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button17;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button17
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button17;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button17
 		{
 			get
 			{
@@ -5233,8 +5233,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button18
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button18;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button18
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button18;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button18
 		{
 			get
 			{
@@ -5250,8 +5250,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick7Button19
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button19;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button19
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick7Button19;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick7Button19
 		{
 			get
 			{
@@ -5267,8 +5267,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button0
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button0;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button0
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button0;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button0
 		{
 			get
 			{
@@ -5284,8 +5284,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button1
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button1;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button1
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button1;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button1
 		{
 			get
 			{
@@ -5301,8 +5301,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button2
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button2;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button2
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button2;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button2
 		{
 			get
 			{
@@ -5318,8 +5318,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button3
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button3;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button3
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button3;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button3
 		{
 			get
 			{
@@ -5335,8 +5335,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button4
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button4;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button4
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button4;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button4
 		{
 			get
 			{
@@ -5352,8 +5352,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button5
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button5;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button5
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button5;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button5
 		{
 			get
 			{
@@ -5369,8 +5369,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button6
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button6;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button6
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button6;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button6
 		{
 			get
 			{
@@ -5386,8 +5386,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button7
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button7;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button7
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button7;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button7
 		{
 			get
 			{
@@ -5403,8 +5403,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button8
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button8;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button8
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button8;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button8
 		{
 			get
 			{
@@ -5420,8 +5420,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button9
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button9;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button9
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button9;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button9
 		{
 			get
 			{
@@ -5437,8 +5437,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button10
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button10;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button10
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button10;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button10
 		{
 			get
 			{
@@ -5454,8 +5454,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button11
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button11;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button11
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button11;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button11
 		{
 			get
 			{
@@ -5471,8 +5471,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button12
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button12;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button12
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button12;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button12
 		{
 			get
 			{
@@ -5488,8 +5488,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button13
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button13;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button13
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button13;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button13
 		{
 			get
 			{
@@ -5505,8 +5505,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button14
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button14;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button14
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button14;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button14
 		{
 			get
 			{
@@ -5522,8 +5522,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button15
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button15;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button15
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button15;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button15
 		{
 			get
 			{
@@ -5539,8 +5539,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button16
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button16;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button16
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button16;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button16
 		{
 			get
 			{
@@ -5556,8 +5556,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button17
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button17;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button17
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button17;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button17
 		{
 			get
 			{
@@ -5573,8 +5573,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button18
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button18;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button18
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button18;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button18
 		{
 			get
 			{
@@ -5590,8 +5590,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.KeyCode Joystick8Button19
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button19;
-		public static SMFrame.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button19
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode r_FJoystick8Button19;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RKeyCode RFJoystick8Button19
 		{
 			get
 			{

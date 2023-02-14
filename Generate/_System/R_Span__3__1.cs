@@ -1,9 +1,9 @@
 
-using SMFrame.Editor.Refleaction;
+using Hvak.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.RSystem
+namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
 	/// System.Span`1
@@ -14,8 +14,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ByReference`1[T] _pointer
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RByReference<SMFrame.Editor.Refleaction.RField> r_F_pointer;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RByReference<SMFrame.Editor.Refleaction.RField> RF_pointer
+		protected Hvak.Editor.Refleaction.RSystem.RByReference<Hvak.Editor.Refleaction.RField> r_F_pointer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByReference<Hvak.Editor.Refleaction.RField> RF_pointer
 		{
 			get
 			{
@@ -31,8 +31,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_F_length;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RF_length
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_F_length;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RF_length
 		{
 			get
 			{
@@ -48,8 +48,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// T& Item [Int32]
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RProperty r_PItem_Int32;
-		public virtual SMFrame.Editor.Refleaction.RProperty RPItem_Int32
+		protected Hvak.Editor.Refleaction.RProperty r_PItem_Int32;
+		public virtual Hvak.Editor.Refleaction.RProperty RPItem_Int32
 		{
 			get
 			{
@@ -65,8 +65,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RInt32 r_PLength;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RInt32 RPLength
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPLength
 		{
 			get
 			{
@@ -82,8 +82,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsEmpty
 		/// </summary>
-		protected SMFrame.Editor.Refleaction.RSystem.RBoolean r_PIsEmpty;
-		public virtual SMFrame.Editor.Refleaction.RSystem.RBoolean RPIsEmpty
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsEmpty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsEmpty
 		{
 			get
 			{
@@ -99,8 +99,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Span`1[T] Empty
 		/// </summary>
-		protected static SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RProperty> r_PEmpty;
-		public static SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RProperty> RPEmpty
+		protected static Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RProperty> r_PEmpty;
+		public static Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RProperty> RPEmpty
 		{
 			get
 			{
@@ -504,7 +504,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void CopyTo(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType> @destination)
+        public virtual void CopyTo(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @destination)
         {
 
             var ___genericsType = new Type[] {};
@@ -515,7 +515,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean TryCopyTo(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType> @destination)
+        public virtual System.Boolean TryCopyTo(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @destination)
         {
 
             var ___genericsType = new Type[] {};
@@ -526,7 +526,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Equality(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType> @left, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType> @right)
+        public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @left, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -537,14 +537,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RType> op_Implicit(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType> @span)
+        public static Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType> op_Implicit(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @span)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@span.Value};
             var ___result = RMop_Implicit_Span_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RReadOnlySpan<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -559,25 +559,25 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType> Slice(System.Int32 @start)
+        public virtual Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> Slice(System.Int32 @start)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@start};
             var ___result = RMSlice_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType> Slice(System.Int32 @start, System.Int32 @length)
+        public virtual Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> Slice(System.Int32 @start, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@start, @length};
             var ___result = RMSlice_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -592,7 +592,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Inequality(SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType> @left, SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType> @right)
+        public static System.Boolean op_Inequality(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @left, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -625,36 +625,36 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType> op_Implicit(T[] @array)
+        public static Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> op_Implicit(T[] @array)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@array};
             var ___result = RMop_Implicit_TArray.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
-        public static SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType> op_Implicit(System.ArraySegment<T> @segment)
+        public static Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType> op_Implicit(System.ArraySegment<T> @segment)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@segment};
             var ___result = RMop_Implicit_ArraySegment_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType>(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
-        public virtual SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType>.REnumerator GetEnumerator()
+        public virtual Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return new SMFrame.Editor.Refleaction.RSystem.RSpan<SMFrame.Editor.Refleaction.RType>.REnumerator(___result);
+            return new Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>.REnumerator(___result);
         }
 
 
