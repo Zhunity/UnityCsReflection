@@ -1,6 +1,7 @@
 
 using Hvak.Editor.Refleaction;
 using System;
+using System.Diagnostics;
 using System.Reflection;
 
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
@@ -140,8 +141,11 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Pversions == null)
 				{
+					UnityEngine.Debug.Log("r_Pversions before this hash code : " + GetHashCode());
 					r_Pversions = new(this, "versions", -1);
+					UnityEngine.Debug.Log("r_Pversions after this hash code : " + GetHashCode() + " version hash code : " +  r_Pversions.GetHashCode() + " this instance " + this.instance);
 					r_Pversions.SetBelong(this.instance);
+					UnityEngine.Debug.Log("r_Pversions set instacesthis hash code : " + GetHashCode() + " version hash code : " + r_Pversions.GetHashCode() + " version belong : " + r_Pversions.belong + "  version instance : " + r_Pversions.instance);
 				}
 				return r_Pversions;
 			}
@@ -392,7 +396,9 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 
         public RIPackage(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.IPackage")
 		{
+			UnityEngine.Debug.Log("before set instance new this hash code : " + GetHashCode());
             SetInstance(instance);
+			UnityEngine.Debug.Log("after set instance new this hash code : " + GetHashCode() + " this instance : " + this.instance);
 		}
 
         public RIPackage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
