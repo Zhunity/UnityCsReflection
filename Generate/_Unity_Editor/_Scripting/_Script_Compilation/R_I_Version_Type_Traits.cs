@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_MIsAllowedFirstCharacter_Char_Boolean == null)
 				{
 					r_MIsAllowedFirstCharacter_Char_Boolean = new(this, "IsAllowedFirstCharacter", 0, typeof(System.Char), typeof(System.Boolean));
-					r_MIsAllowedFirstCharacter_Char_Boolean.SetBelong(this.instance);
+					r_MIsAllowedFirstCharacter_Char_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MIsAllowedFirstCharacter_Char_Boolean;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_MIsAllowedLastCharacter_Char_Boolean == null)
 				{
 					r_MIsAllowedLastCharacter_Char_Boolean = new(this, "IsAllowedLastCharacter", 0, typeof(System.Char), typeof(System.Boolean));
-					r_MIsAllowedLastCharacter_Char_Boolean.SetBelong(this.instance);
+					r_MIsAllowedLastCharacter_Char_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MIsAllowedLastCharacter_Char_Boolean;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_MIsAllowedCharacter_Char == null)
 				{
 					r_MIsAllowedCharacter_Char = new(this, "IsAllowedCharacter", 0, typeof(System.Char));
-					r_MIsAllowedCharacter_Char.SetBelong(this.instance);
+					r_MIsAllowedCharacter_Char.SetBelong(this.GetValue());
 				}
 				return r_MIsAllowedCharacter_Char;
 			}

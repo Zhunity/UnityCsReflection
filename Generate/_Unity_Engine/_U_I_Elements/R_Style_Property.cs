@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Fm_Name == null)
 				{
 					r_Fm_Name = new(this, "m_Name");
-					r_Fm_Name.SetBelong(this.instance);
+					r_Fm_Name.SetBelong(this.GetValue());
 				}
 				return r_Fm_Name;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Fm_Line == null)
 				{
 					r_Fm_Line = new(this, "m_Line");
-					r_Fm_Line.SetBelong(this.instance);
+					r_Fm_Line.SetBelong(this.GetValue());
 				}
 				return r_Fm_Line;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Fm_Values == null)
 				{
 					r_Fm_Values = new(this, "m_Values");
-					r_Fm_Values.SetBelong(this.instance);
+					r_Fm_Values.SetBelong(this.GetValue());
 				}
 				return r_Fm_Values;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_FisCustomProperty == null)
 				{
 					r_FisCustomProperty = new(this, "isCustomProperty");
-					r_FisCustomProperty.SetBelong(this.instance);
+					r_FisCustomProperty.SetBelong(this.GetValue());
 				}
 				return r_FisCustomProperty;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_FrequireVariableResolve == null)
 				{
 					r_FrequireVariableResolve = new(this, "requireVariableResolve");
-					r_FrequireVariableResolve.SetBelong(this.instance);
+					r_FrequireVariableResolve.SetBelong(this.GetValue());
 				}
 				return r_FrequireVariableResolve;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pname == null)
 				{
 					r_Pname = new(this, "name", -1);
-					r_Pname.SetBelong(this.instance);
+					r_Pname.SetBelong(this.GetValue());
 				}
 				return r_Pname;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pline == null)
 				{
 					r_Pline = new(this, "line", -1);
-					r_Pline.SetBelong(this.instance);
+					r_Pline.SetBelong(this.GetValue());
 				}
 				return r_Pline;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pvalues == null)
 				{
 					r_Pvalues = new(this, "values", -1);
-					r_Pvalues.SetBelong(this.instance);
+					r_Pvalues.SetBelong(this.GetValue());
 				}
 				return r_Pvalues;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

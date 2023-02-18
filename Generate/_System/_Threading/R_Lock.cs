@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_F_lock == null)
 				{
 					r_F_lock = new(this, "_lock");
-					r_F_lock.SetBelong(this.instance);
+					r_F_lock.SetBelong(this.GetValue());
 				}
 				return r_F_lock;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MAcquire == null)
 				{
 					r_MAcquire = new(this, "Acquire", 0);
-					r_MAcquire.SetBelong(this.instance);
+					r_MAcquire.SetBelong(this.GetValue());
 				}
 				return r_MAcquire;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MRelease == null)
 				{
 					r_MRelease = new(this, "Release", 0);
-					r_MRelease.SetBelong(this.instance);
+					r_MRelease.SetBelong(this.GetValue());
 				}
 				return r_MRelease;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

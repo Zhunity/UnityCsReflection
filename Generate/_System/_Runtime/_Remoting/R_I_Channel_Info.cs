@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 				if(r_PChannelData == null)
 				{
 					r_PChannelData = new(this, "ChannelData", -1);
-					r_PChannelData.SetBelong(this.instance);
+					r_PChannelData.SetBelong(this.GetValue());
 				}
 				return r_PChannelData;
 			}

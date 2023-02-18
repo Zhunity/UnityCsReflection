@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 				if(r_FjobGroup == null)
 				{
 					r_FjobGroup = new(this, "jobGroup");
-					r_FjobGroup.SetBelong(this.instance);
+					r_FjobGroup.SetBelong(this.GetValue());
 				}
 				return r_FjobGroup;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 				if(r_Fversion == null)
 				{
 					r_Fversion = new(this, "version");
-					r_Fversion.SetBelong(this.instance);
+					r_Fversion.SetBelong(this.GetValue());
 				}
 				return r_Fversion;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 				if(r_FdebugVersion == null)
 				{
 					r_FdebugVersion = new(this, "debugVersion");
-					r_FdebugVersion.SetBelong(this.instance);
+					r_FdebugVersion.SetBelong(this.GetValue());
 				}
 				return r_FdebugVersion;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 				if(r_FdebugInfo == null)
 				{
 					r_FdebugInfo = new(this, "debugInfo");
-					r_FdebugInfo.SetBelong(this.instance);
+					r_FdebugInfo.SetBelong(this.GetValue());
 				}
 				return r_FdebugInfo;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 				if(r_PIsCompleted == null)
 				{
 					r_PIsCompleted = new(this, "IsCompleted", -1);
-					r_PIsCompleted.SetBelong(this.instance);
+					r_PIsCompleted.SetBelong(this.GetValue());
 				}
 				return r_PIsCompleted;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 				if(r_MComplete == null)
 				{
 					r_MComplete = new(this, "Complete", 0);
-					r_MComplete.SetBelong(this.instance);
+					r_MComplete.SetBelong(this.GetValue());
 				}
 				return r_MComplete;
 			}
@@ -379,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 				if(r_MEquals_JobHandle == null)
 				{
 					r_MEquals_JobHandle = new(this, "Equals", 0, typeof(Unity.Jobs.JobHandle));
-					r_MEquals_JobHandle.SetBelong(this.instance);
+					r_MEquals_JobHandle.SetBelong(this.GetValue());
 				}
 				return r_MEquals_JobHandle;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -447,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -532,7 +532,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -549,7 +549,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -566,7 +566,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -583,7 +583,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

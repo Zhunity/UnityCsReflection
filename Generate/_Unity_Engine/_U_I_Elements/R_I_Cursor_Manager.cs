@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MSetCursor_Cursor == null)
 				{
 					r_MSetCursor_Cursor = new(this, "SetCursor", 0, typeof(UnityEngine.UIElements.Cursor));
-					r_MSetCursor_Cursor.SetBelong(this.instance);
+					r_MSetCursor_Cursor.SetBelong(this.GetValue());
 				}
 				return r_MSetCursor_Cursor;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MResetCursor == null)
 				{
 					r_MResetCursor = new(this, "ResetCursor", 0);
-					r_MResetCursor.SetBelong(this.instance);
+					r_MResetCursor.SetBelong(this.GetValue());
 				}
 				return r_MResetCursor;
 			}

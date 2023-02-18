@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MSendEvent_EventBase == null)
 				{
 					r_MSendEvent_EventBase = new(this, "SendEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_MSendEvent_EventBase.SetBelong(this.instance);
+					r_MSendEvent_EventBase.SetBelong(this.GetValue());
 				}
 				return r_MSendEvent_EventBase;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MHandleEvent_EventBase == null)
 				{
 					r_MHandleEvent_EventBase = new(this, "HandleEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_MHandleEvent_EventBase.SetBelong(this.instance);
+					r_MHandleEvent_EventBase.SetBelong(this.GetValue());
 				}
 				return r_MHandleEvent_EventBase;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MHasTrickleDownHandlers == null)
 				{
 					r_MHasTrickleDownHandlers = new(this, "HasTrickleDownHandlers", 0);
-					r_MHasTrickleDownHandlers.SetBelong(this.instance);
+					r_MHasTrickleDownHandlers.SetBelong(this.GetValue());
 				}
 				return r_MHasTrickleDownHandlers;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MHasBubbleUpHandlers == null)
 				{
 					r_MHasBubbleUpHandlers = new(this, "HasBubbleUpHandlers", 0);
-					r_MHasBubbleUpHandlers.SetBelong(this.instance);
+					r_MHasBubbleUpHandlers.SetBelong(this.GetValue());
 				}
 				return r_MHasBubbleUpHandlers;
 			}

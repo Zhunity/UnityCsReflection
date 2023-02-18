@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MGetTypeCode == null)
 				{
 					r_MGetTypeCode = new(this, "GetTypeCode", 0);
-					r_MGetTypeCode.SetBelong(this.instance);
+					r_MGetTypeCode.SetBelong(this.GetValue());
 				}
 				return r_MGetTypeCode;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToBoolean_IFormatProvider == null)
 				{
 					r_MToBoolean_IFormatProvider = new(this, "ToBoolean", 0, typeof(System.IFormatProvider));
-					r_MToBoolean_IFormatProvider.SetBelong(this.instance);
+					r_MToBoolean_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToBoolean_IFormatProvider;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToChar_IFormatProvider == null)
 				{
 					r_MToChar_IFormatProvider = new(this, "ToChar", 0, typeof(System.IFormatProvider));
-					r_MToChar_IFormatProvider.SetBelong(this.instance);
+					r_MToChar_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToChar_IFormatProvider;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToSByte_IFormatProvider == null)
 				{
 					r_MToSByte_IFormatProvider = new(this, "ToSByte", 0, typeof(System.IFormatProvider));
-					r_MToSByte_IFormatProvider.SetBelong(this.instance);
+					r_MToSByte_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToSByte_IFormatProvider;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToByte_IFormatProvider == null)
 				{
 					r_MToByte_IFormatProvider = new(this, "ToByte", 0, typeof(System.IFormatProvider));
-					r_MToByte_IFormatProvider.SetBelong(this.instance);
+					r_MToByte_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToByte_IFormatProvider;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToInt16_IFormatProvider == null)
 				{
 					r_MToInt16_IFormatProvider = new(this, "ToInt16", 0, typeof(System.IFormatProvider));
-					r_MToInt16_IFormatProvider.SetBelong(this.instance);
+					r_MToInt16_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToInt16_IFormatProvider;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToUInt16_IFormatProvider == null)
 				{
 					r_MToUInt16_IFormatProvider = new(this, "ToUInt16", 0, typeof(System.IFormatProvider));
-					r_MToUInt16_IFormatProvider.SetBelong(this.instance);
+					r_MToUInt16_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToUInt16_IFormatProvider;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToInt32_IFormatProvider == null)
 				{
 					r_MToInt32_IFormatProvider = new(this, "ToInt32", 0, typeof(System.IFormatProvider));
-					r_MToInt32_IFormatProvider.SetBelong(this.instance);
+					r_MToInt32_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToInt32_IFormatProvider;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToUInt32_IFormatProvider == null)
 				{
 					r_MToUInt32_IFormatProvider = new(this, "ToUInt32", 0, typeof(System.IFormatProvider));
-					r_MToUInt32_IFormatProvider.SetBelong(this.instance);
+					r_MToUInt32_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToUInt32_IFormatProvider;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToInt64_IFormatProvider == null)
 				{
 					r_MToInt64_IFormatProvider = new(this, "ToInt64", 0, typeof(System.IFormatProvider));
-					r_MToInt64_IFormatProvider.SetBelong(this.instance);
+					r_MToInt64_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToInt64_IFormatProvider;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToUInt64_IFormatProvider == null)
 				{
 					r_MToUInt64_IFormatProvider = new(this, "ToUInt64", 0, typeof(System.IFormatProvider));
-					r_MToUInt64_IFormatProvider.SetBelong(this.instance);
+					r_MToUInt64_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToUInt64_IFormatProvider;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToSingle_IFormatProvider == null)
 				{
 					r_MToSingle_IFormatProvider = new(this, "ToSingle", 0, typeof(System.IFormatProvider));
-					r_MToSingle_IFormatProvider.SetBelong(this.instance);
+					r_MToSingle_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToSingle_IFormatProvider;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToDouble_IFormatProvider == null)
 				{
 					r_MToDouble_IFormatProvider = new(this, "ToDouble", 0, typeof(System.IFormatProvider));
-					r_MToDouble_IFormatProvider.SetBelong(this.instance);
+					r_MToDouble_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToDouble_IFormatProvider;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToDecimal_IFormatProvider == null)
 				{
 					r_MToDecimal_IFormatProvider = new(this, "ToDecimal", 0, typeof(System.IFormatProvider));
-					r_MToDecimal_IFormatProvider.SetBelong(this.instance);
+					r_MToDecimal_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToDecimal_IFormatProvider;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToDateTime_IFormatProvider == null)
 				{
 					r_MToDateTime_IFormatProvider = new(this, "ToDateTime", 0, typeof(System.IFormatProvider));
-					r_MToDateTime_IFormatProvider.SetBelong(this.instance);
+					r_MToDateTime_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToDateTime_IFormatProvider;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToString_IFormatProvider == null)
 				{
 					r_MToString_IFormatProvider = new(this, "ToString", 0, typeof(System.IFormatProvider));
-					r_MToString_IFormatProvider.SetBelong(this.instance);
+					r_MToString_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToString_IFormatProvider;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToType_Type_IFormatProvider == null)
 				{
 					r_MToType_Type_IFormatProvider = new(this, "ToType", 0, typeof(System.Type), typeof(System.IFormatProvider));
-					r_MToType_Type_IFormatProvider.SetBelong(this.instance);
+					r_MToType_Type_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToType_Type_IFormatProvider;
 			}

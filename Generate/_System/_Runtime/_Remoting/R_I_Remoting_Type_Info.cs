@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 				if(r_PTypeName == null)
 				{
 					r_PTypeName = new(this, "TypeName", -1);
-					r_PTypeName.SetBelong(this.instance);
+					r_PTypeName.SetBelong(this.GetValue());
 				}
 				return r_PTypeName;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 				if(r_MCanCastTo_Type_Object == null)
 				{
 					r_MCanCastTo_Type_Object = new(this, "CanCastTo", 0, typeof(System.Type), typeof(System.Object));
-					r_MCanCastTo_Type_Object.SetBelong(this.instance);
+					r_MCanCastTo_Type_Object.SetBelong(this.GetValue());
 				}
 				return r_MCanCastTo_Type_Object;
 			}

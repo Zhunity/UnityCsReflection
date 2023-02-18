@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_PIsCompleted == null)
 				{
 					r_PIsCompleted = new(this, "IsCompleted", -1);
-					r_PIsCompleted.SetBelong(this.instance);
+					r_PIsCompleted.SetBelong(this.GetValue());
 				}
 				return r_PIsCompleted;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_PAsyncWaitHandle == null)
 				{
 					r_PAsyncWaitHandle = new(this, "AsyncWaitHandle", -1);
-					r_PAsyncWaitHandle.SetBelong(this.instance);
+					r_PAsyncWaitHandle.SetBelong(this.GetValue());
 				}
 				return r_PAsyncWaitHandle;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_PAsyncState == null)
 				{
 					r_PAsyncState = new(this, "AsyncState", -1);
-					r_PAsyncState.SetBelong(this.instance);
+					r_PAsyncState.SetBelong(this.GetValue());
 				}
 				return r_PAsyncState;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_PCompletedSynchronously == null)
 				{
 					r_PCompletedSynchronously = new(this, "CompletedSynchronously", -1);
-					r_PCompletedSynchronously.SetBelong(this.instance);
+					r_PCompletedSynchronously.SetBelong(this.GetValue());
 				}
 				return r_PCompletedSynchronously;
 			}

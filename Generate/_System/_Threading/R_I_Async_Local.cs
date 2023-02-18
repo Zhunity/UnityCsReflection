@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MOnValueChanged_Object_Object_Boolean == null)
 				{
 					r_MOnValueChanged_Object_Object_Boolean = new(this, "OnValueChanged", 0, typeof(System.Object), typeof(System.Object), typeof(System.Boolean));
-					r_MOnValueChanged_Object_Object_Boolean.SetBelong(this.instance);
+					r_MOnValueChanged_Object_Object_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MOnValueChanged_Object_Object_Boolean;
 			}

@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_PObjectIdentity == null)
 				{
 					r_PObjectIdentity = new(this, "ObjectIdentity", -1);
-					r_PObjectIdentity.SetBelong(this.instance);
+					r_PObjectIdentity.SetBelong(this.GetValue());
 				}
 				return r_PObjectIdentity;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MDoCallBack_CrossContextDelegate == null)
 				{
 					r_MDoCallBack_CrossContextDelegate = new(this, "DoCallBack", 0, typeof(System.Runtime.Remoting.Contexts.CrossContextDelegate));
-					r_MDoCallBack_CrossContextDelegate.SetBelong(this.instance);
+					r_MDoCallBack_CrossContextDelegate.SetBelong(this.GetValue());
 				}
 				return r_MDoCallBack_CrossContextDelegate;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean == null)
 				{
 					r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean = new(this, "GetObjectIdentity", 0, typeof(System.MarshalByRefObject), typeof(System.Boolean).MakeByRefType());
-					r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean.SetBelong(this.instance);
+					r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MGetObjectIdentity_MarshalByRefObject_Out_Boolean;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MCreateObjRef_Type == null)
 				{
 					r_MCreateObjRef_Type = new(this, "CreateObjRef", 0, typeof(System.Type));
-					r_MCreateObjRef_Type.SetBelong(this.instance);
+					r_MCreateObjRef_Type.SetBelong(this.GetValue());
 				}
 				return r_MCreateObjRef_Type;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MGetLifetimeService == null)
 				{
 					r_MGetLifetimeService = new(this, "GetLifetimeService", 0);
-					r_MGetLifetimeService.SetBelong(this.instance);
+					r_MGetLifetimeService.SetBelong(this.GetValue());
 				}
 				return r_MGetLifetimeService;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MInitializeLifetimeService == null)
 				{
 					r_MInitializeLifetimeService = new(this, "InitializeLifetimeService", 0);
-					r_MInitializeLifetimeService.SetBelong(this.instance);
+					r_MInitializeLifetimeService.SetBelong(this.GetValue());
 				}
 				return r_MInitializeLifetimeService;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MMemberwiseClone_Boolean == null)
 				{
 					r_MMemberwiseClone_Boolean = new(this, "MemberwiseClone", 0, typeof(System.Boolean));
-					r_MMemberwiseClone_Boolean.SetBelong(this.instance);
+					r_MMemberwiseClone_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone_Boolean;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

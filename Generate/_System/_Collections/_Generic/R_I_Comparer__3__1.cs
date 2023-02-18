@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_MCompare_T_T == null)
 				{
 					r_MCompare_T_T = new(this, "Compare", 0, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(0));
-					r_MCompare_T_T.SetBelong(this.instance);
+					r_MCompare_T_T.SetBelong(this.GetValue());
 				}
 				return r_MCompare_T_T;
 			}

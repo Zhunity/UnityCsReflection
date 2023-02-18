@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MSet_GT_String_T == null)
 				{
 					r_MSet_GT_String_T = new(this, "Set", 1, typeof(System.String), Type.MakeGenericMethodParameter(0));
-					r_MSet_GT_String_T.SetBelong(this.instance);
+					r_MSet_GT_String_T.SetBelong(this.GetValue());
 				}
 				return r_MSet_GT_String_T;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGet_GT_String == null)
 				{
 					r_MGet_GT_String = new(this, "Get", 1, typeof(System.String));
-					r_MGet_GT_String.SetBelong(this.instance);
+					r_MGet_GT_String.SetBelong(this.GetValue());
 				}
 				return r_MGet_GT_String;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetScriptable_GT_String == null)
 				{
 					r_MGetScriptable_GT_String = new(this, "GetScriptable", 1, typeof(System.String));
-					r_MGetScriptable_GT_String.SetBelong(this.instance);
+					r_MGetScriptable_GT_String.SetBelong(this.GetValue());
 				}
 				return r_MGetScriptable_GT_String;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MOverwrite_Object_String == null)
 				{
 					r_MOverwrite_Object_String = new(this, "Overwrite", 0, typeof(System.Object), typeof(System.String));
-					r_MOverwrite_Object_String.SetBelong(this.instance);
+					r_MOverwrite_Object_String.SetBelong(this.GetValue());
 				}
 				return r_MOverwrite_Object_String;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MContainsKey_String == null)
 				{
 					r_MContainsKey_String = new(this, "ContainsKey", 0, typeof(System.String));
-					r_MContainsKey_String.SetBelong(this.instance);
+					r_MContainsKey_String.SetBelong(this.GetValue());
 				}
 				return r_MContainsKey_String;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MOnBeforeSerialize == null)
 				{
 					r_MOnBeforeSerialize = new(this, "OnBeforeSerialize", 0);
-					r_MOnBeforeSerialize.SetBelong(this.instance);
+					r_MOnBeforeSerialize.SetBelong(this.GetValue());
 				}
 				return r_MOnBeforeSerialize;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MOnAfterDeserialize == null)
 				{
 					r_MOnAfterDeserialize = new(this, "OnAfterDeserialize", 0);
-					r_MOnAfterDeserialize.SetBelong(this.instance);
+					r_MOnAfterDeserialize.SetBelong(this.GetValue());
 				}
 				return r_MOnAfterDeserialize;
 			}

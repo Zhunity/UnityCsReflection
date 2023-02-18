@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 				if(r_MGetStatus_Int16 == null)
 				{
 					r_MGetStatus_Int16 = new(this, "GetStatus", 0, typeof(System.Int16));
-					r_MGetStatus_Int16.SetBelong(this.instance);
+					r_MGetStatus_Int16.SetBelong(this.GetValue());
 				}
 				return r_MGetStatus_Int16;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 				if(r_MOnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags == null)
 				{
 					r_MOnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags = new(this, "OnCompleted", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Object)), typeof(System.Object), typeof(System.Int16), typeof(System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags));
-					r_MOnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags.SetBelong(this.instance);
+					r_MOnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags.SetBelong(this.GetValue());
 				}
 				return r_MOnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 				if(r_MGetResult_Int16 == null)
 				{
 					r_MGetResult_Int16 = new(this, "GetResult", 0, typeof(System.Int16));
-					r_MGetResult_Int16.SetBelong(this.instance);
+					r_MGetResult_Int16.SetBelong(this.GetValue());
 				}
 				return r_MGetResult_Int16;
 			}

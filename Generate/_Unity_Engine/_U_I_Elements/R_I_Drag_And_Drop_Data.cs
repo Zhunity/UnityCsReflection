@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PuserData == null)
 				{
 					r_PuserData = new(this, "userData", -1);
-					r_PuserData.SetBelong(this.instance);
+					r_PuserData.SetBelong(this.GetValue());
 				}
 				return r_PuserData;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PunityObjectReferences == null)
 				{
 					r_PunityObjectReferences = new(this, "unityObjectReferences", -1);
-					r_PunityObjectReferences.SetBelong(this.instance);
+					r_PunityObjectReferences.SetBelong(this.GetValue());
 				}
 				return r_PunityObjectReferences;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetGenericData_String == null)
 				{
 					r_MGetGenericData_String = new(this, "GetGenericData", 0, typeof(System.String));
-					r_MGetGenericData_String.SetBelong(this.instance);
+					r_MGetGenericData_String.SetBelong(this.GetValue());
 				}
 				return r_MGetGenericData_String;
 			}

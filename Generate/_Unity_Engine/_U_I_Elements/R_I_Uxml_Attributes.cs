@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MTryGetAttributeValue_String_Out_String == null)
 				{
 					r_MTryGetAttributeValue_String_Out_String = new(this, "TryGetAttributeValue", 0, typeof(System.String), typeof(System.String).MakeByRefType());
-					r_MTryGetAttributeValue_String_Out_String.SetBelong(this.instance);
+					r_MTryGetAttributeValue_String_Out_String.SetBelong(this.GetValue());
 				}
 				return r_MTryGetAttributeValue_String_Out_String;
 			}

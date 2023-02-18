@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Ppanel == null)
 				{
 					r_Ppanel = new(this, "panel", -1);
-					r_Ppanel.SetBelong(this.instance);
+					r_Ppanel.SetBelong(this.GetValue());
 				}
 				return r_Ppanel;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PprofilerMarker == null)
 				{
 					r_PprofilerMarker = new(this, "profilerMarker", -1);
-					r_PprofilerMarker.SetBelong(this.instance);
+					r_PprofilerMarker.SetBelong(this.GetValue());
 				}
 				return r_PprofilerMarker;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MUpdate == null)
 				{
 					r_MUpdate = new(this, "Update", 0);
-					r_MUpdate.SetBelong(this.instance);
+					r_MUpdate.SetBelong(this.GetValue());
 				}
 				return r_MUpdate;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MOnVersionChanged_VisualElement_VersionChangeType == null)
 				{
 					r_MOnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
-					r_MOnVersionChanged_VisualElement_VersionChangeType.SetBelong(this.instance);
+					r_MOnVersionChanged_VisualElement_VersionChangeType.SetBelong(this.GetValue());
 				}
 				return r_MOnVersionChanged_VisualElement_VersionChangeType;
 			}

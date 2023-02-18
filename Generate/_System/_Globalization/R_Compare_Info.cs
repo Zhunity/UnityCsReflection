@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_name == null)
 				{
 					r_Fm_name = new(this, "m_name");
-					r_Fm_name.SetBelong(this.instance);
+					r_Fm_name.SetBelong(this.GetValue());
 				}
 				return r_Fm_name;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_F_sortName == null)
 				{
 					r_F_sortName = new(this, "_sortName");
-					r_F_sortName.SetBelong(this.instance);
+					r_F_sortName.SetBelong(this.GetValue());
 				}
 				return r_F_sortName;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_SortVersion == null)
 				{
 					r_Fm_SortVersion = new(this, "m_SortVersion");
-					r_Fm_SortVersion.SetBelong(this.instance);
+					r_Fm_SortVersion.SetBelong(this.GetValue());
 				}
 				return r_Fm_SortVersion;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fculture == null)
 				{
 					r_Fculture = new(this, "culture");
-					r_Fculture.SetBelong(this.instance);
+					r_Fculture.SetBelong(this.GetValue());
 				}
 				return r_Fculture;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fcollator == null)
 				{
 					r_Fcollator = new(this, "collator");
-					r_Fcollator.SetBelong(this.instance);
+					r_Fcollator.SetBelong(this.GetValue());
 				}
 				return r_Fcollator;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PName == null)
 				{
 					r_PName = new(this, "Name", -1);
-					r_PName.SetBelong(this.instance);
+					r_PName.SetBelong(this.GetValue());
 				}
 				return r_PName;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PVersion == null)
 				{
 					r_PVersion = new(this, "Version", -1);
-					r_PVersion.SetBelong(this.instance);
+					r_PVersion.SetBelong(this.GetValue());
 				}
 				return r_PVersion;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PLCID == null)
 				{
 					r_PLCID = new(this, "LCID", -1);
-					r_PLCID.SetBelong(this.instance);
+					r_PLCID.SetBelong(this.GetValue());
 				}
 				return r_PLCID;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MInvariantCreateSortKey_String_CompareOptions == null)
 				{
 					r_MInvariantCreateSortKey_String_CompareOptions = new(this, "InvariantCreateSortKey", 0, typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MInvariantCreateSortKey_String_CompareOptions.SetBelong(this.instance);
+					r_MInvariantCreateSortKey_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MInvariantCreateSortKey_String_CompareOptions;
 			}
@@ -515,7 +515,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MOnDeserializing_StreamingContext == null)
 				{
 					r_MOnDeserializing_StreamingContext = new(this, "OnDeserializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_MOnDeserializing_StreamingContext.SetBelong(this.instance);
+					r_MOnDeserializing_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MOnDeserializing_StreamingContext;
 			}
@@ -532,7 +532,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object == null)
 				{
 					r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object = new(this, "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", 0, typeof(System.Object));
-					r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.SetBelong(this.instance);
+					r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.SetBelong(this.GetValue());
 				}
 				return r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object;
 			}
@@ -549,7 +549,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MOnDeserialized_StreamingContext == null)
 				{
 					r_MOnDeserialized_StreamingContext = new(this, "OnDeserialized", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_MOnDeserialized_StreamingContext.SetBelong(this.instance);
+					r_MOnDeserialized_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MOnDeserialized_StreamingContext;
 			}
@@ -566,7 +566,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MOnDeserialized == null)
 				{
 					r_MOnDeserialized = new(this, "OnDeserialized", 0);
-					r_MOnDeserialized.SetBelong(this.instance);
+					r_MOnDeserialized.SetBelong(this.GetValue());
 				}
 				return r_MOnDeserialized;
 			}
@@ -583,7 +583,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MOnSerializing_StreamingContext == null)
 				{
 					r_MOnSerializing_StreamingContext = new(this, "OnSerializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_MOnSerializing_StreamingContext.SetBelong(this.instance);
+					r_MOnSerializing_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MOnSerializing_StreamingContext;
 			}
@@ -600,7 +600,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCompare_String_String == null)
 				{
 					r_MCompare_String_String = new(this, "Compare", 0, typeof(System.String), typeof(System.String));
-					r_MCompare_String_String.SetBelong(this.instance);
+					r_MCompare_String_String.SetBelong(this.GetValue());
 				}
 				return r_MCompare_String_String;
 			}
@@ -617,7 +617,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCompare_String_String_CompareOptions == null)
 				{
 					r_MCompare_String_String_CompareOptions = new(this, "Compare", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MCompare_String_String_CompareOptions.SetBelong(this.instance);
+					r_MCompare_String_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MCompare_String_String_CompareOptions;
 			}
@@ -634,7 +634,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCompare_ReadOnlySpan_d_Char_p__String_CompareOptions == null)
 				{
 					r_MCompare_ReadOnlySpan_d_Char_p__String_CompareOptions = new(this, "Compare", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MCompare_ReadOnlySpan_d_Char_p__String_CompareOptions.SetBelong(this.instance);
+					r_MCompare_ReadOnlySpan_d_Char_p__String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MCompare_ReadOnlySpan_d_Char_p__String_CompareOptions;
 			}
@@ -651,7 +651,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCompareOptionNone_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_ == null)
 				{
 					r_MCompareOptionNone_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_ = new(this, "CompareOptionNone", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
-					r_MCompareOptionNone_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.SetBelong(this.instance);
+					r_MCompareOptionNone_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.SetBelong(this.GetValue());
 				}
 				return r_MCompareOptionNone_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_;
 			}
@@ -668,7 +668,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCompareOptionIgnoreCase_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_ == null)
 				{
 					r_MCompareOptionIgnoreCase_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_ = new(this, "CompareOptionIgnoreCase", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
-					r_MCompareOptionIgnoreCase_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.SetBelong(this.instance);
+					r_MCompareOptionIgnoreCase_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.SetBelong(this.GetValue());
 				}
 				return r_MCompareOptionIgnoreCase_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_;
 			}
@@ -685,7 +685,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCompare_String_Int32_Int32_String_Int32_Int32 == null)
 				{
 					r_MCompare_String_Int32_Int32_String_Int32_Int32 = new(this, "Compare", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
-					r_MCompare_String_Int32_Int32_String_Int32_Int32.SetBelong(this.instance);
+					r_MCompare_String_Int32_Int32_String_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MCompare_String_Int32_Int32_String_Int32_Int32;
 			}
@@ -702,7 +702,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCompare_String_Int32_String_Int32_CompareOptions == null)
 				{
 					r_MCompare_String_Int32_String_Int32_CompareOptions = new(this, "Compare", 0, typeof(System.String), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MCompare_String_Int32_String_Int32_CompareOptions.SetBelong(this.instance);
+					r_MCompare_String_Int32_String_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MCompare_String_Int32_String_Int32_CompareOptions;
 			}
@@ -719,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCompare_String_Int32_String_Int32 == null)
 				{
 					r_MCompare_String_Int32_String_Int32 = new(this, "Compare", 0, typeof(System.String), typeof(System.Int32), typeof(System.String), typeof(System.Int32));
-					r_MCompare_String_Int32_String_Int32.SetBelong(this.instance);
+					r_MCompare_String_Int32_String_Int32.SetBelong(this.GetValue());
 				}
 				return r_MCompare_String_Int32_String_Int32;
 			}
@@ -736,7 +736,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions == null)
 				{
 					r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions = new(this, "Compare", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions;
 			}
@@ -787,7 +787,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsPrefix_String_String_CompareOptions == null)
 				{
 					r_MIsPrefix_String_String_CompareOptions = new(this, "IsPrefix", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MIsPrefix_String_String_CompareOptions.SetBelong(this.instance);
+					r_MIsPrefix_String_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIsPrefix_String_String_CompareOptions;
 			}
@@ -804,7 +804,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsPrefix_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions == null)
 				{
 					r_MIsPrefix_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions = new(this, "IsPrefix", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Globalization.CompareOptions));
-					r_MIsPrefix_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.SetBelong(this.instance);
+					r_MIsPrefix_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIsPrefix_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions;
 			}
@@ -821,7 +821,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsPrefix_String_String == null)
 				{
 					r_MIsPrefix_String_String = new(this, "IsPrefix", 0, typeof(System.String), typeof(System.String));
-					r_MIsPrefix_String_String.SetBelong(this.instance);
+					r_MIsPrefix_String_String.SetBelong(this.GetValue());
 				}
 				return r_MIsPrefix_String_String;
 			}
@@ -838,7 +838,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsSuffix_String_String_CompareOptions == null)
 				{
 					r_MIsSuffix_String_String_CompareOptions = new(this, "IsSuffix", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MIsSuffix_String_String_CompareOptions.SetBelong(this.instance);
+					r_MIsSuffix_String_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIsSuffix_String_String_CompareOptions;
 			}
@@ -855,7 +855,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsSuffix_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions == null)
 				{
 					r_MIsSuffix_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions = new(this, "IsSuffix", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Globalization.CompareOptions));
-					r_MIsSuffix_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.SetBelong(this.instance);
+					r_MIsSuffix_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIsSuffix_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions;
 			}
@@ -872,7 +872,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsSuffix_String_String == null)
 				{
 					r_MIsSuffix_String_String = new(this, "IsSuffix", 0, typeof(System.String), typeof(System.String));
-					r_MIsSuffix_String_String.SetBelong(this.instance);
+					r_MIsSuffix_String_String.SetBelong(this.GetValue());
 				}
 				return r_MIsSuffix_String_String;
 			}
@@ -889,7 +889,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_Char == null)
 				{
 					r_MIndexOf_String_Char = new(this, "IndexOf", 0, typeof(System.String), typeof(System.Char));
-					r_MIndexOf_String_Char.SetBelong(this.instance);
+					r_MIndexOf_String_Char.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_Char;
 			}
@@ -906,7 +906,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_String == null)
 				{
 					r_MIndexOf_String_String = new(this, "IndexOf", 0, typeof(System.String), typeof(System.String));
-					r_MIndexOf_String_String.SetBelong(this.instance);
+					r_MIndexOf_String_String.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_String;
 			}
@@ -923,7 +923,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_Char_CompareOptions == null)
 				{
 					r_MIndexOf_String_Char_CompareOptions = new(this, "IndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Globalization.CompareOptions));
-					r_MIndexOf_String_Char_CompareOptions.SetBelong(this.instance);
+					r_MIndexOf_String_Char_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_Char_CompareOptions;
 			}
@@ -940,7 +940,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_String_CompareOptions == null)
 				{
 					r_MIndexOf_String_String_CompareOptions = new(this, "IndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MIndexOf_String_String_CompareOptions.SetBelong(this.instance);
+					r_MIndexOf_String_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_String_CompareOptions;
 			}
@@ -957,7 +957,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_Char_Int32 == null)
 				{
 					r_MIndexOf_String_Char_Int32 = new(this, "IndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Int32));
-					r_MIndexOf_String_Char_Int32.SetBelong(this.instance);
+					r_MIndexOf_String_Char_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_Char_Int32;
 			}
@@ -974,7 +974,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_String_Int32 == null)
 				{
 					r_MIndexOf_String_String_Int32 = new(this, "IndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32));
-					r_MIndexOf_String_String_Int32.SetBelong(this.instance);
+					r_MIndexOf_String_String_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_String_Int32;
 			}
@@ -991,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_Char_Int32_CompareOptions == null)
 				{
 					r_MIndexOf_String_Char_Int32_CompareOptions = new(this, "IndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MIndexOf_String_Char_Int32_CompareOptions.SetBelong(this.instance);
+					r_MIndexOf_String_Char_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_Char_Int32_CompareOptions;
 			}
@@ -1008,7 +1008,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_String_Int32_CompareOptions == null)
 				{
 					r_MIndexOf_String_String_Int32_CompareOptions = new(this, "IndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MIndexOf_String_String_Int32_CompareOptions.SetBelong(this.instance);
+					r_MIndexOf_String_String_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_String_Int32_CompareOptions;
 			}
@@ -1025,7 +1025,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_Char_Int32_Int32 == null)
 				{
 					r_MIndexOf_String_Char_Int32_Int32 = new(this, "IndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Int32), typeof(System.Int32));
-					r_MIndexOf_String_Char_Int32_Int32.SetBelong(this.instance);
+					r_MIndexOf_String_Char_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_Char_Int32_Int32;
 			}
@@ -1042,7 +1042,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_String_Int32_Int32 == null)
 				{
 					r_MIndexOf_String_String_Int32_Int32 = new(this, "IndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
-					r_MIndexOf_String_String_Int32_Int32.SetBelong(this.instance);
+					r_MIndexOf_String_String_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_String_Int32_Int32;
 			}
@@ -1059,7 +1059,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_Char_Int32_Int32_CompareOptions == null)
 				{
 					r_MIndexOf_String_Char_Int32_Int32_CompareOptions = new(this, "IndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MIndexOf_String_Char_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MIndexOf_String_Char_Int32_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_Char_Int32_Int32_CompareOptions;
 			}
@@ -1076,7 +1076,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_String_Int32_Int32_CompareOptions == null)
 				{
 					r_MIndexOf_String_String_Int32_Int32_CompareOptions = new(this, "IndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MIndexOf_String_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MIndexOf_String_String_Int32_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_String_Int32_Int32_CompareOptions;
 			}
@@ -1093,7 +1093,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOfOrdinal_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean == null)
 				{
 					r_MIndexOfOrdinal_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean = new(this, "IndexOfOrdinal", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Boolean));
-					r_MIndexOfOrdinal_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean.SetBelong(this.instance);
+					r_MIndexOfOrdinal_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean.SetBelong(this.GetValue());
 				}
 				return r_MIndexOfOrdinal_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean;
 			}
@@ -1110,7 +1110,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions == null)
 				{
 					r_MIndexOf_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions = new(this, "IndexOf", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Globalization.CompareOptions));
-					r_MIndexOf_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.SetBelong(this.instance);
+					r_MIndexOf_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions;
 			}
@@ -1127,7 +1127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_String_Int32_Int32_CompareOptions_Int32Pointer == null)
 				{
 					r_MIndexOf_String_String_Int32_Int32_CompareOptions_Int32Pointer = new(this, "IndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions), typeof(System.Int32).MakePointerType());
-					r_MIndexOf_String_String_Int32_Int32_CompareOptions_Int32Pointer.SetBelong(this.instance);
+					r_MIndexOf_String_String_Int32_Int32_CompareOptions_Int32Pointer.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_String_Int32_Int32_CompareOptions_Int32Pointer;
 			}
@@ -1144,7 +1144,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOfOrdinal_String_String_Int32_Int32_Boolean == null)
 				{
 					r_MIndexOfOrdinal_String_String_Int32_Int32_Boolean = new(this, "IndexOfOrdinal", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean));
-					r_MIndexOfOrdinal_String_String_Int32_Int32_Boolean.SetBelong(this.instance);
+					r_MIndexOfOrdinal_String_String_Int32_Int32_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MIndexOfOrdinal_String_String_Int32_Int32_Boolean;
 			}
@@ -1161,7 +1161,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_Char == null)
 				{
 					r_MLastIndexOf_String_Char = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.Char));
-					r_MLastIndexOf_String_Char.SetBelong(this.instance);
+					r_MLastIndexOf_String_Char.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_Char;
 			}
@@ -1178,7 +1178,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_String == null)
 				{
 					r_MLastIndexOf_String_String = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.String));
-					r_MLastIndexOf_String_String.SetBelong(this.instance);
+					r_MLastIndexOf_String_String.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_String;
 			}
@@ -1195,7 +1195,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_Char_CompareOptions == null)
 				{
 					r_MLastIndexOf_String_Char_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Globalization.CompareOptions));
-					r_MLastIndexOf_String_Char_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOf_String_Char_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_Char_CompareOptions;
 			}
@@ -1212,7 +1212,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_String_CompareOptions == null)
 				{
 					r_MLastIndexOf_String_String_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MLastIndexOf_String_String_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOf_String_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_String_CompareOptions;
 			}
@@ -1229,7 +1229,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_Char_Int32 == null)
 				{
 					r_MLastIndexOf_String_Char_Int32 = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Int32));
-					r_MLastIndexOf_String_Char_Int32.SetBelong(this.instance);
+					r_MLastIndexOf_String_Char_Int32.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_Char_Int32;
 			}
@@ -1246,7 +1246,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_String_Int32 == null)
 				{
 					r_MLastIndexOf_String_String_Int32 = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32));
-					r_MLastIndexOf_String_String_Int32.SetBelong(this.instance);
+					r_MLastIndexOf_String_String_Int32.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_String_Int32;
 			}
@@ -1263,7 +1263,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_Char_Int32_CompareOptions == null)
 				{
 					r_MLastIndexOf_String_Char_Int32_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MLastIndexOf_String_Char_Int32_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOf_String_Char_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_Char_Int32_CompareOptions;
 			}
@@ -1280,7 +1280,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_String_Int32_CompareOptions == null)
 				{
 					r_MLastIndexOf_String_String_Int32_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MLastIndexOf_String_String_Int32_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOf_String_String_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_String_Int32_CompareOptions;
 			}
@@ -1297,7 +1297,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_Char_Int32_Int32 == null)
 				{
 					r_MLastIndexOf_String_Char_Int32_Int32 = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Int32), typeof(System.Int32));
-					r_MLastIndexOf_String_Char_Int32_Int32.SetBelong(this.instance);
+					r_MLastIndexOf_String_Char_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_Char_Int32_Int32;
 			}
@@ -1314,7 +1314,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_String_Int32_Int32 == null)
 				{
 					r_MLastIndexOf_String_String_Int32_Int32 = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
-					r_MLastIndexOf_String_String_Int32_Int32.SetBelong(this.instance);
+					r_MLastIndexOf_String_String_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_String_Int32_Int32;
 			}
@@ -1331,7 +1331,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions == null)
 				{
 					r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions;
 			}
@@ -1348,7 +1348,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_String_Int32_Int32_CompareOptions == null)
 				{
 					r_MLastIndexOf_String_String_Int32_Int32_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MLastIndexOf_String_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOf_String_String_Int32_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_String_Int32_Int32_CompareOptions;
 			}
@@ -1365,7 +1365,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOfOrdinal_String_String_Int32_Int32_Boolean == null)
 				{
 					r_MLastIndexOfOrdinal_String_String_Int32_Int32_Boolean = new(this, "LastIndexOfOrdinal", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean));
-					r_MLastIndexOfOrdinal_String_String_Int32_Int32_Boolean.SetBelong(this.instance);
+					r_MLastIndexOfOrdinal_String_String_Int32_Int32_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOfOrdinal_String_String_Int32_Int32_Boolean;
 			}
@@ -1382,7 +1382,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetSortKey_String_CompareOptions == null)
 				{
 					r_MGetSortKey_String_CompareOptions = new(this, "GetSortKey", 0, typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MGetSortKey_String_CompareOptions.SetBelong(this.instance);
+					r_MGetSortKey_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MGetSortKey_String_CompareOptions;
 			}
@@ -1399,7 +1399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetSortKey_String == null)
 				{
 					r_MGetSortKey_String = new(this, "GetSortKey", 0, typeof(System.String));
-					r_MGetSortKey_String.SetBelong(this.instance);
+					r_MGetSortKey_String.SetBelong(this.GetValue());
 				}
 				return r_MGetSortKey_String;
 			}
@@ -1416,7 +1416,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -1433,7 +1433,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -1467,7 +1467,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetHashCodeOfString_String_CompareOptions == null)
 				{
 					r_MGetHashCodeOfString_String_CompareOptions = new(this, "GetHashCodeOfString", 0, typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MGetHashCodeOfString_String_CompareOptions.SetBelong(this.instance);
+					r_MGetHashCodeOfString_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCodeOfString_String_CompareOptions;
 			}
@@ -1484,7 +1484,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetHashCode_String_CompareOptions == null)
 				{
 					r_MGetHashCode_String_CompareOptions = new(this, "GetHashCode", 0, typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MGetHashCode_String_CompareOptions.SetBelong(this.instance);
+					r_MGetHashCode_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode_String_CompareOptions;
 			}
@@ -1501,7 +1501,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -1518,7 +1518,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetCollator == null)
 				{
 					r_MGetCollator = new(this, "GetCollator", 0);
-					r_MGetCollator.SetBelong(this.instance);
+					r_MGetCollator.SetBelong(this.GetValue());
 				}
 				return r_MGetCollator;
 			}
@@ -1535,7 +1535,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCreateSortKeyCore_String_CompareOptions == null)
 				{
 					r_MCreateSortKeyCore_String_CompareOptions = new(this, "CreateSortKeyCore", 0, typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MCreateSortKeyCore_String_CompareOptions.SetBelong(this.instance);
+					r_MCreateSortKeyCore_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MCreateSortKeyCore_String_CompareOptions;
 			}
@@ -1552,7 +1552,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Minternal_index_switch_String_Int32_Int32_String_CompareOptions_Boolean == null)
 				{
 					r_Minternal_index_switch_String_Int32_Int32_String_CompareOptions_Boolean = new(this, "internal_index_switch", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Globalization.CompareOptions), typeof(System.Boolean));
-					r_Minternal_index_switch_String_Int32_Int32_String_CompareOptions_Boolean.SetBelong(this.instance);
+					r_Minternal_index_switch_String_Int32_Int32_String_CompareOptions_Boolean.SetBelong(this.GetValue());
 				}
 				return r_Minternal_index_switch_String_Int32_Int32_String_CompareOptions_Boolean;
 			}
@@ -1569,7 +1569,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Minternal_compare_switch_String_Int32_Int32_String_Int32_Int32_CompareOptions == null)
 				{
 					r_Minternal_compare_switch_String_Int32_Int32_String_Int32_Int32_CompareOptions = new(this, "internal_compare_switch", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_Minternal_compare_switch_String_Int32_Int32_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_Minternal_compare_switch_String_Int32_Int32_String_Int32_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_Minternal_compare_switch_String_Int32_Int32_String_Int32_Int32_CompareOptions;
 			}
@@ -1586,7 +1586,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Minternal_compare_managed_String_Int32_Int32_String_Int32_Int32_CompareOptions == null)
 				{
 					r_Minternal_compare_managed_String_Int32_Int32_String_Int32_Int32_CompareOptions = new(this, "internal_compare_managed", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_Minternal_compare_managed_String_Int32_Int32_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_Minternal_compare_managed_String_Int32_Int32_String_Int32_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_Minternal_compare_managed_String_Int32_Int32_String_Int32_Int32_CompareOptions;
 			}
@@ -1603,7 +1603,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Minternal_index_managed_String_Int32_Int32_Char_CompareOptions_Boolean == null)
 				{
 					r_Minternal_index_managed_String_Int32_Int32_Char_CompareOptions_Boolean = new(this, "internal_index_managed", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Char), typeof(System.Globalization.CompareOptions), typeof(System.Boolean));
-					r_Minternal_index_managed_String_Int32_Int32_Char_CompareOptions_Boolean.SetBelong(this.instance);
+					r_Minternal_index_managed_String_Int32_Int32_Char_CompareOptions_Boolean.SetBelong(this.GetValue());
 				}
 				return r_Minternal_index_managed_String_Int32_Int32_Char_CompareOptions_Boolean;
 			}
@@ -1620,7 +1620,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Minternal_index_managed_String_Int32_Int32_String_CompareOptions_Boolean == null)
 				{
 					r_Minternal_index_managed_String_Int32_Int32_String_CompareOptions_Boolean = new(this, "internal_index_managed", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Globalization.CompareOptions), typeof(System.Boolean));
-					r_Minternal_index_managed_String_Int32_Int32_String_CompareOptions_Boolean.SetBelong(this.instance);
+					r_Minternal_index_managed_String_Int32_Int32_String_CompareOptions_Boolean.SetBelong(this.GetValue());
 				}
 				return r_Minternal_index_managed_String_Int32_Int32_String_CompareOptions_Boolean;
 			}
@@ -1705,7 +1705,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MInitSort_CultureInfo == null)
 				{
 					r_MInitSort_CultureInfo = new(this, "InitSort", 0, typeof(System.Globalization.CultureInfo));
-					r_MInitSort_CultureInfo.SetBelong(this.instance);
+					r_MInitSort_CultureInfo.SetBelong(this.GetValue());
 				}
 				return r_MInitSort_CultureInfo;
 			}
@@ -1773,7 +1773,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOfCore_String_String_Int32_Int32_CompareOptions == null)
 				{
 					r_MLastIndexOfCore_String_String_Int32_Int32_CompareOptions = new(this, "LastIndexOfCore", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MLastIndexOfCore_String_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOfCore_String_String_Int32_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOfCore_String_String_Int32_Int32_CompareOptions;
 			}
@@ -1790,7 +1790,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOfCore_String_String_Int32_Int32_CompareOptions_Int32Pointer == null)
 				{
 					r_MIndexOfCore_String_String_Int32_Int32_CompareOptions_Int32Pointer = new(this, "IndexOfCore", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions), typeof(System.Int32).MakePointerType());
-					r_MIndexOfCore_String_String_Int32_Int32_CompareOptions_Int32Pointer.SetBelong(this.instance);
+					r_MIndexOfCore_String_String_Int32_Int32_CompareOptions_Int32Pointer.SetBelong(this.GetValue());
 				}
 				return r_MIndexOfCore_String_String_Int32_Int32_CompareOptions_Int32Pointer;
 			}
@@ -1807,7 +1807,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOfCore_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions_Int32Pointer == null)
 				{
 					r_MIndexOfCore_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions_Int32Pointer = new(this, "IndexOfCore", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Globalization.CompareOptions), typeof(System.Int32).MakePointerType());
-					r_MIndexOfCore_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions_Int32Pointer.SetBelong(this.instance);
+					r_MIndexOfCore_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions_Int32Pointer.SetBelong(this.GetValue());
 				}
 				return r_MIndexOfCore_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions_Int32Pointer;
 			}
@@ -1824,7 +1824,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOfOrdinalCore_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean == null)
 				{
 					r_MIndexOfOrdinalCore_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean = new(this, "IndexOfOrdinalCore", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Boolean));
-					r_MIndexOfOrdinalCore_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean.SetBelong(this.instance);
+					r_MIndexOfOrdinalCore_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean.SetBelong(this.GetValue());
 				}
 				return r_MIndexOfOrdinalCore_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean;
 			}
@@ -1841,7 +1841,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCompareString_ReadOnlySpan_d_Char_p__String_CompareOptions == null)
 				{
 					r_MCompareString_ReadOnlySpan_d_Char_p__String_CompareOptions = new(this, "CompareString", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MCompareString_ReadOnlySpan_d_Char_p__String_CompareOptions.SetBelong(this.instance);
+					r_MCompareString_ReadOnlySpan_d_Char_p__String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MCompareString_ReadOnlySpan_d_Char_p__String_CompareOptions;
 			}
@@ -1858,7 +1858,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCompareString_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions == null)
 				{
 					r_MCompareString_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions = new(this, "CompareString", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Globalization.CompareOptions));
-					r_MCompareString_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.SetBelong(this.instance);
+					r_MCompareString_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MCompareString_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions;
 			}
@@ -1892,7 +1892,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCreateSortKey_String_CompareOptions == null)
 				{
 					r_MCreateSortKey_String_CompareOptions = new(this, "CreateSortKey", 0, typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MCreateSortKey_String_CompareOptions.SetBelong(this.instance);
+					r_MCreateSortKey_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MCreateSortKey_String_CompareOptions;
 			}
@@ -1909,7 +1909,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MStartsWith_String_String_CompareOptions == null)
 				{
 					r_MStartsWith_String_String_CompareOptions = new(this, "StartsWith", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MStartsWith_String_String_CompareOptions.SetBelong(this.instance);
+					r_MStartsWith_String_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MStartsWith_String_String_CompareOptions;
 			}
@@ -1926,7 +1926,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MStartsWith_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions == null)
 				{
 					r_MStartsWith_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions = new(this, "StartsWith", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Globalization.CompareOptions));
-					r_MStartsWith_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.SetBelong(this.instance);
+					r_MStartsWith_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MStartsWith_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions;
 			}
@@ -1943,7 +1943,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MEndsWith_String_String_CompareOptions == null)
 				{
 					r_MEndsWith_String_String_CompareOptions = new(this, "EndsWith", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MEndsWith_String_String_CompareOptions.SetBelong(this.instance);
+					r_MEndsWith_String_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MEndsWith_String_String_CompareOptions;
 			}
@@ -1960,7 +1960,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MEndsWith_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions == null)
 				{
 					r_MEndsWith_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions = new(this, "EndsWith", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Globalization.CompareOptions));
-					r_MEndsWith_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.SetBelong(this.instance);
+					r_MEndsWith_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MEndsWith_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions;
 			}
@@ -1977,7 +1977,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetHashCodeOfStringCore_String_CompareOptions == null)
 				{
 					r_MGetHashCodeOfStringCore_String_CompareOptions = new(this, "GetHashCodeOfStringCore", 0, typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MGetHashCodeOfStringCore_String_CompareOptions.SetBelong(this.instance);
+					r_MGetHashCodeOfStringCore_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCodeOfStringCore_String_CompareOptions;
 			}
@@ -1994,7 +1994,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetSortVersion == null)
 				{
 					r_MGetSortVersion = new(this, "GetSortVersion", 0);
-					r_MGetSortVersion.SetBelong(this.instance);
+					r_MGetSortVersion.SetBelong(this.GetValue());
 				}
 				return r_MGetSortVersion;
 			}
@@ -2011,7 +2011,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -2028,7 +2028,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -2045,7 +2045,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

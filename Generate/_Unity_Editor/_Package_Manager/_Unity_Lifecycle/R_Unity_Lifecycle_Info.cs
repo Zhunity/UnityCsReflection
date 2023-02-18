@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_Fm_Version == null)
 				{
 					r_Fm_Version = new(this, "m_Version");
-					r_Fm_Version.SetBelong(this.instance);
+					r_Fm_Version.SetBelong(this.GetValue());
 				}
 				return r_Fm_Version;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_Fm_NextVersion == null)
 				{
 					r_Fm_NextVersion = new(this, "m_NextVersion");
-					r_Fm_NextVersion.SetBelong(this.instance);
+					r_Fm_NextVersion.SetBelong(this.GetValue());
 				}
 				return r_Fm_NextVersion;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_Fm_RecommendedVersion == null)
 				{
 					r_Fm_RecommendedVersion = new(this, "m_RecommendedVersion");
-					r_Fm_RecommendedVersion.SetBelong(this.instance);
+					r_Fm_RecommendedVersion.SetBelong(this.GetValue());
 				}
 				return r_Fm_RecommendedVersion;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_Fm_IsDeprecated == null)
 				{
 					r_Fm_IsDeprecated = new(this, "m_IsDeprecated");
-					r_Fm_IsDeprecated.SetBelong(this.instance);
+					r_Fm_IsDeprecated.SetBelong(this.GetValue());
 				}
 				return r_Fm_IsDeprecated;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_Fm_DeprecationMessage == null)
 				{
 					r_Fm_DeprecationMessage = new(this, "m_DeprecationMessage");
-					r_Fm_DeprecationMessage.SetBelong(this.instance);
+					r_Fm_DeprecationMessage.SetBelong(this.GetValue());
 				}
 				return r_Fm_DeprecationMessage;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_Pversion == null)
 				{
 					r_Pversion = new(this, "version", -1);
-					r_Pversion.SetBelong(this.instance);
+					r_Pversion.SetBelong(this.GetValue());
 				}
 				return r_Pversion;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_PnextVersion == null)
 				{
 					r_PnextVersion = new(this, "nextVersion", -1);
-					r_PnextVersion.SetBelong(this.instance);
+					r_PnextVersion.SetBelong(this.GetValue());
 				}
 				return r_PnextVersion;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_PrecommendedVersion == null)
 				{
 					r_PrecommendedVersion = new(this, "recommendedVersion", -1);
-					r_PrecommendedVersion.SetBelong(this.instance);
+					r_PrecommendedVersion.SetBelong(this.GetValue());
 				}
 				return r_PrecommendedVersion;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_PisDeprecated == null)
 				{
 					r_PisDeprecated = new(this, "isDeprecated", -1);
-					r_PisDeprecated.SetBelong(this.instance);
+					r_PisDeprecated.SetBelong(this.GetValue());
 				}
 				return r_PisDeprecated;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_PdeprecationMessage == null)
 				{
 					r_PdeprecationMessage = new(this, "deprecationMessage", -1);
-					r_PdeprecationMessage.SetBelong(this.instance);
+					r_PdeprecationMessage.SetBelong(this.GetValue());
 				}
 				return r_PdeprecationMessage;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

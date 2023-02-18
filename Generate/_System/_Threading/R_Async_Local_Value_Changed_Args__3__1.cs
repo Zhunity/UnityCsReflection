@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_F__0__PreviousValue__1__k__BackingField == null)
 				{
 					r_F__0__PreviousValue__1__k__BackingField = new(this, "<PreviousValue>k__BackingField");
-					r_F__0__PreviousValue__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__PreviousValue__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__PreviousValue__1__k__BackingField;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_F__0__CurrentValue__1__k__BackingField == null)
 				{
 					r_F__0__CurrentValue__1__k__BackingField = new(this, "<CurrentValue>k__BackingField");
-					r_F__0__CurrentValue__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__CurrentValue__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__CurrentValue__1__k__BackingField;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_F__0__ThreadContextChanged__1__k__BackingField == null)
 				{
 					r_F__0__ThreadContextChanged__1__k__BackingField = new(this, "<ThreadContextChanged>k__BackingField");
-					r_F__0__ThreadContextChanged__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__ThreadContextChanged__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__ThreadContextChanged__1__k__BackingField;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_PPreviousValue == null)
 				{
 					r_PPreviousValue = new(this, "PreviousValue", -1);
-					r_PPreviousValue.SetBelong(this.instance);
+					r_PPreviousValue.SetBelong(this.GetValue());
 				}
 				return r_PPreviousValue;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_PCurrentValue == null)
 				{
 					r_PCurrentValue = new(this, "CurrentValue", -1);
-					r_PCurrentValue.SetBelong(this.instance);
+					r_PCurrentValue.SetBelong(this.GetValue());
 				}
 				return r_PCurrentValue;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_PThreadContextChanged == null)
 				{
 					r_PThreadContextChanged = new(this, "ThreadContextChanged", -1);
-					r_PThreadContextChanged.SetBelong(this.instance);
+					r_PThreadContextChanged.SetBelong(this.GetValue());
 				}
 				return r_PThreadContextChanged;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

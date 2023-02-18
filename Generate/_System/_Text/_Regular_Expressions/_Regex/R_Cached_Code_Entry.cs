@@ -24,7 +24,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_FNext == null)
 				{
 					r_FNext = new(this, "Next");
-					r_FNext.SetBelong(this.instance);
+					r_FNext.SetBelong(this.GetValue());
 				}
 				return r_FNext;
 			}
@@ -41,7 +41,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_FPrevious == null)
 				{
 					r_FPrevious = new(this, "Previous");
-					r_FPrevious.SetBelong(this.instance);
+					r_FPrevious.SetBelong(this.GetValue());
 				}
 				return r_FPrevious;
 			}
@@ -58,7 +58,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_FKey == null)
 				{
 					r_FKey = new(this, "Key");
-					r_FKey.SetBelong(this.instance);
+					r_FKey.SetBelong(this.GetValue());
 				}
 				return r_FKey;
 			}
@@ -75,7 +75,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_FCode == null)
 				{
 					r_FCode = new(this, "Code");
-					r_FCode.SetBelong(this.instance);
+					r_FCode.SetBelong(this.GetValue());
 				}
 				return r_FCode;
 			}
@@ -92,7 +92,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_FCaps == null)
 				{
 					r_FCaps = new(this, "Caps");
-					r_FCaps.SetBelong(this.instance);
+					r_FCaps.SetBelong(this.GetValue());
 				}
 				return r_FCaps;
 			}
@@ -109,7 +109,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_FCapnames == null)
 				{
 					r_FCapnames = new(this, "Capnames");
-					r_FCapnames.SetBelong(this.instance);
+					r_FCapnames.SetBelong(this.GetValue());
 				}
 				return r_FCapnames;
 			}
@@ -126,7 +126,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_FCapslist == null)
 				{
 					r_FCapslist = new(this, "Capslist");
-					r_FCapslist.SetBelong(this.instance);
+					r_FCapslist.SetBelong(this.GetValue());
 				}
 				return r_FCapslist;
 			}
@@ -143,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_FFactory == null)
 				{
 					r_FFactory = new(this, "Factory");
-					r_FFactory.SetBelong(this.instance);
+					r_FFactory.SetBelong(this.GetValue());
 				}
 				return r_FFactory;
 			}
@@ -160,7 +160,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_FCapsize == null)
 				{
 					r_FCapsize = new(this, "Capsize");
-					r_FCapsize.SetBelong(this.instance);
+					r_FCapsize.SetBelong(this.GetValue());
 				}
 				return r_FCapsize;
 			}
@@ -177,7 +177,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_FRunnerref == null)
 				{
 					r_FRunnerref = new(this, "Runnerref");
-					r_FRunnerref.SetBelong(this.instance);
+					r_FRunnerref.SetBelong(this.GetValue());
 				}
 				return r_FRunnerref;
 			}
@@ -194,7 +194,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_FReplRef == null)
 				{
 					r_FReplRef = new(this, "ReplRef");
-					r_FReplRef.SetBelong(this.instance);
+					r_FReplRef.SetBelong(this.GetValue());
 				}
 				return r_FReplRef;
 			}
@@ -211,7 +211,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MAddCompiled_RegexRunnerFactory == null)
 				{
 					r_MAddCompiled_RegexRunnerFactory = new(this, "AddCompiled", 0, typeof(System.Text.RegularExpressions.RegexRunnerFactory));
-					r_MAddCompiled_RegexRunnerFactory.SetBelong(this.instance);
+					r_MAddCompiled_RegexRunnerFactory.SetBelong(this.GetValue());
 				}
 				return r_MAddCompiled_RegexRunnerFactory;
 			}
@@ -228,7 +228,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -245,7 +245,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -262,7 +262,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -279,7 +279,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -296,7 +296,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -313,7 +313,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

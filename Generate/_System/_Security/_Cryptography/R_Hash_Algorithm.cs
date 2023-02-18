@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_F_disposed == null)
 				{
 					r_F_disposed = new(this, "_disposed");
-					r_F_disposed.SetBelong(this.instance);
+					r_F_disposed.SetBelong(this.GetValue());
 				}
 				return r_F_disposed;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_FHashSizeValue == null)
 				{
 					r_FHashSizeValue = new(this, "HashSizeValue");
-					r_FHashSizeValue.SetBelong(this.instance);
+					r_FHashSizeValue.SetBelong(this.GetValue());
 				}
 				return r_FHashSizeValue;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_FHashValue == null)
 				{
 					r_FHashValue = new(this, "HashValue");
-					r_FHashValue.SetBelong(this.instance);
+					r_FHashValue.SetBelong(this.GetValue());
 				}
 				return r_FHashValue;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_FState == null)
 				{
 					r_FState = new(this, "State");
-					r_FState.SetBelong(this.instance);
+					r_FState.SetBelong(this.GetValue());
 				}
 				return r_FState;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_PHashSize == null)
 				{
 					r_PHashSize = new(this, "HashSize", -1);
-					r_PHashSize.SetBelong(this.instance);
+					r_PHashSize.SetBelong(this.GetValue());
 				}
 				return r_PHashSize;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_PHash == null)
 				{
 					r_PHash = new(this, "Hash", -1);
-					r_PHash.SetBelong(this.instance);
+					r_PHash.SetBelong(this.GetValue());
 				}
 				return r_PHash;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_PInputBlockSize == null)
 				{
 					r_PInputBlockSize = new(this, "InputBlockSize", -1);
-					r_PInputBlockSize.SetBelong(this.instance);
+					r_PInputBlockSize.SetBelong(this.GetValue());
 				}
 				return r_PInputBlockSize;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_POutputBlockSize == null)
 				{
 					r_POutputBlockSize = new(this, "OutputBlockSize", -1);
-					r_POutputBlockSize.SetBelong(this.instance);
+					r_POutputBlockSize.SetBelong(this.GetValue());
 				}
 				return r_POutputBlockSize;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_PCanTransformMultipleBlocks == null)
 				{
 					r_PCanTransformMultipleBlocks = new(this, "CanTransformMultipleBlocks", -1);
-					r_PCanTransformMultipleBlocks.SetBelong(this.instance);
+					r_PCanTransformMultipleBlocks.SetBelong(this.GetValue());
 				}
 				return r_PCanTransformMultipleBlocks;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_PCanReuseTransform == null)
 				{
 					r_PCanReuseTransform = new(this, "CanReuseTransform", -1);
-					r_PCanReuseTransform.SetBelong(this.instance);
+					r_PCanReuseTransform.SetBelong(this.GetValue());
 				}
 				return r_PCanReuseTransform;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MComputeHash_ByteArray == null)
 				{
 					r_MComputeHash_ByteArray = new(this, "ComputeHash", 0, typeof(System.Byte).MakeArrayType());
-					r_MComputeHash_ByteArray.SetBelong(this.instance);
+					r_MComputeHash_ByteArray.SetBelong(this.GetValue());
 				}
 				return r_MComputeHash_ByteArray;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32 == null)
 				{
 					r_MTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32 = new(this, "TryComputeHash", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
-					r_MTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
+					r_MTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32.SetBelong(this.GetValue());
 				}
 				return r_MTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MComputeHash_ByteArray_Int32_Int32 == null)
 				{
 					r_MComputeHash_ByteArray_Int32_Int32 = new(this, "ComputeHash", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_MComputeHash_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_MComputeHash_ByteArray_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MComputeHash_ByteArray_Int32_Int32;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MComputeHash_Stream == null)
 				{
 					r_MComputeHash_Stream = new(this, "ComputeHash", 0, typeof(System.IO.Stream));
-					r_MComputeHash_Stream.SetBelong(this.instance);
+					r_MComputeHash_Stream.SetBelong(this.GetValue());
 				}
 				return r_MComputeHash_Stream;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MCaptureHashCodeAndReinitialize == null)
 				{
 					r_MCaptureHashCodeAndReinitialize = new(this, "CaptureHashCodeAndReinitialize", 0);
-					r_MCaptureHashCodeAndReinitialize.SetBelong(this.instance);
+					r_MCaptureHashCodeAndReinitialize.SetBelong(this.GetValue());
 				}
 				return r_MCaptureHashCodeAndReinitialize;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MDispose == null)
 				{
 					r_MDispose = new(this, "Dispose", 0);
-					r_MDispose.SetBelong(this.instance);
+					r_MDispose.SetBelong(this.GetValue());
 				}
 				return r_MDispose;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MClear == null)
 				{
 					r_MClear = new(this, "Clear", 0);
-					r_MClear.SetBelong(this.instance);
+					r_MClear.SetBelong(this.GetValue());
 				}
 				return r_MClear;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MDispose_Boolean == null)
 				{
 					r_MDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_MDispose_Boolean.SetBelong(this.instance);
+					r_MDispose_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDispose_Boolean;
 			}
@@ -362,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MTransformBlock_ByteArray_Int32_Int32_ByteArray_Int32 == null)
 				{
 					r_MTransformBlock_ByteArray_Int32_Int32_ByteArray_Int32 = new(this, "TransformBlock", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
-					r_MTransformBlock_ByteArray_Int32_Int32_ByteArray_Int32.SetBelong(this.instance);
+					r_MTransformBlock_ByteArray_Int32_Int32_ByteArray_Int32.SetBelong(this.GetValue());
 				}
 				return r_MTransformBlock_ByteArray_Int32_Int32_ByteArray_Int32;
 			}
@@ -379,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MTransformFinalBlock_ByteArray_Int32_Int32 == null)
 				{
 					r_MTransformFinalBlock_ByteArray_Int32_Int32 = new(this, "TransformFinalBlock", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_MTransformFinalBlock_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_MTransformFinalBlock_ByteArray_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MTransformFinalBlock_ByteArray_Int32_Int32;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MValidateTransformBlock_ByteArray_Int32_Int32 == null)
 				{
 					r_MValidateTransformBlock_ByteArray_Int32_Int32 = new(this, "ValidateTransformBlock", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_MValidateTransformBlock_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_MValidateTransformBlock_ByteArray_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MValidateTransformBlock_ByteArray_Int32_Int32;
 			}
@@ -413,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MHashCore_ByteArray_Int32_Int32 == null)
 				{
 					r_MHashCore_ByteArray_Int32_Int32 = new(this, "HashCore", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_MHashCore_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_MHashCore_ByteArray_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MHashCore_ByteArray_Int32_Int32;
 			}
@@ -430,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MHashFinal == null)
 				{
 					r_MHashFinal = new(this, "HashFinal", 0);
-					r_MHashFinal.SetBelong(this.instance);
+					r_MHashFinal.SetBelong(this.GetValue());
 				}
 				return r_MHashFinal;
 			}
@@ -447,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MInitialize == null)
 				{
 					r_MInitialize = new(this, "Initialize", 0);
-					r_MInitialize.SetBelong(this.instance);
+					r_MInitialize.SetBelong(this.GetValue());
 				}
 				return r_MInitialize;
 			}
@@ -464,7 +464,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MHashCore_ReadOnlySpan_d_Byte_p_ == null)
 				{
 					r_MHashCore_ReadOnlySpan_d_Byte_p_ = new(this, "HashCore", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)));
-					r_MHashCore_ReadOnlySpan_d_Byte_p_.SetBelong(this.instance);
+					r_MHashCore_ReadOnlySpan_d_Byte_p_.SetBelong(this.GetValue());
 				}
 				return r_MHashCore_ReadOnlySpan_d_Byte_p_;
 			}
@@ -481,7 +481,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MTryHashFinal_Span_d_Byte_p__Out_Int32 == null)
 				{
 					r_MTryHashFinal_Span_d_Byte_p__Out_Int32 = new(this, "TryHashFinal", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
-					r_MTryHashFinal_Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
+					r_MTryHashFinal_Span_d_Byte_p__Out_Int32.SetBelong(this.GetValue());
 				}
 				return r_MTryHashFinal_Span_d_Byte_p__Out_Int32;
 			}
@@ -498,7 +498,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -515,7 +515,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -532,7 +532,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -549,7 +549,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -566,7 +566,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -583,7 +583,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

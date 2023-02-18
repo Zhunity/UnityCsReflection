@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 				if(r_PCurrentLeaseTime == null)
 				{
 					r_PCurrentLeaseTime = new(this, "CurrentLeaseTime", -1);
-					r_PCurrentLeaseTime.SetBelong(this.instance);
+					r_PCurrentLeaseTime.SetBelong(this.GetValue());
 				}
 				return r_PCurrentLeaseTime;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 				if(r_PCurrentState == null)
 				{
 					r_PCurrentState = new(this, "CurrentState", -1);
-					r_PCurrentState.SetBelong(this.instance);
+					r_PCurrentState.SetBelong(this.GetValue());
 				}
 				return r_PCurrentState;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 				if(r_PInitialLeaseTime == null)
 				{
 					r_PInitialLeaseTime = new(this, "InitialLeaseTime", -1);
-					r_PInitialLeaseTime.SetBelong(this.instance);
+					r_PInitialLeaseTime.SetBelong(this.GetValue());
 				}
 				return r_PInitialLeaseTime;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 				if(r_PRenewOnCallTime == null)
 				{
 					r_PRenewOnCallTime = new(this, "RenewOnCallTime", -1);
-					r_PRenewOnCallTime.SetBelong(this.instance);
+					r_PRenewOnCallTime.SetBelong(this.GetValue());
 				}
 				return r_PRenewOnCallTime;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 				if(r_PSponsorshipTimeout == null)
 				{
 					r_PSponsorshipTimeout = new(this, "SponsorshipTimeout", -1);
-					r_PSponsorshipTimeout.SetBelong(this.instance);
+					r_PSponsorshipTimeout.SetBelong(this.GetValue());
 				}
 				return r_PSponsorshipTimeout;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 				if(r_MRegister_ISponsor == null)
 				{
 					r_MRegister_ISponsor = new(this, "Register", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor));
-					r_MRegister_ISponsor.SetBelong(this.instance);
+					r_MRegister_ISponsor.SetBelong(this.GetValue());
 				}
 				return r_MRegister_ISponsor;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 				if(r_MRegister_ISponsor_TimeSpan == null)
 				{
 					r_MRegister_ISponsor_TimeSpan = new(this, "Register", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor), typeof(System.TimeSpan));
-					r_MRegister_ISponsor_TimeSpan.SetBelong(this.instance);
+					r_MRegister_ISponsor_TimeSpan.SetBelong(this.GetValue());
 				}
 				return r_MRegister_ISponsor_TimeSpan;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 				if(r_MRenew_TimeSpan == null)
 				{
 					r_MRenew_TimeSpan = new(this, "Renew", 0, typeof(System.TimeSpan));
-					r_MRenew_TimeSpan.SetBelong(this.instance);
+					r_MRenew_TimeSpan.SetBelong(this.GetValue());
 				}
 				return r_MRenew_TimeSpan;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 				if(r_MUnregister_ISponsor == null)
 				{
 					r_MUnregister_ISponsor = new(this, "Unregister", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor));
-					r_MUnregister_ISponsor.SetBelong(this.instance);
+					r_MUnregister_ISponsor.SetBelong(this.GetValue());
 				}
 				return r_MUnregister_ISponsor;
 			}

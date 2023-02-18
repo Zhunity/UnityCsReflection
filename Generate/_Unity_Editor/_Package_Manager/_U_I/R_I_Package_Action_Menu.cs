@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_Ptext == null)
 				{
 					r_Ptext = new(this, "text", -1);
-					r_Ptext.SetBelong(this.instance);
+					r_Ptext.SetBelong(this.GetValue());
 				}
 				return r_Ptext;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_Picon == null)
 				{
 					r_Picon = new(this, "icon", -1);
-					r_Picon.SetBelong(this.instance);
+					r_Picon.SetBelong(this.GetValue());
 				}
 				return r_Picon;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_Ptooltip == null)
 				{
 					r_Ptooltip = new(this, "tooltip", -1);
-					r_Ptooltip.SetBelong(this.instance);
+					r_Ptooltip.SetBelong(this.GetValue());
 				}
 				return r_Ptooltip;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_MAddDropdownItem == null)
 				{
 					r_MAddDropdownItem = new(this, "AddDropdownItem", 0);
-					r_MAddDropdownItem.SetBelong(this.instance);
+					r_MAddDropdownItem.SetBelong(this.GetValue());
 				}
 				return r_MAddDropdownItem;
 			}

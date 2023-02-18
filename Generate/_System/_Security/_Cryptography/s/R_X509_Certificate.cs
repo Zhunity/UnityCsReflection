@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_Fimpl == null)
 				{
 					r_Fimpl = new(this, "impl");
-					r_Fimpl.SetBelong(this.instance);
+					r_Fimpl.SetBelong(this.GetValue());
 				}
 				return r_Fimpl;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_FlazyCertHash == null)
 				{
 					r_FlazyCertHash = new(this, "lazyCertHash");
-					r_FlazyCertHash.SetBelong(this.instance);
+					r_FlazyCertHash.SetBelong(this.GetValue());
 				}
 				return r_FlazyCertHash;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_FlazySerialNumber == null)
 				{
 					r_FlazySerialNumber = new(this, "lazySerialNumber");
-					r_FlazySerialNumber.SetBelong(this.instance);
+					r_FlazySerialNumber.SetBelong(this.GetValue());
 				}
 				return r_FlazySerialNumber;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_FlazyIssuer == null)
 				{
 					r_FlazyIssuer = new(this, "lazyIssuer");
-					r_FlazyIssuer.SetBelong(this.instance);
+					r_FlazyIssuer.SetBelong(this.GetValue());
 				}
 				return r_FlazyIssuer;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_FlazySubject == null)
 				{
 					r_FlazySubject = new(this, "lazySubject");
-					r_FlazySubject.SetBelong(this.instance);
+					r_FlazySubject.SetBelong(this.GetValue());
 				}
 				return r_FlazySubject;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_FlazyKeyAlgorithm == null)
 				{
 					r_FlazyKeyAlgorithm = new(this, "lazyKeyAlgorithm");
-					r_FlazyKeyAlgorithm.SetBelong(this.instance);
+					r_FlazyKeyAlgorithm.SetBelong(this.GetValue());
 				}
 				return r_FlazyKeyAlgorithm;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_FlazyKeyAlgorithmParameters == null)
 				{
 					r_FlazyKeyAlgorithmParameters = new(this, "lazyKeyAlgorithmParameters");
-					r_FlazyKeyAlgorithmParameters.SetBelong(this.instance);
+					r_FlazyKeyAlgorithmParameters.SetBelong(this.GetValue());
 				}
 				return r_FlazyKeyAlgorithmParameters;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_FlazyPublicKey == null)
 				{
 					r_FlazyPublicKey = new(this, "lazyPublicKey");
-					r_FlazyPublicKey.SetBelong(this.instance);
+					r_FlazyPublicKey.SetBelong(this.GetValue());
 				}
 				return r_FlazyPublicKey;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_FlazyNotBefore == null)
 				{
 					r_FlazyNotBefore = new(this, "lazyNotBefore");
-					r_FlazyNotBefore.SetBelong(this.instance);
+					r_FlazyNotBefore.SetBelong(this.GetValue());
 				}
 				return r_FlazyNotBefore;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_FlazyNotAfter == null)
 				{
 					r_FlazyNotAfter = new(this, "lazyNotAfter");
-					r_FlazyNotAfter.SetBelong(this.instance);
+					r_FlazyNotAfter.SetBelong(this.GetValue());
 				}
 				return r_FlazyNotAfter;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_PHandle == null)
 				{
 					r_PHandle = new(this, "Handle", -1);
-					r_PHandle.SetBelong(this.instance);
+					r_PHandle.SetBelong(this.GetValue());
 				}
 				return r_PHandle;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_PIssuer == null)
 				{
 					r_PIssuer = new(this, "Issuer", -1);
-					r_PIssuer.SetBelong(this.instance);
+					r_PIssuer.SetBelong(this.GetValue());
 				}
 				return r_PIssuer;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_PSubject == null)
 				{
 					r_PSubject = new(this, "Subject", -1);
-					r_PSubject.SetBelong(this.instance);
+					r_PSubject.SetBelong(this.GetValue());
 				}
 				return r_PSubject;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_PImpl == null)
 				{
 					r_PImpl = new(this, "Impl", -1);
-					r_PImpl.SetBelong(this.instance);
+					r_PImpl.SetBelong(this.GetValue());
 				}
 				return r_PImpl;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_PIsValid == null)
 				{
 					r_PIsValid = new(this, "IsValid", -1);
-					r_PIsValid.SetBelong(this.instance);
+					r_PIsValid.SetBelong(this.GetValue());
 				}
 				return r_PIsValid;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MReset == null)
 				{
 					r_MReset = new(this, "Reset", 0);
-					r_MReset.SetBelong(this.instance);
+					r_MReset.SetBelong(this.GetValue());
 				}
 				return r_MReset;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext == null)
 				{
 					r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext = new(this, "System.Runtime.Serialization.ISerializable.GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
+					r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext;
 			}
@@ -362,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object == null)
 				{
 					r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object = new(this, "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", 0, typeof(System.Object));
-					r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.SetBelong(this.instance);
+					r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.SetBelong(this.GetValue());
 				}
 				return r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object;
 			}
@@ -379,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MDispose == null)
 				{
 					r_MDispose = new(this, "Dispose", 0);
-					r_MDispose.SetBelong(this.instance);
+					r_MDispose.SetBelong(this.GetValue());
 				}
 				return r_MDispose;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MDispose_Boolean == null)
 				{
 					r_MDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_MDispose_Boolean.SetBelong(this.instance);
+					r_MDispose_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDispose_Boolean;
 			}
@@ -413,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -430,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MEquals_X509Certificate == null)
 				{
 					r_MEquals_X509Certificate = new(this, "Equals", 0, typeof(System.Security.Cryptography.X509Certificates.X509Certificate));
-					r_MEquals_X509Certificate.SetBelong(this.instance);
+					r_MEquals_X509Certificate.SetBelong(this.GetValue());
 				}
 				return r_MEquals_X509Certificate;
 			}
@@ -447,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MExport_X509ContentType == null)
 				{
 					r_MExport_X509ContentType = new(this, "Export", 0, typeof(System.Security.Cryptography.X509Certificates.X509ContentType));
-					r_MExport_X509ContentType.SetBelong(this.instance);
+					r_MExport_X509ContentType.SetBelong(this.GetValue());
 				}
 				return r_MExport_X509ContentType;
 			}
@@ -464,7 +464,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MExport_X509ContentType_String == null)
 				{
 					r_MExport_X509ContentType_String = new(this, "Export", 0, typeof(System.Security.Cryptography.X509Certificates.X509ContentType), typeof(System.String));
-					r_MExport_X509ContentType_String.SetBelong(this.instance);
+					r_MExport_X509ContentType_String.SetBelong(this.GetValue());
 				}
 				return r_MExport_X509ContentType_String;
 			}
@@ -481,7 +481,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MExport_X509ContentType_SecureString == null)
 				{
 					r_MExport_X509ContentType_SecureString = new(this, "Export", 0, typeof(System.Security.Cryptography.X509Certificates.X509ContentType), typeof(System.Security.SecureString));
-					r_MExport_X509ContentType_SecureString.SetBelong(this.instance);
+					r_MExport_X509ContentType_SecureString.SetBelong(this.GetValue());
 				}
 				return r_MExport_X509ContentType_SecureString;
 			}
@@ -498,7 +498,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetRawCertDataString == null)
 				{
 					r_MGetRawCertDataString = new(this, "GetRawCertDataString", 0);
-					r_MGetRawCertDataString.SetBelong(this.instance);
+					r_MGetRawCertDataString.SetBelong(this.GetValue());
 				}
 				return r_MGetRawCertDataString;
 			}
@@ -515,7 +515,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetCertHash == null)
 				{
 					r_MGetCertHash = new(this, "GetCertHash", 0);
-					r_MGetCertHash.SetBelong(this.instance);
+					r_MGetCertHash.SetBelong(this.GetValue());
 				}
 				return r_MGetCertHash;
 			}
@@ -532,7 +532,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetCertHash_HashAlgorithmName == null)
 				{
 					r_MGetCertHash_HashAlgorithmName = new(this, "GetCertHash", 0, typeof(System.Security.Cryptography.HashAlgorithmName));
-					r_MGetCertHash_HashAlgorithmName.SetBelong(this.instance);
+					r_MGetCertHash_HashAlgorithmName.SetBelong(this.GetValue());
 				}
 				return r_MGetCertHash_HashAlgorithmName;
 			}
@@ -549,7 +549,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MTryGetCertHash_HashAlgorithmName_Span_d_Byte_p__Out_Int32 == null)
 				{
 					r_MTryGetCertHash_HashAlgorithmName_Span_d_Byte_p__Out_Int32 = new(this, "TryGetCertHash", 0, typeof(System.Security.Cryptography.HashAlgorithmName), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
-					r_MTryGetCertHash_HashAlgorithmName_Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
+					r_MTryGetCertHash_HashAlgorithmName_Span_d_Byte_p__Out_Int32.SetBelong(this.GetValue());
 				}
 				return r_MTryGetCertHash_HashAlgorithmName_Span_d_Byte_p__Out_Int32;
 			}
@@ -566,7 +566,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetCertHashString == null)
 				{
 					r_MGetCertHashString = new(this, "GetCertHashString", 0);
-					r_MGetCertHashString.SetBelong(this.instance);
+					r_MGetCertHashString.SetBelong(this.GetValue());
 				}
 				return r_MGetCertHashString;
 			}
@@ -583,7 +583,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetCertHashString_HashAlgorithmName == null)
 				{
 					r_MGetCertHashString_HashAlgorithmName = new(this, "GetCertHashString", 0, typeof(System.Security.Cryptography.HashAlgorithmName));
-					r_MGetCertHashString_HashAlgorithmName.SetBelong(this.instance);
+					r_MGetCertHashString_HashAlgorithmName.SetBelong(this.GetValue());
 				}
 				return r_MGetCertHashString_HashAlgorithmName;
 			}
@@ -600,7 +600,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetRawCertHash == null)
 				{
 					r_MGetRawCertHash = new(this, "GetRawCertHash", 0);
-					r_MGetRawCertHash.SetBelong(this.instance);
+					r_MGetRawCertHash.SetBelong(this.GetValue());
 				}
 				return r_MGetRawCertHash;
 			}
@@ -617,7 +617,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetEffectiveDateString == null)
 				{
 					r_MGetEffectiveDateString = new(this, "GetEffectiveDateString", 0);
-					r_MGetEffectiveDateString.SetBelong(this.instance);
+					r_MGetEffectiveDateString.SetBelong(this.GetValue());
 				}
 				return r_MGetEffectiveDateString;
 			}
@@ -634,7 +634,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetExpirationDateString == null)
 				{
 					r_MGetExpirationDateString = new(this, "GetExpirationDateString", 0);
-					r_MGetExpirationDateString.SetBelong(this.instance);
+					r_MGetExpirationDateString.SetBelong(this.GetValue());
 				}
 				return r_MGetExpirationDateString;
 			}
@@ -651,7 +651,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetFormat == null)
 				{
 					r_MGetFormat = new(this, "GetFormat", 0);
-					r_MGetFormat.SetBelong(this.instance);
+					r_MGetFormat.SetBelong(this.GetValue());
 				}
 				return r_MGetFormat;
 			}
@@ -668,7 +668,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetPublicKeyString == null)
 				{
 					r_MGetPublicKeyString = new(this, "GetPublicKeyString", 0);
-					r_MGetPublicKeyString.SetBelong(this.instance);
+					r_MGetPublicKeyString.SetBelong(this.GetValue());
 				}
 				return r_MGetPublicKeyString;
 			}
@@ -685,7 +685,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetRawCertData == null)
 				{
 					r_MGetRawCertData = new(this, "GetRawCertData", 0);
-					r_MGetRawCertData.SetBelong(this.instance);
+					r_MGetRawCertData.SetBelong(this.GetValue());
 				}
 				return r_MGetRawCertData;
 			}
@@ -702,7 +702,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -719,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetKeyAlgorithm == null)
 				{
 					r_MGetKeyAlgorithm = new(this, "GetKeyAlgorithm", 0);
-					r_MGetKeyAlgorithm.SetBelong(this.instance);
+					r_MGetKeyAlgorithm.SetBelong(this.GetValue());
 				}
 				return r_MGetKeyAlgorithm;
 			}
@@ -736,7 +736,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetKeyAlgorithmParameters == null)
 				{
 					r_MGetKeyAlgorithmParameters = new(this, "GetKeyAlgorithmParameters", 0);
-					r_MGetKeyAlgorithmParameters.SetBelong(this.instance);
+					r_MGetKeyAlgorithmParameters.SetBelong(this.GetValue());
 				}
 				return r_MGetKeyAlgorithmParameters;
 			}
@@ -753,7 +753,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetKeyAlgorithmParametersString == null)
 				{
 					r_MGetKeyAlgorithmParametersString = new(this, "GetKeyAlgorithmParametersString", 0);
-					r_MGetKeyAlgorithmParametersString.SetBelong(this.instance);
+					r_MGetKeyAlgorithmParametersString.SetBelong(this.GetValue());
 				}
 				return r_MGetKeyAlgorithmParametersString;
 			}
@@ -770,7 +770,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetPublicKey == null)
 				{
 					r_MGetPublicKey = new(this, "GetPublicKey", 0);
-					r_MGetPublicKey.SetBelong(this.instance);
+					r_MGetPublicKey.SetBelong(this.GetValue());
 				}
 				return r_MGetPublicKey;
 			}
@@ -787,7 +787,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetSerialNumber == null)
 				{
 					r_MGetSerialNumber = new(this, "GetSerialNumber", 0);
-					r_MGetSerialNumber.SetBelong(this.instance);
+					r_MGetSerialNumber.SetBelong(this.GetValue());
 				}
 				return r_MGetSerialNumber;
 			}
@@ -804,7 +804,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetSerialNumberString == null)
 				{
 					r_MGetSerialNumberString = new(this, "GetSerialNumberString", 0);
-					r_MGetSerialNumberString.SetBelong(this.instance);
+					r_MGetSerialNumberString.SetBelong(this.GetValue());
 				}
 				return r_MGetSerialNumberString;
 			}
@@ -821,7 +821,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetRawSerialNumber == null)
 				{
 					r_MGetRawSerialNumber = new(this, "GetRawSerialNumber", 0);
-					r_MGetRawSerialNumber.SetBelong(this.instance);
+					r_MGetRawSerialNumber.SetBelong(this.GetValue());
 				}
 				return r_MGetRawSerialNumber;
 			}
@@ -838,7 +838,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetName == null)
 				{
 					r_MGetName = new(this, "GetName", 0);
-					r_MGetName.SetBelong(this.instance);
+					r_MGetName.SetBelong(this.GetValue());
 				}
 				return r_MGetName;
 			}
@@ -855,7 +855,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetIssuerName == null)
 				{
 					r_MGetIssuerName = new(this, "GetIssuerName", 0);
-					r_MGetIssuerName.SetBelong(this.instance);
+					r_MGetIssuerName.SetBelong(this.GetValue());
 				}
 				return r_MGetIssuerName;
 			}
@@ -872,7 +872,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -889,7 +889,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MToString_Boolean == null)
 				{
 					r_MToString_Boolean = new(this, "ToString", 0, typeof(System.Boolean));
-					r_MToString_Boolean.SetBelong(this.instance);
+					r_MToString_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MToString_Boolean;
 			}
@@ -906,7 +906,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MImport_ByteArray == null)
 				{
 					r_MImport_ByteArray = new(this, "Import", 0, typeof(System.Byte).MakeArrayType());
-					r_MImport_ByteArray.SetBelong(this.instance);
+					r_MImport_ByteArray.SetBelong(this.GetValue());
 				}
 				return r_MImport_ByteArray;
 			}
@@ -923,7 +923,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MImport_ByteArray_String_X509KeyStorageFlags == null)
 				{
 					r_MImport_ByteArray_String_X509KeyStorageFlags = new(this, "Import", 0, typeof(System.Byte).MakeArrayType(), typeof(System.String), typeof(System.Security.Cryptography.X509Certificates.X509KeyStorageFlags));
-					r_MImport_ByteArray_String_X509KeyStorageFlags.SetBelong(this.instance);
+					r_MImport_ByteArray_String_X509KeyStorageFlags.SetBelong(this.GetValue());
 				}
 				return r_MImport_ByteArray_String_X509KeyStorageFlags;
 			}
@@ -940,7 +940,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MImport_ByteArray_SecureString_X509KeyStorageFlags == null)
 				{
 					r_MImport_ByteArray_SecureString_X509KeyStorageFlags = new(this, "Import", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Security.SecureString), typeof(System.Security.Cryptography.X509Certificates.X509KeyStorageFlags));
-					r_MImport_ByteArray_SecureString_X509KeyStorageFlags.SetBelong(this.instance);
+					r_MImport_ByteArray_SecureString_X509KeyStorageFlags.SetBelong(this.GetValue());
 				}
 				return r_MImport_ByteArray_SecureString_X509KeyStorageFlags;
 			}
@@ -957,7 +957,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MImport_String == null)
 				{
 					r_MImport_String = new(this, "Import", 0, typeof(System.String));
-					r_MImport_String.SetBelong(this.instance);
+					r_MImport_String.SetBelong(this.GetValue());
 				}
 				return r_MImport_String;
 			}
@@ -974,7 +974,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MImport_String_String_X509KeyStorageFlags == null)
 				{
 					r_MImport_String_String_X509KeyStorageFlags = new(this, "Import", 0, typeof(System.String), typeof(System.String), typeof(System.Security.Cryptography.X509Certificates.X509KeyStorageFlags));
-					r_MImport_String_String_X509KeyStorageFlags.SetBelong(this.instance);
+					r_MImport_String_String_X509KeyStorageFlags.SetBelong(this.GetValue());
 				}
 				return r_MImport_String_String_X509KeyStorageFlags;
 			}
@@ -991,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MImport_String_SecureString_X509KeyStorageFlags == null)
 				{
 					r_MImport_String_SecureString_X509KeyStorageFlags = new(this, "Import", 0, typeof(System.String), typeof(System.Security.SecureString), typeof(System.Security.Cryptography.X509Certificates.X509KeyStorageFlags));
-					r_MImport_String_SecureString_X509KeyStorageFlags.SetBelong(this.instance);
+					r_MImport_String_SecureString_X509KeyStorageFlags.SetBelong(this.GetValue());
 				}
 				return r_MImport_String_SecureString_X509KeyStorageFlags;
 			}
@@ -1008,7 +1008,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetNotAfter == null)
 				{
 					r_MGetNotAfter = new(this, "GetNotAfter", 0);
-					r_MGetNotAfter.SetBelong(this.instance);
+					r_MGetNotAfter.SetBelong(this.GetValue());
 				}
 				return r_MGetNotAfter;
 			}
@@ -1025,7 +1025,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetNotBefore == null)
 				{
 					r_MGetNotBefore = new(this, "GetNotBefore", 0);
-					r_MGetNotBefore.SetBelong(this.instance);
+					r_MGetNotBefore.SetBelong(this.GetValue());
 				}
 				return r_MGetNotBefore;
 			}
@@ -1076,7 +1076,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MVerifyContentType_X509ContentType == null)
 				{
 					r_MVerifyContentType_X509ContentType = new(this, "VerifyContentType", 0, typeof(System.Security.Cryptography.X509Certificates.X509ContentType));
-					r_MVerifyContentType_X509ContentType.SetBelong(this.instance);
+					r_MVerifyContentType_X509ContentType.SetBelong(this.GetValue());
 				}
 				return r_MVerifyContentType_X509ContentType;
 			}
@@ -1093,7 +1093,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MImportHandle_X509CertificateImpl == null)
 				{
 					r_MImportHandle_X509CertificateImpl = new(this, "ImportHandle", 0,  ReflectionUtils.GetType("System.Security.Cryptography.X509Certificates.X509CertificateImpl"));
-					r_MImportHandle_X509CertificateImpl.SetBelong(this.instance);
+					r_MImportHandle_X509CertificateImpl.SetBelong(this.GetValue());
 				}
 				return r_MImportHandle_X509CertificateImpl;
 			}
@@ -1110,7 +1110,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MThrowIfInvalid == null)
 				{
 					r_MThrowIfInvalid = new(this, "ThrowIfInvalid", 0);
-					r_MThrowIfInvalid.SetBelong(this.instance);
+					r_MThrowIfInvalid.SetBelong(this.GetValue());
 				}
 				return r_MThrowIfInvalid;
 			}
@@ -1127,7 +1127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -1144,7 +1144,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -1161,7 +1161,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

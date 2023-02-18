@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_Fhandle == null)
 				{
 					r_Fhandle = new(this, "handle");
-					r_Fhandle.SetBelong(this.instance);
+					r_Fhandle.SetBelong(this.GetValue());
 				}
 				return r_Fhandle;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_PIsInvalid == null)
 				{
 					r_PIsInvalid = new(this, "IsInvalid", -1);
-					r_PIsInvalid.SetBelong(this.instance);
+					r_PIsInvalid.SetBelong(this.GetValue());
 				}
 				return r_PIsInvalid;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_PIsClosed == null)
 				{
 					r_PIsClosed = new(this, "IsClosed", -1);
-					r_PIsClosed.SetBelong(this.instance);
+					r_PIsClosed.SetBelong(this.GetValue());
 				}
 				return r_PIsClosed;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MCreateHandle_String == null)
 				{
 					r_MCreateHandle_String = new(this, "CreateHandle", 0, typeof(System.String));
-					r_MCreateHandle_String.SetBelong(this.instance);
+					r_MCreateHandle_String.SetBelong(this.GetValue());
 				}
 				return r_MCreateHandle_String;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MCreateHandle_SecureString == null)
 				{
 					r_MCreateHandle_SecureString = new(this, "CreateHandle", 0, typeof(System.Security.SecureString));
-					r_MCreateHandle_SecureString.SetBelong(this.instance);
+					r_MCreateHandle_SecureString.SetBelong(this.GetValue());
 				}
 				return r_MCreateHandle_SecureString;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MFreeHandle == null)
 				{
 					r_MFreeHandle = new(this, "FreeHandle", 0);
-					r_MFreeHandle.SetBelong(this.instance);
+					r_MFreeHandle.SetBelong(this.GetValue());
 				}
 				return r_MFreeHandle;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MReleaseHandle == null)
 				{
 					r_MReleaseHandle = new(this, "ReleaseHandle", 0);
-					r_MReleaseHandle.SetBelong(this.instance);
+					r_MReleaseHandle.SetBelong(this.GetValue());
 				}
 				return r_MReleaseHandle;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MDispose_Boolean == null)
 				{
 					r_MDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_MDispose_Boolean.SetBelong(this.instance);
+					r_MDispose_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDispose_Boolean;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MMono_DangerousGetString == null)
 				{
 					r_MMono_DangerousGetString = new(this, "Mono_DangerousGetString", 0);
-					r_MMono_DangerousGetString.SetBelong(this.instance);
+					r_MMono_DangerousGetString.SetBelong(this.GetValue());
 				}
 				return r_MMono_DangerousGetString;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MSetHandle_IntPtr == null)
 				{
 					r_MSetHandle_IntPtr = new(this, "SetHandle", 0, typeof(System.IntPtr));
-					r_MSetHandle_IntPtr.SetBelong(this.instance);
+					r_MSetHandle_IntPtr.SetBelong(this.GetValue());
 				}
 				return r_MSetHandle_IntPtr;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MDangerousGetHandle == null)
 				{
 					r_MDangerousGetHandle = new(this, "DangerousGetHandle", 0);
-					r_MDangerousGetHandle.SetBelong(this.instance);
+					r_MDangerousGetHandle.SetBelong(this.GetValue());
 				}
 				return r_MDangerousGetHandle;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MClose == null)
 				{
 					r_MClose = new(this, "Close", 0);
-					r_MClose.SetBelong(this.instance);
+					r_MClose.SetBelong(this.GetValue());
 				}
 				return r_MClose;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MDispose == null)
 				{
 					r_MDispose = new(this, "Dispose", 0);
-					r_MDispose.SetBelong(this.instance);
+					r_MDispose.SetBelong(this.GetValue());
 				}
 				return r_MDispose;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MSetHandleAsInvalid == null)
 				{
 					r_MSetHandleAsInvalid = new(this, "SetHandleAsInvalid", 0);
-					r_MSetHandleAsInvalid.SetBelong(this.instance);
+					r_MSetHandleAsInvalid.SetBelong(this.GetValue());
 				}
 				return r_MSetHandleAsInvalid;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MDangerousAddRef_Ref_Boolean == null)
 				{
 					r_MDangerousAddRef_Ref_Boolean = new(this, "DangerousAddRef", 0, typeof(System.Boolean).MakeByRefType());
-					r_MDangerousAddRef_Ref_Boolean.SetBelong(this.instance);
+					r_MDangerousAddRef_Ref_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDangerousAddRef_Ref_Boolean;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MDangerousRelease == null)
 				{
 					r_MDangerousRelease = new(this, "DangerousRelease", 0);
-					r_MDangerousRelease.SetBelong(this.instance);
+					r_MDangerousRelease.SetBelong(this.GetValue());
 				}
 				return r_MDangerousRelease;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -362,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -379,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

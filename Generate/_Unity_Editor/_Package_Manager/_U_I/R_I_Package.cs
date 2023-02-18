@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_PuniqueId == null)
 				{
 					r_PuniqueId = new(this, "uniqueId", -1);
-					r_PuniqueId.SetBelong(this.instance);
+					r_PuniqueId.SetBelong(this.GetValue());
 				}
 				return r_PuniqueId;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_Pname == null)
 				{
 					r_Pname = new(this, "name", -1);
-					r_Pname.SetBelong(this.instance);
+					r_Pname.SetBelong(this.GetValue());
 				}
 				return r_Pname;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_Pversions == null)
 				{
 					r_Pversions = new(this, "versions", -1);
-					r_Pversions.SetBelong(this.instance);
+					r_Pversions.SetBelong(this.GetValue());
 				}
 				return r_Pversions;
 			}

@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_MAddDropdownItem == null)
 				{
 					r_MAddDropdownItem = new(this, "AddDropdownItem", 0);
-					r_MAddDropdownItem.SetBelong(this.instance);
+					r_MAddDropdownItem.SetBelong(this.GetValue());
 				}
 				return r_MAddDropdownItem;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_MShowInputDropdown_InputDropdownArgs == null)
 				{
 					r_MShowInputDropdown_InputDropdownArgs = new(this, "ShowInputDropdown", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.InputDropdownArgs"));
-					r_MShowInputDropdown_InputDropdownArgs.SetBelong(this.instance);
+					r_MShowInputDropdown_InputDropdownArgs.SetBelong(this.GetValue());
 				}
 				return r_MShowInputDropdown_InputDropdownArgs;
 			}

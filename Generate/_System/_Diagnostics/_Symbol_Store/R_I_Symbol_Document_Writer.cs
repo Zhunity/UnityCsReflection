@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MSetCheckSum_Guid_ByteArray == null)
 				{
 					r_MSetCheckSum_Guid_ByteArray = new(this, "SetCheckSum", 0, typeof(System.Guid), typeof(System.Byte).MakeArrayType());
-					r_MSetCheckSum_Guid_ByteArray.SetBelong(this.instance);
+					r_MSetCheckSum_Guid_ByteArray.SetBelong(this.GetValue());
 				}
 				return r_MSetCheckSum_Guid_ByteArray;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MSetSource_ByteArray == null)
 				{
 					r_MSetSource_ByteArray = new(this, "SetSource", 0, typeof(System.Byte).MakeArrayType());
-					r_MSetSource_ByteArray.SetBelong(this.instance);
+					r_MSetSource_ByteArray.SetBelong(this.GetValue());
 				}
 				return r_MSetSource_ByteArray;
 			}

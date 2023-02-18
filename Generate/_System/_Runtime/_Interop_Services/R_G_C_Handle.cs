@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_Fhandle == null)
 				{
 					r_Fhandle = new(this, "handle");
-					r_Fhandle.SetBelong(this.instance);
+					r_Fhandle.SetBelong(this.GetValue());
 				}
 				return r_Fhandle;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_PIsAllocated == null)
 				{
 					r_PIsAllocated = new(this, "IsAllocated", -1);
-					r_PIsAllocated.SetBelong(this.instance);
+					r_PIsAllocated.SetBelong(this.GetValue());
 				}
 				return r_PIsAllocated;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_PTarget == null)
 				{
 					r_PTarget = new(this, "Target", -1);
-					r_PTarget.SetBelong(this.instance);
+					r_PTarget.SetBelong(this.GetValue());
 				}
 				return r_PTarget;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MAddrOfPinnedObject == null)
 				{
 					r_MAddrOfPinnedObject = new(this, "AddrOfPinnedObject", 0);
-					r_MAddrOfPinnedObject.SetBelong(this.instance);
+					r_MAddrOfPinnedObject.SetBelong(this.GetValue());
 				}
 				return r_MAddrOfPinnedObject;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MFree == null)
 				{
 					r_MFree = new(this, "Free", 0);
-					r_MFree.SetBelong(this.instance);
+					r_MFree.SetBelong(this.GetValue());
 				}
 				return r_MFree;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -362,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -379,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -413,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

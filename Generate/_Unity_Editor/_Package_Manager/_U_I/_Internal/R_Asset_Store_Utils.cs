@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fm_UnityConnect == null)
 				{
 					r_Fm_UnityConnect = new(this, "m_UnityConnect");
-					r_Fm_UnityConnect.SetBelong(this.instance);
+					r_Fm_UnityConnect.SetBelong(this.GetValue());
 				}
 				return r_Fm_UnityConnect;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_PassetStoreUrl == null)
 				{
 					r_PassetStoreUrl = new(this, "assetStoreUrl", -1);
-					r_PassetStoreUrl.SetBelong(this.instance);
+					r_PassetStoreUrl.SetBelong(this.GetValue());
 				}
 				return r_PassetStoreUrl;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MResolveDependencies_UnityConnectProxy == null)
 				{
 					r_MResolveDependencies_UnityConnectProxy = new(this, "ResolveDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UnityConnectProxy"));
-					r_MResolveDependencies_UnityConnectProxy.SetBelong(this.instance);
+					r_MResolveDependencies_UnityConnectProxy.SetBelong(this.GetValue());
 				}
 				return r_MResolveDependencies_UnityConnectProxy;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MBuildBaseDownloadPath_String_String == null)
 				{
 					r_MBuildBaseDownloadPath_String_String = new(this, "BuildBaseDownloadPath", 0, typeof(System.String), typeof(System.String));
-					r_MBuildBaseDownloadPath_String_String.SetBelong(this.instance);
+					r_MBuildBaseDownloadPath_String_String.SetBelong(this.GetValue());
 				}
 				return r_MBuildBaseDownloadPath_String_String;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MBuildFinalDownloadPath_String_String == null)
 				{
 					r_MBuildFinalDownloadPath_String_String = new(this, "BuildFinalDownloadPath", 0, typeof(System.String), typeof(System.String));
-					r_MBuildFinalDownloadPath_String_String.SetBelong(this.instance);
+					r_MBuildFinalDownloadPath_String_String.SetBelong(this.GetValue());
 				}
 				return r_MBuildFinalDownloadPath_String_String;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MDownload_String_String_StringArray_String_String_Boolean == null)
 				{
 					r_MDownload_String_String_StringArray_String_String_Boolean = new(this, "Download", 0, typeof(System.String), typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.String), typeof(System.String), typeof(System.Boolean));
-					r_MDownload_String_String_StringArray_String_String_Boolean.SetBelong(this.instance);
+					r_MDownload_String_String_StringArray_String_String_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDownload_String_String_StringArray_String_String_Boolean;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MCheckDownload_String_String_StringArray_String == null)
 				{
 					r_MCheckDownload_String_String_StringArray_String = new(this, "CheckDownload", 0, typeof(System.String), typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.String));
-					r_MCheckDownload_String_String_StringArray_String.SetBelong(this.instance);
+					r_MCheckDownload_String_String_StringArray_String.SetBelong(this.GetValue());
 				}
 				return r_MCheckDownload_String_String_StringArray_String;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MAbortDownload_StringArray == null)
 				{
 					r_MAbortDownload_StringArray = new(this, "AbortDownload", 0, typeof(System.String).MakeArrayType());
-					r_MAbortDownload_StringArray.SetBelong(this.instance);
+					r_MAbortDownload_StringArray.SetBelong(this.GetValue());
 				}
 				return r_MAbortDownload_StringArray;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MRegisterDownloadDelegate_ScriptableObject == null)
 				{
 					r_MRegisterDownloadDelegate_ScriptableObject = new(this, "RegisterDownloadDelegate", 0, typeof(UnityEngine.ScriptableObject));
-					r_MRegisterDownloadDelegate_ScriptableObject.SetBelong(this.instance);
+					r_MRegisterDownloadDelegate_ScriptableObject.SetBelong(this.GetValue());
 				}
 				return r_MRegisterDownloadDelegate_ScriptableObject;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MUnRegisterDownloadDelegate_ScriptableObject == null)
 				{
 					r_MUnRegisterDownloadDelegate_ScriptableObject = new(this, "UnRegisterDownloadDelegate", 0, typeof(UnityEngine.ScriptableObject));
-					r_MUnRegisterDownloadDelegate_ScriptableObject.SetBelong(this.instance);
+					r_MUnRegisterDownloadDelegate_ScriptableObject.SetBelong(this.GetValue());
 				}
 				return r_MUnRegisterDownloadDelegate_ScriptableObject;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetLocalPackageList == null)
 				{
 					r_MGetLocalPackageList = new(this, "GetLocalPackageList", 0);
-					r_MGetLocalPackageList.SetBelong(this.instance);
+					r_MGetLocalPackageList.SetBelong(this.GetValue());
 				}
 				return r_MGetLocalPackageList;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

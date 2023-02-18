@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_Ppriority == null)
 				{
 					r_Ppriority = new(this, "priority", -1);
-					r_Ppriority.SetBelong(this.instance);
+					r_Ppriority.SetBelong(this.GetValue());
 				}
 				return r_Ppriority;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_Pvisible == null)
 				{
 					r_Pvisible = new(this, "visible", -1);
-					r_Pvisible.SetBelong(this.instance);
+					r_Pvisible.SetBelong(this.GetValue());
 				}
 				return r_Pvisible;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_Penabled == null)
 				{
 					r_Penabled = new(this, "enabled", -1);
-					r_Penabled.SetBelong(this.instance);
+					r_Penabled.SetBelong(this.GetValue());
 				}
 				return r_Penabled;
 			}

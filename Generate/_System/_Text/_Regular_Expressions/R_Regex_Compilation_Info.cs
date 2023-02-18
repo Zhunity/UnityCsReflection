@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_F_pattern == null)
 				{
 					r_F_pattern = new(this, "_pattern");
-					r_F_pattern.SetBelong(this.instance);
+					r_F_pattern.SetBelong(this.GetValue());
 				}
 				return r_F_pattern;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_F_name == null)
 				{
 					r_F_name = new(this, "_name");
-					r_F_name.SetBelong(this.instance);
+					r_F_name.SetBelong(this.GetValue());
 				}
 				return r_F_name;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_F_nspace == null)
 				{
 					r_F_nspace = new(this, "_nspace");
-					r_F_nspace.SetBelong(this.instance);
+					r_F_nspace.SetBelong(this.GetValue());
 				}
 				return r_F_nspace;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_F_matchTimeout == null)
 				{
 					r_F_matchTimeout = new(this, "_matchTimeout");
-					r_F_matchTimeout.SetBelong(this.instance);
+					r_F_matchTimeout.SetBelong(this.GetValue());
 				}
 				return r_F_matchTimeout;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_F__0__IsPublic__1__k__BackingField == null)
 				{
 					r_F__0__IsPublic__1__k__BackingField = new(this, "<IsPublic>k__BackingField");
-					r_F__0__IsPublic__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__IsPublic__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__IsPublic__1__k__BackingField;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_F__0__Options__1__k__BackingField == null)
 				{
 					r_F__0__Options__1__k__BackingField = new(this, "<Options>k__BackingField");
-					r_F__0__Options__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__Options__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__Options__1__k__BackingField;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_PIsPublic == null)
 				{
 					r_PIsPublic = new(this, "IsPublic", -1);
-					r_PIsPublic.SetBelong(this.instance);
+					r_PIsPublic.SetBelong(this.GetValue());
 				}
 				return r_PIsPublic;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_PMatchTimeout == null)
 				{
 					r_PMatchTimeout = new(this, "MatchTimeout", -1);
-					r_PMatchTimeout.SetBelong(this.instance);
+					r_PMatchTimeout.SetBelong(this.GetValue());
 				}
 				return r_PMatchTimeout;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_PName == null)
 				{
 					r_PName = new(this, "Name", -1);
-					r_PName.SetBelong(this.instance);
+					r_PName.SetBelong(this.GetValue());
 				}
 				return r_PName;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_PNamespace == null)
 				{
 					r_PNamespace = new(this, "Namespace", -1);
-					r_PNamespace.SetBelong(this.instance);
+					r_PNamespace.SetBelong(this.GetValue());
 				}
 				return r_PNamespace;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_POptions == null)
 				{
 					r_POptions = new(this, "Options", -1);
-					r_POptions.SetBelong(this.instance);
+					r_POptions.SetBelong(this.GetValue());
 				}
 				return r_POptions;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_PPattern == null)
 				{
 					r_PPattern = new(this, "Pattern", -1);
-					r_PPattern.SetBelong(this.instance);
+					r_PPattern.SetBelong(this.GetValue());
 				}
 				return r_PPattern;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Fvertical == null)
 				{
 					r_Fvertical = new(this, "vertical");
-					r_Fvertical.SetBelong(this.instance);
+					r_Fvertical.SetBelong(this.GetValue());
 				}
 				return r_Fvertical;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_FcontrolID == null)
 				{
 					r_FcontrolID = new(this, "controlID");
-					r_FcontrolID.SetBelong(this.instance);
+					r_FcontrolID.SetBelong(this.GetValue());
 				}
 				return r_FcontrolID;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_FsplitState == null)
 				{
 					r_FsplitState = new(this, "splitState");
-					r_FsplitState.SetBelong(this.instance);
+					r_FsplitState.SetBelong(this.GetValue());
 				}
 				return r_FsplitState;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Fm_MinSize == null)
 				{
 					r_Fm_MinSize = new(this, "m_MinSize");
-					r_Fm_MinSize.SetBelong(this.instance);
+					r_Fm_MinSize.SetBelong(this.GetValue());
 				}
 				return r_Fm_MinSize;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Fm_MaxSize == null)
 				{
 					r_Fm_MaxSize = new(this, "m_MaxSize");
-					r_Fm_MaxSize.SetBelong(this.instance);
+					r_Fm_MaxSize.SetBelong(this.GetValue());
 				}
 				return r_Fm_MaxSize;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PminSize == null)
 				{
 					r_PminSize = new(this, "minSize", -1);
-					r_PminSize.SetBelong(this.instance);
+					r_PminSize.SetBelong(this.GetValue());
 				}
 				return r_PminSize;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PmaxSize == null)
 				{
 					r_PmaxSize = new(this, "maxSize", -1);
-					r_PmaxSize.SetBelong(this.instance);
+					r_PmaxSize.SetBelong(this.GetValue());
 				}
 				return r_PmaxSize;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PallChildren == null)
 				{
 					r_PallChildren = new(this, "allChildren", -1);
-					r_PallChildren.SetBelong(this.instance);
+					r_PallChildren.SetBelong(this.GetValue());
 				}
 				return r_PallChildren;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Pposition == null)
 				{
 					r_Pposition = new(this, "position", -1);
-					r_Pposition.SetBelong(this.instance);
+					r_Pposition.SetBelong(this.GetValue());
 				}
 				return r_Pposition;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PwindowPosition == null)
 				{
 					r_PwindowPosition = new(this, "windowPosition", -1);
-					r_PwindowPosition.SetBelong(this.instance);
+					r_PwindowPosition.SetBelong(this.GetValue());
 				}
 				return r_PwindowPosition;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PscreenPosition == null)
 				{
 					r_PscreenPosition = new(this, "screenPosition", -1);
-					r_PscreenPosition.SetBelong(this.instance);
+					r_PscreenPosition.SetBelong(this.GetValue());
 				}
 				return r_PscreenPosition;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Pwindow == null)
 				{
 					r_Pwindow = new(this, "window", -1);
-					r_Pwindow.SetBelong(this.instance);
+					r_Pwindow.SetBelong(this.GetValue());
 				}
 				return r_Pwindow;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Pparent == null)
 				{
 					r_Pparent = new(this, "parent", -1);
-					r_Pparent.SetBelong(this.instance);
+					r_Pparent.SetBelong(this.GetValue());
 				}
 				return r_Pparent;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Pchildren == null)
 				{
 					r_Pchildren = new(this, "children", -1);
-					r_Pchildren.SetBelong(this.instance);
+					r_Pchildren.SetBelong(this.GetValue());
 				}
 				return r_Pchildren;
 			}
@@ -362,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Pname == null)
 				{
 					r_Pname = new(this, "name", -1);
-					r_Pname.SetBelong(this.instance);
+					r_Pname.SetBelong(this.GetValue());
 				}
 				return r_Pname;
 			}
@@ -379,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PhideFlags == null)
 				{
 					r_PhideFlags = new(this, "hideFlags", -1);
-					r_PhideFlags.SetBelong(this.instance);
+					r_PhideFlags.SetBelong(this.GetValue());
 				}
 				return r_PhideFlags;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MRectFromEdge_Rect_ViewEdge_Single_Single == null)
 				{
 					r_MRectFromEdge_Rect_ViewEdge_Single_Single = new(this, "RectFromEdge", 0, typeof(UnityEngine.Rect),  ReflectionUtils.GetType("UnityEditor.SplitView+ViewEdge"), typeof(System.Single), typeof(System.Single));
-					r_MRectFromEdge_Rect_ViewEdge_Single_Single.SetBelong(this.instance);
+					r_MRectFromEdge_Rect_ViewEdge_Single_Single.SetBelong(this.GetValue());
 				}
 				return r_MRectFromEdge_Rect_ViewEdge_Single_Single;
 			}
@@ -413,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MSetupSplitter == null)
 				{
 					r_MSetupSplitter = new(this, "SetupSplitter", 0);
-					r_MSetupSplitter.SetBelong(this.instance);
+					r_MSetupSplitter.SetBelong(this.GetValue());
 				}
 				return r_MSetupSplitter;
 			}
@@ -430,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MSetupRectsFromSplitter == null)
 				{
 					r_MSetupRectsFromSplitter = new(this, "SetupRectsFromSplitter", 0);
-					r_MSetupRectsFromSplitter.SetBelong(this.instance);
+					r_MSetupRectsFromSplitter.SetBelong(this.GetValue());
 				}
 				return r_MSetupRectsFromSplitter;
 			}
@@ -498,7 +498,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MReflow == null)
 				{
 					r_MReflow = new(this, "Reflow", 0);
-					r_MReflow.SetBelong(this.instance);
+					r_MReflow.SetBelong(this.GetValue());
 				}
 				return r_MReflow;
 			}
@@ -515,7 +515,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MPlaceView_Int32_Single_Single == null)
 				{
 					r_MPlaceView_Int32_Single_Single = new(this, "PlaceView", 0, typeof(System.Int32), typeof(System.Single), typeof(System.Single));
-					r_MPlaceView_Int32_Single_Single.SetBelong(this.instance);
+					r_MPlaceView_Int32_Single_Single.SetBelong(this.GetValue());
 				}
 				return r_MPlaceView_Int32_Single_Single;
 			}
@@ -532,7 +532,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MAddChild_View_Int32 == null)
 				{
 					r_MAddChild_View_Int32 = new(this, "AddChild", 0,  ReflectionUtils.GetType("UnityEditor.View"), typeof(System.Int32));
-					r_MAddChild_View_Int32.SetBelong(this.instance);
+					r_MAddChild_View_Int32.SetBelong(this.GetValue());
 				}
 				return r_MAddChild_View_Int32;
 			}
@@ -549,7 +549,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MRemoveChildNice_View == null)
 				{
 					r_MRemoveChildNice_View = new(this, "RemoveChildNice", 0,  ReflectionUtils.GetType("UnityEditor.View"));
-					r_MRemoveChildNice_View.SetBelong(this.instance);
+					r_MRemoveChildNice_View.SetBelong(this.GetValue());
 				}
 				return r_MRemoveChildNice_View;
 			}
@@ -566,7 +566,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MRemoveChild_View == null)
 				{
 					r_MRemoveChild_View = new(this, "RemoveChild", 0,  ReflectionUtils.GetType("UnityEditor.View"));
-					r_MRemoveChild_View.SetBelong(this.instance);
+					r_MRemoveChild_View.SetBelong(this.GetValue());
 				}
 				return r_MRemoveChild_View;
 			}
@@ -583,7 +583,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MRootViewDropZone_ViewEdge_Vector2_Rect == null)
 				{
 					r_MRootViewDropZone_ViewEdge_Vector2_Rect = new(this, "RootViewDropZone", 0,  ReflectionUtils.GetType("UnityEditor.SplitView+ViewEdge"), typeof(UnityEngine.Vector2), typeof(UnityEngine.Rect));
-					r_MRootViewDropZone_ViewEdge_Vector2_Rect.SetBelong(this.instance);
+					r_MRootViewDropZone_ViewEdge_Vector2_Rect.SetBelong(this.GetValue());
 				}
 				return r_MRootViewDropZone_ViewEdge_Vector2_Rect;
 			}
@@ -600,7 +600,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MDragOverRootView_Vector2 == null)
 				{
 					r_MDragOverRootView_Vector2 = new(this, "DragOverRootView", 0, typeof(UnityEngine.Vector2));
-					r_MDragOverRootView_Vector2.SetBelong(this.instance);
+					r_MDragOverRootView_Vector2.SetBelong(this.GetValue());
 				}
 				return r_MDragOverRootView_Vector2;
 			}
@@ -617,7 +617,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MDragOver_EditorWindow_Vector2 == null)
 				{
 					r_MDragOver_EditorWindow_Vector2 = new(this, "DragOver", 0, typeof(UnityEditor.EditorWindow), typeof(UnityEngine.Vector2));
-					r_MDragOver_EditorWindow_Vector2.SetBelong(this.instance);
+					r_MDragOver_EditorWindow_Vector2.SetBelong(this.GetValue());
 				}
 				return r_MDragOver_EditorWindow_Vector2;
 			}
@@ -634,7 +634,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MChildrenMinMaxChanged == null)
 				{
 					r_MChildrenMinMaxChanged = new(this, "ChildrenMinMaxChanged", 0);
-					r_MChildrenMinMaxChanged.SetBelong(this.instance);
+					r_MChildrenMinMaxChanged.SetBelong(this.GetValue());
 				}
 				return r_MChildrenMinMaxChanged;
 			}
@@ -651,7 +651,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -668,7 +668,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MPerformDrop_EditorWindow_DropInfo_Vector2 == null)
 				{
 					r_MPerformDrop_EditorWindow_DropInfo_Vector2 = new(this, "PerformDrop", 0, typeof(UnityEditor.EditorWindow),  ReflectionUtils.GetType("UnityEditor.DropInfo"), typeof(UnityEngine.Vector2));
-					r_MPerformDrop_EditorWindow_DropInfo_Vector2.SetBelong(this.instance);
+					r_MPerformDrop_EditorWindow_DropInfo_Vector2.SetBelong(this.GetValue());
 				}
 				return r_MPerformDrop_EditorWindow_DropInfo_Vector2;
 			}
@@ -685,7 +685,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MMakeRoomForRect_Rect == null)
 				{
 					r_MMakeRoomForRect_Rect = new(this, "MakeRoomForRect", 0, typeof(UnityEngine.Rect));
-					r_MMakeRoomForRect_Rect.SetBelong(this.instance);
+					r_MMakeRoomForRect_Rect.SetBelong(this.GetValue());
 				}
 				return r_MMakeRoomForRect_Rect;
 			}
@@ -702,7 +702,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MCalcRoomForRect_RectArray_Rect == null)
 				{
 					r_MCalcRoomForRect_RectArray_Rect = new(this, "CalcRoomForRect", 0, typeof(UnityEngine.Rect).MakeArrayType(), typeof(UnityEngine.Rect));
-					r_MCalcRoomForRect_RectArray_Rect.SetBelong(this.instance);
+					r_MCalcRoomForRect_RectArray_Rect.SetBelong(this.GetValue());
 				}
 				return r_MCalcRoomForRect_RectArray_Rect;
 			}
@@ -719,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MCleanup == null)
 				{
 					r_MCleanup = new(this, "Cleanup", 0);
-					r_MCleanup.SetBelong(this.instance);
+					r_MCleanup.SetBelong(this.GetValue());
 				}
 				return r_MCleanup;
 			}
@@ -736,7 +736,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MSplitGUI_Event == null)
 				{
 					r_MSplitGUI_Event = new(this, "SplitGUI", 0, typeof(UnityEngine.Event));
-					r_MSplitGUI_Event.SetBelong(this.instance);
+					r_MSplitGUI_Event.SetBelong(this.GetValue());
 				}
 				return r_MSplitGUI_Event;
 			}
@@ -753,7 +753,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MSetPosition_Rect == null)
 				{
 					r_MSetPosition_Rect = new(this, "SetPosition", 0, typeof(UnityEngine.Rect));
-					r_MSetPosition_Rect.SetBelong(this.instance);
+					r_MSetPosition_Rect.SetBelong(this.GetValue());
 				}
 				return r_MSetPosition_Rect;
 			}
@@ -770,7 +770,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MDebugHierarchy_Int32 == null)
 				{
 					r_MDebugHierarchy_Int32 = new(this, "DebugHierarchy", 0, typeof(System.Int32));
-					r_MDebugHierarchy_Int32.SetBelong(this.instance);
+					r_MDebugHierarchy_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDebugHierarchy_Int32;
 			}
@@ -787,7 +787,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MInitialize_ContainerWindow == null)
 				{
 					r_MInitialize_ContainerWindow = new(this, "Initialize", 0,  ReflectionUtils.GetType("UnityEditor.ContainerWindow"));
-					r_MInitialize_ContainerWindow.SetBelong(this.instance);
+					r_MInitialize_ContainerWindow.SetBelong(this.GetValue());
 				}
 				return r_MInitialize_ContainerWindow;
 			}
@@ -804,7 +804,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MSetMinMaxSizes_Vector2_Vector2 == null)
 				{
 					r_MSetMinMaxSizes_Vector2_Vector2 = new(this, "SetMinMaxSizes", 0, typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2));
-					r_MSetMinMaxSizes_Vector2_Vector2.SetBelong(this.instance);
+					r_MSetMinMaxSizes_Vector2_Vector2.SetBelong(this.GetValue());
 				}
 				return r_MSetMinMaxSizes_Vector2_Vector2;
 			}
@@ -821,7 +821,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MSetPositionOnly_Rect == null)
 				{
 					r_MSetPositionOnly_Rect = new(this, "SetPositionOnly", 0, typeof(UnityEngine.Rect));
-					r_MSetPositionOnly_Rect.SetBelong(this.instance);
+					r_MSetPositionOnly_Rect.SetBelong(this.GetValue());
 				}
 				return r_MSetPositionOnly_Rect;
 			}
@@ -838,7 +838,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MIndexOfChild_View == null)
 				{
 					r_MIndexOfChild_View = new(this, "IndexOfChild", 0,  ReflectionUtils.GetType("UnityEditor.View"));
-					r_MIndexOfChild_View.SetBelong(this.instance);
+					r_MIndexOfChild_View.SetBelong(this.GetValue());
 				}
 				return r_MIndexOfChild_View;
 			}
@@ -855,7 +855,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MOnDestroy == null)
 				{
 					r_MOnDestroy = new(this, "OnDestroy", 0);
-					r_MOnDestroy.SetBelong(this.instance);
+					r_MOnDestroy.SetBelong(this.GetValue());
 				}
 				return r_MOnDestroy;
 			}
@@ -872,7 +872,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MAddChild_View == null)
 				{
 					r_MAddChild_View = new(this, "AddChild", 0,  ReflectionUtils.GetType("UnityEditor.View"));
-					r_MAddChild_View.SetBelong(this.instance);
+					r_MAddChild_View.SetBelong(this.GetValue());
 				}
 				return r_MAddChild_View;
 			}
@@ -889,7 +889,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MRemoveChild_Int32 == null)
 				{
 					r_MRemoveChild_Int32 = new(this, "RemoveChild", 0, typeof(System.Int32));
-					r_MRemoveChild_Int32.SetBelong(this.instance);
+					r_MRemoveChild_Int32.SetBelong(this.GetValue());
 				}
 				return r_MRemoveChild_Int32;
 			}
@@ -906,7 +906,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MSetWindow_ContainerWindow == null)
 				{
 					r_MSetWindow_ContainerWindow = new(this, "SetWindow", 0,  ReflectionUtils.GetType("UnityEditor.ContainerWindow"));
-					r_MSetWindow_ContainerWindow.SetBelong(this.instance);
+					r_MSetWindow_ContainerWindow.SetBelong(this.GetValue());
 				}
 				return r_MSetWindow_ContainerWindow;
 			}
@@ -923,7 +923,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MSetWindowRecurse_ContainerWindow == null)
 				{
 					r_MSetWindowRecurse_ContainerWindow = new(this, "SetWindowRecurse", 0,  ReflectionUtils.GetType("UnityEditor.ContainerWindow"));
-					r_MSetWindowRecurse_ContainerWindow.SetBelong(this.instance);
+					r_MSetWindowRecurse_ContainerWindow.SetBelong(this.GetValue());
 				}
 				return r_MSetWindowRecurse_ContainerWindow;
 			}
@@ -940,7 +940,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MOnFocus == null)
 				{
 					r_MOnFocus = new(this, "OnFocus", 0);
-					r_MOnFocus.SetBelong(this.instance);
+					r_MOnFocus.SetBelong(this.GetValue());
 				}
 				return r_MOnFocus;
 			}
@@ -957,7 +957,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MSetDirty == null)
 				{
 					r_MSetDirty = new(this, "SetDirty", 0);
-					r_MSetDirty.SetBelong(this.instance);
+					r_MSetDirty.SetBelong(this.GetValue());
 				}
 				return r_MSetDirty;
 			}
@@ -974,7 +974,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MGetInstanceID == null)
 				{
 					r_MGetInstanceID = new(this, "GetInstanceID", 0);
-					r_MGetInstanceID.SetBelong(this.instance);
+					r_MGetInstanceID.SetBelong(this.GetValue());
 				}
 				return r_MGetInstanceID;
 			}
@@ -991,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -1008,7 +1008,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -1025,7 +1025,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -1042,7 +1042,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -1059,7 +1059,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

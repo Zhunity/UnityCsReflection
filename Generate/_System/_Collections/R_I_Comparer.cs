@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MCompare_Object_Object == null)
 				{
 					r_MCompare_Object_Object = new(this, "Compare", 0, typeof(System.Object), typeof(System.Object));
-					r_MCompare_Object_Object.SetBelong(this.instance);
+					r_MCompare_Object_Object.SetBelong(this.GetValue());
 				}
 				return r_MCompare_Object_Object;
 			}

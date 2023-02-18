@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_EoverlayGUIHandler == null)
 				{
 					r_EoverlayGUIHandler = new(this, "overlayGUIHandler");
-					r_EoverlayGUIHandler.SetBelong(this.instance);
+					r_EoverlayGUIHandler.SetBelong(this.GetValue());
 				}
 				return r_EoverlayGUIHandler;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MPlayModeTintColorChanged == null)
 				{
 					r_MPlayModeTintColorChanged = new(this, "PlayModeTintColorChanged", 0);
-					r_MPlayModeTintColorChanged.SetBelong(this.instance);
+					r_MPlayModeTintColorChanged.SetBelong(this.GetValue());
 				}
 				return r_MPlayModeTintColorChanged;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MNotificationVisibilityChanged == null)
 				{
 					r_MNotificationVisibilityChanged = new(this, "NotificationVisibilityChanged", 0);
-					r_MNotificationVisibilityChanged.SetBelong(this.instance);
+					r_MNotificationVisibilityChanged.SetBelong(this.GetValue());
 				}
 				return r_MNotificationVisibilityChanged;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MFocused == null)
 				{
 					r_MFocused = new(this, "Focused", 0);
-					r_MFocused.SetBelong(this.instance);
+					r_MFocused.SetBelong(this.GetValue());
 				}
 				return r_MFocused;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MBlurred == null)
 				{
 					r_MBlurred = new(this, "Blurred", 0);
-					r_MBlurred.SetBelong(this.instance);
+					r_MBlurred.SetBelong(this.GetValue());
 				}
 				return r_MBlurred;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MOnRegisterWindow == null)
 				{
 					r_MOnRegisterWindow = new(this, "OnRegisterWindow", 0);
-					r_MOnRegisterWindow.SetBelong(this.instance);
+					r_MOnRegisterWindow.SetBelong(this.GetValue());
 				}
 				return r_MOnRegisterWindow;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MOnUnregisterWindow == null)
 				{
 					r_MOnUnregisterWindow = new(this, "OnUnregisterWindow", 0);
-					r_MOnUnregisterWindow.SetBelong(this.instance);
+					r_MOnUnregisterWindow.SetBelong(this.GetValue());
 				}
 				return r_MOnUnregisterWindow;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MOnDisplayWindowMenu_GenericMenu == null)
 				{
 					r_MOnDisplayWindowMenu_GenericMenu = new(this, "OnDisplayWindowMenu", 0, typeof(UnityEditor.GenericMenu));
-					r_MOnDisplayWindowMenu_GenericMenu.SetBelong(this.instance);
+					r_MOnDisplayWindowMenu_GenericMenu.SetBelong(this.GetValue());
 				}
 				return r_MOnDisplayWindowMenu_GenericMenu;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MViewMarginsChanged == null)
 				{
 					r_MViewMarginsChanged = new(this, "ViewMarginsChanged", 0);
-					r_MViewMarginsChanged.SetBelong(this.instance);
+					r_MViewMarginsChanged.SetBelong(this.GetValue());
 				}
 				return r_MViewMarginsChanged;
 			}

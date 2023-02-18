@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_F_kernelEvent == null)
 				{
 					r_F_kernelEvent = new(this, "_kernelEvent");
-					r_F_kernelEvent.SetBelong(this.instance);
+					r_F_kernelEvent.SetBelong(this.GetValue());
 				}
 				return r_F_kernelEvent;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_F_registeredCallbacksLists == null)
 				{
 					r_F_registeredCallbacksLists = new(this, "_registeredCallbacksLists");
-					r_F_registeredCallbacksLists.SetBelong(this.instance);
+					r_F_registeredCallbacksLists.SetBelong(this.GetValue());
 				}
 				return r_F_registeredCallbacksLists;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_F_state == null)
 				{
 					r_F_state = new(this, "_state");
-					r_F_state.SetBelong(this.instance);
+					r_F_state.SetBelong(this.GetValue());
 				}
 				return r_F_state;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_F_threadIDExecutingCallbacks == null)
 				{
 					r_F_threadIDExecutingCallbacks = new(this, "_threadIDExecutingCallbacks");
-					r_F_threadIDExecutingCallbacks.SetBelong(this.instance);
+					r_F_threadIDExecutingCallbacks.SetBelong(this.GetValue());
 				}
 				return r_F_threadIDExecutingCallbacks;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_F_disposed == null)
 				{
 					r_F_disposed = new(this, "_disposed");
-					r_F_disposed.SetBelong(this.instance);
+					r_F_disposed.SetBelong(this.GetValue());
 				}
 				return r_F_disposed;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_F_executingCallback == null)
 				{
 					r_F_executingCallback = new(this, "_executingCallback");
-					r_F_executingCallback.SetBelong(this.instance);
+					r_F_executingCallback.SetBelong(this.GetValue());
 				}
 				return r_F_executingCallback;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_F_timer == null)
 				{
 					r_F_timer = new(this, "_timer");
-					r_F_timer.SetBelong(this.instance);
+					r_F_timer.SetBelong(this.GetValue());
 				}
 				return r_F_timer;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_PIsCancellationRequested == null)
 				{
 					r_PIsCancellationRequested = new(this, "IsCancellationRequested", -1);
-					r_PIsCancellationRequested.SetBelong(this.instance);
+					r_PIsCancellationRequested.SetBelong(this.GetValue());
 				}
 				return r_PIsCancellationRequested;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_PIsCancellationCompleted == null)
 				{
 					r_PIsCancellationCompleted = new(this, "IsCancellationCompleted", -1);
-					r_PIsCancellationCompleted.SetBelong(this.instance);
+					r_PIsCancellationCompleted.SetBelong(this.GetValue());
 				}
 				return r_PIsCancellationCompleted;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_PIsDisposed == null)
 				{
 					r_PIsDisposed = new(this, "IsDisposed", -1);
-					r_PIsDisposed.SetBelong(this.instance);
+					r_PIsDisposed.SetBelong(this.GetValue());
 				}
 				return r_PIsDisposed;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_PThreadIDExecutingCallbacks == null)
 				{
 					r_PThreadIDExecutingCallbacks = new(this, "ThreadIDExecutingCallbacks", -1);
-					r_PThreadIDExecutingCallbacks.SetBelong(this.instance);
+					r_PThreadIDExecutingCallbacks.SetBelong(this.GetValue());
 				}
 				return r_PThreadIDExecutingCallbacks;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_PToken == null)
 				{
 					r_PToken = new(this, "Token", -1);
-					r_PToken.SetBelong(this.instance);
+					r_PToken.SetBelong(this.GetValue());
 				}
 				return r_PToken;
 			}
@@ -362,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_PCanBeCanceled == null)
 				{
 					r_PCanBeCanceled = new(this, "CanBeCanceled", -1);
-					r_PCanBeCanceled.SetBelong(this.instance);
+					r_PCanBeCanceled.SetBelong(this.GetValue());
 				}
 				return r_PCanBeCanceled;
 			}
@@ -379,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_PWaitHandle == null)
 				{
 					r_PWaitHandle = new(this, "WaitHandle", -1);
-					r_PWaitHandle.SetBelong(this.instance);
+					r_PWaitHandle.SetBelong(this.GetValue());
 				}
 				return r_PWaitHandle;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_PExecutingCallback == null)
 				{
 					r_PExecutingCallback = new(this, "ExecutingCallback", -1);
-					r_PExecutingCallback.SetBelong(this.instance);
+					r_PExecutingCallback.SetBelong(this.GetValue());
 				}
 				return r_PExecutingCallback;
 			}
@@ -413,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MInitializeWithTimer_Int32 == null)
 				{
 					r_MInitializeWithTimer_Int32 = new(this, "InitializeWithTimer", 0, typeof(System.Int32));
-					r_MInitializeWithTimer_Int32.SetBelong(this.instance);
+					r_MInitializeWithTimer_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInitializeWithTimer_Int32;
 			}
@@ -430,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MCancel == null)
 				{
 					r_MCancel = new(this, "Cancel", 0);
-					r_MCancel.SetBelong(this.instance);
+					r_MCancel.SetBelong(this.GetValue());
 				}
 				return r_MCancel;
 			}
@@ -447,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MCancel_Boolean == null)
 				{
 					r_MCancel_Boolean = new(this, "Cancel", 0, typeof(System.Boolean));
-					r_MCancel_Boolean.SetBelong(this.instance);
+					r_MCancel_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MCancel_Boolean;
 			}
@@ -464,7 +464,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MCancelAfter_TimeSpan == null)
 				{
 					r_MCancelAfter_TimeSpan = new(this, "CancelAfter", 0, typeof(System.TimeSpan));
-					r_MCancelAfter_TimeSpan.SetBelong(this.instance);
+					r_MCancelAfter_TimeSpan.SetBelong(this.GetValue());
 				}
 				return r_MCancelAfter_TimeSpan;
 			}
@@ -481,7 +481,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MCancelAfter_Int32 == null)
 				{
 					r_MCancelAfter_Int32 = new(this, "CancelAfter", 0, typeof(System.Int32));
-					r_MCancelAfter_Int32.SetBelong(this.instance);
+					r_MCancelAfter_Int32.SetBelong(this.GetValue());
 				}
 				return r_MCancelAfter_Int32;
 			}
@@ -515,7 +515,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MDispose == null)
 				{
 					r_MDispose = new(this, "Dispose", 0);
-					r_MDispose.SetBelong(this.instance);
+					r_MDispose.SetBelong(this.GetValue());
 				}
 				return r_MDispose;
 			}
@@ -532,7 +532,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MDispose_Boolean == null)
 				{
 					r_MDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_MDispose_Boolean.SetBelong(this.instance);
+					r_MDispose_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDispose_Boolean;
 			}
@@ -549,7 +549,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MThrowIfDisposed == null)
 				{
 					r_MThrowIfDisposed = new(this, "ThrowIfDisposed", 0);
-					r_MThrowIfDisposed.SetBelong(this.instance);
+					r_MThrowIfDisposed.SetBelong(this.GetValue());
 				}
 				return r_MThrowIfDisposed;
 			}
@@ -583,7 +583,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MInternalRegister_Action_d_Object_p__Object_SynchronizationContext_ExecutionContext == null)
 				{
 					r_MInternalRegister_Action_d_Object_p__Object_SynchronizationContext_ExecutionContext = new(this, "InternalRegister", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Object)), typeof(System.Object), typeof(System.Threading.SynchronizationContext), typeof(System.Threading.ExecutionContext));
-					r_MInternalRegister_Action_d_Object_p__Object_SynchronizationContext_ExecutionContext.SetBelong(this.instance);
+					r_MInternalRegister_Action_d_Object_p__Object_SynchronizationContext_ExecutionContext.SetBelong(this.GetValue());
 				}
 				return r_MInternalRegister_Action_d_Object_p__Object_SynchronizationContext_ExecutionContext;
 			}
@@ -600,7 +600,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MNotifyCancellation_Boolean == null)
 				{
 					r_MNotifyCancellation_Boolean = new(this, "NotifyCancellation", 0, typeof(System.Boolean));
-					r_MNotifyCancellation_Boolean.SetBelong(this.instance);
+					r_MNotifyCancellation_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MNotifyCancellation_Boolean;
 			}
@@ -617,7 +617,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MExecuteCallbackHandlers_Boolean == null)
 				{
 					r_MExecuteCallbackHandlers_Boolean = new(this, "ExecuteCallbackHandlers", 0, typeof(System.Boolean));
-					r_MExecuteCallbackHandlers_Boolean.SetBelong(this.instance);
+					r_MExecuteCallbackHandlers_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MExecuteCallbackHandlers_Boolean;
 			}
@@ -634,7 +634,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MCancellationCallbackCoreWork_OnSyncContext_Object == null)
 				{
 					r_MCancellationCallbackCoreWork_OnSyncContext_Object = new(this, "CancellationCallbackCoreWork_OnSyncContext", 0, typeof(System.Object));
-					r_MCancellationCallbackCoreWork_OnSyncContext_Object.SetBelong(this.instance);
+					r_MCancellationCallbackCoreWork_OnSyncContext_Object.SetBelong(this.GetValue());
 				}
 				return r_MCancellationCallbackCoreWork_OnSyncContext_Object;
 			}
@@ -651,7 +651,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MCancellationCallbackCoreWork_CancellationCallbackCoreWorkArguments == null)
 				{
 					r_MCancellationCallbackCoreWork_CancellationCallbackCoreWorkArguments = new(this, "CancellationCallbackCoreWork", 0,  ReflectionUtils.GetType("System.Threading.CancellationCallbackCoreWorkArguments"));
-					r_MCancellationCallbackCoreWork_CancellationCallbackCoreWorkArguments.SetBelong(this.instance);
+					r_MCancellationCallbackCoreWork_CancellationCallbackCoreWorkArguments.SetBelong(this.GetValue());
 				}
 				return r_MCancellationCallbackCoreWork_CancellationCallbackCoreWorkArguments;
 			}
@@ -719,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MWaitForCallbackToComplete_CancellationCallbackInfo == null)
 				{
 					r_MWaitForCallbackToComplete_CancellationCallbackInfo = new(this, "WaitForCallbackToComplete", 0,  ReflectionUtils.GetType("System.Threading.CancellationCallbackInfo"));
-					r_MWaitForCallbackToComplete_CancellationCallbackInfo.SetBelong(this.instance);
+					r_MWaitForCallbackToComplete_CancellationCallbackInfo.SetBelong(this.GetValue());
 				}
 				return r_MWaitForCallbackToComplete_CancellationCallbackInfo;
 			}
@@ -736,7 +736,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -753,7 +753,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -770,7 +770,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -787,7 +787,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -804,7 +804,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -821,7 +821,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

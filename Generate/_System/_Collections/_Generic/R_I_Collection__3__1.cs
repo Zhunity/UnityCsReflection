@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_PCount == null)
 				{
 					r_PCount = new(this, "Count", -1);
-					r_PCount.SetBelong(this.instance);
+					r_PCount.SetBelong(this.GetValue());
 				}
 				return r_PCount;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_PIsReadOnly == null)
 				{
 					r_PIsReadOnly = new(this, "IsReadOnly", -1);
-					r_PIsReadOnly.SetBelong(this.instance);
+					r_PIsReadOnly.SetBelong(this.GetValue());
 				}
 				return r_PIsReadOnly;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_MAdd_T == null)
 				{
 					r_MAdd_T = new(this, "Add", 0, Type.MakeGenericMethodParameter(0));
-					r_MAdd_T.SetBelong(this.instance);
+					r_MAdd_T.SetBelong(this.GetValue());
 				}
 				return r_MAdd_T;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_MClear == null)
 				{
 					r_MClear = new(this, "Clear", 0);
-					r_MClear.SetBelong(this.instance);
+					r_MClear.SetBelong(this.GetValue());
 				}
 				return r_MClear;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_MContains_T == null)
 				{
 					r_MContains_T = new(this, "Contains", 0, Type.MakeGenericMethodParameter(0));
-					r_MContains_T.SetBelong(this.instance);
+					r_MContains_T.SetBelong(this.GetValue());
 				}
 				return r_MContains_T;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_MCopyTo_TArray_Int32 == null)
 				{
 					r_MCopyTo_TArray_Int32 = new(this, "CopyTo", 0, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32));
-					r_MCopyTo_TArray_Int32.SetBelong(this.instance);
+					r_MCopyTo_TArray_Int32.SetBelong(this.GetValue());
 				}
 				return r_MCopyTo_TArray_Int32;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_MRemove_T == null)
 				{
 					r_MRemove_T = new(this, "Remove", 0, Type.MakeGenericMethodParameter(0));
-					r_MRemove_T.SetBelong(this.instance);
+					r_MRemove_T.SetBelong(this.GetValue());
 				}
 				return r_MRemove_T;
 			}

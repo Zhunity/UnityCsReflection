@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetToken_String == null)
 				{
 					r_MGetToken_String = new(this, "GetToken", 0, typeof(System.String));
-					r_MGetToken_String.SetBelong(this.instance);
+					r_MGetToken_String.SetBelong(this.GetValue());
 				}
 				return r_MGetToken_String;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetToken_MemberInfo_Boolean == null)
 				{
 					r_MGetToken_MemberInfo_Boolean = new(this, "GetToken", 0, typeof(System.Reflection.MemberInfo), typeof(System.Boolean));
-					r_MGetToken_MemberInfo_Boolean.SetBelong(this.instance);
+					r_MGetToken_MemberInfo_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MGetToken_MemberInfo_Boolean;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetToken_MethodBase_TypeArray == null)
 				{
 					r_MGetToken_MethodBase_TypeArray = new(this, "GetToken", 0, typeof(System.Reflection.MethodBase), typeof(System.Type).MakeArrayType());
-					r_MGetToken_MethodBase_TypeArray.SetBelong(this.instance);
+					r_MGetToken_MethodBase_TypeArray.SetBelong(this.GetValue());
 				}
 				return r_MGetToken_MethodBase_TypeArray;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetToken_SignatureHelper == null)
 				{
 					r_MGetToken_SignatureHelper = new(this, "GetToken", 0, typeof(System.Reflection.Emit.SignatureHelper));
-					r_MGetToken_SignatureHelper.SetBelong(this.instance);
+					r_MGetToken_SignatureHelper.SetBelong(this.GetValue());
 				}
 				return r_MGetToken_SignatureHelper;
 			}

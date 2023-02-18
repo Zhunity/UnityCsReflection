@@ -201,7 +201,7 @@ namespace Hvak.Editor.Refleaction
 		[MenuItem("Tools/NewGenerate")]
 		static void GenerateNewWay()
 		{
-			GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
+			GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/UnityCsReflection/";
 
 			GenerateInput.Generate(new List<string> { "UnityType", "ComponentDropdownItem", "AddComponentWindow", "PackageManagerWindow" });
 		}

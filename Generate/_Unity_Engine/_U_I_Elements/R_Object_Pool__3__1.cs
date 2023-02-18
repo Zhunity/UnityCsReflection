@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Fm_Stack == null)
 				{
 					r_Fm_Stack = new(this, "m_Stack");
-					r_Fm_Stack.SetBelong(this.instance);
+					r_Fm_Stack.SetBelong(this.GetValue());
 				}
 				return r_Fm_Stack;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Fm_MaxSize == null)
 				{
 					r_Fm_MaxSize = new(this, "m_MaxSize");
-					r_Fm_MaxSize.SetBelong(this.instance);
+					r_Fm_MaxSize.SetBelong(this.GetValue());
 				}
 				return r_Fm_MaxSize;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_FCreateFunc == null)
 				{
 					r_FCreateFunc = new(this, "CreateFunc");
-					r_FCreateFunc.SetBelong(this.instance);
+					r_FCreateFunc.SetBelong(this.GetValue());
 				}
 				return r_FCreateFunc;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PmaxSize == null)
 				{
 					r_PmaxSize = new(this, "maxSize", -1);
-					r_PmaxSize.SetBelong(this.instance);
+					r_PmaxSize.SetBelong(this.GetValue());
 				}
 				return r_PmaxSize;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MSize == null)
 				{
 					r_MSize = new(this, "Size", 0);
-					r_MSize.SetBelong(this.instance);
+					r_MSize.SetBelong(this.GetValue());
 				}
 				return r_MSize;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MClear == null)
 				{
 					r_MClear = new(this, "Clear", 0);
-					r_MClear.SetBelong(this.instance);
+					r_MClear.SetBelong(this.GetValue());
 				}
 				return r_MClear;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGet == null)
 				{
 					r_MGet = new(this, "Get", 0);
-					r_MGet.SetBelong(this.instance);
+					r_MGet.SetBelong(this.GetValue());
 				}
 				return r_MGet;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MRelease_T == null)
 				{
 					r_MRelease_T = new(this, "Release", 0, Type.MakeGenericMethodParameter(0));
-					r_MRelease_T.SetBelong(this.instance);
+					r_MRelease_T.SetBelong(this.GetValue());
 				}
 				return r_MRelease_T;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

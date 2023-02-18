@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_FExponent == null)
 				{
 					r_FExponent = new(this, "Exponent");
-					r_FExponent.SetBelong(this.instance);
+					r_FExponent.SetBelong(this.GetValue());
 				}
 				return r_FExponent;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_FModulus == null)
 				{
 					r_FModulus = new(this, "Modulus");
-					r_FModulus.SetBelong(this.instance);
+					r_FModulus.SetBelong(this.GetValue());
 				}
 				return r_FModulus;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_FP == null)
 				{
 					r_FP = new(this, "P");
-					r_FP.SetBelong(this.instance);
+					r_FP.SetBelong(this.GetValue());
 				}
 				return r_FP;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_FQ == null)
 				{
 					r_FQ = new(this, "Q");
-					r_FQ.SetBelong(this.instance);
+					r_FQ.SetBelong(this.GetValue());
 				}
 				return r_FQ;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_FDP == null)
 				{
 					r_FDP = new(this, "DP");
-					r_FDP.SetBelong(this.instance);
+					r_FDP.SetBelong(this.GetValue());
 				}
 				return r_FDP;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_FDQ == null)
 				{
 					r_FDQ = new(this, "DQ");
-					r_FDQ.SetBelong(this.instance);
+					r_FDQ.SetBelong(this.GetValue());
 				}
 				return r_FDQ;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_FInverseQ == null)
 				{
 					r_FInverseQ = new(this, "InverseQ");
-					r_FInverseQ.SetBelong(this.instance);
+					r_FInverseQ.SetBelong(this.GetValue());
 				}
 				return r_FInverseQ;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_FD == null)
 				{
 					r_FD = new(this, "D");
-					r_FD.SetBelong(this.instance);
+					r_FD.SetBelong(this.GetValue());
 				}
 				return r_FD;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

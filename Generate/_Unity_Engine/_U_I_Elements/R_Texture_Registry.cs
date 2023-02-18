@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Fm_Textures == null)
 				{
 					r_Fm_Textures = new(this, "m_Textures");
-					r_Fm_Textures.SetBelong(this.instance);
+					r_Fm_Textures.SetBelong(this.GetValue());
 				}
 				return r_Fm_Textures;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Fm_TextureToId == null)
 				{
 					r_Fm_TextureToId = new(this, "m_TextureToId");
-					r_Fm_TextureToId.SetBelong(this.instance);
+					r_Fm_TextureToId.SetBelong(this.GetValue());
 				}
 				return r_Fm_TextureToId;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Fm_FreeIds == null)
 				{
 					r_Fm_FreeIds = new(this, "m_FreeIds");
-					r_Fm_FreeIds.SetBelong(this.instance);
+					r_Fm_FreeIds.SetBelong(this.GetValue());
 				}
 				return r_Fm_FreeIds;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetTexture_TextureId == null)
 				{
 					r_MGetTexture_TextureId = new(this, "GetTexture", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"));
-					r_MGetTexture_TextureId.SetBelong(this.instance);
+					r_MGetTexture_TextureId.SetBelong(this.GetValue());
 				}
 				return r_MGetTexture_TextureId;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MAllocAndAcquireDynamic == null)
 				{
 					r_MAllocAndAcquireDynamic = new(this, "AllocAndAcquireDynamic", 0);
-					r_MAllocAndAcquireDynamic.SetBelong(this.instance);
+					r_MAllocAndAcquireDynamic.SetBelong(this.GetValue());
 				}
 				return r_MAllocAndAcquireDynamic;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MUpdateDynamic_TextureId_Texture == null)
 				{
 					r_MUpdateDynamic_TextureId_Texture = new(this, "UpdateDynamic", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(UnityEngine.Texture));
-					r_MUpdateDynamic_TextureId_Texture.SetBelong(this.instance);
+					r_MUpdateDynamic_TextureId_Texture.SetBelong(this.GetValue());
 				}
 				return r_MUpdateDynamic_TextureId_Texture;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MAllocAndAcquire_Texture_Boolean == null)
 				{
 					r_MAllocAndAcquire_Texture_Boolean = new(this, "AllocAndAcquire", 0, typeof(UnityEngine.Texture), typeof(System.Boolean));
-					r_MAllocAndAcquire_Texture_Boolean.SetBelong(this.instance);
+					r_MAllocAndAcquire_Texture_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MAllocAndAcquire_Texture_Boolean;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MAcquire_Texture == null)
 				{
 					r_MAcquire_Texture = new(this, "Acquire", 0, typeof(UnityEngine.Texture));
-					r_MAcquire_Texture.SetBelong(this.instance);
+					r_MAcquire_Texture.SetBelong(this.GetValue());
 				}
 				return r_MAcquire_Texture;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MAcquire_TextureId == null)
 				{
 					r_MAcquire_TextureId = new(this, "Acquire", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"));
-					r_MAcquire_TextureId.SetBelong(this.instance);
+					r_MAcquire_TextureId.SetBelong(this.GetValue());
 				}
 				return r_MAcquire_TextureId;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MRelease_TextureId == null)
 				{
 					r_MRelease_TextureId = new(this, "Release", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"));
-					r_MRelease_TextureId.SetBelong(this.instance);
+					r_MRelease_TextureId.SetBelong(this.GetValue());
 				}
 				return r_MRelease_TextureId;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MTextureToId_Texture == null)
 				{
 					r_MTextureToId_Texture = new(this, "TextureToId", 0, typeof(UnityEngine.Texture));
-					r_MTextureToId_Texture.SetBelong(this.instance);
+					r_MTextureToId_Texture.SetBelong(this.GetValue());
 				}
 				return r_MTextureToId_Texture;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGatherStatistics == null)
 				{
 					r_MGatherStatistics = new(this, "GatherStatistics", 0);
-					r_MGatherStatistics.SetBelong(this.instance);
+					r_MGatherStatistics.SetBelong(this.GetValue());
 				}
 				return r_MGatherStatistics;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -362,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

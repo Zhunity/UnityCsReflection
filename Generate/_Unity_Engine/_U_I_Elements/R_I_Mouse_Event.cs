@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pmodifiers == null)
 				{
 					r_Pmodifiers = new(this, "modifiers", -1);
-					r_Pmodifiers.SetBelong(this.instance);
+					r_Pmodifiers.SetBelong(this.GetValue());
 				}
 				return r_Pmodifiers;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PmousePosition == null)
 				{
 					r_PmousePosition = new(this, "mousePosition", -1);
-					r_PmousePosition.SetBelong(this.instance);
+					r_PmousePosition.SetBelong(this.GetValue());
 				}
 				return r_PmousePosition;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PlocalMousePosition == null)
 				{
 					r_PlocalMousePosition = new(this, "localMousePosition", -1);
-					r_PlocalMousePosition.SetBelong(this.instance);
+					r_PlocalMousePosition.SetBelong(this.GetValue());
 				}
 				return r_PlocalMousePosition;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PmouseDelta == null)
 				{
 					r_PmouseDelta = new(this, "mouseDelta", -1);
-					r_PmouseDelta.SetBelong(this.instance);
+					r_PmouseDelta.SetBelong(this.GetValue());
 				}
 				return r_PmouseDelta;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PclickCount == null)
 				{
 					r_PclickCount = new(this, "clickCount", -1);
-					r_PclickCount.SetBelong(this.instance);
+					r_PclickCount.SetBelong(this.GetValue());
 				}
 				return r_PclickCount;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pbutton == null)
 				{
 					r_Pbutton = new(this, "button", -1);
-					r_Pbutton.SetBelong(this.instance);
+					r_Pbutton.SetBelong(this.GetValue());
 				}
 				return r_Pbutton;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PpressedButtons == null)
 				{
 					r_PpressedButtons = new(this, "pressedButtons", -1);
-					r_PpressedButtons.SetBelong(this.instance);
+					r_PpressedButtons.SetBelong(this.GetValue());
 				}
 				return r_PpressedButtons;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PshiftKey == null)
 				{
 					r_PshiftKey = new(this, "shiftKey", -1);
-					r_PshiftKey.SetBelong(this.instance);
+					r_PshiftKey.SetBelong(this.GetValue());
 				}
 				return r_PshiftKey;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PctrlKey == null)
 				{
 					r_PctrlKey = new(this, "ctrlKey", -1);
-					r_PctrlKey.SetBelong(this.instance);
+					r_PctrlKey.SetBelong(this.GetValue());
 				}
 				return r_PctrlKey;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PcommandKey == null)
 				{
 					r_PcommandKey = new(this, "commandKey", -1);
-					r_PcommandKey.SetBelong(this.instance);
+					r_PcommandKey.SetBelong(this.GetValue());
 				}
 				return r_PcommandKey;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PaltKey == null)
 				{
 					r_PaltKey = new(this, "altKey", -1);
-					r_PaltKey.SetBelong(this.instance);
+					r_PaltKey.SetBelong(this.GetValue());
 				}
 				return r_PaltKey;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PactionKey == null)
 				{
 					r_PactionKey = new(this, "actionKey", -1);
-					r_PactionKey.SetBelong(this.instance);
+					r_PactionKey.SetBelong(this.GetValue());
 				}
 				return r_PactionKey;
 			}

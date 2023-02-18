@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MEquals_Object_Object == null)
 				{
 					r_MEquals_Object_Object = new(this, "Equals", 0, typeof(System.Object), typeof(System.Object));
-					r_MEquals_Object_Object.SetBelong(this.instance);
+					r_MEquals_Object_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object_Object;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MGetHashCode_Object == null)
 				{
 					r_MGetHashCode_Object = new(this, "GetHashCode", 0, typeof(System.Object));
-					r_MGetHashCode_Object.SetBelong(this.instance);
+					r_MGetHashCode_Object.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode_Object;
 			}

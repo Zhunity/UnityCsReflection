@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_Fm_Ptr == null)
 				{
 					r_Fm_Ptr = new(this, "m_Ptr");
-					r_Fm_Ptr.SetBelong(this.instance);
+					r_Fm_Ptr.SetBelong(this.GetValue());
 				}
 				return r_Fm_Ptr;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MDispose == null)
 				{
 					r_MDispose = new(this, "Dispose", 0);
-					r_MDispose.SetBelong(this.instance);
+					r_MDispose.SetBelong(this.GetValue());
 				}
 				return r_MDispose;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MDispose_Boolean == null)
 				{
 					r_MDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_MDispose_Boolean.SetBelong(this.instance);
+					r_MDispose_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDispose_Boolean;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MRelease == null)
 				{
 					r_MRelease = new(this, "Release", 0);
-					r_MRelease.SetBelong(this.instance);
+					r_MRelease.SetBelong(this.GetValue());
 				}
 				return r_MRelease;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MBuild == null)
 				{
 					r_MBuild = new(this, "Build", 0);
-					r_MBuild.SetBelong(this.instance);
+					r_MBuild.SetBelong(this.GetValue());
 				}
 				return r_MBuild;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 == null)
 				{
 					r_MAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.Renderer), typeof(UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.UInt32));
-					r_MAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32.SetBelong(this.instance);
+					r_MAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 == null)
 				{
 					r_MAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(System.Boolean), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(UnityEngine.MaterialPropertyBlock), typeof(System.UInt32), typeof(System.UInt32));
-					r_MAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.SetBelong(this.instance);
+					r_MAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MRemoveInstance_Renderer == null)
 				{
 					r_MRemoveInstance_Renderer = new(this, "RemoveInstance", 0, typeof(UnityEngine.Renderer));
-					r_MRemoveInstance_Renderer.SetBelong(this.instance);
+					r_MRemoveInstance_Renderer.SetBelong(this.GetValue());
 				}
 				return r_MRemoveInstance_Renderer;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MRemoveInstance_Int32 == null)
 				{
 					r_MRemoveInstance_Int32 = new(this, "RemoveInstance", 0, typeof(System.Int32));
-					r_MRemoveInstance_Int32.SetBelong(this.instance);
+					r_MRemoveInstance_Int32.SetBelong(this.GetValue());
 				}
 				return r_MRemoveInstance_Int32;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MUpdateInstanceTransform_Renderer == null)
 				{
 					r_MUpdateInstanceTransform_Renderer = new(this, "UpdateInstanceTransform", 0, typeof(UnityEngine.Renderer));
-					r_MUpdateInstanceTransform_Renderer.SetBelong(this.instance);
+					r_MUpdateInstanceTransform_Renderer.SetBelong(this.GetValue());
 				}
 				return r_MUpdateInstanceTransform_Renderer;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MUpdateInstanceTransform_Int32_Matrix4x4 == null)
 				{
 					r_MUpdateInstanceTransform_Int32_Matrix4x4 = new(this, "UpdateInstanceTransform", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4));
-					r_MUpdateInstanceTransform_Int32_Matrix4x4.SetBelong(this.instance);
+					r_MUpdateInstanceTransform_Int32_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MUpdateInstanceTransform_Int32_Matrix4x4;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MUpdate == null)
 				{
 					r_MUpdate = new(this, "Update", 0);
-					r_MUpdate.SetBelong(this.instance);
+					r_MUpdate.SetBelong(this.GetValue());
 				}
 				return r_MUpdate;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MUpdate_Vector3 == null)
 				{
 					r_MUpdate_Vector3 = new(this, "Update", 0, typeof(UnityEngine.Vector3));
-					r_MUpdate_Vector3.SetBelong(this.instance);
+					r_MUpdate_Vector3.SetBelong(this.GetValue());
 				}
 				return r_MUpdate_Vector3;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MAddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32 == null)
 				{
 					r_MAddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.Renderer), typeof(System.Boolean).MakeArrayType(), typeof(System.Boolean).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.UInt32));
-					r_MAddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32.SetBelong(this.instance);
+					r_MAddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MAddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MAddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
 				{
 					r_MAddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
-					r_MAddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.instance);
+					r_MAddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MAddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MAddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
 				{
 					r_MAddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(UnityEngine.Matrix4x4), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
-					r_MAddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.instance);
+					r_MAddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MAddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MBuild_Vector3 == null)
 				{
 					r_MBuild_Vector3 = new(this, "Build", 0, typeof(UnityEngine.Vector3));
-					r_MBuild_Vector3.SetBelong(this.instance);
+					r_MBuild_Vector3.SetBelong(this.GetValue());
 				}
 				return r_MBuild_Vector3;
 			}
@@ -362,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
 				{
 					r_MAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance_Procedural_Deprecated", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(UnityEngine.Matrix4x4), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
-					r_MAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.instance);
+					r_MAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
 			}
@@ -379,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 == null)
 				{
 					r_MAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 = new(this, "AddInstance_Procedural", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(System.Boolean), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(UnityEngine.MaterialPropertyBlock), typeof(System.UInt32), typeof(System.UInt32));
-					r_MAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.SetBelong(this.instance);
+					r_MAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MRemoveInstance_Renderer_Renderer == null)
 				{
 					r_MRemoveInstance_Renderer_Renderer = new(this, "RemoveInstance_Renderer", 0, typeof(UnityEngine.Renderer));
-					r_MRemoveInstance_Renderer_Renderer.SetBelong(this.instance);
+					r_MRemoveInstance_Renderer_Renderer.SetBelong(this.GetValue());
 				}
 				return r_MRemoveInstance_Renderer_Renderer;
 			}
@@ -413,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MRemoveInstance_InstanceID_Int32 == null)
 				{
 					r_MRemoveInstance_InstanceID_Int32 = new(this, "RemoveInstance_InstanceID", 0, typeof(System.Int32));
-					r_MRemoveInstance_InstanceID_Int32.SetBelong(this.instance);
+					r_MRemoveInstance_InstanceID_Int32.SetBelong(this.GetValue());
 				}
 				return r_MRemoveInstance_InstanceID_Int32;
 			}
@@ -430,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MUpdateInstanceTransform_Renderer_Renderer == null)
 				{
 					r_MUpdateInstanceTransform_Renderer_Renderer = new(this, "UpdateInstanceTransform_Renderer", 0, typeof(UnityEngine.Renderer));
-					r_MUpdateInstanceTransform_Renderer_Renderer.SetBelong(this.instance);
+					r_MUpdateInstanceTransform_Renderer_Renderer.SetBelong(this.GetValue());
 				}
 				return r_MUpdateInstanceTransform_Renderer_Renderer;
 			}
@@ -447,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MUpdateInstanceTransform_InstanceID_Int32_Matrix4x4 == null)
 				{
 					r_MUpdateInstanceTransform_InstanceID_Int32_Matrix4x4 = new(this, "UpdateInstanceTransform_InstanceID", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4));
-					r_MUpdateInstanceTransform_InstanceID_Int32_Matrix4x4.SetBelong(this.instance);
+					r_MUpdateInstanceTransform_InstanceID_Int32_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MUpdateInstanceTransform_InstanceID_Int32_Matrix4x4;
 			}
@@ -464,7 +464,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MUpdateInstanceMask_Renderer_UInt32 == null)
 				{
 					r_MUpdateInstanceMask_Renderer_UInt32 = new(this, "UpdateInstanceMask", 0, typeof(UnityEngine.Renderer), typeof(System.UInt32));
-					r_MUpdateInstanceMask_Renderer_UInt32.SetBelong(this.instance);
+					r_MUpdateInstanceMask_Renderer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MUpdateInstanceMask_Renderer_UInt32;
 			}
@@ -481,7 +481,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MUpdateInstanceID_Renderer_UInt32 == null)
 				{
 					r_MUpdateInstanceID_Renderer_UInt32 = new(this, "UpdateInstanceID", 0, typeof(UnityEngine.Renderer), typeof(System.UInt32));
-					r_MUpdateInstanceID_Renderer_UInt32.SetBelong(this.instance);
+					r_MUpdateInstanceID_Renderer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MUpdateInstanceID_Renderer_UInt32;
 			}
@@ -498,7 +498,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock == null)
 				{
 					r_MUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock = new(this, "UpdateInstancePropertyBlock", 0, typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock;
 			}
@@ -515,7 +515,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MGetSize == null)
 				{
 					r_MGetSize = new(this, "GetSize", 0);
-					r_MGetSize.SetBelong(this.instance);
+					r_MGetSize.SetBelong(this.GetValue());
 				}
 				return r_MGetSize;
 			}
@@ -532,7 +532,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MGetInstanceCount == null)
 				{
 					r_MGetInstanceCount = new(this, "GetInstanceCount", 0);
-					r_MGetInstanceCount.SetBelong(this.instance);
+					r_MGetInstanceCount.SetBelong(this.GetValue());
 				}
 				return r_MGetInstanceCount;
 			}
@@ -549,7 +549,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MClearInstances == null)
 				{
 					r_MClearInstances = new(this, "ClearInstances", 0);
-					r_MClearInstances.SetBelong(this.instance);
+					r_MClearInstances.SetBelong(this.GetValue());
 				}
 				return r_MClearInstances;
 			}
@@ -566,7 +566,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MCullInstances_Ref_RayTracingInstanceCullingConfig == null)
 				{
 					r_MCullInstances_Ref_RayTracingInstanceCullingConfig = new(this, "CullInstances", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig).MakeByRefType());
-					r_MCullInstances_Ref_RayTracingInstanceCullingConfig.SetBelong(this.instance);
+					r_MCullInstances_Ref_RayTracingInstanceCullingConfig.SetBelong(this.GetValue());
 				}
 				return r_MCullInstances_Ref_RayTracingInstanceCullingConfig;
 			}
@@ -583,7 +583,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MAddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 == null)
 				{
 					r_MAddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 = new(this, "AddInstanceSubMeshFlagsArray", 0, typeof(UnityEngine.Renderer), typeof(UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.UInt32));
-					r_MAddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32.SetBelong(this.instance);
+					r_MAddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MAddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32;
 			}
@@ -617,7 +617,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MUpdate_Injected_Ref_Vector3 == null)
 				{
 					r_MUpdate_Injected_Ref_Vector3 = new(this, "Update_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
-					r_MUpdate_Injected_Ref_Vector3.SetBelong(this.instance);
+					r_MUpdate_Injected_Ref_Vector3.SetBelong(this.GetValue());
 				}
 				return r_MUpdate_Injected_Ref_Vector3;
 			}
@@ -634,7 +634,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MBuild_Injected_Ref_Vector3 == null)
 				{
 					r_MBuild_Injected_Ref_Vector3 = new(this, "Build_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
-					r_MBuild_Injected_Ref_Vector3.SetBelong(this.instance);
+					r_MBuild_Injected_Ref_Vector3.SetBelong(this.GetValue());
 				}
 				return r_MBuild_Injected_Ref_Vector3;
 			}
@@ -651,7 +651,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
 				{
 					r_MAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance_Procedural_Deprecated_Injected", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
-					r_MAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.instance);
+					r_MAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
 			}
@@ -668,7 +668,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 == null)
 				{
 					r_MAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 = new(this, "AddInstance_Procedural_Injected", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(System.Boolean), typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(UnityEngine.MaterialPropertyBlock), typeof(System.UInt32), typeof(System.UInt32));
-					r_MAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.SetBelong(this.instance);
+					r_MAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
 			}
@@ -685,7 +685,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4 == null)
 				{
 					r_MUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4 = new(this, "UpdateInstanceTransform_InstanceID_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_MUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4.SetBelong(this.instance);
+					r_MUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4;
 			}
@@ -702,7 +702,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults == null)
 				{
 					r_MCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults = new(this, "CullInstances_Injected", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig).MakeByRefType(), typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults).MakeByRefType());
-					r_MCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults.SetBelong(this.instance);
+					r_MCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults.SetBelong(this.GetValue());
 				}
 				return r_MCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults;
 			}
@@ -719,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -736,7 +736,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -753,7 +753,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -770,7 +770,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -787,7 +787,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

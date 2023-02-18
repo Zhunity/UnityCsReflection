@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MScheduleOnce_Action_d_TimerState_p__Int64 == null)
 				{
 					r_MScheduleOnce_Action_d_TimerState_p__Int64 = new(this, "ScheduleOnce", 0, typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.UIElements.TimerState)), typeof(System.Int64));
-					r_MScheduleOnce_Action_d_TimerState_p__Int64.SetBelong(this.instance);
+					r_MScheduleOnce_Action_d_TimerState_p__Int64.SetBelong(this.GetValue());
 				}
 				return r_MScheduleOnce_Action_d_TimerState_p__Int64;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MScheduleUntil_Action_d_TimerState_p__Int64_Int64_Func_d_Boolean_p_ == null)
 				{
 					r_MScheduleUntil_Action_d_TimerState_p__Int64_Int64_Func_d_Boolean_p_ = new(this, "ScheduleUntil", 0, typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.UIElements.TimerState)), typeof(System.Int64), typeof(System.Int64), typeof(System.Func<>).MakeGenericType(typeof(System.Boolean)));
-					r_MScheduleUntil_Action_d_TimerState_p__Int64_Int64_Func_d_Boolean_p_.SetBelong(this.instance);
+					r_MScheduleUntil_Action_d_TimerState_p__Int64_Int64_Func_d_Boolean_p_.SetBelong(this.GetValue());
 				}
 				return r_MScheduleUntil_Action_d_TimerState_p__Int64_Int64_Func_d_Boolean_p_;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MScheduleForDuration_Action_d_TimerState_p__Int64_Int64_Int64 == null)
 				{
 					r_MScheduleForDuration_Action_d_TimerState_p__Int64_Int64_Int64 = new(this, "ScheduleForDuration", 0, typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.UIElements.TimerState)), typeof(System.Int64), typeof(System.Int64), typeof(System.Int64));
-					r_MScheduleForDuration_Action_d_TimerState_p__Int64_Int64_Int64.SetBelong(this.instance);
+					r_MScheduleForDuration_Action_d_TimerState_p__Int64_Int64_Int64.SetBelong(this.GetValue());
 				}
 				return r_MScheduleForDuration_Action_d_TimerState_p__Int64_Int64_Int64;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MUnschedule_ScheduledItem == null)
 				{
 					r_MUnschedule_ScheduledItem = new(this, "Unschedule", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.ScheduledItem"));
-					r_MUnschedule_ScheduledItem.SetBelong(this.instance);
+					r_MUnschedule_ScheduledItem.SetBelong(this.GetValue());
 				}
 				return r_MUnschedule_ScheduledItem;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MSchedule_ScheduledItem == null)
 				{
 					r_MSchedule_ScheduledItem = new(this, "Schedule", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.ScheduledItem"));
-					r_MSchedule_ScheduledItem.SetBelong(this.instance);
+					r_MSchedule_ScheduledItem.SetBelong(this.GetValue());
 				}
 				return r_MSchedule_ScheduledItem;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MUpdateScheduledEvents == null)
 				{
 					r_MUpdateScheduledEvents = new(this, "UpdateScheduledEvents", 0);
-					r_MUpdateScheduledEvents.SetBelong(this.instance);
+					r_MUpdateScheduledEvents.SetBelong(this.GetValue());
 				}
 				return r_MUpdateScheduledEvents;
 			}

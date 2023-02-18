@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_PName == null)
 				{
 					r_PName = new(this, "Name", -1);
-					r_PName.SetBelong(this.instance);
+					r_PName.SetBelong(this.GetValue());
 				}
 				return r_PName;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MFreeze_Context == null)
 				{
 					r_MFreeze_Context = new(this, "Freeze", 0, typeof(System.Runtime.Remoting.Contexts.Context));
-					r_MFreeze_Context.SetBelong(this.instance);
+					r_MFreeze_Context.SetBelong(this.GetValue());
 				}
 				return r_MFreeze_Context;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MIsNewContextOK_Context == null)
 				{
 					r_MIsNewContextOK_Context = new(this, "IsNewContextOK", 0, typeof(System.Runtime.Remoting.Contexts.Context));
-					r_MIsNewContextOK_Context.SetBelong(this.instance);
+					r_MIsNewContextOK_Context.SetBelong(this.GetValue());
 				}
 				return r_MIsNewContextOK_Context;
 			}

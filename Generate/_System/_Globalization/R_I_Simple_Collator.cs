@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetSortKey_String_CompareOptions == null)
 				{
 					r_MGetSortKey_String_CompareOptions = new(this, "GetSortKey", 0, typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MGetSortKey_String_CompareOptions.SetBelong(this.instance);
+					r_MGetSortKey_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MGetSortKey_String_CompareOptions;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCompare_String_String == null)
 				{
 					r_MCompare_String_String = new(this, "Compare", 0, typeof(System.String), typeof(System.String));
-					r_MCompare_String_String.SetBelong(this.instance);
+					r_MCompare_String_String.SetBelong(this.GetValue());
 				}
 				return r_MCompare_String_String;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions == null)
 				{
 					r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions = new(this, "Compare", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsPrefix_String_String_CompareOptions == null)
 				{
 					r_MIsPrefix_String_String_CompareOptions = new(this, "IsPrefix", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MIsPrefix_String_String_CompareOptions.SetBelong(this.instance);
+					r_MIsPrefix_String_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIsPrefix_String_String_CompareOptions;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsSuffix_String_String_CompareOptions == null)
 				{
 					r_MIsSuffix_String_String_CompareOptions = new(this, "IsSuffix", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MIsSuffix_String_String_CompareOptions.SetBelong(this.instance);
+					r_MIsSuffix_String_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIsSuffix_String_String_CompareOptions;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_String_Int32_Int32_CompareOptions == null)
 				{
 					r_MIndexOf_String_String_Int32_Int32_CompareOptions = new(this, "IndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MIndexOf_String_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MIndexOf_String_String_Int32_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_String_Int32_Int32_CompareOptions;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOf_String_Char_Int32_Int32_CompareOptions == null)
 				{
 					r_MIndexOf_String_Char_Int32_Int32_CompareOptions = new(this, "IndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MIndexOf_String_Char_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MIndexOf_String_Char_Int32_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MIndexOf_String_Char_Int32_Int32_CompareOptions;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_String_CompareOptions == null)
 				{
 					r_MLastIndexOf_String_String_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Globalization.CompareOptions));
-					r_MLastIndexOf_String_String_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOf_String_String_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_String_CompareOptions;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_String_Int32_Int32_CompareOptions == null)
 				{
 					r_MLastIndexOf_String_String_Int32_Int32_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MLastIndexOf_String_String_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOf_String_String_Int32_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_String_Int32_Int32_CompareOptions;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_Char_CompareOptions == null)
 				{
 					r_MLastIndexOf_String_Char_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Globalization.CompareOptions));
-					r_MLastIndexOf_String_Char_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOf_String_Char_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_Char_CompareOptions;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions == null)
 				{
 					r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions = new(this, "LastIndexOf", 0, typeof(System.String), typeof(System.Char), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
-					r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions.SetBelong(this.instance);
+					r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions.SetBelong(this.GetValue());
 				}
 				return r_MLastIndexOf_String_Char_Int32_Int32_CompareOptions;
 			}

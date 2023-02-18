@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_F__0__bounds__1__k__BackingField == null)
 				{
 					r_F__0__bounds__1__k__BackingField = new(this, "<bounds>k__BackingField");
-					r_F__0__bounds__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__bounds__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__bounds__1__k__BackingField;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_F__0__topology__1__k__BackingField == null)
 				{
 					r_F__0__topology__1__k__BackingField = new(this, "<topology>k__BackingField");
-					r_F__0__topology__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__topology__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__topology__1__k__BackingField;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_F__0__indexStart__1__k__BackingField == null)
 				{
 					r_F__0__indexStart__1__k__BackingField = new(this, "<indexStart>k__BackingField");
-					r_F__0__indexStart__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__indexStart__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__indexStart__1__k__BackingField;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_F__0__indexCount__1__k__BackingField == null)
 				{
 					r_F__0__indexCount__1__k__BackingField = new(this, "<indexCount>k__BackingField");
-					r_F__0__indexCount__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__indexCount__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__indexCount__1__k__BackingField;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_F__0__baseVertex__1__k__BackingField == null)
 				{
 					r_F__0__baseVertex__1__k__BackingField = new(this, "<baseVertex>k__BackingField");
-					r_F__0__baseVertex__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__baseVertex__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__baseVertex__1__k__BackingField;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_F__0__firstVertex__1__k__BackingField == null)
 				{
 					r_F__0__firstVertex__1__k__BackingField = new(this, "<firstVertex>k__BackingField");
-					r_F__0__firstVertex__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__firstVertex__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__firstVertex__1__k__BackingField;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_F__0__vertexCount__1__k__BackingField == null)
 				{
 					r_F__0__vertexCount__1__k__BackingField = new(this, "<vertexCount>k__BackingField");
-					r_F__0__vertexCount__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__vertexCount__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__vertexCount__1__k__BackingField;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_Pbounds == null)
 				{
 					r_Pbounds = new(this, "bounds", -1);
-					r_Pbounds.SetBelong(this.instance);
+					r_Pbounds.SetBelong(this.GetValue());
 				}
 				return r_Pbounds;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_Ptopology == null)
 				{
 					r_Ptopology = new(this, "topology", -1);
-					r_Ptopology.SetBelong(this.instance);
+					r_Ptopology.SetBelong(this.GetValue());
 				}
 				return r_Ptopology;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_PindexStart == null)
 				{
 					r_PindexStart = new(this, "indexStart", -1);
-					r_PindexStart.SetBelong(this.instance);
+					r_PindexStart.SetBelong(this.GetValue());
 				}
 				return r_PindexStart;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_PindexCount == null)
 				{
 					r_PindexCount = new(this, "indexCount", -1);
-					r_PindexCount.SetBelong(this.instance);
+					r_PindexCount.SetBelong(this.GetValue());
 				}
 				return r_PindexCount;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_PbaseVertex == null)
 				{
 					r_PbaseVertex = new(this, "baseVertex", -1);
-					r_PbaseVertex.SetBelong(this.instance);
+					r_PbaseVertex.SetBelong(this.GetValue());
 				}
 				return r_PbaseVertex;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_PfirstVertex == null)
 				{
 					r_PfirstVertex = new(this, "firstVertex", -1);
-					r_PfirstVertex.SetBelong(this.instance);
+					r_PfirstVertex.SetBelong(this.GetValue());
 				}
 				return r_PfirstVertex;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_PvertexCount == null)
 				{
 					r_PvertexCount = new(this, "vertexCount", -1);
-					r_PvertexCount.SetBelong(this.instance);
+					r_PvertexCount.SetBelong(this.GetValue());
 				}
 				return r_PvertexCount;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

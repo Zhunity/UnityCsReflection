@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 				if(r_MAddResource_String_String == null)
 				{
 					r_MAddResource_String_String = new(this, "AddResource", 0, typeof(System.String), typeof(System.String));
-					r_MAddResource_String_String.SetBelong(this.instance);
+					r_MAddResource_String_String.SetBelong(this.GetValue());
 				}
 				return r_MAddResource_String_String;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 				if(r_MAddResource_String_Object == null)
 				{
 					r_MAddResource_String_Object = new(this, "AddResource", 0, typeof(System.String), typeof(System.Object));
-					r_MAddResource_String_Object.SetBelong(this.instance);
+					r_MAddResource_String_Object.SetBelong(this.GetValue());
 				}
 				return r_MAddResource_String_Object;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 				if(r_MAddResource_String_ByteArray == null)
 				{
 					r_MAddResource_String_ByteArray = new(this, "AddResource", 0, typeof(System.String), typeof(System.Byte).MakeArrayType());
-					r_MAddResource_String_ByteArray.SetBelong(this.instance);
+					r_MAddResource_String_ByteArray.SetBelong(this.GetValue());
 				}
 				return r_MAddResource_String_ByteArray;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 				if(r_MClose == null)
 				{
 					r_MClose = new(this, "Close", 0);
-					r_MClose.SetBelong(this.instance);
+					r_MClose.SetBelong(this.GetValue());
 				}
 				return r_MClose;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 				if(r_MGenerate == null)
 				{
 					r_MGenerate = new(this, "Generate", 0);
-					r_MGenerate.SetBelong(this.instance);
+					r_MGenerate.SetBelong(this.GetValue());
 				}
 				return r_MGenerate;
 			}

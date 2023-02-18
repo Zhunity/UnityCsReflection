@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_Fm_Datastore == null)
 				{
 					r_Fm_Datastore = new(this, "m_Datastore");
-					r_Fm_Datastore.SetBelong(this.instance);
+					r_Fm_Datastore.SetBelong(this.GetValue());
 				}
 				return r_Fm_Datastore;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_Fm_HostContext == null)
 				{
 					r_Fm_HostContext = new(this, "m_HostContext");
-					r_Fm_HostContext.SetBelong(this.instance);
+					r_Fm_HostContext.SetBelong(this.GetValue());
 				}
 				return r_Fm_HostContext;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_PDatastore == null)
 				{
 					r_PDatastore = new(this, "Datastore", -1);
-					r_PDatastore.SetBelong(this.instance);
+					r_PDatastore.SetBelong(this.GetValue());
 				}
 				return r_PDatastore;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_PHostContext == null)
 				{
 					r_PHostContext = new(this, "HostContext", -1);
-					r_PHostContext.SetBelong(this.instance);
+					r_PHostContext.SetBelong(this.GetValue());
 				}
 				return r_PHostContext;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_PHasUserData == null)
 				{
 					r_PHasUserData = new(this, "HasUserData", -1);
-					r_PHasUserData.SetBelong(this.instance);
+					r_PHasUserData.SetBelong(this.GetValue());
 				}
 				return r_PHasUserData;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_MFreeNamedDataSlot_String == null)
 				{
 					r_MFreeNamedDataSlot_String = new(this, "FreeNamedDataSlot", 0, typeof(System.String));
-					r_MFreeNamedDataSlot_String.SetBelong(this.instance);
+					r_MFreeNamedDataSlot_String.SetBelong(this.GetValue());
 				}
 				return r_MFreeNamedDataSlot_String;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_MGetData_String == null)
 				{
 					r_MGetData_String = new(this, "GetData", 0, typeof(System.String));
-					r_MGetData_String.SetBelong(this.instance);
+					r_MGetData_String.SetBelong(this.GetValue());
 				}
 				return r_MGetData_String;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_MSetData_String_Object == null)
 				{
 					r_MSetData_String_Object = new(this, "SetData", 0, typeof(System.String), typeof(System.Object));
-					r_MSetData_String_Object.SetBelong(this.instance);
+					r_MSetData_String_Object.SetBelong(this.GetValue());
 				}
 				return r_MSetData_String_Object;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_MCreateCopy == null)
 				{
 					r_MCreateCopy = new(this, "CreateCopy", 0);
-					r_MCreateCopy.SetBelong(this.instance);
+					r_MCreateCopy.SetBelong(this.GetValue());
 				}
 				return r_MCreateCopy;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

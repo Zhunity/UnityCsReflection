@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_Single_Single_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_Single_Single_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(System.Single), typeof(System.Single), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_Single_Single_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_Single_Single_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_Single_Single_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_Int32_Int32_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_Int32_Int32_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_Int32_Int32_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_Int32_Int32_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_Int32_Int32_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_Length_Length_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_Length_Length_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Length), typeof(UnityEngine.UIElements.Length), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_Length_Length_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_Length_Length_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_Length_Length_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_Color_Color_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_Color_Color_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.Color), typeof(UnityEngine.Color), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_Color_Color_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_Color_Color_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_Color_Color_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartAnimationEnum_VisualElement_StylePropertyId_Int32_Int32_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartAnimationEnum_VisualElement_StylePropertyId_Int32_Int32_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartAnimationEnum", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartAnimationEnum_VisualElement_StylePropertyId_Int32_Int32_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartAnimationEnum_VisualElement_StylePropertyId_Int32_Int32_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartAnimationEnum_VisualElement_StylePropertyId_Int32_Int32_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_Background_Background_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_Background_Background_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Background), typeof(UnityEngine.UIElements.Background), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_Background_Background_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_Background_Background_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_Background_Background_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_FontDefinition_FontDefinition_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_FontDefinition_FontDefinition_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.FontDefinition), typeof(UnityEngine.UIElements.FontDefinition), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_FontDefinition_FontDefinition_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_FontDefinition_FontDefinition_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_FontDefinition_FontDefinition_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_Font_Font_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_Font_Font_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.Font), typeof(UnityEngine.Font), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_Font_Font_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_Font_Font_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_Font_Font_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_TextShadow_TextShadow_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_TextShadow_TextShadow_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.TextShadow), typeof(UnityEngine.UIElements.TextShadow), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_TextShadow_TextShadow_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_TextShadow_TextShadow_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_TextShadow_TextShadow_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_Scale_Scale_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_Scale_Scale_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Scale), typeof(UnityEngine.UIElements.Scale), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_Scale_Scale_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_Scale_Scale_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_Scale_Scale_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_TransformOrigin_TransformOrigin_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_TransformOrigin_TransformOrigin_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.TransformOrigin), typeof(UnityEngine.UIElements.TransformOrigin), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_TransformOrigin_TransformOrigin_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_TransformOrigin_TransformOrigin_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_TransformOrigin_TransformOrigin_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_Translate_Translate_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_Translate_Translate_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Translate), typeof(UnityEngine.UIElements.Translate), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_Translate_Translate_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_Translate_Translate_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_Translate_Translate_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_Rotate_Rotate_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_Rotate_Rotate_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Rotate), typeof(UnityEngine.UIElements.Rotate), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_Rotate_Rotate_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_Rotate_Rotate_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_Rotate_Rotate_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_BackgroundPosition_BackgroundPosition_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_BackgroundPosition_BackgroundPosition_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundPosition), typeof(UnityEngine.UIElements.BackgroundPosition), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_BackgroundPosition_BackgroundPosition_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_BackgroundPosition_BackgroundPosition_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_BackgroundPosition_BackgroundPosition_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_BackgroundRepeat_BackgroundRepeat_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_BackgroundRepeat_BackgroundRepeat_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundRepeat), typeof(UnityEngine.UIElements.BackgroundRepeat), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_BackgroundRepeat_BackgroundRepeat_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_BackgroundRepeat_BackgroundRepeat_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_BackgroundRepeat_BackgroundRepeat_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTransition_VisualElement_StylePropertyId_BackgroundSize_BackgroundSize_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
 					r_MStartTransition_VisualElement_StylePropertyId_BackgroundSize_BackgroundSize_Int32_Int32_Func_d_Single_Single_p_ = new(this, "StartTransition", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundSize), typeof(UnityEngine.UIElements.BackgroundSize), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_MStartTransition_VisualElement_StylePropertyId_BackgroundSize_BackgroundSize_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.instance);
+					r_MStartTransition_VisualElement_StylePropertyId_BackgroundSize_BackgroundSize_Int32_Int32_Func_d_Single_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MStartTransition_VisualElement_StylePropertyId_BackgroundSize_BackgroundSize_Int32_Int32_Func_d_Single_Single_p_;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MCancelAllAnimations == null)
 				{
 					r_MCancelAllAnimations = new(this, "CancelAllAnimations", 0);
-					r_MCancelAllAnimations.SetBelong(this.instance);
+					r_MCancelAllAnimations.SetBelong(this.GetValue());
 				}
 				return r_MCancelAllAnimations;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MCancelAllAnimations_VisualElement == null)
 				{
 					r_MCancelAllAnimations_VisualElement = new(this, "CancelAllAnimations", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_MCancelAllAnimations_VisualElement.SetBelong(this.instance);
+					r_MCancelAllAnimations_VisualElement.SetBelong(this.GetValue());
 				}
 				return r_MCancelAllAnimations_VisualElement;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MCancelAnimation_VisualElement_StylePropertyId == null)
 				{
 					r_MCancelAnimation_VisualElement_StylePropertyId = new(this, "CancelAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_MCancelAnimation_VisualElement_StylePropertyId.SetBelong(this.instance);
+					r_MCancelAnimation_VisualElement_StylePropertyId.SetBelong(this.GetValue());
 				}
 				return r_MCancelAnimation_VisualElement_StylePropertyId;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MHasRunningAnimation_VisualElement_StylePropertyId == null)
 				{
 					r_MHasRunningAnimation_VisualElement_StylePropertyId = new(this, "HasRunningAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_MHasRunningAnimation_VisualElement_StylePropertyId.SetBelong(this.instance);
+					r_MHasRunningAnimation_VisualElement_StylePropertyId.SetBelong(this.GetValue());
 				}
 				return r_MHasRunningAnimation_VisualElement_StylePropertyId;
 			}
@@ -362,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MUpdateAnimation_VisualElement_StylePropertyId == null)
 				{
 					r_MUpdateAnimation_VisualElement_StylePropertyId = new(this, "UpdateAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_MUpdateAnimation_VisualElement_StylePropertyId.SetBelong(this.instance);
+					r_MUpdateAnimation_VisualElement_StylePropertyId.SetBelong(this.GetValue());
 				}
 				return r_MUpdateAnimation_VisualElement_StylePropertyId;
 			}
@@ -379,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetAllAnimations_VisualElement_List_d_StylePropertyId_p_ == null)
 				{
 					r_MGetAllAnimations_VisualElement_List_d_StylePropertyId_p_ = new(this, "GetAllAnimations", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Collections.Generic.List<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId")));
-					r_MGetAllAnimations_VisualElement_List_d_StylePropertyId_p_.SetBelong(this.instance);
+					r_MGetAllAnimations_VisualElement_List_d_StylePropertyId_p_.SetBelong(this.GetValue());
 				}
 				return r_MGetAllAnimations_VisualElement_List_d_StylePropertyId_p_;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MUpdate == null)
 				{
 					r_MUpdate = new(this, "Update", 0);
-					r_MUpdate.SetBelong(this.instance);
+					r_MUpdate.SetBelong(this.GetValue());
 				}
 				return r_MUpdate;
 			}

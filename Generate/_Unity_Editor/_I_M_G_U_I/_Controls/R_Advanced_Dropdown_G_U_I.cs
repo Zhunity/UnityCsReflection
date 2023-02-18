@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fs_IconSize == null)
 				{
 					r_Fs_IconSize = new(this, "s_IconSize");
-					r_Fs_IconSize.SetBelong(this.instance);
+					r_Fs_IconSize.SetBelong(this.GetValue());
 				}
 				return r_Fs_IconSize;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_DataSource == null)
 				{
 					r_Fm_DataSource = new(this, "m_DataSource");
-					r_Fm_DataSource.SetBelong(this.instance);
+					r_Fm_DataSource.SetBelong(this.GetValue());
 				}
 				return r_Fm_DataSource;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_SearchRect == null)
 				{
 					r_Fm_SearchRect = new(this, "m_SearchRect");
-					r_Fm_SearchRect.SetBelong(this.instance);
+					r_Fm_SearchRect.SetBelong(this.GetValue());
 				}
 				return r_Fm_SearchRect;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_HeaderRect == null)
 				{
 					r_Fm_HeaderRect = new(this, "m_HeaderRect");
-					r_Fm_HeaderRect.SetBelong(this.instance);
+					r_Fm_HeaderRect.SetBelong(this.GetValue());
 				}
 				return r_Fm_HeaderRect;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_F__0__state__1__k__BackingField == null)
 				{
 					r_F__0__state__1__k__BackingField = new(this, "<state>k__BackingField");
-					r_F__0__state__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__state__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__state__1__k__BackingField;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PsearchHeight == null)
 				{
 					r_PsearchHeight = new(this, "searchHeight", -1);
-					r_PsearchHeight.SetBelong(this.instance);
+					r_PsearchHeight.SetBelong(this.GetValue());
 				}
 				return r_PsearchHeight;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PheaderHeight == null)
 				{
 					r_PheaderHeight = new(this, "headerHeight", -1);
-					r_PheaderHeight.SetBelong(this.instance);
+					r_PheaderHeight.SetBelong(this.GetValue());
 				}
 				return r_PheaderHeight;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PlineStyle == null)
 				{
 					r_PlineStyle = new(this, "lineStyle", -1);
-					r_PlineStyle.SetBelong(this.instance);
+					r_PlineStyle.SetBelong(this.GetValue());
 				}
 				return r_PlineStyle;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PiconSize == null)
 				{
 					r_PiconSize = new(this, "iconSize", -1);
-					r_PiconSize.SetBelong(this.instance);
+					r_PiconSize.SetBelong(this.GetValue());
 				}
 				return r_PiconSize;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Pstate == null)
 				{
 					r_Pstate = new(this, "state", -1);
-					r_Pstate.SetBelong(this.instance);
+					r_Pstate.SetBelong(this.GetValue());
 				}
 				return r_Pstate;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MDrawItem_AdvancedDropdownItem_String_Texture2D_Boolean_Boolean_Boolean_Boolean == null)
 				{
 					r_MDrawItem_AdvancedDropdownItem_String_Texture2D_Boolean_Boolean_Boolean_Boolean = new(this, "DrawItem", 0, typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem), typeof(System.String), typeof(UnityEngine.Texture2D), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_MDrawItem_AdvancedDropdownItem_String_Texture2D_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_MDrawItem_AdvancedDropdownItem_String_Texture2D_Boolean_Boolean_Boolean_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDrawItem_AdvancedDropdownItem_String_Texture2D_Boolean_Boolean_Boolean_Boolean;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MDrawLineSeparator == null)
 				{
 					r_MDrawLineSeparator = new(this, "DrawLineSeparator", 0);
-					r_MDrawLineSeparator.SetBelong(this.instance);
+					r_MDrawLineSeparator.SetBelong(this.GetValue());
 				}
 				return r_MDrawLineSeparator;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MDrawHeader_AdvancedDropdownItem_Action_Boolean == null)
 				{
 					r_MDrawHeader_AdvancedDropdownItem_Action_Boolean = new(this, "DrawHeader", 0, typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem), typeof(System.Action), typeof(System.Boolean));
-					r_MDrawHeader_AdvancedDropdownItem_Action_Boolean.SetBelong(this.instance);
+					r_MDrawHeader_AdvancedDropdownItem_Action_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDrawHeader_AdvancedDropdownItem_Action_Boolean;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MDrawSearchField_Boolean_String_Action_d_String_p_ == null)
 				{
 					r_MDrawSearchField_Boolean_String_Action_d_String_p_ = new(this, "DrawSearchField", 0, typeof(System.Boolean), typeof(System.String), typeof(System.Action<>).MakeGenericType(typeof(System.String)));
-					r_MDrawSearchField_Boolean_String_Action_d_String_p_.SetBelong(this.instance);
+					r_MDrawSearchField_Boolean_String_Action_d_String_p_.SetBelong(this.GetValue());
 				}
 				return r_MDrawSearchField_Boolean_String_Action_d_String_p_;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MDrawSearchFieldControl_String == null)
 				{
 					r_MDrawSearchFieldControl_String = new(this, "DrawSearchFieldControl", 0, typeof(System.String));
-					r_MDrawSearchFieldControl_String.SetBelong(this.instance);
+					r_MDrawSearchFieldControl_String.SetBelong(this.GetValue());
 				}
 				return r_MDrawSearchFieldControl_String;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MCalculateSearchRect_Ref_Rect == null)
 				{
 					r_MCalculateSearchRect_Ref_Rect = new(this, "CalculateSearchRect", 0, typeof(UnityEngine.Rect).MakeByRefType());
-					r_MCalculateSearchRect_Ref_Rect.SetBelong(this.instance);
+					r_MCalculateSearchRect_Ref_Rect.SetBelong(this.GetValue());
 				}
 				return r_MCalculateSearchRect_Ref_Rect;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetAnimRect_Rect_Single == null)
 				{
 					r_MGetAnimRect_Rect_Single = new(this, "GetAnimRect", 0, typeof(UnityEngine.Rect), typeof(System.Single));
-					r_MGetAnimRect_Rect_Single.SetBelong(this.instance);
+					r_MGetAnimRect_Rect_Single.SetBelong(this.GetValue());
 				}
 				return r_MGetAnimRect_Rect_Single;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MCalculateContentSize_AdvancedDropdownDataSource == null)
 				{
 					r_MCalculateContentSize_AdvancedDropdownDataSource = new(this, "CalculateContentSize", 0,  ReflectionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource"));
-					r_MCalculateContentSize_AdvancedDropdownDataSource.SetBelong(this.instance);
+					r_MCalculateContentSize_AdvancedDropdownDataSource.SetBelong(this.GetValue());
 				}
 				return r_MCalculateContentSize_AdvancedDropdownDataSource;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetSelectionHeight_AdvancedDropdownDataSource_Rect == null)
 				{
 					r_MGetSelectionHeight_AdvancedDropdownDataSource_Rect = new(this, "GetSelectionHeight", 0,  ReflectionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource"), typeof(UnityEngine.Rect));
-					r_MGetSelectionHeight_AdvancedDropdownDataSource_Rect.SetBelong(this.instance);
+					r_MGetSelectionHeight_AdvancedDropdownDataSource_Rect.SetBelong(this.GetValue());
 				}
 				return r_MGetSelectionHeight_AdvancedDropdownDataSource_Rect;
 			}
@@ -362,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetItemRect_In_GUIContent == null)
 				{
 					r_MGetItemRect_In_GUIContent = new(this, "GetItemRect", 0, typeof(UnityEngine.GUIContent).MakeByRefType());
-					r_MGetItemRect_In_GUIContent.SetBelong(this.instance);
+					r_MGetItemRect_In_GUIContent.SetBelong(this.GetValue());
 				}
 				return r_MGetItemRect_In_GUIContent;
 			}
@@ -379,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MCalcItemHeight_GUIContent_Single == null)
 				{
 					r_MCalcItemHeight_GUIContent_Single = new(this, "CalcItemHeight", 0, typeof(UnityEngine.GUIContent), typeof(System.Single));
-					r_MCalcItemHeight_GUIContent_Single.SetBelong(this.instance);
+					r_MCalcItemHeight_GUIContent_Single.SetBelong(this.GetValue());
 				}
 				return r_MCalcItemHeight_GUIContent_Single;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MCalcItemSize_GUIContent == null)
 				{
 					r_MCalcItemSize_GUIContent = new(this, "CalcItemSize", 0, typeof(UnityEngine.GUIContent));
-					r_MCalcItemSize_GUIContent.SetBelong(this.instance);
+					r_MCalcItemSize_GUIContent.SetBelong(this.GetValue());
 				}
 				return r_MCalcItemSize_GUIContent;
 			}
@@ -413,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MDrawItemContent_AdvancedDropdownItem_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean == null)
 				{
 					r_MDrawItemContent_AdvancedDropdownItem_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean = new(this, "DrawItemContent", 0, typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem), typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_MDrawItemContent_AdvancedDropdownItem_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_MDrawItemContent_AdvancedDropdownItem_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDrawItemContent_AdvancedDropdownItem_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
 			}
@@ -430,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -447,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -464,7 +464,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -481,7 +481,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -498,7 +498,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -515,7 +515,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

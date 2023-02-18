@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_Fm_Ptr == null)
 				{
 					r_Fm_Ptr = new(this, "m_Ptr");
-					r_Fm_Ptr.SetBelong(this.instance);
+					r_Fm_Ptr.SetBelong(this.GetValue());
 				}
 				return r_Fm_Ptr;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_Pname == null)
 				{
 					r_Pname = new(this, "name", -1);
-					r_Pname.SetBelong(this.instance);
+					r_Pname.SetBelong(this.GetValue());
 				}
 				return r_Pname;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_PsizeInBytes == null)
 				{
 					r_PsizeInBytes = new(this, "sizeInBytes", -1);
-					r_PsizeInBytes.SetBelong(this.instance);
+					r_PsizeInBytes.SetBelong(this.GetValue());
 				}
 				return r_PsizeInBytes;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MConvertTexture_RenderTargetIdentifier_RenderTargetIdentifier == null)
 				{
 					r_MConvertTexture_RenderTargetIdentifier_RenderTargetIdentifier = new(this, "ConvertTexture", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MConvertTexture_RenderTargetIdentifier_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MConvertTexture_RenderTargetIdentifier_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MConvertTexture_RenderTargetIdentifier_RenderTargetIdentifier;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MConvertTexture_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32 == null)
 				{
 					r_MConvertTexture_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32 = new(this, "ConvertTexture", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32));
-					r_MConvertTexture_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32.SetBelong(this.instance);
+					r_MConvertTexture_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32.SetBelong(this.GetValue());
 				}
 				return r_MConvertTexture_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MWaitAllAsyncReadbackRequests == null)
 				{
 					r_MWaitAllAsyncReadbackRequests = new(this, "WaitAllAsyncReadbackRequests", 0);
-					r_MWaitAllAsyncReadbackRequests.SetBelong(this.instance);
+					r_MWaitAllAsyncReadbackRequests.SetBelong(this.GetValue());
 				}
 				return r_MWaitAllAsyncReadbackRequests;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadback_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadback_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadback_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadback_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadback_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadback_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadback_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadback_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadback_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadback_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadback_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadback_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadback_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadback_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadback_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadback_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadback_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadback_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadback_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadback_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadback_Texture_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadback_Texture_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadback_Texture_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadback_Texture_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadback_Texture_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadback_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadback_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadback_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadback_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadback_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadback_Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadback_Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.TextureFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadback_Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadback_Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadback_Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadback_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadback_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadback_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadback_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadback_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextureFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.ComputeBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.GraphicsBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -362,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -379,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -413,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.TextureFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -430,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -447,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -464,7 +464,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextureFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -481,7 +481,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -498,7 +498,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.ComputeBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -515,7 +515,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -532,7 +532,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.GraphicsBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -549,7 +549,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -566,7 +566,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -583,7 +583,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -600,7 +600,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.TextureFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -617,7 +617,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -634,7 +634,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -651,7 +651,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextureFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -668,7 +668,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
 					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.GetValue());
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -685,7 +685,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_RequestAsyncReadback_1_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
 					r_MInternal_RequestAsyncReadback_1_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_1", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
-					r_MInternal_RequestAsyncReadback_1_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.instance);
+					r_MInternal_RequestAsyncReadback_1_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.GetValue());
 				}
 				return r_MInternal_RequestAsyncReadback_1_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -702,7 +702,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_RequestAsyncReadback_2_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
 					r_MInternal_RequestAsyncReadback_2_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_2", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
-					r_MInternal_RequestAsyncReadback_2_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.instance);
+					r_MInternal_RequestAsyncReadback_2_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.GetValue());
 				}
 				return r_MInternal_RequestAsyncReadback_2_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -719,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_RequestAsyncReadback_3_Texture_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
 					r_MInternal_RequestAsyncReadback_3_Texture_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_3", 0, typeof(UnityEngine.Texture), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
-					r_MInternal_RequestAsyncReadback_3_Texture_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.instance);
+					r_MInternal_RequestAsyncReadback_3_Texture_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.GetValue());
 				}
 				return r_MInternal_RequestAsyncReadback_3_Texture_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -736,7 +736,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_RequestAsyncReadback_4_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
 					r_MInternal_RequestAsyncReadback_4_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_4", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
-					r_MInternal_RequestAsyncReadback_4_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.instance);
+					r_MInternal_RequestAsyncReadback_4_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.GetValue());
 				}
 				return r_MInternal_RequestAsyncReadback_4_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -753,7 +753,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_RequestAsyncReadback_5_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
 					r_MInternal_RequestAsyncReadback_5_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_5", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
-					r_MInternal_RequestAsyncReadback_5_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.instance);
+					r_MInternal_RequestAsyncReadback_5_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.GetValue());
 				}
 				return r_MInternal_RequestAsyncReadback_5_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -770,7 +770,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_RequestAsyncReadback_6_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
 					r_MInternal_RequestAsyncReadback_6_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_6", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
-					r_MInternal_RequestAsyncReadback_6_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.instance);
+					r_MInternal_RequestAsyncReadback_6_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.GetValue());
 				}
 				return r_MInternal_RequestAsyncReadback_6_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -787,7 +787,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_RequestAsyncReadback_7_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
 					r_MInternal_RequestAsyncReadback_7_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_7", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
-					r_MInternal_RequestAsyncReadback_7_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.instance);
+					r_MInternal_RequestAsyncReadback_7_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.GetValue());
 				}
 				return r_MInternal_RequestAsyncReadback_7_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -804,7 +804,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_RequestAsyncReadback_8_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
 					r_MInternal_RequestAsyncReadback_8_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_8", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
-					r_MInternal_RequestAsyncReadback_8_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.instance);
+					r_MInternal_RequestAsyncReadback_8_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.GetValue());
 				}
 				return r_MInternal_RequestAsyncReadback_8_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -821,7 +821,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_RequestAsyncReadback_9_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
 					r_MInternal_RequestAsyncReadback_9_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_9", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
-					r_MInternal_RequestAsyncReadback_9_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.instance);
+					r_MInternal_RequestAsyncReadback_9_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.SetBelong(this.GetValue());
 				}
 				return r_MInternal_RequestAsyncReadback_9_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -838,7 +838,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetInvertCulling_Boolean == null)
 				{
 					r_MSetInvertCulling_Boolean = new(this, "SetInvertCulling", 0, typeof(System.Boolean));
-					r_MSetInvertCulling_Boolean.SetBelong(this.instance);
+					r_MSetInvertCulling_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetInvertCulling_Boolean;
 			}
@@ -855,7 +855,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MConvertTexture_Internal_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32 == null)
 				{
 					r_MConvertTexture_Internal_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32 = new(this, "ConvertTexture_Internal", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32));
-					r_MConvertTexture_Internal_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32.SetBelong(this.instance);
+					r_MConvertTexture_Internal_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32.SetBelong(this.GetValue());
 				}
 				return r_MConvertTexture_Internal_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32;
 			}
@@ -872,7 +872,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetSinglePassStereo_SinglePassStereoMode == null)
 				{
 					r_MInternal_SetSinglePassStereo_SinglePassStereoMode = new(this, "Internal_SetSinglePassStereo", 0, typeof(UnityEngine.Rendering.SinglePassStereoMode));
-					r_MInternal_SetSinglePassStereo_SinglePassStereoMode.SetBelong(this.instance);
+					r_MInternal_SetSinglePassStereo_SinglePassStereoMode.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetSinglePassStereo_SinglePassStereoMode;
 			}
@@ -906,7 +906,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCreateGPUFence_Internal_GraphicsFenceType_SynchronisationStageFlags == null)
 				{
 					r_MCreateGPUFence_Internal_GraphicsFenceType_SynchronisationStageFlags = new(this, "CreateGPUFence_Internal", 0, typeof(UnityEngine.Rendering.GraphicsFenceType), typeof(UnityEngine.Rendering.SynchronisationStageFlags));
-					r_MCreateGPUFence_Internal_GraphicsFenceType_SynchronisationStageFlags.SetBelong(this.instance);
+					r_MCreateGPUFence_Internal_GraphicsFenceType_SynchronisationStageFlags.SetBelong(this.GetValue());
 				}
 				return r_MCreateGPUFence_Internal_GraphicsFenceType_SynchronisationStageFlags;
 			}
@@ -923,7 +923,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MWaitOnGPUFence_Internal_IntPtr_SynchronisationStageFlags == null)
 				{
 					r_MWaitOnGPUFence_Internal_IntPtr_SynchronisationStageFlags = new(this, "WaitOnGPUFence_Internal", 0, typeof(System.IntPtr), typeof(UnityEngine.Rendering.SynchronisationStageFlags));
-					r_MWaitOnGPUFence_Internal_IntPtr_SynchronisationStageFlags.SetBelong(this.instance);
+					r_MWaitOnGPUFence_Internal_IntPtr_SynchronisationStageFlags.SetBelong(this.GetValue());
 				}
 				return r_MWaitOnGPUFence_Internal_IntPtr_SynchronisationStageFlags;
 			}
@@ -940,7 +940,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MReleaseBuffer == null)
 				{
 					r_MReleaseBuffer = new(this, "ReleaseBuffer", 0);
-					r_MReleaseBuffer.SetBelong(this.instance);
+					r_MReleaseBuffer.SetBelong(this.GetValue());
 				}
 				return r_MReleaseBuffer;
 			}
@@ -957,7 +957,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeFloatParam_ComputeShader_Int32_Single == null)
 				{
 					r_MSetComputeFloatParam_ComputeShader_Int32_Single = new(this, "SetComputeFloatParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Single));
-					r_MSetComputeFloatParam_ComputeShader_Int32_Single.SetBelong(this.instance);
+					r_MSetComputeFloatParam_ComputeShader_Int32_Single.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeFloatParam_ComputeShader_Int32_Single;
 			}
@@ -974,7 +974,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeIntParam_ComputeShader_Int32_Int32 == null)
 				{
 					r_MSetComputeIntParam_ComputeShader_Int32_Int32 = new(this, "SetComputeIntParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32));
-					r_MSetComputeIntParam_ComputeShader_Int32_Int32.SetBelong(this.instance);
+					r_MSetComputeIntParam_ComputeShader_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeIntParam_ComputeShader_Int32_Int32;
 			}
@@ -991,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeVectorParam_ComputeShader_Int32_Vector4 == null)
 				{
 					r_MSetComputeVectorParam_ComputeShader_Int32_Vector4 = new(this, "SetComputeVectorParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.Vector4));
-					r_MSetComputeVectorParam_ComputeShader_Int32_Vector4.SetBelong(this.instance);
+					r_MSetComputeVectorParam_ComputeShader_Int32_Vector4.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeVectorParam_ComputeShader_Int32_Vector4;
 			}
@@ -1008,7 +1008,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeVectorArrayParam_ComputeShader_Int32_Vector4Array == null)
 				{
 					r_MSetComputeVectorArrayParam_ComputeShader_Int32_Vector4Array = new(this, "SetComputeVectorArrayParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.Vector4).MakeArrayType());
-					r_MSetComputeVectorArrayParam_ComputeShader_Int32_Vector4Array.SetBelong(this.instance);
+					r_MSetComputeVectorArrayParam_ComputeShader_Int32_Vector4Array.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeVectorArrayParam_ComputeShader_Int32_Vector4Array;
 			}
@@ -1025,7 +1025,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeMatrixParam_ComputeShader_Int32_Matrix4x4 == null)
 				{
 					r_MSetComputeMatrixParam_ComputeShader_Int32_Matrix4x4 = new(this, "SetComputeMatrixParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.Matrix4x4));
-					r_MSetComputeMatrixParam_ComputeShader_Int32_Matrix4x4.SetBelong(this.instance);
+					r_MSetComputeMatrixParam_ComputeShader_Int32_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeMatrixParam_ComputeShader_Int32_Matrix4x4;
 			}
@@ -1042,7 +1042,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeMatrixArrayParam_ComputeShader_Int32_Matrix4x4Array == null)
 				{
 					r_MSetComputeMatrixArrayParam_ComputeShader_Int32_Matrix4x4Array = new(this, "SetComputeMatrixArrayParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeArrayType());
-					r_MSetComputeMatrixArrayParam_ComputeShader_Int32_Matrix4x4Array.SetBelong(this.instance);
+					r_MSetComputeMatrixArrayParam_ComputeShader_Int32_Matrix4x4Array.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeMatrixArrayParam_ComputeShader_Int32_Matrix4x4Array;
 			}
@@ -1059,7 +1059,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetComputeFloats_ComputeShader_Int32_SingleArray == null)
 				{
 					r_MInternal_SetComputeFloats_ComputeShader_Int32_SingleArray = new(this, "Internal_SetComputeFloats", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Single).MakeArrayType());
-					r_MInternal_SetComputeFloats_ComputeShader_Int32_SingleArray.SetBelong(this.instance);
+					r_MInternal_SetComputeFloats_ComputeShader_Int32_SingleArray.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetComputeFloats_ComputeShader_Int32_SingleArray;
 			}
@@ -1076,7 +1076,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetComputeInts_ComputeShader_Int32_Int32Array == null)
 				{
 					r_MInternal_SetComputeInts_ComputeShader_Int32_Int32Array = new(this, "Internal_SetComputeInts", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32).MakeArrayType());
-					r_MInternal_SetComputeInts_ComputeShader_Int32_Int32Array.SetBelong(this.instance);
+					r_MInternal_SetComputeInts_ComputeShader_Int32_Int32Array.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetComputeInts_ComputeShader_Int32_Int32Array;
 			}
@@ -1093,7 +1093,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetComputeTextureParam_ComputeShader_Int32_Int32_Ref_RenderTargetIdentifier_Int32_RenderTextureSubElement == null)
 				{
 					r_MInternal_SetComputeTextureParam_ComputeShader_Int32_Int32_Ref_RenderTargetIdentifier_Int32_RenderTextureSubElement = new(this, "Internal_SetComputeTextureParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTextureSubElement));
-					r_MInternal_SetComputeTextureParam_ComputeShader_Int32_Int32_Ref_RenderTargetIdentifier_Int32_RenderTextureSubElement.SetBelong(this.instance);
+					r_MInternal_SetComputeTextureParam_ComputeShader_Int32_Int32_Ref_RenderTargetIdentifier_Int32_RenderTextureSubElement.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetComputeTextureParam_ComputeShader_Int32_Int32_Ref_RenderTargetIdentifier_Int32_RenderTextureSubElement;
 			}
@@ -1110,7 +1110,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetComputeBufferParam_ComputeShader_Int32_Int32_ComputeBuffer == null)
 				{
 					r_MInternal_SetComputeBufferParam_ComputeShader_Int32_Int32_ComputeBuffer = new(this, "Internal_SetComputeBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.ComputeBuffer));
-					r_MInternal_SetComputeBufferParam_ComputeShader_Int32_Int32_ComputeBuffer.SetBelong(this.instance);
+					r_MInternal_SetComputeBufferParam_ComputeShader_Int32_Int32_ComputeBuffer.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetComputeBufferParam_ComputeShader_Int32_Int32_ComputeBuffer;
 			}
@@ -1127,7 +1127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetComputeGraphicsBufferHandleParam_ComputeShader_Int32_Int32_GraphicsBufferHandle == null)
 				{
 					r_MInternal_SetComputeGraphicsBufferHandleParam_ComputeShader_Int32_Int32_GraphicsBufferHandle = new(this, "Internal_SetComputeGraphicsBufferHandleParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.GraphicsBufferHandle));
-					r_MInternal_SetComputeGraphicsBufferHandleParam_ComputeShader_Int32_Int32_GraphicsBufferHandle.SetBelong(this.instance);
+					r_MInternal_SetComputeGraphicsBufferHandleParam_ComputeShader_Int32_Int32_GraphicsBufferHandle.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetComputeGraphicsBufferHandleParam_ComputeShader_Int32_Int32_GraphicsBufferHandle;
 			}
@@ -1144,7 +1144,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetComputeGraphicsBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer == null)
 				{
 					r_MInternal_SetComputeGraphicsBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer = new(this, "Internal_SetComputeGraphicsBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer));
-					r_MInternal_SetComputeGraphicsBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer.SetBelong(this.instance);
+					r_MInternal_SetComputeGraphicsBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetComputeGraphicsBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer;
 			}
@@ -1161,7 +1161,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetComputeConstantComputeBufferParam_ComputeShader_Int32_ComputeBuffer_Int32_Int32 == null)
 				{
 					r_MInternal_SetComputeConstantComputeBufferParam_ComputeShader_Int32_ComputeBuffer_Int32_Int32 = new(this, "Internal_SetComputeConstantComputeBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_MInternal_SetComputeConstantComputeBufferParam_ComputeShader_Int32_ComputeBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MInternal_SetComputeConstantComputeBufferParam_ComputeShader_Int32_ComputeBuffer_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetComputeConstantComputeBufferParam_ComputeShader_Int32_ComputeBuffer_Int32_Int32;
 			}
@@ -1178,7 +1178,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetComputeConstantGraphicsBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32 == null)
 				{
 					r_MInternal_SetComputeConstantGraphicsBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32 = new(this, "Internal_SetComputeConstantGraphicsBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_MInternal_SetComputeConstantGraphicsBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MInternal_SetComputeConstantGraphicsBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetComputeConstantGraphicsBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32;
 			}
@@ -1195,7 +1195,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetComputeParamsFromMaterial_ComputeShader_Int32_Material == null)
 				{
 					r_MInternal_SetComputeParamsFromMaterial_ComputeShader_Int32_Material = new(this, "Internal_SetComputeParamsFromMaterial", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.Material));
-					r_MInternal_SetComputeParamsFromMaterial_ComputeShader_Int32_Material.SetBelong(this.instance);
+					r_MInternal_SetComputeParamsFromMaterial_ComputeShader_Int32_Material.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetComputeParamsFromMaterial_ComputeShader_Int32_Material;
 			}
@@ -1212,7 +1212,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DispatchCompute_ComputeShader_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MInternal_DispatchCompute_ComputeShader_Int32_Int32_Int32_Int32 = new(this, "Internal_DispatchCompute", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MInternal_DispatchCompute_ComputeShader_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MInternal_DispatchCompute_ComputeShader_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DispatchCompute_ComputeShader_Int32_Int32_Int32_Int32;
 			}
@@ -1229,7 +1229,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DispatchComputeIndirect_ComputeShader_Int32_ComputeBuffer_UInt32 == null)
 				{
 					r_MInternal_DispatchComputeIndirect_ComputeShader_Int32_ComputeBuffer_UInt32 = new(this, "Internal_DispatchComputeIndirect", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.UInt32));
-					r_MInternal_DispatchComputeIndirect_ComputeShader_Int32_ComputeBuffer_UInt32.SetBelong(this.instance);
+					r_MInternal_DispatchComputeIndirect_ComputeShader_Int32_ComputeBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DispatchComputeIndirect_ComputeShader_Int32_ComputeBuffer_UInt32;
 			}
@@ -1246,7 +1246,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DispatchComputeIndirectGraphicsBuffer_ComputeShader_Int32_GraphicsBuffer_UInt32 == null)
 				{
 					r_MInternal_DispatchComputeIndirectGraphicsBuffer_ComputeShader_Int32_GraphicsBuffer_UInt32 = new(this, "Internal_DispatchComputeIndirectGraphicsBuffer", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32));
-					r_MInternal_DispatchComputeIndirectGraphicsBuffer_ComputeShader_Int32_GraphicsBuffer_UInt32.SetBelong(this.instance);
+					r_MInternal_DispatchComputeIndirectGraphicsBuffer_ComputeShader_Int32_GraphicsBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DispatchComputeIndirectGraphicsBuffer_ComputeShader_Int32_GraphicsBuffer_UInt32;
 			}
@@ -1263,7 +1263,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingBufferParam_RayTracingShader_Int32_ComputeBuffer == null)
 				{
 					r_MInternal_SetRayTracingBufferParam_RayTracingShader_Int32_ComputeBuffer = new(this, "Internal_SetRayTracingBufferParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.ComputeBuffer));
-					r_MInternal_SetRayTracingBufferParam_RayTracingShader_Int32_ComputeBuffer.SetBelong(this.instance);
+					r_MInternal_SetRayTracingBufferParam_RayTracingShader_Int32_ComputeBuffer.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingBufferParam_RayTracingShader_Int32_ComputeBuffer;
 			}
@@ -1280,7 +1280,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingConstantComputeBufferParam_RayTracingShader_Int32_ComputeBuffer_Int32_Int32 == null)
 				{
 					r_MInternal_SetRayTracingConstantComputeBufferParam_RayTracingShader_Int32_ComputeBuffer_Int32_Int32 = new(this, "Internal_SetRayTracingConstantComputeBufferParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_MInternal_SetRayTracingConstantComputeBufferParam_RayTracingShader_Int32_ComputeBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MInternal_SetRayTracingConstantComputeBufferParam_RayTracingShader_Int32_ComputeBuffer_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingConstantComputeBufferParam_RayTracingShader_Int32_ComputeBuffer_Int32_Int32;
 			}
@@ -1297,7 +1297,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingConstantGraphicsBufferParam_RayTracingShader_Int32_GraphicsBuffer_Int32_Int32 == null)
 				{
 					r_MInternal_SetRayTracingConstantGraphicsBufferParam_RayTracingShader_Int32_GraphicsBuffer_Int32_Int32 = new(this, "Internal_SetRayTracingConstantGraphicsBufferParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_MInternal_SetRayTracingConstantGraphicsBufferParam_RayTracingShader_Int32_GraphicsBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MInternal_SetRayTracingConstantGraphicsBufferParam_RayTracingShader_Int32_GraphicsBuffer_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingConstantGraphicsBufferParam_RayTracingShader_Int32_GraphicsBuffer_Int32_Int32;
 			}
@@ -1314,7 +1314,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingTextureParam_RayTracingShader_Int32_Ref_RenderTargetIdentifier == null)
 				{
 					r_MInternal_SetRayTracingTextureParam_RayTracingShader_Int32_Ref_RenderTargetIdentifier = new(this, "Internal_SetRayTracingTextureParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType());
-					r_MInternal_SetRayTracingTextureParam_RayTracingShader_Int32_Ref_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MInternal_SetRayTracingTextureParam_RayTracingShader_Int32_Ref_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingTextureParam_RayTracingShader_Int32_Ref_RenderTargetIdentifier;
 			}
@@ -1331,7 +1331,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingFloatParam_RayTracingShader_Int32_Single == null)
 				{
 					r_MInternal_SetRayTracingFloatParam_RayTracingShader_Int32_Single = new(this, "Internal_SetRayTracingFloatParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(System.Single));
-					r_MInternal_SetRayTracingFloatParam_RayTracingShader_Int32_Single.SetBelong(this.instance);
+					r_MInternal_SetRayTracingFloatParam_RayTracingShader_Int32_Single.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingFloatParam_RayTracingShader_Int32_Single;
 			}
@@ -1348,7 +1348,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingIntParam_RayTracingShader_Int32_Int32 == null)
 				{
 					r_MInternal_SetRayTracingIntParam_RayTracingShader_Int32_Int32 = new(this, "Internal_SetRayTracingIntParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(System.Int32));
-					r_MInternal_SetRayTracingIntParam_RayTracingShader_Int32_Int32.SetBelong(this.instance);
+					r_MInternal_SetRayTracingIntParam_RayTracingShader_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingIntParam_RayTracingShader_Int32_Int32;
 			}
@@ -1365,7 +1365,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingVectorParam_RayTracingShader_Int32_Vector4 == null)
 				{
 					r_MInternal_SetRayTracingVectorParam_RayTracingShader_Int32_Vector4 = new(this, "Internal_SetRayTracingVectorParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.Vector4));
-					r_MInternal_SetRayTracingVectorParam_RayTracingShader_Int32_Vector4.SetBelong(this.instance);
+					r_MInternal_SetRayTracingVectorParam_RayTracingShader_Int32_Vector4.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingVectorParam_RayTracingShader_Int32_Vector4;
 			}
@@ -1382,7 +1382,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingVectorArrayParam_RayTracingShader_Int32_Vector4Array == null)
 				{
 					r_MInternal_SetRayTracingVectorArrayParam_RayTracingShader_Int32_Vector4Array = new(this, "Internal_SetRayTracingVectorArrayParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.Vector4).MakeArrayType());
-					r_MInternal_SetRayTracingVectorArrayParam_RayTracingShader_Int32_Vector4Array.SetBelong(this.instance);
+					r_MInternal_SetRayTracingVectorArrayParam_RayTracingShader_Int32_Vector4Array.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingVectorArrayParam_RayTracingShader_Int32_Vector4Array;
 			}
@@ -1399,7 +1399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingMatrixParam_RayTracingShader_Int32_Matrix4x4 == null)
 				{
 					r_MInternal_SetRayTracingMatrixParam_RayTracingShader_Int32_Matrix4x4 = new(this, "Internal_SetRayTracingMatrixParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.Matrix4x4));
-					r_MInternal_SetRayTracingMatrixParam_RayTracingShader_Int32_Matrix4x4.SetBelong(this.instance);
+					r_MInternal_SetRayTracingMatrixParam_RayTracingShader_Int32_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingMatrixParam_RayTracingShader_Int32_Matrix4x4;
 			}
@@ -1416,7 +1416,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingMatrixArrayParam_RayTracingShader_Int32_Matrix4x4Array == null)
 				{
 					r_MInternal_SetRayTracingMatrixArrayParam_RayTracingShader_Int32_Matrix4x4Array = new(this, "Internal_SetRayTracingMatrixArrayParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeArrayType());
-					r_MInternal_SetRayTracingMatrixArrayParam_RayTracingShader_Int32_Matrix4x4Array.SetBelong(this.instance);
+					r_MInternal_SetRayTracingMatrixArrayParam_RayTracingShader_Int32_Matrix4x4Array.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingMatrixArrayParam_RayTracingShader_Int32_Matrix4x4Array;
 			}
@@ -1433,7 +1433,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingFloats_RayTracingShader_Int32_SingleArray == null)
 				{
 					r_MInternal_SetRayTracingFloats_RayTracingShader_Int32_SingleArray = new(this, "Internal_SetRayTracingFloats", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(System.Single).MakeArrayType());
-					r_MInternal_SetRayTracingFloats_RayTracingShader_Int32_SingleArray.SetBelong(this.instance);
+					r_MInternal_SetRayTracingFloats_RayTracingShader_Int32_SingleArray.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingFloats_RayTracingShader_Int32_SingleArray;
 			}
@@ -1450,7 +1450,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingInts_RayTracingShader_Int32_Int32Array == null)
 				{
 					r_MInternal_SetRayTracingInts_RayTracingShader_Int32_Int32Array = new(this, "Internal_SetRayTracingInts", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(System.Int32).MakeArrayType());
-					r_MInternal_SetRayTracingInts_RayTracingShader_Int32_Int32Array.SetBelong(this.instance);
+					r_MInternal_SetRayTracingInts_RayTracingShader_Int32_Int32Array.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingInts_RayTracingShader_Int32_Int32Array;
 			}
@@ -1467,7 +1467,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_BuildRayTracingAccelerationStructure_RayTracingAccelerationStructure_Vector3 == null)
 				{
 					r_MInternal_BuildRayTracingAccelerationStructure_RayTracingAccelerationStructure_Vector3 = new(this, "Internal_BuildRayTracingAccelerationStructure", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), typeof(UnityEngine.Vector3));
-					r_MInternal_BuildRayTracingAccelerationStructure_RayTracingAccelerationStructure_Vector3.SetBelong(this.instance);
+					r_MInternal_BuildRayTracingAccelerationStructure_RayTracingAccelerationStructure_Vector3.SetBelong(this.GetValue());
 				}
 				return r_MInternal_BuildRayTracingAccelerationStructure_RayTracingAccelerationStructure_Vector3;
 			}
@@ -1484,7 +1484,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingAccelerationStructure_RayTracingShader_Int32_RayTracingAccelerationStructure == null)
 				{
 					r_MInternal_SetRayTracingAccelerationStructure_RayTracingShader_Int32_RayTracingAccelerationStructure = new(this, "Internal_SetRayTracingAccelerationStructure", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure));
-					r_MInternal_SetRayTracingAccelerationStructure_RayTracingShader_Int32_RayTracingAccelerationStructure.SetBelong(this.instance);
+					r_MInternal_SetRayTracingAccelerationStructure_RayTracingShader_Int32_RayTracingAccelerationStructure.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingAccelerationStructure_RayTracingShader_Int32_RayTracingAccelerationStructure;
 			}
@@ -1501,7 +1501,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingShaderPass_RayTracingShader_String == null)
 				{
 					r_MSetRayTracingShaderPass_RayTracingShader_String = new(this, "SetRayTracingShaderPass", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String));
-					r_MSetRayTracingShaderPass_RayTracingShader_String.SetBelong(this.instance);
+					r_MSetRayTracingShaderPass_RayTracingShader_String.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingShaderPass_RayTracingShader_String;
 			}
@@ -1518,7 +1518,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DispatchRays_RayTracingShader_String_UInt32_UInt32_UInt32_Camera == null)
 				{
 					r_MInternal_DispatchRays_RayTracingShader_String_UInt32_UInt32_UInt32_Camera = new(this, "Internal_DispatchRays", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(System.UInt32), typeof(System.UInt32), typeof(System.UInt32), typeof(UnityEngine.Camera));
-					r_MInternal_DispatchRays_RayTracingShader_String_UInt32_UInt32_UInt32_Camera.SetBelong(this.instance);
+					r_MInternal_DispatchRays_RayTracingShader_String_UInt32_UInt32_UInt32_Camera.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DispatchRays_RayTracingShader_String_UInt32_UInt32_UInt32_Camera;
 			}
@@ -1535,7 +1535,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_GenerateMips_RenderTargetIdentifier == null)
 				{
 					r_MInternal_GenerateMips_RenderTargetIdentifier = new(this, "Internal_GenerateMips", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MInternal_GenerateMips_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MInternal_GenerateMips_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MInternal_GenerateMips_RenderTargetIdentifier;
 			}
@@ -1552,7 +1552,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_ResolveAntiAliasedSurface_RenderTexture_RenderTexture == null)
 				{
 					r_MInternal_ResolveAntiAliasedSurface_RenderTexture_RenderTexture = new(this, "Internal_ResolveAntiAliasedSurface", 0, typeof(UnityEngine.RenderTexture), typeof(UnityEngine.RenderTexture));
-					r_MInternal_ResolveAntiAliasedSurface_RenderTexture_RenderTexture.SetBelong(this.instance);
+					r_MInternal_ResolveAntiAliasedSurface_RenderTexture_RenderTexture.SetBelong(this.GetValue());
 				}
 				return r_MInternal_ResolveAntiAliasedSurface_RenderTexture_RenderTexture;
 			}
@@ -1569,7 +1569,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyCounterValueCC_ComputeBuffer_ComputeBuffer_UInt32 == null)
 				{
 					r_MCopyCounterValueCC_ComputeBuffer_ComputeBuffer_UInt32 = new(this, "CopyCounterValueCC", 0, typeof(UnityEngine.ComputeBuffer), typeof(UnityEngine.ComputeBuffer), typeof(System.UInt32));
-					r_MCopyCounterValueCC_ComputeBuffer_ComputeBuffer_UInt32.SetBelong(this.instance);
+					r_MCopyCounterValueCC_ComputeBuffer_ComputeBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MCopyCounterValueCC_ComputeBuffer_ComputeBuffer_UInt32;
 			}
@@ -1586,7 +1586,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyCounterValueGC_GraphicsBuffer_ComputeBuffer_UInt32 == null)
 				{
 					r_MCopyCounterValueGC_GraphicsBuffer_ComputeBuffer_UInt32 = new(this, "CopyCounterValueGC", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.ComputeBuffer), typeof(System.UInt32));
-					r_MCopyCounterValueGC_GraphicsBuffer_ComputeBuffer_UInt32.SetBelong(this.instance);
+					r_MCopyCounterValueGC_GraphicsBuffer_ComputeBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MCopyCounterValueGC_GraphicsBuffer_ComputeBuffer_UInt32;
 			}
@@ -1603,7 +1603,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyCounterValueCG_ComputeBuffer_GraphicsBuffer_UInt32 == null)
 				{
 					r_MCopyCounterValueCG_ComputeBuffer_GraphicsBuffer_UInt32 = new(this, "CopyCounterValueCG", 0, typeof(UnityEngine.ComputeBuffer), typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32));
-					r_MCopyCounterValueCG_ComputeBuffer_GraphicsBuffer_UInt32.SetBelong(this.instance);
+					r_MCopyCounterValueCG_ComputeBuffer_GraphicsBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MCopyCounterValueCG_ComputeBuffer_GraphicsBuffer_UInt32;
 			}
@@ -1620,7 +1620,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyCounterValueGG_GraphicsBuffer_GraphicsBuffer_UInt32 == null)
 				{
 					r_MCopyCounterValueGG_GraphicsBuffer_GraphicsBuffer_UInt32 = new(this, "CopyCounterValueGG", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32));
-					r_MCopyCounterValueGG_GraphicsBuffer_GraphicsBuffer_UInt32.SetBelong(this.instance);
+					r_MCopyCounterValueGG_GraphicsBuffer_GraphicsBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MCopyCounterValueGG_GraphicsBuffer_GraphicsBuffer_UInt32;
 			}
@@ -1637,7 +1637,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MClear == null)
 				{
 					r_MClear = new(this, "Clear", 0);
-					r_MClear.SetBelong(this.instance);
+					r_MClear.SetBelong(this.GetValue());
 				}
 				return r_MClear;
 			}
@@ -1654,7 +1654,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawMesh_Mesh_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawMesh_Mesh_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock = new(this, "Internal_DrawMesh", 0, typeof(UnityEngine.Mesh), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawMesh_Mesh_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawMesh_Mesh_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawMesh_Mesh_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock;
 			}
@@ -1671,7 +1671,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawRenderer_Renderer_Material_Int32_Int32 == null)
 				{
 					r_MInternal_DrawRenderer_Renderer_Material_Int32_Int32 = new(this, "Internal_DrawRenderer", 0, typeof(UnityEngine.Renderer), typeof(UnityEngine.Material), typeof(System.Int32), typeof(System.Int32));
-					r_MInternal_DrawRenderer_Renderer_Material_Int32_Int32.SetBelong(this.instance);
+					r_MInternal_DrawRenderer_Renderer_Material_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawRenderer_Renderer_Material_Int32_Int32;
 			}
@@ -1688,7 +1688,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawRendererList_RendererList == null)
 				{
 					r_MInternal_DrawRendererList_RendererList = new(this, "Internal_DrawRendererList", 0, typeof(UnityEngine.Rendering.RendererList));
-					r_MInternal_DrawRendererList_RendererList.SetBelong(this.instance);
+					r_MInternal_DrawRendererList_RendererList.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawRendererList_RendererList;
 			}
@@ -1705,7 +1705,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawRenderer_Renderer_Material_Int32 == null)
 				{
 					r_MInternal_DrawRenderer_Renderer_Material_Int32 = new(this, "Internal_DrawRenderer", 0, typeof(UnityEngine.Renderer), typeof(UnityEngine.Material), typeof(System.Int32));
-					r_MInternal_DrawRenderer_Renderer_Material_Int32.SetBelong(this.instance);
+					r_MInternal_DrawRenderer_Renderer_Material_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawRenderer_Renderer_Material_Int32;
 			}
@@ -1722,7 +1722,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawRenderer_Renderer_Material == null)
 				{
 					r_MInternal_DrawRenderer_Renderer_Material = new(this, "Internal_DrawRenderer", 0, typeof(UnityEngine.Renderer), typeof(UnityEngine.Material));
-					r_MInternal_DrawRenderer_Renderer_Material.SetBelong(this.instance);
+					r_MInternal_DrawRenderer_Renderer_Material.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawRenderer_Renderer_Material;
 			}
@@ -1739,7 +1739,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock = new(this, "Internal_DrawProcedural", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock;
 			}
@@ -1756,7 +1756,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawProceduralIndexed_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawProceduralIndexed_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock = new(this, "Internal_DrawProceduralIndexed", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawProceduralIndexed_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawProceduralIndexed_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawProceduralIndexed_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock;
 			}
@@ -1773,7 +1773,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock = new(this, "Internal_DrawProceduralIndirect", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -1790,7 +1790,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawProceduralIndexedIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawProceduralIndexedIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock = new(this, "Internal_DrawProceduralIndexedIndirect", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawProceduralIndexedIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawProceduralIndexedIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawProceduralIndexedIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -1807,7 +1807,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawProceduralIndirectGraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawProceduralIndirectGraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock = new(this, "Internal_DrawProceduralIndirectGraphicsBuffer", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawProceduralIndirectGraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawProceduralIndirectGraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawProceduralIndirectGraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -1824,7 +1824,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawProceduralIndexedIndirectGraphicsBuffer_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawProceduralIndexedIndirectGraphicsBuffer_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock = new(this, "Internal_DrawProceduralIndexedIndirectGraphicsBuffer", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawProceduralIndexedIndirectGraphicsBuffer_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawProceduralIndexedIndirectGraphicsBuffer_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawProceduralIndexedIndirectGraphicsBuffer_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -1841,7 +1841,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32_MaterialPropertyBlock = new(this, "Internal_DrawMeshInstanced", 0, typeof(UnityEngine.Mesh), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeArrayType(), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32_MaterialPropertyBlock;
 			}
@@ -1858,7 +1858,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawMeshInstancedProcedural_Mesh_Int32_Material_Int32_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawMeshInstancedProcedural_Mesh_Int32_Material_Int32_Int32_MaterialPropertyBlock = new(this, "Internal_DrawMeshInstancedProcedural", 0, typeof(UnityEngine.Mesh), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawMeshInstancedProcedural_Mesh_Int32_Material_Int32_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawMeshInstancedProcedural_Mesh_Int32_Material_Int32_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawMeshInstancedProcedural_Mesh_Int32_Material_Int32_Int32_MaterialPropertyBlock;
 			}
@@ -1875,7 +1875,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32_MaterialPropertyBlock = new(this, "Internal_DrawMeshInstancedIndirect", 0, typeof(UnityEngine.Mesh), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -1892,7 +1892,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawMeshInstancedIndirectGraphicsBuffer_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawMeshInstancedIndirectGraphicsBuffer_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32_MaterialPropertyBlock = new(this, "Internal_DrawMeshInstancedIndirectGraphicsBuffer", 0, typeof(UnityEngine.Mesh), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawMeshInstancedIndirectGraphicsBuffer_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawMeshInstancedIndirectGraphicsBuffer_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawMeshInstancedIndirectGraphicsBuffer_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -1909,7 +1909,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawOcclusionMesh_RectInt == null)
 				{
 					r_MInternal_DrawOcclusionMesh_RectInt = new(this, "Internal_DrawOcclusionMesh", 0, typeof(UnityEngine.RectInt));
-					r_MInternal_DrawOcclusionMesh_RectInt.SetBelong(this.instance);
+					r_MInternal_DrawOcclusionMesh_RectInt.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawOcclusionMesh_RectInt;
 			}
@@ -1926,7 +1926,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRandomWriteTarget_Texture_Int32_Ref_RenderTargetIdentifier == null)
 				{
 					r_MSetRandomWriteTarget_Texture_Int32_Ref_RenderTargetIdentifier = new(this, "SetRandomWriteTarget_Texture", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType());
-					r_MSetRandomWriteTarget_Texture_Int32_Ref_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MSetRandomWriteTarget_Texture_Int32_Ref_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MSetRandomWriteTarget_Texture_Int32_Ref_RenderTargetIdentifier;
 			}
@@ -1943,7 +1943,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRandomWriteTarget_Buffer_Int32_ComputeBuffer_Boolean == null)
 				{
 					r_MSetRandomWriteTarget_Buffer_Int32_ComputeBuffer_Boolean = new(this, "SetRandomWriteTarget_Buffer", 0, typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.Boolean));
-					r_MSetRandomWriteTarget_Buffer_Int32_ComputeBuffer_Boolean.SetBelong(this.instance);
+					r_MSetRandomWriteTarget_Buffer_Int32_ComputeBuffer_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetRandomWriteTarget_Buffer_Int32_ComputeBuffer_Boolean;
 			}
@@ -1960,7 +1960,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRandomWriteTarget_GraphicsBuffer_Int32_GraphicsBuffer_Boolean == null)
 				{
 					r_MSetRandomWriteTarget_GraphicsBuffer_Int32_GraphicsBuffer_Boolean = new(this, "SetRandomWriteTarget_GraphicsBuffer", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.Boolean));
-					r_MSetRandomWriteTarget_GraphicsBuffer_Int32_GraphicsBuffer_Boolean.SetBelong(this.instance);
+					r_MSetRandomWriteTarget_GraphicsBuffer_Int32_GraphicsBuffer_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetRandomWriteTarget_GraphicsBuffer_Int32_GraphicsBuffer_Boolean;
 			}
@@ -1977,7 +1977,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MClearRandomWriteTargets == null)
 				{
 					r_MClearRandomWriteTargets = new(this, "ClearRandomWriteTargets", 0);
-					r_MClearRandomWriteTargets.SetBelong(this.instance);
+					r_MClearRandomWriteTargets.SetBelong(this.GetValue());
 				}
 				return r_MClearRandomWriteTargets;
 			}
@@ -1994,7 +1994,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetViewport_Rect == null)
 				{
 					r_MSetViewport_Rect = new(this, "SetViewport", 0, typeof(UnityEngine.Rect));
-					r_MSetViewport_Rect.SetBelong(this.instance);
+					r_MSetViewport_Rect.SetBelong(this.GetValue());
 				}
 				return r_MSetViewport_Rect;
 			}
@@ -2011,7 +2011,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEnableScissorRect_Rect == null)
 				{
 					r_MEnableScissorRect_Rect = new(this, "EnableScissorRect", 0, typeof(UnityEngine.Rect));
-					r_MEnableScissorRect_Rect.SetBelong(this.instance);
+					r_MEnableScissorRect_Rect.SetBelong(this.GetValue());
 				}
 				return r_MEnableScissorRect_Rect;
 			}
@@ -2028,7 +2028,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDisableScissorRect == null)
 				{
 					r_MDisableScissorRect = new(this, "DisableScissorRect", 0);
-					r_MDisableScissorRect.SetBelong(this.instance);
+					r_MDisableScissorRect.SetBelong(this.GetValue());
 				}
 				return r_MDisableScissorRect;
 			}
@@ -2045,7 +2045,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyTexture_Internal_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MCopyTexture_Internal_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32 = new(this, "CopyTexture_Internal", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MCopyTexture_Internal_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MCopyTexture_Internal_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MCopyTexture_Internal_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32;
 			}
@@ -2062,7 +2062,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_Texture_Texture_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32 == null)
 				{
 					r_MBlit_Texture_Texture_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32 = new(this, "Blit_Texture", 0, typeof(UnityEngine.Texture), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2), typeof(System.Int32), typeof(System.Int32));
-					r_MBlit_Texture_Texture_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32.SetBelong(this.instance);
+					r_MBlit_Texture_Texture_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MBlit_Texture_Texture_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32;
 			}
@@ -2079,7 +2079,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_Identifier_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32 == null)
 				{
 					r_MBlit_Identifier_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32 = new(this, "Blit_Identifier", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2), typeof(System.Int32), typeof(System.Int32));
-					r_MBlit_Identifier_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32.SetBelong(this.instance);
+					r_MBlit_Identifier_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MBlit_Identifier_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32;
 			}
@@ -2096,7 +2096,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_RenderTextureMemoryless_Boolean == null)
 				{
 					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_RenderTextureMemoryless_Boolean = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32), typeof(System.Boolean), typeof(UnityEngine.RenderTextureMemoryless), typeof(System.Boolean));
-					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_RenderTextureMemoryless_Boolean.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_RenderTextureMemoryless_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_RenderTextureMemoryless_Boolean;
 			}
@@ -2113,7 +2113,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_RenderTextureMemoryless == null)
 				{
 					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_RenderTextureMemoryless = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32), typeof(System.Boolean), typeof(UnityEngine.RenderTextureMemoryless));
-					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_RenderTextureMemoryless.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_RenderTextureMemoryless.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_RenderTextureMemoryless;
 			}
@@ -2130,7 +2130,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean == null)
 				{
 					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32), typeof(System.Boolean));
-					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean;
 			}
@@ -2147,7 +2147,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32 == null)
 				{
 					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32 = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32));
-					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32;
 			}
@@ -2164,7 +2164,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat == null)
 				{
 					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat));
-					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat;
 			}
@@ -2181,7 +2181,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean_RenderTextureMemoryless_Boolean == null)
 				{
 					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean_RenderTextureMemoryless_Boolean = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite), typeof(System.Int32), typeof(System.Boolean), typeof(UnityEngine.RenderTextureMemoryless), typeof(System.Boolean));
-					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean_RenderTextureMemoryless_Boolean.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean_RenderTextureMemoryless_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean_RenderTextureMemoryless_Boolean;
 			}
@@ -2198,7 +2198,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean_RenderTextureMemoryless == null)
 				{
 					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean_RenderTextureMemoryless = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite), typeof(System.Int32), typeof(System.Boolean), typeof(UnityEngine.RenderTextureMemoryless));
-					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean_RenderTextureMemoryless.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean_RenderTextureMemoryless.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean_RenderTextureMemoryless;
 			}
@@ -2215,7 +2215,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean == null)
 				{
 					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite), typeof(System.Int32), typeof(System.Boolean));
-					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean;
 			}
@@ -2232,7 +2232,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32 == null)
 				{
 					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32 = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite), typeof(System.Int32));
-					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32;
 			}
@@ -2249,7 +2249,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite == null)
 				{
 					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite));
-					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite;
 			}
@@ -2266,7 +2266,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat == null)
 				{
 					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.RenderTextureFormat));
-					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat;
 			}
@@ -2283,7 +2283,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode == null)
 				{
 					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode));
-					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_Int32_Int32_Int32_FilterMode;
 			}
@@ -2300,7 +2300,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MGetTemporaryRT_Int32_Int32_Int32_Int32 = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MGetTemporaryRT_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_Int32_Int32_Int32;
 			}
@@ -2317,7 +2317,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_Int32_Int32 == null)
 				{
 					r_MGetTemporaryRT_Int32_Int32_Int32 = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MGetTemporaryRT_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_Int32_Int32;
 			}
@@ -2334,7 +2334,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRTWithDescriptor_Int32_RenderTextureDescriptor_FilterMode == null)
 				{
 					r_MGetTemporaryRTWithDescriptor_Int32_RenderTextureDescriptor_FilterMode = new(this, "GetTemporaryRTWithDescriptor", 0, typeof(System.Int32), typeof(UnityEngine.RenderTextureDescriptor), typeof(UnityEngine.FilterMode));
-					r_MGetTemporaryRTWithDescriptor_Int32_RenderTextureDescriptor_FilterMode.SetBelong(this.instance);
+					r_MGetTemporaryRTWithDescriptor_Int32_RenderTextureDescriptor_FilterMode.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRTWithDescriptor_Int32_RenderTextureDescriptor_FilterMode;
 			}
@@ -2351,7 +2351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_RenderTextureDescriptor_FilterMode == null)
 				{
 					r_MGetTemporaryRT_Int32_RenderTextureDescriptor_FilterMode = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(UnityEngine.RenderTextureDescriptor), typeof(UnityEngine.FilterMode));
-					r_MGetTemporaryRT_Int32_RenderTextureDescriptor_FilterMode.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_RenderTextureDescriptor_FilterMode.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_RenderTextureDescriptor_FilterMode;
 			}
@@ -2368,7 +2368,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRT_Int32_RenderTextureDescriptor == null)
 				{
 					r_MGetTemporaryRT_Int32_RenderTextureDescriptor = new(this, "GetTemporaryRT", 0, typeof(System.Int32), typeof(UnityEngine.RenderTextureDescriptor));
-					r_MGetTemporaryRT_Int32_RenderTextureDescriptor.SetBelong(this.instance);
+					r_MGetTemporaryRT_Int32_RenderTextureDescriptor.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRT_Int32_RenderTextureDescriptor;
 			}
@@ -2385,7 +2385,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_Boolean == null)
 				{
 					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_Boolean = new(this, "GetTemporaryRTArray", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean));
-					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_Boolean.SetBelong(this.instance);
+					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean_Boolean;
 			}
@@ -2402,7 +2402,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean == null)
 				{
 					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean = new(this, "GetTemporaryRTArray", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32), typeof(System.Boolean));
-					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean.SetBelong(this.instance);
+					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32_Boolean;
 			}
@@ -2419,7 +2419,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32 == null)
 				{
 					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32 = new(this, "GetTemporaryRTArray", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32));
-					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32.SetBelong(this.instance);
+					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat_Int32;
 			}
@@ -2436,7 +2436,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat == null)
 				{
 					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat = new(this, "GetTemporaryRTArray", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat));
-					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat.SetBelong(this.instance);
+					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_GraphicsFormat;
 			}
@@ -2453,7 +2453,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean == null)
 				{
 					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean = new(this, "GetTemporaryRTArray", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite), typeof(System.Int32), typeof(System.Boolean));
-					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean.SetBelong(this.instance);
+					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32_Boolean;
 			}
@@ -2470,7 +2470,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32 == null)
 				{
 					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32 = new(this, "GetTemporaryRTArray", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite), typeof(System.Int32));
-					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32.SetBelong(this.instance);
+					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite_Int32;
 			}
@@ -2487,7 +2487,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite == null)
 				{
 					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite = new(this, "GetTemporaryRTArray", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite));
-					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite.SetBelong(this.instance);
+					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat_RenderTextureReadWrite;
 			}
@@ -2504,7 +2504,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat == null)
 				{
 					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat = new(this, "GetTemporaryRTArray", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode), typeof(UnityEngine.RenderTextureFormat));
-					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat.SetBelong(this.instance);
+					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode_RenderTextureFormat;
 			}
@@ -2521,7 +2521,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode == null)
 				{
 					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode = new(this, "GetTemporaryRTArray", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.FilterMode));
-					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode.SetBelong(this.instance);
+					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32_FilterMode;
 			}
@@ -2538,7 +2538,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32 = new(this, "GetTemporaryRTArray", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32_Int32;
 			}
@@ -2555,7 +2555,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32 = new(this, "GetTemporaryRTArray", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRTArray_Int32_Int32_Int32_Int32;
 			}
@@ -2572,7 +2572,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MReleaseTemporaryRT_Int32 == null)
 				{
 					r_MReleaseTemporaryRT_Int32 = new(this, "ReleaseTemporaryRT", 0, typeof(System.Int32));
-					r_MReleaseTemporaryRT_Int32.SetBelong(this.instance);
+					r_MReleaseTemporaryRT_Int32.SetBelong(this.GetValue());
 				}
 				return r_MReleaseTemporaryRT_Int32;
 			}
@@ -2589,7 +2589,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MClearRenderTarget_RTClearFlags_Color_Single_UInt32 == null)
 				{
 					r_MClearRenderTarget_RTClearFlags_Color_Single_UInt32 = new(this, "ClearRenderTarget", 0, typeof(UnityEngine.Rendering.RTClearFlags), typeof(UnityEngine.Color), typeof(System.Single), typeof(System.UInt32));
-					r_MClearRenderTarget_RTClearFlags_Color_Single_UInt32.SetBelong(this.instance);
+					r_MClearRenderTarget_RTClearFlags_Color_Single_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MClearRenderTarget_RTClearFlags_Color_Single_UInt32;
 			}
@@ -2606,7 +2606,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MClearRenderTarget_Boolean_Boolean_Color == null)
 				{
 					r_MClearRenderTarget_Boolean_Boolean_Color = new(this, "ClearRenderTarget", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(UnityEngine.Color));
-					r_MClearRenderTarget_Boolean_Boolean_Color.SetBelong(this.instance);
+					r_MClearRenderTarget_Boolean_Boolean_Color.SetBelong(this.GetValue());
 				}
 				return r_MClearRenderTarget_Boolean_Boolean_Color;
 			}
@@ -2623,7 +2623,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MClearRenderTarget_Boolean_Boolean_Color_Single == null)
 				{
 					r_MClearRenderTarget_Boolean_Boolean_Color_Single = new(this, "ClearRenderTarget", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(UnityEngine.Color), typeof(System.Single));
-					r_MClearRenderTarget_Boolean_Boolean_Color_Single.SetBelong(this.instance);
+					r_MClearRenderTarget_Boolean_Boolean_Color_Single.SetBelong(this.GetValue());
 				}
 				return r_MClearRenderTarget_Boolean_Boolean_Color_Single;
 			}
@@ -2640,7 +2640,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalFloat_Int32_Single == null)
 				{
 					r_MSetGlobalFloat_Int32_Single = new(this, "SetGlobalFloat", 0, typeof(System.Int32), typeof(System.Single));
-					r_MSetGlobalFloat_Int32_Single.SetBelong(this.instance);
+					r_MSetGlobalFloat_Int32_Single.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalFloat_Int32_Single;
 			}
@@ -2657,7 +2657,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalInt_Int32_Int32 == null)
 				{
 					r_MSetGlobalInt_Int32_Int32 = new(this, "SetGlobalInt", 0, typeof(System.Int32), typeof(System.Int32));
-					r_MSetGlobalInt_Int32_Int32.SetBelong(this.instance);
+					r_MSetGlobalInt_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalInt_Int32_Int32;
 			}
@@ -2674,7 +2674,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalInteger_Int32_Int32 == null)
 				{
 					r_MSetGlobalInteger_Int32_Int32 = new(this, "SetGlobalInteger", 0, typeof(System.Int32), typeof(System.Int32));
-					r_MSetGlobalInteger_Int32_Int32.SetBelong(this.instance);
+					r_MSetGlobalInteger_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalInteger_Int32_Int32;
 			}
@@ -2691,7 +2691,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalVector_Int32_Vector4 == null)
 				{
 					r_MSetGlobalVector_Int32_Vector4 = new(this, "SetGlobalVector", 0, typeof(System.Int32), typeof(UnityEngine.Vector4));
-					r_MSetGlobalVector_Int32_Vector4.SetBelong(this.instance);
+					r_MSetGlobalVector_Int32_Vector4.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalVector_Int32_Vector4;
 			}
@@ -2708,7 +2708,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalColor_Int32_Color == null)
 				{
 					r_MSetGlobalColor_Int32_Color = new(this, "SetGlobalColor", 0, typeof(System.Int32), typeof(UnityEngine.Color));
-					r_MSetGlobalColor_Int32_Color.SetBelong(this.instance);
+					r_MSetGlobalColor_Int32_Color.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalColor_Int32_Color;
 			}
@@ -2725,7 +2725,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalMatrix_Int32_Matrix4x4 == null)
 				{
 					r_MSetGlobalMatrix_Int32_Matrix4x4 = new(this, "SetGlobalMatrix", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4));
-					r_MSetGlobalMatrix_Int32_Matrix4x4.SetBelong(this.instance);
+					r_MSetGlobalMatrix_Int32_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalMatrix_Int32_Matrix4x4;
 			}
@@ -2742,7 +2742,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEnableShaderKeyword_String == null)
 				{
 					r_MEnableShaderKeyword_String = new(this, "EnableShaderKeyword", 0, typeof(System.String));
-					r_MEnableShaderKeyword_String.SetBelong(this.instance);
+					r_MEnableShaderKeyword_String.SetBelong(this.GetValue());
 				}
 				return r_MEnableShaderKeyword_String;
 			}
@@ -2759,7 +2759,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEnableGlobalKeyword_GlobalKeyword == null)
 				{
 					r_MEnableGlobalKeyword_GlobalKeyword = new(this, "EnableGlobalKeyword", 0, typeof(UnityEngine.Rendering.GlobalKeyword));
-					r_MEnableGlobalKeyword_GlobalKeyword.SetBelong(this.instance);
+					r_MEnableGlobalKeyword_GlobalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MEnableGlobalKeyword_GlobalKeyword;
 			}
@@ -2776,7 +2776,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEnableMaterialKeyword_Material_LocalKeyword == null)
 				{
 					r_MEnableMaterialKeyword_Material_LocalKeyword = new(this, "EnableMaterialKeyword", 0, typeof(UnityEngine.Material), typeof(UnityEngine.Rendering.LocalKeyword));
-					r_MEnableMaterialKeyword_Material_LocalKeyword.SetBelong(this.instance);
+					r_MEnableMaterialKeyword_Material_LocalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MEnableMaterialKeyword_Material_LocalKeyword;
 			}
@@ -2793,7 +2793,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEnableComputeKeyword_ComputeShader_LocalKeyword == null)
 				{
 					r_MEnableComputeKeyword_ComputeShader_LocalKeyword = new(this, "EnableComputeKeyword", 0, typeof(UnityEngine.ComputeShader), typeof(UnityEngine.Rendering.LocalKeyword));
-					r_MEnableComputeKeyword_ComputeShader_LocalKeyword.SetBelong(this.instance);
+					r_MEnableComputeKeyword_ComputeShader_LocalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MEnableComputeKeyword_ComputeShader_LocalKeyword;
 			}
@@ -2810,7 +2810,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEnableKeyword_In_GlobalKeyword == null)
 				{
 					r_MEnableKeyword_In_GlobalKeyword = new(this, "EnableKeyword", 0, typeof(UnityEngine.Rendering.GlobalKeyword).MakeByRefType());
-					r_MEnableKeyword_In_GlobalKeyword.SetBelong(this.instance);
+					r_MEnableKeyword_In_GlobalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MEnableKeyword_In_GlobalKeyword;
 			}
@@ -2827,7 +2827,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEnableKeyword_Material_In_LocalKeyword == null)
 				{
 					r_MEnableKeyword_Material_In_LocalKeyword = new(this, "EnableKeyword", 0, typeof(UnityEngine.Material), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
-					r_MEnableKeyword_Material_In_LocalKeyword.SetBelong(this.instance);
+					r_MEnableKeyword_Material_In_LocalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MEnableKeyword_Material_In_LocalKeyword;
 			}
@@ -2844,7 +2844,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEnableKeyword_ComputeShader_In_LocalKeyword == null)
 				{
 					r_MEnableKeyword_ComputeShader_In_LocalKeyword = new(this, "EnableKeyword", 0, typeof(UnityEngine.ComputeShader), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
-					r_MEnableKeyword_ComputeShader_In_LocalKeyword.SetBelong(this.instance);
+					r_MEnableKeyword_ComputeShader_In_LocalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MEnableKeyword_ComputeShader_In_LocalKeyword;
 			}
@@ -2861,7 +2861,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDisableShaderKeyword_String == null)
 				{
 					r_MDisableShaderKeyword_String = new(this, "DisableShaderKeyword", 0, typeof(System.String));
-					r_MDisableShaderKeyword_String.SetBelong(this.instance);
+					r_MDisableShaderKeyword_String.SetBelong(this.GetValue());
 				}
 				return r_MDisableShaderKeyword_String;
 			}
@@ -2878,7 +2878,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDisableGlobalKeyword_GlobalKeyword == null)
 				{
 					r_MDisableGlobalKeyword_GlobalKeyword = new(this, "DisableGlobalKeyword", 0, typeof(UnityEngine.Rendering.GlobalKeyword));
-					r_MDisableGlobalKeyword_GlobalKeyword.SetBelong(this.instance);
+					r_MDisableGlobalKeyword_GlobalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MDisableGlobalKeyword_GlobalKeyword;
 			}
@@ -2895,7 +2895,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDisableMaterialKeyword_Material_LocalKeyword == null)
 				{
 					r_MDisableMaterialKeyword_Material_LocalKeyword = new(this, "DisableMaterialKeyword", 0, typeof(UnityEngine.Material), typeof(UnityEngine.Rendering.LocalKeyword));
-					r_MDisableMaterialKeyword_Material_LocalKeyword.SetBelong(this.instance);
+					r_MDisableMaterialKeyword_Material_LocalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MDisableMaterialKeyword_Material_LocalKeyword;
 			}
@@ -2912,7 +2912,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDisableComputeKeyword_ComputeShader_LocalKeyword == null)
 				{
 					r_MDisableComputeKeyword_ComputeShader_LocalKeyword = new(this, "DisableComputeKeyword", 0, typeof(UnityEngine.ComputeShader), typeof(UnityEngine.Rendering.LocalKeyword));
-					r_MDisableComputeKeyword_ComputeShader_LocalKeyword.SetBelong(this.instance);
+					r_MDisableComputeKeyword_ComputeShader_LocalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MDisableComputeKeyword_ComputeShader_LocalKeyword;
 			}
@@ -2929,7 +2929,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDisableKeyword_In_GlobalKeyword == null)
 				{
 					r_MDisableKeyword_In_GlobalKeyword = new(this, "DisableKeyword", 0, typeof(UnityEngine.Rendering.GlobalKeyword).MakeByRefType());
-					r_MDisableKeyword_In_GlobalKeyword.SetBelong(this.instance);
+					r_MDisableKeyword_In_GlobalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MDisableKeyword_In_GlobalKeyword;
 			}
@@ -2946,7 +2946,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDisableKeyword_Material_In_LocalKeyword == null)
 				{
 					r_MDisableKeyword_Material_In_LocalKeyword = new(this, "DisableKeyword", 0, typeof(UnityEngine.Material), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
-					r_MDisableKeyword_Material_In_LocalKeyword.SetBelong(this.instance);
+					r_MDisableKeyword_Material_In_LocalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MDisableKeyword_Material_In_LocalKeyword;
 			}
@@ -2963,7 +2963,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDisableKeyword_ComputeShader_In_LocalKeyword == null)
 				{
 					r_MDisableKeyword_ComputeShader_In_LocalKeyword = new(this, "DisableKeyword", 0, typeof(UnityEngine.ComputeShader), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
-					r_MDisableKeyword_ComputeShader_In_LocalKeyword.SetBelong(this.instance);
+					r_MDisableKeyword_ComputeShader_In_LocalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MDisableKeyword_ComputeShader_In_LocalKeyword;
 			}
@@ -2980,7 +2980,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalKeyword_GlobalKeyword_Boolean == null)
 				{
 					r_MSetGlobalKeyword_GlobalKeyword_Boolean = new(this, "SetGlobalKeyword", 0, typeof(UnityEngine.Rendering.GlobalKeyword), typeof(System.Boolean));
-					r_MSetGlobalKeyword_GlobalKeyword_Boolean.SetBelong(this.instance);
+					r_MSetGlobalKeyword_GlobalKeyword_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalKeyword_GlobalKeyword_Boolean;
 			}
@@ -2997,7 +2997,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetMaterialKeyword_Material_LocalKeyword_Boolean == null)
 				{
 					r_MSetMaterialKeyword_Material_LocalKeyword_Boolean = new(this, "SetMaterialKeyword", 0, typeof(UnityEngine.Material), typeof(UnityEngine.Rendering.LocalKeyword), typeof(System.Boolean));
-					r_MSetMaterialKeyword_Material_LocalKeyword_Boolean.SetBelong(this.instance);
+					r_MSetMaterialKeyword_Material_LocalKeyword_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetMaterialKeyword_Material_LocalKeyword_Boolean;
 			}
@@ -3014,7 +3014,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeKeyword_ComputeShader_LocalKeyword_Boolean == null)
 				{
 					r_MSetComputeKeyword_ComputeShader_LocalKeyword_Boolean = new(this, "SetComputeKeyword", 0, typeof(UnityEngine.ComputeShader), typeof(UnityEngine.Rendering.LocalKeyword), typeof(System.Boolean));
-					r_MSetComputeKeyword_ComputeShader_LocalKeyword_Boolean.SetBelong(this.instance);
+					r_MSetComputeKeyword_ComputeShader_LocalKeyword_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeKeyword_ComputeShader_LocalKeyword_Boolean;
 			}
@@ -3031,7 +3031,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetKeyword_In_GlobalKeyword_Boolean == null)
 				{
 					r_MSetKeyword_In_GlobalKeyword_Boolean = new(this, "SetKeyword", 0, typeof(UnityEngine.Rendering.GlobalKeyword).MakeByRefType(), typeof(System.Boolean));
-					r_MSetKeyword_In_GlobalKeyword_Boolean.SetBelong(this.instance);
+					r_MSetKeyword_In_GlobalKeyword_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetKeyword_In_GlobalKeyword_Boolean;
 			}
@@ -3048,7 +3048,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetKeyword_Material_In_LocalKeyword_Boolean == null)
 				{
 					r_MSetKeyword_Material_In_LocalKeyword_Boolean = new(this, "SetKeyword", 0, typeof(UnityEngine.Material), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType(), typeof(System.Boolean));
-					r_MSetKeyword_Material_In_LocalKeyword_Boolean.SetBelong(this.instance);
+					r_MSetKeyword_Material_In_LocalKeyword_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetKeyword_Material_In_LocalKeyword_Boolean;
 			}
@@ -3065,7 +3065,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetKeyword_ComputeShader_In_LocalKeyword_Boolean == null)
 				{
 					r_MSetKeyword_ComputeShader_In_LocalKeyword_Boolean = new(this, "SetKeyword", 0, typeof(UnityEngine.ComputeShader), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType(), typeof(System.Boolean));
-					r_MSetKeyword_ComputeShader_In_LocalKeyword_Boolean.SetBelong(this.instance);
+					r_MSetKeyword_ComputeShader_In_LocalKeyword_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetKeyword_ComputeShader_In_LocalKeyword_Boolean;
 			}
@@ -3082,7 +3082,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetViewMatrix_Matrix4x4 == null)
 				{
 					r_MSetViewMatrix_Matrix4x4 = new(this, "SetViewMatrix", 0, typeof(UnityEngine.Matrix4x4));
-					r_MSetViewMatrix_Matrix4x4.SetBelong(this.instance);
+					r_MSetViewMatrix_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MSetViewMatrix_Matrix4x4;
 			}
@@ -3099,7 +3099,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetProjectionMatrix_Matrix4x4 == null)
 				{
 					r_MSetProjectionMatrix_Matrix4x4 = new(this, "SetProjectionMatrix", 0, typeof(UnityEngine.Matrix4x4));
-					r_MSetProjectionMatrix_Matrix4x4.SetBelong(this.instance);
+					r_MSetProjectionMatrix_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MSetProjectionMatrix_Matrix4x4;
 			}
@@ -3116,7 +3116,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetViewProjectionMatrices_Matrix4x4_Matrix4x4 == null)
 				{
 					r_MSetViewProjectionMatrices_Matrix4x4_Matrix4x4 = new(this, "SetViewProjectionMatrices", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Matrix4x4));
-					r_MSetViewProjectionMatrices_Matrix4x4_Matrix4x4.SetBelong(this.instance);
+					r_MSetViewProjectionMatrices_Matrix4x4_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MSetViewProjectionMatrices_Matrix4x4_Matrix4x4;
 			}
@@ -3133,7 +3133,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalDepthBias_Single_Single == null)
 				{
 					r_MSetGlobalDepthBias_Single_Single = new(this, "SetGlobalDepthBias", 0, typeof(System.Single), typeof(System.Single));
-					r_MSetGlobalDepthBias_Single_Single.SetBelong(this.instance);
+					r_MSetGlobalDepthBias_Single_Single.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalDepthBias_Single_Single;
 			}
@@ -3150,7 +3150,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetExecutionFlags_CommandBufferExecutionFlags == null)
 				{
 					r_MSetExecutionFlags_CommandBufferExecutionFlags = new(this, "SetExecutionFlags", 0, typeof(UnityEngine.Rendering.CommandBufferExecutionFlags));
-					r_MSetExecutionFlags_CommandBufferExecutionFlags.SetBelong(this.instance);
+					r_MSetExecutionFlags_CommandBufferExecutionFlags.SetBelong(this.GetValue());
 				}
 				return r_MSetExecutionFlags_CommandBufferExecutionFlags;
 			}
@@ -3167,7 +3167,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MValidateAgainstExecutionFlags_CommandBufferExecutionFlags_CommandBufferExecutionFlags == null)
 				{
 					r_MValidateAgainstExecutionFlags_CommandBufferExecutionFlags_CommandBufferExecutionFlags = new(this, "ValidateAgainstExecutionFlags", 0, typeof(UnityEngine.Rendering.CommandBufferExecutionFlags), typeof(UnityEngine.Rendering.CommandBufferExecutionFlags));
-					r_MValidateAgainstExecutionFlags_CommandBufferExecutionFlags_CommandBufferExecutionFlags.SetBelong(this.instance);
+					r_MValidateAgainstExecutionFlags_CommandBufferExecutionFlags_CommandBufferExecutionFlags.SetBelong(this.GetValue());
 				}
 				return r_MValidateAgainstExecutionFlags_CommandBufferExecutionFlags_CommandBufferExecutionFlags;
 			}
@@ -3184,7 +3184,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalFloatArrayListImpl_Int32_Object == null)
 				{
 					r_MSetGlobalFloatArrayListImpl_Int32_Object = new(this, "SetGlobalFloatArrayListImpl", 0, typeof(System.Int32), typeof(System.Object));
-					r_MSetGlobalFloatArrayListImpl_Int32_Object.SetBelong(this.instance);
+					r_MSetGlobalFloatArrayListImpl_Int32_Object.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalFloatArrayListImpl_Int32_Object;
 			}
@@ -3201,7 +3201,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalVectorArrayListImpl_Int32_Object == null)
 				{
 					r_MSetGlobalVectorArrayListImpl_Int32_Object = new(this, "SetGlobalVectorArrayListImpl", 0, typeof(System.Int32), typeof(System.Object));
-					r_MSetGlobalVectorArrayListImpl_Int32_Object.SetBelong(this.instance);
+					r_MSetGlobalVectorArrayListImpl_Int32_Object.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalVectorArrayListImpl_Int32_Object;
 			}
@@ -3218,7 +3218,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalMatrixArrayListImpl_Int32_Object == null)
 				{
 					r_MSetGlobalMatrixArrayListImpl_Int32_Object = new(this, "SetGlobalMatrixArrayListImpl", 0, typeof(System.Int32), typeof(System.Object));
-					r_MSetGlobalMatrixArrayListImpl_Int32_Object.SetBelong(this.instance);
+					r_MSetGlobalMatrixArrayListImpl_Int32_Object.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalMatrixArrayListImpl_Int32_Object;
 			}
@@ -3235,7 +3235,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalFloatArray_Int32_SingleArray == null)
 				{
 					r_MSetGlobalFloatArray_Int32_SingleArray = new(this, "SetGlobalFloatArray", 0, typeof(System.Int32), typeof(System.Single).MakeArrayType());
-					r_MSetGlobalFloatArray_Int32_SingleArray.SetBelong(this.instance);
+					r_MSetGlobalFloatArray_Int32_SingleArray.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalFloatArray_Int32_SingleArray;
 			}
@@ -3252,7 +3252,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalVectorArray_Int32_Vector4Array == null)
 				{
 					r_MSetGlobalVectorArray_Int32_Vector4Array = new(this, "SetGlobalVectorArray", 0, typeof(System.Int32), typeof(UnityEngine.Vector4).MakeArrayType());
-					r_MSetGlobalVectorArray_Int32_Vector4Array.SetBelong(this.instance);
+					r_MSetGlobalVectorArray_Int32_Vector4Array.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalVectorArray_Int32_Vector4Array;
 			}
@@ -3269,7 +3269,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalMatrixArray_Int32_Matrix4x4Array == null)
 				{
 					r_MSetGlobalMatrixArray_Int32_Matrix4x4Array = new(this, "SetGlobalMatrixArray", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeArrayType());
-					r_MSetGlobalMatrixArray_Int32_Matrix4x4Array.SetBelong(this.instance);
+					r_MSetGlobalMatrixArray_Int32_Matrix4x4Array.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalMatrixArray_Int32_Matrix4x4Array;
 			}
@@ -3286,7 +3286,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetLateLatchProjectionMatrices_Matrix4x4Array == null)
 				{
 					r_MSetLateLatchProjectionMatrices_Matrix4x4Array = new(this, "SetLateLatchProjectionMatrices", 0, typeof(UnityEngine.Matrix4x4).MakeArrayType());
-					r_MSetLateLatchProjectionMatrices_Matrix4x4Array.SetBelong(this.instance);
+					r_MSetLateLatchProjectionMatrices_Matrix4x4Array.SetBelong(this.GetValue());
 				}
 				return r_MSetLateLatchProjectionMatrices_Matrix4x4Array;
 			}
@@ -3303,7 +3303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MMarkLateLatchMatrixShaderPropertyID_CameraLateLatchMatrixType_Int32 == null)
 				{
 					r_MMarkLateLatchMatrixShaderPropertyID_CameraLateLatchMatrixType_Int32 = new(this, "MarkLateLatchMatrixShaderPropertyID", 0, typeof(UnityEngine.Rendering.CameraLateLatchMatrixType), typeof(System.Int32));
-					r_MMarkLateLatchMatrixShaderPropertyID_CameraLateLatchMatrixType_Int32.SetBelong(this.instance);
+					r_MMarkLateLatchMatrixShaderPropertyID_CameraLateLatchMatrixType_Int32.SetBelong(this.GetValue());
 				}
 				return r_MMarkLateLatchMatrixShaderPropertyID_CameraLateLatchMatrixType_Int32;
 			}
@@ -3320,7 +3320,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MUnmarkLateLatchMatrix_CameraLateLatchMatrixType == null)
 				{
 					r_MUnmarkLateLatchMatrix_CameraLateLatchMatrixType = new(this, "UnmarkLateLatchMatrix", 0, typeof(UnityEngine.Rendering.CameraLateLatchMatrixType));
-					r_MUnmarkLateLatchMatrix_CameraLateLatchMatrixType.SetBelong(this.instance);
+					r_MUnmarkLateLatchMatrix_CameraLateLatchMatrixType.SetBelong(this.GetValue());
 				}
 				return r_MUnmarkLateLatchMatrix_CameraLateLatchMatrixType;
 			}
@@ -3337,7 +3337,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalTexture_Impl_Int32_Ref_RenderTargetIdentifier_RenderTextureSubElement == null)
 				{
 					r_MSetGlobalTexture_Impl_Int32_Ref_RenderTargetIdentifier_RenderTextureSubElement = new(this, "SetGlobalTexture_Impl", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Rendering.RenderTextureSubElement));
-					r_MSetGlobalTexture_Impl_Int32_Ref_RenderTargetIdentifier_RenderTextureSubElement.SetBelong(this.instance);
+					r_MSetGlobalTexture_Impl_Int32_Ref_RenderTargetIdentifier_RenderTextureSubElement.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalTexture_Impl_Int32_Ref_RenderTargetIdentifier_RenderTextureSubElement;
 			}
@@ -3354,7 +3354,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalBufferInternal_Int32_ComputeBuffer == null)
 				{
 					r_MSetGlobalBufferInternal_Int32_ComputeBuffer = new(this, "SetGlobalBufferInternal", 0, typeof(System.Int32), typeof(UnityEngine.ComputeBuffer));
-					r_MSetGlobalBufferInternal_Int32_ComputeBuffer.SetBelong(this.instance);
+					r_MSetGlobalBufferInternal_Int32_ComputeBuffer.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalBufferInternal_Int32_ComputeBuffer;
 			}
@@ -3371,7 +3371,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalGraphicsBufferInternal_Int32_GraphicsBuffer == null)
 				{
 					r_MSetGlobalGraphicsBufferInternal_Int32_GraphicsBuffer = new(this, "SetGlobalGraphicsBufferInternal", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer));
-					r_MSetGlobalGraphicsBufferInternal_Int32_GraphicsBuffer.SetBelong(this.instance);
+					r_MSetGlobalGraphicsBufferInternal_Int32_GraphicsBuffer.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalGraphicsBufferInternal_Int32_GraphicsBuffer;
 			}
@@ -3388,7 +3388,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetShadowSamplingMode_Impl_Ref_RenderTargetIdentifier_ShadowSamplingMode == null)
 				{
 					r_MSetShadowSamplingMode_Impl_Ref_RenderTargetIdentifier_ShadowSamplingMode = new(this, "SetShadowSamplingMode_Impl", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Rendering.ShadowSamplingMode));
-					r_MSetShadowSamplingMode_Impl_Ref_RenderTargetIdentifier_ShadowSamplingMode.SetBelong(this.instance);
+					r_MSetShadowSamplingMode_Impl_Ref_RenderTargetIdentifier_ShadowSamplingMode.SetBelong(this.GetValue());
 				}
 				return r_MSetShadowSamplingMode_Impl_Ref_RenderTargetIdentifier_ShadowSamplingMode;
 			}
@@ -3405,7 +3405,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MIssuePluginEventInternal_IntPtr_Int32 == null)
 				{
 					r_MIssuePluginEventInternal_IntPtr_Int32 = new(this, "IssuePluginEventInternal", 0, typeof(System.IntPtr), typeof(System.Int32));
-					r_MIssuePluginEventInternal_IntPtr_Int32.SetBelong(this.instance);
+					r_MIssuePluginEventInternal_IntPtr_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIssuePluginEventInternal_IntPtr_Int32;
 			}
@@ -3422,7 +3422,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBeginSample_String == null)
 				{
 					r_MBeginSample_String = new(this, "BeginSample", 0, typeof(System.String));
-					r_MBeginSample_String.SetBelong(this.instance);
+					r_MBeginSample_String.SetBelong(this.GetValue());
 				}
 				return r_MBeginSample_String;
 			}
@@ -3439,7 +3439,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEndSample_String == null)
 				{
 					r_MEndSample_String = new(this, "EndSample", 0, typeof(System.String));
-					r_MEndSample_String.SetBelong(this.instance);
+					r_MEndSample_String.SetBelong(this.GetValue());
 				}
 				return r_MEndSample_String;
 			}
@@ -3456,7 +3456,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBeginSample_CustomSampler == null)
 				{
 					r_MBeginSample_CustomSampler = new(this, "BeginSample", 0, typeof(UnityEngine.Profiling.CustomSampler));
-					r_MBeginSample_CustomSampler.SetBelong(this.instance);
+					r_MBeginSample_CustomSampler.SetBelong(this.GetValue());
 				}
 				return r_MBeginSample_CustomSampler;
 			}
@@ -3473,7 +3473,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEndSample_CustomSampler == null)
 				{
 					r_MEndSample_CustomSampler = new(this, "EndSample", 0, typeof(UnityEngine.Profiling.CustomSampler));
-					r_MEndSample_CustomSampler.SetBelong(this.instance);
+					r_MEndSample_CustomSampler.SetBelong(this.GetValue());
 				}
 				return r_MEndSample_CustomSampler;
 			}
@@ -3490,7 +3490,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBeginSample_CustomSampler_CustomSampler == null)
 				{
 					r_MBeginSample_CustomSampler_CustomSampler = new(this, "BeginSample_CustomSampler", 0, typeof(UnityEngine.Profiling.CustomSampler));
-					r_MBeginSample_CustomSampler_CustomSampler.SetBelong(this.instance);
+					r_MBeginSample_CustomSampler_CustomSampler.SetBelong(this.GetValue());
 				}
 				return r_MBeginSample_CustomSampler_CustomSampler;
 			}
@@ -3507,7 +3507,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEndSample_CustomSampler_CustomSampler == null)
 				{
 					r_MEndSample_CustomSampler_CustomSampler = new(this, "EndSample_CustomSampler", 0, typeof(UnityEngine.Profiling.CustomSampler));
-					r_MEndSample_CustomSampler_CustomSampler.SetBelong(this.instance);
+					r_MEndSample_CustomSampler_CustomSampler.SetBelong(this.GetValue());
 				}
 				return r_MEndSample_CustomSampler_CustomSampler;
 			}
@@ -3524,7 +3524,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBeginSample_ProfilerMarker == null)
 				{
 					r_MBeginSample_ProfilerMarker = new(this, "BeginSample", 0, typeof(Unity.Profiling.ProfilerMarker));
-					r_MBeginSample_ProfilerMarker.SetBelong(this.instance);
+					r_MBeginSample_ProfilerMarker.SetBelong(this.GetValue());
 				}
 				return r_MBeginSample_ProfilerMarker;
 			}
@@ -3541,7 +3541,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEndSample_ProfilerMarker == null)
 				{
 					r_MEndSample_ProfilerMarker = new(this, "EndSample", 0, typeof(Unity.Profiling.ProfilerMarker));
-					r_MEndSample_ProfilerMarker.SetBelong(this.instance);
+					r_MEndSample_ProfilerMarker.SetBelong(this.GetValue());
 				}
 				return r_MEndSample_ProfilerMarker;
 			}
@@ -3558,7 +3558,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBeginSample_ProfilerMarker_IntPtr == null)
 				{
 					r_MBeginSample_ProfilerMarker_IntPtr = new(this, "BeginSample_ProfilerMarker", 0, typeof(System.IntPtr));
-					r_MBeginSample_ProfilerMarker_IntPtr.SetBelong(this.instance);
+					r_MBeginSample_ProfilerMarker_IntPtr.SetBelong(this.GetValue());
 				}
 				return r_MBeginSample_ProfilerMarker_IntPtr;
 			}
@@ -3575,7 +3575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEndSample_ProfilerMarker_IntPtr == null)
 				{
 					r_MEndSample_ProfilerMarker_IntPtr = new(this, "EndSample_ProfilerMarker", 0, typeof(System.IntPtr));
-					r_MEndSample_ProfilerMarker_IntPtr.SetBelong(this.instance);
+					r_MEndSample_ProfilerMarker_IntPtr.SetBelong(this.GetValue());
 				}
 				return r_MEndSample_ProfilerMarker_IntPtr;
 			}
@@ -3592,7 +3592,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MIssuePluginEventAndDataInternal_IntPtr_Int32_IntPtr == null)
 				{
 					r_MIssuePluginEventAndDataInternal_IntPtr_Int32_IntPtr = new(this, "IssuePluginEventAndDataInternal", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr));
-					r_MIssuePluginEventAndDataInternal_IntPtr_Int32_IntPtr.SetBelong(this.instance);
+					r_MIssuePluginEventAndDataInternal_IntPtr_Int32_IntPtr.SetBelong(this.GetValue());
 				}
 				return r_MIssuePluginEventAndDataInternal_IntPtr_Int32_IntPtr;
 			}
@@ -3609,7 +3609,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MIssuePluginEventAndDataInternalWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr == null)
 				{
 					r_MIssuePluginEventAndDataInternalWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr = new(this, "IssuePluginEventAndDataInternalWithFlags", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.Rendering.CustomMarkerCallbackFlags), typeof(System.IntPtr));
-					r_MIssuePluginEventAndDataInternalWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr.SetBelong(this.instance);
+					r_MIssuePluginEventAndDataInternalWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr.SetBelong(this.GetValue());
 				}
 				return r_MIssuePluginEventAndDataInternalWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr;
 			}
@@ -3626,7 +3626,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MIssuePluginCustomBlitInternal_IntPtr_UInt32_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_UInt32_UInt32 == null)
 				{
 					r_MIssuePluginCustomBlitInternal_IntPtr_UInt32_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_UInt32_UInt32 = new(this, "IssuePluginCustomBlitInternal", 0, typeof(System.IntPtr), typeof(System.UInt32), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(System.UInt32), typeof(System.UInt32));
-					r_MIssuePluginCustomBlitInternal_IntPtr_UInt32_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_UInt32_UInt32.SetBelong(this.instance);
+					r_MIssuePluginCustomBlitInternal_IntPtr_UInt32_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_UInt32_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MIssuePluginCustomBlitInternal_IntPtr_UInt32_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_UInt32_UInt32;
 			}
@@ -3643,7 +3643,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MIssuePluginCustomTextureUpdateInternal_IntPtr_Texture_UInt32_Boolean == null)
 				{
 					r_MIssuePluginCustomTextureUpdateInternal_IntPtr_Texture_UInt32_Boolean = new(this, "IssuePluginCustomTextureUpdateInternal", 0, typeof(System.IntPtr), typeof(UnityEngine.Texture), typeof(System.UInt32), typeof(System.Boolean));
-					r_MIssuePluginCustomTextureUpdateInternal_IntPtr_Texture_UInt32_Boolean.SetBelong(this.instance);
+					r_MIssuePluginCustomTextureUpdateInternal_IntPtr_Texture_UInt32_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MIssuePluginCustomTextureUpdateInternal_IntPtr_Texture_UInt32_Boolean;
 			}
@@ -3660,7 +3660,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalConstantBufferInternal_ComputeBuffer_Int32_Int32_Int32 == null)
 				{
 					r_MSetGlobalConstantBufferInternal_ComputeBuffer_Int32_Int32_Int32 = new(this, "SetGlobalConstantBufferInternal", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MSetGlobalConstantBufferInternal_ComputeBuffer_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MSetGlobalConstantBufferInternal_ComputeBuffer_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalConstantBufferInternal_ComputeBuffer_Int32_Int32_Int32;
 			}
@@ -3677,7 +3677,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalConstantGraphicsBufferInternal_GraphicsBuffer_Int32_Int32_Int32 == null)
 				{
 					r_MSetGlobalConstantGraphicsBufferInternal_GraphicsBuffer_Int32_Int32_Int32 = new(this, "SetGlobalConstantGraphicsBufferInternal", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MSetGlobalConstantGraphicsBufferInternal_GraphicsBuffer_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MSetGlobalConstantGraphicsBufferInternal_GraphicsBuffer_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalConstantGraphicsBufferInternal_GraphicsBuffer_Int32_Int32_Int32;
 			}
@@ -3694,7 +3694,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MIncrementUpdateCount_RenderTargetIdentifier == null)
 				{
 					r_MIncrementUpdateCount_RenderTargetIdentifier = new(this, "IncrementUpdateCount", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MIncrementUpdateCount_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MIncrementUpdateCount_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MIncrementUpdateCount_RenderTargetIdentifier;
 			}
@@ -3711,7 +3711,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetInstanceMultiplier_UInt32 == null)
 				{
 					r_MSetInstanceMultiplier_UInt32 = new(this, "SetInstanceMultiplier", 0, typeof(System.UInt32));
-					r_MSetInstanceMultiplier_UInt32.SetBelong(this.instance);
+					r_MSetInstanceMultiplier_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MSetInstanceMultiplier_UInt32;
 			}
@@ -3728,7 +3728,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetFoveatedRenderingMode_FoveatedRenderingMode == null)
 				{
 					r_MSetFoveatedRenderingMode_FoveatedRenderingMode = new(this, "SetFoveatedRenderingMode", 0, typeof(UnityEngine.Rendering.FoveatedRenderingMode));
-					r_MSetFoveatedRenderingMode_FoveatedRenderingMode.SetBelong(this.instance);
+					r_MSetFoveatedRenderingMode_FoveatedRenderingMode.SetBelong(this.GetValue());
 				}
 				return r_MSetFoveatedRenderingMode_FoveatedRenderingMode;
 			}
@@ -3745,7 +3745,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MConfigureFoveatedRendering_IntPtr == null)
 				{
 					r_MConfigureFoveatedRendering_IntPtr = new(this, "ConfigureFoveatedRendering", 0, typeof(System.IntPtr));
-					r_MConfigureFoveatedRendering_IntPtr.SetBelong(this.instance);
+					r_MConfigureFoveatedRendering_IntPtr.SetBelong(this.GetValue());
 				}
 				return r_MConfigureFoveatedRendering_IntPtr;
 			}
@@ -3762,7 +3762,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetIdentifier == null)
 				{
 					r_MSetRenderTarget_RenderTargetIdentifier = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MSetRenderTarget_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetIdentifier;
 			}
@@ -3779,7 +3779,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction == null)
 				{
 					r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction));
-					r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction;
 			}
@@ -3796,7 +3796,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction == null)
 				{
 					r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction));
-					r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction;
 			}
@@ -3813,7 +3813,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetIdentifier_Int32 == null)
 				{
 					r_MSetRenderTarget_RenderTargetIdentifier_Int32 = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32));
-					r_MSetRenderTarget_RenderTargetIdentifier_Int32.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetIdentifier_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetIdentifier_Int32;
 			}
@@ -3830,7 +3830,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetIdentifier_Int32_CubemapFace == null)
 				{
 					r_MSetRenderTarget_RenderTargetIdentifier_Int32_CubemapFace = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(UnityEngine.CubemapFace));
-					r_MSetRenderTarget_RenderTargetIdentifier_Int32_CubemapFace.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetIdentifier_Int32_CubemapFace.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetIdentifier_Int32_CubemapFace;
 			}
@@ -3847,7 +3847,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetIdentifier_Int32_CubemapFace_Int32 == null)
 				{
 					r_MSetRenderTarget_RenderTargetIdentifier_Int32_CubemapFace_Int32 = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(UnityEngine.CubemapFace), typeof(System.Int32));
-					r_MSetRenderTarget_RenderTargetIdentifier_Int32_CubemapFace_Int32.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetIdentifier_Int32_CubemapFace_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetIdentifier_Int32_CubemapFace_Int32;
 			}
@@ -3864,7 +3864,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier == null)
 				{
 					r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier;
 			}
@@ -3881,7 +3881,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32 == null)
 				{
 					r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32 = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32));
-					r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32;
 			}
@@ -3898,7 +3898,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32_CubemapFace == null)
 				{
 					r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32_CubemapFace = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(UnityEngine.CubemapFace));
-					r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32_CubemapFace.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32_CubemapFace.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32_CubemapFace;
 			}
@@ -3915,7 +3915,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32_CubemapFace_Int32 == null)
 				{
 					r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32_CubemapFace_Int32 = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(UnityEngine.CubemapFace), typeof(System.Int32));
-					r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32_CubemapFace_Int32.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32_CubemapFace_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetIdentifier_RenderTargetIdentifier_Int32_CubemapFace_Int32;
 			}
@@ -3932,7 +3932,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction == null)
 				{
 					r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction));
-					r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction;
 			}
@@ -3949,7 +3949,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetIdentifierArray_RenderTargetIdentifier == null)
 				{
 					r_MSetRenderTarget_RenderTargetIdentifierArray_RenderTargetIdentifier = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeArrayType(), typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MSetRenderTarget_RenderTargetIdentifierArray_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetIdentifierArray_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetIdentifierArray_RenderTargetIdentifier;
 			}
@@ -3966,7 +3966,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetIdentifierArray_RenderTargetIdentifier_Int32_CubemapFace_Int32 == null)
 				{
 					r_MSetRenderTarget_RenderTargetIdentifierArray_RenderTargetIdentifier_Int32_CubemapFace_Int32 = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeArrayType(), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(UnityEngine.CubemapFace), typeof(System.Int32));
-					r_MSetRenderTarget_RenderTargetIdentifierArray_RenderTargetIdentifier_Int32_CubemapFace_Int32.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetIdentifierArray_RenderTargetIdentifier_Int32_CubemapFace_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetIdentifierArray_RenderTargetIdentifier_Int32_CubemapFace_Int32;
 			}
@@ -3983,7 +3983,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetBinding_Int32_CubemapFace_Int32 == null)
 				{
 					r_MSetRenderTarget_RenderTargetBinding_Int32_CubemapFace_Int32 = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetBinding), typeof(System.Int32), typeof(UnityEngine.CubemapFace), typeof(System.Int32));
-					r_MSetRenderTarget_RenderTargetBinding_Int32_CubemapFace_Int32.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetBinding_Int32_CubemapFace_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetBinding_Int32_CubemapFace_Int32;
 			}
@@ -4000,7 +4000,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTarget_RenderTargetBinding == null)
 				{
 					r_MSetRenderTarget_RenderTargetBinding = new(this, "SetRenderTarget", 0, typeof(UnityEngine.Rendering.RenderTargetBinding));
-					r_MSetRenderTarget_RenderTargetBinding.SetBelong(this.instance);
+					r_MSetRenderTarget_RenderTargetBinding.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTarget_RenderTargetBinding;
 			}
@@ -4017,7 +4017,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTargetSingle_Internal_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction == null)
 				{
 					r_MSetRenderTargetSingle_Internal_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction = new(this, "SetRenderTargetSingle_Internal", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction));
-					r_MSetRenderTargetSingle_Internal_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction.SetBelong(this.instance);
+					r_MSetRenderTargetSingle_Internal_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTargetSingle_Internal_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction;
 			}
@@ -4034,7 +4034,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTargetColorDepth_Internal_RenderTargetIdentifier_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags == null)
 				{
 					r_MSetRenderTargetColorDepth_Internal_RenderTargetIdentifier_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags = new(this, "SetRenderTargetColorDepth_Internal", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(UnityEngine.Rendering.RenderTargetFlags));
-					r_MSetRenderTargetColorDepth_Internal_RenderTargetIdentifier_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.SetBelong(this.instance);
+					r_MSetRenderTargetColorDepth_Internal_RenderTargetIdentifier_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTargetColorDepth_Internal_RenderTargetIdentifier_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags;
 			}
@@ -4051,7 +4051,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTargetMulti_Internal_RenderTargetIdentifierArray_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags == null)
 				{
 					r_MSetRenderTargetMulti_Internal_RenderTargetIdentifierArray_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags = new(this, "SetRenderTargetMulti_Internal", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeArrayType(), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderBufferLoadAction).MakeArrayType(), typeof(UnityEngine.Rendering.RenderBufferStoreAction).MakeArrayType(), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(UnityEngine.Rendering.RenderTargetFlags));
-					r_MSetRenderTargetMulti_Internal_RenderTargetIdentifierArray_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.SetBelong(this.instance);
+					r_MSetRenderTargetMulti_Internal_RenderTargetIdentifierArray_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTargetMulti_Internal_RenderTargetIdentifierArray_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags;
 			}
@@ -4068,7 +4068,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTargetColorDepthSubtarget_RenderTargetIdentifier_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32 == null)
 				{
 					r_MSetRenderTargetColorDepthSubtarget_RenderTargetIdentifier_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32 = new(this, "SetRenderTargetColorDepthSubtarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(System.Int32), typeof(UnityEngine.CubemapFace), typeof(System.Int32));
-					r_MSetRenderTargetColorDepthSubtarget_RenderTargetIdentifier_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.SetBelong(this.instance);
+					r_MSetRenderTargetColorDepthSubtarget_RenderTargetIdentifier_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTargetColorDepthSubtarget_RenderTargetIdentifier_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32;
 			}
@@ -4085,7 +4085,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTargetMultiSubtarget_RenderTargetIdentifierArray_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32 == null)
 				{
 					r_MSetRenderTargetMultiSubtarget_RenderTargetIdentifierArray_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32 = new(this, "SetRenderTargetMultiSubtarget", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeArrayType(), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderBufferLoadAction).MakeArrayType(), typeof(UnityEngine.Rendering.RenderBufferStoreAction).MakeArrayType(), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(System.Int32), typeof(UnityEngine.CubemapFace), typeof(System.Int32));
-					r_MSetRenderTargetMultiSubtarget_RenderTargetIdentifierArray_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.SetBelong(this.instance);
+					r_MSetRenderTargetMultiSubtarget_RenderTargetIdentifierArray_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTargetMultiSubtarget_RenderTargetIdentifierArray_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32;
 			}
@@ -4102,7 +4102,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_ProcessVTFeedback_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MInternal_ProcessVTFeedback_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32 = new(this, "Internal_ProcessVTFeedback", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MInternal_ProcessVTFeedback_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MInternal_ProcessVTFeedback_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInternal_ProcessVTFeedback_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32;
 			}
@@ -4119,7 +4119,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetBufferData_ComputeBuffer_Array == null)
 				{
 					r_MSetBufferData_ComputeBuffer_Array = new(this, "SetBufferData", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Array));
-					r_MSetBufferData_ComputeBuffer_Array.SetBelong(this.instance);
+					r_MSetBufferData_ComputeBuffer_Array.SetBelong(this.GetValue());
 				}
 				return r_MSetBufferData_ComputeBuffer_Array;
 			}
@@ -4136,7 +4136,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetBufferData_GT_ComputeBuffer_List_d_T_p_ == null)
 				{
 					r_MSetBufferData_GT_ComputeBuffer_List_d_T_p_ = new(this, "SetBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_MSetBufferData_GT_ComputeBuffer_List_d_T_p_.SetBelong(this.instance);
+					r_MSetBufferData_GT_ComputeBuffer_List_d_T_p_.SetBelong(this.GetValue());
 				}
 				return r_MSetBufferData_GT_ComputeBuffer_List_d_T_p_;
 			}
@@ -4153,7 +4153,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p_ == null)
 				{
 					r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p_ = new(this, "SetBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p_.SetBelong(this.instance);
+					r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p_.SetBelong(this.GetValue());
 				}
 				return r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p_;
 			}
@@ -4170,7 +4170,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetBufferData_ComputeBuffer_Array_Int32_Int32_Int32 == null)
 				{
 					r_MSetBufferData_ComputeBuffer_Array_Int32_Int32_Int32 = new(this, "SetBufferData", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MSetBufferData_ComputeBuffer_Array_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MSetBufferData_ComputeBuffer_Array_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetBufferData_ComputeBuffer_Array_Int32_Int32_Int32;
 			}
@@ -4187,7 +4187,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32 == null)
 				{
 					r_MSetBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32 = new(this, "SetBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MSetBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32.SetBelong(this.instance);
+					r_MSetBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32;
 			}
@@ -4204,7 +4204,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32 == null)
 				{
 					r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32 = new(this, "SetBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32.SetBelong(this.instance);
+					r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32;
 			}
@@ -4221,7 +4221,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetBufferCounterValue_ComputeBuffer_UInt32 == null)
 				{
 					r_MSetBufferCounterValue_ComputeBuffer_UInt32 = new(this, "SetBufferCounterValue", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.UInt32));
-					r_MSetBufferCounterValue_ComputeBuffer_UInt32.SetBelong(this.instance);
+					r_MSetBufferCounterValue_ComputeBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MSetBufferCounterValue_ComputeBuffer_UInt32;
 			}
@@ -4238,7 +4238,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternalSetComputeBufferNativeData_ComputeBuffer_IntPtr_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MInternalSetComputeBufferNativeData_ComputeBuffer_IntPtr_Int32_Int32_Int32_Int32 = new(this, "InternalSetComputeBufferNativeData", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MInternalSetComputeBufferNativeData_ComputeBuffer_IntPtr_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MInternalSetComputeBufferNativeData_ComputeBuffer_IntPtr_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInternalSetComputeBufferNativeData_ComputeBuffer_IntPtr_Int32_Int32_Int32_Int32;
 			}
@@ -4255,7 +4255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternalSetComputeBufferData_ComputeBuffer_Array_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MInternalSetComputeBufferData_ComputeBuffer_Array_Int32_Int32_Int32_Int32 = new(this, "InternalSetComputeBufferData", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MInternalSetComputeBufferData_ComputeBuffer_Array_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MInternalSetComputeBufferData_ComputeBuffer_Array_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInternalSetComputeBufferData_ComputeBuffer_Array_Int32_Int32_Int32_Int32;
 			}
@@ -4272,7 +4272,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternalSetComputeBufferCounterValue_ComputeBuffer_UInt32 == null)
 				{
 					r_MInternalSetComputeBufferCounterValue_ComputeBuffer_UInt32 = new(this, "InternalSetComputeBufferCounterValue", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.UInt32));
-					r_MInternalSetComputeBufferCounterValue_ComputeBuffer_UInt32.SetBelong(this.instance);
+					r_MInternalSetComputeBufferCounterValue_ComputeBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MInternalSetComputeBufferCounterValue_ComputeBuffer_UInt32;
 			}
@@ -4289,7 +4289,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetBufferData_GraphicsBuffer_Array == null)
 				{
 					r_MSetBufferData_GraphicsBuffer_Array = new(this, "SetBufferData", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Array));
-					r_MSetBufferData_GraphicsBuffer_Array.SetBelong(this.instance);
+					r_MSetBufferData_GraphicsBuffer_Array.SetBelong(this.GetValue());
 				}
 				return r_MSetBufferData_GraphicsBuffer_Array;
 			}
@@ -4306,7 +4306,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p_ == null)
 				{
 					r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p_ = new(this, "SetBufferData", 1, typeof(UnityEngine.GraphicsBuffer), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p_.SetBelong(this.instance);
+					r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p_.SetBelong(this.GetValue());
 				}
 				return r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p_;
 			}
@@ -4323,7 +4323,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p_ == null)
 				{
 					r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p_ = new(this, "SetBufferData", 1, typeof(UnityEngine.GraphicsBuffer), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p_.SetBelong(this.instance);
+					r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p_.SetBelong(this.GetValue());
 				}
 				return r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p_;
 			}
@@ -4340,7 +4340,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetBufferData_GraphicsBuffer_Array_Int32_Int32_Int32 == null)
 				{
 					r_MSetBufferData_GraphicsBuffer_Array_Int32_Int32_Int32 = new(this, "SetBufferData", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MSetBufferData_GraphicsBuffer_Array_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MSetBufferData_GraphicsBuffer_Array_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetBufferData_GraphicsBuffer_Array_Int32_Int32_Int32;
 			}
@@ -4357,7 +4357,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p__Int32_Int32_Int32 == null)
 				{
 					r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p__Int32_Int32_Int32 = new(this, "SetBufferData", 1, typeof(UnityEngine.GraphicsBuffer), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p__Int32_Int32_Int32.SetBelong(this.instance);
+					r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p__Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p__Int32_Int32_Int32;
 			}
@@ -4374,7 +4374,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p__Int32_Int32_Int32 == null)
 				{
 					r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p__Int32_Int32_Int32 = new(this, "SetBufferData", 1, typeof(UnityEngine.GraphicsBuffer), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p__Int32_Int32_Int32.SetBelong(this.instance);
+					r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p__Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p__Int32_Int32_Int32;
 			}
@@ -4391,7 +4391,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetBufferCounterValue_GraphicsBuffer_UInt32 == null)
 				{
 					r_MSetBufferCounterValue_GraphicsBuffer_UInt32 = new(this, "SetBufferCounterValue", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32));
-					r_MSetBufferCounterValue_GraphicsBuffer_UInt32.SetBelong(this.instance);
+					r_MSetBufferCounterValue_GraphicsBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MSetBufferCounterValue_GraphicsBuffer_UInt32;
 			}
@@ -4408,7 +4408,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternalSetGraphicsBufferNativeData_GraphicsBuffer_IntPtr_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MInternalSetGraphicsBufferNativeData_GraphicsBuffer_IntPtr_Int32_Int32_Int32_Int32 = new(this, "InternalSetGraphicsBufferNativeData", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MInternalSetGraphicsBufferNativeData_GraphicsBuffer_IntPtr_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MInternalSetGraphicsBufferNativeData_GraphicsBuffer_IntPtr_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInternalSetGraphicsBufferNativeData_GraphicsBuffer_IntPtr_Int32_Int32_Int32_Int32;
 			}
@@ -4425,7 +4425,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternalSetGraphicsBufferData_GraphicsBuffer_Array_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MInternalSetGraphicsBufferData_GraphicsBuffer_Array_Int32_Int32_Int32_Int32 = new(this, "InternalSetGraphicsBufferData", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MInternalSetGraphicsBufferData_GraphicsBuffer_Array_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MInternalSetGraphicsBufferData_GraphicsBuffer_Array_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInternalSetGraphicsBufferData_GraphicsBuffer_Array_Int32_Int32_Int32_Int32;
 			}
@@ -4442,7 +4442,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternalSetGraphicsBufferCounterValue_GraphicsBuffer_UInt32 == null)
 				{
 					r_MInternalSetGraphicsBufferCounterValue_GraphicsBuffer_UInt32 = new(this, "InternalSetGraphicsBufferCounterValue", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32));
-					r_MInternalSetGraphicsBufferCounterValue_GraphicsBuffer_UInt32.SetBelong(this.instance);
+					r_MInternalSetGraphicsBufferCounterValue_GraphicsBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MInternalSetGraphicsBufferCounterValue_GraphicsBuffer_UInt32;
 			}
@@ -4459,7 +4459,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyBufferImpl_GraphicsBuffer_GraphicsBuffer == null)
 				{
 					r_MCopyBufferImpl_GraphicsBuffer_GraphicsBuffer = new(this, "CopyBufferImpl", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.GraphicsBuffer));
-					r_MCopyBufferImpl_GraphicsBuffer_GraphicsBuffer.SetBelong(this.instance);
+					r_MCopyBufferImpl_GraphicsBuffer_GraphicsBuffer.SetBelong(this.GetValue());
 				}
 				return r_MCopyBufferImpl_GraphicsBuffer_GraphicsBuffer;
 			}
@@ -4476,7 +4476,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -4493,7 +4493,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDispose == null)
 				{
 					r_MDispose = new(this, "Dispose", 0);
-					r_MDispose.SetBelong(this.instance);
+					r_MDispose.SetBelong(this.GetValue());
 				}
 				return r_MDispose;
 			}
@@ -4510,7 +4510,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDispose_Boolean == null)
 				{
 					r_MDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_MDispose_Boolean.SetBelong(this.instance);
+					r_MDispose_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDispose_Boolean;
 			}
@@ -4527,7 +4527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MRelease == null)
 				{
 					r_MRelease = new(this, "Release", 0);
-					r_MRelease.SetBelong(this.instance);
+					r_MRelease.SetBelong(this.GetValue());
 				}
 				return r_MRelease;
 			}
@@ -4544,7 +4544,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCreateAsyncGraphicsFence == null)
 				{
 					r_MCreateAsyncGraphicsFence = new(this, "CreateAsyncGraphicsFence", 0);
-					r_MCreateAsyncGraphicsFence.SetBelong(this.instance);
+					r_MCreateAsyncGraphicsFence.SetBelong(this.GetValue());
 				}
 				return r_MCreateAsyncGraphicsFence;
 			}
@@ -4561,7 +4561,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCreateAsyncGraphicsFence_SynchronisationStage == null)
 				{
 					r_MCreateAsyncGraphicsFence_SynchronisationStage = new(this, "CreateAsyncGraphicsFence", 0, typeof(UnityEngine.Rendering.SynchronisationStage));
-					r_MCreateAsyncGraphicsFence_SynchronisationStage.SetBelong(this.instance);
+					r_MCreateAsyncGraphicsFence_SynchronisationStage.SetBelong(this.GetValue());
 				}
 				return r_MCreateAsyncGraphicsFence_SynchronisationStage;
 			}
@@ -4578,7 +4578,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCreateGraphicsFence_GraphicsFenceType_SynchronisationStageFlags == null)
 				{
 					r_MCreateGraphicsFence_GraphicsFenceType_SynchronisationStageFlags = new(this, "CreateGraphicsFence", 0, typeof(UnityEngine.Rendering.GraphicsFenceType), typeof(UnityEngine.Rendering.SynchronisationStageFlags));
-					r_MCreateGraphicsFence_GraphicsFenceType_SynchronisationStageFlags.SetBelong(this.instance);
+					r_MCreateGraphicsFence_GraphicsFenceType_SynchronisationStageFlags.SetBelong(this.GetValue());
 				}
 				return r_MCreateGraphicsFence_GraphicsFenceType_SynchronisationStageFlags;
 			}
@@ -4595,7 +4595,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MWaitOnAsyncGraphicsFence_GraphicsFence == null)
 				{
 					r_MWaitOnAsyncGraphicsFence_GraphicsFence = new(this, "WaitOnAsyncGraphicsFence", 0, typeof(UnityEngine.Rendering.GraphicsFence));
-					r_MWaitOnAsyncGraphicsFence_GraphicsFence.SetBelong(this.instance);
+					r_MWaitOnAsyncGraphicsFence_GraphicsFence.SetBelong(this.GetValue());
 				}
 				return r_MWaitOnAsyncGraphicsFence_GraphicsFence;
 			}
@@ -4612,7 +4612,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MWaitOnAsyncGraphicsFence_GraphicsFence_SynchronisationStage == null)
 				{
 					r_MWaitOnAsyncGraphicsFence_GraphicsFence_SynchronisationStage = new(this, "WaitOnAsyncGraphicsFence", 0, typeof(UnityEngine.Rendering.GraphicsFence), typeof(UnityEngine.Rendering.SynchronisationStage));
-					r_MWaitOnAsyncGraphicsFence_GraphicsFence_SynchronisationStage.SetBelong(this.instance);
+					r_MWaitOnAsyncGraphicsFence_GraphicsFence_SynchronisationStage.SetBelong(this.GetValue());
 				}
 				return r_MWaitOnAsyncGraphicsFence_GraphicsFence_SynchronisationStage;
 			}
@@ -4629,7 +4629,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MWaitOnAsyncGraphicsFence_GraphicsFence_SynchronisationStageFlags == null)
 				{
 					r_MWaitOnAsyncGraphicsFence_GraphicsFence_SynchronisationStageFlags = new(this, "WaitOnAsyncGraphicsFence", 0, typeof(UnityEngine.Rendering.GraphicsFence), typeof(UnityEngine.Rendering.SynchronisationStageFlags));
-					r_MWaitOnAsyncGraphicsFence_GraphicsFence_SynchronisationStageFlags.SetBelong(this.instance);
+					r_MWaitOnAsyncGraphicsFence_GraphicsFence_SynchronisationStageFlags.SetBelong(this.GetValue());
 				}
 				return r_MWaitOnAsyncGraphicsFence_GraphicsFence_SynchronisationStageFlags;
 			}
@@ -4646,7 +4646,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeFloatParam_ComputeShader_String_Single == null)
 				{
 					r_MSetComputeFloatParam_ComputeShader_String_Single = new(this, "SetComputeFloatParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.String), typeof(System.Single));
-					r_MSetComputeFloatParam_ComputeShader_String_Single.SetBelong(this.instance);
+					r_MSetComputeFloatParam_ComputeShader_String_Single.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeFloatParam_ComputeShader_String_Single;
 			}
@@ -4663,7 +4663,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeIntParam_ComputeShader_String_Int32 == null)
 				{
 					r_MSetComputeIntParam_ComputeShader_String_Int32 = new(this, "SetComputeIntParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.String), typeof(System.Int32));
-					r_MSetComputeIntParam_ComputeShader_String_Int32.SetBelong(this.instance);
+					r_MSetComputeIntParam_ComputeShader_String_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeIntParam_ComputeShader_String_Int32;
 			}
@@ -4680,7 +4680,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeVectorParam_ComputeShader_String_Vector4 == null)
 				{
 					r_MSetComputeVectorParam_ComputeShader_String_Vector4 = new(this, "SetComputeVectorParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.String), typeof(UnityEngine.Vector4));
-					r_MSetComputeVectorParam_ComputeShader_String_Vector4.SetBelong(this.instance);
+					r_MSetComputeVectorParam_ComputeShader_String_Vector4.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeVectorParam_ComputeShader_String_Vector4;
 			}
@@ -4697,7 +4697,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeVectorArrayParam_ComputeShader_String_Vector4Array == null)
 				{
 					r_MSetComputeVectorArrayParam_ComputeShader_String_Vector4Array = new(this, "SetComputeVectorArrayParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.String), typeof(UnityEngine.Vector4).MakeArrayType());
-					r_MSetComputeVectorArrayParam_ComputeShader_String_Vector4Array.SetBelong(this.instance);
+					r_MSetComputeVectorArrayParam_ComputeShader_String_Vector4Array.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeVectorArrayParam_ComputeShader_String_Vector4Array;
 			}
@@ -4714,7 +4714,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeMatrixParam_ComputeShader_String_Matrix4x4 == null)
 				{
 					r_MSetComputeMatrixParam_ComputeShader_String_Matrix4x4 = new(this, "SetComputeMatrixParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.String), typeof(UnityEngine.Matrix4x4));
-					r_MSetComputeMatrixParam_ComputeShader_String_Matrix4x4.SetBelong(this.instance);
+					r_MSetComputeMatrixParam_ComputeShader_String_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeMatrixParam_ComputeShader_String_Matrix4x4;
 			}
@@ -4731,7 +4731,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeMatrixArrayParam_ComputeShader_String_Matrix4x4Array == null)
 				{
 					r_MSetComputeMatrixArrayParam_ComputeShader_String_Matrix4x4Array = new(this, "SetComputeMatrixArrayParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.String), typeof(UnityEngine.Matrix4x4).MakeArrayType());
-					r_MSetComputeMatrixArrayParam_ComputeShader_String_Matrix4x4Array.SetBelong(this.instance);
+					r_MSetComputeMatrixArrayParam_ComputeShader_String_Matrix4x4Array.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeMatrixArrayParam_ComputeShader_String_Matrix4x4Array;
 			}
@@ -4748,7 +4748,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeFloatParams_ComputeShader_String_SingleArray == null)
 				{
 					r_MSetComputeFloatParams_ComputeShader_String_SingleArray = new(this, "SetComputeFloatParams", 0, typeof(UnityEngine.ComputeShader), typeof(System.String), typeof(System.Single).MakeArrayType());
-					r_MSetComputeFloatParams_ComputeShader_String_SingleArray.SetBelong(this.instance);
+					r_MSetComputeFloatParams_ComputeShader_String_SingleArray.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeFloatParams_ComputeShader_String_SingleArray;
 			}
@@ -4765,7 +4765,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeFloatParams_ComputeShader_Int32_SingleArray == null)
 				{
 					r_MSetComputeFloatParams_ComputeShader_Int32_SingleArray = new(this, "SetComputeFloatParams", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Single).MakeArrayType());
-					r_MSetComputeFloatParams_ComputeShader_Int32_SingleArray.SetBelong(this.instance);
+					r_MSetComputeFloatParams_ComputeShader_Int32_SingleArray.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeFloatParams_ComputeShader_Int32_SingleArray;
 			}
@@ -4782,7 +4782,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeIntParams_ComputeShader_String_Int32Array == null)
 				{
 					r_MSetComputeIntParams_ComputeShader_String_Int32Array = new(this, "SetComputeIntParams", 0, typeof(UnityEngine.ComputeShader), typeof(System.String), typeof(System.Int32).MakeArrayType());
-					r_MSetComputeIntParams_ComputeShader_String_Int32Array.SetBelong(this.instance);
+					r_MSetComputeIntParams_ComputeShader_String_Int32Array.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeIntParams_ComputeShader_String_Int32Array;
 			}
@@ -4799,7 +4799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeIntParams_ComputeShader_Int32_Int32Array == null)
 				{
 					r_MSetComputeIntParams_ComputeShader_Int32_Int32Array = new(this, "SetComputeIntParams", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32).MakeArrayType());
-					r_MSetComputeIntParams_ComputeShader_Int32_Int32Array.SetBelong(this.instance);
+					r_MSetComputeIntParams_ComputeShader_Int32_Int32Array.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeIntParams_ComputeShader_Int32_Int32Array;
 			}
@@ -4816,7 +4816,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier == null)
 				{
 					r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier = new(this, "SetComputeTextureParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.String), typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier;
 			}
@@ -4833,7 +4833,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier == null)
 				{
 					r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier = new(this, "SetComputeTextureParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier;
 			}
@@ -4850,7 +4850,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier_Int32 == null)
 				{
 					r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier_Int32 = new(this, "SetComputeTextureParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.String), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32));
-					r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier_Int32.SetBelong(this.instance);
+					r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier_Int32;
 			}
@@ -4867,7 +4867,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier_Int32 == null)
 				{
 					r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier_Int32 = new(this, "SetComputeTextureParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32));
-					r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier_Int32.SetBelong(this.instance);
+					r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier_Int32;
 			}
@@ -4884,7 +4884,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier_Int32_RenderTextureSubElement == null)
 				{
 					r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier_Int32_RenderTextureSubElement = new(this, "SetComputeTextureParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.String), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTextureSubElement));
-					r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier_Int32_RenderTextureSubElement.SetBelong(this.instance);
+					r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier_Int32_RenderTextureSubElement.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeTextureParam_ComputeShader_Int32_String_RenderTargetIdentifier_Int32_RenderTextureSubElement;
 			}
@@ -4901,7 +4901,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier_Int32_RenderTextureSubElement == null)
 				{
 					r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier_Int32_RenderTextureSubElement = new(this, "SetComputeTextureParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTextureSubElement));
-					r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier_Int32_RenderTextureSubElement.SetBelong(this.instance);
+					r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier_Int32_RenderTextureSubElement.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeTextureParam_ComputeShader_Int32_Int32_RenderTargetIdentifier_Int32_RenderTextureSubElement;
 			}
@@ -4918,7 +4918,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeBufferParam_ComputeShader_Int32_Int32_ComputeBuffer == null)
 				{
 					r_MSetComputeBufferParam_ComputeShader_Int32_Int32_ComputeBuffer = new(this, "SetComputeBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.ComputeBuffer));
-					r_MSetComputeBufferParam_ComputeShader_Int32_Int32_ComputeBuffer.SetBelong(this.instance);
+					r_MSetComputeBufferParam_ComputeShader_Int32_Int32_ComputeBuffer.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeBufferParam_ComputeShader_Int32_Int32_ComputeBuffer;
 			}
@@ -4935,7 +4935,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeBufferParam_ComputeShader_Int32_String_ComputeBuffer == null)
 				{
 					r_MSetComputeBufferParam_ComputeShader_Int32_String_ComputeBuffer = new(this, "SetComputeBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.String), typeof(UnityEngine.ComputeBuffer));
-					r_MSetComputeBufferParam_ComputeShader_Int32_String_ComputeBuffer.SetBelong(this.instance);
+					r_MSetComputeBufferParam_ComputeShader_Int32_String_ComputeBuffer.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeBufferParam_ComputeShader_Int32_String_ComputeBuffer;
 			}
@@ -4952,7 +4952,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBufferHandle == null)
 				{
 					r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBufferHandle = new(this, "SetComputeBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.GraphicsBufferHandle));
-					r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBufferHandle.SetBelong(this.instance);
+					r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBufferHandle.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBufferHandle;
 			}
@@ -4969,7 +4969,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBufferHandle == null)
 				{
 					r_MSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBufferHandle = new(this, "SetComputeBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.String), typeof(UnityEngine.GraphicsBufferHandle));
-					r_MSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBufferHandle.SetBelong(this.instance);
+					r_MSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBufferHandle.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBufferHandle;
 			}
@@ -4986,7 +4986,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer == null)
 				{
 					r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer = new(this, "SetComputeBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer));
-					r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer.SetBelong(this.instance);
+					r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer;
 			}
@@ -5003,7 +5003,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBuffer == null)
 				{
 					r_MSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBuffer = new(this, "SetComputeBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.String), typeof(UnityEngine.GraphicsBuffer));
-					r_MSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBuffer.SetBelong(this.instance);
+					r_MSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBuffer.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBuffer;
 			}
@@ -5020,7 +5020,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeConstantBufferParam_ComputeShader_Int32_ComputeBuffer_Int32_Int32 == null)
 				{
 					r_MSetComputeConstantBufferParam_ComputeShader_Int32_ComputeBuffer_Int32_Int32 = new(this, "SetComputeConstantBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_MSetComputeConstantBufferParam_ComputeShader_Int32_ComputeBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MSetComputeConstantBufferParam_ComputeShader_Int32_ComputeBuffer_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeConstantBufferParam_ComputeShader_Int32_ComputeBuffer_Int32_Int32;
 			}
@@ -5037,7 +5037,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeConstantBufferParam_ComputeShader_String_ComputeBuffer_Int32_Int32 == null)
 				{
 					r_MSetComputeConstantBufferParam_ComputeShader_String_ComputeBuffer_Int32_Int32 = new(this, "SetComputeConstantBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.String), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_MSetComputeConstantBufferParam_ComputeShader_String_ComputeBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MSetComputeConstantBufferParam_ComputeShader_String_ComputeBuffer_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeConstantBufferParam_ComputeShader_String_ComputeBuffer_Int32_Int32;
 			}
@@ -5054,7 +5054,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeConstantBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32 == null)
 				{
 					r_MSetComputeConstantBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32 = new(this, "SetComputeConstantBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_MSetComputeConstantBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MSetComputeConstantBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeConstantBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32;
 			}
@@ -5071,7 +5071,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeConstantBufferParam_ComputeShader_String_GraphicsBuffer_Int32_Int32 == null)
 				{
 					r_MSetComputeConstantBufferParam_ComputeShader_String_GraphicsBuffer_Int32_Int32 = new(this, "SetComputeConstantBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.String), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_MSetComputeConstantBufferParam_ComputeShader_String_GraphicsBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MSetComputeConstantBufferParam_ComputeShader_String_GraphicsBuffer_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeConstantBufferParam_ComputeShader_String_GraphicsBuffer_Int32_Int32;
 			}
@@ -5088,7 +5088,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeParamsFromMaterial_ComputeShader_Int32_Material == null)
 				{
 					r_MSetComputeParamsFromMaterial_ComputeShader_Int32_Material = new(this, "SetComputeParamsFromMaterial", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.Material));
-					r_MSetComputeParamsFromMaterial_ComputeShader_Int32_Material.SetBelong(this.instance);
+					r_MSetComputeParamsFromMaterial_ComputeShader_Int32_Material.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeParamsFromMaterial_ComputeShader_Int32_Material;
 			}
@@ -5105,7 +5105,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDispatchCompute_ComputeShader_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MDispatchCompute_ComputeShader_Int32_Int32_Int32_Int32 = new(this, "DispatchCompute", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MDispatchCompute_ComputeShader_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MDispatchCompute_ComputeShader_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDispatchCompute_ComputeShader_Int32_Int32_Int32_Int32;
 			}
@@ -5122,7 +5122,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDispatchCompute_ComputeShader_Int32_ComputeBuffer_UInt32 == null)
 				{
 					r_MDispatchCompute_ComputeShader_Int32_ComputeBuffer_UInt32 = new(this, "DispatchCompute", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.UInt32));
-					r_MDispatchCompute_ComputeShader_Int32_ComputeBuffer_UInt32.SetBelong(this.instance);
+					r_MDispatchCompute_ComputeShader_Int32_ComputeBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MDispatchCompute_ComputeShader_Int32_ComputeBuffer_UInt32;
 			}
@@ -5139,7 +5139,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDispatchCompute_ComputeShader_Int32_GraphicsBuffer_UInt32 == null)
 				{
 					r_MDispatchCompute_ComputeShader_Int32_GraphicsBuffer_UInt32 = new(this, "DispatchCompute", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32));
-					r_MDispatchCompute_ComputeShader_Int32_GraphicsBuffer_UInt32.SetBelong(this.instance);
+					r_MDispatchCompute_ComputeShader_Int32_GraphicsBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MDispatchCompute_ComputeShader_Int32_GraphicsBuffer_UInt32;
 			}
@@ -5156,7 +5156,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBuildRayTracingAccelerationStructure_RayTracingAccelerationStructure == null)
 				{
 					r_MBuildRayTracingAccelerationStructure_RayTracingAccelerationStructure = new(this, "BuildRayTracingAccelerationStructure", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure));
-					r_MBuildRayTracingAccelerationStructure_RayTracingAccelerationStructure.SetBelong(this.instance);
+					r_MBuildRayTracingAccelerationStructure_RayTracingAccelerationStructure.SetBelong(this.GetValue());
 				}
 				return r_MBuildRayTracingAccelerationStructure_RayTracingAccelerationStructure;
 			}
@@ -5173,7 +5173,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBuildRayTracingAccelerationStructure_RayTracingAccelerationStructure_Vector3 == null)
 				{
 					r_MBuildRayTracingAccelerationStructure_RayTracingAccelerationStructure_Vector3 = new(this, "BuildRayTracingAccelerationStructure", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), typeof(UnityEngine.Vector3));
-					r_MBuildRayTracingAccelerationStructure_RayTracingAccelerationStructure_Vector3.SetBelong(this.instance);
+					r_MBuildRayTracingAccelerationStructure_RayTracingAccelerationStructure_Vector3.SetBelong(this.GetValue());
 				}
 				return r_MBuildRayTracingAccelerationStructure_RayTracingAccelerationStructure_Vector3;
 			}
@@ -5190,7 +5190,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingAccelerationStructure_RayTracingShader_String_RayTracingAccelerationStructure == null)
 				{
 					r_MSetRayTracingAccelerationStructure_RayTracingShader_String_RayTracingAccelerationStructure = new(this, "SetRayTracingAccelerationStructure", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure));
-					r_MSetRayTracingAccelerationStructure_RayTracingShader_String_RayTracingAccelerationStructure.SetBelong(this.instance);
+					r_MSetRayTracingAccelerationStructure_RayTracingShader_String_RayTracingAccelerationStructure.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingAccelerationStructure_RayTracingShader_String_RayTracingAccelerationStructure;
 			}
@@ -5207,7 +5207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingAccelerationStructure_RayTracingShader_Int32_RayTracingAccelerationStructure == null)
 				{
 					r_MSetRayTracingAccelerationStructure_RayTracingShader_Int32_RayTracingAccelerationStructure = new(this, "SetRayTracingAccelerationStructure", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure));
-					r_MSetRayTracingAccelerationStructure_RayTracingShader_Int32_RayTracingAccelerationStructure.SetBelong(this.instance);
+					r_MSetRayTracingAccelerationStructure_RayTracingShader_Int32_RayTracingAccelerationStructure.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingAccelerationStructure_RayTracingShader_Int32_RayTracingAccelerationStructure;
 			}
@@ -5224,7 +5224,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingBufferParam_RayTracingShader_String_ComputeBuffer == null)
 				{
 					r_MSetRayTracingBufferParam_RayTracingShader_String_ComputeBuffer = new(this, "SetRayTracingBufferParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(UnityEngine.ComputeBuffer));
-					r_MSetRayTracingBufferParam_RayTracingShader_String_ComputeBuffer.SetBelong(this.instance);
+					r_MSetRayTracingBufferParam_RayTracingShader_String_ComputeBuffer.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingBufferParam_RayTracingShader_String_ComputeBuffer;
 			}
@@ -5241,7 +5241,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingBufferParam_RayTracingShader_Int32_ComputeBuffer == null)
 				{
 					r_MSetRayTracingBufferParam_RayTracingShader_Int32_ComputeBuffer = new(this, "SetRayTracingBufferParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.ComputeBuffer));
-					r_MSetRayTracingBufferParam_RayTracingShader_Int32_ComputeBuffer.SetBelong(this.instance);
+					r_MSetRayTracingBufferParam_RayTracingShader_Int32_ComputeBuffer.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingBufferParam_RayTracingShader_Int32_ComputeBuffer;
 			}
@@ -5258,7 +5258,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingConstantBufferParam_RayTracingShader_Int32_ComputeBuffer_Int32_Int32 == null)
 				{
 					r_MSetRayTracingConstantBufferParam_RayTracingShader_Int32_ComputeBuffer_Int32_Int32 = new(this, "SetRayTracingConstantBufferParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_MSetRayTracingConstantBufferParam_RayTracingShader_Int32_ComputeBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MSetRayTracingConstantBufferParam_RayTracingShader_Int32_ComputeBuffer_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingConstantBufferParam_RayTracingShader_Int32_ComputeBuffer_Int32_Int32;
 			}
@@ -5275,7 +5275,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingConstantBufferParam_RayTracingShader_String_ComputeBuffer_Int32_Int32 == null)
 				{
 					r_MSetRayTracingConstantBufferParam_RayTracingShader_String_ComputeBuffer_Int32_Int32 = new(this, "SetRayTracingConstantBufferParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_MSetRayTracingConstantBufferParam_RayTracingShader_String_ComputeBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MSetRayTracingConstantBufferParam_RayTracingShader_String_ComputeBuffer_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingConstantBufferParam_RayTracingShader_String_ComputeBuffer_Int32_Int32;
 			}
@@ -5292,7 +5292,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingConstantBufferParam_RayTracingShader_Int32_GraphicsBuffer_Int32_Int32 == null)
 				{
 					r_MSetRayTracingConstantBufferParam_RayTracingShader_Int32_GraphicsBuffer_Int32_Int32 = new(this, "SetRayTracingConstantBufferParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_MSetRayTracingConstantBufferParam_RayTracingShader_Int32_GraphicsBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MSetRayTracingConstantBufferParam_RayTracingShader_Int32_GraphicsBuffer_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingConstantBufferParam_RayTracingShader_Int32_GraphicsBuffer_Int32_Int32;
 			}
@@ -5309,7 +5309,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingConstantBufferParam_RayTracingShader_String_GraphicsBuffer_Int32_Int32 == null)
 				{
 					r_MSetRayTracingConstantBufferParam_RayTracingShader_String_GraphicsBuffer_Int32_Int32 = new(this, "SetRayTracingConstantBufferParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32));
-					r_MSetRayTracingConstantBufferParam_RayTracingShader_String_GraphicsBuffer_Int32_Int32.SetBelong(this.instance);
+					r_MSetRayTracingConstantBufferParam_RayTracingShader_String_GraphicsBuffer_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingConstantBufferParam_RayTracingShader_String_GraphicsBuffer_Int32_Int32;
 			}
@@ -5326,7 +5326,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingTextureParam_RayTracingShader_String_RenderTargetIdentifier == null)
 				{
 					r_MSetRayTracingTextureParam_RayTracingShader_String_RenderTargetIdentifier = new(this, "SetRayTracingTextureParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MSetRayTracingTextureParam_RayTracingShader_String_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MSetRayTracingTextureParam_RayTracingShader_String_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingTextureParam_RayTracingShader_String_RenderTargetIdentifier;
 			}
@@ -5343,7 +5343,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingTextureParam_RayTracingShader_Int32_RenderTargetIdentifier == null)
 				{
 					r_MSetRayTracingTextureParam_RayTracingShader_Int32_RenderTargetIdentifier = new(this, "SetRayTracingTextureParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MSetRayTracingTextureParam_RayTracingShader_Int32_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MSetRayTracingTextureParam_RayTracingShader_Int32_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingTextureParam_RayTracingShader_Int32_RenderTargetIdentifier;
 			}
@@ -5360,7 +5360,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingFloatParam_RayTracingShader_String_Single == null)
 				{
 					r_MSetRayTracingFloatParam_RayTracingShader_String_Single = new(this, "SetRayTracingFloatParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(System.Single));
-					r_MSetRayTracingFloatParam_RayTracingShader_String_Single.SetBelong(this.instance);
+					r_MSetRayTracingFloatParam_RayTracingShader_String_Single.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingFloatParam_RayTracingShader_String_Single;
 			}
@@ -5377,7 +5377,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingFloatParam_RayTracingShader_Int32_Single == null)
 				{
 					r_MSetRayTracingFloatParam_RayTracingShader_Int32_Single = new(this, "SetRayTracingFloatParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(System.Single));
-					r_MSetRayTracingFloatParam_RayTracingShader_Int32_Single.SetBelong(this.instance);
+					r_MSetRayTracingFloatParam_RayTracingShader_Int32_Single.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingFloatParam_RayTracingShader_Int32_Single;
 			}
@@ -5394,7 +5394,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingFloatParams_RayTracingShader_String_SingleArray == null)
 				{
 					r_MSetRayTracingFloatParams_RayTracingShader_String_SingleArray = new(this, "SetRayTracingFloatParams", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(System.Single).MakeArrayType());
-					r_MSetRayTracingFloatParams_RayTracingShader_String_SingleArray.SetBelong(this.instance);
+					r_MSetRayTracingFloatParams_RayTracingShader_String_SingleArray.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingFloatParams_RayTracingShader_String_SingleArray;
 			}
@@ -5411,7 +5411,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingFloatParams_RayTracingShader_Int32_SingleArray == null)
 				{
 					r_MSetRayTracingFloatParams_RayTracingShader_Int32_SingleArray = new(this, "SetRayTracingFloatParams", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(System.Single).MakeArrayType());
-					r_MSetRayTracingFloatParams_RayTracingShader_Int32_SingleArray.SetBelong(this.instance);
+					r_MSetRayTracingFloatParams_RayTracingShader_Int32_SingleArray.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingFloatParams_RayTracingShader_Int32_SingleArray;
 			}
@@ -5428,7 +5428,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingIntParam_RayTracingShader_String_Int32 == null)
 				{
 					r_MSetRayTracingIntParam_RayTracingShader_String_Int32 = new(this, "SetRayTracingIntParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(System.Int32));
-					r_MSetRayTracingIntParam_RayTracingShader_String_Int32.SetBelong(this.instance);
+					r_MSetRayTracingIntParam_RayTracingShader_String_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingIntParam_RayTracingShader_String_Int32;
 			}
@@ -5445,7 +5445,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingIntParam_RayTracingShader_Int32_Int32 == null)
 				{
 					r_MSetRayTracingIntParam_RayTracingShader_Int32_Int32 = new(this, "SetRayTracingIntParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(System.Int32));
-					r_MSetRayTracingIntParam_RayTracingShader_Int32_Int32.SetBelong(this.instance);
+					r_MSetRayTracingIntParam_RayTracingShader_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingIntParam_RayTracingShader_Int32_Int32;
 			}
@@ -5462,7 +5462,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingIntParams_RayTracingShader_String_Int32Array == null)
 				{
 					r_MSetRayTracingIntParams_RayTracingShader_String_Int32Array = new(this, "SetRayTracingIntParams", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(System.Int32).MakeArrayType());
-					r_MSetRayTracingIntParams_RayTracingShader_String_Int32Array.SetBelong(this.instance);
+					r_MSetRayTracingIntParams_RayTracingShader_String_Int32Array.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingIntParams_RayTracingShader_String_Int32Array;
 			}
@@ -5479,7 +5479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingIntParams_RayTracingShader_Int32_Int32Array == null)
 				{
 					r_MSetRayTracingIntParams_RayTracingShader_Int32_Int32Array = new(this, "SetRayTracingIntParams", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(System.Int32).MakeArrayType());
-					r_MSetRayTracingIntParams_RayTracingShader_Int32_Int32Array.SetBelong(this.instance);
+					r_MSetRayTracingIntParams_RayTracingShader_Int32_Int32Array.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingIntParams_RayTracingShader_Int32_Int32Array;
 			}
@@ -5496,7 +5496,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingVectorParam_RayTracingShader_String_Vector4 == null)
 				{
 					r_MSetRayTracingVectorParam_RayTracingShader_String_Vector4 = new(this, "SetRayTracingVectorParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(UnityEngine.Vector4));
-					r_MSetRayTracingVectorParam_RayTracingShader_String_Vector4.SetBelong(this.instance);
+					r_MSetRayTracingVectorParam_RayTracingShader_String_Vector4.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingVectorParam_RayTracingShader_String_Vector4;
 			}
@@ -5513,7 +5513,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingVectorParam_RayTracingShader_Int32_Vector4 == null)
 				{
 					r_MSetRayTracingVectorParam_RayTracingShader_Int32_Vector4 = new(this, "SetRayTracingVectorParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.Vector4));
-					r_MSetRayTracingVectorParam_RayTracingShader_Int32_Vector4.SetBelong(this.instance);
+					r_MSetRayTracingVectorParam_RayTracingShader_Int32_Vector4.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingVectorParam_RayTracingShader_Int32_Vector4;
 			}
@@ -5530,7 +5530,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingVectorArrayParam_RayTracingShader_String_Vector4Array == null)
 				{
 					r_MSetRayTracingVectorArrayParam_RayTracingShader_String_Vector4Array = new(this, "SetRayTracingVectorArrayParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(UnityEngine.Vector4).MakeArrayType());
-					r_MSetRayTracingVectorArrayParam_RayTracingShader_String_Vector4Array.SetBelong(this.instance);
+					r_MSetRayTracingVectorArrayParam_RayTracingShader_String_Vector4Array.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingVectorArrayParam_RayTracingShader_String_Vector4Array;
 			}
@@ -5547,7 +5547,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingVectorArrayParam_RayTracingShader_Int32_Vector4Array == null)
 				{
 					r_MSetRayTracingVectorArrayParam_RayTracingShader_Int32_Vector4Array = new(this, "SetRayTracingVectorArrayParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.Vector4).MakeArrayType());
-					r_MSetRayTracingVectorArrayParam_RayTracingShader_Int32_Vector4Array.SetBelong(this.instance);
+					r_MSetRayTracingVectorArrayParam_RayTracingShader_Int32_Vector4Array.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingVectorArrayParam_RayTracingShader_Int32_Vector4Array;
 			}
@@ -5564,7 +5564,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingMatrixParam_RayTracingShader_String_Matrix4x4 == null)
 				{
 					r_MSetRayTracingMatrixParam_RayTracingShader_String_Matrix4x4 = new(this, "SetRayTracingMatrixParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(UnityEngine.Matrix4x4));
-					r_MSetRayTracingMatrixParam_RayTracingShader_String_Matrix4x4.SetBelong(this.instance);
+					r_MSetRayTracingMatrixParam_RayTracingShader_String_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingMatrixParam_RayTracingShader_String_Matrix4x4;
 			}
@@ -5581,7 +5581,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingMatrixParam_RayTracingShader_Int32_Matrix4x4 == null)
 				{
 					r_MSetRayTracingMatrixParam_RayTracingShader_Int32_Matrix4x4 = new(this, "SetRayTracingMatrixParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.Matrix4x4));
-					r_MSetRayTracingMatrixParam_RayTracingShader_Int32_Matrix4x4.SetBelong(this.instance);
+					r_MSetRayTracingMatrixParam_RayTracingShader_Int32_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingMatrixParam_RayTracingShader_Int32_Matrix4x4;
 			}
@@ -5598,7 +5598,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingMatrixArrayParam_RayTracingShader_String_Matrix4x4Array == null)
 				{
 					r_MSetRayTracingMatrixArrayParam_RayTracingShader_String_Matrix4x4Array = new(this, "SetRayTracingMatrixArrayParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(UnityEngine.Matrix4x4).MakeArrayType());
-					r_MSetRayTracingMatrixArrayParam_RayTracingShader_String_Matrix4x4Array.SetBelong(this.instance);
+					r_MSetRayTracingMatrixArrayParam_RayTracingShader_String_Matrix4x4Array.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingMatrixArrayParam_RayTracingShader_String_Matrix4x4Array;
 			}
@@ -5615,7 +5615,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRayTracingMatrixArrayParam_RayTracingShader_Int32_Matrix4x4Array == null)
 				{
 					r_MSetRayTracingMatrixArrayParam_RayTracingShader_Int32_Matrix4x4Array = new(this, "SetRayTracingMatrixArrayParam", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeArrayType());
-					r_MSetRayTracingMatrixArrayParam_RayTracingShader_Int32_Matrix4x4Array.SetBelong(this.instance);
+					r_MSetRayTracingMatrixArrayParam_RayTracingShader_Int32_Matrix4x4Array.SetBelong(this.GetValue());
 				}
 				return r_MSetRayTracingMatrixArrayParam_RayTracingShader_Int32_Matrix4x4Array;
 			}
@@ -5632,7 +5632,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDispatchRays_RayTracingShader_String_UInt32_UInt32_UInt32_Camera == null)
 				{
 					r_MDispatchRays_RayTracingShader_String_UInt32_UInt32_UInt32_Camera = new(this, "DispatchRays", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.String), typeof(System.UInt32), typeof(System.UInt32), typeof(System.UInt32), typeof(UnityEngine.Camera));
-					r_MDispatchRays_RayTracingShader_String_UInt32_UInt32_UInt32_Camera.SetBelong(this.instance);
+					r_MDispatchRays_RayTracingShader_String_UInt32_UInt32_UInt32_Camera.SetBelong(this.GetValue());
 				}
 				return r_MDispatchRays_RayTracingShader_String_UInt32_UInt32_UInt32_Camera;
 			}
@@ -5649,7 +5649,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGenerateMips_RenderTargetIdentifier == null)
 				{
 					r_MGenerateMips_RenderTargetIdentifier = new(this, "GenerateMips", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MGenerateMips_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MGenerateMips_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MGenerateMips_RenderTargetIdentifier;
 			}
@@ -5666,7 +5666,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGenerateMips_RenderTexture == null)
 				{
 					r_MGenerateMips_RenderTexture = new(this, "GenerateMips", 0, typeof(UnityEngine.RenderTexture));
-					r_MGenerateMips_RenderTexture.SetBelong(this.instance);
+					r_MGenerateMips_RenderTexture.SetBelong(this.GetValue());
 				}
 				return r_MGenerateMips_RenderTexture;
 			}
@@ -5683,7 +5683,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MResolveAntiAliasedSurface_RenderTexture_RenderTexture == null)
 				{
 					r_MResolveAntiAliasedSurface_RenderTexture_RenderTexture = new(this, "ResolveAntiAliasedSurface", 0, typeof(UnityEngine.RenderTexture), typeof(UnityEngine.RenderTexture));
-					r_MResolveAntiAliasedSurface_RenderTexture_RenderTexture.SetBelong(this.instance);
+					r_MResolveAntiAliasedSurface_RenderTexture_RenderTexture.SetBelong(this.GetValue());
 				}
 				return r_MResolveAntiAliasedSurface_RenderTexture_RenderTexture;
 			}
@@ -5700,7 +5700,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawMesh_Mesh_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock == null)
 				{
 					r_MDrawMesh_Mesh_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock = new(this, "DrawMesh", 0, typeof(UnityEngine.Mesh), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MDrawMesh_Mesh_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MDrawMesh_Mesh_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MDrawMesh_Mesh_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock;
 			}
@@ -5717,7 +5717,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawMesh_Mesh_Matrix4x4_Material_Int32_Int32 == null)
 				{
 					r_MDrawMesh_Mesh_Matrix4x4_Material_Int32_Int32 = new(this, "DrawMesh", 0, typeof(UnityEngine.Mesh), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(System.Int32));
-					r_MDrawMesh_Mesh_Matrix4x4_Material_Int32_Int32.SetBelong(this.instance);
+					r_MDrawMesh_Mesh_Matrix4x4_Material_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawMesh_Mesh_Matrix4x4_Material_Int32_Int32;
 			}
@@ -5734,7 +5734,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawMesh_Mesh_Matrix4x4_Material_Int32 == null)
 				{
 					r_MDrawMesh_Mesh_Matrix4x4_Material_Int32 = new(this, "DrawMesh", 0, typeof(UnityEngine.Mesh), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32));
-					r_MDrawMesh_Mesh_Matrix4x4_Material_Int32.SetBelong(this.instance);
+					r_MDrawMesh_Mesh_Matrix4x4_Material_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawMesh_Mesh_Matrix4x4_Material_Int32;
 			}
@@ -5751,7 +5751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawMesh_Mesh_Matrix4x4_Material == null)
 				{
 					r_MDrawMesh_Mesh_Matrix4x4_Material = new(this, "DrawMesh", 0, typeof(UnityEngine.Mesh), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material));
-					r_MDrawMesh_Mesh_Matrix4x4_Material.SetBelong(this.instance);
+					r_MDrawMesh_Mesh_Matrix4x4_Material.SetBelong(this.GetValue());
 				}
 				return r_MDrawMesh_Mesh_Matrix4x4_Material;
 			}
@@ -5768,7 +5768,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawRenderer_Renderer_Material_Int32_Int32 == null)
 				{
 					r_MDrawRenderer_Renderer_Material_Int32_Int32 = new(this, "DrawRenderer", 0, typeof(UnityEngine.Renderer), typeof(UnityEngine.Material), typeof(System.Int32), typeof(System.Int32));
-					r_MDrawRenderer_Renderer_Material_Int32_Int32.SetBelong(this.instance);
+					r_MDrawRenderer_Renderer_Material_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawRenderer_Renderer_Material_Int32_Int32;
 			}
@@ -5785,7 +5785,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawRenderer_Renderer_Material_Int32 == null)
 				{
 					r_MDrawRenderer_Renderer_Material_Int32 = new(this, "DrawRenderer", 0, typeof(UnityEngine.Renderer), typeof(UnityEngine.Material), typeof(System.Int32));
-					r_MDrawRenderer_Renderer_Material_Int32.SetBelong(this.instance);
+					r_MDrawRenderer_Renderer_Material_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawRenderer_Renderer_Material_Int32;
 			}
@@ -5802,7 +5802,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawRenderer_Renderer_Material == null)
 				{
 					r_MDrawRenderer_Renderer_Material = new(this, "DrawRenderer", 0, typeof(UnityEngine.Renderer), typeof(UnityEngine.Material));
-					r_MDrawRenderer_Renderer_Material.SetBelong(this.instance);
+					r_MDrawRenderer_Renderer_Material.SetBelong(this.GetValue());
 				}
 				return r_MDrawRenderer_Renderer_Material;
 			}
@@ -5819,7 +5819,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawRendererList_RendererList == null)
 				{
 					r_MDrawRendererList_RendererList = new(this, "DrawRendererList", 0, typeof(UnityEngine.Rendering.RendererList));
-					r_MDrawRendererList_RendererList.SetBelong(this.instance);
+					r_MDrawRendererList_RendererList.SetBelong(this.GetValue());
 				}
 				return r_MDrawRendererList_RendererList;
 			}
@@ -5836,7 +5836,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock == null)
 				{
 					r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock = new(this, "DrawProcedural", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock;
 			}
@@ -5853,7 +5853,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32 == null)
 				{
 					r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32 = new(this, "DrawProcedural", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Int32));
-					r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32.SetBelong(this.instance);
+					r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32;
 			}
@@ -5870,7 +5870,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32 == null)
 				{
 					r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32 = new(this, "DrawProcedural", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32));
-					r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32.SetBelong(this.instance);
+					r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawProcedural_Matrix4x4_Material_Int32_MeshTopology_Int32;
 			}
@@ -5887,7 +5887,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock == null)
 				{
 					r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock = new(this, "DrawProcedural", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock;
 			}
@@ -5904,7 +5904,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32 == null)
 				{
 					r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32 = new(this, "DrawProcedural", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Int32));
-					r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32.SetBelong(this.instance);
+					r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32;
 			}
@@ -5921,7 +5921,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32 == null)
 				{
 					r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32 = new(this, "DrawProcedural", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32));
-					r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32.SetBelong(this.instance);
+					r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawProcedural_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_Int32;
 			}
@@ -5938,7 +5938,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock = new(this, "DrawProceduralIndirect", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -5955,7 +5955,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32 == null)
 				{
 					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32 = new(this, "DrawProceduralIndirect", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32));
-					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32.SetBelong(this.instance);
+					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32;
 			}
@@ -5972,7 +5972,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer == null)
 				{
 					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer = new(this, "DrawProceduralIndirect", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.ComputeBuffer));
-					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer.SetBelong(this.instance);
+					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer.SetBelong(this.GetValue());
 				}
 				return r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer;
 			}
@@ -5989,7 +5989,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock = new(this, "DrawProceduralIndirect", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -6006,7 +6006,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32 == null)
 				{
 					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32 = new(this, "DrawProceduralIndirect", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32));
-					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32.SetBelong(this.instance);
+					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32;
 			}
@@ -6023,7 +6023,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer == null)
 				{
 					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer = new(this, "DrawProceduralIndirect", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.ComputeBuffer));
-					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer.SetBelong(this.instance);
+					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer.SetBelong(this.GetValue());
 				}
 				return r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer;
 			}
@@ -6040,7 +6040,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock = new(this, "DrawProceduralIndirect", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -6057,7 +6057,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32 == null)
 				{
 					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32 = new(this, "DrawProceduralIndirect", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32));
-					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32.SetBelong(this.instance);
+					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32;
 			}
@@ -6074,7 +6074,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer == null)
 				{
 					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer = new(this, "DrawProceduralIndirect", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.GraphicsBuffer));
-					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer.SetBelong(this.instance);
+					r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer.SetBelong(this.GetValue());
 				}
 				return r_MDrawProceduralIndirect_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer;
 			}
@@ -6091,7 +6091,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock = new(this, "DrawProceduralIndirect", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -6108,7 +6108,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32 == null)
 				{
 					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32 = new(this, "DrawProceduralIndirect", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32));
-					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32.SetBelong(this.instance);
+					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32;
 			}
@@ -6125,7 +6125,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer == null)
 				{
 					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer = new(this, "DrawProceduralIndirect", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.GraphicsBuffer));
-					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer.SetBelong(this.instance);
+					r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer.SetBelong(this.GetValue());
 				}
 				return r_MDrawProceduralIndirect_GraphicsBuffer_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer;
 			}
@@ -6142,7 +6142,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32_MaterialPropertyBlock == null)
 				{
 					r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32_MaterialPropertyBlock = new(this, "DrawMeshInstanced", 0, typeof(UnityEngine.Mesh), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeArrayType(), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32_MaterialPropertyBlock;
 			}
@@ -6159,7 +6159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32 == null)
 				{
 					r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32 = new(this, "DrawMeshInstanced", 0, typeof(UnityEngine.Mesh), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeArrayType(), typeof(System.Int32));
-					r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32.SetBelong(this.instance);
+					r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array_Int32;
 			}
@@ -6176,7 +6176,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array == null)
 				{
 					r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array = new(this, "DrawMeshInstanced", 0, typeof(UnityEngine.Mesh), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeArrayType());
-					r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array.SetBelong(this.instance);
+					r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array.SetBelong(this.GetValue());
 				}
 				return r_MDrawMeshInstanced_Mesh_Int32_Material_Int32_Matrix4x4Array;
 			}
@@ -6193,7 +6193,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawMeshInstancedProcedural_Mesh_Int32_Material_Int32_Int32_MaterialPropertyBlock == null)
 				{
 					r_MDrawMeshInstancedProcedural_Mesh_Int32_Material_Int32_Int32_MaterialPropertyBlock = new(this, "DrawMeshInstancedProcedural", 0, typeof(UnityEngine.Mesh), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MDrawMeshInstancedProcedural_Mesh_Int32_Material_Int32_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MDrawMeshInstancedProcedural_Mesh_Int32_Material_Int32_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MDrawMeshInstancedProcedural_Mesh_Int32_Material_Int32_Int32_MaterialPropertyBlock;
 			}
@@ -6210,7 +6210,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32_MaterialPropertyBlock = new(this, "DrawMeshInstancedIndirect", 0, typeof(UnityEngine.Mesh), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -6227,7 +6227,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32 == null)
 				{
 					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32 = new(this, "DrawMeshInstancedIndirect", 0, typeof(UnityEngine.Mesh), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32));
-					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32.SetBelong(this.instance);
+					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer_Int32;
 			}
@@ -6244,7 +6244,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer == null)
 				{
 					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer = new(this, "DrawMeshInstancedIndirect", 0, typeof(UnityEngine.Mesh), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.ComputeBuffer));
-					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer.SetBelong(this.instance);
+					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer.SetBelong(this.GetValue());
 				}
 				return r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_ComputeBuffer;
 			}
@@ -6261,7 +6261,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32_MaterialPropertyBlock = new(this, "DrawMeshInstancedIndirect", 0, typeof(UnityEngine.Mesh), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -6278,7 +6278,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32 == null)
 				{
 					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32 = new(this, "DrawMeshInstancedIndirect", 0, typeof(UnityEngine.Mesh), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32));
-					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32.SetBelong(this.instance);
+					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer_Int32;
 			}
@@ -6295,7 +6295,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer == null)
 				{
 					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer = new(this, "DrawMeshInstancedIndirect", 0, typeof(UnityEngine.Mesh), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer));
-					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer.SetBelong(this.instance);
+					r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer.SetBelong(this.GetValue());
 				}
 				return r_MDrawMeshInstancedIndirect_Mesh_Int32_Material_Int32_GraphicsBuffer;
 			}
@@ -6312,7 +6312,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDrawOcclusionMesh_RectInt == null)
 				{
 					r_MDrawOcclusionMesh_RectInt = new(this, "DrawOcclusionMesh", 0, typeof(UnityEngine.RectInt));
-					r_MDrawOcclusionMesh_RectInt.SetBelong(this.instance);
+					r_MDrawOcclusionMesh_RectInt.SetBelong(this.GetValue());
 				}
 				return r_MDrawOcclusionMesh_RectInt;
 			}
@@ -6329,7 +6329,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRandomWriteTarget_Int32_RenderTargetIdentifier == null)
 				{
 					r_MSetRandomWriteTarget_Int32_RenderTargetIdentifier = new(this, "SetRandomWriteTarget", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MSetRandomWriteTarget_Int32_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MSetRandomWriteTarget_Int32_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MSetRandomWriteTarget_Int32_RenderTargetIdentifier;
 			}
@@ -6346,7 +6346,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRandomWriteTarget_Int32_ComputeBuffer_Boolean == null)
 				{
 					r_MSetRandomWriteTarget_Int32_ComputeBuffer_Boolean = new(this, "SetRandomWriteTarget", 0, typeof(System.Int32), typeof(UnityEngine.ComputeBuffer), typeof(System.Boolean));
-					r_MSetRandomWriteTarget_Int32_ComputeBuffer_Boolean.SetBelong(this.instance);
+					r_MSetRandomWriteTarget_Int32_ComputeBuffer_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetRandomWriteTarget_Int32_ComputeBuffer_Boolean;
 			}
@@ -6363,7 +6363,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRandomWriteTarget_Int32_ComputeBuffer == null)
 				{
 					r_MSetRandomWriteTarget_Int32_ComputeBuffer = new(this, "SetRandomWriteTarget", 0, typeof(System.Int32), typeof(UnityEngine.ComputeBuffer));
-					r_MSetRandomWriteTarget_Int32_ComputeBuffer.SetBelong(this.instance);
+					r_MSetRandomWriteTarget_Int32_ComputeBuffer.SetBelong(this.GetValue());
 				}
 				return r_MSetRandomWriteTarget_Int32_ComputeBuffer;
 			}
@@ -6380,7 +6380,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRandomWriteTarget_Int32_GraphicsBuffer_Boolean == null)
 				{
 					r_MSetRandomWriteTarget_Int32_GraphicsBuffer_Boolean = new(this, "SetRandomWriteTarget", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.Boolean));
-					r_MSetRandomWriteTarget_Int32_GraphicsBuffer_Boolean.SetBelong(this.instance);
+					r_MSetRandomWriteTarget_Int32_GraphicsBuffer_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetRandomWriteTarget_Int32_GraphicsBuffer_Boolean;
 			}
@@ -6397,7 +6397,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRandomWriteTarget_Int32_GraphicsBuffer == null)
 				{
 					r_MSetRandomWriteTarget_Int32_GraphicsBuffer = new(this, "SetRandomWriteTarget", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer));
-					r_MSetRandomWriteTarget_Int32_GraphicsBuffer.SetBelong(this.instance);
+					r_MSetRandomWriteTarget_Int32_GraphicsBuffer.SetBelong(this.GetValue());
 				}
 				return r_MSetRandomWriteTarget_Int32_GraphicsBuffer;
 			}
@@ -6414,7 +6414,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyCounterValue_ComputeBuffer_ComputeBuffer_UInt32 == null)
 				{
 					r_MCopyCounterValue_ComputeBuffer_ComputeBuffer_UInt32 = new(this, "CopyCounterValue", 0, typeof(UnityEngine.ComputeBuffer), typeof(UnityEngine.ComputeBuffer), typeof(System.UInt32));
-					r_MCopyCounterValue_ComputeBuffer_ComputeBuffer_UInt32.SetBelong(this.instance);
+					r_MCopyCounterValue_ComputeBuffer_ComputeBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MCopyCounterValue_ComputeBuffer_ComputeBuffer_UInt32;
 			}
@@ -6431,7 +6431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyCounterValue_GraphicsBuffer_ComputeBuffer_UInt32 == null)
 				{
 					r_MCopyCounterValue_GraphicsBuffer_ComputeBuffer_UInt32 = new(this, "CopyCounterValue", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.ComputeBuffer), typeof(System.UInt32));
-					r_MCopyCounterValue_GraphicsBuffer_ComputeBuffer_UInt32.SetBelong(this.instance);
+					r_MCopyCounterValue_GraphicsBuffer_ComputeBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MCopyCounterValue_GraphicsBuffer_ComputeBuffer_UInt32;
 			}
@@ -6448,7 +6448,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyCounterValue_ComputeBuffer_GraphicsBuffer_UInt32 == null)
 				{
 					r_MCopyCounterValue_ComputeBuffer_GraphicsBuffer_UInt32 = new(this, "CopyCounterValue", 0, typeof(UnityEngine.ComputeBuffer), typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32));
-					r_MCopyCounterValue_ComputeBuffer_GraphicsBuffer_UInt32.SetBelong(this.instance);
+					r_MCopyCounterValue_ComputeBuffer_GraphicsBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MCopyCounterValue_ComputeBuffer_GraphicsBuffer_UInt32;
 			}
@@ -6465,7 +6465,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyCounterValue_GraphicsBuffer_GraphicsBuffer_UInt32 == null)
 				{
 					r_MCopyCounterValue_GraphicsBuffer_GraphicsBuffer_UInt32 = new(this, "CopyCounterValue", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32));
-					r_MCopyCounterValue_GraphicsBuffer_GraphicsBuffer_UInt32.SetBelong(this.instance);
+					r_MCopyCounterValue_GraphicsBuffer_GraphicsBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MCopyCounterValue_GraphicsBuffer_GraphicsBuffer_UInt32;
 			}
@@ -6482,7 +6482,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyTexture_RenderTargetIdentifier_RenderTargetIdentifier == null)
 				{
 					r_MCopyTexture_RenderTargetIdentifier_RenderTargetIdentifier = new(this, "CopyTexture", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MCopyTexture_RenderTargetIdentifier_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MCopyTexture_RenderTargetIdentifier_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MCopyTexture_RenderTargetIdentifier_RenderTargetIdentifier;
 			}
@@ -6499,7 +6499,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyTexture_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32 == null)
 				{
 					r_MCopyTexture_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32 = new(this, "CopyTexture", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32));
-					r_MCopyTexture_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32.SetBelong(this.instance);
+					r_MCopyTexture_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32.SetBelong(this.GetValue());
 				}
 				return r_MCopyTexture_RenderTargetIdentifier_Int32_RenderTargetIdentifier_Int32;
 			}
@@ -6516,7 +6516,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyTexture_RenderTargetIdentifier_Int32_Int32_RenderTargetIdentifier_Int32_Int32 == null)
 				{
 					r_MCopyTexture_RenderTargetIdentifier_Int32_Int32_RenderTargetIdentifier_Int32_Int32 = new(this, "CopyTexture", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(System.Int32));
-					r_MCopyTexture_RenderTargetIdentifier_Int32_Int32_RenderTargetIdentifier_Int32_Int32.SetBelong(this.instance);
+					r_MCopyTexture_RenderTargetIdentifier_Int32_Int32_RenderTargetIdentifier_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MCopyTexture_RenderTargetIdentifier_Int32_Int32_RenderTargetIdentifier_Int32_Int32;
 			}
@@ -6533,7 +6533,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyTexture_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_RenderTargetIdentifier_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MCopyTexture_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_RenderTargetIdentifier_Int32_Int32_Int32_Int32 = new(this, "CopyTexture", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MCopyTexture_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_RenderTargetIdentifier_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MCopyTexture_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_RenderTargetIdentifier_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MCopyTexture_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_RenderTargetIdentifier_Int32_Int32_Int32_Int32;
 			}
@@ -6550,7 +6550,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_Texture_RenderTargetIdentifier == null)
 				{
 					r_MBlit_Texture_RenderTargetIdentifier = new(this, "Blit", 0, typeof(UnityEngine.Texture), typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MBlit_Texture_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MBlit_Texture_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MBlit_Texture_RenderTargetIdentifier;
 			}
@@ -6567,7 +6567,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_Texture_RenderTargetIdentifier_Vector2_Vector2 == null)
 				{
 					r_MBlit_Texture_RenderTargetIdentifier_Vector2_Vector2 = new(this, "Blit", 0, typeof(UnityEngine.Texture), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2));
-					r_MBlit_Texture_RenderTargetIdentifier_Vector2_Vector2.SetBelong(this.instance);
+					r_MBlit_Texture_RenderTargetIdentifier_Vector2_Vector2.SetBelong(this.GetValue());
 				}
 				return r_MBlit_Texture_RenderTargetIdentifier_Vector2_Vector2;
 			}
@@ -6584,7 +6584,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_Texture_RenderTargetIdentifier_Material == null)
 				{
 					r_MBlit_Texture_RenderTargetIdentifier_Material = new(this, "Blit", 0, typeof(UnityEngine.Texture), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Material));
-					r_MBlit_Texture_RenderTargetIdentifier_Material.SetBelong(this.instance);
+					r_MBlit_Texture_RenderTargetIdentifier_Material.SetBelong(this.GetValue());
 				}
 				return r_MBlit_Texture_RenderTargetIdentifier_Material;
 			}
@@ -6601,7 +6601,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_Texture_RenderTargetIdentifier_Material_Int32 == null)
 				{
 					r_MBlit_Texture_RenderTargetIdentifier_Material_Int32 = new(this, "Blit", 0, typeof(UnityEngine.Texture), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Material), typeof(System.Int32));
-					r_MBlit_Texture_RenderTargetIdentifier_Material_Int32.SetBelong(this.instance);
+					r_MBlit_Texture_RenderTargetIdentifier_Material_Int32.SetBelong(this.GetValue());
 				}
 				return r_MBlit_Texture_RenderTargetIdentifier_Material_Int32;
 			}
@@ -6618,7 +6618,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier == null)
 				{
 					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier = new(this, "Blit", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier;
 			}
@@ -6635,7 +6635,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Vector2_Vector2 == null)
 				{
 					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Vector2_Vector2 = new(this, "Blit", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2));
-					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Vector2_Vector2.SetBelong(this.instance);
+					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Vector2_Vector2.SetBelong(this.GetValue());
 				}
 				return r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Vector2_Vector2;
 			}
@@ -6652,7 +6652,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material == null)
 				{
 					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material = new(this, "Blit", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Material));
-					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material.SetBelong(this.instance);
+					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material.SetBelong(this.GetValue());
 				}
 				return r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material;
 			}
@@ -6669,7 +6669,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material_Int32 == null)
 				{
 					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material_Int32 = new(this, "Blit", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Material), typeof(System.Int32));
-					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material_Int32.SetBelong(this.instance);
+					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material_Int32.SetBelong(this.GetValue());
 				}
 				return r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material_Int32;
 			}
@@ -6686,7 +6686,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Int32_Int32 == null)
 				{
 					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Int32_Int32 = new(this, "Blit", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.Int32), typeof(System.Int32));
-					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Int32_Int32.SetBelong(this.instance);
+					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Int32_Int32;
 			}
@@ -6703,7 +6703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Vector2_Vector2_Int32_Int32 == null)
 				{
 					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Vector2_Vector2_Int32_Int32 = new(this, "Blit", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2), typeof(System.Int32), typeof(System.Int32));
-					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Vector2_Vector2_Int32_Int32.SetBelong(this.instance);
+					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Vector2_Vector2_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Vector2_Vector2_Int32_Int32;
 			}
@@ -6720,7 +6720,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material_Int32_Int32 == null)
 				{
 					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material_Int32_Int32 = new(this, "Blit", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Material), typeof(System.Int32), typeof(System.Int32));
-					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material_Int32_Int32.SetBelong(this.instance);
+					r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MBlit_RenderTargetIdentifier_RenderTargetIdentifier_Material_Int32_Int32;
 			}
@@ -6737,7 +6737,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalFloat_String_Single == null)
 				{
 					r_MSetGlobalFloat_String_Single = new(this, "SetGlobalFloat", 0, typeof(System.String), typeof(System.Single));
-					r_MSetGlobalFloat_String_Single.SetBelong(this.instance);
+					r_MSetGlobalFloat_String_Single.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalFloat_String_Single;
 			}
@@ -6754,7 +6754,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalInt_String_Int32 == null)
 				{
 					r_MSetGlobalInt_String_Int32 = new(this, "SetGlobalInt", 0, typeof(System.String), typeof(System.Int32));
-					r_MSetGlobalInt_String_Int32.SetBelong(this.instance);
+					r_MSetGlobalInt_String_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalInt_String_Int32;
 			}
@@ -6771,7 +6771,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalInteger_String_Int32 == null)
 				{
 					r_MSetGlobalInteger_String_Int32 = new(this, "SetGlobalInteger", 0, typeof(System.String), typeof(System.Int32));
-					r_MSetGlobalInteger_String_Int32.SetBelong(this.instance);
+					r_MSetGlobalInteger_String_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalInteger_String_Int32;
 			}
@@ -6788,7 +6788,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalVector_String_Vector4 == null)
 				{
 					r_MSetGlobalVector_String_Vector4 = new(this, "SetGlobalVector", 0, typeof(System.String), typeof(UnityEngine.Vector4));
-					r_MSetGlobalVector_String_Vector4.SetBelong(this.instance);
+					r_MSetGlobalVector_String_Vector4.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalVector_String_Vector4;
 			}
@@ -6805,7 +6805,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalColor_String_Color == null)
 				{
 					r_MSetGlobalColor_String_Color = new(this, "SetGlobalColor", 0, typeof(System.String), typeof(UnityEngine.Color));
-					r_MSetGlobalColor_String_Color.SetBelong(this.instance);
+					r_MSetGlobalColor_String_Color.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalColor_String_Color;
 			}
@@ -6822,7 +6822,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalMatrix_String_Matrix4x4 == null)
 				{
 					r_MSetGlobalMatrix_String_Matrix4x4 = new(this, "SetGlobalMatrix", 0, typeof(System.String), typeof(UnityEngine.Matrix4x4));
-					r_MSetGlobalMatrix_String_Matrix4x4.SetBelong(this.instance);
+					r_MSetGlobalMatrix_String_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalMatrix_String_Matrix4x4;
 			}
@@ -6839,7 +6839,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalFloatArray_String_List_d_Single_p_ == null)
 				{
 					r_MSetGlobalFloatArray_String_List_d_Single_p_ = new(this, "SetGlobalFloatArray", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Single)));
-					r_MSetGlobalFloatArray_String_List_d_Single_p_.SetBelong(this.instance);
+					r_MSetGlobalFloatArray_String_List_d_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalFloatArray_String_List_d_Single_p_;
 			}
@@ -6856,7 +6856,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalFloatArray_Int32_List_d_Single_p_ == null)
 				{
 					r_MSetGlobalFloatArray_Int32_List_d_Single_p_ = new(this, "SetGlobalFloatArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Single)));
-					r_MSetGlobalFloatArray_Int32_List_d_Single_p_.SetBelong(this.instance);
+					r_MSetGlobalFloatArray_Int32_List_d_Single_p_.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalFloatArray_Int32_List_d_Single_p_;
 			}
@@ -6873,7 +6873,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalFloatArray_String_SingleArray == null)
 				{
 					r_MSetGlobalFloatArray_String_SingleArray = new(this, "SetGlobalFloatArray", 0, typeof(System.String), typeof(System.Single).MakeArrayType());
-					r_MSetGlobalFloatArray_String_SingleArray.SetBelong(this.instance);
+					r_MSetGlobalFloatArray_String_SingleArray.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalFloatArray_String_SingleArray;
 			}
@@ -6890,7 +6890,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalVectorArray_String_List_d_Vector4_p_ == null)
 				{
 					r_MSetGlobalVectorArray_String_List_d_Vector4_p_ = new(this, "SetGlobalVectorArray", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
-					r_MSetGlobalVectorArray_String_List_d_Vector4_p_.SetBelong(this.instance);
+					r_MSetGlobalVectorArray_String_List_d_Vector4_p_.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalVectorArray_String_List_d_Vector4_p_;
 			}
@@ -6907,7 +6907,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalVectorArray_Int32_List_d_Vector4_p_ == null)
 				{
 					r_MSetGlobalVectorArray_Int32_List_d_Vector4_p_ = new(this, "SetGlobalVectorArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
-					r_MSetGlobalVectorArray_Int32_List_d_Vector4_p_.SetBelong(this.instance);
+					r_MSetGlobalVectorArray_Int32_List_d_Vector4_p_.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalVectorArray_Int32_List_d_Vector4_p_;
 			}
@@ -6924,7 +6924,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalVectorArray_String_Vector4Array == null)
 				{
 					r_MSetGlobalVectorArray_String_Vector4Array = new(this, "SetGlobalVectorArray", 0, typeof(System.String), typeof(UnityEngine.Vector4).MakeArrayType());
-					r_MSetGlobalVectorArray_String_Vector4Array.SetBelong(this.instance);
+					r_MSetGlobalVectorArray_String_Vector4Array.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalVectorArray_String_Vector4Array;
 			}
@@ -6941,7 +6941,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalMatrixArray_String_List_d_Matrix4x4_p_ == null)
 				{
 					r_MSetGlobalMatrixArray_String_List_d_Matrix4x4_p_ = new(this, "SetGlobalMatrixArray", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Matrix4x4)));
-					r_MSetGlobalMatrixArray_String_List_d_Matrix4x4_p_.SetBelong(this.instance);
+					r_MSetGlobalMatrixArray_String_List_d_Matrix4x4_p_.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalMatrixArray_String_List_d_Matrix4x4_p_;
 			}
@@ -6958,7 +6958,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalMatrixArray_Int32_List_d_Matrix4x4_p_ == null)
 				{
 					r_MSetGlobalMatrixArray_Int32_List_d_Matrix4x4_p_ = new(this, "SetGlobalMatrixArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Matrix4x4)));
-					r_MSetGlobalMatrixArray_Int32_List_d_Matrix4x4_p_.SetBelong(this.instance);
+					r_MSetGlobalMatrixArray_Int32_List_d_Matrix4x4_p_.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalMatrixArray_Int32_List_d_Matrix4x4_p_;
 			}
@@ -6975,7 +6975,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalMatrixArray_String_Matrix4x4Array == null)
 				{
 					r_MSetGlobalMatrixArray_String_Matrix4x4Array = new(this, "SetGlobalMatrixArray", 0, typeof(System.String), typeof(UnityEngine.Matrix4x4).MakeArrayType());
-					r_MSetGlobalMatrixArray_String_Matrix4x4Array.SetBelong(this.instance);
+					r_MSetGlobalMatrixArray_String_Matrix4x4Array.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalMatrixArray_String_Matrix4x4Array;
 			}
@@ -6992,7 +6992,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalTexture_String_RenderTargetIdentifier == null)
 				{
 					r_MSetGlobalTexture_String_RenderTargetIdentifier = new(this, "SetGlobalTexture", 0, typeof(System.String), typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MSetGlobalTexture_String_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MSetGlobalTexture_String_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalTexture_String_RenderTargetIdentifier;
 			}
@@ -7009,7 +7009,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalTexture_Int32_RenderTargetIdentifier == null)
 				{
 					r_MSetGlobalTexture_Int32_RenderTargetIdentifier = new(this, "SetGlobalTexture", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier));
-					r_MSetGlobalTexture_Int32_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MSetGlobalTexture_Int32_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalTexture_Int32_RenderTargetIdentifier;
 			}
@@ -7026,7 +7026,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalTexture_String_RenderTargetIdentifier_RenderTextureSubElement == null)
 				{
 					r_MSetGlobalTexture_String_RenderTargetIdentifier_RenderTextureSubElement = new(this, "SetGlobalTexture", 0, typeof(System.String), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTextureSubElement));
-					r_MSetGlobalTexture_String_RenderTargetIdentifier_RenderTextureSubElement.SetBelong(this.instance);
+					r_MSetGlobalTexture_String_RenderTargetIdentifier_RenderTextureSubElement.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalTexture_String_RenderTargetIdentifier_RenderTextureSubElement;
 			}
@@ -7043,7 +7043,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalTexture_Int32_RenderTargetIdentifier_RenderTextureSubElement == null)
 				{
 					r_MSetGlobalTexture_Int32_RenderTargetIdentifier_RenderTextureSubElement = new(this, "SetGlobalTexture", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTextureSubElement));
-					r_MSetGlobalTexture_Int32_RenderTargetIdentifier_RenderTextureSubElement.SetBelong(this.instance);
+					r_MSetGlobalTexture_Int32_RenderTargetIdentifier_RenderTextureSubElement.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalTexture_Int32_RenderTargetIdentifier_RenderTextureSubElement;
 			}
@@ -7060,7 +7060,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalBuffer_String_ComputeBuffer == null)
 				{
 					r_MSetGlobalBuffer_String_ComputeBuffer = new(this, "SetGlobalBuffer", 0, typeof(System.String), typeof(UnityEngine.ComputeBuffer));
-					r_MSetGlobalBuffer_String_ComputeBuffer.SetBelong(this.instance);
+					r_MSetGlobalBuffer_String_ComputeBuffer.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalBuffer_String_ComputeBuffer;
 			}
@@ -7077,7 +7077,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalBuffer_Int32_ComputeBuffer == null)
 				{
 					r_MSetGlobalBuffer_Int32_ComputeBuffer = new(this, "SetGlobalBuffer", 0, typeof(System.Int32), typeof(UnityEngine.ComputeBuffer));
-					r_MSetGlobalBuffer_Int32_ComputeBuffer.SetBelong(this.instance);
+					r_MSetGlobalBuffer_Int32_ComputeBuffer.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalBuffer_Int32_ComputeBuffer;
 			}
@@ -7094,7 +7094,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalBuffer_String_GraphicsBuffer == null)
 				{
 					r_MSetGlobalBuffer_String_GraphicsBuffer = new(this, "SetGlobalBuffer", 0, typeof(System.String), typeof(UnityEngine.GraphicsBuffer));
-					r_MSetGlobalBuffer_String_GraphicsBuffer.SetBelong(this.instance);
+					r_MSetGlobalBuffer_String_GraphicsBuffer.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalBuffer_String_GraphicsBuffer;
 			}
@@ -7111,7 +7111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalBuffer_Int32_GraphicsBuffer == null)
 				{
 					r_MSetGlobalBuffer_Int32_GraphicsBuffer = new(this, "SetGlobalBuffer", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer));
-					r_MSetGlobalBuffer_Int32_GraphicsBuffer.SetBelong(this.instance);
+					r_MSetGlobalBuffer_Int32_GraphicsBuffer.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalBuffer_Int32_GraphicsBuffer;
 			}
@@ -7128,7 +7128,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalConstantBuffer_ComputeBuffer_Int32_Int32_Int32 == null)
 				{
 					r_MSetGlobalConstantBuffer_ComputeBuffer_Int32_Int32_Int32 = new(this, "SetGlobalConstantBuffer", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MSetGlobalConstantBuffer_ComputeBuffer_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MSetGlobalConstantBuffer_ComputeBuffer_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalConstantBuffer_ComputeBuffer_Int32_Int32_Int32;
 			}
@@ -7145,7 +7145,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalConstantBuffer_ComputeBuffer_String_Int32_Int32 == null)
 				{
 					r_MSetGlobalConstantBuffer_ComputeBuffer_String_Int32_Int32 = new(this, "SetGlobalConstantBuffer", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
-					r_MSetGlobalConstantBuffer_ComputeBuffer_String_Int32_Int32.SetBelong(this.instance);
+					r_MSetGlobalConstantBuffer_ComputeBuffer_String_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalConstantBuffer_ComputeBuffer_String_Int32_Int32;
 			}
@@ -7162,7 +7162,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalConstantBuffer_GraphicsBuffer_Int32_Int32_Int32 == null)
 				{
 					r_MSetGlobalConstantBuffer_GraphicsBuffer_Int32_Int32_Int32 = new(this, "SetGlobalConstantBuffer", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MSetGlobalConstantBuffer_GraphicsBuffer_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MSetGlobalConstantBuffer_GraphicsBuffer_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalConstantBuffer_GraphicsBuffer_Int32_Int32_Int32;
 			}
@@ -7179,7 +7179,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalConstantBuffer_GraphicsBuffer_String_Int32_Int32 == null)
 				{
 					r_MSetGlobalConstantBuffer_GraphicsBuffer_String_Int32_Int32 = new(this, "SetGlobalConstantBuffer", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
-					r_MSetGlobalConstantBuffer_GraphicsBuffer_String_Int32_Int32.SetBelong(this.instance);
+					r_MSetGlobalConstantBuffer_GraphicsBuffer_String_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalConstantBuffer_GraphicsBuffer_String_Int32_Int32;
 			}
@@ -7196,7 +7196,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetShadowSamplingMode_RenderTargetIdentifier_ShadowSamplingMode == null)
 				{
 					r_MSetShadowSamplingMode_RenderTargetIdentifier_ShadowSamplingMode = new(this, "SetShadowSamplingMode", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.ShadowSamplingMode));
-					r_MSetShadowSamplingMode_RenderTargetIdentifier_ShadowSamplingMode.SetBelong(this.instance);
+					r_MSetShadowSamplingMode_RenderTargetIdentifier_ShadowSamplingMode.SetBelong(this.GetValue());
 				}
 				return r_MSetShadowSamplingMode_RenderTargetIdentifier_ShadowSamplingMode;
 			}
@@ -7213,7 +7213,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetSinglePassStereo_SinglePassStereoMode == null)
 				{
 					r_MSetSinglePassStereo_SinglePassStereoMode = new(this, "SetSinglePassStereo", 0, typeof(UnityEngine.Rendering.SinglePassStereoMode));
-					r_MSetSinglePassStereo_SinglePassStereoMode.SetBelong(this.instance);
+					r_MSetSinglePassStereo_SinglePassStereoMode.SetBelong(this.GetValue());
 				}
 				return r_MSetSinglePassStereo_SinglePassStereoMode;
 			}
@@ -7230,7 +7230,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MIssuePluginEvent_IntPtr_Int32 == null)
 				{
 					r_MIssuePluginEvent_IntPtr_Int32 = new(this, "IssuePluginEvent", 0, typeof(System.IntPtr), typeof(System.Int32));
-					r_MIssuePluginEvent_IntPtr_Int32.SetBelong(this.instance);
+					r_MIssuePluginEvent_IntPtr_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIssuePluginEvent_IntPtr_Int32;
 			}
@@ -7247,7 +7247,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MIssuePluginEventAndData_IntPtr_Int32_IntPtr == null)
 				{
 					r_MIssuePluginEventAndData_IntPtr_Int32_IntPtr = new(this, "IssuePluginEventAndData", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr));
-					r_MIssuePluginEventAndData_IntPtr_Int32_IntPtr.SetBelong(this.instance);
+					r_MIssuePluginEventAndData_IntPtr_Int32_IntPtr.SetBelong(this.GetValue());
 				}
 				return r_MIssuePluginEventAndData_IntPtr_Int32_IntPtr;
 			}
@@ -7264,7 +7264,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MIssuePluginEventAndDataWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr == null)
 				{
 					r_MIssuePluginEventAndDataWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr = new(this, "IssuePluginEventAndDataWithFlags", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.Rendering.CustomMarkerCallbackFlags), typeof(System.IntPtr));
-					r_MIssuePluginEventAndDataWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr.SetBelong(this.instance);
+					r_MIssuePluginEventAndDataWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr.SetBelong(this.GetValue());
 				}
 				return r_MIssuePluginEventAndDataWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr;
 			}
@@ -7281,7 +7281,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MIssuePluginCustomBlit_IntPtr_UInt32_RenderTargetIdentifier_RenderTargetIdentifier_UInt32_UInt32 == null)
 				{
 					r_MIssuePluginCustomBlit_IntPtr_UInt32_RenderTargetIdentifier_RenderTargetIdentifier_UInt32_UInt32 = new(this, "IssuePluginCustomBlit", 0, typeof(System.IntPtr), typeof(System.UInt32), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.UInt32), typeof(System.UInt32));
-					r_MIssuePluginCustomBlit_IntPtr_UInt32_RenderTargetIdentifier_RenderTargetIdentifier_UInt32_UInt32.SetBelong(this.instance);
+					r_MIssuePluginCustomBlit_IntPtr_UInt32_RenderTargetIdentifier_RenderTargetIdentifier_UInt32_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MIssuePluginCustomBlit_IntPtr_UInt32_RenderTargetIdentifier_RenderTargetIdentifier_UInt32_UInt32;
 			}
@@ -7298,7 +7298,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MIssuePluginCustomTextureUpdate_IntPtr_Texture_UInt32 == null)
 				{
 					r_MIssuePluginCustomTextureUpdate_IntPtr_Texture_UInt32 = new(this, "IssuePluginCustomTextureUpdate", 0, typeof(System.IntPtr), typeof(UnityEngine.Texture), typeof(System.UInt32));
-					r_MIssuePluginCustomTextureUpdate_IntPtr_Texture_UInt32.SetBelong(this.instance);
+					r_MIssuePluginCustomTextureUpdate_IntPtr_Texture_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MIssuePluginCustomTextureUpdate_IntPtr_Texture_UInt32;
 			}
@@ -7315,7 +7315,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MIssuePluginCustomTextureUpdateV1_IntPtr_Texture_UInt32 == null)
 				{
 					r_MIssuePluginCustomTextureUpdateV1_IntPtr_Texture_UInt32 = new(this, "IssuePluginCustomTextureUpdateV1", 0, typeof(System.IntPtr), typeof(UnityEngine.Texture), typeof(System.UInt32));
-					r_MIssuePluginCustomTextureUpdateV1_IntPtr_Texture_UInt32.SetBelong(this.instance);
+					r_MIssuePluginCustomTextureUpdateV1_IntPtr_Texture_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MIssuePluginCustomTextureUpdateV1_IntPtr_Texture_UInt32;
 			}
@@ -7332,7 +7332,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MIssuePluginCustomTextureUpdateV2_IntPtr_Texture_UInt32 == null)
 				{
 					r_MIssuePluginCustomTextureUpdateV2_IntPtr_Texture_UInt32 = new(this, "IssuePluginCustomTextureUpdateV2", 0, typeof(System.IntPtr), typeof(UnityEngine.Texture), typeof(System.UInt32));
-					r_MIssuePluginCustomTextureUpdateV2_IntPtr_Texture_UInt32.SetBelong(this.instance);
+					r_MIssuePluginCustomTextureUpdateV2_IntPtr_Texture_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MIssuePluginCustomTextureUpdateV2_IntPtr_Texture_UInt32;
 			}
@@ -7349,7 +7349,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MProcessVTFeedback_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MProcessVTFeedback_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32 = new(this, "ProcessVTFeedback", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MProcessVTFeedback_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MProcessVTFeedback_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MProcessVTFeedback_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32;
 			}
@@ -7366,7 +7366,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCopyBuffer_GraphicsBuffer_GraphicsBuffer == null)
 				{
 					r_MCopyBuffer_GraphicsBuffer_GraphicsBuffer = new(this, "CopyBuffer", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.GraphicsBuffer));
-					r_MCopyBuffer_GraphicsBuffer_GraphicsBuffer.SetBelong(this.instance);
+					r_MCopyBuffer_GraphicsBuffer_GraphicsBuffer.SetBelong(this.GetValue());
 				}
 				return r_MCopyBuffer_GraphicsBuffer_GraphicsBuffer;
 			}
@@ -7383,7 +7383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCreateGPUFence_SynchronisationStage == null)
 				{
 					r_MCreateGPUFence_SynchronisationStage = new(this, "CreateGPUFence", 0, typeof(UnityEngine.Rendering.SynchronisationStage));
-					r_MCreateGPUFence_SynchronisationStage.SetBelong(this.instance);
+					r_MCreateGPUFence_SynchronisationStage.SetBelong(this.GetValue());
 				}
 				return r_MCreateGPUFence_SynchronisationStage;
 			}
@@ -7400,7 +7400,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MCreateGPUFence == null)
 				{
 					r_MCreateGPUFence = new(this, "CreateGPUFence", 0);
-					r_MCreateGPUFence.SetBelong(this.instance);
+					r_MCreateGPUFence.SetBelong(this.GetValue());
 				}
 				return r_MCreateGPUFence;
 			}
@@ -7417,7 +7417,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MWaitOnGPUFence_GPUFence_SynchronisationStage == null)
 				{
 					r_MWaitOnGPUFence_GPUFence_SynchronisationStage = new(this, "WaitOnGPUFence", 0, typeof(UnityEngine.Rendering.GraphicsFence), typeof(UnityEngine.Rendering.SynchronisationStage));
-					r_MWaitOnGPUFence_GPUFence_SynchronisationStage.SetBelong(this.instance);
+					r_MWaitOnGPUFence_GPUFence_SynchronisationStage.SetBelong(this.GetValue());
 				}
 				return r_MWaitOnGPUFence_GPUFence_SynchronisationStage;
 			}
@@ -7434,7 +7434,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MWaitOnGPUFence_GPUFence == null)
 				{
 					r_MWaitOnGPUFence_GPUFence = new(this, "WaitOnGPUFence", 0, typeof(UnityEngine.Rendering.GraphicsFence));
-					r_MWaitOnGPUFence_GPUFence.SetBelong(this.instance);
+					r_MWaitOnGPUFence_GPUFence.SetBelong(this.GetValue());
 				}
 				return r_MWaitOnGPUFence_GPUFence;
 			}
@@ -7451,7 +7451,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeBufferData_ComputeBuffer_Array == null)
 				{
 					r_MSetComputeBufferData_ComputeBuffer_Array = new(this, "SetComputeBufferData", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Array));
-					r_MSetComputeBufferData_ComputeBuffer_Array.SetBelong(this.instance);
+					r_MSetComputeBufferData_ComputeBuffer_Array.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeBufferData_ComputeBuffer_Array;
 			}
@@ -7468,7 +7468,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p_ == null)
 				{
 					r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p_ = new(this, "SetComputeBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p_.SetBelong(this.instance);
+					r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p_.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p_;
 			}
@@ -7485,7 +7485,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p_ == null)
 				{
 					r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p_ = new(this, "SetComputeBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p_.SetBelong(this.instance);
+					r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p_.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p_;
 			}
@@ -7502,7 +7502,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeBufferData_ComputeBuffer_Array_Int32_Int32_Int32 == null)
 				{
 					r_MSetComputeBufferData_ComputeBuffer_Array_Int32_Int32_Int32 = new(this, "SetComputeBufferData", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MSetComputeBufferData_ComputeBuffer_Array_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MSetComputeBufferData_ComputeBuffer_Array_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeBufferData_ComputeBuffer_Array_Int32_Int32_Int32;
 			}
@@ -7519,7 +7519,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32 == null)
 				{
 					r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32 = new(this, "SetComputeBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32.SetBelong(this.instance);
+					r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32;
 			}
@@ -7536,7 +7536,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32 == null)
 				{
 					r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32 = new(this, "SetComputeBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32.SetBelong(this.instance);
+					r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32;
 			}
@@ -7553,7 +7553,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeBufferCounterValue_ComputeBuffer_UInt32 == null)
 				{
 					r_MSetComputeBufferCounterValue_ComputeBuffer_UInt32 = new(this, "SetComputeBufferCounterValue", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.UInt32));
-					r_MSetComputeBufferCounterValue_ComputeBuffer_UInt32.SetBelong(this.instance);
+					r_MSetComputeBufferCounterValue_ComputeBuffer_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeBufferCounterValue_ComputeBuffer_UInt32;
 			}
@@ -7570,7 +7570,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MConvertTexture_Internal_Injected_Ref_RenderTargetIdentifier_Int32_Ref_RenderTargetIdentifier_Int32 == null)
 				{
 					r_MConvertTexture_Internal_Injected_Ref_RenderTargetIdentifier_Int32_Ref_RenderTargetIdentifier_Int32 = new(this, "ConvertTexture_Internal_Injected", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(System.Int32), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(System.Int32));
-					r_MConvertTexture_Internal_Injected_Ref_RenderTargetIdentifier_Int32_Ref_RenderTargetIdentifier_Int32.SetBelong(this.instance);
+					r_MConvertTexture_Internal_Injected_Ref_RenderTargetIdentifier_Int32_Ref_RenderTargetIdentifier_Int32.SetBelong(this.GetValue());
 				}
 				return r_MConvertTexture_Internal_Injected_Ref_RenderTargetIdentifier_Int32_Ref_RenderTargetIdentifier_Int32;
 			}
@@ -7587,7 +7587,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeVectorParam_Injected_ComputeShader_Int32_Ref_Vector4 == null)
 				{
 					r_MSetComputeVectorParam_Injected_ComputeShader_Int32_Ref_Vector4 = new(this, "SetComputeVectorParam_Injected", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.Vector4).MakeByRefType());
-					r_MSetComputeVectorParam_Injected_ComputeShader_Int32_Ref_Vector4.SetBelong(this.instance);
+					r_MSetComputeVectorParam_Injected_ComputeShader_Int32_Ref_Vector4.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeVectorParam_Injected_ComputeShader_Int32_Ref_Vector4;
 			}
@@ -7604,7 +7604,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeMatrixParam_Injected_ComputeShader_Int32_Ref_Matrix4x4 == null)
 				{
 					r_MSetComputeMatrixParam_Injected_ComputeShader_Int32_Ref_Matrix4x4 = new(this, "SetComputeMatrixParam_Injected", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_MSetComputeMatrixParam_Injected_ComputeShader_Int32_Ref_Matrix4x4.SetBelong(this.instance);
+					r_MSetComputeMatrixParam_Injected_ComputeShader_Int32_Ref_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeMatrixParam_Injected_ComputeShader_Int32_Ref_Matrix4x4;
 			}
@@ -7621,7 +7621,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetComputeGraphicsBufferHandleParam_Injected_ComputeShader_Int32_Int32_Ref_GraphicsBufferHandle == null)
 				{
 					r_MInternal_SetComputeGraphicsBufferHandleParam_Injected_ComputeShader_Int32_Int32_Ref_GraphicsBufferHandle = new(this, "Internal_SetComputeGraphicsBufferHandleParam_Injected", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.GraphicsBufferHandle).MakeByRefType());
-					r_MInternal_SetComputeGraphicsBufferHandleParam_Injected_ComputeShader_Int32_Int32_Ref_GraphicsBufferHandle.SetBelong(this.instance);
+					r_MInternal_SetComputeGraphicsBufferHandleParam_Injected_ComputeShader_Int32_Int32_Ref_GraphicsBufferHandle.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetComputeGraphicsBufferHandleParam_Injected_ComputeShader_Int32_Int32_Ref_GraphicsBufferHandle;
 			}
@@ -7638,7 +7638,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingVectorParam_Injected_RayTracingShader_Int32_Ref_Vector4 == null)
 				{
 					r_MInternal_SetRayTracingVectorParam_Injected_RayTracingShader_Int32_Ref_Vector4 = new(this, "Internal_SetRayTracingVectorParam_Injected", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.Vector4).MakeByRefType());
-					r_MInternal_SetRayTracingVectorParam_Injected_RayTracingShader_Int32_Ref_Vector4.SetBelong(this.instance);
+					r_MInternal_SetRayTracingVectorParam_Injected_RayTracingShader_Int32_Ref_Vector4.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingVectorParam_Injected_RayTracingShader_Int32_Ref_Vector4;
 			}
@@ -7655,7 +7655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_SetRayTracingMatrixParam_Injected_RayTracingShader_Int32_Ref_Matrix4x4 == null)
 				{
 					r_MInternal_SetRayTracingMatrixParam_Injected_RayTracingShader_Int32_Ref_Matrix4x4 = new(this, "Internal_SetRayTracingMatrixParam_Injected", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingShader), typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_MInternal_SetRayTracingMatrixParam_Injected_RayTracingShader_Int32_Ref_Matrix4x4.SetBelong(this.instance);
+					r_MInternal_SetRayTracingMatrixParam_Injected_RayTracingShader_Int32_Ref_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MInternal_SetRayTracingMatrixParam_Injected_RayTracingShader_Int32_Ref_Matrix4x4;
 			}
@@ -7672,7 +7672,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_BuildRayTracingAccelerationStructure_Injected_RayTracingAccelerationStructure_Ref_Vector3 == null)
 				{
 					r_MInternal_BuildRayTracingAccelerationStructure_Injected_RayTracingAccelerationStructure_Ref_Vector3 = new(this, "Internal_BuildRayTracingAccelerationStructure_Injected", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_MInternal_BuildRayTracingAccelerationStructure_Injected_RayTracingAccelerationStructure_Ref_Vector3.SetBelong(this.instance);
+					r_MInternal_BuildRayTracingAccelerationStructure_Injected_RayTracingAccelerationStructure_Ref_Vector3.SetBelong(this.GetValue());
 				}
 				return r_MInternal_BuildRayTracingAccelerationStructure_Injected_RayTracingAccelerationStructure_Ref_Vector3;
 			}
@@ -7689,7 +7689,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_GenerateMips_Injected_Ref_RenderTargetIdentifier == null)
 				{
 					r_MInternal_GenerateMips_Injected_Ref_RenderTargetIdentifier = new(this, "Internal_GenerateMips_Injected", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType());
-					r_MInternal_GenerateMips_Injected_Ref_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MInternal_GenerateMips_Injected_Ref_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MInternal_GenerateMips_Injected_Ref_RenderTargetIdentifier;
 			}
@@ -7706,7 +7706,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawMesh_Injected_Mesh_Ref_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawMesh_Injected_Mesh_Ref_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock = new(this, "Internal_DrawMesh_Injected", 0, typeof(UnityEngine.Mesh), typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawMesh_Injected_Mesh_Ref_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawMesh_Injected_Mesh_Ref_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawMesh_Injected_Mesh_Ref_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock;
 			}
@@ -7723,7 +7723,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawRendererList_Injected_Ref_RendererList == null)
 				{
 					r_MInternal_DrawRendererList_Injected_Ref_RendererList = new(this, "Internal_DrawRendererList_Injected", 0, typeof(UnityEngine.Rendering.RendererList).MakeByRefType());
-					r_MInternal_DrawRendererList_Injected_Ref_RendererList.SetBelong(this.instance);
+					r_MInternal_DrawRendererList_Injected_Ref_RendererList.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawRendererList_Injected_Ref_RendererList;
 			}
@@ -7740,7 +7740,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawProcedural_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawProcedural_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock = new(this, "Internal_DrawProcedural_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawProcedural_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawProcedural_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawProcedural_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock;
 			}
@@ -7757,7 +7757,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawProceduralIndexed_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawProceduralIndexed_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock = new(this, "Internal_DrawProceduralIndexed_Injected", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawProceduralIndexed_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawProceduralIndexed_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawProceduralIndexed_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock;
 			}
@@ -7774,7 +7774,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawProceduralIndirect_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawProceduralIndirect_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock = new(this, "Internal_DrawProceduralIndirect_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawProceduralIndirect_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawProceduralIndirect_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawProceduralIndirect_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -7791,7 +7791,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawProceduralIndexedIndirect_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawProceduralIndexedIndirect_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock = new(this, "Internal_DrawProceduralIndexedIndirect_Injected", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawProceduralIndexedIndirect_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawProceduralIndexedIndirect_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawProceduralIndexedIndirect_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -7808,7 +7808,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawProceduralIndirectGraphicsBuffer_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawProceduralIndirectGraphicsBuffer_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock = new(this, "Internal_DrawProceduralIndirectGraphicsBuffer_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawProceduralIndirectGraphicsBuffer_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawProceduralIndirectGraphicsBuffer_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawProceduralIndirectGraphicsBuffer_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -7825,7 +7825,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawProceduralIndexedIndirectGraphicsBuffer_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock == null)
 				{
 					r_MInternal_DrawProceduralIndexedIndirectGraphicsBuffer_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock = new(this, "Internal_DrawProceduralIndexedIndirectGraphicsBuffer_Injected", 0, typeof(UnityEngine.GraphicsBuffer), typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_MInternal_DrawProceduralIndexedIndirectGraphicsBuffer_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_MInternal_DrawProceduralIndexedIndirectGraphicsBuffer_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawProceduralIndexedIndirectGraphicsBuffer_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock;
 			}
@@ -7842,7 +7842,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_DrawOcclusionMesh_Injected_Ref_RectInt == null)
 				{
 					r_MInternal_DrawOcclusionMesh_Injected_Ref_RectInt = new(this, "Internal_DrawOcclusionMesh_Injected", 0, typeof(UnityEngine.RectInt).MakeByRefType());
-					r_MInternal_DrawOcclusionMesh_Injected_Ref_RectInt.SetBelong(this.instance);
+					r_MInternal_DrawOcclusionMesh_Injected_Ref_RectInt.SetBelong(this.GetValue());
 				}
 				return r_MInternal_DrawOcclusionMesh_Injected_Ref_RectInt;
 			}
@@ -7859,7 +7859,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetViewport_Injected_Ref_Rect == null)
 				{
 					r_MSetViewport_Injected_Ref_Rect = new(this, "SetViewport_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
-					r_MSetViewport_Injected_Ref_Rect.SetBelong(this.instance);
+					r_MSetViewport_Injected_Ref_Rect.SetBelong(this.GetValue());
 				}
 				return r_MSetViewport_Injected_Ref_Rect;
 			}
@@ -7876,7 +7876,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEnableScissorRect_Injected_Ref_Rect == null)
 				{
 					r_MEnableScissorRect_Injected_Ref_Rect = new(this, "EnableScissorRect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
-					r_MEnableScissorRect_Injected_Ref_Rect.SetBelong(this.instance);
+					r_MEnableScissorRect_Injected_Ref_Rect.SetBelong(this.GetValue());
 				}
 				return r_MEnableScissorRect_Injected_Ref_Rect;
 			}
@@ -7893,7 +7893,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_Texture_Injected_Texture_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32 == null)
 				{
 					r_MBlit_Texture_Injected_Texture_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32 = new(this, "Blit_Texture_Injected", 0, typeof(UnityEngine.Texture), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Int32), typeof(System.Int32));
-					r_MBlit_Texture_Injected_Texture_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32.SetBelong(this.instance);
+					r_MBlit_Texture_Injected_Texture_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MBlit_Texture_Injected_Texture_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32;
 			}
@@ -7910,7 +7910,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MBlit_Identifier_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32 == null)
 				{
 					r_MBlit_Identifier_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32 = new(this, "Blit_Identifier_Injected", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Int32), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Int32), typeof(System.Int32));
-					r_MBlit_Identifier_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32.SetBelong(this.instance);
+					r_MBlit_Identifier_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MBlit_Identifier_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32;
 			}
@@ -7927,7 +7927,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetTemporaryRTWithDescriptor_Injected_Int32_Ref_RenderTextureDescriptor_FilterMode == null)
 				{
 					r_MGetTemporaryRTWithDescriptor_Injected_Int32_Ref_RenderTextureDescriptor_FilterMode = new(this, "GetTemporaryRTWithDescriptor_Injected", 0, typeof(System.Int32), typeof(UnityEngine.RenderTextureDescriptor).MakeByRefType(), typeof(UnityEngine.FilterMode));
-					r_MGetTemporaryRTWithDescriptor_Injected_Int32_Ref_RenderTextureDescriptor_FilterMode.SetBelong(this.instance);
+					r_MGetTemporaryRTWithDescriptor_Injected_Int32_Ref_RenderTextureDescriptor_FilterMode.SetBelong(this.GetValue());
 				}
 				return r_MGetTemporaryRTWithDescriptor_Injected_Int32_Ref_RenderTextureDescriptor_FilterMode;
 			}
@@ -7944,7 +7944,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MClearRenderTarget_Injected_RTClearFlags_Ref_Color_Single_UInt32 == null)
 				{
 					r_MClearRenderTarget_Injected_RTClearFlags_Ref_Color_Single_UInt32 = new(this, "ClearRenderTarget_Injected", 0, typeof(UnityEngine.Rendering.RTClearFlags), typeof(UnityEngine.Color).MakeByRefType(), typeof(System.Single), typeof(System.UInt32));
-					r_MClearRenderTarget_Injected_RTClearFlags_Ref_Color_Single_UInt32.SetBelong(this.instance);
+					r_MClearRenderTarget_Injected_RTClearFlags_Ref_Color_Single_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MClearRenderTarget_Injected_RTClearFlags_Ref_Color_Single_UInt32;
 			}
@@ -7961,7 +7961,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalVector_Injected_Int32_Ref_Vector4 == null)
 				{
 					r_MSetGlobalVector_Injected_Int32_Ref_Vector4 = new(this, "SetGlobalVector_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Vector4).MakeByRefType());
-					r_MSetGlobalVector_Injected_Int32_Ref_Vector4.SetBelong(this.instance);
+					r_MSetGlobalVector_Injected_Int32_Ref_Vector4.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalVector_Injected_Int32_Ref_Vector4;
 			}
@@ -7978,7 +7978,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalColor_Injected_Int32_Ref_Color == null)
 				{
 					r_MSetGlobalColor_Injected_Int32_Ref_Color = new(this, "SetGlobalColor_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Color).MakeByRefType());
-					r_MSetGlobalColor_Injected_Int32_Ref_Color.SetBelong(this.instance);
+					r_MSetGlobalColor_Injected_Int32_Ref_Color.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalColor_Injected_Int32_Ref_Color;
 			}
@@ -7995,7 +7995,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalMatrix_Injected_Int32_Ref_Matrix4x4 == null)
 				{
 					r_MSetGlobalMatrix_Injected_Int32_Ref_Matrix4x4 = new(this, "SetGlobalMatrix_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_MSetGlobalMatrix_Injected_Int32_Ref_Matrix4x4.SetBelong(this.instance);
+					r_MSetGlobalMatrix_Injected_Int32_Ref_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalMatrix_Injected_Int32_Ref_Matrix4x4;
 			}
@@ -8012,7 +8012,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEnableGlobalKeyword_Injected_Ref_GlobalKeyword == null)
 				{
 					r_MEnableGlobalKeyword_Injected_Ref_GlobalKeyword = new(this, "EnableGlobalKeyword_Injected", 0, typeof(UnityEngine.Rendering.GlobalKeyword).MakeByRefType());
-					r_MEnableGlobalKeyword_Injected_Ref_GlobalKeyword.SetBelong(this.instance);
+					r_MEnableGlobalKeyword_Injected_Ref_GlobalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MEnableGlobalKeyword_Injected_Ref_GlobalKeyword;
 			}
@@ -8029,7 +8029,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEnableMaterialKeyword_Injected_Material_Ref_LocalKeyword == null)
 				{
 					r_MEnableMaterialKeyword_Injected_Material_Ref_LocalKeyword = new(this, "EnableMaterialKeyword_Injected", 0, typeof(UnityEngine.Material), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
-					r_MEnableMaterialKeyword_Injected_Material_Ref_LocalKeyword.SetBelong(this.instance);
+					r_MEnableMaterialKeyword_Injected_Material_Ref_LocalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MEnableMaterialKeyword_Injected_Material_Ref_LocalKeyword;
 			}
@@ -8046,7 +8046,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEnableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword == null)
 				{
 					r_MEnableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword = new(this, "EnableComputeKeyword_Injected", 0, typeof(UnityEngine.ComputeShader), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
-					r_MEnableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword.SetBelong(this.instance);
+					r_MEnableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MEnableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword;
 			}
@@ -8063,7 +8063,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDisableGlobalKeyword_Injected_Ref_GlobalKeyword == null)
 				{
 					r_MDisableGlobalKeyword_Injected_Ref_GlobalKeyword = new(this, "DisableGlobalKeyword_Injected", 0, typeof(UnityEngine.Rendering.GlobalKeyword).MakeByRefType());
-					r_MDisableGlobalKeyword_Injected_Ref_GlobalKeyword.SetBelong(this.instance);
+					r_MDisableGlobalKeyword_Injected_Ref_GlobalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MDisableGlobalKeyword_Injected_Ref_GlobalKeyword;
 			}
@@ -8080,7 +8080,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDisableMaterialKeyword_Injected_Material_Ref_LocalKeyword == null)
 				{
 					r_MDisableMaterialKeyword_Injected_Material_Ref_LocalKeyword = new(this, "DisableMaterialKeyword_Injected", 0, typeof(UnityEngine.Material), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
-					r_MDisableMaterialKeyword_Injected_Material_Ref_LocalKeyword.SetBelong(this.instance);
+					r_MDisableMaterialKeyword_Injected_Material_Ref_LocalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MDisableMaterialKeyword_Injected_Material_Ref_LocalKeyword;
 			}
@@ -8097,7 +8097,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MDisableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword == null)
 				{
 					r_MDisableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword = new(this, "DisableComputeKeyword_Injected", 0, typeof(UnityEngine.ComputeShader), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
-					r_MDisableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword.SetBelong(this.instance);
+					r_MDisableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword.SetBelong(this.GetValue());
 				}
 				return r_MDisableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword;
 			}
@@ -8114,7 +8114,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetGlobalKeyword_Injected_Ref_GlobalKeyword_Boolean == null)
 				{
 					r_MSetGlobalKeyword_Injected_Ref_GlobalKeyword_Boolean = new(this, "SetGlobalKeyword_Injected", 0, typeof(UnityEngine.Rendering.GlobalKeyword).MakeByRefType(), typeof(System.Boolean));
-					r_MSetGlobalKeyword_Injected_Ref_GlobalKeyword_Boolean.SetBelong(this.instance);
+					r_MSetGlobalKeyword_Injected_Ref_GlobalKeyword_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetGlobalKeyword_Injected_Ref_GlobalKeyword_Boolean;
 			}
@@ -8131,7 +8131,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetMaterialKeyword_Injected_Material_Ref_LocalKeyword_Boolean == null)
 				{
 					r_MSetMaterialKeyword_Injected_Material_Ref_LocalKeyword_Boolean = new(this, "SetMaterialKeyword_Injected", 0, typeof(UnityEngine.Material), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType(), typeof(System.Boolean));
-					r_MSetMaterialKeyword_Injected_Material_Ref_LocalKeyword_Boolean.SetBelong(this.instance);
+					r_MSetMaterialKeyword_Injected_Material_Ref_LocalKeyword_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetMaterialKeyword_Injected_Material_Ref_LocalKeyword_Boolean;
 			}
@@ -8148,7 +8148,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword_Boolean == null)
 				{
 					r_MSetComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword_Boolean = new(this, "SetComputeKeyword_Injected", 0, typeof(UnityEngine.ComputeShader), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType(), typeof(System.Boolean));
-					r_MSetComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword_Boolean.SetBelong(this.instance);
+					r_MSetComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword_Boolean;
 			}
@@ -8165,7 +8165,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetViewMatrix_Injected_Ref_Matrix4x4 == null)
 				{
 					r_MSetViewMatrix_Injected_Ref_Matrix4x4 = new(this, "SetViewMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_MSetViewMatrix_Injected_Ref_Matrix4x4.SetBelong(this.instance);
+					r_MSetViewMatrix_Injected_Ref_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MSetViewMatrix_Injected_Ref_Matrix4x4;
 			}
@@ -8182,7 +8182,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetProjectionMatrix_Injected_Ref_Matrix4x4 == null)
 				{
 					r_MSetProjectionMatrix_Injected_Ref_Matrix4x4 = new(this, "SetProjectionMatrix_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_MSetProjectionMatrix_Injected_Ref_Matrix4x4.SetBelong(this.instance);
+					r_MSetProjectionMatrix_Injected_Ref_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MSetProjectionMatrix_Injected_Ref_Matrix4x4;
 			}
@@ -8199,7 +8199,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetViewProjectionMatrices_Injected_Ref_Matrix4x4_Ref_Matrix4x4 == null)
 				{
 					r_MSetViewProjectionMatrices_Injected_Ref_Matrix4x4_Ref_Matrix4x4 = new(this, "SetViewProjectionMatrices_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_MSetViewProjectionMatrices_Injected_Ref_Matrix4x4_Ref_Matrix4x4.SetBelong(this.instance);
+					r_MSetViewProjectionMatrices_Injected_Ref_Matrix4x4_Ref_Matrix4x4.SetBelong(this.GetValue());
 				}
 				return r_MSetViewProjectionMatrices_Injected_Ref_Matrix4x4_Ref_Matrix4x4;
 			}
@@ -8216,7 +8216,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MIncrementUpdateCount_Injected_Ref_RenderTargetIdentifier == null)
 				{
 					r_MIncrementUpdateCount_Injected_Ref_RenderTargetIdentifier = new(this, "IncrementUpdateCount_Injected", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType());
-					r_MIncrementUpdateCount_Injected_Ref_RenderTargetIdentifier.SetBelong(this.instance);
+					r_MIncrementUpdateCount_Injected_Ref_RenderTargetIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MIncrementUpdateCount_Injected_Ref_RenderTargetIdentifier;
 			}
@@ -8233,7 +8233,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTargetSingle_Internal_Injected_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction == null)
 				{
 					r_MSetRenderTargetSingle_Internal_Injected_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction = new(this, "SetRenderTargetSingle_Internal_Injected", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction));
-					r_MSetRenderTargetSingle_Internal_Injected_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction.SetBelong(this.instance);
+					r_MSetRenderTargetSingle_Internal_Injected_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTargetSingle_Internal_Injected_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction;
 			}
@@ -8250,7 +8250,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTargetColorDepth_Internal_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags == null)
 				{
 					r_MSetRenderTargetColorDepth_Internal_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags = new(this, "SetRenderTargetColorDepth_Internal_Injected", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(UnityEngine.Rendering.RenderTargetFlags));
-					r_MSetRenderTargetColorDepth_Internal_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.SetBelong(this.instance);
+					r_MSetRenderTargetColorDepth_Internal_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTargetColorDepth_Internal_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags;
 			}
@@ -8267,7 +8267,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTargetMulti_Internal_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags == null)
 				{
 					r_MSetRenderTargetMulti_Internal_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags = new(this, "SetRenderTargetMulti_Internal_Injected", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeArrayType(), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Rendering.RenderBufferLoadAction).MakeArrayType(), typeof(UnityEngine.Rendering.RenderBufferStoreAction).MakeArrayType(), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(UnityEngine.Rendering.RenderTargetFlags));
-					r_MSetRenderTargetMulti_Internal_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.SetBelong(this.instance);
+					r_MSetRenderTargetMulti_Internal_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTargetMulti_Internal_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags;
 			}
@@ -8284,7 +8284,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTargetColorDepthSubtarget_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32 == null)
 				{
 					r_MSetRenderTargetColorDepthSubtarget_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32 = new(this, "SetRenderTargetColorDepthSubtarget_Injected", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(System.Int32), typeof(UnityEngine.CubemapFace), typeof(System.Int32));
-					r_MSetRenderTargetColorDepthSubtarget_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.SetBelong(this.instance);
+					r_MSetRenderTargetColorDepthSubtarget_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTargetColorDepthSubtarget_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32;
 			}
@@ -8301,7 +8301,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MSetRenderTargetMultiSubtarget_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32 == null)
 				{
 					r_MSetRenderTargetMultiSubtarget_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32 = new(this, "SetRenderTargetMultiSubtarget_Injected", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeArrayType(), typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(UnityEngine.Rendering.RenderBufferLoadAction).MakeArrayType(), typeof(UnityEngine.Rendering.RenderBufferStoreAction).MakeArrayType(), typeof(UnityEngine.Rendering.RenderBufferLoadAction), typeof(UnityEngine.Rendering.RenderBufferStoreAction), typeof(System.Int32), typeof(UnityEngine.CubemapFace), typeof(System.Int32));
-					r_MSetRenderTargetMultiSubtarget_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.SetBelong(this.instance);
+					r_MSetRenderTargetMultiSubtarget_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetRenderTargetMultiSubtarget_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32;
 			}
@@ -8318,7 +8318,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MInternal_ProcessVTFeedback_Injected_Ref_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MInternal_ProcessVTFeedback_Injected_Ref_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32 = new(this, "Internal_ProcessVTFeedback_Injected", 0, typeof(UnityEngine.Rendering.RenderTargetIdentifier).MakeByRefType(), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MInternal_ProcessVTFeedback_Injected_Ref_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MInternal_ProcessVTFeedback_Injected_Ref_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInternal_ProcessVTFeedback_Injected_Ref_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32;
 			}
@@ -8335,7 +8335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -8352,7 +8352,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -8369,7 +8369,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -8386,7 +8386,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -8403,7 +8403,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

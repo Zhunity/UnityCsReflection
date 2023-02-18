@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PpanelDebug == null)
 				{
 					r_PpanelDebug = new(this, "panelDebug", -1);
-					r_PpanelDebug.SetBelong(this.instance);
+					r_PpanelDebug.SetBelong(this.GetValue());
 				}
 				return r_PpanelDebug;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MDisconnect == null)
 				{
 					r_MDisconnect = new(this, "Disconnect", 0);
-					r_MDisconnect.SetBelong(this.instance);
+					r_MDisconnect.SetBelong(this.GetValue());
 				}
 				return r_MDisconnect;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MRefresh == null)
 				{
 					r_MRefresh = new(this, "Refresh", 0);
-					r_MRefresh.SetBelong(this.instance);
+					r_MRefresh.SetBelong(this.GetValue());
 				}
 				return r_MRefresh;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MOnVersionChanged_VisualElement_VersionChangeType == null)
 				{
 					r_MOnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
-					r_MOnVersionChanged_VisualElement_VersionChangeType.SetBelong(this.instance);
+					r_MOnVersionChanged_VisualElement_VersionChangeType.SetBelong(this.GetValue());
 				}
 				return r_MOnVersionChanged_VisualElement_VersionChangeType;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MInterceptEvent_EventBase == null)
 				{
 					r_MInterceptEvent_EventBase = new(this, "InterceptEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_MInterceptEvent_EventBase.SetBelong(this.instance);
+					r_MInterceptEvent_EventBase.SetBelong(this.GetValue());
 				}
 				return r_MInterceptEvent_EventBase;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MPostProcessEvent_EventBase == null)
 				{
 					r_MPostProcessEvent_EventBase = new(this, "PostProcessEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_MPostProcessEvent_EventBase.SetBelong(this.instance);
+					r_MPostProcessEvent_EventBase.SetBelong(this.GetValue());
 				}
 				return r_MPostProcessEvent_EventBase;
 			}

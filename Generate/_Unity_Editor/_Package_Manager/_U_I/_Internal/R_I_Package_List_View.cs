@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetPackageItem_String == null)
 				{
 					r_MGetPackageItem_String = new(this, "GetPackageItem", 0, typeof(System.String));
-					r_MGetPackageItem_String.SetBelong(this.instance);
+					r_MGetPackageItem_String.SetBelong(this.GetValue());
 				}
 				return r_MGetPackageItem_String;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MScrollToSelection == null)
 				{
 					r_MScrollToSelection = new(this, "ScrollToSelection", 0);
-					r_MScrollToSelection.SetBelong(this.instance);
+					r_MScrollToSelection.SetBelong(this.GetValue());
 				}
 				return r_MScrollToSelection;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MOnVisualStateChange_IEnumerable_d_VisualState_p_ == null)
 				{
 					r_MOnVisualStateChange_IEnumerable_d_VisualState_p_ = new(this, "OnVisualStateChange", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.VisualState")));
-					r_MOnVisualStateChange_IEnumerable_d_VisualState_p_.SetBelong(this.instance);
+					r_MOnVisualStateChange_IEnumerable_d_VisualState_p_.SetBelong(this.GetValue());
 				}
 				return r_MOnVisualStateChange_IEnumerable_d_VisualState_p_;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MOnListRebuild_IPage == null)
 				{
 					r_MOnListRebuild_IPage = new(this, "OnListRebuild", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPage"));
-					r_MOnListRebuild_IPage.SetBelong(this.instance);
+					r_MOnListRebuild_IPage.SetBelong(this.GetValue());
 				}
 				return r_MOnListRebuild_IPage;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MOnListUpdate_ListUpdateArgs == null)
 				{
 					r_MOnListUpdate_ListUpdateArgs = new(this, "OnListUpdate", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ListUpdateArgs"));
-					r_MOnListUpdate_ListUpdateArgs.SetBelong(this.instance);
+					r_MOnListUpdate_ListUpdateArgs.SetBelong(this.GetValue());
 				}
 				return r_MOnListUpdate_ListUpdateArgs;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MOnFilterTabChanged_PackageFilterTab == null)
 				{
 					r_MOnFilterTabChanged_PackageFilterTab = new(this, "OnFilterTabChanged", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab"));
-					r_MOnFilterTabChanged_PackageFilterTab.SetBelong(this.instance);
+					r_MOnFilterTabChanged_PackageFilterTab.SetBelong(this.GetValue());
 				}
 				return r_MOnFilterTabChanged_PackageFilterTab;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MOnKeyDownShortcut_KeyDownEvent == null)
 				{
 					r_MOnKeyDownShortcut_KeyDownEvent = new(this, "OnKeyDownShortcut", 0, typeof(UnityEngine.UIElements.KeyDownEvent));
-					r_MOnKeyDownShortcut_KeyDownEvent.SetBelong(this.instance);
+					r_MOnKeyDownShortcut_KeyDownEvent.SetBelong(this.GetValue());
 				}
 				return r_MOnKeyDownShortcut_KeyDownEvent;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MOnNavigationMoveShortcut_NavigationMoveEvent == null)
 				{
 					r_MOnNavigationMoveShortcut_NavigationMoveEvent = new(this, "OnNavigationMoveShortcut", 0, typeof(UnityEngine.UIElements.NavigationMoveEvent));
-					r_MOnNavigationMoveShortcut_NavigationMoveEvent.SetBelong(this.instance);
+					r_MOnNavigationMoveShortcut_NavigationMoveEvent.SetBelong(this.GetValue());
 				}
 				return r_MOnNavigationMoveShortcut_NavigationMoveEvent;
 			}

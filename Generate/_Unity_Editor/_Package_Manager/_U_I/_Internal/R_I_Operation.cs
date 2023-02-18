@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_EonOperationError == null)
 				{
 					r_EonOperationError = new(this, "onOperationError");
-					r_EonOperationError.SetBelong(this.instance);
+					r_EonOperationError.SetBelong(this.GetValue());
 				}
 				return r_EonOperationError;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_EonOperationSuccess == null)
 				{
 					r_EonOperationSuccess = new(this, "onOperationSuccess");
-					r_EonOperationSuccess.SetBelong(this.instance);
+					r_EonOperationSuccess.SetBelong(this.GetValue());
 				}
 				return r_EonOperationSuccess;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_EonOperationFinalized == null)
 				{
 					r_EonOperationFinalized = new(this, "onOperationFinalized");
-					r_EonOperationFinalized.SetBelong(this.instance);
+					r_EonOperationFinalized.SetBelong(this.GetValue());
 				}
 				return r_EonOperationFinalized;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_EonOperationProgress == null)
 				{
 					r_EonOperationProgress = new(this, "onOperationProgress");
-					r_EonOperationProgress.SetBelong(this.instance);
+					r_EonOperationProgress.SetBelong(this.GetValue());
 				}
 				return r_EonOperationProgress;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_PpackageUniqueId == null)
 				{
 					r_PpackageUniqueId = new(this, "packageUniqueId", -1);
-					r_PpackageUniqueId.SetBelong(this.instance);
+					r_PpackageUniqueId.SetBelong(this.GetValue());
 				}
 				return r_PpackageUniqueId;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_PversionUniqueId == null)
 				{
 					r_PversionUniqueId = new(this, "versionUniqueId", -1);
-					r_PversionUniqueId.SetBelong(this.instance);
+					r_PversionUniqueId.SetBelong(this.GetValue());
 				}
 				return r_PversionUniqueId;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Ptimestamp == null)
 				{
 					r_Ptimestamp = new(this, "timestamp", -1);
-					r_Ptimestamp.SetBelong(this.instance);
+					r_Ptimestamp.SetBelong(this.GetValue());
 				}
 				return r_Ptimestamp;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_PlastSuccessTimestamp == null)
 				{
 					r_PlastSuccessTimestamp = new(this, "lastSuccessTimestamp", -1);
-					r_PlastSuccessTimestamp.SetBelong(this.instance);
+					r_PlastSuccessTimestamp.SetBelong(this.GetValue());
 				}
 				return r_PlastSuccessTimestamp;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_PisOfflineMode == null)
 				{
 					r_PisOfflineMode = new(this, "isOfflineMode", -1);
-					r_PisOfflineMode.SetBelong(this.instance);
+					r_PisOfflineMode.SetBelong(this.GetValue());
 				}
 				return r_PisOfflineMode;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_PisInProgress == null)
 				{
 					r_PisInProgress = new(this, "isInProgress", -1);
-					r_PisInProgress.SetBelong(this.instance);
+					r_PisInProgress.SetBelong(this.GetValue());
 				}
 				return r_PisInProgress;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_PisInPause == null)
 				{
 					r_PisInPause = new(this, "isInPause", -1);
-					r_PisInPause.SetBelong(this.instance);
+					r_PisInPause.SetBelong(this.GetValue());
 				}
 				return r_PisInPause;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_PisProgressVisible == null)
 				{
 					r_PisProgressVisible = new(this, "isProgressVisible", -1);
-					r_PisProgressVisible.SetBelong(this.instance);
+					r_PisProgressVisible.SetBelong(this.GetValue());
 				}
 				return r_PisProgressVisible;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_PisProgressTrackable == null)
 				{
 					r_PisProgressTrackable = new(this, "isProgressTrackable", -1);
-					r_PisProgressTrackable.SetBelong(this.instance);
+					r_PisProgressTrackable.SetBelong(this.GetValue());
 				}
 				return r_PisProgressTrackable;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_PprogressPercentage == null)
 				{
 					r_PprogressPercentage = new(this, "progressPercentage", -1);
-					r_PprogressPercentage.SetBelong(this.instance);
+					r_PprogressPercentage.SetBelong(this.GetValue());
 				}
 				return r_PprogressPercentage;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_PrefreshOptions == null)
 				{
 					r_PrefreshOptions = new(this, "refreshOptions", -1);
-					r_PrefreshOptions.SetBelong(this.instance);
+					r_PrefreshOptions.SetBelong(this.GetValue());
 				}
 				return r_PrefreshOptions;
 			}

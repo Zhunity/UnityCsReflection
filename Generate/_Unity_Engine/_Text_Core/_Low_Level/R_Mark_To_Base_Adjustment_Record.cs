@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 				if(r_Fm_BaseGlyphID == null)
 				{
 					r_Fm_BaseGlyphID = new(this, "m_BaseGlyphID");
-					r_Fm_BaseGlyphID.SetBelong(this.instance);
+					r_Fm_BaseGlyphID.SetBelong(this.GetValue());
 				}
 				return r_Fm_BaseGlyphID;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 				if(r_Fm_BaseGlyphAnchorPoint == null)
 				{
 					r_Fm_BaseGlyphAnchorPoint = new(this, "m_BaseGlyphAnchorPoint");
-					r_Fm_BaseGlyphAnchorPoint.SetBelong(this.instance);
+					r_Fm_BaseGlyphAnchorPoint.SetBelong(this.GetValue());
 				}
 				return r_Fm_BaseGlyphAnchorPoint;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 				if(r_Fm_MarkGlyphID == null)
 				{
 					r_Fm_MarkGlyphID = new(this, "m_MarkGlyphID");
-					r_Fm_MarkGlyphID.SetBelong(this.instance);
+					r_Fm_MarkGlyphID.SetBelong(this.GetValue());
 				}
 				return r_Fm_MarkGlyphID;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 				if(r_Fm_MarkPositionAdjustment == null)
 				{
 					r_Fm_MarkPositionAdjustment = new(this, "m_MarkPositionAdjustment");
-					r_Fm_MarkPositionAdjustment.SetBelong(this.instance);
+					r_Fm_MarkPositionAdjustment.SetBelong(this.GetValue());
 				}
 				return r_Fm_MarkPositionAdjustment;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 				if(r_PbaseGlyphID == null)
 				{
 					r_PbaseGlyphID = new(this, "baseGlyphID", -1);
-					r_PbaseGlyphID.SetBelong(this.instance);
+					r_PbaseGlyphID.SetBelong(this.GetValue());
 				}
 				return r_PbaseGlyphID;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 				if(r_PbaseGlyphAnchorPoint == null)
 				{
 					r_PbaseGlyphAnchorPoint = new(this, "baseGlyphAnchorPoint", -1);
-					r_PbaseGlyphAnchorPoint.SetBelong(this.instance);
+					r_PbaseGlyphAnchorPoint.SetBelong(this.GetValue());
 				}
 				return r_PbaseGlyphAnchorPoint;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 				if(r_PmarkGlyphID == null)
 				{
 					r_PmarkGlyphID = new(this, "markGlyphID", -1);
-					r_PmarkGlyphID.SetBelong(this.instance);
+					r_PmarkGlyphID.SetBelong(this.GetValue());
 				}
 				return r_PmarkGlyphID;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 				if(r_PmarkPositionAdjustment == null)
 				{
 					r_PmarkPositionAdjustment = new(this, "markPositionAdjustment", -1);
-					r_PmarkPositionAdjustment.SetBelong(this.instance);
+					r_PmarkPositionAdjustment.SetBelong(this.GetValue());
 				}
 				return r_PmarkPositionAdjustment;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_PCurrent == null)
 				{
 					r_PCurrent = new(this, "Current", -1);
-					r_PCurrent.SetBelong(this.instance);
+					r_PCurrent.SetBelong(this.GetValue());
 				}
 				return r_PCurrent;
 			}

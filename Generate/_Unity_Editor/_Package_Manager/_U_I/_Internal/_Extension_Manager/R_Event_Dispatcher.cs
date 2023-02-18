@@ -41,7 +41,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fm_Window == null)
 				{
 					r_Fm_Window = new(this, "m_Window");
-					r_Fm_Window.SetBelong(this.instance);
+					r_Fm_Window.SetBelong(this.GetValue());
 				}
 				return r_Fm_Window;
 			}
@@ -58,7 +58,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fm_DelayedPackageSelection == null)
 				{
 					r_Fm_DelayedPackageSelection = new(this, "m_DelayedPackageSelection");
-					r_Fm_DelayedPackageSelection.SetBelong(this.instance);
+					r_Fm_DelayedPackageSelection.SetBelong(this.GetValue());
 				}
 				return r_Fm_DelayedPackageSelection;
 			}
@@ -75,7 +75,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fm_HandlerObjects == null)
 				{
 					r_Fm_HandlerObjects = new(this, "m_HandlerObjects");
-					r_Fm_HandlerObjects.SetBelong(this.instance);
+					r_Fm_HandlerObjects.SetBelong(this.GetValue());
 				}
 				return r_Fm_HandlerObjects;
 			}
@@ -92,7 +92,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fm_WindowCreatedHandlers == null)
 				{
 					r_Fm_WindowCreatedHandlers = new(this, "m_WindowCreatedHandlers");
-					r_Fm_WindowCreatedHandlers.SetBelong(this.instance);
+					r_Fm_WindowCreatedHandlers.SetBelong(this.GetValue());
 				}
 				return r_Fm_WindowCreatedHandlers;
 			}
@@ -109,7 +109,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fm_WindowDestroyHandlers == null)
 				{
 					r_Fm_WindowDestroyHandlers = new(this, "m_WindowDestroyHandlers");
-					r_Fm_WindowDestroyHandlers.SetBelong(this.instance);
+					r_Fm_WindowDestroyHandlers.SetBelong(this.GetValue());
 				}
 				return r_Fm_WindowDestroyHandlers;
 			}
@@ -126,7 +126,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fm_PackageSelectionChangedHandlers == null)
 				{
 					r_Fm_PackageSelectionChangedHandlers = new(this, "m_PackageSelectionChangedHandlers");
-					r_Fm_PackageSelectionChangedHandlers.SetBelong(this.instance);
+					r_Fm_PackageSelectionChangedHandlers.SetBelong(this.GetValue());
 				}
 				return r_Fm_PackageSelectionChangedHandlers;
 			}
@@ -143,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_PwindowCreatedHandlers == null)
 				{
 					r_PwindowCreatedHandlers = new(this, "windowCreatedHandlers", -1);
-					r_PwindowCreatedHandlers.SetBelong(this.instance);
+					r_PwindowCreatedHandlers.SetBelong(this.GetValue());
 				}
 				return r_PwindowCreatedHandlers;
 			}
@@ -160,7 +160,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_PwindowDestroyHandlers == null)
 				{
 					r_PwindowDestroyHandlers = new(this, "windowDestroyHandlers", -1);
-					r_PwindowDestroyHandlers.SetBelong(this.instance);
+					r_PwindowDestroyHandlers.SetBelong(this.GetValue());
 				}
 				return r_PwindowDestroyHandlers;
 			}
@@ -177,7 +177,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_PpackageSelectionChangedHandlers == null)
 				{
 					r_PpackageSelectionChangedHandlers = new(this, "packageSelectionChangedHandlers", -1);
-					r_PpackageSelectionChangedHandlers.SetBelong(this.instance);
+					r_PpackageSelectionChangedHandlers.SetBelong(this.GetValue());
 				}
 				return r_PpackageSelectionChangedHandlers;
 			}
@@ -194,7 +194,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MCreateImplementedInstances_GT == null)
 				{
 					r_MCreateImplementedInstances_GT = new(this, "CreateImplementedInstances", 1);
-					r_MCreateImplementedInstances_GT.SetBelong(this.instance);
+					r_MCreateImplementedInstances_GT.SetBelong(this.GetValue());
 				}
 				return r_MCreateImplementedInstances_GT;
 			}
@@ -211,7 +211,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MSendWindowCreatedEvent_IWindow == null)
 				{
 					r_MSendWindowCreatedEvent_IWindow = new(this, "SendWindowCreatedEvent", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.IWindow"));
-					r_MSendWindowCreatedEvent_IWindow.SetBelong(this.instance);
+					r_MSendWindowCreatedEvent_IWindow.SetBelong(this.GetValue());
 				}
 				return r_MSendWindowCreatedEvent_IWindow;
 			}
@@ -228,7 +228,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MSendWindowDestroyEvent == null)
 				{
 					r_MSendWindowDestroyEvent = new(this, "SendWindowDestroyEvent", 0);
-					r_MSendWindowDestroyEvent.SetBelong(this.instance);
+					r_MSendWindowDestroyEvent.SetBelong(this.GetValue());
 				}
 				return r_MSendWindowDestroyEvent;
 			}
@@ -245,7 +245,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MSendPackageSelectionChangedEvent_IPackage_IPackageVersion == null)
 				{
 					r_MSendPackageSelectionChangedEvent_IPackage_IPackageVersion = new(this, "SendPackageSelectionChangedEvent", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"));
-					r_MSendPackageSelectionChangedEvent_IPackage_IPackageVersion.SetBelong(this.instance);
+					r_MSendPackageSelectionChangedEvent_IPackage_IPackageVersion.SetBelong(this.GetValue());
 				}
 				return r_MSendPackageSelectionChangedEvent_IPackage_IPackageVersion;
 			}
@@ -262,7 +262,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -279,7 +279,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -296,7 +296,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -313,7 +313,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -330,7 +330,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -347,7 +347,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

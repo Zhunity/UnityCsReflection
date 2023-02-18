@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_EonConfigChanged == null)
 				{
 					r_EonConfigChanged = new(this, "onConfigChanged");
-					r_EonConfigChanged.SetBelong(this.instance);
+					r_EonConfigChanged.SetBelong(this.GetValue());
 				}
 				return r_EonConfigChanged;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_FonConfigChanged == null)
 				{
 					r_FonConfigChanged = new(this, "onConfigChanged");
-					r_FonConfigChanged.SetBelong(this.instance);
+					r_FonConfigChanged.SetBelong(this.GetValue());
 				}
 				return r_FonConfigChanged;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fm_CurrentConfig == null)
 				{
 					r_Fm_CurrentConfig = new(this, "m_CurrentConfig");
-					r_Fm_CurrentConfig.SetBelong(this.instance);
+					r_Fm_CurrentConfig.SetBelong(this.GetValue());
 				}
 				return r_Fm_CurrentConfig;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetDefaultConfig == null)
 				{
 					r_MGetDefaultConfig = new(this, "GetDefaultConfig", 0);
-					r_MGetDefaultConfig.SetBelong(this.instance);
+					r_MGetDefaultConfig.SetBelong(this.GetValue());
 				}
 				return r_MGetDefaultConfig;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetConfig == null)
 				{
 					r_MGetConfig = new(this, "GetConfig", 0);
-					r_MGetConfig.SetBelong(this.instance);
+					r_MGetConfig.SetBelong(this.GetValue());
 				}
 				return r_MGetConfig;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MSetConfig_String == null)
 				{
 					r_MSetConfig_String = new(this, "SetConfig", 0, typeof(System.String));
-					r_MSetConfig_String.SetBelong(this.instance);
+					r_MSetConfig_String.SetBelong(this.GetValue());
 				}
 				return r_MSetConfig_String;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MResetConfig == null)
 				{
 					r_MResetConfig = new(this, "ResetConfig", 0);
-					r_MResetConfig.SetBelong(this.instance);
+					r_MResetConfig.SetBelong(this.GetValue());
 				}
 				return r_MResetConfig;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

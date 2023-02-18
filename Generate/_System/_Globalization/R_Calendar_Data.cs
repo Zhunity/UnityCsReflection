@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsNativeName == null)
 				{
 					r_FsNativeName = new(this, "sNativeName");
-					r_FsNativeName.SetBelong(this.instance);
+					r_FsNativeName.SetBelong(this.GetValue());
 				}
 				return r_FsNativeName;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsaShortDates == null)
 				{
 					r_FsaShortDates = new(this, "saShortDates");
-					r_FsaShortDates.SetBelong(this.instance);
+					r_FsaShortDates.SetBelong(this.GetValue());
 				}
 				return r_FsaShortDates;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsaYearMonths == null)
 				{
 					r_FsaYearMonths = new(this, "saYearMonths");
-					r_FsaYearMonths.SetBelong(this.instance);
+					r_FsaYearMonths.SetBelong(this.GetValue());
 				}
 				return r_FsaYearMonths;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsaLongDates == null)
 				{
 					r_FsaLongDates = new(this, "saLongDates");
-					r_FsaLongDates.SetBelong(this.instance);
+					r_FsaLongDates.SetBelong(this.GetValue());
 				}
 				return r_FsaLongDates;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsMonthDay == null)
 				{
 					r_FsMonthDay = new(this, "sMonthDay");
-					r_FsMonthDay.SetBelong(this.instance);
+					r_FsMonthDay.SetBelong(this.GetValue());
 				}
 				return r_FsMonthDay;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsaEraNames == null)
 				{
 					r_FsaEraNames = new(this, "saEraNames");
-					r_FsaEraNames.SetBelong(this.instance);
+					r_FsaEraNames.SetBelong(this.GetValue());
 				}
 				return r_FsaEraNames;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsaAbbrevEraNames == null)
 				{
 					r_FsaAbbrevEraNames = new(this, "saAbbrevEraNames");
-					r_FsaAbbrevEraNames.SetBelong(this.instance);
+					r_FsaAbbrevEraNames.SetBelong(this.GetValue());
 				}
 				return r_FsaAbbrevEraNames;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsaAbbrevEnglishEraNames == null)
 				{
 					r_FsaAbbrevEnglishEraNames = new(this, "saAbbrevEnglishEraNames");
-					r_FsaAbbrevEnglishEraNames.SetBelong(this.instance);
+					r_FsaAbbrevEnglishEraNames.SetBelong(this.GetValue());
 				}
 				return r_FsaAbbrevEnglishEraNames;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsaDayNames == null)
 				{
 					r_FsaDayNames = new(this, "saDayNames");
-					r_FsaDayNames.SetBelong(this.instance);
+					r_FsaDayNames.SetBelong(this.GetValue());
 				}
 				return r_FsaDayNames;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsaAbbrevDayNames == null)
 				{
 					r_FsaAbbrevDayNames = new(this, "saAbbrevDayNames");
-					r_FsaAbbrevDayNames.SetBelong(this.instance);
+					r_FsaAbbrevDayNames.SetBelong(this.GetValue());
 				}
 				return r_FsaAbbrevDayNames;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsaSuperShortDayNames == null)
 				{
 					r_FsaSuperShortDayNames = new(this, "saSuperShortDayNames");
-					r_FsaSuperShortDayNames.SetBelong(this.instance);
+					r_FsaSuperShortDayNames.SetBelong(this.GetValue());
 				}
 				return r_FsaSuperShortDayNames;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsaMonthNames == null)
 				{
 					r_FsaMonthNames = new(this, "saMonthNames");
-					r_FsaMonthNames.SetBelong(this.instance);
+					r_FsaMonthNames.SetBelong(this.GetValue());
 				}
 				return r_FsaMonthNames;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsaAbbrevMonthNames == null)
 				{
 					r_FsaAbbrevMonthNames = new(this, "saAbbrevMonthNames");
-					r_FsaAbbrevMonthNames.SetBelong(this.instance);
+					r_FsaAbbrevMonthNames.SetBelong(this.GetValue());
 				}
 				return r_FsaAbbrevMonthNames;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsaMonthGenitiveNames == null)
 				{
 					r_FsaMonthGenitiveNames = new(this, "saMonthGenitiveNames");
-					r_FsaMonthGenitiveNames.SetBelong(this.instance);
+					r_FsaMonthGenitiveNames.SetBelong(this.GetValue());
 				}
 				return r_FsaMonthGenitiveNames;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsaAbbrevMonthGenitiveNames == null)
 				{
 					r_FsaAbbrevMonthGenitiveNames = new(this, "saAbbrevMonthGenitiveNames");
-					r_FsaAbbrevMonthGenitiveNames.SetBelong(this.instance);
+					r_FsaAbbrevMonthGenitiveNames.SetBelong(this.GetValue());
 				}
 				return r_FsaAbbrevMonthGenitiveNames;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FsaLeapYearMonthNames == null)
 				{
 					r_FsaLeapYearMonthNames = new(this, "saLeapYearMonthNames");
-					r_FsaLeapYearMonthNames.SetBelong(this.instance);
+					r_FsaLeapYearMonthNames.SetBelong(this.GetValue());
 				}
 				return r_FsaLeapYearMonthNames;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FiTwoDigitYearMax == null)
 				{
 					r_FiTwoDigitYearMax = new(this, "iTwoDigitYearMax");
-					r_FiTwoDigitYearMax.SetBelong(this.instance);
+					r_FiTwoDigitYearMax.SetBelong(this.GetValue());
 				}
 				return r_FiTwoDigitYearMax;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FiCurrentEra == null)
 				{
 					r_FiCurrentEra = new(this, "iCurrentEra");
-					r_FiCurrentEra.SetBelong(this.instance);
+					r_FiCurrentEra.SetBelong(this.GetValue());
 				}
 				return r_FiCurrentEra;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FbUseUserOverrides == null)
 				{
 					r_FbUseUserOverrides = new(this, "bUseUserOverrides");
-					r_FbUseUserOverrides.SetBelong(this.instance);
+					r_FbUseUserOverrides.SetBelong(this.GetValue());
 				}
 				return r_FbUseUserOverrides;
 			}
@@ -413,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MInitializeEraNames_String_Int32 == null)
 				{
 					r_MInitializeEraNames_String_Int32 = new(this, "InitializeEraNames", 0, typeof(System.String), typeof(System.Int32));
-					r_MInitializeEraNames_String_Int32.SetBelong(this.instance);
+					r_MInitializeEraNames_String_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInitializeEraNames_String_Int32;
 			}
@@ -464,7 +464,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MInitializeAbbreviatedEraNames_String_Int32 == null)
 				{
 					r_MInitializeAbbreviatedEraNames_String_Int32 = new(this, "InitializeAbbreviatedEraNames", 0, typeof(System.String), typeof(System.Int32));
-					r_MInitializeAbbreviatedEraNames_String_Int32.SetBelong(this.instance);
+					r_MInitializeAbbreviatedEraNames_String_Int32.SetBelong(this.GetValue());
 				}
 				return r_MInitializeAbbreviatedEraNames_String_Int32;
 			}
@@ -549,7 +549,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Mfill_calendar_data_String_Int32 == null)
 				{
 					r_Mfill_calendar_data_String_Int32 = new(this, "fill_calendar_data", 0, typeof(System.String), typeof(System.Int32));
-					r_Mfill_calendar_data_String_Int32.SetBelong(this.instance);
+					r_Mfill_calendar_data_String_Int32.SetBelong(this.GetValue());
 				}
 				return r_Mfill_calendar_data_String_Int32;
 			}
@@ -566,7 +566,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -583,7 +583,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -600,7 +600,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -617,7 +617,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -634,7 +634,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -651,7 +651,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

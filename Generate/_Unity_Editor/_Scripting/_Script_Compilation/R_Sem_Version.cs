@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_F__0__IsInitialized__1__k__BackingField == null)
 				{
 					r_F__0__IsInitialized__1__k__BackingField = new(this, "<IsInitialized>k__BackingField");
-					r_F__0__IsInitialized__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__IsInitialized__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__IsInitialized__1__k__BackingField;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_F__0__Major__1__k__BackingField == null)
 				{
 					r_F__0__Major__1__k__BackingField = new(this, "<Major>k__BackingField");
-					r_F__0__Major__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__Major__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__Major__1__k__BackingField;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_F__0__Minor__1__k__BackingField == null)
 				{
 					r_F__0__Minor__1__k__BackingField = new(this, "<Minor>k__BackingField");
-					r_F__0__Minor__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__Minor__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__Minor__1__k__BackingField;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_F__0__Patch__1__k__BackingField == null)
 				{
 					r_F__0__Patch__1__k__BackingField = new(this, "<Patch>k__BackingField");
-					r_F__0__Patch__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__Patch__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__Patch__1__k__BackingField;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_F__0__Prerelease__1__k__BackingField == null)
 				{
 					r_F__0__Prerelease__1__k__BackingField = new(this, "<Prerelease>k__BackingField");
-					r_F__0__Prerelease__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__Prerelease__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__Prerelease__1__k__BackingField;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_F__0__Build__1__k__BackingField == null)
 				{
 					r_F__0__Build__1__k__BackingField = new(this, "<Build>k__BackingField");
-					r_F__0__Build__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__Build__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__Build__1__k__BackingField;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_PIsInitialized == null)
 				{
 					r_PIsInitialized = new(this, "IsInitialized", -1);
-					r_PIsInitialized.SetBelong(this.instance);
+					r_PIsInitialized.SetBelong(this.GetValue());
 				}
 				return r_PIsInitialized;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_PMajor == null)
 				{
 					r_PMajor = new(this, "Major", -1);
-					r_PMajor.SetBelong(this.instance);
+					r_PMajor.SetBelong(this.GetValue());
 				}
 				return r_PMajor;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_PMinor == null)
 				{
 					r_PMinor = new(this, "Minor", -1);
-					r_PMinor.SetBelong(this.instance);
+					r_PMinor.SetBelong(this.GetValue());
 				}
 				return r_PMinor;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_PPatch == null)
 				{
 					r_PPatch = new(this, "Patch", -1);
-					r_PPatch.SetBelong(this.instance);
+					r_PPatch.SetBelong(this.GetValue());
 				}
 				return r_PPatch;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_PPrerelease == null)
 				{
 					r_PPrerelease = new(this, "Prerelease", -1);
-					r_PPrerelease.SetBelong(this.instance);
+					r_PPrerelease.SetBelong(this.GetValue());
 				}
 				return r_PPrerelease;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_PBuild == null)
 				{
 					r_PBuild = new(this, "Build", -1);
-					r_PBuild.SetBelong(this.instance);
+					r_PBuild.SetBelong(this.GetValue());
 				}
 				return r_PBuild;
 			}
@@ -379,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_MCompareTo_Object == null)
 				{
 					r_MCompareTo_Object = new(this, "CompareTo", 0, typeof(System.Object));
-					r_MCompareTo_Object.SetBelong(this.instance);
+					r_MCompareTo_Object.SetBelong(this.GetValue());
 				}
 				return r_MCompareTo_Object;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_MCompareTo_SemVersion == null)
 				{
 					r_MCompareTo_SemVersion = new(this, "CompareTo", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
-					r_MCompareTo_SemVersion.SetBelong(this.instance);
+					r_MCompareTo_SemVersion.SetBelong(this.GetValue());
 				}
 				return r_MCompareTo_SemVersion;
 			}
@@ -430,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_MEquals_SemVersion == null)
 				{
 					r_MEquals_SemVersion = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
-					r_MEquals_SemVersion.SetBelong(this.instance);
+					r_MEquals_SemVersion.SetBelong(this.GetValue());
 				}
 				return r_MEquals_SemVersion;
 			}
@@ -447,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -464,7 +464,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -481,7 +481,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -498,7 +498,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_MParse_String_Boolean == null)
 				{
 					r_MParse_String_Boolean = new(this, "Parse", 0, typeof(System.String), typeof(System.Boolean));
-					r_MParse_String_Boolean.SetBelong(this.instance);
+					r_MParse_String_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MParse_String_Boolean;
 			}
@@ -515,7 +515,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_MGetVersionTypeTraits == null)
 				{
 					r_MGetVersionTypeTraits = new(this, "GetVersionTypeTraits", 0);
-					r_MGetVersionTypeTraits.SetBelong(this.instance);
+					r_MGetVersionTypeTraits.SetBelong(this.GetValue());
 				}
 				return r_MGetVersionTypeTraits;
 			}
@@ -532,7 +532,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -549,7 +549,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -566,7 +566,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

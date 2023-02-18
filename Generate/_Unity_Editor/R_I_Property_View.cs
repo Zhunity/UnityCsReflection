@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Ptracker == null)
 				{
 					r_Ptracker = new(this, "tracker", -1);
-					r_Ptracker.SetBelong(this.instance);
+					r_Ptracker.SetBelong(this.GetValue());
 				}
 				return r_Ptracker;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PinspectorMode == null)
 				{
 					r_PinspectorMode = new(this, "inspectorMode", -1);
-					r_PinspectorMode.SetBelong(this.instance);
+					r_PinspectorMode.SetBelong(this.GetValue());
 				}
 				return r_PinspectorMode;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PeditorsWithImportedObjectLabel == null)
 				{
 					r_PeditorsWithImportedObjectLabel = new(this, "editorsWithImportedObjectLabel", -1);
-					r_PeditorsWithImportedObjectLabel.SetBelong(this.instance);
+					r_PeditorsWithImportedObjectLabel.SetBelong(this.GetValue());
 				}
 				return r_PeditorsWithImportedObjectLabel;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PlastInteractedEditor == null)
 				{
 					r_PlastInteractedEditor = new(this, "lastInteractedEditor", -1);
-					r_PlastInteractedEditor.SetBelong(this.instance);
+					r_PlastInteractedEditor.SetBelong(this.GetValue());
 				}
 				return r_PlastInteractedEditor;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Pparent == null)
 				{
 					r_Pparent = new(this, "parent", -1);
-					r_Pparent.SetBelong(this.instance);
+					r_Pparent.SetBelong(this.GetValue());
 				}
 				return r_Pparent;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PeditorDragging == null)
 				{
 					r_PeditorDragging = new(this, "editorDragging", -1);
-					r_PeditorDragging.SetBelong(this.instance);
+					r_PeditorDragging.SetBelong(this.GetValue());
 				}
 				return r_PeditorDragging;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MCreateIMGUIContainer_Action_String == null)
 				{
 					r_MCreateIMGUIContainer_Action_String = new(this, "CreateIMGUIContainer", 0, typeof(System.Action), typeof(System.String));
-					r_MCreateIMGUIContainer_Action_String.SetBelong(this.instance);
+					r_MCreateIMGUIContainer_Action_String.SetBelong(this.GetValue());
 				}
 				return r_MCreateIMGUIContainer_Action_String;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MWasEditorVisible_EditorArray_Int32_Object == null)
 				{
 					r_MWasEditorVisible_EditorArray_Int32_Object = new(this, "WasEditorVisible", 0, typeof(UnityEditor.Editor).MakeArrayType(), typeof(System.Int32), typeof(UnityEngine.Object));
-					r_MWasEditorVisible_EditorArray_Int32_Object.SetBelong(this.instance);
+					r_MWasEditorVisible_EditorArray_Int32_Object.SetBelong(this.GetValue());
 				}
 				return r_MWasEditorVisible_EditorArray_Int32_Object;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MShouldCullEditor_EditorArray_Int32 == null)
 				{
 					r_MShouldCullEditor_EditorArray_Int32 = new(this, "ShouldCullEditor", 0, typeof(UnityEditor.Editor).MakeArrayType(), typeof(System.Int32));
-					r_MShouldCullEditor_EditorArray_Int32.SetBelong(this.instance);
+					r_MShouldCullEditor_EditorArray_Int32.SetBelong(this.GetValue());
 				}
 				return r_MShouldCullEditor_EditorArray_Int32;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MRepaint == null)
 				{
 					r_MRepaint = new(this, "Repaint", 0);
-					r_MRepaint.SetBelong(this.instance);
+					r_MRepaint.SetBelong(this.GetValue());
 				}
 				return r_MRepaint;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MUnsavedChangesStateChanged_Editor_Boolean == null)
 				{
 					r_MUnsavedChangesStateChanged_Editor_Boolean = new(this, "UnsavedChangesStateChanged", 0, typeof(UnityEditor.Editor), typeof(System.Boolean));
-					r_MUnsavedChangesStateChanged_Editor_Boolean.SetBelong(this.instance);
+					r_MUnsavedChangesStateChanged_Editor_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MUnsavedChangesStateChanged_Editor_Boolean;
 			}

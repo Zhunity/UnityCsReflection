@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_EdataModeChanged == null)
 				{
 					r_EdataModeChanged = new(this, "dataModeChanged");
-					r_EdataModeChanged.SetBelong(this.instance);
+					r_EdataModeChanged.SetBelong(this.GetValue());
 				}
 				return r_EdataModeChanged;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PdataMode == null)
 				{
 					r_PdataMode = new(this, "dataMode", -1);
-					r_PdataMode.SetBelong(this.instance);
+					r_PdataMode.SetBelong(this.GetValue());
 				}
 				return r_PdataMode;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode == null)
 				{
 					r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode = new(this, "UpdateSupportedDataModes", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType(typeof(UnityEditor.DataMode)), typeof(UnityEditor.DataMode));
-					r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode.SetBelong(this.instance);
+					r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode.SetBelong(this.GetValue());
 				}
 				return r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MTryChangeDataMode_DataMode == null)
 				{
 					r_MTryChangeDataMode_DataMode = new(this, "TryChangeDataMode", 0, typeof(UnityEditor.DataMode));
-					r_MTryChangeDataMode_DataMode.SetBelong(this.instance);
+					r_MTryChangeDataMode_DataMode.SetBelong(this.GetValue());
 				}
 				return r_MTryChangeDataMode_DataMode;
 			}

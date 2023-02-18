@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_EdataModeChanged == null)
 				{
 					r_EdataModeChanged = new(this, "dataModeChanged");
-					r_EdataModeChanged.SetBelong(this.instance);
+					r_EdataModeChanged.SetBelong(this.GetValue());
 				}
 				return r_EdataModeChanged;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_FdataModeChanged == null)
 				{
 					r_FdataModeChanged = new(this, "dataModeChanged");
-					r_FdataModeChanged.SetBelong(this.instance);
+					r_FdataModeChanged.SetBelong(this.GetValue());
 				}
 				return r_FdataModeChanged;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Fm_DataMode == null)
 				{
 					r_Fm_DataMode = new(this, "m_DataMode");
-					r_Fm_DataMode.SetBelong(this.instance);
+					r_Fm_DataMode.SetBelong(this.GetValue());
 				}
 				return r_Fm_DataMode;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Fm_PreferredDataMode == null)
 				{
 					r_Fm_PreferredDataMode = new(this, "m_PreferredDataMode");
-					r_Fm_PreferredDataMode.SetBelong(this.instance);
+					r_Fm_PreferredDataMode.SetBelong(this.GetValue());
 				}
 				return r_Fm_PreferredDataMode;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Fm_SupportedDataModes == null)
 				{
 					r_Fm_SupportedDataModes = new(this, "m_SupportedDataModes");
-					r_Fm_SupportedDataModes.SetBelong(this.instance);
+					r_Fm_SupportedDataModes.SetBelong(this.GetValue());
 				}
 				return r_Fm_SupportedDataModes;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_FisAutomatic == null)
 				{
 					r_FisAutomatic = new(this, "isAutomatic");
-					r_FisAutomatic.SetBelong(this.instance);
+					r_FisAutomatic.SetBelong(this.GetValue());
 				}
 				return r_FisAutomatic;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Fm_DataModeSanitizationCache == null)
 				{
 					r_Fm_DataModeSanitizationCache = new(this, "m_DataModeSanitizationCache");
-					r_Fm_DataModeSanitizationCache.SetBelong(this.instance);
+					r_Fm_DataModeSanitizationCache.SetBelong(this.GetValue());
 				}
 				return r_Fm_DataModeSanitizationCache;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PdataMode == null)
 				{
 					r_PdataMode = new(this, "dataMode", -1);
-					r_PdataMode.SetBelong(this.instance);
+					r_PdataMode.SetBelong(this.GetValue());
 				}
 				return r_PdataMode;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PpreferredDataMode == null)
 				{
 					r_PpreferredDataMode = new(this, "preferredDataMode", -1);
-					r_PpreferredDataMode.SetBelong(this.instance);
+					r_PpreferredDataMode.SetBelong(this.GetValue());
 				}
 				return r_PpreferredDataMode;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PsupportedDataModes == null)
 				{
 					r_PsupportedDataModes = new(this, "supportedDataModes", -1);
-					r_PsupportedDataModes.SetBelong(this.instance);
+					r_PsupportedDataModes.SetBelong(this.GetValue());
 				}
 				return r_PsupportedDataModes;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode == null)
 				{
 					r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode = new(this, "UpdateSupportedDataModes", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType(typeof(UnityEditor.DataMode)), typeof(UnityEditor.DataMode));
-					r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode.SetBelong(this.instance);
+					r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode.SetBelong(this.GetValue());
 				}
 				return r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MShouldDrawDataModesSwitch == null)
 				{
 					r_MShouldDrawDataModesSwitch = new(this, "ShouldDrawDataModesSwitch", 0);
-					r_MShouldDrawDataModesSwitch.SetBelong(this.instance);
+					r_MShouldDrawDataModesSwitch.SetBelong(this.GetValue());
 				}
 				return r_MShouldDrawDataModesSwitch;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MTryChangeDataMode_DataMode == null)
 				{
 					r_MTryChangeDataMode_DataMode = new(this, "TryChangeDataMode", 0, typeof(UnityEditor.DataMode));
-					r_MTryChangeDataMode_DataMode.SetBelong(this.instance);
+					r_MTryChangeDataMode_DataMode.SetBelong(this.GetValue());
 				}
 				return r_MTryChangeDataMode_DataMode;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MSwitchToAutomatic == null)
 				{
 					r_MSwitchToAutomatic = new(this, "SwitchToAutomatic", 0);
-					r_MSwitchToAutomatic.SetBelong(this.instance);
+					r_MSwitchToAutomatic.SetBelong(this.GetValue());
 				}
 				return r_MSwitchToAutomatic;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MSwitchToStickyDataMode_DataMode == null)
 				{
 					r_MSwitchToStickyDataMode_DataMode = new(this, "SwitchToStickyDataMode", 0, typeof(UnityEditor.DataMode));
-					r_MSwitchToStickyDataMode_DataMode.SetBelong(this.instance);
+					r_MSwitchToStickyDataMode_DataMode.SetBelong(this.GetValue());
 				}
 				return r_MSwitchToStickyDataMode_DataMode;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -362,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -379,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

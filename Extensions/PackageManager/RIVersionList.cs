@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 
 		protected override void OnSetBelong()
 		{
-			Debug.Log("OnSetBelong : " + RPinstalled.Value + "  " + GetHashCode() + " " + instance + "  hash code " + GetHashCode());
+			Debug.Log("RPinstalled : " + RPinstalled.RPversionId.Value + " RPlatest : " + RPlatest.RPversionId.Value + " RPimportAvailable : " + RPimportAvailable.RPversionId.Value + " RPrecommended : " + RPrecommended.RPversionId.Value);
 		}
 	}
 }

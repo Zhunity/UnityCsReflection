@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_F_ignorePersistedDecision == null)
 				{
 					r_F_ignorePersistedDecision = new(this, "_ignorePersistedDecision");
-					r_F_ignorePersistedDecision.SetBelong(this.instance);
+					r_F_ignorePersistedDecision.SetBelong(this.GetValue());
 				}
 				return r_F_ignorePersistedDecision;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_F_noPrompt == null)
 				{
 					r_F_noPrompt = new(this, "_noPrompt");
-					r_F_noPrompt.SetBelong(this.instance);
+					r_F_noPrompt.SetBelong(this.GetValue());
 				}
 				return r_F_noPrompt;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_F_keepAlive == null)
 				{
 					r_F_keepAlive = new(this, "_keepAlive");
-					r_F_keepAlive.SetBelong(this.instance);
+					r_F_keepAlive.SetBelong(this.GetValue());
 				}
 				return r_F_keepAlive;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_F_persist == null)
 				{
 					r_F_persist = new(this, "_persist");
-					r_F_persist.SetBelong(this.instance);
+					r_F_persist.SetBelong(this.GetValue());
 				}
 				return r_F_persist;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_F_previousId == null)
 				{
 					r_F_previousId = new(this, "_previousId");
-					r_F_previousId.SetBelong(this.instance);
+					r_F_previousId.SetBelong(this.GetValue());
 				}
 				return r_F_previousId;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_F_ui == null)
 				{
 					r_F_ui = new(this, "_ui");
-					r_F_ui.SetBelong(this.instance);
+					r_F_ui.SetBelong(this.GetValue());
 				}
 				return r_F_ui;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_PIgnorePersistedDecision == null)
 				{
 					r_PIgnorePersistedDecision = new(this, "IgnorePersistedDecision", -1);
-					r_PIgnorePersistedDecision.SetBelong(this.instance);
+					r_PIgnorePersistedDecision.SetBelong(this.GetValue());
 				}
 				return r_PIgnorePersistedDecision;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_PKeepAlive == null)
 				{
 					r_PKeepAlive = new(this, "KeepAlive", -1);
-					r_PKeepAlive.SetBelong(this.instance);
+					r_PKeepAlive.SetBelong(this.GetValue());
 				}
 				return r_PKeepAlive;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_PNoPrompt == null)
 				{
 					r_PNoPrompt = new(this, "NoPrompt", -1);
-					r_PNoPrompt.SetBelong(this.instance);
+					r_PNoPrompt.SetBelong(this.GetValue());
 				}
 				return r_PNoPrompt;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_PPersist == null)
 				{
 					r_PPersist = new(this, "Persist", -1);
-					r_PPersist.SetBelong(this.instance);
+					r_PPersist.SetBelong(this.GetValue());
 				}
 				return r_PPersist;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_PPreviousApplicationIdentity == null)
 				{
 					r_PPreviousApplicationIdentity = new(this, "PreviousApplicationIdentity", -1);
-					r_PPreviousApplicationIdentity.SetBelong(this.instance);
+					r_PPreviousApplicationIdentity.SetBelong(this.GetValue());
 				}
 				return r_PPreviousApplicationIdentity;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_PUIContext == null)
 				{
 					r_PUIContext = new(this, "UIContext", -1);
-					r_PUIContext.SetBelong(this.instance);
+					r_PUIContext.SetBelong(this.GetValue());
 				}
 				return r_PUIContext;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

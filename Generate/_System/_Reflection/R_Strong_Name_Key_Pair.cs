@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_F_publicKey == null)
 				{
 					r_F_publicKey = new(this, "_publicKey");
-					r_F_publicKey.SetBelong(this.instance);
+					r_F_publicKey.SetBelong(this.GetValue());
 				}
 				return r_F_publicKey;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_F_keyPairContainer == null)
 				{
 					r_F_keyPairContainer = new(this, "_keyPairContainer");
-					r_F_keyPairContainer.SetBelong(this.instance);
+					r_F_keyPairContainer.SetBelong(this.GetValue());
 				}
 				return r_F_keyPairContainer;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_F_keyPairExported == null)
 				{
 					r_F_keyPairExported = new(this, "_keyPairExported");
-					r_F_keyPairExported.SetBelong(this.instance);
+					r_F_keyPairExported.SetBelong(this.GetValue());
 				}
 				return r_F_keyPairExported;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_F_keyPairArray == null)
 				{
 					r_F_keyPairArray = new(this, "_keyPairArray");
-					r_F_keyPairArray.SetBelong(this.instance);
+					r_F_keyPairArray.SetBelong(this.GetValue());
 				}
 				return r_F_keyPairArray;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_F_rsa == null)
 				{
 					r_F_rsa = new(this, "_rsa");
-					r_F_rsa.SetBelong(this.instance);
+					r_F_rsa.SetBelong(this.GetValue());
 				}
 				return r_F_rsa;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_PPublicKey == null)
 				{
 					r_PPublicKey = new(this, "PublicKey", -1);
-					r_PPublicKey.SetBelong(this.instance);
+					r_PPublicKey.SetBelong(this.GetValue());
 				}
 				return r_PPublicKey;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext == null)
 				{
 					r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext = new(this, "System.Runtime.Serialization.ISerializable.GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
+					r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object == null)
 				{
 					r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object = new(this, "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", 0, typeof(System.Object));
-					r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.SetBelong(this.instance);
+					r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.SetBelong(this.GetValue());
 				}
 				return r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MGetRSA == null)
 				{
 					r_MGetRSA = new(this, "GetRSA", 0);
-					r_MGetRSA.SetBelong(this.instance);
+					r_MGetRSA.SetBelong(this.GetValue());
 				}
 				return r_MGetRSA;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MLoadKey_ByteArray == null)
 				{
 					r_MLoadKey_ByteArray = new(this, "LoadKey", 0, typeof(System.Byte).MakeArrayType());
-					r_MLoadKey_ByteArray.SetBelong(this.instance);
+					r_MLoadKey_ByteArray.SetBelong(this.GetValue());
 				}
 				return r_MLoadKey_ByteArray;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MStrongName == null)
 				{
 					r_MStrongName = new(this, "StrongName", 0);
-					r_MStrongName.SetBelong(this.instance);
+					r_MStrongName.SetBelong(this.GetValue());
 				}
 				return r_MStrongName;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

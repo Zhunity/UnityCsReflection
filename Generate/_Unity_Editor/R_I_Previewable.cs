@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Ptarget == null)
 				{
 					r_Ptarget = new(this, "target", -1);
-					r_Ptarget.SetBelong(this.instance);
+					r_Ptarget.SetBelong(this.GetValue());
 				}
 				return r_Ptarget;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MInitialize_ObjectArray == null)
 				{
 					r_MInitialize_ObjectArray = new(this, "Initialize", 0, typeof(UnityEngine.Object).MakeArrayType());
-					r_MInitialize_ObjectArray.SetBelong(this.instance);
+					r_MInitialize_ObjectArray.SetBelong(this.GetValue());
 				}
 				return r_MInitialize_ObjectArray;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MCleanup == null)
 				{
 					r_MCleanup = new(this, "Cleanup", 0);
-					r_MCleanup.SetBelong(this.instance);
+					r_MCleanup.SetBelong(this.GetValue());
 				}
 				return r_MCleanup;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MMoveNextTarget == null)
 				{
 					r_MMoveNextTarget = new(this, "MoveNextTarget", 0);
-					r_MMoveNextTarget.SetBelong(this.instance);
+					r_MMoveNextTarget.SetBelong(this.GetValue());
 				}
 				return r_MMoveNextTarget;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MResetTarget == null)
 				{
 					r_MResetTarget = new(this, "ResetTarget", 0);
-					r_MResetTarget.SetBelong(this.instance);
+					r_MResetTarget.SetBelong(this.GetValue());
 				}
 				return r_MResetTarget;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MHasPreviewGUI == null)
 				{
 					r_MHasPreviewGUI = new(this, "HasPreviewGUI", 0);
-					r_MHasPreviewGUI.SetBelong(this.instance);
+					r_MHasPreviewGUI.SetBelong(this.GetValue());
 				}
 				return r_MHasPreviewGUI;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MGetPreviewTitle == null)
 				{
 					r_MGetPreviewTitle = new(this, "GetPreviewTitle", 0);
-					r_MGetPreviewTitle.SetBelong(this.instance);
+					r_MGetPreviewTitle.SetBelong(this.GetValue());
 				}
 				return r_MGetPreviewTitle;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MDrawPreview_Rect == null)
 				{
 					r_MDrawPreview_Rect = new(this, "DrawPreview", 0, typeof(UnityEngine.Rect));
-					r_MDrawPreview_Rect.SetBelong(this.instance);
+					r_MDrawPreview_Rect.SetBelong(this.GetValue());
 				}
 				return r_MDrawPreview_Rect;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MOnPreviewGUI_Rect_GUIStyle == null)
 				{
 					r_MOnPreviewGUI_Rect_GUIStyle = new(this, "OnPreviewGUI", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIStyle));
-					r_MOnPreviewGUI_Rect_GUIStyle.SetBelong(this.instance);
+					r_MOnPreviewGUI_Rect_GUIStyle.SetBelong(this.GetValue());
 				}
 				return r_MOnPreviewGUI_Rect_GUIStyle;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MOnInteractivePreviewGUI_Rect_GUIStyle == null)
 				{
 					r_MOnInteractivePreviewGUI_Rect_GUIStyle = new(this, "OnInteractivePreviewGUI", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIStyle));
-					r_MOnInteractivePreviewGUI_Rect_GUIStyle.SetBelong(this.instance);
+					r_MOnInteractivePreviewGUI_Rect_GUIStyle.SetBelong(this.GetValue());
 				}
 				return r_MOnInteractivePreviewGUI_Rect_GUIStyle;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MOnPreviewSettings == null)
 				{
 					r_MOnPreviewSettings = new(this, "OnPreviewSettings", 0);
-					r_MOnPreviewSettings.SetBelong(this.instance);
+					r_MOnPreviewSettings.SetBelong(this.GetValue());
 				}
 				return r_MOnPreviewSettings;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MGetInfoString == null)
 				{
 					r_MGetInfoString = new(this, "GetInfoString", 0);
-					r_MGetInfoString.SetBelong(this.instance);
+					r_MGetInfoString.SetBelong(this.GetValue());
 				}
 				return r_MGetInfoString;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MReloadPreviewInstances == null)
 				{
 					r_MReloadPreviewInstances = new(this, "ReloadPreviewInstances", 0);
-					r_MReloadPreviewInstances.SetBelong(this.instance);
+					r_MReloadPreviewInstances.SetBelong(this.GetValue());
 				}
 				return r_MReloadPreviewInstances;
 			}

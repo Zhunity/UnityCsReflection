@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PvisualTree == null)
 				{
 					r_PvisualTree = new(this, "visualTree", -1);
-					r_PvisualTree.SetBelong(this.instance);
+					r_PvisualTree.SetBelong(this.GetValue());
 				}
 				return r_PvisualTree;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pdispatcher == null)
 				{
 					r_Pdispatcher = new(this, "dispatcher", -1);
-					r_Pdispatcher.SetBelong(this.instance);
+					r_Pdispatcher.SetBelong(this.GetValue());
 				}
 				return r_Pdispatcher;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PcontextType == null)
 				{
 					r_PcontextType = new(this, "contextType", -1);
-					r_PcontextType.SetBelong(this.instance);
+					r_PcontextType.SetBelong(this.GetValue());
 				}
 				return r_PcontextType;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PfocusController == null)
 				{
 					r_PfocusController = new(this, "focusController", -1);
-					r_PfocusController.SetBelong(this.instance);
+					r_PfocusController.SetBelong(this.GetValue());
 				}
 				return r_PfocusController;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PcontextualMenuManager == null)
 				{
 					r_PcontextualMenuManager = new(this, "contextualMenuManager", -1);
-					r_PcontextualMenuManager.SetBelong(this.instance);
+					r_PcontextualMenuManager.SetBelong(this.GetValue());
 				}
 				return r_PcontextualMenuManager;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MPick_Vector2 == null)
 				{
 					r_MPick_Vector2 = new(this, "Pick", 0, typeof(UnityEngine.Vector2));
-					r_MPick_Vector2.SetBelong(this.instance);
+					r_MPick_Vector2.SetBelong(this.GetValue());
 				}
 				return r_MPick_Vector2;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MPickAll_Vector2_List_d_VisualElement_p_ == null)
 				{
 					r_MPickAll_Vector2_List_d_VisualElement_p_ = new(this, "PickAll", 0, typeof(UnityEngine.Vector2), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
-					r_MPickAll_Vector2_List_d_VisualElement_p_.SetBelong(this.instance);
+					r_MPickAll_Vector2_List_d_VisualElement_p_.SetBelong(this.GetValue());
 				}
 				return r_MPickAll_Vector2_List_d_VisualElement_p_;
 			}

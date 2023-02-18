@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MGetFormat_Type == null)
 				{
 					r_MGetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
-					r_MGetFormat_Type.SetBelong(this.instance);
+					r_MGetFormat_Type.SetBelong(this.GetValue());
 				}
 				return r_MGetFormat_Type;
 			}

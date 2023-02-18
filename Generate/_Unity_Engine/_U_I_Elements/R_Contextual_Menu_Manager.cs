@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_F__0__displayMenuHandledOSX__1__k__BackingField == null)
 				{
 					r_F__0__displayMenuHandledOSX__1__k__BackingField = new(this, "<displayMenuHandledOSX>k__BackingField");
-					r_F__0__displayMenuHandledOSX__1__k__BackingField.SetBelong(this.instance);
+					r_F__0__displayMenuHandledOSX__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__displayMenuHandledOSX__1__k__BackingField;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PdisplayMenuHandledOSX == null)
 				{
 					r_PdisplayMenuHandledOSX = new(this, "displayMenuHandledOSX", -1);
-					r_PdisplayMenuHandledOSX.SetBelong(this.instance);
+					r_PdisplayMenuHandledOSX.SetBelong(this.GetValue());
 				}
 				return r_PdisplayMenuHandledOSX;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MDisplayMenuIfEventMatches_EventBase_IEventHandler == null)
 				{
 					r_MDisplayMenuIfEventMatches_EventBase_IEventHandler = new(this, "DisplayMenuIfEventMatches", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.IEventHandler));
-					r_MDisplayMenuIfEventMatches_EventBase_IEventHandler.SetBelong(this.instance);
+					r_MDisplayMenuIfEventMatches_EventBase_IEventHandler.SetBelong(this.GetValue());
 				}
 				return r_MDisplayMenuIfEventMatches_EventBase_IEventHandler;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MDisplayMenu_EventBase_IEventHandler == null)
 				{
 					r_MDisplayMenu_EventBase_IEventHandler = new(this, "DisplayMenu", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.IEventHandler));
-					r_MDisplayMenu_EventBase_IEventHandler.SetBelong(this.instance);
+					r_MDisplayMenu_EventBase_IEventHandler.SetBelong(this.GetValue());
 				}
 				return r_MDisplayMenu_EventBase_IEventHandler;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MDoDisplayMenu_DropdownMenu_EventBase == null)
 				{
 					r_MDoDisplayMenu_DropdownMenu_EventBase = new(this, "DoDisplayMenu", 0, typeof(UnityEngine.UIElements.DropdownMenu), typeof(UnityEngine.UIElements.EventBase));
-					r_MDoDisplayMenu_DropdownMenu_EventBase.SetBelong(this.instance);
+					r_MDoDisplayMenu_DropdownMenu_EventBase.SetBelong(this.GetValue());
 				}
 				return r_MDoDisplayMenu_DropdownMenu_EventBase;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

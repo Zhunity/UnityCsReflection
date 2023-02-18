@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_MOnWindowCreated_WindowCreatedArgs == null)
 				{
 					r_MOnWindowCreated_WindowCreatedArgs = new(this, "OnWindowCreated", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.WindowCreatedArgs"));
-					r_MOnWindowCreated_WindowCreatedArgs.SetBelong(this.instance);
+					r_MOnWindowCreated_WindowCreatedArgs.SetBelong(this.GetValue());
 				}
 				return r_MOnWindowCreated_WindowCreatedArgs;
 			}

@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fdoc == null)
 				{
 					r_Fdoc = new(this, "doc");
-					r_Fdoc.SetBelong(this.instance);
+					r_Fdoc.SetBelong(this.GetValue());
 				}
 				return r_Fdoc;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fpoints == null)
 				{
 					r_Fpoints = new(this, "points");
-					r_Fpoints.SetBelong(this.instance);
+					r_Fpoints.SetBelong(this.GetValue());
 				}
 				return r_Fpoints;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fcount == null)
 				{
 					r_Fcount = new(this, "count");
-					r_Fcount.SetBelong(this.instance);
+					r_Fcount.SetBelong(this.GetValue());
 				}
 				return r_Fcount;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PDocument == null)
 				{
 					r_PDocument = new(this, "Document", -1);
-					r_PDocument.SetBelong(this.instance);
+					r_PDocument.SetBelong(this.GetValue());
 				}
 				return r_PDocument;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PStartLine == null)
 				{
 					r_PStartLine = new(this, "StartLine", -1);
-					r_PStartLine.SetBelong(this.instance);
+					r_PStartLine.SetBelong(this.GetValue());
 				}
 				return r_PStartLine;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PEndLine == null)
 				{
 					r_PEndLine = new(this, "EndLine", -1);
-					r_PEndLine.SetBelong(this.instance);
+					r_PEndLine.SetBelong(this.GetValue());
 				}
 				return r_PEndLine;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PStartColumn == null)
 				{
 					r_PStartColumn = new(this, "StartColumn", -1);
-					r_PStartColumn.SetBelong(this.instance);
+					r_PStartColumn.SetBelong(this.GetValue());
 				}
 				return r_PStartColumn;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PEndColumn == null)
 				{
 					r_PEndColumn = new(this, "EndColumn", -1);
-					r_PEndColumn.SetBelong(this.instance);
+					r_PEndColumn.SetBelong(this.GetValue());
 				}
 				return r_PEndColumn;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetOffsets == null)
 				{
 					r_MGetOffsets = new(this, "GetOffsets", 0);
-					r_MGetOffsets.SetBelong(this.instance);
+					r_MGetOffsets.SetBelong(this.GetValue());
 				}
 				return r_MGetOffsets;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetLines == null)
 				{
 					r_MGetLines = new(this, "GetLines", 0);
-					r_MGetLines.SetBelong(this.instance);
+					r_MGetLines.SetBelong(this.GetValue());
 				}
 				return r_MGetLines;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetColumns == null)
 				{
 					r_MGetColumns = new(this, "GetColumns", 0);
-					r_MGetColumns.SetBelong(this.instance);
+					r_MGetColumns.SetBelong(this.GetValue());
 				}
 				return r_MGetColumns;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetEndLines == null)
 				{
 					r_MGetEndLines = new(this, "GetEndLines", 0);
-					r_MGetEndLines.SetBelong(this.instance);
+					r_MGetEndLines.SetBelong(this.GetValue());
 				}
 				return r_MGetEndLines;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetEndColumns == null)
 				{
 					r_MGetEndColumns = new(this, "GetEndColumns", 0);
-					r_MGetEndColumns.SetBelong(this.instance);
+					r_MGetEndColumns.SetBelong(this.GetValue());
 				}
 				return r_MGetEndColumns;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MAddSequencePoint_Int32_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MAddSequencePoint_Int32_Int32_Int32_Int32_Int32 = new(this, "AddSequencePoint", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MAddSequencePoint_Int32_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MAddSequencePoint_Int32_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MAddSequencePoint_Int32_Int32_Int32_Int32_Int32;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -362,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

@@ -17,15 +17,11 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			var iter = packages.GetEnumerator();
 			while (iter.MoveNext())
 			{
-				Debug.Log("");
-				Debug.Log("");
 				RIPackage item = new RIPackage(iter.Value);
 				Debug.Log("RPdisplayName : " +item.RPdisplayName.Value + " RPpublisherName :  " + item.RPpublisherName.Value + " Key : " + iter.Key + " Value : " + iter.Value);
-				Debug.Log("");
-				Debug.Log("");
 
-				if(item.RPversions.instance == null)
-				break;
+				//if(item.RPversions.instance == null)
+				//break;
 			}
 		}
 	}

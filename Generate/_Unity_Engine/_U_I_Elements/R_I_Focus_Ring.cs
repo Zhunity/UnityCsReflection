@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetFocusChangeDirection_Focusable_EventBase == null)
 				{
 					r_MGetFocusChangeDirection_Focusable_EventBase = new(this, "GetFocusChangeDirection", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.EventBase));
-					r_MGetFocusChangeDirection_Focusable_EventBase.SetBelong(this.instance);
+					r_MGetFocusChangeDirection_Focusable_EventBase.SetBelong(this.GetValue());
 				}
 				return r_MGetFocusChangeDirection_Focusable_EventBase;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetNextFocusable_Focusable_FocusChangeDirection == null)
 				{
 					r_MGetNextFocusable_Focusable_FocusChangeDirection = new(this, "GetNextFocusable", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection));
-					r_MGetNextFocusable_Focusable_FocusChangeDirection.SetBelong(this.instance);
+					r_MGetNextFocusable_Focusable_FocusChangeDirection.SetBelong(this.GetValue());
 				}
 				return r_MGetNextFocusable_Focusable_FocusChangeDirection;
 			}

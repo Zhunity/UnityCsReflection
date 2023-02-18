@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MClose == null)
 				{
 					r_MClose = new(this, "Close", 0);
-					r_MClose.SetBelong(this.instance);
+					r_MClose.SetBelong(this.GetValue());
 				}
 				return r_MClose;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MCloseMethod == null)
 				{
 					r_MCloseMethod = new(this, "CloseMethod", 0);
-					r_MCloseMethod.SetBelong(this.instance);
+					r_MCloseMethod.SetBelong(this.GetValue());
 				}
 				return r_MCloseMethod;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MCloseNamespace == null)
 				{
 					r_MCloseNamespace = new(this, "CloseNamespace", 0);
-					r_MCloseNamespace.SetBelong(this.instance);
+					r_MCloseNamespace.SetBelong(this.GetValue());
 				}
 				return r_MCloseNamespace;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MCloseScope_Int32 == null)
 				{
 					r_MCloseScope_Int32 = new(this, "CloseScope", 0, typeof(System.Int32));
-					r_MCloseScope_Int32.SetBelong(this.instance);
+					r_MCloseScope_Int32.SetBelong(this.GetValue());
 				}
 				return r_MCloseScope_Int32;
 			}
@@ -90,7 +90,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MDefineDocument_String_Guid_Guid_Guid == null)
 				{
 					r_MDefineDocument_String_Guid_Guid_Guid = new(this, "DefineDocument", 0, typeof(System.String), typeof(System.Guid), typeof(System.Guid), typeof(System.Guid));
-					r_MDefineDocument_String_Guid_Guid_Guid.SetBelong(this.instance);
+					r_MDefineDocument_String_Guid_Guid_Guid.SetBelong(this.GetValue());
 				}
 				return r_MDefineDocument_String_Guid_Guid_Guid;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MDefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32 == null)
 				{
 					r_MDefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32 = new(this, "DefineField", 0, typeof(System.Diagnostics.SymbolStore.SymbolToken), typeof(System.String), typeof(System.Reflection.FieldAttributes), typeof(System.Byte).MakeArrayType(), typeof(System.Diagnostics.SymbolStore.SymAddressKind), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MDefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MDefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MDefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32 == null)
 				{
 					r_MDefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32 = new(this, "DefineGlobalVariable", 0, typeof(System.String), typeof(System.Reflection.FieldAttributes), typeof(System.Byte).MakeArrayType(), typeof(System.Diagnostics.SymbolStore.SymAddressKind), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MDefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MDefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MDefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MDefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32 = new(this, "DefineLocalVariable", 0, typeof(System.String), typeof(System.Reflection.FieldAttributes), typeof(System.Byte).MakeArrayType(), typeof(System.Diagnostics.SymbolStore.SymAddressKind), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MDefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MDefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MDefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32 == null)
 				{
 					r_MDefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32 = new(this, "DefineParameter", 0, typeof(System.String), typeof(System.Reflection.ParameterAttributes), typeof(System.Int32), typeof(System.Diagnostics.SymbolStore.SymAddressKind), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MDefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MDefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MDefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array == null)
 				{
 					r_MDefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array = new(this, "DefineSequencePoints", 0, typeof(System.Diagnostics.SymbolStore.ISymbolDocumentWriter), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType());
-					r_MDefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array.SetBelong(this.instance);
+					r_MDefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array.SetBelong(this.GetValue());
 				}
 				return r_MDefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MInitialize_IntPtr_String_Boolean == null)
 				{
 					r_MInitialize_IntPtr_String_Boolean = new(this, "Initialize", 0, typeof(System.IntPtr), typeof(System.String), typeof(System.Boolean));
-					r_MInitialize_IntPtr_String_Boolean.SetBelong(this.instance);
+					r_MInitialize_IntPtr_String_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MInitialize_IntPtr_String_Boolean;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MOpenMethod_SymbolToken == null)
 				{
 					r_MOpenMethod_SymbolToken = new(this, "OpenMethod", 0, typeof(System.Diagnostics.SymbolStore.SymbolToken));
-					r_MOpenMethod_SymbolToken.SetBelong(this.instance);
+					r_MOpenMethod_SymbolToken.SetBelong(this.GetValue());
 				}
 				return r_MOpenMethod_SymbolToken;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MOpenNamespace_String == null)
 				{
 					r_MOpenNamespace_String = new(this, "OpenNamespace", 0, typeof(System.String));
-					r_MOpenNamespace_String.SetBelong(this.instance);
+					r_MOpenNamespace_String.SetBelong(this.GetValue());
 				}
 				return r_MOpenNamespace_String;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MOpenScope_Int32 == null)
 				{
 					r_MOpenScope_Int32 = new(this, "OpenScope", 0, typeof(System.Int32));
-					r_MOpenScope_Int32.SetBelong(this.instance);
+					r_MOpenScope_Int32.SetBelong(this.GetValue());
 				}
 				return r_MOpenScope_Int32;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MSetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32 == null)
 				{
 					r_MSetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32 = new(this, "SetMethodSourceRange", 0, typeof(System.Diagnostics.SymbolStore.ISymbolDocumentWriter), typeof(System.Int32), typeof(System.Int32), typeof(System.Diagnostics.SymbolStore.ISymbolDocumentWriter), typeof(System.Int32), typeof(System.Int32));
-					r_MSetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32.SetBelong(this.instance);
+					r_MSetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MSetScopeRange_Int32_Int32_Int32 == null)
 				{
 					r_MSetScopeRange_Int32_Int32_Int32 = new(this, "SetScopeRange", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MSetScopeRange_Int32_Int32_Int32.SetBelong(this.instance);
+					r_MSetScopeRange_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MSetScopeRange_Int32_Int32_Int32;
 			}
@@ -294,7 +294,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MSetSymAttribute_SymbolToken_String_ByteArray == null)
 				{
 					r_MSetSymAttribute_SymbolToken_String_ByteArray = new(this, "SetSymAttribute", 0, typeof(System.Diagnostics.SymbolStore.SymbolToken), typeof(System.String), typeof(System.Byte).MakeArrayType());
-					r_MSetSymAttribute_SymbolToken_String_ByteArray.SetBelong(this.instance);
+					r_MSetSymAttribute_SymbolToken_String_ByteArray.SetBelong(this.GetValue());
 				}
 				return r_MSetSymAttribute_SymbolToken_String_ByteArray;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MSetUnderlyingWriter_IntPtr == null)
 				{
 					r_MSetUnderlyingWriter_IntPtr = new(this, "SetUnderlyingWriter", 0, typeof(System.IntPtr));
-					r_MSetUnderlyingWriter_IntPtr.SetBelong(this.instance);
+					r_MSetUnderlyingWriter_IntPtr.SetBelong(this.GetValue());
 				}
 				return r_MSetUnderlyingWriter_IntPtr;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MSetUserEntryPoint_SymbolToken == null)
 				{
 					r_MSetUserEntryPoint_SymbolToken = new(this, "SetUserEntryPoint", 0, typeof(System.Diagnostics.SymbolStore.SymbolToken));
-					r_MSetUserEntryPoint_SymbolToken.SetBelong(this.instance);
+					r_MSetUserEntryPoint_SymbolToken.SetBelong(this.GetValue());
 				}
 				return r_MSetUserEntryPoint_SymbolToken;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 				if(r_MUsingNamespace_String == null)
 				{
 					r_MUsingNamespace_String = new(this, "UsingNamespace", 0, typeof(System.String));
-					r_MUsingNamespace_String.SetBelong(this.instance);
+					r_MUsingNamespace_String.SetBelong(this.GetValue());
 				}
 				return r_MUsingNamespace_String;
 			}

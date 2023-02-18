@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MCopy == null)
 				{
 					r_MCopy = new(this, "Copy", 0);
-					r_MCopy.SetBelong(this.instance);
+					r_MCopy.SetBelong(this.GetValue());
 				}
 				return r_MCopy;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MCopyFrom_Ref_T == null)
 				{
 					r_MCopyFrom_Ref_T = new(this, "CopyFrom", 0, Type.MakeGenericMethodParameter(0).MakeByRefType());
-					r_MCopyFrom_Ref_T.SetBelong(this.instance);
+					r_MCopyFrom_Ref_T.SetBelong(this.GetValue());
 				}
 				return r_MCopyFrom_Ref_T;
 			}

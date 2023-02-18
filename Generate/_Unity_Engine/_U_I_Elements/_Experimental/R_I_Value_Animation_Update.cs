@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 				if(r_MTick_Int64 == null)
 				{
 					r_MTick_Int64 = new(this, "Tick", 0, typeof(System.Int64));
-					r_MTick_Int64.SetBelong(this.instance);
+					r_MTick_Int64.SetBelong(this.GetValue());
 				}
 				return r_MTick_Int64;
 			}

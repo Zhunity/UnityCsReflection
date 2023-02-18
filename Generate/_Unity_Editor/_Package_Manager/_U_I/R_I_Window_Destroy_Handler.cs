@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_MOnWindowDestroy_WindowDestroyArgs == null)
 				{
 					r_MOnWindowDestroy_WindowDestroyArgs = new(this, "OnWindowDestroy", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.WindowDestroyArgs"));
-					r_MOnWindowDestroy_WindowDestroyArgs.SetBelong(this.instance);
+					r_MOnWindowDestroy_WindowDestroyArgs.SetBelong(this.GetValue());
 				}
 				return r_MOnWindowDestroy_WindowDestroyArgs;
 			}

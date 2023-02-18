@@ -22,7 +22,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_F_array == null)
 				{
 					r_F_array = new(this, "_array");
-					r_F_array.SetBelong(this.instance);
+					r_F_array.SetBelong(this.GetValue());
 				}
 				return r_F_array;
 			}
@@ -39,7 +39,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_F_size == null)
 				{
 					r_F_size = new(this, "_size");
-					r_F_size.SetBelong(this.instance);
+					r_F_size.SetBelong(this.GetValue());
 				}
 				return r_F_size;
 			}
@@ -56,7 +56,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_F_version == null)
 				{
 					r_F_version = new(this, "_version");
-					r_F_version.SetBelong(this.instance);
+					r_F_version.SetBelong(this.GetValue());
 				}
 				return r_F_version;
 			}
@@ -73,7 +73,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_F_syncRoot == null)
 				{
 					r_F_syncRoot = new(this, "_syncRoot");
-					r_F_syncRoot.SetBelong(this.instance);
+					r_F_syncRoot.SetBelong(this.GetValue());
 				}
 				return r_F_syncRoot;
 			}
@@ -107,7 +107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_PCount == null)
 				{
 					r_PCount = new(this, "Count", -1);
-					r_PCount.SetBelong(this.instance);
+					r_PCount.SetBelong(this.GetValue());
 				}
 				return r_PCount;
 			}
@@ -124,7 +124,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_PIsSynchronized == null)
 				{
 					r_PIsSynchronized = new(this, "IsSynchronized", -1);
-					r_PIsSynchronized.SetBelong(this.instance);
+					r_PIsSynchronized.SetBelong(this.GetValue());
 				}
 				return r_PIsSynchronized;
 			}
@@ -141,7 +141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_PSyncRoot == null)
 				{
 					r_PSyncRoot = new(this, "SyncRoot", -1);
-					r_PSyncRoot.SetBelong(this.instance);
+					r_PSyncRoot.SetBelong(this.GetValue());
 				}
 				return r_PSyncRoot;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MClear == null)
 				{
 					r_MClear = new(this, "Clear", 0);
-					r_MClear.SetBelong(this.instance);
+					r_MClear.SetBelong(this.GetValue());
 				}
 				return r_MClear;
 			}
@@ -175,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MClone == null)
 				{
 					r_MClone = new(this, "Clone", 0);
-					r_MClone.SetBelong(this.instance);
+					r_MClone.SetBelong(this.GetValue());
 				}
 				return r_MClone;
 			}
@@ -192,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MContains_Object == null)
 				{
 					r_MContains_Object = new(this, "Contains", 0, typeof(System.Object));
-					r_MContains_Object.SetBelong(this.instance);
+					r_MContains_Object.SetBelong(this.GetValue());
 				}
 				return r_MContains_Object;
 			}
@@ -209,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MCopyTo_Array_Int32 == null)
 				{
 					r_MCopyTo_Array_Int32 = new(this, "CopyTo", 0, typeof(System.Array), typeof(System.Int32));
-					r_MCopyTo_Array_Int32.SetBelong(this.instance);
+					r_MCopyTo_Array_Int32.SetBelong(this.GetValue());
 				}
 				return r_MCopyTo_Array_Int32;
 			}
@@ -226,7 +226,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MGetEnumerator == null)
 				{
 					r_MGetEnumerator = new(this, "GetEnumerator", 0);
-					r_MGetEnumerator.SetBelong(this.instance);
+					r_MGetEnumerator.SetBelong(this.GetValue());
 				}
 				return r_MGetEnumerator;
 			}
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MPeek == null)
 				{
 					r_MPeek = new(this, "Peek", 0);
-					r_MPeek.SetBelong(this.instance);
+					r_MPeek.SetBelong(this.GetValue());
 				}
 				return r_MPeek;
 			}
@@ -260,7 +260,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MPop == null)
 				{
 					r_MPop = new(this, "Pop", 0);
-					r_MPop.SetBelong(this.instance);
+					r_MPop.SetBelong(this.GetValue());
 				}
 				return r_MPop;
 			}
@@ -277,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MPush_Object == null)
 				{
 					r_MPush_Object = new(this, "Push", 0, typeof(System.Object));
-					r_MPush_Object.SetBelong(this.instance);
+					r_MPush_Object.SetBelong(this.GetValue());
 				}
 				return r_MPush_Object;
 			}
@@ -311,7 +311,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MToArray == null)
 				{
 					r_MToArray = new(this, "ToArray", 0);
-					r_MToArray.SetBelong(this.instance);
+					r_MToArray.SetBelong(this.GetValue());
 				}
 				return r_MToArray;
 			}
@@ -328,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.instance);
+					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -345,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.instance);
+					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -362,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.instance);
+					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -379,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.instance);
+					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.instance);
+					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -413,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.instance);
+					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
